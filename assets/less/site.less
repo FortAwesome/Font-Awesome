@@ -1,10 +1,10 @@
 @import "tw-bs-201/bootstrap.less";
 @import "tw-bs-201/mixins.less";
 
-@import "site/mixins.less";
-@import "site/variables.less";
-@import "site/font-museo.less";
-@import "site/font-awesome.less";
+@import "mixins.less";
+@import "variables.less";
+@import "font-museo.less";
+@import "font-awesome.less";
 
 // These accomodate navbar-fixed-top
 #overview { padding-top: 60px; }
@@ -243,7 +243,17 @@ footer {
     color: @gray;
     margin-top: 20px;
     border-top: 1px solid @grayLighter;
-    margin-top: 40px;
+    margin-top: 60px;
     padding-top: 20px;
     padding-bottom: 60px;
+    ul {
+        margin-left: 30px;
+        li {
+            line-height: 25px;
+            &:before {
+                font-size: 20px;
+                vertical-align: top;
+            }
+        }
+    }
 }
