@@ -63,8 +63,19 @@ li[class*=" icon-"] {
     }
 }
 
-//.icon mixin, adds an icon to any css selector
-.icon(@type, @size: 1, @color: inherit, @margin: 0.2em) {
+//.icon base class to use with .icon-lite() mixin
+ .icon {
+    &:before {
+        font-family: FontAwesome;
+        font-weight: normal;
+        font-style: normal;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+    }
+}
+//.icon-full mixin, adds an icon to any css selector
+.icon-full(@type, @size: 1, @color: inherit, @margin: 0.2em) {
     &:before {
         font-family: FontAwesome;
         font-weight: normal;
@@ -74,6 +85,16 @@ li[class*=" icon-"] {
         vertical-align: middle;
         text-align: center;
         width: 1em;
+        margin-right: @margin;
+        content: @type;
+        font-size: @size * 1em;
+        line-height: 1em / @size;
+        color: @color;
+    }
+}
+//.icon-lite mixin, like .icon-full(), but less code and requires .icon class on all html elements that use it
+.icon-lite(@type, @size: 1, @color: inherit, @margin: 0.2em) {
+    &:before { 
         margin-right: @margin;
         content: @type;
         font-size: @size * 1em;
