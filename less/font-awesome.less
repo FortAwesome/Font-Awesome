@@ -63,6 +63,25 @@ li[class*=" icon-"] {
     }
 }
 
+//.icon mixin, adds an icon to any css selector
+.icon(@type, @size: 1, @color: inherit, @margin: 0.2em) {
+    &:before {
+        font-family: FontAwesome;
+        font-weight: normal;
+        font-style: normal;
+        display: inline-block;
+        line-height: 1em;
+        vertical-align: middle;
+        text-align: center;
+        width: 1em;
+        margin-right: @margin;
+        content: @type;
+        font-size: @size * 1em;
+        line-height: 1em / @size;
+        color: @color;
+    }
+}
+
 // Uses Unicode Private Use Area (PUA) to ensure screen readers do not read off
 // random characters that represent icons
 .icon-glass:before              { content: "\f000"; }
@@ -215,3 +234,157 @@ li[class*=" icon-"] {
 .icon-github-sign:before        { content: "\f092"; }
 .icon-upload-alt:before         { content: "\f093"; }
 .icon-lemon:before              { content: "\f094"; }
+
+
+//variables to use with the .icon() mixin.
+@icon-glass: "\f000";
+@icon-music: "\f001";
+@icon-search: "\f002";
+@icon-envelope: "\f003";
+@icon-heart: "\f004";
+@icon-star: "\f005";
+@icon-star-empty: "\f006";
+@icon-user: "\f007";
+@icon-film: "\f008";
+@icon-th-large: "\f009";
+@icon-th: "\f00a";
+@icon-th-list: "\f00b";
+@icon-ok: "\f00c";
+@icon-remove: "\f00d";
+@icon-zoom-in: "\f00e";
+
+@icon-zoom-out: "\f010";
+@icon-off: "\f011";
+@icon-signal: "\f012";
+@icon-cog: "\f013";
+@icon-trash: "\f014";
+@icon-home: "\f015";
+@icon-file: "\f016";
+@icon-time: "\f017";
+@icon-road: "\f018";
+@icon-download-alt: "\f019";
+@icon-download: "\f01a";
+@icon-upload: "\f01b";
+@icon-inbox: "\f01c";
+@icon-play-circle: "\f01d";
+@icon-repeat: "\f01e";
+
+// \f020 is not a valid unicode character. all shifted one down
+@icon-refresh: "\f021";
+@icon-list-alt: "\f022";
+@icon-lock: "\f023";
+@icon-flag: "\f024";
+@icon-headphones: "\f025";
+@icon-volume-off: "\f026";
+@icon-volume-down: "\f027";
+@icon-volume-up: "\f028";
+@icon-qrcode: "\f029";
+@icon-barcode: "\f02a";
+@icon-tag: "\f02b";
+@icon-tags: "\f02c";
+@icon-book: "\f02d";
+@icon-bookmark: "\f02e";
+@icon-print: "\f02f";
+
+@icon-camera: "\f030";
+@icon-font: "\f031";
+@icon-bold: "\f032";
+@icon-italic: "\f033";
+@icon-text-height: "\f034";
+@icon-text-width: "\f035";
+@icon-align-left: "\f036";
+@icon-align-center: "\f037";
+@icon-align-right: "\f038";
+@icon-align-justify: "\f039";
+@icon-list: "\f03a";
+@icon-indent-left: "\f03b";
+@icon-indent-right: "\f03c";
+@icon-facetime-video: "\f03d";
+@icon-picture: "\f03e";
+
+@icon-pencil: "\f040";
+@icon-map-marker: "\f041";
+@icon-adjust: "\f042";
+@icon-tint: "\f043";
+@icon-edit: "\f044";
+@icon-share: "\f045";
+@icon-check: "\f046";
+@icon-move: "\f047";
+@icon-step-backward: "\f048";
+@icon-fast-backward: "\f049";
+@icon-backward: "\f04a";
+@icon-play: "\f04b";
+@icon-pause: "\f04c";
+@icon-stop: "\f04d";
+@icon-forward: "\f04e";
+
+@icon-fast-forward: "\f050";
+@icon-step-forward: "\f051";
+@icon-eject: "\f052";
+@icon-chevron-left: "\f053";
+@icon-chevron-right: "\f054";
+@icon-plus-sign: "\f055";
+@icon-minus-sign: "\f056";
+@icon-remove-sign: "\f057";
+@icon-ok-sign: "\f058";
+@icon-question-sign: "\f059";
+@icon-info-sign: "\f05a";
+@icon-screenshot: "\f05b";
+@icon-remove-circle: "\f05c";
+@icon-ok-circle: "\f05d";
+@icon-ban-circle: "\f05e";
+
+@icon-arrow-left: "\f060";
+@icon-arrow-right: "\f061";
+@icon-arrow-up: "\f062";
+@icon-arrow-down: "\f063";
+@icon-share-alt: "\f064";
+@icon-resize-full: "\f065";
+@icon-resize-small: "\f066";
+@icon-plus: "\f067";
+@icon-minus: "\f068";
+@icon-asterisk: "\f069";
+@icon-exclamation-sign: "\f06a";
+@icon-gift: "\f06b";
+@icon-leaf: "\f06c";
+@icon-fire: "\f06d";
+@icon-eye-open: "\f06e";
+
+@icon-eye-close: "\f070";
+@icon-warning-sign: "\f071";
+@icon-plane: "\f072";
+@icon-calendar: "\f073";
+@icon-random: "\f074";
+@icon-comment: "\f075";
+@icon-magnet: "\f076";
+@icon-chevron-up: "\f077";
+@icon-chevron-down: "\f078";
+@icon-retweet: "\f079";
+@icon-shopping-cart: "\f07a";
+@icon-folder-close: "\f07b";
+@icon-folder-open: "\f07c";
+@icon-resize-vertical: "\f07d";
+@icon-resize-horizontal: "\f07e";
+
+@icon-bar-chart: "\f080";
+@icon-twitter-sign: "\f081";
+@icon-facebook-sign: "\f082";
+@icon-camera-retro: "\f083";
+@icon-key: "\f084";
+@icon-cogs: "\f085";
+@icon-comments: "\f086";
+@icon-thumbs-up: "\f087";
+@icon-thumbs-down: "\f088";
+@icon-star-half: "\f089";
+@icon-heart-empty: "\f08a";
+@icon-signout: "\f08b";
+@icon-linkedin-sign: "\f08c";
+@icon-pushpin: "\f08d";
+@icon-external-link: "\f08e";
+
+@icon-signin: "\f090";
+@icon-trophy: "\f091";
+@icon-github-sign: "\f092";
+@icon-upload-alt: "\f093";
+@icon-lemon: "\f094";
+
