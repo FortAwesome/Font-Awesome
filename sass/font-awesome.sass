@@ -1,13 +1,48 @@
-@import compass/css3/font-face
+/*  Font Awesome
+ *    the iconic font designed for use with Twitter Bootstrap
+ *    -------------------------------------------------------
+ *    The full suite of pictographic icons, examples, and documentation
+ *    can be found at: http://fortawesome.github.com/Font-Awesome/
+ *
+ *    License
+ *    -------------------------------------------------------
+ *    The Font Awesome webfont, CSS, and LESS files are licensed under CC BY 3.0:
+ *    http://creativecommons.org/licenses/by/3.0/ A mention of
+ *    'Font Awesome - http://fortawesome.github.com/Font-Awesome' in human-readable
+ *    source code is considered acceptable attribution (most common on the web).
+ *    If human readable source code is not available to the end user, a mention in
+ *    an 'About' or 'Credits' screen is considered acceptable (most common in desktop
+ *    or mobile software).
+ *
+ *    Contact
+ *    -------------------------------------------------------
+ *    Email: dave@davegandy.com
+ *    Twitter: http://twitter.com/fortaweso_me
+ *    Work: http://lemonwi.se co-founder
 
+@import compass/css3/font-face
 $font_path: "../font/fontawesome-webfont" !default
 
 +font-face("FontAwesome", font-files("#{$font_path}.woff", woff, "#{$font_path}.ttf", truetype, "#{$font_path}.otf", opentype, "#{$font_path}.svgz#FontAwesomeRegular", svg, "#{$font_path}.svg#FontAwesomeRegular", svg), "#{$font_path}.eot", normal, normal)
 
-// ICONS
-// Glyphs and icons for buttons, nav, and more
-// -------------------------------------------
-// Font Awesome courtesy of Dave Gandy at fortaweso.me/font-awesome
+// sprites.less reset
+[class^="icon-"],
+[class*=" icon-"]
+  display: inline
+  width: auto
+  height: auto
+  line-height: inherit
+  vertical-align: baseline
+  background-image: none
+  background-position: 0% 0%
+  background-repeat: repeat
+
+li[class^="icon-"],
+li[class*=" icon-"]
+  display: block
+
+/*  Font Awesome styles
+ *  -------------------------------------------------------
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before
@@ -15,17 +50,23 @@ $font_path: "../font/fontawesome-webfont" !default
   font-weight: normal
   font-style: normal
   display: inline-block
+  text-decoration: inherit
+
+a [class^="icon-"],
+a [class*=" icon-"]
+  display: inline-block
+  text-decoration: inherit
 
 // makes the font 33% larger relative to the icon container
 .icon-large:before
-  //    display: inline-block;
+  vertical-align: top
   font-size: 4 / 3em
 
 .btn
   [class^="icon-"],
   [class*=" icon-"]
+    /* keeps button heights with and without icons the same
     line-height: .9em
-    // keeps button heights with and without icons the same
 
 li
   [class^="icon-"],
@@ -35,8 +76,8 @@ li
     text-align: center
   .icon-large[class^="icon-"],
   .icon-large[class*=" icon-"]
-    width: 1.5 * 1.25em
     // 1.5 increased font size for icon-large * 1.25 width
+    width: 1.5 * 1.25em
 
 li[class^="icon-"],
 li[class*=" icon-"]
@@ -48,8 +89,8 @@ li[class*=" icon-"]
   &.icon-large:before
     text-indent: -4 / 3em
 
-// Uses Unicode Private Use Area (PUA) to ensure screen readers do not read off
-// random characters that represent icons
+/*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+ *  readers do not read off random characters that represent icons
 .icon-glass:before
   content: "\f000"
 
