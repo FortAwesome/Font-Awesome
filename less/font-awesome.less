@@ -1,3 +1,27 @@
+/*  Font Awesome
+    the iconic font designed for use with Twitter Bootstrap
+    -------------------------------------------------------
+    The full suite of pictographic icons, examples, and documentation
+    can be found at: http://fortawesome.github.com/Font-Awesome/
+
+    License
+    -------------------------------------------------------
+    The Font Awesome webfont, CSS, and LESS files are licensed under CC BY 3.0:
+    http://creativecommons.org/licenses/by/3.0/ A mention of
+    'Font Awesome - http://fortawesome.github.com/Font-Awesome' in human-readable
+    source code is considered acceptable attribution (most common on the web).
+    If human readable source code is not available to the end user, a mention in
+    an 'About' or 'Credits' screen is considered acceptable (most common in desktop
+    or mobile software).
+
+    Contact
+    -------------------------------------------------------
+    Email: dave@davegandy.com
+    Twitter: http://twitter.com/fortaweso_me
+    Work: http://lemonwi.se co-founder
+
+    */
+
 @font-face {
     font-family: 'FontAwesome';
     src: url('../font/fontawesome-webfont.eot');
@@ -10,29 +34,32 @@
     font-style: normal;
 }
 
-// ICONS
-// Glyphs and icons for buttons, nav, and more
-// -------------------------------------------
-// Font Awesome courtesy of Dave Gandy at fortaweso.me/font-awesome
-
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;
     display: inline-block;
+    text-decoration: inherit;
 }
 
-// makes the font 33% larger relative to the icon container
+a [class^="icon-"],
+a [class*=" icon-"] {
+    display: inline-block;
+    text-decoration: inherit;
+}
+
+/* makes the font 33% larger relative to the icon container */
 .icon-large:before {
-//    display: inline-block;
+    vertical-align: top;
     font-size: 4/3em;
 }
 
 .btn {
     [class^="icon-"],
     [class*=" icon-"] {
-    line-height: .9em; // keeps button heights with and without icons the same
+        /* keeps button heights with and without icons the same */
+        line-height: .9em;
     }
 }
 
@@ -45,7 +72,8 @@ li {
     }
     .icon-large[class^="icon-"],
     .icon-large[class*=" icon-"]  {
-        width: 1.5*1.25em; // 1.5 increased font size for icon-large * 1.25 width
+        /* 1.5 increased font size for icon-large * 1.25 width */
+        width: 1.5*1.25em;
     }
 }
 
@@ -63,8 +91,8 @@ li[class*=" icon-"] {
     }
 }
 
-// Uses Unicode Private Use Area (PUA) to ensure screen readers do not read off
-// random characters that represent icons
+/*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+    readers do not read off random characters that represent icons */
 .icon-glass:before              { content: "\f000"; }
 .icon-music:before              { content: "\f001"; }
 .icon-search:before             { content: "\f002"; }
