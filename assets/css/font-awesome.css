@@ -1,3 +1,26 @@
+/*  Font Awesome
+    the iconic font designed for use with Twitter Bootstrap
+    -------------------------------------------------------
+    The full suite of pictographic icons, examples, and documentation
+    can be found at: http://fortawesome.github.com/Font-Awesome/
+
+    License
+    -------------------------------------------------------
+    The Font Awesome webfont, CSS, and LESS files are licensed under CC BY 3.0:
+    http://creativecommons.org/licenses/by/3.0/ A mention of
+    'Font Awesome - http://fortawesome.github.com/Font-Awesome' in human-readable
+    source code is considered acceptable attribution (most common on the web).
+    If human readable source code is not available to the end user, a mention in
+    an 'About' or 'Credits' screen is considered acceptable (most common in desktop
+    or mobile software).
+
+    Contact
+    -------------------------------------------------------
+    Email: dave@davegandy.com
+    Twitter: http://twitter.com/fortaweso_me
+    Work: http://lemonwi.se co-founder
+
+    */
 @font-face {
   font-family: 'FontAwesome';
   src: url('../font/fontawesome-webfont.eot');
@@ -10,11 +33,20 @@
   font-weight: normal;
   font-style: normal;
   display: inline-block;
+  text-decoration: inherit;
 }
+a [class^="icon-"], a [class*=" icon-"] {
+  display: inline-block;
+  text-decoration: inherit;
+}
+/* makes the font 33% larger relative to the icon container */
 .icon-large:before {
+  vertical-align: top;
   font-size: 1.3333333333333333em;
 }
 .btn [class^="icon-"], .btn [class*=" icon-"] {
+  /* keeps button heights with and without icons the same */
+
   line-height: .9em;
 }
 li [class^="icon-"], li [class*=" icon-"] {
@@ -23,6 +55,8 @@ li [class^="icon-"], li [class*=" icon-"] {
   text-align: center;
 }
 li .icon-large[class^="icon-"], li .icon-large[class*=" icon-"] {
+  /* 1.5 increased font size for icon-large * 1.25 width */
+
   width: 1.875em;
 }
 li[class^="icon-"], li[class*=" icon-"] {
@@ -36,6 +70,8 @@ li[class^="icon-"]:before, li[class*=" icon-"]:before {
 li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
   text-indent: -1.3333333333333333em;
 }
+/*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+    readers do not read off random characters that represent icons */
 .icon-glass:before {
   content: "\f000";
 }

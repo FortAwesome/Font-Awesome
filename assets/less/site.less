@@ -44,11 +44,14 @@ h1, h2, h3, h4, h5, h6 { font-family: @baseHeaderFontFamily; }
     }
 }
 
-a[href^='http://']:after {
-    font-family: FontAwesome;
-    content: "\0020 \f08e";
-    &:hover {
-        text-decoration: none;
+a[href^='http://'] {
+    display: inline-block;
+    &:after {
+        font-family: FontAwesome;
+        content: "\0020 \f08e";
+        &:hover {
+            text-decoration: none;
+        }
     }
 }
 
@@ -115,10 +118,6 @@ a[href^='http://']:after {
         color: @grayDark;
     }
 }
-
-/*section {*/
-    /*margin: 30px 0;*/
-/*}*/
 
 .the-icons {
     li[class^="icon-"],
@@ -193,10 +192,7 @@ a[href^='http://']:after {
 
         span.star:hover:before, span.star:hover ~ span.star:before {
             content: "\f005"; // solid star
-            color: #c49c38;
-            #gradient > .vertical(#fffeb8, #c49c38);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #e3cf7a;
         }
     }
 }

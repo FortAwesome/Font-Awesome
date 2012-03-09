@@ -31,7 +31,7 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
-            <h3><a class="brand" href="#"><i class="icon-flag"> </i>Font Awesome</a></h3>
+            <h3><a class="brand" href="#"><i class="icon-flag"></i> Font Awesome</a></h3>
             <ul class="nav">
                 <li><a href="#overview">Overview</a></li>
                 <li><a href="#base-icons">Base Icons</a></li>
@@ -114,7 +114,7 @@
             </div>
             <div class="span4">
                 <h3><i class="icon-ok icon-large"></i> Broad compatibility</h3>
-                Wide @font-face support means Font Awesome even works in IE4 (<a href="http://www.fontsquirrel.com/fontface" target="_blank">no kidding</a>).
+                Wide @font-face support means Font Awesome works in <a href="#roadmap" rel="tooltip" data-original-title="IE7 support coming soon">modern browsers <i class="icon-info-sign"></i></a>.
             </div>
         </div>
         <div class="row">
@@ -716,8 +716,9 @@
         <h1>Roadmap</h1>
         <p>Here's the plan for future updates.</p>
         <ul>
+            <li class="icon-plus">Support for IE7.</li>
             <li class="icon-plus">Better hinting for smaller font sizes.</li>
-            <li class="icon-plus">More icons. Have any requests? <a href="https://github.com/FortAwesome/Font-Awesome/issues/new" target="_blank">Open an issue</a> in the Font Awesome GitHub project.</li>
+            <li class="icon-plus">More icons. Have any requests? <a href="https://github.com/FortAwesome/Font-Awesome/issues" target="_blank">Open an issue</a> in the Font Awesome GitHub project.</li>
             <li class="icon-plus">More complete Twitter Bootstrap compatibility.</li>
             <li class="icon-plus">Tricks and tips for super-awesome creative CSS methods, like the star example above.</li>
         </ul>
@@ -736,17 +737,19 @@
             <div class="span8">
                 <h2>License</h2>
                 The Font Awesome webfont, CSS, and LESS files are licensed under
-                <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
+                <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>.
                 A mention of <code>Font Awesome - http://fortawesome.github.com/Font-Awesome</code> in human-readable source code
                 is considered acceptable attribution (most common on the web). If human readable source code is not available to
                 the end user, a mention in an 'About' or 'Credits' screen is considered acceptable (most common in desktop or
                 mobile software).
             </div>
+            <div class="span12">
+                <h2>Special Thanks</h2>
+                Special thanks to <a href="http://twitter.com/robmadole/" target="_blank">@robmadole</a> and
+                <a href="http://twitter.com/supercodepoet/" target="_blank">@supercodepoet</a> for icon design
+                review, advice, and some backbone.js help.
+            </div>
         </div>
-
-
-
-
     </footer>
 
 
@@ -826,6 +829,12 @@
         $('#iconCarousel').carousel({
             interval: 5000
         });
+
+        // tooltips
+        $('#why').tooltip({
+            selector: "a[rel=tooltip]",
+            placement: 'bottom'
+        })
 
         // make code pretty
         window.prettyPrint && prettyPrint();
