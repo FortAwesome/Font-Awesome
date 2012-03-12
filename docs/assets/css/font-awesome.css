@@ -21,69 +21,70 @@
     Work: http://lemonwi.se co-founder
 
     */
-
 @font-face {
-    font-family: 'FontAwesome';
-    src: url('../font/fontawesome-webfont.eot');
-    src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('../font/fontawesome-webfont.woff') format('woff'), url('../font/fontawesome-webfont.ttf') format('truetype'), url('../font/fontawesome-webfont.svgz#FontAwesomeRegular') format('svg'), url('../font/fontawesome-webfont.svg#FontAwesomeRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'FontAwesome';
+  src: url('../font/fontawesome-webfont.eot');
+  src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('../font/fontawesome-webfont.woff') format('woff'), url('../font/fontawesome-webfont.ttf') format('truetype'), url('../font/fontawesome-webfont.svgz#FontAwesomeRegular') format('svg'), url('../font/fontawesome-webfont.svg#FontAwesomeRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 /* sprites.less reset */
 [class^="icon-"], [class*=" icon-"] {
-    display: inline;
-    width: auto;
-    height: auto;
-    line-height: inherit;
-    vertical-align: baseline;
-    background-image: none;
-    background-position: 0% 0%;
-    background-repeat: repeat;
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
 }
 li[class^="icon-"], li[class*=" icon-"] {
-    display: block;
+  display: block;
 }
 /*  Font Awesome styles
     ------------------------------------------------------- */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    display: inline-block;
-    text-decoration: inherit;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
 }
 a [class^="icon-"], a [class*=" icon-"] {
-    display: inline-block;
-    text-decoration: inherit;
+  display: inline-block;
+  text-decoration: inherit;
 }
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
-    vertical-align: top;
-    font-size: 1.3333333333333333em;
+  vertical-align: top;
+  font-size: 1.3333333333333333em;
 }
 .btn [class^="icon-"], .btn [class*=" icon-"] {
-    /* keeps button heights with and without icons the same */
-    line-height: .9em;
+  /* keeps button heights with and without icons the same */
+
+  line-height: .9em;
 }
 li [class^="icon-"], li [class*=" icon-"] {
-    display: inline-block;
-    width: 1.25em;
-    text-align: center;
+  display: inline-block;
+  width: 1.25em;
+  text-align: center;
 }
 li .icon-large[class^="icon-"], li .icon-large[class*=" icon-"] {
-    /* 1.5 increased font size for icon-large * 1.25 width */
-    width: 1.875em;
+  /* 1.5 increased font size for icon-large * 1.25 width */
+
+  width: 1.875em;
 }
 li[class^="icon-"], li[class*=" icon-"] {
-    margin-left: 0;
-    list-style-type: none;
+  margin-left: 0;
+  list-style-type: none;
 }
 li[class^="icon-"]:before, li[class*=" icon-"]:before {
-    text-indent: -2em;
-    text-align: center;
+  text-indent: -2em;
+  text-align: center;
 }
 li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
-    text-indent: -1.3333333333333333em;
+  text-indent: -1.3333333333333333em;
 }
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */

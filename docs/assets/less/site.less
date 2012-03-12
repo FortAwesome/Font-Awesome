@@ -1,0 +1,255 @@
+@import "tw-bs-201/bootstrap.less";
+@import "tw-bs-201/mixins.less";
+
+@import "mixins.less";
+@import "variables.less";
+@import "font-museo.less";
+@import "font-awesome.less";
+
+// These accomodate navbar-fixed-top
+#overview { padding-top: 60px; }
+#base-icons, #extended-icons, #examples, #integration, #code, #roadmap {
+    padding-top: 40px;
+}
+.navbar .brand { padding: 11px 20px 9px; }
+
+.navbar-inner { .border-radius(0); }
+
+.navbar .nav > li > a { padding: 12px 10px 9px; }
+
+h1, h2, h3, h4, h5, h6 { font-family: @baseHeaderFontFamily; }
+
+#iconCarousel {
+    a { color: @white; }
+    @size: 275px;
+    float: right;
+    width: @size * .9 + 8;
+    height: @size * .75;
+    margin-right: 10px;
+    margin-top: -20px;
+    font-size: @size;
+    text-align: center;
+    text-shadow: 2px 2px 3px @grayDarker;
+    .carousel-control {
+        top: @size + 5;
+        .square(23px);
+        border-width: 3px;
+        font-size: 17px;
+        line-height: 24px;
+        left: @size / 3 + 3;
+        &.right {
+            left: auto;
+            right: @size / 3 + 3;
+        }
+    }
+}
+
+a[href^='http://'] {
+    display: inline-block;
+    &:after {
+        font-family: FontAwesome;
+        content: "\0020 \f08e";
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.hero-unit {
+    background-color: @red;
+    &, h1 { color: @white; }
+    h1 {
+        font-size: 70px;
+        letter-spacing: -1px;
+        line-height: 1.2;
+    }
+    p {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 28px;
+        line-height: 34px;
+    }
+    text-shadow: 2px 2px 2px @grayDark;
+    ul {
+        margin-left: 50px;
+        li {
+            &.icon-large:before {
+                text-indent: -2em;
+                vertical-align: baseline;
+            }
+            font-size: 15px;
+            line-height: 30px;
+            text-shadow: 1px 1px 1px @grayDark;
+        }
+    }
+    a { color: #fffeb8; }
+    .btn-large {
+        .buttonBackground(@white, #bbb);
+        font-family: @baseHeaderFontFamily;
+        color: @grayDark;
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 13px 22px;
+        padding-left: 22px + 44;
+        margin-right: 10px;
+        .border-radius(6px);
+        position: relative;
+        text-align: left;
+        i  {
+            position: absolute;
+            top: 12px;
+            left: 22px;
+            font-size: 46px;
+        }
+    }
+    .hero-content {
+        width: 500px;
+        text-align: center;
+    }
+}
+
+.btn-primary, .hero-unit .btn-primary {
+    .buttonBackground(#fffeb8, #c49c38);
+    color: @grayDark;
+    text-shadow: 0 -1px 0 rgba(255,255,255,.25);
+    &:hover {
+        text-shadow: 0 -1px 0 rgba(255,255,255,.25);
+        color: @grayDark;
+    }
+}
+
+.the-icons {
+    li[class^="icon-"],
+    li[class*=" icon-"] {
+        cursor: pointer;
+        margin-top: -3px;
+        font-size: 14px;
+        line-height: 24px;
+        height: 24px;
+        &:after {
+            font-family: @baseFontFamily;
+            font-style: normal;
+            content: attr(class);
+        }
+        &:hover:before {
+            font-size: 24px;
+            text-indent: -4/3em;
+            vertical-align: middle;
+        }
+    }
+}
+
+#why {
+    .row {
+        margin-bottom: 20px;
+    }
+    .icon-large {
+        font-size: 22px;
+        text-align: center;
+        padding-right: 4px;
+    }
+}
+
+#examples {
+    .btn-toolbar {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+}
+
+#integration {
+    .row { margin-bottom: 40px; }
+}
+
+#examples, #code {
+    form {
+        margin-bottom: 10px;
+        input {
+            line-height: 1; // fixes a safari placeholder alignment issue
+        }
+    }
+
+    .rating {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+
+        font-size: 30px;
+        span.star {
+            font-family: FontAwesome;
+            font-weight: normal;
+            font-style: normal;
+            display: inline-block;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        span.star:before {
+            content: "\f006"; // empty star
+            padding-right: 5px;
+            color: @grayLight;
+        }
+
+        span.star:hover:before, span.star:hover ~ span.star:before {
+            content: "\f005"; // solid star
+            color: #e3cf7a;
+        }
+    }
+}
+
+
+.modal {
+    width: 560px;
+    max-height: 510px;
+    .modal-body {
+        padding-bottom: 0;
+        .row { margin-bottom: 15px; }
+        div.thumbnail {
+            text-align: center;
+            div { margin-bottom: 5px; }
+        }
+        .icon6 {
+            width: 325px;
+            > div.thumbnail > div { .icon-size(340px); }
+        }
+        .icon5 {
+            width: 185px;
+            > div.thumbnail > div { .icon-size(180px); }
+        }
+        .icon4 {
+            width: 215px;
+            > div.thumbnail > div { .icon-size(100px); }
+        }
+        .icon3 {
+            width: 120px;
+            > div.thumbnail > div { .icon-size(50px); }
+        }
+        .icon2 {
+            width: 75px;
+            > div.thumbnail > div { .icon-size(20px); }
+        }
+        .icon1 {
+            width: 60px;
+            > div.thumbnail > div { .icon-size(12px); }
+        }
+    }
+}
+
+footer {
+    color: @gray;
+    margin-top: 20px;
+    border-top: 1px solid @grayLighter;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    ul {
+        margin-left: 30px;
+        line-height: 25px;
+        li {
+            &:before {
+                font-size: 20px;
+                vertical-align: top;
+            }
+        }
+    }
+}
