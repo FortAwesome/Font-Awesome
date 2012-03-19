@@ -85,15 +85,23 @@
                 <div class="item"><div><i class="icon-flag"></i></div></div>
             </div>
             <!-- Carousel nav -->
-            <a class="carousel-control left" href="#iconCarousel" data-slide="prev"><i class="icon-arrow-left"></i></a>
-            <a class="carousel-control right" href="#iconCarousel" data-slide="next"><i class="icon-arrow-right"></i></a>
+            <a class="carousel-control left" href="#iconCarousel" data-slide="prev"
+               onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Prev']);">
+                <i class="icon-arrow-left"></i></a>
+            <a class="carousel-control right" href="#iconCarousel" data-slide="next"
+               onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Prev']);">
+                <i class="icon-arrow-right"></i></a>
         </div>
         <div class="hero-content">
             <h1>Font Awesome</h1>
             <p>The iconic font designed for use with Twitter Bootstrap</p>
             <div class="actions">
-                <a class="btn btn-primary btn-large" href="https://github.com/FortAwesome/Font-Awesome/zipball/master"><i class="icon-download"></i> Download<br>Font Awesome</a>
-                <a class="btn btn-large" href="https://github.com/FortAwesome/Font-Awesome"><i class="icon-github-sign"></i> View Project<br>on GitHub</a>
+                <a class="btn btn-primary btn-large" href="https://github.com/FortAwesome/Font-Awesome/zipball/master"
+                   onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
+                    <i class="icon-download"></i> Download<br>Font Awesome</a>
+                <a class="btn btn-large" href="https://github.com/FortAwesome/Font-Awesome"
+                   onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'View Project on GitHub']);">
+                    <i class="icon-github-sign"></i> View Project<br>on GitHub</a>
             </div>
         </div>
     </div>
