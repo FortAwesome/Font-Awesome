@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="900"
-   height="900"
+   width="32"
+   height="32"
    id="svg6044"
    version="1.1"
    inkscape:version="0.48.2 r9819"
@@ -55,12 +55,13 @@
   <g
      id="layer1"
      inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     transform="translate(0.0625,0.0625)">
-    <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.03897692px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="###INSERTGLYPH###"
-       id="path6054"
-       inkscape:connector-curvature="0" />
+     inkscape:groupmode="layer">
+    <g transform="scale(.035, -.035) translate(25, -800)">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.03897692px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="###INSERTGLYPH###"
+         id="path6054"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
 </svg>

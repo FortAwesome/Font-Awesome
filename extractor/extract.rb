@@ -33,12 +33,26 @@ while index < svg_lines.length
     index += 1
 end
 
-# icons.each_pair do |icon_name, icon_code|
-#     puts "#{icon_name}: #{glyphs[icon_code]}"
-# end
+write_svg = lambda { |requested_icon|
+    requested_glyph = glyphs[icons[requested_icon]]
+    if(requested_glyph == nil)
+        puts "Unknown glyph: #{requested_icon}"
+    else
+        blank_svg_content = File.open('empty.svg').read
+        output_svg = blank_svg_content.sub '###INSERTGLYPH###', requested_glyph
+        File.open("output/#{requested_icon}.svg", 'w') {|out_svg| out_svg.write(output_svg) }
+    end
+}
 
-requested_icon = ARGV[0]
-requested_glyph = glyphs[icons[requested_icon]]
-blank_svg_content = File.open('empty.svg').read
-output_svg = blank_svg_content.sub '###INSERTGLYPH###', requested_glyph
-File.open("#{requested_icon}.svg", 'w') {|out_svg| out_svg.write(output_svg) }
+if ARGV.length > 0
+    write_svg.call ARGV[0]
+else
+    viewer = File.open('output/index.html', 'w')
+    viewer.write '<html><body>'
+    icons.each_pair do |icon_name, icon_code|
+         write_svg.call icon_name
+         viewer.write "<p>#{icon_name}<br /><img src='#{icon_name}.svg'</p>"
+    end
+    viewer.write '</html></body>'
+    viewer.close
+end
