@@ -1,13 +1,8 @@
 icons = {}
 glyphs = {}
 
-sass_file = File.open('../sass/font-awesome.sass')
-sass_lines = sass_file.readlines
-sass_file.close
-
-svg_file = File.open('../font/fontawesome-webfont.svg')
-svg_lines = svg_file.readlines
-svg_file.close
+sass_lines = File.open('../sass/font-awesome.sass').readlines
+svg_lines = File.open('../font/fontawesome-webfont.svg').readlines
 
 index = 0
 while index < sass_lines.length
@@ -23,7 +18,6 @@ while index < sass_lines.length
     end
     index += 1
 end
-puts icons.length
 
 index = 0
 while index < svg_lines.length
@@ -32,13 +26,19 @@ while index < svg_lines.length
     if line.start_with? '<glyph unicode="&#x' and d_index != nil
         icon_code = line[19.. 22]
         start_index = d_index + 3
-        icon_glyph = line[start_index .. line.length - 4]
+        icon_glyph = line[start_index .. line.length - 6]
         glyphs[icon_code] = icon_glyph
-        puts "#{icon_code}: "
+        #puts "#{icon_code}: '#{icon_glyph}'"
     end
     index += 1
 end
 
-icons.each_pair do |icon_name, icon_code|
-    puts "#{icon_name}: #{glyphs[icon_code]}"
-end
+# icons.each_pair do |icon_name, icon_code|
+#     puts "#{icon_name}: #{glyphs[icon_code]}"
+# end
+
+requested_icon = ARGV[0]
+requested_glyph = glyphs[icons[requested_icon]]
+blank_svg_content = File.open('empty.svg').read
+output_svg = blank_svg_content.sub '###INSERTGLYPH###', requested_glyph
+File.open("#{requested_icon}.svg", 'w') {|out_svg| out_svg.write(output_svg) }

@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="32"
-   height="32"
+   width="900"
+   height="900"
    id="svg6044"
    version="1.1"
    inkscape:version="0.48.2 r9819"
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11"
-     inkscape:cx="14.519665"
-     inkscape:cy="17.277308"
+     inkscape:zoom="0.12153398"
+     inkscape:cx="-785.06398"
+     inkscape:cy="-68.264027"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:document-units="px"
@@ -35,7 +35,11 @@
      inkscape:window-height="627"
      inkscape:window-x="1616"
      inkscape:window-y="258"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata6049">
     <rdf:RDF>
@@ -52,9 +56,9 @@
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     transform="translate(0,-31.999983)">
+     transform="translate(0.0625,0.0625)">
     <path
-       style="fill:#000000;stroke:#000000;stroke-width:0.03897692000000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.03897692px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="###INSERTGLYPH###"
        id="path6054"
        inkscape:connector-curvature="0" />
