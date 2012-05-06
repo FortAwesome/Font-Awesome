@@ -7,7 +7,7 @@ Designer    : Dave Gandy
 Foundry     : Fort Awesome
 </metadata>
 <defs>
-<font id="FontAwesomeRegular" horiz-adv-x="900" >
+<font id="FontAwesome" horiz-adv-x="900" >
 <font-face units-per-em="1000" ascent="750" descent="-250" />
 <missing-glyph horiz-adv-x="250" />
 <glyph unicode="&#xd;" horiz-adv-x="250" />
