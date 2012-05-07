@@ -56,7 +56,7 @@
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer">
-    <g transform="scale(.035, -.035) translate(25, -800)">
+    <g transform="scale(.035, -.035) translate(5, -800)">
       <path
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.03897692px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="###INSERTGLYPH###"

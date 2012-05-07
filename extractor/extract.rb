@@ -51,7 +51,7 @@ else
     viewer.write '<html><body>'
     icons.each_pair do |icon_name, icon_code|
          write_svg.call icon_name
-         viewer.write "<p>#{icon_name}<br /><img src='#{icon_name}.svg'</p>"
+         viewer.write "<p>#{icon_name}<br /><img src='#{icon_name}.svg' width='100' height='100'></p>"
     end
     viewer.write '</html></body>'
     viewer.close
