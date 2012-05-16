@@ -10,6 +10,7 @@
 .installed.cfg
 
 .idea/*
+.svn/*
 src/website/static/*
 src/website/media/*
 
