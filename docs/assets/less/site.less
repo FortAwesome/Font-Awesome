@@ -1,5 +1,5 @@
-@import "tw-bs-201/bootstrap.less";
-@import "tw-bs-201/mixins.less";
+@import "twbs-203/bootstrap.less";
+@import "twbs-203/mixins.less";
 
 @import "mixins.less";
 @import "variables.less";
@@ -11,7 +11,10 @@
 #new-icons, #base-icons, #extended-icons, #examples, #integration, #code, #roadmap {
     padding-top: 40px;
 }
-.navbar .brand { padding: 11px 20px 9px; }
+.navbar .brand {
+  padding: 11px 20px 9px;
+  color: @white;
+}
 
 .navbar-inner { .border-radius(0); }
 
@@ -98,7 +101,7 @@ a[href^='http://'] {
         text-align: left;
         i  {
             position: absolute;
-            top: 12px;
+            top: 13px;
             left: 22px;
             font-size: 46px;
         }
@@ -249,11 +252,5 @@ footer {
     ul {
         margin-left: 30px;
         line-height: 25px;
-        li {
-            &:before {
-                font-size: 20px;
-                vertical-align: top;
-            }
-        }
     }
 }
