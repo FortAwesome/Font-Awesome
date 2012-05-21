@@ -18,48 +18,38 @@
  *    -------------------------------------------------------
  *    Email: dave@davegandy.com
  *    Twitter: http://twitter.com/fortaweso_me
- *    Work: http://lemonwi.se co-founder
+ *    Work: Lead Product Designer @ http://kyruus.com
 
 @import compass/css3/font-face
-$font_path: "../font/fontawesome-webfont" !default
 
-+font-face("FontAwesome", font-files("#{$font_path}.woff", woff, "#{$font_path}.ttf", truetype, "#{$font_path}.otf", opentype, "#{$font_path}.svgz#FontAwesomeRegular", svg, "#{$font_path}.svg#FontAwesomeRegular", svg), "#{$font_path}.eot", normal, normal)
+$font_path: "fontawesome-webfont" !default
 
-// sprites.less reset
-[class^="icon-"],
-[class*=" icon-"]
-  display: inline
-  width: auto
-  height: auto
-  line-height: inherit
-  vertical-align: baseline
-  background-image: none
-  background-position: 0% 0%
-  background-repeat: repeat
-
-li[class^="icon-"],
-li[class*=" icon-"]
-  display: block
++font-face("FontAwesome", font-files("#{$font_path}.woff", "#{$font_path}.ttf", "#{$font_path}.svg#FontAwesomeRegular"), "#{$font_path}.eot", normal, normal)
 
 /*  Font Awesome styles
  *  -------------------------------------------------------
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before
-  font-family: FontAwesome
-  font-weight: normal
-  font-style: normal
-  display: inline-block
-  text-decoration: inherit
+[class^="icon-"],
+[class*=" icon-"]
+  background: none
+  width: auto
+  line-height: 1
+  
+  &:before
+    font-family: FontAwesome
+    font-weight: normal
+    font-style: normal
+    display: inline-block
+    text-decoration: inherit
 
 a [class^="icon-"],
 a [class*=" icon-"]
   display: inline-block
   text-decoration: inherit
 
-// makes the font 33% larger relative to the icon container
+/* makes the font 33% larger relative to the icon container
 .icon-large:before
-  vertical-align: top
+  vertical-align: middle
   font-size: 4 / 3em
 
 .btn
@@ -76,7 +66,7 @@ li
     text-align: center
   .icon-large[class^="icon-"],
   .icon-large[class*=" icon-"]
-    // 1.5 increased font size for icon-large * 1.25 width
+    /* 1.5 increased font size for icon-large * 1.25 width
     width: 1.5 * 1.25em
 
 li[class^="icon-"],
@@ -181,7 +171,7 @@ li[class*=" icon-"]
 .icon-repeat:before
   content: "\f01e"
 
-/* \f020 is not a valid unicode character. all shifted one down */
+/* \f020 is not a valid unicode character. all shifted one down
 .icon-refresh:before
   content: "\f021"
 
@@ -511,3 +501,192 @@ li[class*=" icon-"]
 
 .icon-lemon:before
   content: "\f094"
+
+.icon-phone:before
+  content: "\f095"
+
+.icon-check-empty:before
+  content: "\f096"
+
+.icon-bookmark-empty:before
+  content: "\f097"
+
+.icon-phone-sign:before
+  content: "\f098"
+
+.icon-twitter:before
+  content: "\f099"
+
+.icon-facebook:before
+  content: "\f09a"
+
+.icon-github:before
+  content: "\f09b"
+
+.icon-unlock:before
+  content: "\f09c"
+
+.icon-credit-card:before
+  content: "\f09d"
+
+.icon-rss:before
+  content: "\f09e"
+
+.icon-hdd:before
+  content: "\f0a0"
+
+.icon-bullhorn:before
+  content: "\f0a1"
+
+.icon-bell:before
+  content: "\f0a2"
+
+.icon-certificate:before
+  content: "\f0a3"
+
+.icon-hand-right:before
+  content: "\f0a4"
+
+.icon-hand-left:before
+  content: "\f0a5"
+
+.icon-hand-up:before
+  content: "\f0a6"
+
+.icon-hand-down:before
+  content: "\f0a7"
+
+.icon-circle-arrow-left:before
+  content: "\f0a8"
+
+.icon-circle-arrow-right:before
+  content: "\f0a9"
+
+.icon-circle-arrow-up:before
+  content: "\f0aa"
+
+.icon-circle-arrow-down:before
+  content: "\f0ab"
+
+.icon-globe:before
+  content: "\f0ac"
+
+.icon-wrench:before
+  content: "\f0ad"
+
+.icon-tasks:before
+  content: "\f0ae"
+
+.icon-filter:before
+  content: "\f0b0"
+
+.icon-briefcase:before
+  content: "\f0b1"
+
+.icon-fullscreen:before
+  content: "\f0b2"
+
+.icon-group:before
+  content: "\f0c0"
+
+.icon-link:before
+  content: "\f0c1"
+
+.icon-cloud:before
+  content: "\f0c2"
+
+.icon-beaker:before
+  content: "\f0c3"
+
+.icon-cut:before
+  content: "\f0c4"
+
+.icon-copy:before
+  content: "\f0c5"
+
+.icon-paper-clip:before
+  content: "\f0c6"
+
+.icon-save:before
+  content: "\f0c7"
+
+.icon-sign-blank:before
+  content: "\f0c8"
+
+.icon-reorder:before
+  content: "\f0c9"
+
+.icon-ul:before
+  content: "\f0ca"
+
+.icon-ol:before
+  content: "\f0cb"
+
+.icon-strikethrough:before
+  content: "\f0cc"
+
+.icon-underline:before
+  content: "\f0cd"
+
+.icon-table:before
+  content: "\f0ce"
+
+.icon-magic:before
+  content: "\f0d0"
+
+.icon-truck:before
+  content: "\f0d1"
+
+.icon-pinterest:before
+  content: "\f0d2"
+
+.icon-pinterest-sign:before
+  content: "\f0d3"
+
+.icon-google-plus-sign:before
+  content: "\f0d4"
+
+.icon-google-plus:before
+  content: "\f0d5"
+
+.icon-money:before
+  content: "\f0d6"
+
+.icon-caret-down:before
+  content: "\f0d7"
+
+.icon-caret-up:before
+  content: "\f0d8"
+
+.icon-caret-left:before
+  content: "\f0d9"
+
+.icon-caret-right:before
+  content: "\f0da"
+
+.icon-columns:before
+  content: "\f0db"
+
+.icon-sort:before
+  content: "\f0dc"
+
+.icon-sort-down:before
+  content: "\f0dd"
+
+.icon-sort-up:before
+  content: "\f0de"
+
+.icon-user-md:before
+  content: "\f200"
+
+.icon-chart-pie-one-third:before
+  content: "\f201"
+
+.icon-chart-pie-two-thirds:before
+  content: "\f202"
+
+.icon-chart-pie-full:before
+  content: "\f203"
+
+.icon-chart-pie-empty:before
+  content: "\f204"
