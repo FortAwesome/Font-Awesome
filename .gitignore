@@ -8,6 +8,7 @@
 .coverage
 .DS_Store
 .installed.cfg
+.sass-cache
 
 .idea/*
 .svn/*
