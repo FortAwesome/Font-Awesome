@@ -29,13 +29,18 @@ $font_path: "fontawesome-webfont" !default
 /*  Font Awesome styles
  *  -------------------------------------------------------
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before
-  font-family: FontAwesome
-  font-weight: normal
-  font-style: normal
-  display: inline-block
-  text-decoration: inherit
+[class^="icon-"],
+[class*=" icon-"]
+  background: none
+  width: auto
+  line-height: 1
+  
+  &:before
+    font-family: FontAwesome
+    font-weight: normal
+    font-style: normal
+    display: inline-block
+    text-decoration: inherit
 
 a [class^="icon-"],
 a [class*=" icon-"]
