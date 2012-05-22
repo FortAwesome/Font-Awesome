@@ -5,7 +5,7 @@ $(function() {
         modalTemplate: _.template($("#modal-template").html()),
 
         events:{
-            "click ul.ficons > li": "iconClicked"
+            "click ul.the-icons > li": "iconClicked"
         },
 
         iconClicked: function(event) {

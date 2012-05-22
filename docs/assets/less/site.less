@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
     .square(23px);
     border-width: 3px;
     font-size: 17px;
-    line-height: 24px;
+    line-height: 28px;
     left: @size / 3 + 3;
     &.right {
       left: auto;
@@ -57,6 +57,8 @@ a[href^='http://'] {
 }
 
 .hero-unit {
+  .border-radius(20px);
+//  #gradient > .radial( lighten(@red, 10%), @red);
   background-color: @red;
   &, h1 { color: @white; }
   h1 {
@@ -74,7 +76,7 @@ a[href^='http://'] {
   ul {
     margin-left: 50px;
     li {
-      &.ficon-large:before {
+      &.icon-large:before {
         text-indent: -2em;
         vertical-align: baseline;
       }
@@ -125,32 +127,29 @@ a[href^='http://'] {
   }
 }
 
-#base-icons, #extended-icons, #new-icons {
-  ul.ficons {
-//    color: @linkColor;
-    > li {
-      cursor: pointer;
-      font-size: 14px;
-      line-height: 30px;
-      height: 30px;
+.the-icons {
+  list-style-type: none;
+  margin-left: 0;
+  li {
+    cursor: pointer;
+    line-height: 42px;
+    height: 42px;
+    padding-left: 12px;
+    .border-radius(12px);
 
-      i[class^="ficon-"],
-      i[class*=" ficon-"] {
-//        color: @black;
-        font-size: 16px;
-      }
-      &:hover {
-        background-color: #f5f5f5;
-//        color: @errorText;
-//        text-decoration: underline;
+    [class^="icon-"],
+    [class*=" icon-"] {
+      width: 32px;
+      font-size: 16px;
+    }
+    &:hover {
+      background-color: lighten(@errorBackground, 6%);
+      [class^="icon-"], [class*=" icon-"] { *font-size: 24px; *vertical-align: middle; }
 
-        i[class^="ficon-"]:before,
-        i[class*=" ficon-"]:before {
-          font-size: 24px;
-          text-indent: -4px;
-          vertical-align: middle;
-//          text-decoration: underline;
-        }
+      [class^="icon-"]:before,
+      [class*=" icon-"]:before {
+        font-size: 24px;
+        vertical-align: middle;
       }
     }
   }
@@ -160,7 +159,7 @@ a[href^='http://'] {
   .row {
     margin-bottom: 20px;
   }
-  .ficon-large {
+  .icon-large {
     font-size: 22px;
     text-align: center;
     padding-right: 4px;
@@ -228,27 +227,27 @@ a[href^='http://'] {
     }
     .icon6 {
       width: 325px;
-      > div.thumbnail > div { .ficon-size(340px); }
+      > div.thumbnail > div { .icon-size(340px); }
     }
     .icon5 {
       width: 185px;
-      > div.thumbnail > div { .ficon-size(180px); }
+      > div.thumbnail > div { .icon-size(180px); }
     }
     .icon4 {
       width: 215px;
-      > div.thumbnail > div { .ficon-size(100px); }
+      > div.thumbnail > div { .icon-size(100px); }
     }
     .icon3 {
       width: 120px;
-      > div.thumbnail > div { .ficon-size(50px); }
+      > div.thumbnail > div { .icon-size(50px); }
     }
     .icon2 {
       width: 75px;
-      > div.thumbnail > div { .ficon-size(20px); }
+      > div.thumbnail > div { .icon-size(20px); }
     }
     .icon1 {
       width: 60px;
-      > div.thumbnail > div { .ficon-size(12px); }
+      > div.thumbnail > div { .icon-size(12px); }
     }
   }
 }
