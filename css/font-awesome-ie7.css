@@ -5,6 +5,11 @@
     font-weight: normal;
 }
 
+.btn.dropdown-toggle [class^="icon-"], .btn.dropdown-toggle [class*=" icon-"] {
+    /* keeps button heights with and without icons the same */
+    line-height: 1.4em;
+}
+
 .icon-large {
     font-size: 1.3333em;
 }
