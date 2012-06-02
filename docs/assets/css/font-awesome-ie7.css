@@ -204,8 +204,8 @@
 .icon-save                 { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0c7;&nbsp;'); }
 .icon-sign-blank           { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0c8;&nbsp;'); }
 .icon-reorder              { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0c9;&nbsp;'); }
-.icon-ul                   { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0ca;&nbsp;'); }
-.icon-ol                   { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0cb;&nbsp;'); }
+.icon-list-ul              { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0ca;&nbsp;'); }
+.icon-list-ol              { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0cb;&nbsp;'); }
 .icon-strikethrough        { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0cc;&nbsp;'); }
 .icon-underline            { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0cd;&nbsp;'); }
 .icon-table                { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0ce;&nbsp;'); }
@@ -226,8 +226,15 @@
 .icon-sort-down            { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0dd;&nbsp;'); }
 .icon-sort-up              { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0de;&nbsp;'); }
 
+.icon-envelope-alt         { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0e0;&nbsp;'); }
+.icon-linkedin             { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0e1;&nbsp;'); }
+.icon-undo                 { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0e2;&nbsp;'); }
+.icon-legal                { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0e3;&nbsp;'); }
+.icon-dashboard            { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0e4;&nbsp;'); }
+.icon-comment-alt          { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0e5;&nbsp;'); }
+.icon-comments-alt         { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0e6;&nbsp;'); }
+.icon-bolt                 { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0e7;&nbsp;'); }
+.icon-sitemap              { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0e8;&nbsp;'); }
+.icon-umbrella             { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0e9;&nbsp;'); }
+
 .icon-user-md              { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf200;&nbsp;'); }
-.icon-chart-pie-one-third  { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf201;&nbsp;'); }
-.icon-chart-pie-two-thirds { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf202;&nbsp;'); }
-.icon-chart-pie-full       { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf203;&nbsp;'); }
-.icon-chart-pie-empty      { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf204;&nbsp;'); }

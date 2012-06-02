@@ -3807,7 +3807,9 @@ a [class*=" icon-"] {
   font-size: 1.3333333333333333em;
 }
 .btn [class^="icon-"],
-.btn [class*=" icon-"] {
+.nav-tabs [class^="icon-"],
+.btn [class*=" icon-"],
+.nav-tabs [class*=" icon-"] {
   /* keeps button heights with and without icons the same */
 
   line-height: .9em;
@@ -4376,10 +4378,10 @@ ul.icons li .icon-large:before {
 .icon-reorder:before {
   content: "\f0c9";
 }
-.icon-ul:before {
+.icon-list-ul:before {
   content: "\f0ca";
 }
-.icon-ol:before {
+.icon-list-ol:before {
   content: "\f0cb";
 }
 .icon-strikethrough:before {
@@ -4436,27 +4438,44 @@ ul.icons li .icon-large:before {
 .icon-sort-up:before {
   content: "\f0de";
 }
+.icon-envelope-alt:before {
+  content: "\f0e0";
+}
+.icon-linkedin:before {
+  content: "\f0e1";
+}
+.icon-undo:before {
+  content: "\f0e2";
+}
+.icon-legal:before {
+  content: "\f0e3";
+}
+.icon-dashboard:before {
+  content: "\f0e4";
+}
+.icon-comment-alt:before {
+  content: "\f0e5";
+}
+.icon-comments-alt:before {
+  content: "\f0e6";
+}
+.icon-bolt:before {
+  content: "\f0e7";
+}
+.icon-sitemap:before {
+  content: "\f0e8";
+}
+.icon-umbrella:before {
+  content: "\f0e9";
+}
 .icon-user-md:before {
   content: "\f200";
-}
-.icon-chart-pie-one-third:before {
-  content: "\f201";
-}
-.icon-chart-pie-two-thirds:before {
-  content: "\f202";
-}
-.icon-chart-pie-full:before {
-  content: "\f203";
-}
-.icon-chart-pie-empty:before {
-  content: "\f204";
 }
 #overview {
   padding-top: 60px;
 }
 #new-icons,
-#base-icons,
-#extended-icons,
+#all-icons,
 #examples,
 #integration,
 #code,

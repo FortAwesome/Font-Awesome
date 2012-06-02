@@ -12,7 +12,7 @@ $(function() {
             event.preventDefault();
 
             var $item = $(event.currentTarget);
-            var $modal = $(this.modalTemplate({"style": $item.find("i").attr("class")}));
+            var $modal = $(this.modalTemplate({"iconName": $item.find("i").attr("class")}));
 
             $modal.modal("show");
             $modal.on('hidden', function () {
