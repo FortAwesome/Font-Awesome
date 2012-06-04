@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
   a { color: @white; }
   @size: 275px;
   float: right;
-  width: @size * .9 + 8;
+  width: @size * .9 + 20;
   height: @size * .75;
   margin-right: 10px;
   margin-top: -20px;
@@ -155,6 +155,12 @@ a[href^='http://'] {
   }
 }
 
+#all-icons, #new-icons {
+  h3 {
+    margin-top: 10px;
+  }
+}
+
 #why {
   .row {
     margin-bottom: 20px;
@@ -179,7 +185,7 @@ a[href^='http://'] {
 
 #examples, #code {
   form {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     input {
       line-height: 1; // fixes a safari placeholder alignment issue
     }
@@ -215,7 +221,7 @@ a[href^='http://'] {
 
 .modal {
   width: 560px;
-  max-height: 520px;
+  max-height: 600px;
   .modal-body {
     *overflow: hidden; // ie7 fix
     max-height: none;

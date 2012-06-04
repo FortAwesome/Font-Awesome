@@ -4468,6 +4468,9 @@ ul.icons li .icon-large:before {
 .icon-umbrella:before {
   content: "\f0e9";
 }
+.icon-paste:before {
+  content: "\f0ea";
+}
 .icon-user-md:before {
   content: "\f200";
 }
@@ -4504,7 +4507,7 @@ h6 {
 }
 #iconCarousel {
   float: right;
-  width: 255.5px;
+  width: 267.5px;
   height: 206.25px;
   margin-right: 10px;
   margin-top: -20px;
@@ -4702,6 +4705,10 @@ a[href^='http://']:after:hover {
   font-size: 24px;
   vertical-align: middle;
 }
+#all-icons h3,
+#new-icons h3 {
+  margin-top: 10px;
+}
 #why .row {
   margin-bottom: 20px;
 }
@@ -4719,7 +4726,7 @@ a[href^='http://']:after:hover {
 }
 #examples form,
 #code form {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 #examples form input,
 #code form input {
@@ -4757,7 +4764,7 @@ a[href^='http://']:after:hover {
 }
 .modal {
   width: 560px;
-  max-height: 520px;
+  max-height: 600px;
 }
 .modal .modal-body {
   *overflow: hidden;
@@ -4778,7 +4785,7 @@ a[href^='http://']:after:hover {
 }
 .modal .modal-body .icon6 > div.thumbnail > div {
   line-height: 340px;
-  height: 272px;
+  height: 323px;
   text-align: center;
 }
 .modal .modal-body .icon6 > div.thumbnail > div i {
@@ -4789,7 +4796,7 @@ a[href^='http://']:after:hover {
 }
 .modal .modal-body .icon5 > div.thumbnail > div {
   line-height: 180px;
-  height: 144px;
+  height: 171px;
   text-align: center;
 }
 .modal .modal-body .icon5 > div.thumbnail > div i {
@@ -4800,7 +4807,7 @@ a[href^='http://']:after:hover {
 }
 .modal .modal-body .icon4 > div.thumbnail > div {
   line-height: 100px;
-  height: 80px;
+  height: 95px;
   text-align: center;
 }
 .modal .modal-body .icon4 > div.thumbnail > div i {
@@ -4811,7 +4818,7 @@ a[href^='http://']:after:hover {
 }
 .modal .modal-body .icon3 > div.thumbnail > div {
   line-height: 50px;
-  height: 40px;
+  height: 47.5px;
   text-align: center;
 }
 .modal .modal-body .icon3 > div.thumbnail > div i {
@@ -4822,7 +4829,7 @@ a[href^='http://']:after:hover {
 }
 .modal .modal-body .icon2 > div.thumbnail > div {
   line-height: 20px;
-  height: 16px;
+  height: 19px;
   text-align: center;
 }
 .modal .modal-body .icon2 > div.thumbnail > div i {
@@ -4833,7 +4840,7 @@ a[href^='http://']:after:hover {
 }
 .modal .modal-body .icon1 > div.thumbnail > div {
   line-height: 12px;
-  height: 9.600000000000001px;
+  height: 11.399999999999999px;
   text-align: center;
 }
 .modal .modal-body .icon1 > div.thumbnail > div i {

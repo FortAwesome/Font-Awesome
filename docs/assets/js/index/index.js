@@ -1,25 +1,49 @@
 $(function() {
-    var MainView = Backbone.View.extend({
-        el: $("div.container"),
+  var firstInHistory = true;
 
-        modalTemplate: _.template($("#modal-template").html()),
+  var MainView = Backbone.View.extend({
+    el: $("div.container"),
 
-        events:{
-            "click ul.the-icons > li": "iconClicked"
-        },
+    modalTemplate: _.template($("#modal-template").html()),
 
-        iconClicked: function(event) {
-            event.preventDefault();
+    events:{
+      "click ul.the-icons > li": "iconClicked"
+    },
 
-            var $item = $(event.currentTarget);
-            var $modal = $(this.modalTemplate({"iconName": $item.find("i").attr("class")}));
+    iconClicked: function(event) {
+      event.preventDefault();
 
-            $modal.modal("show");
-            $modal.on('hidden', function () {
-                $modal.remove();
-            })
+      var $item = $(event.currentTarget);
+      var $iconName = $item.find("i").attr("class");
+
+      mainRouter.navigate("icon/" + $iconName, {trigger: true});
+      firstInHistory = false;
+    }
+  });
+
+
+  var MainRouter = Backbone.Router.extend({
+    routes: {
+      "icon/:iconName": "showIcon"
+    },
+
+    showIcon: function(iconName) {
+      var $modal = $(mainView.modalTemplate({"iconName": iconName}));
+
+      $modal.modal("show");
+      $modal.on('hidden', function () {
+        $modal.remove();
+        if (firstInHistory) {
+          mainRouter.navigate("/", {trigger: false});
+          firstInHistory = false;
+        } else {
+          window.history.back();
         }
-    });
+      })
+    }
+  });
 
-    var mainView = new MainView();
+  var mainView = new MainView();
+  var mainRouter = new MainRouter();
+  Backbone.history.start({pushState : false});
 });

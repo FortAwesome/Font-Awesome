@@ -236,5 +236,6 @@
 .icon-bolt                 { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0e7;&nbsp;'); }
 .icon-sitemap              { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0e8;&nbsp;'); }
 .icon-umbrella             { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0e9;&nbsp;'); }
+.icon-paste                { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf0ea;&nbsp;'); }
 
 .icon-user-md              { *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = '&#xf200;&nbsp;'); }
