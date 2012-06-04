@@ -4669,14 +4669,14 @@ h6 {
   color: #333333;
 }
 #social-buttons {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   text-align: center;
 }
 #social-buttons .btn {
   font-family: museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 14px;
-  padding: 3px 10px 0;
+  padding: 4px 10px 1px;
   line-height: 21px;
 }
 #social-buttons .count.btn {
