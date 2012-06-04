@@ -38,25 +38,26 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
     border-width: 3px;
     font-size: 17px;
     line-height: 28px;
-    left: @size / 3 + 3;
+    left: @size / 3 + 9;
     &.right {
       left: auto;
-      right: @size / 3 + 3;
+      right: @size / 3 + 9;
     }
   }
 }
 
-a[href^='http://'] {
-  &:after {
-    font-family: FontAwesome;
-    content: "\0020 \f08e";
-    &:hover {
-      text-decoration: none;
-    }
-  }
-}
+//a[href^='http://'] {
+//  &:after {
+//    font-family: FontAwesome;
+//    content: "\0020 \f08e";
+//    &:hover {
+//      text-decoration: none;
+//    }
+//  }
+//}
 
 .hero-unit {
+  margin-bottom: 20px;
   .border-radius(20px);
 //  #gradient > .radial( lighten(@red, 10%), @red);
   background-color: @red;
@@ -126,6 +127,27 @@ a[href^='http://'] {
     color: @grayDark;
   }
 }
+
+#social-buttons {
+  margin-bottom: 25px;
+  text-align: center;
+  .btn {
+    font-family: @serifFontFamily;
+    font-weight: bold;
+    font-size: @baseFontSize;
+    padding: 3px 10px 0;
+    line-height: @baseLineHeight;
+  }
+  .count.btn {
+    font-family: @sansFontFamily;
+    font-weight: normal;
+    .buttonBackground(@white, @white);
+  }
+  .watch, .fork {
+    margin-right: 30px;
+  }
+}
+
 
 .the-icons {
   list-style-type: none;
@@ -257,6 +279,12 @@ a[href^='http://'] {
     }
   }
 }
+
+.label,
+.badge {
+  background-color: @grayLighter;
+}
+
 
 footer {
   color: @gray;
