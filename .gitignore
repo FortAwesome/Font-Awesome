@@ -23,6 +23,7 @@ downloads
 eggs
 parts
 tmp
+.sass-cache
 
 src/website/settingslocal.py
 stunnel.log
