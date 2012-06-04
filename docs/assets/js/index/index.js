@@ -24,7 +24,16 @@ $(function() {
 
   var MainRouter = Backbone.Router.extend({
     routes: {
+      "": "checkModal",
       "icon/:iconName": "showIcon"
+    },
+
+    checkModal: function() {
+      var $modal = $("div.modal");
+      
+      if ($modal.length > 0) {
+        $modal.modal("hide");
+      }
     },
 
     showIcon: function(iconName) {
