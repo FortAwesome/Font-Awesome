@@ -3820,8 +3820,7 @@ li [class*=" icon-"] {
   width: 1.25em;
   text-align: center;
 }
-li .icon-large:before,
-li .icon-large:before {
+li .icon-large {
   /* 1.5 increased font size for icon-large * 1.25 width */
 
   width: 1.875em;
@@ -3835,8 +3834,7 @@ ul.icons li [class^="icon-"],
 ul.icons li [class*=" icon-"] {
   width: .8em;
 }
-ul.icons li .icon-large:before,
-ul.icons li .icon-large:before {
+ul.icons li .icon-large {
   /* 1.5 increased font size for icon-large * 1.25 width */
 
   vertical-align: initial;
