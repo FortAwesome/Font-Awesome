@@ -1,4 +1,34 @@
 $(function() {
+  // start the icon carousel
+  $('#iconCarousel').carousel({
+    interval: 5000
+  });
+
+  // make code pretty
+  window.prettyPrint && prettyPrint();
+
+  // inject twitter & github counts
+  $.ajax({
+    url: 'http://api.twitter.com/1/users/show.json',
+    data: {screen_name: 'fortaweso_me'},
+    dataType: 'jsonp',
+    success: function(data) {
+      $('#followers').html(data.followers_count);
+    }
+  });
+  $.ajax({
+    url: 'http://github.com/api/v2/json/repos/show/FortAwesome/Font-Awesome',
+    dataType: 'jsonp',
+    success: function(data) {
+      $('#watchers').html(data.repository.watchers);
+      $('#forks').html(data.repository.forks);
+    }
+  });
+
+
+
+
+
   var firstInHistory = true;
 
   var MainView = Backbone.View.extend({
@@ -24,7 +54,16 @@ $(function() {
 
   var MainRouter = Backbone.Router.extend({
     routes: {
+      "": "checkModal",
       "icon/:iconName": "showIcon"
+    },
+
+    checkModal: function() {
+      var $modal = $("div.modal");
+      
+      if ($modal.length > 0) {
+        $modal.modal("hide");
+      }
     },
 
     showIcon: function(iconName) {

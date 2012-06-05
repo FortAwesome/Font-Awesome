@@ -4525,20 +4525,14 @@ h6 {
   border-width: 3px;
   font-size: 17px;
   line-height: 28px;
-  left: 94.66666666666667px;
+  left: 100.66666666666667px;
 }
 #iconCarousel .carousel-control.right {
   left: auto;
-  right: 94.66666666666667px;
-}
-a[href^='http://']:after {
-  font-family: FontAwesome;
-  content: "\0020 \f08e";
-}
-a[href^='http://']:after:hover {
-  text-decoration: none;
+  right: 100.66666666666667px;
 }
 .hero-unit {
+  margin-bottom: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -4673,6 +4667,52 @@ a[href^='http://']:after:hover {
 .hero-unit .btn-primary:hover {
   text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
   color: #333333;
+}
+#social-buttons {
+  margin-bottom: 30px;
+  text-align: center;
+}
+#social-buttons .btn {
+  font-family: museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 4px 10px 1px;
+  line-height: 21px;
+}
+#social-buttons .count.btn {
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  background-color: #ffffff;
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(top, #ffffff, #ffffff);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+  border-color: #ffffff #ffffff #d9d9d9;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #ffffff;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+#social-buttons .count.btn:hover,
+#social-buttons .count.btn:active,
+#social-buttons .count.btn.active,
+#social-buttons .count.btn.disabled,
+#social-buttons .count.btn[disabled] {
+  background-color: #ffffff;
+  *background-color: #f2f2f2;
+}
+#social-buttons .count.btn:active,
+#social-buttons .count.btn.active {
+  background-color: #e6e6e6 \9;
+}
+#social-buttons .watch,
+#social-buttons .fork {
+  margin-right: 30px;
 }
 .the-icons {
   list-style-type: none;
@@ -4845,6 +4885,10 @@ a[href^='http://']:after:hover {
 }
 .modal .modal-body .icon1 > div.thumbnail > div i {
   font-size: 12px;
+}
+.label,
+.badge {
+  background-color: #eeeeee;
 }
 footer {
   color: #555555;

@@ -58,9 +58,9 @@
       <div class="active item"><div><i class="icon-flag"></i></div></div>
       <div class="item"><div><i class="icon-magic"></i></div></div>
       <div class="item"><div><i class="icon-beaker"></i></div></div>
+      <div class="item"><div><i class="icon-briefcase"></i></div></div>
       <div class="item"><div><i class="icon-bullhorn"></i></div></div>
       <div class="item"><div><i class="icon-umbrella"></i></div></div>
-      <div class="item"><div><i class="icon-cut"></i></div></div>
       <div class="item"><div><i class="icon-star-empty"></i></div></div>
       <div class="item"><div><i class="icon-envelope"></i></div></div>
       <div class="item"><div><i class="icon-leaf"></i></div></div>
@@ -85,38 +85,53 @@
     <p>The iconic font designed for use with Twitter Bootstrap</p>
     <div class="actions">
       <a class="btn btn-primary btn-large" href="https://github.com/FortAwesome/Font-Awesome/zipball/master"><i class="icon-download"></i>Download Font<br>Awesome v2.0</a>
-      <a class="btn btn-large btn-github" href="https://github.com/FortAwesome/Font-Awesome"><i class="icon-github"></i>View Project<br>on GitHub</a>
+      <a class="btn btn-large btn-github" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"><i class="icon-github"></i>View Project<br>on GitHub</a>
     </div>
   </div>
 </div>
 
+<section id="social-buttons">
+  <span class="watch">
+    <a class="btn" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"><i class="icon-github"></i> Watch</a>
+    <a id="watchers" class="count btn" href="https://github.com/FortAwesome/Font-Awesome">3900+</a>
+  </span>
+  <span class="fork">
+    <a class="btn" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"><i class="icon-github"></i> Fork</a>
+    <a id="forks" class="count btn" href="#">200+</a>
+  </span>
+  <span class="follow">
+    <a class="btn" href="http://twitter.com/fortaweso_me/" target="_blank"><i class="icon-twitter"></i> Follow @fortaweso_me</a>
+    <span class="arrow-right"></span><span id="followers" class="count btn">1000+</span>
+  </span>
+</section>
+
 <section id="why">
   <div class="row">
     <div class="span4">
-      <h3><i class="icon-bullhorn icon-large"></i> 70 New Icons in v2.0</h3>
+      <h3><i class="icon-bullhorn icon-large"></i> Desktop Font + Vectors</h3>
+      The full desktop font and a pdf of vectors are now included. Happy designing.
+    </div>
+    <div class="span4">
+      <h3><i class="icon-beaker icon-large"></i> 70 New Icons in v2.0</h3>
       All requested by our active community on the <a href="https://github.com/FortAwesome/Font-Awesome" target="_blank">Font Awesome GitHub project</a>.
     </div>
     <div class="span4">
       <h3><i class="icon-ok icon-large"></i> IE7 Support</h3>
       Font Awesome v2.0 now even supports IE7. If you need it, you have my condolences.
     </div>
+  </div>
+  <div class="row">
     <div class="span4">
       <h3><i class="icon-flag icon-large"></i> One font, 220 icons</h3>
       In a single collection, Font Awesome is a pictographic language of web-related actions.
     </div>
-  </div>
-  <div class="row">
     <div class="span4">
       <h3><i class="icon-gift icon-large"></i> Free for commercial use</h3>
       The Font Awesome webfont and CSS libraries are completely free for commercial use.
     </div>
     <div class="span4">
-      <h3><i class="icon-pencil icon-large"></i> CSS control</h3>
-      Easily style icon color, size, shadow, and anything that's possible with CSS.
-    </div>
-    <div class="span4">
-      <h3><i class="icon-resize-full icon-large"></i> Infinite scalability</h3>
-      Scalable vector graphics means icons look awesome at any size.
+      <h3><i class="icon-search icon-large"></i> Screen reader compatible</h3>
+      Font Awesome won't trip up screen readers, unlike most icon fonts.
     </div>
   </div>
   <div class="row">
@@ -125,12 +140,12 @@
       Designed from scratch to be fully backwards compatible with <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap 2.0</a>.
     </div>
     <div class="span4">
-      <h3><i class="icon-search icon-large"></i> Screen reader compatible</h3>
-      Font Awesome won't trip up screen readers, unlike most icon fonts.
+      <h3><i class="icon-pencil icon-large"></i> CSS control</h3>
+      Easily style icon color, size, shadow, and anything that's possible with CSS.
     </div>
     <div class="span4">
-      <h3><i class="icon-twitter icon-large"></i> Follow on Twitter</h3>
-      Follow <a href="http://twitter.com/fortaweso_me/" target="_blank">@fortaweso_me</a> on Twitter for icon updates and styling tricks.
+      <h3><i class="icon-resize-full icon-large"></i> Infinite scalability</h3>
+      Scalable vector graphics means icons look awesome at any size.
     </div>
   </div>
 </section>
@@ -1048,21 +1063,5 @@
 <script src="assets/js/tw-bs-201/bootstrap-typeahead.js"></script>
 <script src="assets/js/index/index.js"></script>
 
-<script type="text/javascript">
-  $(function(){
-    $('#iconCarousel').carousel({
-      interval: 5000
-    });
-
-    // tooltips
-    $('#why').tooltip({
-      selector: "a[rel=tooltip]",
-      placement: 'bottom'
-    })
-
-    // make code pretty
-    window.prettyPrint && prettyPrint();
-  });
-</script>
 </body>
 </html>
