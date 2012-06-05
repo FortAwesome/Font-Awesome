@@ -18,65 +18,74 @@
     -------------------------------------------------------
     Email: dave@davegandy.com
     Twitter: http://twitter.com/fortaweso_me
-    Work: Lead Product Designer @ http://kyruus.com
+    Work: http://lemonwi.se co-founder
 
     */
 @font-face {
-  font-family: "FontAwesome";
-  src: url('/stylesheets/fonts/../font/fontawesome-webfont.eot');
+  font-family: 'FontAwesome';
+  src: url('../font/fontawesome-webfont.eot');
   src: url('/stylesheets/fonts/../font/fontawesome-webfont.eot?#iefix') format('eot'), url('/stylesheets/fonts/../font/fontawesome-webfont.woff') format('woff'), url('/stylesheets/fonts/../font/fontawesome-webfont.ttf') format('truetype'), url('/stylesheets/fonts/../font/fontawesome-webfont.otf') format('opentype'), url('/stylesheets/fonts/../font/fontawesome-webfont.svg#FontAwesome') format('svg');
   font-weight: normal;
-  font-style: normal; }
-
+  font-style: normal;
+}
+/* sprites.less reset */
+[class^="icon-"], [class*=" icon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+}
+li[class^="icon-"], li[class*=" icon-"] {
+  display: block;
+}
 /*  Font Awesome styles
     ------------------------------------------------------- */
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
+[class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
   display: inline-block;
-  text-decoration: inherit; }
-
-a [class^="icon-"],
-a [class*=" icon-"] {
+  text-decoration: inherit;
+}
+a [class^="icon-"], a [class*=" icon-"] {
   display: inline-block;
-  text-decoration: inherit; }
-
+  text-decoration: inherit;
+}
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
-  vertical-align: middle;
-  font-size: 4/3em; }
-
-.btn [class^="icon-"],
-.btn [class*=" icon-"], .nav-tabs [class^="icon-"], .nav-tabs [class*=" icon-"] {
+  vertical-align: top;
+  font-size: 1.3333333333333333em;
+}
+.btn [class^="icon-"], .btn [class*=" icon-"] {
   /* keeps button heights with and without icons the same */
-  line-height: .9em; }
 
-li [class^="icon-"],
-li [class*=" icon-"] {
+  line-height: .9em;
+}
+li [class^="icon-"], li [class*=" icon-"] {
   display: inline-block;
   width: 1.25em;
-  text-align: center; }
-li .icon-large:before,
-li .icon-large:before {
+  text-align: center;
+}
+li .icon-large[class^="icon-"], li .icon-large[class*=" icon-"] {
   /* 1.5 increased font size for icon-large * 1.25 width */
-  width: 1.875em; }
 
-ul.icons {
+  width: 1.875em;
+}
+li[class^="icon-"], li[class*=" icon-"] {
+  margin-left: 0;
   list-style-type: none;
-  margin-left: 2em;
-  text-indent: -0.8em; }
-  ul.icons li [class^="icon-"],
-  ul.icons li [class*=" icon-"] {
-    width: .8em; }
-  ul.icons li .icon-large:before,
-  ul.icons li .icon-large:before {
-    /* 1.5 increased font size for icon-large * 1.25 width */
-    vertical-align: initial; }
-
-/*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-    readers do not read off random characters that represent icons */
+}
+li[class^="icon-"]:before, li[class*=" icon-"]:before {
+  text-indent: -2em;
+  text-align: center;
+}
+li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
+  text-indent: -1.3333333333333333em;
+}
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */
 .icon-glass:before                { content: "\f000"; }
