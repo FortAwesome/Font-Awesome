@@ -17,11 +17,11 @@ $(function() {
     }
   });
   $.ajax({
-    url: 'http://github.com/api/v2/json/repos/show/FortAwesome/Font-Awesome',
+    url: 'https://api.github.com/repos/fortawesome/Font-Awesome',
     dataType: 'jsonp',
     success: function(data) {
-      $('#watchers').html(data.repository.watchers);
-      $('#forks').html(data.repository.forks);
+      $('#watchers').html(data.data.watchers);
+      $('#forks').html(data.data.forks);
     }
   });
 
@@ -45,6 +45,7 @@ $(function() {
 
       var $item = $(event.currentTarget);
       var $iconName = $item.find("i").attr("class");
+      _gaq.push(['_trackEvent', 'iconClick', $iconName]);
 
       mainRouter.navigate("icon/" + $iconName, {trigger: true});
       firstInHistory = false;

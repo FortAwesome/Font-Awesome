@@ -24,6 +24,18 @@
 <![endif]-->
   <!-- Le fav and touch icons -->
   <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30136587-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 </head>
 <body>
 
@@ -77,15 +89,23 @@
       <div class="item"><div><i class="icon-flag"></i></div></div>
     </div>
     <!-- Carousel nav -->
-    <a class="carousel-control left" href="#iconCarousel" data-slide="prev"><i class="icon-arrow-left"></i></a>
-    <a class="carousel-control right" href="#iconCarousel" data-slide="next"><i class="icon-arrow-right"></i></a>
+    <a class="carousel-control left" href="#iconCarousel" data-slide="prev"
+        onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Prev']);">
+      <i class="icon-arrow-left"></i></a>
+    <a class="carousel-control right" href="#iconCarousel" data-slide="next"
+        onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Next']);">
+      <i class="icon-arrow-right"></i></a>
   </div>
   <div class="hero-content">
     <h1>Font Awesome</h1>
     <p>The iconic font designed for use with Twitter Bootstrap</p>
     <div class="actions">
-      <a class="btn btn-primary btn-large" href="https://github.com/FortAwesome/Font-Awesome/zipball/master"><i class="icon-download"></i>Download Font<br>Awesome v2.0</a>
-      <a class="btn btn-large btn-github" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"><i class="icon-github"></i>View Project<br>on GitHub</a>
+      <a class="btn btn-primary btn-large" href="https://github.com/FortAwesome/Font-Awesome/zipball/master"
+          onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
+        <i class="icon-download"></i>Download Font<br>Awesome v2.0</a>
+      <a class="btn btn-large btn-github" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"
+          onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'View Project on GitHub']);">
+        <i class="icon-github"></i>View Project<br>on GitHub</a>
     </div>
   </div>
 </div>
@@ -871,11 +891,11 @@
     <p>Easily replace individual bullets.</p>
 <pre class="prettyprint linenums">
 &lt;ul class="icons"&gt;
-  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;i&gt; Lists&lt;/li&gt;
-  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;i&gt; Buttons&lt;/li&gt;
-  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;i&gt; Button groups&lt;/li&gt;
-  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;i&gt; Navigation&lt;/li&gt;
-  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;i&gt; Prepended form inputs&lt;/li&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Lists&lt;/li&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Buttons&lt;/li&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Button groups&lt;/li&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Navigation&lt;/li&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Prepended form inputs&lt;/li&gt;
 &lt;/ul&gt;
 </pre>
   </div>
