@@ -28,20 +28,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* sprites.less reset */
-[class^="icon-"], [class*=" icon-"] {
-  display: inline;
-  width: auto;
-  height: auto;
-  line-height: inherit;
-  vertical-align: baseline;
-  background-image: none;
-  background-position: 0% 0%;
-  background-repeat: repeat;
-}
-li[class^="icon-"], li[class*=" icon-"] {
-  display: block;
-}
+
 /*  Font Awesome styles
     ------------------------------------------------------- */
 [class^="icon-"]:before, [class*=" icon-"]:before {
