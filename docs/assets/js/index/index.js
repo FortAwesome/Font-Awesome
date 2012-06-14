@@ -22,12 +22,7 @@ $(function() {
     success: function(data) {
       $('#watchers').html(data.data.watchers);
       $('#forks').html(data.data.forks);
-    },
-    error:function(xhr, ajaxOptions, thrownError) {
-      console.log(xhr);
-      console.log(thrownError);
     }
-
   });
 
 
