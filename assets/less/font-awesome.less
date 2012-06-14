@@ -22,13 +22,15 @@
 
     */
 
+@fontAwesomePath: '../font';
+
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../font/fontawesome-webfont.eot');
-  src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../font/fontawesome-webfont.woff') format('woff'),
-    url('../font/fontawesome-webfont.ttf') format('truetype'),
-    url('../font/fontawesome-webfont.svg#FontAwesome') format('svg');
+  src: url('@{fontAwesomePath}/fontawesome-webfont.eot');
+  src: url('@{fontAwesomePath}/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+    url('@{fontAwesomePath}/fontawesome-webfont.woff') format('woff'),
+    url('@{fontAwesomePath}/fontawesome-webfont.ttf') format('truetype'),
+    url('@{fontAwesomePath}/fontawesome-webfont.svg#FontAwesome') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -131,7 +133,7 @@ ul.icons {
 .icon-play-circle:before          { content: "\f01d"; }
 .icon-repeat:before               { content: "\f01e"; }
 
-/* \f020 is not a valid unicode character. all shifted one down */
+/* \f020 doesn't work in Safari. all shifted one down */
 .icon-refresh:before              { content: "\f021"; }
 .icon-list-alt:before             { content: "\f022"; }
 .icon-lock:before                 { content: "\f023"; }
