@@ -22,34 +22,26 @@
 
 */
 
-// Font-site.less
-// @font-face declaration for the docs site
-// Imported by docs.less
+// Docs.less
+// Collects all the LESS imports
+// Concatenated & minified to ../css/docs.min.css
 // -----------------------------------------------------
 
-@font-face {
-    font-family: 'museo-slab';
-    src: url('../font/museo_slab_300-webfont.eot');
-    src: url('../font/museo_slab_300-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/museo_slab_300-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+// twitter bootstrap
+@import "twbs-203/bootstrap.less";
 
-@font-face {
-    font-family: 'museo-slab';
-    src: url('../font/museo_slab_500-webfont.eot');
-    src: url('../font/museo_slab_500-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/museo_slab_500-webfont.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
+// variables & mixins
+@import "variables.less";
+@import "mixins.less";
 
-@font-face {
-  font-family: 'proxima-nova';
-  src: url('../font/proximanova-webfont.eot');
-  src: url('../font/proximanova-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../font/proximanova-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+// embedded fonts
+@import "font-site.less";
+
+// the project's main css 
+@import "font-awesome.less";
+
+// the docs site css
+@import "site.less";
+
+// prettify
+@import "prettify.less";
