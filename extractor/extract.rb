@@ -44,6 +44,11 @@ write_svg = lambda { |requested_icon|
     end
 }
 
+for i in *.svg; do 
+  NEWFILE=`echo $i | sed 's/.png$//'`
+  inkscape $i --export-png=png/${NEWFILE}.png $i -w 16 -h 16; 
+done
+
 if ARGV.length > 0
     write_svg.call ARGV[0]
 else
