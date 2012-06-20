@@ -31,15 +31,16 @@
 
 /*  Font Awesome styles
     ------------------------------------------------------- */
+[class^="icon-"], [class*=" icon-"] {
+  display: inline-block;
+}
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
-  display: inline-block;
   text-decoration: inherit;
 }
 a [class^="icon-"], a [class*=" icon-"] {
-  display: inline-block;
   text-decoration: inherit;
 }
 /* makes the font 33% larger relative to the icon container */
@@ -53,7 +54,6 @@ a [class^="icon-"], a [class*=" icon-"] {
   line-height: .9em;
 }
 li [class^="icon-"], li [class*=" icon-"] {
-  display: inline-block;
   width: 1.25em;
   text-align: center;
 }
