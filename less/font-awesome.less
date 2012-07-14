@@ -46,6 +46,12 @@
   text-decoration: inherit;
 }
 
+/* fix bootstrap 2.x */
+[class^="icon-"], [class*=" icon-"] {
+vertical-align: middle;
+background-image:none;
+}
+
 a [class^="icon-"],
 a [class*=" icon-"] {
   display: inline-block;
@@ -56,6 +62,11 @@ a [class*=" icon-"] {
 .icon-large:before {
   vertical-align: middle;
   font-size: 4/3em;
+}
+
+.icon-large{
+  /* 1.5 increased font size for icon-large * 1.25 width */
+  width: 1.5*1.25em;
 }
 
 .btn, .nav-tabs {
@@ -71,12 +82,11 @@ li {
   [class*=" icon-"] {
     display: inline-block;
     width: 1.25em;
-    text-align: center;
+    vertical-align: baseline;
   }
-  .icon-large:before,
   .icon-large:before {
-    /* 1.5 increased font size for icon-large * 1.25 width */
-    width: 1.5*1.25em;
+      vertical-align: middle;
+    }
   }
 }
 
@@ -90,7 +100,6 @@ ul.icons {
     [class*=" icon-"] {
       width: .8em;
     }
-    .icon-large:before,
     .icon-large:before {
       /* 1.5 increased font size for icon-large * 1.25 width */
       vertical-align: initial;
