@@ -39,7 +39,7 @@
           } else if ( $.browser.mozilla ) {
           	transitionEnd = "transitionend"
           } else if ( $.browser.opera ) {
-          	transitionEnd = "oTransitionEnd"
+          	transitionEnd = "otransitionend"
           }
           return transitionEnd
         }())
