@@ -1,0 +1,24 @@
+{
+    "name"           : "FontAwesome",
+    "version"        : "2.0.1",
+
+    "author"         : "Dave <dave@davegandy.com>",
+    "description"    : "the iconic font designed for use with Twitter Bootstrap",
+
+    "contributors"   : [
+        {
+            "name" : "Dave",
+            "email": "dave@davegandy.com"
+        }, {
+            "name" : "Kersten Burkhardt",
+            "email": "burkhardt@mhp-net.de"
+        }
+    ],
+
+    "repository"     : {
+        "type": "git",
+        "url" : "git://github.com/FortAwesome/Font-Awesome.git"
+    },
+
+    "license"        : "CC BY 3.0"
+}
