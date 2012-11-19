@@ -517,6 +517,9 @@
 .icon-fullscreen {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b2;&nbsp;');
 }
+.icon-check-partial {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b3;&nbsp;');
+}
 .icon-group {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c0;&nbsp;');
 }
