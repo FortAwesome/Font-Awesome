@@ -299,7 +299,7 @@ a:hover {
 .row-fluid .span4 {
   width: 31.914893614%;
   *width: 31.8617021246383%;
-}
+  }
 .row-fluid .span3 {
   width: 23.404255317%;
   *width: 23.3510638276383%;
@@ -4347,6 +4347,9 @@ ul.icons li .icon-large:before {
 }
 .icon-fullscreen:before {
   content: "\f0b2";
+}
+.icon-check-partial:before {
+  content: "\f0b3";
 }
 .icon-group:before {
   content: "\f0c0";
