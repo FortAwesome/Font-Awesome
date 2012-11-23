@@ -1028,7 +1028,7 @@ select:focus:required:invalid:focus {
   position: relative;
   margin-bottom: 0;
   *margin-left: 0;
-  vertical-align: middle;
+  vertical-align: top;
   -webkit-border-radius: 0 3px 3px 0;
   -moz-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
@@ -1056,7 +1056,7 @@ select:focus:required:invalid:focus {
   line-height: 21px;
   text-align: center;
   text-shadow: 0 1px 0 #ffffff;
-  vertical-align: middle;
+  vertical-align: top;
   background-color: #eeeeee;
   border: 1px solid #ccc;
 }
