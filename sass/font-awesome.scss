@@ -26,7 +26,7 @@
 $fontAwesomePath: "../font/fontawesome-webfont" !default;
 
 @include font-face(
-    'FontAwesome',
+    'FontAwesome-webfont',
     font-files(
         "#{$fontAwesomePath}.woff", woff,
         "#{$fontAwesomePath}.ttf", truetype,
@@ -39,7 +39,7 @@ $fontAwesomePath: "../font/fontawesome-webfont" !default;
     ------------------------------------------------------- */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: FontAwesome;
+  font-family: FontAwesome-webfont;
   font-weight: normal;
   font-style: normal;
   display: inline-block;

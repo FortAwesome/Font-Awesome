@@ -3780,7 +3780,7 @@ a.badge:hover {
 
     */
 @font-face {
-  font-family: 'FontAwesome';
+  font-family: 'FontAwesome-webfont';
   src: url('../font/fontawesome-webfont.eot');
   src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('../font/fontawesome-webfont.woff') format('woff'), url('../font/fontawesome-webfont.ttf') format('truetype'), url('../font/fontawesome-webfont.svg#FontAwesome') format('svg');
   font-weight: normal;
@@ -3790,7 +3790,7 @@ a.badge:hover {
     ------------------------------------------------------- */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: FontAwesome;
+  font-family: FontAwesome-webfont;
   font-weight: normal;
   font-style: normal;
   display: inline-block;
@@ -4780,7 +4780,7 @@ h6 {
 }
 #examples .rating span.star,
 #code .rating span.star {
-  font-family: FontAwesome;
+  font-family: FontAwesome-webfont;
   font-weight: normal;
   font-style: normal;
   display: inline-block;
