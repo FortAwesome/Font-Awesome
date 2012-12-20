@@ -1,4 +1,4 @@
-@import "twbs-203/bootstrap.less";
+@import "twbs-222/bootstrap.less";
 
 @import "mixins.less";
 @import "variables.less";
@@ -6,16 +6,18 @@
 @import "font-awesome.less";
 
 // These accomodate navbar-fixed-top
-#overview { padding-top: 60px; }
-#new-icons, #all-icons, #examples, #integration, #code, #roadmap {
-  padding-top: 40px;
-}
+//#overview { padding-top: 60px; }
+//#new-icons, #all-icons, #examples, #integration, #code, #roadmap {
+//  padding-top: 40px;
+//}
 .navbar .brand {
-  padding: 11px 20px 9px;
+//  padding: 11px 20px 9px;
   color: @white;
+  font-family: @serifFontFamily;
 }
 
-.navbar-inner { .border-radius(0); }
+
+//.navbar-inner { .border-radius(0); }
 
 .navbar .nav > li > a { padding: 12px 10px 9px; }
 
@@ -25,23 +27,24 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
   a { color: @white; }
   @size: 275px;
   float: right;
-  width: @size * .9 + 20;
-  height: @size * .75;
+  width: @size * 1.08;
+  height: @size;
+//  border: solid 1px white;
   margin-right: 10px;
-  margin-top: -20px;
+//  margin-top: -20px;
   font-size: @size;
   text-align: center;
   text-shadow: 2px 2px 3px @grayDarker;
   .carousel-control {
-    top: @size + 5;
+    top: @size + 33;
     .square(23px);
     border-width: 3px;
     font-size: 17px;
-    line-height: 28px;
-    left: @size / 3 + 9;
+    line-height: 22px;
+    left: @size / 2 - 23;
     &.right {
       left: auto;
-      right: @size / 3 + 9;
+      right: @size / 2 - 23;
     }
   }
 }
@@ -58,13 +61,14 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
 
 .hero-unit {
   margin-bottom: 20px;
-  .border-radius(20px);
+  padding-top: 80px;
+  .border-radius(0);
 //  #gradient > .radial( lighten(@red, 10%), @red);
   background-color: @red;
   &, h1 { color: @white; }
   h1 {
     font-size: 70px;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
     line-height: 1.2;
   }
   p {
@@ -86,40 +90,38 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
       text-shadow: 1px 1px 1px @grayDark;
     }
   }
-  a { color: #fffeb8; }
+//  a { color: #fffeb8; }
   .btn-large {
-    .buttonBackground(@white, #bbb);
+//    .buttonBackground(@white, #bbb);
     font-family: @serifFontFamily;
-    color: @grayDark;
+//    color: @grayDark;
     margin-top: 15px;
     font-weight: bold;
     font-size: 18px;
     padding: 13px 22px;
-    padding-left: 24px + 44;
+    padding-left: 24px + 40;
     margin-right: 10px;
     .border-radius(6px);
     position: relative;
     text-align: left;
     i  {
       position: absolute;
-//      top: 13px;
-      left: 22px;
+      top: 8px;
+      left: 15px;
       font-size: 46px;
     }
     &.btn-github {
-      padding-left: 30px + 44;
+      padding-left: 24px + 42;
 
     }
   }
   .hero-content {
-    width: 500px;
+    width: 650px;
     text-align: center;
   }
 }
 
-.btn-primary, .hero-unit .btn-primary {
-  .buttonBackground(#fffeb8, #c49c38);
-  *background-color: #e7d785;
+.btn-primary {
   color: @grayDark;
   text-shadow: 0 -1px 0 rgba(255,255,255,.25);
   &:hover {
@@ -154,24 +156,25 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
   margin-left: 0;
   li {
     cursor: pointer;
-    line-height: 42px;
-    height: 42px;
+    line-height: 32px;
+    height: 32px;
     padding-left: 12px;
-    .border-radius(12px);
+    .border-radius(6px);
+//    vertical-align: middle;
 
     [class^="icon-"],
     [class*=" icon-"] {
       width: 32px;
-      font-size: 16px;
+      font-size: 14px;
     }
     &:hover {
       background-color: lighten(@errorBackground, 6%);
-      [class^="icon-"], [class*=" icon-"] { *font-size: 24px; *vertical-align: middle; }
+      [class^="icon-"], [class*=" icon-"] { *font-size: 28px; *vertical-align: middle; }
 
       [class^="icon-"]:before,
       [class*=" icon-"]:before {
-        font-size: 24px;
-        vertical-align: middle;
+        font-size: 28px;
+        vertical-align: -5px;
       }
     }
   }
@@ -254,28 +257,28 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
       div { margin-bottom: 5px; }
     }
     .icon6 {
-      width: 325px;
-      > div.thumbnail > div { .icon-size(340px); }
+      width: 330px;
+      > div.thumbnail > div { .icon-size(280px); }
     }
     .icon5 {
-      width: 185px;
-      > div.thumbnail > div { .icon-size(180px); }
+      width: 180px;
+      > div.thumbnail > div { .icon-size(140px); }
     }
     .icon4 {
       width: 215px;
-      > div.thumbnail > div { .icon-size(100px); }
+      > div.thumbnail > div { .icon-size(112px); }
     }
     .icon3 {
       width: 120px;
-      > div.thumbnail > div { .icon-size(50px); }
+      > div.thumbnail > div { .icon-size(56px); }
     }
     .icon2 {
       width: 75px;
-      > div.thumbnail > div { .icon-size(20px); }
+      > div.thumbnail > div { .icon-size(28px); }
     }
     .icon1 {
       width: 60px;
-      > div.thumbnail > div { .icon-size(12px); }
+      > div.thumbnail > div { .icon-size(14px); }
     }
   }
 }

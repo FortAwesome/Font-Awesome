@@ -10,7 +10,9 @@
   <title>Font Awesome, the iconic font designed for use with Twitter Bootstrap</title>
   <meta name="description" content="">
   <meta name="author" content="">
-<!--[if lt IE 9]>
+  <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+
+  <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
@@ -42,10 +44,10 @@
 <!--for navigation-->
 <div id="overview"></div>
 
-<div class="navbar navbar-fixed-top">
+<div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
-      <h3><a class="brand" href="#"><i class="icon-flag"></i> Font Awesome</a></h3>
+      <a class="brand" href="#"><i class="icon-flag"></i> Font Awesome</a>
       <ul class="nav">
         <li><a href="#overview">Overview</a></li>
         <li><a href="#new-icons">New Icons</a></li>
@@ -62,8 +64,9 @@
   </div>
 </div>
 
-<div class="container">
+
 <div class="hero-unit">
+<div class="container">
   <div id="iconCarousel" class="carousel slide">
     <!-- Carousel items -->
     <div class="carousel-inner">
@@ -102,14 +105,16 @@
     <div class="actions">
       <a class="btn btn-primary btn-large" href="https://github.com/FortAwesome/Font-Awesome/zipball/master"
           onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
-        <i class="icon-download"></i>Download Font<br>Awesome v2.0</a>
+        <i class="icon-download"></i>Download Font<br>Awesome v3.0</a>
       <a class="btn btn-large btn-github" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"
           onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'View Project on GitHub']);">
-        <i class="icon-github"></i>View Project<br>on GitHub</a>
+        <i class="icon-github-sign"></i>View Project<br>on GitHub</a>
     </div>
   </div>
 </div>
+</div>
 
+<div class="container">
 <section id="social-buttons">
   <span class="watch">
     <a class="btn" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"><i class="icon-github"></i> Watch</a>
@@ -128,48 +133,66 @@
 <section id="why">
   <div class="row">
     <div class="span4">
-      <h3><i class="icon-bullhorn icon-large"></i> Desktop Font + Vectors</h3>
+      <h4><i class="icon-bullhorn icon-large"></i> Desktop Font + Vectors</h4>
       The full desktop font and a pdf of vectors are now included. Happy designing.
     </div>
     <div class="span4">
-      <h3><i class="icon-beaker icon-large"></i> 70 New Icons in v2.0</h3>
+      <h4><i class="icon-beaker icon-large"></i> 70 New Icons in v2.0</h4>
       All requested by our active community on the <a href="https://github.com/FortAwesome/Font-Awesome" target="_blank">Font Awesome GitHub project</a>.
     </div>
     <div class="span4">
-      <h3><i class="icon-ok icon-large"></i> IE7 Support</h3>
+      <h4><i class="icon-ok icon-large"></i> IE7 Support</h4>
       Font Awesome v2.0 now even supports IE7. If you need it, you have my condolences.
     </div>
   </div>
   <div class="row">
     <div class="span4">
-      <h3><i class="icon-flag icon-large"></i> One font, 220 icons</h3>
+      <h4><i class="icon-flag icon-large"></i> One font, 220 icons</h4>
       In a single collection, Font Awesome is a pictographic language of web-related actions.
     </div>
     <div class="span4">
-      <h3><i class="icon-gift icon-large"></i> Free for commercial use</h3>
+      <h4><i class="icon-gift icon-large"></i> Free for commercial use</h4>
       The Font Awesome webfont and CSS libraries are completely free for commercial use.
     </div>
     <div class="span4">
-      <h3><i class="icon-search icon-large"></i> Screen reader compatible</h3>
+      <h4><i class="icon-search icon-large"></i> Screen reader compatible</h4>
       Font Awesome won't trip up screen readers, unlike most icon fonts.
     </div>
   </div>
   <div class="row">
     <div class="span4">
-      <h3><i class="icon-thumbs-up icon-large"></i> Made for Twitter Bootstrap</h3>
+      <h4><i class="icon-thumbs-up icon-large"></i> Made for Twitter Bootstrap</h4>
       Designed from scratch to be fully backwards compatible with <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap 2.0</a>.
     </div>
     <div class="span4">
-      <h3><i class="icon-pencil icon-large"></i> CSS control</h3>
+      <h4><i class="icon-pencil icon-large"></i> CSS control</h4>
       Easily style icon color, size, shadow, and anything that's possible with CSS.
     </div>
     <div class="span4">
-      <h3><i class="icon-resize-full icon-large"></i> Infinite scalability</h3>
+      <h4><i class="icon-resize-full icon-large"></i> Infinite scalability</h4>
       Scalable vector graphics means icons look awesome at any size.
     </div>
   </div>
 </section>
 
+<section id="whats-new">
+  <h1>What's new in Font Awesome v3.0</h1>
+  <div class="row">
+    <div class="span4">
+      <h4>LGPL Compliant</h4>
+      No more attribution required, but much appreciated.
+    </div>
+    <div class="span4">
+      <h4>25% smaller size</h4>
+      More compact file size for faster page loads.
+    </div>
+    <div class="span4">
+      <h4>Font Sub-setting</h4>
+      Thanks to @someone, <a href="#">sub-setting</a> is now possible, so you get just the icons you need
+
+    </div>
+  </div>
+</section>
 
 <section id="new-icons" class="row">
   <div class="span12">
@@ -1025,13 +1048,13 @@
         <div class="span3 icon6">
           <div class="thumbnail">
             <div><i class="<%= iconName %>"></i></div>
-            340px
+            280px
           </div>
         </div>
         <div class="span3 icon5">
           <div class="thumbnail">
             <div><i class="<%= iconName %>"></i></div>
-            180px
+            140px
           </div>
         </div>
       </div>
@@ -1039,25 +1062,25 @@
         <div class="span2 icon4">
           <div class="thumbnail">
             <div><i class="<%= iconName %>"></i></div>
-            100px
+            112px
           </div>
         </div>
         <div class="span2 icon3">
           <div class="thumbnail">
             <div><i class="<%= iconName %>"></i></div>
-            50px
+            56px
           </div>
         </div>
         <div class="span1 icon2">
           <div class="thumbnail">
             <div><i class="<%= iconName %>"></i></div>
-            20px
+            28px
           </div>
         </div>
         <div class="span1 icon1">
           <div class="thumbnail">
             <div><i class="<%= iconName %>"></i></div>
-            12 px
+            14px
           </div>
         </div>
       </div>

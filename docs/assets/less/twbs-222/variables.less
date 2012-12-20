@@ -38,15 +38,15 @@
 
 // Links
 // -------------------------
-@linkColor:             @red;
+@linkColor:             #08c;
 @linkColorHover:        darken(@linkColor, 15%);
 
 
 // Typography
 // -------------------------
-@sansFontFamily:        proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
-@serifFontFamily:       museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
-@monoFontFamily:        Menlo, Monaco, Consolas, "Courier New", monospace;
+@sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+@serifFontFamily:       Georgia, "Times New Roman", Times, serif;
+@monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
 @baseFontSize:          14px;
 @baseFontFamily:        @sansFontFamily;
@@ -88,8 +88,8 @@
 @btnBackgroundHighlight:            darken(@white, 10%);
 @btnBorder:                         #bbb;
 
-@btnPrimaryBackground:              #fffeb8;
-@btnPrimaryBackgroundHighlight:     #c49c38;
+@btnPrimaryBackground:              @linkColor;
+@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
 
 @btnInfoBackground:                 #5bc0de;
 @btnInfoBackgroundHighlight:        #2f96b4;
