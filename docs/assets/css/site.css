@@ -4711,7 +4711,7 @@ a.badge:hover {
 @font-face {
   font-family: 'FontAwesome';
   src: url('../font/fontawesome-webfont.eot');
-  src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('../font/fontawesome-webfont.woff') format('woff'), url('../font/fontawesome-webfont.ttf') format('truetype'), url('../font/fontawesome-webfont.svg#FontAwesome') format('svg');
+  src: url('../font/FontAwesome.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -5399,8 +5399,53 @@ ul.icons li .icon-large:before {
 .icon-paste:before {
   content: "\f0ea";
 }
+.icon-lightbulb:before {
+  content: "\f0eb";
+}
+.icon-exchange:before {
+  content: "\f0ec";
+}
+.icon-cloud-download:before {
+  content: "\f0ed";
+}
+.icon-cloud-upload:before {
+  content: "\f0ee";
+}
 .icon-user-md:before {
   content: "\f200";
+}
+.icon-stethescope:before {
+  content: "\f201";
+}
+.icon-briefcase:before {
+  content: "\f202";
+}
+.icon-bell-alt:before {
+  content: "\f203";
+}
+.icon-coffee:before {
+  content: "\f204";
+}
+.icon-food:before {
+  content: "\f205";
+}
+.icon-file-alt:before {
+  content: "\f206";
+}
+.icon-building:before {
+  content: "\f207";
+}
+.icon-hospital:before {
+  content: "\f208";
+}
+.icon-ambulance:before {
+  content: "\f209";
+}
+.icon-medkit:before {
+  content: "\f210";
+}
+.icon-fighter-jet:before {
+  content: "\f211";
 }
 .navbar .brand {
   color: #ffffff;
@@ -5456,15 +5501,15 @@ h6 {
   color: #ffffff;
 }
 .hero-unit h1 {
-  font-size: 70px;
+  font-size: 75px;
   letter-spacing: -2px;
   line-height: 1.2;
 }
 .hero-unit p {
-  margin-top: 10px;
-  margin-bottom: 15px;
-  font-size: 28px;
-  line-height: 34px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 1.2;
 }
 .hero-unit ul {
   margin-left: 50px;
