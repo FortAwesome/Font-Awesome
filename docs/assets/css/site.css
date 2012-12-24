@@ -1889,6 +1889,457 @@ table th[class*="span"],
 .table-hover tbody tr.info:hover td {
   background-color: #c4e3f3;
 }
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("../img/glyphicons-halflings.png");
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+}
+/* White icons with optional class, or on hover/active states of certain elements */
+.icon-white,
+.nav-pills > .active > a > [class^="icon-"],
+.nav-pills > .active > a > [class*=" icon-"],
+.nav-list > .active > a > [class^="icon-"],
+.nav-list > .active > a > [class*=" icon-"],
+.navbar-inverse .nav > .active > a > [class^="icon-"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"],
+.dropdown-submenu:hover > a > [class^="icon-"],
+.dropdown-submenu:hover > a > [class*=" icon-"] {
+  background-image: url("../img/glyphicons-halflings-white.png");
+}
+.icon-glass {
+  background-position: 0      0;
+}
+.icon-music {
+  background-position: -24px 0;
+}
+.icon-search {
+  background-position: -48px 0;
+}
+.icon-envelope {
+  background-position: -72px 0;
+}
+.icon-heart {
+  background-position: -96px 0;
+}
+.icon-star {
+  background-position: -120px 0;
+}
+.icon-star-empty {
+  background-position: -144px 0;
+}
+.icon-user {
+  background-position: -168px 0;
+}
+.icon-film {
+  background-position: -192px 0;
+}
+.icon-th-large {
+  background-position: -216px 0;
+}
+.icon-th {
+  background-position: -240px 0;
+}
+.icon-th-list {
+  background-position: -264px 0;
+}
+.icon-ok {
+  background-position: -288px 0;
+}
+.icon-remove {
+  background-position: -312px 0;
+}
+.icon-zoom-in {
+  background-position: -336px 0;
+}
+.icon-zoom-out {
+  background-position: -360px 0;
+}
+.icon-off {
+  background-position: -384px 0;
+}
+.icon-signal {
+  background-position: -408px 0;
+}
+.icon-cog {
+  background-position: -432px 0;
+}
+.icon-trash {
+  background-position: -456px 0;
+}
+.icon-home {
+  background-position: 0 -24px;
+}
+.icon-file {
+  background-position: -24px -24px;
+}
+.icon-time {
+  background-position: -48px -24px;
+}
+.icon-road {
+  background-position: -72px -24px;
+}
+.icon-download-alt {
+  background-position: -96px -24px;
+}
+.icon-download {
+  background-position: -120px -24px;
+}
+.icon-upload {
+  background-position: -144px -24px;
+}
+.icon-inbox {
+  background-position: -168px -24px;
+}
+.icon-play-circle {
+  background-position: -192px -24px;
+}
+.icon-repeat {
+  background-position: -216px -24px;
+}
+.icon-refresh {
+  background-position: -240px -24px;
+}
+.icon-list-alt {
+  background-position: -264px -24px;
+}
+.icon-lock {
+  background-position: -287px -24px;
+}
+.icon-flag {
+  background-position: -312px -24px;
+}
+.icon-headphones {
+  background-position: -336px -24px;
+}
+.icon-volume-off {
+  background-position: -360px -24px;
+}
+.icon-volume-down {
+  background-position: -384px -24px;
+}
+.icon-volume-up {
+  background-position: -408px -24px;
+}
+.icon-qrcode {
+  background-position: -432px -24px;
+}
+.icon-barcode {
+  background-position: -456px -24px;
+}
+.icon-tag {
+  background-position: 0 -48px;
+}
+.icon-tags {
+  background-position: -25px -48px;
+}
+.icon-book {
+  background-position: -48px -48px;
+}
+.icon-bookmark {
+  background-position: -72px -48px;
+}
+.icon-print {
+  background-position: -96px -48px;
+}
+.icon-camera {
+  background-position: -120px -48px;
+}
+.icon-font {
+  background-position: -144px -48px;
+}
+.icon-bold {
+  background-position: -167px -48px;
+}
+.icon-italic {
+  background-position: -192px -48px;
+}
+.icon-text-height {
+  background-position: -216px -48px;
+}
+.icon-text-width {
+  background-position: -240px -48px;
+}
+.icon-align-left {
+  background-position: -264px -48px;
+}
+.icon-align-center {
+  background-position: -288px -48px;
+}
+.icon-align-right {
+  background-position: -312px -48px;
+}
+.icon-align-justify {
+  background-position: -336px -48px;
+}
+.icon-list {
+  background-position: -360px -48px;
+}
+.icon-indent-left {
+  background-position: -384px -48px;
+}
+.icon-indent-right {
+  background-position: -408px -48px;
+}
+.icon-facetime-video {
+  background-position: -432px -48px;
+}
+.icon-picture {
+  background-position: -456px -48px;
+}
+.icon-pencil {
+  background-position: 0 -72px;
+}
+.icon-map-marker {
+  background-position: -24px -72px;
+}
+.icon-adjust {
+  background-position: -48px -72px;
+}
+.icon-tint {
+  background-position: -72px -72px;
+}
+.icon-edit {
+  background-position: -96px -72px;
+}
+.icon-share {
+  background-position: -120px -72px;
+}
+.icon-check {
+  background-position: -144px -72px;
+}
+.icon-move {
+  background-position: -168px -72px;
+}
+.icon-step-backward {
+  background-position: -192px -72px;
+}
+.icon-fast-backward {
+  background-position: -216px -72px;
+}
+.icon-backward {
+  background-position: -240px -72px;
+}
+.icon-play {
+  background-position: -264px -72px;
+}
+.icon-pause {
+  background-position: -288px -72px;
+}
+.icon-stop {
+  background-position: -312px -72px;
+}
+.icon-forward {
+  background-position: -336px -72px;
+}
+.icon-fast-forward {
+  background-position: -360px -72px;
+}
+.icon-step-forward {
+  background-position: -384px -72px;
+}
+.icon-eject {
+  background-position: -408px -72px;
+}
+.icon-chevron-left {
+  background-position: -432px -72px;
+}
+.icon-chevron-right {
+  background-position: -456px -72px;
+}
+.icon-plus-sign {
+  background-position: 0 -96px;
+}
+.icon-minus-sign {
+  background-position: -24px -96px;
+}
+.icon-remove-sign {
+  background-position: -48px -96px;
+}
+.icon-ok-sign {
+  background-position: -72px -96px;
+}
+.icon-question-sign {
+  background-position: -96px -96px;
+}
+.icon-info-sign {
+  background-position: -120px -96px;
+}
+.icon-screenshot {
+  background-position: -144px -96px;
+}
+.icon-remove-circle {
+  background-position: -168px -96px;
+}
+.icon-ok-circle {
+  background-position: -192px -96px;
+}
+.icon-ban-circle {
+  background-position: -216px -96px;
+}
+.icon-arrow-left {
+  background-position: -240px -96px;
+}
+.icon-arrow-right {
+  background-position: -264px -96px;
+}
+.icon-arrow-up {
+  background-position: -289px -96px;
+}
+.icon-arrow-down {
+  background-position: -312px -96px;
+}
+.icon-share-alt {
+  background-position: -336px -96px;
+}
+.icon-resize-full {
+  background-position: -360px -96px;
+}
+.icon-resize-small {
+  background-position: -384px -96px;
+}
+.icon-plus {
+  background-position: -408px -96px;
+}
+.icon-minus {
+  background-position: -433px -96px;
+}
+.icon-asterisk {
+  background-position: -456px -96px;
+}
+.icon-exclamation-sign {
+  background-position: 0 -120px;
+}
+.icon-gift {
+  background-position: -24px -120px;
+}
+.icon-leaf {
+  background-position: -48px -120px;
+}
+.icon-fire {
+  background-position: -72px -120px;
+}
+.icon-eye-open {
+  background-position: -96px -120px;
+}
+.icon-eye-close {
+  background-position: -120px -120px;
+}
+.icon-warning-sign {
+  background-position: -144px -120px;
+}
+.icon-plane {
+  background-position: -168px -120px;
+}
+.icon-calendar {
+  background-position: -192px -120px;
+}
+.icon-random {
+  background-position: -216px -120px;
+  width: 16px;
+}
+.icon-comment {
+  background-position: -240px -120px;
+}
+.icon-magnet {
+  background-position: -264px -120px;
+}
+.icon-chevron-up {
+  background-position: -288px -120px;
+}
+.icon-chevron-down {
+  background-position: -313px -119px;
+}
+.icon-retweet {
+  background-position: -336px -120px;
+}
+.icon-shopping-cart {
+  background-position: -360px -120px;
+}
+.icon-folder-close {
+  background-position: -384px -120px;
+}
+.icon-folder-open {
+  background-position: -408px -120px;
+  width: 16px;
+}
+.icon-resize-vertical {
+  background-position: -432px -119px;
+}
+.icon-resize-horizontal {
+  background-position: -456px -118px;
+}
+.icon-hdd {
+  background-position: 0 -144px;
+}
+.icon-bullhorn {
+  background-position: -24px -144px;
+}
+.icon-bell {
+  background-position: -48px -144px;
+}
+.icon-certificate {
+  background-position: -72px -144px;
+}
+.icon-thumbs-up {
+  background-position: -96px -144px;
+}
+.icon-thumbs-down {
+  background-position: -120px -144px;
+}
+.icon-hand-right {
+  background-position: -144px -144px;
+}
+.icon-hand-left {
+  background-position: -168px -144px;
+}
+.icon-hand-up {
+  background-position: -192px -144px;
+}
+.icon-hand-down {
+  background-position: -216px -144px;
+}
+.icon-circle-arrow-right {
+  background-position: -240px -144px;
+}
+.icon-circle-arrow-left {
+  background-position: -264px -144px;
+}
+.icon-circle-arrow-up {
+  background-position: -288px -144px;
+}
+.icon-circle-arrow-down {
+  background-position: -312px -144px;
+}
+.icon-globe {
+  background-position: -336px -144px;
+}
+.icon-wrench {
+  background-position: -360px -144px;
+}
+.icon-tasks {
+  background-position: -384px -144px;
+}
+.icon-filter {
+  background-position: -408px -144px;
+}
+.icon-briefcase {
+  background-position: -432px -144px;
+}
+.icon-fullscreen {
+  background-position: -456px -144px;
+}
 .dropup,
 .dropdown {
   position: relative;
@@ -4685,6 +5136,13 @@ a.badge:hover {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('../font/proximanova-sbold-webfont.eot');
+  src: url('../font/proximanova-sbold-webfont.eot?#iefix') format('embedded-opentype'), url('../font/proximanova-sbold-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 /*  Font Awesome
     the iconic font designed for use with Twitter Bootstrap
     -------------------------------------------------------
@@ -4711,7 +5169,7 @@ a.badge:hover {
 @font-face {
   font-family: 'FontAwesome';
   src: url('../font/fontawesome-webfont.eot');
-  src: url('../font/FontAwesome.otf') format('opentype');
+  src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('../font/fontawesome-webfont.woff') format('woff'), url('../font/fontawesome-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -4722,9 +5180,21 @@ a.badge:hover {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
-  display: inline-block;
   text-decoration: inherit;
 }
+/* sprites.less reset */
+[class^="icon-"],
+[class*=" icon-"] {
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none !important;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0;
+}
+/* makes sure icons active on rollover in links */
 a [class^="icon-"],
 a [class*=" icon-"] {
   display: inline-block;
@@ -4732,15 +5202,22 @@ a [class*=" icon-"] {
 }
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
-  font-size: 1.25em;
+  vertical-align: -15%;
+  font-size: 1.3333333333333333em;
 }
 .btn [class^="icon-"],
-.nav-tabs [class^="icon-"],
+.nav [class^="icon-"],
 .btn [class*=" icon-"],
-.nav-tabs [class*=" icon-"] {
+.nav [class*=" icon-"] {
   /* keeps button heights with and without icons the same */
 
   line-height: .9em;
+}
+.btn [class^="icon-"].icon-large,
+.nav [class^="icon-"].icon-large,
+.btn [class*=" icon-"].icon-large,
+.nav [class*=" icon-"].icon-large {
+  line-height: .8em;
 }
 li [class^="icon-"],
 li [class*=" icon-"] {
@@ -4748,11 +5225,13 @@ li [class*=" icon-"] {
   width: 1.25em;
   text-align: center;
 }
-li .icon-large:before,
-li .icon-large:before {
+li [class^="icon-"].icon-large,
+li [class*=" icon-"].icon-large,
+li [class^="icon-"].icon-large,
+li [class*=" icon-"].icon-large {
   /* 1.5 increased font size for icon-large * 1.25 width */
 
-  width: 1.875em;
+  width: 1.5625em;
 }
 ul.icons {
   list-style-type: none;
@@ -4761,13 +5240,69 @@ ul.icons {
 }
 ul.icons li [class^="icon-"],
 ul.icons li [class*=" icon-"] {
-  width: .8em;
+  width: 1.5em;
 }
 ul.icons li .icon-large:before,
 ul.icons li .icon-large:before {
   /* 1.5 increased font size for icon-large * 1.25 width */
 
   vertical-align: initial;
+}
+/* Convenience functions */
+.icon-border {
+  border: solid 1px #eeeeee;
+  padding: .2em .35em .1em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.icon-2x {
+  font-size: 2em;
+}
+.icon-2x.icon-border {
+  border-width: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.icon-3x {
+  font-size: 3em;
+}
+.icon-3x.icon-border {
+  border-width: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.icon-4x {
+  font-size: 4em;
+}
+.icon-4x.icon-border {
+  border-width: 4px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.icon-2x,
+.icon-3x,
+.icon-4x {
+  line-height: 1em;
+}
+[class^="icon-"].pull-left,
+[class*=" icon-"].pull-left {
+  margin-right: .35em;
+}
+[class^="icon-"].pull-left.icon-4x,
+[class*=" icon-"].pull-left.icon-4x {
+  margin-right: .25em;
+}
+[class^="icon-"].pull-right,
+[class*=" icon-"].pull-right {
+  margin-left: .35em;
+}
+[class^="icon-"].pull-right.icon-4x,
+[class*=" icon-"].pull-right.icon-4x {
+  margin-left: .25em;
 }
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */
@@ -5414,7 +5949,7 @@ ul.icons li .icon-large:before {
 .icon-user-md:before {
   content: "\f200";
 }
-.icon-stethescope:before {
+.icon-stethoscope:before {
   content: "\f201";
 }
 .icon-briefcase:before {
@@ -5442,14 +5977,26 @@ ul.icons li .icon-large:before {
   content: "\f209";
 }
 .icon-medkit:before {
-  content: "\f210";
+  content: "\f20a";
 }
 .icon-fighter-jet:before {
-  content: "\f211";
+  content: "\f20b";
+}
+.icon-beer:before {
+  content: "\f20c";
+}
+.text-align-right {
+  text-align: right;
+}
+.text-align-center {
+  text-align: center;
 }
 .navbar .brand {
   color: #ffffff;
   font-family: museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar .brand .icon-flag {
+  padding-right: 3px;
 }
 .navbar .nav > li > a {
   padding: 12px 10px 9px;
@@ -5463,91 +6010,74 @@ h6 {
   font-family: museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #iconCarousel {
-  float: right;
-  width: 297px;
-  height: 275px;
-  margin-right: 10px;
-  font-size: 275px;
+  font-size: 280px;
   text-align: center;
+  line-height: 285px;
   text-shadow: 2px 2px 3px #222222;
 }
 #iconCarousel a {
   color: #ffffff;
 }
 #iconCarousel .carousel-control {
-  top: 308px;
+  top: 313px;
   width: 23px;
   height: 23px;
   border-width: 3px;
   font-size: 17px;
-  line-height: 22px;
-  left: 114.5px;
+  line-height: 25px;
+  left: 117px;
 }
 #iconCarousel .carousel-control.right {
   left: auto;
-  right: 114.5px;
+  right: 117px;
 }
-.hero-unit {
-  margin-bottom: 20px;
-  padding-top: 80px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
+#fort-awesome .alert {
+  padding: 30px;
+}
+.jumbotron {
+  padding: 90px 0 48px;
   background-color: #9d261d;
   text-shadow: 2px 2px 2px #333333;
 }
-.hero-unit,
-.hero-unit h1 {
+.jumbotron,
+.jumbotron h1 {
   color: #ffffff;
 }
-.hero-unit h1 {
-  font-size: 75px;
+.jumbotron h1 {
+  font-size: 80px;
   letter-spacing: -2px;
   line-height: 1.2;
 }
-.hero-unit p {
-  margin-top: 15px;
-  margin-bottom: 20px;
-  font-size: 40px;
-  line-height: 1.2;
+.jumbotron p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 1.3;
 }
-.hero-unit ul {
+.jumbotron ul {
   margin-left: 50px;
 }
-.hero-unit ul li {
+.jumbotron ul li {
   font-size: 15px;
   line-height: 30px;
   text-shadow: 1px 1px 1px #333333;
 }
-.hero-unit ul li.icon-large:before {
+.jumbotron ul li.icon-large:before {
   text-indent: -2em;
   vertical-align: baseline;
 }
-.hero-unit .btn-large {
+.jumbotron .btn-large {
   font-family: museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 15px;
   font-weight: bold;
   font-size: 18px;
   padding: 13px 22px;
-  padding-left: 64px;
   margin-right: 10px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  position: relative;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
   text-align: left;
 }
-.hero-unit .btn-large i {
-  position: absolute;
-  top: 8px;
-  left: 15px;
-  font-size: 46px;
-}
-.hero-unit .btn-large.btn-github {
-  padding-left: 66px;
-}
-.hero-unit .hero-content {
-  width: 650px;
+.jumbotron .hero-content {
   text-align: center;
 }
 .btn-primary {
@@ -5558,49 +6088,24 @@ h6 {
   text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
   color: #333333;
 }
+section {
+  padding-top: 40px;
+}
 #social-buttons {
-  margin-bottom: 30px;
+  padding: 22px 0;
   text-align: center;
+  background-color: #f5f5f5;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ddd;
 }
 #social-buttons .btn {
-  font-family: museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 14px;
-  padding: 4px 10px 1px;
-  line-height: 20px;
+  padding: 0px 5px;
+  line-height: 17px;
 }
 #social-buttons .count.btn {
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #ffffff;
   font-weight: normal;
-  color: #ffffff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #ffffff;
-  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
-  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
-  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffffffff', GradientType=0);
-  border-color: #ffffff #ffffff #d9d9d9;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #ffffff;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-}
-#social-buttons .count.btn:hover,
-#social-buttons .count.btn:active,
-#social-buttons .count.btn.active,
-#social-buttons .count.btn.disabled,
-#social-buttons .count.btn[disabled] {
-  color: #ffffff;
-  background-color: #ffffff;
-  *background-color: #f2f2f2;
-}
-#social-buttons .count.btn:active,
-#social-buttons .count.btn.active {
-  background-color: #e6e6e6 \9;
 }
 #social-buttons .watch,
 #social-buttons .fork {
@@ -5608,7 +6113,7 @@ h6 {
 }
 .the-icons {
   list-style-type: none;
-  margin-left: 0;
+  margin: 0;
 }
 .the-icons li {
   cursor: pointer;
@@ -5637,17 +6142,12 @@ h6 {
   font-size: 28px;
   vertical-align: -5px;
 }
-#all-icons h3,
-#new-icons h3 {
-  margin-top: 10px;
-}
 #why .row {
   margin-bottom: 20px;
 }
 #why .icon-large {
   font-size: 22px;
-  text-align: center;
-  padding-right: 4px;
+  padding-right: 5px;
 }
 #examples .btn-toolbar {
   margin-top: 0;
@@ -5716,8 +6216,8 @@ h6 {
   width: 330px;
 }
 .modal .modal-body .icon6 > div.thumbnail > div {
-  line-height: 280px;
-  height: 280px;
+  line-height: 308px;
+  height: 294px;
   text-align: center;
 }
 .modal .modal-body .icon6 > div.thumbnail > div i {
@@ -5727,8 +6227,8 @@ h6 {
   width: 180px;
 }
 .modal .modal-body .icon5 > div.thumbnail > div {
-  line-height: 140px;
-  height: 140px;
+  line-height: 154px;
+  height: 147px;
   text-align: center;
 }
 .modal .modal-body .icon5 > div.thumbnail > div i {
@@ -5738,8 +6238,8 @@ h6 {
   width: 215px;
 }
 .modal .modal-body .icon4 > div.thumbnail > div {
-  line-height: 112px;
-  height: 112px;
+  line-height: 123.20000000000002px;
+  height: 117.60000000000001px;
   text-align: center;
 }
 .modal .modal-body .icon4 > div.thumbnail > div i {
@@ -5749,8 +6249,8 @@ h6 {
   width: 120px;
 }
 .modal .modal-body .icon3 > div.thumbnail > div {
-  line-height: 56px;
-  height: 56px;
+  line-height: 61.60000000000001px;
+  height: 58.800000000000004px;
   text-align: center;
 }
 .modal .modal-body .icon3 > div.thumbnail > div i {
@@ -5760,8 +6260,8 @@ h6 {
   width: 75px;
 }
 .modal .modal-body .icon2 > div.thumbnail > div {
-  line-height: 28px;
-  height: 28px;
+  line-height: 30.800000000000004px;
+  height: 29.400000000000002px;
   text-align: center;
 }
 .modal .modal-body .icon2 > div.thumbnail > div i {
@@ -5771,8 +6271,8 @@ h6 {
   width: 60px;
 }
 .modal .modal-body .icon1 > div.thumbnail > div {
-  line-height: 14px;
-  height: 14px;
+  line-height: 15.400000000000002px;
+  height: 14.700000000000001px;
   text-align: center;
 }
 .modal .modal-body .icon1 > div.thumbnail > div i {

@@ -41,21 +41,33 @@
 </head>
 <body>
 
-<!--for navigation-->
-<div id="overview"></div>
-
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
       <a class="brand" href="#"><i class="icon-flag"></i> Font Awesome</a>
       <ul class="nav">
-        <li><a href="#overview">Overview</a></li>
-        <li><a href="#new-icons">New Icons</a></li>
-        <li><a href="#all-icons">All Icons</a></li>
+        <li><a href="#whats-new">What's New</a></li>
+        <li class="dropdown">
+          <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+            Icons
+            <i class="icon-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#icons-new">New Icons</a></li>
+            <li class="divider"></li>
+            <li class="nav-header">All Icons</li>
+            <li><a href="#icons-web-app">Web Application</a></li>
+            <li><a href="#icons-text-editor">Text Editor</a></li>
+            <li><a href="#icons-directional">Directional</a></li>
+            <li><a href="#icons-video-player">Video Player</a></li>
+            <li><a href="#icons-social">Social</a></li>
+            <li><a href="#icons-medical">Medical</a></li>
+          </ul>
+        </li>
         <li><a href="#examples">Examples</a></li>
         <li><a href="#integration">Integration</a></li>
         <li><a href="#code">Code</a></li>
-        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#whats-next">What's Next</a></li>
       </ul>
       <ul class="nav pull-right">
         <li><a href="mailto:dave@davegandy.com"><i class="icon-envelope"></i> Me</a></li>
@@ -65,71 +77,82 @@
 </div>
 
 
-<div class="hero-unit">
+<div class="jumbotron">
 <div class="container">
-  <div id="iconCarousel" class="carousel slide">
-    <!-- Carousel items -->
-    <div class="carousel-inner">
-      <div class="active item"><div><i class="icon-flag"></i></div></div>
-      <div class="item"><div><i class="icon-magic"></i></div></div>
-      <div class="item"><div><i class="icon-beaker"></i></div></div>
-      <div class="item"><div><i class="icon-briefcase"></i></div></div>
-      <div class="item"><div><i class="icon-bullhorn"></i></div></div>
-      <div class="item"><div><i class="icon-umbrella"></i></div></div>
-      <div class="item"><div><i class="icon-star-empty"></i></div></div>
-      <div class="item"><div><i class="icon-envelope"></i></div></div>
-      <div class="item"><div><i class="icon-leaf"></i></div></div>
-      <div class="item"><div><i class="icon-key"></i></div></div>
-      <div class="item"><div><i class="icon-book"></i></div></div>
-      <div class="item"><div><i class="icon-tint"></i></div></div>
-      <div class="item"><div><i class="icon-edit"></i></div></div>
-      <div class="item"><div><i class="icon-search"></i></div></div>
-      <div class="item"><div><i class="icon-home"></i></div></div>
-      <div class="item"><div><i class="icon-picture"></i></div></div>
-      <div class="item"><div><i class="icon-headphones"></i></div></div>
-      <div class="item"><div><i class="icon-heart-empty"></i></div></div>
-      <div class="item"><div><i class="icon-thumbs-up"></i></div></div>
-      <div class="item"><div><i class="icon-flag"></i></div></div>
+  <div class="row">
+    <div class="span8">
+      <div class="hero-content">
+        <h1>Font Awesome</h1>
+        <p>The iconic font designed for<br>use with Twitter Bootstrap</p>
+        <div class="actions">
+          <a class="btn btn-primary btn-large" href="https://github.com/FortAwesome/Font-Awesome/zipball/master"
+             onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
+            <i class="icon-download icon-2x pull-left"></i>
+            Download Font<br>Awesome 3.0</a>
+          <a class="btn btn-large btn-github" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"
+             onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'View Project on GitHub']);">
+            <i class="icon-github icon-2x pull-left"></i>
+            View Project<br>on GitHub</a>
+        </div>
+      </div>
     </div>
-    <!-- Carousel nav -->
-    <a class="carousel-control left" href="#iconCarousel" data-slide="prev"
-        onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Prev']);">
-      <i class="icon-arrow-left"></i></a>
-    <a class="carousel-control right" href="#iconCarousel" data-slide="next"
-        onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Next']);">
-      <i class="icon-arrow-right"></i></a>
-  </div>
-  <div class="hero-content">
-    <h1>Font Awesome</h1>
-    <p>The iconic font designed for<br>use with Twitter Bootstrap</p>
-    <div class="actions">
-      <a class="btn btn-primary btn-large" href="https://github.com/FortAwesome/Font-Awesome/zipball/master"
-          onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
-        <i class="icon-download"></i>Download Font<br>Awesome v3.0</a>
-      <a class="btn btn-large btn-github" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"
-          onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'View Project on GitHub']);">
-        <i class="icon-github-sign"></i>View Project<br>on GitHub</a>
+    <div class="span4">
+      <div id="iconCarousel" class="carousel slide">
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+          <div class="item"><div><i class="icon-flag"></i></div></div>
+          <div class="item"><div><i class="icon-cloud-download"></i></div></div>
+          <div class="item"><div><i class="icon-lightbulb"></i></div></div>
+          <div class="item"><div><i class="icon-user-md"></i></div></div>
+          <div class="active item"><div><i class="icon-group"></i></div></div>
+          <div class="item"><div><i class="icon-ambulance"></i></div></div>
+          <div class="item"><div><i class="icon-star-empty"></i></div></div>
+          <div class="item"><div><i class="icon-envelope"></i></div></div>
+          <div class="item"><div><i class="icon-coffee"></i></div></div>
+          <div class="item"><div><i class="icon-medkit"></i></div></div>
+          <div class="item"><div><i class="icon-book"></i></div></div>
+          <div class="item"><div><i class="icon-fighter-jet"></i></div></div>
+          <div class="item"><div><i class="icon-edit"></i></div></div>
+          <div class="item"><div><i class="icon-search"></i></div></div>
+          <div class="item"><div><i class="icon-beer"></i></div></div>
+          <div class="item"><div><i class="icon-stethoscope"></i></div></div>
+          <div class="item"><div><i class="icon-hospital"></i></div></div>
+          <div class="item"><div><i class="icon-heart-empty"></i></div></div>
+          <div class="item"><div><i class="icon-thumbs-up"></i></div></div>
+          <div class="item"><div><i class="icon-flag"></i></div></div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#iconCarousel" data-slide="prev"
+           onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Prev']);">
+          <i class="icon-arrow-left"></i></a>
+        <a class="carousel-control right" href="#iconCarousel" data-slide="next"
+           onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Next']);">
+          <i class="icon-arrow-right"></i></a>
+      </div>
     </div>
   </div>
+
 </div>
 </div>
 
-<div class="container">
 <section id="social-buttons">
-  <span class="watch">
-    <a class="btn" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"><i class="icon-github"></i> Watch</a>
-    <a id="watchers" class="count btn" href="https://github.com/FortAwesome/Font-Awesome">3900+</a>
-  </span>
-  <span class="fork">
-    <a class="btn" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"><i class="icon-github"></i> Fork</a>
-    <a id="forks" class="count btn" href="#">200+</a>
-  </span>
-  <span class="follow">
-    <a class="btn" href="http://twitter.com/fortaweso_me/" target="_blank"><i class="icon-twitter"></i> Follow @fortaweso_me</a>
-    <span class="arrow-right"></span><span id="followers" class="count btn">1000+</span>
-  </span>
+  <div class="container">
+    <span class="watch">
+      <a class="btn btn-mini" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"><i class="icon-github icon-large"></i> Watch</a>
+      <a id="watchers" class="count btn btn-mini" href="https://github.com/FortAwesome/Font-Awesome">9000+</a>
+    </span>
+    <span class="fork">
+      <a class="btn btn-mini" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"><i class="icon-github icon-large"></i> Fork</a>
+      <a id="forks" class="count btn btn-mini" href="#">800+</a>
+    </span>
+    <span class="follow">
+      <a class="btn btn-mini" href="http://twitter.com/fortaweso_me/" target="_blank"><i class="icon-twitter icon-large"></i> Follow @fortaweso_me</a>
+      <span id="followers" class="count btn btn-mini">2500+</span>
+    </span>
+  </div>
 </section>
 
+<div class="container">
 <section id="why">
   <div class="row">
     <div class="span4">
@@ -176,7 +199,7 @@
 </section>
 
 <section id="whats-new">
-  <h1>What's new in Font Awesome 3.0</h1>
+  <h2 class="page-header">What's new in Font Awesome 3.0</h2>
   <div class="row">
     <div class="span4">
       <h4>LGPL Compliant</h4>
@@ -188,15 +211,14 @@
     </div>
     <div class="span4">
       <h4>Font Sub-setting</h4>
-      Thanks to @someone, <a href="#">sub-setting</a> is now possible, so you get just the icons you need
-
+      Thanks to <a target="_blank" href="https://twitter.com/grantgordon">@grantgordon</a> and <a target="_blank" href="https://twitter.com/johnsmclay">@johnsmclay</a>, <a href="#">sub-setting</a> is now possible, so you get just the icons you need.
     </div>
   </div>
 </section>
 
-<section id="new-icons" class="row">
+<section id="icons-new" class="row">
   <div class="span12">
-    <h1>New Icons in 3.0</h1>
+    <h2 class="page-header">New Icons in 3.0</h2>
     <p>You asked, Font Awesome delivers with 70 shiny new icons in version 2.0. This giant set of new icons was requested on the Font Awesome GitHub project and includes icon parity with Bootstrap 2.0.3.</p>
   </div>
 
@@ -206,10 +228,8 @@
       <li><i class="icon-exchange"></i> icon-exchange</li>
       <li><i class="icon-cloud-download"></i> icon-cloud-download</li>
       <li><i class="icon-cloud-upload"></i> icon-cloud-upload</li>
-
-
       <li><i class="icon-user-md"></i> icon-user-md</li>
-      <li><i class="icon-stethescope"></i> icon-stethescope</li>
+      <li><i class="icon-stethoscope"></i> icon-stethoscope</li>
       <li><i class="icon-briefcase"></i> icon-briefcase</li>
       <li><i class="icon-bell-alt"></i> icon-bell-alt</li>
       <li><i class="icon-coffee"></i> icon-coffee</li>
@@ -220,19 +240,15 @@
       <li><i class="icon-ambulance"></i> icon-ambulance</li>
       <li><i class="icon-medkit"></i> icon-medkit</li>
       <li><i class="icon-fighter-jet"></i> icon-figher-jet</li>
+      <li><i class="icon-beer"></i> icon-beer</li>
     </ul>
   </div>
 </section>
 
 
-<section id="all-icons" class="row">
+<section id="icons-web-app" class="row">
   <div class="span12">
-    <h1>All Icons by Category</h1>
-    <!--<p>Inspired by the Glyphicon set that comes with <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap 2.0</a>, Font Awesome is designed from scratch for a full array of web-related actions.</p>-->
-  </div>
-
-  <div class="span12">
-    <h3>Web Application Icons</h3>
+    <h2 class="page-header">Web Application Icons</h2>
   </div>
   <div class="span3">
     <ul class="the-icons">
@@ -380,9 +396,11 @@
       <li><i class="icon-zoom-out"></i> icon-zoom-out</li>
     </ul>
   </div>
+</section>
 
+<section id="icons-text-editor" class="row">
   <div class="span12">
-    <h3>Text Editor Icons</h3>
+    <h2 class="page-header">Text Editor Icons</h2>
   </div>
   <div class="span3">
     <ul class="the-icons">
@@ -431,9 +449,11 @@
       <li><i class="icon-list-alt"></i> icon-list-alt</li>
     </ul>
   </div>
+</section>
 
+<section id="icons-directional" class="row">
   <div class="span12">
-    <h3>Directional Icons</h3>
+    <h2 class="page-header">Directional Icons</h2>
   </div>
   <div class="span3">
     <ul class="the-icons">
@@ -471,9 +491,11 @@
       <li><i class="icon-chevron-up"></i> icon-chevron-up</li>
     </ul>
   </div>
+</section>
 
+<section id="icons-video-player" class="row">
   <div class="span12">
-    <h3>Video Player Icons</h3>
+    <h2 class="page-header">Video Player Icons</h2>
   </div>
   <div class="span3">
     <ul class="the-icons">
@@ -505,9 +527,11 @@
       <li><i class="icon-resize-small"></i> icon-resize-small</li>
     </ul>
   </div>
+</section>
 
+<section id="icons-social" class="row">
   <div class="span12">
-    <h3>Social Icons</h3>
+    <h2 class="page-header">Social Icons</h2>
   </div>
   <div class="span3">
     <ul class="the-icons">
@@ -540,11 +564,39 @@
       <li><i class="icon-sign-blank"></i> icon-sign-blank</li>
     </ul>
   </div>
+</section>
+
+<section id="icons-medical" class="row">
+  <div class="span12">
+    <h2 class="page-header">Medical Icons <small>Join me at Kyruus</small></h2>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-ambulance"></i> icon-ambulance</li>
+      <li><i class="icon-beaker"></i> icon-beaker</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-hospital"></i> icon-hospital</li>
+      <li><i class="icon-medkit"></i> icon-medkit</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-stethoscope"></i> icon-stethoscope</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-user-md"></i> icon-user-md</li>
+    </ul>
+  </div>
 
 </section>
 
 <section id="examples">
-  <h1>Examples</h1>
+  <h2 class="page-header">Examples</h2>
   <p>Many examples re-used from the Twitter Bootstrap documentation.</p>
   <div class="row">
     <div class="span4">
@@ -562,14 +614,14 @@
     </div>
     <div class="span4">
       <p>
-        <a class="btn" href="#"><i class="icon-refresh"></i> Refresh</a>
+        <a class="btn" href="#"><i class="icon-repeat"></i> Reload</a>
         <a class="btn btn-success" href="#"><i class="icon-shopping-cart icon-large"></i> Checkout</a>
         <a class="btn btn-danger" href="#"><i class="icon-trash icon-large"></i> Delete</a>
       </p>
       <p>
         <a class="btn btn-large btn-primary" href="#"><i class="icon-comment"></i> Comment</a>
         <a class="btn btn-small" href="#"><i class="icon-cog"></i> Settings</a>
-        <a class="btn btn-small btn-info" href="#"><i class="icon-info-sign"></i> More Info</a>
+        <a class="btn btn-small btn-info" href="#"><i class="icon-info-sign"></i> Info</a>
       </p>
       <div class="well" style="padding: 8px 0;">
         <ul class="nav nav-list">
@@ -628,11 +680,11 @@
 </section>
 
 <section id="integration">
-  <h1>Integration</h1>
+  <h2 class="page-header">Integration</h2>
   <p>It's easy to integrate Font Awesome into Twitter Bootstrap, or even use it on its own.</p>
   <div class="row">
     <div class="span3">
-      <h3>Bootstrap using LESS</h3>
+      <h4>Bootstrap using LESS</h4>
       <p>Use this method if integrating with Twitter Bootstrap using LESS</p>
     </div>
     <div class="span9">
@@ -662,12 +714,12 @@
   </div>
   <div class="row">
     <div class="span3">
-      <h3>Bootstrap using CSS</h3>
+      <h4>Bootstrap using CSS</h4>
       <p>Use this method if integrating with Twitter Bootstrap using CSS.</p>
     </div>
     <div class="span9">
       <ol>
-        <li>Customize Twitter Bootstrap <a href="http://twitter.github.com/bootstrap/download.html" target="_blank">here</a>. Make sure to uncheck the default "Icons" under "Base CSS."</li>
+        <li>Customize Twitter Bootstrap <a href="http://twitter.github.com/bootstrap/customize.html" target="_blank">here</a>. Make sure to uncheck the default "Icons" under "Base CSS."</li>
         <li>Copy the Font Awesome font directory into your project.</li>
         <li>Copy font-awesome.css into your project.</li>
         <li>Open your project's font-awesome.css and edit the font url to ensure it points to the right place (see above example).</li>
@@ -684,7 +736,7 @@
   </div>
   <div class="row">
     <div class="span3">
-      <h3>Not using Bootstrap?</h3>
+      <h4>Not using Bootstrap?</h4>
       <p>Font Awesome works just as well without Twitter Bootstrap.</p>
     </div>
     <div class="span9">
@@ -699,32 +751,32 @@
 </section>
 
 <section id="code">
-<h1>Code</h1>
+<h2 class="page-header">Code</h2>
 <div class="row">
   <div class="span3">
-    <h3>Inline Icon</h3>
+    <h4>Inline Icon</h4>
     <p>Place Font Awesome icons just about anywhere with the <code>&lt;i&gt;</code> tag.</p>
   </div>
   <div class="span9">
     <div class="well">
-      <div style="font-size: 24px;">
+      <div style="font-size: 24px; line-height: 1.5em;">
         <i class="icon-camera-retro"></i> icon-camera-retro
       </div>
     </div>
 <pre class="prettyprint linenums">
-&lt;div style="font-size: 24px;"&gt;
+&lt;div style="font-size: 24px; line-height: 1.5em;"&gt;
   &lt;i class="icon-camera-retro"&gt;&lt;/i&gt; icon-camera-retro
 &lt;/div&gt;
 </pre>
     <div class="alert alert-info"><i class="icon-info-sign"></i> Icon classes are echoed via CSS :before.</div>
     <p>Increase the icon size by using the <code>icon-large</code> class. This increases the size by 33% relative to the font-size of the container.</p>
     <div class="well">
-      <div style="font-size: 24px;">
+      <div style="font-size: 24px; line-height: 1.5em;">
         <i class="icon-camera-retro icon-large"></i> icon-camera-retro
       </div>
     </div>
 <pre class="prettyprint linenums">
-&lt;div style="font-size: 24px;"&gt;
+&lt;div style="font-size: 24px; line-height: 1.5em;"&gt;
   &lt;i class="icon-camera-retro icon-large"&gt;&lt;/i&gt; icon-camera-retro
 &lt;/div&gt;
 </pre>
@@ -732,49 +784,47 @@
 </div>
 <div class="row">
   <div class="span3">
-    <h3>Buttons</h3>
-    <p>
+    <h4>Buttons</h4>
     <p>
       <a class="btn" href="#">
-        <i class="icon-refresh"></i> Refresh</a>
+        <i class="icon-repeat"></i> Reload</a>
       <a class="btn btn-success" href="#">
         <i class="icon-shopping-cart icon-large"></i> Checkout</a>
     </p>
     <p>
       <a class="btn btn-large btn-primary" href="#">
         <i class="icon-comment"></i> Comment</a>
-      <a class="btn btn-danger" href="#">
-        <i class="icon-trash icon-large"></i> Delete</a>
+      <a class="btn btn-small btn-info" href="#">
+        <i class="icon-info-sign"></i> Info</a>
     </p>
     <p>
+      <a class="btn btn-danger" href="#">
+        <i class="icon-trash icon-large"></i> Delete</a>
       <a class="btn btn-small" href="#">
         <i class="icon-cog"></i> Settings</a>
-      <a class="btn btn-small btn-info" href="#">
-        <i class="icon-info-sign"></i> More Info</a>
-    </p>
     </p>
   </div>
   <div class="span9">
     <p>Font Awesome icons work great in buttons.</p>
 <pre class="prettyprint linenums">
 &lt;a class="btn" href="#"&gt;
-  &lt;i class="icon-refresh"&gt;&lt;/i&gt; Refresh&lt;/a&gt;
+  &lt;i class="icon-repeat"&gt;&lt;/i&gt; Reload&lt;/a&gt;
 &lt;a class="btn btn-success" href="#"&gt;
   &lt;i class="icon-shopping-cart icon-large"&gt;&lt;/i&gt; Checkout&lt;/a&gt;
 &lt;a class="btn btn-large btn-primary" href="#"&gt;
   &lt;i class="icon-comment"&gt;&lt;/i&gt; Comment&lt;/a&gt;
+&lt;a class="btn btn-small btn-info" href="#"&gt;
+  &lt;i class="icon-info-sign"&gt;&lt;/i&gt; Info&lt;/a&gt;
 &lt;a class="btn btn-danger" href="#"&gt;
   &lt;i class="icon-trash icon-large"&gt;&lt;/i&gt; Delete&lt;/a&gt;
 &lt;a class="btn btn-small" href="#"&gt;
   &lt;i class="icon-cog"&gt;&lt;/i&gt; Settings&lt;/a&gt;
-&lt;a class="btn btn-small btn-info" href="#"&gt;
-  &lt;i class="icon-info-sign"&gt;&lt;/i&gt; More Info&lt;/a&gt;
 </pre>
   </div>
 </div>
 <div class="row">
   <div class="span3">
-    <h3>Button groups</h3>
+    <h4>Button groups</h4>
     <p>
     <div class="btn-group">
       <a class="btn" href="#"><i class="icon-align-left"></i></a>
@@ -797,7 +847,7 @@
 </div>
 <div class="row">
   <div class="span3">
-    <h3>Button dropdowns</h3>
+    <h4>Button dropdowns</h4>
     <p>
     <div class="btn-group">
       <a class="btn btn-primary" href="#"><i class="icon-user"></i> User</a>
@@ -832,7 +882,7 @@
 </div>
 <div class="row">
   <div class="span3">
-    <h3>Lists</h3>
+    <h4>Lists</h4>
     <p>
     <ul class="icons">
       <li><i class="icon-ok"></i> Lists</li>
@@ -858,7 +908,7 @@
 </div>
 <div class="row">
   <div class="span3">
-    <h3>Navigation</h3>
+    <h4>Navigation</h4>
     <div class="well" style="padding: 8px 0;">
       <ul class="nav nav-list">
         <li class="active"><a href="#"><i class="icon-home"></i> Home</a></li>
@@ -882,7 +932,7 @@
 </div>
 <div class="row">
   <div class="span3">
-    <h3>Prepended form inputs</h3>
+    <h4>Prepended form inputs</h4>
     <p>
     <form>
       <div class="input-prepend">
@@ -913,30 +963,48 @@
 </div>
 <div class="row">
   <div class="span3">
-    <h3>Custom CSS</h3>
+    <h4>Custom CSS</h4>
     <p>Anything you can do with CSS font effects, you can do with Font Awesome.</p>
   </div>
   <div class="span9">
     <p>Star Ratings (inspired by <a href="http://css-tricks.com/star-ratings/" target="_blank">CSS Tricks</a>)</p>
     <div class="well">
-                    <span class="rating">
-                        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
-                    </span>
+      <span class="rating">
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+      </span>
     </div>
   </div>
 </div>
 </section>
 
-<section id="roadmap">
-  <h1>Roadmap</h1>
+<section id="whats-next">
+  <h2 class="page-header">What's next</h2>
   <p>Here's the plan for future updates.</p>
   <ul class="icons">
     <li><i class="icon-plus"></i> Font sub-setting. Keep your font file sizes small by only using the icons you need.</li>
     <li><i class="icon-plus"></i> Better hinting for smaller font sizes.</li>
     <li><i class="icon-plus"></i> More icons. Have any requests? <a href="https://github.com/FortAwesome/Font-Awesome/issues" target="_blank">Open an issue</a> in the Font Awesome GitHub project.</li>
-    <li><i class="icon-plus"></i> More complete Twitter Bootstrap compatibility.</li>
     <li><i class="icon-plus"></i> Tricks and tips for super-awesome creative CSS methods, like the star example above.</li>
   </ul>
+</section>
+
+<section id="fort-awesome">
+  <h2 class="page-header">Fort Awesome? Font Awesome?</h2>
+  <div class="row">
+    <div class="span8">
+      <div class="lead">
+        <p><strong>Fort Awesome</strong> is a magical place. A place of wonder and... magic. It's just like Xanadu, but without that dorky name.</p>
+        <p>So magical, in fact, that <strong>Font Awesome</strong> was forged from its depths. Who can tell what may happen next...</p>
+      </div>
+      <small>Fort Awesome is the organization, Font Awesome is the project. It's not a spelling error.</small>
+    </div>
+    <div class="span4">
+      <div>
+        <img class="img-rounded" src="assets/img/fort_awesome.jpg">
+      </div>
+      <div class="caption text-align-right">Harvard Yard, 2005. &copy; DG.</div>
+    </div>
+  </div>
 </section>
 
 <footer>
@@ -945,7 +1013,7 @@
       <h2>Contact</h2>
       <ul class="icons">
         <li><i class="icon-envelope"></i> Email: <a href="mailto:dave@davegandy.com">Dave Gandy</a></li>
-        <li><i class="icon-twitter"></i> Twitter: <a href="http://twitter.com/fortaweso_me/" target="_blank">@FortAweso_me</a></li>
+        <li><i class="icon-twitter"></i> Twitter: <a href="https://twitter.com/fortaweso_me/" target="_blank">@FortAweso_me</a></li>
         <li><i class="icon-wrench"></i> Work: Lead Product Designer @ <a href="http://kyruus.com" target="_blank">Kyruus</a></li>
       </ul>
     </div>
@@ -961,8 +1029,8 @@
   </div>
   <div>
     <h2>Special Thanks</h2>
-    Special thanks to <a href="http://twitter.com/robmadole/" target="_blank">@robmadole</a> and
-    <a href="http://twitter.com/supercodepoet/" target="_blank">@supercodepoet</a> for icon design
+    Special thanks to <a href="https://twitter.com/robmadole/" target="_blank">@robmadole</a> and
+    <a href="https://twitter.com/supercodepoet/" target="_blank">@supercodepoet</a> for icon design
     review, advice, and some backbone.js help.
   </div>
 </footer>
@@ -974,7 +1042,7 @@
   <div class="modal hide fade in">
     <div class="modal-header">
       <a class="close" data-dismiss="modal"><i class="icon-remove"></i></a>
-      <h3><%= iconName %></h3>
+      <h4><%= iconName %></h4>
     </div>
     <div class="modal-body">
       <div class="row">
@@ -1025,18 +1093,7 @@
 <script src="assets/js/underscore.min.js"></script>
 <script src="assets/js/backbone.min.js"></script>
 <script src="assets/js/prettify.min.js"></script>
-<script src="assets/js/tw-bs-201/bootstrap-transition.js"></script>
-<script src="assets/js/tw-bs-201/bootstrap-alert.js"></script>
-<script src="assets/js/tw-bs-201/bootstrap-modal.js"></script>
-<script src="assets/js/tw-bs-201/bootstrap-dropdown.js"></script>
-<script src="assets/js/tw-bs-201/bootstrap-scrollspy.js"></script>
-<script src="assets/js/tw-bs-201/bootstrap-tab.js"></script>
-<script src="assets/js/tw-bs-201/bootstrap-tooltip.js"></script>
-<script src="assets/js/tw-bs-201/bootstrap-popover.js"></script>
-<script src="assets/js/tw-bs-201/bootstrap-button.js"></script>
-<script src="assets/js/tw-bs-201/bootstrap-collapse.js"></script>
-<script src="assets/js/tw-bs-201/bootstrap-carousel.js"></script>
-<script src="assets/js/tw-bs-201/bootstrap-typeahead.js"></script>
+<script src="assets/js/bootstrap-222.min.js"></script>
 <script src="assets/js/index/index.js"></script>
 
 </body>
