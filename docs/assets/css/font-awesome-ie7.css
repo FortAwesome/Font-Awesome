@@ -663,41 +663,92 @@
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ee;');
 }
 .icon-user-md {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf200;');
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f0;');
 }
 .icon-stethoscope {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf201;');
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f1;');
 }
-.icon-briefcase {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf202;');
+.icon-suitcase {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f2;');
 }
 .icon-bell-alt {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf203;');
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f3;');
 }
 .icon-coffee {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf204;');
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f4;');
 }
 .icon-food {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf205;');
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f5;');
 }
 .icon-file-alt {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf206;');
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f6;');
 }
 .icon-building {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf207;');
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f7;');
 }
 .icon-hospital {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf208;');
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f8;');
 }
 .icon-ambulance {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf209;');
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f9;');
 }
 .icon-medkit {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf20a;');
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0fa;');
 }
 .icon-fighter-jet {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf20b;');
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0fb;');
 }
 .icon-beer {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf20c;');
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0fc;');
+}
+.icon-h-sign {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0fd;');
+}
+.icon-plus-sign-alt {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0fe;');
+}
+.icon-double-angle-left {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf100;');
+}
+.icon-double-angle-right {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf101;');
+}
+.icon-double-angle-up {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf102;');
+}
+.icon-double-angle-down {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf103;');
+}
+.icon-angle-left {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf104;');
+}
+.icon-angle-right {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf105;');
+}
+.icon-angle-up {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf106;');
+}
+.icon-angle-down {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf107;');
+}
+.icon-desktop {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf108;');
+}
+.icon-laptop {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf109;');
+}
+.icon-tablet {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10a;');
+}
+.icon-mobile-phone {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10b;');
+}
+.icon-circle-blank {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10c;');
+}
+.icon-quote-left {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10d;');
+}
+.icon-quote-right {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10e;');
 }

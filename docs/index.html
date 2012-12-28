@@ -39,7 +39,7 @@
     })();
   </script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar">
 
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
@@ -94,17 +94,19 @@
             <i class="icon-github icon-2x pull-left"></i>
             View Project<br>on GitHub</a>
         </div>
+        <div class="shameless-self-promotion">
+          Version 3.0.0 • Created & Maintained by Dave Gandy
+        </div>
       </div>
     </div>
     <div class="span4">
       <div id="iconCarousel" class="carousel slide">
         <!-- Carousel items -->
         <div class="carousel-inner">
-          <div class="item"><div><i class="icon-flag"></i></div></div>
+          <div class="active item"><div><i class="icon-flag"></i></div></div>
           <div class="item"><div><i class="icon-cloud-download"></i></div></div>
           <div class="item"><div><i class="icon-lightbulb"></i></div></div>
-          <div class="item"><div><i class="icon-user-md"></i></div></div>
-          <div class="active item"><div><i class="icon-group"></i></div></div>
+          <div class="item"><div><i class="icon-group"></i></div></div>
           <div class="item"><div><i class="icon-ambulance"></i></div></div>
           <div class="item"><div><i class="icon-star-empty"></i></div></div>
           <div class="item"><div><i class="icon-envelope"></i></div></div>
@@ -156,26 +158,26 @@
 <section id="why">
   <div class="row">
     <div class="span4">
-      <h4><i class="icon-bullhorn icon-large"></i> Desktop Font + Vectors</h4>
-      The full desktop font and a pdf of vectors are now included. Happy designing.
+      <h4><i class="icon-flag icon-large"></i> One font, 236 icons</h4>
+      In a single collection, Font Awesome is a pictographic language of web-related actions.
     </div>
     <div class="span4">
-      <h4><i class="icon-beaker icon-large"></i> 70 New Icons in v2.0</h4>
-      All requested by our active community on the <a href="https://github.com/FortAwesome/Font-Awesome" target="_blank">Font Awesome GitHub project</a>.
+      <h4><i class="icon-pencil icon-large"></i> CSS control</h4>
+      Easily style icon color, size, shadow, and anything that's possible with CSS.
     </div>
     <div class="span4">
-      <h4><i class="icon-ok icon-large"></i> IE7 Support</h4>
-      Font Awesome v2.0 now even supports IE7. If you need it, you have my condolences.
+      <h4><i class="icon-fullscreen icon-large"></i> Infinite scalability</h4>
+      Scalable vector graphics means every icon looks awesome at any size.
     </div>
   </div>
   <div class="row">
     <div class="span4">
-      <h4><i class="icon-flag icon-large"></i> One font, 220 icons</h4>
-      In a single collection, Font Awesome is a pictographic language of web-related actions.
+      <h4><i class="icon-bullhorn icon-large"></i> Desktop Font + Vectors</h4>
+      The full desktop font and a pdf of vectors are included. Happy designing.
     </div>
     <div class="span4">
-      <h4><i class="icon-gift icon-large"></i> Free for commercial use</h4>
-      The Font Awesome webfont and CSS libraries are completely free for commercial use.
+      <h4><i class="icon-ok icon-large"></i> IE7 Support</h4>
+      Font Awesome supports IE7. If you need it, you have my condolences.
     </div>
     <div class="span4">
       <h4><i class="icon-search icon-large"></i> Screen reader compatible</h4>
@@ -184,16 +186,12 @@
   </div>
   <div class="row">
     <div class="span4">
+      <h4><i class="icon-beer icon-large"></i> Free, as in Beer</h4>
+      Font Awesome is completely free for commercial use.
+    </div>
+    <div class="span4">
       <h4><i class="icon-thumbs-up icon-large"></i> Made for Twitter Bootstrap</h4>
       Designed from scratch to be fully backwards compatible with <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap 2.0</a>.
-    </div>
-    <div class="span4">
-      <h4><i class="icon-pencil icon-large"></i> CSS control</h4>
-      Easily style icon color, size, shadow, and anything that's possible with CSS.
-    </div>
-    <div class="span4">
-      <h4><i class="icon-resize-full icon-large"></i> Infinite scalability</h4>
-      Scalable vector graphics means icons look awesome at any size.
     </div>
   </div>
 </section>
@@ -202,15 +200,25 @@
   <h2 class="page-header">What's new in Font Awesome 3.0</h2>
   <div class="row">
     <div class="span4">
-      <h4>LGPL Compliant</h4>
-      No more attribution required, but much appreciated.
+      <h4><i class="icon-magic icon-large"></i> Pixel Perfection at 14px</h4>
+      Every icon re-created from the ground up to be optimized for Bootstrap's default 14px.
     </div>
     <div class="span4">
-      <h4>25% smaller size</h4>
-      More compact file size for faster page loads.
+      <h4><i class="icon-legal icon-large"></i> Better License</h4>
+      SIL open font license, Apache 2.0 for code. No more attribution required, but much appreciated.
     </div>
     <div class="span4">
-      <h4>Font Sub-setting</h4>
+      <h4><i class="icon-circle-arrow-down icon-large"></i> 25% smaller size</h4>
+      Smaller, even with more icons. More compact file size for faster page loads.
+    </div>
+  </div>
+  <div class="row">
+    <div class="span4">
+      <h4><i class="icon-beaker icon-large"></i> 27 New Icons in 3.0.0</h4>
+      All requested by our active community on the <a href="https://github.com/FortAwesome/Font-Awesome" target="_blank">Font Awesome GitHub project</a>.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-th-large icon-large"></i> Font Sub-setting</h4>
       Thanks to <a target="_blank" href="https://twitter.com/grantgordon">@grantgordon</a> and <a target="_blank" href="https://twitter.com/johnsmclay">@johnsmclay</a>, <a href="#">sub-setting</a> is now possible, so you get just the icons you need.
     </div>
   </div>
@@ -230,9 +238,13 @@
       <li><i class="icon-cloud-upload"></i> icon-cloud-upload</li>
       <li><i class="icon-user-md"></i> icon-user-md</li>
       <li><i class="icon-stethoscope"></i> icon-stethoscope</li>
-      <li><i class="icon-briefcase"></i> icon-briefcase</li>
+      <li><i class="icon-suitcase"></i> icon-suitcase</li>
       <li><i class="icon-bell-alt"></i> icon-bell-alt</li>
       <li><i class="icon-coffee"></i> icon-coffee</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
       <li><i class="icon-food"></i> icon-food</li>
       <li><i class="icon-file-alt"></i> icon-file-alt</li>
       <li><i class="icon-building"></i> icon-building</li>
@@ -241,10 +253,34 @@
       <li><i class="icon-medkit"></i> icon-medkit</li>
       <li><i class="icon-fighter-jet"></i> icon-figher-jet</li>
       <li><i class="icon-beer"></i> icon-beer</li>
+      <li><i class="icon-h-sign"></i> icon-h-sign</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-plus-sign-alt"></i> icon-plus-sign-alt</li>
+      <li><i class="icon-angle-left"></i> icon-angle-left</li>
+      <li><i class="icon-angle-right"></i> icon-angle-right</li>
+      <li><i class="icon-angle-up"></i> icon-angle-up</li>
+      <li><i class="icon-angle-down"></i> icon-angle-down</li>
+      <li><i class="icon-double-angle-left"></i> icon-double-angle-left</li>
+      <li><i class="icon-double-angle-right"></i> icon-double-angle-right</li>
+      <li><i class="icon-double-angle-up"></i> icon-double-angle-up</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
+      <li><i class="icon-double-angle-down"></i> icon-double-angle-down</li>
+      <li><i class="icon-desktop"></i> icon-desktop</li>
+      <li><i class="icon-laptop"></i> icon-laptop</li>
+      <li><i class="icon-tablet"></i> icon-tablet</li>
+      <li><i class="icon-mobile-phone"></i> icon-mobile-phone</li>
+      <li><i class="icon-circle-blank"></i> icon-circle-blank</li>
+      <li><i class="icon-quote-left"></i> icon-quote-left</li>
+      <li><i class="icon-quote-right"></i> icon-quote-right</li>
     </ul>
   </div>
 </section>
-
 
 <section id="icons-web-app" class="row">
   <div class="span12">
@@ -568,7 +604,7 @@
 
 <section id="icons-medical" class="row">
   <div class="span12">
-    <h2 class="page-header">Medical Icons <small>Join me at Kyruus</small></h2>
+    <h2 class="page-header">Medical Icons <small>Want to truly make healthcare better? Join me at <a href="#">Kyruus</a>.</small></h2>
   </div>
   <div class="span3">
     <ul class="the-icons">
@@ -578,17 +614,19 @@
   </div>
   <div class="span3">
     <ul class="the-icons">
+      <li><i class="icon-h-sign"></i> icon-h-sign</li>
       <li><i class="icon-hospital"></i> icon-hospital</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <ul class="the-icons">
       <li><i class="icon-medkit"></i> icon-medkit</li>
+      <li><i class="icon-plus-sign-alt"></i> icon-plus-sign-alt</li>
     </ul>
   </div>
   <div class="span3">
     <ul class="the-icons">
       <li><i class="icon-stethoscope"></i> icon-stethoscope</li>
-    </ul>
-  </div>
-  <div class="span3">
-    <ul class="the-icons">
       <li><i class="icon-user-md"></i> icon-user-md</li>
     </ul>
   </div>
@@ -671,9 +709,9 @@
         </div>
       </form>
       <div>
-                    <span class="rating">
-                        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
-                    </span>
+        <span class="rating">
+          <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+        </span>
       </div>
     </div>
   </div>
@@ -988,24 +1026,24 @@
   </ul>
 </section>
 
-<section id="fort-awesome">
-  <h2 class="page-header">Fort Awesome? Font Awesome?</h2>
-  <div class="row">
-    <div class="span8">
-      <div class="lead">
-        <p><strong>Fort Awesome</strong> is a magical place. A place of wonder and... magic. It's just like Xanadu, but without that dorky name.</p>
-        <p>So magical, in fact, that <strong>Font Awesome</strong> was forged from its depths. Who can tell what may happen next...</p>
-      </div>
-      <small>Fort Awesome is the organization, Font Awesome is the project. It's not a spelling error.</small>
-    </div>
-    <div class="span4">
-      <div>
-        <img class="img-rounded" src="assets/img/fort_awesome.jpg">
-      </div>
-      <div class="caption text-align-right">Harvard Yard, 2005. &copy; DG.</div>
-    </div>
-  </div>
-</section>
+<!--<section id="fort-awesome">-->
+  <!--<h2 class="page-header">Fort Awesome? Font Awesome?</h2>-->
+  <!--<div class="row">-->
+    <!--<div class="span8">-->
+      <!--<div class="lead">-->
+        <!--<p><strong>Fort Awesome</strong> is a magical place. A place of wonder and... magic. It's just like Xanadu, but without that dorky name.</p>-->
+        <!--<p>So magical, in fact, that <strong>Font Awesome</strong> was forged from its depths. Who can tell what may happen next...</p>-->
+      <!--</div>-->
+      <!--<small>Fort Awesome is the organization, Font Awesome is the project. It's not a spelling error.</small>-->
+    <!--</div>-->
+    <!--<div class="span4">-->
+      <!--<div>-->
+        <!--<img class="img-rounded" src="assets/img/fort_awesome.jpg">-->
+      <!--</div>-->
+      <!--<div class="caption text-align-right">Harvard Yard, 2005. &copy; DG.</div>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</section>-->
 
 <footer>
   <div class="row">
