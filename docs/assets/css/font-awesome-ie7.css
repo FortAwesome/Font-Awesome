@@ -752,3 +752,12 @@
 .icon-quote-right {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10e;');
 }
+.icon-spinner {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf110;');
+}
+.icon-circle {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf111;');
+}
+.icon-reply {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf112;');
+}

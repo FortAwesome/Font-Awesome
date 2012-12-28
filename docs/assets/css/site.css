@@ -5647,6 +5647,15 @@ ul.icons li .icon-large:before {
 .icon-quote-right:before {
   content: "\f10e";
 }
+.icon-spinner:before {
+  content: "\f110";
+}
+.icon-circle:before {
+  content: "\f111";
+}
+.icon-reply:before {
+  content: "\f112";
+}
 .text-align-right {
   text-align: right;
 }
