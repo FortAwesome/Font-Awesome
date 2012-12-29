@@ -184,7 +184,6 @@ section {
   }
 }
 
-
 .the-icons {
   list-style-type: none;
   margin: 0;
@@ -275,10 +274,46 @@ section {
   }
 }
 
+#kyruus {
+  color: @gray;
+  font-size: 18px;
+  &, li { line-height: 25px; }
+  p {
+    margin-bottom: 22px;
+    strong { color: @grayDarker; }
+  }
+  ul {
+    margin-top: 5px;
+    margin-bottom: 22px;
+    li { margin-top: 10px; }
+    i {
+      margin-top: 5px;
+//      margin-right: .4em;
+//      color: mix(@grayLight, @grayLighter, 50%);
+      color: mix(@blue, @blueDark, 50%);
+    }
+  }
+  .border {
+    .icon-medkit { font-size: 224px; }
+    border: solid 10px @grayLighter;
+    padding: 1em 1.5em;
+    margin-left: .2em;
+    .border-radius(10px);
+    a:hover .icon-medkit { text-decoration: none; }
+//    a:hover i { text-decoration: underline; }
+  }
+  a {
+    font-weight: bold;
+    color: mix(@blue, @blueDark, 50%);
+    &:hover {
+      color: @blueDark;
+    }
+  }
+}
 
 .modal {
   width: 560px;
-  max-height: 600px;
+  max-height: 610px;
   .modal-body {
     *overflow: hidden; // ie7 fix
     max-height: none;
@@ -286,7 +321,7 @@ section {
     .row { margin-bottom: 15px; }
     div.thumbnail {
       text-align: center;
-      div { margin-bottom: 5px; }
+      div { margin: 8px; }
     }
     .icon6 {
       width: 330px;

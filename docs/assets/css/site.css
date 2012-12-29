@@ -4726,16 +4726,17 @@ a.badge:hover {
     ------------------------------------------------------- */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+/* includes sprites.less reset */
+[class^="icon-"],
+[class*=" icon-"] {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
-  display: inline-block;
   text-decoration: inherit;
-  speak: none;
-}
-/* sprites.less reset */
-[class^="icon-"],
-[class*=" icon-"] {
   display: inline;
   width: auto;
   height: auto;
@@ -4749,7 +4750,6 @@ a.badge:hover {
 a [class^="icon-"],
 a [class*=" icon-"] {
   display: inline-block;
-  text-decoration: inherit;
 }
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
@@ -4760,6 +4760,7 @@ a [class*=" icon-"] {
 .nav [class^="icon-"],
 .btn [class*=" icon-"],
 .nav [class*=" icon-"] {
+  display: inline;
   /* keeps button heights with and without icons the same */
 
   line-height: .9em;
@@ -5873,9 +5874,55 @@ section {
   content: "\f005";
   color: #e3cf7a;
 }
+#kyruus {
+  color: #555555;
+  font-size: 18px;
+}
+#kyruus,
+#kyruus li {
+  line-height: 25px;
+}
+#kyruus p {
+  margin-bottom: 22px;
+}
+#kyruus p strong {
+  color: #222222;
+}
+#kyruus ul {
+  margin-top: 5px;
+  margin-bottom: 22px;
+}
+#kyruus ul li {
+  margin-top: 10px;
+}
+#kyruus ul i {
+  margin-top: 5px;
+  color: #007dbc;
+}
+#kyruus .border {
+  border: solid 10px #eeeeee;
+  padding: 1em 1.5em;
+  margin-left: .2em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+#kyruus .border .icon-medkit {
+  font-size: 224px;
+}
+#kyruus .border a:hover .icon-medkit {
+  text-decoration: none;
+}
+#kyruus a {
+  font-weight: bold;
+  color: #007dbc;
+}
+#kyruus a:hover {
+  color: #005f9b;
+}
 .modal {
   width: 560px;
-  max-height: 600px;
+  max-height: 610px;
 }
 .modal .modal-body {
   *overflow: hidden;
@@ -5889,7 +5936,7 @@ section {
   text-align: center;
 }
 .modal .modal-body div.thumbnail div {
-  margin-bottom: 5px;
+  margin: 8px;
 }
 .modal .modal-body .icon6 {
   width: 330px;

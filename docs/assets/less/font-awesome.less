@@ -44,17 +44,18 @@
     ------------------------------------------------------- */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  display: inline-block;
   text-decoration: inherit;
+  display: inline-block;
   speak: none;
 }
 
-/* sprites.less reset */
+/* includes sprites.less reset */
 [class^="icon-"],
 [class*=" icon-"] {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
   display: inline;
   width: auto;
   height: auto;
@@ -66,10 +67,11 @@
 }
 
 /* makes sure icons active on rollover in links */
-a [class^="icon-"],
-a [class*=" icon-"] {
-  display: inline-block;
-  text-decoration: inherit;
+a {
+  [class^="icon-"],
+  [class*=" icon-"] {
+    display: inline-block;
+  }
 }
 
 /* makes the font 33% larger relative to the icon container */
@@ -81,7 +83,8 @@ a [class*=" icon-"] {
 .btn, .nav {
   [class^="icon-"],
   [class*=" icon-"] {
-  /* keeps button heights with and without icons the same */
+    display: inline;
+    /* keeps button heights with and without icons the same */
     line-height: .9em;
     &.icon-large {
       line-height: .8em;

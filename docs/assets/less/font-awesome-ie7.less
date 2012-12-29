@@ -1,10 +1,6 @@
 [class^="icon-"],
 [class*=" icon-"] {
-  font-family:FontAwesome;
-  font-style:normal;
-  font-weight:normal;
   padding-right:.3em;
-  text-decoration: inherit;
 }
 
 .icon-large {
@@ -19,15 +15,22 @@
 .btn, .nav {
   [class^="icon-"],
   [class*=" icon-"] {
+    vertical-align: inherit;
     margin-top: -4px;
     padding-top: 3px;
     margin-bottom: -4px;
     padding-bottom: 3px;
+    line-height: .9em;
+    &.icon-large {
+      line-height: .8em;
+    }
   }
 }
 
-
-
+a [class^="icon-"],
+a [class*=" icon-"] {
+  cursor: pointer;
+}
 
 .ie7icon(@inner) {
   *zoom: ~"expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '@{inner}')";
