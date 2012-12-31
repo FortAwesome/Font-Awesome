@@ -44,13 +44,6 @@
 
 /*  Font Awesome styles
     ------------------------------------------------------- */
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  text-decoration: inherit;
-  display: inline-block;
-  speak: none;
-}
-
 /* includes sprites.less reset */
 [class^="icon-"],
 [class*=" icon-"] {
@@ -66,6 +59,13 @@
   background-image: none !important;
   background-position: 0% 0%;
   background-repeat: repeat;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
 }
 
 /* makes sure icons active on rollover in links */
@@ -88,6 +88,9 @@ a {
     display: inline;
     /* keeps button heights with and without icons the same */
     line-height: .6em;
+    &.icon-spin {
+      display: inline-block;
+    }
   }
 }
 
@@ -97,7 +100,6 @@ li {
     display: inline-block;
     width: 1.25em;
     text-align: center;
-    &.icon-large,
     &.icon-large {
     /* 1.5 increased font size for icon-large * 1.25 width */
       width: 1.25*1.25em;
@@ -199,24 +201,13 @@ ul.icons {
 }
 
 
-
 .icon-spin {
   display: inline-block;
-  -moz-animation: spin 1.5s infinite linear;
-  -o-animation: spin 1.5s infinite linear;
-  -webkit-animation: spin 1.5s infinite linear;
-  animation: spin 1.5s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
-
-.btn, .nav {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    &.icon-spin {
-      display: inline-block;
-    }
-  }
-}
-
 
 @-moz-keyframes spin {
   0% { -moz-transform: rotate(0deg); }
