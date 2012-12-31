@@ -22,7 +22,9 @@
 
     */
 
-@FontAwesomePath: "../font";
+@FontAwesomePath:   "../font";
+@borderColor:       #eeeeee;
+.border-radius(@radius) { -webkit-border-radius: @radius; -moz-border-radius: @radius; border-radius: @radius; }
 
 @font-face {
   font-family: 'FontAwesome';
@@ -85,10 +87,7 @@ a {
   [class*=" icon-"] {
     display: inline;
     /* keeps button heights with and without icons the same */
-    line-height: .9em;
-    &.icon-large {
-      line-height: .8em;
-    }
+    line-height: .6em;
   }
 }
 
@@ -125,16 +124,14 @@ ul.icons {
   }
 }
 
-/* Convenience functions */
 // Icon Borders
 // -------------------------
 
 .icon-border {
-  border: solid 1px @grayLighter;
-  padding: .2em .35em .1em;
+  border: solid 1px @borderColor;
+  padding: .2em .25em .15em;
   .border-radius(3px);
 }
-
 
 // Icon Sizes
 // -------------------------
@@ -161,7 +158,6 @@ ul.icons {
   }
 }
 
-
 // Icon Floats
 // -------------------------
 
@@ -169,24 +165,13 @@ ul.icons {
 [class*=" icon-"] {
   &.pull-left {
     margin-right: .35em;
-    &.icon-4x { margin-right: .25em; }
   }
   &.pull-right {
     margin-left: .35em;
-    &.icon-4x { margin-left: .25em; }
   }
 }
 
 .btn {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    &.pull-left, &.pull-right {
-      &.icon-2x { margin-top: .25em; }
-    }
-  }
-}
-
-.btn.btn-small {
   [class^="icon-"],
   [class*=" icon-"] {
     &.pull-left, &.pull-right {
@@ -195,22 +180,43 @@ ul.icons {
   }
 }
 
-.btn.btn-large {
+.btn.btn-small {
   [class^="icon-"],
   [class*=" icon-"] {
     &.pull-left, &.pull-right {
-      &.icon-2x { margin-top: .1em; }
+      &.icon-2x { margin-top: .45em; }
     }
   }
 }
 
+.btn.btn-large {
+  [class^="icon-"],
+  [class*=" icon-"] {
+    &.pull-left, &.pull-right {
+      &.icon-2x { margin-top: .2em; }
+    }
+  }
+}
+
+
+
 .icon-spin {
   display: inline-block;
-  -moz-animation: spin 2s infinite linear;
-  -o-animation: spin 2s infinite linear;
-  -webkit-animation: spin 2s infinite linear;
-  animation: spin 2s infinite linear;
+  -moz-animation: spin 1.5s infinite linear;
+  -o-animation: spin 1.5s infinite linear;
+  -webkit-animation: spin 1.5s infinite linear;
+  animation: spin 1.5s infinite linear;
 }
+
+.btn, .nav {
+  [class^="icon-"],
+  [class*=" icon-"] {
+    &.icon-spin {
+      display: inline-block;
+    }
+  }
+}
+
 
 @-moz-keyframes spin {
   0% { -moz-transform: rotate(0deg); }
@@ -225,13 +231,14 @@ ul.icons {
   100% { -o-transform: rotate(359deg); }
 }
 @-ms-keyframes spin {
-  0% { -ms-transform: rotate(0deg); }
-  100% { -ms-transform: rotate(359deg); }
-}
+0% { -ms-transform: rotate(0deg); }
+100% { -ms-transform: rotate(359deg); }
+  }
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(359deg); }
 }
+
 
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */
