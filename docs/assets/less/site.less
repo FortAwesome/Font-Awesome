@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
 //  background: -ms-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* IE10+ */
 //  background: linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* W3C */
 //  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  border-bottom: 1px solid @redDark;
 
 
 //  margin-bottom: 0;
@@ -121,10 +122,10 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
 //    margin-top: 15px;
     font-weight: bold;
     font-size: 18px;
-    padding: 13px 22px;
+    padding: 13px 23px 13px 22px;
 //    padding-left: 24px + 40;
     margin-right: 10px;
-    .border-radius(8px);
+//    .border-radius(8px);
 //    position: relative;
     text-align: left;
 //    i  {
@@ -132,9 +133,6 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
 //      top: 8px;
 //      left: 15px;
 //      font-size: 46px;
-//    }
-//    &.btn-github {
-//      padding-left: 24px + 42;
 //    }
   }
   .hero-content {
@@ -149,7 +147,11 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
   }
 }
 
-.btn-primary {
+.btn-github {
+  .buttonBackground(mix(@grayLighter, @white, 50%), mix(@grayLighter, @grayLight, 50%));
+}
+
+.btn-primary, .btn-github {
   color: @grayDark;
   text-shadow: 0 -1px 0 rgba(255,255,255,.25);
   &:hover {
@@ -363,14 +365,26 @@ section {
 
 
 footer {
-  color: @gray;
-  border-top: 1px solid @grayLighter;
+//  #gradient > .vertical(@navbarInverseBackgroundHighlight, @navbarInverseBackground);
+  background-color: @red;
+  border-top: 1px solid mix(@red, @redDark, 50%);
+  a {
+    color: @white;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    &:hover {
+      color: @white;
+    }
+
+  }
+
+  color: mix(@red, @white, 35%);
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
   margin-top: 60px;
-  padding-top: 20px;
+  padding-top: 45px;
   padding-bottom: 60px;
   *zoom: 1; // ie7 hack
   ul {
-    margin-left: 30px;
+//    margin-left: 30px;
     line-height: 25px;
   }
 }

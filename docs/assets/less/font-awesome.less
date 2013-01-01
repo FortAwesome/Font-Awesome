@@ -33,9 +33,6 @@
     url('@{FontAwesomePath}/fontawesome-webfont.woff') format('woff'),
     url('@{FontAwesomePath}/fontawesome-webfont.ttf') format('truetype');
 
-//    url('../font/fontawesome-webfont.ttf') format('truetype'),
-//    url('../font/fontawesome-webfont.svg#FontAwesome') format('svg');
-
 //  src: url('../font/FontAwesome.otf') format('opentype');
 
   font-weight: normal;
@@ -101,7 +98,7 @@ li {
     width: 1.25em;
     text-align: center;
     &.icon-large {
-    /* 1.5 increased font size for icon-large * 1.25 width */
+      /* increased font size for icon-large */
       width: 1.25*1.25em;
     }
   }
@@ -109,19 +106,12 @@ li {
 
 ul.icons {
   list-style-type: none;
-  margin-left: 2em;
-  text-indent: -.8em;
+  text-indent: -.75em;
 
   li {
     [class^="icon-"],
     [class*=" icon-"] {
-      width: 1.5em;
-    }
-    .icon-large:before,
-    .icon-large:before {
-      /* 1.5 increased font size for icon-large * 1.25 width */
-      vertical-align: initial;
-//      width: 1.5*1.25em;
+      width: .75em;
     }
   }
 }
@@ -497,3 +487,6 @@ ul.icons {
 .icon-spinner:before              { content: "\f110"; }
 .icon-circle:before               { content: "\f111"; }
 .icon-reply:before                { content: "\f112"; }
+.icon-github-alt:before           { content: "\f113"; }
+.icon-folder-close-alt:before     { content: "\f114"; }
+.icon-folder-open-alt:before      { content: "\f115"; }
