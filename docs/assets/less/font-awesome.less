@@ -23,7 +23,8 @@
     */
 
 @FontAwesomePath:   "../font";
-@borderColor:       #eeeeee;
+@borderColor:       #eee;
+@iconMuted:         #eee;
 .border-radius(@radius) { -webkit-border-radius: @radius; -moz-border-radius: @radius; border-radius: @radius; }
 
 @font-face {
@@ -116,6 +117,10 @@ ul.icons {
   }
 }
 
+.icon-muted {
+  color: @iconMuted;
+}
+
 // Icon Borders
 // -------------------------
 
@@ -150,8 +155,12 @@ ul.icons {
   }
 }
 
-// Icon Floats
+// Floats
 // -------------------------
+
+// Quick floats
+.pull-right { float: right; }
+.pull-left { float: left; }
 
 [class^="icon-"],
 [class*=" icon-"] {
@@ -169,10 +178,7 @@ ul.icons {
     &.pull-left, &.pull-right {
       &.icon-2x { margin-top: .35em; }
     }
-    &.icon-spin {
-      height: .75em;
-      &.icon-large { height: .75em; }
-    }
+    &.icon-spin.icon-large { height: .75em; }
   }
 }
 
@@ -182,7 +188,6 @@ ul.icons {
     &.pull-left, &.pull-right {
       &.icon-2x { margin-top: .45em; }
     }
-    &.icon-spin { height: .8em; }
   }
 }
 
@@ -192,7 +197,6 @@ ul.icons {
     &.pull-left, &.pull-right {
       &.icon-2x { margin-top: .2em; }
     }
-    &.icon-spin { height: .68em; }
   }
 }
 
