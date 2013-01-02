@@ -10,7 +10,7 @@
   <title>Font Awesome, the iconic font designed for use with Twitter Bootstrap</title>
   <meta name="description" content="">
   <meta name="author" content="">
-  <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+  <!--<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">-->
 
   <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -685,9 +685,37 @@
   <h2 class="page-header">Integration</h2>
   <p>It's easy to integrate Font Awesome into Twitter Bootstrap, or even use it on its own.</p>
   <div class="row">
+    <div class="span12">
+      <h4>Easy Bootstrap + Font Awesome Integration</h4>
+    </div>
     <div class="span3">
-      <h4>Bootstrap using LESS</h4>
-      <p>Use this method if integrating with Twitter Bootstrap using LESS</p>
+      <p>Use this method to integrate Font Awesome with the default Bootstrap CSS.</p>
+    </div>
+    <div class="span9">
+      <ol>
+        <li>Copy the Font Awesome font directory into your project.</li>
+        <li>Copy font-awesome.min.css into your project.</li>
+        <li>
+          Open your project's font-awesome.min.css and edit the font paths to ensure they point to the right place.
+          <p class="alert alert-info"><i class="icon-info-sign"></i> The font path is relative from your CSS directory.</p>
+        </li>
+        <li>
+          In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome.min.css.
+<pre class="prettyprint linenums">
+&lt;link rel="stylesheet" href="../css/bootstrap.min.css"&gt;
+&lt;link rel="stylesheet" href="../css/font-awesome.min.css"&gt;
+</pre>
+        </li>
+        <li>Check out the examples to start using Font Awesome!</li>
+      </ol>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12">
+      <h4>Custom Bootstrap + Font Awesome Integration using LESS</h4>
+    </div>
+    <div class="span3">
+      <p>Use this method to integrate Font Awesome with Twitter Bootstrap using LESS.</p>
     </div>
     <div class="span9">
       <ol>
@@ -695,19 +723,11 @@
         <li>Copy font-awesome.less into your bootstrap/less directory.</li>
         <li>Open bootstrap.less and replace <code>@import "sprites.less";</code> with <code>@import "font-awesome.less";</code></li>
         <li>
-          Open your project's font-awesome.less and edit the font url to ensure it points to the right place.
+          Open your project's font-awesome.less and edit the <code>@FontAwesomePath</code> variable to point to your font directory.
 <pre class="prettyprint linenums">
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('../font/fontawesome-webfont.eot');
-  src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-     url('../font/fontawesome-webfont.woff') format('woff'),
-     url('../font/fontawesome-webfont.ttf') format('truetype'),
-     url('../font/fontawesome-webfont.svg#FontAwesome') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+@FontAwesomePath:   "../font";
 </pre>
+          <p class="alert alert-info"><i class="icon-info-sign"></i> The font path is relative from your compiled CSS directory.</p>
         </li>
         <li>Re-compile your LESS if using a static compiler. Otherwise, you should be good to go.</li>
         <li>Check out the examples to start using Font Awesome!</li>
@@ -715,38 +735,49 @@
     </div>
   </div>
   <div class="row">
-    <div class="span3">
-      <h4>Bootstrap using CSS</h4>
-      <p>Use this method if integrating with Twitter Bootstrap using CSS.</p>
-    </div>
-    <div class="span9">
-      <ol>
-        <li>Customize Twitter Bootstrap <a href="http://twitter.github.com/bootstrap/customize.html" target="_blank">here</a>. Make sure to uncheck the default "Icons" under "Base CSS."</li>
-        <li>Copy the Font Awesome font directory into your project.</li>
-        <li>Copy font-awesome.css into your project.</li>
-        <li>Open your project's font-awesome.css and edit the font url to ensure it points to the right place (see above example).</li>
-        <li>
-          In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome.css.
-<pre class="prettyprint linenums">
-&lt;link rel="stylesheet" href="../css/bootstrap.css"&gt;
-&lt;link rel="stylesheet" href="../css/font-awesome.css"&gt;
-</pre>
-        </li>
-        <li>Check out the examples to start using Font Awesome!</li>
-      </ol>
+    <div class="span12">
+      <h4>Custom Bootstrap + Font Awesome Integration using SASS or SCSS</h4>
+      <p>I have never used either, so let me know if the included SCSS or SASS files have issues.</p>
     </div>
   </div>
   <div class="row">
-    <div class="span3">
+    <div class="span12">
       <h4>Not using Bootstrap?</h4>
+    </div>
+    <div class="span3">
       <p>Font Awesome works just as well without Twitter Bootstrap.</p>
     </div>
     <div class="span9">
       <ol>
         <li>Copy the Font Awesome font directory into your project.</li>
-        <li>Copy font-awesome.less or font-awesome.css into your project.</li>
-        <li>Open your project's font-awesome.less or font-awesome.css and edit the font url to ensure it points to the right place (see above example).</li>
+        <li>Copy font-awesome.less or font-awesome.min.css into your project.</li>
+        <li>Open your project's font-awesome.less or font-awesome.min.css and edit the font location to point it to your font directory (see above examples).</li>
         <li>Check out the examples to start using Font Awesome!</li>
+      </ol>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12">
+      <h4>Need IE7 Support?</h4>
+    </div>
+    <div class="span3">
+      <p>Font Awesome supports IE7. If you need it, you have my condolences.</p>
+    </div>
+    <div class="span9">
+      <ol>
+        <li>Get Font Awesome working properly in a modern browser.</li>
+        <li>Copy font-awesome-ie7.min.css into your project.</li>
+        <li>
+          In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome-ie7.min.css.
+<pre class="prettyprint linenums">
+&lt;link rel="stylesheet" href="../css/bootstrap.min.css"&gt;
+&lt;link rel="stylesheet" href="../css/font-awesome.min.css"&gt;
+&lt;!--[if IE 7]&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/font-awesome-ie7.min.css&quot;&gt;
+&lt;![endif]--&gt;
+</pre>
+        </li>
+        <li>Go complain to whoever decided your project needs IE7 support.</li>
       </ol>
     </div>
   </div>
@@ -1198,6 +1229,42 @@ Use a few of the new styles together ... lots of new possibilities.
 
 <section id="contribute">
   <h2 class="page-header">Contribute Icons to Font Awesome</h2>
+  <div class="row">
+    <div class="span3">
+      <img class="img-rounded" src="assets/img/contribution-sample.png">
+    </div>
+    <div class="span9">
+      <p class="lead">
+        Want to help make Font Awesome even more awesome? Contribute back to the Font Awesome community by designing
+        new pictograms for the set.
+      </p>
+      <p>
+        If selected, you'll retain the CC-BY license to your pictogram and get attribution
+        right here on the Font Awesome site.
+      </p>
+      <h3>How to Submit New Icons</h3>
+      <ol>
+        <li>Download the <a href="assets/img/icon-flag.pdf">icon-flag.pdf template</a>.</li>
+        <li>
+          Open the PDF in Adobe Illustrator. You'll notice the file has dimensions of 60x56. This is exactly 4x the
+          max icon size of 15 wide by 14 tall. The template is an example of the flag icon to use as a guide.
+        </li>
+        <li>
+          Design your icon. In order to make it into the set, your icon must look pixel perfect. The easiest way to do
+          this is to make sure your line widths in the template are some multiple of 4px. Diagonals are rough, too.
+          Don't split pixels right down the middle, as they blur more when rendering. Zoom out to 25% to get a good idea
+          of how it will render in the font.
+        </li>
+        <li>
+          Submit your icon. Drop me an email at <a href="mailto:dave@davegandy.com">dave@davegandy.com</a>. Make sure to
+          use the subject <code>[Font Awesome] [Icon Contribution] icon-name</code> and attach your PDF file. If your
+          icon makes it into Font Awesome (I'm keeping a very tight reign on quality), I'll ask what contact info you'd
+          like to use for attribution.
+        </li>
+      </ol>
+    </div>
+  </div>
+
 </section>
 
 <section id="roadmap">
@@ -1294,25 +1361,6 @@ Use a few of the new styles together ... lots of new possibilities.
     </div>
   </div>
 </section>
-
-<!--<section id="fort-awesome">-->
-  <!--<h2 class="page-header">Fort Awesome? Font Awesome?</h2>-->
-  <!--<div class="row">-->
-    <!--<div class="span8">-->
-      <!--<div class="lead">-->
-        <!--<p><strong>Fort Awesome</strong> is a magical place. A place of wonder and... magic. It's just like Xanadu, but without that dorky name.</p>-->
-        <!--<p>So magical, in fact, that <strong>Font Awesome</strong> was forged from its depths. Who can tell what may happen next...</p>-->
-      <!--</div>-->
-      <!--<small>Fort Awesome is the organization, Font Awesome is the project. It's not a spelling error.</small>-->
-    <!--</div>-->
-    <!--<div class="span4">-->
-      <!--<div>-->
-        <!--<img class="img-rounded" src="assets/img/fort_awesome.jpg">-->
-      <!--</div>-->
-      <!--<div class="caption text-align-right">Harvard Yard, 2005. &copy; DG.</div>-->
-    <!--</div>-->
-  <!--</div>-->
-<!--</section>-->
 
 </div>
 
