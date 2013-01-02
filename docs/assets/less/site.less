@@ -7,20 +7,12 @@
 .text-align-right  { text-align: right; }
 .text-align-center { text-align: center; }
 
-// These accomodate navbar-fixed-top
-//#overview { padding-top: 60px; }
-//#new-icons, #all-icons, #examples, #integration, #code, #roadmap {
-//  padding-top: 40px;
-//}
 .navbar .brand {
 //  padding: 11px 20px 9px;
   color: @white;
   font-family: @serifFontFamily;
   .icon-flag { padding-right: 3px; }
 }
-
-
-//.navbar-inner { .border-radius(0); }
 
 .navbar .nav > li > a { padding: 12px 10px 9px; }
 
@@ -59,20 +51,9 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
 //}
 
 .jumbotron {
-  background: @red; /* Old browsers */
-//  background: -moz-linear-gradient(45deg,  #020031 0%, #6d3353 100%); /* FF3.6+ */
-//  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#020031), color-stop(100%,#6d3353)); /* Chrome,Safari4+ */
-//  background: -webkit-linear-gradient(45deg, @red 0%, mix(@red, @redDark, 50%) 100%); /* Chrome10+,Safari5.1+ */
-//  background: -o-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* Opera 11.10+ */
-//  background: -ms-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* IE10+ */
-//  background: linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* W3C */
-//  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: @red;
   border-bottom: 1px solid @redDark;
-
-
-//  margin-bottom: 0;
   padding: 90px 0 48px;
-//  .border-radius(0);
 //  #gradient > .radial( lighten(@red, 10%), @red);
 //  background-color: @red;
   &, h1 { color: @white; }
@@ -147,7 +128,7 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
 }
 
 .btn-github {
-  .buttonBackground(mix(@grayLighter, @white, 50%), mix(@grayLighter, @grayLight, 50%));
+  .buttonBackground(@white, mix(@grayLighter, @grayLight, 50%));
 }
 
 .btn-primary, .btn-github {
