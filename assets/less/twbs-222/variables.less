@@ -20,16 +20,14 @@
 
 // Accent colors
 // -------------------------
-@blue:                  #009add; // Kyruus Light Blue
-@blueDark:              #005f9b; // Kyruus Blue
+@blue:                  #049cdb;
+@blueDark:              #0064cd;
 @green:                 #46a546;
 @red:                   #9d261d;
 @yellow:                #ffc40d;
 @orange:                #f89406;
 @pink:                  #c3325f;
 @purple:                #7a43b6;
-
-@redDark:               darken(@red, 10%);
 
 
 // Scaffolding
@@ -40,15 +38,15 @@
 
 // Links
 // -------------------------
-@linkColor:             lighten(@red, 10%);
-@linkColorHover:        @red;
+@linkColor:             #08c;
+@linkColorHover:        darken(@linkColor, 15%);
 
 
 // Typography
 // -------------------------
-@sansFontFamily:        proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
-@serifFontFamily:       museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
-@monoFontFamily:        Menlo, Monaco, Consolas, "Courier New", monospace;
+@sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+@serifFontFamily:       Georgia, "Times New Roman", Times, serif;
+@monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
 @baseFontSize:          14px;
 @baseFontFamily:        @sansFontFamily;
@@ -90,8 +88,8 @@
 @btnBackgroundHighlight:            darken(@white, 10%);
 @btnBorder:                         #bbb;
 
-@btnPrimaryBackground:              #fffeb8;
-@btnPrimaryBackgroundHighlight:     #c49c38;
+@btnPrimaryBackground:              @linkColor;
+@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
 
 @btnInfoBackground:                 #5bc0de;
 @btnInfoBackgroundHighlight:        #2f96b4;
@@ -102,8 +100,8 @@
 @btnWarningBackground:              lighten(@orange, 15%);
 @btnWarningBackgroundHighlight:     @orange;
 
-@btnDangerBackground:               lighten(@red, 20%);
-@btnDangerBackgroundHighlight:      lighten(@red, 5%);
+@btnDangerBackground:               #ee5f5b;
+@btnDangerBackgroundHighlight:      #bd362f;
 
 @btnInverseBackground:              #444;
 @btnInverseBackgroundHighlight:     @grayDarker;
