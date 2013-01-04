@@ -25,9 +25,12 @@ $(function() {
     }
   });
 
-
-
-
+  // Disable links with href="#" inside <section>, so users can click on them
+  // to preview :active state without being scrolled up to the top of the page.
+  $('section a[href="#"]').click(function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+  });
 
   var firstInHistory = true;
 
