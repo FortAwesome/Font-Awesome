@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <!-- Basic Page Needs
+ ================================================== -->
+  <meta charset="utf-8" />
+  <title>Font Awesome Tests</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!--<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">-->
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- CSS
+ ================================================== -->
+
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/css/prettify.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+  <![endif]-->
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30136587-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body>
+
+<div class="container">
+  <h1>Visual tests</h1>
+
+  <h3>Icons <small>Icons should not be clipped</small></h3>
+  <div class="row">
+    <div class="span3">
+      <div class="well">
+        <i class="icon-building"></i> Building
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well">
+        <i class="icon-building icon-large"></i> Building Large
+      </div>
+    </div>
+    <div class="span3">
+      <i class="icon-building"></i> Building
+    </div>
+    <div class="span3">
+      <i class="icon-building icon-large"></i> Building Large
+    </div>
+  </div>
+  <div class="row" style="font-size: 24px; line-height: 1.5em;">
+    <div class="span4">
+      <div class="well">
+        <i class="icon-building"></i> Building
+      </div>
+    </div>
+    <div class="span4">
+      <div class="well">
+        <i class="icon-building icon-large"></i> Building Large
+      </div>
+    </div>
+    <div class="span4">
+      <i class="icon-building icon-large"></i> Building Large
+    </div>
+  </div>
+
+
+  <h3>Links with Icons <small>icon should activate link</small></h3>
+  <div class="lead">
+    <a href="#"><i class="icon-building"></i> Link Here</a>
+    <a href="#"><i class="icon-building icon-large"></i> Link Here</a>
+    <a href="#"><i class="icon-caret-down"></i> Link Here</a>
+  </div>
+
+
+  <h3>Navbar  <small>should stay same height </small></h3>
+  <div class="navbar navbar-inverse navbar-static-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="#"><i class="icon-flag"></i> Font Awesome</a>
+        <ul class="nav">
+          <li style="border: solid 1px white;"><a href="#">Nav Item 1</a></li>
+          <li class="dropdown" style="border: solid 1px white;">
+            <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+              Nav Item 2
+              <i class="icon-caret-down"></i>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
+              <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
+            </ul>
+          </li>
+          <li style="border: solid 1px white;"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <h3>Plain buttons next to icon buttons <small>should be same height</small></h3>
+  <h4>Buttons</h4>
+  <div class="row">
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3; text-align: center;">
+        <div>
+          <button class="btn btn-mini">Button</button>
+          <button class="btn btn-mini"><i class="icon-building"></i> Button</button>
+          <button class="btn btn-mini"><i class="icon-building"></i></button>
+        </div>
+        <div>
+          <button class="btn btn-small">Button</button>
+          <button class="btn btn-small"><i class="icon-building"></i> Button</button>
+          <button class="btn btn-small"><i class="icon-building"></i></button>
+        </div>
+        <div>
+          <button class="btn">Button</button>
+          <button class="btn"><i class="icon-building"></i> Button</button>
+          <button class="btn"><i class="icon-building"></i></button>
+        </div>
+        <div>
+          <button class="btn btn-large">Button</button>
+          <button class="btn btn-large"><i class="icon-building"></i> Button</button>
+          <button class="btn btn-large"><i class="icon-building"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3; text-align: center;">
+        <div>
+          <button class="btn btn-mini">Button</button>
+          <button class="btn btn-mini"><i class="icon-building icon-large"></i> Button</button>
+          <button class="btn btn-mini"><i class="icon-building icon-large"></i></button>
+        </div>
+        <div>
+          <button class="btn btn-small">Button</button>
+          <button class="btn btn-small"><i class="icon-building icon-large"></i> Button</button>
+          <button class="btn btn-small"><i class="icon-building icon-large"></i></button>
+        </div>
+        <div>
+          <button class="btn">Button</button>
+          <button class="btn"><i class="icon-building icon-large"></i> Button</button>
+          <button class="btn"><i class="icon-building icon-large"></i></button>
+        </div>
+        <div>
+          <button class="btn btn-large">Button</button>
+          <button class="btn btn-large"><i class="icon-building icon-large"></i> Button</button>
+          <button class="btn btn-large"><i class="icon-building icon-large"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h4>Anchors</h4>
+  <div class="row">
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3; text-align: center;">
+        <div>
+          <a class="btn btn-mini">Button</a>
+          <a class="btn btn-mini"><i class="icon-building"></i> Button</a>
+          <a class="btn btn-mini"><i class="icon-building"></i></a>
+        </div>
+        <div>
+          <a class="btn btn-small">Button</a>
+          <a class="btn btn-small"><i class="icon-building"></i> Button</a>
+          <a class="btn btn-small"><i class="icon-building"></i></a>
+        </div>
+        <div>
+          <a class="btn">Button</a>
+          <a class="btn"><i class="icon-building"></i> Button</a>
+          <a class="btn"><i class="icon-building"></i></a>
+        </div>
+        <div>
+          <a class="btn btn-large">Button</a>
+          <a class="btn btn-large"><i class="icon-building"></i> Button</a>
+          <a class="btn btn-large"><i class="icon-building"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3; text-align: center;">
+        <div>
+          <a class="btn btn-mini">Button</a>
+          <a class="btn btn-mini"><i class="icon-building icon-large"></i> Button</a>
+          <a class="btn btn-mini"><i class="icon-building icon-large"></i></a>
+        </div>
+        <div>
+          <a class="btn btn-small">Button</a>
+          <a class="btn btn-small"><i class="icon-building icon-large"></i> Button</a>
+          <a class="btn btn-small"><i class="icon-building icon-large"></i></a>
+        </div>
+        <div>
+          <a class="btn">Button</a>
+          <a class="btn"><i class="icon-building icon-large"></i> Button</a>
+          <a class="btn"><i class="icon-building icon-large"></i></a>
+        </div>
+        <div>
+          <a class="btn btn-large">Button</a>
+          <a class="btn btn-large"><i class="icon-building icon-large"></i> Button</a>
+          <a class="btn btn-large"><i class="icon-building icon-large"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <h3>Buttons with pulled 2x, 3x, 4x <small>should be same height, have correct line height</small></h3>
+  <div class="row">
+    <div class="span4">
+      <div style="border: solid 1px #d3d3d3;">
+        <a class="btn btn-large" href="#">
+          <i class="icon-building icon-2x pull-left"></i>
+          Longer<br>Button</a>
+        <a class="btn btn-large" href="#">
+          Longer<br>Button</a>
+      </div>
+    </div>
+    <div class="span4">
+      <div style="border: solid 1px #d3d3d3;">
+        <a class="btn" href="#">
+          <i class="icon-building icon-2x pull-left"></i>
+          Longer<br>Button</a>
+        <a class="btn" href="#">
+          Longer<br>Button</a>
+      </div>
+    </div>
+    <div class="span4">
+      <div style="border: solid 1px #d3d3d3;">
+        <a class="btn btn-small" href="#">
+          <i class="icon-building icon-2x pull-left"></i>
+          Longer<br>Button</a>
+        <a class="btn btn-small" href="#">
+          Longer<br>Button</a>
+      </div>
+    </div>
+  </div>
+
+  <h3>Nav pills & nav tabs <small>should be same height</small></h3>
+  <div class="row">
+    <span class="span6">
+      <ul class="nav nav-pills">
+        <li class="active"><a href="#">Nav Item 1</a></li>
+        <li class="dropdown active">
+          <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+            Nav Item 2
+            <i class="icon-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
+            <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 3</a></li>
+        <li class="active"><a href="#examples"><i class="icon-spinner icon-spin"></i> Nav Item 4</a></li>
+      </ul>
+    </span>
+    <span class="span6">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#">Nav Item 1</a></li>
+        <li class="dropdown active">
+          <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+            Nav Item 2
+            <i class="icon-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
+            <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 3</a></li>
+        <li class="active"><a href="#examples"><i class="icon-spinner icon-spin"></i> Nav Item 4</a></li>
+      </ul>
+    </span>
+  </div>
+
+
+  <h3>2x, 3x, 4x icons in text <small>should have margins next to and below text</small></h3>
+  <div class="row">
+    <div class="span6">
+      <p class="lead">
+        <i class="icon-stethoscope icon-3x pull-left icon-border"></i>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.
+      </p>
+    </div>
+    <div class="span6">
+      <p class="lead">
+        <i class="icon-ambulance icon-4x pull-right icon-border"></i>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span4">
+      <i class="icon-building icon-2x pull-left icon-border"></i>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.
+    </div>
+    <div class="span4">
+      <i class="icon-stethoscope icon-3x pull-right icon-border"></i>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.
+    </div>
+    <div class="span4">
+      <i class="icon-ambulance icon-4x pull-left"></i>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.
+    </div>
+  </div>
+
+  <h3>Bullets <small>should wrap appropriately, have proper spacing</small></h3>
+  <div class="row">
+    <div class="span6">
+      <ul class="icons">
+        <li><i class="icon-double-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li><i class="icon-arrow-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+        <li><i class="icon-building"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      </ul>
+    </div>
+    <div class="span6">
+      <ul class="icons">
+        <li><i class="icon-double-angle-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li><i class="icon-arrow-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+        <li><i class="icon-building icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Spinning icons <small>icons should be aligned well and on center, buttons should be same height, won't work in ie7</small></h3>
+  <div style="border: solid 1px #d3d3d3;">
+    <i class="icon-refresh icon-spin"></i> Loading...
+    <button class="btn btn-small"><i class="icon-refresh icon-spin"></i> Loading...</button>
+    <button class="btn btn-small">Loading...</button>
+    <i class="icon-circle-blank icon-spin"></i> Loading...
+    <button class="btn btn-small"><i class="icon-circle-blank icon-spin"></i> Loading...</button>
+  </div>
+  <div style="border: solid 1px #d3d3d3;">
+    <i class="icon-refresh icon-spin"></i> Loading...
+    <button class="btn"><i class="icon-refresh icon-spin"></i> Loading...</button>
+    <button class="btn">Loading...</button>
+    <i class="icon-circle-blank icon-spin"></i> Loading...
+    <button class="btn"><i class="icon-circle-blank icon-spin"></i> Loading...</button>
+  </div>
+  <div style="border: solid 1px #d3d3d3;">
+    <i class="icon-spinner icon-spin"></i> Loading...
+    <button class="btn btn-large"><i class="icon-spinner icon-spin"></i> Loading...</button>
+    <button class="btn btn-large">Loading...</button>
+    <i class="icon-circle-blank icon-spin"></i> Loading...
+    <button class="btn btn-large"><i class="icon-circle-blank icon-spin"></i> Loading...</button>
+  </div>
+  <h4>icon-large</h4>
+  <div style="border: solid 1px #d3d3d3;">
+    <i class="icon-refresh icon-large icon-spin"></i> Loading...
+    <button class="btn btn-small"><i class="icon-refresh icon-large icon-spin"></i> Loading...</button>
+    <button class="btn btn-small">Loading...</button>
+    <i class="icon-circle-blank icon-large icon-spin"></i> Loading...
+    <button class="btn btn-small"><i class="icon-circle-blank icon-large icon-spin"></i> Loading...</button>
+  </div>
+  <div style="border: solid 1px #d3d3d3;">
+    <i class="icon-refresh icon-large icon-spin"></i> Loading...
+    <button class="btn"><i class="icon-refresh icon-large icon-spin"></i> Loading...</button>
+    <button class="btn">Loading...</button>
+    <i class="icon-circle-blank icon-large icon-spin"></i> Loading...
+    <button class="btn"><i class="icon-circle-blank icon-large icon-spin"></i> Loading...</button>
+  </div>
+  <div style="border: solid 1px #d3d3d3;">
+    <i class="icon-spinner icon-large icon-spin"></i> Loading...
+    <button class="btn btn-large"><i class="icon-spinner icon-large icon-spin"></i> Loading...</button>
+    <button class="btn btn-large">Loading...</button>
+    <i class="icon-circle-blank icon-large icon-spin"></i> Loading...
+    <button class="btn btn-large"><i class="icon-circle-blank icon-large icon-spin"></i> Loading...</button>
+  </div>
+
+</div>
+
+<script src="assets/js/jquery-1.7.1.min.js"></script>
+<script src="assets/js/bootstrap-222.min.js"></script>
+
+</body>
+</html>
