@@ -46,6 +46,7 @@
   background-image: none !important;
   background-position: 0% 0%;
   background-repeat: repeat;
+  -webkit-font-smoothing : antialiased;
 }
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
