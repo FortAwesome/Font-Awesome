@@ -35,9 +35,9 @@
   }
 }
 
-.icon-size (@size: 12px, @width-multiplier: .9, @height-multiplier: .95) {
+.icon-size (@size: 14px, @width-multiplier: .9, @height-multiplier: 1) {
   i { font-size: @size; }
-  line-height: @size;
-  height: @size * @height-multiplier;
+  line-height: @size * 1.1;
+  height: @size * @height-multiplier * 1.05;
   text-align: center;
 }
