@@ -1,25 +1,25 @@
-/*  Font Awesome 3.0
-    the iconic font designed for use with Twitter Bootstrap
-    -------------------------------------------------------
-    The full suite of pictographic icons, examples, and documentation
-    can be found at: http://fortawesome.github.com/Font-Awesome/
+/*!
+ *  Font Awesome 3.0.1
+ *  the iconic font designed for use with Twitter Bootstrap
+ *  -------------------------------------------------------
+ *  The full suite of pictographic icons, examples, and documentation
+ *  can be found at: http://fortawesome.github.com/Font-Awesome/
+ *
+ *  License
+ *  -------------------------------------------------------
+ *  - The Font Awesome font is licensed under the SIL Open Font License - http://scripts.sil.org/OFL
+ *  - Font Awesome CSS, LESS, and SASS files are licensed under the MIT License -
+ *    http://opensource.org/licenses/mit-license.html
+ *  - The Font Awesome pictograms are licensed under the CC BY 3.0 License - http://creativecommons.org/licenses/by/3.0/
+ *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
+ *    "Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome"
 
-    License
-    -------------------------------------------------------
-    • The Font Awesome font is licensed under the SIL Open Font License - http://scripts.sil.org/OFL
-    • Font Awesome CSS, LESS, and SASS files are licensed under the MIT License -
-      http://opensource.org/licenses/mit-license.html
-    • The Font Awesome pictograms are licensed under the CC BY 3.0 License - http://creativecommons.org/licenses/by/3.0/
-    • Attribution is no longer required in Font Awesome 3.0, but much appreciated:
-      "Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome"
-
-    Contact
-    -------------------------------------------------------
-    Email: dave@davegandy.com
-    Twitter: http://twitter.com/fortaweso_me
-    Work: Lead Product Designer @ http://kyruus.com
-
-    */
+ *  Contact
+ *  -------------------------------------------------------
+ *  Email: dave@davegandy.com
+ *  Twitter: http://twitter.com/fortaweso_me
+ *  Work: Lead Product Designer @ http://kyruus.com
+ */
 
 @FontAwesomePath:   "../font";
 @borderColor:       #eee;
@@ -28,31 +28,55 @@
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url('@{FontAwesomePath}/fontawesome-webfont.eot');
-  src: url('@{FontAwesomePath}/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-    url('@{FontAwesomePath}/fontawesome-webfont.woff') format('woff'),
-    url('@{FontAwesomePath}/fontawesome-webfont.ttf') format('truetype');
+  src: url('@{FontAwesomePath}/fontawesome-webfont.eot?v=3.0.1');
+  src: url('@{FontAwesomePath}/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+    url('@{FontAwesomePath}/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+    url('@{FontAwesomePath}/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+//    url('@{FontAwesomePath}/fontawesome-webfont.svg#fontawesomeregular?v=3.0.1') format('svg');
+
+//  src: url('@{FontAwesomePath}/FontAwesome.otf') format('opentype');
+
   font-weight: normal;
   font-style: normal;
 }
 
 /*  Font Awesome styles
     ------------------------------------------------------- */
-/* includes sprites.less reset */
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
   text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+
+/* sprites.less reset */
   display: inline;
   width: auto;
   height: auto;
   line-height: normal;
   vertical-align: baseline;
-  background-image: none !important;
+  background-image: none;
   background-position: 0% 0%;
   background-repeat: repeat;
+  margin-top: 0;
+}
+
+/* more sprites.less reset */
+.icon-white,
+.nav-pills > .active > a > [class^="icon-"],
+.nav-pills > .active > a > [class*=" icon-"],
+.nav-list > .active > a > [class^="icon-"],
+.nav-list > .active > a > [class*=" icon-"],
+.navbar-inverse .nav > .active > a > [class^="icon-"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"],
+.dropdown-submenu:hover > a > [class^="icon-"],
+.dropdown-submenu:hover > a > [class*=" icon-"] {
+  background-image: none;
 }
 
 [class^="icon-"]:before,
@@ -81,14 +105,20 @@ a {
   [class*=" icon-"] {
     display: inline;
     /* keeps button heights with and without icons the same */
-    line-height: .6em;
-    &.icon-spin {
-      display: inline-block;
-    }
+    &.icon-large { line-height: .9em; }
+    &.icon-spin { display: inline-block; }
   }
 }
 
-li {
+.nav-tabs, .nav-pills {
+  [class^="icon-"],
+  [class*=" icon-"] {
+  /* keeps button heights with and without icons the same */
+    &, &.icon-large { line-height: .9em; }
+  }
+}
+
+li, .nav li {
   [class^="icon-"],
   [class*=" icon-"] {
     display: inline-block;
@@ -161,10 +191,10 @@ ul.icons {
 [class^="icon-"],
 [class*=" icon-"] {
   &.pull-left {
-    margin-right: .35em;
+    margin-right: .3em;
   }
   &.pull-right {
-    margin-left: .35em;
+    margin-left: .3em;
   }
 }
 
@@ -172,9 +202,9 @@ ul.icons {
   [class^="icon-"],
   [class*=" icon-"] {
     &.pull-left, &.pull-right {
-      &.icon-2x { margin-top: .35em; }
+      &.icon-2x { margin-top: .18em; }
     }
-    &.icon-spin.icon-large { height: .75em; }
+    &.icon-spin.icon-large { line-height: .8em; }
   }
 }
 
@@ -182,7 +212,7 @@ ul.icons {
   [class^="icon-"],
   [class*=" icon-"] {
     &.pull-left, &.pull-right {
-      &.icon-2x { margin-top: .45em; }
+      &.icon-2x { margin-top: .25em; }
     }
   }
 }
@@ -190,9 +220,12 @@ ul.icons {
 .btn.btn-large {
   [class^="icon-"],
   [class*=" icon-"] {
+    margin-top: 0; // overrides bootstrap default
     &.pull-left, &.pull-right {
-      &.icon-2x { margin-top: .2em; }
+      &.icon-2x { margin-top: .05em; }
     }
+    &.pull-left.icon-2x { margin-right: .2em; }
+    &.pull-right.icon-2x { margin-left: .2em; }
   }
 }
 
@@ -226,6 +259,12 @@ ul.icons {
   100% { transform: rotate(359deg); }
 }
 
+@-moz-document url-prefix() {
+  .icon-spin { height: .9em; }
+  .btn .icon-spin { height: auto; }
+  .icon-spin.icon-large { height: 1.25em; }
+  .btn .icon-spin.icon-large { height: .75em; }
+}
 
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */

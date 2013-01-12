@@ -81,11 +81,22 @@
   </div>
 
 
-  <h3>Links with Icons <small>icon should activate link</small></h3>
+  <h3>Links with Icons <small>icon should activate link & underline</small></h3>
+  <div>
+    <a href="#"><i class="icon-building"></i> Link Here</a>
+    <a href="#"><i class="icon-building icon-large"></i> Link Here</a>
+    <a href="#"><i class="icon-caret-down"></i> Link Here</a>
+    <a href="#">Link Here <i class="icon-double-angle-right"></i></a>
+    <a href="#">Link Here <i class="icon-double-angle-right icon-large"></i></a>
+    <a href="#">Link Here <i class="icon-caret-down"></i></a>
+  </div>
   <div class="lead">
     <a href="#"><i class="icon-building"></i> Link Here</a>
     <a href="#"><i class="icon-building icon-large"></i> Link Here</a>
     <a href="#"><i class="icon-caret-down"></i> Link Here</a>
+    <a href="#">Link Here <i class="icon-double-angle-right"></i></a>
+    <a href="#">Link Here <i class="icon-double-angle-right icon-large"></i></a>
+    <a href="#">Link Here <i class="icon-caret-down"></i></a>
   </div>
 
 
@@ -107,6 +118,7 @@
             </ul>
           </li>
           <li style="border: solid 1px white;"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 3</a></li>
+          <li style="border: solid 1px white;"><a href="#examples"><i class="icon-envelope"></i> Nav Item 3</a></li>
         </ul>
       </div>
     </div>
@@ -166,6 +178,7 @@
     </div>
   </div>
 
+
   <h4>Anchors</h4>
   <div class="row">
     <div class="span6">
@@ -224,7 +237,7 @@
     <div class="span4">
       <div style="border: solid 1px #d3d3d3;">
         <a class="btn btn-large" href="#">
-          <i class="icon-building icon-2x pull-left"></i>
+          <i class="icon-github icon-2x pull-left"></i>
           Longer<br>Button</a>
         <a class="btn btn-large" href="#">
           Longer<br>Button</a>
@@ -233,7 +246,7 @@
     <div class="span4">
       <div style="border: solid 1px #d3d3d3;">
         <a class="btn" href="#">
-          <i class="icon-building icon-2x pull-left"></i>
+          <i class="icon-github icon-2x pull-left"></i>
           Longer<br>Button</a>
         <a class="btn" href="#">
           Longer<br>Button</a>
@@ -242,7 +255,7 @@
     <div class="span4">
       <div style="border: solid 1px #d3d3d3;">
         <a class="btn btn-small" href="#">
-          <i class="icon-building icon-2x pull-left"></i>
+          <i class="icon-github icon-2x pull-left"></i>
           Longer<br>Button</a>
         <a class="btn btn-small" href="#">
           Longer<br>Button</a>
@@ -250,43 +263,38 @@
     </div>
   </div>
 
+
   <h3>Nav pills & nav tabs <small>should be same height</small></h3>
-  <div class="row">
-    <span class="span6">
-      <ul class="nav nav-pills">
-        <li class="active"><a href="#">Nav Item 1</a></li>
-        <li class="dropdown active">
-          <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
-            Nav Item 2
-            <i class="icon-caret-down"></i>
-          </a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
-            <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
-          </ul>
-        </li>
-        <li class="active"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 3</a></li>
-        <li class="active"><a href="#examples"><i class="icon-spinner icon-spin"></i> Nav Item 4</a></li>
+  <ul class="nav nav-pills" style="border: solid 1px #d3d3d3;">
+    <li class="active"><a href="#">Nav Item 1</a></li>
+    <li class="dropdown active">
+      <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+        Nav Item 2
+        <i class="icon-caret-down"></i>
+      </a>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
+        <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
       </ul>
-    </span>
-    <span class="span6">
-      <ul class="nav nav-tabs">
-        <li class="active"><a href="#">Nav Item 1</a></li>
-        <li class="dropdown active">
-          <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
-            Nav Item 2
-            <i class="icon-caret-down"></i>
-          </a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
-            <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
-          </ul>
-        </li>
-        <li class="active"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 3</a></li>
-        <li class="active"><a href="#examples"><i class="icon-spinner icon-spin"></i> Nav Item 4</a></li>
+    </li>
+    <li class="active"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 3</a></li>
+    <li class="active"><a href="#examples"><i class="icon-spinner icon-spin"></i> Nav Item 4</a></li>
+  </ul>
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#">Nav Item 1</a></li>
+    <li class="dropdown active">
+      <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+        Nav Item 2
+        <i class="icon-caret-down"></i>
+      </a>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
+        <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
       </ul>
-    </span>
-  </div>
+    </li>
+    <li class="active"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 3</a></li>
+    <li class="active"><a href="#examples"><i class="icon-spinner icon-spin"></i> Nav Item 4</a></li>
+  </ul>
 
 
   <h3>2x, 3x, 4x icons in text <small>should have margins next to and below text</small></h3>
@@ -319,6 +327,7 @@
     </div>
   </div>
 
+
   <h3>Bullets <small>should wrap appropriately, have proper spacing</small></h3>
   <div class="row">
     <div class="span6">
@@ -336,6 +345,7 @@
       </ul>
     </div>
   </div>
+
 
   <h3>Spinning icons <small>icons should be aligned well and on center, buttons should be same height, won't work in ie7</small></h3>
   <div style="border: solid 1px #d3d3d3;">
