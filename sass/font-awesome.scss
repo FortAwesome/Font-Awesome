@@ -94,7 +94,7 @@ a {
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
   vertical-align: -10%;
-  font-size: 4/3em;
+  font-size: 1.3333333333333333em;
 }
 
 .btn, .nav {
@@ -123,7 +123,7 @@ li, .nav li {
     text-align: center;
     &.icon-large {
       /* increased font size for icon-large */
-      width: 1.25*1.25em;
+      width: 1.5625em;
     }
   }
 }
