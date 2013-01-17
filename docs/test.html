@@ -45,7 +45,7 @@
 <div class="container">
   <h1>Visual tests</h1>
 
-  <h3>Icons <small>Icons should not be clipped</small></h3>
+  <h3>Icons <small>Icons should have proper alignment and not be clipped</small></h3>
   <div class="row">
     <div class="span3">
       <div class="well">
@@ -79,24 +79,81 @@
       <i class="icon-building icon-large"></i> Building Large
     </div>
   </div>
+  <div class="row">
+    <div class="span3">
+      <div class="well">
+        <i class="icon-circle"></i> Circle
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well">
+        <i class="icon-circle icon-large"></i> Circle Large
+      </div>
+    </div>
+    <div class="span3">
+      <i class="icon-circle"></i> Circle
+    </div>
+    <div class="span3">
+      <i class="icon-circle icon-large"></i> Circle Large
+    </div>
+  </div>
+  <div class="row" style="font-size: 24px; line-height: 1.5em;">
+    <div class="span4">
+      <div class="well">
+        <i class="icon-circle"></i> Circle
+      </div>
+    </div>
+    <div class="span4">
+      <div class="well">
+        <i class="icon-circle icon-large"></i> Circle Large
+      </div>
+    </div>
+    <div class="span4">
+      <i class="icon-circle icon-large"></i> Circle Large
+    </div>
+  </div>
 
 
   <h3>Links with Icons <small>icon should activate link & underline</small></h3>
-  <div>
-    <a href="#"><i class="icon-building"></i> Link Here</a>
-    <a href="#"><i class="icon-building icon-large"></i> Link Here</a>
-    <a href="#"><i class="icon-caret-down"></i> Link Here</a>
-    <a href="#">Link Here <i class="icon-double-angle-right"></i></a>
-    <a href="#">Link Here <i class="icon-double-angle-right icon-large"></i></a>
-    <a href="#">Link Here <i class="icon-caret-down"></i></a>
+  <div class="row lead">
+    <div class="span2">
+      <a href="#"><i class="icon-building"></i> Link Here</a>
+    </div>
+    <div class="span2">
+      <a href="#"><i class="icon-building icon-large"></i> Link Here</a>
+    </div>
+    <div class="span2">
+      <a href="#"><i class="icon-caret-down"></i> Link Here</a>
+    </div>
+    <div class="span2">
+      <a href="#">Link Here <i class="icon-double-angle-right"></i></a>
+    </div>
+    <div class="span2">
+      <a href="#">Link Here <i class="icon-double-angle-right icon-large"></i></a>
+    </div>
+    <div class="span2">
+      <a href="#">Link Here <i class="icon-caret-down"></i></a>
+    </div>
   </div>
-  <div class="lead">
-    <a href="#"><i class="icon-building"></i> Link Here</a>
-    <a href="#"><i class="icon-building icon-large"></i> Link Here</a>
-    <a href="#"><i class="icon-caret-down"></i> Link Here</a>
-    <a href="#">Link Here <i class="icon-double-angle-right"></i></a>
-    <a href="#">Link Here <i class="icon-double-angle-right icon-large"></i></a>
-    <a href="#">Link Here <i class="icon-caret-down"></i></a>
+  <div class="row">
+    <div class="span2">
+      <a href="#"><i class="icon-building"></i> Link Here</a>
+    </div>
+    <div class="span2">
+      <a href="#"><i class="icon-building icon-large"></i> Link Here</a>
+    </div>
+    <div class="span2">
+      <a href="#"><i class="icon-caret-down"></i> Link Here</a>
+    </div>
+    <div class="span2">
+      <a href="#">Link Here <i class="icon-double-angle-right"></i></a>
+    </div>
+    <div class="span2">
+      <a href="#">Link Here <i class="icon-double-angle-right icon-large"></i></a>
+    </div>
+    <div class="span2">
+      <a href="#">Link Here <i class="icon-caret-down"></i></a>
+    </div>
   </div>
 
 
@@ -118,14 +175,16 @@
             </ul>
           </li>
           <li style="border: solid 1px white;"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 3</a></li>
-          <li style="border: solid 1px white;"><a href="#examples"><i class="icon-envelope"></i> Nav Item 3</a></li>
+          <li style="border: solid 1px white;"><a href="#examples"><i class="icon-envelope"></i> Nav Item 4</a></li>
+          <li style="border: solid 1px white;"><a href="#examples"><i class="icon-circle icon-large"></i> Nav Item 5</a></li>
+          <li style="border: solid 1px white;"><a href="#examples"><i class="icon-circle"></i> Nav Item 6</a></li>
         </ul>
       </div>
     </div>
   </div>
 
 
-  <h3>Plain buttons next to icon buttons <small>should be same height</small></h3>
+  <h3>Plain buttons next to buttons w/icons <small>should be same height, icons not clipped</small></h3>
   <h4>Buttons</h4>
   <div class="row">
     <div class="span6">
@@ -173,6 +232,56 @@
           <button class="btn btn-large">Button</button>
           <button class="btn btn-large"><i class="icon-building icon-large"></i> Button</button>
           <button class="btn btn-large"><i class="icon-building icon-large"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3; text-align: center;">
+        <div>
+          <button class="btn btn-mini">Button</button>
+          <button class="btn btn-mini"><i class="icon-circle"></i> Button</button>
+          <button class="btn btn-mini"><i class="icon-circle"></i></button>
+        </div>
+        <div>
+          <button class="btn btn-small">Button</button>
+          <button class="btn btn-small"><i class="icon-circle"></i> Button</button>
+          <button class="btn btn-small"><i class="icon-circle"></i></button>
+        </div>
+        <div>
+          <button class="btn">Button</button>
+          <button class="btn"><i class="icon-circle"></i> Button</button>
+          <button class="btn"><i class="icon-circle"></i></button>
+        </div>
+        <div>
+          <button class="btn btn-large">Button</button>
+          <button class="btn btn-large"><i class="icon-circle"></i> Button</button>
+          <button class="btn btn-large"><i class="icon-circle"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3; text-align: center;">
+        <div>
+          <button class="btn btn-mini">Button</button>
+          <button class="btn btn-mini"><i class="icon-circle icon-large"></i> Button</button>
+          <button class="btn btn-mini"><i class="icon-circle icon-large"></i></button>
+        </div>
+        <div>
+          <button class="btn btn-small">Button</button>
+          <button class="btn btn-small"><i class="icon-circle icon-large"></i> Button</button>
+          <button class="btn btn-small"><i class="icon-circle icon-large"></i></button>
+        </div>
+        <div>
+          <button class="btn">Button</button>
+          <button class="btn"><i class="icon-circle icon-large"></i> Button</button>
+          <button class="btn"><i class="icon-circle icon-large"></i></button>
+        </div>
+        <div>
+          <button class="btn btn-large">Button</button>
+          <button class="btn btn-large"><i class="icon-circle icon-large"></i> Button</button>
+          <button class="btn btn-large"><i class="icon-circle icon-large"></i></button>
         </div>
       </div>
     </div>
@@ -230,6 +339,56 @@
       </div>
     </div>
   </div>
+  <div class="row">
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3; text-align: center;">
+        <div>
+          <a class="btn btn-mini">Button</a>
+          <a class="btn btn-mini"><i class="icon-circle"></i> Button</a>
+          <a class="btn btn-mini"><i class="icon-circle"></i></a>
+        </div>
+        <div>
+          <a class="btn btn-small">Button</a>
+          <a class="btn btn-small"><i class="icon-circle"></i> Button</a>
+          <a class="btn btn-small"><i class="icon-circle"></i></a>
+        </div>
+        <div>
+          <a class="btn">Button</a>
+          <a class="btn"><i class="icon-circle"></i> Button</a>
+          <a class="btn"><i class="icon-circle"></i></a>
+        </div>
+        <div>
+          <a class="btn btn-large">Button</a>
+          <a class="btn btn-large"><i class="icon-circle"></i> Button</a>
+          <a class="btn btn-large"><i class="icon-circle"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3; text-align: center;">
+        <div>
+          <a class="btn btn-mini">Button</a>
+          <a class="btn btn-mini"><i class="icon-circle icon-large"></i> Button</a>
+          <a class="btn btn-mini"><i class="icon-circle icon-large"></i></a>
+        </div>
+        <div>
+          <a class="btn btn-small">Button</a>
+          <a class="btn btn-small"><i class="icon-circle icon-large"></i> Button</a>
+          <a class="btn btn-small"><i class="icon-circle icon-large"></i></a>
+        </div>
+        <div>
+          <a class="btn">Button</a>
+          <a class="btn"><i class="icon-circle icon-large"></i> Button</a>
+          <a class="btn"><i class="icon-circle icon-large"></i></a>
+        </div>
+        <div>
+          <a class="btn btn-large">Button</a>
+          <a class="btn btn-large"><i class="icon-circle icon-large"></i> Button</a>
+          <a class="btn btn-large"><i class="icon-circle icon-large"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <h3>Buttons with pulled 2x, 3x, 4x <small>should be same height, have correct line height</small></h3>
@@ -270,6 +429,16 @@
     <li class="dropdown active">
       <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
         Nav Item 2
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
+        <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
+      </ul>
+    </li>
+    <li class="dropdown active">
+      <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+        Nav Item 3
         <i class="icon-caret-down"></i>
       </a>
       <ul class="dropdown-menu" role="menu">
@@ -277,14 +446,26 @@
         <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
       </ul>
     </li>
-    <li class="active"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 3</a></li>
-    <li class="active"><a href="#examples"><i class="icon-spinner icon-spin"></i> Nav Item 4</a></li>
+    <li class="active"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 4</a></li>
+    <li class="active"><a href="#examples"><i class="icon-spinner icon-spin"></i> Nav Item 5</a></li>
+    <li class="active"><a href="#examples"><i class="icon-circle icon-large"></i> Nav Item 6</a></li>
+    <li class="active"><a href="#examples"><i class="icon-circle"></i> Nav Item 7</a></li>
   </ul>
   <ul class="nav nav-tabs">
     <li class="active"><a href="#">Nav Item 1</a></li>
     <li class="dropdown active">
       <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
         Nav Item 2
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
+        <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
+      </ul>
+    </li>
+    <li class="dropdown active">
+      <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+        Nav Item 3
         <i class="icon-caret-down"></i>
       </a>
       <ul class="dropdown-menu" role="menu">
@@ -292,8 +473,10 @@
         <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
       </ul>
     </li>
-    <li class="active"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 3</a></li>
-    <li class="active"><a href="#examples"><i class="icon-spinner icon-spin"></i> Nav Item 4</a></li>
+    <li class="active"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 4</a></li>
+    <li class="active"><a href="#examples"><i class="icon-spinner icon-spin"></i> Nav Item 5</a></li>
+    <li class="active"><a href="#examples"><i class="icon-circle icon-large"></i> Nav Item 6</a></li>
+    <li class="active"><a href="#examples"><i class="icon-circle"></i> Nav Item 7</a></li>
   </ul>
 
 
