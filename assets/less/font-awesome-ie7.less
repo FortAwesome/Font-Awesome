@@ -1,5 +1,5 @@
 /*!
- *  Font Awesome 3.0.1
+ *  Font Awesome 3.0.2
  *  the iconic font designed for use with Twitter Bootstrap
  *  -------------------------------------------------------
  *  The full suite of pictographic icons, examples, and documentation
@@ -21,21 +21,16 @@
  *  Work: Lead Product Designer @ http://kyruus.com
  */
 
-[class^="icon-"],
-[class*=" icon-"] {
-  padding-right:.3em;
-}
-
 .icon-large {
   font-size: 4/3em;
   margin-top: -4px;
   padding-top: 3px;
   margin-bottom: -4px;
   padding-bottom: 3px;
-  vertical-align: -20%;
+  vertical-align: middle;
 }
 
-.btn, .nav {
+.nav {
   [class^="icon-"],
   [class*=" icon-"] {
     vertical-align: inherit;
@@ -43,7 +38,32 @@
     padding-top: 3px;
     margin-bottom: -4px;
     padding-bottom: 3px;
-    line-height: .9em;
+    &.icon-large {
+      vertical-align: -25%;
+    }
+  }
+}
+
+.nav-pills, .nav-tabs {
+  [class^="icon-"],
+  [class*=" icon-"] {
+    &.icon-large {
+      line-height: .75em;
+      margin-top: -7px;
+      padding-top: 5px;
+      margin-bottom: -5px;
+      padding-bottom: 4px;
+    }
+  }
+}
+
+.btn {
+  [class^="icon-"],
+  [class*=" icon-"] {
+    &.pull-left, &.pull-right { vertical-align: inherit; }
+    &.icon-large {
+      margin-top: -.5em;
+    }
   }
 }
 
