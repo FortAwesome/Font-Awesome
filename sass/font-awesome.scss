@@ -106,21 +106,6 @@ $experimental-support-for-webkit: true !default;
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
   
-  /*
-    Reset sprites.less.
-  */
-  @if $font-awesome-using-bootstrap {
-    display: inline;
-    width: auto;
-    height: auto;
-    line-height: normal;
-    vertical-align: baseline;
-    background-image: none;
-    background-position: 0% 0%;
-    background-repeat: repeat;
-    margin-top: 0;
-  }
-  
   /* Makes sure icons active on rollover in links. */
   a & {
     display: inline-block;
@@ -131,6 +116,46 @@ $experimental-support-for-webkit: true !default;
     text-decoration: inherit;
     display: inline-block;
     speak: none;
+  }
+  
+  /*
+    Bootstrap element reset styles.
+  */
+  @if $font-awesome-using-bootstrap {
+    /* Reset sprites.less */
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    margin-top: 0;
+    
+    /* Button reset styles. */
+    .btn &,
+    .nav & {
+      display: inline;
+      
+      /* Keeps button heights with and without icons the same. */
+      &.icon-large {
+        line-height: .9em;
+      }
+
+      &.icon-spin {
+        display: inline-block;
+      }
+    }
+    
+    /* Nav reset styles. */
+    .nav-tabs &,
+    .nav-pills & {
+      /* Keeps button heights with and without icons the same. */
+      &.icon-large {
+        line-height: .9em;
+      }
+    }
   }
 }
 
@@ -155,31 +180,10 @@ $experimental-support-for-webkit: true !default;
   }
 }
 
-
-
-
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
   vertical-align: -10%;
   font-size: 1.3333333333333333em;
-}
-
-.btn, .nav {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    display: inline;
-    /* keeps button heights with and without icons the same */
-    &.icon-large { line-height: .9em; }
-    &.icon-spin { display: inline-block; }
-  }
-}
-
-.nav-tabs, .nav-pills {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    /* keeps button heights with and without icons the same */
-    &, &.icon-large { line-height: .9em; }
-  }
 }
 
 li, .nav li {
