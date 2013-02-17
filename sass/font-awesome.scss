@@ -27,6 +27,7 @@
     
 ---------------------------------- */
 $font-awesome-path: '../font' !default;
+$font-awesome-version: '3.0.2';
 
 /* Colors. */
 $font-awesome-border-color: #eee !default;
@@ -52,10 +53,10 @@ $font-awesome-icon-muted: $font-awesome-border-color !default;
 ---------------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('#{$font-awesome-path}/fontawesome-webfont.eot?v=3.0.1');
-  src: url('#{$font-awesome-path}/fontawesome-webfont.eot?#iefix&v=3.0.1') format("embedded-opentype"),
-    url('#{$font-awesome-path}/fontawesome-webfont.woff?v=3.0.1') format("woff"),
-    url('#{$font-awesome-path}/fontawesome-webfont.ttf?v=3.0.1') format("truetype");
+  src: url('#{$font-awesome-path}/fontawesome-webfont.eot?v=#{$font-awesome-version}');
+  src: url('#{$font-awesome-path}/fontawesome-webfont.eot?#iefix&v=#{$font-awesome-version}') format('embedded-opentype'),
+    url('#{$font-awesome-path}/fontawesome-webfont.woff?v=#{$font-awesome-version}') format('woff'),
+    url('#{$font-awesome-path}/fontawesome-webfont.ttf?v=#{$font-awesome-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
