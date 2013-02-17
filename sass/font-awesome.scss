@@ -21,18 +21,41 @@
  *  Work: Lead Product Designer @ http://kyruus.com
  */
 
-$fontAwesomePath:   "../font" !default;
-$borderColor:       #eee;
-$iconMuted:         #eee;
-@mixin border-radius($radius) { -webkit-border-radius: $radius; -moz-border-radius: $radius; border-radius: $radius; }
+/** ----------------------------------
+
+    Configuration.
+    
+---------------------------------- */
+$font-awesome-path: '../font' !default;
+
+/* Colors. */
+$font-awesome-border-color: #eee !default;
+$font-awesome-icon-muted: $font-awesome-border-color !default;
 
 
+/** ----------------------------------
+
+    Mixins.
+    
+---------------------------------- */
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+
+/** ----------------------------------
+
+    Font face definition.
+    
+---------------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('#{$fontAwesomePath}/fontawesome-webfont.eot?v=3.0.1');
-  src: url('#{$fontAwesomePath}/fontawesome-webfont.eot?#iefix&v=3.0.1') format("embedded-opentype"),
-    url('#{$fontAwesomePath}/fontawesome-webfont.woff?v=3.0.1') format("woff"),
-    url('#{$fontAwesomePath}/fontawesome-webfont.ttf?v=3.0.1') format("truetype");
+  src: url('#{$font-awesome-path}/fontawesome-webfont.eot?v=3.0.1');
+  src: url('#{$font-awesome-path}/fontawesome-webfont.eot?#iefix&v=3.0.1') format("embedded-opentype"),
+    url('#{$font-awesome-path}/fontawesome-webfont.woff?v=3.0.1') format("woff"),
+    url('#{$font-awesome-path}/fontawesome-webfont.ttf?v=3.0.1') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -141,14 +164,14 @@ ul.icons {
 }
 
 .icon-muted {
-  color: $iconMuted;
+  color: $font-awesome-icon-muted;
 }
 
 // Icon Borders
 // -------------------------
 
 .icon-border {
-  border: solid 1px $borderColor;
+  border: solid 1px $font-awesome-border-color;
   padding: .2em .25em .15em;
   @include border-radius(3px);
 }
