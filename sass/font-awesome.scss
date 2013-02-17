@@ -156,6 +156,22 @@ $experimental-support-for-webkit: true !default;
         line-height: .9em;
       }
     }
+    
+    /* Background image reset. */
+    .nav-pills > .active > a > &,
+    .nav-pills > .active > a > &,
+    .nav-list > .active > a > &,
+    .nav-list > .active > a > &,
+    .navbar-inverse .nav > .active > a > &,
+    .navbar-inverse .nav > .active > a > &,
+    .dropdown-menu > li > a:hover > &,
+    .dropdown-menu > li > a:hover > &,
+    .dropdown-menu > .active > a > &,
+    .dropdown-menu > .active > a > &,
+    .dropdown-submenu:hover > a > &,
+    .dropdown-submenu:hover > a > & {
+      background-image: none;
+    }
   }
 }
 
@@ -163,19 +179,7 @@ $experimental-support-for-webkit: true !default;
   Other Bootstrap sprites.less reset styles.
 */
 @if $font-awesome-using-bootstrap {
-  .icon-white,
-  .nav-pills > .active > a > [class^="icon-"],
-  .nav-pills > .active > a > [class*=" icon-"],
-  .nav-list > .active > a > [class^="icon-"],
-  .nav-list > .active > a > [class*=" icon-"],
-  .navbar-inverse .nav > .active > a > [class^="icon-"],
-  .navbar-inverse .nav > .active > a > [class*=" icon-"],
-  .dropdown-menu > li > a:hover > [class^="icon-"],
-  .dropdown-menu > li > a:hover > [class*=" icon-"],
-  .dropdown-menu > .active > a > [class^="icon-"],
-  .dropdown-menu > .active > a > [class*=" icon-"],
-  .dropdown-submenu:hover > a > [class^="icon-"],
-  .dropdown-submenu:hover > a > [class*=" icon-"] {
+  .icon-white {
     background-image: none;
   }
 }
