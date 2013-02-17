@@ -120,6 +120,11 @@ $experimental-support-for-webkit: true !default;
     background-repeat: repeat;
     margin-top: 0;
   }
+  
+  /* Makes sure icons active on rollover in links. */
+  a & {
+    display: inline-block;
+  }
 }
 
 /*
@@ -149,14 +154,6 @@ $experimental-support-for-webkit: true !default;
   text-decoration: inherit;
   display: inline-block;
   speak: none;
-}
-
-/* makes sure icons active on rollover in links */
-a {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    display: inline-block;
-  }
 }
 
 /* makes the font 33% larger relative to the icon container */
