@@ -51,15 +51,28 @@ $font-awesome-icon-sizes: 2 3 4 !default;
 $font-awesome-border-color: #eee !default;
 $font-awesome-icon-muted: $font-awesome-border-color !default;
 
+/*
+ Compass browser support configuration variables.
+ See: http://compass-style.org/reference/compass/support/
+*/
+$experimental-support-for-mozilla: true !default;
+$experimental-support-for-webkit: true !default;
+
 
 /** ----------------------------------
 
     Mixins.
     
 ---------------------------------- */
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
+@mixin font-awesome-border-radius($radius) {
+  @if $experimental-support-for-mozilla {
+    -moz-border-radius: $radius;
+  }
+  
+  @if $experimental-support-for-webkit {
+    -webkit-border-radius: $radius;
+  }
+  
   border-radius: $radius;
 }
 
@@ -207,7 +220,7 @@ ul.icons {
 ---------------------------------- */
 @if $font-awesome-using-bordered {
   .icon-border {
-    @include border-radius(3px);
+    @include font-awesome-border-radius(3px);
 
     padding: .2em .25em .15em;
     border: solid 1px $font-awesome-border-color;
@@ -231,7 +244,7 @@ ul.icons {
       
       @if $font-awesome-using-bordered {
         &.icon-border {
-          @include border-radius($px + 2);
+          @include font-awesome-border-radius($px + 2);
 
           border-width: $px;
         }
