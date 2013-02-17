@@ -125,6 +125,13 @@ $experimental-support-for-webkit: true !default;
   a & {
     display: inline-block;
   }
+  
+  &:before,
+  &:before {
+    text-decoration: inherit;
+    display: inline-block;
+    speak: none;
+  }
 }
 
 /*
@@ -149,12 +156,7 @@ $experimental-support-for-webkit: true !default;
 }
 
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  text-decoration: inherit;
-  display: inline-block;
-  speak: none;
-}
+
 
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
