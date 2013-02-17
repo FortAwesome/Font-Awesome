@@ -43,6 +43,10 @@ $font-awesome-version: '3.0.2';
 /* Bootstrap. */
 $font-awesome-using-bootstrap: true !default;
 
+/* Style options. */
+$font-awesome-using-bordered: true !default;
+$font-awesome-icon-sizes: 2 3 4 !default;
+
 /* Colors. */
 $font-awesome-border-color: #eee !default;
 $font-awesome-icon-muted: $font-awesome-border-color !default;
@@ -195,39 +199,48 @@ ul.icons {
   color: $font-awesome-icon-muted;
 }
 
-// Icon Borders
-// -------------------------
 
-.icon-border {
-  border: solid 1px $font-awesome-border-color;
-  padding: .2em .25em .15em;
-  @include border-radius(3px);
-}
+/** ----------------------------------
 
-// Icon Sizes
-// -------------------------
+    Bordered icons.
+    
+---------------------------------- */
+@if $font-awesome-using-bordered {
+  .icon-border {
+    @include border-radius(3px);
 
-.icon-2x {
-  font-size: 2em;
-  &.icon-border {
-    border-width: 2px;
-    @include border-radius(4px);
+    padding: .2em .25em .15em;
+    border: solid 1px $font-awesome-border-color;
   }
 }
-.icon-3x {
-  font-size: 3em;
-  &.icon-border {
-    border-width: 3px;
-    @include border-radius(5px);
+
+
+/** ----------------------------------
+
+    Icon sizes.
+    
+---------------------------------- */
+@if $font-awesome-icon-sizes {
+  @each $size in $font-awesome-icon-sizes {
+    // Convert the size to values with units.
+    $em: $size * 1em;
+    $px: $size * 1px;
+
+    .icon-#{$size}x {
+      font-size: $em;
+      
+      @if $font-awesome-using-bordered {
+        &.icon-border {
+          @include border-radius($px + 2);
+
+          border-width: $px;
+        }
+      }
+    }
   }
 }
-.icon-4x {
-  font-size: 4em;
-  &.icon-border {
-    border-width: 4px;
-    @include border-radius(6px);
-  }
-}
+
+
 
 // Floats
 // -------------------------
