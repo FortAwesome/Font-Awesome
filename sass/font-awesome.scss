@@ -49,6 +49,9 @@ $font-awesome-icon-sizes: 2 3 4 !default;
 
 /* Helpers. */
 $font-awesome-using-floats: true !default;
+$font-awesome-using-spin: true !default;
+$font-awesome-spin-class-name: 'icon-spin' !default;
+$font-awesome-spin-animation-name: font-awesome-spin !default;
 
 /* Colors. */
 $font-awesome-border-color: #eee !default;
@@ -358,41 +361,89 @@ $font-awesome-list-selector: li;
 }
 
 
-.icon-spin {
-  display: inline-block;
-  -moz-animation: spin 2s infinite linear;
-  -o-animation: spin 2s infinite linear;
-  -webkit-animation: spin 2s infinite linear;
-  animation: spin 2s infinite linear;
+/** ----------------------------------
+
+    Icon spin class.
+    
+---------------------------------- */
+@if $font-awesome-using-spin {
+  .#{$font-awesome-spin-class-name} {
+    display: inline-block;
+    -moz-animation: $font-awesome-spin-animation-name 2s infinite linear;
+    -o-animation: $font-awesome-spin-animation-name 2s infinite linear;
+    -webkit-animation: $font-awesome-spin-animation-name 2s infinite linear;
+    animation: $font-awesome-spin-animation-name 2s infinite linear;
+  }
+
+  @-moz-keyframes $font-awesome-spin-animation-name {
+    0% {
+      -moz-transform: rotate(0deg);
+    }
+    
+    100% {
+      -moz-transform: rotate(359deg);
+    }
+  }
+  
+  @-webkit-keyframes $font-awesome-spin-animation-name {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    
+    100% {
+      -webkit-transform: rotate(359deg);
+    }
+  }
+  
+  @-o-keyframes $font-awesome-spin-animation-name {
+    0% {
+      -o-transform: rotate(0deg);
+    }
+    
+    100% {
+      -o-transform: rotate(359deg);
+    }
+  }
+  
+  @-ms-keyframes $font-awesome-spin-animation-name {
+    0% {
+      -ms-transform: rotate(0deg);
+    }
+    
+    100% {
+      -ms-transform: rotate(359deg);
+    }
+  }
+  
+  @keyframes $font-awesome-spin-animation-name {
+    0% {
+      transform: rotate(0deg);
+    }
+    
+    100% {
+      transform: rotate(359deg);
+    }
+  }
+
+  @-moz-document url-prefix() {
+    .icon-#{$font-awesome-spin-class-name} {
+      height: .9em; 
+      
+      &.icon-large {
+        height: 1.25em;
+      }
+    }
+    
+    .btn .icon-#{$font-awesome-spin-class-name} {
+      height: auto;
+      
+      &.icon-large {
+        height: .75em;
+      }
+    }
+  }
 }
 
-@-moz-keyframes spin {
-  0% { -moz-transform: rotate(0deg); }
-  100% { -moz-transform: rotate(359deg); }
-}
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(359deg); }
-}
-@-o-keyframes spin {
-  0% { -o-transform: rotate(0deg); }
-  100% { -o-transform: rotate(359deg); }
-}
-@-ms-keyframes spin {
-  0% { -ms-transform: rotate(0deg); }
-  100% { -ms-transform: rotate(359deg); }
-}
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(359deg); }
-}
-
-@-moz-document url-prefix() {
-  .icon-spin { height: .9em; }
-  .btn .icon-spin { height: auto; }
-  .icon-spin.icon-large { height: 1.25em; }
-  .btn .icon-spin.icon-large { height: .75em; }
-}
 
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */
