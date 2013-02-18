@@ -47,6 +47,9 @@ $font-awesome-using-bootstrap: true !default;
 $font-awesome-using-bordered: true !default;
 $font-awesome-icon-sizes: 2 3 4 !default;
 
+/* Helpers. */
+$font-awesome-using-floats: true !default;
+
 /* Colors. */
 $font-awesome-border-color: #eee !default;
 $font-awesome-icon-muted: $font-awesome-border-color !default;
@@ -275,52 +278,82 @@ $font-awesome-list-selector: li;
 }
 
 
+/** ----------------------------------
 
-// Floats
-// -------------------------
-
-// Quick floats
-.pull-right { float: right; }
-.pull-left { float: left; }
-
-[class^="icon-"],
-[class*=" icon-"] {
-  &.pull-left {
-    margin-right: .3em;
+    Float helpers.
+    
+---------------------------------- */
+@if $font-awesome-using-floats {
+  .pull-right {
+    float: right;
   }
-  &.pull-right {
-    margin-left: .3em;
+  
+  .pull-left {
+    float: left;
   }
-}
 
-.btn {
   [class^="icon-"],
   [class*=" icon-"] {
-    &.pull-left, &.pull-right {
-      &.icon-2x { margin-top: .18em; }
+    &.pull-left {
+      margin-right: .3em;
     }
-    &.icon-spin.icon-large { line-height: .8em; }
-  }
-}
-
-.btn.btn-small {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    &.pull-left, &.pull-right {
-      &.icon-2x { margin-top: .25em; }
+    
+    &.pull-right {
+      margin-left: .3em;
     }
   }
-}
+  
+  @if $font-awesome-using-bootstrap {
+    .btn {
+      [class^="icon-"],
+      [class*=" icon-"] {
+        &.pull-left,
+        &.pull-right {
+          &.icon-2x {
+            margin-top: .18em;
+          }
+        }
+        
+        &.icon-spin.icon-large {
+          line-height: .8em;
+        }
+      }
+      
+      &.btn-small {
+        [class^="icon-"],
+        [class*=" icon-"] {
+          &.pull-left,
+          &.pull-right {
+            &.icon-2x {
+              margin-top: .25em;
+            }
+          }
+        }
+      }
+      
+      &.btn-large {
+        [class^="icon-"],
+        [class*=" icon-"] {
+          // Overrides Bootstrap default.
+          margin-top: 0;
 
-.btn.btn-large {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    margin-top: 0; // overrides bootstrap default
-    &.pull-left, &.pull-right {
-      &.icon-2x { margin-top: .05em; }
+          &.pull-left,
+          &.pull-right {
+            &.icon-2x {
+              margin-top: .05em;
+            }
+          }
+
+          &.pull-left.icon-2x {
+            margin-right: .2em;
+          }
+
+          &.pull-right.icon-2x {
+            margin-left: .2em;
+          }
+        }
+      }
     }
-    &.pull-left.icon-2x { margin-right: .2em; }
-    &.pull-right.icon-2x { margin-left: .2em; }
   }
 }
 
