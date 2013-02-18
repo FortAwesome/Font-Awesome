@@ -1,534 +1,736 @@
-/*!
- *  Font Awesome 3.0.2
- *  the iconic font designed for use with Twitter Bootstrap
- *  -------------------------------------------------------
- *  The full suite of pictographic icons, examples, and documentation
- *  can be found at: http://fortawesome.github.com/Font-Awesome/
- *
- *  License
- *  -------------------------------------------------------
- *  - The Font Awesome font is licensed under the SIL Open Font License - http://scripts.sil.org/OFL
- *  - Font Awesome CSS, LESS, and SASS files are licensed under the MIT License -
- *    http://opensource.org/licenses/mit-license.html
- *  - The Font Awesome pictograms are licensed under the CC BY 3.0 License - http://creativecommons.org/licenses/by/3.0/
- *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
- *    "Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome"
- *
- *  Contact
- *  -------------------------------------------------------
- *  Email: dave@davegandy.com
- *  Twitter: http://twitter.com/fortaweso_me
- *  Work: Lead Product Designer @ http://kyruus.com
- */
+/*! ----------------------------------
 
-$fontAwesomePath:   "../font" !default;
-$borderColor:       #eee;
-$iconMuted:         #eee;
-@mixin border-radius($radius) { -webkit-border-radius: $radius; -moz-border-radius: $radius; border-radius: $radius; }
+  Font Awesome 3.0.1
+  ------------------
+
+  The iconic font designed for use with Twitter Bootstrap
+  
+  The full suite of pictographic icons, examples, and documentation
+  can be found at: http://fortawesome.github.com/Font-Awesome/
+
+  License
+  -------------------------------------------------------
+  
+   - The Font Awesome font is licensed under the SIL Open Font License -
+  http://scripts.sil.org/OFL
+  
+   - Font Awesome CSS, LESS, and SASS files are licensed under the MIT License -
+  http://opensource.org/licenses/mit-license.html
+  
+   - The Font Awesome pictograms are licensed under the CC BY 3.0 License -
+  http://creativecommons.org/licenses/by/3.0/
+  
+   - Attribution is no longer required in Font Awesome 3.0, but much
+  appreciated: "Font Awesome by Dave Gandy -
+  http://fortawesome.github.com/Font-Awesome"
+
+  Contact
+  -------------------------------------------------------
+  Email: dave@davegandy.com
+  Twitter: http://twitter.com/fortaweso_me
+  Work: Lead Product Designer @ http://kyruus.com
+
+---------------------------------- */
+/** ----------------------------------
+
+    Configuration.
+    
+---------------------------------- */
+/* Font Awesome. */
+$font-awesome-path: '../font' !default;
+$font-awesome-version: '3.0.2';
+$font-awesome-class-prefix: 'icon-' !default;
+$font-awesome-class-selector: '[class^="#{$font-awesome-class-prefix}"], [class*=" #{$font-awesome-class-prefix}"]';
+
+/* Bootstrap. */
+$font-awesome-using-bootstrap: true !default;
+
+/* Style options. */
+$font-awesome-using-bordered: true !default;
+$font-awesome-icon-sizes: 2 3 4 !default;
+
+/* Helpers. */
+$font-awesome-using-floats: true !default;
+$font-awesome-using-spin: true !default;
+$font-awesome-spin-class-name: 'icon-spin' !default;
+$font-awesome-spin-animation-name: font-awesome-spin !default;
+
+/* Colors. */
+$font-awesome-border-color: #eee !default;
+$font-awesome-icon-muted: $font-awesome-border-color !default;
+
+/*
+ Compass browser support configuration variables.
+ See: http://compass-style.org/reference/compass/support/
+*/
+$experimental-support-for-mozilla: true !default;
+$experimental-support-for-webkit: true !default;
 
 
+/** ----------------------------------
+
+    Mixins.
+    
+---------------------------------- */
+@mixin font-awesome-border-radius($radius) {
+  @if $experimental-support-for-mozilla {
+    -moz-border-radius: $radius;
+  }
+  
+  @if $experimental-support-for-webkit {
+    -webkit-border-radius: $radius;
+  }
+  
+  border-radius: $radius;
+}
+
+
+/** ----------------------------------
+
+    Font face definition.
+    
+---------------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('#{$fontAwesomePath}/fontawesome-webfont.eot?v=3.0.1');
-  src: url('#{$fontAwesomePath}/fontawesome-webfont.eot?#iefix&v=3.0.1') format("embedded-opentype"),
-    url('#{$fontAwesomePath}/fontawesome-webfont.woff?v=3.0.1') format("woff"),
-    url('#{$fontAwesomePath}/fontawesome-webfont.ttf?v=3.0.1') format("truetype");
+  src: url('#{$font-awesome-path}/fontawesome-webfont.eot?v=#{$font-awesome-version}');
+  src: url('#{$font-awesome-path}/fontawesome-webfont.eot?#iefix&v=#{$font-awesome-version}') format('embedded-opentype'),
+    url('#{$font-awesome-path}/fontawesome-webfont.woff?v=#{$font-awesome-version}') format('woff'),
+    url('#{$font-awesome-path}/fontawesome-webfont.ttf?v=#{$font-awesome-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
-/*  Font Awesome styles
-    ------------------------------------------------------- */
-[class^="icon-"],
-[class*=" icon-"] {
+
+/** ----------------------------------
+
+    Main Font Awesome styles.
+    
+---------------------------------- */
+#{$font-awesome-class-selector} {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
-
-  /* sprites.less reset */
-  display: inline;
-  width: auto;
-  height: auto;
-  line-height: normal;
-  vertical-align: baseline;
-  background-image: none;
-  background-position: 0% 0%;
-  background-repeat: repeat;
-  margin-top: 0;
-}
-
-/* more sprites.less reset */
-.icon-white,
-.nav-pills > .active > a > [class^="icon-"],
-.nav-pills > .active > a > [class*=" icon-"],
-.nav-list > .active > a > [class^="icon-"],
-.nav-list > .active > a > [class*=" icon-"],
-.navbar-inverse .nav > .active > a > [class^="icon-"],
-.navbar-inverse .nav > .active > a > [class*=" icon-"],
-.dropdown-menu > li > a:hover > [class^="icon-"],
-.dropdown-menu > li > a:hover > [class*=" icon-"],
-.dropdown-menu > .active > a > [class^="icon-"],
-.dropdown-menu > .active > a > [class*=" icon-"],
-.dropdown-submenu:hover > a > [class^="icon-"],
-.dropdown-submenu:hover > a > [class*=" icon-"] {
-  background-image: none;
-}
-
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  text-decoration: inherit;
-  display: inline-block;
-  speak: none;
-}
-
-/* makes sure icons active on rollover in links */
-a {
-  [class^="icon-"],
-  [class*=" icon-"] {
+  
+  /* Makes sure icons active on rollover in links. */
+  a & {
     display: inline-block;
+  }
+  
+  &:before,
+  &:before {
+    text-decoration: inherit;
+    display: inline-block;
+    speak: none;
+  }
+  
+  /*
+    Bootstrap element reset styles.
+  */
+  @if $font-awesome-using-bootstrap {
+    /* Reset sprites.less */
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    margin-top: 0;
+    
+    /* Button reset styles. */
+    .btn &,
+    .nav & {
+      display: inline;
+      
+      /* Keeps button heights with and without icons the same. */
+      &.icon-large {
+        line-height: .9em;
+      }
+
+      &.icon-spin {
+        display: inline-block;
+      }
+    }
+    
+    /* Nav reset styles. */
+    .nav-tabs &,
+    .nav-pills & {
+      /* Keeps button heights with and without icons the same. */
+      &.icon-large {
+        line-height: .9em;
+      }
+    }
+    
+    /* Background image reset. */
+    .nav-pills > .active > a > &,
+    .nav-pills > .active > a > &,
+    .nav-list > .active > a > &,
+    .nav-list > .active > a > &,
+    .navbar-inverse .nav > .active > a > &,
+    .navbar-inverse .nav > .active > a > &,
+    .dropdown-menu > li > a:hover > &,
+    .dropdown-menu > li > a:hover > &,
+    .dropdown-menu > .active > a > &,
+    .dropdown-menu > .active > a > &,
+    .dropdown-submenu:hover > a > &,
+    .dropdown-submenu:hover > a > & {
+      background-image: none;
+    }
   }
 }
 
-/* makes the font 33% larger relative to the icon container */
+/*
+  Icons within lists.
+*/
+ul {
+  &.icons {
+    list-style-type: none;
+    text-indent: -.75em;
+    
+    li {
+      #{$font-awesome-class-selector} {
+        width: .75em;
+      }
+    }
+  }
+}
+
+$font-awesome-list-selector: li;
+
+/* Build a selector to reset Bootstrap's .nav element. */
+@if $font-awesome-using-bootstrap {
+  $font-awesome-list-selector: append($font-awesome-list-selector, unquote('.nav li'), comma);
+}
+
+#{$font-awesome-list-selector} {
+  #{$font-awesome-class-selector} {
+    display: inline-block;
+    width: 1.25em;
+    text-align: center;
+  }
+}
+
+/*
+  Other Bootstrap sprites.less reset styles.
+*/
+@if $font-awesome-using-bootstrap {
+  .icon-white {
+    background-image: none;
+  }
+}
+
+
+/** ----------------------------------
+
+    Misc. helper classes.
+    
+---------------------------------- */
+.icon-muted {
+  color: $font-awesome-icon-muted;
+}
+
+/* Makes the font 33% larger relative to the icon container. */
 .icon-large:before {
   vertical-align: -10%;
   font-size: 1.3333333333333333em;
 }
 
-.btn, .nav {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    display: inline;
-    /* keeps button heights with and without icons the same */
-    &.icon-large { line-height: .9em; }
-    &.icon-spin { display: inline-block; }
+
+/** ----------------------------------
+
+    Bordered icons.
+    
+---------------------------------- */
+@if $font-awesome-using-bordered {
+  .icon-border {
+    @include font-awesome-border-radius(3px);
+
+    padding: .2em .25em .15em;
+    border: solid 1px $font-awesome-border-color;
   }
 }
 
-.nav-tabs, .nav-pills {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    /* keeps button heights with and without icons the same */
-    &, &.icon-large { line-height: .9em; }
+
+/** ----------------------------------
+
+    Icon sizes.
+    
+---------------------------------- */
+@if $font-awesome-icon-sizes {
+  @each $size in $font-awesome-icon-sizes {
+    // Convert the size to values with units.
+    $em: $size * 1em;
+    $px: $size * 1px;
+
+    .icon-#{$size}x {
+      font-size: $em;
+      
+      @if $font-awesome-using-bordered {
+        &.icon-border {
+          @include font-awesome-border-radius($px + 2);
+
+          border-width: $px;
+        }
+      }
+    }
   }
 }
 
-li, .nav li {
-  [class^="icon-"],
-  [class*=" icon-"] {
+
+/** ----------------------------------
+
+    Float helpers.
+    
+---------------------------------- */
+@if $font-awesome-using-floats {
+  .pull-right {
+    float: right;
+  }
+  
+  .pull-left {
+    float: left;
+  }
+
+  #{$font-awesome-class-selector} {
+    &.pull-left {
+      margin-right: .3em;
+    }
+    
+    &.pull-right {
+      margin-left: .3em;
+    }
+  }
+  
+  @if $font-awesome-using-bootstrap {
+    .btn {
+      #{$font-awesome-class-selector} {
+        &.pull-left,
+        &.pull-right {
+          &.icon-2x {
+            margin-top: .18em;
+          }
+        }
+        
+        &.icon-spin.icon-large {
+          line-height: .8em;
+        }
+      }
+      
+      &.btn-small {
+        #{$font-awesome-class-selector} {
+          &.pull-left,
+          &.pull-right {
+            &.icon-2x {
+              margin-top: .25em;
+            }
+          }
+        }
+      }
+      
+      &.btn-large {
+        #{$font-awesome-class-selector} {
+          // Overrides Bootstrap default.
+          margin-top: 0;
+
+          &.pull-left,
+          &.pull-right {
+            &.icon-2x {
+              margin-top: .05em;
+            }
+          }
+
+          &.pull-left.icon-2x {
+            margin-right: .2em;
+          }
+
+          &.pull-right.icon-2x {
+            margin-left: .2em;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/** ----------------------------------
+
+    Icon spin class.
+    
+---------------------------------- */
+@if $font-awesome-using-spin {
+  .#{$font-awesome-spin-class-name} {
     display: inline-block;
-    width: 1.25em;
-    text-align: center;
-    &.icon-large {
-      /* increased font size for icon-large */
-      width: 1.5625em;
+    -moz-animation: $font-awesome-spin-animation-name 2s infinite linear;
+    -o-animation: $font-awesome-spin-animation-name 2s infinite linear;
+    -webkit-animation: $font-awesome-spin-animation-name 2s infinite linear;
+    animation: $font-awesome-spin-animation-name 2s infinite linear;
+  }
+
+  @-moz-keyframes $font-awesome-spin-animation-name {
+    0% {
+      -moz-transform: rotate(0deg);
+    }
+    
+    100% {
+      -moz-transform: rotate(359deg);
+    }
+  }
+  
+  @-webkit-keyframes $font-awesome-spin-animation-name {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    
+    100% {
+      -webkit-transform: rotate(359deg);
+    }
+  }
+  
+  @-o-keyframes $font-awesome-spin-animation-name {
+    0% {
+      -o-transform: rotate(0deg);
+    }
+    
+    100% {
+      -o-transform: rotate(359deg);
+    }
+  }
+  
+  @-ms-keyframes $font-awesome-spin-animation-name {
+    0% {
+      -ms-transform: rotate(0deg);
+    }
+    
+    100% {
+      -ms-transform: rotate(359deg);
+    }
+  }
+  
+  @keyframes $font-awesome-spin-animation-name {
+    0% {
+      transform: rotate(0deg);
+    }
+    
+    100% {
+      transform: rotate(359deg);
+    }
+  }
+
+  @-moz-document url-prefix() {
+    .icon-#{$font-awesome-spin-class-name} {
+      height: .9em; 
+      
+      &.icon-large {
+        height: 1.25em;
+      }
+    }
+    
+    .btn .icon-#{$font-awesome-spin-class-name} {
+      height: auto;
+      
+      &.icon-large {
+        height: .75em;
+      }
     }
   }
 }
 
-ul.icons {
-  list-style-type: none;
-  text-indent: -.75em;
 
-  li {
-    [class^="icon-"],
-    [class*=" icon-"] {
-      width: .75em;
+/** ----------------------------------
+  
+  Icon class names.
+  
+  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+  readers do not read off random characters that represent icons.
+    
+---------------------------------- */
+$icons: 
+  'glass'                '\f000',
+  'music'                '\f001',
+  'search'               '\f002',
+  'envelope'             '\f003',
+  'heart'                '\f004',
+  'star'                 '\f005',
+  'star-empty'           '\f006',
+  'user'                 '\f007',
+  'film'                 '\f008',
+  'th-large'             '\f009',
+  'th'                   '\f00a',
+  'th-list'              '\f00b',
+  'ok'                   '\f00c',
+  'remove'               '\f00d',
+  'zoom-in'              '\f00e',
+
+  'zoom-out'             '\f010',
+  'off'                  '\f011',
+  'signal'               '\f012',
+  'cog'                  '\f013',
+  'trash'                '\f014',
+  'home'                 '\f015',
+  'file'                 '\f016',
+  'time'                 '\f017',
+  'road'                 '\f018',
+  'download-alt'         '\f019',
+  'download'             '\f01a',
+  'upload'               '\f01b',
+  'inbox'                '\f01c',
+  'play-circle'          '\f01d',
+  'repeat'               '\f01e',
+
+  'refresh'              '\f021',
+  'list-alt'             '\f022',
+  'lock'                 '\f023',
+  'flag'                 '\f024',
+  'headphones'           '\f025',
+  'volume-off'           '\f026',
+  'volume-down'          '\f027',
+  'volume-up'            '\f028',
+  'qrcode'               '\f029',
+  'barcode'              '\f02a',
+  'tag'                  '\f02b',
+  'tags'                 '\f02c',
+  'book'                 '\f02d',
+  'bookmark'             '\f02e',
+  'print'                '\f02f',
+
+  'camera'               '\f030',
+  'font'                 '\f031',
+  'bold'                 '\f032',
+  'italic'               '\f033',
+  'text-height'          '\f034',
+  'text-width'           '\f035',
+  'align-left'           '\f036',
+  'align-center'         '\f037',
+  'align-right'          '\f038',
+  'align-justify'        '\f039',
+  'list'                 '\f03a',
+  'indent-left'          '\f03b',
+  'indent-right'         '\f03c',
+  'facetime-video'       '\f03d',
+  'picture'              '\f03e',
+
+  'pencil'               '\f040',
+  'map-marker'           '\f041',
+  'adjust'               '\f042',
+  'tint'                 '\f043',
+  'edit'                 '\f044',
+  'share'                '\f045',
+  'check'                '\f046',
+  'move'                 '\f047',
+  'step-backward'        '\f048',
+  'fast-backward'        '\f049',
+  'backward'             '\f04a',
+  'play'                 '\f04b',
+  'pause'                '\f04c',
+  'stop'                 '\f04d',
+  'forward'              '\f04e',
+
+  'fast-forward'         '\f050',
+  'step-forward'         '\f051',
+  'eject'                '\f052',
+  'chevron-left'         '\f053',
+  'chevron-right'        '\f054',
+  'plus-sign'            '\f055',
+  'minus-sign'           '\f056',
+  'remove-sign'          '\f057',
+  'ok-sign'              '\f058',
+  'question-sign'        '\f059',
+  'info-sign'            '\f05a',
+  'screenshot'           '\f05b',
+  'remove-circle'        '\f05c',
+  'ok-circle'            '\f05d',
+  'ban-circle'           '\f05e',
+
+  'arrow-left'           '\f060',
+  'arrow-right'          '\f061',
+  'arrow-up'             '\f062',
+  'arrow-down'           '\f063',
+  'share-alt'            '\f064',
+  'resize-full'          '\f065',
+  'resize-small'         '\f066',
+  'plus'                 '\f067',
+  'minus'                '\f068',
+  'asterisk'             '\f069',
+  'exclamation-sign'     '\f06a',
+  'gift'                 '\f06b',
+  'leaf'                 '\f06c',
+  'fire'                 '\f06d',
+  'eye-open'             '\f06e',
+
+  'eye-close'            '\f070',
+  'warning-sign'         '\f071',
+  'plane'                '\f072',
+  'calendar'             '\f073',
+  'random'               '\f074',
+  'comment'              '\f075',
+  'magnet'               '\f076',
+  'chevron-up'           '\f077',
+  'chevron-down'         '\f078',
+  'retweet'              '\f079',
+  'shopping-cart'        '\f07a',
+  'folder-close'         '\f07b',
+  'folder-open'          '\f07c',
+  'resize-vertical'      '\f07d',
+  'resize-horizontal'    '\f07e',
+
+  'bar-chart'            '\f080',
+  'twitter-sign'         '\f081',
+  'facebook-sign'        '\f082',
+  'camera-retro'         '\f083',
+  'key'                  '\f084',
+  'cogs'                 '\f085',
+  'comments'             '\f086',
+  'thumbs-up'            '\f087',
+  'thumbs-down'          '\f088',
+  'star-half'            '\f089',
+  'heart-empty'          '\f08a',
+  'signout'              '\f08b',
+  'linkedin-sign'        '\f08c',
+  'pushpin'              '\f08d',
+  'external-link'        '\f08e',
+
+  'signin'               '\f090',
+  'trophy'               '\f091',
+  'github-sign'          '\f092',
+  'upload-alt'           '\f093',
+  'lemon'                '\f094',
+  'phone'                '\f095',
+  'check-empty'          '\f096',
+  'bookmark-empty'       '\f097',
+  'phone-sign'           '\f098',
+  'twitter'              '\f099',
+  'facebook'             '\f09a',
+  'github'               '\f09b',
+  'unlock'               '\f09c',
+  'credit-card'          '\f09d',
+  'rss'                  '\f09e',
+
+  'hdd'                  '\f0a0',
+  'bullhorn'             '\f0a1',
+  'bell'                 '\f0a2',
+  'certificate'          '\f0a3',
+  'hand-right'           '\f0a4',
+  'hand-left'            '\f0a5',
+  'hand-up'              '\f0a6',
+  'hand-down'            '\f0a7',
+  'circle-arrow-left'    '\f0a8',
+  'circle-arrow-right'   '\f0a9',
+  'circle-arrow-up'      '\f0aa',
+  'circle-arrow-down'    '\f0ab',
+  'globe'                '\f0ac',
+  'wrench'               '\f0ad',
+  'tasks'                '\f0ae',
+
+  'filter'               '\f0b0',
+  'briefcase'            '\f0b1',
+  'fullscreen'           '\f0b2',
+
+  'group'                '\f0c0',
+  'link'                 '\f0c1',
+  'cloud'                '\f0c2',
+  'beaker'               '\f0c3',
+  'cut'                  '\f0c4',
+  'copy'                 '\f0c5',
+  'paper-clip'           '\f0c6',
+  'save'                 '\f0c7',
+  'sign-blank'           '\f0c8',
+  'reorder'              '\f0c9',
+  'list-ul'              '\f0ca',
+  'list-ol'              '\f0cb',
+  'strikethrough'        '\f0cc',
+  'underline'            '\f0cd',
+  'table'                '\f0ce',
+
+  'magic'                '\f0d0',
+  'truck'                '\f0d1',
+  'pinterest'            '\f0d2',
+  'pinterest-sign'       '\f0d3',
+  'google-plus-sign'     '\f0d4',
+  'google-plus'          '\f0d5',
+  'money'                '\f0d6',
+  'caret-down'           '\f0d7',
+  'caret-up'             '\f0d8',
+  'caret-left'           '\f0d9',
+  'caret-right'          '\f0da',
+  'columns'              '\f0db',
+  'sort'                 '\f0dc',
+  'sort-down'            '\f0dd',
+  'sort-up'              '\f0de',
+
+  'envelope-alt'         '\f0e0',
+  'linkedin'             '\f0e1',
+  'undo'                 '\f0e2',
+  'legal'                '\f0e3',
+  'dashboard'            '\f0e4',
+  'comment-alt'          '\f0e5',
+  'comments-alt'         '\f0e6',
+  'bolt'                 '\f0e7',
+  'sitemap'              '\f0e8',
+  'umbrella'             '\f0e9',
+  'paste'                '\f0ea',
+  'lightbulb'            '\f0eb',
+  'exchange'             '\f0ec',
+  'cloud-download'       '\f0ed',
+  'cloud-upload'         '\f0ee',
+
+  'user-md'              '\f0f0',
+  'stethoscope'          '\f0f1',
+  'suitcase'             '\f0f2',
+  'bell-alt'             '\f0f3',
+  'coffee'               '\f0f4',
+  'food'                 '\f0f5',
+  'file-alt'             '\f0f6',
+  'building'             '\f0f7',
+  'hospital'             '\f0f8',
+  'ambulance'            '\f0f9',
+  'medkit'               '\f0fa',
+  'fighter-jet'          '\f0fb',
+  'beer'                 '\f0fc',
+  'h-sign'               '\f0fd',
+  'plus-sign-alt'        '\f0fe',
+
+  'double-angle-left'    '\f100',
+  'double-angle-right'   '\f101',
+  'double-angle-up'      '\f102',
+  'double-angle-down'    '\f103',
+  'angle-left'           '\f104',
+  'angle-right'          '\f105',
+  'angle-up'             '\f106',
+  'angle-down'           '\f107',
+  'desktop'              '\f108',
+  'laptop'               '\f109',
+  'tablet'               '\f10a',
+  'mobile-phone'         '\f10b',
+  'circle-blank'         '\f10c',
+  'quote-left'           '\f10d',
+  'quote-right'          '\f10e',
+
+  'spinner'              '\f110',
+  'circle'               '\f111',
+  'reply'                '\f112',
+  'github-alt'           '\f113',
+  'folder-close-alt'     '\f114',
+  'folder-open-alt'      '\f115';
+
+
+/** ----------------------------------
+
+    Font Awesome output.
+    
+---------------------------------- */
+@mixin output-font-awesome-classes() {
+  @each $icon in $icons {
+    $name: nth($icon, 1);
+    $code: nth($icon, 2);
+
+    .#{$font-awesome-class-prefix}#{$name}:before {
+      content: $code;
     }
   }
 }
 
-.icon-muted {
-  color: $iconMuted;
-}
-
-// Icon Borders
-// -------------------------
-
-.icon-border {
-  border: solid 1px $borderColor;
-  padding: .2em .25em .15em;
-  @include border-radius(3px);
-}
-
-// Icon Sizes
-// -------------------------
-
-.icon-2x {
-  font-size: 2em;
-  &.icon-border {
-    border-width: 2px;
-    @include border-radius(4px);
-  }
-}
-.icon-3x {
-  font-size: 3em;
-  &.icon-border {
-    border-width: 3px;
-    @include border-radius(5px);
-  }
-}
-.icon-4x {
-  font-size: 4em;
-  &.icon-border {
-    border-width: 4px;
-    @include border-radius(6px);
-  }
-}
-
-// Floats
-// -------------------------
-
-// Quick floats
-.pull-right { float: right; }
-.pull-left { float: left; }
-
-[class^="icon-"],
-[class*=" icon-"] {
-  &.pull-left {
-    margin-right: .3em;
-  }
-  &.pull-right {
-    margin-left: .3em;
-  }
-}
-
-.btn {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    &.pull-left, &.pull-right {
-      &.icon-2x { margin-top: .18em; }
-    }
-    &.icon-spin.icon-large { line-height: .8em; }
-  }
-}
-
-.btn.btn-small {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    &.pull-left, &.pull-right {
-      &.icon-2x { margin-top: .25em; }
-    }
-  }
-}
-
-.btn.btn-large {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    margin-top: 0; // overrides bootstrap default
-    &.pull-left, &.pull-right {
-      &.icon-2x { margin-top: .05em; }
-    }
-    &.pull-left.icon-2x { margin-right: .2em; }
-    &.pull-right.icon-2x { margin-left: .2em; }
-  }
-}
-
-
-.icon-spin {
-  display: inline-block;
-  -moz-animation: spin 2s infinite linear;
-  -o-animation: spin 2s infinite linear;
-  -webkit-animation: spin 2s infinite linear;
-  animation: spin 2s infinite linear;
-}
-
-@-moz-keyframes spin {
-  0% { -moz-transform: rotate(0deg); }
-  100% { -moz-transform: rotate(359deg); }
-}
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(359deg); }
-}
-@-o-keyframes spin {
-  0% { -o-transform: rotate(0deg); }
-  100% { -o-transform: rotate(359deg); }
-}
-@-ms-keyframes spin {
-  0% { -ms-transform: rotate(0deg); }
-  100% { -ms-transform: rotate(359deg); }
-}
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(359deg); }
-}
-
-@-moz-document url-prefix() {
-  .icon-spin { height: .9em; }
-  .btn .icon-spin { height: auto; }
-  .icon-spin.icon-large { height: 1.25em; }
-  .btn .icon-spin.icon-large { height: .75em; }
-}
-
-/*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-    readers do not read off random characters that represent icons */
-.icon-glass:before                { content: "\f000"; }
-.icon-music:before                { content: "\f001"; }
-.icon-search:before               { content: "\f002"; }
-.icon-envelope:before             { content: "\f003"; }
-.icon-heart:before                { content: "\f004"; }
-.icon-star:before                 { content: "\f005"; }
-.icon-star-empty:before           { content: "\f006"; }
-.icon-user:before                 { content: "\f007"; }
-.icon-film:before                 { content: "\f008"; }
-.icon-th-large:before             { content: "\f009"; }
-.icon-th:before                   { content: "\f00a"; }
-.icon-th-list:before              { content: "\f00b"; }
-.icon-ok:before                   { content: "\f00c"; }
-.icon-remove:before               { content: "\f00d"; }
-.icon-zoom-in:before              { content: "\f00e"; }
-
-.icon-zoom-out:before             { content: "\f010"; }
-.icon-off:before                  { content: "\f011"; }
-.icon-signal:before               { content: "\f012"; }
-.icon-cog:before                  { content: "\f013"; }
-.icon-trash:before                { content: "\f014"; }
-.icon-home:before                 { content: "\f015"; }
-.icon-file:before                 { content: "\f016"; }
-.icon-time:before                 { content: "\f017"; }
-.icon-road:before                 { content: "\f018"; }
-.icon-download-alt:before         { content: "\f019"; }
-.icon-download:before             { content: "\f01a"; }
-.icon-upload:before               { content: "\f01b"; }
-.icon-inbox:before                { content: "\f01c"; }
-.icon-play-circle:before          { content: "\f01d"; }
-.icon-repeat:before               { content: "\f01e"; }
-
-/* \f020 doesn't work in Safari. all shifted one down */
-.icon-refresh:before              { content: "\f021"; }
-.icon-list-alt:before             { content: "\f022"; }
-.icon-lock:before                 { content: "\f023"; }
-.icon-flag:before                 { content: "\f024"; }
-.icon-headphones:before           { content: "\f025"; }
-.icon-volume-off:before           { content: "\f026"; }
-.icon-volume-down:before          { content: "\f027"; }
-.icon-volume-up:before            { content: "\f028"; }
-.icon-qrcode:before               { content: "\f029"; }
-.icon-barcode:before              { content: "\f02a"; }
-.icon-tag:before                  { content: "\f02b"; }
-.icon-tags:before                 { content: "\f02c"; }
-.icon-book:before                 { content: "\f02d"; }
-.icon-bookmark:before             { content: "\f02e"; }
-.icon-print:before                { content: "\f02f"; }
-
-.icon-camera:before               { content: "\f030"; }
-.icon-font:before                 { content: "\f031"; }
-.icon-bold:before                 { content: "\f032"; }
-.icon-italic:before               { content: "\f033"; }
-.icon-text-height:before          { content: "\f034"; }
-.icon-text-width:before           { content: "\f035"; }
-.icon-align-left:before           { content: "\f036"; }
-.icon-align-center:before         { content: "\f037"; }
-.icon-align-right:before          { content: "\f038"; }
-.icon-align-justify:before        { content: "\f039"; }
-.icon-list:before                 { content: "\f03a"; }
-.icon-indent-left:before          { content: "\f03b"; }
-.icon-indent-right:before         { content: "\f03c"; }
-.icon-facetime-video:before       { content: "\f03d"; }
-.icon-picture:before              { content: "\f03e"; }
-
-.icon-pencil:before               { content: "\f040"; }
-.icon-map-marker:before           { content: "\f041"; }
-.icon-adjust:before               { content: "\f042"; }
-.icon-tint:before                 { content: "\f043"; }
-.icon-edit:before                 { content: "\f044"; }
-.icon-share:before                { content: "\f045"; }
-.icon-check:before                { content: "\f046"; }
-.icon-move:before                 { content: "\f047"; }
-.icon-step-backward:before        { content: "\f048"; }
-.icon-fast-backward:before        { content: "\f049"; }
-.icon-backward:before             { content: "\f04a"; }
-.icon-play:before                 { content: "\f04b"; }
-.icon-pause:before                { content: "\f04c"; }
-.icon-stop:before                 { content: "\f04d"; }
-.icon-forward:before              { content: "\f04e"; }
-
-.icon-fast-forward:before         { content: "\f050"; }
-.icon-step-forward:before         { content: "\f051"; }
-.icon-eject:before                { content: "\f052"; }
-.icon-chevron-left:before         { content: "\f053"; }
-.icon-chevron-right:before        { content: "\f054"; }
-.icon-plus-sign:before            { content: "\f055"; }
-.icon-minus-sign:before           { content: "\f056"; }
-.icon-remove-sign:before          { content: "\f057"; }
-.icon-ok-sign:before              { content: "\f058"; }
-.icon-question-sign:before        { content: "\f059"; }
-.icon-info-sign:before            { content: "\f05a"; }
-.icon-screenshot:before           { content: "\f05b"; }
-.icon-remove-circle:before        { content: "\f05c"; }
-.icon-ok-circle:before            { content: "\f05d"; }
-.icon-ban-circle:before           { content: "\f05e"; }
-
-.icon-arrow-left:before           { content: "\f060"; }
-.icon-arrow-right:before          { content: "\f061"; }
-.icon-arrow-up:before             { content: "\f062"; }
-.icon-arrow-down:before           { content: "\f063"; }
-.icon-share-alt:before            { content: "\f064"; }
-.icon-resize-full:before          { content: "\f065"; }
-.icon-resize-small:before         { content: "\f066"; }
-.icon-plus:before                 { content: "\f067"; }
-.icon-minus:before                { content: "\f068"; }
-.icon-asterisk:before             { content: "\f069"; }
-.icon-exclamation-sign:before     { content: "\f06a"; }
-.icon-gift:before                 { content: "\f06b"; }
-.icon-leaf:before                 { content: "\f06c"; }
-.icon-fire:before                 { content: "\f06d"; }
-.icon-eye-open:before             { content: "\f06e"; }
-
-.icon-eye-close:before            { content: "\f070"; }
-.icon-warning-sign:before         { content: "\f071"; }
-.icon-plane:before                { content: "\f072"; }
-.icon-calendar:before             { content: "\f073"; }
-.icon-random:before               { content: "\f074"; }
-.icon-comment:before              { content: "\f075"; }
-.icon-magnet:before               { content: "\f076"; }
-.icon-chevron-up:before           { content: "\f077"; }
-.icon-chevron-down:before         { content: "\f078"; }
-.icon-retweet:before              { content: "\f079"; }
-.icon-shopping-cart:before        { content: "\f07a"; }
-.icon-folder-close:before         { content: "\f07b"; }
-.icon-folder-open:before          { content: "\f07c"; }
-.icon-resize-vertical:before      { content: "\f07d"; }
-.icon-resize-horizontal:before    { content: "\f07e"; }
-
-.icon-bar-chart:before            { content: "\f080"; }
-.icon-twitter-sign:before         { content: "\f081"; }
-.icon-facebook-sign:before        { content: "\f082"; }
-.icon-camera-retro:before         { content: "\f083"; }
-.icon-key:before                  { content: "\f084"; }
-.icon-cogs:before                 { content: "\f085"; }
-.icon-comments:before             { content: "\f086"; }
-.icon-thumbs-up:before            { content: "\f087"; }
-.icon-thumbs-down:before          { content: "\f088"; }
-.icon-star-half:before            { content: "\f089"; }
-.icon-heart-empty:before          { content: "\f08a"; }
-.icon-signout:before              { content: "\f08b"; }
-.icon-linkedin-sign:before        { content: "\f08c"; }
-.icon-pushpin:before              { content: "\f08d"; }
-.icon-external-link:before        { content: "\f08e"; }
-
-.icon-signin:before               { content: "\f090"; }
-.icon-trophy:before               { content: "\f091"; }
-.icon-github-sign:before          { content: "\f092"; }
-.icon-upload-alt:before           { content: "\f093"; }
-.icon-lemon:before                { content: "\f094"; }
-.icon-phone:before                { content: "\f095"; }
-.icon-check-empty:before          { content: "\f096"; }
-.icon-bookmark-empty:before       { content: "\f097"; }
-.icon-phone-sign:before           { content: "\f098"; }
-.icon-twitter:before              { content: "\f099"; }
-.icon-facebook:before             { content: "\f09a"; }
-.icon-github:before               { content: "\f09b"; }
-.icon-unlock:before               { content: "\f09c"; }
-.icon-credit-card:before          { content: "\f09d"; }
-.icon-rss:before                  { content: "\f09e"; }
-
-.icon-hdd:before                  { content: "\f0a0"; }
-.icon-bullhorn:before             { content: "\f0a1"; }
-.icon-bell:before                 { content: "\f0a2"; }
-.icon-certificate:before          { content: "\f0a3"; }
-.icon-hand-right:before           { content: "\f0a4"; }
-.icon-hand-left:before            { content: "\f0a5"; }
-.icon-hand-up:before              { content: "\f0a6"; }
-.icon-hand-down:before            { content: "\f0a7"; }
-.icon-circle-arrow-left:before    { content: "\f0a8"; }
-.icon-circle-arrow-right:before   { content: "\f0a9"; }
-.icon-circle-arrow-up:before      { content: "\f0aa"; }
-.icon-circle-arrow-down:before    { content: "\f0ab"; }
-.icon-globe:before                { content: "\f0ac"; }
-.icon-wrench:before               { content: "\f0ad"; }
-.icon-tasks:before                { content: "\f0ae"; }
-
-.icon-filter:before               { content: "\f0b0"; }
-.icon-briefcase:before            { content: "\f0b1"; }
-.icon-fullscreen:before           { content: "\f0b2"; }
-
-.icon-group:before                { content: "\f0c0"; }
-.icon-link:before                 { content: "\f0c1"; }
-.icon-cloud:before                { content: "\f0c2"; }
-.icon-beaker:before               { content: "\f0c3"; }
-.icon-cut:before                  { content: "\f0c4"; }
-.icon-copy:before                 { content: "\f0c5"; }
-.icon-paper-clip:before           { content: "\f0c6"; }
-.icon-save:before                 { content: "\f0c7"; }
-.icon-sign-blank:before           { content: "\f0c8"; }
-.icon-reorder:before              { content: "\f0c9"; }
-.icon-list-ul:before              { content: "\f0ca"; }
-.icon-list-ol:before              { content: "\f0cb"; }
-.icon-strikethrough:before        { content: "\f0cc"; }
-.icon-underline:before            { content: "\f0cd"; }
-.icon-table:before                { content: "\f0ce"; }
-
-.icon-magic:before                { content: "\f0d0"; }
-.icon-truck:before                { content: "\f0d1"; }
-.icon-pinterest:before            { content: "\f0d2"; }
-.icon-pinterest-sign:before       { content: "\f0d3"; }
-.icon-google-plus-sign:before     { content: "\f0d4"; }
-.icon-google-plus:before          { content: "\f0d5"; }
-.icon-money:before                { content: "\f0d6"; }
-.icon-caret-down:before           { content: "\f0d7"; }
-.icon-caret-up:before             { content: "\f0d8"; }
-.icon-caret-left:before           { content: "\f0d9"; }
-.icon-caret-right:before          { content: "\f0da"; }
-.icon-columns:before              { content: "\f0db"; }
-.icon-sort:before                 { content: "\f0dc"; }
-.icon-sort-down:before            { content: "\f0dd"; }
-.icon-sort-up:before              { content: "\f0de"; }
-
-.icon-envelope-alt:before         { content: "\f0e0"; }
-.icon-linkedin:before             { content: "\f0e1"; }
-.icon-undo:before                 { content: "\f0e2"; }
-.icon-legal:before                { content: "\f0e3"; }
-.icon-dashboard:before            { content: "\f0e4"; }
-.icon-comment-alt:before          { content: "\f0e5"; }
-.icon-comments-alt:before         { content: "\f0e6"; }
-.icon-bolt:before                 { content: "\f0e7"; }
-.icon-sitemap:before              { content: "\f0e8"; }
-.icon-umbrella:before             { content: "\f0e9"; }
-.icon-paste:before                { content: "\f0ea"; }
-.icon-lightbulb:before            { content: "\f0eb"; }
-.icon-exchange:before             { content: "\f0ec"; }
-.icon-cloud-download:before       { content: "\f0ed"; }
-.icon-cloud-upload:before         { content: "\f0ee"; }
-
-.icon-user-md:before              { content: "\f0f0"; }
-.icon-stethoscope:before          { content: "\f0f1"; }
-.icon-suitcase:before             { content: "\f0f2"; }
-.icon-bell-alt:before             { content: "\f0f3"; }
-.icon-coffee:before               { content: "\f0f4"; }
-.icon-food:before                 { content: "\f0f5"; }
-.icon-file-alt:before             { content: "\f0f6"; }
-.icon-building:before             { content: "\f0f7"; }
-.icon-hospital:before             { content: "\f0f8"; }
-.icon-ambulance:before            { content: "\f0f9"; }
-.icon-medkit:before               { content: "\f0fa"; }
-.icon-fighter-jet:before          { content: "\f0fb"; }
-.icon-beer:before                 { content: "\f0fc"; }
-.icon-h-sign:before               { content: "\f0fd"; }
-.icon-plus-sign-alt:before        { content: "\f0fe"; }
-
-.icon-double-angle-left:before    { content: "\f100"; }
-.icon-double-angle-right:before   { content: "\f101"; }
-.icon-double-angle-up:before      { content: "\f102"; }
-.icon-double-angle-down:before    { content: "\f103"; }
-.icon-angle-left:before           { content: "\f104"; }
-.icon-angle-right:before          { content: "\f105"; }
-.icon-angle-up:before             { content: "\f106"; }
-.icon-angle-down:before           { content: "\f107"; }
-.icon-desktop:before              { content: "\f108"; }
-.icon-laptop:before               { content: "\f109"; }
-.icon-tablet:before               { content: "\f10a"; }
-.icon-mobile-phone:before         { content: "\f10b"; }
-.icon-circle-blank:before         { content: "\f10c"; }
-.icon-quote-left:before           { content: "\f10d"; }
-.icon-quote-right:before          { content: "\f10e"; }
-
-.icon-spinner:before              { content: "\f110"; }
-.icon-circle:before               { content: "\f111"; }
-.icon-reply:before                { content: "\f112"; }
-.icon-github-alt:before           { content: "\f113"; }
-.icon-folder-close-alt:before     { content: "\f114"; }
-.icon-folder-open-alt:before      { content: "\f115"; }
+@include output-font-awesome-classes;
