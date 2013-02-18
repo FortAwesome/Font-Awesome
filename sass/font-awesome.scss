@@ -176,6 +176,39 @@ $experimental-support-for-webkit: true !default;
 }
 
 /*
+  Icons within lists.
+*/
+ul {
+  &.icons {
+    list-style-type: none;
+    text-indent: -.75em;
+    
+    li {
+      [class^="icon-"],
+      [class*=" icon-"] {
+        width: .75em;
+      }
+    }
+  }
+  
+  $selector: li;
+  
+  // Reset the Bootstrap .nav element as well.
+  @if $font-awesome-using-bootstrap {
+    $selector: append($selector, unquote('.nav li'), comma);
+  }
+  
+  #{$selector} {
+    [class^="icon-"],
+    [class*=" icon-"] {
+      display: inline-block;
+      width: 1.25em;
+      text-align: center;
+    }
+  }
+}
+
+/*
   Other Bootstrap sprites.less reset styles.
 */
 @if $font-awesome-using-bootstrap {
@@ -188,31 +221,6 @@ $experimental-support-for-webkit: true !default;
 .icon-large:before {
   vertical-align: -10%;
   font-size: 1.3333333333333333em;
-}
-
-li, .nav li {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    display: inline-block;
-    width: 1.25em;
-    text-align: center;
-    &.icon-large {
-      /* increased font size for icon-large */
-      width: 1.5625em;
-    }
-  }
-}
-
-ul.icons {
-  list-style-type: none;
-  text-indent: -.75em;
-
-  li {
-    [class^="icon-"],
-    [class*=" icon-"] {
-      width: .75em;
-    }
-  }
 }
 
 .icon-muted {
