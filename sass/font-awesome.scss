@@ -39,6 +39,8 @@
 /* Font Awesome. */
 $font-awesome-path: '../font' !default;
 $font-awesome-version: '3.0.2';
+$font-awesome-class-prefix: 'icon-' !default;
+$font-awesome-class-selector: '[class^="#{$font-awesome-class-prefix}"], [class*=" #{$font-awesome-class-prefix}"]';
 
 /* Bootstrap. */
 $font-awesome-using-bootstrap: true !default;
@@ -104,8 +106,7 @@ $experimental-support-for-webkit: true !default;
     Main Font Awesome styles.
     
 ---------------------------------- */
-[class^="icon-"],
-[class*=" icon-"] {
+#{$font-awesome-class-selector} {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
@@ -190,8 +191,7 @@ ul {
     text-indent: -.75em;
     
     li {
-      [class^="icon-"],
-      [class*=" icon-"] {
+      #{$font-awesome-class-selector} {
         width: .75em;
       }
     }
@@ -206,8 +206,7 @@ $font-awesome-list-selector: li;
 }
 
 #{$font-awesome-list-selector} {
-  [class^="icon-"],
-  [class*=" icon-"] {
+  #{$font-awesome-class-selector} {
     display: inline-block;
     width: 1.25em;
     text-align: center;
@@ -295,8 +294,7 @@ $font-awesome-list-selector: li;
     float: left;
   }
 
-  [class^="icon-"],
-  [class*=" icon-"] {
+  #{$font-awesome-class-selector} {
     &.pull-left {
       margin-right: .3em;
     }
@@ -308,8 +306,7 @@ $font-awesome-list-selector: li;
   
   @if $font-awesome-using-bootstrap {
     .btn {
-      [class^="icon-"],
-      [class*=" icon-"] {
+      #{$font-awesome-class-selector} {
         &.pull-left,
         &.pull-right {
           &.icon-2x {
@@ -323,8 +320,7 @@ $font-awesome-list-selector: li;
       }
       
       &.btn-small {
-        [class^="icon-"],
-        [class*=" icon-"] {
+        #{$font-awesome-class-selector} {
           &.pull-left,
           &.pull-right {
             &.icon-2x {
@@ -335,8 +331,7 @@ $font-awesome-list-selector: li;
       }
       
       &.btn-large {
-        [class^="icon-"],
-        [class*=" icon-"] {
+        #{$font-awesome-class-selector} {
           // Overrides Bootstrap default.
           margin-top: 0;
 
