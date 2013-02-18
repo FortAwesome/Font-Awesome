@@ -448,270 +448,289 @@ $font-awesome-list-selector: li;
   readers do not read off random characters that represent icons.
     
 ---------------------------------- */
-.#{$font-awesome-class-prefix}glass:before                { content: "\f000"; }
-.#{$font-awesome-class-prefix}music:before                { content: "\f001"; }
-.#{$font-awesome-class-prefix}search:before               { content: "\f002"; }
-.#{$font-awesome-class-prefix}envelope:before             { content: "\f003"; }
-.#{$font-awesome-class-prefix}heart:before                { content: "\f004"; }
-.#{$font-awesome-class-prefix}star:before                 { content: "\f005"; }
-.#{$font-awesome-class-prefix}star-empty:before           { content: "\f006"; }
-.#{$font-awesome-class-prefix}user:before                 { content: "\f007"; }
-.#{$font-awesome-class-prefix}film:before                 { content: "\f008"; }
-.#{$font-awesome-class-prefix}th-large:before             { content: "\f009"; }
-.#{$font-awesome-class-prefix}th:before                   { content: "\f00a"; }
-.#{$font-awesome-class-prefix}th-list:before              { content: "\f00b"; }
-.#{$font-awesome-class-prefix}ok:before                   { content: "\f00c"; }
-.#{$font-awesome-class-prefix}remove:before               { content: "\f00d"; }
-.#{$font-awesome-class-prefix}zoom-in:before              { content: "\f00e"; }
+$icons: 
+  'glass'                '\f000',
+  'music'                '\f001',
+  'search'               '\f002',
+  'envelope'             '\f003',
+  'heart'                '\f004',
+  'star'                 '\f005',
+  'star-empty'           '\f006',
+  'user'                 '\f007',
+  'film'                 '\f008',
+  'th-large'             '\f009',
+  'th'                   '\f00a',
+  'th-list'              '\f00b',
+  'ok'                   '\f00c',
+  'remove'               '\f00d',
+  'zoom-in'              '\f00e',
 
-.#{$font-awesome-class-prefix}zoom-out:before             { content: "\f010"; }
-.#{$font-awesome-class-prefix}off:before                  { content: "\f011"; }
-.#{$font-awesome-class-prefix}signal:before               { content: "\f012"; }
-.#{$font-awesome-class-prefix}cog:before                  { content: "\f013"; }
-.#{$font-awesome-class-prefix}trash:before                { content: "\f014"; }
-.#{$font-awesome-class-prefix}home:before                 { content: "\f015"; }
-.#{$font-awesome-class-prefix}file:before                 { content: "\f016"; }
-.#{$font-awesome-class-prefix}time:before                 { content: "\f017"; }
-.#{$font-awesome-class-prefix}road:before                 { content: "\f018"; }
-.#{$font-awesome-class-prefix}download-alt:before         { content: "\f019"; }
-.#{$font-awesome-class-prefix}download:before             { content: "\f01a"; }
-.#{$font-awesome-class-prefix}upload:before               { content: "\f01b"; }
-.#{$font-awesome-class-prefix}inbox:before                { content: "\f01c"; }
-.#{$font-awesome-class-prefix}play-circle:before          { content: "\f01d"; }
-.#{$font-awesome-class-prefix}repeat:before               { content: "\f01e"; }
+  'zoom-out'             '\f010',
+  'off'                  '\f011',
+  'signal'               '\f012',
+  'cog'                  '\f013',
+  'trash'                '\f014',
+  'home'                 '\f015',
+  'file'                 '\f016',
+  'time'                 '\f017',
+  'road'                 '\f018',
+  'download-alt'         '\f019',
+  'download'             '\f01a',
+  'upload'               '\f01b',
+  'inbox'                '\f01c',
+  'play-circle'          '\f01d',
+  'repeat'               '\f01e',
 
-/* \f020 doesn't work in Safari. all shifted one down */
-.#{$font-awesome-class-prefix}refresh:before              { content: "\f021"; }
-.#{$font-awesome-class-prefix}list-alt:before             { content: "\f022"; }
-.#{$font-awesome-class-prefix}lock:before                 { content: "\f023"; }
-.#{$font-awesome-class-prefix}flag:before                 { content: "\f024"; }
-.#{$font-awesome-class-prefix}headphones:before           { content: "\f025"; }
-.#{$font-awesome-class-prefix}volume-off:before           { content: "\f026"; }
-.#{$font-awesome-class-prefix}volume-down:before          { content: "\f027"; }
-.#{$font-awesome-class-prefix}volume-up:before            { content: "\f028"; }
-.#{$font-awesome-class-prefix}qrcode:before               { content: "\f029"; }
-.#{$font-awesome-class-prefix}barcode:before              { content: "\f02a"; }
-.#{$font-awesome-class-prefix}tag:before                  { content: "\f02b"; }
-.#{$font-awesome-class-prefix}tags:before                 { content: "\f02c"; }
-.#{$font-awesome-class-prefix}book:before                 { content: "\f02d"; }
-.#{$font-awesome-class-prefix}bookmark:before             { content: "\f02e"; }
-.#{$font-awesome-class-prefix}print:before                { content: "\f02f"; }
+  'refresh'              '\f021',
+  'list-alt'             '\f022',
+  'lock'                 '\f023',
+  'flag'                 '\f024',
+  'headphones'           '\f025',
+  'volume-off'           '\f026',
+  'volume-down'          '\f027',
+  'volume-up'            '\f028',
+  'qrcode'               '\f029',
+  'barcode'              '\f02a',
+  'tag'                  '\f02b',
+  'tags'                 '\f02c',
+  'book'                 '\f02d',
+  'bookmark'             '\f02e',
+  'print'                '\f02f',
 
-.#{$font-awesome-class-prefix}camera:before               { content: "\f030"; }
-.#{$font-awesome-class-prefix}font:before                 { content: "\f031"; }
-.#{$font-awesome-class-prefix}bold:before                 { content: "\f032"; }
-.#{$font-awesome-class-prefix}italic:before               { content: "\f033"; }
-.#{$font-awesome-class-prefix}text-height:before          { content: "\f034"; }
-.#{$font-awesome-class-prefix}text-width:before           { content: "\f035"; }
-.#{$font-awesome-class-prefix}align-left:before           { content: "\f036"; }
-.#{$font-awesome-class-prefix}align-center:before         { content: "\f037"; }
-.#{$font-awesome-class-prefix}align-right:before          { content: "\f038"; }
-.#{$font-awesome-class-prefix}align-justify:before        { content: "\f039"; }
-.#{$font-awesome-class-prefix}list:before                 { content: "\f03a"; }
-.#{$font-awesome-class-prefix}indent-left:before          { content: "\f03b"; }
-.#{$font-awesome-class-prefix}indent-right:before         { content: "\f03c"; }
-.#{$font-awesome-class-prefix}facetime-video:before       { content: "\f03d"; }
-.#{$font-awesome-class-prefix}picture:before              { content: "\f03e"; }
+  'camera'               '\f030',
+  'font'                 '\f031',
+  'bold'                 '\f032',
+  'italic'               '\f033',
+  'text-height'          '\f034',
+  'text-width'           '\f035',
+  'align-left'           '\f036',
+  'align-center'         '\f037',
+  'align-right'          '\f038',
+  'align-justify'        '\f039',
+  'list'                 '\f03a',
+  'indent-left'          '\f03b',
+  'indent-right'         '\f03c',
+  'facetime-video'       '\f03d',
+  'picture'              '\f03e',
 
-.#{$font-awesome-class-prefix}pencil:before               { content: "\f040"; }
-.#{$font-awesome-class-prefix}map-marker:before           { content: "\f041"; }
-.#{$font-awesome-class-prefix}adjust:before               { content: "\f042"; }
-.#{$font-awesome-class-prefix}tint:before                 { content: "\f043"; }
-.#{$font-awesome-class-prefix}edit:before                 { content: "\f044"; }
-.#{$font-awesome-class-prefix}share:before                { content: "\f045"; }
-.#{$font-awesome-class-prefix}check:before                { content: "\f046"; }
-.#{$font-awesome-class-prefix}move:before                 { content: "\f047"; }
-.#{$font-awesome-class-prefix}step-backward:before        { content: "\f048"; }
-.#{$font-awesome-class-prefix}fast-backward:before        { content: "\f049"; }
-.#{$font-awesome-class-prefix}backward:before             { content: "\f04a"; }
-.#{$font-awesome-class-prefix}play:before                 { content: "\f04b"; }
-.#{$font-awesome-class-prefix}pause:before                { content: "\f04c"; }
-.#{$font-awesome-class-prefix}stop:before                 { content: "\f04d"; }
-.#{$font-awesome-class-prefix}forward:before              { content: "\f04e"; }
+  'pencil'               '\f040',
+  'map-marker'           '\f041',
+  'adjust'               '\f042',
+  'tint'                 '\f043',
+  'edit'                 '\f044',
+  'share'                '\f045',
+  'check'                '\f046',
+  'move'                 '\f047',
+  'step-backward'        '\f048',
+  'fast-backward'        '\f049',
+  'backward'             '\f04a',
+  'play'                 '\f04b',
+  'pause'                '\f04c',
+  'stop'                 '\f04d',
+  'forward'              '\f04e',
 
-.#{$font-awesome-class-prefix}fast-forward:before         { content: "\f050"; }
-.#{$font-awesome-class-prefix}step-forward:before         { content: "\f051"; }
-.#{$font-awesome-class-prefix}eject:before                { content: "\f052"; }
-.#{$font-awesome-class-prefix}chevron-left:before         { content: "\f053"; }
-.#{$font-awesome-class-prefix}chevron-right:before        { content: "\f054"; }
-.#{$font-awesome-class-prefix}plus-sign:before            { content: "\f055"; }
-.#{$font-awesome-class-prefix}minus-sign:before           { content: "\f056"; }
-.#{$font-awesome-class-prefix}remove-sign:before          { content: "\f057"; }
-.#{$font-awesome-class-prefix}ok-sign:before              { content: "\f058"; }
-.#{$font-awesome-class-prefix}question-sign:before        { content: "\f059"; }
-.#{$font-awesome-class-prefix}info-sign:before            { content: "\f05a"; }
-.#{$font-awesome-class-prefix}screenshot:before           { content: "\f05b"; }
-.#{$font-awesome-class-prefix}remove-circle:before        { content: "\f05c"; }
-.#{$font-awesome-class-prefix}ok-circle:before            { content: "\f05d"; }
-.#{$font-awesome-class-prefix}ban-circle:before           { content: "\f05e"; }
+  'fast-forward'         '\f050',
+  'step-forward'         '\f051',
+  'eject'                '\f052',
+  'chevron-left'         '\f053',
+  'chevron-right'        '\f054',
+  'plus-sign'            '\f055',
+  'minus-sign'           '\f056',
+  'remove-sign'          '\f057',
+  'ok-sign'              '\f058',
+  'question-sign'        '\f059',
+  'info-sign'            '\f05a',
+  'screenshot'           '\f05b',
+  'remove-circle'        '\f05c',
+  'ok-circle'            '\f05d',
+  'ban-circle'           '\f05e',
 
-.#{$font-awesome-class-prefix}arrow-left:before           { content: "\f060"; }
-.#{$font-awesome-class-prefix}arrow-right:before          { content: "\f061"; }
-.#{$font-awesome-class-prefix}arrow-up:before             { content: "\f062"; }
-.#{$font-awesome-class-prefix}arrow-down:before           { content: "\f063"; }
-.#{$font-awesome-class-prefix}share-alt:before            { content: "\f064"; }
-.#{$font-awesome-class-prefix}resize-full:before          { content: "\f065"; }
-.#{$font-awesome-class-prefix}resize-small:before         { content: "\f066"; }
-.#{$font-awesome-class-prefix}plus:before                 { content: "\f067"; }
-.#{$font-awesome-class-prefix}minus:before                { content: "\f068"; }
-.#{$font-awesome-class-prefix}asterisk:before             { content: "\f069"; }
-.#{$font-awesome-class-prefix}exclamation-sign:before     { content: "\f06a"; }
-.#{$font-awesome-class-prefix}gift:before                 { content: "\f06b"; }
-.#{$font-awesome-class-prefix}leaf:before                 { content: "\f06c"; }
-.#{$font-awesome-class-prefix}fire:before                 { content: "\f06d"; }
-.#{$font-awesome-class-prefix}eye-open:before             { content: "\f06e"; }
+  'arrow-left'           '\f060',
+  'arrow-right'          '\f061',
+  'arrow-up'             '\f062',
+  'arrow-down'           '\f063',
+  'share-alt'            '\f064',
+  'resize-full'          '\f065',
+  'resize-small'         '\f066',
+  'plus'                 '\f067',
+  'minus'                '\f068',
+  'asterisk'             '\f069',
+  'exclamation-sign'     '\f06a',
+  'gift'                 '\f06b',
+  'leaf'                 '\f06c',
+  'fire'                 '\f06d',
+  'eye-open'             '\f06e',
 
-.#{$font-awesome-class-prefix}eye-close:before            { content: "\f070"; }
-.#{$font-awesome-class-prefix}warning-sign:before         { content: "\f071"; }
-.#{$font-awesome-class-prefix}plane:before                { content: "\f072"; }
-.#{$font-awesome-class-prefix}calendar:before             { content: "\f073"; }
-.#{$font-awesome-class-prefix}random:before               { content: "\f074"; }
-.#{$font-awesome-class-prefix}comment:before              { content: "\f075"; }
-.#{$font-awesome-class-prefix}magnet:before               { content: "\f076"; }
-.#{$font-awesome-class-prefix}chevron-up:before           { content: "\f077"; }
-.#{$font-awesome-class-prefix}chevron-down:before         { content: "\f078"; }
-.#{$font-awesome-class-prefix}retweet:before              { content: "\f079"; }
-.#{$font-awesome-class-prefix}shopping-cart:before        { content: "\f07a"; }
-.#{$font-awesome-class-prefix}folder-close:before         { content: "\f07b"; }
-.#{$font-awesome-class-prefix}folder-open:before          { content: "\f07c"; }
-.#{$font-awesome-class-prefix}resize-vertical:before      { content: "\f07d"; }
-.#{$font-awesome-class-prefix}resize-horizontal:before    { content: "\f07e"; }
+  'eye-close'            '\f070',
+  'warning-sign'         '\f071',
+  'plane'                '\f072',
+  'calendar'             '\f073',
+  'random'               '\f074',
+  'comment'              '\f075',
+  'magnet'               '\f076',
+  'chevron-up'           '\f077',
+  'chevron-down'         '\f078',
+  'retweet'              '\f079',
+  'shopping-cart'        '\f07a',
+  'folder-close'         '\f07b',
+  'folder-open'          '\f07c',
+  'resize-vertical'      '\f07d',
+  'resize-horizontal'    '\f07e',
 
-.#{$font-awesome-class-prefix}bar-chart:before            { content: "\f080"; }
-.#{$font-awesome-class-prefix}twitter-sign:before         { content: "\f081"; }
-.#{$font-awesome-class-prefix}facebook-sign:before        { content: "\f082"; }
-.#{$font-awesome-class-prefix}camera-retro:before         { content: "\f083"; }
-.#{$font-awesome-class-prefix}key:before                  { content: "\f084"; }
-.#{$font-awesome-class-prefix}cogs:before                 { content: "\f085"; }
-.#{$font-awesome-class-prefix}comments:before             { content: "\f086"; }
-.#{$font-awesome-class-prefix}thumbs-up:before            { content: "\f087"; }
-.#{$font-awesome-class-prefix}thumbs-down:before          { content: "\f088"; }
-.#{$font-awesome-class-prefix}star-half:before            { content: "\f089"; }
-.#{$font-awesome-class-prefix}heart-empty:before          { content: "\f08a"; }
-.#{$font-awesome-class-prefix}signout:before              { content: "\f08b"; }
-.#{$font-awesome-class-prefix}linkedin-sign:before        { content: "\f08c"; }
-.#{$font-awesome-class-prefix}pushpin:before              { content: "\f08d"; }
-.#{$font-awesome-class-prefix}external-link:before        { content: "\f08e"; }
+  'bar-chart'            '\f080',
+  'twitter-sign'         '\f081',
+  'facebook-sign'        '\f082',
+  'camera-retro'         '\f083',
+  'key'                  '\f084',
+  'cogs'                 '\f085',
+  'comments'             '\f086',
+  'thumbs-up'            '\f087',
+  'thumbs-down'          '\f088',
+  'star-half'            '\f089',
+  'heart-empty'          '\f08a',
+  'signout'              '\f08b',
+  'linkedin-sign'        '\f08c',
+  'pushpin'              '\f08d',
+  'external-link'        '\f08e',
 
-.#{$font-awesome-class-prefix}signin:before               { content: "\f090"; }
-.#{$font-awesome-class-prefix}trophy:before               { content: "\f091"; }
-.#{$font-awesome-class-prefix}github-sign:before          { content: "\f092"; }
-.#{$font-awesome-class-prefix}upload-alt:before           { content: "\f093"; }
-.#{$font-awesome-class-prefix}lemon:before                { content: "\f094"; }
-.#{$font-awesome-class-prefix}phone:before                { content: "\f095"; }
-.#{$font-awesome-class-prefix}check-empty:before          { content: "\f096"; }
-.#{$font-awesome-class-prefix}bookmark-empty:before       { content: "\f097"; }
-.#{$font-awesome-class-prefix}phone-sign:before           { content: "\f098"; }
-.#{$font-awesome-class-prefix}twitter:before              { content: "\f099"; }
-.#{$font-awesome-class-prefix}facebook:before             { content: "\f09a"; }
-.#{$font-awesome-class-prefix}github:before               { content: "\f09b"; }
-.#{$font-awesome-class-prefix}unlock:before               { content: "\f09c"; }
-.#{$font-awesome-class-prefix}credit-card:before          { content: "\f09d"; }
-.#{$font-awesome-class-prefix}rss:before                  { content: "\f09e"; }
+  'signin'               '\f090',
+  'trophy'               '\f091',
+  'github-sign'          '\f092',
+  'upload-alt'           '\f093',
+  'lemon'                '\f094',
+  'phone'                '\f095',
+  'check-empty'          '\f096',
+  'bookmark-empty'       '\f097',
+  'phone-sign'           '\f098',
+  'twitter'              '\f099',
+  'facebook'             '\f09a',
+  'github'               '\f09b',
+  'unlock'               '\f09c',
+  'credit-card'          '\f09d',
+  'rss'                  '\f09e',
 
-.#{$font-awesome-class-prefix}hdd:before                  { content: "\f0a0"; }
-.#{$font-awesome-class-prefix}bullhorn:before             { content: "\f0a1"; }
-.#{$font-awesome-class-prefix}bell:before                 { content: "\f0a2"; }
-.#{$font-awesome-class-prefix}certificate:before          { content: "\f0a3"; }
-.#{$font-awesome-class-prefix}hand-right:before           { content: "\f0a4"; }
-.#{$font-awesome-class-prefix}hand-left:before            { content: "\f0a5"; }
-.#{$font-awesome-class-prefix}hand-up:before              { content: "\f0a6"; }
-.#{$font-awesome-class-prefix}hand-down:before            { content: "\f0a7"; }
-.#{$font-awesome-class-prefix}circle-arrow-left:before    { content: "\f0a8"; }
-.#{$font-awesome-class-prefix}circle-arrow-right:before   { content: "\f0a9"; }
-.#{$font-awesome-class-prefix}circle-arrow-up:before      { content: "\f0aa"; }
-.#{$font-awesome-class-prefix}circle-arrow-down:before    { content: "\f0ab"; }
-.#{$font-awesome-class-prefix}globe:before                { content: "\f0ac"; }
-.#{$font-awesome-class-prefix}wrench:before               { content: "\f0ad"; }
-.#{$font-awesome-class-prefix}tasks:before                { content: "\f0ae"; }
+  'hdd'                  '\f0a0',
+  'bullhorn'             '\f0a1',
+  'bell'                 '\f0a2',
+  'certificate'          '\f0a3',
+  'hand-right'           '\f0a4',
+  'hand-left'            '\f0a5',
+  'hand-up'              '\f0a6',
+  'hand-down'            '\f0a7',
+  'circle-arrow-left'    '\f0a8',
+  'circle-arrow-right'   '\f0a9',
+  'circle-arrow-up'      '\f0aa',
+  'circle-arrow-down'    '\f0ab',
+  'globe'                '\f0ac',
+  'wrench'               '\f0ad',
+  'tasks'                '\f0ae',
 
-.#{$font-awesome-class-prefix}filter:before               { content: "\f0b0"; }
-.#{$font-awesome-class-prefix}briefcase:before            { content: "\f0b1"; }
-.#{$font-awesome-class-prefix}fullscreen:before           { content: "\f0b2"; }
+  'filter'               '\f0b0',
+  'briefcase'            '\f0b1',
+  'fullscreen'           '\f0b2',
 
-.#{$font-awesome-class-prefix}group:before                { content: "\f0c0"; }
-.#{$font-awesome-class-prefix}link:before                 { content: "\f0c1"; }
-.#{$font-awesome-class-prefix}cloud:before                { content: "\f0c2"; }
-.#{$font-awesome-class-prefix}beaker:before               { content: "\f0c3"; }
-.#{$font-awesome-class-prefix}cut:before                  { content: "\f0c4"; }
-.#{$font-awesome-class-prefix}copy:before                 { content: "\f0c5"; }
-.#{$font-awesome-class-prefix}paper-clip:before           { content: "\f0c6"; }
-.#{$font-awesome-class-prefix}save:before                 { content: "\f0c7"; }
-.#{$font-awesome-class-prefix}sign-blank:before           { content: "\f0c8"; }
-.#{$font-awesome-class-prefix}reorder:before              { content: "\f0c9"; }
-.#{$font-awesome-class-prefix}list-ul:before              { content: "\f0ca"; }
-.#{$font-awesome-class-prefix}list-ol:before              { content: "\f0cb"; }
-.#{$font-awesome-class-prefix}strikethrough:before        { content: "\f0cc"; }
-.#{$font-awesome-class-prefix}underline:before            { content: "\f0cd"; }
-.#{$font-awesome-class-prefix}table:before                { content: "\f0ce"; }
+  'group'                '\f0c0',
+  'link'                 '\f0c1',
+  'cloud'                '\f0c2',
+  'beaker'               '\f0c3',
+  'cut'                  '\f0c4',
+  'copy'                 '\f0c5',
+  'paper-clip'           '\f0c6',
+  'save'                 '\f0c7',
+  'sign-blank'           '\f0c8',
+  'reorder'              '\f0c9',
+  'list-ul'              '\f0ca',
+  'list-ol'              '\f0cb',
+  'strikethrough'        '\f0cc',
+  'underline'            '\f0cd',
+  'table'                '\f0ce',
 
-.#{$font-awesome-class-prefix}magic:before                { content: "\f0d0"; }
-.#{$font-awesome-class-prefix}truck:before                { content: "\f0d1"; }
-.#{$font-awesome-class-prefix}pinterest:before            { content: "\f0d2"; }
-.#{$font-awesome-class-prefix}pinterest-sign:before       { content: "\f0d3"; }
-.#{$font-awesome-class-prefix}google-plus-sign:before     { content: "\f0d4"; }
-.#{$font-awesome-class-prefix}google-plus:before          { content: "\f0d5"; }
-.#{$font-awesome-class-prefix}money:before                { content: "\f0d6"; }
-.#{$font-awesome-class-prefix}caret-down:before           { content: "\f0d7"; }
-.#{$font-awesome-class-prefix}caret-up:before             { content: "\f0d8"; }
-.#{$font-awesome-class-prefix}caret-left:before           { content: "\f0d9"; }
-.#{$font-awesome-class-prefix}caret-right:before          { content: "\f0da"; }
-.#{$font-awesome-class-prefix}columns:before              { content: "\f0db"; }
-.#{$font-awesome-class-prefix}sort:before                 { content: "\f0dc"; }
-.#{$font-awesome-class-prefix}sort-down:before            { content: "\f0dd"; }
-.#{$font-awesome-class-prefix}sort-up:before              { content: "\f0de"; }
+  'magic'                '\f0d0',
+  'truck'                '\f0d1',
+  'pinterest'            '\f0d2',
+  'pinterest-sign'       '\f0d3',
+  'google-plus-sign'     '\f0d4',
+  'google-plus'          '\f0d5',
+  'money'                '\f0d6',
+  'caret-down'           '\f0d7',
+  'caret-up'             '\f0d8',
+  'caret-left'           '\f0d9',
+  'caret-right'          '\f0da',
+  'columns'              '\f0db',
+  'sort'                 '\f0dc',
+  'sort-down'            '\f0dd',
+  'sort-up'              '\f0de',
 
-.#{$font-awesome-class-prefix}envelope-alt:before         { content: "\f0e0"; }
-.#{$font-awesome-class-prefix}linkedin:before             { content: "\f0e1"; }
-.#{$font-awesome-class-prefix}undo:before                 { content: "\f0e2"; }
-.#{$font-awesome-class-prefix}legal:before                { content: "\f0e3"; }
-.#{$font-awesome-class-prefix}dashboard:before            { content: "\f0e4"; }
-.#{$font-awesome-class-prefix}comment-alt:before          { content: "\f0e5"; }
-.#{$font-awesome-class-prefix}comments-alt:before         { content: "\f0e6"; }
-.#{$font-awesome-class-prefix}bolt:before                 { content: "\f0e7"; }
-.#{$font-awesome-class-prefix}sitemap:before              { content: "\f0e8"; }
-.#{$font-awesome-class-prefix}umbrella:before             { content: "\f0e9"; }
-.#{$font-awesome-class-prefix}paste:before                { content: "\f0ea"; }
-.#{$font-awesome-class-prefix}lightbulb:before            { content: "\f0eb"; }
-.#{$font-awesome-class-prefix}exchange:before             { content: "\f0ec"; }
-.#{$font-awesome-class-prefix}cloud-download:before       { content: "\f0ed"; }
-.#{$font-awesome-class-prefix}cloud-upload:before         { content: "\f0ee"; }
+  'envelope-alt'         '\f0e0',
+  'linkedin'             '\f0e1',
+  'undo'                 '\f0e2',
+  'legal'                '\f0e3',
+  'dashboard'            '\f0e4',
+  'comment-alt'          '\f0e5',
+  'comments-alt'         '\f0e6',
+  'bolt'                 '\f0e7',
+  'sitemap'              '\f0e8',
+  'umbrella'             '\f0e9',
+  'paste'                '\f0ea',
+  'lightbulb'            '\f0eb',
+  'exchange'             '\f0ec',
+  'cloud-download'       '\f0ed',
+  'cloud-upload'         '\f0ee',
 
-.#{$font-awesome-class-prefix}user-md:before              { content: "\f0f0"; }
-.#{$font-awesome-class-prefix}stethoscope:before          { content: "\f0f1"; }
-.#{$font-awesome-class-prefix}suitcase:before             { content: "\f0f2"; }
-.#{$font-awesome-class-prefix}bell-alt:before             { content: "\f0f3"; }
-.#{$font-awesome-class-prefix}coffee:before               { content: "\f0f4"; }
-.#{$font-awesome-class-prefix}food:before                 { content: "\f0f5"; }
-.#{$font-awesome-class-prefix}file-alt:before             { content: "\f0f6"; }
-.#{$font-awesome-class-prefix}building:before             { content: "\f0f7"; }
-.#{$font-awesome-class-prefix}hospital:before             { content: "\f0f8"; }
-.#{$font-awesome-class-prefix}ambulance:before            { content: "\f0f9"; }
-.#{$font-awesome-class-prefix}medkit:before               { content: "\f0fa"; }
-.#{$font-awesome-class-prefix}fighter-jet:before          { content: "\f0fb"; }
-.#{$font-awesome-class-prefix}beer:before                 { content: "\f0fc"; }
-.#{$font-awesome-class-prefix}h-sign:before               { content: "\f0fd"; }
-.#{$font-awesome-class-prefix}plus-sign-alt:before        { content: "\f0fe"; }
+  'user-md'              '\f0f0',
+  'stethoscope'          '\f0f1',
+  'suitcase'             '\f0f2',
+  'bell-alt'             '\f0f3',
+  'coffee'               '\f0f4',
+  'food'                 '\f0f5',
+  'file-alt'             '\f0f6',
+  'building'             '\f0f7',
+  'hospital'             '\f0f8',
+  'ambulance'            '\f0f9',
+  'medkit'               '\f0fa',
+  'fighter-jet'          '\f0fb',
+  'beer'                 '\f0fc',
+  'h-sign'               '\f0fd',
+  'plus-sign-alt'        '\f0fe',
 
-.#{$font-awesome-class-prefix}double-angle-left:before    { content: "\f100"; }
-.#{$font-awesome-class-prefix}double-angle-right:before   { content: "\f101"; }
-.#{$font-awesome-class-prefix}double-angle-up:before      { content: "\f102"; }
-.#{$font-awesome-class-prefix}double-angle-down:before    { content: "\f103"; }
-.#{$font-awesome-class-prefix}angle-left:before           { content: "\f104"; }
-.#{$font-awesome-class-prefix}angle-right:before          { content: "\f105"; }
-.#{$font-awesome-class-prefix}angle-up:before             { content: "\f106"; }
-.#{$font-awesome-class-prefix}angle-down:before           { content: "\f107"; }
-.#{$font-awesome-class-prefix}desktop:before              { content: "\f108"; }
-.#{$font-awesome-class-prefix}laptop:before               { content: "\f109"; }
-.#{$font-awesome-class-prefix}tablet:before               { content: "\f10a"; }
-.#{$font-awesome-class-prefix}mobile-phone:before         { content: "\f10b"; }
-.#{$font-awesome-class-prefix}circle-blank:before         { content: "\f10c"; }
-.#{$font-awesome-class-prefix}quote-left:before           { content: "\f10d"; }
-.#{$font-awesome-class-prefix}quote-right:before          { content: "\f10e"; }
+  'double-angle-left'    '\f100',
+  'double-angle-right'   '\f101',
+  'double-angle-up'      '\f102',
+  'double-angle-down'    '\f103',
+  'angle-left'           '\f104',
+  'angle-right'          '\f105',
+  'angle-up'             '\f106',
+  'angle-down'           '\f107',
+  'desktop'              '\f108',
+  'laptop'               '\f109',
+  'tablet'               '\f10a',
+  'mobile-phone'         '\f10b',
+  'circle-blank'         '\f10c',
+  'quote-left'           '\f10d',
+  'quote-right'          '\f10e',
 
-.#{$font-awesome-class-prefix}spinner:before              { content: "\f110"; }
-.#{$font-awesome-class-prefix}circle:before               { content: "\f111"; }
-.#{$font-awesome-class-prefix}reply:before                { content: "\f112"; }
-.#{$font-awesome-class-prefix}github-alt:before           { content: "\f113"; }
-.#{$font-awesome-class-prefix}folder-close-alt:before     { content: "\f114"; }
-.#{$font-awesome-class-prefix}folder-open-alt:before      { content: "\f115"; }
+  'spinner'              '\f110',
+  'circle'               '\f111',
+  'reply'                '\f112',
+  'github-alt'           '\f113',
+  'folder-close-alt'     '\f114',
+  'folder-open-alt'      '\f115';
+
+
+/** ----------------------------------
+
+    Font Awesome output.
+    
+---------------------------------- */
+@mixin output-font-awesome-classes() {
+  @each $icon in $icons {
+    $name: nth($icon, 1);
+    $code: nth($icon, 2);
+
+    .#{$font-awesome-class-prefix}#{$name}:before {
+      content: $code;
+    }
+  }
+}
+
+@include output-font-awesome-classes;
