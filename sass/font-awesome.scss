@@ -190,21 +190,21 @@ ul {
       }
     }
   }
-  
-  $selector: li;
-  
-  // Reset the Bootstrap .nav element as well.
-  @if $font-awesome-using-bootstrap {
-    $selector: append($selector, unquote('.nav li'), comma);
-  }
-  
-  #{$selector} {
-    [class^="icon-"],
-    [class*=" icon-"] {
-      display: inline-block;
-      width: 1.25em;
-      text-align: center;
-    }
+}
+
+$font-awesome-list-selector: li;
+
+/* Build a selector to reset Bootstrap's .nav element. */
+@if $font-awesome-using-bootstrap {
+  $font-awesome-list-selector: append($font-awesome-list-selector, unquote('.nav li'), comma);
+}
+
+#{$font-awesome-list-selector} {
+  [class^="icon-"],
+  [class*=" icon-"] {
+    display: inline-block;
+    width: 1.25em;
+    text-align: center;
   }
 }
 
@@ -217,14 +217,20 @@ ul {
   }
 }
 
-/* makes the font 33% larger relative to the icon container */
+
+/** ----------------------------------
+
+    Misc. helper classes.
+    
+---------------------------------- */
+.icon-muted {
+  color: $font-awesome-icon-muted;
+}
+
+/* Makes the font 33% larger relative to the icon container. */
 .icon-large:before {
   vertical-align: -10%;
   font-size: 1.3333333333333333em;
-}
-
-.icon-muted {
-  color: $font-awesome-icon-muted;
 }
 
 
