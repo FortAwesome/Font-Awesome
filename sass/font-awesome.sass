@@ -93,7 +93,7 @@ a
   vertical-align: -10%
   font-size: 1.3333333333333333em
 
-.btn, .nav
+.btn, .button, .nav
   [class^="icon-"],
   [class*=" icon-"]
     display: inline
@@ -177,7 +177,7 @@ ul.icons
   &.pull-right
     margin-left: .3em
 
-.btn
+.btn, .button
   [class^="icon-"],
   [class*=" icon-"]
     &.pull-left, &.pull-right
@@ -186,14 +186,14 @@ ul.icons
     &.icon-spin.icon-large
       line-height: .8em
 
-.btn.btn-small
+.btn.btn-small, .button.small
   [class^="icon-"],
   [class*=" icon-"]
     &.pull-left, &.pull-right
       &.icon-2x
         margin-top: .25em
 
-.btn.btn-large
+.btn.btn-large, .button.large
   [class^="icon-"],
   [class*=" icon-"]
     margin-top: 0 // overrides bootstrap default
@@ -246,11 +246,11 @@ ul.icons
 @-moz-document url-prefix()
   .icon-spin
     height: .9em
-  .btn .icon-spin
+  .btn .icon-spin, .button .icon-spin
     height: auto
   .icon-spin.icon-large
     height: 1.25em
-  .btn .icon-spin.icon-large
+  .btn .icon-spin.icon-large, .button .icon-spin.icon-large
     height: .75em
 
 
