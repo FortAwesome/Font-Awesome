@@ -180,6 +180,58 @@ ul.icons li [class*=" icon-"] {
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
+.overlay-icons {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  width: 1em;
+}
+.overlay-icons [class^="icon-"],
+.overlay-icons [class*=" icon-"] {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.overlay-icons .icon-small {
+  font-size: .5em;
+}
+.overlay-icons .icon-top-left {
+  top: 0;
+  left: 0;
+}
+.overlay-icons .icon-bottom-left {
+  bottom: 0;
+  top: auto;
+}
+.overlay-icons .icon-top-right {
+  top: 0;
+  left: auto;
+  right: 0;
+}
+.overlay-icons .icon-bottom-right {
+  bottom: 0;
+  right: 0;
+  left: auto;
+  top: auto;
+}
+.overlay-icons .icon-outer-top-right {
+  top: -0.25em;
+  left: auto;
+  right: -0.125em;
+}
+.overlay-icons .icon-outer-top-left {
+  top: -0.25em;
+}
+.overlay-icons .icon-outer-bottom-right {
+  bottom: -0.25em;
+  left: auto;
+  right: -0.125em;
+  top: auto;
+}
+.overlay-icons .icon-outer-bottom-left {
+  bottom: -0.25em;
+  top: auto;
+}
 .pull-right {
   float: right;
 }
