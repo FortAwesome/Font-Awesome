@@ -181,6 +181,65 @@ ul.icons {
   }
 }
 
+// Icon Overlay
+// -------------------------
+.overlay-icons {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  width: 1em;
+  
+  [class^="icon-"],
+  [class*=" icon-"] {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .icon-small {
+    font-size: .5em;
+  }
+    
+  .icon-top-left {
+    top: 0;
+    left: 0;
+  }
+  .icon-bottom-left {
+    bottom: 0;
+    top: auto;
+  }
+  .icon-top-right {
+    top: 0;
+    left: auto;
+    right: 0;
+  }
+  .icon-bottom-right {
+    bottom: 0;
+    right: 0;
+    left: auto;
+    top: auto;
+  }
+    
+  .icon-outer-top-right {
+    top: -.25em;
+    left: auto;
+    right: -.125em;
+  }
+  .icon-outer-top-left {
+    top: -.25em;
+  }
+  .icon-outer-bottom-right {
+    bottom: -.25em;
+    left: auto;
+    right: -.125em;
+    top: auto;
+  }
+  .icon-outer-bottom-left {
+    bottom: -.25em;
+    top: auto;
+  }
+}
+
 // Floats
 // -------------------------
 
