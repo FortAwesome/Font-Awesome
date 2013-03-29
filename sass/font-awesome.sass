@@ -21,9 +21,9 @@
  *  Work: Lead Product Designer @ http://kyruus.com
  */
 
-$fontAwesomePath:   "../font" !default
-$borderColor:       #eee
-$iconMuted:         #eee
+$fontAwesomePath: "../font" !default
+$fontAwesomeBorderColor: #eee !default
+$fontAwesomeMutedColor: #eee !default
 @mixin border-radius($radius)
   -webkit-border-radius: $radius
   -moz-border-radius: $radius
@@ -130,13 +130,13 @@ ul.icons
       width: .75em
 
 .icon-muted
-  color: $iconMuted
+  color: $fontAwesomeMutedColor
 
 // Icon Borders
 // -------------------------
 
 .icon-border
-  border: solid 1px $borderColor
+  border: solid 1px $fontAwesomeBorderColor
   padding: .2em .25em .15em
   @include border-radius(3px)
 
