@@ -1081,3 +1081,6 @@ ul.icons li [class*=" icon-"] {
 .icon-star-half-empty:before {
   content: "\f123";
 }
+.icon-location-arrow:before {
+  content: "\f124";
+}
