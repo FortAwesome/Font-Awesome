@@ -1070,3 +1070,10 @@ ul.icons li [class*=" icon-"] {
 .icon-code:before {
   content: "\f121";
 }
+/*  Aliases to existing icons */
+.icon-mail-forward:before {
+  content: "\f064";
+}
+.icon-mail-reply:before {
+  content: "\f112";
+}
