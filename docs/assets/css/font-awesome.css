@@ -572,7 +572,8 @@ ul.icons li [class*=" icon-"] {
 .icon-arrow-down:before {
   content: "\f063";
 }
-.icon-share-alt:before {
+.icon-share-alt:before,
+.icon-mail-forward:before {
   content: "\f064";
 }
 .icon-resize-full:before {
@@ -1025,7 +1026,8 @@ ul.icons li [class*=" icon-"] {
 .icon-circle:before {
   content: "\f111";
 }
-.icon-reply:before {
+.icon-reply:before,
+.icon-mail-reply:before {
   content: "\f112";
 }
 .icon-github-alt:before {
@@ -1069,11 +1071,4 @@ ul.icons li [class*=" icon-"] {
 }
 .icon-code:before {
   content: "\f121";
-}
-/*  Aliases to existing icons */
-.icon-mail-forward:before {
-  content: "\f064";
-}
-.icon-mail-reply:before {
-  content: "\f112";
 }
