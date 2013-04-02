@@ -1,4 +1,4 @@
-#Font Awesome 3.0.2
+#Font Awesome 3.1.0
 ##the iconic font designed for use with Twitter Bootstrap
 
 The full suite of pictographic icons, examples, and documentation can be found at:
@@ -20,3 +20,4 @@ http://fortawesome.github.com/Font-Awesome/
 - v3.0.0 - all icons redesigned from scratch, optimized for Bootstrap's 14px default
 - v3.0.1 - much improved rendering in webkit, various bugfixes
 - v3.0.2 - much improved rendering and alignment in IE7
+- v3.1.0 - Added XX icons
