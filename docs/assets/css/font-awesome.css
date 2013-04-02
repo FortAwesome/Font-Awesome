@@ -1078,3 +1078,6 @@ ul.icons li [class*=" icon-"] {
 .icon-mail-reply-all:before {
   content: "\f122";
 }
+.icon-star-half-empty:before {
+  content: "\f123";
+}
