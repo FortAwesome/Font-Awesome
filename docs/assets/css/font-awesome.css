@@ -1089,3 +1089,6 @@ ul.icons li [class*=" icon-"] {
 .icon-crop:before {
   content: "\f125";
 }
+.icon-code-fork:before {
+  content: "\f126";
+}
