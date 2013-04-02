@@ -376,7 +376,8 @@ ul.icons li [class*=" icon-"] {
 .icon-play-circle:before {
   content: "\f01d";
 }
-.icon-repeat:before {
+.icon-repeat:before,
+.icon-rotate-right:before {
   content: "\f01e";
 }
 /* \f020 doesn't work in Safari. all shifted one down */
@@ -891,7 +892,8 @@ ul.icons li [class*=" icon-"] {
 .icon-linkedin:before {
   content: "\f0e1";
 }
-.icon-undo:before {
+.icon-undo:before,
+.icon-rotate-left:before {
   content: "\f0e2";
 }
 .icon-legal:before {
@@ -1083,4 +1085,7 @@ ul.icons li [class*=" icon-"] {
 }
 .icon-location-arrow:before {
   content: "\f124";
+}
+.icon-crop:before {
+  content: "\f125";
 }
