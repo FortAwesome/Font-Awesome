@@ -110,7 +110,7 @@ a {
 .nav-tabs, .nav-pills {
   [class^="icon-"],
   [class*=" icon-"] {
-    /* keeps button heights with and without icons the same */
+    // * keeps button heights with and without icons the same */
     &, &.icon-large { line-height: .9em; }
   }
 }
