@@ -1098,3 +1098,18 @@ ul.icons li [class*=" icon-"] {
 .icon-question:before {
   content: "\f128";
 }
+.icon-info:before {
+  content: "\f129";
+}
+.icon-exclamation:before {
+  content: "\f12a";
+}
+.icon-superscript:before {
+  content: "\f12b";
+}
+.icon-subscript:before {
+  content: "\f12c";
+}
+.icon-eraser:before {
+  content: "\f12d";
+}
