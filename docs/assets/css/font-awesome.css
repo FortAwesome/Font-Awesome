@@ -1119,3 +1119,9 @@ ul.icons li [class*=" icon-"] {
 .icon-microphone:before {
   content: "\f130";
 }
+.icon-microphone-off:before {
+  content: "\f131";
+}
+.icon-shield:before {
+  content: "\f132";
+}
