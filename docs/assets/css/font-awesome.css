@@ -1125,3 +1125,6 @@ ul.icons li [class*=" icon-"] {
 .icon-shield:before {
   content: "\f132";
 }
+.icon-calendar-empty:before {
+  content: "\f133";
+}
