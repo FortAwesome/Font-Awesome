@@ -7,6 +7,12 @@
   "dependencies": {},
   "development": {},
   "license": "MIT",
+  "main": "./css/font-awesome.min.css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
   "styles": [
     "css/font-awesome.css"
   ],
