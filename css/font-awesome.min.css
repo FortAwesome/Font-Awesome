@@ -23,10 +23,10 @@
 
 @font-face{
   font-family:'FontAwesome';
-  src:url('../font/fontawesome-webfont.eot?v=3.0.1');
-  src:url('../font/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
-  url('../font/fontawesome-webfont.woff?v=3.0.1') format('woff'),
-  url('../font/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  src:url('../font/fontawesome-webfont.eot?v=3.0.2');
+  src:url('../font/fontawesome-webfont.eot?#iefix&v=3.0.2') format('embedded-opentype'),
+  url('../font/fontawesome-webfont.woff?v=3.0.2') format('woff'),
+  url('../font/fontawesome-webfont.ttf?v=3.0.2') format('truetype');
   font-weight:normal;
   font-style:normal }
 
