@@ -41,3 +41,18 @@
   height: @size * @height-multiplier * 1.05;
   text-align: center;
 }
+
+.sticky-footer (@footer-height: @baseLineHeight * 4, @footer-padding-top: 70px, @footer-padding-bottom: 70px, @footer-margin-top: 70px) {
+  .wrapper {
+    margin: 0 auto -(@footer-height + @footer-padding-bottom + @footer-padding-top + @footer-margin-top + 1);
+  }
+  .push {
+    height: @footer-height + @footer-padding-bottom + @footer-padding-top + @footer-margin-top + 1;
+  }
+
+  .footer {
+    margin-top: @footer-margin-top;
+    height: @footer-height;
+    padding: @footer-padding-top 0 @footer-padding-bottom;
+  }
+}

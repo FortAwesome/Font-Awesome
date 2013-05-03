@@ -1,0 +1,40 @@
+safe:             false
+auto:             true
+server:           true
+server_port:      7998
+baseurl:          /Font-Awesome/
+url:              http://localhost:7998
+
+source:           build
+destination:      _gh_pages
+plugins:          build/_plugins
+
+icon_meta:        build/icons.yml
+icon_layout:      icon.html    # Relative to _layouts directory
+icon_destination: icon         # Relative to destination
+
+font-awesome:
+  version:        3.1.0
+  url:            http://fortawesome.github.com/Font-Awesome/
+  author:
+    name:         Dave Gandy
+    email:        dave@davegandy.com
+  github:
+    url:          https://github.com/FortAwesome/Font-Awesome
+    project:      Font-Awesome
+    org:          FortAwesome
+
+bootstrap:
+  version:        2.3.1
+  url:            http://getbootstrap.com
+
+license:
+  font:
+    version:      SIL OFL 1.1
+    url:          http://scripts.sil.org/OFL
+  code:
+    version:      MIT License
+    url:          http://opensource.org/licenses/mit-license.html
+  documentation:
+    version:      CC BY 3.0
+    url:          http://creativecommons.org/licenses/by/3.0/

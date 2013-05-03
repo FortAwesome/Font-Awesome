@@ -1,0 +1,39 @@
+---
+layout: base
+title_prefix: Font Awesome Icons
+---
+<div class="container">
+  <section>
+    <dl class="dl-horizontal">
+      <dt>Icon</dt>
+      <dd><i class="icon-{{ page.icon['id'] }}"></i></dd>
+
+      <dt>Icon Class</dt>
+      <dd>icon-{{ page.icon['id'] }}</dd>
+
+      <dt>Unicode</dt>
+      <dd>{{ page.icon['unicode'] }}</dd>
+
+      <dt>Created</dt>
+      <dd>v{{ page.icon['created'] }}</dd>
+
+    {% if page.icon['categories'] %}
+      <dt>Categories</dt>
+      <dd>
+      {% for category in page.icon['categories'] %}
+        {{ category }}<br>
+      {% endfor %}
+      </dd>
+    {% endif %}
+
+    {% if page.icon['aliases'] %}
+      <dt>Aliases</dt>
+      <dd>
+      {% for alias in page.icon['aliases'] %}
+        {{ alias }}<br>
+      {% endfor %}
+      </dd>
+    {% endif %}
+    </dl>
+  </section>
+</div>

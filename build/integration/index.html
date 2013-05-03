@@ -1,0 +1,14 @@
+---
+layout: base
+title: Font Awesome Integration
+navbar_active: integration
+---
+{% capture jumbotron_h1 %}<i class="icon-cogs icon-large"></i>&nbsp; Integration{% endcapture %}
+{% capture jumbotron_p %}Easy ways to get Font Awesome {{ site.font-awesome.version }} up and running{% endcapture %}
+
+{% include jumbotron.html %}
+{% include stripe-social.html %}
+
+<div class="container">
+  {% include integration.html %}
+</div>

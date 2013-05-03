@@ -1,0 +1,19 @@
+<div class="navbar navbar-inverse navbar-static-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="{{ site.baseurl }}"><i class="icon-flag"></i> Font Awesome</a>
+      <ul class="nav">
+        <li{% if page.navbar_active == "home" %} class="active"{% endif %}><a href="{{ site.baseurl }}">Home</a></li>
+        <li{% if page.navbar_active == "whats-new" %} class="active"{% endif %}><a href="{{ site.baseurl }}whats-new/">What's New</a></li>
+        <li{% if page.navbar_active == "icons" %} class="active"{% endif %}><a href="{{ site.baseurl }}icons/">Icons</a></li>
+        <li{% if page.navbar_active == "integration" %} class="active"{% endif %}><a href="{{ site.baseurl }}integration/">Integration</a></li>
+        <li{% if page.navbar_active == "examples" %} class="active"{% endif %}><a href="{{ site.baseurl }}examples/">Examples</a></li>
+        <li{% if page.navbar_active == "roadmap" %} class="active"{% endif %}><a href="{{ site.baseurl }}roadmap/">Roadmap</a></li>
+        <li{% if page.navbar_active == "thanks" %} class="active"{% endif %}><a href="{{ site.baseurl }}thanks/">Say Thanks</a></li>
+      </ul>
+      <ul class="nav pull-right">
+        <li><a href="mailto:{{ site.font-awesome.author.email }}"><i class="icon-envelope"></i> Me</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

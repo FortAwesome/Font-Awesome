@@ -1,0 +1,20 @@
+---
+layout: base
+title: Font Awesome Icons
+navbar_active: icons
+---
+{% capture jumbotron_h1 %}<i class="icon-flag icon-large"></i>&nbsp; The Icons{% endcapture %}
+{% capture jumbotron_p %}The complete set of 249 icons in Font Awesome {{ site.font-awesome.version }}{% endcapture %}
+
+{% include jumbotron.html %}
+{% include stripe-social.html %}
+
+<div class="container">
+  {% include icons/new.html %}
+  {% include icons/web-app.html %}
+  {% include icons/text-editor.html %}
+  {% include icons/directional.html %}
+  {% include icons/video-player.html %}
+  {% include icons/social.html %}
+  {% include icons/medical.html %}
+</div>

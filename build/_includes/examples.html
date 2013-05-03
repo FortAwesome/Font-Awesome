@@ -1,0 +1,443 @@
+<section id="examples">
+<h2 class="page-header">Examples</h2>
+<p>Many examples re-used from the Twitter Bootstrap documentation.</p>
+<div class="row">
+  <div class="span4">
+    <div class="well well-transparent">
+      <p>Use Font Awesome icons in:</p>
+      <ul class="icons">
+        <li><i class="icon-ok"></i>Bulleted lists (like this one)</li>
+        <li><i class="icon-ok"></i>Buttons</li>
+        <li><i class="icon-ok"></i>Button groups</li>
+        <li><i class="icon-ok"></i>Navigation</li>
+        <li><i class="icon-ok"></i>Prepended form inputs</li>
+        <li><i class="icon-ok"></i>And many more with Custom CSS</li>
+      </ul>
+    </div>
+  </div>
+  <div class="span4">
+    <p>
+      <a class="btn" href="#"><i class="icon-repeat"></i> Reload</a>
+      <a class="btn btn-success" href="#"><i class="icon-shopping-cart icon-large"></i> Checkout</a>
+      <a class="btn btn-danger" href="#"><i class="icon-trash icon-large"></i> Delete</a>
+    </p>
+    <p>
+      <a class="btn btn-large btn-primary" href="#"><i class="icon-comment"></i> Comment</a>
+      <a class="btn btn-small" href="#"><i class="icon-cog"></i> Settings</a>
+      <a class="btn btn-small btn-info" href="#"><i class="icon-info-sign"></i> Info</a>
+    </p>
+    <div class="well" style="padding: 8px 0;">
+      <ul class="nav nav-list">
+        <li class="active"><a href="#"><i class="icon-home"></i> Home</a></li>
+        <li><a href="#"><i class="icon-book"></i> Library</a></li>
+        <li><a href="#"><i class="icon-pencil"></i> Applications</a></li>
+        <li><a href="#"><i class="icon-cogs"></i> Settings</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="span4">
+    <div class="btn-toolbar">
+      <div class="btn-group">
+        <a class="btn" href="#"><i class="icon-align-left"></i></a>
+        <a class="btn" href="#"><i class="icon-align-center"></i></a>
+        <a class="btn" href="#"><i class="icon-align-right"></i></a>
+        <a class="btn" href="#"><i class="icon-align-justify"></i></a>
+      </div>
+      <div class="btn-group">
+        <a class="btn btn-primary" href="#"><i class="icon-user"></i> User</a>
+        <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="icon-caret-down"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+          <li><a href="#"><i class="icon-trash"></i> Delete</a></li>
+          <li><a href="#"><i class="icon-ban-circle"></i> Ban</a></li>
+          <li class="divider"></li>
+          <li><a href="#"><i class="i"></i> Make admin</a></li>
+        </ul>
+      </div>
+    </div>
+    <form>
+      <div class="control-group">
+        <div class="controls">
+          <div class="input-prepend">
+            <span class="add-on"><i class="icon-envelope"></i></span>
+            <input class="span2" id="inputIcon" type="text" placeholder="Email address">
+          </div>
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="controls">
+          <div class="input-prepend">
+            <span class="add-on"><i class="icon-key"></i></span>
+            <input class="span2" id="inputIcon2" type="text" placeholder="Password">
+          </div>
+        </div>
+      </div>
+    </form>
+    <div>
+        <span class="rating">
+          <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+        </span>
+    </div>
+  </div>
+</div>
+
+<h3 class="page-header">New Styles in 3.0</h3>
+<div class="row">
+  <div class="span4">
+    <i class="icon-quote-left icon-4x pull-left icon-muted"></i>
+    Use a few of the new styles together, and you've got easy pull quotes or a great introductory article image.
+    Or spinning icons for loading and refreshing content. Or fun big icons in multi-line buttons. Lots of new possibilities.
+  </div>
+  <div class="span4">
+    <div class="well well-large well-transparent lead">
+      <i class="icon-spinner icon-spin icon-2x pull-left"></i> Spinner icon when loading content...
+    </div>
+  </div>
+  <div class="span4">
+    <p>
+      <a class="btn btn-large btn-danger" href="#"><i class="icon-flag icon-2x pull-left"></i>Font Awesome<br>Version 3.0</a>
+    </p>
+    <a class="btn btn-primary" href="#"><i class="icon-refresh icon-spin"></i> Synchronizing Content...</a>
+  </div>
+</div>
+
+<h3 class="page-header">Example HTML</h3>
+<div class="row">
+  <div class="span12">
+    <h4>Inline Icons</h4>
+  </div>
+  <div class="span3">
+    <p>Place Font Awesome icons just about anywhere with the <code>&lt;i&gt;</code> tag.</p>
+  </div>
+  <div class="span9">
+    <div class="well well-transparent">
+      <div style="font-size: 24px; line-height: 1.5em;">
+        <i class="icon-camera-retro"></i> icon-camera-retro
+      </div>
+    </div>
+<pre class="prettyprint linenums">
+&lt;i class="icon-camera-retro"&gt;&lt;/i&gt; icon-camera-retro
+</pre>
+    <div class="alert alert-info"><i class="icon-info-sign"></i> Icon classes are echoed via CSS :before.</div>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>Larger Icons</h4>
+  </div>
+  <div class="span3">
+    <p>
+      To increase the size of icons relative to its container, use <code>icon-large</code>, <code>icon-2x</code>,
+      <code>icon-3x</code>, or <code>icon-4x</code>.
+    </p>
+  </div>
+  <div class="span9">
+    <p>
+      Increase the icon size by using the <code>icon-large</code> (33% increase), <code>icon-2x</code>,
+      <code>icon-3x</code>, or <code>icon-4x</code> classes.
+    </p>
+    <div class="well well-transparent">
+      <div style="font-size: 24px; line-height: 1.5em;">
+        <p><i class="icon-camera-retro icon-large"></i> icon-camera-retro</p>
+        <p><i class="icon-camera-retro icon-2x"></i> icon-camera-retro</p>
+        <p><i class="icon-camera-retro icon-3x"></i> icon-camera-retro</p>
+        <p><i class="icon-camera-retro icon-4x"></i> icon-camera-retro</p>
+      </div>
+    </div>
+<pre class="prettyprint linenums">
+&lt;p&gt;&lt;i class=&quot;icon-camera-retro icon-large&quot;&gt;&lt;/i&gt; icon-camera-retro&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;icon-camera-retro icon-2x&quot;&gt;&lt;/i&gt; icon-camera-retro&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;icon-camera-retro icon-3x&quot;&gt;&lt;/i&gt; icon-camera-retro&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;icon-camera-retro icon-4x&quot;&gt;&lt;/i&gt; icon-camera-retro&lt;/p&gt;
+</pre>
+    <div class="alert alert-info">
+      <i class="icon-info-sign"></i> If your icons are getting chopped off on top and bottom, make sure you have
+      sufficient line-height.
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>Animated Spinner</h4>
+  </div>
+  <div class="span3">
+    <p>
+      Use the <code>icon-spin</code> class to get any icon to rotate. Works best with <code>icon-spinner</code> and
+      <code>icon-refresh</code>.
+    </p>
+  </div>
+  <div class="span9">
+    <div class="well well-large well-transparent lead">
+      <i class="icon-spinner icon-spin"></i> Spinner icon when loading content...
+    </div>
+<pre class="prettyprint linenums">
+&lt;i class=&quot;icon-spinner icon-spin&quot;&gt;&lt;/i&gt; Spinner icon when loading content...
+</pre>
+    <p class="alert alert-info">
+      <i class="icon-info-sign"></i> CSS3 animations aren't supported in IE7 - IE9.
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="span3">
+
+  </div>
+  <div class="span9">
+
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>Bordered & Pulled Icons</h4>
+  </div>
+  <div class="span3">
+    <p>
+      Use <code>icon-border</code> and <code>pull-right</code> or <code>pull-left</code> for easy pull quotes or
+      article graphics.
+    </p>
+  </div>
+  <div class="span9">
+    <div class="well well-large well-transparent">
+      <i class="icon-quote-left icon-4x pull-left icon-muted"></i>
+      Use a few of the new styles together, and you've got easy pull quotes or a great introductory article image.
+      Or spinning icons for loading and refreshing content. Or fun big icons in multi-line buttons. You can combine all
+      of them in any combination to get lots of new possibilities.
+    </div>
+<pre class="prettyprint linenums">
+&lt;i class=&quot;icon-quote-left icon-4x pull-left icon-muted&quot;&gt;&lt;/i&gt;
+Use a few of the new styles together ... lots of new possibilities.
+</pre>
+    <div class="well well-large well-transparent">
+      <i class="icon-flag icon-4x pull-left icon-border"></i>
+      Use a few of the new styles together, and you've got easy pull quotes or a great introductory article image.
+      Or spinning icons for loading and refreshing content. Or fun big icons in multi-line buttons. You can combine all
+      of them in any combination to get lots of new possibilities.
+    </div>
+<pre class="prettyprint linenums">
+&lt;i class=&quot;icon-flag icon-4x pull-left icon-border&quot;&gt;&lt;/i&gt;
+Use a few of the new styles together ... lots of new possibilities.
+</pre>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>Buttons</h4>
+  </div>
+  <div class="span3">
+    <p>
+      <a class="btn" href="#">
+        <i class="icon-repeat"></i> Reload</a>
+      <a class="btn btn-success" href="#">
+        <i class="icon-shopping-cart icon-large"></i> Checkout</a>
+    </p>
+    <p>
+      <a class="btn btn-large btn-primary" href="#">
+        <i class="icon-comment"></i> Comment</a>
+      <a class="btn btn-small btn-info" href="#">
+        <i class="icon-info-sign"></i> Info</a>
+    </p>
+    <p>
+      <a class="btn btn-danger" href="#">
+        <i class="icon-trash icon-large"></i> Delete</a>
+      <a class="btn btn-small" href="#">
+        <i class="icon-cog"></i> Settings</a>
+    </p>
+    <p>
+      <a class="btn btn-large btn-danger" href="#"><i class="icon-flag icon-2x pull-left"></i>Font Awesome<br>Version 3.0</a>
+    </p>
+    <p>
+      <a class="btn btn-primary" href="#"><i class="icon-refresh icon-spin"></i> Synchronizing Content...</a>
+    </p>
+
+  </div>
+  <div class="span9">
+    <p>
+      Font Awesome icons work great in buttons. You can even combine them with larger icon styles,
+      <code>pull-right</code> and <code>pull-left</code>, and <code>icon-spin</code>.
+    </p>
+<pre class="prettyprint linenums">
+&lt;a class="btn" href="#"&gt;
+  &lt;i class="icon-repeat"&gt;&lt;/i&gt; Reload&lt;/a&gt;
+&lt;a class="btn btn-success" href="#"&gt;
+  &lt;i class="icon-shopping-cart icon-large"&gt;&lt;/i&gt; Checkout&lt;/a&gt;
+&lt;a class="btn btn-large btn-primary" href="#"&gt;
+  &lt;i class="icon-comment"&gt;&lt;/i&gt; Comment&lt;/a&gt;
+&lt;a class="btn btn-small btn-info" href="#"&gt;
+  &lt;i class="icon-info-sign"&gt;&lt;/i&gt; Info&lt;/a&gt;
+&lt;a class="btn btn-danger" href="#"&gt;
+  &lt;i class="icon-trash icon-large"&gt;&lt;/i&gt; Delete&lt;/a&gt;
+&lt;a class="btn btn-small" href="#"&gt;
+  &lt;i class="icon-cog"&gt;&lt;/i&gt; Settings&lt;/a&gt;
+&lt;a class=&quot;btn btn-large btn-danger&quot; href=&quot;#&quot;&gt;
+  &lt;i class=&quot;icon-flag icon-2x pull-left&quot;&gt;&lt;/i&gt;Font Awesome&lt;br&gt;Version 3.0&lt;/a&gt;
+&lt;a class=&quot;btn btn-primary&quot; href=&quot;#&quot;&gt;
+  &lt;i class=&quot;icon-refresh icon-spin&quot;&gt;&lt;/i&gt; Synchronizing Content...&lt;/a&gt;
+</pre>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>Button groups</h4>
+  </div>
+  <div class="span3">
+    <p>
+    <div class="btn-group">
+      <a class="btn" href="#"><i class="icon-align-left"></i></a>
+      <a class="btn" href="#"><i class="icon-align-center"></i></a>
+      <a class="btn" href="#"><i class="icon-align-right"></i></a>
+      <a class="btn" href="#"><i class="icon-align-justify"></i></a>
+    </div>
+    </p>
+  </div>
+  <div class="span9">
+<pre class="prettyprint linenums">
+&lt;div class="btn-group"&gt;
+  &lt;a class="btn" href="#"&gt;&lt;i class="icon-align-left"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a class="btn" href="#"&gt;&lt;i class="icon-align-center"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a class="btn" href="#"&gt;&lt;i class="icon-align-right"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a class="btn" href="#"&gt;&lt;i class="icon-align-justify"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;
+</pre>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>Button dropdowns</h4>
+  </div>
+  <div class="span3">
+    <p>
+    <div class="btn-group open">
+      <a class="btn btn-primary" href="#"><i class="icon-user"></i> User</a>
+      <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
+        <span class="icon-caret-down"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+        <li><a href="#"><i class="icon-trash"></i> Delete</a></li>
+        <li><a href="#"><i class="icon-ban-circle"></i> Ban</a></li>
+        <li class="divider"></li>
+        <li><a href="#"><i class="i"></i> Make admin</a></li>
+      </ul>
+    </div>
+  </div>
+  </p>
+  <div class="span9">
+<pre class="prettyprint linenums">
+&lt;div class="btn-group open"&gt;
+    &lt;a class="btn btn-primary" href="#"&gt;&lt;i class="icon-user"&gt;&lt;/i&gt; User&lt;/a&gt;
+    &lt;a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"&gt;&lt;span class="icon-caret-down"&gt;&lt;/span&gt;&lt;/a&gt;
+    &lt;ul class="dropdown-menu"&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-pencil"&gt;&lt;/i&gt; Edit&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-trash"&gt;&lt;/i&gt; Delete&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-ban-circle"&gt;&lt;/i&gt; Ban&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="divider"&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;i class="i"&gt;&lt;/i&gt; Make admin&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+</pre>
+    <div class="alert alert-info"><i class="icon-info-sign"></i> Don't forget to add the appropriate JavaScript to enable button dropdowns.</div>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>Lists</h4>
+  </div>
+  <div class="span3">
+    <p>
+    <ul class="icons">
+      <li><i class="icon-ok"></i> Lists</li>
+      <li><i class="icon-ok"></i> Buttons</li>
+      <li><i class="icon-ok"></i> Button groups</li>
+      <li><i class="icon-ok"></i> Navigation</li>
+      <li><i class="icon-ok"></i> Prepended form inputs</li>
+    </ul>
+    </p>
+  </div>
+  <div class="span9">
+    <p>Easily replace individual bullets.</p>
+<pre class="prettyprint linenums">
+&lt;ul class="icons"&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Lists&lt;/li&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Buttons&lt;/li&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Button groups&lt;/li&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Navigation&lt;/li&gt;
+  &lt;li&gt;&lt;i class="icon-ok"&gt;&lt;/i&gt; Prepended form inputs&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>Navigation</h4>
+  </div>
+  <div class="span3">
+    <div class="well" style="padding: 8px 0;">
+      <ul class="nav nav-list">
+        <li class="active"><a href="#"><i class="icon-home"></i> Home</a></li>
+        <li><a href="#"><i class="icon-book"></i> Library</a></li>
+        <li><a href="#"><i class="icon-pencil"></i> Applications</a></li>
+        <li><a href="#"><i class="icon-cogs"></i> Settings</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="span9">
+    <p>Use Font Awesome icons in navigation to provide helpful visual cues.</p>
+<pre class="prettyprint linenums">
+&lt;ul class="nav nav-list"&gt;
+  &lt;li class="active"&gt;&lt;a href="#"&gt;&lt;i class="icon-home"&gt;&lt;/i&gt; Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-book"&gt;&lt;/i&gt; Library&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-pencil"&gt;&lt;/i&gt; Applications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-cogs"&gt;&lt;/i&gt; Settings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>Prepended form inputs</h4>
+  </div>
+  <div class="span3">
+    <p>
+    <form>
+      <div class="input-prepend">
+        <span class="add-on"><i class="icon-envelope"></i></span>
+        <input class="span2" type="text" placeholder="Email address">
+      </div>
+      <div class="input-prepend">
+        <span class="add-on"><i class="icon-key"></i></span>
+        <input class="span2" type="password" placeholder="Password">
+      </div>
+    </form>
+    </p>
+  </div>
+  <div class="span9">
+<pre class="prettyprint linenums">
+&lt;form&gt;
+  &lt;div class="input-prepend"&gt;
+    &lt;span class="add-on"&gt;&lt;i class="icon-envelope"&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;input class="span2" type="text" placeholder="Email address"&gt;
+  &lt;/div&gt;
+  &lt;div class="input-prepend"&gt;
+    &lt;span class="add-on"&gt;&lt;i class="icon-key"&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;input class="span2" type="password" placeholder="Password"&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+</pre>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h4>Custom CSS</h4>
+  </div>
+  <div class="span3">
+    <p>Anything you can do with CSS font styles, you can do with Font Awesome.</p>
+  </div>
+  <div class="span9">
+    <p>Star Ratings (inspired by <a href="http://css-tricks.com/star-ratings/" target="_blank">CSS Tricks</a>)</p>
+    <div class="well">
+      <span class="rating">
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</section>
