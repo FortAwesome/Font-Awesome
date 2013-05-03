@@ -23,9 +23,9 @@ title_prefix: Font Awesome Icons
           {{ category }}{% unless forloop.last %},{% endunless %}
         {% endfor %}
         {% if page.icon['aliases'] %}
-          Aliases:
+          &middot; Aliases:
           {% for alias in page.icon['aliases'] %}
-            {{ alias }}{% unless forloop.last %},{% endunless %}
+            icon-{{ alias }}{% unless forloop.last %},{% endunless %}
           {% endfor %}
         {% endif %}
       </small>

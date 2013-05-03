@@ -5628,6 +5628,13 @@ h6 {
   height: 219px;
   margin-left: 15px;
 }
+.index-ad {
+  margin-bottom: 22px;
+}
+.index-ad .lead {
+  margin-top: 10px;
+  margin-right: 30px;
+}
 .btn-github {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
