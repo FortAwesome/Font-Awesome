@@ -5385,7 +5385,12 @@ h6 {
 }
 .jumbotron-icon {
   padding: 20px 0 30px;
-  background-color: #eeeeee;
+  background-color: #e6e6e6;
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(-40deg, #eeeeee, #e6e6e6);
+  background-image: -webkit-linear-gradient(-40deg, #eeeeee, #e6e6e6);
+  background-image: -o-linear-gradient(-40deg, #eeeeee, #e6e6e6);
+  background-image: linear-gradient(-40deg, #eeeeee, #e6e6e6);
   color: #222222;
   text-shadow: 1px 1px 1px #ffffff;
   border-bottom: solid 1px #c4c4c4;
