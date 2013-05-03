@@ -5266,14 +5266,14 @@ body {
   min-width: 990px;
 }
 .wrapper {
-  margin: 0 auto -191px;
+  margin: 0 auto -211px;
 }
 .push {
-  height: 191px;
+  height: 211px;
 }
 .footer {
   margin-top: 40px;
-  height: 90px;
+  height: 110px;
   padding: 30px 0 30px;
 }
 .navbar .brand {
@@ -5284,6 +5284,9 @@ body {
 }
 .navbar .nav > li > a {
   padding: 12px 10px 9px;
+}
+.navbar .nav.pull-right {
+  margin-right: -10px;
 }
 h1,
 h2,
@@ -5368,6 +5371,9 @@ h6 {
   color: #ce938e;
   text-shadow: none;
 }
+.jumbotron .carbonad {
+  text-shadow: none;
+}
 .jumbotron-ad {
   padding: 20px 0;
 }
@@ -5376,6 +5382,65 @@ h6 {
 }
 .jumbotron-ad p {
   margin-bottom: 35px;
+}
+.jumbotron-icon {
+  padding: 20px 0 30px;
+  background-color: #eeeeee;
+  color: #222222;
+  text-shadow: 1px 1px 1px #ffffff;
+  border-bottom: solid 1px #c4c4c4;
+}
+.jumbotron-icon h1 {
+  color: #222222;
+  font-size: 40px;
+}
+.jumbotron-icon h1 small {
+  letter-spacing: normal;
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.jumbotron-icon .info-details {
+  float: left;
+}
+.jumbotron-icon .info-details p {
+  margin: 25px 0;
+  font-weight: bold;
+}
+.jumbotron-icon .info-details .dl-horizontal dt {
+  width: 80px;
+}
+.jumbotron-icon .info-details .dl-horizontal dd {
+  margin-left: 95px;
+}
+.jumbotron-icon .icon-2 {
+  font-size: 2em;
+}
+.jumbotron-icon .icon-3 {
+  font-size: 4em;
+}
+.jumbotron-icon .icon-4 {
+  font-size: 7em;
+}
+.jumbotron-icon .icon-5 {
+  font-size: 12em;
+}
+.jumbotron-icon .icon-6 {
+  font-size: 20em;
+}
+.jumbotron-icon .icon-1,
+.jumbotron-icon .icon-2,
+.jumbotron-icon .icon-3,
+.jumbotron-icon .icon-4,
+.jumbotron-icon .icon-5,
+.jumbotron-icon .icon-6 {
+  margin-right: 0.07142857142857142em;
+}
+.info-ad {
+  float: right;
+  width: 154px;
+  height: 219px;
+  margin-left: 15px;
 }
 .btn-github {
   color: #ffffff;

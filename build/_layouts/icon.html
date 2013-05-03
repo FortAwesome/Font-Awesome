@@ -2,38 +2,107 @@
 layout: base
 title_prefix: Font Awesome Icons
 ---
+<div class="jumbotron jumbotron-icon">
+  <div class="container">
+    <div class="info-icons">
+      <i class="icon-{{ page.icon['id'] }} icon-6"></i>&nbsp;&nbsp;
+      <i class="icon-{{ page.icon['id'] }} icon-5"></i>&nbsp;&nbsp;
+      <i class="icon-{{ page.icon['id'] }} icon-4"></i>&nbsp;&nbsp;
+      <i class="icon-{{ page.icon['id'] }} icon-3"></i>&nbsp;&nbsp;
+      <i class="icon-{{ page.icon['id'] }} icon-2"></i>&nbsp;&nbsp;
+      <i class="icon-{{ page.icon['id'] }} icon-1"></i>
+    </div>
+    <h1 class="info-class">
+      icon-{{ page.icon['id'] }}
+      <small>
+        <i class="icon-{{ page.icon['id'] }}"></i> &middot;
+        Unicode: {{ page.icon['unicode'] }} &middot;
+        Created: v{{ page.icon['created'] }} &middot;
+        Categories:
+        {% for category in page.icon['categories'] %}
+          {{ category }}{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+        {% if page.icon['aliases'] %}
+          Aliases:
+          {% for alias in page.icon['aliases'] %}
+            {{ alias }}{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        {% endif %}
+      </small>
+    </h1>
+
+
+    <!--<div class="row-fluid">-->
+      <!--<div class="span6">-->
+        <!--<div class="info-icons">-->
+          <!--<i class="icon-{{ page.icon['id'] }} icon-5"></i>-->
+          <!--<i class="icon-{{ page.icon['id'] }} icon-4"></i>-->
+          <!--<i class="icon-{{ page.icon['id'] }} icon-3"></i>-->
+          <!--<i class="icon-{{ page.icon['id'] }} icon-2"></i>-->
+          <!--<i class="icon-{{ page.icon['id'] }} icon-1"></i>-->
+        <!--</div>-->
+        <!--&lt;!&ndash;<p class="info-class">icon-{{ page.icon['id'] }}</p>&ndash;&gt;-->
+      <!--</div>-->
+      <!--<div class="span6">-->
+        <!--<div class="info-details">-->
+          <!--<h1>icon-{{ page.icon['id'] }}</h1>-->
+          <!--<dl class="dl-horizontal">-->
+            <!--<dt>Icon</dt>-->
+            <!--<dd><i class="icon-{{ page.icon['id'] }}"></i></dd>-->
+
+            <!--<dt>Unicode</dt>-->
+            <!--<dd>{{ page.icon['unicode'] }}</dd>-->
+
+            <!--<dt>Created</dt>-->
+            <!--<dd>v{{ page.icon['created'] }}</dd>-->
+
+            <!--{% if page.icon['categories'] %}-->
+            <!--<dt>Categories</dt>-->
+            <!--<dd>-->
+              <!--{% for category in page.icon['categories'] %}-->
+              <!--{{ category }}<br>-->
+              <!--{% endfor %}-->
+            <!--</dd>-->
+            <!--{% endif %}-->
+
+            <!--{% if page.icon['aliases'] %}-->
+            <!--<dt>Aliases</dt>-->
+            <!--<dd>-->
+              <!--{% for alias in page.icon['aliases'] %}-->
+              <!--{{ alias }}<br>-->
+              <!--{% endfor %}-->
+            <!--</dd>-->
+            <!--{% endif %}-->
+          <!--</dl>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+
+
+
+  </div>
+</div>
+
+
 <div class="container">
   <section>
-    <dl class="dl-horizontal">
-      <dt>Icon</dt>
-      <dd><i class="icon-{{ page.icon['id'] }}"></i></dd>
-
-      <dt>Icon Class</dt>
-      <dd>icon-{{ page.icon['id'] }}</dd>
-
-      <dt>Unicode</dt>
-      <dd>{{ page.icon['unicode'] }}</dd>
-
-      <dt>Created</dt>
-      <dd>v{{ page.icon['created'] }}</dd>
-
-    {% if page.icon['categories'] %}
-      <dt>Categories</dt>
-      <dd>
-      {% for category in page.icon['categories'] %}
-        {{ category }}<br>
-      {% endfor %}
-      </dd>
-    {% endif %}
-
-    {% if page.icon['aliases'] %}
-      <dt>Aliases</dt>
-      <dd>
-      {% for alias in page.icon['aliases'] %}
-        {{ alias }}<br>
-      {% endfor %}
-      </dd>
-    {% endif %}
-    </dl>
+    <div class="row-fluid">
+      <div class="span9">
+        <p>After you get <a href="{{ site.baseurl }}integration/">up and running</a>, you can place Font Awesome icons just about anywhere with the <code>&lt;i&gt;</code> tag:</p>
+        <div class="well well-transparent">
+          <div style="font-size: 24px; line-height: 1.5em;">
+            <i class="icon-{{ page.icon['id'] }}"></i> icon-{{ page.icon['id'] }}
+          </div>
+        </div>
+{% highlight html %}
+<i class="icon-{{ page.icon['id'] }}"></i> icon-{{ page.icon['id'] }}
+{% endhighlight %}
+        <br>
+        <div class="lead"><i class="icon-info-sign"></i> Looking for more? Check out the <a href="{{ site.baseurl }}examples/">examples</a>.</div>
+      </div>
+      <div class="span3">
+        <div class="info-ad">{% include ads/carbon-light-vertical.html %}</div>
+      </div>
+    </div>
   </section>
 </div>

@@ -1986,3 +1986,10 @@ icons:
     created:    3.1.0
     categories:
       - Web Application Icons 
+
+  - name:       MaxCDN
+    id:         maxcdn
+    unicode:    f136
+    created:    3.1.0
+    categories:
+      - Web Application Icons

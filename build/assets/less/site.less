@@ -13,6 +13,8 @@
 
 .navbar .nav > li > a { padding: 12px 10px 9px; }
 
+.navbar .nav.pull-right { margin-right: -10px; }
+
 h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
 
 #iconCarousel {
@@ -113,12 +115,66 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
     color: mix(@white, @red, 50%);
     text-shadow: none;
   }
+  .carbonad { text-shadow: none; }
 }
 
 .jumbotron-ad {
   padding: 20px 0;
   h1 { margin-top: 25px; }
   p { margin-bottom: 35px; }
+}
+
+.jumbotron-icon {
+  padding: 20px 0 30px;
+  background-color: @grayLighter;
+  color: @grayDarker;
+  text-shadow: 1px 1px 1px @white;
+  border-bottom: solid 1px mix(@grayLight, @grayLighter, 50%);
+
+  h1 {
+    color: @grayDarker;
+    font-size: 40px;
+//    margin: 25px 0 20px;
+    small {
+      letter-spacing: normal;
+      font-family: @sansFontFamily;
+      font-size: @baseFontSize;
+      margin-left: 20px;
+    }
+  }
+
+  .info-icons {
+//    margin-top: 10px;
+//    text-align: center;
+  }
+  .info-class {
+
+  }
+  .info-details {
+    float: left;
+    p {
+      margin: 25px 0;
+      font-weight: bold;
+    }
+    .dl-horizontal {
+      dt { width: @horizontalComponentOffset - 100; }
+      dd { margin-left: @horizontalComponentOffset - 85; }
+    }
+  }
+  .icon-2 { font-size: 2em; }
+  .icon-3 { font-size: 4em; }
+  .icon-4 { font-size: 7em; }
+  .icon-5 { font-size: 12em; }
+  .icon-6 { font-size: 20em; }
+
+  .icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6 { margin-right: 1/14em; }
+}
+
+.info-ad {
+  float: right;
+  width: 154px;
+  height: 219px;
+  margin-left: 15px;
 }
 
 .btn-github {

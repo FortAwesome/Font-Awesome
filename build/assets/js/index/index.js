@@ -5,6 +5,7 @@ $(function() {
   });
 
   // make code pretty
+  $('pre').addClass('prettyprint');
   window.prettyPrint && prettyPrint();
 
   // inject twitter & github counts

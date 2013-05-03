@@ -178,6 +178,15 @@ ul.icons li [class*=" icon-"] {
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
+.icon-5x {
+  font-size: 5em;
+}
+.icon-5x.icon-border {
+  border-width: 5px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
 .pull-right {
   float: right;
 }
@@ -1133,4 +1142,7 @@ ul.icons li [class*=" icon-"] {
 }
 .icon-rocket:before {
   content: "\f135";
+}
+.icon-maxcdn:before {
+  content: "\f136";
 }
