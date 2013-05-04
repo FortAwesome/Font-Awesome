@@ -6,8 +6,6 @@
 @import "lazy.less";
 
 .navbar .brand {
-//  padding: 11px 20px 9px;
-//  color: @white;
   font-family: @serifFontFamily;
   .icon-flag { padding-right: 3px; }
 }
@@ -20,22 +18,22 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
 
 #iconCarousel {
   a { color: @white; }
-//  border: solid 1px @white;
-  @size: 280px;
+  @size: 215px;
   font-size: @size;
   text-align: center;
   line-height: @size + 5;
   text-shadow: 2px 2px 3px @grayDarker;
   .carousel-control {
     top: @size + 33px;
-    .square(23px);
-    border-width: 3px;
-    font-size: 17px;
+    .square(30px);
+    background: none;
+    border-width: 0;
+    font-size: 30px;
     line-height: 25px;
-    left: @size / 2 - 23;
+    left: @size - 100px;
     &.right {
       left: auto;
-      right: @size / 2 - 23;
+      right: @size - 100px;
     }
   }
 }
@@ -43,10 +41,9 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
 .jumbotron {
   background: @red;
   border-bottom: 1px solid @redDark;
-  padding: 48px 0;
-//  #gradient > .radial( lighten(@red, 10%), @red);
-//  background-color: @red;
   &, h1 { color: @white; }
+  #gradient > .directional(@red, mix(@red, @redDark, 90%), -40deg);
+//  background-color: @red;
 
 //  &:after {
 //    content:'';
@@ -70,8 +67,9 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
     margin-bottom: 15px;
     font-size: 30px;
     line-height: 1.3;
+    font-weight: lighter;
   }
-  .actions { margin-top: 30px;}
+  .actions { margin-top: 25px;}
   text-shadow: 2px 2px 2px @grayDark;
   ul {
     margin-left: 50px;
@@ -85,38 +83,40 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
       text-shadow: 1px 1px 1px @grayDark;
     }
   }
-//  a { color: #fffeb8; }
   .btn-large {
-////    .buttonBackground(@white, #bbb);
     font-family: @serifFontFamily;
-////    color: @grayDark;
-//    margin-top: 15px;
     font-weight: 500;
-    font-size: 18px;
-    padding: 13px 23px 13px 22px;
-//    padding-left: 24px + 40;
-    margin-right: 10px;
-//    .border-radius(8px);
-//    position: relative;
-    text-align: left;
-//    i  {
-//      position: absolute;
-//      top: 8px;
-//      left: 15px;
-//      font-size: 46px;
-//    }
+    font-size: 24px;
+    padding: 17px 30px;
+    letter-spacing: -1px;
   }
   .hero-content {
-//    width: 620px;
     text-align: center;
   }
   .shameless-self-promotion {
-    font-size: 12px;
-    margin-top: 15px;
-    color: mix(@white, @red, 50%);
+    font-size: 14px;
+    margin-top: 25px;
+    color: mix(@white, @red, 40%);
     text-shadow: none;
+    a { color: mix(@white, @red, 70%); }
+    a:hover { color: mix(@white, @red, 100%); }
   }
-  .carbonad { text-shadow: none; }
+}
+
+.jumbotron-index {
+  padding: 40px 0;
+  h1 {
+    font-size: 80px;
+    letter-spacing: -2px;
+    line-height: 1;
+    margin: 0 0 15px;
+  }
+  p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 1.3;
+  }
 }
 
 .jumbotron-ad {
@@ -217,11 +217,6 @@ section {
   .watch, .fork {
     margin-right: 30px;
   }
-}
-
-.carbonad-horizontal {
-  width: 310px;
-  margin: 20px auto 10px;
 }
 
 .the-icons {

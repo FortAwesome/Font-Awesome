@@ -5478,31 +5478,37 @@ h6 {
   font-family: museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #iconCarousel {
-  font-size: 280px;
+  font-size: 215px;
   text-align: center;
-  line-height: 285px;
+  line-height: 220px;
   text-shadow: 2px 2px 3px #222222;
 }
 #iconCarousel a {
   color: #ffffff;
 }
 #iconCarousel .carousel-control {
-  top: 313px;
-  width: 23px;
-  height: 23px;
-  border-width: 3px;
-  font-size: 17px;
+  top: 248px;
+  width: 30px;
+  height: 30px;
+  background: none;
+  border-width: 0;
+  font-size: 30px;
   line-height: 25px;
-  left: 117px;
+  left: 115px;
 }
 #iconCarousel .carousel-control.right {
   left: auto;
-  right: 117px;
+  right: 115px;
 }
 .jumbotron {
   background: #9d261d;
   border-bottom: 1px solid #721c15;
-  padding: 48px 0;
+  background-color: #99251c;
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(-40deg, #9d261d, #99251c);
+  background-image: -webkit-linear-gradient(-40deg, #9d261d, #99251c);
+  background-image: -o-linear-gradient(-40deg, #9d261d, #99251c);
+  background-image: linear-gradient(-40deg, #9d261d, #99251c);
   text-shadow: 2px 2px 2px #333333;
 }
 .jumbotron,
@@ -5519,9 +5525,10 @@ h6 {
   margin-bottom: 15px;
   font-size: 30px;
   line-height: 1.3;
+  font-weight: lighter;
 }
 .jumbotron .actions {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 .jumbotron ul {
   margin-left: 50px;
@@ -5538,22 +5545,39 @@ h6 {
 .jumbotron .btn-large {
   font-family: museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
-  font-size: 18px;
-  padding: 13px 23px 13px 22px;
-  margin-right: 10px;
-  text-align: left;
+  font-size: 24px;
+  padding: 17px 30px;
+  letter-spacing: -1px;
 }
 .jumbotron .hero-content {
   text-align: center;
 }
 .jumbotron .shameless-self-promotion {
-  font-size: 12px;
-  margin-top: 15px;
-  color: #ce938e;
+  font-size: 14px;
+  margin-top: 25px;
+  color: #c47d77;
   text-shadow: none;
 }
-.jumbotron .carbonad {
-  text-shadow: none;
+.jumbotron .shameless-self-promotion a {
+  color: #e2bebb;
+}
+.jumbotron .shameless-self-promotion a:hover {
+  color: #ffffff;
+}
+.jumbotron-index {
+  padding: 40px 0;
+}
+.jumbotron-index h1 {
+  font-size: 80px;
+  letter-spacing: -2px;
+  line-height: 1;
+  margin: 0 0 15px;
+}
+.jumbotron-index p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  line-height: 1.3;
 }
 .jumbotron-ad {
   padding: 20px 0;
@@ -5702,10 +5726,6 @@ section {
 #social-buttons .watch,
 #social-buttons .fork {
   margin-right: 30px;
-}
-.carbonad-horizontal {
-  width: 310px;
-  margin: 20px auto 10px;
 }
 .the-icons {
   list-style-type: none;
