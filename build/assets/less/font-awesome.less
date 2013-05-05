@@ -100,20 +100,20 @@ a {
   font-size: 4/3em;
 }
 
+/* keeps button heights with and without icons the same */
 .btn, .nav {
   [class^="icon-"],
   [class*=" icon-"] {
     display: inline;
-    /* keeps button heights with and without icons the same */
     &.icon-large { line-height: .9em; }
     &.icon-spin { display: inline-block; }
   }
 }
 
+/* keeps button heights with and without icons the same */
 .nav-tabs, .nav-pills {
   [class^="icon-"],
   [class*=" icon-"] {
-  /* keeps button heights with and without icons the same */
     &, &.icon-large { line-height: .9em; }
   }
 }
@@ -130,7 +130,6 @@ li, .nav li {
     }
   }
 }
-
 
 ul.icons-ul {
   list-style-type: none;
@@ -278,12 +277,6 @@ ul.icons-ul {
   100% { transform: rotate(359deg); }
 }
 
-@-moz-document url-prefix() {
-  .icon-spin { height: .9em; }
-  .btn .icon-spin { height: auto; }
-  .icon-spin.icon-large { height: 1.25em; }
-  .btn .icon-spin.icon-large { height: .75em; }
-}
 
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */

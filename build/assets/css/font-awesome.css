@@ -80,13 +80,12 @@ a [class*=" icon-"] {
   vertical-align: -10%;
   font-size: 1.3333333333333333em;
 }
+/* keeps button heights with and without icons the same */
 .btn [class^="icon-"],
 .nav [class^="icon-"],
 .btn [class*=" icon-"],
 .nav [class*=" icon-"] {
   display: inline;
-  /* keeps button heights with and without icons the same */
-
 }
 .btn [class^="icon-"].icon-large,
 .nav [class^="icon-"].icon-large,
@@ -100,13 +99,7 @@ a [class*=" icon-"] {
 .nav [class*=" icon-"].icon-spin {
   display: inline-block;
 }
-.nav-tabs [class^="icon-"],
-.nav-pills [class^="icon-"],
-.nav-tabs [class*=" icon-"],
-.nav-pills [class*=" icon-"] {
-  /* keeps button heights with and without icons the same */
-
-}
+/* keeps button heights with and without icons the same */
 .nav-tabs [class^="icon-"],
 .nav-pills [class^="icon-"],
 .nav-tabs [class*=" icon-"],
@@ -285,20 +278,6 @@ ul.icons-ul > li .icon-li {
   }
   100% {
     transform: rotate(359deg);
-  }
-}
-@-moz-document url-prefix() {
-  .icon-spin {
-    height: .9em;
-  }
-  .btn .icon-spin {
-    height: auto;
-  }
-  .icon-spin.icon-large {
-    height: 1.25em;
-  }
-  .btn .icon-spin.icon-large {
-    height: .75em;
   }
 }
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
