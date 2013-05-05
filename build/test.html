@@ -1,49 +1,10 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
-  <!-- Basic Page Needs
- ================================================== -->
-  <meta charset="utf-8" />
-  <title>Font Awesome Tests</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <!--<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">-->
+---
+layout: base
+title: Font Awesome Visual Test Cases
+---
 
-  <!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
-  <!-- CSS
- ================================================== -->
-
-  <link rel="stylesheet" href="assets/css/site.css">
-  <link rel="stylesheet" href="assets/css/prettify.css">
-  <link rel="stylesheet" href="assets/css/font-awesome.css">
-  <!--[if IE 7]>
-  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
-  <![endif]-->
-  <!-- Le fav and touch icons -->
-  <link rel="shortcut icon" href="assets/ico/favicon.ico">
-
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-30136587-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-</head>
-<body>
-
-<div class="container">
-  <h1>Visual tests</h1>
+<section class="container">
+  <h1 class="page-header">Visual Test Cases</h1>
 
   <h3>Icons <small>Icons should have proper alignment and not be clipped</small></h3>
   <div class="row">
@@ -514,18 +475,63 @@
   <h3>Bullets <small>should wrap appropriately, have proper spacing</small></h3>
   <div class="row">
     <div class="span6">
-      <ul class="icons">
-        <li><i class="icon-double-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li><i class="icon-arrow-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
-        <li><i class="icon-building"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      </ul>
+      <div style="border: solid 1px #d3d3d3;">
+<ul class="icons-ul">
+  <li><i class="icon-li icon-double-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+  <li><i class="icon-li icon-arrow-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+  <li><i class="icon-li icon-building"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+</ul>
+      </div>
     </div>
     <div class="span6">
-      <ul class="icons">
-        <li><i class="icon-double-angle-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li><i class="icon-arrow-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
-        <li><i class="icon-building icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      </ul>
+      <div style="border: solid 1px #d3d3d3;">
+        <ul class="icons-ul">
+          <li><i class="icon-li icon-double-angle-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li><i class="icon-li icon-arrow-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+          <li><i class="icon-li icon-building icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3;">
+        <ul class="icons-ul lead">
+          <li><i class="icon-li icon-double-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li><i class="icon-li icon-arrow-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+          <li><i class="icon-li icon-building"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3;">
+        <ul class="icons-ul lead">
+          <li><i class="icon-li icon-double-angle-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li><i class="icon-li icon-arrow-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+          <li><i class="icon-li icon-building icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3;">
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3;">
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </div>
     </div>
   </div>
 
@@ -575,10 +581,4 @@
     <button class="btn btn-large"><i class="icon-circle-blank icon-large icon-spin"></i> Loading...</button>
   </div>
 
-</div>
-
-<script src="assets/js/jquery-1.7.1.min.js"></script>
-<script src="assets/js/bootstrap-222.min.js"></script>
-
-</body>
-</html>
+</section>

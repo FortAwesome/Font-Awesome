@@ -5478,27 +5478,27 @@ h6 {
   font-family: museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #iconCarousel {
-  font-size: 215px;
+  font-size: 220px;
   text-align: center;
-  line-height: 220px;
+  line-height: 225px;
   text-shadow: 2px 2px 3px #222222;
 }
 #iconCarousel a {
   color: #ffffff;
 }
 #iconCarousel .carousel-control {
-  top: 248px;
+  top: 253px;
   width: 30px;
   height: 30px;
   background: none;
   border-width: 0;
   font-size: 30px;
   line-height: 25px;
-  left: 115px;
+  left: 117px;
 }
 #iconCarousel .carousel-control.right {
   left: auto;
-  right: 115px;
+  right: 117px;
 }
 .jumbotron {
   background: #9d261d;
