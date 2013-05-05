@@ -142,6 +142,10 @@ ul.icons-ul > li [class^="icon-"],
 ul.icons-ul > li .icon-li {
   width: 0.6428571428571429em;
 }
+[class^="icon-"].hide,
+[class*=" icon-"].hide {
+  display: none;
+}
 .icon-muted {
   color: #eeeeee;
 }

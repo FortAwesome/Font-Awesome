@@ -145,6 +145,14 @@ ul.icons-ul {
   }
 }
 
+// allows usage of the hide class directly on font awesome icons
+[class^="icon-"],
+[class*=" icon-"] {
+  &.hide {
+    display:none;
+  }
+}
+
 .icon-muted {
   color: @iconMuted;
 }
