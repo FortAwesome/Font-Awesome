@@ -129,12 +129,12 @@ li [class*=" icon-"].icon-large,
 }
 ul.icons-ul {
   list-style-type: none;
-  text-indent: -0.6428571428571429em;
-  margin-left: 2em;
+  text-indent: -0.7142857142857143em;
+  margin-left: 2.142857142857143em;
 }
 ul.icons-ul > li [class^="icon-"],
 ul.icons-ul > li .icon-li {
-  width: 0.6428571428571429em;
+  width: 0.7142857142857143em;
 }
 [class^="icon-"].hide,
 [class*=" icon-"].hide {

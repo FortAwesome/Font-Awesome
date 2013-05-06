@@ -1,110 +1,106 @@
-<section id="integration">
-  <div class="row margin-bottom">
+<section>
+  <div class="row">
     <div class="span8">
-      <h2 class="page-header">Integration</h2>
-      <p>It's easy to get started with Font Awesome. And it plays really nicely with <a href="{{ site.bootstrap.url }}">Bootstrap</a>.</p>
+      <h2 class="page-header">Ways to use Font Awesome</h2>
+      <p>It's easy to get started with Font Awesome. And it plays really nicely with <a href="{{ site.bootstrap.url }}">Bootstrap</a>!</p>
     </div>
     <div class="span4">
       <br>
       {% include ads/carbon-light-horizontal.html %}
     </div>
   </div>
+</section>
 
-  <div class="row">
-    <div class="span12">
-      <h4>Easy Bootstrap + Font Awesome Integration</h4>
-    </div>
-    <div class="span3">
-      <p>Use this method to integrate Font Awesome with the default Bootstrap CSS.</p>
-    </div>
-    <div class="span9">
-      <ol>
-        <li>Copy the Font Awesome font directory into your project.</li>
-        <li>Copy font-awesome.min.css into your project.</li>
-        <li>
-          Open your project's font-awesome.min.css and edit the font paths to ensure they point to the right place.
-          <p class="alert alert-info"><i class="icon-info-sign"></i> The font path is relative from your CSS directory.</p>
-        </li>
-        <li>
-          In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome.min.css.
-<pre class="prettyprint linenums">
-&lt;link rel="stylesheet" href="../css/bootstrap.min.css"&gt;
-&lt;link rel="stylesheet" href="../css/font-awesome.min.css"&gt;
-</pre>
-        </li>
-        <li>Check out the examples to start using Font Awesome!</li>
-      </ol>
-    </div>
-  </div>
-  <div class="row">
-    <div class="span12">
-      <h4>Custom Bootstrap + Font Awesome Integration using LESS</h4>
-    </div>
-    <div class="span3">
-      <p>Use this method to integrate Font Awesome with Twitter Bootstrap using LESS.</p>
-    </div>
-    <div class="span9">
-      <ol>
-        <li>Copy the Font Awesome font directory into your project.</li>
-        <li>Copy font-awesome.less into your bootstrap/less directory.</li>
-        <li>Open bootstrap.less and replace <code>@import "sprites.less";</code> with <code>@import "font-awesome.less";</code></li>
-        <li>
-          Open your project's font-awesome.less and edit the <code>@FontAwesomePath</code> variable to point to your font directory.
-<pre class="prettyprint linenums">
+<section class="margin-top-large">
+  <h3>EASIEST: <a href="http://www.bootstrapcdn.com/#tab_fontawesome">BootstrapCDN</a></h3>
+  <p>Add Font Awesome + Bootstrap into your website with two lines of code. You don't even have to download or install anything!</p>
+  <ol>
+    <li>
+      Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
+{% highlight html %}
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+{% endhighlight %}
+      <div class="alert alert-info margin-top">
+        <i class="icon-info-sign"></i> Want to use Font Awesome by itself without Bootstrap? Just skip pasting in the first line.
+      </div>
+    </li>
+    <li>
+      Pat yourself on the back for your scalable-vector-icons-on-the-website
+      <a href="http://37signals.com/svn/posts/312-lingo-judo">judo solution</a> in two lines of code.
+    </li>
+    <li>
+      Check out the <a href="{{ site.baseurl }}examples/">examples</a> to start using Font Awesome!
+    </li>
+  </ol>
+</section>
+
+<section>
+  <h3>EASY: Default CSS</h3>
+  <p>Use this method to get the default Font Awesome CSS with the default Bootstrap CSS.</p>
+  <ol>
+    <li>Copy the Font Awesome font directory into your project.</li>
+    <li>Copy font-awesome.min.css into your project.</li>
+    <li>
+      Open your project's font-awesome.min.css and edit the font paths to ensure they point to the right place.
+      <p class="alert alert-info"><i class="icon-info-sign"></i> The font path is relative from your CSS directory.</p>
+    </li>
+    <li>
+      In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome.min.css.
+{% highlight html %}
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/font-awesome.min.css">
+{% endhighlight %}
+    </li>
+    <li>Check out the <a href="{{ site.baseurl }}examples/">examples</a> to start using Font Awesome!</li>
+  </ol>
+</section>
+
+<section>
+  <h3>PRO: Custom LESS</h3>
+  <p>Use this method to customize Font Awesome and Bootstrap using LESS.</p>
+  <ol>
+    <li>Copy the Font Awesome font directory into your project.</li>
+    <li>Copy font-awesome.less into your bootstrap/less directory.</li>
+    <li>Open bootstrap.less and replace <code>@import "sprites.less";</code> with <code>@import "font-awesome.less";</code></li>
+    <li>
+      Open your project's font-awesome.less and edit the <code>@FontAwesomePath</code> variable to point to your font directory.
+{% highlight html %}
 @FontAwesomePath:   "../font";
-</pre>
-          <p class="alert alert-info"><i class="icon-info-sign"></i> The font path is relative from your compiled CSS directory.</p>
-        </li>
-        <li>Re-compile your LESS if using a static compiler. Otherwise, you should be good to go.</li>
-        <li>Check out the examples to start using Font Awesome!</li>
-      </ol>
-    </div>
-  </div>
-  <div class="row">
-    <div class="span12">
-      <h4>Custom Bootstrap + Font Awesome Integration using SASS or SCSS</h4>
-      <p>I have never used either, so let me know if the included SCSS or SASS files have issues.</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="span12">
-      <h4>Not using Bootstrap?</h4>
-    </div>
-    <div class="span3">
-      <p>Font Awesome works just as well without Twitter Bootstrap.</p>
-    </div>
-    <div class="span9">
-      <ol>
-        <li>Copy the Font Awesome font directory into your project.</li>
-        <li>Copy font-awesome.less or font-awesome.min.css into your project.</li>
-        <li>Open your project's font-awesome.less or font-awesome.min.css and edit the font location to point it to your font directory (see above examples).</li>
-        <li>Check out the examples to start using Font Awesome!</li>
-      </ol>
-    </div>
-  </div>
-  <div class="row">
-    <div class="span12">
-      <h4>Need IE7 Support?</h4>
-    </div>
-    <div class="span3">
-      <p>Font Awesome supports IE7. If you need it, you have my condolences.</p>
-    </div>
-    <div class="span9">
-      <ol>
-        <li>Get Font Awesome working properly in a modern browser.</li>
-        <li>Copy font-awesome-ie7.min.css into your project.</li>
-        <li>
-          In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome-ie7.min.css.
-<pre class="prettyprint linenums">
-&lt;link rel="stylesheet" href="../css/bootstrap.min.css"&gt;
-&lt;link rel="stylesheet" href="../css/font-awesome.min.css"&gt;
-&lt;!--[if IE 7]&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/font-awesome-ie7.min.css&quot;&gt;
-&lt;![endif]--&gt;
-</pre>
-        </li>
-        <li>Go complain to whoever decided your project needs IE7 support.</li>
-      </ol>
-    </div>
-  </div>
+{% endhighlight %}
+      <p class="alert alert-info"><i class="icon-info-sign"></i> The font path is relative from your compiled CSS directory.</p>
+    </li>
+    <li>Re-compile your LESS if using a static compiler. Otherwise, you should be good to go.</li>
+    <li>Check out the <a href="{{ site.baseurl }}examples/">examples</a> to start using Font Awesome!</li>
+  </ol>
+</section>
+
+<section>
+  <h3>Not using Bootstrap?</h3>
+  <p>Font Awesome works just as well without Bootstrap.</p>
+  <ol>
+    <li>Copy the Font Awesome font directory into your project.</li>
+    <li>Copy font-awesome.less or font-awesome.min.css into your project.</li>
+    <li>Open your project's font-awesome.less or font-awesome.min.css and edit the font location to point it to your font directory (see above examples).</li>
+    <li>Check out the <a href="{{ site.baseurl }}examples/">examples</a> to start using Font Awesome!</li>
+  </ol>
+</section>
+
+<section>
+  <h3>Need IE7 Support?</h3>
+  <p>Font Awesome supports IE7. If you need it, you have my condolences.</p>
+  <ol>
+    <li>Get Font Awesome working properly in a modern browser.</li>
+    <li>Copy font-awesome-ie7.min.css into your project.</li>
+    <li>
+      In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome-ie7.min.css.
+{% highlight html %}
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/font-awesome.min.css">
+<!--[if IE 7]>
+  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+<![endif]-->{% endhighlight %}
+    </li>
+    <li>Go complain to whoever decided your project needs IE7 support.</li>
+  </ol>
 </section>
