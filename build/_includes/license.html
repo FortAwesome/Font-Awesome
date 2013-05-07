@@ -1,15 +1,48 @@
-<section id="roadmap">
-  <div class="row margin-bottom">
-    <div class="span8">
-      <p>Here's the plan for future updates.</p>
-      <ul class="icons">
-        <li><i class="icon-plus"></i>Easier sub-setting with icon packs.</li>
-        <li><i class="icon-plus"></i>More icons. Have any requests? <a href="https://github.com/FortAwesome/Font-Awesome/issues" target="_blank">Open an issue</a> in the Font Awesome GitHub project.</li>
-        <li><i class="icon-plus"></i>Tricks and tips for super-awesome creative CSS methods, like the star example above.</li>
-      </ul>
-    </div>
-    <div class="span4">
-      {% include ads/carbon-light-horizontal.html %}
-    </div>
+{% capture stripe_ad_content %}
+<p class="lead">
+  Font Awesome is fully open source and is GPL compatible. You can use it for commerical projects, open source
+  projects, or really just about whatever you want.
+</p>
+{% endcapture %}
+{% include stripe-ad.html %}
+
+<div>
+  <h2 class="page-header">Font License</h2>
+  <ul>
+    <li>
+      Applies to all desktop and webfont files in the following directory:
+      <code>font-awesome/font/</code>.
+    </li>
+    <li>License: {{ site.license.font.version }}</li>
+    <li>URL: <a href="{{ site.license.font.url }}">{{ site.license.font.url }}</a></li>
+  </ul>
+</div>
+
+<section>
+  <h2 class="page-header">Code License</h2>
+  <ul>
+    <li>
+      Applies to all CSS and LESS files in the following directories:
+      <code>font-awesome/css/</code> and
+      <code>font-awesome/less/</code>.
+    </li>
+    <li>License: {{ site.license.code.version }}</li>
+    <li>URL: <a href="{{ site.license.code.url }}">{{ site.license.code.url }}</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2 class="page-header">Documentation License</h2>
+  <ul>
+    <li>Applies to all Font Awesome project files that are not a part of the Font or Code licenses.</li>
+    <li>License: {{ site.license.documentation.version }}</li>
+    <li>URL: <a href="{{ site.license.documentation.url }}">{{ site.license.documentation.url }}</a></li>
+  </ul>
+</section>
+
+<section>
+  <div class="alert alert-info">
+    <i class="icon-info-sign icon-2x pull-left margin-top-small padding-right-small"></i>Attribution is no longer required as of Font Awesome 3.0, but is much appreciated:
+    <code>Font Awesome by Dave Gandy - http://fontawesome.io</code>.
   </div>
 </section>
