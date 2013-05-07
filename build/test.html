@@ -583,10 +583,23 @@ title: Font Awesome Visual Test Cases
 
   <h3>Stacked icons</h3>
   <div class="well">
-    {% include tests/stacked-icons.html %}
+    {% include tests/stacked.html %}
   </div>
   <div class="well lead">
-    {% include tests/stacked-icons.html %}
+    {% include tests/stacked.html %}
   </div>
+
+  <h3>Mirrored and rotated icons</h3>
+  <div class="row">
+    <div class="span6">
+      <div class="well">
+        {% include tests/rotated-flipped.html %}
+      </div>
+    </div>
+    <div class="span6">
+      <div class="well lead">
+        {% include tests/rotated-flipped.html %}
+      </div>
+    </div>
 </div>
 </section>
