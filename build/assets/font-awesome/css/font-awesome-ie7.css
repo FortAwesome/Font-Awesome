@@ -1,13 +1,13 @@
 /*!
- *  Font Awesome 3.0.2
- *  the iconic font designed for use with Twitter Bootstrap
+ *  Font Awesome 3.1.0
+ *  the iconic font designed for Bootstrap
  *  -------------------------------------------------------
  *  The full suite of pictographic icons, examples, and documentation
  *  can be found at: http://fortawesome.github.com/Font-Awesome/
  *
  *  License
  *  -------------------------------------------------------
- *  - The Font Awesome font is licensed under the SIL Open Font License - http://scripts.sil.org/OFL
+ *  - The Font Awesome font is licensed under the SIL Open Font License v1.1 - http://scripts.sil.org/OFL
  *  - Font Awesome CSS, LESS, and SASS files are licensed under the MIT License -
  *    http://opensource.org/licenses/mit-license.html
  *  - The Font Awesome pictograms are licensed under the CC BY 3.0 License - http://creativecommons.org/licenses/by/3.0/
@@ -805,9 +805,6 @@ ul.icons {
 }
 .icon-reply {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf112;');
-}
-.icon-github-alt {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf113;');
 }
 .icon-folder-close-alt {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf114;');

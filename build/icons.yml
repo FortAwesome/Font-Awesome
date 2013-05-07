@@ -865,14 +865,14 @@ icons:
     unicode:    f081
     created:    1.0.0
     categories:
-      - Social Icons
+      - Brand Icons
 
   - name:       facebook-sign
     id:         facebook-sign
     unicode:    f082
     created:    1.0.0
     categories:
-      - Social Icons
+      - Brand Icons
 
   - name:       camera-retro
     id:         camera-retro
@@ -942,7 +942,7 @@ icons:
     unicode:    f08c
     created:    1.0.0
     categories:
-      - Social Icons
+      - Brand Icons
 
   - name:       pushpin
     id:         pushpin
@@ -978,7 +978,7 @@ icons:
     unicode:    f092
     created:    1.0.0
     categories:
-      - Social Icons
+      - Brand Icons
 
   - name:       upload-alt
     id:         upload-alt
@@ -999,7 +999,7 @@ icons:
     unicode:    f095
     created:    2.0.0
     categories:
-      - Social Icons
+      - Web Application Icons
 
   - name:       check-empty
     id:         check-empty
@@ -1020,28 +1020,28 @@ icons:
     unicode:    f098
     created:    2.0.0
     categories:
-      - Social Icons
+      - Web Application Icons
 
   - name:       twitter
     id:         twitter
     unicode:    f099
     created:    2.0.0
     categories:
-      - Social Icons
+      - Brand Icons
 
   - name:       facebook
     id:         facebook
     unicode:    f09a
     created:    2.0.0
     categories:
-      - Social Icons
+      - Brand Icons
 
   - name:       github
     id:         github
     unicode:    f09b
     created:    2.0.0
     categories:
-      - Social Icons
+      - Brand Icons
 
   - name:       unlock
     id:         unlock
@@ -1254,7 +1254,7 @@ icons:
     unicode:    f0c8
     created:    2.0.0
     categories:
-      - Social Icons
+      - Web Application Icons
 
   - name:       reorder
     id:         reorder
@@ -1318,28 +1318,28 @@ icons:
     unicode:    f0d2
     created:    2.0.0
     categories:
-      - Social Icons
+      - Brand Icons
 
   - name:       pinterest-sign
     id:         pinterest-sign
     unicode:    f0d3
     created:    2.0.0
     categories:
-      - Social Icons
+      - Brand Icons
 
   - name:       google-plus-sign
     id:         google-plus-sign
     unicode:    f0d4
     created:    2.0.0
     categories:
-      - Social Icons
+      - Brand Icons
 
   - name:       google-plus
     id:         google-plus
     unicode:    f0d5
     created:    2.0.0
     categories:
-      - Social Icons
+      - Brand Icons
 
   - name:       money
     id:         money
@@ -1417,7 +1417,7 @@ icons:
     unicode:    f0e1
     created:    2.0.0
     categories:
-      - Social Icons
+      - Brand Icons
 
 
   - name:       undo
@@ -1751,12 +1751,6 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       github-alt
-    id:         github-alt
-    unicode:    f113
-    created:    3.0.0
-    categories:
-      - Social Icons
 
   - name:       folder-close-alt
     id:         folder-close-alt
@@ -1996,4 +1990,4 @@ icons:
     unicode:    f136
     created:    3.1.0
     categories:
-      - Web Application Icons
+      - Brand Icons
