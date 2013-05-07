@@ -24,7 +24,7 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../font/fontawesome-webfont.eot?v=3.0.1');
+  src: url('../font/fontawesome-webfont.eot?v=3.1.0');
   src: url('../font/FontAwesome.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
@@ -45,6 +45,11 @@
   text-decoration: inherit;
   display: inline-block;
   speak: none;
+}
+/* makes the font 33% larger relative to the icon container */
+.icon-large:before {
+  vertical-align: -10%;
+  font-size: 1.3333333333333333em;
 }
 /* makes sure icons active on rollover in links */
 a [class^="icon-"],
@@ -81,6 +86,12 @@ ul.icons-ul > li .icon-li {
 }
 .icon-muted {
   color: #eeeeee;
+}
+.icon-light {
+  color: #ffffff;
+}
+.icon-dark {
+  color: #333333;
 }
 .icon-border {
   border: solid 1px #eeeeee;
@@ -170,11 +181,6 @@ ul.icons-ul > li .icon-li {
 .dropdown-submenu:hover > a > [class*=" icon-"] {
   background-image: none;
 }
-/* makes the font 33% larger relative to the icon container */
-.icon-large:before {
-  vertical-align: -10%;
-  font-size: 1.3333333333333333em;
-}
 /* keeps Bootstrap styles with and without icons the same */
 .btn [class^="icon-"],
 .nav [class^="icon-"],
@@ -240,6 +246,31 @@ ul.icons-ul > li .icon-li {
 }
 /* EXTRAS
  * -------------------------- */
+/* Stacked and layered icon */
+.icon-stack {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: -35%;
+}
+.icon-stack [class^="icon-"],
+.icon-stack [class*=" icon-"] {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  font-size: 1em;
+  line-height: inherit;
+}
+.icon-stack .icon-stack-base {
+  width: inherit;
+  height: inherit;
+  font-size: 2em;
+  line-height: inherit;
+}
+/* Animated rotating icon */
 .icon-spin {
   display: inline-block;
   -moz-animation: spin 2s infinite linear;
@@ -287,8 +318,8 @@ ul.icons-ul > li .icon-li {
     transform: rotate(359deg);
   }
 }
-/*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-    readers do not read off random characters that represent icons */
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
 .icon-glass:before {
   content: "\f000";
 }

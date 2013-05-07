@@ -6,3 +6,29 @@
   -moz-border-radius: @radius;
   border-radius: @radius;
 }
+
+.icon-stack(@width: 2em, @height: 2em, @top-font-size: 1em, @base-font-size: 2em) {
+  .icon-stack {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: @width;
+    height: @height;
+    line-height: @width;
+    vertical-align: -35%;
+    [class^="icon-"],
+    [class*=" icon-"] {
+      position: absolute;
+      width: inherit;
+      height: inherit;
+      font-size: @top-font-size;
+      line-height: inherit;
+    }
+    .icon-stack-base {
+      width: inherit;
+      height: inherit;
+      font-size: @base-font-size;
+      line-height: inherit;
+    }
+  }
+}

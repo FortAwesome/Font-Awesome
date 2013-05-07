@@ -18,7 +18,13 @@
   speak: none;
 }
 
-/* makes sure icons active on rollover in links */
+/* makes the font 33% larger relative to the icon container */
+.icon-large:before {
+  vertical-align: -10%;
+  font-size: 4/3em;
+}
+
+  /* makes sure icons active on rollover in links */
 a {
   [class^="icon-"],
   [class*=" icon-"] {
@@ -60,9 +66,9 @@ ul.icons-ul {
   }
 }
 
-.icon-muted {
-  color: @iconMuted;
-}
+.icon-muted { color: @iconMuted; }
+.icon-light { color: @iconLight; }
+.icon-dark { color: @iconDark; }
 
 // Icon Borders
 // -------------------------
