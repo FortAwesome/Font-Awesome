@@ -15,16 +15,19 @@ icon_meta:        build/icons.yml
 icon_layout:      icon.html    # Relative to _layouts directory
 icon_destination: icon         # Relative to destination
 
-font-awesome:
+font_awesome:
   version:        3.1.0
-  url:            http://fortawesome.github.com/Font-Awesome/
+  url:            http://fontawesome.io
+  legacy_url:     http://fortawesome.github.com/Font-Awesome/
   author:
     name:         Dave Gandy
-    email:        dave@davegandy.com
+    email:        dave@fontawesome.io
   github:
     url:          https://github.com/FortAwesome/Font-Awesome
     project:      Font-Awesome
     org:          FortAwesome
+  icon_count:     281
+  new_icon_count: 32
 
 bootstrap:
   version:        2.3.1

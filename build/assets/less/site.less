@@ -262,17 +262,24 @@ section {
     margin-bottom: 20px;
   }
   h4 {
-//    line-height: 28px;
-    [class^="icon-"],
-    [class*=" icon-"] {
+    [class^="icon-"]:before,
+    [class*=" icon-"]:before {
       vertical-align: -10%;
       font-size: 28px;
-//      width: 30px;
-//      height: 30px;
+      display: inline-block;
+      width: 30/28em;
+      text-align: center;
       margin-right: 5px;
+//      color: mix(@grayLight, @grayLighter, 70%);
+
+      // Gradient on the icons
+//      background: -webkit-linear-gradient(mix(@grayLight, @grayLighter, 50%), mix(@gray, @grayLight, 50%));
+//      -webkit-background-clip: text;
+//      -webkit-text-fill-color: transparent;
     }
   }
 }
+
 
 #examples {
   .btn-toolbar {

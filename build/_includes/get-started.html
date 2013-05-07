@@ -1,17 +1,11 @@
-<section>
-  <div class="row stripe-ad">
-    <div class="span8">
-      <p class="lead">
-        Setting up Font Awesome can be as simple as adding two lines of code to your website, or you can be a pro and
-        customize the LESS yourself! Font Awesome even plays nicely with
-        <a href="{{ site.bootstrap.url }}">Bootstrap</a>!
-      </p>
-    </div>
-    <div class="span4">
-      {% include ads/carbon-light-horizontal.html %}
-    </div>
-  </div>
-</section>
+{% capture stripe_ad_content %}
+<p class="lead">
+  Setting up Font Awesome can be as simple as adding two lines of code to your website, or you can be a pro and
+  customize the LESS yourself! Font Awesome even plays nicely with
+  <a href="{{ site.bootstrap.url }}">Bootstrap</a>!
+</p>
+{% endcapture %}
+{% include stripe-ad.html %}
 
 <section class="margin-top-large">
   <h2 class="page-header">EASIEST: <a href="http://www.bootstrapcdn.com/#tab_fontawesome">BootstrapCDN</a></h2>
@@ -21,7 +15,7 @@
       Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
 {% highlight html %}
 <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/{{ site.bootstrap.version }}/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-<link href="//netdna.bootstrapcdn.com/font-awesome/{{ site.font-awesome.version }}/css/font-awesome.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/{{ site.font_awesome.version }}/css/font-awesome.css" rel="stylesheet">
 {% endhighlight %}
       <div class="alert alert-info margin-top">
         <i class="icon-info-sign"></i> Want to use Font Awesome by itself without Bootstrap? Just don't include the first line.

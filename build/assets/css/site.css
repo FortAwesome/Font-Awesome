@@ -5457,6 +5457,12 @@ body {
 .strike {
   text-decoration: line-through;
 }
+.upper {
+  text-transform: uppercase;
+}
+.lower {
+  text-transform: lowercase;
+}
 .navbar .brand {
   font-family: museo-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -5768,12 +5774,15 @@ section {
 #whats-new .row {
   margin-bottom: 20px;
 }
-#why h4 [class^="icon-"],
-#whats-new h4 [class^="icon-"],
-#why h4 [class*=" icon-"],
-#whats-new h4 [class*=" icon-"] {
+#why h4 [class^="icon-"]:before,
+#whats-new h4 [class^="icon-"]:before,
+#why h4 [class*=" icon-"]:before,
+#whats-new h4 [class*=" icon-"]:before {
   vertical-align: -10%;
   font-size: 28px;
+  display: inline-block;
+  width: 1.0714285714285714em;
+  text-align: center;
   margin-right: 5px;
 }
 #examples .btn-toolbar {

@@ -1,44 +1,39 @@
+{% capture stripe_ad_content %}
+<p class="lead">
+  Font Awesome is always getting a little awesome-er. So here's what's new in the latest version, Font Awesome
+  {{ site.font_awesome.version }}. Have some ideas for new features?
+  <a href="{{ site.baseurl }}contribute/">Help contribute</a>.
+</p>
+{% endcapture %}
+{% include stripe-ad.html %}
+
 <section id="whats-new">
-  <div class="row stripe-ad">
-    <div class="span8">
-      <p class="lead">
-        Font Awesome is always getting a little awesome-er. So here's what's new in the latest version, Font Awesome
-        {{ site.font-awesome.version }}. Have some ideas for new features?
-        <a href="{{ site.baseurl }}contribute/">Help contribute</a>.
-      </p>
-    </div>
-    <div class="span4">
-      {% include ads/carbon-light-horizontal.html %}
-    </div>
-  </div>
-
-
   <div class="row">
     <div class="span4">
       <h4><i class="icon-magic"></i> Pixel Perfection at 14px</h4>
       Every single icon re-created from the ground up to be optimized for Bootstrap's default 14px.
     </div>
     <div class="span4">
-      <h4><i class="icon-th-large"></i> <a target="_blank"  href="http://icnfnt.com/">Font Sub-setting</a></h4>
-      Thanks to <a target="_blank" href="https://twitter.com/grantgordon">@grantgordon</a> and <a target="_blank" href="https://twitter.com/johnsmclay">@johnsmclay</a>, you can <a target="_blank"  href="http://icnfnt.com/">subset</a> to get just the icons you need.
+      <h4><i class="icon-th-large"></i> <a href="http://icnfnt.com/">Font Subsetting</a></h4>
+      Thanks to <a href="https://twitter.com/grantgordon">@grantgordon</a> and <a href="https://twitter.com/johnsmclay">@johnsmclay</a>, you can <a href="http://icnfnt.com/">subset</a> to get just the icons you need.
     </div>
     <div class="span4">
-      <h4><i class="icon-legal"></i> <a href="#license">Better License</a></h4>
-      SIL open font license, MIT license for code. No more attribution required, but much appreciated.
+      <h4><i class="icon-legal"></i> <a href="{{ site.baseurl }}license/">Better License</a></h4>
+      SIL OFL 1.1 for font, MIT license for code. No more attribution required, but much appreciated.
     </div>
   </div>
   <div class="row">
     <div class="span4">
-      <h4><i class="icon-lightbulb"></i> 40 New Icons in 3.0</h4>
-      Requested by the active community on the <a href="https://github.com/FortAwesome/Font-Awesome" target="_blank">Font Awesome GitHub project</a>.
+      <h4><i class="icon-lightbulb"></i> {{ site.font_awesome.new_icon_count }} New Icons in 3.0</h4>
+      Requested by the active community on the <a href="{{ site.font_awesome.github.url }}">Font Awesome GitHub project</a>.
     </div>
     <div class="span4">
-      <h4><i class="icon-spinner icon-spin"></i> <a href="#examples">New Styles</a></h4>
-      <a href="#examples">New styles</a> for animated spinning icons, icons with 2x-4x size multipliers, icon borders, & more.
+      <h4><i class="icon-spinner icon-spin"></i> <a href="{{ site.baseurl }}examples/">New Styles</a></h4>
+      <a href="{{ site.baseurl }}examples/">New styles</a> for animated spinning icons, icons with 2x-4x size multipliers, icon borders, & more.
     </div>
     <div class="span4">
       <h4><i class="icon-resize-small"></i> 28% Smaller Payload</h4>
-      3.0 is smaller, even with 16% more icons. Crazy small if you <a target="_blank"  href="http://icnfnt.com/">subset</a> just the icons you need.
+      3.0 is smaller, even with 16% more icons. Crazy small if you <a href="http://icnfnt.com/">subset</a> just the icons you need.
     </div>
   </div>
 </section>

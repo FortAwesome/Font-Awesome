@@ -16,7 +16,7 @@ title_prefix: Font Awesome Icons
       icon-{{ page.icon['id'] }}
       <small>
         <i class="icon-{{ page.icon['id'] }}"></i> &middot;
-        Unicode: {{ page.icon['unicode'] }} &middot;
+        Unicode: <span class="upper">{{ page.icon['unicode'] }}</span> &middot;
         Created: v{{ page.icon['created'] }} &middot;
         Categories:
         {% for category in page.icon['categories'] %}

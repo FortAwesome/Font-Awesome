@@ -8,20 +8,13 @@ navbar_active: home
 {% include stripe-social.html %}
 
 <div class="container">
-  <section>
-    <div class="row stripe-ad">
-      <div class="span8">
-        <div class="lead">
-          Font Awesome gives you scalable vector icons that can instantly be customized &mdash; size, color, drop shadow,
-          or anything that can be done with the power of CSS.
-        </div>
-
-      </div>
-      <div class="span4">
-        {% include ads/carbon-light-horizontal.html %}
-      </div>
-    </div>
-  </section>
+  {% capture stripe_ad_content %}
+  <p class="lead">
+    Font Awesome gives you scalable vector icons that can instantly be customized &mdash; size, color, drop shadow,
+    and anything that can be done with the power of CSS.
+  </p>
+  {% endcapture %}
+  {% include stripe-ad.html %}
 
   {% include why.html %}
   {% include special-thanks.html %}
