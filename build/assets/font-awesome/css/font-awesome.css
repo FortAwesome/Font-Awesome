@@ -1134,3 +1134,15 @@ ul.icons-ul > li .icon-li {
 .icon-maxcdn:before {
   content: "\f136";
 }
+.icon-chevron-sign-left:before {
+  content: "\f137";
+}
+.icon-chevron-sign-right:before {
+  content: "\f137";
+}
+.icon-chevron-sign-up:before {
+  content: "\f137";
+}
+.icon-chevron-sign-down:before {
+  content: "\f137";
+}

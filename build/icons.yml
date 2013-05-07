@@ -1991,3 +1991,31 @@ icons:
     created:    3.1.0
     categories:
       - Brand Icons
+
+  - name:       Chevron Sign Left
+    id:         chevron-sign-left
+    unicode:    f137
+    created:    3.1.0
+    categories:
+      - Directional Icons
+
+  - name:       Chevron Sign Right
+    id:         chevron-sign-right
+    unicode:    f138
+    created:    3.1.0
+    categories:
+      - Directional Icons
+
+  - name:       Chevron Sign Up
+    id:         chevron-sign-up
+    unicode:    f139
+    created:    3.1.0
+    categories:
+      - Directional Icons
+
+  - name:       Chevron Sign Down
+    id:         chevron-sign-down
+    unicode:    f13a
+    created:    3.1.0
+    categories:
+      - Directional Icons
