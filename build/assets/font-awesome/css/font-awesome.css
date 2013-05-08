@@ -1231,3 +1231,12 @@ ul.icons-ul > li .icon-li {
 .icon-bullseye:before {
   content: "\f140";
 }
+.icon-ellipsis-horizontal:before {
+  content: "\f141";
+}
+.icon-ellipsis-vertical:before {
+  content: "\f142";
+}
+.icon-rss-sign:before {
+  content: "\f143";
+}

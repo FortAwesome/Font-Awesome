@@ -2055,3 +2055,24 @@ icons:
     created:    3.1.0
     categories:
       - Web Application Icons
+
+  - name:       Horizontal Ellipsis
+    id:         ellipsis-horizontal
+    unicode:    f141
+    created:    3.1.0
+    categories:
+      - Web Application Icons
+
+  - name:       Vertical Ellipsis
+    id:         ellipsis-vertical
+    unicode:    f142
+    created:    3.1.0
+    categories:
+      - Web Application Icons
+
+  - name:       RSS Sign
+    id:         rss-sign
+    unicode:    f143
+    created:    3.1.0
+    categories:
+      - Web Application Icons
