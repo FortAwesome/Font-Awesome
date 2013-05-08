@@ -1222,3 +1222,6 @@ ul.icons-ul > li .icon-li {
 .icon-css3:before {
   content: "\f13c";
 }
+.icon-anchor:before {
+  content: "\f13d";
+}

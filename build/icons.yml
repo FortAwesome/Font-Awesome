@@ -2033,3 +2033,10 @@ icons:
     created:    3.1.0
     categories:
       - Brand Icons
+
+  - name:       Anchor
+    id:         anchor
+    unicode:    f13d
+    created:    3.1.0
+    categories:
+      - Web Application Icons
