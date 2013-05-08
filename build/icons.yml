@@ -2083,3 +2083,10 @@ icons:
     created:    3.1.0
     categories:
       - Video Player Icons
+
+  - name:       Ticket
+    id:         ticket
+    unicode:    f145
+    created:    3.1.0
+    categories:
+      - Web Application Icons

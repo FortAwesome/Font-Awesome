@@ -1243,3 +1243,6 @@ ul.icons-ul > li .icon-li {
 .icon-play-sign:before {
   content: "\f144";
 }
+.icon-ticket:before {
+  content: "\f145";
+}
