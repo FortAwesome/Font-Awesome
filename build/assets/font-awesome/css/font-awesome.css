@@ -1225,3 +1225,6 @@ ul.icons-ul > li .icon-li {
 .icon-anchor:before {
   content: "\f13d";
 }
+.icon-unlock-alt:before {
+  content: "\f13e";
+}
