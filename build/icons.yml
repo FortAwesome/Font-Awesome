@@ -2090,3 +2090,10 @@ icons:
     created:    3.1.0
     categories:
       - Web Application Icons
+
+  - name:       Minus Sign Alt
+    id:         minus-sign-alt
+    unicode:    f146
+    created:    3.1.0
+    categories:
+      - Web Application Icons

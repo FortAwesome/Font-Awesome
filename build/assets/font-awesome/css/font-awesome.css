@@ -1246,3 +1246,6 @@ ul.icons-ul > li .icon-li {
 .icon-ticket:before {
   content: "\f145";
 }
+.icon-minus-sign-alt:before {
+  content: "\f146";
+}
