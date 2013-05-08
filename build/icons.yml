@@ -2076,3 +2076,10 @@ icons:
     created:    3.1.0
     categories:
       - Web Application Icons
+
+  - name:       Play Sign
+    id:         play-sign
+    unicode:    f144
+    created:    3.1.0
+    categories:
+      - Video Player Icons

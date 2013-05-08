@@ -1240,3 +1240,6 @@ ul.icons-ul > li .icon-li {
 .icon-rss-sign:before {
   content: "\f143";
 }
+.icon-play-sign:before {
+  content: "\f144";
+}
