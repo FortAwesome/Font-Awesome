@@ -2047,3 +2047,11 @@ icons:
     created:    3.1.0
     categories:
       - Web Application Icons
+
+
+  - name:       Bullseye
+    id:         bullseye
+    unicode:    f140
+    created:    3.1.0
+    categories:
+      - Web Application Icons

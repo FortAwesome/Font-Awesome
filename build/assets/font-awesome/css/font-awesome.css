@@ -1228,3 +1228,6 @@ ul.icons-ul > li .icon-li {
 .icon-unlock-alt:before {
   content: "\f13e";
 }
+.icon-bullseye:before {
+  content: "\f140";
+}
