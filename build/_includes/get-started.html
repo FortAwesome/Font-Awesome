@@ -35,20 +35,12 @@
   <h2 class="page-header">EASY: Default CSS</h2>
   <p>Use this method to get the default Font Awesome CSS with the default Bootstrap CSS.</p>
   <ol>
-    <li>Copy the Font Awesome font directory into your project.</li>
-    <li>Copy font-awesome.min.css into your project.</li>
-    <li>
-      Open your project's font-awesome.min.css and edit the font paths to ensure they point to the right place.
-      <p class="alert alert-info">
-        <i class="icon-info-sign"></i> The font path is relative from your CSS directory. If you're having an issue
-        getting Font Awesome icons to load, this is likely the issue.
-      </p>
-    </li>
+    <li>Copy the <code>font-awesome</code> directory into your project.</li>
     <li>
       In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome.min.css.
 {% highlight html %}
-<link rel="stylesheet" href="../css/bootstrap.min.css">
-<link rel="stylesheet" href="../css/font-awesome.min.css">
+<link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 {% endhighlight %}
     </li>
     <li>Check out the <a href="{{ site.baseurl }}examples/">examples</a> to start using Font Awesome!</li>
@@ -57,11 +49,10 @@
 
 <section>
   <h2 class="page-header">PRO: Custom LESS</h2>
-  <p>Use this method to customize Font Awesome and Bootstrap using LESS.</p>
+  <p>Use this method to customize Font Awesome and Bootstrap {{ site.bootstrap.version }} using LESS.</p>
   <ol>
-    <li>Copy the Font Awesome font directory into your project.</li>
-    <li>Copy font-awesome.less into your bootstrap/less directory.</li>
-    <li>Open bootstrap.less and replace <code>@import "sprites.less";</code> with <code>@import "font-awesome.less";</code></li>
+    <li>Copy the <code>font-awesome</code> directory into your project.</li>
+    <li>Open bootstrap.less and replace <code>@import "sprites.less";</code> with <code>@import "path/to/font-awesome/less/font-awesome.less";</code></li>
     <li>
       Open your project's font-awesome.less and edit the <code>@FontAwesomePath</code> variable to point to your font directory.
 {% highlight html %}
@@ -78,8 +69,8 @@
   <h2 class="page-header">Not using Bootstrap?</h2>
   <p>Font Awesome works just as well without Bootstrap.</p>
   <ol>
-    <li>Copy the Font Awesome font directory into your project.</li>
-    <li>Copy font-awesome.less or font-awesome.min.css into your project.</li>
+    <li>Copy the <code>font-awesome</code> directory into your project.</li>
+    <li>Follow the above directions and skip the Bootstrap parts.</li>
     <li>Open your project's font-awesome.less or font-awesome.min.css and edit the font location to point it to your font directory (see above examples).</li>
     <li>Check out the <a href="{{ site.baseurl }}examples/">examples</a> to start using Font Awesome!</li>
   </ol>
@@ -94,10 +85,10 @@
     <li>
       In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome-ie7.min.css.
 {% highlight html %}
-<link rel="stylesheet" href="../css/bootstrap.min.css">
-<link rel="stylesheet" href="../css/font-awesome.min.css">
+<link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <!--[if IE 7]>
-  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome-ie7.min.css">
 <![endif]-->{% endhighlight %}
     </li>
     <li>Go complain to whoever decided your project needs IE7 support.</li>

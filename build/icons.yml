@@ -1931,6 +1931,7 @@ icons:
     unicode:    f12d
     created:    3.1.0
     categories:
+      - Text Editor Icons
       - Web Application Icons
 
   - name:       puzzle-piece

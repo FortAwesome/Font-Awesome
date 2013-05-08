@@ -142,8 +142,8 @@
 @btnWarningBackground:              @yellow;
 @btnWarningBackgroundHighlight:     @yellowDark;
 
-@btnDangerBackground:               @red;
-@btnDangerBackgroundHighlight:      @redDark;
+@btnDangerBackground:               lighten(@red, 20%);
+@btnDangerBackgroundHighlight:      lighten(@red, 5%);
 
 @btnInverseBackground:              #444;
 @btnInverseBackgroundHighlight:     @grayDarker;
@@ -284,9 +284,9 @@
 @successBackground:       @greenLighter;
 @successBorder:           darken(spin(@successBackground, -10), 13%);
 
-@infoText:                mix(@blue, @blueDark, 50%);
-@infoBackground:          mix(@white, @blue, 90%);
-@infoBorder:              mix(@white, @blue, 80%);
+@infoText:                @blueDark;
+@infoBackground:          @blueLighter;
+@infoBorder:              darken(spin(@infoBackground, -10), 7%);
 
 @inverseText:             @white;
 @inverseBackground:       @gray;
