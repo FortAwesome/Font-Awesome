@@ -1208,11 +1208,17 @@ ul.icons-ul > li .icon-li {
   content: "\f137";
 }
 .icon-chevron-sign-right:before {
-  content: "\f137";
+  content: "\f138";
 }
 .icon-chevron-sign-up:before {
-  content: "\f137";
+  content: "\f139";
 }
 .icon-chevron-sign-down:before {
-  content: "\f137";
+  content: "\f13a";
+}
+.icon-html5:before {
+  content: "\f13b";
+}
+.icon-css3:before {
+  content: "\f13c";
 }

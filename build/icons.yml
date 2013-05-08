@@ -2019,3 +2019,17 @@ icons:
     created:    3.1.0
     categories:
       - Directional Icons
+
+  - name:       HTML 5 Logo
+    id:         html5
+    unicode:    f13b
+    created:    3.1.0
+    categories:
+      - Brand Icons
+
+  - name:       CSS 3 Logo
+    id:         css3
+    unicode:    f13c
+    created:    3.1.0
+    categories:
+      - Brand Icons
