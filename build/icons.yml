@@ -1709,7 +1709,6 @@ icons:
     unicode:    f10c
     created:    3.0.0
     categories:
-      - Directional Icons
       - Web Application Icons
 
   - name:       quote-left
@@ -1739,7 +1738,6 @@ icons:
     unicode:    f111
     created:    3.0.0
     categories:
-      - Directional Icons
       - Web Application Icons
 
   - name:       reply
