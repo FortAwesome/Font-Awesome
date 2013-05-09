@@ -955,3 +955,6 @@ ul.icons {
 .icon-minus-sign-alt {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf146;');
 }
+.icon-check0minus {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf147;');
+}

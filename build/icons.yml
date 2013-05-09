@@ -2096,3 +2096,10 @@ icons:
     created:    3.1.0
     categories:
       - Web Application Icons
+
+  - name:       Check Minus
+    id:         check-minus
+    unicode:    f147
+    created:    3.1.0
+    categories:
+      - Web Application Icons

@@ -1252,3 +1252,6 @@ ul.icons-ul > li .icon-li {
 .icon-minus-sign-alt:before {
   content: "\f146";
 }
+.icon-check-minus:before {
+  content: "\f147";
+}
