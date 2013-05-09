@@ -27,7 +27,7 @@
 @font-face {
   font-family: 'FontAwesome';
   src: url('../font/fontawesome-webfont.eot?v=3.1.0');
-  src: url('../font/FontAwesome.otf') format('opentype');
+  src: url('../font/fontawesome-webfont.eot?#iefix&v=3.1.0') format('embedded-opentype'), url('../font/fontawesome-webfont.woff?v=3.1.0') format('woff'), url('../font/fontawesome-webfont.ttf?v=3.1.0') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
