@@ -229,9 +229,6 @@ section {
       display: inline-block;
       width: 18/14em;
       text-align: center;
-      &.icon-large {
-        width: 22/14em;
-      }
     }
     a {
       display: block;
@@ -250,8 +247,8 @@ section {
       }
 
       &:hover {
+        background-color: @errorBackground;
         text-decoration: none;
-        background-color: lighten(@errorBackground, 6%);
         [class^="icon-"], [class*=" icon-"] {
           *font-size: 28px;
           *vertical-align: middle;

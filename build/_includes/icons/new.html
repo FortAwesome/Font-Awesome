@@ -1,21 +1,12 @@
-  <section id="new">
-  {% if page.navbar_active == "icons" %}
-  <div class="row">
-    <div class="span8">
-  {% endif %}
-      <h2 class="page-header">New Icons in {{ site.font_awesome.version }}</h2>
-      <p>
-        You asked, Font Awesome delivers with {{ site.font_awesome.new_icon_count }} shiny new icons in version {{ site.font_awesome.version }}.
-        Want to request new icons? Here's how to <a href="{{ page.relative_path }}community/#requesting-new-icons">request new icons</a>.
-      </p>
-  {% if page.navbar_active == "icons" %}
+<{% if page.navbar_active == "icons" %}div{% else %}section{% endif %} id="new">
+  <h2 class="page-header">New Icons in {{ site.font_awesome.version }}</h2>
+  {% if page.navbar_active != "icons" %}
+    <div class="margin-botom-large">
+      You asked, Font Awesome delivers with {{ site.font_awesome.new_icon_count }} shiny new icons in version {{ site.font_awesome.version }}.
+      Want to request new icons? <a href="{{ page.relative_path }}community/#requesting-new-icons">Here's how</a>.
     </div>
-    <div class="span4">
-      <br>
-      {% include ads/carbon-light-horizontal.html %}
-    </div>
-  </div>
   {% endif %}
+
 
   <div class="row margin-top">
     <div class="span3">
@@ -87,6 +78,4 @@
       </ul>
     </div>
   </div>
-</section>
-
-
+</{% if page.navbar_active == "icons" %}div{% else %}section{% endif %}>

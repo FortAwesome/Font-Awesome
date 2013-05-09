@@ -5801,10 +5801,6 @@ section {
   width: 1.2857142857142858em;
   text-align: center;
 }
-.the-icons li [class^="icon-"].icon-large,
-.the-icons li [class*=" icon-"].icon-large {
-  width: 1.5714285714285714em;
-}
 .the-icons li a {
   display: block;
   cursor: pointer;
@@ -5825,8 +5821,8 @@ section {
   font-size: 14px;
 }
 .the-icons li a:hover {
+  background-color: #fff0f0;
   text-decoration: none;
-  background-color: #ffffff;
 }
 .the-icons li a:hover [class^="icon-"],
 .the-icons li a:hover [class*=" icon-"] {
