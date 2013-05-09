@@ -5795,6 +5795,16 @@ section {
   list-style-type: none;
   margin: 0;
 }
+.the-icons li [class^="icon-"],
+.the-icons li [class*=" icon-"] {
+  display: inline-block;
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+.the-icons li [class^="icon-"].icon-large,
+.the-icons li [class*=" icon-"].icon-large {
+  width: 1.5714285714285714em;
+}
 .the-icons li a {
   display: block;
   cursor: pointer;
@@ -5896,4 +5906,10 @@ footer ul {
 }
 footer .project {
   margin-top: 10px;
+}
+.navbar .nav > li.dropdown-split-right > a {
+  padding-left: 7px;
+}
+.navbar .nav > li.dropdown-split-left > a {
+  padding-right: 0;
 }

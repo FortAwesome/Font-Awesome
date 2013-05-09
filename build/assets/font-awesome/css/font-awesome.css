@@ -61,18 +61,14 @@ a [class*=" icon-"]:before {
   display: inline;
 }
 /* increased font size for icon-large */
-li [class^="icon-"],
-.nav li [class^="icon-"],
-li [class*=" icon-"],
-.nav li [class*=" icon-"] {
+[class^="icon-"].icon-fixed-width,
+[class*=" icon-"].icon-fixed-width {
   display: inline-block;
   width: 1.2857142857142858em;
   text-align: center;
 }
-li [class^="icon-"].icon-large,
-.nav li [class^="icon-"].icon-large,
-li [class*=" icon-"].icon-large,
-.nav li [class*=" icon-"].icon-large {
+[class^="icon-"].icon-fixed-width.icon-large,
+[class*=" icon-"].icon-fixed-width.icon-large {
   width: 1.5714285714285714em;
 }
 ul.icons-ul {

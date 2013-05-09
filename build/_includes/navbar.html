@@ -5,14 +5,31 @@
       <ul class="nav">
         <li{% if page.navbar_active == "home" %} class="active"{% endif %}><a href="{{ page.relative_path }}">Home</a></li>
         <li{% if page.navbar_active == "get-started" %} class="active"{% endif %}><a href="{{ page.relative_path }}get-started/">Get Started</a></li>
-        <li{% if page.navbar_active == "icons" %} class="active"{% endif %}><a href="{{ page.relative_path }}icons/">Icons</a></li>
-        <li{% if page.navbar_active == "examples" %} class="active"{% endif %}><a href="{{ page.relative_path }}examples/">Examples</a></li>
-        <li class="dropdown">
+        <li class="dropdown-split-left{% if page.navbar_active == "icons" %} active{% endif %}"><a href="{{ page.relative_path }}icons/">Icons</a></li>
+        <li class="dropdown dropdown-split-right{% if page.navbar_active == "icons" %} active{% endif %}">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <i class="icon-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="{{ page.relative_path }}icons/">Icons</a></li>
+          <li class="divider"></li>
+          <li><a href="{{ page.relative_path }}icons/#new">New Icons in {{ site.font_awesome.version }}</a></li>
+          <li><a href="{{ page.relative_path }}icons/#web-application">Web Application Icons</a></li>
+          <li><a href="{{ page.relative_path }}icons/#text-editor">Text Editor Icons</a></li>
+          <li><a href="{{ page.relative_path }}icons/#directional">Directional Icons</a></li>
+          <li><a href="{{ page.relative_path }}icons/#video-player">Video Player Icons</a></li>
+          <li><a href="{{ page.relative_path }}icons/#brand">Brand Icons</a></li>
+          <li><a href="{{ page.relative_path }}icons/#medical">Medical Icons</a></li>
+        </ul>
+        </li>
+        <li class="dropdown-split-left{% if page.navbar_active == "examples" %} active{% endif %}"><a href="{{ page.relative_path }}examples/">Examples</a></li>
+        <li class="dropdown dropdown-split-right{% if page.navbar_active == "examples" %} active{% endif %}">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <b class="caret"></b>
+            <i class="icon-caret-down"></i>
           </a>
           <ul class="dropdown-menu pull-right">
-            <li class="nav-header">Examples</li>
+            <li><a href="{{ page.relative_path }}examples/">Examples</a></li>
+            <li class="divider"></li>
             <li><a href="{{ page.relative_path }}examples/#new-styles">New Styles</a></li>
             <li><a href="{{ page.relative_path }}examples/#inline-icons">Inline Icons</a></li>
             <li><a href="{{ page.relative_path }}examples/#larger-icons">Larger Icons</a></li>
@@ -34,7 +51,7 @@
         <li{% if page.navbar_active == "license" %} class="active"{% endif %}><a href="{{ page.relative_path }}license/">License</a></li>
       </ul>
       <ul class="nav pull-right">
-        <li><a href="mailto:{{ site.font_awesome.author.email }}"><i class="icon-envelope"></i> Me</a></li>
+        <li><a href="mailto:{{ site.font_awesome.author.email }}"><i class="icon-envelope"></i>&nbsp; Me</a></li>
       </ul>
     </div>
   </div>

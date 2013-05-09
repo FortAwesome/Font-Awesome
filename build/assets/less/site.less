@@ -1,5 +1,5 @@
 @import "twbs-2.3.1/bootstrap.less";
-@import "twbs-2.3.1/.less";
+@import "twbs-2.3.1/responsive-utilities.less";
 @import "sticky-footer.less";
 
 @import "mixins.less";
@@ -224,6 +224,15 @@ section {
   list-style-type: none;
   margin: 0;
   li {
+    [class^="icon-"],
+    [class*=" icon-"] {
+      display: inline-block;
+      width: 18/14em;
+      text-align: center;
+      &.icon-large {
+        width: 22/14em;
+      }
+    }
     a {
       display: block;
       &, &:hover { color: @grayDarker; }
@@ -343,4 +352,11 @@ footer {
   }
 
   .project { margin-top: 10px; }
+}
+
+// makes dropdowns closer for split dropdown
+// Links
+.navbar .nav > li {
+  &.dropdown-split-right > a { padding-left: 7px; }
+  &.dropdown-split-left > a { padding-right: 0; }
 }
