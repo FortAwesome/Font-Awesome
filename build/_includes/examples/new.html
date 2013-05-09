@@ -1,4 +1,4 @@
-<div id="new-styles">
+<{% if page.navbar_active == "examples" %}div{% else %}section{% endif %} id="new-styles">
   <h2 class="page-header">New Styles in {{ site.font_awesome.version }}</h2>
   <div class="row">
     <div class="span4">
@@ -44,4 +44,4 @@
       </div>
     </div>
   </div>
-</div>
+</{% if page.navbar_active == "examples" %}div{% else %}section{% endif %}>

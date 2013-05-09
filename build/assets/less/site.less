@@ -179,11 +179,7 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
   }
 }
 
-.btn-github {
-  .buttonBackground(@white, mix(@grayLighter, @grayLight, 50%));
-}
-
-.btn-primary, .btn-github {
+.btn-primary {
   color: @grayDark;
   text-shadow: 0 -1px 0 rgba(255,255,255,.25);
   &:hover {
@@ -192,9 +188,7 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
   }
 }
 
-section {
-  margin-top: 40px;
-}
+section { margin-top: 40px; }
 
 #social-buttons {
   ul.unstyled { margin: 0; }
@@ -210,13 +204,14 @@ section {
 //    font-size: @baseFontSize;
     padding: 0px 5px;
     line-height: @baseLineHeight - 3;
+    margin: 0;
   }
   .count.btn {
     background: @white;
     font-weight: normal;
   }
   .watch, .fork {
-    margin-right: 30px;
+//    margin-right: 30px;
   }
 }
 

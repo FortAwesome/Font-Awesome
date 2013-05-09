@@ -5723,45 +5723,11 @@ h6 {
   margin-top: 10px;
   margin-right: 30px;
 }
-.btn-github {
-  color: #ffffff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #e7e7e7;
-  background-image: -moz-linear-gradient(top, #ffffff, #c4c4c4);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#c4c4c4));
-  background-image: -webkit-linear-gradient(top, #ffffff, #c4c4c4);
-  background-image: -o-linear-gradient(top, #ffffff, #c4c4c4);
-  background-image: linear-gradient(to bottom, #ffffff, #c4c4c4);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffc4c4c4', GradientType=0);
-  border-color: #c4c4c4 #c4c4c4 #9d9d9d;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #c4c4c4;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-}
-.btn-github:hover,
-.btn-github:focus,
-.btn-github:active,
-.btn-github.active,
-.btn-github.disabled,
-.btn-github[disabled] {
-  color: #ffffff;
-  background-color: #c4c4c4;
-  *background-color: #b7b7b7;
-}
-.btn-github:active,
-.btn-github.active {
-  background-color: #aaaaaa \9;
-}
-.btn-primary,
-.btn-github {
+.btn-primary {
   color: #333333;
   text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
 }
-.btn-primary:hover,
-.btn-github:hover {
+.btn-primary:hover {
   text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
   color: #333333;
 }
@@ -5782,14 +5748,11 @@ section {
   font-weight: bold;
   padding: 0px 5px;
   line-height: 17px;
+  margin: 0;
 }
 #social-buttons .count.btn {
   background: #ffffff;
   font-weight: normal;
-}
-#social-buttons .watch,
-#social-buttons .fork {
-  margin-right: 30px;
 }
 .the-icons {
   list-style-type: none;

@@ -14,6 +14,7 @@ $(function() {
 //    e.preventDefault();
 //    e.stopPropagation();
 //  });
+
 //  // inject twitter & github counts
 //  $.ajax({
 //    url: 'http://api.twitter.com/1/users/show.json',
