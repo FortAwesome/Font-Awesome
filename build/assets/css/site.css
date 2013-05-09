@@ -588,11 +588,11 @@ a.text-error:focus {
   color: #721c15;
 }
 .text-info {
-  color: #005f9b;
+  color: #007dbc;
 }
 a.text-info:hover,
 a.text-info:focus {
-  color: #004068;
+  color: #005b89;
 }
 .text-success {
   color: #5c7f41;
@@ -1337,19 +1337,19 @@ input[type="checkbox"][readonly] {
 .control-group.info .control-label,
 .control-group.info .help-block,
 .control-group.info .help-inline {
-  color: #005f9b;
+  color: #007dbc;
 }
 .control-group.info .checkbox,
 .control-group.info .radio,
 .control-group.info input,
 .control-group.info select,
 .control-group.info textarea {
-  color: #005f9b;
+  color: #007dbc;
 }
 .control-group.info input,
 .control-group.info select,
 .control-group.info textarea {
-  border-color: #005f9b;
+  border-color: #007dbc;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -1357,16 +1357,16 @@ input[type="checkbox"][readonly] {
 .control-group.info input:focus,
 .control-group.info select:focus,
 .control-group.info textarea:focus {
-  border-color: #004068;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #029dff;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #029dff;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #029dff;
+  border-color: #005b89;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #23b5ff;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #23b5ff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #23b5ff;
 }
 .control-group.info .input-prepend .add-on,
 .control-group.info .input-append .add-on {
-  color: #005f9b;
+  color: #007dbc;
   background-color: #f0f9ff;
-  border-color: #005f9b;
+  border-color: #007dbc;
 }
 input:focus:invalid,
 textarea:focus:invalid,
@@ -3326,10 +3326,10 @@ input[type="submit"].btn.btn-mini {
 .alert-info {
   background-color: #f0f9ff;
   border-color: #ccf3ff;
-  color: #005f9b;
+  color: #007dbc;
 }
 .alert-info h4 {
-  color: #005f9b;
+  color: #007dbc;
 }
 .alert-block {
   padding-top: 14px;
@@ -4850,11 +4850,11 @@ a.badge:focus {
 }
 .label-info,
 .badge-info {
-  background-color: #005f9b;
+  background-color: #007dbc;
 }
 .label-info[href],
 .badge-info[href] {
-  background-color: #004068;
+  background-color: #005b89;
 }
 .label-inverse,
 .badge-inverse {
@@ -5785,180 +5785,29 @@ section {
   text-align: center;
   margin-right: 5px;
 }
-#examples .btn-toolbar {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-#integration .row {
-  margin-bottom: 40px;
-}
-#examples form,
-#code form {
-  margin-bottom: 25px;
-}
-#examples form input,
-#code form input {
-  line-height: 1;
-}
-#examples .rating,
-#code .rating {
+.rating {
   unicode-bidi: bidi-override;
   direction: rtl;
   font-size: 30px;
 }
-#examples .rating span.star,
-#code .rating span.star {
+.rating span.star {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
   display: inline-block;
 }
-#examples .rating span.star:hover,
-#code .rating span.star:hover {
+.rating span.star:hover {
   cursor: pointer;
 }
-#examples .rating span.star:before,
-#code .rating span.star:before {
+.rating span.star:before {
   content: "\f006";
   padding-right: 5px;
   color: #999999;
 }
-#examples .rating span.star:hover:before,
-#code .rating span.star:hover:before,
-#examples .rating span.star:hover ~ span.star:before,
-#code .rating span.star:hover ~ span.star:before {
+.rating span.star:hover:before,
+.rating span.star:hover ~ span.star:before {
   content: "\f005";
   color: #e3cf7a;
-}
-#kyruus {
-  color: #555555;
-  font-size: 18px;
-}
-#kyruus,
-#kyruus li {
-  line-height: 25px;
-}
-#kyruus p {
-  margin-bottom: 22px;
-}
-#kyruus p strong {
-  color: #222222;
-}
-#kyruus ul {
-  margin-top: 5px;
-  margin-bottom: 22px;
-}
-#kyruus ul li {
-  margin-top: 10px;
-}
-#kyruus ul i {
-  margin-top: 5px;
-  color: #007dbc;
-}
-#kyruus .border {
-  border: solid 10px #eeeeee;
-  padding: 1em 1.5em;
-  margin-left: .2em;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-}
-#kyruus .border .icon-medkit {
-  font-size: 224px;
-}
-#kyruus .border a:hover .icon-medkit {
-  text-decoration: none;
-}
-#kyruus a {
-  font-weight: bold;
-  color: #007dbc;
-}
-#kyruus a:hover {
-  color: #005f9b;
-}
-.modal {
-  width: 560px;
-  max-height: 610px;
-}
-.modal .modal-body {
-  *overflow: hidden;
-  max-height: none;
-  padding-bottom: 0;
-}
-.modal .modal-body .row {
-  margin-bottom: 15px;
-}
-.modal .modal-body div.thumbnail {
-  text-align: center;
-}
-.modal .modal-body div.thumbnail div {
-  margin: 8px;
-}
-.modal .modal-body .icon6 {
-  width: 330px;
-}
-.modal .modal-body .icon6 > div.thumbnail > div {
-  line-height: 308px;
-  height: 294px;
-  text-align: center;
-}
-.modal .modal-body .icon6 > div.thumbnail > div i {
-  font-size: 280px;
-}
-.modal .modal-body .icon5 {
-  width: 180px;
-}
-.modal .modal-body .icon5 > div.thumbnail > div {
-  line-height: 154px;
-  height: 147px;
-  text-align: center;
-}
-.modal .modal-body .icon5 > div.thumbnail > div i {
-  font-size: 140px;
-}
-.modal .modal-body .icon4 {
-  width: 215px;
-}
-.modal .modal-body .icon4 > div.thumbnail > div {
-  line-height: 123.20000000000002px;
-  height: 117.60000000000001px;
-  text-align: center;
-}
-.modal .modal-body .icon4 > div.thumbnail > div i {
-  font-size: 112px;
-}
-.modal .modal-body .icon3 {
-  width: 120px;
-}
-.modal .modal-body .icon3 > div.thumbnail > div {
-  line-height: 61.60000000000001px;
-  height: 58.800000000000004px;
-  text-align: center;
-}
-.modal .modal-body .icon3 > div.thumbnail > div i {
-  font-size: 56px;
-}
-.modal .modal-body .icon2 {
-  width: 75px;
-}
-.modal .modal-body .icon2 > div.thumbnail > div {
-  line-height: 30.800000000000004px;
-  height: 29.400000000000002px;
-  text-align: center;
-}
-.modal .modal-body .icon2 > div.thumbnail > div i {
-  font-size: 28px;
-}
-.modal .modal-body .icon1 {
-  width: 60px;
-}
-.modal .modal-body .icon1 > div.thumbnail > div {
-  line-height: 15.400000000000002px;
-  height: 14.700000000000001px;
-  text-align: center;
-}
-.modal .modal-body .icon1 > div.thumbnail > div i {
-  font-size: 14px;
 }
 .label,
 .badge {

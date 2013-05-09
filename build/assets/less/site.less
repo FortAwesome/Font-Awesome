@@ -281,127 +281,32 @@ section {
 }
 
 
-#examples {
-  .btn-toolbar {
-    margin-top: 0;
-    margin-bottom: 20px;
-  }
-}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
 
-#integration {
-  .row { margin-bottom: 40px; }
-}
-
-#examples, #code {
-  form {
-    margin-bottom: 25px;
-    input {
-      line-height: 1; // fixes a safari placeholder alignment issue
-    }
-  }
-
-  .rating {
-    unicode-bidi: bidi-override;
-    direction: rtl;
-
-    font-size: 30px;
-    span.star {
-      font-family: FontAwesome;
-      font-weight: normal;
-      font-style: normal;
-      display: inline-block;
-      &:hover {
-        cursor: pointer;
-      }
-    }
-    span.star:before {
-      content: "\f006"; // empty star
-      padding-right: 5px;
-      color: @grayLight;
-    }
-
-    span.star:hover:before, span.star:hover ~ span.star:before {
-      content: "\f005"; // solid star
-      color: #e3cf7a;
-    }
-  }
-}
-
-#kyruus {
-  color: @gray;
-  font-size: 18px;
-  &, li { line-height: 25px; }
-  p {
-    margin-bottom: 22px;
-    strong { color: @grayDarker; }
-  }
-  ul {
-    margin-top: 5px;
-    margin-bottom: 22px;
-    li { margin-top: 10px; }
-    i {
-      margin-top: 5px;
-//      margin-right: .4em;
-//      color: mix(@grayLight, @grayLighter, 50%);
-      color: mix(@blue, @blueDark, 50%);
-    }
-  }
-  .border {
-    .icon-medkit { font-size: 224px; }
-    border: solid 10px @grayLighter;
-    padding: 1em 1.5em;
-    margin-left: .2em;
-    .border-radius(10px);
-    a:hover .icon-medkit { text-decoration: none; }
-//    a:hover i { text-decoration: underline; }
-  }
-  a {
-    font-weight: bold;
-    color: mix(@blue, @blueDark, 50%);
+  font-size: 30px;
+  span.star {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
     &:hover {
-      color: @blueDark;
+      cursor: pointer;
     }
+  }
+  span.star:before {
+    content: "\f006"; // empty star
+    padding-right: 5px;
+    color: @grayLight;
+  }
+
+  span.star:hover:before, span.star:hover ~ span.star:before {
+    content: "\f005"; // solid star
+    color: #e3cf7a;
   }
 }
 
-.modal {
-  width: 560px;
-  max-height: 610px;
-  .modal-body {
-    *overflow: hidden; // ie7 fix
-    max-height: none;
-    padding-bottom: 0;
-    .row { margin-bottom: 15px; }
-    div.thumbnail {
-      text-align: center;
-      div { margin: 8px; }
-    }
-    .icon6 {
-      width: 330px;
-      > div.thumbnail > div { .icon-size(280px); }
-    }
-    .icon5 {
-      width: 180px;
-      > div.thumbnail > div { .icon-size(140px); }
-    }
-    .icon4 {
-      width: 215px;
-      > div.thumbnail > div { .icon-size(112px); }
-    }
-    .icon3 {
-      width: 120px;
-      > div.thumbnail > div { .icon-size(56px); }
-    }
-    .icon2 {
-      width: 75px;
-      > div.thumbnail > div { .icon-size(28px); }
-    }
-    .icon1 {
-      width: 60px;
-      > div.thumbnail > div { .icon-size(14px); }
-    }
-  }
-}
 
 .label,
 .badge {
