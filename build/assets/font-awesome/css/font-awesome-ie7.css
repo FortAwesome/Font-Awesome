@@ -74,10 +74,6 @@ a [class^="icon-"],
 a [class*=" icon-"] {
   cursor: pointer;
 }
-ul.icons {
-  text-indent: -1.5em;
-  margin-left: 3em;
-}
 .icon-glass {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf000;');
 }

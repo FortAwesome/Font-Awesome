@@ -253,6 +253,7 @@ ul.icons-ul > li .icon-li {
 }
 .icon-stack [class^="icon-"],
 .icon-stack [class*=" icon-"] {
+  display: block;
   position: absolute;
   width: inherit;
   height: inherit;
@@ -260,6 +261,7 @@ ul.icons-ul > li .icon-li {
   line-height: inherit;
 }
 .icon-stack .icon-stack-base {
+  display: block;
   width: inherit;
   height: inherit;
   font-size: 2em;
