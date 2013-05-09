@@ -1,12 +1,58 @@
 {% capture stripe_ad_content %}
 <p class="lead">
-  Font Awesome has a vibrant community centered around the <a href="{{ site.font_awesome.github.url }}">GitHub project</a>.
-  You can request new icons, report bugs, submit pull requests, and check upcoming milestones.
+  Font Awesome has a vibrant community of folks helping each other out. You can
+  <a href="#getting-support">get support</a>,
+  <a href="#reporting-bugs">report bugs</a>,
+  <a href="#requesting-new-icons">request new icons</a>,
+  <a href="#submitting-pull-requests">submit pull requests</a>, and
+  <a href="#project-milestones">check upcoming milestones</a>.
 </p>
 {% endcapture %}
 {% include stripe-ad.html %}
 
-<div id="requesting-new-icons">
+<div id="getting-support">
+  <h2 class="page-header">Getting Support</h2>
+  <p>
+    Having trouble getting Font Awesome up and running? Something not working the way you think it should? I hate that
+    I don't have time to answer Font Awesome support emails anymore. So here are some things you might wanna do:
+  </p>
+  <ol>
+    <li>
+      Make sure you've read the latest version of how to <a href="{{ page.relative_path }}get-started/">get started</a>.
+      It's been updated recently to make Font Awesome even easier to use.
+    </li>
+    <li>
+      Check out the <a href="http://stackoverflow.com/questions/tagged/font-awesome">existing questions tagged as
+      Font Awesome</a> over on Stack Overflow. Other folks might have had the same question you've had.
+    </li>
+    <li>
+      Can't find the answer to your question on Stack Overflow?
+      <a href="http://stackoverflow.com/questions/ask?tags=font-awesome">Ask a new question</a>, then
+      <a href="mailto:{{ site.font_awesome.author.email }}">send me an email</a> and I might be able to take a look.
+    </li>
+  </ol>
+</div>
+
+<section id="reporting-bugs">
+  <h2 class="page-header">Reporting Bugs</h2>
+  <p>
+    Found a problem with Font Awesome? Feel free to submit an issue on the GitHub project. But please keep the following in mind:
+  </p>
+  <ol>
+    <li>Please be nice. Font Awesome is a happy place.</li>
+    <li>Please <a href="{{ site.font_awesome.github.url }}/search?type=Issues">search</a> to see if your icon request already exists.</li>
+    <li>
+      Before opening any issue, please read the generic <a href="https://github.com/necolas/issue-guidelines">issue
+      guidelines</a>, by <a href="https://github.com/necolas/">Nicolas Gallagher</a>.
+    </li>
+    <li>
+      After doing everything above, feel free to
+      <a href="{{ site.font_awesome.github.url }}/issues/new">submit an issue</a>.
+    </li>
+  </ol>
+</section>
+
+<section id="requesting-new-icons">
   <h2 class="page-header">Requesting New Icons</h2>
   <p>
     New icons mostly start as requests by the
@@ -32,28 +78,9 @@
       to represent happiness. It's easier to make a smiley face. <i class="icon-smile"></i>
     </li>
   </ol>
-</div>
-
-<section id="bugs">
-  <h2 class="page-header">Reporting Bugs</h2>
-  <p>
-    Found a problem with Font Awesome? Feel free to submit an issue on the GitHub project. But please keep the following in mind:
-  </p>
-  <ol>
-    <li>Please be nice. Font Awesome is a happy place.</li>
-    <li>Please <a href="{{ site.font_awesome.github.url }}/search?type=Issues">search</a> to see if your icon request already exists.</li>
-    <li>
-      Before opening any issue, please read the generic <a href="https://github.com/necolas/issue-guidelines">issue
-      guidelines</a>, by <a href="https://github.com/necolas/">Nicolas Gallagher</a>.
-    </li>
-    <li>
-      After doing everything above, feel free to
-      <a href="{{ site.font_awesome.github.url }}/issues/new">submit an issue</a>.
-    </li>
-  </ol>
 </section>
 
-<section id="pull-requests">
+<section id="submitting-pull-requests">
   <h2 class="page-header">Submitting Pull Requests</h2>
   Found a way to solve a bug in Font Awesome? Want to contribute new features? Here are a few things to remember:
   <ol>
@@ -66,7 +93,7 @@
   </ol>
 </section>
 
-<section id="milestones">
+<section id="project-milestones">
   <h2 class="page-header">Project Milestones</h2>
   <p>
     Want to keep up with what's planned for Font Awesome? Check out our
