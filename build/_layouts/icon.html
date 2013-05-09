@@ -1,6 +1,7 @@
 ---
 layout: base
 title_prefix: Font Awesome Icons
+relative_path: ../../
 ---
 <div class="jumbotron jumbotron-icon">
   <div class="container">
@@ -38,7 +39,7 @@ title_prefix: Font Awesome Icons
   <section>
     <div class="row-fluid">
       <div class="span9">
-        <p>After you get <a href="{{ site.baseurl }}integration/">up and running</a>, you can place Font Awesome icons just about anywhere with the <code>&lt;i&gt;</code> tag:</p>
+        <p>After you get <a href="{{ page.relative_path }}integration/">up and running</a>, you can place Font Awesome icons just about anywhere with the <code>&lt;i&gt;</code> tag:</p>
         <div class="well well-transparent">
           <div style="font-size: 24px; line-height: 1.5em;">
             <i class="icon-{{ page.icon['id'] }}"></i> icon-{{ page.icon['id'] }}
@@ -48,7 +49,7 @@ title_prefix: Font Awesome Icons
 <i class="icon-{{ page.icon['id'] }}"></i> icon-{{ page.icon['id'] }}
 {% endhighlight %}
         <br>
-        <div class="lead"><i class="icon-info-sign"></i> Looking for more? Check out the <a href="{{ site.baseurl }}examples/">examples</a>.</div>
+        <div class="lead"><i class="icon-info-sign"></i> Looking for more? Check out the <a href="{{ page.relative_path }}examples/">examples</a>.</div>
       </div>
       <div class="span3">
         <div class="info-ad">{% include ads/carbon-light-vertical.html %}</div>
