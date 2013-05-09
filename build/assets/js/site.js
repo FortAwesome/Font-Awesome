@@ -5,8 +5,8 @@ $(function() {
   });
 
   // make code pretty
-  $('pre').addClass('prettyprint');
-  window.prettyPrint && prettyPrint();
+//  $('pre').addClass('prettyprint');
+//  window.prettyPrint && prettyPrint();
 
   // Disable links with href="#" inside <section>, so users can click on them
   // to preview :active state without being scrolled up to the top of the page.
