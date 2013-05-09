@@ -78,6 +78,8 @@ ul.icons-ul {
 }
 ul.icons-ul > li .icon-li {
   width: 0.7142857142857143em;
+  display: inline-block;
+  text-align: center;
 }
 [class^="icon-"].hide,
 [class*=" icon-"].hide {
@@ -181,12 +183,6 @@ ul.icons-ul > li .icon-li {
   background-image: none;
 }
 /* keeps Bootstrap styles with and without icons the same */
-.btn [class^="icon-"],
-.nav [class^="icon-"],
-.btn [class*=" icon-"],
-.nav [class*=" icon-"] {
-  display: inline;
-}
 .btn [class^="icon-"].icon-large,
 .nav [class^="icon-"].icon-large,
 .btn [class*=" icon-"].icon-large,
