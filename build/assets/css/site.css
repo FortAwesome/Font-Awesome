@@ -5324,15 +5324,15 @@ body {
   min-width: 990px;
 }
 .wrapper {
-  margin: 0 auto -211px;
+  margin: 0 auto -231px;
 }
 .push {
-  height: 211px;
+  height: 231px;
 }
 .footer {
-  margin-top: 40px;
-  height: 110px;
-  padding: 30px 0 30px;
+  margin-top: 60px;
+  height: 90px;
+  padding: 40px 0 40px;
 }
 .padding-none {
   padding: 0 !important;
