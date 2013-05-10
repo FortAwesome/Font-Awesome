@@ -1,5 +1,5 @@
-#[Font Aweosme 3.1.0](http://fontawesome.io)
-##the iconic font designed for Bootstrap
+#[Font Awesome 3.1.1](http://fontawesome.io)
+###the iconic font designed for Bootstrap
 
 Font Awesome is a full suite of 302 pictographic icons for easy scalable vector graphics on websites, created and
 maintained by [Dave Gandy](http://twitter.com/byscuits)
