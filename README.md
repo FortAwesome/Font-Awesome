@@ -2,7 +2,7 @@
 ###the iconic font designed for Bootstrap
 
 Font Awesome is a full suite of 302 pictographic icons for easy scalable vector graphics on websites, created and
-maintained by [Dave Gandy](http://twitter.com/byscuits). Stay up to date at http://twitter.com/fontawesome.
+maintained by [Dave Gandy](http://twitter.com/byscuits). Stay up to date [@fontawesome][http://twitter.com/fontawesome).
 
 Get started at http://fontawesome.io!
 
@@ -36,11 +36,11 @@ And constructed with the following guidelines:
 * New additions, including new icons, without breaking backward compatibility bumps the minor (and resets the patch)
 * Bug fixes and misc changes bumps the patch
 
-For more information on SemVer, please visit [http://semver.org/](http://semver.org/).
+For more information on SemVer, please visit http://semver.org.
 
 ##Author
 - Email: dave@fontawesome.io
 - Twitter: http://twitter.com/byscuits
-- GitHub: https://github.com/davegandy/
+- GitHub: https://github.com/davegandy
 - Work: Lead Product Designer @ http://kyru.us
 
