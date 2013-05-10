@@ -1,4 +1,4 @@
-#[Font Awesome 3.1.1](http://fontawesome.io)
+#[Font Awesome v3.1.1](http://fontawesome.io)
 ###the iconic font designed for Bootstrap
 
 Font Awesome is a full suite of 302 pictographic icons for easy scalable vector graphics on websites, created and
@@ -23,6 +23,7 @@ Get started at http://fontawesome.io!
 - v3.0.1 - much improved rendering in webkit, various bugfixes
 - v3.0.2 - much improved rendering and alignment in IE7
 - v3.1.0 - Added 54 icons, icon stacking styles, flipping and rotating icons, removed SASS support
+- [v3.1.1 milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=4&state=open)
 
 ##Versioning
 
