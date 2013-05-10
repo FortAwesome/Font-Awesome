@@ -11,7 +11,6 @@
   .icon-stack {
     position: relative;
     display: inline-block;
-    text-align: center;
     width: @width;
     height: @height;
     line-height: @width;
@@ -19,14 +18,17 @@
     [class^="icon-"],
     [class*=" icon-"] {
       display: block;
+      text-align: center;
       position: absolute;
       width: 100%;
       height: 100%;
       font-size: @top-font-size;
       line-height: inherit;
+      *line-height: @height;
     }
     .icon-stack-base {
       font-size: @base-font-size;
+      *line-height: @height / @base-font-size;
     }
   }
 }

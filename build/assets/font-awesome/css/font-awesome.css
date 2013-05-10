@@ -245,7 +245,6 @@ ul.icons-ul > li .icon-li {
 .icon-stack {
   position: relative;
   display: inline-block;
-  text-align: center;
   width: 2em;
   height: 2em;
   line-height: 2em;
@@ -254,14 +253,17 @@ ul.icons-ul > li .icon-li {
 .icon-stack [class^="icon-"],
 .icon-stack [class*=" icon-"] {
   display: block;
+  text-align: center;
   position: absolute;
   width: 100%;
   height: 100%;
   font-size: 1em;
   line-height: inherit;
+  *line-height: 2em;
 }
 .icon-stack .icon-stack-base {
   font-size: 2em;
+  *line-height: 1em;
 }
 /* Animated rotating icon */
 .icon-spin {
