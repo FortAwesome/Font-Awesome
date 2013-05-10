@@ -20,7 +20,7 @@ http://fontawesome.io
 - v3.0.0 - all icons redesigned from scratch, optimized for Bootstrap's 14px default
 - v3.0.1 - much improved rendering in webkit, various bugfixes
 - v3.0.2 - much improved rendering and alignment in IE7
-- v3.1.0 - Added 47 icons, icon stacking styles, flipping and rotating icons
+- v3.1.0 - Added 54 icons, icon stacking styles, flipping and rotating icons, removed SASS support
 
 ##Versioning
 
