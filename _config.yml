@@ -28,8 +28,8 @@ font_awesome:
     url:          https://github.com/FortAwesome/Font-Awesome
     project:      Font-Awesome
     org:          FortAwesome
-  icon_count:     296
-  new_icon_count: 48
+  icon_count:     301
+  new_icon_count: 53
 
 bootstrap:
   version:        2.3.1

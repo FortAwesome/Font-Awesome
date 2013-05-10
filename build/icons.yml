@@ -2103,3 +2103,38 @@ icons:
     created:    3.1.0
     categories:
       - Web Application Icons
+
+  - name:       Level Up
+    id:         level-up
+    unicode:    f148
+    created:    3.1.0
+    categories:
+      - Web Application Icons
+
+  - name:       Level Down
+    id:         level-down
+    unicode:    f149
+    created:    3.1.0
+    categories:
+      - Web Application Icons
+
+  - name:       Check Sign
+    id:         check-sign
+    unicode:    f14a
+    created:    3.1.0
+    categories:
+      - Web Application Icons
+
+  - name:       Edit Sign
+    id:         edit-sign
+    unicode:    f14b
+    created:    3.1.0
+    categories:
+      - Web Application Icons
+
+  - name:       Exteral Link Sign
+    id:         external-link-sign
+    unicode:    f14c
+    created:    3.1.0
+    categories:
+      - Web Application Icons
