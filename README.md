@@ -2,7 +2,7 @@
 ###the iconic font designed for Bootstrap
 
 Font Awesome is a full suite of 302 pictographic icons for easy scalable vector graphics on websites, created and
-maintained by [Dave Gandy](http://twitter.com/byscuits). Stay up to date [@fontawesome][http://twitter.com/fontawesome).
+maintained by [Dave Gandy](http://twitter.com/byscuits). Stay up to date [@fontawesome](http://twitter.com/fontawesome).
 
 Get started at http://fontawesome.io!
 
