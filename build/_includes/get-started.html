@@ -7,7 +7,7 @@
 {% endcapture %}
 {% include stripe-ad.html %}
 
-<section class="margin-top-large">
+<div id="bootstrapcdn">
   <h2 class="page-header">EASIEST: <a href="http://www.bootstrapcdn.com/#tab_fontawesome">BootstrapCDN</a></h2>
   <p>Add Font Awesome + Bootstrap into your website with two lines of code. You don't even have to download or install anything!</p>
   <ol>
@@ -29,9 +29,9 @@
       Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!
     </li>
   </ol>
-</section>
+</div>
 
-<section>
+<section id="default-css">
   <h2 class="page-header">EASY: Default CSS</h2>
   <p>Use this method to get the default Font Awesome CSS with the default Bootstrap CSS.</p>
   <ol>
@@ -47,7 +47,7 @@
   </ol>
 </section>
 
-<section>
+<section id="custom-less">
   <h2 class="page-header">PRO: Custom LESS</h2>
   <p>Use this method to customize Font Awesome and Bootstrap {{ site.bootstrap.version }} using LESS.</p>
   <ol>
@@ -65,7 +65,7 @@
   </ol>
 </section>
 
-<section>
+<section id="not-using-bootstrap">
   <h2 class="page-header">Not using Bootstrap?</h2>
   <p>Font Awesome works just as well without Bootstrap.</p>
   <ol>
@@ -76,7 +76,7 @@
   </ol>
 </section>
 
-<section>
+<section class="need-ie7">
   <h2 class="page-header">Need IE7 Support?</h2>
   <p>Font Awesome supports IE7. If you need it, you have my condolences.</p>
   <ol>
