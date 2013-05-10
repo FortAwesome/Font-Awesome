@@ -1,8 +1,10 @@
-#Font Awesome 3.1.0
+#[Font Aweosme 3.1.0](http://fontawesome.io)
 ##the iconic font designed for Bootstrap
 
-The full suite of pictographic icons, examples, documentation, and full license details can be found at:
-http://fontawesome.io
+Font Awesome is a full suite of 302 pictographic icons for easy scalable vector graphics on websites, created and
+maintained by [Dave Gandy](http://twitter.com/byscuits)
+
+Get started at [http://fontawesome.io](http://fontawesome.io)!
 
 
 ##License
@@ -15,11 +17,6 @@ http://fontawesome.io
 - Attribution is no longer required as of Font Awesome 3.0, but much appreciated:
   - `Font Awesome by Dave Gandy - http://fontawesome.io`
 - Full details: http://fontawesome.io/license
-
-##Contact
-- Email: dave@fontawesome.io
-- Twitter: http://twitter.com/fortaweso_me
-- Work: Lead Product Designer @ http://kyru.us
 
 ##Changelog
 - v3.0.0 - all icons redesigned from scratch, optimized for Bootstrap's 14px default
@@ -40,3 +37,10 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 For more information on SemVer, please visit [http://semver.org/](http://semver.org/).
+
+##Author
+- Email: dave@fontawesome.io
+- Twitter: http://twitter.com/byscuits
+- GitHub: https://github.com/davegandy/
+- Work: Lead Product Designer @ http://kyru.us
+
