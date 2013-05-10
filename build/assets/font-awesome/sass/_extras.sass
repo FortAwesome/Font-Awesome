@@ -1,0 +1,39 @@
+/* EXTRAS
+ * -------------------------- */
+
+/* Stacked and layered icon */
++icon-stack
+
+/* Animated rotating icon */
+.icon-spin
+  display: inline-block
+  +experimental(animation, spin 2s infinite linear)
+
++keyframes(spin)
+  0%
+    +experimental(transform, rotate(0deg))
+  100%
+    +experimental(transform, rotate(359deg))
+
+
+/* Icon rotations and mirroring */
+.icon-rotate-90:before
+  +experimental(transform, rotate(90deg))
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1)
+
+
+.icon-rotate-180:before
+  +experimental(transform, rotate(180deg))
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2)
+
+
+.icon-rotate-270:before
+  +experimental(transform, rotate(270deg))
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3)
+
+
+.icon-flip-horizontal:before
+  +experimental(transform, scale(-1, 1))
+
+.icon-flip-vertical:before
+  +experimental(transform, scale(1, -1))
