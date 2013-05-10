@@ -977,3 +977,6 @@ a [class*=" icon-"] {
 .icon-external-link-sign {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf14c;');
 }
+.icon-share-sign {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf14d;');
+}

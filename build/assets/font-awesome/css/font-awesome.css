@@ -1262,3 +1262,6 @@ ul.icons-ul > li .icon-li {
 .icon-external-link-sign:before {
   content: "\f14c";
 }
+.icon-share-sign:before {
+  content: "\f14d";
+}
