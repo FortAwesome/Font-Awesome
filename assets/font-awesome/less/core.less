@@ -1,0 +1,132 @@
+/* FONT AWESOME CORE
+ * -------------------------- */
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em; // fixes ie7 issues
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+
+/* makes the font 33% larger relative to the icon container */
+.icon-large:before {
+  vertical-align: -10%;
+  font-size: 4/3em;
+}
+
+/* makes sure icons active on rollover in links */
+a {
+  [class^="icon-"],
+  [class*=" icon-"] {
+    &, &:before { display: inline; }
+  }
+}
+
+/* increased font size for icon-large */
+[class^="icon-"],
+[class*=" icon-"] {
+  &.icon-fixed-width {
+    display: inline-block;
+    width: 18/14em;
+    text-align: center;
+    &.icon-large {
+      width: 22/14em;
+    }
+  }
+}
+
+ul.icons-ul {
+  list-style-type: none;
+  text-indent: -10/14em;
+  margin-left: 30/14em;
+
+  > li {
+    .icon-li {
+      width: 10/14em;
+      display: inline-block;
+      text-align: center;
+    }
+  }
+}
+
+// allows usage of the hide class directly on font awesome icons
+[class^="icon-"],
+[class*=" icon-"] {
+  &.hide {
+    display: none;
+  }
+}
+
+.icon-muted { color: @iconMuted; }
+.icon-light { color: @iconLight; }
+.icon-dark { color: @iconDark; }
+
+// Icon Borders
+// -------------------------
+
+.icon-border {
+  border: solid 1px @borderColor;
+  padding: .2em .25em .15em;
+  .border-radius(3px);
+}
+
+// Icon Sizes
+// -------------------------
+
+.icon-2x {
+  font-size: 2em;
+  &.icon-border {
+    border-width: 2px;
+    .border-radius(4px);
+  }
+}
+.icon-3x {
+  font-size: 3em;
+  &.icon-border {
+    border-width: 3px;
+    .border-radius(5px);
+  }
+}
+.icon-4x {
+  font-size: 4em;
+  &.icon-border {
+    border-width: 4px;
+    .border-radius(6px);
+  }
+}
+
+.icon-5x {
+  font-size: 5em;
+  &.icon-border {
+    border-width: 5px;
+    .border-radius(7px);
+  }
+}
+
+
+// Floats & Margins
+// -------------------------
+
+// Quick floats
+.pull-right { float: right; }
+.pull-left { float: left; }
+
+[class^="icon-"],
+[class*=" icon-"] {
+  &.pull-left {
+    margin-right: .3em;
+  }
+  &.pull-right {
+    margin-left: .3em;
+  }
+}

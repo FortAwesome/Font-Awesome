@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
+<head>
+  <!-- Basic Page Needs
+ ================================================== -->
+  <meta charset="utf-8" />
+  <title>Font Awesome Cheatsheet</title>
+  <meta name="description" content="Font Awesome, the iconic font designed for use with Bootstrap">
+  <meta name="author" content="Dave Gandy">
+  <meta name="viewport" content="initial-scale=1; maximum-scale=1">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- CSS
+ ================================================== -->
+
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <link rel="stylesheet" href="../assets/css/pygments.css">
+  <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome-ie7.min.css">
+  <![endif]-->
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+
+  <script type="text/javascript" src="//use.typekit.net/wnc7ioh.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30136587-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+<div class="wrapper"> <!-- necessary for sticky footer. wrap all content except footer -->
+  <div class="navbar navbar-inverse navbar-static-top hidden-print">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="../"><i class="icon-flag"></i> Font Awesome</a>
+      <ul class="nav">
+        <li><a href="../">Home</a></li>
+        <li><a href="../get-started/">Get Started</a></li>
+        <li class="dropdown-split-left"><a href="../icons/">Icons</a></li>
+        <li class="dropdown dropdown-split-right">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <i class="icon-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="../icons/"><i class="icon-flag icon-fixed-width"></i>&nbsp; Icons</a></li>
+          <li class="divider"></li>
+          <li><a href="../icons/#new"><i class="icon-shield icon-fixed-width"></i>&nbsp; New Icons in 3.1.0</a></li>
+          <li><a href="../icons/#web-application"><i class="icon-camera-retro icon-fixed-width"></i>&nbsp; Web Application Icons</a></li>
+          <li><a href="../icons/#text-editor"><i class="icon-file-alt icon-fixed-width"></i>&nbsp; Text Editor Icons</a></li>
+          <li><a href="../icons/#directional"><i class="icon-hand-right icon-fixed-width"></i>&nbsp; Directional Icons</a></li>
+          <li><a href="../icons/#video-player"><i class="icon-play-sign icon-fixed-width"></i>&nbsp; Video Player Icons</a></li>
+          <li><a href="../icons/#brand"><i class="icon-github icon-fixed-width"></i>&nbsp; Brand Icons</a></li>
+          <li><a href="../icons/#medical"><i class="icon-medkit icon-fixed-width"></i>&nbsp; Medical Icons</a></li>
+        </ul>
+        </li>
+        <li class="dropdown-split-left"><a href="../examples/">Examples</a></li>
+        <li class="dropdown dropdown-split-right">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="icon-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu pull-right">
+            <li><a href="../examples/">Examples</a></li>
+            <li class="divider"></li>
+            <li><a href="../examples/#new-styles">New Styles</a></li>
+            <li><a href="../examples/#inline-icons">Inline Icons</a></li>
+            <li><a href="../examples/#larger-icons">Larger Icons</a></li>
+            <li><a href="../examples/#bordered-pulled">Bordered & Pulled</a></li>
+            <li><a href="../examples/#buttons">Buttons</a></li>
+            <li><a href="../examples/#button-groups">Button Groups</a></li>
+            <li><a href="../examples/#button-dropdowns">Button Dropdowns</a></li>
+            <li><a href="../examples/#bulleted-lists">Bulleted Lists</a></li>
+            <li><a href="../examples/#navigation">Navigation</a></li>
+            <li><a href="../examples/#form-inputs">Form Inputs</a></li>
+            <li><a href="../examples/#animated-spinner">Animated Spinner</a></li>
+            <li><a href="../examples/#rotated-flipped">Rotated &amp; Flipped</a></li>
+            <li><a href="../examples/#stacked">Stacked</a></li>
+            <li><a href="../examples/#custom">Custom CSS</a></li>
+          </ul>
+        </li>
+        <li><a href="../whats-new/">What's New</a></li>
+        <li><a href="../community/">Community</a></li>
+        <li><a href="../license/">License</a></li>
+      </ul>
+      <ul class="nav pull-right">
+        <li><a href="mailto:dave@fontawesome.io"><i class="icon-envelope"></i>&nbsp; Me</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+<div class="jumbotron jumbotron-ad hidden-print">
+  <div class="container">
+    <h1><i class="icon-list-ul icon-large"></i>&nbsp; Cheatsheet</h1>
+    <p>The complete Font Awesome 3.1.0 icon reference</p>
+  </div>
+</div>
+
+<div id="social-buttons" class="hidden-print">
+  <div class="container">
+    <ul class="unstyled inline">
+      <li>
+        <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+      </li>
+      <li>
+        <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>
+      </li>
+      <li class="follow-btn">
+        <a href="https://twitter.com/fortaweso_me" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @fortaweso_me</a>
+      </li>
+      <li class="tweet-btn">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://fontawesome.io" data-text="#FontAwesome, the iconic font designed for Bootstrap" data-counturl="http://fortawesome.github.com/Font-Awesome/" data-count="horizontal" data-via="fortaweso_me" data-related="byscuits:Creator of Font Awesome">Tweet</a>
+      </li>
+    </ul>
+
+    <!--<div class="watch">-->
+      <!--<a class="btn btn-mini" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"><i class="icon-github icon-large"></i> Watch</a>-->
+      <!--<a id="watchers" class="count btn btn-mini" href="https://github.com/FortAwesome/Font-Awesome">9000+</a>-->
+    <!--</div>-->
+    <!--<div class="fork">-->
+      <!--<a class="btn btn-mini" href="https://github.com/FortAwesome/Font-Awesome" target="_blank"><i class="icon-github icon-large"></i> Fork</a>-->
+      <!--<a id="forks" class="count btn btn-mini" href="#">800+</a>-->
+    <!--</div>-->
+    <!--<div class="follow">-->
+      <!--<a class="btn btn-mini" href="http://twitter.com/fortaweso_me/" target="_blank"><i class="icon-twitter icon-large"></i> Follow @fortaweso_me</a>-->
+      <!--<span id="followers" class="count btn btn-mini">2500+</span>-->
+    <!--</div>-->
+  </div>
+</div>
+
+
+<div class="container">
+  
+<section class="hidden-print">
+  <div class="row stripe-ad">
+    <div class="span8">
+      
+<p class="lead">
+  Print this page to PDF for the complete set of vectors. Or to use on the desktop, install FontAwesome.otf and copy
+  and paste the icons (not the unicode) directly into your designs.
+</p>
+
+    </div>
+    <div class="span4">
+      <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/32291/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
+
+    </div>
+  </div>
+</section>
+
+
+<div>
+  <h2 class="page-header">Every Font Awesome 3.1.0 Icon, CSS Class, &amp; Unicode</h2>
+  <div class="row">
+    <div class="span4">
+      <ul class="unstyled">
+        <li><i class="icon-fixed-width">&#xf000;</i> icon-glass <span class="muted">(&amp;#xf000;)</span></li>
+        <li><i class="icon-fixed-width">&#xf001;</i> icon-music <span class="muted">(&amp;#xf001;)</span></li>
+        <li><i class="icon-fixed-width">&#xf002;</i> icon-search <span class="muted">(&amp;#xf002;)</span></li>
+        <li><i class="icon-fixed-width">&#xf003;</i> icon-envelope <span class="muted">(&amp;#xf003;)</span></li>
+        <li><i class="icon-fixed-width">&#xf004;</i> icon-heart <span class="muted">(&amp;#xf004;)</span></li>
+        <li><i class="icon-fixed-width">&#xf005;</i> icon-star <span class="muted">(&amp;#xf005;)</span></li>
+        <li><i class="icon-fixed-width">&#xf006;</i> icon-star-empty <span class="muted">(&amp;#xf006;)</span></li>
+        <li><i class="icon-fixed-width">&#xf007;</i> icon-user <span class="muted">(&amp;#xf007;)</span></li>
+        <li><i class="icon-fixed-width">&#xf008;</i> icon-film <span class="muted">(&amp;#xf008;)</span></li>
+        <li><i class="icon-fixed-width">&#xf009;</i> icon-th-large <span class="muted">(&amp;#xf009;)</span></li>
+        <li><i class="icon-fixed-width">&#xf00a;</i> icon-th <span class="muted">(&amp;#xf00a;)</span></li>
+        <li><i class="icon-fixed-width">&#xf00b;</i> icon-th-list <span class="muted">(&amp;#xf00b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf00c;</i> icon-ok <span class="muted">(&amp;#xf00c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf00d;</i> icon-remove <span class="muted">(&amp;#xf00d;)</span></li>
+        <li><i class="icon-fixed-width">&#xf00e;</i> icon-zoom-in <span class="muted">(&amp;#xf00e;)</span></li>
+        <li><i class="icon-fixed-width">&#xf010;</i> icon-zoom-out <span class="muted">(&amp;#xf010;)</span></li>
+        <li><i class="icon-fixed-width">&#xf011;</i> icon-off <span class="muted">(&amp;#xf011;)</span></li>
+        <li><i class="icon-fixed-width">&#xf012;</i> icon-signal <span class="muted">(&amp;#xf012;)</span></li>
+        <li><i class="icon-fixed-width">&#xf013;</i> icon-cog <span class="muted">(&amp;#xf013;)</span></li>
+        <li><i class="icon-fixed-width">&#xf014;</i> icon-trash <span class="muted">(&amp;#xf014;)</span></li>
+        <li><i class="icon-fixed-width">&#xf015;</i> icon-home <span class="muted">(&amp;#xf015;)</span></li>
+        <li><i class="icon-fixed-width">&#xf016;</i> icon-file <span class="muted">(&amp;#xf016;)</span></li>
+        <li><i class="icon-fixed-width">&#xf017;</i> icon-time <span class="muted">(&amp;#xf017;)</span></li>
+        <li><i class="icon-fixed-width">&#xf018;</i> icon-road <span class="muted">(&amp;#xf018;)</span></li>
+        <li><i class="icon-fixed-width">&#xf019;</i> icon-download-alt <span class="muted">(&amp;#xf019;)</span></li>
+        <li><i class="icon-fixed-width">&#xf01a;</i> icon-download <span class="muted">(&amp;#xf01a;)</span></li>
+        <li><i class="icon-fixed-width">&#xf01b;</i> icon-upload <span class="muted">(&amp;#xf01b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf01c;</i> icon-inbox <span class="muted">(&amp;#xf01c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf01d;</i> icon-play-circle <span class="muted">(&amp;#xf01d;)</span></li>
+        <li><i class="icon-fixed-width">&#xf01e;</i> icon-repeat <span class="muted">(&amp;#xf01e;)</span></li>
+        <li><i class="icon-fixed-width">&#xf021;</i> icon-refresh <span class="muted">(&amp;#xf021;)</span></li>
+        <li><i class="icon-fixed-width">&#xf022;</i> icon-list-alt <span class="muted">(&amp;#xf022;)</span></li>
+        <li><i class="icon-fixed-width">&#xf023;</i> icon-lock <span class="muted">(&amp;#xf023;)</span></li>
+        <li><i class="icon-fixed-width">&#xf024;</i> icon-flag <span class="muted">(&amp;#xf024;)</span></li>
+        <li><i class="icon-fixed-width">&#xf025;</i> icon-headphones <span class="muted">(&amp;#xf025;)</span></li>
+        <li><i class="icon-fixed-width">&#xf026;</i> icon-volume-off <span class="muted">(&amp;#xf026;)</span></li>
+        <li><i class="icon-fixed-width">&#xf027;</i> icon-volume-down <span class="muted">(&amp;#xf027;)</span></li>
+        <li><i class="icon-fixed-width">&#xf028;</i> icon-volume-up <span class="muted">(&amp;#xf028;)</span></li>
+        <li><i class="icon-fixed-width">&#xf029;</i> icon-qrcode <span class="muted">(&amp;#xf029;)</span></li>
+        <li><i class="icon-fixed-width">&#xf02a;</i> icon-barcode <span class="muted">(&amp;#xf02a;)</span></li>
+        <li><i class="icon-fixed-width">&#xf02b;</i> icon-tag <span class="muted">(&amp;#xf02b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf02c;</i> icon-tags <span class="muted">(&amp;#xf02c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf02d;</i> icon-book <span class="muted">(&amp;#xf02d;)</span></li>
+        <li><i class="icon-fixed-width">&#xf02e;</i> icon-bookmark <span class="muted">(&amp;#xf02e;)</span></li>
+        <li><i class="icon-fixed-width">&#xf02f;</i> icon-print <span class="muted">(&amp;#xf02f;)</span></li>
+        <li><i class="icon-fixed-width">&#xf030;</i> icon-camera <span class="muted">(&amp;#xf030;)</span></li>
+        <li><i class="icon-fixed-width">&#xf031;</i> icon-font <span class="muted">(&amp;#xf031;)</span></li>
+        <li><i class="icon-fixed-width">&#xf032;</i> icon-bold <span class="muted">(&amp;#xf032;)</span></li>
+        <li><i class="icon-fixed-width">&#xf033;</i> icon-italic <span class="muted">(&amp;#xf033;)</span></li>
+        <li><i class="icon-fixed-width">&#xf034;</i> icon-text-height <span class="muted">(&amp;#xf034;)</span></li>
+        <li><i class="icon-fixed-width">&#xf035;</i> icon-text-width <span class="muted">(&amp;#xf035;)</span></li>
+        <li><i class="icon-fixed-width">&#xf036;</i> icon-align-left <span class="muted">(&amp;#xf036;)</span></li>
+        <li><i class="icon-fixed-width">&#xf037;</i> icon-align-center <span class="muted">(&amp;#xf037;)</span></li>
+        <li><i class="icon-fixed-width">&#xf038;</i> icon-align-right <span class="muted">(&amp;#xf038;)</span></li>
+        <li><i class="icon-fixed-width">&#xf039;</i> icon-align-justify <span class="muted">(&amp;#xf039;)</span></li>
+        <li><i class="icon-fixed-width">&#xf03a;</i> icon-list <span class="muted">(&amp;#xf03a;)</span></li>
+        <li><i class="icon-fixed-width">&#xf03b;</i> icon-indent-left <span class="muted">(&amp;#xf03b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf03c;</i> icon-indent-right <span class="muted">(&amp;#xf03c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf03d;</i> icon-facetime-video <span class="muted">(&amp;#xf03d;)</span></li>
+        <li><i class="icon-fixed-width">&#xf03e;</i> icon-picture <span class="muted">(&amp;#xf03e;)</span></li>
+        <li><i class="icon-fixed-width">&#xf040;</i> icon-pencil <span class="muted">(&amp;#xf040;)</span></li>
+        <li><i class="icon-fixed-width">&#xf041;</i> icon-map-marker <span class="muted">(&amp;#xf041;)</span></li>
+        <li><i class="icon-fixed-width">&#xf042;</i> icon-adjust <span class="muted">(&amp;#xf042;)</span></li>
+        <li><i class="icon-fixed-width">&#xf043;</i> icon-tint <span class="muted">(&amp;#xf043;)</span></li>
+        <li><i class="icon-fixed-width">&#xf044;</i> icon-edit <span class="muted">(&amp;#xf044;)</span></li>
+        <li><i class="icon-fixed-width">&#xf045;</i> icon-share <span class="muted">(&amp;#xf045;)</span></li>
+        <li><i class="icon-fixed-width">&#xf046;</i> icon-check <span class="muted">(&amp;#xf046;)</span></li>
+        <li><i class="icon-fixed-width">&#xf047;</i> icon-move <span class="muted">(&amp;#xf047;)</span></li>
+        <li><i class="icon-fixed-width">&#xf048;</i> icon-step-backward <span class="muted">(&amp;#xf048;)</span></li>
+        <li><i class="icon-fixed-width">&#xf049;</i> icon-fast-backward <span class="muted">(&amp;#xf049;)</span></li>
+        <li><i class="icon-fixed-width">&#xf04a;</i> icon-backward <span class="muted">(&amp;#xf04a;)</span></li>
+        <li><i class="icon-fixed-width">&#xf04b;</i> icon-play <span class="muted">(&amp;#xf04b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf04c;</i> icon-pause <span class="muted">(&amp;#xf04c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf04d;</i> icon-stop <span class="muted">(&amp;#xf04d;)</span></li>
+        <li><i class="icon-fixed-width">&#xf04e;</i> icon-forward <span class="muted">(&amp;#xf04e;)</span></li>
+        <li><i class="icon-fixed-width">&#xf050;</i> icon-fast-forward <span class="muted">(&amp;#xf050;)</span></li>
+        <li><i class="icon-fixed-width">&#xf051;</i> icon-step-forward <span class="muted">(&amp;#xf051;)</span></li>
+        <li><i class="icon-fixed-width">&#xf052;</i> icon-eject <span class="muted">(&amp;#xf052;)</span></li>
+        <li><i class="icon-fixed-width">&#xf053;</i> icon-chevron-left <span class="muted">(&amp;#xf053;)</span></li>
+        <li><i class="icon-fixed-width">&#xf054;</i> icon-chevron-right <span class="muted">(&amp;#xf054;)</span></li>
+        <li><i class="icon-fixed-width">&#xf055;</i> icon-plus-sign <span class="muted">(&amp;#xf055;)</span></li>
+        <li><i class="icon-fixed-width">&#xf056;</i> icon-minus-sign <span class="muted">(&amp;#xf056;)</span></li>
+        <li><i class="icon-fixed-width">&#xf057;</i> icon-remove-sign <span class="muted">(&amp;#xf057;)</span></li>
+        <li><i class="icon-fixed-width">&#xf058;</i> icon-ok-sign <span class="muted">(&amp;#xf058;)</span></li>
+        <li><i class="icon-fixed-width">&#xf059;</i> icon-question-sign <span class="muted">(&amp;#xf059;)</span></li>
+        <li><i class="icon-fixed-width">&#xf05a;</i> icon-info-sign <span class="muted">(&amp;#xf05a;)</span></li>
+        <li><i class="icon-fixed-width">&#xf05b;</i> icon-screenshot <span class="muted">(&amp;#xf05b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf05c;</i> icon-remove-circle <span class="muted">(&amp;#xf05c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf05d;</i> icon-ok-circle <span class="muted">(&amp;#xf05d;)</span></li>
+        <li><i class="icon-fixed-width">&#xf05e;</i> icon-ban-circle <span class="muted">(&amp;#xf05e;)</span></li>
+        <li><i class="icon-fixed-width">&#xf060;</i> icon-arrow-left <span class="muted">(&amp;#xf060;)</span></li>
+        <li><i class="icon-fixed-width">&#xf061;</i> icon-arrow-right <span class="muted">(&amp;#xf061;)</span></li>
+        <li><i class="icon-fixed-width">&#xf062;</i> icon-arrow-up <span class="muted">(&amp;#xf062;)</span></li>
+        <li><i class="icon-fixed-width">&#xf063;</i> icon-arrow-down <span class="muted">(&amp;#xf063;)</span></li>
+        <li><i class="icon-fixed-width">&#xf064;</i> icon-share-alt <span class="muted">(&amp;#xf064;)</span></li>
+        <li><i class="icon-fixed-width">&#xf065;</i> icon-resize-full <span class="muted">(&amp;#xf065;)</span></li>
+        <li><i class="icon-fixed-width">&#xf066;</i> icon-resize-small <span class="muted">(&amp;#xf066;)</span></li>
+        <li><i class="icon-fixed-width">&#xf067;</i> icon-plus <span class="muted">(&amp;#xf067;)</span></li>
+        <li><i class="icon-fixed-width">&#xf068;</i> icon-minus <span class="muted">(&amp;#xf068;)</span></li>
+        <li><i class="icon-fixed-width">&#xf069;</i> icon-asterisk <span class="muted">(&amp;#xf069;)</span></li>
+        <li><i class="icon-fixed-width">&#xf06a;</i> icon-exclamation-sign <span class="muted">(&amp;#xf06a;)</span></li>
+      </ul>
+    </div>
+    <div class="span4">
+      <ul class="unstyled">
+        <li><i class="icon-fixed-width">&#xf06b;</i> icon-gift <span class="muted">(&amp;#xf06b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf06c;</i> icon-leaf <span class="muted">(&amp;#xf06c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf06d;</i> icon-fire <span class="muted">(&amp;#xf06d;)</span></li>
+        <li><i class="icon-fixed-width">&#xf06e;</i> icon-eye-open <span class="muted">(&amp;#xf06e;)</span></li>
+        <li><i class="icon-fixed-width">&#xf070;</i> icon-eye-close <span class="muted">(&amp;#xf070;)</span></li>
+        <li><i class="icon-fixed-width">&#xf071;</i> icon-warning-sign <span class="muted">(&amp;#xf071;)</span></li>
+        <li><i class="icon-fixed-width">&#xf072;</i> icon-plane <span class="muted">(&amp;#xf072;)</span></li>
+        <li><i class="icon-fixed-width">&#xf073;</i> icon-calendar <span class="muted">(&amp;#xf073;)</span></li>
+        <li><i class="icon-fixed-width">&#xf074;</i> icon-random <span class="muted">(&amp;#xf074;)</span></li>
+        <li><i class="icon-fixed-width">&#xf075;</i> icon-comment <span class="muted">(&amp;#xf075;)</span></li>
+        <li><i class="icon-fixed-width">&#xf076;</i> icon-magnet <span class="muted">(&amp;#xf076;)</span></li>
+        <li><i class="icon-fixed-width">&#xf077;</i> icon-chevron-up <span class="muted">(&amp;#xf077;)</span></li>
+        <li><i class="icon-fixed-width">&#xf078;</i> icon-chevron-down <span class="muted">(&amp;#xf078;)</span></li>
+        <li><i class="icon-fixed-width">&#xf079;</i> icon-retweet <span class="muted">(&amp;#xf079;)</span></li>
+        <li><i class="icon-fixed-width">&#xf07a;</i> icon-shopping-cart <span class="muted">(&amp;#xf07a;)</span></li>
+        <li><i class="icon-fixed-width">&#xf07b;</i> icon-folder-close <span class="muted">(&amp;#xf07b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf07c;</i> icon-folder-open <span class="muted">(&amp;#xf07c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf07d;</i> icon-resize-vertical <span class="muted">(&amp;#xf07d;)</span></li>
+        <li><i class="icon-fixed-width">&#xf07e;</i> icon-resize-horizontal <span class="muted">(&amp;#xf07e;)</span></li>
+        <li><i class="icon-fixed-width">&#xf080;</i> icon-bar-chart <span class="muted">(&amp;#xf080;)</span></li>
+        <li><i class="icon-fixed-width">&#xf081;</i> icon-twitter-sign <span class="muted">(&amp;#xf081;)</span></li>
+        <li><i class="icon-fixed-width">&#xf082;</i> icon-facebook-sign <span class="muted">(&amp;#xf082;)</span></li>
+        <li><i class="icon-fixed-width">&#xf083;</i> icon-camera-retro <span class="muted">(&amp;#xf083;)</span></li>
+        <li><i class="icon-fixed-width">&#xf084;</i> icon-key <span class="muted">(&amp;#xf084;)</span></li>
+        <li><i class="icon-fixed-width">&#xf085;</i> icon-cogs <span class="muted">(&amp;#xf085;)</span></li>
+        <li><i class="icon-fixed-width">&#xf086;</i> icon-comments <span class="muted">(&amp;#xf086;)</span></li>
+        <li><i class="icon-fixed-width">&#xf087;</i> icon-thumbs-up <span class="muted">(&amp;#xf087;)</span></li>
+        <li><i class="icon-fixed-width">&#xf088;</i> icon-thumbs-down <span class="muted">(&amp;#xf088;)</span></li>
+        <li><i class="icon-fixed-width">&#xf089;</i> icon-star-half <span class="muted">(&amp;#xf089;)</span></li>
+        <li><i class="icon-fixed-width">&#xf08a;</i> icon-heart-empty <span class="muted">(&amp;#xf08a;)</span></li>
+        <li><i class="icon-fixed-width">&#xf08b;</i> icon-signout <span class="muted">(&amp;#xf08b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf08c;</i> icon-linkedin-sign <span class="muted">(&amp;#xf08c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf08d;</i> icon-pushpin <span class="muted">(&amp;#xf08d;)</span></li>
+        <li><i class="icon-fixed-width">&#xf08e;</i> icon-external-link <span class="muted">(&amp;#xf08e;)</span></li>
+        <li><i class="icon-fixed-width">&#xf090;</i> icon-signin <span class="muted">(&amp;#xf090;)</span></li>
+        <li><i class="icon-fixed-width">&#xf091;</i> icon-trophy <span class="muted">(&amp;#xf091;)</span></li>
+        <li><i class="icon-fixed-width">&#xf092;</i> icon-github-sign <span class="muted">(&amp;#xf092;)</span></li>
+        <li><i class="icon-fixed-width">&#xf093;</i> icon-upload-alt <span class="muted">(&amp;#xf093;)</span></li>
+        <li><i class="icon-fixed-width">&#xf094;</i> icon-lemon <span class="muted">(&amp;#xf094;)</span></li>
+        <li><i class="icon-fixed-width">&#xf095;</i> icon-phone <span class="muted">(&amp;#xf095;)</span></li>
+        <li><i class="icon-fixed-width">&#xf096;</i> icon-check-empty <span class="muted">(&amp;#xf096;)</span></li>
+        <li><i class="icon-fixed-width">&#xf097;</i> icon-bookmark-empty <span class="muted">(&amp;#xf097;)</span></li>
+        <li><i class="icon-fixed-width">&#xf098;</i> icon-phone-sign <span class="muted">(&amp;#xf098;)</span></li>
+        <li><i class="icon-fixed-width">&#xf099;</i> icon-twitter <span class="muted">(&amp;#xf099;)</span></li>
+        <li><i class="icon-fixed-width">&#xf09a;</i> icon-facebook <span class="muted">(&amp;#xf09a;)</span></li>
+        <li><i class="icon-fixed-width">&#xf09b;</i> icon-github <span class="muted">(&amp;#xf09b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf09c;</i> icon-unlock <span class="muted">(&amp;#xf09c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf09d;</i> icon-credit-card <span class="muted">(&amp;#xf09d;)</span></li>
+        <li><i class="icon-fixed-width">&#xf09e;</i> icon-rss <span class="muted">(&amp;#xf09e;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0a0;</i> icon-hdd <span class="muted">(&amp;#xf0a0;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0a1;</i> icon-bullhorn <span class="muted">(&amp;#xf0a1;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0a2;</i> icon-bell <span class="muted">(&amp;#xf0a2;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0a3;</i> icon-certificate <span class="muted">(&amp;#xf0a3;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0a4;</i> icon-hand-right <span class="muted">(&amp;#xf0a4;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0a5;</i> icon-hand-left <span class="muted">(&amp;#xf0a5;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0a6;</i> icon-hand-up <span class="muted">(&amp;#xf0a6;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0a7;</i> icon-hand-down <span class="muted">(&amp;#xf0a7;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0a8;</i> icon-circle-arrow-left <span class="muted">(&amp;#xf0a8;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0a9;</i> icon-circle-arrow-right <span class="muted">(&amp;#xf0a9;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0aa;</i> icon-circle-arrow-up <span class="muted">(&amp;#xf0aa;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0ab;</i> icon-circle-arrow-down <span class="muted">(&amp;#xf0ab;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0ac;</i> icon-globe <span class="muted">(&amp;#xf0ac;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0ad;</i> icon-wrench <span class="muted">(&amp;#xf0ad;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0ae;</i> icon-tasks <span class="muted">(&amp;#xf0ae;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0b0;</i> icon-filter <span class="muted">(&amp;#xf0b0;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0b1;</i> icon-briefcase <span class="muted">(&amp;#xf0b1;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0b2;</i> icon-fullscreen <span class="muted">(&amp;#xf0b2;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0c0;</i> icon-group <span class="muted">(&amp;#xf0c0;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0c1;</i> icon-link <span class="muted">(&amp;#xf0c1;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0c2;</i> icon-cloud <span class="muted">(&amp;#xf0c2;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0c3;</i> icon-beaker <span class="muted">(&amp;#xf0c3;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0c4;</i> icon-cut <span class="muted">(&amp;#xf0c4;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0c5;</i> icon-copy <span class="muted">(&amp;#xf0c5;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0c6;</i> icon-paper-clip <span class="muted">(&amp;#xf0c6;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0c7;</i> icon-save <span class="muted">(&amp;#xf0c7;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0c8;</i> icon-sign-blank <span class="muted">(&amp;#xf0c8;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0c9;</i> icon-reorder <span class="muted">(&amp;#xf0c9;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0ca;</i> icon-list-ul <span class="muted">(&amp;#xf0ca;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0cb;</i> icon-list-ol <span class="muted">(&amp;#xf0cb;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0cc;</i> icon-strikethrough <span class="muted">(&amp;#xf0cc;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0cd;</i> icon-underline <span class="muted">(&amp;#xf0cd;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0ce;</i> icon-table <span class="muted">(&amp;#xf0ce;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0d0;</i> icon-magic <span class="muted">(&amp;#xf0d0;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0d1;</i> icon-truck <span class="muted">(&amp;#xf0d1;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0d2;</i> icon-pinterest <span class="muted">(&amp;#xf0d2;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0d3;</i> icon-pinterest-sign <span class="muted">(&amp;#xf0d3;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0d4;</i> icon-google-plus-sign <span class="muted">(&amp;#xf0d4;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0d5;</i> icon-google-plus <span class="muted">(&amp;#xf0d5;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0d6;</i> icon-money <span class="muted">(&amp;#xf0d6;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0d7;</i> icon-caret-down <span class="muted">(&amp;#xf0d7;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0d8;</i> icon-caret-up <span class="muted">(&amp;#xf0d8;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0d9;</i> icon-caret-left <span class="muted">(&amp;#xf0d9;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0da;</i> icon-caret-right <span class="muted">(&amp;#xf0da;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0db;</i> icon-columns <span class="muted">(&amp;#xf0db;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0dc;</i> icon-sort <span class="muted">(&amp;#xf0dc;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0dd;</i> icon-sort-down <span class="muted">(&amp;#xf0dd;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0de;</i> icon-sort-up <span class="muted">(&amp;#xf0de;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0e0;</i> icon-envelope-alt <span class="muted">(&amp;#xf0e0;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0e1;</i> icon-linkedin <span class="muted">(&amp;#xf0e1;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0e2;</i> icon-undo <span class="muted">(&amp;#xf0e2;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0e3;</i> icon-legal <span class="muted">(&amp;#xf0e3;)</span></li>
+      </ul>
+    </div>
+    <div class="span4">
+      <ul class="unstyled">
+        <li><i class="icon-fixed-width">&#xf0e4;</i> icon-dashboard <span class="muted">(&amp;#xf0e4;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0e5;</i> icon-comment-alt <span class="muted">(&amp;#xf0e5;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0e6;</i> icon-comments-alt <span class="muted">(&amp;#xf0e6;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0e7;</i> icon-bolt <span class="muted">(&amp;#xf0e7;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0e8;</i> icon-sitemap <span class="muted">(&amp;#xf0e8;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0e9;</i> icon-umbrella <span class="muted">(&amp;#xf0e9;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0ea;</i> icon-paste <span class="muted">(&amp;#xf0ea;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0eb;</i> icon-lightbulb <span class="muted">(&amp;#xf0eb;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0ec;</i> icon-exchange <span class="muted">(&amp;#xf0ec;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0ed;</i> icon-cloud-download <span class="muted">(&amp;#xf0ed;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0ee;</i> icon-cloud-upload <span class="muted">(&amp;#xf0ee;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0f0;</i> icon-user-md <span class="muted">(&amp;#xf0f0;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0f1;</i> icon-stethoscope <span class="muted">(&amp;#xf0f1;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0f2;</i> icon-suitcase <span class="muted">(&amp;#xf0f2;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0f3;</i> icon-bell-alt <span class="muted">(&amp;#xf0f3;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0f4;</i> icon-coffee <span class="muted">(&amp;#xf0f4;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0f5;</i> icon-food <span class="muted">(&amp;#xf0f5;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0f6;</i> icon-file-alt <span class="muted">(&amp;#xf0f6;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0f7;</i> icon-building <span class="muted">(&amp;#xf0f7;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0f8;</i> icon-hospital <span class="muted">(&amp;#xf0f8;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0f9;</i> icon-ambulance <span class="muted">(&amp;#xf0f9;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0fa;</i> icon-medkit <span class="muted">(&amp;#xf0fa;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0fb;</i> icon-fighter-jet <span class="muted">(&amp;#xf0fb;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0fc;</i> icon-beer <span class="muted">(&amp;#xf0fc;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0fd;</i> icon-h-sign <span class="muted">(&amp;#xf0fd;)</span></li>
+        <li><i class="icon-fixed-width">&#xf0fe;</i> icon-plus-sign-alt <span class="muted">(&amp;#xf0fe;)</span></li>
+        <li><i class="icon-fixed-width">&#xf100;</i> icon-double-angle-left <span class="muted">(&amp;#xf100;)</span></li>
+        <li><i class="icon-fixed-width">&#xf101;</i> icon-double-angle-right <span class="muted">(&amp;#xf101;)</span></li>
+        <li><i class="icon-fixed-width">&#xf102;</i> icon-double-angle-up <span class="muted">(&amp;#xf102;)</span></li>
+        <li><i class="icon-fixed-width">&#xf103;</i> icon-double-angle-down <span class="muted">(&amp;#xf103;)</span></li>
+        <li><i class="icon-fixed-width">&#xf104;</i> icon-angle-left <span class="muted">(&amp;#xf104;)</span></li>
+        <li><i class="icon-fixed-width">&#xf105;</i> icon-angle-right <span class="muted">(&amp;#xf105;)</span></li>
+        <li><i class="icon-fixed-width">&#xf106;</i> icon-angle-up <span class="muted">(&amp;#xf106;)</span></li>
+        <li><i class="icon-fixed-width">&#xf107;</i> icon-angle-down <span class="muted">(&amp;#xf107;)</span></li>
+        <li><i class="icon-fixed-width">&#xf108;</i> icon-desktop <span class="muted">(&amp;#xf108;)</span></li>
+        <li><i class="icon-fixed-width">&#xf109;</i> icon-laptop <span class="muted">(&amp;#xf109;)</span></li>
+        <li><i class="icon-fixed-width">&#xf10a;</i> icon-tablet <span class="muted">(&amp;#xf10a;)</span></li>
+        <li><i class="icon-fixed-width">&#xf10b;</i> icon-mobile-phone <span class="muted">(&amp;#xf10b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf10c;</i> icon-circle-blank <span class="muted">(&amp;#xf10c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf10d;</i> icon-quote-left <span class="muted">(&amp;#xf10d;)</span></li>
+        <li><i class="icon-fixed-width">&#xf10e;</i> icon-quote-right <span class="muted">(&amp;#xf10e;)</span></li>
+        <li><i class="icon-fixed-width">&#xf110;</i> icon-spinner <span class="muted">(&amp;#xf110;)</span></li>
+        <li><i class="icon-fixed-width">&#xf111;</i> icon-circle <span class="muted">(&amp;#xf111;)</span></li>
+        <li><i class="icon-fixed-width">&#xf112;</i> icon-reply <span class="muted">(&amp;#xf112;)</span></li>
+        <li><i class="icon-fixed-width">&#xf114;</i> icon-folder-close-alt <span class="muted">(&amp;#xf114;)</span></li>
+        <li><i class="icon-fixed-width">&#xf115;</i> icon-folder-open-alt <span class="muted">(&amp;#xf115;)</span></li>
+        <li><i class="icon-fixed-width">&#xf116;</i> icon-expand-alt <span class="muted">(&amp;#xf116;)</span></li>
+        <li><i class="icon-fixed-width">&#xf117;</i> icon-collapse-alt <span class="muted">(&amp;#xf117;)</span></li>
+        <li><i class="icon-fixed-width">&#xf118;</i> icon-smile <span class="muted">(&amp;#xf118;)</span></li>
+        <li><i class="icon-fixed-width">&#xf119;</i> icon-frown <span class="muted">(&amp;#xf119;)</span></li>
+        <li><i class="icon-fixed-width">&#xf11a;</i> icon-meh <span class="muted">(&amp;#xf11a;)</span></li>
+        <li><i class="icon-fixed-width">&#xf11b;</i> icon-gamepad <span class="muted">(&amp;#xf11b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf11c;</i> icon-keyboard <span class="muted">(&amp;#xf11c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf11d;</i> icon-flag-alt <span class="muted">(&amp;#xf11d;)</span></li>
+        <li><i class="icon-fixed-width">&#xf11e;</i> icon-flag-checkered <span class="muted">(&amp;#xf11e;)</span></li>
+        <li><i class="icon-fixed-width">&#xf120;</i> icon-terminal <span class="muted">(&amp;#xf120;)</span></li>
+        <li><i class="icon-fixed-width">&#xf121;</i> icon-code <span class="muted">(&amp;#xf121;)</span></li>
+        <li><i class="icon-fixed-width">&#xf122;</i> icon-reply-all <span class="muted">(&amp;#xf122;)</span></li>
+        <li><i class="icon-fixed-width">&#xf122;</i> icon-mail-reply-all <span class="muted">(&amp;#xf122;)</span></li>
+        <li><i class="icon-fixed-width">&#xf123;</i> icon-star-half-empty <span class="muted">(&amp;#xf123;)</span></li>
+        <li><i class="icon-fixed-width">&#xf124;</i> icon-location-arrow <span class="muted">(&amp;#xf124;)</span></li>
+        <li><i class="icon-fixed-width">&#xf125;</i> icon-crop <span class="muted">(&amp;#xf125;)</span></li>
+        <li><i class="icon-fixed-width">&#xf126;</i> icon-code-fork <span class="muted">(&amp;#xf126;)</span></li>
+        <li><i class="icon-fixed-width">&#xf127;</i> icon-unlink <span class="muted">(&amp;#xf127;)</span></li>
+        <li><i class="icon-fixed-width">&#xf128;</i> icon-question <span class="muted">(&amp;#xf128;)</span></li>
+        <li><i class="icon-fixed-width">&#xf129;</i> icon-info <span class="muted">(&amp;#xf129;)</span></li>
+        <li><i class="icon-fixed-width">&#xf12a;</i> icon-exclamation <span class="muted">(&amp;#xf12a;)</span></li>
+        <li><i class="icon-fixed-width">&#xf12b;</i> icon-superscript <span class="muted">(&amp;#xf12b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf12c;</i> icon-subscript <span class="muted">(&amp;#xf12c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf12d;</i> icon-eraser <span class="muted">(&amp;#xf12d;)</span></li>
+        <li><i class="icon-fixed-width">&#xf12e;</i> icon-puzzle-piece <span class="muted">(&amp;#xf12e;)</span></li>
+        <li><i class="icon-fixed-width">&#xf130;</i> icon-microphone <span class="muted">(&amp;#xf130;)</span></li>
+        <li><i class="icon-fixed-width">&#xf131;</i> icon-microphone-off <span class="muted">(&amp;#xf131;)</span></li>
+        <li><i class="icon-fixed-width">&#xf132;</i> icon-shield <span class="muted">(&amp;#xf132;)</span></li>
+        <li><i class="icon-fixed-width">&#xf133;</i> icon-calendar-empty <span class="muted">(&amp;#xf133;)</span></li>
+        <li><i class="icon-fixed-width">&#xf134;</i> icon-fire-extinguisher <span class="muted">(&amp;#xf134;)</span></li>
+        <li><i class="icon-fixed-width">&#xf135;</i> icon-rocket <span class="muted">(&amp;#xf135;)</span></li>
+        <li><i class="icon-fixed-width">&#xf136;</i> icon-maxcdn <span class="muted">(&amp;#xf136;)</span></li>
+        <li><i class="icon-fixed-width">&#xf137;</i> icon-chevron-sign-left <span class="muted">(&amp;#xf137;)</span></li>
+        <li><i class="icon-fixed-width">&#xf138;</i> icon-chevron-sign-right <span class="muted">(&amp;#xf138;)</span></li>
+        <li><i class="icon-fixed-width">&#xf139;</i> icon-chevron-sign-up <span class="muted">(&amp;#xf139;)</span></li>
+        <li><i class="icon-fixed-width">&#xf13a;</i> icon-chevron-sign-down <span class="muted">(&amp;#xf13a;)</span></li>
+        <li><i class="icon-fixed-width">&#xf13b;</i> icon-html5 <span class="muted">(&amp;#xf13b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf13c;</i> icon-css3 <span class="muted">(&amp;#xf13c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf13d;</i> icon-anchor <span class="muted">(&amp;#xf13d;)</span></li>
+        <li><i class="icon-fixed-width">&#xf13e;</i> icon-unlock-alt <span class="muted">(&amp;#xf13e;)</span></li>
+        <li><i class="icon-fixed-width">&#xf140;</i> icon-bullseye <span class="muted">(&amp;#xf140;)</span></li>
+        <li><i class="icon-fixed-width">&#xf141;</i> icon-ellipsis-horizontal <span class="muted">(&amp;#xf141;)</span></li>
+        <li><i class="icon-fixed-width">&#xf142;</i> icon-ellipsis-vertical <span class="muted">(&amp;#xf142;)</span></li>
+        <li><i class="icon-fixed-width">&#xf143;</i> icon-rss-sign <span class="muted">(&amp;#xf143;)</span></li>
+        <li><i class="icon-fixed-width">&#xf144;</i> icon-play-sign <span class="muted">(&amp;#xf144;)</span></li>
+        <li><i class="icon-fixed-width">&#xf145;</i> icon-ticket <span class="muted">(&amp;#xf145;)</span></li>
+        <li><i class="icon-fixed-width">&#xf146;</i> icon-minus-sign-alt <span class="muted">(&amp;#xf146;)</span></li>
+        <li><i class="icon-fixed-width">&#xf147;</i> icon-check-minus <span class="muted">(&amp;#xf147;)</span></li>
+        <li><i class="icon-fixed-width">&#xf148;</i> icon-level-up <span class="muted">(&amp;#xf148;)</span></li>
+        <li><i class="icon-fixed-width">&#xf149;</i> icon-level-down <span class="muted">(&amp;#xf149;)</span></li>
+        <li><i class="icon-fixed-width">&#xf14a;</i> icon-check-sign <span class="muted">(&amp;#xf14a;)</span></li>
+        <li><i class="icon-fixed-width">&#xf14b;</i> icon-edit-sign <span class="muted">(&amp;#xf14b;)</span></li>
+        <li><i class="icon-fixed-width">&#xf14c;</i> icon-external-link-sign <span class="muted">(&amp;#xf14c;)</span></li>
+        <li><i class="icon-fixed-width">&#xf14d;</i> icon-share-sign <span class="muted">(&amp;#xf14d;)</span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</div>
+
+  <div class="push"><!-- necessary for sticky footer --></div>
+</div>
+<footer class="footer hidden-print">
+  <div class="container text-center">
+    <div>
+      <i class="icon-flag"></i> Font Awesome 3.1.0 &middot;
+      Created and Maintained by Dave Gandy &middot;
+      <a href="http://twitter.com/byscuits">@byscuits</a>
+    </div>
+    <div>
+      Font Awesome font licensed under <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a> &middot;
+      Code licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a> &middot;
+      Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>
+    </div>
+    <div>
+      Thanks to <a href="http://maxcdn.com"><i class="icon-maxcdn"></i> MaxCDN</a> for providing the excellent <a href="http://www.bootstrapcdn.com/#tab_fontawesome">BootstrapCDN for Font Awesome</a>
+    </div>
+    <div class="project">
+      <a href="https://github.com/FortAwesome/Font-Awesome">GitHub Project</a> &middot;
+      <a href="https://github.com/FortAwesome/Font-Awesome/issues">Issues</a>
+    </div>
+  </div>
+</footer>
+
+
+<script src="http://platform.twitter.com/widgets.js"></script>
+<script src="../assets/js/jquery-1.7.1.min.js"></script>
+<script src="../assets/js/underscore.min.js"></script>
+<script src="../assets/js/backbone.min.js"></script>
+<!--<script src="../assets/js/prettify.min.js"></script>-->
+<script src="../assets/js/bootstrap-2.3.1.min.js"></script>
+<script src="../assets/js/site.js"></script>
+
+</body>
+</html>

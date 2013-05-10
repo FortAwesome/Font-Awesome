@@ -17,18 +17,58 @@
 @grayLighter:           #eee;
 @white:                 #fff;
 
+// Blues
+// -------------------------
+@blueDarker:            #003366;
+@blueDark:              #005f9b; // Pantone 3015 C;
+@blue:                  #009add; // Pantone 2925 C;
+@blueLight:             #b8dcf2;
+@blueLighter:           #f0f9ff;
+
+// Greens
+// -------------------------
+@greenDarker:           #41683b;
+@greenDark:             #678943;
+@green:                 #95bf52;
+@greenLight:            #ddefbd;
+@greenLighter:          #f3f9e8;
+
+// Reds
+// -------------------------
+@redDarker:             #702222;
+@redDark:               #ba4a4a;
+@red:                   #dd7373;
+@redLight:              #f2adb1;
+@redLighter:            #fff0f0;
+
+// Yellows
+// -------------------------
+@yellowDarker:          #5b4411;
+@yellowDark:            #cc9600;
+@yellow:                #f9e27d;
+@yellowLight:           #fff5bd;
+@yellowLighter:         #fffcee;
+
+// Oranges
+// -------------------------
+@orangeDarker:          #8c3900;
+@orangeDark:            #cc5d11;
+@orange:                #f4914e;
+@orangeLight:           #ffd0a6;
+@orangeLighter:         #fff4e6;
+
+// Purples
+// -------------------------
+@purpleDarker:          #4a226d;
+@purpleDark:            #7457ad;
+@purple:                #9780d6;
+@purpleLight:           #c3b8f4;
+@purpleLighter:         #fbf5ff;
+
 
 // Accent colors
 // -------------------------
-@blue:                  #009add; // Kyruus Light Blue
-@blueDark:              #005f9b; // Kyruus Blue
-@green:                 #46a546;
 @red:                   #9d261d;
-@yellow:                #ffc40d;
-@orange:                #f89406;
-@pink:                  #c3325f;
-@purple:                #7a43b6;
-
 @redDark:               darken(@red, 10%);
 
 
@@ -56,7 +96,7 @@
 @altFontFamily:         @serifFontFamily;
 
 @headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
-@headingsFontWeight:    bold;    // instead of browser default, bold
+@headingsFontWeight:    500;    // instead of browser default, bold
 @headingsColor:         inherit; // empty to use BS default, @textColor
 
 
@@ -93,14 +133,14 @@
 @btnPrimaryBackground:              #fffeb8;
 @btnPrimaryBackgroundHighlight:     #c49c38;
 
-@btnInfoBackground:                 #5bc0de;
-@btnInfoBackgroundHighlight:        #2f96b4;
+@btnInfoBackground:                 @blue;
+@btnInfoBackgroundHighlight:        mix(@blue, @blueDark, 50%);
 
-@btnSuccessBackground:              #62c462;
-@btnSuccessBackgroundHighlight:     #51a351;
+@btnSuccessBackground:              @green;
+@btnSuccessBackgroundHighlight:     @greenDark;
 
-@btnWarningBackground:              lighten(@orange, 15%);
-@btnWarningBackgroundHighlight:     @orange;
+@btnWarningBackground:              @yellow;
+@btnWarningBackgroundHighlight:     @yellowDark;
 
 @btnDangerBackground:               lighten(@red, 20%);
 @btnDangerBackgroundHighlight:      lighten(@red, 5%);
@@ -232,21 +272,25 @@
 
 // Form states and alerts
 // -------------------------
-@warningText:             #c09853;
-@warningBackground:       #fcf8e3;
-@warningBorder:           darken(spin(@warningBackground, -10), 3%);
+@warningText:             mix(@yellowDark, @yellowDarker, 80%);
+@warningBackground:       @yellowLighter;
+@warningBorder:           darken(spin(@warningBackground, -10), 7%);
 
-@errorText:               #b94a48;
-@errorBackground:         #f2dede;
-@errorBorder:             darken(spin(@errorBackground, -10), 3%);
+@errorText:               @red;
+@errorBackground:         @redLighter;
+@errorBorder:             darken(spin(@errorBackground, -10), 4%);
 
-@successText:             #468847;
-@successBackground:       #dff0d8;
-@successBorder:           darken(spin(@successBackground, -10), 5%);
+@successText:             mix(@greenDarker, @greenDark, 30%);
+@successBackground:       @greenLighter;
+@successBorder:           darken(spin(@successBackground, -10), 13%);
 
-@infoText:                #3a87ad;
-@infoBackground:          #d9edf7;
+@infoText:                mix(@blueDark, @blue, 50%);
+@infoBackground:          @blueLighter;
 @infoBorder:              darken(spin(@infoBackground, -10), 7%);
+
+@inverseText:             @white;
+@inverseBackground:       @gray;
+@inverseBorder:           darken(spin(@inverseBackground, -10), 7%);
 
 
 // Tooltips and popovers

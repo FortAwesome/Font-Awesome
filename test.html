@@ -2,15 +2,16 @@
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
 <head>
   <!-- Basic Page Needs
  ================================================== -->
   <meta charset="utf-8" />
-  <title>Font Awesome Tests</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <!--<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">-->
+  <title>Font Awesome Visual Test Cases</title>
+  <meta name="description" content="Font Awesome, the iconic font designed for use with Bootstrap">
+  <meta name="author" content="Dave Gandy">
+  <meta name="viewport" content="initial-scale=1; maximum-scale=1">
 
   <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,14 +20,17 @@
   <!-- CSS
  ================================================== -->
 
-  <link rel="stylesheet" href="assets/css/site.css">
-  <link rel="stylesheet" href="assets/css/prettify.css">
-  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="./assets/css/site.css">
+  <link rel="stylesheet" href="./assets/css/pygments.css">
+  <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">
   <!--[if IE 7]>
-  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+  <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome-ie7.min.css">
   <![endif]-->
   <!-- Le fav and touch icons -->
-  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  <link rel="shortcut icon" href="./assets/ico/favicon.ico">
+
+  <script type="text/javascript" src="//use.typekit.net/wnc7ioh.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -40,10 +44,70 @@
     })();
   </script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar">
+<div class="wrapper"> <!-- necessary for sticky footer. wrap all content except footer -->
+  <div class="navbar navbar-inverse navbar-static-top hidden-print">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="./"><i class="icon-flag"></i> Font Awesome</a>
+      <ul class="nav">
+        <li><a href="./">Home</a></li>
+        <li><a href="./get-started/">Get Started</a></li>
+        <li class="dropdown-split-left"><a href="./icons/">Icons</a></li>
+        <li class="dropdown dropdown-split-right">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <i class="icon-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="./icons/"><i class="icon-flag icon-fixed-width"></i>&nbsp; Icons</a></li>
+          <li class="divider"></li>
+          <li><a href="./icons/#new"><i class="icon-shield icon-fixed-width"></i>&nbsp; New Icons in 3.1.0</a></li>
+          <li><a href="./icons/#web-application"><i class="icon-camera-retro icon-fixed-width"></i>&nbsp; Web Application Icons</a></li>
+          <li><a href="./icons/#text-editor"><i class="icon-file-alt icon-fixed-width"></i>&nbsp; Text Editor Icons</a></li>
+          <li><a href="./icons/#directional"><i class="icon-hand-right icon-fixed-width"></i>&nbsp; Directional Icons</a></li>
+          <li><a href="./icons/#video-player"><i class="icon-play-sign icon-fixed-width"></i>&nbsp; Video Player Icons</a></li>
+          <li><a href="./icons/#brand"><i class="icon-github icon-fixed-width"></i>&nbsp; Brand Icons</a></li>
+          <li><a href="./icons/#medical"><i class="icon-medkit icon-fixed-width"></i>&nbsp; Medical Icons</a></li>
+        </ul>
+        </li>
+        <li class="dropdown-split-left"><a href="./examples/">Examples</a></li>
+        <li class="dropdown dropdown-split-right">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="icon-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu pull-right">
+            <li><a href="./examples/">Examples</a></li>
+            <li class="divider"></li>
+            <li><a href="./examples/#new-styles">New Styles</a></li>
+            <li><a href="./examples/#inline-icons">Inline Icons</a></li>
+            <li><a href="./examples/#larger-icons">Larger Icons</a></li>
+            <li><a href="./examples/#bordered-pulled">Bordered & Pulled</a></li>
+            <li><a href="./examples/#buttons">Buttons</a></li>
+            <li><a href="./examples/#button-groups">Button Groups</a></li>
+            <li><a href="./examples/#button-dropdowns">Button Dropdowns</a></li>
+            <li><a href="./examples/#bulleted-lists">Bulleted Lists</a></li>
+            <li><a href="./examples/#navigation">Navigation</a></li>
+            <li><a href="./examples/#form-inputs">Form Inputs</a></li>
+            <li><a href="./examples/#animated-spinner">Animated Spinner</a></li>
+            <li><a href="./examples/#rotated-flipped">Rotated &amp; Flipped</a></li>
+            <li><a href="./examples/#stacked">Stacked</a></li>
+            <li><a href="./examples/#custom">Custom CSS</a></li>
+          </ul>
+        </li>
+        <li><a href="./whats-new/">What's New</a></li>
+        <li><a href="./community/">Community</a></li>
+        <li><a href="./license/">License</a></li>
+      </ul>
+      <ul class="nav pull-right">
+        <li><a href="mailto:dave@fontawesome.io"><i class="icon-envelope"></i>&nbsp; Me</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-<div class="container">
-  <h1>Visual tests</h1>
+
+  <section class="container">
+  <h1 class="page-header">Visual Test Cases</h1>
 
   <h3>Icons <small>Icons should have proper alignment and not be clipped</small></h3>
   <div class="row">
@@ -514,18 +578,63 @@
   <h3>Bullets <small>should wrap appropriately, have proper spacing</small></h3>
   <div class="row">
     <div class="span6">
-      <ul class="icons">
-        <li><i class="icon-double-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li><i class="icon-arrow-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
-        <li><i class="icon-building"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      </ul>
+      <div style="border: solid 1px #d3d3d3;">
+<ul class="icons-ul">
+  <li><i class="icon-li icon-double-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+  <li><i class="icon-li icon-arrow-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+  <li><i class="icon-li icon-building"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+</ul>
+      </div>
     </div>
     <div class="span6">
-      <ul class="icons">
-        <li><i class="icon-double-angle-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li><i class="icon-arrow-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
-        <li><i class="icon-building icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      </ul>
+      <div style="border: solid 1px #d3d3d3;">
+        <ul class="icons-ul">
+          <li><i class="icon-li icon-double-angle-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li><i class="icon-li icon-arrow-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+          <li><i class="icon-li icon-building icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3;">
+        <ul class="icons-ul lead">
+          <li><i class="icon-li icon-double-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li><i class="icon-li icon-arrow-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+          <li><i class="icon-li icon-building"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3;">
+        <ul class="icons-ul lead">
+          <li><i class="icon-li icon-double-angle-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li><i class="icon-li icon-arrow-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+          <li><i class="icon-li icon-building icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3;">
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3;">
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </div>
     </div>
   </div>
 
@@ -575,10 +684,173 @@
     <button class="btn btn-large"><i class="icon-circle-blank icon-large icon-spin"></i> Loading...</button>
   </div>
 
-</div>
+  <h3>Stacked icons</h3>
+  <div class="well">
+    <p>
+  <span class="icon-stack">
+    <i class="icon-sign-blank icon-stack-base"></i>
+    <i class="icon-twitter icon-light"></i>
+  </span>
+  Twitter Icon
+  <span class="icon-stack">
+    <i class="icon-sign-blank icon-stack-base"></i>
+    <i class="icon-facebook icon-light"></i>
+  </span>
+  Facebook Icon
+  <span class="icon-stack">
+    <i class="icon-sign-blank icon-stack-base"></i>
+    <i class="icon-github icon-light"></i>
+  </span>
+  GitHub Icon
+</p>
+<p>
+  <span class="icon-stack">
+    <i class="icon-circle icon-stack-base"></i>
+    <i class="icon-twitter icon-light"></i>
+  </span>
+  Twitter Icon
+  <span class="icon-stack">
+    <i class="icon-circle icon-stack-base"></i>
+    <i class="icon-facebook icon-light"></i>
+  </span>
+  Facebook Icon
+  <span class="icon-stack">
+    <i class="icon-circle icon-stack-base"></i>
+    <i class="icon-github icon-light"></i>
+  </span>
+  GitHub Icon
+</p>
+<p>
+  <span class="icon-stack">
+    <i class="icon-circle-blank icon-stack-base"></i>
+    <i class="icon-twitter"></i>
+  </span>
+  Twitter Icon
+  <span class="icon-stack">
+    <i class="icon-circle-blank icon-stack-base"></i>
+    <i class="icon-facebook"></i>
+  </span>
+  Facebook Icon
+  <span class="icon-stack">
+    <i class="icon-circle-blank icon-stack-base"></i>
+    <i class="icon-github"></i>
+  </span>
+  GitHub Icon
+</p>
+  </div>
+  <div class="well lead">
+    <p>
+  <span class="icon-stack">
+    <i class="icon-sign-blank icon-stack-base"></i>
+    <i class="icon-twitter icon-light"></i>
+  </span>
+  Twitter Icon
+  <span class="icon-stack">
+    <i class="icon-sign-blank icon-stack-base"></i>
+    <i class="icon-facebook icon-light"></i>
+  </span>
+  Facebook Icon
+  <span class="icon-stack">
+    <i class="icon-sign-blank icon-stack-base"></i>
+    <i class="icon-github icon-light"></i>
+  </span>
+  GitHub Icon
+</p>
+<p>
+  <span class="icon-stack">
+    <i class="icon-circle icon-stack-base"></i>
+    <i class="icon-twitter icon-light"></i>
+  </span>
+  Twitter Icon
+  <span class="icon-stack">
+    <i class="icon-circle icon-stack-base"></i>
+    <i class="icon-facebook icon-light"></i>
+  </span>
+  Facebook Icon
+  <span class="icon-stack">
+    <i class="icon-circle icon-stack-base"></i>
+    <i class="icon-github icon-light"></i>
+  </span>
+  GitHub Icon
+</p>
+<p>
+  <span class="icon-stack">
+    <i class="icon-circle-blank icon-stack-base"></i>
+    <i class="icon-twitter"></i>
+  </span>
+  Twitter Icon
+  <span class="icon-stack">
+    <i class="icon-circle-blank icon-stack-base"></i>
+    <i class="icon-facebook"></i>
+  </span>
+  Facebook Icon
+  <span class="icon-stack">
+    <i class="icon-circle-blank icon-stack-base"></i>
+    <i class="icon-github"></i>
+  </span>
+  GitHub Icon
+</p>
+  </div>
 
-<script src="assets/js/jquery-1.7.1.min.js"></script>
-<script src="assets/js/bootstrap-222.min.js"></script>
+  <h3>Mirrored and rotated icons</h3>
+  <div class="row">
+    <div class="span6">
+      <div class="well">
+        <i class="icon-flag"></i>&nbsp; normal<br>
+<i class="icon-flag icon-rotate-90"></i>&nbsp; icon-rotate-90<br>
+<i class="icon-flag icon-rotate-180"></i>&nbsp; icon-rotate-180<br>
+<i class="icon-flag icon-rotate-270"></i>&nbsp; icon-rotate-270<br>
+<i class="icon-flag icon-flip-horizontal"></i>&nbsp; icon-flip-horizontal<br>
+<i class="icon-flag icon-flip-vertical"></i>&nbsp; icon-flip-vertical
+
+      </div>
+    </div>
+    <div class="span6">
+      <div class="well lead">
+        <i class="icon-flag"></i>&nbsp; normal<br>
+<i class="icon-flag icon-rotate-90"></i>&nbsp; icon-rotate-90<br>
+<i class="icon-flag icon-rotate-180"></i>&nbsp; icon-rotate-180<br>
+<i class="icon-flag icon-rotate-270"></i>&nbsp; icon-rotate-270<br>
+<i class="icon-flag icon-flip-horizontal"></i>&nbsp; icon-flip-horizontal<br>
+<i class="icon-flag icon-flip-vertical"></i>&nbsp; icon-flip-vertical
+
+      </div>
+    </div>
+</div>
+</section>
+
+  <div class="push"><!-- necessary for sticky footer --></div>
+</div>
+<footer class="footer hidden-print">
+  <div class="container text-center">
+    <div>
+      <i class="icon-flag"></i> Font Awesome 3.1.0 &middot;
+      Created and Maintained by Dave Gandy &middot;
+      <a href="http://twitter.com/byscuits">@byscuits</a>
+    </div>
+    <div>
+      Font Awesome font licensed under <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a> &middot;
+      Code licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a> &middot;
+      Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>
+    </div>
+    <div>
+      Thanks to <a href="http://maxcdn.com"><i class="icon-maxcdn"></i> MaxCDN</a> for providing the excellent <a href="http://www.bootstrapcdn.com/#tab_fontawesome">BootstrapCDN for Font Awesome</a>
+    </div>
+    <div class="project">
+      <a href="https://github.com/FortAwesome/Font-Awesome">GitHub Project</a> &middot;
+      <a href="https://github.com/FortAwesome/Font-Awesome/issues">Issues</a>
+    </div>
+  </div>
+</footer>
+
+
+<script src="http://platform.twitter.com/widgets.js"></script>
+<script src="./assets/js/jquery-1.7.1.min.js"></script>
+<script src="./assets/js/underscore.min.js"></script>
+<script src="./assets/js/backbone.min.js"></script>
+<!--<script src="./assets/js/prettify.min.js"></script>-->
+<script src="./assets/js/bootstrap-2.3.1.min.js"></script>
+<script src="./assets/js/site.js"></script>
 
 </body>
 </html>
