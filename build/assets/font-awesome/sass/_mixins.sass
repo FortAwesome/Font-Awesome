@@ -1,0 +1,112 @@
+// Mixins
+// --------------------------
+=fontawesome
+  font-family: FontAwesome
+  font-weight: normal
+  font-style: normal
+  text-decoration: inherit
+  -webkit-font-smoothing: antialiased
+  *margin-right: .3em // fixes ie7 issues
+
+  &:before, &:before
+    text-decoration: inherit
+    display: inline-block
+    speak: none
+
+
+
+
+
+=icon-large
+  &:before
+    vertical-align: -10%
+    font-size: 4/3em
+
+
+=icon-list
+  list-style-type: none
+  text-indent: -10/14em
+  margin-left: 30/14em
+  > li
+    .icon-li
+      width: 10/14em
+      display: inline-block
+      text-align: center
+
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  -ms-border-radius: $radius
+  -o-border-radius: $radius
+  border-radius: $radius
+
+
+=icon-stack($width: 2em, $height: 2em, $top-font-size: 1em, $base-font-size: 2em)
+  .icon-stack
+    position: relative
+    display: inline-block
+    width: $width
+    height: $height
+    line-height: $width
+    vertical-align: -35%
+    [class^="icon-"],
+    [class*=" icon-"]
+      display: block
+      text-align: center
+      position: absolute
+      width: 100%
+      height: 100%
+      font-size: $top-font-size
+      line-height: inherit
+      *line-height: $height
+
+    .icon-stack-base
+      font-size: $base-font-size
+      *line-height: $height / $base-font-size
+
+// keyframes mixin
+=keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content
+
+
+=icon($code)
+  &:before
+    content: $code
+
+
+
+/* Animated rotating icon */
+=icon-spin
+  display: inline-block
+  +experimental(animation, spin 2s infinite linear)
+
+/* Icon rotations and mirroring */
+=icon-rotate-90
+  &:before
+    +experimental(transform, rotate(90deg))
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1)
+
+=icon-flip-vertical
+  &:before
+    +experimental(transform, scale(1, -1))
+
+=icon-rotate-180
+  &:before
+    +experimental(transform, rotate(180deg))
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2)
+
+=icon-rotate-270
+  &:before
+    +experimental(transform, rotate(270deg))
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3)
+
+=icon-flip-horizontal
+  &:before
+    +experimental(transform, scale(-1, 1))

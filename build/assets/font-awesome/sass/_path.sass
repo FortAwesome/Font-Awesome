@@ -1,0 +1,22 @@
+/* FONT PATH
+ * -------------------------- */
+
+// @font-face
+//   font-family: 'FontAwesome'
+//   src: url('$FontAwesomePath/fontawesome-webfont.eot?v=#{$FontAwesomeVersion}')
+//   src: url('#{$FontAwesomePath}/fontawesome-webfont.eot?#iefix&v=#{$FontAwesomeVersion}') format('embedded-opentype'),
+//     url('$FontAwesomePath/fontawesome-webfont.woff?v=#{$FontAwesomeVersion}') format('woff'),
+//     url('$FontAwesomePath/fontawesome-webfont.ttf?v=#{$FontAwesomeVersion}') format('truetype'),
+//     url('$FontAwesomePath/fontawesome-webfont.svg#fontawesomeregular?v=#{$FontAwesomeVersion}') format('svg')
+//   font-weight: normal
+//   font-style: normal
+
+
+@import compass/css3/font-face
+
+$woff: "#{$FontAwesomePath}.woff?v=#{$FontAwesomeVersion}"
+$truetype: "#{$FontAwesomePath}.ttf?v=#{$FontAwesomeVersion}"
+$svg: "#{$FontAwesomePath}.svg#FontAwesomeRegular?v=#{$FontAwesomeVersion}"
+$eot: "#{$FontAwesomePath}.eot?v=#{$FontAwesomeVersion}"
+
++font-face("FontAwesome", font-files( $woff, woff, $truetype, truetype, $svg, svg), $eot, normal, normal)
