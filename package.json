@@ -1,0 +1,36 @@
+{
+    "name"   : "FontAwesome",
+    "version": "3.0.0",
+
+    "author"     : "Dave <dave@davegandy.com>",
+    "description": "the iconic font designed for use with Twitter Bootstrap",
+
+    "contributors": [
+        {
+            "name" : "Dave",
+            "email": "dave@davegandy.com"
+        },
+        {
+            "name" : "Kersten Burkhardt",
+            "email": "burkhardt@mhp-net.de"
+        }
+    ],
+
+    "repository": {
+        "type": "git",
+        "url" : "git://github.com/FortAwesome/Font-Awesome.git"
+    },
+
+    "licenses": [
+        {
+           "type": "SIL Open Font License",
+            "url": "http://scripts.sil.org/OFL"
+        }, {
+            "type": "MIT License",
+            "url": "http://opensource.org/licenses/mit-license.html"
+        }, {
+            "type": "CC BY 3.0 License",
+            "url": "http://creativecommons.org/licenses/by/3.0/"
+        }
+    ]
+}
