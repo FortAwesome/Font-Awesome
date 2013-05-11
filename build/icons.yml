@@ -1856,17 +1856,12 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       star-half-full
-    id:         star-half-full
-    unicode:    f123
-    created:    3.1.0
-    categories:
-      - Web Application Icons
-
   - name:       star-half-empty
     id:         star-half-empty
     unicode:    f123
     created:    3.1.0
+    aliases:
+      - star-half-full
     categories:
       - Web Application Icons
 

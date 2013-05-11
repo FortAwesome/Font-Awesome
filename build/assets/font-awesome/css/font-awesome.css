@@ -1142,6 +1142,7 @@ ul.icons-ul > li .icon-li {
 .icon-mail-reply-all:before {
   content: "\f122";
 }
+.icon-star-half-full:before,
 .icon-star-half-empty:before {
   content: "\f123";
 }

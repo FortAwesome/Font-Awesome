@@ -857,6 +857,7 @@ a [class*=" icon-"] {
 .icon-mail-reply-all {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf122;');
 }
+.icon-star-half-full,
 .icon-star-half-empty {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf123;');
 }
