@@ -16,10 +16,10 @@ icon_layout:      icon.html    # Relative to _layouts directory
 icon_destination: icon         # Relative to destination
 
 font_awesome:
-  version:        3.1.0
+  version:        3.1.1
   url:            http://fontawesome.io
   legacy_url:     http://fortawesome.github.com/Font-Awesome/
-  twitter:        fortaweso_me
+  twitter:        fontawesome
   author:
     name:         Dave Gandy
     email:        dave@fontawesome.io
