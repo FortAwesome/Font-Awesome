@@ -1,7 +1,5 @@
 safe:             false
-auto:             true
-server:           true
-server_port:      7998
+port:             7998
 baseurl:          /Font-Awesome/  # Where GitHub serves the project up from
 url:              http://localhost:7998
 
@@ -10,13 +8,14 @@ destination:      _gh_pages
 plugins:          build/_plugins
 
 pygments:         true
+permalink:        pretty
 
 icon_meta:        build/icons.yml
 icon_layout:      icon.html    # Relative to _layouts directory
 icon_destination: icon         # Relative to destination
 
 font_awesome:
-  version:        3.1.1
+  version:        3.2.0
   url:            http://fontawesome.io
   legacy_url:     http://fortawesome.github.com/Font-Awesome/
   twitter:        fontawesome
