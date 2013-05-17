@@ -14,7 +14,7 @@ module Jekyll
       @site = site
       @base = base
       @dir = dir
-      @name = "#{icon['id']}/index.html"
+      @name = "#{icon['id']}.html"
       @icon = icon
 
       self.process(@name)
