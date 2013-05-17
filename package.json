@@ -6,10 +6,6 @@
         "name": "Dave Gandy",
         "email": "dave@fontawesome.io"
     },
-    "contributors": [
-        "sergio <desenvolvimento@inbep.com.br>",
-        "willian <desenvolvimento@inbep.com.br>"
-    ],
     "homepage": "http://fontawesome.io",
     "repository": {
         "type": "git",
