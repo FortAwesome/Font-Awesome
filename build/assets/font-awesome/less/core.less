@@ -1,14 +1,14 @@
 /* FONT AWESOME CORE
  * -------------------------- */
 
+.icon(@icon) {
+  .icon-FontAwesome();
+  content: @icon;
+}
+
 [class^="icon-"],
 [class*=" icon-"] {
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
-  -webkit-font-smoothing: antialiased;
-  *margin-right: .3em; // fixes ie7 issues
+  .icon-FontAwesome();
 }
 
 [class^="icon-"]:before,

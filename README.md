@@ -24,6 +24,7 @@ Get started at http://fontawesome.io!
 - v3.0.2 - much improved rendering and alignment in IE7
 - v3.1.0 - Added 54 icons, icon stacking styles, flipping and rotating icons, removed SASS support
 - [v3.1.1 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=4&page=1&state=closed)
+- [v3.2.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=3&page=1&state=closed)
 
 ##Versioning
 
