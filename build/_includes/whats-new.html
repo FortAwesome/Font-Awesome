@@ -10,7 +10,7 @@
 <div id="whats-new">
   <div class="row">
     <div class="span4">
-      <h4><i class="icon-lightbulb"></i> {{ site.font_awesome.new_icon_count }} New Icons in {{ site.font_awesome.version }}</h4>
+      <h4><i class="icon-lightbulb"></i> {{ icons | version:site.font_awesome.version | size }} New Icons in {{ site.font_awesome.version }}</h4>
       Requested by the active community on the <a href="{{ site.font_awesome.github.url }}">Font Awesome GitHub project</a>.
     </div>
     <div class="span4">

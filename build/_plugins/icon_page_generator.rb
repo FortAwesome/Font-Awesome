@@ -2,6 +2,7 @@
 # Create individual pages for each icon in the FontAwesome set
 
 require 'yaml'
+require 'debugger'
 
 module Jekyll
 
@@ -14,7 +15,7 @@ module Jekyll
       @site = site
       @base = base
       @dir = dir
-      @name = "#{icon['id']}.html"
+      @name = "#{icon.id}.html"
       @icon = icon
 
       self.process(@name)
@@ -22,7 +23,7 @@ module Jekyll
       self.read_yaml(File.join(base, site.config['layouts']), site.config['icon_layout'])
 
       self.data['icon'] = icon
-      self.data['title'] = "icon-#{icon['id']}: " + self.data['title_suffix']
+      self.data['title'] = "icon-#{icon.id}: " + self.data['title_suffix']
     end
 
   end
@@ -35,10 +36,7 @@ module Jekyll
     safe true
 
     def generate(site)
-      icon_meta_filename = site.config['icon_meta']
-      icon_meta = YAML.load_file(icon_meta_filename)
-
-      icon_meta['icons'].each do |icon|
+      site.icons.each do |icon|
         site.pages << IconPage.new(site, site.source, site.config['icon_destination'], icon)
       end
     end

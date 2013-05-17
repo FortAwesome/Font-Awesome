@@ -1,0 +1,46 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    classifier (1.3.3)
+      fast-stemmer (>= 1.0.0)
+    colorator (0.1)
+    columnize (0.3.6)
+    commander (4.1.3)
+      highline (~> 1.6.11)
+    debugger (1.6.0)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.1)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.2)
+    directory_watcher (1.4.1)
+    fast-stemmer (1.0.2)
+    highline (1.6.19)
+    jekyll (1.0.0)
+      classifier (~> 1.3)
+      colorator (~> 0.1)
+      commander (~> 4.1.3)
+      directory_watcher (~> 1.4.1)
+      kramdown (~> 0.14)
+      liquid (~> 2.3)
+      maruku (~> 0.5)
+      pygments.rb (~> 0.4.2)
+      safe_yaml (~> 0.7.0)
+    kramdown (0.14.2)
+    liquid (2.5.0)
+    maruku (0.6.1)
+      syntax (>= 1.0.0)
+    posix-spawn (0.3.6)
+    pygments.rb (0.4.2)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.1.0)
+    safe_yaml (0.7.1)
+    syntax (1.0.0)
+    yajl-ruby (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  debugger
+  jekyll (= 1.0)
