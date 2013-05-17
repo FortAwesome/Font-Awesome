@@ -1860,6 +1860,8 @@ icons:
     id:         star-half-empty
     unicode:    f123
     created:    3.1.0
+    aliases:
+      - star-half-full
     categories:
       - Web Application Icons
 
