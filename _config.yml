@@ -16,7 +16,7 @@ icon_layout:      icon.html    # Relative to _layouts directory
 icon_destination: icon         # Relative to destination
 
 font_awesome:
-  version:        3.2.0
+  version:        3.1.0
   url:            http://fontawesome.io
   legacy_url:     http://fortawesome.github.com/Font-Awesome/
   twitter:        fontawesome
