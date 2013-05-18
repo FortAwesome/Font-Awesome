@@ -1005,6 +1005,8 @@ icons:
     id:         check-empty
     unicode:    f096
     created:    2.0.0
+    aliases:
+      - unchecked
     categories:
       - Web Application Icons
 
@@ -1239,6 +1241,8 @@ icons:
     id:         paper-clip
     unicode:    f0c6
     created:    2.0.0
+    aliases:
+      - paperclip
     categories:
       - Text Editor Icons
 
@@ -2151,5 +2155,27 @@ icons:
     id:         share-sign
     unicode:    f14d
     created:    3.1.0
+    categories:
+      - Web Application Icons
+
+
+  - name:       Collapse
+    id:         collapse
+    unicode:    f150
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Collapse Top
+    id:         collapse-top
+    unicode:    f151
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Expand
+    id:         expand
+    unicode:    f152
+    created:    3.2.0
     categories:
       - Web Application Icons
