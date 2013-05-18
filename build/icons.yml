@@ -1749,6 +1749,12 @@ icons:
     categories:
       - Web Application Icons
 
+  - name:       github-alt
+    id:         github-alt
+    unicode:    f113
+    created:    3.0.0
+    categories:
+      - Brand Icons
 
   - name:       folder-close-alt
     id:         folder-close-alt
