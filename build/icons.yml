@@ -2187,14 +2187,14 @@ icons:
     aliases:
       - euro
     categories:
-      - Web Application Icons
+      - Currency Icons
 
   - name:       GBP
     id:         gbp
     unicode:    f154
     created:    3.2.0
     categories:
-      - Web Application Icons
+      - Currency Icons
 
   - name:       US Dollar
     id:         usd
@@ -2203,7 +2203,7 @@ icons:
     aliases:
       - dollar
     categories:
-      - Web Application Icons
+      - Currency Icons
 
   - name:       Indian Rupee (INR)
     id:         inr
@@ -2212,7 +2212,7 @@ icons:
     aliases:
       - rupee
     categories:
-      - Web Application Icons
+      - Currency Icons
 
   - name:       Japanese Yen (JPY)
     id:         jpy
@@ -2221,7 +2221,7 @@ icons:
     aliases:
       - yen
     categories:
-      - Web Application Icons
+      - Currency Icons
 
   - name:       Renminbi (CNY)
     id:         cny
@@ -2230,7 +2230,7 @@ icons:
     aliases:
       - renminbi
     categories:
-      - Web Application Icons
+      - Currency Icons
 
   - name:       Korean Won (KRW)
     id:         krw
@@ -2239,4 +2239,4 @@ icons:
     aliases:
       - won
     categories:
-      - Web Application Icons
+      - Currency Icons

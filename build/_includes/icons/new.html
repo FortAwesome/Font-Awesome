@@ -2,7 +2,7 @@
   <h2 class="page-header">New Icons in {{ site.font_awesome.version }}</h2>
   {% if page.navbar_active != "icons" %}
     <div class="margin-botom-large">
-      You asked, Font Awesome delivers with {{ site.font_awesome.new_icon_count }} shiny new icons in version {{ site.font_awesome.version }}.
+      You asked, Font Awesome delivers with {{ icons | version:site.font_awesome.version | size }} shiny new icons in version {{ site.font_awesome.version }}.
       Want to request new icons? <a href="{{ page.relative_path }}community/#requesting-new-icons">Here's how</a>.
     </div>
   {% endif %}
