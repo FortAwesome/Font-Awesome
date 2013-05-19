@@ -1272,6 +1272,27 @@ ul.icons-ul > li .icon-li {
 .icon-expand:before {
   content: "\f152";
 }
+.icon-eur:before {
+  content: "\f153";
+}
+.icon-gbp:before {
+  content: "\f154";
+}
+.icon-usd:before {
+  content: "\f155";
+}
+.icon-inr:before {
+  content: "\f156";
+}
+.icon-jpy:before {
+  content: "\f157";
+}
+.icon-cny:before {
+  content: "\f158";
+}
+.icon-krw:before {
+  content: "\f159";
+}
 .icon-power-off:before {
   content: "\f011";
 }
@@ -1295,4 +1316,22 @@ ul.icons-ul > li .icon-li {
 }
 .icon-paperclip:before {
   content: "\f0c6";
+}
+.icon-euro:before {
+  content: "\f153";
+}
+.icon-dollar:before {
+  content: "\f155";
+}
+.icon-rupee:before {
+  content: "\f156";
+}
+.icon-yen:before {
+  content: "\f157";
+}
+.icon-renminbi:before {
+  content: "\f158";
+}
+.icon-won:before {
+  content: "\f159";
 }
