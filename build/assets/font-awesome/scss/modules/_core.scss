@@ -1,0 +1,74 @@
+/* BOOTSTRAP SPECIFIC CLASSES
+ * -------------------------- */
+/* Bootstrap 2.0 sprites.less reset */
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0; }
+
+/* more sprites.less reset */
+.icon-white,
+.nav-pills > .active > a > [class^="icon-"],
+.nav-pills > .active > a > [class*=" icon-"],
+.nav-list > .active > a > [class^="icon-"],
+.nav-list > .active > a > [class*=" icon-"],
+.navbar-inverse .nav > .active > a > [class^="icon-"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"],
+.dropdown-submenu:hover > a > [class^="icon-"],
+.dropdown-submenu:hover > a > [class*=" icon-"] {
+  background-image: none; }
+
+/* keeps Bootstrap styles with and without icons the same */
+.btn [class^="icon-"].icon-large,
+.btn [class*=" icon-"].icon-large, .nav [class^="icon-"].icon-large,
+.nav [class*=" icon-"].icon-large {
+  line-height: .9em; }
+.btn [class^="icon-"].icon-spin,
+.btn [class*=" icon-"].icon-spin, .nav [class^="icon-"].icon-spin,
+.nav [class*=" icon-"].icon-spin {
+  display: inline-block; }
+
+.nav-tabs [class^="icon-"], .nav-tabs [class^="icon-"].icon-large,
+.nav-tabs [class*=" icon-"],
+.nav-tabs [class*=" icon-"].icon-large, .nav-pills [class^="icon-"], .nav-pills [class^="icon-"].icon-large,
+.nav-pills [class*=" icon-"],
+.nav-pills [class*=" icon-"].icon-large {
+  line-height: .9em; }
+
+.btn [class^="icon-"].pull-left.icon-2x, .btn [class^="icon-"].pull-right.icon-2x,
+.btn [class*=" icon-"].pull-left.icon-2x,
+.btn [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .18em; }
+.btn [class^="icon-"].icon-spin.icon-large,
+.btn [class*=" icon-"].icon-spin.icon-large {
+  line-height: .8em; }
+
+.btn.btn-small [class^="icon-"].pull-left.icon-2x, .btn.btn-small [class^="icon-"].pull-right.icon-2x,
+.btn.btn-small [class*=" icon-"].pull-left.icon-2x,
+.btn.btn-small [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .25em; }
+
+.btn.btn-large [class^="icon-"],
+.btn.btn-large [class*=" icon-"] {
+  margin-top: 0; }
+  .btn.btn-large [class^="icon-"].pull-left.icon-2x, .btn.btn-large [class^="icon-"].pull-right.icon-2x,
+  .btn.btn-large [class*=" icon-"].pull-left.icon-2x,
+  .btn.btn-large [class*=" icon-"].pull-right.icon-2x {
+    margin-top: .05em; }
+  .btn.btn-large [class^="icon-"].pull-left.icon-2x,
+  .btn.btn-large [class*=" icon-"].pull-left.icon-2x {
+    margin-right: .2em; }
+  .btn.btn-large [class^="icon-"].pull-right.icon-2x,
+  .btn.btn-large [class*=" icon-"].pull-right.icon-2x {
+    margin-left: .2em; }
