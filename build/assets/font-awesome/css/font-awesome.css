@@ -735,10 +735,10 @@ ul.icons-ul > li .icon-li {
 .icon-comments:before {
   content: "\f086";
 }
-.icon-thumbs-up:before {
+.icon-thumbs-up-alt:before {
   content: "\f087";
 }
-.icon-thumbs-down:before {
+.icon-thumbs-down-alt:before {
   content: "\f088";
 }
 .icon-star-half:before {
@@ -1301,6 +1301,30 @@ ul.icons-ul > li .icon-li {
 }
 .icon-file-text:before {
   content: "\f15c";
+}
+.icon-sort-by-alphabet:before {
+  content: "\f15d";
+}
+.icon-sort-by-alphabet-alt:before {
+  content: "\f15e";
+}
+.icon-sort-by-attributes:before {
+  content: "\f160";
+}
+.icon-sort-by-attributes-alt:before {
+  content: "\f161";
+}
+.icon-sort-by-order:before {
+  content: "\f162";
+}
+.icon-sort-by-order-alt:before {
+  content: "\f163";
+}
+.icon-thumbs-up:before {
+  content: "\f164";
+}
+.icon-thumbs-down:before {
+  content: "\f165";
 }
 .icon-power-off:before {
   content: "\f011";

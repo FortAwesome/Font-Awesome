@@ -902,15 +902,15 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       thumbs-up
-    id:         thumbs-up
+  - name:       thumbs-up-alt
+    id:         thumbs-up-alt
     unicode:    f087
     created:    1.0.0
     categories:
       - Web Application Icons
 
-  - name:       thumbs-down
-    id:         thumbs-down
+  - name:       thumbs-down-alt
+    id:         thumbs-down-alt
     unicode:    f088
     created:    1.0.0
     categories:
@@ -2264,3 +2264,61 @@ icons:
     created:    3.2.0
     categories:
       - Text Editor Icons
+
+  - name:       Sort By Alphabet
+    id:         sort-by-alphabet
+    unicode:    f15d
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Sort By Alphabet Alt
+    id:         sort-by-alphabet-alt
+    unicode:    f15e
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+
+  - name:       Sort By Attributes
+    id:         sort-by-attributes
+    unicode:    f160
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Sort By Attributes Alt
+    id:         sort-by-attributes-alt
+    unicode:    f161
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Sort By Order
+    id:         sort-by-order
+    unicode:    f162
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Sort By Order Alt
+    id:         sort-by-order-alt
+    unicode:    f163
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+
+  - name:       thumbs-up
+    id:         thumbs-up
+    unicode:    f164
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       thumbs-down
+    id:         thumbs-down
+    unicode:    f165
+    created:    3.2.0
+    categories:
+      - Web Application Icons
