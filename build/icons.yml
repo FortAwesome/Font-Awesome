@@ -20,8 +20,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Envelope
-    id:         envelope
+  - name:       Envelope Alt
+    id:         envelope-alt
     unicode:    f003
     created:    1.0.0
     categories:
@@ -149,8 +149,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       file
-    id:         file
+  - name:       file-alt
+    id:         file-alt
     unicode:    f016
     created:    1.0.0
     categories:
@@ -1409,8 +1409,8 @@ icons:
       - Web Application Icons
 
 
-  - name:       envelope-alt
-    id:         envelope-alt
+  - name:       Envelope
+    id:         envelope
     unicode:    f0e0
     created:    2.0.0
     categories:
@@ -1560,8 +1560,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       file-alt
-    id:         file-alt
+  - name:       file-text-alt
+    id:         file-text-alt
     unicode:    f0f6
     created:    3.0.0
     categories:
@@ -2250,3 +2250,17 @@ icons:
     categories:
       - Currency Icons
       - Brand Icons
+
+  - name:       File
+    id:         file
+    unicode:    f15b
+    created:    3.2.0
+    categories:
+      - Text Editor Icons
+
+  - name:       File Text
+    id:         file-text
+    unicode:    f15c
+    created:    3.2.0
+    categories:
+      - Text Editor Icons

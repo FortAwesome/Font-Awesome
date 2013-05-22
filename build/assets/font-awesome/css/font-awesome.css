@@ -362,7 +362,7 @@ ul.icons-ul > li .icon-li {
 .icon-search:before {
   content: "\f002";
 }
-.icon-envelope:before {
+.icon-envelope-alt:before {
   content: "\f003";
 }
 .icon-heart:before {
@@ -416,7 +416,7 @@ ul.icons-ul > li .icon-li {
 .icon-home:before {
   content: "\f015";
 }
-.icon-file:before {
+.icon-file-alt:before {
   content: "\f016";
 }
 .icon-time:before {
@@ -948,7 +948,7 @@ ul.icons-ul > li .icon-li {
 .icon-sort-up:before {
   content: "\f0de";
 }
-.icon-envelope-alt:before {
+.icon-envelope:before {
   content: "\f0e0";
 }
 .icon-linkedin:before {
@@ -1011,7 +1011,7 @@ ul.icons-ul > li .icon-li {
 .icon-food:before {
   content: "\f0f5";
 }
-.icon-file-alt:before {
+.icon-file-text-alt:before {
   content: "\f0f6";
 }
 .icon-building:before {
@@ -1295,6 +1295,12 @@ ul.icons-ul > li .icon-li {
 }
 .icon-btc:before {
   content: "\f15a";
+}
+.icon-file:before {
+  content: "\f15b";
+}
+.icon-file-text:before {
+  content: "\f15c";
 }
 .icon-power-off:before {
   content: "\f011";
