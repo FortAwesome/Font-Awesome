@@ -2240,3 +2240,13 @@ icons:
       - won
     categories:
       - Currency Icons
+
+  - name:       Bitcoin (BTC)
+    id:         btc
+    unicode:    f15a
+    created:    3.2.0
+    aliases:
+      - bitcoin
+    categories:
+      - Currency Icons
+      - Brand Icons

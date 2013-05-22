@@ -1293,6 +1293,9 @@ ul.icons-ul > li .icon-li {
 .icon-krw:before {
   content: "\f159";
 }
+.icon-btc:before {
+  content: "\f15a";
+}
 .icon-power-off:before {
   content: "\f011";
 }
@@ -1334,4 +1337,7 @@ ul.icons-ul > li .icon-li {
 }
 .icon-won:before {
   content: "\f159";
+}
+.icon-bitcoin:before {
+  content: "\f15a";
 }
