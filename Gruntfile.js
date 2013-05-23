@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         config: {
-          "pagesPath": 'gh-pages/assets/font-awesome/'
+          "pagesPath": 'gh-pages/assets/font-awesome'
         },
         pkg: grunt.file.readJSON('package.json'),
         less: {
@@ -26,27 +26,28 @@ module.exports = function(grunt) {
             }
         },
         compress: {
-            options: {
-                archive: 'font-awesome.zip'
-            },
             build: {
+                options: {
+                    archive: 'font-awesome.zip'
+                },
                 files: [{
                     src: [
                         'css/*',
                         'less/*',
                         'font/*'
-                    ],
-                    dest: './'
+                    ]
                 }]
             },
             pages: {
+                options: {
+                    archive: 'gh-pages/assets/font-awesome.zip'
+                },
                 files: [{
                     src: [
                         '<%= config.pagesPath %>/css/*',
                         '<%= config.pagesPath %>/less/*',
                         '<%= config.pagesPath %>/font/*'
-                    ],
-                    dest: '<%= config.pagesPath %>'
+                    ]
                 }]
             }
         },
@@ -58,7 +59,7 @@ module.exports = function(grunt) {
                         'less/*',
                         'font/*'
                     ],
-                    dest: '<%= config.pagesPath %>'
+                    dest: '<%= config.pagesPath %>/'
                 }]
             }
         },
@@ -84,6 +85,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-stylus');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-compress');
 
     grunt.registerTask('default', ['less:build', 'cssmin:build', 'compress:build']);
