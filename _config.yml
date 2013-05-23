@@ -19,6 +19,7 @@ font_awesome:
   version:        3.2.0
   url:            http://fontawesome.io
   legacy_url:     http://fortawesome.github.com/Font-Awesome/
+  blog_url:       http://blog.fontawesome.io
   twitter:        fontawesome
   author:
     name:         Dave Gandy

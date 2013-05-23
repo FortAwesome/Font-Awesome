@@ -15,13 +15,13 @@ FA_CSS_IE7_MIN = ${FA_CSS_DIRECTORY}/font-awesome-ie7.min.css
 build:
 	@echo "Compiling Less files"
 	@mkdir -p ${FA_CSS_DIRECTORY}
-	recess --compile ${FA_LESS_MODERN} > ${FA_CSS_MODERN}
-	recess --compile --compress ${FA_LESS_MODERN} > ${FA_CSS_MODERN_MIN}
-	recess --compile ${FA_LESS_IE7} > ${FA_CSS_IE7}
-	recess --compile --compress ${FA_LESS_IE7} > ${FA_CSS_IE7_MIN}
+	lessc ${FA_LESS_MODERN} > ${FA_CSS_MODERN}
+	lessc --compress ${FA_LESS_MODERN} > ${FA_CSS_MODERN_MIN}
+	lessc ${FA_LESS_IE7} > ${FA_CSS_IE7}
+	lessc --compress ${FA_LESS_IE7} > ${FA_CSS_IE7_MIN}
 
 
 default: build
 
 
-.PHONE: build
+.PHONY: build
