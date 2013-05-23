@@ -1,0 +1,8 @@
+{
+  "name": "font-awesome",
+  "version": "3.1.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FortAwesome/Font-Awesome.git"
+  }
+}

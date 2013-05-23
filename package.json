@@ -1,0 +1,67 @@
+{
+    "name": "Font-Awesome",
+    "version": "3.1.1",
+    "description": "The iconic font designed for Bootstrap",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/FortAwesome/Font-Awesome"
+    },
+    "keywords": [
+        "font",
+        "awesome",
+        "bootstrap",
+        "css",
+        "less"
+    ],
+    "author": {
+        "name": "Dave Gandy",
+        "email": "dave@fontawesome.io",
+        "web": "http://twitter.com/byscuits"
+    },
+    "contributors": [
+        {
+            "name": "Dave Gandy",
+            "email": "dave@fontawesome.io",
+            "web": "http://scripts.sil.org/OFL"
+        },
+        {
+            "name": "Rob Madole",
+            "web": "http://twitter.com/robmadole"
+        },
+        {
+            "name": "Geremia Taglialatela",
+            "web": "http://twitter.com/gtagliala"
+        },
+        {
+            "name": "Travis Chase",
+            "web": "http://twitter.com/supercodepoet"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "SIL OFL 1.1",
+            "url": "http://scripts.sil.org/OFL"
+        },
+        {
+            "type": "MIT License",
+            "url": "http://opensource.org/licenses/mit-license.html"
+        }
+    ],
+    "readmeFilename": "README.md",
+    "gitHead": "a4612d8b8180fc7a8879b7073eb60db1ee11453c",
+    "bugs": {
+        "url": "https://github.com/FortAwesome/Font-Awesome/issues"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-less": "~0.5.2",
+        "grunt-contrib-stylus": "~0.5.0",
+        "grunt-contrib-compress": "~0.5.0",
+        "grunt-contrib-copy": "~0.4.1",
+        "grunt-contrib-cssmin": "~0.6.0"
+    }
+}
