@@ -15,7 +15,7 @@
       Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
 {% highlight html %}
 <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/{{ site.bootstrap.version }}/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-<link href="//netdna.bootstrapcdn.com/font-awesome/{{ site.font_awesome.version }}/css/font-awesome.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome.css" rel="stylesheet">
 {% endhighlight %}
       <div class="alert alert-info margin-top">
         <i class="icon-info-sign"></i> Want to use Font Awesome by itself without Bootstrap? Just don't include the first line.
@@ -89,7 +89,8 @@
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <!--[if IE 7]>
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome-ie7.min.css">
-<![endif]-->{% endhighlight %}
+<![endif]-->
+{% endhighlight %}
     </li>
     <li>Go complain to whoever decided your project needs IE7 support.</li>
   </ol>
