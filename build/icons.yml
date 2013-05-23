@@ -20,8 +20,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Envelope
-    id:         envelope
+  - name:       Envelope Alt
+    id:         envelope-alt
     unicode:    f003
     created:    1.0.0
     categories:
@@ -149,8 +149,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       file
-    id:         file
+  - name:       file-alt
+    id:         file-alt
     unicode:    f016
     created:    1.0.0
     categories:
@@ -902,15 +902,15 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       thumbs-up
-    id:         thumbs-up
+  - name:       thumbs-up-alt
+    id:         thumbs-up-alt
     unicode:    f087
     created:    1.0.0
     categories:
       - Web Application Icons
 
-  - name:       thumbs-down
-    id:         thumbs-down
+  - name:       thumbs-down-alt
+    id:         thumbs-down-alt
     unicode:    f088
     created:    1.0.0
     categories:
@@ -1005,6 +1005,8 @@ icons:
     id:         check-empty
     unicode:    f096
     created:    2.0.0
+    aliases:
+      - unchecked
     categories:
       - Web Application Icons
 
@@ -1239,6 +1241,8 @@ icons:
     id:         paper-clip
     unicode:    f0c6
     created:    2.0.0
+    aliases:
+      - paperclip
     categories:
       - Text Editor Icons
 
@@ -1405,8 +1409,8 @@ icons:
       - Web Application Icons
 
 
-  - name:       envelope-alt
-    id:         envelope-alt
+  - name:       Envelope
+    id:         envelope
     unicode:    f0e0
     created:    2.0.0
     categories:
@@ -1556,8 +1560,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       file-alt
-    id:         file-alt
+  - name:       file-text-alt
+    id:         file-text-alt
     unicode:    f0f6
     created:    3.0.0
     categories:
@@ -1749,6 +1753,12 @@ icons:
     categories:
       - Web Application Icons
 
+  - name:       github-alt
+    id:         github-alt
+    unicode:    f113
+    created:    3.0.0
+    categories:
+      - Brand Icons
 
   - name:       folder-close-alt
     id:         folder-close-alt
@@ -2145,5 +2155,170 @@ icons:
     id:         share-sign
     unicode:    f14d
     created:    3.1.0
+    categories:
+      - Web Application Icons
+
+
+  - name:       Collapse
+    id:         collapse
+    unicode:    f150
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Collapse Top
+    id:         collapse-top
+    unicode:    f151
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Expand
+    id:         expand
+    unicode:    f152
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Euro (EUR)
+    id:         eur
+    unicode:    f153
+    created:    3.2.0
+    aliases:
+      - euro
+    categories:
+      - Currency Icons
+
+  - name:       GBP
+    id:         gbp
+    unicode:    f154
+    created:    3.2.0
+    categories:
+      - Currency Icons
+
+  - name:       US Dollar
+    id:         usd
+    unicode:    f155
+    created:    3.2.0
+    aliases:
+      - dollar
+    categories:
+      - Currency Icons
+
+  - name:       Indian Rupee (INR)
+    id:         inr
+    unicode:    f156
+    created:    3.2.0
+    aliases:
+      - rupee
+    categories:
+      - Currency Icons
+
+  - name:       Japanese Yen (JPY)
+    id:         jpy
+    unicode:    f157
+    created:    3.2.0
+    aliases:
+      - yen
+    categories:
+      - Currency Icons
+
+  - name:       Renminbi (CNY)
+    id:         cny
+    unicode:    f158
+    created:    3.2.0
+    aliases:
+      - renminbi
+    categories:
+      - Currency Icons
+
+  - name:       Korean Won (KRW)
+    id:         krw
+    unicode:    f159
+    created:    3.2.0
+    aliases:
+      - won
+    categories:
+      - Currency Icons
+
+  - name:       Bitcoin (BTC)
+    id:         btc
+    unicode:    f15a
+    created:    3.2.0
+    aliases:
+      - bitcoin
+    categories:
+      - Currency Icons
+      - Brand Icons
+
+  - name:       File
+    id:         file
+    unicode:    f15b
+    created:    3.2.0
+    categories:
+      - Text Editor Icons
+
+  - name:       File Text
+    id:         file-text
+    unicode:    f15c
+    created:    3.2.0
+    categories:
+      - Text Editor Icons
+
+  - name:       Sort By Alphabet
+    id:         sort-by-alphabet
+    unicode:    f15d
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Sort By Alphabet Alt
+    id:         sort-by-alphabet-alt
+    unicode:    f15e
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+
+  - name:       Sort By Attributes
+    id:         sort-by-attributes
+    unicode:    f160
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Sort By Attributes Alt
+    id:         sort-by-attributes-alt
+    unicode:    f161
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Sort By Order
+    id:         sort-by-order
+    unicode:    f162
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Sort By Order Alt
+    id:         sort-by-order-alt
+    unicode:    f163
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+
+  - name:       thumbs-up
+    id:         thumbs-up
+    unicode:    f164
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       thumbs-down
+    id:         thumbs-down
+    unicode:    f165
+    created:    3.2.0
     categories:
       - Web Application Icons

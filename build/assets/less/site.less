@@ -210,21 +210,11 @@ section { margin-top: 40px; }
     background: @white;
     font-weight: normal;
   }
-  .watch, .fork {
-//    margin-right: 30px;
-  }
 }
 
 .the-icons {
-  list-style-type: none;
-  margin: 0;
-  li {
-    [class^="icon-"],
-    [class*=" icon-"] {
-      display: inline-block;
-      width: 18/14em;
-      text-align: center;
-    }
+  margin-top: 22px;
+  .span3 {
     a {
       display: block;
       &, &:hover { color: @grayDarker; }
@@ -232,13 +222,16 @@ section { margin-top: 40px; }
       cursor: pointer;
       line-height: 32px;
       height: 32px;
-      padding-left: 12px;
+      padding-left: 10px;
       .border-radius(6px);
 
       [class^="icon-"],
       [class*=" icon-"] {
         width: 32px;
         font-size: 14px;
+        display: inline-block;
+        text-align: right;
+        margin-right: 10px;
       }
 
       &:hover {
