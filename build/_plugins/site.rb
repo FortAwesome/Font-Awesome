@@ -72,14 +72,27 @@ module Jekyll
     attr_reader :icons
 
     def process
-      @icons = IconList.new(YAML.load_file(self.config['icon_meta'])['icons'])
-
+      self.reset_icons
       self.reset
       self.read
       self.generate
       self.render
       self.cleanup
       self.write
+
+      self.build
+    end
+
+    ##
+    # Reads the YAML file that stores all data about icons
+    def reset_icons
+      @icons = IconList.new(YAML.load_file(self.config['icon_meta'])['icons'])
+    end
+
+    ##
+    # After generation, runs a build of Font-Awesome
+    def build
+      system("make build", :chdir => self.config['destination'], :out => :err)
     end
 
     def site_payload

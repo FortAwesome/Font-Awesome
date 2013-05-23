@@ -6,7 +6,6 @@ maintained by [Dave Gandy](http://twitter.com/byscuits). Stay up to date [@fonta
 
 Get started at http://fontawesome.io!
 
-
 ##License
 - The Font Awesome font is licensed under the SIL OFL 1.1:
   - http://scripts.sil.org/OFL
@@ -46,3 +45,17 @@ For more information on SemVer, please visit http://semver.org.
 - GitHub: https://github.com/davegandy
 - Work: Lead Product Designer @ http://kyru.us
 
+## Hacking on Font Awesome
+
+From the root of the repository, install the tools used to develop.
+
+    $ bundle install
+    $ npm install
+
+Build the project and documentation:
+
+    $ bundle exec jekyll build
+
+Or serve it on a local server on http://localhost:7998/Font-Awesome/:
+
+    $ bundle exec jekyll serve

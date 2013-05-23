@@ -1,28 +1,18 @@
 {
-    "name": "font-awesome",
-    "description": "the iconic font designed for Bootstrap",
-    "version": "3.2.0",
-    "author": {
-        "name": "Dave Gandy",
-        "email": "dave@fontawesome.io"
-    },
-    "homepage": "http://fontawesome.io",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/FortAwesome/Font-Awesome.git"
-    },
-    "licenses": [
-        {
-            "type": "SIL OFL 1.1",
-            "url": "http://scripts.sil.org/OFL"
-        },
-        {
-            "type": "MIT License",
-            "url": "http://opensource.org/licenses/mit-license.html"
-        },
-        {
-            "type": "CC BY 3.0",
-            "url": "http://creativecommons.org/licenses/by/3.0/"
-        }
-    ]
+  "name": "fontawesome",
+  "description": "The iconic font designed for Bootstrap",
+  "version": "3.2.0",
+  "keywords": ["bootstrap", "css", "icon", "font"],
+  "homepage": "http://fontawesome.io/",
+  "author": "Dave Gandy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FortAwesome/Font-Awesome"
+  },
+  "licenses": [
+    {}
+  ],
+  "devDependencies": {
+    "recess": "1.1.6"
+  }
 }
