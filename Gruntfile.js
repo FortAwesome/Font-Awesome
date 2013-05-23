@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         config: {
-          "gh-page-path": 'gh-pages/assets/font-awesome/'
+          "pagesPath": 'gh-pages/assets/font-awesome/'
         },
         pkg: grunt.file.readJSON('package.json'),
         less: {
@@ -18,10 +18,10 @@ module.exports = function(grunt) {
                     "css/font-awesome-ie7.css": "less/font-awesome-ie7.less"
                 }
             },
-            "gh-pages": {
+            pages: {
                 files: {
-                    "<%= config.gh-page-path %>/css/font-awesome.css": "<%= config.gh-page-path %>/less/font-awesome.less",
-                    "<%= config.gh-page-path %>/css/font-awesome-ie7.css": "<%= config.gh-page-path %>/less/font-awesome-ie7.less"
+                    "<%= config.pagesPath %>/css/font-awesome.css": "<%= config.pagesPath %>/less/font-awesome.less",
+                    "<%= config.pagesPath %>/css/font-awesome-ie7.css": "<%= config.pagesPath %>/less/font-awesome-ie7.less"
                 }
             }
         },
@@ -39,26 +39,26 @@ module.exports = function(grunt) {
                     dest: './'
                 }]
             },
-            "gh-pages": {
+            pages: {
                 files: [{
                     src: [
-                        '<%= config.gh-page-path %>/css/*',
-                        '<%= config.gh-page-path %>/less/*',
-                        '<%= config.gh-page-path %>/font/*'
+                        '<%= config.pagesPath %>/css/*',
+                        '<%= config.pagesPath %>/less/*',
+                        '<%= config.pagesPath %>/font/*'
                     ],
-                    dest: '<%= config.gh-page-path %>'
+                    dest: '<%= config.pagesPath %>'
                 }]
             }
         },
         copy: {
-            "gh-pages": {
+            pages: {
                 files: [{
                     src: [
                         'css/*',
                         'less/*',
                         'font/*'
                     ],
-                    dest: '<%= config.gh-page-path %>'
+                    dest: '<%= config.pagesPath %>'
                 }]
             }
         },
@@ -72,10 +72,10 @@ module.exports = function(grunt) {
                     'css/font-awesome-ie7.min.css': 'css/font-awesome-ie7.css'
                 }
             },
-            "gh-pages": {
+            pages: {
                 files: {
-                    '<%= config.gh-page-path %>/css/font-awesome.min.css': '<%= config.gh-page-path %>/css/font-awesome.css',
-                    '<%= config.gh-page-path %>/css/font-awesome-ie7.min.css': '<%= config.gh-page-path %>/css/font-awesome.css'
+                    '<%= config.pagesPath %>/css/font-awesome.min.css': '<%= config.pagesPath %>/css/font-awesome.css',
+                    '<%= config.pagesPath %>/css/font-awesome-ie7.min.css': '<%= config.pagesPath %>/css/font-awesome.css'
                 }
             }
         }
@@ -88,6 +88,6 @@ module.exports = function(grunt) {
 
     grunt.registerTask('default', ['less:build', 'cssmin:build', 'compress:build']);
 
-    grunt.registerTask('gh-pages', ['copy', 'less:gh-pages', 'cssmin:gh-pages', 'compress:gh-pages']);
+    grunt.registerTask('pages', ['copy', 'less:pages', 'cssmin:pages', 'compress:pages']);
 
 };
