@@ -1,0 +1,87 @@
+/* BOOTSTRAP SPECIFIC CLASSES
+ * -------------------------- */
+
+/* Bootstrap 2.0 sprites.less reset */
+[class^="icon-"]
+[class*=" icon-"]
+  display inline
+  width auto
+  height auto
+  line-height normal
+  vertical-align baseline
+  background-image none
+  background-position 0% 0%
+  background-repeat repeat
+  margin-top 0
+
+
+/* more sprites.less reset */
+.icon-white
+  background-image none
+
+.nav-pills > .active > a
+.nav-list > .active > a
+.navbar-inverse .nav > .active > a
+.dropdown-menu > li > a:hover
+.dropdown-menu > .active > a
+.dropdown-submenu:hover > a
+  & > [class^="icon-"]
+  & > [class*=" icon-"]
+    background-image none
+
+
+/* keeps Bootstrap styles with and without icons the same */
+.btn, .nav
+  [class^="icon-"]
+  [class*=" icon-"]
+    //    display inline
+    &.icon-large
+      line-height .9em
+
+    &.icon-spin
+      display inline-block
+
+.nav-tabs
+.nav-pills
+  [class^="icon-"]
+  [class*=" icon-"]
+    &, &.icon-large
+      line-height .9em
+
+.btn
+  [class^="icon-"]
+  [class*=" icon-"]
+    &.pull-left
+    &.pull-right
+      &.icon-2x
+        margin-top .18em
+
+    &.icon-spin.icon-large
+      line-height .8em
+
+  &.btn-small
+    [class^="icon-"]
+    [class*=" icon-"]
+      &.pull-left
+      &.pull-right
+        &.icon-2x
+          margin-top .25em
+
+  &.btn-large
+    [class^="icon-"]
+    [class*=" icon-"]
+      margin-top 0 // overrides bootstrap default
+      &.pull-left
+      &.pull-right
+        &.icon-2x
+          margin-top .05em
+
+      &.pull-left.icon-2x
+        margin-right .2em
+
+      &.pull-right.icon-2x
+        margin-left .2em
+
+
+
+
