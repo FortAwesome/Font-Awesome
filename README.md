@@ -4,6 +4,31 @@
 The full suite of pictographic icons, examples, documentation, and full license details can be found at:
 http://fontawesome.io
 
+##Building
+
+Font Awesome requires node.js and a globally installed grunt.js to compile the LESS styles and minify the CSS. For installation
+instructions on how to install node.js see http://nodejs.org/download/
+
+Installing grunt.js
+
+```
+  npm install -g grunt
+```
+
+Installing the build tasks
+
+```
+  npm install
+```
+
+Build the CSS
+
+```
+  grunt build
+```
+
+This will compile the LESS styles and create a minified version of it. Additionally it creates a font-awesome.zip file with all files needed.
+
 
 ##License
 - The Font Awesome font is licensed under the SIL OFL 1.1 - http://scripts.sil.org/OFL
