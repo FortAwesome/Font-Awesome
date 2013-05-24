@@ -18,6 +18,7 @@ Installing grunt.js
 Installing the build tasks
 
 ```
+  cd Font-Awesome
   npm install
 ```
 
