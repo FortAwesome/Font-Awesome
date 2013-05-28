@@ -798,6 +798,9 @@ ul.icons-ul > li .icon-li {
 .icon-github:before {
   content: "\f09b";
 }
+.icon-xing:before {
+  content: "\f09f";
+}
 .icon-unlock:before {
   content: "\f09c";
 }

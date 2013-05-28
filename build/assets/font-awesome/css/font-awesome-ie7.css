@@ -515,6 +515,9 @@ a [class*=" icon-"] {
 .icon-github {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09b;');
 }
+.icon-xing {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09f;');
+}
 .icon-unlock {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09c;');
 }
