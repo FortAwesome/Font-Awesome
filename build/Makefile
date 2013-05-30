@@ -24,4 +24,4 @@ build:
 default: build
 
 
-.PHONE: build
+.PHONY: build
