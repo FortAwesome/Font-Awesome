@@ -15,31 +15,36 @@ icon_meta:        build/icons.yml
 icon_layout:      icon.html    # Relative to _layouts directory
 icon_destination: icon         # Relative to destination
 
-font_awesome:
+fontawesome:
   version:        3.2.0
   url:            http://fontawesome.io
   legacy_url:     http://fortawesome.github.com/Font-Awesome/
+  blog_url:       http://blog.fontawesome.io
   twitter:        fontawesome
+  tagline:        The iconic font for designed Bootstrap
   author:
     name:         Dave Gandy
     email:        dave@fontawesome.io
     twitter:      byscuits
+    work:
+      name:       Kyruus
+      url:        http://kyruus.com
+      title:      Lead Product Designer
   github:
     url:          https://github.com/FortAwesome/Font-Awesome
     project:      Font-Awesome
     org:          FortAwesome
+  license:
+    font:
+      version:      SIL OFL 1.1
+      url:          http://scripts.sil.org/OFL
+    code:
+      version:      MIT License
+      url:          http://opensource.org/licenses/mit-license.html
+    documentation:
+      version:      CC BY 3.0
+      url:          http://creativecommons.org/licenses/by/3.0/
 
 bootstrap:
-  version:        2.3.1
+  version:        2.3.2
   url:            http://getbootstrap.com
-
-license:
-  font:
-    version:      SIL OFL 1.1
-    url:          http://scripts.sil.org/OFL
-  code:
-    version:      MIT License
-    url:          http://opensource.org/licenses/mit-license.html
-  documentation:
-    version:      CC BY 3.0
-    url:          http://creativecommons.org/licenses/by/3.0/

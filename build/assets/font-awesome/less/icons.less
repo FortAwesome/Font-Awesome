@@ -2,14 +2,6 @@
 ---
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
-{% for icon in icons %}
-.icon-{{ icon.id }}:before {
-  content: @{{ icon.id }};
-}
-{% for alias in icon.aliases %}
-// {{ icon.name }} alias
-.icon-{{ alias }}:before {
-  content: @{{ icon.id }};
-}
-{% endfor %}
-{% endfor %}
+{% for icon in icons %}{% for alias in icon.aliases %}
+.icon-{{ alias }}:before,{% endfor %}
+.icon-{{ icon.id }}:before { content: @{{ icon.id }}; }{% endfor %}

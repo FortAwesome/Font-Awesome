@@ -1,6 +1,11 @@
 // Mixins
 // --------------------------
 
+.icon(@icon) {
+  .icon-FontAwesome();
+  content: @icon;
+}
+
 .icon-FontAwesome() {
   font-family: FontAwesome;
   font-weight: normal;
@@ -41,5 +46,3 @@
     }
   }
 }
-
-

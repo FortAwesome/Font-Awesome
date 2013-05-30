@@ -1,14 +1,14 @@
 <{% if page.navbar_active == "icons" %}div{% else %}section{% endif %} id="new">
-  <h2 class="page-header">New Icons in {{ site.font_awesome.version }}</h2>
+  <h2 class="page-header">New Icons in {{ site.fontawesome.version }}</h2>
   {% if page.navbar_active != "icons" %}
     <div class="margin-botom-large">
-      You asked, Font Awesome delivers with {{ icons | version:site.font_awesome.version | size }} shiny new icons in version {{ site.font_awesome.version }}.
+      You asked, Font Awesome delivers with {{ icons | version:site.fontawesome.version | size }} shiny new icons in version {{ site.fontawesome.version }}.
       Want to request new icons? <a href="{{ page.relative_path }}community/#requesting-new-icons">Here's how</a>.
     </div>
   {% endif %}
 
   <div class="row the-icons">
-    {% assign icons_new = icons | version:site.font_awesome.version %}
+    {% assign icons_new = icons | version:site.fontawesome.version %}
     {% for icon in icons_new %}
       <div class="span3"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="icon-{{ icon.id }}"></i> icon-{{ icon.id }}</a></div>
       {% for alias in icon.aliases %}

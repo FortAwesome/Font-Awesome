@@ -477,11 +477,11 @@ relative_path: ../
   <div class="row">
     <div class="span6">
       <div style="border: solid 1px #d3d3d3;">
-<ul class="icons-ul">
-  <li><i class="icon-li icon-double-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-  <li><i class="icon-li icon-arrow-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
-  <li><i class="icon-li icon-building"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-</ul>
+        <ul class="icons-ul">
+          <li><i class="icon-li icon-double-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li><i class="icon-li icon-arrow-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+          <li><i class="icon-li icon-building"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
       </div>
     </div>
     <div class="span6">
@@ -510,6 +510,26 @@ relative_path: ../
           <li><i class="icon-li icon-double-angle-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
           <li><i class="icon-li icon-arrow-right icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
           <li><i class="icon-li icon-building icon-large"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3;">
+        <ul class="icons-ul">
+          <li><a href="#"><i class="icon-li icon-double-angle-right"></i></a>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li><a href="#"><i class="icon-li icon-arrow-right"></i></a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+          <li><a href="#"><i class="icon-li icon-building"></i></a>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="span6">
+      <div style="border: solid 1px #d3d3d3;">
+        <ul class="icons-ul">
+          <li><a href="#"><i class="icon-li icon-double-angle-right icon-large"></i></a>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li><a href="#"><i class="icon-li icon-arrow-right icon-large"></i></a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
+          <li><a href="#"><i class="icon-li icon-building icon-large"></i></a>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
         </ul>
       </div>
     </div>
@@ -544,6 +564,7 @@ relative_path: ../
     <button class="btn btn-small">Loading...</button>
     <i class="icon-circle-blank icon-spin"></i> Loading...
     <button class="btn btn-small"><i class="icon-circle-blank icon-spin"></i> Loading...</button>
+    <a href="#"><i class="icon-refresh icon-spin"></i> Loading...</a>
   </div>
   <div style="border: solid 1px #d3d3d3;">
     <i class="icon-refresh icon-spin"></i> Loading...
@@ -602,5 +623,19 @@ relative_path: ../
         {% include tests/rotated-flipped.html %}
       </div>
     </div>
-</div>
+  </div>
+  <h4>Mirrored and rotated icons inside anchors and buttons</h4>
+  <div class="row">
+    <div class="span6">
+      <div class="well">
+        {% include tests/rotated-flipped-inside-anchor.html %}
+      </div>
+    </div>
+    <div class="span6">
+      <div class="well">
+        {% include tests/rotated-flipped-inside-btn.html %}
+      </div>
+    </div>
+  </div>
+
 </section>

@@ -13,9 +13,9 @@
   <ol>
     <li>
       Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
-{% highlight html linenos %}
+{% highlight html %}
 <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/{{ site.bootstrap.version }}/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-<link href="//netdna.bootstrapcdn.com/font-awesome/{{ site.font_awesome.version }}/css/font-awesome.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome.css" rel="stylesheet">
 {% endhighlight %}
       <div class="alert alert-info margin-top">
         <i class="icon-info-sign"></i> Want to use Font Awesome by itself without Bootstrap? Just don't include the first line.
@@ -38,7 +38,7 @@
     <li>Copy the <code>font-awesome</code> directory into your project.</li>
     <li>
       In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome.min.css.
-{% highlight html linenos %}
+{% highlight html %}
 <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 {% endhighlight %}
@@ -55,7 +55,7 @@
     <li>Open bootstrap.less and replace <code>@import "sprites.less";</code> with <code>@import "path/to/font-awesome/less/font-awesome.less";</code></li>
     <li>
       Open your project's font-awesome.less and edit the <code>@FontAwesomePath</code> variable to point to your font directory.
-{% highlight html linenos %}
+{% highlight html %}
 @FontAwesomePath:   "../font";
 {% endhighlight %}
       <p class="alert alert-info"><i class="icon-info-sign"></i> The font path is relative from your compiled CSS directory.</p>
@@ -84,12 +84,13 @@
     <li>Copy font-awesome-ie7.min.css into your project.</li>
     <li>
       In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome-ie7.min.css.
-{% highlight html linenos %}
+{% highlight html %}
 <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <!--[if IE 7]>
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome-ie7.min.css">
-<![endif]-->{% endhighlight %}
+<![endif]-->
+{% endhighlight %}
     </li>
     <li>Go complain to whoever decided your project needs IE7 support.</li>
   </ol>
