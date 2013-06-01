@@ -23,7 +23,7 @@
 a {
   [class^="icon-"],
   [class*=" icon-"] {
-    &, &:before { display: inline; }
+    & { display: inline; }
   }
 }
 
@@ -42,16 +42,16 @@ a {
 }
 
 .icons-ul {
-  margin-left: @icons-ul-width;
+  margin-left: @icons-li-width;
   list-style-type: none;
 
   > li { position: relative; }
 
   .icon-li {
     position: absolute;
-    left: -@icons-ul-width;
-    width: @icons-ul-width - @icons-ul-padding;
-    text-align: right;
+    left: -@icons-li-width;
+    width: @icons-li-width;
+    text-align: center;
     line-height: inherit;
   }
 }
