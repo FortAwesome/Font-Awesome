@@ -2337,3 +2337,17 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+  - name:       Xing
+    id:         xing
+    unicode:    f168
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Xing Sign
+    id:         xing-sign
+    unicode:    f169
+    created:    3.2.0
+    categories:
+      - Brand Icons
