@@ -2323,3 +2323,17 @@ icons:
     created:    3.2.0
     categories:
       - Web Application Icons
+
+  - name:       YouTube Sign
+    id:         youtube-sign
+    unicode:    f166
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       YouTube
+    id:         youtube
+    unicode:    f167
+    created:    3.2.0
+    categories:
+      - Brand Icons

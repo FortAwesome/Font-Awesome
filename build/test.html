@@ -480,7 +480,11 @@ relative_path: ../
         <ul class="icons-ul">
           <li><i class="icon-li icon-double-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
           <li><i class="icon-li icon-arrow-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et lectus id nisl hendrerit varius. Aliquam erat volutpat. Suspendisse potenti. Aliquam erat volutpat. Aliquam ut dolor lectus.</li>
-          <li><i class="icon-li icon-building"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li><i class="icon-li icon-building"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <i class="icon-building"></i>
+            <span class="label">foo</span>
+            <a class="btn">foo</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -601,6 +605,21 @@ relative_path: ../
     <button class="btn btn-large">Loading...</button>
     <i class="icon-circle-blank icon-large icon-spin"></i> Loading...
     <button class="btn btn-large"><i class="icon-circle-blank icon-large icon-spin"></i> Loading...</button>
+  </div>
+  <h4>Bootstrap Prepend and Append</h4>
+  <div class="row">
+    <div class="span6">
+      <div class="input-prepend">
+        <span class="add-on"><i class="icon-spinner icon-spin"></i></span>
+        <input class="span2" id="prependedInput" type="text" placeholder="Username">
+      </div>
+    </div>
+    <div class="span6">
+      <div class="input-append">
+        <input class="span2" id="appendedInput" type="text">
+        <span class="add-on"><i class="icon-spinner icon-spin"></i></span>
+      </div>
+    </div>
   </div>
 
   <h3>Stacked icons</h3>

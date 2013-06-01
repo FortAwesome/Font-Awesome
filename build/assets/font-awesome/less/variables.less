@@ -10,7 +10,9 @@
 @iconMuted:          #eee;
 @iconLight:          #fff;
 @iconDark:           #333;
+@icons-ul-width:     30/14em;
+@icons-ul-padding:   8/14em;
 
 {% for icon in icons %}
-@{{ icon.id }}: "\{{ icon.unicode }}";
+  @{{ icon.id }}: "\{{ icon.unicode }}";
 {% endfor %}
