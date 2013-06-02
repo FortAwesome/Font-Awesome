@@ -2450,3 +2450,31 @@ icons:
     created:    3.2.0
     categories:
       - Directional Icons
+
+  - name:       Apple
+    id:         apple
+    unicode:    f179
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Windows
+    id:         windows
+    unicode:    f17a
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Android
+    id:         android
+    unicode:    f17b
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Linux
+    id:         linux
+    unicode:    f17c
+    created:    3.2.0
+    categories:
+      - Brand Icons
