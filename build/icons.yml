@@ -2380,3 +2380,10 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+  - name:       Flickr
+    id:         flickr
+    unicode:    f16e
+    created:    3.2.0
+    categories:
+      - Brand Icons
