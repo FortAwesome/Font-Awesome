@@ -2373,3 +2373,10 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+  - name:       Instagram
+    id:         instagram
+    unicode:    f16d
+    created:    3.2.0
+    categories:
+      - Brand Icons
