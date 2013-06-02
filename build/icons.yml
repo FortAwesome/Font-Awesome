@@ -2159,6 +2159,13 @@ icons:
     categories:
       - Web Application Icons
 
+  - name:       Compass
+    id:         compass
+    unicode:    f14e
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
 
   - name:       Collapse
     id:         collapse
