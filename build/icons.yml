@@ -2366,3 +2366,10 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+  - name:       Stack Exchange
+    id:         stackexchange
+    unicode:    f16c
+    created:    3.2.0
+    categories:
+      - Brand Icons
