@@ -2408,3 +2408,17 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+  - name:       Tumblr
+    id:         tumblr
+    unicode:    f173
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Tumblr Sign
+    id:         tumblr-sign
+    unicode:    f174
+    created:    3.2.0
+    categories:
+      - Brand Icons
