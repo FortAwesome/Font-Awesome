@@ -2394,3 +2394,17 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+  - name:       Bitbucket
+    id:         bitbucket
+    unicode:    f171
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Bitbucket Sign
+    id:         bitbucket-sign
+    unicode:    f172
+    created:    3.2.0
+    categories:
+      - Brand Icons
