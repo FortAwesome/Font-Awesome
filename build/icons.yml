@@ -2387,3 +2387,10 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+  - name:       App.net
+    id:         adn
+    unicode:    f170
+    created:    3.2.0
+    categories:
+      - Brand Icons
