@@ -2351,3 +2351,18 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+  - name:       YouTube Play
+    id:         youtube-play
+    unicode:    f16a
+    created:    3.2.0
+    categories:
+      - Brand Icons
+      - Video Player Icons
+
+  - name:       Dropbox
+    id:         dropbox
+    unicode:    f16b
+    created:    3.2.0
+    categories:
+      - Brand Icons
