@@ -2422,3 +2422,31 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+  - name:       Long Arrow Down
+    id:         long-arrow-down
+    unicode:    f175
+    created:    3.2.0
+    categories:
+      - Directional Icons
+
+  - name:       Long Arrow Up
+    id:         long-arrow-up
+    unicode:    f176
+    created:    3.2.0
+    categories:
+      - Directional Icons
+
+  - name:       Long Arrow Left
+    id:         long-arrow-left
+    unicode:    f177
+    created:    3.2.0
+    categories:
+      - Directional Icons
+
+  - name:       Long Arrow Right
+    id:         long-arrow-right
+    unicode:    f178
+    created:    3.2.0
+    categories:
+      - Directional Icons
