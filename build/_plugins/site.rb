@@ -13,8 +13,14 @@ module Jekyll
     def initialize(icon_object)
       @icon_object = icon_object
 
+      # Class name used in CSS and HTML
+      @icon_object['class'] = icon_object['id']
+      # Normalize the aliases
+      @icon_object['aliases'] ||= []
+
       @name = icon_object['name']
       @id = icon_object['id']
+      @class = icon_object['class']
       @aliases = icon_object['aliases']
       @unicode = icon_object['unicode']
       @created = icon_object['created']
@@ -56,12 +62,35 @@ module Jekyll
   end
 
   module IconFilters
+    def expand_aliases(icons)
+      expanded = []
+
+      icons.each { |icon|
+        # Remove the aliases since we are expanding them
+        expanded << icon.reject{ |k| k == 'aliases'}
+
+        icon['aliases'].each { |alias_id|
+          alias_icon = expanded[-1].dup
+          alias_icon['class'] = alias_id
+          alias_icon['alias_of'] = icon
+
+          expanded << alias_icon
+        }
+      }
+
+      return expanded
+    end
+
     def category(icons, cat)
       icons.select { |icon| icon['categories'].include?(cat) }
     end
 
     def version(icons, version)
       icons.select { |icon| icon['created'] == version }
+    end
+
+    def sort_by(icons, sort_key)
+      icons.sort_by! { |icon| icon[sort_key] }
     end
   end
 

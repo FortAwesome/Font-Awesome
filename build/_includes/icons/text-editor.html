@@ -2,13 +2,10 @@
   <h2 class="page-header">Text Editor Icons</h2>
 
   <div class="row the-icons">
-    {% for icon in icons %}
-      {% if icon.categories contains "Text Editor Icons" %}
-        <div class="span3"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="icon-{{ icon.id }}"></i> icon-{{ icon.id }}</a></div>
-        {% for alias in icon.aliases %}
-          <div class="span3"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="icon-{{ alias }}"></i> icon-{{ alias }} <span class="muted">(alias)</span></a></div>
-        {% endfor %}
-      {% endif %}
+    {% assign icons_text_editor = icons | expand_aliases | category:"Text Editor Icons" | sort_by:'id' %}
+
+    {% for icon in icons_text_editor %}
+      <div class="span3"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="icon-{{ icon.class }}"></i> icon-{{ icon.class }}{% if icon.alias_of %} <span class="muted">(alias)</span>{% endif %}</a></div>
     {% endfor %}
   </div>
 
