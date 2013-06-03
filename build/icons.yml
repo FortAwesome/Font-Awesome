@@ -2499,3 +2499,11 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+
+  - name:       Foursquare
+    id:         foursquare
+    unicode:    f180
+    created:    3.2.0
+    categories:
+      - Brand Icons
