@@ -2159,6 +2159,13 @@ icons:
     categories:
       - Web Application Icons
 
+  - name:       Compass
+    id:         compass
+    unicode:    f14e
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
 
   - name:       Collapse
     id:         collapse
@@ -2323,3 +2330,187 @@ icons:
     created:    3.2.0
     categories:
       - Web Application Icons
+
+  - name:       YouTube Sign
+    id:         youtube-sign
+    unicode:    f166
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       YouTube
+    id:         youtube
+    unicode:    f167
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Xing
+    id:         xing
+    unicode:    f168
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Xing Sign
+    id:         xing-sign
+    unicode:    f169
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       YouTube Play
+    id:         youtube-play
+    unicode:    f16a
+    created:    3.2.0
+    categories:
+      - Brand Icons
+      - Video Player Icons
+
+  - name:       Dropbox
+    id:         dropbox
+    unicode:    f16b
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Stack Exchange
+    id:         stackexchange
+    unicode:    f16c
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Instagram
+    id:         instagram
+    unicode:    f16d
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Flickr
+    id:         flickr
+    unicode:    f16e
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       App.net
+    id:         adn
+    unicode:    f170
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Bitbucket
+    id:         bitbucket
+    unicode:    f171
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Bitbucket Sign
+    id:         bitbucket-sign
+    unicode:    f172
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Tumblr
+    id:         tumblr
+    unicode:    f173
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Tumblr Sign
+    id:         tumblr-sign
+    unicode:    f174
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Long Arrow Down
+    id:         long-arrow-down
+    unicode:    f175
+    created:    3.2.0
+    categories:
+      - Directional Icons
+
+  - name:       Long Arrow Up
+    id:         long-arrow-up
+    unicode:    f176
+    created:    3.2.0
+    categories:
+      - Directional Icons
+
+  - name:       Long Arrow Left
+    id:         long-arrow-left
+    unicode:    f177
+    created:    3.2.0
+    categories:
+      - Directional Icons
+
+  - name:       Long Arrow Right
+    id:         long-arrow-right
+    unicode:    f178
+    created:    3.2.0
+    categories:
+      - Directional Icons
+
+  - name:       Apple
+    id:         apple
+    unicode:    f179
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Windows
+    id:         windows
+    unicode:    f17a
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Android
+    id:         android
+    unicode:    f17b
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Linux
+    id:         linux
+    unicode:    f17c
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Dribble
+    id:         dribble
+    unicode:    f17d
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Skype
+    id:         skype
+    unicode:    f17e
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+
+  - name:       Foursquare
+    id:         foursquare
+    unicode:    f180
+    created:    3.2.0
+    categories:
+      - Brand Icons
+
+  - name:       Trello
+    id:         trello
+    unicode:    f181
+    created:    3.2.0
+    categories:
+      - Brand Icons
