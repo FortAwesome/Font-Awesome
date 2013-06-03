@@ -2507,3 +2507,10 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+  - name:       Trello
+    id:         trello
+    unicode:    f181
+    created:    3.2.0
+    categories:
+      - Brand Icons
