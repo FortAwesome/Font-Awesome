@@ -2514,3 +2514,24 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+  - name:       Female
+    id:         female
+    unicode:    f182
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Male
+    id:         male
+    unicode:    f183
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Gittip
+    id:         gittip
+    unicode:    f184
+    created:    3.2.0
+    categories:
+      - Brand Icons
