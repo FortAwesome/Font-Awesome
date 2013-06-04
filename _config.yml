@@ -3,15 +3,15 @@ port:             7998
 baseurl:          /Font-Awesome/  # Where GitHub serves the project up from
 url:              http://localhost:7998
 
-source:           build
+source:           source
 destination:      _gh_pages
-plugins:          build/_plugins
+plugins:          source/_plugins
 
 pygments:         true
 permalink:        pretty
 
 # used in building icon pages
-icon_meta:        build/icons.yml
+icon_meta:        source/icons.yml
 icon_layout:      icon.html    # Relative to _layouts directory
 icon_destination: icon         # Relative to destination
 

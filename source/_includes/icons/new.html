@@ -8,7 +8,7 @@
   {% endif %}
 
   <div class="row the-icons">
-    {% assign icons_new = icons | expand_aliases | version:site.fontawesome.version | sort_by:'id' %}
+    {% assign icons_new = icons | expand_aliases | version:site.fontawesome.version | sort_by:'class' %}
 
     {% for icon in icons_new %}
       <div class="span3"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="icon-{{ icon.class }}"></i> icon-{{ icon.class }}{% if icon.alias_of %} <span class="muted">(alias)</span>{% endif %}</a></div>
