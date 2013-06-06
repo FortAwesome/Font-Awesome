@@ -25,7 +25,8 @@ relative_path: ../../
         {% for category in page.icon.categories %}
           {{ category }}{% unless forloop.last %},{% endunless %}
         {% endfor %}
-        {% if page.icon.aliases | size == 0 %}
+        {% assign icon_alias_count = page.icon.aliases | size %}
+        {% if icon_alias_count > 0 %}
           &middot; Aliases:
           {% for alias in page.icon.aliases %}
             icon-{{ alias }}{% unless forloop.last %},{% endunless %}
