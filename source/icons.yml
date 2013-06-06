@@ -2535,3 +2535,17 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+  - name:       Sun
+    id:         sun
+    unicode:    f185
+    created:    3.2.0
+    categories:
+      - Web Application Icons
+
+  - name:       Moon
+    id:         moon
+    unicode:    f186
+    created:    3.2.0
+    categories:
+      - Web Application Icons
