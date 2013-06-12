@@ -52,7 +52,15 @@
   <p>Use this method to customize Font Awesome and Bootstrap {{ site.bootstrap.version }} using LESS.</p>
   <ol>
     <li>Copy the <code>font-awesome</code> directory into your project.</li>
-    <li>Open bootstrap.less and replace <code>@import "sprites.less";</code> with <code>@import "path/to/font-awesome/less/font-awesome.less";</code></li>
+    <li>Open bootstrap.less and replace
+{% highlight html %}
+@import "sprites.less";
+{% endhighlight %}
+      with
+{% highlight html %}
+@import "path/to/font-awesome/less/font-awesome.less";
+{% endhighlight %}
+    </li>
     <li>
       Open your project's font-awesome.less and edit the <code>@FontAwesomePath</code> variable to point to your font directory.
 {% highlight html %}
