@@ -23,7 +23,6 @@
  *  Twitter: http://twitter.com/byscuits
  *  Work: Lead Product Designer @ Kyruus - http://kyruus.com
  */
-@import "variables";
 
 .icon-large {
   font-size: 4/3em;
@@ -57,18 +56,6 @@
       padding-top: 5px;
       margin-bottom: -5px;
       padding-bottom: 4px;
-    }
-  }
-}
-
-ul.icons-ul {
-  text-indent: -1em;
-  margin-left: $icons-li-width;
-
-  > li {
-    .icon-li {
-      width: 1em;
-      margin-right: 0;
     }
   }
 }
