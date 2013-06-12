@@ -1,4 +1,5 @@
 // Mixins
+// --------------------------
 
 @mixin icon($icon) {
   @include icon-FontAwesome();
@@ -44,19 +45,4 @@
       *line-height: $height / $base-font-size;
     }
   }
-}
-
-@mixin animation($animation) {
-  -moz-animation: $animation;
-  -o-animation: $animation;
-  -webkit-animation: $animation;
-  animation: $animation;
-}
-
-@mixin transform($transform) {
-  -webkit-transform: $transform;
-  -moz-transform: $transform;
-  -ms-transform: $transform;
-  -o-transform: $transform;
-  transform: $transform;
 }
