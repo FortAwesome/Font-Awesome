@@ -1,99 +1,130 @@
-/* BOOTSTRAP SPECIFIC CLASSES
+/* FONT AWESOME CORE
  * -------------------------- */
 
-/* Bootstrap 2.0 sprites.less reset */
 [class^="icon-"],
 [class*=" icon-"] {
-  display: inline;
-  width: auto;
-  height: auto;
-  line-height: normal;
-  vertical-align: baseline;
-  background-image: none;
-  background-position: 0% 0%;
-  background-repeat: repeat;
-  margin-top: 0;
+  @include icon-FontAwesome();
 }
 
-/* more sprites.less reset */
-.icon-white,
-.nav-pills > .active > a > [class^="icon-"],
-.nav-pills > .active > a > [class*=" icon-"],
-.nav-list > .active > a > [class^="icon-"],
-.nav-list > .active > a > [class*=" icon-"],
-.navbar-inverse .nav > .active > a > [class^="icon-"],
-.navbar-inverse .nav > .active > a > [class*=" icon-"],
-.dropdown-menu > li > a:hover > [class^="icon-"],
-.dropdown-menu > li > a:hover > [class*=" icon-"],
-.dropdown-menu > .active > a > [class^="icon-"],
-.dropdown-menu > .active > a > [class*=" icon-"],
-.dropdown-submenu:hover > a > [class^="icon-"],
-.dropdown-submenu:hover > a > [class*=" icon-"] {
-  background-image: none;
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  cursor: default;
+  speak: none;
 }
 
-/* keeps Bootstrap styles with and without icons the same */
-.btn, .nav {
+/* makes the font 33% larger relative to the icon container */
+.icon-large:before {
+  vertical-align: -10%;
+  font-size: 4/3em;
+}
+
+/* makes sure icons active on rollover in links */
+a {
   [class^="icon-"],
   [class*=" icon-"] {
-    //display: inline
+    display: inline;
+  }
+}
+
+/* increased font size for icon-large */
+[class^="icon-"],
+[class*=" icon-"] {
+  &.icon-fixed-width {
+    display: inline-block;
+    width: 16/14em;
+    text-align: right;
+    padding-right: 4/14em;
     &.icon-large {
-      line-height: 0.9em;
-    }
-    &.icon-spin {
-      display: inline-block;
+      width: 20/14em;
     }
   }
 }
 
-.nav-tabs, .nav-pills {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    &, &.icon-large {
-      line-height: 0.9em;
-    }
+.icons-ul {
+  margin-left: $icons-li-width;
+  list-style-type: none;
+
+  > li { position: relative; }
+
+  .icon-li {
+    position: absolute;
+    left: -$icons-li-width;
+    width: $icons-li-width;
+    text-align: center;
+    line-height: inherit;
   }
 }
 
-.btn {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    &.pull-left, &.pull-right {
-      &.icon-2x {
-        margin-top: 0.18em;
-      }
-    }
-    &.icon-spin.icon-large {
-      line-height: 0.8em;
-    }
+// allows usage of the hide class directly on font awesome icons
+[class^="icon-"],
+[class*=" icon-"] {
+  &.hide {
+    display: none;
   }
 }
 
-.btn.btn-small {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    &.pull-left, &.pull-right {
-      &.icon-2x {
-        margin-top: 0.25em;
-      }
-    }
+.icon-muted { color: $iconMuted; }
+.icon-light { color: $iconLight; }
+.icon-dark { color: $iconDark; }
+
+// Icon Borders
+// -------------------------
+
+.icon-border {
+  border: solid 1px $borderColor;
+  padding: .2em .25em .15em;
+  @include border-radius(3px);
+}
+
+// Icon Sizes
+// -------------------------
+
+.icon-2x {
+  font-size: 2em;
+  &.icon-border {
+    border-width: 2px;
+    @include border-radius(4px);
+  }
+}
+.icon-3x {
+  font-size: 3em;
+  &.icon-border {
+    border-width: 3px;
+    @include border-radius(5px);
+  }
+}
+.icon-4x {
+  font-size: 4em;
+  &.icon-border {
+    border-width: 4px;
+    @include border-radius(6px);
   }
 }
 
-.btn.btn-large {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    margin-top: 0;
-    &.pull-left, &.pull-right {
-      &.icon-2x {
-        margin-top: 0.05em;
-      }
-    }
-    &.pull-left.icon-2x {
-      margin-right: 0.2em;
-    }
-    &.pull-right.icon-2x {
-      margin-left: 0.2em;
-    }
+.icon-5x {
+  font-size: 5em;
+  &.icon-border {
+    border-width: 5px;
+    @include border-radius(7px);
+  }
+}
+
+
+// Floats & Margins
+// -------------------------
+
+// Quick floats
+.pull-right { float: right; }
+.pull-left { float: left; }
+
+[class^="icon-"],
+[class*=" icon-"] {
+  &.pull-left {
+    margin-right: .3em;
+  }
+  &.pull-right {
+    margin-left: .3em;
   }
 }
