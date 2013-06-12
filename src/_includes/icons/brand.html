@@ -1,6 +1,10 @@
 <section id="brand">
   <h2 class="page-header">Brand Icons</h2>
 
+  <div class="alert alert-info">
+    {% include brand-license.html %}
+  </div>
+
   <div class="row the-icons">
     {% assign icons_brand = icons | expand_aliases | category:"Brand Icons" | sort_by:'class' %}
 
@@ -8,5 +12,4 @@
       <div class="span3"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="icon-{{ icon.class }}"></i> icon-{{ icon.class }}{% if icon.alias_of %} <span class="muted">(alias)</span>{% endif %}</a></div>
     {% endfor %}
   </div>
-
 </section>
