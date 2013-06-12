@@ -42,7 +42,7 @@
     }
     .icon-stack-base {
       font-size: $base-font-size;
-      *line-height: $height / $base-font-size;
+      *line-height: #{$height / $base-font-size}em;
     }
   }
 }

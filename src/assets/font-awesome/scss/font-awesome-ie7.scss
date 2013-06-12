@@ -3,7 +3,7 @@
 {% include license-code.less %}
 
 .icon-large {
-  font-size: 4/3em;
+  font-size: (4em/3);
   margin-top: -4px;
   padding-top: 3px;
   margin-bottom: -4px;
@@ -54,7 +54,6 @@ a [class*=" icon-"] {
 }
 
 @mixin ie7icon($inner) { *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '#{$inner}'); }
-
 
 {% for icon in icons %}
 .icon-{{ icon.id }} {

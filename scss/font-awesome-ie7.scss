@@ -78,7 +78,6 @@ a [class*=" icon-"] {
 @mixin ie7icon($inner) { *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '#{$inner}'); }
 
 
-
 .icon-glass {
   @include ie7icon('&#xf000;');
 }
