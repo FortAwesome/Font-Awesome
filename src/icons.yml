@@ -2570,3 +2570,10 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+  - name:       Weibo
+    id:         weibo
+    unicode:    f18a
+    created:    3.2.0
+    categories:
+      - Brand Icons
