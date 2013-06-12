@@ -2563,3 +2563,10 @@ icons:
     created:    3.2.0
     categories:
       - Web Application Icons
+
+  - name:       VK
+    id:         vk
+    unicode:    f189
+    created:    3.2.0
+    categories:
+      - Brand Icons
