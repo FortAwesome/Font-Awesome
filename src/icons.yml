@@ -2577,3 +2577,10 @@ icons:
     created:    3.2.0
     categories:
       - Brand Icons
+
+  - name:       Renren
+    id:         renren
+    unicode:    f18b
+    created:    3.2.0
+    categories:
+      - Brand Icons
