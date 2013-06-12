@@ -19,7 +19,7 @@ Get started at http://fontawesome.io!
 
 ##Changelog
 - v3.0.0 - all icons redesigned from scratch, optimized for Bootstrap's 14px default
-- v3.0.1 - much improved rendering in webkit, various bugfixes
+- v3.0.1 - much improved rendering in webkit, various bug fixes
 - v3.0.2 - much improved rendering and alignment in IE7
 - v3.1.0 - Added 54 icons, icon stacking styles, flipping and rotating icons, removed SASS support
 - [v3.1.1 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=4&page=1&state=closed)
