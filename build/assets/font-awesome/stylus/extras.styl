@@ -1,0 +1,39 @@
+/* EXTRAS
+ * -------------------------- */
+
+/* Stacked and layered icon */
+icon-stack()
+
+/* Animated rotating icon */
+.icon-spin
+  display inline-block
+  vendor: animation spin 2s infinite linear
+
+@keyframes spin
+  0%
+    transform s("rotate(%s)", 0deg)
+  100%
+    transform s("rotate(%s)", 359deg)
+
+/* Icon rotations and mirroring */
+.icon-rotate-90:before
+  vendor('transform', s("rotate(%s)", 90deg))
+  filter unquote('progid:DXImageTransform.Microsoft.BasicImage(rotation=1)')
+
+
+.icon-rotate-180:before
+  vendor('transform', s("rotate(%s)", 180deg))
+  filter unquote('progid:DXImageTransform.Microsoft.BasicImage(rotation=2)')
+
+
+.icon-rotate-270:before
+  vendor('transform', s("rotate(%s)", 270deg))
+  filter unquote('progid:DXImageTransform.Microsoft.BasicImage(rotation=3)')
+
+
+.icon-flip-horizontal:before
+  vendor('transform', s("scale(%s, %s)", -1, 1))
+
+
+.icon-flip-vertical:before
+  vendor('transform', s("scale(%s, %s)", 1, -1))
