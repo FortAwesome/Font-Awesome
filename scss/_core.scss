@@ -17,7 +17,7 @@
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
   vertical-align: -10%;
-  font-size: 4/3em;
+  font-size: (4em/3);
 }
 
 /* makes sure icons active on rollover in links */
@@ -33,11 +33,11 @@ a {
 [class*=" icon-"] {
   &.icon-fixed-width {
     display: inline-block;
-    width: 16/14em;
+    width: (16em/14);
     text-align: right;
-    padding-right: 4/14em;
+    padding-right: (4em/14);
     &.icon-large {
-      width: 20/14em;
+      width: (20em/14);
     }
   }
 }
