@@ -9,8 +9,9 @@
  ================================================== -->
   <meta charset="utf-8" />
   <title>Font Awesome Examples</title>
-  <meta name="description" content="Font Awesome, the iconic font designed for use with Bootstrap">
+  <meta name="description" content="Font Awesome, the iconic font designed for Bootstrap">
   <meta name="author" content="Dave Gandy">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--<meta name="viewport" content="initial-scale=1; maximum-scale=1">-->
 
   <!--[if lt IE 9]>
@@ -22,9 +23,9 @@
 
   <link rel="stylesheet" href="../assets/css/site.css">
   <link rel="stylesheet" href="../assets/css/pygments.css">
-  <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.css">
   <!--[if IE 7]>
-  <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome-ie7.min.css">
+  <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome-ie7.css">
   <![endif]-->
   <!-- Le fav and touch icons -->
   <link rel="shortcut icon" href="../assets/ico/favicon.ico">
@@ -49,58 +50,69 @@
   <div class="navbar navbar-inverse navbar-static-top hidden-print">
   <div class="navbar-inner">
     <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+
       <a class="brand" href="../"><i class="icon-flag"></i> Font Awesome</a>
-      <ul class="nav">
-        <li><a href="../">Home</a></li>
-        <li><a href="../get-started/">Get Started</a></li>
-        <li class="dropdown-split-left"><a href="../icons/">Icons</a></li>
-        <li class="dropdown dropdown-split-right">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          <i class="icon-caret-down"></i>
-        </a>
-        <ul class="dropdown-menu pull-right">
-          <li><a href="../icons/"><i class="icon-flag icon-fixed-width"></i>&nbsp; Icons</a></li>
-          <li class="divider"></li>
-          <li><a href="../icons/#new"><i class="icon-shield icon-fixed-width"></i>&nbsp; New Icons in 3.1.1</a></li>
-          <li><a href="../icons/#web-application"><i class="icon-camera-retro icon-fixed-width"></i>&nbsp; Web Application Icons</a></li>
-          <li><a href="../icons/#text-editor"><i class="icon-file-alt icon-fixed-width"></i>&nbsp; Text Editor Icons</a></li>
-          <li><a href="../icons/#directional"><i class="icon-hand-right icon-fixed-width"></i>&nbsp; Directional Icons</a></li>
-          <li><a href="../icons/#video-player"><i class="icon-play-sign icon-fixed-width"></i>&nbsp; Video Player Icons</a></li>
-          <li><a href="../icons/#brand"><i class="icon-github icon-fixed-width"></i>&nbsp; Brand Icons</a></li>
-          <li><a href="../icons/#medical"><i class="icon-medkit icon-fixed-width"></i>&nbsp; Medical Icons</a></li>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="hidden-tablet "><a href="../">Home</a></li>
+          <li><a href="../get-started/">Get Started</a></li>
+          <li class="dropdown-split-left"><a href="../icons/">Icons</a></li>
+          <li class="dropdown dropdown-split-right hidden-phone">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="icon-caret-down"></i>
+            </a>
+            <ul class="dropdown-menu pull-right">
+              <li><a href="../icons/"><i class="icon-flag icon-fixed-width"></i>&nbsp; Icons</a></li>
+              <li class="divider"></li>
+              <li><a href="../icons/#new"><i class="icon-shield icon-fixed-width"></i>&nbsp; New Icons in 3.2.0</a></li>
+              <li><a href="../icons/#web-application"><i class="icon-camera-retro icon-fixed-width"></i>&nbsp; Web Application Icons</a></li>
+              <li><a href="../icons/#currency"><i class="icon-won icon-fixed-width"></i>&nbsp; Currency Icons</a></li>
+              <li><a href="../icons/#text-editor"><i class="icon-file-text-alt icon-fixed-width"></i>&nbsp; Text Editor Icons</a></li>
+              <li><a href="../icons/#directional"><i class="icon-hand-right icon-fixed-width"></i>&nbsp; Directional Icons</a></li>
+              <li><a href="../icons/#video-player"><i class="icon-play-sign icon-fixed-width"></i>&nbsp; Video Player Icons</a></li>
+              <li><a href="../icons/#brand"><i class="icon-github icon-fixed-width"></i>&nbsp; Brand Icons</a></li>
+              <li><a href="../icons/#medical"><i class="icon-medkit icon-fixed-width"></i>&nbsp; Medical Icons</a></li>
+            </ul>
+          </li>
+          <li class="dropdown-split-left active"><a href="../examples/">Examples</a></li>
+          <li class="dropdown dropdown-split-right hidden-phone active">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="icon-caret-down"></i>
+            </a>
+            <ul class="dropdown-menu pull-right">
+              <li><a href="../examples/">Examples</a></li>
+              <li class="divider"></li>
+              <li><a href="../examples/#new-styles">New Styles</a></li>
+              <li><a href="../examples/#inline-icons">Inline Icons</a></li>
+              <li><a href="../examples/#larger-icons">Larger Icons</a></li>
+              <li><a href="../examples/#bordered-pulled">Bordered & Pulled</a></li>
+              <li><a href="../examples/#buttons">Buttons</a></li>
+              <li><a href="../examples/#button-groups">Button Groups</a></li>
+              <li><a href="../examples/#button-dropdowns">Button Dropdowns</a></li>
+              <li><a href="../examples/#bulleted-lists">Bulleted Lists</a></li>
+              <li><a href="../examples/#navigation">Navigation</a></li>
+              <li><a href="../examples/#form-inputs">Form Inputs</a></li>
+              <li><a href="../examples/#animated-spinner">Animated Spinner</a></li>
+              <li><a href="../examples/#rotated-flipped">Rotated &amp; Flipped</a></li>
+              <li><a href="../examples/#stacked">Stacked</a></li>
+              <li><a href="../examples/#custom">Custom CSS</a></li>
+            </ul>
+          </li>
+          <li><a href="../whats-new/">
+          <span class="hidden-tablet">What's </span>New</a>
+          </li>
+          <li><a href="../community/">Community</a></li>
+          <li><a href="../license/">License</a></li>
         </ul>
-        </li>
-        <li class="dropdown-split-left active"><a href="../examples/">Examples</a></li>
-        <li class="dropdown dropdown-split-right active">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <i class="icon-caret-down"></i>
-          </a>
-          <ul class="dropdown-menu pull-right">
-            <li><a href="../examples/">Examples</a></li>
-            <li class="divider"></li>
-            <li><a href="../examples/#new-styles">New Styles</a></li>
-            <li><a href="../examples/#inline-icons">Inline Icons</a></li>
-            <li><a href="../examples/#larger-icons">Larger Icons</a></li>
-            <li><a href="../examples/#bordered-pulled">Bordered & Pulled</a></li>
-            <li><a href="../examples/#buttons">Buttons</a></li>
-            <li><a href="../examples/#button-groups">Button Groups</a></li>
-            <li><a href="../examples/#button-dropdowns">Button Dropdowns</a></li>
-            <li><a href="../examples/#bulleted-lists">Bulleted Lists</a></li>
-            <li><a href="../examples/#navigation">Navigation</a></li>
-            <li><a href="../examples/#form-inputs">Form Inputs</a></li>
-            <li><a href="../examples/#animated-spinner">Animated Spinner</a></li>
-            <li><a href="../examples/#rotated-flipped">Rotated &amp; Flipped</a></li>
-            <li><a href="../examples/#stacked">Stacked</a></li>
-            <li><a href="../examples/#custom">Custom CSS</a></li>
-          </ul>
-        </li>
-        <li><a href="../whats-new/">What's New</a></li>
-        <li><a href="../community/">Community</a></li>
-        <li><a href="../license/">License</a></li>
-      </ul>
-      <ul class="nav pull-right">
-        <li><a href="mailto:dave@fontawesome.io"><i class="icon-envelope"></i>&nbsp; Me</a></li>
-      </ul>
+        <ul class="nav pull-right">
+          <li><a href="http://blog.fontawesome.io">Blog</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
@@ -128,7 +140,7 @@
       <li class="follow-btn">
         <a href="https://twitter.com/fontawesome" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @fontawesome</a>
       </li>
-      <li class="tweet-btn">
+      <li class="tweet-btn hidden-phone">
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://fontawesome.io" data-text="Font Awesome, the iconic font designed for Bootstrap" data-counturl="http://fortawesome.github.com/Font-Awesome/" data-count="horizontal" data-via="fontawesome" data-related="byscuits:Creator of Font Awesome">Tweet</a>
       </li>
     </ul>
@@ -158,7 +170,7 @@
 
 
 <div id="new-styles">
-  <h2 class="page-header">New Styles in 3.1.1</h2>
+  <h2 class="page-header">New Styles in 3.2.0</h2>
   <div class="row">
     <div class="span4">
       <h4><a href="#rotated-flipped">Rotated and Flipped Icons</a></h4>
@@ -173,7 +185,7 @@
     </div>
     <div class="span4">
       <h4><a href="#stacked">Stacked Icons</a></h4>
-      <div class="well well-transparent">
+      <div class="well well-transparent stacked">
         <span class="icon-stack">
           <i class="icon-check-empty icon-stack-base"></i>
           <i class="icon-twitter"></i>
@@ -279,7 +291,7 @@
 <div class="highlight"><pre><code class="html"><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-quote-left icon-4x pull-left icon-muted&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
 Use a few of the new styles together ... lots of new possibilities.
 </code></pre></div>
-      <div class="well well-large well-transparent">
+      <div class="well well-large well-transparent clearfix">
         <i class="icon-flag icon-4x pull-left icon-border"></i>
         Use a few of the new styles together, and you've got easy pull quotes or a great introductory article image.
         Or spinning icons for loading and refreshing content. Or fun big icons in multi-line buttons. You can combine all
@@ -316,7 +328,7 @@ Use a few of the new styles together ... lots of new possibilities.
       </p>
       <p>
         <a class="btn btn-large btn-danger" href="#">
-          <i class="icon-flag icon-2x pull-left"></i> Font Awesome<br>Version 3.1.1</a>
+          <i class="icon-flag icon-2x pull-left"></i> Font Awesome<br>Version 3.2.0</a>
       </p>
       <p>
         <a class="btn btn-primary" href="#">
@@ -341,7 +353,7 @@ Use a few of the new styles together ... lots of new possibilities.
 <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;btn btn-small&quot;</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>
   <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-cog&quot;</span><span class="nt">&gt;&lt;/i&gt;</span> Settings<span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;btn btn-large btn-danger&quot;</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-flag icon-2x pull-left&quot;</span><span class="nt">&gt;&lt;/i&gt;</span> Font Awesome<span class="nt">&lt;br&gt;</span>Version 3.1.1<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-flag icon-2x pull-left&quot;</span><span class="nt">&gt;&lt;/i&gt;</span> Font Awesome<span class="nt">&lt;br&gt;</span>Version 3.2.0<span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;btn btn-primary&quot;</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>
   <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-refresh icon-spin&quot;</span><span class="nt">&gt;&lt;/i&gt;</span> Synchronizing Content...<span class="nt">&lt;/a&gt;</span>
 </code></pre></div>
@@ -436,6 +448,7 @@ Use a few of the new styles together ... lots of new possibilities.
   <span class="nt">&lt;li&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-li icon-ok&quot;</span><span class="nt">&gt;&lt;/i&gt;</span><span class="ni">&amp;hellip;</span>and many more with custom CSS<span class="nt">&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span>
 </code></pre></div>
+      <div class="alert alert-info"><i class="icon-info-sign"></i> Make sure to NOT include any whitespace after the icon declaration.</div>
     </div>
   </div>
 </section>
@@ -569,7 +582,12 @@ Use a few of the new styles together ... lots of new possibilities.
           <i class="icon-sign-blank icon-stack-base"></i>
           <i class="icon-terminal icon-light"></i>
         </span>
-        icon-terminal on icon-sign-blank
+        icon-terminal on icon-sign-blank<br>
+        <span class="icon-stack">
+          <i class="icon-camera"></i>
+          <i class="icon-ban-circle icon-stack-base text-error"></i>
+        </span>
+        icon-camera on icon-ban-circle
       </div>
 <div class="highlight"><pre><code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;icon-stack&quot;</span><span class="nt">&gt;</span>
   <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-check-empty icon-stack-base&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
@@ -585,7 +603,12 @@ icon-flag on icon-circle<span class="nt">&lt;br&gt;</span>
   <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-sign-blank icon-stack-base&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
   <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-terminal icon-light&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/span&gt;</span>
-icon-terminal on icon-sign-blank
+icon-terminal on icon-sign-blank<span class="nt">&lt;br&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;icon-stack&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-camera&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-ban-circle icon-stack-base text-error&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
+<span class="nt">&lt;/span&gt;</span>
+icon-camera on icon-ban-circle
 </code></pre></div>
     </div>
   </div>
@@ -616,13 +639,15 @@ icon-terminal on icon-sign-blank
 <footer class="footer hidden-print">
   <div class="container text-center">
     <div>
-      <i class="icon-flag"></i> Font Awesome 3.1.1 &middot;
-      Created and Maintained by Dave Gandy &middot;
-      <a href="http://twitter.com/byscuits">@byscuits</a>
+      <i class="icon-flag"></i> Font Awesome 3.2.0
+      <span class="hidden-phone">&middot;</span><br class="visible-phone">
+      Created and Maintained by <a href="http://twitter.com/byscuits">Dave Gandy</a>
     </div>
     <div>
-      Font Awesome font licensed under <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a> &middot;
-      Code licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a> &middot;
+      Font Awesome licensed under <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a>
+      <span class="hidden-phone">&middot;</span><br class="visible-phone">
+      Code licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a>
+      <span class="hidden-phone hidden-tablet">&middot;</span><br class="visible-phone visible-tablet">
       Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>
     </div>
     <div>
@@ -638,9 +663,7 @@ icon-terminal on icon-sign-blank
 
 <script src="http://platform.twitter.com/widgets.js"></script>
 <script src="../assets/js/jquery-1.7.1.min.js"></script>
-<script src="../assets/js/underscore.min.js"></script>
-<script src="../assets/js/backbone.min.js"></script>
-<!--<script src="../assets/js/prettify.min.js"></script>-->
+<script src="../assets/js/ZeroClipboard-1.1.7.min.js"></script>
 <script src="../assets/js/bootstrap-2.3.1.min.js"></script>
 <script src="../assets/js/site.js"></script>
 

@@ -4,6 +4,9 @@ $(function() {
     interval: 5000
   });
 
+
+
+
   // make code pretty
 //  $('pre').addClass('prettyprint');
 //  window.prettyPrint && prettyPrint();

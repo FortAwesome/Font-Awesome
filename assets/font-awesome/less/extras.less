@@ -12,6 +12,10 @@
   -webkit-animation: spin 2s infinite linear;
   animation: spin 2s infinite linear;
 }
+a .icon-spin {
+  display: inline-block;
+  text-decoration: none;
+}
 
 @-moz-keyframes spin {
   0% { -moz-transform: rotate(0deg); }
@@ -35,7 +39,7 @@
 }
 
 /* Icon rotations and mirroring */
-.icon-rotate-90:before{
+.icon-rotate-90:before {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -44,7 +48,7 @@
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }
 
-.icon-rotate-180:before{
+.icon-rotate-180:before {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
@@ -53,7 +57,7 @@
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
-.icon-rotate-270:before{
+.icon-rotate-270:before {
   -webkit-transform: rotate(270deg);
   -moz-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
@@ -76,4 +80,11 @@
   -ms-transform: scale(1, -1);
   -o-transform: scale(1, -1);
   transform: scale(1, -1);
+}
+
+/* ensure rotation occurs inside anchor tags */
+a {
+  .icon-rotate-90, .icon-rotate-180, .icon-rotate-270, .icon-flip-horizontal, .icon-flip-vertical {
+    &:before { display: inline-block; }
+  }
 }

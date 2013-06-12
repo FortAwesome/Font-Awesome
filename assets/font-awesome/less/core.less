@@ -3,18 +3,14 @@
 
 [class^="icon-"],
 [class*=" icon-"] {
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
-  -webkit-font-smoothing: antialiased;
-  *margin-right: .3em; // fixes ie7 issues
+  .icon-FontAwesome();
 }
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   text-decoration: inherit;
   display: inline-block;
+  cursor: default;
   speak: none;
 }
 
@@ -28,7 +24,7 @@
 a {
   [class^="icon-"],
   [class*=" icon-"] {
-    &, &:before { display: inline; }
+    display: inline;
   }
 }
 
@@ -37,25 +33,27 @@ a {
 [class*=" icon-"] {
   &.icon-fixed-width {
     display: inline-block;
-    width: 18/14em;
-    text-align: center;
+    width: 16/14em;
+    text-align: right;
+    padding-right: 4/14em;
     &.icon-large {
-      width: 22/14em;
+      width: 20/14em;
     }
   }
 }
 
-ul.icons-ul {
+.icons-ul {
+  margin-left: @icons-li-width;
   list-style-type: none;
-  text-indent: -10/14em;
-  margin-left: 30/14em;
 
-  > li {
-    .icon-li {
-      width: 10/14em;
-      display: inline-block;
-      text-align: center;
-    }
+  > li { position: relative; }
+
+  .icon-li {
+    position: absolute;
+    left: -@icons-li-width;
+    width: @icons-li-width;
+    text-align: center;
+    line-height: inherit;
   }
 }
 
