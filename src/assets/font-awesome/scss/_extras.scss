@@ -1,8 +1,10 @@
 /* EXTRAS
  * -------------------------- */
 
-/* Animated rotating icon */
+/* Stacked and layered icon */
+@include icon-stack;
 
+/* Animated rotating icon */
 .icon-spin {
   display: inline-block;
   @include animation(spin 2s infinite linear);
