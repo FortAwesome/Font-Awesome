@@ -2486,8 +2486,8 @@ icons:
     categories:
       - Brand Icons
 
-  - name:       Dribble
-    id:         dribble
+  - name:       Dribbble
+    id:         dribbble
     unicode:    f17d
     created:    3.2.0
     categories:
