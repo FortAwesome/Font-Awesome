@@ -428,6 +428,7 @@ a .icon-flip-vertical:before {
 .icon-signal:before {
   content: "\f012";
 }
+.icon-gear:before,
 .icon-cog:before {
   content: "\f013";
 }
@@ -751,6 +752,7 @@ a .icon-flip-vertical:before {
 .icon-key:before {
   content: "\f084";
 }
+.icon-gears:before,
 .icon-cogs:before {
   content: "\f085";
 }

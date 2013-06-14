@@ -127,6 +127,9 @@ a [class*=" icon-"] {
 .icon-cog {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf013;');
 }
+.icon-gear {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf013;');
+}
 .icon-trash {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf014;');
 }
@@ -452,6 +455,9 @@ a [class*=" icon-"] {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf084;');
 }
 .icon-cogs {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf085;');
+}
+.icon-gears {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf085;');
 }
 .icon-comments {

@@ -176,6 +176,10 @@ a [class*=" icon-"] {
   @include ie7icon('&#xf013;');
 }
 
+.icon-gear {
+  @include ie7icon('&#xf013;');
+}
+
 
 .icon-trash {
   @include ie7icon('&#xf014;');
@@ -716,6 +720,10 @@ a [class*=" icon-"] {
 
 
 .icon-cogs {
+  @include ie7icon('&#xf085;');
+}
+
+.icon-gears {
   @include ie7icon('&#xf085;');
 }
 

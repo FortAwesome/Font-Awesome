@@ -57,7 +57,7 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-zoom-out:before{content:"\f010";}
 .icon-power-off:before,.icon-off:before{content:"\f011";}
 .icon-signal:before{content:"\f012";}
-.icon-cog:before{content:"\f013";}
+.icon-gear:before,.icon-cog:before{content:"\f013";}
 .icon-trash:before{content:"\f014";}
 .icon-home:before{content:"\f015";}
 .icon-file-alt:before{content:"\f016";}
@@ -164,7 +164,7 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-facebook-sign:before{content:"\f082";}
 .icon-camera-retro:before{content:"\f083";}
 .icon-key:before{content:"\f084";}
-.icon-cogs:before{content:"\f085";}
+.icon-gears:before,.icon-cogs:before{content:"\f085";}
 .icon-comments:before{content:"\f086";}
 .icon-thumbs-up-alt:before{content:"\f087";}
 .icon-thumbs-down-alt:before{content:"\f088";}
