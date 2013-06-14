@@ -19,7 +19,8 @@ icon_layout:      icon.html    # Relative to _layouts directory
 icon_destination: icon         # Relative to destination
 
 fontawesome:
-  version:        3.2.0
+  version:        3.2.1
+  minor_version:  3.2
   url:            http://fontawesome.io
   legacy_url:     http://fortawesome.github.com/Font-Awesome/
   blog_url:       http://blog.fontawesome.io

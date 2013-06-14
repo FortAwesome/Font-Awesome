@@ -1,5 +1,5 @@
 /*!
- *  Font Awesome 3.2.0
+ *  Font Awesome 3.2.1
  *  the iconic font designed for Bootstrap
  *  ------------------------------------------------------------------------------
  *  The full suite of pictographic icons, examples, and documentation can be
@@ -27,8 +27,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../font/fontawesome-webfont.eot?v=3.2.0');
-  src: url('../font/fontawesome-webfont.eot?#iefix&v=3.2.0') format('embedded-opentype'), url('../font/fontawesome-webfont.woff?v=3.2.0') format('woff'), url('../font/fontawesome-webfont.ttf?v=3.2.0') format('truetype'), url('../font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.0') format('svg');
+  src: url('../font/fontawesome-webfont.eot?v=3.2.1');
+  src: url('../font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('../font/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('../font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('../font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
   font-weight: normal;
   font-style: normal;
 }

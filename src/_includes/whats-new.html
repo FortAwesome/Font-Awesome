@@ -1,7 +1,7 @@
 {% capture stripe_ad_content %}
 <p class="lead">
   Font Awesome is always getting a little awesome-er. So here's what's new in the latest version, Font Awesome
-  {{ site.fontawesome.version }}. Have some ideas for new features?
+  {{ site.fontawesome.minor_version }}. Have some ideas for new features?
   <a href="{{ page.relative_path }}community/">Help contribute</a>.
 </p>
 {% endcapture %}
@@ -10,7 +10,7 @@
 <div id="whats-new">
   <div class="row">
     <div class="span4">
-      <h4><i class="icon-lightbulb"></i> {{ icons | version:site.fontawesome.version | size }} New Icons in {{ site.fontawesome.version }}</h4>
+      <h4><i class="icon-lightbulb"></i> {{ icons | version:site.fontawesome.minor_version | size }} New Icons in {{ site.fontawesome.minor_version }}</h4>
       Requested by the active community on the <a href="{{ site.fontawesome.github.url }}">Font Awesome GitHub project</a>.
     </div>
     <div class="span4">
@@ -26,7 +26,7 @@
     </div>
     <div class="span4 margin-bottom-large">
       <h4><i class="icon-magic"></i> Pixel Perfection at 14px</h4>
-      Version 3.0 was re-created from the ground up to be razor sharp at Bootstrap's default 14px.
+      Version 3 was re-created from the ground up to be razor sharp at Bootstrap's default 14px.
     </div>
     <div class="span4">
       <h4><i class="icon-th-large"></i> <a href="http://icnfnt.com/">Font Subsetting</a></h4>
