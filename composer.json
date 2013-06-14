@@ -10,10 +10,5 @@
       "role": "Developer"
     }
   ],
-  "extra": {
-    "branch-alias": {
-      "dev-master": "3.0.x-dev"
-    }
-  },
   "license": "OFL-1.1"
 }
