@@ -1153,7 +1153,7 @@ a [class*=" icon-"] {
 .icon-linux {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf17c;');
 }
-.icon-dribble {
+.icon-dribbble {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf17d;');
 }
 .icon-skype {
