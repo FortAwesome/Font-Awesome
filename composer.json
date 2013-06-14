@@ -1,0 +1,14 @@
+{
+  "name": "fortawesome/font-awesome",
+  "description": "The iconic font designed for use with Twitter Bootstrap",
+  "keywords": ["css", "bootstrap"],
+  "homepage": "http://fortawesome.github.com/Font-Awesome/",
+  "authors": [
+    {
+      "name": "Dave Gandy",
+      "email": "dave@davegandy.com",
+      "role": "Developer"
+    }
+  ],
+  "license": "OFL-1.1"
+}
