@@ -1,0 +1,27 @@
+{
+  "name": "fortawesome/font-awesome",
+  "description": "The iconic font designed for Bootstrap",
+  "keywords": ["font", "awesome", "fontawesome", "icon", "font", "bootstrap"],
+  "homepage": "http://fontawesome.io/",
+  "authors": [
+    {
+      "name": "Dave Gandy",
+      "email": "dave@fontawesome.io",
+      "role": "Developer",
+      "homepage": "http://twitter.com/byscuits"
+    }
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.2.x-dev"
+    }
+  },
+  "license": [
+      "OFL-1.1",
+      "MIT"
+  ],
+  "require-dev": {
+      "jekyll": "1.0.2",
+      "lessc": "1.3.3"
+  }
+}
