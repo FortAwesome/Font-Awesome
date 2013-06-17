@@ -47,7 +47,6 @@
 [class*=" icon-"]:before {
   text-decoration: inherit;
   display: inline-block;
-  cursor: default;
   speak: none;
 }
 /* makes the font 33% larger relative to the icon container */
