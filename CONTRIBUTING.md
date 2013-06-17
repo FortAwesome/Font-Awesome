@@ -6,7 +6,7 @@ Looking to contribute something to Font Awesome? **Here's how you can help.**
 
 ## Reporting issues
 
-We only accept issues that are icon requests, bug reports, or feature requests. Bugs must be isolated and reproducible problems that we can fix within the Font Awesome core. Please read the following guidelines before opening any issue.
+We only accept issues that are icon requests, bug reports, or feature requests. Bugs must be isolated and reproducible problems that we can fix within the Font Awesome core. Please read the following guidelines to ensure you are the paragon of bug reporting.
 
 1. **Search for existing issues.** We get a lot of duplicate issues, and you'd help us out a lot by first checking if someone else has reported the same issue. Moreover, the issue may have already been resolved with a fix available.
 2. **Create an isolated and reproducible test case.** Be sure the problem exists in Font Awesome's code with a [reduced test case](http://css-tricks.com/reduced-test-cases/) that should be included in each bug report.
