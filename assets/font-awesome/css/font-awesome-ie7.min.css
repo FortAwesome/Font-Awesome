@@ -24,6 +24,7 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer;}
 .icon-power-off{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf011;');}
 .icon-signal{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf012;');}
 .icon-cog{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf013;');}
+.icon-gear{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf013;');}
 .icon-trash{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf014;');}
 .icon-home{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf015;');}
 .icon-file-alt{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf016;');}
@@ -133,6 +134,7 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer;}
 .icon-camera-retro{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf083;');}
 .icon-key{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf084;');}
 .icon-cogs{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf085;');}
+.icon-gears{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf085;');}
 .icon-comments{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf086;');}
 .icon-thumbs-up-alt{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf087;');}
 .icon-thumbs-down-alt{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf088;');}
@@ -366,7 +368,7 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer;}
 .icon-windows{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf17a;');}
 .icon-android{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf17b;');}
 .icon-linux{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf17c;');}
-.icon-dribble{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf17d;');}
+.icon-dribbble{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf17d;');}
 .icon-skype{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf17e;');}
 .icon-foursquare{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf180;');}
 .icon-trello{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf181;');}

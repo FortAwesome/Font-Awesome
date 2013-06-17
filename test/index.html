@@ -69,7 +69,7 @@
             <ul class="dropdown-menu pull-right">
               <li><a href="../icons/"><i class="icon-flag icon-fixed-width"></i>&nbsp; Icons</a></li>
               <li class="divider"></li>
-              <li><a href="../icons/#new"><i class="icon-shield icon-fixed-width"></i>&nbsp; New Icons in 3.2.0</a></li>
+              <li><a href="../icons/#new"><i class="icon-shield icon-fixed-width"></i>&nbsp; New Icons in 3.2.1</a></li>
               <li><a href="../icons/#web-application"><i class="icon-camera-retro icon-fixed-width"></i>&nbsp; Web Application Icons</a></li>
               <li><a href="../icons/#currency"><i class="icon-won icon-fixed-width"></i>&nbsp; Currency Icons</a></li>
               <li><a href="../icons/#text-editor"><i class="icon-file-text-alt icon-fixed-width"></i>&nbsp; Text Editor Icons</a></li>
@@ -499,61 +499,81 @@
   </div>
 
 
-  <h3>Nav pills & nav tabs <small>should be same height</small></h3>
-  <ul class="nav nav-pills" style="border: solid 1px #d3d3d3;">
-    <li class="active"><a href="#">Nav Item 1</a></li>
-    <li class="dropdown active">
-      <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
-        Nav Item 2
-        <span class="caret"></span>
-      </a>
-      <ul class="dropdown-menu" role="menu">
-        <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
-        <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
+  <h3>Nav pills & nav tabs <small>should be same height and properly vertically aligned</small></h3>
+  <div class="row">
+    <div class="span9">
+      <ul class="nav nav-pills" style="border: solid 1px #d3d3d3;">
+        <li class="active"><a href="#">Nav Item 1</a></li>
+        <li class="dropdown active">
+          <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+            Nav Item 2
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
+            <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
+          </ul>
+        </li>
+        <li class="dropdown active">
+          <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+            Nav Item 3
+            <i class="icon-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
+            <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 4</a></li>
+        <li class="active"><a href="#examples"><i class="icon-spinner icon-spin"></i> Nav Item 5</a></li>
+        <li class="active"><a href="#examples"><i class="icon-circle icon-large"></i> Nav Item 6</a></li>
+        <li class="active"><a href="#examples"><i class="icon-circle"></i> Nav Item 7</a></li>
       </ul>
-    </li>
-    <li class="dropdown active">
-      <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
-        Nav Item 3
-        <i class="icon-caret-down"></i>
-      </a>
-      <ul class="dropdown-menu" role="menu">
-        <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
-        <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#">Nav Item 1</a></li>
+        <li class="dropdown active">
+          <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+            Nav Item 2
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
+            <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
+          </ul>
+        </li>
+        <li class="dropdown active">
+          <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+            Nav Item 3
+            <i class="icon-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
+            <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 4</a></li>
+        <li class="active"><a href="#examples"><i class="icon-spinner icon-spin"></i> Nav Item 5</a></li>
+        <li class="active"><a href="#examples"><i class="icon-circle icon-large"></i> Nav Item 6</a></li>
+        <li class="active"><a href="#examples"><i class="icon-circle"></i> Nav Item 7</a></li>
       </ul>
-    </li>
-    <li class="active"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 4</a></li>
-    <li class="active"><a href="#examples"><i class="icon-spinner icon-spin"></i> Nav Item 5</a></li>
-    <li class="active"><a href="#examples"><i class="icon-circle icon-large"></i> Nav Item 6</a></li>
-    <li class="active"><a href="#examples"><i class="icon-circle"></i> Nav Item 7</a></li>
-  </ul>
-  <ul class="nav nav-tabs">
-    <li class="active"><a href="#">Nav Item 1</a></li>
-    <li class="dropdown active">
-      <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
-        Nav Item 2
-        <span class="caret"></span>
-      </a>
-      <ul class="dropdown-menu" role="menu">
-        <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
-        <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
+    </div>
+    <div class="span3">
+      <ul class="nav nav-list">
+        <li>
+          <a href="#c1">
+            <i class="icon-chevron-right icon-fixed-width pull-right"></i> Overview
+          </a>
+        </li>
+        <li>
+          <a href="#c1">
+            Overview
+            <i class="icon-chevron-right icon-fixed-width pull-right"></i>
+          </a>
+        </li>
       </ul>
-    </li>
-    <li class="dropdown active">
-      <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
-        Nav Item 3
-        <i class="icon-caret-down"></i>
-      </a>
-      <ul class="dropdown-menu" role="menu">
-        <li><a href="#"><i class="icon-building"></i> Menu Item 1</a></li>
-        <li><a href="#"><i class="icon-building icon-large"></i> Menu Item 2</a></li>
-      </ul>
-    </li>
-    <li class="active"><a href="#examples"><i class="icon-building icon-large"></i> Nav Item 4</a></li>
-    <li class="active"><a href="#examples"><i class="icon-spinner icon-spin"></i> Nav Item 5</a></li>
-    <li class="active"><a href="#examples"><i class="icon-circle icon-large"></i> Nav Item 6</a></li>
-    <li class="active"><a href="#examples"><i class="icon-circle"></i> Nav Item 7</a></li>
-  </ul>
+    </div>
+  </div>
+
 
 
   <h3>2x, 3x, 4x icons in text <small>should have margins next to and below text</small></h3>
@@ -872,6 +892,79 @@
   GitHub Icon
 </p>
   </div>
+  <h4>Stacked icons inside anchor</h4>
+  <div class="well">
+    <p>
+  <a href="#">
+    <span class="icon-stack">
+      <i class="icon-sign-blank icon-stack-base"></i>
+      <i class="icon-twitter icon-light"></i>
+    </span>
+    Twitter Icon
+  </a>
+  <a href="#">
+    <span class="icon-stack">
+      <i class="icon-sign-blank icon-stack-base"></i>
+      <i class="icon-facebook icon-light"></i>
+    </span>
+    Facebook Icon
+  </a>
+  <a href="#">
+    <span class="icon-stack">
+      <i class="icon-sign-blank icon-stack-base"></i>
+      <i class="icon-github icon-light"></i>
+    </span>
+    GitHub Icon
+  </a>
+</p>
+<p>
+  <a href="#">
+    <span class="icon-stack">
+      <i class="icon-circle icon-stack-base"></i>
+      <i class="icon-twitter icon-light"></i>
+    </span>
+    Twitter Icon
+  </a>
+  <a href="#">
+    <span class="icon-stack">
+      <i class="icon-circle icon-stack-base"></i>
+      <i class="icon-facebook icon-light"></i>
+    </span>
+    Facebook Icon
+  </a>
+  <a href="#">
+    <span class="icon-stack">
+      <i class="icon-circle icon-stack-base"></i>
+      <i class="icon-github icon-light"></i>
+    </span>
+    GitHub Icon
+  </a>
+</p>
+<p>
+  <a href="#">
+    <span class="icon-stack">
+      <i class="icon-circle-blank icon-stack-base"></i>
+      <i class="icon-twitter"></i>
+    </span>
+    Twitter Icon
+  </a>
+  <a href="#">
+    <span class="icon-stack">
+      <i class="icon-circle-blank icon-stack-base"></i>
+      <i class="icon-facebook"></i>
+    </span>
+    Facebook Icon
+  </a>
+  <a href="#">
+    <span class="icon-stack">
+      <i class="icon-circle-blank icon-stack-base"></i>
+      <i class="icon-github"></i>
+    </span>
+    GitHub Icon
+  </a>
+</p>
+  </div>
+
 
   <h3>Mirrored and rotated icons</h3>
   <div class="row">
@@ -931,7 +1024,7 @@
 <footer class="footer hidden-print">
   <div class="container text-center">
     <div>
-      <i class="icon-flag"></i> Font Awesome 3.2.0
+      <i class="icon-flag"></i> Font Awesome 3.2.1
       <span class="hidden-phone">&middot;</span><br class="visible-phone">
       Created and Maintained by <a href="http://twitter.com/byscuits">Dave Gandy</a>
     </div>

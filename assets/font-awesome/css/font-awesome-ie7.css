@@ -1,5 +1,5 @@
 /*!
- *  Font Awesome 3.2.0
+ *  Font Awesome 3.2.1
  *  the iconic font designed for Bootstrap
  *  ------------------------------------------------------------------------------
  *  The full suite of pictographic icons, examples, and documentation can be
@@ -125,6 +125,9 @@ a [class*=" icon-"] {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf012;');
 }
 .icon-cog {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf013;');
+}
+.icon-gear {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf013;');
 }
 .icon-trash {
@@ -452,6 +455,9 @@ a [class*=" icon-"] {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf084;');
 }
 .icon-cogs {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf085;');
+}
+.icon-gears {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf085;');
 }
 .icon-comments {
@@ -1153,7 +1159,7 @@ a [class*=" icon-"] {
 .icon-linux {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf17c;');
 }
-.icon-dribble {
+.icon-dribbble {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf17d;');
 }
 .icon-skype {
