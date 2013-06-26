@@ -19,8 +19,8 @@ module Jekyll
       @icon_object['aliases'] ||= []
 
       @name = icon_object['name']
-      @id = icon_object['id']
-      @class = icon_object['class']
+      @id = "fa-#{icon_object['id']}"
+      @class = "fa-#{icon_object['class']}"
       @aliases = icon_object['aliases']
       @unicode = icon_object['unicode']
       @created = icon_object['created']
@@ -44,11 +44,10 @@ module Jekyll
 
     def initialize(icon_array)
       @original_icon_array = icon_array
-      @icon_array = []
 
-      icon_array.each { |icon_object|
-        @icon_array << Icon.new(icon_object)
-      }
+      @icon_array = icon_array.map do |icon_object|
+        Icon.new(icon_object)
+      end
     end
 
     def [](k)
