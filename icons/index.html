@@ -311,8 +311,17 @@
   </div>
 
 </div>
+<section id="highlight-box">
+			<div class="input-prepend input-append">
+				<span class="add-on h">Quick find</span>
 
-<section id="web-application">
+				<input class="span3" id="highlight-box-search" name="highlight-box-search" type="text" placeholder="containing">
+				<span class="add-on results"></span>
+			</div>
+
+</section>
+
+<section id="web-application" class="icons-group">
   <h2 class="page-header">Web Application Icons</h2>
 
   <div class="row the-icons">
@@ -775,7 +784,7 @@
 
 </section>
 
-<section id="currency">
+<section id="currency" class="icons-group">
   <h2 class="page-header">Currency Icons</h2>
 
   <div class="row the-icons">
@@ -816,7 +825,7 @@
 
 </section>
 
-<section id="text-editor">
+<section id="text-editor" class="icons-group">
   <h2 class="page-header">Text Editor Icons</h2>
 
   <div class="row the-icons">
@@ -905,7 +914,7 @@
 
 </section>
 
-<section id="directional">
+<section id="directional" class="icons-group">
   <h2 class="page-header">Directional Icons</h2>
 
   <div class="row the-icons">
@@ -988,7 +997,7 @@
 
 </section>
 
-<section id="video-player">
+<section id="video-player" class="icons-group">
   <h2 class="page-header">Video Player Icons</h2>
 
   <div class="row the-icons">
@@ -1031,7 +1040,7 @@
 
 </section>
 
-<section id="brand">
+<section id="brand" class="icons-group">
   <h2 class="page-header">Brand Icons</h2>
 
   <div class="alert alert-info">
@@ -1137,7 +1146,7 @@
   </div>
 </section>
 
-<section id="medical">
+<section id="medical" class="icons-group">
   <h2 class="page-header">Medical Icons</h2>
 
   <div class="row the-icons">
@@ -1191,16 +1200,7 @@
   </div>
 </footer>
 
-<div id="highlight-box">
 
-	<form>
-		<div class="input-append">
-			<input class="span3" id="highlight-box-search" name="highlight-box-search" type="text" placeholder="Highlight icons containing">
-			<span class="add-on"></span>
-		</div>
-	</form>
-
-</div>
 <script src="http://platform.twitter.com/widgets.js"></script>
 <script src="../assets/js/jquery-1.7.1.min.js"></script>
 <script src="../assets/js/ZeroClipboard-1.1.7.min.js"></script>
@@ -1208,54 +1208,47 @@
 <script src="../assets/js/site.js"></script>
 <style type="text/css">
 
-	#highlight-box {
-		position : fixed;
-		bottom   : 0;
-		margin   : auto;
-	}
 
-	.the-icons .span3 {
 
-		transition : all 0.3s ease-in-out 0s;
-	}
-
-	.highlight {
-		display      : block;
-		border-color : #721C15;
-		-moz-box-shadow    : 0 0 10px rgba(100, 100, 100, 0.4);
-		-webkit-box-shadow : 0 0 10px rgba(100, 100, 100, 0.4);
-		box-shadow         : 0 0 10px rgba(100, 100, 100, 0.4);
-	}
 </style>
 <script type="text/javascript">
-	$(document).ready(function () {
-		$("#highlight-box-search").keyup(function () {
-			highlight();
-		}).blur(function () {
+	$(document).on("keyup blur","#highlight-box-search",function () {
 			highlight();
 		});
-		highlight();
-	});
 
 	function highlight() {
 		var term = $("#highlight-box-search").val();
 		$(".highlight").removeClass("highlight");
 
-
-
-
-
-
+		var $icons_group = $(".icons-group");
+		var nr = "";
 
 		if (term) {
-			var nr = $(".the-icons i[class*='" + term + "']").closest(".span3").addClass("highlight").length;
-			$("#highlight-box .add-on").html(nr + " found")
-			$(".the-icons .span3").css({"opacity": 0.4});
-			$(".the-icons .span3.highlight").css({"opacity": 1});
+
+
+			$icons = $(".icons-group .the-icons i[class*='" + term + "']");
+
+			$(".icons-group .the-icons .span3").css({"display":"none"});
+			$(".icons-group").css({"display":"none"});
+
+			$icons.each(function(){
+				var $this = $(this);
+				$this.closest(".span3").show();
+				$this.closest(".icons-group").show();
+			});
+
+
+			nr = $icons.length;
+			if (nr ==0){
+				nr = "none"
+			}
+			nr = nr +" found"
 		} else {
-			$(".the-icons .span3").css({"opacity": 1});
-			$("#highlight-box .add-on").html("")
+			$(".the-icons .span3").css({"display": "block"});
+			$(".icons-group").css({"display": "block"});
+
 		}
+		$("#highlight-box .add-on.results").html(nr);
 
 	}
 
