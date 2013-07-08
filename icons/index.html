@@ -1191,12 +1191,74 @@
   </div>
 </footer>
 
+<div id="highlight-box">
 
+	<form>
+		<div class="input-append">
+			<input class="span3" id="highlight-box-search" name="highlight-box-search" type="text" placeholder="Highlight icons containing">
+			<span class="add-on"></span>
+		</div>
+	</form>
+
+</div>
 <script src="http://platform.twitter.com/widgets.js"></script>
 <script src="../assets/js/jquery-1.7.1.min.js"></script>
 <script src="../assets/js/ZeroClipboard-1.1.7.min.js"></script>
 <script src="../assets/js/bootstrap-2.3.1.min.js"></script>
 <script src="../assets/js/site.js"></script>
+<style type="text/css">
 
+	#highlight-box {
+		position : fixed;
+		bottom   : 0;
+		margin   : auto;
+	}
+
+	.the-icons .span3 {
+
+		transition : all 0.3s ease-in-out 0s;
+	}
+
+	.highlight {
+		display      : block;
+		border-color : #721C15;
+		-moz-box-shadow    : 0 0 10px rgba(100, 100, 100, 0.4);
+		-webkit-box-shadow : 0 0 10px rgba(100, 100, 100, 0.4);
+		box-shadow         : 0 0 10px rgba(100, 100, 100, 0.4);
+	}
+</style>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#highlight-box-search").keyup(function () {
+			highlight();
+		}).blur(function () {
+			highlight();
+		});
+		highlight();
+	});
+
+	function highlight() {
+		var term = $("#highlight-box-search").val();
+		$(".highlight").removeClass("highlight");
+
+
+
+
+
+
+
+		if (term) {
+			var nr = $(".the-icons i[class*='" + term + "']").closest(".span3").addClass("highlight").length;
+			$("#highlight-box .add-on").html(nr + " found")
+			$(".the-icons .span3").css({"opacity": 0.4});
+			$(".the-icons .span3.highlight").css({"opacity": 1});
+		} else {
+			$(".the-icons .span3").css({"opacity": 1});
+			$("#highlight-box .add-on").html("")
+		}
+
+	}
+
+</script>
 </body>
 </html>
