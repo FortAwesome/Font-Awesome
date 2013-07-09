@@ -168,7 +168,18 @@
     </div>
   </div>
 </section>
+<section id="highlight-box">
+	<div class="well" style="text-align:center;">
+		<div class="input-prepend input-append" style="margin: auto;">
+			<span class="add-on h">Quick find</span>
 
+			<input class="span3" id="highlight-box-search" name="highlight-box-search" type="text" placeholder="icon">
+			<span class="add-on results"></span>
+		</div>
+	</div>
+
+
+</section>
 
 <div id="new">
   <h2 class="page-header">New Icons in 3.2</h2>
@@ -311,15 +322,7 @@
   </div>
 
 </div>
-<section id="highlight-box">
-			<div class="input-prepend input-append">
-				<span class="add-on h">Quick find</span>
 
-				<input class="span3" id="highlight-box-search" name="highlight-box-search" type="text" placeholder="containing">
-				<span class="add-on results"></span>
-			</div>
-
-</section>
 
 <section id="web-application" class="icons-group">
   <h2 class="page-header">Web Application Icons</h2>
@@ -1215,7 +1218,7 @@
 	$(document).on("keyup blur","#highlight-box-search",function () {
 			highlight();
 		});
-
+	highlight()
 	function highlight() {
 		var term = $("#highlight-box-search").val();
 		$(".highlight").removeClass("highlight");
@@ -1237,6 +1240,7 @@
 				$this.closest(".icons-group").show();
 			});
 
+			$("#new").hide();
 
 			nr = $icons.length;
 			if (nr ==0){
@@ -1244,6 +1248,7 @@
 			}
 			nr = nr +" found"
 		} else {
+			$("#new").show();
 			$(".the-icons .span3").css({"display": "block"});
 			$(".icons-group").css({"display": "block"});
 
