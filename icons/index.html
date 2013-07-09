@@ -168,7 +168,18 @@
     </div>
   </div>
 </section>
+<section id="highlight-box">
+	<div class="well" style="text-align:center;">
+		<div class="input-prepend input-append" style="margin: auto;">
+			<span class="add-on h">Quick find</span>
 
+			<input class="span3" id="highlight-box-search" name="highlight-box-search" type="text" placeholder="icon">
+			<span class="add-on results"></span>
+		</div>
+	</div>
+
+
+</section>
 
 <div id="new">
   <h2 class="page-header">New Icons in 3.2</h2>
@@ -312,7 +323,8 @@
 
 </div>
 
-<section id="web-application">
+
+<section id="web-application" class="icons-group">
   <h2 class="page-header">Web Application Icons</h2>
 
   <div class="row the-icons">
@@ -775,7 +787,7 @@
 
 </section>
 
-<section id="currency">
+<section id="currency" class="icons-group">
   <h2 class="page-header">Currency Icons</h2>
 
   <div class="row the-icons">
@@ -816,7 +828,7 @@
 
 </section>
 
-<section id="text-editor">
+<section id="text-editor" class="icons-group">
   <h2 class="page-header">Text Editor Icons</h2>
 
   <div class="row the-icons">
@@ -905,7 +917,7 @@
 
 </section>
 
-<section id="directional">
+<section id="directional" class="icons-group">
   <h2 class="page-header">Directional Icons</h2>
 
   <div class="row the-icons">
@@ -988,7 +1000,7 @@
 
 </section>
 
-<section id="video-player">
+<section id="video-player" class="icons-group">
   <h2 class="page-header">Video Player Icons</h2>
 
   <div class="row the-icons">
@@ -1031,7 +1043,7 @@
 
 </section>
 
-<section id="brand">
+<section id="brand" class="icons-group">
   <h2 class="page-header">Brand Icons</h2>
 
   <div class="alert alert-info">
@@ -1137,7 +1149,7 @@
   </div>
 </section>
 
-<section id="medical">
+<section id="medical" class="icons-group">
   <h2 class="page-header">Medical Icons</h2>
 
   <div class="row the-icons">
@@ -1197,6 +1209,54 @@
 <script src="../assets/js/ZeroClipboard-1.1.7.min.js"></script>
 <script src="../assets/js/bootstrap-2.3.1.min.js"></script>
 <script src="../assets/js/site.js"></script>
+<style type="text/css">
 
+
+
+</style>
+<script type="text/javascript">
+	$(document).on("keyup blur","#highlight-box-search",function () {
+			highlight();
+		});
+	highlight()
+	function highlight() {
+		var term = $("#highlight-box-search").val();
+		$(".highlight").removeClass("highlight");
+
+		var $icons_group = $(".icons-group");
+		var nr = "";
+
+		if (term) {
+
+
+			$icons = $(".icons-group .the-icons i[class*='" + term + "']");
+
+			$(".icons-group .the-icons .span3").css({"display":"none"});
+			$(".icons-group").css({"display":"none"});
+
+			$icons.each(function(){
+				var $this = $(this);
+				$this.closest(".span3").show();
+				$this.closest(".icons-group").show();
+			});
+
+			$("#new").hide();
+
+			nr = $icons.length;
+			if (nr ==0){
+				nr = "none"
+			}
+			nr = nr +" found"
+		} else {
+			$("#new").show();
+			$(".the-icons .span3").css({"display": "block"});
+			$(".icons-group").css({"display": "block"});
+
+		}
+		$("#highlight-box .add-on.results").html(nr);
+
+	}
+
+</script>
 </body>
 </html>
