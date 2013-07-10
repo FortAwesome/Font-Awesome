@@ -37,8 +37,5 @@
       "url": "http://opensource.org/licenses/mit-license.html"
     }
   ],
-  "dependencies": {
-    "jekyll": "1.0.2",
-    "lessc": "1.3.3"
-  }
+  "dependencies": {}
 }
