@@ -1,36 +1,41 @@
 {
-    "name"   : "FontAwesome",
-    "version": "3.0.0",
-
-    "author"     : "Dave <dave@davegandy.com>",
-    "description": "the iconic font designed for use with Twitter Bootstrap",
-
-    "contributors": [
-        {
-            "name" : "Dave",
-            "email": "dave@davegandy.com"
-        },
-        {
-            "name" : "Kersten Burkhardt",
-            "email": "burkhardt@mhp-net.de"
-        }
-    ],
-
-    "repository": {
-        "type": "git",
-        "url" : "git://github.com/FortAwesome/Font-Awesome.git"
+  "name": "font-awesome",
+  "description": "The iconic font designed for Bootstrap",
+  "version": "3.2.1",
+  "keywords": ["font", "awesome", "fontawesome", "icon", "font", "bootstrap"],
+  "homepage": "http://fontawesome.io/",
+  "author": {
+    "name": "Dave Gandy",
+    "email": "dave@fontawesome.io",
+    "web": "http://twitter.com/byscuits"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FortAwesome/Font-Awesome.git"
+  },
+  "contributors": [
+    {
+      "name": "Rob Madole",
+      "web": "http://twitter.com/robmadole"
     },
-
-    "licenses": [
-        {
-           "type": "SIL Open Font License",
-            "url": "http://scripts.sil.org/OFL"
-        }, {
-            "type": "MIT License",
-            "url": "http://opensource.org/licenses/mit-license.html"
-        }, {
-            "type": "CC BY 3.0 License",
-            "url": "http://creativecommons.org/licenses/by/3.0/"
-        }
-    ]
+    {
+      "name": "Geremia Taglialatela",
+      "web": "http://twitter.com/gtagliala"
+    },
+    {
+      "name": "Travis Chase",
+      "web": "http://twitter.com/supercodepoet"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "SIL OFL 1.1",
+      "url": "http://scripts.sil.org/OFL"
+    },
+    {
+      "type": "MIT License",
+      "url": "http://opensource.org/licenses/mit-license.html"
+    }
+  ],
+  "dependencies": {}
 }

@@ -1,0 +1,69 @@
+<div class="navbar navbar-inverse navbar-static-top hidden-print">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+
+      <a class="brand" href="{{ page.relative_path }}"><i class="icon-flag"></i> Font Awesome</a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="hidden-tablet {% if page.navbar_active == "home" %} active{% endif %}"><a href="{{ page.relative_path }}">Home</a></li>
+          <li{% if page.navbar_active == "get-started" %} class="active"{% endif %}><a href="{{ page.relative_path }}get-started/">Get Started</a></li>
+          <li class="dropdown-split-left{% if page.navbar_active == "icons" %} active{% endif %}"><a href="{{ page.relative_path }}icons/">Icons</a></li>
+          <li class="dropdown dropdown-split-right hidden-phone{% if page.navbar_active == "icons" %} active{% endif %}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="icon-caret-down"></i>
+            </a>
+            <ul class="dropdown-menu pull-right">
+              <li><a href="{{ page.relative_path }}icons/"><i class="icon-flag icon-fixed-width"></i>&nbsp; Icons</a></li>
+              <li class="divider"></li>
+              <li><a href="{{ page.relative_path }}icons/#new"><i class="icon-shield icon-fixed-width"></i>&nbsp; New Icons in {{ site.fontawesome.version }}</a></li>
+              <li><a href="{{ page.relative_path }}icons/#web-application"><i class="icon-camera-retro icon-fixed-width"></i>&nbsp; Web Application Icons</a></li>
+              <li><a href="{{ page.relative_path }}icons/#currency"><i class="icon-won icon-fixed-width"></i>&nbsp; Currency Icons</a></li>
+              <li><a href="{{ page.relative_path }}icons/#text-editor"><i class="icon-file-text-alt icon-fixed-width"></i>&nbsp; Text Editor Icons</a></li>
+              <li><a href="{{ page.relative_path }}icons/#directional"><i class="icon-hand-right icon-fixed-width"></i>&nbsp; Directional Icons</a></li>
+              <li><a href="{{ page.relative_path }}icons/#video-player"><i class="icon-play-sign icon-fixed-width"></i>&nbsp; Video Player Icons</a></li>
+              <li><a href="{{ page.relative_path }}icons/#brand"><i class="icon-github icon-fixed-width"></i>&nbsp; Brand Icons</a></li>
+              <li><a href="{{ page.relative_path }}icons/#medical"><i class="icon-medkit icon-fixed-width"></i>&nbsp; Medical Icons</a></li>
+            </ul>
+          </li>
+          <li class="dropdown-split-left{% if page.navbar_active == "examples" %} active{% endif %}"><a href="{{ page.relative_path }}examples/">Examples</a></li>
+          <li class="dropdown dropdown-split-right hidden-phone{% if page.navbar_active == "examples" %} active{% endif %}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="icon-caret-down"></i>
+            </a>
+            <ul class="dropdown-menu pull-right">
+              <li><a href="{{ page.relative_path }}examples/">Examples</a></li>
+              <li class="divider"></li>
+              <li><a href="{{ page.relative_path }}examples/#new-styles">New Styles</a></li>
+              <li><a href="{{ page.relative_path }}examples/#inline-icons">Inline Icons</a></li>
+              <li><a href="{{ page.relative_path }}examples/#larger-icons">Larger Icons</a></li>
+              <li><a href="{{ page.relative_path }}examples/#bordered-pulled">Bordered & Pulled</a></li>
+              <li><a href="{{ page.relative_path }}examples/#buttons">Buttons</a></li>
+              <li><a href="{{ page.relative_path }}examples/#button-groups">Button Groups</a></li>
+              <li><a href="{{ page.relative_path }}examples/#button-dropdowns">Button Dropdowns</a></li>
+              <li><a href="{{ page.relative_path }}examples/#bulleted-lists">Bulleted Lists</a></li>
+              <li><a href="{{ page.relative_path }}examples/#navigation">Navigation</a></li>
+              <li><a href="{{ page.relative_path }}examples/#form-inputs">Form Inputs</a></li>
+              <li><a href="{{ page.relative_path }}examples/#animated-spinner">Animated Spinner</a></li>
+              <li><a href="{{ page.relative_path }}examples/#rotated-flipped">Rotated &amp; Flipped</a></li>
+              <li><a href="{{ page.relative_path }}examples/#stacked">Stacked</a></li>
+              <li><a href="{{ page.relative_path }}examples/#custom">Custom CSS</a></li>
+            </ul>
+          </li>
+          <li{% if page.navbar_active == "whats-new" %} class="active"{% endif %}><a href="{{ page.relative_path }}whats-new/">
+          <span class="hidden-tablet">What's </span>New</a>
+          </li>
+          <li{% if page.navbar_active == "community" %} class="active"{% endif %}><a href="{{ page.relative_path }}community/">Community</a></li>
+          <li{% if page.navbar_active == "license" %} class="active"{% endif %}><a href="{{ page.relative_path }}license/">License</a></li>
+        </ul>
+        <ul class="nav pull-right">
+          <li><a href="{{ site.fontawesome.blog_url }}">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

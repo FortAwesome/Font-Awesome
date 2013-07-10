@@ -1,0 +1,19 @@
+{% capture stripe_ad_content %}
+<p class="lead">
+  Print this page to PDF for the complete set of vectors. Or to use on the desktop, install FontAwesome.otf and copy
+  and paste the icons (not the unicode) directly into your designs.
+</p>
+{% endcapture %}
+{% include stripe-ad.html %}
+
+<h2 class="page-header">Every Font Awesome {{ site.fontawesome.version }} Icon, CSS Class, &amp; Unicode</h2>
+
+<div class="row">
+{% for icon in icons %}
+  <div class="span4">
+    <i class="icon-fixed-width">&#x{{ icon.unicode }}</i>
+    icon-{{ icon.id }}
+    <span class="muted">(&amp;#x{{ icon.unicode }};)</span>
+  </div>
+{% endfor %}
+</div>

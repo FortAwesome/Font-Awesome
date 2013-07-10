@@ -1,0 +1,36 @@
+<section id="button-dropdowns">
+  <h2 class="page-header">Button Dropdowns</h2>
+  <div class="row">
+    <div class="span3">
+      <div class="btn-group open">
+        <a class="btn btn-primary" href="#"><i class="icon-user"></i> User</a>
+        <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
+          <span class="icon-caret-down"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#"><i class="icon-fixed-width icon-pencil"></i> Edit</a></li>
+          <li><a href="#"><i class="icon-fixed-width icon-trash"></i> Delete</a></li>
+          <li><a href="#"><i class="icon-fixed-width icon-ban-circle"></i> Ban</a></li>
+          <li class="divider"></li>
+          <li><a href="#"><i class="i"></i> Make admin</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="span9">
+{% highlight html %}
+<div class="btn-group open">
+  <a class="btn btn-primary" href="#"><i class="icon-user"></i> User</a>
+  <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
+    <span class="icon-caret-down"></span></a>
+  <ul class="dropdown-menu">
+    <li><a href="#"><i class="icon-fixed-width icon-pencil"></i> Edit</a></li>
+    <li><a href="#"><i class="icon-fixed-width icon-trash"></i> Delete</a></li>
+    <li><a href="#"><i class="icon-fixed-width icon-ban-circle"></i> Ban</a></li>
+    <li class="divider"></li>
+    <li><a href="#"><i class="i"></i> Make admin</a></li>
+  </ul>
+</div>
+{% endhighlight %}
+      <div class="alert alert-info"><i class="icon-info-sign"></i> Don't forget to add the appropriate JavaScript to enable button dropdowns.</div>
+    </div>
+  </div>
+</section>

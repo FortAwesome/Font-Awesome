@@ -1,0 +1,7 @@
+---
+---
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+ * readers do not read off random characters that represent icons */
+{% for icon in icons %}{% for alias in icon.aliases %}
+.icon-{{ alias }}:before,{% endfor %}
+.icon-{{ icon.id }}:before { content: ${{ icon.id }}; }{% endfor %}

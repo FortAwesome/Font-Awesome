@@ -1,0 +1,18 @@
+{% capture stripe_ad_content %}
+<p class="lead">
+  You asked, Font Awesome delivers with {{ icons | version:site.fontawesome.minor_version | size }} shiny new icons in version {{ site.fontawesome.minor_version }}.
+  Want to request new icons? <a href="{{ page.relative_path }}community/#requesting-new-icons">Here's how</a>.
+  <!--The ever-expanding list of Font Awesome {{ site.fontawesome.version }} icons.-->
+  Need vectors or want to use on the desktop? Check the <a href="{{ page.relative_path }}cheatsheet/">cheatsheet</a>.
+</p>
+{% endcapture %}
+{% include stripe-ad.html %}
+
+{% include icons/new.html %}
+{% include icons/web-application.html %}
+{% include icons/currency.html %}
+{% include icons/text-editor.html %}
+{% include icons/directional.html %}
+{% include icons/video-player.html %}
+{% include icons/brand.html %}
+{% include icons/medical.html %}

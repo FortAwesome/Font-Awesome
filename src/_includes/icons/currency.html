@@ -1,0 +1,12 @@
+<section id="currency">
+  <h2 class="page-header">Currency Icons</h2>
+
+  <div class="row the-icons">
+    {% assign icons_currency = icons | expand_aliases | category:"Currency Icons" | sort_by:'class' %}
+
+    {% for icon in icons_currency %}
+      <div class="span3"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="icon-{{ icon.class }}"></i> icon-{{ icon.class }}{% if icon.alias_of %} <span class="muted">(alias)</span>{% endif %}</a></div>
+    {% endfor %}
+  </div>
+
+</section>

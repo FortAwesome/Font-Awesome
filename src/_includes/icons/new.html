@@ -1,0 +1,18 @@
+<{% if page.navbar_active == "icons" %}div{% else %}section{% endif %} id="new">
+  <h2 class="page-header">New Icons in {{ site.fontawesome.minor_version }}</h2>
+  {% if page.navbar_active != "icons" %}
+    <div class="margin-botom-large">
+      You asked, Font Awesome delivers with {{ icons | version:site.fontawesome.minor_version | size }} shiny new icons in version {{ site.fontawesome.minor_version }}.
+      Want to request new icons? <a href="{{ page.relative_path }}community/#requesting-new-icons">Here's how</a>.
+    </div>
+  {% endif %}
+
+  <div class="row the-icons">
+    {% assign icons_new = icons | expand_aliases | version:site.fontawesome.minor_version %}
+
+    {% for icon in icons_new %}
+      <div class="span3"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="icon-{{ icon.class }}"></i> icon-{{ icon.class }}{% if icon.alias_of %} <span class="muted">(alias)</span>{% endif %}</a></div>
+    {% endfor %}
+  </div>
+
+</{% if page.navbar_active == "icons" %}div{% else %}section{% endif %}>

@@ -1,0 +1,15 @@
+---
+layout: base
+title: Font Awesome Icons
+navbar_active: icons
+relative_path: ../
+---
+{% capture jumbotron_h1 %}<i class="icon-flag icon-large"></i>&nbsp; The Icons{% endcapture %}
+{% capture jumbotron_p %}The complete set of {{ icons | size }} icons in Font Awesome {{ site.fontawesome.version }}{% endcapture %}
+
+{% include jumbotron.html %}
+{% include stripe-social.html %}
+
+<div class="container">
+  {% include icons.html %}
+</div>

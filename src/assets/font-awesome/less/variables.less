@@ -1,0 +1,17 @@
+---
+---
+// Variables
+// --------------------------
+
+@FontAwesomePath:    "../font";
+//@FontAwesomePath:    "//netdna.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version}}/font"; // for referencing Bootstrap CDN font files directly
+@FontAwesomeVersion: "{{ site.fontawesome.version }}";
+@borderColor:        #eee;
+@iconMuted:          #eee;
+@iconLight:          #fff;
+@iconDark:           #333;
+@icons-li-width:     30/14em;
+
+{% for icon in icons %}
+  @{{ icon.id }}: "\{{ icon.unicode }}";
+{% endfor %}

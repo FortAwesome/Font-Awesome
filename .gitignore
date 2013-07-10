@@ -8,6 +8,7 @@
 .coverage
 .DS_Store
 .installed.cfg
+_gh_pages/*
 
 .idea/*
 .svn/*
@@ -15,7 +16,6 @@ src/website/static/*
 src/website/media/*
 
 bin
-build
 cfcache
 develop-eggs
 dist
@@ -24,6 +24,7 @@ eggs
 parts
 tmp
 .sass-cache
+node_modules
 
 src/website/settingslocal.py
 stunnel.log

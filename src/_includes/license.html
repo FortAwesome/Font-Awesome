@@ -1,0 +1,57 @@
+{% capture stripe_ad_content %}
+<p class="lead">
+  Font Awesome is fully open source and is GPL compatible. You can use it for commercial projects, open source
+  projects, or really just about whatever you want.
+</p>
+{% endcapture %}
+{% include stripe-ad.html %}
+
+<div>
+  <div class="alert alert-info">
+    <ul class="icons-ul margin-bottom-none">
+      <li>
+        <i class="icon-li icon-info-sign icon-large"></i>Attribution is no longer required as of Font Awesome 3.0 but is much appreciated:
+        "Font Awesome by Dave Gandy - http://fontawesome.io".
+      </li>
+    </ul>
+  </div>
+</div>
+
+<section>
+  <h2 class="page-header">Font License</h2>
+  <ul>
+    <li>
+      Applies to all desktop and webfont files in the following directory:
+      <code>font-awesome/font/</code>.
+    </li>
+    <li>License: {{ site.fontawesome.license.font.version }}</li>
+    <li>URL: <a href="{{ site.fontawesome.license.font.url }}">{{ site.fontawesome.license.font.url }}</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2 class="page-header">Code License</h2>
+  <ul>
+    <li>
+      Applies to all CSS and LESS files in the following directories:
+      <code>font-awesome/css/</code> and
+      <code>font-awesome/less/</code>.
+    </li>
+    <li>License: {{ site.fontawesome.license.code.version }}</li>
+    <li>URL: <a href="{{ site.fontawesome.license.code.url }}">{{ site.fontawesome.license.code.url }}</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2 class="page-header">Documentation License</h2>
+  <ul>
+    <li>Applies to all Font Awesome project files that are not a part of the Font or Code licenses.</li>
+    <li>License: {{ site.fontawesome.license.documentation.version }}</li>
+    <li>URL: <a href="{{ site.fontawesome.license.documentation.url }}">{{ site.fontawesome.license.documentation.url }}</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2 class="page-header">Brand Icons</h2>
+  {% include brand-license.html %}
+</section>

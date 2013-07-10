@@ -1,0 +1,12 @@
+<section id="video-player">
+  <h2 class="page-header">Video Player Icons</h2>
+
+  <div class="row the-icons">
+    {% assign icons_video_player = icons | expand_aliases | category:"Video Player Icons" | sort_by:'class' %}
+
+    {% for icon in icons_video_player %}
+      <div class="span3"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="icon-{{ icon.class }}"></i> icon-{{ icon.class }}{% if icon.alias_of %} <span class="muted">(alias)</span>{% endif %}</a></div>
+    {% endfor %}
+  </div>
+
+</section>

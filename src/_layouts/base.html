@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
+<head>
+  <!-- Basic Page Needs
+ ================================================== -->
+  <meta charset="utf-8" />
+  <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+  <meta name="description" content="Font Awesome, the iconic font designed for Bootstrap">
+  <meta name="author" content="Dave Gandy">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--<meta name="viewport" content="initial-scale=1; maximum-scale=1">-->
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- CSS
+ ================================================== -->
+
+  <link rel="stylesheet" href="{{ page.relative_path }}assets/css/site.css">
+  <link rel="stylesheet" href="{{ page.relative_path }}assets/css/pygments.css">
+  <link rel="stylesheet" href="{{ page.relative_path }}assets/font-awesome/css/font-awesome.css">
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="{{ page.relative_path }}assets/font-awesome/css/font-awesome-ie7.css">
+  <![endif]-->
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="{{ page.relative_path }}assets/ico/favicon.ico">
+
+  <script type="text/javascript" src="//use.typekit.net/wnc7ioh.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30136587-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+<div class="wrapper"> <!-- necessary for sticky footer. wrap all content except footer -->
+  {% include navbar.html %}
+
+  {{ content }}
+  <div class="push"><!-- necessary for sticky footer --></div>
+</div>
+{% include footer.html %}
+
+<script src="http://platform.twitter.com/widgets.js"></script>
+<script src="{{ page.relative_path }}assets/js/jquery-1.7.1.min.js"></script>
+<script src="{{ page.relative_path }}assets/js/ZeroClipboard-1.1.7.min.js"></script>
+<script src="{{ page.relative_path }}assets/js/bootstrap-2.3.1.min.js"></script>
+<script src="{{ page.relative_path }}assets/js/site.js"></script>
+
+</body>
+</html>

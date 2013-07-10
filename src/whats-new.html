@@ -1,0 +1,17 @@
+---
+layout: base
+title: What's New
+navbar_active: whats-new
+relative_path: ../
+---
+{% capture jumbotron_h1 %}<i class="icon-lightbulb icon-large"></i>&nbsp; What's New{% endcapture %}
+{% capture jumbotron_p %}What's New in the latest version &mdash; Font Awesome {{ site.fontawesome.minor_version }}{% endcapture %}
+
+{% include jumbotron.html %}
+{% include stripe-social.html %}
+
+<div class="container">
+  {% include whats-new.html %}
+  {% include examples/new.html %}
+  {% include icons/new.html %}
+</div>

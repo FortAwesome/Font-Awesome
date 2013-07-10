@@ -1,0 +1,105 @@
+{% capture stripe_ad_content %}
+<p class="lead">
+  Setting up Font Awesome can be as simple as adding two lines of code to your website, or you can be a pro and
+  customize the LESS yourself! Font Awesome even plays nicely with
+  <a href="{{ site.bootstrap.url }}">Bootstrap</a>!
+</p>
+{% endcapture %}
+{% include stripe-ad.html %}
+
+<div id="bootstrapcdn">
+  <h2 class="page-header">EASIEST: <a href="http://www.bootstrapcdn.com/#tab_fontawesome">BootstrapCDN</a></h2>
+  <p>Add Font Awesome + Bootstrap into your website with two lines of code. You don't even have to download or install anything!</p>
+  <ol>
+    <li>
+      Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
+{% highlight html %}
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/{{ site.bootstrap.version }}/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome.css" rel="stylesheet">
+{% endhighlight %}
+      <div class="alert alert-info margin-top">
+        <i class="icon-info-sign"></i> Want to use Font Awesome by itself without Bootstrap? Just don't include the first line.
+      </div>
+    </li>
+    <li>
+      Pat yourself on the back for your scalable-vector-icons-on-the-website
+      <a href="http://37signals.com/svn/posts/312-lingo-judo">judo solution</a> in two lines of code.
+    </li>
+    <li>
+      Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!
+    </li>
+  </ol>
+</div>
+
+<section id="default-css">
+  <h2 class="page-header">EASY: Default CSS</h2>
+  <p>Use this method to get the default Font Awesome CSS with the default Bootstrap CSS.</p>
+  <ol>
+    <li>Copy the <code>font-awesome</code> directory into your project.</li>
+    <li>
+      In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome.min.css.
+{% highlight html %}
+<link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+{% endhighlight %}
+    </li>
+    <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
+  </ol>
+</section>
+
+<section id="custom-less">
+  <h2 class="page-header">PRO: Custom LESS</h2>
+  <p>Use this method to customize Font Awesome and Bootstrap {{ site.bootstrap.version }} using LESS.</p>
+  <ol>
+    <li>Copy the <code>font-awesome</code> directory into your project.</li>
+    <li>Open your project's bootstrap/bootstrap.less and replace
+{% highlight html %}
+@import "sprites.less";
+{% endhighlight %}
+      with
+{% highlight html %}
+@import "path/to/font-awesome/less/font-awesome.less";
+{% endhighlight %}
+    </li>
+    <li>
+      Open your project's font-awesome/variables.less and edit the <code>@FontAwesomePath</code> variable to point to your font directory.
+{% highlight html %}
+@FontAwesomePath:   "../font";
+{% endhighlight %}
+      <p class="alert alert-info"><i class="icon-info-sign"></i> The font path is relative from your compiled CSS directory.</p>
+    </li>
+    <li>Re-compile your LESS if using a static compiler. Otherwise, you should be good to go.</li>
+    <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
+  </ol>
+</section>
+
+<section id="not-using-bootstrap">
+  <h2 class="page-header">Not using Bootstrap?</h2>
+  <p>Font Awesome works just as well without Bootstrap.</p>
+  <ol>
+    <li>Copy the <code>font-awesome</code> directory into your project.</li>
+    <li>Follow the above directions and skip the Bootstrap parts.</li>
+    <li>Open your project's font-awesome.less or font-awesome.min.css and edit the font location to point it to your font directory (see above examples).</li>
+    <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
+  </ol>
+</section>
+
+<section class="need-ie7">
+  <h2 class="page-header">Need IE7 Support?</h2>
+  <p>Font Awesome supports IE7. If you need it, you have my condolences.</p>
+  <ol>
+    <li>Get Font Awesome working properly in a modern browser.</li>
+    <li>Copy font-awesome-ie7.min.css into your project.</li>
+    <li>
+      In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome-ie7.min.css.
+{% highlight html %}
+<link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome-ie7.min.css">
+<![endif]-->
+{% endhighlight %}
+    </li>
+    <li>Go complain to whoever decided your project needs IE7 support.</li>
+  </ol>
+</section>

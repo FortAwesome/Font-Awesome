@@ -1,0 +1,12 @@
+<section id="medical">
+  <h2 class="page-header">Medical Icons</h2>
+
+  <div class="row the-icons">
+    {% assign icons_medical = icons | expand_aliases | category:"Medical Icons" | sort_by:'class' %}
+
+    {% for icon in icons_medical %}
+      <div class="span3"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="icon-{{ icon.class }}"></i> icon-{{ icon.class }}{% if icon.alias_of %} <span class="muted">(alias)</span>{% endif %}</a></div>
+    {% endfor %}
+  </div>
+
+</section>

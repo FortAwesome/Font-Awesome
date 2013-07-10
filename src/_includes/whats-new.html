@@ -1,0 +1,38 @@
+{% capture stripe_ad_content %}
+<p class="lead">
+  Font Awesome is always getting a little awesome-er. So here's what's new in the latest version, Font Awesome
+  {{ site.fontawesome.minor_version }}. Have some ideas for new features?
+  <a href="{{ page.relative_path }}community/">Help contribute</a>.
+</p>
+{% endcapture %}
+{% include stripe-ad.html %}
+
+<div id="whats-new">
+  <div class="row">
+    <div class="span4">
+      <h4><i class="icon-compass"></i> {{ icons | version:site.fontawesome.minor_version | size }} New Icons in {{ site.fontawesome.minor_version }}</h4>
+      Requested by the active community on the <a href="{{ site.fontawesome.github.url }}">Font Awesome GitHub project</a>.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-terminal"></i> SCSS Support</h4>
+      A long term solution is now in place for SCSS support. Need SASS? Try <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#syntax">sass-convert</a>.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-legal"></i> <a href="{{ page.relative_path }}license/">Better & Simpler License</a></h4>
+      SIL OFL 1.1 for font, MIT license for code. No more attribution required, but much appreciated.
+    </div>
+    <div class="span4 margin-bottom-large">
+      <h4><i class="icon-magic"></i> Pixel Perfection at 14px</h4>
+      Version 3 was re-created from the ground up to be razor sharp at Bootstrap's default 14px.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-th-large"></i> <a href="http://icnfnt.com/">Font Subsetting</a></h4>
+      Thanks to <a href="https://twitter.com/grantgordon">@grantgordon</a> and <a href="https://twitter.com/johnsmclay">@johnsmclay</a>, you can <a href="http://icnfnt.com/">subset</a> to get just the icons you need.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-question-sign"></i> Want More Details?</h4>
+      Check out the <a href="{{ site.fontawesome.github.url }}#changelog">CHANGELOG on the GitHub project</a> to see
+      what's new and changed.
+    </div>
+  </div>
+</div>

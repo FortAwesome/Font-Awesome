@@ -1,0 +1,16 @@
+---
+---
+// Variables
+// --------------------------
+
+$FontAwesomePath: "../font" !default;
+$FontAwesomeVersion: "{{ site.fontawesome.version }}" !default;
+$borderColor: #eeeeee !default;
+$iconMuted: #eeeeee !default;
+$iconLight: white !default;
+$iconDark: #333333 !default;
+$icons-li-width: (30em/14);
+
+{% for icon in icons %}
+${{ icon.id }}: "\{{ icon.unicode }}";
+{% endfor %}

@@ -1,0 +1,47 @@
+<{% if page.navbar_active == "examples" %}div{% else %}section{% endif %} id="new-styles">
+  <h2 class="page-header">New Styles in {{ site.fontawesome.minor_version }}</h2>
+  <div class="row">
+    <div class="span4">
+      <h4><a href="#rotated-flipped">Rotated and Flipped Icons</a></h4>
+      <div class="well well-transparent">
+        <i class="icon-shield"></i>&nbsp; normal<br>
+        <i class="icon-shield icon-rotate-90"></i>&nbsp; icon-rotate-90<br>
+        <i class="icon-shield icon-rotate-180"></i>&nbsp; icon-rotate-180<br>
+        <i class="icon-shield icon-rotate-270"></i>&nbsp; icon-rotate-270<br>
+        <i class="icon-shield icon-flip-horizontal"></i>&nbsp; icon-flip-horizontal<br>
+        <i class="icon-shield icon-flip-vertical"></i>&nbsp; icon-flip-vertical
+      </div>
+    </div>
+    <div class="span4">
+      <h4><a href="#stacked">Stacked Icons</a></h4>
+      <div class="well well-transparent stacked">
+        <span class="icon-stack">
+          <i class="icon-check-empty icon-stack-base"></i>
+          <i class="icon-twitter"></i>
+        </span>
+        icon-twitter on icon-check-empty<br>
+        <span class="icon-stack">
+          <i class="icon-circle icon-stack-base"></i>
+          <i class="icon-flag icon-light"></i>
+        </span>
+        icon-flag on icon-circle<br>
+        <span class="icon-stack">
+          <i class="icon-sign-blank icon-stack-base"></i>
+          <i class="icon-terminal icon-light"></i>
+        </span>
+        icon-terminal on icon-sign-blank
+      </div>
+    </div>
+    <div class="span4">
+      <h4><a href="#bulleted-lists">Better Bulleted Lists</a></h4>
+      <div class="well well-transparent">
+        <ul class="icons-ul">
+          <li><i class="icon-li icon-chevron-sign-right"></i>New bulleted lists</li>
+          <li><i class="icon-li icon-bullseye"></i>Fix some old bugs</li>
+          <li><i class="icon-li icon-play-sign"></i>And deal with arbitrary</li>
+          <li><i class="icon-li icon-ok-sign"></i>Font sizes better</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</{% if page.navbar_active == "examples" %}div{% else %}section{% endif %}>
