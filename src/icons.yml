@@ -257,21 +257,21 @@ icons:
     unicode:    f026
     created:    1.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       volume-down
     id:         volume-down
     unicode:    f027
     created:    1.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       volume-up
     id:         volume-up
     unicode:    f028
     created:    1.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       qrcode
     id:         qrcode
@@ -320,15 +320,14 @@ icons:
     unicode:    f02f
     created:    1.0
     categories:
-      - Web Application Icons
-
+      - Electronic Device Icons
 
   - name:       camera
     id:         camera
     unicode:    f030
     created:    1.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       font
     id:         font
@@ -881,7 +880,7 @@ icons:
     unicode:    f083
     created:    1.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       key
     id:         key
@@ -1076,7 +1075,7 @@ icons:
     unicode:    f0a0
     created:    2.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       bullhorn
     id:         bullhorn
@@ -1690,28 +1689,28 @@ icons:
     unicode:    f108
     created:    3.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       laptop
     id:         laptop
     unicode:    f109
     created:    3.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       tablet
     id:         tablet
     unicode:    f10a
     created:    3.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       mobile-phone
     id:         mobile-phone
     unicode:    f10b
     created:    3.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       circle-blank
     id:         circle-blank
@@ -1819,14 +1818,14 @@ icons:
     unicode:    f11b
     created:    3.1
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       keyboard
     id:         keyboard
     unicode:    f11c
     created:    3.1
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       flag-alt
     id:         flag-alt
@@ -1964,14 +1963,14 @@ icons:
     unicode:    f130
     created:    3.1
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       microphone-off
     id:         microphone-off
     unicode:    f131
     created:    3.1
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       shield
     id:         shield
