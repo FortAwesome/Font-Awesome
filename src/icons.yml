@@ -103,6 +103,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
 
   - name:       Zoom Out
@@ -111,6 +112,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       Off
     id:         'off'
@@ -150,6 +152,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       file-alt
     id:         file-alt
@@ -171,6 +174,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       download-alt
     id:         download-alt
@@ -243,7 +247,7 @@ icons:
     unicode:    f024
     created:    1.0
     categories:
-      - Web Application Icons
+      - Map Icons
 
   - name:       headphones
     id:         headphones
@@ -307,6 +311,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       bookmark
     id:         bookmark
@@ -440,7 +445,7 @@ icons:
     unicode:    f041
     created:    1.0
     categories:
-      - Web Application Icons
+      - Map Icons
 
   - name:       adjust
     id:         adjust
@@ -618,6 +623,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       remove-circle
     id:         remove-circle
@@ -726,6 +732,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       leaf
     id:         leaf
@@ -769,6 +776,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       calendar
     id:         calendar
@@ -825,6 +833,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       folder-close
     id:         folder-close
@@ -954,6 +963,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       external-link
     id:         external-link
@@ -1004,6 +1014,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       check-empty
     id:         check-empty
@@ -1027,6 +1038,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       twitter
     id:         twitter
@@ -1160,7 +1172,7 @@ icons:
     unicode:    f0ac
     created:    2.0
     categories:
-      - Web Application Icons
+      - Map Icons
 
   - name:       wrench
     id:         wrench
@@ -1168,6 +1180,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       tasks
     id:         tasks
@@ -1321,6 +1334,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       pinterest
     id:         pinterest
@@ -1558,6 +1572,7 @@ icons:
     created:    3.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       food
     id:         food
@@ -1565,6 +1580,7 @@ icons:
     created:    3.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       file-text-alt
     id:         file-text-alt
@@ -1579,6 +1595,7 @@ icons:
     created:    3.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       hospital
     id:         hospital
@@ -1614,6 +1631,7 @@ icons:
     created:    3.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       h-sign
     id:         h-sign
@@ -1835,14 +1853,14 @@ icons:
     unicode:    f11d
     created:    3.1
     categories:
-      - Web Application Icons
+      - Map Icons
 
   - name:       flag-checkered
     id:         flag-checkered
     unicode:    f11e
     created:    3.1
     categories:
-      - Web Application Icons
+      - Map Icons
 
 
   - name:       terminal
@@ -1887,7 +1905,7 @@ icons:
     unicode:    f124
     created:    3.1
     categories:
-      - Web Application Icons
+      - Map Icons
 
   - name:       crop
     id:         crop
@@ -1995,6 +2013,7 @@ icons:
     created:    3.1
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       rocket
     id:         rocket
@@ -2058,6 +2077,7 @@ icons:
     created:    3.1
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       Unlock Alt
     id:         unlock-alt
@@ -2170,7 +2190,7 @@ icons:
     unicode:    f14e
     created:    3.2
     categories:
-      - Web Application Icons
+      - Map Icons
 
 
   - name:       Collapse
