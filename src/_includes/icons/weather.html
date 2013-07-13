@@ -1,0 +1,12 @@
+<section id="weather">
+  <h2 class="page-header">Weather Icons</h2>
+
+  <div class="row the-icons">
+    {% assign icons_weather = icons | expand_aliases | category:"Weather Icons" | sort_by:'class' %}
+
+    {% for icon in icons_weather %}
+      <div class="span3"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="icon-{{ icon.class }}"></i> icon-{{ icon.class }}{% if icon.alias_of %} <span class="muted">(alias)</span>{% endif %}</a></div>
+    {% endfor %}
+  </div>
+
+</section>

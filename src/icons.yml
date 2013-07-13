@@ -103,6 +103,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
 
   - name:       Zoom Out
@@ -111,6 +112,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       Off
     id:         'off'
@@ -150,6 +152,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       file-alt
     id:         file-alt
@@ -171,6 +174,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       download-alt
     id:         download-alt
@@ -243,7 +247,7 @@ icons:
     unicode:    f024
     created:    1.0
     categories:
-      - Web Application Icons
+      - Map Icons
 
   - name:       headphones
     id:         headphones
@@ -257,21 +261,21 @@ icons:
     unicode:    f026
     created:    1.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       volume-down
     id:         volume-down
     unicode:    f027
     created:    1.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       volume-up
     id:         volume-up
     unicode:    f028
     created:    1.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       qrcode
     id:         qrcode
@@ -307,6 +311,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       bookmark
     id:         bookmark
@@ -320,15 +325,14 @@ icons:
     unicode:    f02f
     created:    1.0
     categories:
-      - Web Application Icons
-
+      - Electronic Device Icons
 
   - name:       camera
     id:         camera
     unicode:    f030
     created:    1.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       font
     id:         font
@@ -441,7 +445,7 @@ icons:
     unicode:    f041
     created:    1.0
     categories:
-      - Web Application Icons
+      - Map Icons
 
   - name:       adjust
     id:         adjust
@@ -456,6 +460,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Weather Icons
 
   - name:       edit
     id:         edit
@@ -618,6 +623,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       remove-circle
     id:         remove-circle
@@ -726,6 +732,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       leaf
     id:         leaf
@@ -769,6 +776,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       calendar
     id:         calendar
@@ -825,6 +833,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       folder-close
     id:         folder-close
@@ -881,7 +890,7 @@ icons:
     unicode:    f083
     created:    1.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       key
     id:         key
@@ -954,6 +963,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       external-link
     id:         external-link
@@ -1004,6 +1014,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       check-empty
     id:         check-empty
@@ -1027,6 +1038,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       twitter
     id:         twitter
@@ -1076,7 +1088,7 @@ icons:
     unicode:    f0a0
     created:    2.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       bullhorn
     id:         bullhorn
@@ -1160,7 +1172,7 @@ icons:
     unicode:    f0ac
     created:    2.0
     categories:
-      - Web Application Icons
+      - Map Icons
 
   - name:       wrench
     id:         wrench
@@ -1168,6 +1180,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       tasks
     id:         tasks
@@ -1219,6 +1232,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Weather Icons
 
   - name:       beaker
     id:         beaker
@@ -1320,6 +1334,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       pinterest
     id:         pinterest
@@ -1471,6 +1486,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Weather Icons
 
   - name:       sitemap
     id:         sitemap
@@ -1484,7 +1500,7 @@ icons:
     unicode:    f0e9
     created:    2.0
     categories:
-      - Web Application Icons
+      - Weather Icons
 
   - name:       paste
     id:         paste
@@ -1556,6 +1572,7 @@ icons:
     created:    3.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       food
     id:         food
@@ -1563,6 +1580,7 @@ icons:
     created:    3.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       file-text-alt
     id:         file-text-alt
@@ -1577,6 +1595,7 @@ icons:
     created:    3.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       hospital
     id:         hospital
@@ -1612,6 +1631,7 @@ icons:
     created:    3.0
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       h-sign
     id:         h-sign
@@ -1690,28 +1710,28 @@ icons:
     unicode:    f108
     created:    3.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       laptop
     id:         laptop
     unicode:    f109
     created:    3.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       tablet
     id:         tablet
     unicode:    f10a
     created:    3.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       mobile-phone
     id:         mobile-phone
     unicode:    f10b
     created:    3.0
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       circle-blank
     id:         circle-blank
@@ -1819,28 +1839,28 @@ icons:
     unicode:    f11b
     created:    3.1
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       keyboard
     id:         keyboard
     unicode:    f11c
     created:    3.1
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       flag-alt
     id:         flag-alt
     unicode:    f11d
     created:    3.1
     categories:
-      - Web Application Icons
+      - Map Icons
 
   - name:       flag-checkered
     id:         flag-checkered
     unicode:    f11e
     created:    3.1
     categories:
-      - Web Application Icons
+      - Map Icons
 
 
   - name:       terminal
@@ -1885,7 +1905,7 @@ icons:
     unicode:    f124
     created:    3.1
     categories:
-      - Web Application Icons
+      - Map Icons
 
   - name:       crop
     id:         crop
@@ -1934,14 +1954,14 @@ icons:
     unicode:    f12b
     created:    3.1
     categories:
-      - Web Application Icons
+      - Text Editor Icons
 
   - name:       subscript
     id:         subscript
     unicode:    f12c
     created:    3.1
     categories:
-      - Web Application Icons
+      - Text Editor Icons
 
   - name:       eraser
     id:         eraser
@@ -1964,14 +1984,14 @@ icons:
     unicode:    f130
     created:    3.1
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       microphone-off
     id:         microphone-off
     unicode:    f131
     created:    3.1
     categories:
-      - Web Application Icons
+      - Electronic Device Icons
 
   - name:       shield
     id:         shield
@@ -1993,6 +2013,7 @@ icons:
     created:    3.1
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       rocket
     id:         rocket
@@ -2056,6 +2077,7 @@ icons:
     created:    3.1
     categories:
       - Web Application Icons
+      - Map Icons
 
   - name:       Unlock Alt
     id:         unlock-alt
@@ -2168,7 +2190,7 @@ icons:
     unicode:    f14e
     created:    3.2
     categories:
-      - Web Application Icons
+      - Map Icons
 
 
   - name:       Collapse
@@ -2545,14 +2567,14 @@ icons:
     unicode:    f185
     created:    3.2
     categories:
-      - Web Application Icons
+      - Weather Icons
 
   - name:       Moon
     id:         moon
     unicode:    f186
     created:    3.2
     categories:
-      - Web Application Icons
+      - Weather Icons
 
   - name:       Archive
     id:         archive
