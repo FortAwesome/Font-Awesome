@@ -455,6 +455,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Weather Icons
 
   - name:       edit
     id:         edit
@@ -1218,6 +1219,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Weather Icons
 
   - name:       beaker
     id:         beaker
@@ -1470,6 +1472,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Weather Icons
 
   - name:       sitemap
     id:         sitemap
@@ -1483,7 +1486,7 @@ icons:
     unicode:    f0e9
     created:    2.0
     categories:
-      - Web Application Icons
+      - Weather Icons
 
   - name:       paste
     id:         paste
@@ -2544,14 +2547,14 @@ icons:
     unicode:    f185
     created:    3.2
     categories:
-      - Web Application Icons
+      - Weather Icons
 
   - name:       Moon
     id:         moon
     unicode:    f186
     created:    3.2
     categories:
-      - Web Application Icons
+      - Weather Icons
 
   - name:       Archive
     id:         archive
