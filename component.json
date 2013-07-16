@@ -1,0 +1,20 @@
+{
+  "name": "Font-Awesome",
+  "repo": "FortAwesome/Font-Awesome",
+  "description": "Font Awesome",
+  "version": "3.2.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "SIL, MIT, CC BY 3.0",
+  "styles": [
+    "css/font-awesome.css"
+  ],
+  "fonts": [
+    "font/fontawesome-webfont.eot",
+    "font/fontawesome-webfont.svg",
+    "font/fontawesome-webfont.ttf",
+    "font/fontawesome-webfont.woff",
+    "font/FontAwesome.otf"
+  ]
+}
