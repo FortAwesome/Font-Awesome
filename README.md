@@ -46,6 +46,17 @@ For more information on SemVer, please visit http://semver.org.
 - GitHub: https://github.com/davegandy
 - Work: Lead Product Designer @ http://kyru.us
 
+##Component
+To include as a [component](http://github.com/component/component), just run
+
+    $ component install FortAwesome/Font-Awesome
+
+Or add
+
+    "FortAwesome/Font-Awesome": "*"
+
+to the `dependencies` in your `component.json`.
+
 ## Hacking on Font Awesome
 
 From the root of the repository, install the tools used to develop.
