@@ -11,7 +11,7 @@ icons:
     unicode:    f001
     created:    1.0
     categories:
-      - Web Application Icons
+      - Media Icons
 
   - name:       Search
     id:         search
@@ -60,7 +60,7 @@ icons:
     unicode:    f008
     created:    1.0
     categories:
-      - Web Application Icons
+      - Media Icons
 
   - name:       th-large
     id:         th-large
@@ -205,7 +205,7 @@ icons:
     unicode:    f01d
     created:    1.0
     categories:
-      - Video Player Icons
+      - Media Icons
 
   - name:       repeat
     id:         repeat
@@ -250,28 +250,28 @@ icons:
     unicode:    f025
     created:    1.0
     categories:
-      - Web Application Icons
+      - Media Icons
 
   - name:       volume-off
     id:         volume-off
     unicode:    f026
     created:    1.0
     categories:
-      - Web Application Icons
+      - Media Icons
 
   - name:       volume-down
     id:         volume-down
     unicode:    f027
     created:    1.0
     categories:
-      - Web Application Icons
+      - Media Icons
 
   - name:       volume-up
     id:         volume-up
     unicode:    f028
     created:    1.0
     categories:
-      - Web Application Icons
+      - Media Icons
 
   - name:       qrcode
     id:         qrcode
@@ -328,7 +328,7 @@ icons:
     unicode:    f030
     created:    1.0
     categories:
-      - Web Application Icons
+      - Media Icons
 
   - name:       font
     id:         font
@@ -419,14 +419,14 @@ icons:
     unicode:    f03d
     created:    1.0
     categories:
-      - Web Application Icons
+      - Media Icons
 
   - name:       picture
     id:         picture
     unicode:    f03e
     created:    1.0
     categories:
-      - Web Application Icons
+      - Media Icons
 
 
   - name:       pencil
@@ -490,49 +490,49 @@ icons:
     unicode:    f048
     created:    1.0
     categories:
-      - Video Player Icons
+      - Media Icons
 
   - name:       fast-backward
     id:         fast-backward
     unicode:    f049
     created:    1.0
     categories:
-      - Video Player Icons
+      - Media Icons
 
   - name:       backward
     id:         backward
     unicode:    f04a
     created:    1.0
     categories:
-      - Video Player Icons
+      - Media Icons
 
   - name:       play
     id:         play
     unicode:    f04b
     created:    1.0
     categories:
-      - Video Player Icons
+      - Media Icons
 
   - name:       pause
     id:         pause
     unicode:    f04c
     created:    1.0
     categories:
-      - Video Player Icons
+      - Media Icons
 
   - name:       stop
     id:         stop
     unicode:    f04d
     created:    1.0
     categories:
-      - Video Player Icons
+      - Media Icons
 
   - name:       forward
     id:         forward
     unicode:    f04e
     created:    1.0
     categories:
-      - Video Player Icons
+      - Media Icons
 
 
   - name:       fast-forward
@@ -540,21 +540,21 @@ icons:
     unicode:    f050
     created:    1.0
     categories:
-      - Video Player Icons
+      - Media Icons
 
   - name:       step-forward
     id:         step-forward
     unicode:    f051
     created:    1.0
     categories:
-      - Video Player Icons
+      - Media Icons
 
   - name:       eject
     id:         eject
     unicode:    f052
     created:    1.0
     categories:
-      - Video Player Icons
+      - Media Icons
 
   - name:       chevron-left
     id:         chevron-left
@@ -683,14 +683,14 @@ icons:
     unicode:    f065
     created:    1.0
     categories:
-      - Video Player Icons
+      - Media Icons
 
   - name:       resize-small
     id:         resize-small
     unicode:    f066
     created:    1.0
     categories:
-      - Video Player Icons
+      - Media Icons
 
   - name:       plus
     id:         plus
@@ -881,7 +881,7 @@ icons:
     unicode:    f083
     created:    1.0
     categories:
-      - Web Application Icons
+      - Media Icons
 
   - name:       key
     id:         key
@@ -1196,7 +1196,7 @@ icons:
     unicode:    f0b2
     created:    2.0
     categories:
-      - Video Player Icons
+      - Media Icons
 
 
   - name:       group
@@ -1354,7 +1354,7 @@ icons:
     unicode:    f0d6
     created:    2.0
     categories:
-      - Web Application Icons
+      - Currency Icons
 
   - name:       caret-down
     id:         caret-down
@@ -1934,14 +1934,14 @@ icons:
     unicode:    f12b
     created:    3.1
     categories:
-      - Web Application Icons
+      - Text Icons
 
   - name:       subscript
     id:         subscript
     unicode:    f12c
     created:    3.1
     categories:
-      - Web Application Icons
+      - Text Icons
 
   - name:       eraser
     id:         eraser
@@ -1964,14 +1964,14 @@ icons:
     unicode:    f130
     created:    3.1
     categories:
-      - Web Application Icons
+      - Media Icons
 
   - name:       microphone-off
     id:         microphone-off
     unicode:    f131
     created:    3.1
     categories:
-      - Web Application Icons
+      - Media Icons
 
   - name:       shield
     id:         shield
@@ -2098,7 +2098,7 @@ icons:
     unicode:    f144
     created:    3.1
     categories:
-      - Video Player Icons
+      - Media Icons
 
   - name:       Ticket
     id:         ticket
@@ -2369,7 +2369,7 @@ icons:
     created:    3.2
     categories:
       - Brand Icons
-      - Video Player Icons
+      - Media Icons
 
   - name:       Dropbox
     id:         dropbox
