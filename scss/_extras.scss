@@ -5,21 +5,33 @@
 @include icon-stack();
 
 /* Animated rotating icon */
-.icon-spin {
-  display: inline-block;
-  -moz-animation: spin 2s infinite linear;
-  -o-animation: spin 2s infinite linear;
-  -webkit-animation: spin 2s infinite linear;
-  animation: spin 2s infinite linear;
+.icon-spin, .icon-spin-counter {
+   display: inline-block;
+}
+
+.icon-spin {  
+   -moz-animation: spin 2s infinite linear;
+   -o-animation: spin 2s infinite linear;
+   -webkit-animation: spin 2s infinite linear;
+   animation: spin 2s infinite linear;
+ }
+ 
+.icon-spin-counter {
+  -moz-animation: spin-counter 2s infinite linear;
+  -o-animation: spin-counter 2s infinite linear;
+  -webkit-animation: spin-counter 2s infinite linear;
+  animation: spin-counter 2s infinite linear;
 }
 
 /* Prevent stack and spinners from being taken inline when inside a link */
 a .icon-stack,
-a .icon-spin {
+a .icon-spin,
+a .icon-spin-counter{
   display: inline-block;
   text-decoration: none;
 }
 
+/* keyframes for clockwise rotation */
 @-moz-keyframes spin {
   0% { -moz-transform: rotate(0deg); }
   100% { -moz-transform: rotate(359deg); }
@@ -39,6 +51,28 @@ a .icon-spin {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(359deg); }
+}
+
+/* keyframes for counter clockwise rotation */
+@-moz-keyframes spin-counter {
+  0% { -moz-transform: rotate(359deg);}
+  100% { -moz-transform: rotate(0deg);}
+}
+@-webkit-keyframes spin-counter {
+  0% { -webkit-transform: rotate(359deg);}
+  100% { -webkit-transform: rotate(0deg);}
+}
+@-o-keyframes spin-counter {
+  0% { -o-transform: rotate(359deg);}
+  100% { -o-transform: rotate(0deg);}
+}
+@-ms-keyframes spin-counter {
+  0% { -ms-transform: rotate(359deg);}
+  100% { -ms-transform: rotate(0deg);}
+}
+@keyframes spin-counter {
+  0% { transform: rotate(359deg);}
+  100% { transform: rotate(0deg);}
 }
 
 /* Icon rotations and mirroring */
