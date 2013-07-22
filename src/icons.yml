@@ -1934,14 +1934,14 @@ icons:
     unicode:    f12b
     created:    3.1
     categories:
-      - Text Icons
+      - Text Editor Icons
 
   - name:       subscript
     id:         subscript
     unicode:    f12c
     created:    3.1
     categories:
-      - Text Icons
+      - Text Editor Icons
 
   - name:       eraser
     id:         eraser
