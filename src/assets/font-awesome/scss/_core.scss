@@ -42,15 +42,15 @@ a {
 }
 
 .icons-ul {
-  margin-left: $icons-li-width;
+  margin-left: $fa-icons-li-width;
   list-style-type: none;
 
   > li { position: relative; }
 
   .icon-li {
     position: absolute;
-    left: -$icons-li-width;
-    width: $icons-li-width;
+    left: -$fa-icons-li-width;
+    width: $fa-icons-li-width;
     text-align: center;
     line-height: inherit;
   }
@@ -64,15 +64,15 @@ a {
   }
 }
 
-.icon-muted { color: $iconMuted; }
-.icon-light { color: $iconLight; }
-.icon-dark { color: $iconDark; }
+.icon-muted { color: $fa-muted-icon; }
+.icon-light { color: $fa-light-icon; }
+.icon-dark { color: $fa-dark-icon; }
 
 // Icon Borders
 // -------------------------
 
 .icon-border {
-  border: solid 1px $borderColor;
+  border: solid 1px $fa-border-color;
   padding: .2em .25em .15em;
   @include border-radius(3px);
 }
