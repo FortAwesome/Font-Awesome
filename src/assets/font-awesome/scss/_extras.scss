@@ -5,7 +5,7 @@
 @include icon-stack();
 
 /* Animated rotating icon */
-.icon-spin {
+.icon-spin:before {
   display: inline-block;
   -moz-animation: spin 2s infinite linear;
   -o-animation: spin 2s infinite linear;

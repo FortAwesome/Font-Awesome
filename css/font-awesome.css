@@ -275,7 +275,7 @@ a [class*=" icon-"] {
   *line-height: 1em;
 }
 /* Animated rotating icon */
-.icon-spin {
+.icon-spin:before {
   display: inline-block;
   -moz-animation: spin 2s infinite linear;
   -o-animation: spin 2s infinite linear;
