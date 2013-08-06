@@ -41,6 +41,7 @@
   font-style: normal;
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   *margin-right: .3em;
 }
 [class^="icon-"]:before,
