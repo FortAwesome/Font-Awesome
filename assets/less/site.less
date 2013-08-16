@@ -223,35 +223,28 @@ section { margin-top: 40px; }
     a {
       display: block;
       &, &:hover { color: @grayDarker; }
+      text-align:center;
+      margin-bottom:20px;
 
       cursor: pointer;
-      line-height: 32px;
-      height: 32px;
       padding-left: 10px;
       .border-radius(6px);
 
       [class^="icon-"],
       [class*=" icon-"] {
-        width: 32px;
-        font-size: 14px;
+        font-size: 5em;
         display: inline-block;
-        text-align: right;
-        margin-right: 10px;
+        display:block;
       }
 
-      &:hover {
-        background-color: @errorBackground;
-        text-decoration: none;
-        [class^="icon-"], [class*=" icon-"] {
-          *font-size: 28px;
-          *vertical-align: middle;
+      &:hover{
+        text-decoration:none;
+
+        [class^="icon-"],
+        [class*=" icon-"]{
+          color:@red;
         }
 
-        [class^="icon-"]:before,
-        [class*=" icon-"]:before {
-          font-size: 28px;
-          vertical-align: -5px;
-        }
       }
     }
   }
