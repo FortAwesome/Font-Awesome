@@ -43,6 +43,7 @@ a {
 
 .icons-ul {
   margin-left: $icons-li-width;
+  padding-left: 0;
   list-style-type: none;
 
   > li { position: relative; }
