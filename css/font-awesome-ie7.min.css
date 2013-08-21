@@ -1,6 +1,6 @@
-.icon-large{font-size:1.3333333333333333em;margin-top:-4px;padding-top:3px;margin-bottom:-4px;padding-bottom:3px;vertical-align:middle}
-.nav [class^="icon-"],.nav [class*=" icon-"]{vertical-align:inherit;margin-top:-4px;padding-top:3px;margin-bottom:-4px;padding-bottom:3px}.nav [class^="icon-"].icon-large,.nav [class*=" icon-"].icon-large{vertical-align:-25%}
-.nav-pills [class^="icon-"].icon-large,.nav-tabs [class^="icon-"].icon-large,.nav-pills [class*=" icon-"].icon-large,.nav-tabs [class*=" icon-"].icon-large{line-height:.75em;margin-top:-7px;padding-top:5px;margin-bottom:-5px;padding-bottom:4px}
+.icon-large{padding-top:3px;padding-bottom:3px;margin-top:-4px;margin-bottom:-4px;font-size:1.3333333333333333em;vertical-align:middle}
+.nav [class^="icon-"],.nav [class*=" icon-"]{padding-top:3px;padding-bottom:3px;margin-top:-4px;margin-bottom:-4px;vertical-align:inherit}.nav [class^="icon-"].icon-large,.nav [class*=" icon-"].icon-large{vertical-align:-25%}
+.nav-pills [class^="icon-"].icon-large,.nav-tabs [class^="icon-"].icon-large,.nav-pills [class*=" icon-"].icon-large,.nav-tabs [class*=" icon-"].icon-large{padding-top:5px;padding-bottom:4px;margin-top:-7px;margin-bottom:-5px;line-height:.75em}
 .btn [class^="icon-"].pull-left,.btn [class*=" icon-"].pull-left,.btn [class^="icon-"].pull-right,.btn [class*=" icon-"].pull-right{vertical-align:inherit}
 .btn [class^="icon-"].icon-large,.btn [class*=" icon-"].icon-large{margin-top:-0.5em}
 a [class^="icon-"],a [class*=" icon-"]{cursor:pointer}
@@ -140,17 +140,16 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer}
 .icon-thumbs-down-alt{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf088;')}
 .icon-star-half{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf089;')}
 .icon-heart-empty{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08a;')}
-.icon-signout{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08b;')}
+.icon-log-out{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08b;')}
 .icon-linkedin-sign{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08c;')}
 .icon-pushpin{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08d;')}
 .icon-external-link{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08e;')}
-.icon-signin{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf090;')}
+.icon-log-in{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf090;')}
 .icon-trophy{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf091;')}
 .icon-github-sign{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf092;')}
 .icon-upload-alt{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf093;')}
 .icon-lemon{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf094;')}
-.icon-phone{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf095;')}
-.icon-check-empty{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf096;')}
+.icon-earphone{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf095;')}
 .icon-unchecked{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf096;')}
 .icon-bookmark-empty{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf097;')}
 .icon-phone-sign{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf098;')}
@@ -162,7 +161,7 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer}
 .icon-rss{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09e;')}
 .icon-hdd{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a0;')}
 .icon-bullhorn{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a1;')}
-.icon-bell{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a2;')}
+.icon-bell{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f3;')}
 .icon-certificate{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a3;')}
 .icon-hand-right{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a4;')}
 .icon-hand-left{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a5;')}
@@ -184,9 +183,8 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer}
 .icon-beaker{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c3;')}
 .icon-cut{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c4;')}
 .icon-copy{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c5;')}
-.icon-paper-clip{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c6;')}
 .icon-paperclip{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c6;')}
-.icon-save{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c7;')}
+.icon-floppy-disk{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c7;')}
 .icon-sign-blank{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c8;')}
 .icon-reorder{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c9;')}
 .icon-list-ul{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ca;')}
@@ -217,7 +215,7 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer}
 .icon-dashboard{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e4;')}
 .icon-comment-alt{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e5;')}
 .icon-comments-alt{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e6;')}
-.icon-bolt{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e7;')}
+.icon-flash{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e7;')}
 .icon-sitemap{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e8;')}
 .icon-umbrella{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e9;')}
 .icon-paste{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0ea;')}
@@ -228,9 +226,9 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer}
 .icon-user-md{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f0;')}
 .icon-stethoscope{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f1;')}
 .icon-suitcase{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f2;')}
-.icon-bell-alt{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f3;')}
+.icon-bell-alt{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a2;')}
 .icon-coffee{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f4;')}
-.icon-food{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f5;')}
+.icon-cutlery{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f5;')}
 .icon-file-text-alt{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f6;')}
 .icon-building{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f7;')}
 .icon-hospital{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f8;')}
@@ -251,7 +249,7 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer}
 .icon-desktop{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf108;')}
 .icon-laptop{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf109;')}
 .icon-tablet{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10a;')}
-.icon-mobile-phone{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10b;')}
+.icon-phone{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10b;')}
 .icon-circle-blank{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10c;')}
 .icon-quote-left{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10d;')}
 .icon-quote-right{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10e;')}
@@ -318,8 +316,8 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer}
 .icon-external-link-sign{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf14c;')}
 .icon-share-sign{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf14d;')}
 .icon-compass{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf14e;')}
-.icon-collapse{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf150;')}
-.icon-collapse-top{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf151;')}
+.icon-collapse-down{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf150;')}
+.icon-collapse-up{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf151;')}
 .icon-expand{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf152;')}
 .icon-eur{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf153;')}
 .icon-euro{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf153;')}
@@ -352,7 +350,7 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer}
 .icon-xing-sign{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf169;')}
 .icon-youtube-play{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16a;')}
 .icon-dropbox{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16b;')}
-.icon-stackexchange{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16c;')}
+.icon-stackoverflow{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16c;')}
 .icon-instagram{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16d;')}
 .icon-flickr{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16e;')}
 .icon-adn{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf170;')}

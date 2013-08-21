@@ -777,7 +777,7 @@ a .icon-flip-vertical:before {
 .icon-heart-empty:before {
   content: "\f08a";
 }
-.icon-signout:before {
+.icon-log-out:before {
   content: "\f08b";
 }
 .icon-linkedin-sign:before {
@@ -789,7 +789,7 @@ a .icon-flip-vertical:before {
 .icon-external-link:before {
   content: "\f08e";
 }
-.icon-signin:before {
+.icon-log-in:before {
   content: "\f090";
 }
 .icon-trophy:before {
@@ -804,11 +804,10 @@ a .icon-flip-vertical:before {
 .icon-lemon:before {
   content: "\f094";
 }
-.icon-phone:before {
+.icon-earphone:before {
   content: "\f095";
 }
-.icon-unchecked:before,
-.icon-check-empty:before {
+.icon-unchecked:before {
   content: "\f096";
 }
 .icon-bookmark-empty:before {
@@ -842,7 +841,7 @@ a .icon-flip-vertical:before {
   content: "\f0a1";
 }
 .icon-bell:before {
-  content: "\f0a2";
+  content: "\f0f3";
 }
 .icon-certificate:before {
   content: "\f0a3";
@@ -907,11 +906,10 @@ a .icon-flip-vertical:before {
 .icon-copy:before {
   content: "\f0c5";
 }
-.icon-paperclip:before,
-.icon-paper-clip:before {
+.icon-paperclip:before {
   content: "\f0c6";
 }
-.icon-save:before {
+.icon-floppy-disk:before {
   content: "\f0c7";
 }
 .icon-sign-blank:before {
@@ -1002,7 +1000,7 @@ a .icon-flip-vertical:before {
 .icon-comments-alt:before {
   content: "\f0e6";
 }
-.icon-bolt:before {
+.icon-flash:before {
   content: "\f0e7";
 }
 .icon-sitemap:before {
@@ -1036,12 +1034,12 @@ a .icon-flip-vertical:before {
   content: "\f0f2";
 }
 .icon-bell-alt:before {
-  content: "\f0f3";
+  content: "\f0a2";
 }
 .icon-coffee:before {
   content: "\f0f4";
 }
-.icon-food:before {
+.icon-cutlery:before {
   content: "\f0f5";
 }
 .icon-file-text-alt:before {
@@ -1104,7 +1102,7 @@ a .icon-flip-vertical:before {
 .icon-tablet:before {
   content: "\f10a";
 }
-.icon-mobile-phone:before {
+.icon-phone:before {
   content: "\f10b";
 }
 .icon-circle-blank:before {
@@ -1301,10 +1299,10 @@ a .icon-flip-vertical:before {
 .icon-compass:before {
   content: "\f14e";
 }
-.icon-collapse:before {
+.icon-collapse-down:before {
   content: "\f150";
 }
-.icon-collapse-top:before {
+.icon-collapse-up:before {
   content: "\f151";
 }
 .icon-expand:before {
@@ -1389,7 +1387,7 @@ a .icon-flip-vertical:before {
 .icon-dropbox:before {
   content: "\f16b";
 }
-.icon-stackexchange:before {
+.icon-stackoverflow:before {
   content: "\f16c";
 }
 .icon-instagram:before {

@@ -25,22 +25,22 @@
  */
 
 .icon-large {
-  font-size: (4em/3);
-  margin-top: -4px;
   padding-top: 3px;
-  margin-bottom: -4px;
   padding-bottom: 3px;
+  margin-top: -4px;
+  margin-bottom: -4px;
+  font-size: (4em/3);
   vertical-align: middle;
 }
 
 .nav {
   [class^="icon-"],
   [class*=" icon-"] {
-    vertical-align: inherit;
-    margin-top: -4px;
     padding-top: 3px;
-    margin-bottom: -4px;
     padding-bottom: 3px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    vertical-align: inherit;
     &.icon-large {
       vertical-align: -25%;
     }
@@ -51,11 +51,11 @@
   [class^="icon-"],
   [class*=" icon-"] {
     &.icon-large {
-      line-height: .75em;
-      margin-top: -7px;
       padding-top: 5px;
-      margin-bottom: -5px;
       padding-bottom: 4px;
+      margin-top: -7px;
+      margin-bottom: -5px;
+      line-height: .75em;
     }
   }
 }
@@ -753,7 +753,7 @@ a [class*=" icon-"] {
 }
 
 
-.icon-signout {
+.icon-log-out {
   @include ie7icon('&#xf08b;');
 }
 
@@ -773,7 +773,7 @@ a [class*=" icon-"] {
 }
 
 
-.icon-signin {
+.icon-log-in {
   @include ie7icon('&#xf090;');
 }
 
@@ -798,14 +798,10 @@ a [class*=" icon-"] {
 }
 
 
-.icon-phone {
+.icon-earphone {
   @include ie7icon('&#xf095;');
 }
 
-
-.icon-check-empty {
-  @include ie7icon('&#xf096;');
-}
 
 .icon-unchecked {
   @include ie7icon('&#xf096;');
@@ -863,7 +859,7 @@ a [class*=" icon-"] {
 
 
 .icon-bell {
-  @include ie7icon('&#xf0a2;');
+  @include ie7icon('&#xf0f3;');
 }
 
 
@@ -972,16 +968,12 @@ a [class*=" icon-"] {
 }
 
 
-.icon-paper-clip {
-  @include ie7icon('&#xf0c6;');
-}
-
 .icon-paperclip {
   @include ie7icon('&#xf0c6;');
 }
 
 
-.icon-save {
+.icon-floppy-disk {
   @include ie7icon('&#xf0c7;');
 }
 
@@ -1135,7 +1127,7 @@ a [class*=" icon-"] {
 }
 
 
-.icon-bolt {
+.icon-flash {
   @include ie7icon('&#xf0e7;');
 }
 
@@ -1191,7 +1183,7 @@ a [class*=" icon-"] {
 
 
 .icon-bell-alt {
-  @include ie7icon('&#xf0f3;');
+  @include ie7icon('&#xf0a2;');
 }
 
 
@@ -1200,7 +1192,7 @@ a [class*=" icon-"] {
 }
 
 
-.icon-food {
+.icon-cutlery {
   @include ie7icon('&#xf0f5;');
 }
 
@@ -1305,7 +1297,7 @@ a [class*=" icon-"] {
 }
 
 
-.icon-mobile-phone {
+.icon-phone {
   @include ie7icon('&#xf10b;');
 }
 
@@ -1638,12 +1630,12 @@ a [class*=" icon-"] {
 }
 
 
-.icon-collapse {
+.icon-collapse-down {
   @include ie7icon('&#xf150;');
 }
 
 
-.icon-collapse-top {
+.icon-collapse-up {
   @include ie7icon('&#xf151;');
 }
 
@@ -1801,7 +1793,7 @@ a [class*=" icon-"] {
 }
 
 
-.icon-stackexchange {
+.icon-stackoverflow {
   @include ie7icon('&#xf16c;');
 }
 
