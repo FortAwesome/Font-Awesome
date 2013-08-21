@@ -3,22 +3,22 @@
 {% include license-code.less %}
 
 .icon-large {
-  font-size: (4em/3);
-  margin-top: -4px;
   padding-top: 3px;
-  margin-bottom: -4px;
   padding-bottom: 3px;
+  margin-top: -4px;
+  margin-bottom: -4px;
+  font-size: (4em/3);
   vertical-align: middle;
 }
 
 .nav {
   [class^="icon-"],
   [class*=" icon-"] {
-    vertical-align: inherit;
-    margin-top: -4px;
     padding-top: 3px;
-    margin-bottom: -4px;
     padding-bottom: 3px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    vertical-align: inherit;
     &.icon-large {
       vertical-align: -25%;
     }
@@ -29,11 +29,11 @@
   [class^="icon-"],
   [class*=" icon-"] {
     &.icon-large {
-      line-height: .75em;
-      margin-top: -7px;
       padding-top: 5px;
-      margin-bottom: -5px;
       padding-bottom: 4px;
+      margin-top: -7px;
+      margin-bottom: -5px;
+      line-height: .75em;
     }
   }
 }
