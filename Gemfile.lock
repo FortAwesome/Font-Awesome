@@ -43,4 +43,4 @@ PLATFORMS
 
 DEPENDENCIES
   debugger
-  jekyll (= 1.0)
+  jekyll (~> 1.0)

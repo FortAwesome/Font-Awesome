@@ -7,13 +7,13 @@
 }
 
 .icon-FontAwesome() {
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   *margin-right: .3em; // fixes ie7 issues
+  font-family: FontAwesome;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .border-radius(@radius) {
@@ -32,14 +32,14 @@
     vertical-align: -35%;
     [class^="icon-"],
     [class*=" icon-"] {
-      display: block;
-      text-align: center;
       position: absolute;
+      display: block;
       width: 100%;
       height: 100%;
       font-size: @top-font-size;
       line-height: inherit;
       *line-height: @height;
+      text-align: center;
     }
     .icon-stack-base {
       font-size: @base-font-size;
