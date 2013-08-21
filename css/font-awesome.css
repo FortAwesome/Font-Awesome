@@ -1477,3 +1477,9 @@ a .icon-flip-vertical:before {
 .icon-renren:before {
   content: "\f18b";
 }
+.icon-wordpress:before {
+  content: "\f18c";
+}
+.icon-magento:before{
+  content: "\f18d";
+}
