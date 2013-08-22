@@ -1036,14 +1036,14 @@ a [class*=" icon-"] {
 .icon-jpy {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf157;');
 }
-.icon-yen {
+.icon-cny {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf157;');
 }
-.icon-cny {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf158;');
+.icon-rmb {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf157;');
 }
-.icon-renminbi {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf158;');
+.icon-yen {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf157;');
 }
 .icon-krw {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf159;');

@@ -42,6 +42,7 @@
   font-style: normal;
   font-weight: normal;
   text-decoration: inherit;
+  text-rendering: auto;
   -moz-osx-font-smoothing: grayscale;
 }
 [class^="icon-"]:before,
@@ -1323,13 +1324,11 @@ a .icon-flip-vertical:before {
 .icon-inr:before {
   content: "\f156";
 }
+.icon-cny:before,
+.icon-rmb:before,
 .icon-yen:before,
 .icon-jpy:before {
   content: "\f157";
-}
-.icon-renminbi:before,
-.icon-cny:before {
-  content: "\f158";
 }
 .icon-won:before,
 .icon-krw:before {

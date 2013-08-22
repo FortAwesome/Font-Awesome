@@ -2227,16 +2227,9 @@ icons:
     unicode:    f157
     created:    3.2
     aliases:
+      - cny
+      - rmb
       - yen
-    categories:
-      - Currency Icons
-
-  - name:       Renminbi (CNY)
-    id:         cny
-    unicode:    f158
-    created:    3.2
-    aliases:
-      - renminbi
     categories:
       - Currency Icons
 

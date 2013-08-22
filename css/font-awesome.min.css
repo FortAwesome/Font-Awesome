@@ -1,4 +1,4 @@
-@font-face{font-family:'FontAwesome';src:url('../font/fontawesome-webfont.eot?v=3.2.1');src:url('../font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'),url('../font/fontawesome-webfont.woff?v=3.2.1') format('woff'),url('../font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'),url('../font/fontawesome-webfont.svg?v=3.2.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}[class^="icon-"],[class*=" icon-"]{*margin-right:.3em;font-family:FontAwesome;-webkit-font-smoothing:antialiased;font-style:normal;font-weight:normal;text-decoration:inherit;-moz-osx-font-smoothing:grayscale}
+@font-face{font-family:'FontAwesome';src:url('../font/fontawesome-webfont.eot?v=3.2.1');src:url('../font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'),url('../font/fontawesome-webfont.woff?v=3.2.1') format('woff'),url('../font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'),url('../font/fontawesome-webfont.svg?v=3.2.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}[class^="icon-"],[class*=" icon-"]{*margin-right:.3em;font-family:FontAwesome;-webkit-font-smoothing:antialiased;font-style:normal;font-weight:normal;text-decoration:inherit;text-rendering:auto;-moz-osx-font-smoothing:grayscale}
 [class^="icon-"]:before,[class*=" icon-"]:before{display:inline-block;text-decoration:inherit;speak:none}
 .icon-large:before{font-size:1.3333333333333333em;vertical-align:-10%}
 a [class^="icon-"],a [class*=" icon-"]{display:inline}
@@ -351,8 +351,7 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-gbp:before{content:"\f154"}
 .icon-dollar:before,.icon-usd:before{content:"\f155"}
 .icon-rupee:before,.icon-inr:before{content:"\f156"}
-.icon-yen:before,.icon-jpy:before{content:"\f157"}
-.icon-renminbi:before,.icon-cny:before{content:"\f158"}
+.icon-cny:before,.icon-rmb:before,.icon-yen:before,.icon-jpy:before{content:"\f157"}
 .icon-won:before,.icon-krw:before{content:"\f159"}
 .icon-bitcoin:before,.icon-btc:before{content:"\f15a"}
 .icon-file:before{content:"\f15b"}

@@ -1681,17 +1681,16 @@ a [class*=" icon-"] {
   @include ie7icon('&#xf157;');
 }
 
-.icon-yen {
+.icon-cny {
   @include ie7icon('&#xf157;');
 }
 
-
-.icon-cny {
-  @include ie7icon('&#xf158;');
+.icon-rmb {
+  @include ie7icon('&#xf157;');
 }
 
-.icon-renminbi {
-  @include ie7icon('&#xf158;');
+.icon-yen {
+  @include ie7icon('&#xf157;');
 }
 
 

@@ -327,9 +327,9 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer}
 .icon-inr{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf156;')}
 .icon-rupee{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf156;')}
 .icon-jpy{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf157;')}
+.icon-cny{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf157;')}
+.icon-rmb{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf157;')}
 .icon-yen{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf157;')}
-.icon-cny{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf158;')}
-.icon-renminbi{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf158;')}
 .icon-krw{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf159;')}
 .icon-won{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf159;')}
 .icon-btc{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf15a;')}
