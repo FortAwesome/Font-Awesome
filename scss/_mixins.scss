@@ -2,11 +2,11 @@
 // --------------------------
 
 @mixin icon($icon) {
-  @include icon-FontAwesome();
+  @include icon-font-awesome();
   content: $icon;
 }
 
-@mixin icon-FontAwesome() {
+@mixin icon-font-awesome() {
   *margin-right: .3em; // fixes ie7 issues
   font-family: FontAwesome;
   -webkit-font-smoothing: antialiased;
