@@ -1,0 +1,48 @@
+{
+  "name": "font-awesome",
+  "repo": "FortAwesome/Font-Awesome",
+  "description": "The iconic font designed for Bootstrap",
+  "version": "3.2.1",
+  "keywords": ["font", "awesome", "fontawesome", "icon", "font", "bootstrap"],
+  "author": {
+    "name": "Dave Gandy",
+    "email": "dave@fontawesome.io",
+    "web": "http://twitter.com/davegandy"
+  },
+  "contributors": [
+    {
+      "name": "Rob Madole",
+      "web": "http://twitter.com/robmadole"
+    },
+    {
+      "name": "Geremia Taglialatela",
+      "web": "http://twitter.com/gtagliala"
+    },
+    {
+      "name": "Travis Chase",
+      "web": "http://twitter.com/supercodepoet"
+    }
+  ],
+  "dependencies": {},
+  "development": {},
+  "licenses": [
+    {
+      "type": "SIL OFL 1.1",
+      "url": "http://scripts.sil.org/OFL"
+    },
+    {
+      "type": "MIT License",
+      "url": "http://opensource.org/licenses/mit-license.html"
+    }
+  ],
+  "styles": [
+    "css/font-awesome.min.css"
+  ],
+  "fonts": [
+    "font/fontawesome-webfont.eot",
+    "font/fontawesome-webfont.svg",
+    "font/fontawesome-webfont.ttf",
+    "font/fontawesome-webfont.woff",
+    "font/FontAwesome.otf"
+  ]
+}
