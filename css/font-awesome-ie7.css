@@ -24,20 +24,20 @@
  *  Work: Lead Product Designer @ Kyruus - http://kyruus.com
  */
 .icon-large {
-  font-size: 1.3333333333333333em;
-  margin-top: -4px;
   padding-top: 3px;
-  margin-bottom: -4px;
   padding-bottom: 3px;
+  margin-top: -4px;
+  margin-bottom: -4px;
+  font-size: 1.3333333333333333em;
   vertical-align: middle;
 }
 .nav [class^="icon-"],
 .nav [class*=" icon-"] {
-  vertical-align: inherit;
-  margin-top: -4px;
   padding-top: 3px;
-  margin-bottom: -4px;
   padding-bottom: 3px;
+  margin-top: -4px;
+  margin-bottom: -4px;
+  vertical-align: inherit;
 }
 .nav [class^="icon-"].icon-large,
 .nav [class*=" icon-"].icon-large {
@@ -47,11 +47,11 @@
 .nav-tabs [class^="icon-"].icon-large,
 .nav-pills [class*=" icon-"].icon-large,
 .nav-tabs [class*=" icon-"].icon-large {
-  line-height: .75em;
-  margin-top: -7px;
   padding-top: 5px;
-  margin-bottom: -5px;
   padding-bottom: 4px;
+  margin-top: -7px;
+  margin-bottom: -5px;
+  line-height: .75em;
 }
 .btn [class^="icon-"].pull-left,
 .btn [class*=" icon-"].pull-left,
@@ -475,7 +475,7 @@ a [class*=" icon-"] {
 .icon-heart-empty {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08a;');
 }
-.icon-signout {
+.icon-log-out {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08b;');
 }
 .icon-linkedin-sign {
@@ -487,7 +487,7 @@ a [class*=" icon-"] {
 .icon-external-link {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08e;');
 }
-.icon-signin {
+.icon-log-in {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf090;');
 }
 .icon-trophy {
@@ -502,11 +502,8 @@ a [class*=" icon-"] {
 .icon-lemon {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf094;');
 }
-.icon-phone {
+.icon-earphone {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf095;');
-}
-.icon-check-empty {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf096;');
 }
 .icon-unchecked {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf096;');
@@ -542,7 +539,7 @@ a [class*=" icon-"] {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a1;');
 }
 .icon-bell {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a2;');
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f3;');
 }
 .icon-certificate {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a3;');
@@ -607,13 +604,10 @@ a [class*=" icon-"] {
 .icon-copy {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c5;');
 }
-.icon-paper-clip {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c6;');
-}
 .icon-paperclip {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c6;');
 }
-.icon-save {
+.icon-floppy-disk {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c7;');
 }
 .icon-sign-blank {
@@ -706,7 +700,7 @@ a [class*=" icon-"] {
 .icon-comments-alt {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e6;');
 }
-.icon-bolt {
+.icon-flash {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0e7;');
 }
 .icon-sitemap {
@@ -740,12 +734,12 @@ a [class*=" icon-"] {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f2;');
 }
 .icon-bell-alt {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f3;');
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0a2;');
 }
 .icon-coffee {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f4;');
 }
-.icon-food {
+.icon-cutlery {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f5;');
 }
 .icon-file-text-alt {
@@ -808,7 +802,7 @@ a [class*=" icon-"] {
 .icon-tablet {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10a;');
 }
-.icon-mobile-phone {
+.icon-phone {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10b;');
 }
 .icon-circle-blank {
@@ -1009,10 +1003,10 @@ a [class*=" icon-"] {
 .icon-compass {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf14e;');
 }
-.icon-collapse {
+.icon-collapse-down {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf150;');
 }
-.icon-collapse-top {
+.icon-collapse-up {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf151;');
 }
 .icon-expand {
@@ -1042,14 +1036,14 @@ a [class*=" icon-"] {
 .icon-jpy {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf157;');
 }
-.icon-yen {
+.icon-cny {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf157;');
 }
-.icon-cny {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf158;');
+.icon-rmb {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf157;');
 }
-.icon-renminbi {
-  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf158;');
+.icon-yen {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf157;');
 }
 .icon-krw {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf159;');
@@ -1111,7 +1105,7 @@ a [class*=" icon-"] {
 .icon-dropbox {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16b;');
 }
-.icon-stackexchange {
+.icon-stackoverflow {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16c;');
 }
 .icon-instagram {

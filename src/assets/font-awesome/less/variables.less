@@ -10,7 +10,7 @@
 @iconMuted:          #eee;
 @iconLight:          #fff;
 @iconDark:           #333;
-@icons-li-width:     30/14em;
+@icons-li-width:     (30em / 14);
 
 {% for icon in icons %}
   @{{ icon.id }}: "\{{ icon.unicode }}";
