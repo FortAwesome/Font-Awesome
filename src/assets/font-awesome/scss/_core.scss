@@ -8,15 +8,15 @@
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  text-decoration: inherit;
   display: inline-block;
+  text-decoration: inherit;
   speak: none;
 }
 
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
-  vertical-align: -10%;
   font-size: (4em/3);
+  vertical-align: -10%;
 }
 
 /* makes sure icons active on rollover in links */
@@ -33,8 +33,8 @@ a {
   &.icon-fixed-width {
     display: inline-block;
     width: (16em/14);
-    text-align: right;
     padding-right: (4em/14);
+    text-align: right;
     &.icon-large {
       width: (20em/14);
     }
@@ -42,6 +42,7 @@ a {
 }
 
 .icons-ul {
+  padding-left: 0;
   margin-left: $icons-li-width;
   list-style-type: none;
 
@@ -51,8 +52,8 @@ a {
     position: absolute;
     left: -$icons-li-width;
     width: $icons-li-width;
-    text-align: center;
     line-height: inherit;
+    text-align: center;
   }
 }
 
@@ -72,8 +73,8 @@ a {
 // -------------------------
 
 .icon-border {
-  border: solid 1px $borderColor;
   padding: .2em .25em .15em;
+  border: solid 1px $borderColor;
   @include border-radius(3px);
 }
 

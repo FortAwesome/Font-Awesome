@@ -28,7 +28,7 @@
 @font-face {
   font-family: 'FontAwesome';
   src: url('../font/fontawesome-webfont.eot?v=4.0.0');
-  src: url('../font/fontawesome-webfont.eot?#iefix&v=4.0.0') format('embedded-opentype'), url('../font/fontawesome-webfont.woff?v=4.0.0') format('woff'), url('../font/fontawesome-webfont.ttf?v=4.0.0') format('truetype'), url('../font/fontawesome-webfont.svg#fontawesomeregular?v=4.0.0') format('svg');
+  src: url('../font/fontawesome-webfont.eot?#iefix&v=4.0.0') format('embedded-opentype'), url('../font/fontawesome-webfont.woff?v=4.0.0') format('woff'), url('../font/fontawesome-webfont.ttf?v=4.0.0') format('truetype'), url('../font/fontawesome-webfont.svg?v=4.0.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,23 +36,25 @@
  * -------------------------- */
 [class^="icon-"],
 [class*=" icon-"] {
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
-  -webkit-font-smoothing: antialiased;
   *margin-right: .3em;
+  font-family: FontAwesome;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  text-rendering: auto;
+  -moz-osx-font-smoothing: grayscale;
 }
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  text-decoration: inherit;
   display: inline-block;
+  text-decoration: inherit;
   speak: none;
 }
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
-  vertical-align: -10%;
   font-size: 1.3333333333333333em;
+  vertical-align: -10%;
 }
 /* makes sure icons active on rollover in links */
 a [class^="icon-"],
@@ -64,14 +66,15 @@ a [class*=" icon-"] {
 [class*=" icon-"].icon-fixed-width {
   display: inline-block;
   width: 1.1428571428571428em;
-  text-align: right;
   padding-right: 0.2857142857142857em;
+  text-align: right;
 }
 [class^="icon-"].icon-fixed-width.icon-large,
 [class*=" icon-"].icon-fixed-width.icon-large {
   width: 1.4285714285714286em;
 }
 .icons-ul {
+  padding-left: 0;
   margin-left: 2.142857142857143em;
   list-style-type: none;
 }
@@ -82,8 +85,8 @@ a [class*=" icon-"] {
   position: absolute;
   left: -2.142857142857143em;
   width: 2.142857142857143em;
-  text-align: center;
   line-height: inherit;
+  text-align: center;
 }
 [class^="icon-"].hide,
 [class*=" icon-"].hide {
@@ -99,8 +102,8 @@ a [class*=" icon-"] {
   color: #333333;
 }
 .icon-border {
-  border: solid 1px #eeeeee;
   padding: .2em .25em .15em;
+  border: solid 1px #eeeeee;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -163,12 +166,12 @@ a [class*=" icon-"] {
   display: inline;
   width: auto;
   height: auto;
+  margin-top: 0;
   line-height: normal;
   vertical-align: baseline;
   background-image: none;
-  background-position: 0% 0%;
+  background-position: 0 0;
   background-repeat: repeat;
-  margin-top: 0;
 }
 /* more sprites.less reset */
 .icon-white,
@@ -261,14 +264,14 @@ a [class*=" icon-"] {
 }
 .icon-stack [class^="icon-"],
 .icon-stack [class*=" icon-"] {
-  display: block;
-  text-align: center;
   position: absolute;
+  display: block;
   width: 100%;
   height: 100%;
   font-size: 1em;
   line-height: inherit;
   *line-height: 2em;
+  text-align: center;
 }
 .icon-stack .icon-stack-base {
   font-size: 2em;
@@ -277,9 +280,9 @@ a [class*=" icon-"] {
 /* Animated rotating icon */
 .icon-spin {
   display: inline-block;
+  -webkit-animation: spin 2s infinite linear;
   -moz-animation: spin 2s infinite linear;
   -o-animation: spin 2s infinite linear;
-  -webkit-animation: spin 2s infinite linear;
   animation: spin 2s infinite linear;
 }
 /* Prevent stack and spinners from being taken inline when inside a link */
@@ -330,28 +333,28 @@ a .icon-spin {
 }
 /* Icon rotations and mirroring */
 .icon-rotate-90:before {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }
 .icon-rotate-180:before {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 .icon-rotate-270:before {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
   -moz-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   -o-transform: rotate(270deg);
   transform: rotate(270deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 .icon-flip-horizontal:before {
   -webkit-transform: scale(-1, 1);
@@ -775,7 +778,7 @@ a .icon-flip-vertical:before {
 .icon-heart-empty:before {
   content: "\f08a";
 }
-.icon-signout:before {
+.icon-log-out:before {
   content: "\f08b";
 }
 .icon-linkedin-sign:before {
@@ -787,7 +790,7 @@ a .icon-flip-vertical:before {
 .icon-external-link:before {
   content: "\f08e";
 }
-.icon-signin:before {
+.icon-log-in:before {
   content: "\f090";
 }
 .icon-trophy:before {
@@ -802,11 +805,10 @@ a .icon-flip-vertical:before {
 .icon-lemon:before {
   content: "\f094";
 }
-.icon-phone:before {
+.icon-earphone:before {
   content: "\f095";
 }
-.icon-unchecked:before,
-.icon-check-empty:before {
+.icon-unchecked:before {
   content: "\f096";
 }
 .icon-bookmark-empty:before {
@@ -840,7 +842,7 @@ a .icon-flip-vertical:before {
   content: "\f0a1";
 }
 .icon-bell:before {
-  content: "\f0a2";
+  content: "\f0f3";
 }
 .icon-certificate:before {
   content: "\f0a3";
@@ -905,11 +907,10 @@ a .icon-flip-vertical:before {
 .icon-copy:before {
   content: "\f0c5";
 }
-.icon-paperclip:before,
-.icon-paper-clip:before {
+.icon-paperclip:before {
   content: "\f0c6";
 }
-.icon-save:before {
+.icon-floppy-disk:before {
   content: "\f0c7";
 }
 .icon-sign-blank:before {
@@ -1000,7 +1001,7 @@ a .icon-flip-vertical:before {
 .icon-comments-alt:before {
   content: "\f0e6";
 }
-.icon-bolt:before {
+.icon-flash:before {
   content: "\f0e7";
 }
 .icon-sitemap:before {
@@ -1034,12 +1035,12 @@ a .icon-flip-vertical:before {
   content: "\f0f2";
 }
 .icon-bell-alt:before {
-  content: "\f0f3";
+  content: "\f0a2";
 }
 .icon-coffee:before {
   content: "\f0f4";
 }
-.icon-food:before {
+.icon-cutlery:before {
   content: "\f0f5";
 }
 .icon-file-text-alt:before {
@@ -1102,7 +1103,7 @@ a .icon-flip-vertical:before {
 .icon-tablet:before {
   content: "\f10a";
 }
-.icon-mobile-phone:before {
+.icon-phone:before {
   content: "\f10b";
 }
 .icon-circle-blank:before {
@@ -1299,10 +1300,10 @@ a .icon-flip-vertical:before {
 .icon-compass:before {
   content: "\f14e";
 }
-.icon-collapse:before {
+.icon-collapse-down:before {
   content: "\f150";
 }
-.icon-collapse-top:before {
+.icon-collapse-up:before {
   content: "\f151";
 }
 .icon-expand:before {
@@ -1323,13 +1324,11 @@ a .icon-flip-vertical:before {
 .icon-inr:before {
   content: "\f156";
 }
+.icon-cny:before,
+.icon-rmb:before,
 .icon-yen:before,
 .icon-jpy:before {
   content: "\f157";
-}
-.icon-renminbi:before,
-.icon-cny:before {
-  content: "\f158";
 }
 .icon-won:before,
 .icon-krw:before {
@@ -1387,7 +1386,7 @@ a .icon-flip-vertical:before {
 .icon-dropbox:before {
   content: "\f16b";
 }
-.icon-stackexchange:before {
+.icon-stackoverflow:before {
   content: "\f16c";
 }
 .icon-instagram:before {
