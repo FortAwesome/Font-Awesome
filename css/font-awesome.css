@@ -1330,6 +1330,10 @@ a .icon-flip-vertical:before {
 .icon-jpy:before {
   content: "\f157";
 }
+.icon-tl:before,
+.icon-try:before {
+  content: "\f0b4";
+}
 .icon-won:before,
 .icon-krw:before {
   content: "\f159";

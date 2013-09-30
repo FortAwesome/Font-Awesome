@@ -586,6 +586,12 @@ a [class*=" icon-"] {
 .icon-fullscreen {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b2;');
 }
+.icon-tl {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b4;');
+}
+.icon-try {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b4;');
+}
 .icon-group {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c0;');
 }
