@@ -1,5 +1,5 @@
 /*!
- *  Font Awesome 3.2.1
+ *  Font Awesome 4.0.0
  *  the iconic font designed for Bootstrap
  *  ------------------------------------------------------------------------------
  *  The full suite of pictographic icons, examples, and documentation can be
@@ -1200,4 +1200,7 @@ a [class*=" icon-"] {
 }
 .icon-renren {
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf18b;');
+}
+.icon-pagelines {
+  *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf18c;');
 }

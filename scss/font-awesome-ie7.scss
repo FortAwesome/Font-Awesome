@@ -1,5 +1,5 @@
 /*!
- *  Font Awesome 3.2.1
+ *  Font Awesome 4.0.0
  *  the iconic font designed for Bootstrap
  *  ------------------------------------------------------------------------------
  *  The full suite of pictographic icons, examples, and documentation can be
@@ -1948,6 +1948,11 @@ a [class*=" icon-"] {
 
 .icon-renren {
   @include ie7icon('&#xf18b;');
+}
+
+
+.icon-pagelines {
+  @include ie7icon('&#xf18c;');
 }
 
 

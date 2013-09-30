@@ -2588,3 +2588,11 @@ icons:
     created:    3.2
     categories:
       - Brand Icons
+
+
+  - name:       Pagelines
+    id:         pagelines
+    unicode:    f18c
+    created:    4.0
+    categories:
+      - Brand Icons
