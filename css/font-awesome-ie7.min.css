@@ -177,6 +177,8 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer}
 .icon-filter{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b0;')}
 .icon-briefcase{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b1;')}
 .icon-fullscreen{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b2;')}
+.icon-tl{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b4;')}
+.icon-try{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0b4;')}
 .icon-group{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c0;')}
 .icon-link{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c1;')}
 .icon-cloud{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c2;')}

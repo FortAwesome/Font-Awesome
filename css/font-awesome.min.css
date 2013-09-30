@@ -352,6 +352,7 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-dollar:before,.icon-usd:before{content:"\f155"}
 .icon-rupee:before,.icon-inr:before{content:"\f156"}
 .icon-cny:before,.icon-rmb:before,.icon-yen:before,.icon-jpy:before{content:"\f157"}
+.icon-tl:before,.icon-try:before{content:"\f0b4"}
 .icon-won:before,.icon-krw:before{content:"\f159"}
 .icon-bitcoin:before,.icon-btc:before{content:"\f15a"}
 .icon-file:before{content:"\f15b"}
