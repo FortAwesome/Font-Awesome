@@ -10,7 +10,7 @@
 
 .navbar .brand {
   font-family: @serifFontFamily;
-  .icon-flag { padding-right: 3px; }
+  .fa-flag { padding-right: 3px; }
 }
 
 .navbar .nav > li > a { padding: 12px 10px 9px; }
@@ -74,18 +74,19 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
   }
   .actions { margin-top: 25px;}
   text-shadow: 2px 2px 2px @grayDark;
-  ul {
-    margin-left: 50px;
-    li {
-      &.icon-large:before {
-        text-indent: -2em;
-        vertical-align: baseline;
-      }
-      font-size: 15px;
-      line-height: 30px;
-      text-shadow: 1px 1px 1px @grayDark;
-    }
-  }
+  // unsure if block below still in use
+//  ul {
+//    margin-left: 50px;
+//    li {
+//      &.icon-large:before {
+//        text-indent: -2em;
+//        vertical-align: baseline;
+//      }
+//      font-size: 15px;
+//      line-height: 30px;
+//      text-shadow: 1px 1px 1px @grayDark;
+//    }
+//  }
   .btn-large {
     font-family: @serifFontFamily;
     font-weight: 500;
@@ -157,13 +158,13 @@ h1, h2, h3, h4, h5, h6 { font-family: @serifFontFamily; }
       dd { margin-left: @horizontalComponentOffset - 85; }
     }
   }
-  .icon-2 { font-size: 2em; }
-  .icon-3 { font-size: 4em; }
-  .icon-4 { font-size: 7em; }
-  .icon-5 { font-size: 12em; }
-  .icon-6 { font-size: 20em; }
+  .fa-2 { font-size: 2em; }
+  .fa-3 { font-size: 4em; }
+  .fa-4 { font-size: 7em; }
+  .fa-5 { font-size: 12em; }
+  .fa-6 { font-size: 20em; }
 
-  .icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6 { margin-right: 1/14em; }
+  .fa-1, .fa-2, .fa-3, .fa-4, .fa-5, .fa-6 { margin-right: 1/14em; }
 }
 
 //.info-ad {
@@ -232,8 +233,7 @@ section { margin-top: 40px; }
       padding-left: 10px;
       .border-radius(6px);
 
-      [class^="icon-"],
-      [class*=" icon-"] {
+      .fa {
         width: 32px;
         font-size: 14px;
         display: inline-block;
@@ -244,13 +244,12 @@ section { margin-top: 40px; }
       &:hover {
         background-color: @errorBackground;
         text-decoration: none;
-        [class^="icon-"], [class*=" icon-"] {
+        .fa {
           *font-size: 28px;
           *vertical-align: middle;
         }
 
-        [class^="icon-"]:before,
-        [class*=" icon-"]:before {
+        .fa:before {
           font-size: 28px;
           vertical-align: -5px;
         }
@@ -262,8 +261,7 @@ section { margin-top: 40px; }
 #why, #whats-new {
   .span4 { margin-bottom: 20px; }
   h4 {
-    [class^="icon-"]:before,
-    [class*=" icon-"]:before {
+    .fa:before {
       vertical-align: -10%;
       font-size: 28px;
       display: inline-block;

@@ -1,3 +1,5 @@
+---
+---
 // Mixins
 // --------------------------
 
@@ -24,15 +26,14 @@
 }
 
 .icon-stack(@width: 2em, @height: 2em, @top-font-size: 1em, @base-font-size: 2em) {
-  .fa-stack {
+  .{{ site.fontawesome.css_prefix }}-stack {
     position: relative;
     display: inline-block;
     width: @width;
     height: @height;
     line-height: @width;
     vertical-align: -35%;
-    [class^="fa-"],
-    [class*=" fa-"] {
+    .{{ site.fontawesome.css_prefix }} {
       position: absolute;
       display: block;
       width: 100%;
@@ -42,7 +43,7 @@
       *line-height: @height;
       text-align: center;
     }
-    .fa-stack-base {
+    .{{ site.fontawesome.css_prefix }}-stack-base {
       font-size: @base-font-size;
       *line-height: (@height / @base-font-size);
     }

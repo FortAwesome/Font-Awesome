@@ -50,7 +50,7 @@
   speak: none;
 }
 /* makes the font 33% larger relative to the icon container */
-.fa-large:before {
+.fa-lg:before {
   font-size: 1.3333333333333333em;
   vertical-align: -10%;
 }
@@ -58,14 +58,14 @@
 a .fa {
   display: inline;
 }
-/* increased font size for icon-large */
+/* increased font size for icon-lg */
 .fa.fa-fixed-width {
   display: inline-block;
   width: 1.1428571428571428em;
   padding-right: 0.2857142857142857em;
   text-align: right;
 }
-.fa.fa-fixed-width.fa-large {
+.fa.fa-fixed-width.fa-lg {
   width: 1.4285714285714286em;
 }
 .fa-ul {
@@ -165,8 +165,8 @@ a .fa {
   background-repeat: repeat;
 }
 /* keeps Bootstrap styles with and without icons the same */
-.btn .fa.fa-large,
-.nav .fa.fa-large {
+.btn .fa.fa-lg,
+.nav .fa.fa-lg {
   line-height: .9em;
 }
 .btn .fa.fa-spin,
@@ -175,15 +175,15 @@ a .fa {
 }
 .nav-tabs .fa,
 .nav-pills .fa,
-.nav-tabs .fa.fa-large,
-.nav-pills .fa.fa-large {
+.nav-tabs .fa.fa-lg,
+.nav-pills .fa.fa-lg {
   line-height: .9em;
 }
 .btn .fa.pull-left.fa-2x,
 .btn .fa.pull-right.fa-2x {
   margin-top: .18em;
 }
-.btn .fa.fa-spin.fa-large {
+.btn .fa.fa-spin.fa-lg {
   line-height: .8em;
 }
 .btn.btn-small .fa.pull-left.fa-2x,
@@ -218,8 +218,7 @@ a .fa {
   line-height: 2em;
   vertical-align: -35%;
 }
-.fa-stack [class^="fa-"],
-.fa-stack [class*=" fa-"] {
+.fa-stack .fa {
   position: absolute;
   display: block;
   width: 100%;

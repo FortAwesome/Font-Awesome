@@ -6,19 +6,19 @@ relative_path: ../../
 <div class="jumbotron jumbotron-icon">
   <div class="container">
     <div class="info-icons">
-      <i class="icon-{{ page.icon.id }} icon-6"></i>&nbsp;&nbsp;
+      <i class="fa fa-{{ page.icon.id }} fa-6"></i>&nbsp;&nbsp;
       <span class="hidden-phone">
-        <i class="icon-{{ page.icon.id }} icon-5"></i>&nbsp;&nbsp;
-        <span class="hidden-tablet"><i class="icon-{{ page.icon.id }} icon-4"></i>&nbsp;&nbsp;</span>
-        <i class="icon-{{ page.icon.id }} icon-3"></i>&nbsp;&nbsp;
-        <i class="icon-{{ page.icon.id }} icon-2"></i>&nbsp;
+        <i class="fa fa-{{ page.icon.id }} fa-5"></i>&nbsp;&nbsp;
+        <span class="hidden-tablet"><i class="fa fa-{{ page.icon.id }} fa-4"></i>&nbsp;&nbsp;</span>
+        <i class="fa fa-{{ page.icon.id }} fa-3"></i>&nbsp;&nbsp;
+        <i class="fa fa-{{ page.icon.id }} fa-2"></i>&nbsp;
       </span>
-      <i class="icon-{{ page.icon.id }} icon-1"></i>
+      <i class="fa fa-{{ page.icon.id }} fa-1"></i>
     </div>
     <h1 class="info-class">
-      icon-{{ page.icon.id }}
+      fa-{{ page.icon.id }}
       <small>
-        <i class="icon-{{ page.icon.id }}"></i> &middot;
+        <i class="fa fa-{{ page.icon.id }}"></i> &middot;
         Unicode: <span class="upper">{{ page.icon.unicode }}</span> &middot;
         Created: v{{ page.icon.created }} &middot;
         Categories:
@@ -29,7 +29,7 @@ relative_path: ../../
         {% if icon_alias_count > 0 %}
           &middot; Aliases:
           {% for alias in page.icon.aliases %}
-            icon-{{ alias }}{% unless forloop.last %},{% endunless %}
+            fa-{{ alias }}{% unless forloop.last %},{% endunless %}
           {% endfor %}
         {% endif %}
       </small>
@@ -45,14 +45,14 @@ relative_path: ../../
         <p>After you get <a href="{{ page.relative_path }}get-started/">up and running</a>, you can place Font Awesome icons just about anywhere with the <code>&lt;i&gt;</code> tag:</p>
         <div class="well well-transparent">
           <div style="font-size: 24px; line-height: 1.5em;">
-            <i class="icon-{{ page.icon.id }}"></i> icon-{{ page.icon.id }}
+            <i class="fa fa-{{ page.icon.id }}"></i> fa-{{ page.icon.id }}
           </div>
         </div>
 {% highlight html %}
-<i class="icon-{{ page.icon.id }}"></i> icon-{{ page.icon.id }}
+<i class="fa fa-{{ page.icon.id }}"></i> fa-{{ page.icon.id }}
 {% endhighlight %}
         <br>
-        <div class="lead"><i class="icon-info-sign"></i> Looking for more? Check out the <a href="{{ page.relative_path }}examples/">examples</a>.</div>
+        <div class="lead"><i class="fa fa-info-sign"></i> Looking for more? Check out the <a href="{{ page.relative_path }}examples/">examples</a>.</div>
       </div>
       <div class="span3">
         <div class="info-ad">{% include ads/carbon-light-vertical.html %}</div>
