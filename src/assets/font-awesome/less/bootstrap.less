@@ -4,8 +4,7 @@
  * -------------------------- */
 
 /* Bootstrap 2.0 sprites.less reset */
-[class^="fa-"],
-[class*=" fa-"] {
+.{{ site.fontawesome.css_prefix }} {
   display: inline;
   width: auto;
   height: auto;
@@ -17,59 +16,37 @@
   background-repeat: repeat;
 }
 
-/* more sprites.less reset */
-.icon-white,
-.nav-pills > .active > a > [class^="fa-"],
-.nav-pills > .active > a > [class*=" fa-"],
-.nav-list > .active > a > [class^="fa-"],
-.nav-list > .active > a > [class*=" fa-"],
-.navbar-inverse .nav > .active > a > [class^="fa-"],
-.navbar-inverse .nav > .active > a > [class*=" fa-"],
-.dropdown-menu > li > a:hover > [class^="fa-"],
-.dropdown-menu > li > a:hover > [class*=" fa-"],
-.dropdown-menu > .active > a > [class^="fa-"],
-.dropdown-menu > .active > a > [class*=" fa-"],
-.dropdown-submenu:hover > a > [class^="fa-"],
-.dropdown-submenu:hover > a > [class*=" fa-"] {
-  background-image: none;
-}
-
 
 /* keeps Bootstrap styles with and without icons the same */
 .btn, .nav {
-  [class^="fa-"],
-  [class*=" fa-"] {
+  .{{ site.fontawesome.css_prefix }} {
 //    display: inline;
-    &.fa-large { line-height: .9em; }
-    &.fa-spin { display: inline-block; }
+    &.{{ site.fontawesome.css_prefix }}-large { line-height: .9em; }
+    &.{{ site.fontawesome.css_prefix }}-spin { display: inline-block; }
   }
 }
 .nav-tabs, .nav-pills {
-  [class^="fa-"],
-  [class*=" fa-"] {
-    &, &.fa-large { line-height: .9em; }
+  .{{ site.fontawesome.css_prefix }} {
+    &, &.{{ site.fontawesome.css_prefix }}-large { line-height: .9em; }
   }
 }
 .btn {
-  [class^="fa-"],
-  [class*=" fa-"] {
+  .{{ site.fontawesome.css_prefix }} {
     &.pull-left, &.pull-right {
-      &.fa-2x { margin-top: .18em; }
+      &.{{ site.fontawesome.css_prefix }}-2x { margin-top: .18em; }
     }
-    &.fa-spin.fa-large { line-height: .8em; }
+    &.{{ site.fontawesome.css_prefix }}-spin.{{ site.fontawesome.css_prefix }}-large { line-height: .8em; }
   }
 }
 .btn.btn-small {
-  [class^="fa-"],
-  [class*=" fa-"] {
+  .{{ site.fontawesome.css_prefix }} {
     &.pull-left, &.pull-right {
-      &.fa-2x { margin-top: .25em; }
+      &.{{ site.fontawesome.css_prefix }}-2x { margin-top: .25em; }
     }
   }
 }
 .btn.btn-large {
-  [class^="fa-"],
-  [class*=" fa-"] {
+  .{{ site.fontawesome.css_prefix }} {
     margin-top: 0; // overrides bootstrap default
     &.pull-left, &.pull-right {
       &.fa-2x { margin-top: .05em; }
@@ -80,7 +57,6 @@
 }
 
 /* Fixes alignment in nav lists */
-.nav-list [class^="fa-"],
-.nav-list [class*=" fa-"] {
+.nav-list .fa {
   line-height: inherit;
 }

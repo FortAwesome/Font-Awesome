@@ -1,13 +1,11 @@
 /* FONT AWESOME CORE
  * -------------------------- */
 
-[class^="fa-"],
-[class*=" fa-"] {
+.fa {
   .icon-FontAwesome();
 }
 
-[class^="fa-"]:before,
-[class*=" fa-"]:before {
+.fa:before {
   display: inline-block;
   text-decoration: inherit;
   speak: none;
@@ -21,15 +19,13 @@
 
 /* makes sure icons active on rollover in links */
 a {
-  [class^="fa-"],
-  [class*=" fa-"] {
+  .fa {
     display: inline;
   }
 }
 
 /* increased font size for icon-large */
-[class^="fa-"],
-[class*=" fa-"] {
+.fa {
   &.fa-fixed-width {
     display: inline-block;
     width: (16em / 14);
@@ -41,7 +37,7 @@ a {
   }
 }
 
-.fas-ul {
+.fa-ul {
   padding-left: 0;
   margin-left: @icons-li-width;
   list-style-type: none;
@@ -58,8 +54,7 @@ a {
 }
 
 // allows usage of the hide class directly on font awesome icons
-[class^="fa-"],
-[class*=" fa-"] {
+.fa {
   &.hide {
     display: none;
   }
@@ -119,8 +114,7 @@ a {
 .pull-right { float: right; }
 .pull-left { float: left; }
 
-[class^="fa-"],
-[class*=" fa-"] {
+.fa {
   &.pull-left {
     margin-right: .3em;
   }
