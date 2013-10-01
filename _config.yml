@@ -26,6 +26,7 @@ fontawesome:
   blog_url:       http://blog.fontawesome.io
   twitter:        fontawesome
   tagline:        The iconic font designed for Bootstrap
+  css_prefix:     fa
   author:
     name:         Dave Gandy
     email:        dave@fontawesome.io
