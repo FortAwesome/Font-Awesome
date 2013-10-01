@@ -2585,3 +2585,10 @@ icons:
     created:    4.0
     categories:
       - Brand Icons
+
+  - name:       PrestaShop
+    id:         prestashop
+    unicode:    f18d
+    created:    4.0
+    categories:
+      - Brand Icons

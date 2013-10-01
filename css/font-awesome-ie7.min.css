@@ -381,3 +381,4 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer;}
 .icon-weibo{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf18a;');}
 .icon-renren{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf18b;');}
 .icon-pagelines{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf18c;');}
+.icon-prestashop{*zoom:expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf18d;');}
