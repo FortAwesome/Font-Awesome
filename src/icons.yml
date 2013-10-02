@@ -1351,6 +1351,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Currency Icons
 
   - name:       caret-down
     id:         caret-down
