@@ -45,8 +45,8 @@
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
   font-size: 1.3333333333333333em;
-  vertical-align: -10%;
   line-height: 0.75em;
+  vertical-align: -10%;
 }
 /* increased font size for icon-lg */
 .fa.fa-fixed-width {
