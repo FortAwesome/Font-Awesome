@@ -1202,6 +1202,11 @@
 .fa-jpy:before {
   content: "\f157";
 }
+.fa-ruble:before,
+.fa-rouble:before,
+.fa-rub:before {
+  content: "\f158";
+}
 .fa-won:before,
 .fa-krw:before {
   content: "\f159";

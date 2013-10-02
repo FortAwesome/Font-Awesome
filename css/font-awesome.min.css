@@ -336,6 +336,7 @@
 .fa-dollar:before,.fa-usd:before{content:"\f155";}
 .fa-rupee:before,.fa-inr:before{content:"\f156";}
 .fa-cny:before,.fa-rmb:before,.fa-yen:before,.fa-jpy:before{content:"\f157";}
+.fa-ruble:before,.fa-rouble:before,.fa-rub:before{content:"\f158";}
 .fa-won:before,.fa-krw:before{content:"\f159";}
 .fa-bitcoin:before,.fa-btc:before{content:"\f15a";}
 .fa-file:before{content:"\f15b";}

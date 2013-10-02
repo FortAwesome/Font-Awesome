@@ -2234,6 +2234,16 @@ icons:
     categories:
       - Currency Icons
 
+  - name:       Russian Ruble (RUB)
+    id:         rub
+    unicode:    f158
+    created:    4.0
+    aliases:
+      - ruble
+      - rouble
+    categories:
+      - Currency Icons
+
   - name:       Korean Won (KRW)
     id:         krw
     unicode:    f159
