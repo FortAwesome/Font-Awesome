@@ -9,20 +9,44 @@
 }
 
 .icon-FontAwesome() {
-  *margin-right: .3em; // fixes ie7 issues
+//  position: relative;
+//  top: 0;
+  display: inline-block;
   font-family: FontAwesome;
-  -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-weight: normal;
-  text-decoration: inherit;
-  text-rendering: auto;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  // from bootstrap, throws off rendering
+//  &:empty { width: 1em; }
+
+//  text-decoration: inherit;
+//  text-rendering: auto;
 }
 
 .border-radius(@radius) {
   -webkit-border-radius: @radius;
   -moz-border-radius: @radius;
   border-radius: @radius;
+}
+
+.rotate(@degrees, @rotation) {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@rotation);
+  -webkit-transform: rotate(@degrees);
+     -moz-transform: rotate(@degrees);
+      -ms-transform: rotate(@degrees);
+       -o-transform: rotate(@degrees);
+          transform: rotate(@degrees);
+}
+
+.flip(@horiz, @vert) {
+  -webkit-transform: scale(@horiz, @vert);
+     -moz-transform: scale(@horiz, @vert);
+      -ms-transform: scale(@horiz, @vert);
+       -o-transform: scale(@horiz, @vert);
+          transform: scale(@horiz, @vert);
 }
 
 .icon-stack(@width: 2em, @height: 2em, @top-font-size: 1em, @base-font-size: 2em) {

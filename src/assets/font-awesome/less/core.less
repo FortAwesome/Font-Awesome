@@ -7,25 +7,13 @@
   .icon-FontAwesome();
 }
 
-.{{ site.fontawesome.css_prefix }}:before {
-  display: inline-block;
-  text-decoration: inherit;
-  speak: none;
-}
 
 /* makes the font 33% larger relative to the icon container */
-.{{ site.fontawesome.css_prefix }}-lg:before {
+.{{ site.fontawesome.css_prefix }}-lg {
   font-size: (4em / 3);
   vertical-align: -10%;
+  line-height: (3em / 4);
 }
-
-/* makes sure icons active on rollover in links */
-a {
-  .{{ site.fontawesome.css_prefix }} {
-    display: inline;
-  }
-}
-
 /* increased font size for icon-lg */
 .{{ site.fontawesome.css_prefix }} {
   &.{{ site.fontawesome.css_prefix }}-fixed-width {
@@ -39,32 +27,32 @@ a {
   }
 }
 
+
+// Icon UL & LI
+// -------------------------
+
 .{{ site.fontawesome.css_prefix }}-ul {
   padding-left: 0;
   margin-left: @icons-li-width;
   list-style-type: none;
 
   > li { position: relative; }
-
-  .{{ site.fontawesome.css_prefix }}-li {
-    position: absolute;
-    left: -@icons-li-width;
-    width: @icons-li-width;
-    line-height: inherit;
-    text-align: center;
-  }
+}
+.{{ site.fontawesome.css_prefix }}-li {
+  position: absolute;
+  left: -@icons-li-width;
+  width: @icons-li-width;
+  line-height: inherit;
+  text-align: center;
 }
 
 // allows usage of the hide class directly on font awesome icons
-.{{ site.fontawesome.css_prefix }} {
-  &.hide {
-    display: none;
-  }
-}
+.{{ site.fontawesome.css_prefix }}.hide { display: none; }
 
 .{{ site.fontawesome.css_prefix }}-muted { color: @iconMuted; }
 .{{ site.fontawesome.css_prefix }}-light { color: @iconLight; }
 .{{ site.fontawesome.css_prefix }}-dark { color: @iconDark; }
+
 
 // Icon Borders
 // -------------------------
@@ -117,10 +105,6 @@ a {
 .pull-left { float: left; }
 
 .{{ site.fontawesome.css_prefix }} {
-  &.pull-left {
-    margin-right: .3em;
-  }
-  &.pull-right {
-    margin-left: .3em;
-  }
+  &.pull-left { margin-right: .3em; }
+  &.pull-right { margin-left: .3em; }
 }

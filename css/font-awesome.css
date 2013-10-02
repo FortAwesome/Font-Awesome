@@ -35,28 +35,19 @@
 /* FONT AWESOME CORE
  * -------------------------- */
 .fa {
-  *margin-right: .3em;
+  display: inline-block;
   font-family: FontAwesome;
-  -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-weight: normal;
-  text-decoration: inherit;
-  text-rendering: auto;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.fa:before {
-  display: inline-block;
-  text-decoration: inherit;
-  speak: none;
-}
 /* makes the font 33% larger relative to the icon container */
-.fa-lg:before {
+.fa-lg {
   font-size: 1.3333333333333333em;
   vertical-align: -10%;
-}
-/* makes sure icons active on rollover in links */
-a .fa {
-  display: inline;
+  line-height: 0.75em;
 }
 /* increased font size for icon-lg */
 .fa.fa-fixed-width {
@@ -76,7 +67,7 @@ a .fa {
 .fa-ul > li {
   position: relative;
 }
-.fa-ul .fa-li {
+.fa-li {
   position: absolute;
   left: -2.142857142857143em;
   width: 2.142857142857143em;
@@ -150,63 +141,6 @@ a .fa {
 .fa.pull-right {
   margin-left: .3em;
 }
-/* BOOTSTRAP SPECIFIC CLASSES
- * -------------------------- */
-/* Bootstrap 2.0 sprites.less reset */
-.fa {
-  display: inline;
-  width: auto;
-  height: auto;
-  margin-top: 0;
-  line-height: normal;
-  vertical-align: baseline;
-  background-image: none;
-  background-position: 0 0;
-  background-repeat: repeat;
-}
-/* keeps Bootstrap styles with and without icons the same */
-.btn .fa.fa-lg,
-.nav .fa.fa-lg {
-  line-height: .9em;
-}
-.btn .fa.fa-spin,
-.nav .fa.fa-spin {
-  display: inline-block;
-}
-.nav-tabs .fa,
-.nav-pills .fa,
-.nav-tabs .fa.fa-lg,
-.nav-pills .fa.fa-lg {
-  line-height: .9em;
-}
-.btn .fa.pull-left.fa-2x,
-.btn .fa.pull-right.fa-2x {
-  margin-top: .18em;
-}
-.btn .fa.fa-spin.fa-lg {
-  line-height: .8em;
-}
-.btn.btn-small .fa.pull-left.fa-2x,
-.btn.btn-small .fa.pull-right.fa-2x {
-  margin-top: .25em;
-}
-.btn.btn-large .fa {
-  margin-top: 0;
-}
-.btn.btn-large .fa.pull-left.fa-2x,
-.btn.btn-large .fa.pull-right.fa-2x {
-  margin-top: .05em;
-}
-.btn.btn-large .fa.pull-left.fa-2x {
-  margin-right: .2em;
-}
-.btn.btn-large .fa.pull-right.fa-2x {
-  margin-left: .2em;
-}
-/* Fixes alignment in nav lists */
-.nav-list .fa {
-  line-height: inherit;
-}
 /* EXTRAS
  * -------------------------- */
 /* Stacked and layered icon */
@@ -234,17 +168,10 @@ a .fa {
 }
 /* Animated rotating icon */
 .fa-spin {
-  display: inline-block;
   -webkit-animation: spin 2s infinite linear;
   -moz-animation: spin 2s infinite linear;
   -o-animation: spin 2s infinite linear;
   animation: spin 2s infinite linear;
-}
-/* Prevent stack and spinners from being taken inline when inside a link */
-a .fa-stack,
-a .fa-spin {
-  display: inline-block;
-  text-decoration: none;
 }
 @-moz-keyframes spin {
   0% {
@@ -286,8 +213,7 @@ a .fa-spin {
     transform: rotate(359deg);
   }
 }
-/* Icon rotations and mirroring */
-.fa-rotate-90:before {
+.fa-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -295,7 +221,7 @@ a .fa-spin {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-.fa-rotate-180:before {
+.fa-rotate-180 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -303,7 +229,7 @@ a .fa-spin {
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-.fa-rotate-270:before {
+.fa-rotate-270 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
   -moz-transform: rotate(270deg);
@@ -311,27 +237,19 @@ a .fa-spin {
   -o-transform: rotate(270deg);
   transform: rotate(270deg);
 }
-.fa-flip-horizontal:before {
+.fa-flip-horizontal {
   -webkit-transform: scale(-1, 1);
   -moz-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   -o-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
-.fa-flip-vertical:before {
+.fa-flip-vertical {
   -webkit-transform: scale(1, -1);
   -moz-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   -o-transform: scale(1, -1);
   transform: scale(1, -1);
-}
-/* ensure rotation occurs inside anchor tags */
-a .fa-rotate-90:before,
-a .fa-rotate-180:before,
-a .fa-rotate-270:before,
-a .fa-flip-horizontal:before,
-a .fa-flip-vertical:before {
-  display: inline-block;
 }
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */

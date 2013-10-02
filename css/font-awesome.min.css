@@ -1,10 +1,8 @@
-@font-face{font-family:'FontAwesome';src:url('../font/fontawesome-webfont.eot?v=4.0.0');src:url('../font/fontawesome-webfont.eot?#iefix&v=4.0.0') format('embedded-opentype'),url('../font/fontawesome-webfont.woff?v=4.0.0') format('woff'),url('../font/fontawesome-webfont.ttf?v=4.0.0') format('truetype'),url('../font/fontawesome-webfont.svg?v=4.0.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;}.fa{*margin-right:.3em;font-family:FontAwesome;-webkit-font-smoothing:antialiased;font-style:normal;font-weight:normal;text-decoration:inherit;text-rendering:auto;-moz-osx-font-smoothing:grayscale;}
-.fa:before{display:inline-block;text-decoration:inherit;speak:none;}
-.fa-lg:before{font-size:1.3333333333333333em;vertical-align:-10%;}
-a .fa{display:inline;}
+@font-face{font-family:'FontAwesome';src:url('../font/fontawesome-webfont.eot?v=4.0.0');src:url('../font/fontawesome-webfont.eot?#iefix&v=4.0.0') format('embedded-opentype'),url('../font/fontawesome-webfont.woff?v=4.0.0') format('woff'),url('../font/fontawesome-webfont.ttf?v=4.0.0') format('truetype'),url('../font/fontawesome-webfont.svg?v=4.0.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;}.fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.fa-lg{font-size:1.3333333333333333em;vertical-align:-10%;line-height:0.75em;}
 .fa.fa-fixed-width{display:inline-block;width:1.1428571428571428em;padding-right:0.2857142857142857em;text-align:right;}.fa.fa-fixed-width.fa-lg{width:1.4285714285714286em;}
 .fa-ul{padding-left:0;margin-left:2.142857142857143em;list-style-type:none;}.fa-ul>li{position:relative;}
-.fa-ul .fa-li{position:absolute;left:-2.142857142857143em;width:2.142857142857143em;line-height:inherit;text-align:center;}
+.fa-li{position:absolute;left:-2.142857142857143em;width:2.142857142857143em;line-height:inherit;text-align:center;}
 .fa.hide{display:none;}
 .fa-muted{color:#eeeeee;}
 .fa-light{color:#ffffff;}
@@ -18,27 +16,14 @@ a .fa{display:inline;}
 .pull-left{float:left;}
 .fa.pull-left{margin-right:.3em;}
 .fa.pull-right{margin-left:.3em;}
-.fa{display:inline;width:auto;height:auto;margin-top:0;line-height:normal;vertical-align:baseline;background-image:none;background-position:0 0;background-repeat:repeat;}
-.btn .fa.fa-lg,.nav .fa.fa-lg{line-height:.9em;}
-.btn .fa.fa-spin,.nav .fa.fa-spin{display:inline-block;}
-.nav-tabs .fa,.nav-pills .fa,.nav-tabs .fa.fa-lg,.nav-pills .fa.fa-lg{line-height:.9em;}
-.btn .fa.pull-left.fa-2x,.btn .fa.pull-right.fa-2x{margin-top:.18em;}
-.btn .fa.fa-spin.fa-lg{line-height:.8em;}
-.btn.btn-small .fa.pull-left.fa-2x,.btn.btn-small .fa.pull-right.fa-2x{margin-top:.25em;}
-.btn.btn-large .fa{margin-top:0;}.btn.btn-large .fa.pull-left.fa-2x,.btn.btn-large .fa.pull-right.fa-2x{margin-top:.05em;}
-.btn.btn-large .fa.pull-left.fa-2x{margin-right:.2em;}
-.btn.btn-large .fa.pull-right.fa-2x{margin-left:.2em;}
-.nav-list .fa{line-height:inherit;}
 .fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:-35%;}.fa-stack .fa{position:absolute;display:block;width:100%;height:100%;font-size:1em;line-height:inherit;*line-height:2em;text-align:center;}
 .fa-stack .fa-stack-base{font-size:2em;*line-height:1em;}
-.fa-spin{display:inline-block;-webkit-animation:spin 2s infinite linear;-moz-animation:spin 2s infinite linear;-o-animation:spin 2s infinite linear;animation:spin 2s infinite linear;}
-a .fa-stack,a .fa-spin{display:inline-block;text-decoration:none;}
-@-moz-keyframes spin{0%{-moz-transform:rotate(0deg);} 100%{-moz-transform:rotate(359deg);}}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);} 100%{-webkit-transform:rotate(359deg);}}@-o-keyframes spin{0%{-o-transform:rotate(0deg);} 100%{-o-transform:rotate(359deg);}}@-ms-keyframes spin{0%{-ms-transform:rotate(0deg);} 100%{-ms-transform:rotate(359deg);}}@keyframes spin{0%{transform:rotate(0deg);} 100%{transform:rotate(359deg);}}.fa-rotate-90:before{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);}
-.fa-rotate-180:before{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg);}
-.fa-rotate-270:before{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);}
-.fa-flip-horizontal:before{-webkit-transform:scale(-1, 1);-moz-transform:scale(-1, 1);-ms-transform:scale(-1, 1);-o-transform:scale(-1, 1);transform:scale(-1, 1);}
-.fa-flip-vertical:before{-webkit-transform:scale(1, -1);-moz-transform:scale(1, -1);-ms-transform:scale(1, -1);-o-transform:scale(1, -1);transform:scale(1, -1);}
-a .fa-rotate-90:before,a .fa-rotate-180:before,a .fa-rotate-270:before,a .fa-flip-horizontal:before,a .fa-flip-vertical:before{display:inline-block;}
+.fa-spin{-webkit-animation:spin 2s infinite linear;-moz-animation:spin 2s infinite linear;-o-animation:spin 2s infinite linear;animation:spin 2s infinite linear;}
+@-moz-keyframes spin{0%{-moz-transform:rotate(0deg);} 100%{-moz-transform:rotate(359deg);}}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);} 100%{-webkit-transform:rotate(359deg);}}@-o-keyframes spin{0%{-o-transform:rotate(0deg);} 100%{-o-transform:rotate(359deg);}}@-ms-keyframes spin{0%{-ms-transform:rotate(0deg);} 100%{-ms-transform:rotate(359deg);}}@keyframes spin{0%{transform:rotate(0deg);} 100%{transform:rotate(359deg);}}.fa-rotate-90{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);}
+.fa-rotate-180{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg);}
+.fa-rotate-270{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);}
+.fa-flip-horizontal{-webkit-transform:scale(-1, 1);-moz-transform:scale(-1, 1);-ms-transform:scale(-1, 1);-o-transform:scale(-1, 1);transform:scale(-1, 1);}
+.fa-flip-vertical{-webkit-transform:scale(1, -1);-moz-transform:scale(1, -1);-ms-transform:scale(1, -1);-o-transform:scale(1, -1);transform:scale(1, -1);}
 .fa-glass:before{content:"\f000";}
 .fa-music:before{content:"\f001";}
 .fa-search:before{content:"\f002";}

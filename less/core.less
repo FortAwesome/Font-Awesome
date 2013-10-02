@@ -5,25 +5,13 @@
   .icon-FontAwesome();
 }
 
-.fa:before {
-  display: inline-block;
-  text-decoration: inherit;
-  speak: none;
-}
 
 /* makes the font 33% larger relative to the icon container */
-.fa-lg:before {
+.fa-lg {
   font-size: (4em / 3);
   vertical-align: -10%;
+  line-height: (3em / 4);
 }
-
-/* makes sure icons active on rollover in links */
-a {
-  .fa {
-    display: inline;
-  }
-}
-
 /* increased font size for icon-lg */
 .fa {
   &.fa-fixed-width {
@@ -37,32 +25,32 @@ a {
   }
 }
 
+
+// Icon UL & LI
+// -------------------------
+
 .fa-ul {
   padding-left: 0;
   margin-left: @icons-li-width;
   list-style-type: none;
 
   > li { position: relative; }
-
-  .fa-li {
-    position: absolute;
-    left: -@icons-li-width;
-    width: @icons-li-width;
-    line-height: inherit;
-    text-align: center;
-  }
+}
+.fa-li {
+  position: absolute;
+  left: -@icons-li-width;
+  width: @icons-li-width;
+  line-height: inherit;
+  text-align: center;
 }
 
 // allows usage of the hide class directly on font awesome icons
-.fa {
-  &.hide {
-    display: none;
-  }
-}
+.fa.hide { display: none; }
 
 .fa-muted { color: @iconMuted; }
 .fa-light { color: @iconLight; }
 .fa-dark { color: @iconDark; }
+
 
 // Icon Borders
 // -------------------------
@@ -115,10 +103,6 @@ a {
 .pull-left { float: left; }
 
 .fa {
-  &.pull-left {
-    margin-right: .3em;
-  }
-  &.pull-right {
-    margin-left: .3em;
-  }
+  &.pull-left { margin-right: .3em; }
+  &.pull-right { margin-left: .3em; }
 }
