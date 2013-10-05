@@ -51,5 +51,5 @@ fontawesome:
       url:          http://creativecommons.org/licenses/by/3.0/
 
 bootstrap:
-  version:        2.3.2
+  version:        3.0.0
   url:            http://getbootstrap.com

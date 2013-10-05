@@ -1,0 +1,42 @@
+#footer {
+  //  #gradient > .vertical(@navbarInverseBackgroundHighlight, @navbarInverseBackground);
+  background-color: @red;
+  border-top: 1px solid mix(@red, @red-dark, 50%);
+  a {
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    &:hover {
+      color: #fff;
+    }
+
+  }
+
+  color: mix(@red, #fff, 35%);
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+  margin-top: 60px;
+  .project { margin-top: 10px; }
+}
+
+
+// Sticky Footer Styles
+// --------------------
+
+@footer-height: 160px;
+@footer-padding-top: 40px;
+@footer-padding-bottom: 40px;
+@wrap-padding-bottom: 60px; // also known as the margin above the footer
+
+html, body { height: 100%; }
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -(@footer-height);
+  padding: 0 0 (@footer-height + @wrap-padding-bottom);
+}
+
+#footer {
+  height: @footer-height;
+  padding: @footer-padding-top 0 @footer-padding-bottom;
+}

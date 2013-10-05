@@ -23,7 +23,7 @@
 @import "bootstrap-{{ site.bootstrap.version }}/variables.less"; // Modify this for custom colors, font-sizes, etc
 @import "bootstrap-{{ site.bootstrap.version }}/mixins.less";
 
-@import "variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "variables"; // Modify this for custom colors, font-sizes, etc
 
 // RESPONSIVE CLASSES
 // ------------------
@@ -36,15 +36,15 @@
 
 // Large desktops
 @import "bootstrap-{{ site.bootstrap.version }}/responsive-1200px-min.less";
-@import "responsive-1200px-min.less";
+@import "responsive-1200px-min";
 
 // Tablets to regular desktops
 @import "bootstrap-{{ site.bootstrap.version }}/responsive-768px-979px.less";
-@import "responsive-768px-979px.less";
+@import "responsive-768px-979px";
 
 // Phones to portrait tablets and narrow desktops
 @import "bootstrap-{{ site.bootstrap.version }}/responsive-767px-max.less";
-@import "responsive-767px-max.less";
+@import "responsive-767px-max";
 
 
 // RESPONSIVE NAVBAR
@@ -52,4 +52,4 @@
 
 // From 979px and below, show a button to toggle navbar contents
 @import "bootstrap-{{ site.bootstrap.version }}/responsive-navbar.less";
-@import "responsive-navbar.less";
+@import "responsive-navbar";

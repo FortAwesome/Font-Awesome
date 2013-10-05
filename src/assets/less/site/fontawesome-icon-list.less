@@ -1,0 +1,37 @@
+.fontawesome-icon-list {
+  margin-top: 22px;
+  .col-md-3 {
+    a {
+      display: block;
+      &, &:hover { color: @gray-darker; }
+
+      cursor: pointer;
+      line-height: 32px;
+      height: 32px;
+      padding-left: 10px;
+      border-radius: 6px;
+
+      .fa {
+        width: 32px;
+        font-size: 14px;
+        display: inline-block;
+        text-align: right;
+        margin-right: 10px;
+      }
+
+      &:hover {
+        background-color: @state-danger-bg;
+        text-decoration: none;
+        .fa {
+          *font-size: 28px;
+          *vertical-align: middle;
+        }
+
+        .fa:before {
+          font-size: 28px;
+          vertical-align: -5px;
+        }
+      }
+    }
+  }
+}

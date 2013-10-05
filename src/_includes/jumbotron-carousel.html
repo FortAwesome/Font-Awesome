@@ -1,28 +1,26 @@
-<div class="jumbotron jumbotron-index hidden-print">
+<div class="jumbotron jumbotron-carousel hidden-print">
   <div class="container">
     <div class="row">
-      <div class="span8">
-        <div class="hero-content">
-          <h1>Font Awesome</h1>
-          <p>The iconic font designed for Bootstrap</p>
-          <div class="actions">
-            <a class="btn btn-primary btn-large" href="{{ page.relative_path }}assets/font-awesome.zip"
-               onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
-              <i class="fa fa-download-alt fa-lg"></i>&nbsp;&nbsp;
-              Download
-            </a>
-          </div>
-          <div class="shameless-self-promotion">
-            <a href="{{ site.fontawesome.github.url }}"
-               onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'View Project on GitHub']);">
-              GitHub Project</a> &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-            Version {{ site.fontawesome.version }} &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-            Created &amp; Maintained by <a href="http://twitter.com/{{ site.fontawesome.author.twitter }}">Dave Gandy</a>
-          </div>
+      <div class="col-md-8 text-center">
+        <h1>Font Awesome</h1>
+        <p>The iconic font designed for Bootstrap</p>
+        <div class="actions">
+          <a class="btn btn-default btn-large" href="{{ page.relative_path }}assets/font-awesome.zip"
+             onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
+            <i class="fa fa-download-alt fa-lg"></i>&nbsp;&nbsp;
+            Download
+          </a>
+        </div>
+        <div class="shameless-self-promotion">
+          <a href="{{ site.fontawesome.github.url }}"
+             onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'View Project on GitHub']);">
+            GitHub Project</a> &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+          Version {{ site.fontawesome.version }} &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+          Created &amp; Maintained by <a href="http://twitter.com/{{ site.fontawesome.author.twitter }}">Dave Gandy</a>
         </div>
       </div>
-      <div class="span4">
-        <div id="iconCarousel" class="carousel slide">
+      <div class="col-md-4">
+        <div id="icon-carousel" class="carousel slide">
           <!-- Carousel items -->
           <div class="carousel-inner">
             <div class="active item"><div><i class="fa fa-flag"></i></div></div>
@@ -39,10 +37,10 @@
             <div class="item"><div><i class="fa fa-thumbs-up"></i></div></div>
           </div>
           <!-- Carousel nav -->
-          <a class="carousel-control left" href="#iconCarousel" data-slide="prev"
+          <a class="carousel-control left" href="#icon-carousel" data-slide="prev"
              onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Prev']);">
             <i class="fa fa-circle-arrow-left"></i></a>
-          <a class="carousel-control right" href="#iconCarousel" data-slide="next"
+          <a class="carousel-control right" href="#icon-carousel" data-slide="next"
              onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Next']);">
             <i class="fa fa-circle-arrow-right"></i></a>
         </div>

@@ -1,6 +1,6 @@
 $(function() {
   // start the icon carousel
-  $('#iconCarousel').carousel({
+  $('#icon-carousel').carousel({
     interval: 5000
   });
 

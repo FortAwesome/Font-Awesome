@@ -2,11 +2,11 @@
 ---
 @import "bootstrap-{{ site.bootstrap.version }}/bootstrap.less";
 @import "bootstrap-{{ site.bootstrap.version }}/responsive-utilities.less";
-@import "sticky-footer.less";
+@import "site-2.3.2/sticky-footer";
 
-@import "mixins.less";
-@import "variables.less";
-@import "lazy.less";
+@import "site-2.3.2/mixins";
+@import "site-2.3.2/variables";
+@import "site-2.3.2/lazy";
 
 .navbar .brand {
   font-family: @serifFontFamily;
@@ -220,7 +220,7 @@ section { margin-top: 40px; }
   }
 }
 
-.the-icons {
+.fontawesome-icon-list {
   margin-top: 22px;
   .span3 {
     a {
@@ -349,4 +349,4 @@ footer {
   &.dropdown-split-left > a { padding-right: 0; }
 }
 
-@import "responsive.less";
+@import "site-2.3.2/responsive";

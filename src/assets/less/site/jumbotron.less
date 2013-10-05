@@ -1,0 +1,113 @@
+.jumbotron {
+  background: @red;
+  border-bottom: 1px solid @red-dark;
+  margin-bottom: 0;
+  &, h1 { color: #fff; }
+  #gradient > .directional(@red, mix(@red, @red-dark, 90%), -40deg);
+  //  background-color: @red;
+
+  //  &:after {
+  //    content:'';
+  //    display:block;
+  //    position:absolute;
+  //    top:0;
+  //    right:0;
+  //    bottom:0;
+  //    left:0;
+  //    background:url(../img/grain-tm400.png);
+  //    opacity:.5;
+  //  }
+
+  h1 {
+    font-size: 80px;
+    letter-spacing: -2px;
+    line-height: 1;
+    text-shadow: 2px 2px 2px @red-dark;
+  }
+  p {
+    color: mix(#fff, @red, 75%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px @red-dark;
+  }
+  .actions { margin-top: 25px;}
+  // unsure if block below still in use
+  //  ul {
+  //    margin-left: 50px;
+  //    li {
+  //      &.icon-large:before {
+  //        text-indent: -2em;
+  //        vertical-align: baseline;
+  //      }
+  //      font-size: 15px;
+  //      line-height: 30px;
+  //      text-shadow: 1px 1px 1px @grayDark;
+  //    }
+  //  }
+  .btn-large {
+    font-family: @font-family-serif;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 17px 30px;
+  }
+  .btn-default {
+    color: #fff;
+    background-color: @red;
+    border-color: #fff;
+    &:hover {
+      background-color: #fff;
+      color: @red;
+    }
+  }
+  .shameless-self-promotion {
+    font-size: 14px;
+    margin-top: 25px;
+    color: mix(#fff, @red, 40%);
+    a { color: mix(#fff, @red, 70%); }
+    a:hover { color: mix(#fff, @red, 100%); }
+  }
+}
+
+.jumbotron-icon {
+  padding: 20px 0 30px;
+  #gradient > .directional(@gray-lighter, mix(@gray-lighter, @gray-light, 90%), -40deg);
+  color: @gray-darker;
+  &, h1 { text-shadow: 1px 1px 1px #fff; }
+  border-bottom: solid 1px mix(@gray-light, @gray-lighter, 50%);
+
+  h1 {
+    color: @gray-darker;
+    font-size: 40px;
+    small {
+      letter-spacing: normal;
+      font-family: @font-family-sans-serif;
+      font-size: @font-size-base;
+      margin-left: 20px;
+    }
+  }
+
+  .info-icons {
+    font-size: @font-size-base;
+  }
+  .info-details {
+    float: left;
+    p {
+      margin: 25px 0;
+      font-weight: bold;
+    }
+    .dl-horizontal {
+      dt { width: @component-offset-horizontal - 100; }
+      dd { margin-left: @component-offset-horizontal - 85; }
+    }
+  }
+  .fa-2 { font-size: 2em; }
+  .fa-3 { font-size: 4em; }
+  .fa-4 { font-size: 7em; }
+  .fa-5 { font-size: 12em; }
+  .fa-6 { font-size: 20em; }
+
+  .fa-1, .fa-2, .fa-3, .fa-4, .fa-5, .fa-6 { margin-right: 1/14em; }
+}
