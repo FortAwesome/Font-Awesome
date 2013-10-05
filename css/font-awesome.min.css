@@ -2,7 +2,7 @@
 .fa-lg{font-size:1.3333333333333333em;vertical-align:-10%;line-height:0.75em;}
 .fa.fa-fixed-width{display:inline-block;width:1.1428571428571428em;padding-right:0.2857142857142857em;text-align:right;}.fa.fa-fixed-width.fa-lg{width:1.4285714285714286em;}
 .fa-ul{padding-left:0;margin-left:2.142857142857143em;list-style-type:none;}.fa-ul>li{position:relative;}
-.fa-li{position:absolute;left:-2.142857142857143em;width:2.142857142857143em;line-height:inherit;text-align:center;}
+.fa-li{position:absolute;left:-2.142857142857143em;width:2.142857142857143em;top:0.14285714285714285em;text-align:center;}.fa-li.fa-lg{left:-1.8571428571428572em;}
 .fa.hide{display:none;}
 .fa-muted{color:#eeeeee;}
 .fa-light{color:#ffffff;}

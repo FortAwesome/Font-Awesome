@@ -70,8 +70,11 @@
   position: absolute;
   left: -2.142857142857143em;
   width: 2.142857142857143em;
-  line-height: inherit;
+  top: 0.14285714285714285em;
   text-align: center;
+}
+.fa-li.fa-lg {
+  left: -1.8571428571428572em;
 }
 .fa.hide {
   display: none;

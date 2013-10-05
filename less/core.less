@@ -40,8 +40,11 @@
   position: absolute;
   left: -@icons-li-width;
   width: @icons-li-width;
-  line-height: inherit;
+  top: (2em / 14);
   text-align: center;
+  &.fa-lg {
+    left: -@icons-li-width + (4em / 14);
+  }
 }
 
 // allows usage of the hide class directly on font awesome icons

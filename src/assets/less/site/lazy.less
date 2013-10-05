@@ -1,0 +1,86 @@
+@size-none: 0px;
+@size-sm:   5px;
+@size-md:   10px;
+@size-lg:   22px;
+
+.padding-none         { padding: @size-none !important; }
+.padding              { padding: @size-md !important; }
+.padding-sm           { padding: @size-sm !important; }
+.padding-lg           { padding: @size-lg !important; }
+
+.padding-top-none     { padding-top: @size-none !important; }
+.padding-top          { padding-top: @size-md !important; }
+.padding-top-sm       { padding-top: @size-sm !important; }
+.padding-top-lg       { padding-top: @size-lg !important; }
+
+.padding-right-none   { padding-right: @size-none !important; }
+.padding-right        { padding-right: @size-md !important; }
+.padding-right-sm     { padding-right: @size-sm !important; }
+.padding-right-lg     { padding-right: @size-lg !important; }
+
+.padding-bottom-none  { padding-bottom: @size-none !important; }
+.padding-bottom       { padding-bottom: @size-md !important; }
+.padding-bottom-sm    { padding-bottom: @size-sm !important; }
+.padding-bottom-lg    { padding-bottom: @size-lg !important; }
+
+.padding-left-none    { padding-left: @size-none !important; }
+.padding-left         { padding-left: @size-md !important; }
+.padding-left-sm      { padding-left: @size-sm !important; }
+.padding-left-lg      { padding-left: @size-lg !important; }
+
+.margin-none          { margin: @size-none !important; }
+.margin               { margin: @size-md !important; }
+.margin-sm            { margin: @size-sm !important; }
+.margin-lg            { margin: @size-lg !important; }
+
+.margin-top-none      { margin-top: @size-none !important; }
+.margin-top           { margin-top: @size-md !important; }
+.margin-top-lg        { margin-top: @size-lg !important; }
+.margin-top-sm        { margin-top: @size-sm !important; }
+
+.margin-right-none    { margin-right: @size-none !important; }
+.margin-right         { margin-right: @size-md !important; }
+.margin-right-lg      { margin-right: @size-lg !important; }
+.margin-right-sm      { margin-right: @size-sm !important; }
+
+.margin-bottom-none   { margin-bottom: @size-none !important; }
+.margin-bottom        { margin-bottom: @size-md !important; }
+.margin-bottom-lg     { margin-bottom: @size-lg !important; }
+.margin-bottom-sm     { margin-bottom: @size-sm !important; }
+
+.margin-left-none     { margin-left: @size-none !important; }
+.margin-left          { margin-left: @size-md !important; }
+.margin-left-lg       { margin-left: @size-lg !important; }
+.margin-left-sm       { margin-left: @size-sm !important; }
+
+.border-left-none     { border-left: none !important; }
+.border-right-none    { border-right: none !important; }
+.border-bottom-none   { border-bottom: none !important; }
+.border-top-none      { border-top: none !important; }
+
+.display-block { display: block; } // use to swap an anchor tag to span a whole row to make click target larger
+.no-underline:hover { text-decoration: none; }
+.clickable { cursor: pointer; }
+.strong { font-weight: bold; }
+.em { font-style: italic; }
+.small { font-size: 85%; } // Ex: 14px base font * 85% = about 12px
+.no-link { color: @gray-dark; }
+
+.text-sans-serif { font-family: @font-family-sans-serif; }
+.text-ellipsis { .text-overflow(); } // truncates text to a single line with an ellipsis at the end
+.text-default {
+  font-family: @font-family-base;
+  font-size: @font-size-base;
+  line-height: @line-height-base;
+  font-weight: normal;
+}
+.text-hilite {
+  color: @link-color;
+  &:hover {
+    color: @link-hover-color;
+    text-decoration: underline;
+  }
+}
+.text-strike { text-decoration: line-through; }
+.text-upper { text-transform: uppercase; }
+.text-lower { text-transform: lowercase; }
