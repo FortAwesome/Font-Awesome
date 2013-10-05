@@ -1,11 +1,40 @@
-$(function() {
+jQuery(function($) {
   // start the icon carousel
   $('#iconCarousel').carousel({
     interval: 5000
   });
 
 
+   // filter icons when search entered
+   $('#filterBoxText').on({'keyup': filter, change: filter});
+   $('#filterBoxIcon').on('click', function() {
+      $('#filterBoxText').val('').triggerHandler('change');
+   });
 
+   function filter() {
+      var $iconCells = $('.the-icons .span3');
+      var text = $('#filterBoxText').val();
+      var hasText = !!text;
+
+      $('#new,h2').toggle(!hasText);
+      $('#filterBoxIcon')
+         .prop('disabled', !hasText)
+         .find('i')
+         .toggleClass('icon-search', !hasText)
+         .toggleClass('icon-remove', hasText);
+
+      $('div.lists-of-icons').toggleClass('search-active', hasText);
+
+      if( hasText ) {
+         $iconCells.hide().filter(function() {
+            return !!$(this).text().match(text);
+         }).show();
+      }
+      else {
+         $iconCells.show();
+      }
+   }
+   filter();
 
   // make code pretty
 //  $('pre').addClass('prettyprint');
