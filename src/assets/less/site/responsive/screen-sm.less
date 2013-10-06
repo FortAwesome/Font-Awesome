@@ -1,11 +1,5 @@
-//
-// Responsive: Tablet to desktop
-// --------------------------------------------------
-
-
-@media (min-width: 768px) and (max-width: 979px) {
-
-  #iconCarousel {
+@media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+  #icon-carousel {
     @size: 200px;
     font-size: @size;
     line-height: @size + 5;
@@ -21,7 +15,7 @@
     }
   }
 
-  .jumbotron-index {
+  .jumbotron-carousel {
     padding: 50px 0;
     h1 { font-size: 65px; }
     p { font-size: 25px; }
@@ -44,21 +38,10 @@
   .stripe-ad {
     .lead {
       margin: 0;
+      padding-top: 5px;
       font-size: 19px;
     }
   }
 
-  #why, #whats-new, #new-styles {
-    .span4 { width: 352px; }
-  }
-
-  .fontawesome-icon-list {
-    .span3 { width: 228px; }
-  }
-
-  .sticky-footer(110px, 40px, 40px, 60px); // sets default values for sticky footer
-  .footer {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+  .hide-sm { display: none; }
 }
