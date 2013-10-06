@@ -45,12 +45,11 @@
     })();
   </script>
 </head>
-<body data-spy="scroll" data-target=".navbar">
+<body>
 <div id="wrap"> <!-- necessary for sticky footer. wrap all content except footer -->
   {% include navbar.html %}
 
   {{ content }}
-  <div class="push"><!-- necessary for sticky footer --></div>
 </div>
 {% include footer.html %}
 
