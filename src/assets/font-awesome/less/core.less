@@ -11,19 +11,16 @@
 /* makes the font 33% larger relative to the icon container */
 .{{ site.fontawesome.css_prefix }}-lg {
   font-size: (4em / 3);
-  vertical-align: -10%;
+  vertical-align: -15%;
   line-height: (3em / 4);
 }
 /* increased font size for icon-lg */
-.{{ site.fontawesome.css_prefix }} {
-  &.{{ site.fontawesome.css_prefix }}-fixed-width {
-    display: inline-block;
-    width: (16em / 14);
-    padding-right: (4em / 14);
-    text-align: right;
-    &.{{ site.fontawesome.css_prefix }}-lg {
-      width: (20em / 14);
-    }
+.{{ site.fontawesome.css_prefix }}-fixed-width {
+  width: (16em / 14);
+  padding-right: (4em / 14);
+  text-align: right;
+  &.{{ site.fontawesome.css_prefix }}-lg {
+    width: (20em / 14);
   }
 }
 
@@ -45,7 +42,6 @@
   top: (2em / 14);
   text-align: center;
   &.{{ site.fontawesome.css_prefix }}-lg {
-    top: (1em / 14);
     left: -@icons-li-width + (4em / 14);
   }
 }

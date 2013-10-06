@@ -45,17 +45,16 @@
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
   font-size: 1.3333333333333333em;
-  vertical-align: -10%;
+  vertical-align: -15%;
   line-height: 0.75em;
 }
 /* increased font size for icon-lg */
-.fa.fa-fixed-width {
-  display: inline-block;
+.fa-fixed-width {
   width: 1.1428571428571428em;
   padding-right: 0.2857142857142857em;
   text-align: right;
 }
-.fa.fa-fixed-width.fa-lg {
+.fa-fixed-width.fa-lg {
   width: 1.4285714285714286em;
 }
 .fa-ul {
