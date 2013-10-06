@@ -53,3 +53,6 @@ fontawesome:
 bootstrap:
   version:        3.0.0
   url:            http://getbootstrap.com
+
+jquery:
+  version:        1.10.2
