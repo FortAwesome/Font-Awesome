@@ -1,7 +1,7 @@
 <{% if page.navbar_active == "examples" %}div{% else %}section{% endif %} id="new-styles">
   <h2 class="page-header">New Styles in {{ site.fontawesome.minor_version }}</h2>
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-6">
       <h4><a href="#rotated-flipped">Rotated and Flipped Icons</a></h4>
       <div class="well well-transparent">
         <i class="fa fa-shield"></i>&nbsp; normal<br>
@@ -12,10 +12,10 @@
         <i class="fa fa-shield fa-flip-vertical"></i>&nbsp; fa-flip-vertical
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-6">
       <h4><a href="#stacked">Stacked Icons</a></h4>
       <div class="well well-transparent">
-        <div class="margin-top margin-bottom">
+        <div class="margin-top-sm margin-bottom-sm">
           <span class="fa-stack">
             <i class="fa fa-unchecked fa-stack-base"></i>
             <i class="fa fa-twitter"></i>
@@ -30,11 +30,16 @@
             <i class="fa fa-sign-blank fa-stack-base"></i>
             <i class="fa fa-terminal fa-light"></i>
           </span>
-          fa-terminal on fa-sign-blank
-        </div>
+          fa-terminal on fa-sign-blank<br>
+          <span class="fa-stack">
+            <i class="fa fa-camera"></i>
+            <i class="fa fa-ban-circle fa-stack-base text-danger"></i>
+          </span>
+          fa-camera on fa-ban-circle
+      </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-6 col-sm-offset-3">
       <h4><a href="#bulleted-lists">Better Bulleted Lists</a></h4>
       <div class="well well-transparent">
         <ul class="fa-ul">
