@@ -48,14 +48,14 @@
 }
 
 .icon-stack(@width: 2em, @height: 2em, @top-font-size: 1em, @base-font-size: 2em) {
-  .fa-stack {
+  .fa-icon-stack {
     position: relative;
     display: inline-block;
     width: @width;
     height: @height;
     line-height: @width;
     vertical-align: -35%;
-    .fa {
+    .fa-icon {
       position: absolute;
       display: block;
       width: 100%;
@@ -65,7 +65,7 @@
       *line-height: @height;
       text-align: center;
     }
-    .fa-stack-base {
+    .fa-icon-stack-base {
       font-size: @base-font-size;
       *line-height: (@height / @base-font-size);
     }
