@@ -1,38 +1,44 @@
 .jumbotron {
-  background: @red;
-  border-bottom: 1px solid @red-dark;
+  background-color: @jumbotron-bg;
+  #gradient > .directional(@jumbotron-bg, mix(@jumbotron-bg, @jumbotron-bg-dark, 50%), -40deg);
+  border-bottom: 1px solid @jumbotron-bg-dark;
   margin-bottom: 0;
   &, h1 { color: #fff; }
   padding: 30px 0;
-  #gradient > .directional(@red, mix(@red, @red-dark, 90%), -40deg);
-  //  background-color: @red;
+  position: relative;
 
-  //  &:after {
-  //    content:'';
-  //    display:block;
-  //    position:absolute;
-  //    top:0;
-  //    right:0;
-  //    bottom:0;
-  //    left:0;
-  //    background:url(../img/grain-tm400.png);
-  //    opacity:.5;
-  //  }
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../img/houndstooth.svg);
+    background-size: 50px 50px;
+    opacity: .03;
+  }
+  .container {
+    position: relative;
+    z-index: 2;
+  }
 
   h1 {
     font-size: 80px;
     letter-spacing: -2px;
     line-height: 1;
-    text-shadow: 2px 2px 2px @red-dark;
+    text-shadow: 2px 2px 2px @jumbotron-bg-dark;
   }
   p {
-    color: mix(#fff, @red, 75%);
+    font-family: proxima-nova-sc-osf, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: mix(#fff, @jumbotron-bg, 75%);
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 30px;
     line-height: 1.3;
     font-weight: lighter;
-    text-shadow: 1px 1px 1px @red-dark;
+    text-shadow: 1px 1px 1px @jumbotron-bg-dark;
   }
   .actions { margin-top: 25px;}
   // unsure if block below still in use
@@ -56,19 +62,20 @@
   }
   .btn-default {
     color: #fff;
-    background-color: @red;
+    background-color: @jumbotron-bg;
     border-color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
     &:hover {
       background-color: #fff;
-      color: @red;
+      color: @jumbotron-bg;
     }
   }
   .shameless-self-promotion {
     font-size: 14px;
     margin-top: 25px;
-    color: mix(#fff, @red, 40%);
-    a { color: mix(#fff, @red, 70%); }
-    a:hover { color: mix(#fff, @red, 100%); }
+    color: mix(#fff, @jumbotron-bg, 40%);
+    a { color: mix(#fff, @jumbotron-bg, 70%); }
+    a:hover { color: mix(#fff, @jumbotron-bg, 100%); }
   }
 }
 
