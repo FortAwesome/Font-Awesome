@@ -45,6 +45,7 @@
 }
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
+  font-family: FontAwesome;
   text-decoration: inherit;
   display: inline-block;
   speak: none;
