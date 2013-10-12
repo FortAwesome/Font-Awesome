@@ -1,22 +1,19 @@
 #footer {
   //  #gradient > .vertical(@navbarInverseBackgroundHighlight, @navbarInverseBackground);
   background-color: @jumbotron-bg;
-  border-top: 1px solid mix(@jumbotron-bg, @jumbotron-bg-dark, 50%);
+  border-top: 1px solid @jumbotron-border;
+  color: mix(@jumbotron-text, @jumbotron-bg, 60%);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.15);
   a {
-    color: #fff;
-    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    color: mix(@jumbotron-text, @jumbotron-bg, 80%);
+    border-bottom: dotted 1px mix(@jumbotron-text, @jumbotron-bg, 60%);
     &:hover {
-      color: #fff;
+      color: @jumbotron-text;
+      text-decoration: none;
+      border-bottom: solid 1px @jumbotron-text;
     }
-
   }
-
-  .container {
-    padding-top: 40px;
-  }
-
-  color: mix(@jumbotron-bg, #fff, 35%);
-  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+  .container { padding-top: 40px; }
   .project { margin-top: 10px; }
 }
 

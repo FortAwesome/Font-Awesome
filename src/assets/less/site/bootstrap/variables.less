@@ -1,45 +1,5 @@
 ---
 ---
-// BOOTSTRAP OVERRIDES
-// -------------------
-
-// Links
-@link-color:            lighten(@jumbotron-bg, 10%);
-@link-hover-color:      @jumbotron-bg;
-
-// Typography
-@font-family-sans-serif:  proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       museo-slab, Georgia, "Times New Roman", Times, serif;
-@headings-font-family:    @font-family-serif;
-
-
-// Form states and alerts
-@state-warning-text:             mix(@yellow-dark, @yellow-darker, 80%);
-@state-warning-bg:               @yellow-lighter;
-@state-warning-border:           darken(spin(@state-warning-bg, -10), 7%);
-
-@state-danger-text:              @red;
-@state-danger-bg:                @red-lighter;
-@state-danger-border:            darken(spin(@state-danger-bg, -10), 4%);
-
-@state-success-text:             mix(@green-darker, @green-dark, 30%);
-@state-success-bg:               @green-lighter;
-@state-success-border:           darken(spin(@state-success-bg, -10), 13%);
-
-@state-info-text:                mix(@blue-dark, @blue, 50%);
-@state-info-bg:                  @blue-lighter;
-@state-info-border:              darken(spin(@state-info-bg, -10), 7%);
-
-// Navbar
-@navbar-height:                     40px;
-@navbar-inverse-brand-color:        #fff;
-
-//@brand-primary:         @blue-dark;
-//@brand-success:         @green;
-//@brand-warning:         @yellow-dark;
-//@brand-danger:          @red;
-//@brand-info:            @blue;
-
 // SITE VARIABLES
 // --------------
 
@@ -100,5 +60,58 @@
 @jumbotron-bg:          desaturate(#1d9d74, 0%);
 @jumbotron-bg-dark:     darken(@jumbotron-bg, 10%);
 
+@jumbotron-border:      mix(@jumbotron-bg, @jumbotron-bg-dark, 75%);
 @jumbotron-text:        #fff;
 
+
+
+// BOOTSTRAP OVERRIDES
+// -------------------
+
+// Links
+@link-color:            lighten(@jumbotron-bg, 10%);
+@link-hover-color:      @jumbotron-bg;
+
+// Typography
+@font-family-sans-serif:  proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       museo-slab, Georgia, "Times New Roman", Times, serif;
+@headings-font-family:    @font-family-serif;
+
+
+// Form states and alerts
+@state-warning-text:             mix(@yellow-dark, @yellow-darker, 80%);
+@state-warning-bg:               @yellow-lighter;
+@state-warning-border:           darken(spin(@state-warning-bg, -10), 7%);
+
+@state-danger-text:              @red;
+@state-danger-bg:                @red-lighter;
+@state-danger-border:            darken(spin(@state-danger-bg, -10), 4%);
+
+@state-success-text:             mix(@green-darker, @green-dark, 30%);
+@state-success-bg:               @green-lighter;
+@state-success-border:           darken(spin(@state-success-bg, -10), 13%);
+
+@state-info-text:                mix(@blue-dark, @blue, 50%);
+@state-info-bg:                  @blue-lighter;
+@state-info-border:              darken(spin(@state-info-bg, -10), 7%);
+
+// Navbar
+@navbar-height:                     40px;
+@navbar-inverse-brand-color:        #fff;
+
+// Reset inverted navbar basics
+@navbar-inverse-color:                      mix(@jumbotron-bg, #fff, 50%);
+@navbar-inverse-bg:                         @jumbotron-bg;
+@navbar-inverse-border:                     @jumbotron-border;
+
+// Inverted navbar links
+@navbar-inverse-link-color:                 mix(@jumbotron-bg, #fff, 35%);
+@navbar-inverse-link-hover-color:           #fff;
+@navbar-inverse-link-active-bg:             @navbar-inverse-border;
+
+
+//@brand-primary:         @blue-dark;
+//@brand-success:         @green;
+//@brand-warning:         @yellow-dark;
+//@brand-danger:          @red;
+//@brand-info:            @blue;
