@@ -1,37 +1,52 @@
 #icon-carousel {
-  a { color: #fff; }
   @size: 220px;
   font-size: @size;
   text-align: center;
   line-height: @size + 5;
-  text-shadow: 2px 2px 2px @jumbotron-bg-dark;
+  text-shadow: 0 2px 0 rgba(0,0,0,0.15);
+  a {
+    color: @jumbotron-bg-dark;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.25);
+  }
   .carousel-control {
-    top: @size + 23px;
+    top: @size + 10px;
     .square(30px);
     background: none;
     border-width: 0;
     font-size: 30px;
     line-height: 25px;
-    left: 300/2 - 38px;
+    left: 300/2 - 36px;
     &.right {
       left: auto;
-      right: 300/2 - 38px;
+      right: 300/2 - 36px;
     }
   }
 }
 
 .jumbotron-carousel {
-  padding: 40px 0;
-  h1 {
-    font-size: 80px;
-    letter-spacing: -2px;
-    line-height: 1;
-    margin: 0 0 15px;
+  padding-top: 40px;
+  .btn {
+    margin-top: @buffer-lg;
+    font-family: @font-family-serif;
+    font-size: 24px;
+    padding: 17px 30px;
+    color: @jumbotron-text;
+    border-color: mix(@jumbotron-text, @jumbotron-bg, 75%);
+    background-color: @jumbotron-bg;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    &:hover {
+      background-color: @jumbotron-text;
+      color: @jumbotron-bg;
+      text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+    }
   }
-  p {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 30px;
-    line-height: 1.3;
+  .shameless-self-promotion {
+    margin-top: @buffer-lg;
+    font-size: @font-size-base;
+    line-height: @line-height-base;
+    color: mix(@jumbotron-text, @jumbotron-bg, 40%);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    a { color: mix(@jumbotron-text, @jumbotron-bg, 70%); }
+    a:hover { color: mix(@jumbotron-text, @jumbotron-bg, 100%); }
   }
 }
