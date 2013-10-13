@@ -1,0 +1,23 @@
+// SITE SPECIFIC NAVBAR STYLES
+
+.navbar { margin-bottom: 0; }
+
+.navbar-brand {
+  font-family: @font-family-serif;
+  font-weight: 300;
+  font-size: 20px;
+  .fa-icon-flag { padding-right: 3px; }
+}
+
+.navbar-nav > li > a { padding: 12px 10px 9px; }
+
+//.navbar-nav > li > a {
+//  padding-top: 16px;
+//  padding-bottom: 14px;
+//}
+
+// makes dropdowns closer for split dropdown
+.navbar-nav > li {
+  &.dropdown-split-right > a { padding-left: 7px; }
+  &.dropdown-split-left > a { padding-right: 0; }
+}

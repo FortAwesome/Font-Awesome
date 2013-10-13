@@ -1,0 +1,86 @@
+---
+---
+// BOOTSTRAP OVERRIDES
+// -------------------
+
+// Links
+@link-color:            lighten(@red, 10%);
+@link-hover-color:      @red;
+
+// Typography
+@font-family-sans-serif:  proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       museo-slab, Georgia, "Times New Roman", Times, serif;
+@headings-font-family:    @font-family-serif;
+
+
+// Form states and alerts
+@state-warning-text:             mix(@yellow-dark, @yellow-darker, 80%);
+@state-warning-bg:               @yellow-lighter;
+@state-warning-border:           darken(spin(@state-warning-bg, -10), 7%);
+
+@state-danger-text:              @red;
+@state-danger-bg:                @red-lighter;
+@state-danger-border:            darken(spin(@state-danger-bg, -10), 4%);
+
+@state-success-text:             mix(@green-darker, @green-dark, 30%);
+@state-success-bg:               @green-lighter;
+@state-success-border:           darken(spin(@state-success-bg, -10), 13%);
+
+@state-info-text:                mix(@blue-dark, @blue, 50%);
+@state-info-bg:                  @blue-lighter;
+@state-info-border:              darken(spin(@state-info-bg, -10), 7%);
+
+// Navbar
+@navbar-height:                     40px;
+@navbar-inverse-brand-color:        #fff;
+
+
+
+// SITE VARIABLES
+// --------------
+
+// Blues
+@blue-darker:           #003366;
+@blue-dark:             #005f9b; // Kyruus Dark Blue - Pantone 3015 C
+@blue:                  #009add; // Kyruus Blue - Pantone 2925 C
+@blue-light:            #b8dcf2;
+@blue-lighter:          #f0f9ff;
+
+// Greens
+@green-darker:          #41683b;
+@green-dark:            #678943;
+@green:                 #95bf52;
+@green-light:           #ddefbd;
+@green-lighter:         #f3f9e8;
+
+// Reds
+@red-darker:            #702222;
+@red-dark:              #ba4a4a;
+@red:                   #dd7373;
+@red-light:             #f2adb1;
+@red-lighter:           #fff0f0;
+
+// Yellows
+@yellow-darker:         #6f4215;
+@yellow-dark:           #db8400;
+@yellow:                #f9e27d;
+@yellow-light:          #fff5bd;
+@yellow-lighter:        #fffcee;
+
+// Oranges
+@orange-darker:         #8c3900;
+@orange-dark:           #cc5d11;
+@orange:                #f4914e;
+@orange-light:          #ffd0a6;
+@orange-lighter:        #fff4e6;
+
+// Purples
+@purple-darker:         #4a226d;
+@purple-dark:           #7457ad;
+@purple:                #9780d6;
+@purple-light:          #c3b8f4;
+@purple-lighter:        #fbf5ff;
+
+// Reds
+@red:                   #9d261d;
+@red-dark:              darken(@red, 10%);

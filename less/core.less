@@ -1,110 +1,94 @@
 /* FONT AWESOME CORE
  * -------------------------- */
 
-[class^="icon-"],
-[class*=" icon-"] {
+.fa-icon {
   .icon-FontAwesome();
 }
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  text-decoration: inherit;
-  display: inline-block;
-  speak: none;
-}
 
 /* makes the font 33% larger relative to the icon container */
-.icon-large:before {
-  vertical-align: -10%;
-  font-size: 4/3em;
+.fa-icon-lg {
+  font-size: (4em / 3);
+  line-height: (3em / 4);
+  vertical-align: -15%;
 }
-
-/* makes sure icons active on rollover in links */
-a {
-  [class^="icon-"],
-  [class*=" icon-"] {
-    display: inline;
+/* increased font size for icon-lg */
+.fa-icon-fixed-width {
+  width: (16em / 14);
+  padding-right: (4em / 14);
+  text-align: right;
+  &.fa-icon-lg {
+    width: (20em / 14);
   }
 }
 
-/* increased font size for icon-large */
-[class^="icon-"],
-[class*=" icon-"] {
-  &.icon-fixed-width {
-    display: inline-block;
-    width: 16/14em;
-    text-align: right;
-    padding-right: 4/14em;
-    &.icon-large {
-      width: 20/14em;
-    }
-  }
-}
 
-.icons-ul {
+// Icon UL & LI
+// -------------------------
+
+.fa-icon-ul {
+  padding-left: 0;
   margin-left: @icons-li-width;
   list-style-type: none;
 
   > li { position: relative; }
-
-  .icon-li {
-    position: absolute;
-    left: -@icons-li-width;
-    width: @icons-li-width;
-    text-align: center;
-    line-height: inherit;
+}
+.fa-icon-li {
+  position: absolute;
+  left: -@icons-li-width;
+  width: @icons-li-width;
+  top: (2em / 14);
+  text-align: center;
+  &.fa-icon-lg {
+    left: -@icons-li-width + (4em / 14);
   }
 }
 
 // allows usage of the hide class directly on font awesome icons
-[class^="icon-"],
-[class*=" icon-"] {
-  &.hide {
-    display: none;
-  }
-}
+.fa-icon.hide { display: none; }
 
-.icon-muted { color: @iconMuted; }
-.icon-light { color: @iconLight; }
-.icon-dark { color: @iconDark; }
+.fa-icon-muted { color: @iconMuted; }
+.fa-icon-light { color: @iconLight; }
+.fa-icon-dark { color: @iconDark; }
+
 
 // Icon Borders
 // -------------------------
 
-.icon-border {
-  border: solid 1px @borderColor;
+.fa-icon-border {
   padding: .2em .25em .15em;
+  border: solid 1px @borderColor;
   .border-radius(3px);
 }
 
 // Icon Sizes
 // -------------------------
 
-.icon-2x {
+.fa-icon-2x {
   font-size: 2em;
-  &.icon-border {
+  &.fa-icon-border {
     border-width: 2px;
     .border-radius(4px);
   }
 }
-.icon-3x {
+.fa-icon-3x {
   font-size: 3em;
-  &.icon-border {
+  &.fa-icon-border {
     border-width: 3px;
     .border-radius(5px);
   }
 }
-.icon-4x {
+.fa-icon-4x {
   font-size: 4em;
-  &.icon-border {
+  &.fa-icon-border {
     border-width: 4px;
     .border-radius(6px);
   }
 }
 
-.icon-5x {
+.fa-icon-5x {
   font-size: 5em;
-  &.icon-border {
+  &.fa-icon-border {
     border-width: 5px;
     .border-radius(7px);
   }
@@ -118,12 +102,7 @@ a {
 .pull-right { float: right; }
 .pull-left { float: left; }
 
-[class^="icon-"],
-[class*=" icon-"] {
-  &.pull-left {
-    margin-right: .3em;
-  }
-  &.pull-right {
-    margin-left: .3em;
-  }
+.fa-icon {
+  &.pull-left { margin-right: .3em; }
+  &.pull-right { margin-left: .3em; }
 }

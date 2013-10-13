@@ -934,8 +934,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       signout
-    id:         signout
+  - name:       Log out
+    id:         log-out
     unicode:    f08b
     created:    1.0
     categories:
@@ -963,8 +963,8 @@ icons:
       - Web Application Icons
 
 
-  - name:       signin
-    id:         signin
+  - name:       Log in
+    id:         log-in
     unicode:    f090
     created:    1.0
     categories:
@@ -998,19 +998,17 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       phone
-    id:         phone
+  - name:       earphone
+    id:         earphone
     unicode:    f095
     created:    2.0
     categories:
       - Web Application Icons
 
-  - name:       check-empty
-    id:         check-empty
+  - name:       unchecked
+    id:         unchecked
     unicode:    f096
     created:    2.0
-    aliases:
-      - unchecked
     categories:
       - Web Application Icons
 
@@ -1087,7 +1085,7 @@ icons:
 
   - name:       bell
     id:         bell
-    unicode:    f0a2
+    unicode:    f0f3
     created:    2.0
     categories:
       - Web Application Icons
@@ -1241,17 +1239,15 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       paper-clip
-    id:         paper-clip
+  - name:       paperclip
+    id:         paperclip
     unicode:    f0c6
     created:    2.0
-    aliases:
-      - paperclip
     categories:
       - Text Editor Icons
 
-  - name:       save
-    id:         save
+  - name:       Floppy Disk
+    id:         floppy-disk
     unicode:    f0c7
     created:    2.0
     categories:
@@ -1355,6 +1351,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Currency Icons
 
   - name:       caret-down
     id:         caret-down
@@ -1465,8 +1462,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       bolt
-    id:         bolt
+  - name:       flash
+    id:         flash
     unicode:    f0e7
     created:    2.0
     categories:
@@ -1545,7 +1542,7 @@ icons:
 
   - name:       bell-alt
     id:         bell-alt
-    unicode:    f0f3
+    unicode:    f0a2
     created:    3.0
     categories:
       - Web Application Icons
@@ -1557,8 +1554,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       food
-    id:         food
+  - name:       cutlery
+    id:         cutlery
     unicode:    f0f5
     created:    3.0
     categories:
@@ -1706,8 +1703,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       mobile-phone
-    id:         mobile-phone
+  - name:       phone
+    id:         phone
     unicode:    f10b
     created:    3.0
     categories:
@@ -2171,15 +2168,15 @@ icons:
       - Web Application Icons
 
 
-  - name:       Collapse
-    id:         collapse
+  - name:       Collapse Down
+    id:         collapse-down
     unicode:    f150
     created:    3.2
     categories:
       - Web Application Icons
 
-  - name:       Collapse Top
-    id:         collapse-top
+  - name:       Collapse Up
+    id:         collapse-up
     unicode:    f151
     created:    3.2
     categories:
@@ -2231,16 +2228,19 @@ icons:
     unicode:    f157
     created:    3.2
     aliases:
+      - cny
+      - rmb
       - yen
     categories:
       - Currency Icons
 
-  - name:       Renminbi (CNY)
-    id:         cny
+  - name:       Russian Ruble (RUB)
+    id:         rub
     unicode:    f158
-    created:    3.2
+    created:    4.0
     aliases:
-      - renminbi
+      - ruble
+      - rouble
     categories:
       - Currency Icons
 
@@ -2378,8 +2378,8 @@ icons:
     categories:
       - Brand Icons
 
-  - name:       Stack Exchange
-    id:         stackexchange
+  - name:       Stack Overflow
+    id:         stackoverflow
     unicode:    f16c
     created:    3.2
     categories:
@@ -2586,5 +2586,13 @@ icons:
     id:         renren
     unicode:    f18b
     created:    3.2
+    categories:
+      - Brand Icons
+
+
+  - name:       Pagelines
+    id:         pagelines
+    unicode:    f18c
+    created:    4.0
     categories:
       - Brand Icons

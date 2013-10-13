@@ -137,18 +137,17 @@
 .icon-thumbs-down-alt:before { content: $thumbs-down-alt; }
 .icon-star-half:before { content: $star-half; }
 .icon-heart-empty:before { content: $heart-empty; }
-.icon-signout:before { content: $signout; }
+.icon-log-out:before { content: $log-out; }
 .icon-linkedin-sign:before { content: $linkedin-sign; }
 .icon-pushpin:before { content: $pushpin; }
 .icon-external-link:before { content: $external-link; }
-.icon-signin:before { content: $signin; }
+.icon-log-in:before { content: $log-in; }
 .icon-trophy:before { content: $trophy; }
 .icon-github-sign:before { content: $github-sign; }
 .icon-upload-alt:before { content: $upload-alt; }
 .icon-lemon:before { content: $lemon; }
-.icon-phone:before { content: $phone; }
-.icon-unchecked:before,
-.icon-check-empty:before { content: $check-empty; }
+.icon-earphone:before { content: $earphone; }
+.icon-unchecked:before { content: $unchecked; }
 .icon-bookmark-empty:before { content: $bookmark-empty; }
 .icon-phone-sign:before { content: $phone-sign; }
 .icon-twitter:before { content: $twitter; }
@@ -181,9 +180,8 @@
 .icon-beaker:before { content: $beaker; }
 .icon-cut:before { content: $cut; }
 .icon-copy:before { content: $copy; }
-.icon-paperclip:before,
-.icon-paper-clip:before { content: $paper-clip; }
-.icon-save:before { content: $save; }
+.icon-paperclip:before { content: $paperclip; }
+.icon-floppy-disk:before { content: $floppy-disk; }
 .icon-sign-blank:before { content: $sign-blank; }
 .icon-reorder:before { content: $reorder; }
 .icon-list-ul:before { content: $list-ul; }
@@ -214,7 +212,7 @@
 .icon-dashboard:before { content: $dashboard; }
 .icon-comment-alt:before { content: $comment-alt; }
 .icon-comments-alt:before { content: $comments-alt; }
-.icon-bolt:before { content: $bolt; }
+.icon-flash:before { content: $flash; }
 .icon-sitemap:before { content: $sitemap; }
 .icon-umbrella:before { content: $umbrella; }
 .icon-paste:before { content: $paste; }
@@ -227,7 +225,7 @@
 .icon-suitcase:before { content: $suitcase; }
 .icon-bell-alt:before { content: $bell-alt; }
 .icon-coffee:before { content: $coffee; }
-.icon-food:before { content: $food; }
+.icon-cutlery:before { content: $cutlery; }
 .icon-file-text-alt:before { content: $file-text-alt; }
 .icon-building:before { content: $building; }
 .icon-hospital:before { content: $hospital; }
@@ -248,7 +246,7 @@
 .icon-desktop:before { content: $desktop; }
 .icon-laptop:before { content: $laptop; }
 .icon-tablet:before { content: $tablet; }
-.icon-mobile-phone:before { content: $mobile-phone; }
+.icon-phone:before { content: $phone; }
 .icon-circle-blank:before { content: $circle-blank; }
 .icon-quote-left:before { content: $quote-left; }
 .icon-quote-right:before { content: $quote-right; }
@@ -315,8 +313,8 @@
 .icon-external-link-sign:before { content: $external-link-sign; }
 .icon-share-sign:before { content: $share-sign; }
 .icon-compass:before { content: $compass; }
-.icon-collapse:before { content: $collapse; }
-.icon-collapse-top:before { content: $collapse-top; }
+.icon-collapse-down:before { content: $collapse-down; }
+.icon-collapse-up:before { content: $collapse-up; }
 .icon-expand:before { content: $expand; }
 .icon-euro:before,
 .icon-eur:before { content: $eur; }
@@ -325,10 +323,13 @@
 .icon-usd:before { content: $usd; }
 .icon-rupee:before,
 .icon-inr:before { content: $inr; }
+.icon-cny:before,
+.icon-rmb:before,
 .icon-yen:before,
 .icon-jpy:before { content: $jpy; }
-.icon-renminbi:before,
-.icon-cny:before { content: $cny; }
+.icon-ruble:before,
+.icon-rouble:before,
+.icon-rub:before { content: $rub; }
 .icon-won:before,
 .icon-krw:before { content: $krw; }
 .icon-bitcoin:before,
@@ -349,7 +350,7 @@
 .icon-xing-sign:before { content: $xing-sign; }
 .icon-youtube-play:before { content: $youtube-play; }
 .icon-dropbox:before { content: $dropbox; }
-.icon-stackexchange:before { content: $stackexchange; }
+.icon-stackoverflow:before { content: $stackoverflow; }
 .icon-instagram:before { content: $instagram; }
 .icon-flickr:before { content: $flickr; }
 .icon-adn:before { content: $adn; }
@@ -379,3 +380,4 @@
 .icon-vk:before { content: $vk; }
 .icon-weibo:before { content: $weibo; }
 .icon-renren:before { content: $renren; }
+.icon-pagelines:before { content: $pagelines; }

@@ -1,0 +1,37 @@
+#icon-carousel {
+  a { color: #fff; }
+  @size: 220px;
+  font-size: @size;
+  text-align: center;
+  line-height: @size + 5;
+  text-shadow: 2px 2px 2px @red-dark;
+  .carousel-control {
+    top: @size + 23px;
+    .square(30px);
+    background: none;
+    border-width: 0;
+    font-size: 30px;
+    line-height: 25px;
+    left: 300/2 - 38px;
+    &.right {
+      left: auto;
+      right: 300/2 - 38px;
+    }
+  }
+}
+
+.jumbotron-carousel {
+  padding: 40px 0;
+  h1 {
+    font-size: 80px;
+    letter-spacing: -2px;
+    line-height: 1;
+    margin: 0 0 15px;
+  }
+  p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 1.3;
+  }
+}

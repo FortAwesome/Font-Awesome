@@ -2,7 +2,7 @@
 // --------------------------
 
 $FontAwesomePath: "../font" !default;
-$FontAwesomeVersion: "3.2.1" !default;
+$FontAwesomeVersion: "4.0.0" !default;
 $borderColor: #eeeeee !default;
 $iconMuted: #eeeeee !default;
 $iconLight: white !default;
@@ -272,7 +272,7 @@ $star-half: "\f089";
 
 $heart-empty: "\f08a";
 
-$signout: "\f08b";
+$log-out: "\f08b";
 
 $linkedin-sign: "\f08c";
 
@@ -280,7 +280,7 @@ $pushpin: "\f08d";
 
 $external-link: "\f08e";
 
-$signin: "\f090";
+$log-in: "\f090";
 
 $trophy: "\f091";
 
@@ -290,9 +290,9 @@ $upload-alt: "\f093";
 
 $lemon: "\f094";
 
-$phone: "\f095";
+$earphone: "\f095";
 
-$check-empty: "\f096";
+$unchecked: "\f096";
 
 $bookmark-empty: "\f097";
 
@@ -314,7 +314,7 @@ $hdd: "\f0a0";
 
 $bullhorn: "\f0a1";
 
-$bell: "\f0a2";
+$bell: "\f0f3";
 
 $certificate: "\f0a3";
 
@@ -358,9 +358,9 @@ $cut: "\f0c4";
 
 $copy: "\f0c5";
 
-$paper-clip: "\f0c6";
+$paperclip: "\f0c6";
 
-$save: "\f0c7";
+$floppy-disk: "\f0c7";
 
 $sign-blank: "\f0c8";
 
@@ -420,7 +420,7 @@ $comment-alt: "\f0e5";
 
 $comments-alt: "\f0e6";
 
-$bolt: "\f0e7";
+$flash: "\f0e7";
 
 $sitemap: "\f0e8";
 
@@ -442,11 +442,11 @@ $stethoscope: "\f0f1";
 
 $suitcase: "\f0f2";
 
-$bell-alt: "\f0f3";
+$bell-alt: "\f0a2";
 
 $coffee: "\f0f4";
 
-$food: "\f0f5";
+$cutlery: "\f0f5";
 
 $file-text-alt: "\f0f6";
 
@@ -488,7 +488,7 @@ $laptop: "\f109";
 
 $tablet: "\f10a";
 
-$mobile-phone: "\f10b";
+$phone: "\f10b";
 
 $circle-blank: "\f10c";
 
@@ -618,9 +618,9 @@ $share-sign: "\f14d";
 
 $compass: "\f14e";
 
-$collapse: "\f150";
+$collapse-down: "\f150";
 
-$collapse-top: "\f151";
+$collapse-up: "\f151";
 
 $expand: "\f152";
 
@@ -634,7 +634,7 @@ $inr: "\f156";
 
 $jpy: "\f157";
 
-$cny: "\f158";
+$rub: "\f158";
 
 $krw: "\f159";
 
@@ -672,7 +672,7 @@ $youtube-play: "\f16a";
 
 $dropbox: "\f16b";
 
-$stackexchange: "\f16c";
+$stackoverflow: "\f16c";
 
 $instagram: "\f16d";
 
@@ -731,4 +731,6 @@ $vk: "\f189";
 $weibo: "\f18a";
 
 $renren: "\f18b";
+
+$pagelines: "\f18c";
 

@@ -1,11 +1,11 @@
 <section id="medical">
   <h2 class="page-header">Medical Icons</h2>
 
-  <div class="row the-icons">
+  <div class="row fontawesome-icon-list">
     {% assign icons_medical = icons | expand_aliases | category:"Medical Icons" | sort_by:'class' %}
 
     {% for icon in icons_medical %}
-      <div class="span3"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="icon-{{ icon.class }}"></i> icon-{{ icon.class }}{% if icon.alias_of %} <span class="muted">(alias)</span>{% endif %}</a></div>
+      <div class="col-md-3 col-sm-4"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="fa-icon fa-icon-{{ icon.class }}"></i> {{ site.fontawesome.css_prefix }}-{{ icon.class }}{% if icon.alias_of %} <span class="muted">(alias)</span>{% endif %}</a></div>
     {% endfor %}
   </div>
 

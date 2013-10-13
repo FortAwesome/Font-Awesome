@@ -1,0 +1,51 @@
+<div class="jumbotron jumbotron-carousel hidden-print">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-8 text-center">
+        <h1>Font Awesome</h1>
+        <p>The iconic font designed for Bootstrap</p>
+        <div class="actions">
+          <a class="btn btn-default btn-large" href="{{ page.relative_path }}assets/font-awesome.zip"
+             onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
+            <i class="fa-icon fa-icon-download-alt fa-icon-lg"></i>&nbsp;&nbsp;
+            Download
+          </a>
+        </div>
+        <div class="shameless-self-promotion">
+          <a href="{{ site.fontawesome.github.url }}"
+             onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'View Project on GitHub']);">
+            GitHub Project</a> &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+          Version {{ site.fontawesome.version }} &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+          Created &amp; Maintained by <a href="http://twitter.com/{{ site.fontawesome.author.twitter }}">Dave Gandy</a>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <div id="icon-carousel" class="carousel slide">
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="active item"><div><i class="fa-icon fa-icon-flag"></i></div></div>
+            <div class="item"><div><i class="fa-icon fa-icon-compass"></i></div></div>
+            <div class="item"><div><i class="fa-icon fa-icon-rocket"></i></div></div>
+            <div class="item"><div><i class="fa-icon fa-icon-shield"></i></div></div>
+            <div class="item"><div><i class="fa-icon fa-icon-star-half-empty"></i></div></div>
+            <div class="item"><div><i class="fa-icon fa-icon-envelope-alt"></i></div></div>
+            <div class="item"><div><i class="fa-icon fa-icon-medkit"></i></div></div>
+            <div class="item"><div><i class="fa-icon fa-icon-book"></i></div></div>
+            <div class="item"><div><i class="fa-icon fa-icon-fighter-jet"></i></div></div>
+            <div class="item"><div><i class="fa-icon fa-icon-beer"></i></div></div>
+            <div class="item"><div><i class="fa-icon fa-icon-heart-empty"></i></div></div>
+            <div class="item"><div><i class="fa-icon fa-icon-thumbs-up-alt"></i></div></div>
+          </div>
+          <!-- Carousel nav -->
+          <a class="carousel-control left" href="#icon-carousel" data-slide="prev"
+             onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Prev']);">
+            <i class="fa-icon fa-icon-circle-arrow-left"></i></a>
+          <a class="carousel-control right" href="#icon-carousel" data-slide="next"
+             onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Next']);">
+            <i class="fa-icon fa-icon-circle-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

@@ -7,12 +7,21 @@
 }
 
 .icon-FontAwesome() {
+//  position: relative;
+//  top: 0;
+  display: inline-block;
   font-family: FontAwesome;
-  font-weight: normal;
   font-style: normal;
-  text-decoration: inherit;
+  font-weight: normal;
+  line-height: 1;
   -webkit-font-smoothing: antialiased;
-  *margin-right: .3em; // fixes ie7 issues
+  -moz-osx-font-smoothing: grayscale;
+
+  // from bootstrap, throws off rendering
+//  &:empty { width: 1em; }
+
+//  text-decoration: inherit;
+//  text-rendering: auto;
 }
 
 .border-radius(@radius) {
@@ -21,28 +30,44 @@
   border-radius: @radius;
 }
 
+.rotate(@degrees, @rotation) {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@rotation);
+  -webkit-transform: rotate(@degrees);
+     -moz-transform: rotate(@degrees);
+      -ms-transform: rotate(@degrees);
+       -o-transform: rotate(@degrees);
+          transform: rotate(@degrees);
+}
+
+.flip(@horiz, @vert) {
+  -webkit-transform: scale(@horiz, @vert);
+     -moz-transform: scale(@horiz, @vert);
+      -ms-transform: scale(@horiz, @vert);
+       -o-transform: scale(@horiz, @vert);
+          transform: scale(@horiz, @vert);
+}
+
 .icon-stack(@width: 2em, @height: 2em, @top-font-size: 1em, @base-font-size: 2em) {
-  .icon-stack {
+  .fa-icon-stack {
     position: relative;
     display: inline-block;
     width: @width;
     height: @height;
     line-height: @width;
     vertical-align: -35%;
-    [class^="icon-"],
-    [class*=" icon-"] {
-      display: block;
-      text-align: center;
+    .fa-icon {
       position: absolute;
+      display: block;
       width: 100%;
       height: 100%;
       font-size: @top-font-size;
       line-height: inherit;
       *line-height: @height;
+      text-align: center;
     }
-    .icon-stack-base {
+    .fa-icon-stack-base {
       font-size: @base-font-size;
-      *line-height: @height / @base-font-size;
+      *line-height: (@height / @base-font-size);
     }
   }
 }
