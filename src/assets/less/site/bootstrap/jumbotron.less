@@ -1,29 +1,11 @@
 .jumbotron {
-  background-color: lighten(@jumbotron-bg, 1.5%);
+  background-color: @jumbotron-bg;
 //  #gradient > .directional(@jumbotron-bg, mix(@jumbotron-bg, @jumbotron-bg-dark, 0%), -40deg);
   border-top: 1px solid mix(@jumbotron-bg, @jumbotron-text, 90%);
   border-bottom: 1px solid @jumbotron-border;
   margin-bottom: 0;
   &, h1 { color: @jumbotron-text; }
   padding: 50px 0 40px;
-  position: relative;
-
-  &:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: url(../img/grain-tm400.png);
-//    background-size: 600px 600px;
-    opacity: .15;
-  }
-  .container {
-    position: relative;
-    z-index: 2;
-  }
 
   h1 {
     font-size: 80px;
