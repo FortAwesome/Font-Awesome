@@ -22,7 +22,7 @@ $heart: "\f004";
 
 $star: "\f005";
 
-$star-empty: "\f006";
+$star-alt: "\f006";
 
 $user: "\f007";
 
@@ -34,15 +34,15 @@ $th: "\f00a";
 
 $th-list: "\f00b";
 
-$ok: "\f00c";
+$check: "\f00c";
 
-$remove: "\f00d";
+$times: "\f00d";
 
 $zoom-in: "\f00e";
 
 $zoom-out: "\f010";
 
-$off: "\f011";
+$power-off: "\f011";
 
 $signal: "\f012";
 
@@ -58,15 +58,15 @@ $time: "\f017";
 
 $road: "\f018";
 
-$download-alt: "\f019";
+$download: "\f019";
 
-$download: "\f01a";
+$arrow-down-circle-alt: "\f01a";
 
-$upload: "\f01b";
+$arrow-up-circle-alt: "\f01b";
 
 $inbox: "\f01c";
 
-$play-circle: "\f01d";
+$play-circle-alt: "\f01d";
 
 $repeat: "\f01e";
 
@@ -126,7 +126,7 @@ $indent-left: "\f03b";
 
 $indent-right: "\f03c";
 
-$facetime-video: "\f03d";
+$video-camera: "\f03d";
 
 $picture: "\f03e";
 
@@ -138,11 +138,11 @@ $adjust: "\f042";
 
 $tint: "\f043";
 
-$edit: "\f044";
+$pencil-square-alt: "\f044";
 
-$share: "\f045";
+$share-square-alt: "\f045";
 
-$check: "\f046";
+$check-square-alt: "\f046";
 
 $move: "\f047";
 
@@ -170,25 +170,25 @@ $chevron-left: "\f053";
 
 $chevron-right: "\f054";
 
-$plus-sign: "\f055";
+$plus-circle: "\f055";
 
-$minus-sign: "\f056";
+$minus-circle: "\f056";
 
-$remove-sign: "\f057";
+$times-circle: "\f057";
 
-$ok-sign: "\f058";
+$check-circle: "\f058";
 
-$question-sign: "\f059";
+$question-circle: "\f059";
 
-$info-sign: "\f05a";
+$info-circle: "\f05a";
 
 $screenshot: "\f05b";
 
-$remove-circle: "\f05c";
+$times-circle-alt: "\f05c";
 
-$ok-circle: "\f05d";
+$check-circle-alt: "\f05d";
 
-$ban-circle: "\f05e";
+$ban: "\f05e";
 
 $arrow-left: "\f060";
 
@@ -198,7 +198,7 @@ $arrow-up: "\f062";
 
 $arrow-down: "\f063";
 
-$share-alt: "\f064";
+$share: "\f064";
 
 $resize-full: "\f065";
 
@@ -210,7 +210,7 @@ $minus: "\f068";
 
 $asterisk: "\f069";
 
-$exclamation-sign: "\f06a";
+$exclamation-circle: "\f06a";
 
 $gift: "\f06b";
 
@@ -218,11 +218,11 @@ $leaf: "\f06c";
 
 $fire: "\f06d";
 
-$eye-open: "\f06e";
+$eye: "\f06e";
 
-$eye-close: "\f070";
+$eye-closed: "\f070";
 
-$warning-sign: "\f071";
+$exclamation-triangle: "\f071";
 
 $plane: "\f072";
 
@@ -242,7 +242,7 @@ $retweet: "\f079";
 
 $shopping-cart: "\f07a";
 
-$folder-close: "\f07b";
+$folder: "\f07b";
 
 $folder-open: "\f07c";
 
@@ -252,9 +252,9 @@ $resize-horizontal: "\f07e";
 
 $bar-chart: "\f080";
 
-$twitter-sign: "\f081";
+$twitter-square: "\f081";
 
-$facebook-sign: "\f082";
+$facebook-square: "\f082";
 
 $camera-retro: "\f083";
 
@@ -270,33 +270,33 @@ $thumbs-down-alt: "\f088";
 
 $star-half: "\f089";
 
-$heart-empty: "\f08a";
+$heart-alt: "\f08a";
 
-$log-out: "\f08b";
+$sign-out: "\f08b";
 
-$linkedin-sign: "\f08c";
+$linkedin-square: "\f08c";
 
-$pushpin: "\f08d";
+$thumb-tack: "\f08d";
 
 $external-link: "\f08e";
 
-$log-in: "\f090";
+$sign-in: "\f090";
 
 $trophy: "\f091";
 
-$github-sign: "\f092";
+$github-square: "\f092";
 
-$upload-alt: "\f093";
+$upload: "\f093";
 
-$lemon: "\f094";
+$lemon-alt: "\f094";
 
-$earphone: "\f095";
+$phone: "\f095";
 
-$unchecked: "\f096";
+$square-alt: "\f096";
 
-$bookmark-empty: "\f097";
+$bookmark-alt: "\f097";
 
-$phone-sign: "\f098";
+$phone-square: "\f098";
 
 $twitter: "\f099";
 
@@ -326,13 +326,13 @@ $hand-up: "\f0a6";
 
 $hand-down: "\f0a7";
 
-$circle-arrow-left: "\f0a8";
+$arrow-circle-left: "\f0a8";
 
-$circle-arrow-right: "\f0a9";
+$arrow-circle-right: "\f0a9";
 
-$circle-arrow-up: "\f0aa";
+$arrow-circle-up: "\f0aa";
 
-$circle-arrow-down: "\f0ab";
+$arrow-circle-down: "\f0ab";
 
 $globe: "\f0ac";
 
@@ -352,17 +352,17 @@ $link: "\f0c1";
 
 $cloud: "\f0c2";
 
-$beaker: "\f0c3";
+$flask: "\f0c3";
 
-$cut: "\f0c4";
+$scissors: "\f0c4";
 
-$copy: "\f0c5";
+$files: "\f0c5";
 
 $paperclip: "\f0c6";
 
-$floppy-disk: "\f0c7";
+$floppy: "\f0c7";
 
-$sign-blank: "\f0c8";
+$square: "\f0c8";
 
 $reorder: "\f0c9";
 
@@ -382,9 +382,9 @@ $truck: "\f0d1";
 
 $pinterest: "\f0d2";
 
-$pinterest-sign: "\f0d3";
+$pinterest-square: "\f0d3";
 
-$google-plus-sign: "\f0d4";
+$google-plus-square: "\f0d4";
 
 $google-plus: "\f0d5";
 
@@ -412,21 +412,21 @@ $linkedin: "\f0e1";
 
 $undo: "\f0e2";
 
-$legal: "\f0e3";
+$gavel: "\f0e3";
 
-$dashboard: "\f0e4";
+$tachometer: "\f0e4";
 
 $comment-alt: "\f0e5";
 
 $comments-alt: "\f0e6";
 
-$flash: "\f0e7";
+$bolt: "\f0e7";
 
 $sitemap: "\f0e8";
 
 $umbrella: "\f0e9";
 
-$paste: "\f0ea";
+$clipboard: "\f0ea";
 
 $lightbulb: "\f0eb";
 
@@ -462,9 +462,9 @@ $fighter-jet: "\f0fb";
 
 $beer: "\f0fc";
 
-$h-sign: "\f0fd";
+$h-square: "\f0fd";
 
-$plus-sign-alt: "\f0fe";
+$plus-square: "\f0fe";
 
 $double-angle-left: "\f100";
 
@@ -488,9 +488,9 @@ $laptop: "\f109";
 
 $tablet: "\f10a";
 
-$phone: "\f10b";
+$mobile: "\f10b";
 
-$circle-blank: "\f10c";
+$circle-alt: "\f10c";
 
 $quote-left: "\f10d";
 
@@ -504,7 +504,7 @@ $reply: "\f112";
 
 $github-alt: "\f113";
 
-$folder-close-alt: "\f114";
+$folder-alt: "\f114";
 
 $folder-open-alt: "\f115";
 
@@ -542,7 +542,7 @@ $crop: "\f125";
 
 $code-fork: "\f126";
 
-$unlink: "\f127";
+$chain-broken: "\f127";
 
 $question: "\f128";
 
@@ -564,7 +564,7 @@ $microphone-off: "\f131";
 
 $shield: "\f132";
 
-$calendar-empty: "\f133";
+$calendar-alt: "\f133";
 
 $fire-extinguisher: "\f134";
 
@@ -572,13 +572,13 @@ $rocket: "\f135";
 
 $maxcdn: "\f136";
 
-$chevron-sign-left: "\f137";
+$chevron-circle-left: "\f137";
 
-$chevron-sign-right: "\f138";
+$chevron-circle-right: "\f138";
 
-$chevron-sign-up: "\f139";
+$chevron-circle-up: "\f139";
 
-$chevron-sign-down: "\f13a";
+$chevron-circle-down: "\f13a";
 
 $html5: "\f13b";
 
@@ -594,27 +594,27 @@ $ellipsis-horizontal: "\f141";
 
 $ellipsis-vertical: "\f142";
 
-$rss-sign: "\f143";
+$rss-square: "\f143";
 
-$play-sign: "\f144";
+$play-circle: "\f144";
 
 $ticket: "\f145";
 
-$minus-sign-alt: "\f146";
+$minus-square: "\f146";
 
-$check-minus: "\f147";
+$minus-square-alt: "\f147";
 
 $level-up: "\f148";
 
 $level-down: "\f149";
 
-$check-sign: "\f14a";
+$check-square: "\f14a";
 
-$edit-sign: "\f14b";
+$pencil-square: "\f14b";
 
-$external-link-sign: "\f14c";
+$external-link-square: "\f14c";
 
-$share-sign: "\f14d";
+$share-square: "\f14d";
 
 $compass: "\f14e";
 
@@ -682,11 +682,11 @@ $adn: "\f170";
 
 $bitbucket: "\f171";
 
-$bitbucket-sign: "\f172";
+$bitbucket-square: "\f172";
 
 $tumblr: "\f173";
 
-$tumblr-sign: "\f174";
+$tumblr-square: "\f174";
 
 $long-arrow-down: "\f175";
 
