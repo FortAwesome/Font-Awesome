@@ -1,34 +1,26 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
+<html lang="en">
 <head>
   <!-- Basic Page Needs
  ================================================== -->
   <meta charset="utf-8" />
-  <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Font Awesome, the iconic font designed for Bootstrap">
   <meta name="author" content="Dave Gandy">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--<meta name="viewport" content="initial-scale=1; maximum-scale=1">-->
+  <link rel="shortcut icon" href="{{ page.relative_path }}assets/ico/favicon.ico">
 
-  <!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <title>{% if page.title %}{{ page.title }}{% endif %}</title>
 
   <!-- CSS
- ================================================== -->
-
+  ================================================== -->
   <link rel="stylesheet" href="{{ page.relative_path }}assets/css/site.css">
   <link rel="stylesheet" href="{{ page.relative_path }}assets/css/pygments.css">
   <link rel="stylesheet" href="{{ page.relative_path }}assets/font-awesome/css/font-awesome.css">
-  <!--[if IE 7]>
-  <link rel="stylesheet" href="{{ page.relative_path }}assets/font-awesome/css/font-awesome-ie7.css">
+
+  <!--[if lt IE 9]>
+    <script src="{{ page.relative_path }}assets/js/html5shiv.js"></script>
+    <script src="{{ page.relative_path }}assets/js/respond.min.js"></script>
   <![endif]-->
-  <!-- Le fav and touch icons -->
-  <link rel="shortcut icon" href="{{ page.relative_path }}assets/ico/favicon.ico">
 
   <script type="text/javascript" src="//use.typekit.net/wnc7ioh.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
