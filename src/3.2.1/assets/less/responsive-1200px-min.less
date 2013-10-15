@@ -1,0 +1,56 @@
+//
+// Responsive: Large desktop and up
+// --------------------------------------------------
+
+
+@media (min-width: 1200px) {
+
+  #iconCarousel {
+    @size: 290px;
+    font-size: @size;
+    line-height: @size + 5;
+    .carousel-control {
+      top: @size + 20px;
+      .square(30px);
+      font-size: 40px;
+      line-height: 35px;
+      left: 370/2 - 40px;
+      &.right {
+        right: 370/2 - 40px;
+      }
+    }
+  }
+
+  .jumbotron-index {
+    padding: 50px 0;
+    h1 { font-size: 100px; }
+    p {
+      font-size: 40px;
+      margin: 20px 0;
+    }
+    .btn-large {
+      font-size: 30px;
+      padding: 21px 35px;
+    }
+    .shameless-self-promotion {
+      margin-top: 30px;
+    }
+  }
+
+  .jumbotron-ad {
+    padding: 50px 0;
+    h1 { font-size: 90px; }
+    p {
+      font-size: 35px;
+      margin: 20px 0;
+    }
+  }
+
+  .stripe-ad .lead { margin-top: 7px; }
+
+  .lead {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+}
