@@ -1,36 +1,7 @@
 // Mixins
 // --------------------------
 
-.icon(@icon) {
-  .icon-FontAwesome();
-  content: @icon;
-}
-
-.icon-FontAwesome() {
-//  position: relative;
-//  top: 0;
-  display: inline-block;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  // from bootstrap, throws off rendering
-//  &:empty { width: 1em; }
-
-//  text-decoration: inherit;
-//  text-rendering: auto;
-}
-
-.border-radius(@radius) {
-  -webkit-border-radius: @radius;
-  -moz-border-radius: @radius;
-  border-radius: @radius;
-}
-
-.rotate(@degrees, @rotation) {
+.fa-icon-rotate(@degrees, @rotation) {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@rotation);
   -webkit-transform: rotate(@degrees);
      -moz-transform: rotate(@degrees);
@@ -39,7 +10,7 @@
           transform: rotate(@degrees);
 }
 
-.flip(@horiz, @vert) {
+.fa-icon-flip(@horiz, @vert) {
   -webkit-transform: scale(@horiz, @vert);
      -moz-transform: scale(@horiz, @vert);
       -ms-transform: scale(@horiz, @vert);
@@ -47,7 +18,7 @@
           transform: scale(@horiz, @vert);
 }
 
-.icon-stack(@width: 2em, @height: 2em, @top-font-size: 1em, @base-font-size: 2em) {
+.fa-icon-stack(@width: 2em, @height: 2em, @top-font-size: 1em, @base-font-size: 2em) {
   .fa-icon-stack {
     position: relative;
     display: inline-block;

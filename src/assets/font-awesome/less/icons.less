@@ -4,4 +4,4 @@
    readers do not read off random characters that represent icons */
 {% for icon in icons %}{% for alias in icon.aliases %}
 .{{ site.fontawesome.css_prefix }}-{{ alias }}:before,{% endfor %}
-.{{ site.fontawesome.css_prefix }}-{{ icon.id }}:before { content: @{{ icon.id }}; }{% endfor %}
+.{{ site.fontawesome.css_prefix }}-{{ icon.id }}:before { content: @{{ site.fontawesome.css_prefix }}-{{ icon.id }}; }{% endfor %}

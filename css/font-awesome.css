@@ -90,8 +90,6 @@
 .fa-icon-border {
   padding: .2em .25em .15em;
   border: solid 1px #eeeeee;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
 }
 .fa-icon-2x {
@@ -99,8 +97,6 @@
 }
 .fa-icon-2x.fa-icon-border {
   border-width: 2px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
   border-radius: 4px;
 }
 .fa-icon-3x {
@@ -108,8 +104,6 @@
 }
 .fa-icon-3x.fa-icon-border {
   border-width: 3px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
 }
 .fa-icon-4x {
@@ -117,8 +111,6 @@
 }
 .fa-icon-4x.fa-icon-border {
   border-width: 4px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
   border-radius: 6px;
 }
 .fa-icon-5x {
@@ -126,8 +118,6 @@
 }
 .fa-icon-5x.fa-icon-border {
   border-width: 5px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
   border-radius: 7px;
 }
 .pull-right {
@@ -851,13 +841,16 @@
 .fa-icon-columns:before {
   content: "\f0db";
 }
+.fa-icon-unsorted:before,
 .fa-icon-sort:before {
   content: "\f0dc";
 }
-.fa-icon-sort-down:before {
+.fa-icon-sort-down:before,
+.fa-icon-sort-asc:before {
   content: "\f0dd";
 }
-.fa-icon-sort-up:before {
+.fa-icon-sort-up:before,
+.fa-icon-sort-desc:before {
   content: "\f0de";
 }
 .fa-icon-envelope:before {
@@ -1059,8 +1052,9 @@
 .fa-icon-mail-reply-all:before {
   content: "\f122";
 }
+.fa-icon-star-half-empty:before,
 .fa-icon-star-half-full:before,
-.fa-icon-star-half-empty:before {
+.fa-icon-star-half-alt:before {
   content: "\f123";
 }
 .fa-icon-location-arrow:before {
@@ -1236,22 +1230,22 @@
 .fa-icon-file-text:before {
   content: "\f15c";
 }
-.fa-icon-sort-by-alphabet:before {
+.fa-icon-sort-alpha-asc:before {
   content: "\f15d";
 }
-.fa-icon-sort-by-alphabet-alt:before {
+.fa-icon-sort-alpha-desc:before {
   content: "\f15e";
 }
-.fa-icon-sort-by-attributes:before {
+.fa-icon-sort-amount-asc:before {
   content: "\f160";
 }
-.fa-icon-sort-by-attributes-alt:before {
+.fa-icon-sort-amount-desc:before {
   content: "\f161";
 }
-.fa-icon-sort-by-order:before {
+.fa-icon-sort-numeric-asc:before {
   content: "\f162";
 }
-.fa-icon-sort-by-order-alt:before {
+.fa-icon-sort-numeric-desc:before {
   content: "\f163";
 }
 .fa-icon-thumbs-up:before {

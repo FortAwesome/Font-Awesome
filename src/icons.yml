@@ -1406,20 +1406,26 @@ icons:
     id:         sort
     unicode:    f0dc
     created:    2.0
+    aliases:
+      - unsorted
     categories:
       - Web Application Icons
 
-  - name:       Sort Down
-    id:         sort-down
+  - name:       Sort Ascending
+    id:         sort-asc
     unicode:    f0dd
     created:    2.0
+    aliases:
+      - sort-down
     categories:
       - Web Application Icons
 
-  - name:       Sort Up
-    id:         sort-up
+  - name:       Sort Descending
+    id:         sort-desc
     unicode:    f0de
     created:    2.0
+    aliases:
+      - sort-up
     categories:
       - Web Application Icons
 
@@ -1892,11 +1898,12 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       star-half-empty
-    id:         star-half-empty
+  - name:       Star Half Alt
+    id:         star-half-alt
     unicode:    f123
     created:    3.1
     aliases:
+      - star-half-empty
       - star-half-full
     categories:
       - Web Application Icons
@@ -2303,44 +2310,44 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       Sort By Alphabet
-    id:         sort-by-alphabet
+  - name:       Sort Alpha Ascending
+    id:         sort-alpha-asc
     unicode:    f15d
     created:    3.2
     categories:
       - Web Application Icons
 
-  - name:       Sort By Alphabet Alt
-    id:         sort-by-alphabet-alt
+  - name:       Sort Alpha Descending
+    id:         sort-alpha-desc
     unicode:    f15e
     created:    3.2
     categories:
       - Web Application Icons
 
 
-  - name:       Sort By Attributes
-    id:         sort-by-attributes
+  - name:       Sort Amount Ascending
+    id:         sort-amount-asc
     unicode:    f160
     created:    3.2
     categories:
       - Web Application Icons
 
-  - name:       Sort By Attributes Alt
-    id:         sort-by-attributes-alt
+  - name:       Sort Amount Descending
+    id:         sort-amount-desc
     unicode:    f161
     created:    3.2
     categories:
       - Web Application Icons
 
-  - name:       Sort By Order
-    id:         sort-by-order
+  - name:       Sort Numeric Ascending
+    id:         sort-numeric-asc
     unicode:    f162
     created:    3.2
     categories:
       - Web Application Icons
 
-  - name:       Sort By Order Alt
-    id:         sort-by-order-alt
+  - name:       Sort Numeric Descending
+    id:         sort-numeric-desc
     unicode:    f163
     created:    3.2
     categories:
