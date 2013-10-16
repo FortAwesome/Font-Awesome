@@ -3,13 +3,11 @@
   .col-md-3 {
     a {
       display: block;
-      &, &:hover { color: @gray-darker; }
-
-      cursor: pointer;
+      color: @gray-darker;
       line-height: 32px;
       height: 32px;
       padding-left: 10px;
-      border-radius: 6px;
+      border-radius: @border-radius-base;
 
       .fa-icon {
         width: 32px;
@@ -20,16 +18,12 @@
       }
 
       &:hover {
-        background-color: mix(@jumbotron-bg, #fff, 12%);
+        background-color: @jumbotron-bg;
+        color: @jumbotron-text;
         text-decoration: none;
         .fa-icon {
-          *font-size: 28px;
-          *vertical-align: middle;
-        }
-
-        .fa-icon:before {
           font-size: 28px;
-          vertical-align: -5px;
+          vertical-align: -6px;
         }
       }
     }
