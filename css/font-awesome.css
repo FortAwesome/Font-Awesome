@@ -330,10 +330,10 @@
 .fa-icon-download:before {
   content: "\f019";
 }
-.fa-icon-arrow-down-circle-alt:before {
+.fa-icon-arrow-circle-alt-down:before {
   content: "\f01a";
 }
-.fa-icon-arrow-up-circle-alt:before {
+.fa-icon-arrow-circle-alt-up:before {
   content: "\f01b";
 }
 .fa-icon-inbox:before {
@@ -869,6 +869,7 @@
 .fa-icon-undo:before {
   content: "\f0e2";
 }
+.fa-icon-legal:before,
 .fa-icon-gavel:before {
   content: "\f0e3";
 }

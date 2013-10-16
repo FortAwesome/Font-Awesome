@@ -177,15 +177,15 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Arrow Down Circle Alt
-    id:         arrow-down-circle-alt
+  - name:       Arrow Circle Alt Down
+    id:         arrow-circle-alt-down
     unicode:    f01a
     created:    1.0
     categories:
       - Web Application Icons
 
-  - name:       Arrow Up Circle Alt
-    id:         arrow-up-circle-alt
+  - name:       Arrow Circle Alt Up
+    id:         arrow-circle-alt-up
     unicode:    f01b
     created:    1.0
     categories:
@@ -1450,6 +1450,8 @@ icons:
     id:         gavel
     unicode:    f0e3
     created:    2.0
+    aliases:
+      - legal
     categories:
       - Web Application Icons
 

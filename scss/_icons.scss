@@ -27,8 +27,8 @@
 .icon-time:before { content: $time; }
 .icon-road:before { content: $road; }
 .icon-download:before { content: $download; }
-.icon-arrow-down-circle-alt:before { content: $arrow-down-circle-alt; }
-.icon-arrow-up-circle-alt:before { content: $arrow-up-circle-alt; }
+.icon-arrow-circle-alt-down:before { content: $arrow-circle-alt-down; }
+.icon-arrow-circle-alt-up:before { content: $arrow-circle-alt-up; }
 .icon-inbox:before { content: $inbox; }
 .icon-play-circle-alt:before { content: $play-circle-alt; }
 .icon-rotate-right:before,
@@ -214,6 +214,7 @@
 .icon-linkedin:before { content: $linkedin; }
 .icon-rotate-left:before,
 .icon-undo:before { content: $undo; }
+.icon-legal:before,
 .icon-gavel:before { content: $gavel; }
 .icon-dashboard:before,
 .icon-tachometer:before { content: $tachometer; }
