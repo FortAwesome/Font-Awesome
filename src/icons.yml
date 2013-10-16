@@ -398,15 +398,17 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       indent-left
-    id:         indent-left
+  - name:       Outdent
+    id:         outdent
     unicode:    f03b
     created:    1.0
+    aliases:
+      - dedent
     categories:
       - Text Editor Icons
 
-  - name:       indent-right
-    id:         indent-right
+  - name:       Indent
+    id:         indent
     unicode:    f03c
     created:    1.0
     categories:

@@ -59,8 +59,9 @@
 .icon-align-right:before { content: $align-right; }
 .icon-align-justify:before { content: $align-justify; }
 .icon-list:before { content: $list; }
-.icon-indent-left:before { content: $indent-left; }
-.icon-indent-right:before { content: $indent-right; }
+.icon-dedent:before,
+.icon-outdent:before { content: $outdent; }
+.icon-indent:before { content: $indent; }
 .icon-video-camera:before { content: $video-camera; }
 .icon-picture:before { content: $picture; }
 .icon-pencil:before { content: $pencil; }

@@ -424,10 +424,11 @@
 .fa-icon-list:before {
   content: "\f03a";
 }
-.fa-icon-indent-left:before {
+.fa-icon-dedent:before,
+.fa-icon-outdent:before {
   content: "\f03b";
 }
-.fa-icon-indent-right:before {
+.fa-icon-indent:before {
   content: "\f03c";
 }
 .fa-icon-video-camera:before {

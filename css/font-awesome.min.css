@@ -80,8 +80,8 @@
 .fa-icon-align-right:before{content:"\f038";}
 .fa-icon-align-justify:before{content:"\f039";}
 .fa-icon-list:before{content:"\f03a";}
-.fa-icon-indent-left:before{content:"\f03b";}
-.fa-icon-indent-right:before{content:"\f03c";}
+.fa-icon-dedent:before,.fa-icon-outdent:before{content:"\f03b";}
+.fa-icon-indent:before{content:"\f03c";}
 .fa-icon-video-camera:before{content:"\f03d";}
 .fa-icon-picture:before{content:"\f03e";}
 .fa-icon-pencil:before{content:"\f040";}
