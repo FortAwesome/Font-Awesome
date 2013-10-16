@@ -2,28 +2,24 @@
 <p class="lead">
   Setting up Font Awesome can be as simple as adding two lines of code to your website, or you can be a pro and
   customize the LESS yourself! Font Awesome even plays nicely with
-  <a href="{{ site.bootstrap.url }}">Bootstrap</a>!
+  <a href="{{ site.bootstrap.url }}">Bootstrap 3</a>!
 </p>
 {% endcapture %}
 {% include stripe-ad.html %}
 
 <div id="bootstrapcdn">
   <h2 class="page-header">EASIEST: <a href="http://www.bootstrapcdn.com/#tab_fontawesome">BootstrapCDN</a></h2>
-  <p>Add Font Awesome + Bootstrap into your website with two lines of code. You don't even have to download or install anything!</p>
+  <p>Add Font Awesome into your website with a single line of code. You don't even have to download or install anything!</p>
   <ol>
     <li>
       Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
 {% highlight html %}
-<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/{{ site.bootstrap.version }}/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
 <link href="//netdna.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome.css" rel="stylesheet">
 {% endhighlight %}
-      <div class="alert alert-info margin-top">
-        <i class="fa-icon fa-icon-info-circle"></i> Want to use Font Awesome by itself without Bootstrap? Just don't include the first line.
-      </div>
     </li>
     <li>
       Pat yourself on the back for your scalable-vector-icons-on-the-website
-      <a href="http://37signals.com/svn/posts/312-lingo-judo">judo solution</a> in two lines of code.
+      <a href="http://37signals.com/svn/posts/312-lingo-judo">judo solution</a> in a single line of code.
     </li>
     <li>
       Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!
@@ -35,11 +31,10 @@
   <h2 class="page-header">EASY: Default CSS</h2>
   <p>Use this method to get the default Font Awesome CSS with the default Bootstrap CSS.</p>
   <ol>
-    <li>Copy the <code>font-awesome</code> directory into your project.</li>
+    <li>Copy the entire <code>font-awesome</code> directory into your project.</li>
     <li>
       In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome.min.css.
 {% highlight html %}
-<link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 {% endhighlight %}
     </li>
@@ -47,59 +42,57 @@
   </ol>
 </section>
 
-<section id="custom-less">
-  <h2 class="page-header">PRO: Custom LESS</h2>
-  <p>Use this method to customize Font Awesome and Bootstrap {{ site.bootstrap.version }} using LESS.</p>
+<section id="ruby-gem">
+  <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-sass">Font Awesome Ruby Gem</a></h2>
+  <p>
+    Use the <a href="https://github.com/FortAwesome/font-awesome-sass">Official Font Awesome Ruby Gem</a> to easily get Font
+    Awesome into a Rails project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
+  </p>
   <ol>
-    <li>Copy the <code>font-awesome</code> directory into your project.</li>
-    <li>Open your project's bootstrap/bootstrap.less and replace
-{% highlight html %}
-@import "sprites.less";
-{% endhighlight %}
-      with
-{% highlight html %}
-@import "path/to/font-awesome/less/font-awesome.less";
+    <li>
+      Add this line to your application's Gemfile:
+{% highlight bash %}
+gem 'font-awesome-sass'
 {% endhighlight %}
     </li>
     <li>
-      Open your project's font-awesome/variables.less and edit the <code>@FontAwesomePath</code> variable to point to your font directory.
-{% highlight html %}
-@FontAwesomePath:   "../font";
+      And then execute:
+{% highlight bash %}
+$ bundle
 {% endhighlight %}
-      <p class="alert alert-info"><i class="fa-icon fa-icon-info-circle"></i> The font path is relative from your compiled CSS directory.</p>
     </li>
-    <li>Re-compile your LESS if using a static compiler. Otherwise, you should be good to go.</li>
-    <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
+    <li>Or install it yourself as:
+{% highlight bash %}
+$ gem install font-awesome-sass
+{% endhighlight %}
+    </li>
   </ol>
 </section>
 
-<section id="not-using-bootstrap">
-  <h2 class="page-header">Not using Bootstrap?</h2>
-  <p>Font Awesome works just as well without Bootstrap.</p>
+<section id="custom-less">
+  <h2 class="page-header">PRO: Custom LESS or SCSS</h2>
+  <p>Use this method to customize Font Awesome {{ site.bootstrap.version }} using LESS or SCSS.</p>
   <ol>
-    <li>Copy the <code>font-awesome</code> directory into your project.</li>
-    <li>Follow the above directions and skip the Bootstrap parts.</li>
-    <li>Open your project's font-awesome.less or font-awesome.min.css and edit the font location to point it to your font directory (see above examples).</li>
+    <li>Copy the <code>font-awesome/</code> directory into your project.</li>
+    <li>
+      Open your project's font-awesome/variables.less and edit the <code>@fa-font-path</code> or <code>$fa-font-path</code>
+      variable to point to your font directory.
+{% highlight scss %}
+@fa-font-path:   "../font";
+{% endhighlight %}
+      <p class="alert alert-info"><i class="fa-icon fa-icon-info-circle"></i> The font path is relative from your compiled CSS directory.</p>
+    </li>
+    <li>Re-compile your LESS or SCSS if using a static compiler. Otherwise, you should be good to go.</li>
     <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
   </ol>
 </section>
 
 <section class="need-ie7">
   <h2 class="page-header">Need IE7 Support?</h2>
-  <p>Font Awesome supports IE7. If you need it, you have my condolences.</p>
-  <ol>
-    <li>Get Font Awesome working properly in a modern browser.</li>
-    <li>Copy font-awesome-ie7.min.css into your project.</li>
-    <li>
-      In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome-ie7.min.css.
-{% highlight html %}
-<link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-<!--[if IE 7]>
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome-ie7.min.css">
-<![endif]-->
-{% endhighlight %}
-    </li>
-    <li>Go complain to whomever decided your project needs IE7 support.</li>
-  </ol>
+  <p>
+    If you need IE7 support, you have my condolences. Really. Font Awesome {{ site.fontawesome.version }}
+    doesn't support IE7, but an older version does. You'll need to check out the
+    <a href="{{ page.relative_path }}3.2.1/get-started/#need-ie7">3.2.1 instructions for using IE7</a>. Then go complain to
+    whomever decided your project needs IE7 support.
+  </p>
 </section>
