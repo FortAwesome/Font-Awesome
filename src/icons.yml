@@ -2405,7 +2405,7 @@ icons:
       - Brand Icons
 
   - name:       Stack Overflow
-    id:         stackoverflow
+    id:         stack-overflow
     unicode:    f16c
     created:    3.2
     categories:
@@ -2619,6 +2619,13 @@ icons:
   - name:       Pagelines
     id:         pagelines
     unicode:    f18c
+    created:    4.0
+    categories:
+      - Brand Icons
+
+  - name:       Stack Exchange
+    id:         stack-exchange
+    unicode:    f18d
     created:    4.0
     categories:
       - Brand Icons

@@ -1278,7 +1278,7 @@
 .fa-icon-dropbox:before {
   content: "\f16b";
 }
-.fa-icon-stackoverflow:before {
+.fa-icon-stack-overflow:before {
   content: "\f16c";
 }
 .fa-icon-instagram:before {
@@ -1370,4 +1370,7 @@
 }
 .fa-icon-pagelines:before {
   content: "\f18c";
+}
+.fa-icon-stack-exchange:before {
+  content: "\f18d";
 }
