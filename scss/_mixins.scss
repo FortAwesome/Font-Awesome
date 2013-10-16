@@ -1,38 +1,32 @@
 // Mixins
 // --------------------------
 
-@mixin icon($icon) {
-  @include icon-FontAwesome();
-  content: $icon;
+@mixin fa-icon-rotate($degrees, $rotation) {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=$rotation);
+  -webkit-transform: rotate($degrees);
+     -moz-transform: rotate($degrees);
+      -ms-transform: rotate($degrees);
+       -o-transform: rotate($degrees);
+          transform: rotate($degrees);
 }
 
-@mixin icon-FontAwesome() {
-  *margin-right: .3em; // fixes ie7 issues
-  font-family: FontAwesome;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-  text-rendering: auto;
-  -moz-osx-font-smoothing: grayscale;
+@mixin fa-icon-flip($horiz, $vert) {
+  -webkit-transform: scale($horiz, $vert);
+     -moz-transform: scale($horiz, $vert);
+      -ms-transform: scale($horiz, $vert);
+       -o-transform: scale($horiz, $vert);
+          transform: scale($horiz, $vert);
 }
 
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
-  border-radius: $radius;
-}
-
-@mixin icon-stack($width: 2em, $height: 2em, $top-font-size: 1em, $base-font-size: 2em) {
-  .icon-stack {
+@mixin fa-icon-stack($width: 2em, $height: 2em, $top-font-size: 1em, $base-font-size: 2em) {
+  .fa-icon-stack {
     position: relative;
     display: inline-block;
     width: $width;
     height: $height;
     line-height: $width;
     vertical-align: -35%;
-    [class^="icon-"],
-    [class*=" icon-"] {
+    .fa-icon {
       position: absolute;
       display: block;
       width: 100%;
@@ -42,9 +36,9 @@
       *line-height: $height;
       text-align: center;
     }
-    .icon-stack-base {
+    .fa-icon-stack-base {
       font-size: $base-font-size;
-      *line-height: #{$height / $base-font-size}em;
+      *line-height: ($height / $base-font-size);
     }
   }
 }

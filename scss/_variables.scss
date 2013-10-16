@@ -1,738 +1,376 @@
 // Variables
 // --------------------------
 
-$FontAwesomePath: "../font" !default;
-$FontAwesomeVersion: "4.0.0" !default;
-$borderColor: #eeeeee !default;
-$iconMuted: #eeeeee !default;
-$iconLight: white !default;
-$iconDark: #333333 !default;
-$icons-li-width: (30em/14);
-
-
-$glass: "\f000";
-
-$music: "\f001";
-
-$search: "\f002";
-
-$envelope-alt: "\f003";
-
-$heart: "\f004";
-
-$star: "\f005";
-
-$star-alt: "\f006";
-
-$user: "\f007";
-
-$film: "\f008";
-
-$th-large: "\f009";
-
-$th: "\f00a";
-
-$th-list: "\f00b";
-
-$check: "\f00c";
-
-$times: "\f00d";
-
-$zoom-in: "\f00e";
-
-$zoom-out: "\f010";
-
-$power-off: "\f011";
-
-$signal: "\f012";
-
-$cog: "\f013";
-
-$trash: "\f014";
-
-$home: "\f015";
-
-$file-alt: "\f016";
-
-$time: "\f017";
-
-$road: "\f018";
-
-$download: "\f019";
-
-$arrow-circle-alt-down: "\f01a";
-
-$arrow-circle-alt-up: "\f01b";
-
-$inbox: "\f01c";
-
-$play-circle-alt: "\f01d";
-
-$repeat: "\f01e";
-
-$refresh: "\f021";
-
-$list-alt: "\f022";
-
-$lock: "\f023";
-
-$flag: "\f024";
-
-$headphones: "\f025";
-
-$volume-off: "\f026";
-
-$volume-down: "\f027";
-
-$volume-up: "\f028";
-
-$qrcode: "\f029";
-
-$barcode: "\f02a";
-
-$tag: "\f02b";
-
-$tags: "\f02c";
-
-$book: "\f02d";
-
-$bookmark: "\f02e";
-
-$print: "\f02f";
-
-$camera: "\f030";
-
-$font: "\f031";
-
-$bold: "\f032";
-
-$italic: "\f033";
-
-$text-height: "\f034";
-
-$text-width: "\f035";
-
-$align-left: "\f036";
-
-$align-center: "\f037";
-
-$align-right: "\f038";
-
-$align-justify: "\f039";
-
-$list: "\f03a";
-
-$outdent: "\f03b";
-
-$indent: "\f03c";
-
-$video-camera: "\f03d";
-
-$picture: "\f03e";
-
-$pencil: "\f040";
-
-$map-marker: "\f041";
-
-$adjust: "\f042";
-
-$tint: "\f043";
-
-$pencil-square-alt: "\f044";
-
-$share-square-alt: "\f045";
-
-$check-square-alt: "\f046";
-
-$move: "\f047";
-
-$step-backward: "\f048";
-
-$fast-backward: "\f049";
-
-$backward: "\f04a";
-
-$play: "\f04b";
-
-$pause: "\f04c";
-
-$stop: "\f04d";
-
-$forward: "\f04e";
-
-$fast-forward: "\f050";
-
-$step-forward: "\f051";
-
-$eject: "\f052";
-
-$chevron-left: "\f053";
-
-$chevron-right: "\f054";
-
-$plus-circle: "\f055";
-
-$minus-circle: "\f056";
-
-$times-circle: "\f057";
-
-$check-circle: "\f058";
-
-$question-circle: "\f059";
-
-$info-circle: "\f05a";
-
-$screenshot: "\f05b";
-
-$times-circle-alt: "\f05c";
-
-$check-circle-alt: "\f05d";
-
-$ban: "\f05e";
-
-$arrow-left: "\f060";
-
-$arrow-right: "\f061";
-
-$arrow-up: "\f062";
-
-$arrow-down: "\f063";
-
-$share: "\f064";
-
-$resize-full: "\f065";
-
-$resize-small: "\f066";
-
-$plus: "\f067";
-
-$minus: "\f068";
-
-$asterisk: "\f069";
-
-$exclamation-circle: "\f06a";
-
-$gift: "\f06b";
-
-$leaf: "\f06c";
-
-$fire: "\f06d";
-
-$eye: "\f06e";
-
-$eye-closed: "\f070";
-
-$exclamation-triangle: "\f071";
-
-$plane: "\f072";
-
-$calendar: "\f073";
-
-$random: "\f074";
-
-$comment: "\f075";
-
-$magnet: "\f076";
-
-$chevron-up: "\f077";
-
-$chevron-down: "\f078";
-
-$retweet: "\f079";
-
-$shopping-cart: "\f07a";
-
-$folder: "\f07b";
-
-$folder-open: "\f07c";
-
-$resize-vertical: "\f07d";
-
-$resize-horizontal: "\f07e";
-
-$bar-chart: "\f080";
-
-$twitter-square: "\f081";
-
-$facebook-square: "\f082";
-
-$camera-retro: "\f083";
-
-$key: "\f084";
-
-$cogs: "\f085";
-
-$comments: "\f086";
-
-$thumbs-up-alt: "\f087";
-
-$thumbs-down-alt: "\f088";
-
-$star-half: "\f089";
-
-$heart-alt: "\f08a";
-
-$sign-out: "\f08b";
-
-$linkedin-square: "\f08c";
-
-$thumb-tack: "\f08d";
-
-$external-link: "\f08e";
-
-$sign-in: "\f090";
-
-$trophy: "\f091";
-
-$github-square: "\f092";
-
-$upload: "\f093";
-
-$lemon-alt: "\f094";
-
-$phone: "\f095";
-
-$square-alt: "\f096";
-
-$bookmark-alt: "\f097";
-
-$phone-square: "\f098";
-
-$twitter: "\f099";
-
-$facebook: "\f09a";
-
-$github: "\f09b";
-
-$unlock: "\f09c";
-
-$credit-card: "\f09d";
-
-$rss: "\f09e";
-
-$hdd: "\f0a0";
-
-$bullhorn: "\f0a1";
-
-$bell: "\f0f3";
-
-$certificate: "\f0a3";
-
-$hand-right: "\f0a4";
-
-$hand-left: "\f0a5";
-
-$hand-up: "\f0a6";
-
-$hand-down: "\f0a7";
-
-$arrow-circle-left: "\f0a8";
-
-$arrow-circle-right: "\f0a9";
-
-$arrow-circle-up: "\f0aa";
-
-$arrow-circle-down: "\f0ab";
-
-$globe: "\f0ac";
-
-$wrench: "\f0ad";
-
-$tasks: "\f0ae";
-
-$filter: "\f0b0";
-
-$briefcase: "\f0b1";
-
-$fullscreen: "\f0b2";
-
-$group: "\f0c0";
-
-$link: "\f0c1";
-
-$cloud: "\f0c2";
-
-$flask: "\f0c3";
-
-$scissors: "\f0c4";
-
-$files: "\f0c5";
-
-$paperclip: "\f0c6";
-
-$floppy: "\f0c7";
-
-$square: "\f0c8";
-
-$reorder: "\f0c9";
-
-$list-ul: "\f0ca";
-
-$list-ol: "\f0cb";
-
-$strikethrough: "\f0cc";
-
-$underline: "\f0cd";
-
-$table: "\f0ce";
-
-$magic: "\f0d0";
-
-$truck: "\f0d1";
-
-$pinterest: "\f0d2";
-
-$pinterest-square: "\f0d3";
-
-$google-plus-square: "\f0d4";
-
-$google-plus: "\f0d5";
-
-$money: "\f0d6";
-
-$caret-down: "\f0d7";
-
-$caret-up: "\f0d8";
-
-$caret-left: "\f0d9";
-
-$caret-right: "\f0da";
-
-$columns: "\f0db";
-
-$sort: "\f0dc";
-
-$sort-asc: "\f0dd";
-
-$sort-desc: "\f0de";
-
-$envelope: "\f0e0";
-
-$linkedin: "\f0e1";
-
-$undo: "\f0e2";
-
-$gavel: "\f0e3";
-
-$tachometer: "\f0e4";
-
-$comment-alt: "\f0e5";
-
-$comments-alt: "\f0e6";
-
-$bolt: "\f0e7";
-
-$sitemap: "\f0e8";
-
-$umbrella: "\f0e9";
-
-$clipboard: "\f0ea";
-
-$lightbulb: "\f0eb";
-
-$exchange: "\f0ec";
-
-$cloud-download: "\f0ed";
-
-$cloud-upload: "\f0ee";
-
-$user-md: "\f0f0";
-
-$stethoscope: "\f0f1";
-
-$suitcase: "\f0f2";
-
-$bell-alt: "\f0a2";
-
-$coffee: "\f0f4";
-
-$cutlery: "\f0f5";
-
-$file-text-alt: "\f0f6";
-
-$building: "\f0f7";
-
-$hospital: "\f0f8";
-
-$ambulance: "\f0f9";
-
-$medkit: "\f0fa";
-
-$fighter-jet: "\f0fb";
-
-$beer: "\f0fc";
-
-$h-square: "\f0fd";
-
-$plus-square: "\f0fe";
-
-$double-angle-left: "\f100";
-
-$double-angle-right: "\f101";
-
-$double-angle-up: "\f102";
-
-$double-angle-down: "\f103";
-
-$angle-left: "\f104";
-
-$angle-right: "\f105";
-
-$angle-up: "\f106";
-
-$angle-down: "\f107";
-
-$desktop: "\f108";
-
-$laptop: "\f109";
-
-$tablet: "\f10a";
-
-$mobile: "\f10b";
-
-$circle-alt: "\f10c";
-
-$quote-left: "\f10d";
-
-$quote-right: "\f10e";
-
-$spinner: "\f110";
-
-$circle: "\f111";
-
-$reply: "\f112";
-
-$github-alt: "\f113";
-
-$folder-alt: "\f114";
-
-$folder-open-alt: "\f115";
-
-$expand-alt: "\f116";
-
-$collapse-alt: "\f117";
-
-$smile: "\f118";
-
-$frown: "\f119";
-
-$meh: "\f11a";
-
-$gamepad: "\f11b";
-
-$keyboard: "\f11c";
-
-$flag-alt: "\f11d";
-
-$flag-checkered: "\f11e";
-
-$terminal: "\f120";
-
-$code: "\f121";
-
-$reply-all: "\f122";
-
-$mail-reply-all: "\f122";
-
-$star-half-alt: "\f123";
-
-$location-arrow: "\f124";
-
-$crop: "\f125";
-
-$code-fork: "\f126";
-
-$chain-broken: "\f127";
-
-$question: "\f128";
-
-$info: "\f129";
-
-$exclamation: "\f12a";
-
-$superscript: "\f12b";
-
-$subscript: "\f12c";
-
-$eraser: "\f12d";
-
-$puzzle-piece: "\f12e";
-
-$microphone: "\f130";
-
-$microphone-off: "\f131";
-
-$shield: "\f132";
-
-$calendar-alt: "\f133";
-
-$fire-extinguisher: "\f134";
-
-$rocket: "\f135";
-
-$maxcdn: "\f136";
-
-$chevron-circle-left: "\f137";
-
-$chevron-circle-right: "\f138";
-
-$chevron-circle-up: "\f139";
-
-$chevron-circle-down: "\f13a";
-
-$html5: "\f13b";
-
-$css3: "\f13c";
-
-$anchor: "\f13d";
-
-$unlock-alt: "\f13e";
-
-$bullseye: "\f140";
-
-$ellipsis-horizontal: "\f141";
-
-$ellipsis-vertical: "\f142";
-
-$rss-square: "\f143";
-
-$play-circle: "\f144";
-
-$ticket: "\f145";
-
-$minus-square: "\f146";
-
-$minus-square-alt: "\f147";
-
-$level-up: "\f148";
-
-$level-down: "\f149";
-
-$check-square: "\f14a";
-
-$pencil-square: "\f14b";
-
-$external-link-square: "\f14c";
-
-$share-square: "\f14d";
-
-$compass: "\f14e";
-
-$collapse-down: "\f150";
-
-$collapse-up: "\f151";
-
-$expand: "\f152";
-
-$eur: "\f153";
-
-$gbp: "\f154";
-
-$usd: "\f155";
-
-$inr: "\f156";
-
-$jpy: "\f157";
-
-$rub: "\f158";
-
-$krw: "\f159";
-
-$btc: "\f15a";
-
-$file: "\f15b";
-
-$file-text: "\f15c";
-
-$sort-alpha-asc: "\f15d";
-
-$sort-alpha-desc: "\f15e";
-
-$sort-amount-asc: "\f160";
-
-$sort-amount-desc: "\f161";
-
-$sort-numeric-asc: "\f162";
-
-$sort-numeric-desc: "\f163";
-
-$thumbs-up: "\f164";
-
-$thumbs-down: "\f165";
-
-$youtube-sign: "\f166";
-
-$youtube: "\f167";
-
-$xing: "\f168";
-
-$xing-sign: "\f169";
-
-$youtube-play: "\f16a";
-
-$dropbox: "\f16b";
-
-$stack-overflow: "\f16c";
-
-$instagram: "\f16d";
-
-$flickr: "\f16e";
-
-$adn: "\f170";
-
-$bitbucket: "\f171";
-
-$bitbucket-square: "\f172";
-
-$tumblr: "\f173";
-
-$tumblr-square: "\f174";
-
-$long-arrow-down: "\f175";
-
-$long-arrow-up: "\f176";
-
-$long-arrow-left: "\f177";
-
-$long-arrow-right: "\f178";
-
-$apple: "\f179";
-
-$windows: "\f17a";
-
-$android: "\f17b";
-
-$linux: "\f17c";
-
-$dribbble: "\f17d";
-
-$skype: "\f17e";
-
-$foursquare: "\f180";
-
-$trello: "\f181";
-
-$female: "\f182";
-
-$male: "\f183";
-
-$gittip: "\f184";
-
-$sun: "\f185";
-
-$moon: "\f186";
-
-$archive: "\f187";
-
-$bug: "\f188";
-
-$vk: "\f189";
-
-$weibo: "\f18a";
-
-$renren: "\f18b";
-
-$pagelines: "\f18c";
-
-$stack-exchange: "\f18d";
+$fa-font-path:       "../fonts" !default;
+//$fa-font-path:       "//netdna.bootstrapcdn.com/font-awesome/4.0.0/font" !default; // for referencing Bootstrap CDN font files directly
+$fa-version:         "4.0.0" !default;
+$fa-border-color:    #eee !default;
+$fa-icon-muted:      #eee !default;
+$fa-icon-light:      #fff !default;
+$fa-icon-dark:       #333 !default;
+$fa-icon-li-width:   (30em / 14);
+
+$fa-icon-glass: "\f000";
+$fa-icon-music: "\f001";
+$fa-icon-search: "\f002";
+$fa-icon-envelope-alt: "\f003";
+$fa-icon-heart: "\f004";
+$fa-icon-star: "\f005";
+$fa-icon-star-alt: "\f006";
+$fa-icon-user: "\f007";
+$fa-icon-film: "\f008";
+$fa-icon-th-large: "\f009";
+$fa-icon-th: "\f00a";
+$fa-icon-th-list: "\f00b";
+$fa-icon-check: "\f00c";
+$fa-icon-times: "\f00d";
+$fa-icon-zoom-in: "\f00e";
+$fa-icon-zoom-out: "\f010";
+$fa-icon-power-off: "\f011";
+$fa-icon-signal: "\f012";
+$fa-icon-cog: "\f013";
+$fa-icon-trash: "\f014";
+$fa-icon-home: "\f015";
+$fa-icon-file-alt: "\f016";
+$fa-icon-time: "\f017";
+$fa-icon-road: "\f018";
+$fa-icon-download: "\f019";
+$fa-icon-arrow-circle-alt-down: "\f01a";
+$fa-icon-arrow-circle-alt-up: "\f01b";
+$fa-icon-inbox: "\f01c";
+$fa-icon-play-circle-alt: "\f01d";
+$fa-icon-repeat: "\f01e";
+$fa-icon-refresh: "\f021";
+$fa-icon-list-alt: "\f022";
+$fa-icon-lock: "\f023";
+$fa-icon-flag: "\f024";
+$fa-icon-headphones: "\f025";
+$fa-icon-volume-off: "\f026";
+$fa-icon-volume-down: "\f027";
+$fa-icon-volume-up: "\f028";
+$fa-icon-qrcode: "\f029";
+$fa-icon-barcode: "\f02a";
+$fa-icon-tag: "\f02b";
+$fa-icon-tags: "\f02c";
+$fa-icon-book: "\f02d";
+$fa-icon-bookmark: "\f02e";
+$fa-icon-print: "\f02f";
+$fa-icon-camera: "\f030";
+$fa-icon-font: "\f031";
+$fa-icon-bold: "\f032";
+$fa-icon-italic: "\f033";
+$fa-icon-text-height: "\f034";
+$fa-icon-text-width: "\f035";
+$fa-icon-align-left: "\f036";
+$fa-icon-align-center: "\f037";
+$fa-icon-align-right: "\f038";
+$fa-icon-align-justify: "\f039";
+$fa-icon-list: "\f03a";
+$fa-icon-outdent: "\f03b";
+$fa-icon-indent: "\f03c";
+$fa-icon-video-camera: "\f03d";
+$fa-icon-picture: "\f03e";
+$fa-icon-pencil: "\f040";
+$fa-icon-map-marker: "\f041";
+$fa-icon-adjust: "\f042";
+$fa-icon-tint: "\f043";
+$fa-icon-pencil-square-alt: "\f044";
+$fa-icon-share-square-alt: "\f045";
+$fa-icon-check-square-alt: "\f046";
+$fa-icon-move: "\f047";
+$fa-icon-step-backward: "\f048";
+$fa-icon-fast-backward: "\f049";
+$fa-icon-backward: "\f04a";
+$fa-icon-play: "\f04b";
+$fa-icon-pause: "\f04c";
+$fa-icon-stop: "\f04d";
+$fa-icon-forward: "\f04e";
+$fa-icon-fast-forward: "\f050";
+$fa-icon-step-forward: "\f051";
+$fa-icon-eject: "\f052";
+$fa-icon-chevron-left: "\f053";
+$fa-icon-chevron-right: "\f054";
+$fa-icon-plus-circle: "\f055";
+$fa-icon-minus-circle: "\f056";
+$fa-icon-times-circle: "\f057";
+$fa-icon-check-circle: "\f058";
+$fa-icon-question-circle: "\f059";
+$fa-icon-info-circle: "\f05a";
+$fa-icon-screenshot: "\f05b";
+$fa-icon-times-circle-alt: "\f05c";
+$fa-icon-check-circle-alt: "\f05d";
+$fa-icon-ban: "\f05e";
+$fa-icon-arrow-left: "\f060";
+$fa-icon-arrow-right: "\f061";
+$fa-icon-arrow-up: "\f062";
+$fa-icon-arrow-down: "\f063";
+$fa-icon-share: "\f064";
+$fa-icon-resize-full: "\f065";
+$fa-icon-resize-small: "\f066";
+$fa-icon-plus: "\f067";
+$fa-icon-minus: "\f068";
+$fa-icon-asterisk: "\f069";
+$fa-icon-exclamation-circle: "\f06a";
+$fa-icon-gift: "\f06b";
+$fa-icon-leaf: "\f06c";
+$fa-icon-fire: "\f06d";
+$fa-icon-eye: "\f06e";
+$fa-icon-eye-closed: "\f070";
+$fa-icon-exclamation-triangle: "\f071";
+$fa-icon-plane: "\f072";
+$fa-icon-calendar: "\f073";
+$fa-icon-random: "\f074";
+$fa-icon-comment: "\f075";
+$fa-icon-magnet: "\f076";
+$fa-icon-chevron-up: "\f077";
+$fa-icon-chevron-down: "\f078";
+$fa-icon-retweet: "\f079";
+$fa-icon-shopping-cart: "\f07a";
+$fa-icon-folder: "\f07b";
+$fa-icon-folder-open: "\f07c";
+$fa-icon-resize-vertical: "\f07d";
+$fa-icon-resize-horizontal: "\f07e";
+$fa-icon-bar-chart: "\f080";
+$fa-icon-twitter-square: "\f081";
+$fa-icon-facebook-square: "\f082";
+$fa-icon-camera-retro: "\f083";
+$fa-icon-key: "\f084";
+$fa-icon-cogs: "\f085";
+$fa-icon-comments: "\f086";
+$fa-icon-thumbs-up-alt: "\f087";
+$fa-icon-thumbs-down-alt: "\f088";
+$fa-icon-star-half: "\f089";
+$fa-icon-heart-alt: "\f08a";
+$fa-icon-sign-out: "\f08b";
+$fa-icon-linkedin-square: "\f08c";
+$fa-icon-thumb-tack: "\f08d";
+$fa-icon-external-link: "\f08e";
+$fa-icon-sign-in: "\f090";
+$fa-icon-trophy: "\f091";
+$fa-icon-github-square: "\f092";
+$fa-icon-upload: "\f093";
+$fa-icon-lemon-alt: "\f094";
+$fa-icon-phone: "\f095";
+$fa-icon-square-alt: "\f096";
+$fa-icon-bookmark-alt: "\f097";
+$fa-icon-phone-square: "\f098";
+$fa-icon-twitter: "\f099";
+$fa-icon-facebook: "\f09a";
+$fa-icon-github: "\f09b";
+$fa-icon-unlock: "\f09c";
+$fa-icon-credit-card: "\f09d";
+$fa-icon-rss: "\f09e";
+$fa-icon-hdd: "\f0a0";
+$fa-icon-bullhorn: "\f0a1";
+$fa-icon-bell: "\f0f3";
+$fa-icon-certificate: "\f0a3";
+$fa-icon-hand-right: "\f0a4";
+$fa-icon-hand-left: "\f0a5";
+$fa-icon-hand-up: "\f0a6";
+$fa-icon-hand-down: "\f0a7";
+$fa-icon-arrow-circle-left: "\f0a8";
+$fa-icon-arrow-circle-right: "\f0a9";
+$fa-icon-arrow-circle-up: "\f0aa";
+$fa-icon-arrow-circle-down: "\f0ab";
+$fa-icon-globe: "\f0ac";
+$fa-icon-wrench: "\f0ad";
+$fa-icon-tasks: "\f0ae";
+$fa-icon-filter: "\f0b0";
+$fa-icon-briefcase: "\f0b1";
+$fa-icon-fullscreen: "\f0b2";
+$fa-icon-group: "\f0c0";
+$fa-icon-link: "\f0c1";
+$fa-icon-cloud: "\f0c2";
+$fa-icon-flask: "\f0c3";
+$fa-icon-scissors: "\f0c4";
+$fa-icon-files: "\f0c5";
+$fa-icon-paperclip: "\f0c6";
+$fa-icon-floppy: "\f0c7";
+$fa-icon-square: "\f0c8";
+$fa-icon-reorder: "\f0c9";
+$fa-icon-list-ul: "\f0ca";
+$fa-icon-list-ol: "\f0cb";
+$fa-icon-strikethrough: "\f0cc";
+$fa-icon-underline: "\f0cd";
+$fa-icon-table: "\f0ce";
+$fa-icon-magic: "\f0d0";
+$fa-icon-truck: "\f0d1";
+$fa-icon-pinterest: "\f0d2";
+$fa-icon-pinterest-square: "\f0d3";
+$fa-icon-google-plus-square: "\f0d4";
+$fa-icon-google-plus: "\f0d5";
+$fa-icon-money: "\f0d6";
+$fa-icon-caret-down: "\f0d7";
+$fa-icon-caret-up: "\f0d8";
+$fa-icon-caret-left: "\f0d9";
+$fa-icon-caret-right: "\f0da";
+$fa-icon-columns: "\f0db";
+$fa-icon-sort: "\f0dc";
+$fa-icon-sort-asc: "\f0dd";
+$fa-icon-sort-desc: "\f0de";
+$fa-icon-envelope: "\f0e0";
+$fa-icon-linkedin: "\f0e1";
+$fa-icon-undo: "\f0e2";
+$fa-icon-gavel: "\f0e3";
+$fa-icon-tachometer: "\f0e4";
+$fa-icon-comment-alt: "\f0e5";
+$fa-icon-comments-alt: "\f0e6";
+$fa-icon-bolt: "\f0e7";
+$fa-icon-sitemap: "\f0e8";
+$fa-icon-umbrella: "\f0e9";
+$fa-icon-clipboard: "\f0ea";
+$fa-icon-lightbulb: "\f0eb";
+$fa-icon-exchange: "\f0ec";
+$fa-icon-cloud-download: "\f0ed";
+$fa-icon-cloud-upload: "\f0ee";
+$fa-icon-user-md: "\f0f0";
+$fa-icon-stethoscope: "\f0f1";
+$fa-icon-suitcase: "\f0f2";
+$fa-icon-bell-alt: "\f0a2";
+$fa-icon-coffee: "\f0f4";
+$fa-icon-cutlery: "\f0f5";
+$fa-icon-file-text-alt: "\f0f6";
+$fa-icon-building: "\f0f7";
+$fa-icon-hospital: "\f0f8";
+$fa-icon-ambulance: "\f0f9";
+$fa-icon-medkit: "\f0fa";
+$fa-icon-fighter-jet: "\f0fb";
+$fa-icon-beer: "\f0fc";
+$fa-icon-h-square: "\f0fd";
+$fa-icon-plus-square: "\f0fe";
+$fa-icon-double-angle-left: "\f100";
+$fa-icon-double-angle-right: "\f101";
+$fa-icon-double-angle-up: "\f102";
+$fa-icon-double-angle-down: "\f103";
+$fa-icon-angle-left: "\f104";
+$fa-icon-angle-right: "\f105";
+$fa-icon-angle-up: "\f106";
+$fa-icon-angle-down: "\f107";
+$fa-icon-desktop: "\f108";
+$fa-icon-laptop: "\f109";
+$fa-icon-tablet: "\f10a";
+$fa-icon-mobile: "\f10b";
+$fa-icon-circle-alt: "\f10c";
+$fa-icon-quote-left: "\f10d";
+$fa-icon-quote-right: "\f10e";
+$fa-icon-spinner: "\f110";
+$fa-icon-circle: "\f111";
+$fa-icon-reply: "\f112";
+$fa-icon-github-alt: "\f113";
+$fa-icon-folder-alt: "\f114";
+$fa-icon-folder-open-alt: "\f115";
+$fa-icon-expand-alt: "\f116";
+$fa-icon-collapse-alt: "\f117";
+$fa-icon-smile: "\f118";
+$fa-icon-frown: "\f119";
+$fa-icon-meh: "\f11a";
+$fa-icon-gamepad: "\f11b";
+$fa-icon-keyboard: "\f11c";
+$fa-icon-flag-alt: "\f11d";
+$fa-icon-flag-checkered: "\f11e";
+$fa-icon-terminal: "\f120";
+$fa-icon-code: "\f121";
+$fa-icon-reply-all: "\f122";
+$fa-icon-mail-reply-all: "\f122";
+$fa-icon-star-half-alt: "\f123";
+$fa-icon-location-arrow: "\f124";
+$fa-icon-crop: "\f125";
+$fa-icon-code-fork: "\f126";
+$fa-icon-chain-broken: "\f127";
+$fa-icon-question: "\f128";
+$fa-icon-info: "\f129";
+$fa-icon-exclamation: "\f12a";
+$fa-icon-superscript: "\f12b";
+$fa-icon-subscript: "\f12c";
+$fa-icon-eraser: "\f12d";
+$fa-icon-puzzle-piece: "\f12e";
+$fa-icon-microphone: "\f130";
+$fa-icon-microphone-off: "\f131";
+$fa-icon-shield: "\f132";
+$fa-icon-calendar-alt: "\f133";
+$fa-icon-fire-extinguisher: "\f134";
+$fa-icon-rocket: "\f135";
+$fa-icon-maxcdn: "\f136";
+$fa-icon-chevron-circle-left: "\f137";
+$fa-icon-chevron-circle-right: "\f138";
+$fa-icon-chevron-circle-up: "\f139";
+$fa-icon-chevron-circle-down: "\f13a";
+$fa-icon-html5: "\f13b";
+$fa-icon-css3: "\f13c";
+$fa-icon-anchor: "\f13d";
+$fa-icon-unlock-alt: "\f13e";
+$fa-icon-bullseye: "\f140";
+$fa-icon-ellipsis-horizontal: "\f141";
+$fa-icon-ellipsis-vertical: "\f142";
+$fa-icon-rss-square: "\f143";
+$fa-icon-play-circle: "\f144";
+$fa-icon-ticket: "\f145";
+$fa-icon-minus-square: "\f146";
+$fa-icon-minus-square-alt: "\f147";
+$fa-icon-level-up: "\f148";
+$fa-icon-level-down: "\f149";
+$fa-icon-check-square: "\f14a";
+$fa-icon-pencil-square: "\f14b";
+$fa-icon-external-link-square: "\f14c";
+$fa-icon-share-square: "\f14d";
+$fa-icon-compass: "\f14e";
+$fa-icon-collapse-down: "\f150";
+$fa-icon-collapse-up: "\f151";
+$fa-icon-expand: "\f152";
+$fa-icon-eur: "\f153";
+$fa-icon-gbp: "\f154";
+$fa-icon-usd: "\f155";
+$fa-icon-inr: "\f156";
+$fa-icon-jpy: "\f157";
+$fa-icon-rub: "\f158";
+$fa-icon-krw: "\f159";
+$fa-icon-btc: "\f15a";
+$fa-icon-file: "\f15b";
+$fa-icon-file-text: "\f15c";
+$fa-icon-sort-alpha-asc: "\f15d";
+$fa-icon-sort-alpha-desc: "\f15e";
+$fa-icon-sort-amount-asc: "\f160";
+$fa-icon-sort-amount-desc: "\f161";
+$fa-icon-sort-numeric-asc: "\f162";
+$fa-icon-sort-numeric-desc: "\f163";
+$fa-icon-thumbs-up: "\f164";
+$fa-icon-thumbs-down: "\f165";
+$fa-icon-youtube-sign: "\f166";
+$fa-icon-youtube: "\f167";
+$fa-icon-xing: "\f168";
+$fa-icon-xing-sign: "\f169";
+$fa-icon-youtube-play: "\f16a";
+$fa-icon-dropbox: "\f16b";
+$fa-icon-stack-overflow: "\f16c";
+$fa-icon-instagram: "\f16d";
+$fa-icon-flickr: "\f16e";
+$fa-icon-adn: "\f170";
+$fa-icon-bitbucket: "\f171";
+$fa-icon-bitbucket-square: "\f172";
+$fa-icon-tumblr: "\f173";
+$fa-icon-tumblr-square: "\f174";
+$fa-icon-long-arrow-down: "\f175";
+$fa-icon-long-arrow-up: "\f176";
+$fa-icon-long-arrow-left: "\f177";
+$fa-icon-long-arrow-right: "\f178";
+$fa-icon-apple: "\f179";
+$fa-icon-windows: "\f17a";
+$fa-icon-android: "\f17b";
+$fa-icon-linux: "\f17c";
+$fa-icon-dribbble: "\f17d";
+$fa-icon-skype: "\f17e";
+$fa-icon-foursquare: "\f180";
+$fa-icon-trello: "\f181";
+$fa-icon-female: "\f182";
+$fa-icon-male: "\f183";
+$fa-icon-gittip: "\f184";
+$fa-icon-sun: "\f185";
+$fa-icon-moon: "\f186";
+$fa-icon-archive: "\f187";
+$fa-icon-bug: "\f188";
+$fa-icon-vk: "\f189";
+$fa-icon-weibo: "\f18a";
+$fa-icon-renren: "\f18b";
+$fa-icon-pagelines: "\f18c";
+$fa-icon-stack-exchange: "\f18d";
 

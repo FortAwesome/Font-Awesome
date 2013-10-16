@@ -4,9 +4,11 @@ PATH := ../node_modules/.bin:$(PATH)
 
 FA_ROOT_DIRECTORY = assets/font-awesome
 FA_LESS_DIRECTORY = assets/font-awesome/less
+FA_SCSS_DIRECTORY = assets/font-awesome/scss
 FA_CSS_DIRECTORY = assets/font-awesome/css
 
 FA_LESS_MODERN = ${FA_LESS_DIRECTORY}/font-awesome.less
+FA_SCSS_MODERN = ${FA_SCSS_DIRECTORY}/font-awesome.scss
 
 FA_CSS_MODERN = ${FA_CSS_DIRECTORY}/font-awesome.css
 FA_CSS_MODERN_MIN = ${FA_CSS_DIRECTORY}/font-awesome.min.css
@@ -20,8 +22,11 @@ SITE_CSS_MIN = ${SITE_CSS_DIRECTORY}/site.css
 build:
 	@echo "Compiling Less files"
 	@mkdir -p ${FA_CSS_DIRECTORY}
+
 	lessc ${FA_LESS_MODERN} > ${FA_CSS_MODERN}
 	lessc --compress ${FA_LESS_MODERN} > ${FA_CSS_MODERN_MIN}
+#	sass ${FA_SCSS_MODERN} ${FA_CSS_MODERN}
+
 	lessc --compress ${SITE_LESS} > ${SITE_CSS_MIN}
 	cp -r ${FA_ROOT_DIRECTORY}/* ../
 	cd assets && zip -r9 font-awesome.zip font-awesome
