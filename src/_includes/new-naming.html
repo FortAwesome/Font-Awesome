@@ -1,69 +1,121 @@
-<section id="new-naming" class="feature-list">
+<section id="new-naming">
   <h2 class="page-header">New Naming Conventions in {{ site.fontawesome.minor_version }}</h2>
-  A desire for better icon naming <strong>consistency</strong> and <strong>predictability</strong> are at the heart of the changes in naming conventions.
-  Once you know the name of the base icon shape, you should be able to predict the name of variants.
-  Here are a few examples.
+  <p>
+    A desire for better icon naming <strong>consistency</strong> and <strong>predictability</strong> are at the heart
+    of the changes in naming conventions. Once you know the name of the base icon shape, you should be able to predict
+    the name of variants. Here are a few examples.
+  </p>
 
   <div class="row">
     <div class="col-md-4 col-sm-6">
-      <h4><i class="fa-icon fa-icon-check"></i>fa-icon-check</h4>
+      <h4 class="margin-bottom-sm">fa-icon-*</h4>
+      <p class="text-muted margin-bottom-sm">Solid icons as the base variant</p>
+      <ul class="fa-icon-ul padding-left-sm">
+        <li>
+          <i class="fa-icon fa-icon-bookmark fa-icon-li"></i>
+          fa-icon-bookmark
+        </li>
+        <li>
+          <i class="fa-icon fa-icon-comment fa-icon-li"></i>
+          fa-icon-comment
+        </li>
+        <li>
+          <i class="fa-icon fa-icon-folder fa-icon-li"></i>
+          fa-icon-folder
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h4 class="margin-bottom-sm">*-alt</h4>
+      <p class="text-muted margin-bottom-sm">Outlined version of previous modifier</p>
+      <ul class="fa-icon-ul padding-left-sm">
+        <li>
+          <i class="fa-icon fa-icon-bookmark-alt fa-icon-li"></i>
+          fa-icon-bookmark-alt
+        </li>
+        <li>
+          <i class="fa-icon fa-icon-comment-alt fa-icon-li"></i>
+          fa-icon-comment-alt
+        </li>
+        <li>
+          <i class="fa-icon fa-icon-folder-alt fa-icon-li"></i>
+          fa-icon-folder-alt
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h4 class="margin-bottom-sm">*-circle</h4>
+      <p class="text-muted margin-bottom-sm">Circle under previous modifier</p>
       <ul class="fa-icon-ul padding-left-sm">
         <li>
           <i class="fa-icon fa-icon-check-circle fa-icon-li"></i>
-          fa-icon-check-circle -
-          <code>*-circle</code> means a circle is under the previous modifier.
+          fa-icon-check-circle
         </li>
-        <li>
-          <i class="fa-icon fa-icon-check-circle-alt fa-icon-li"></i>
-          fa-icon-check-circle-alt -
-          <code>*-alt</code> means that the previous modifier is outlined.
-        </li>
-        <li>
-          <i class="fa-icon fa-icon-check-square fa-icon-li"></i>
-          fa-icon-check-square -
-          <code>*-square</code> means a square is under the previous modifier.
-        </li>
-        <li>
-          <i class="fa-icon fa-icon-check-square-alt fa-icon-li"></i>
-          fa-icon-check-square-alt -
-          <code>*-alt</code> means that the previous modifier is outlined.
-        </li>
-      </ul>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <h4><i class="fa-icon fa-icon-arrow-right"></i>fa-icon-arrow-right</h4>
-      <ul class="fa-icon-ul padding-left-sm">
-        <li>
-          <i class="fa-icon fa-icon-arrow-circle-right fa-icon-li"></i>
-          fa-icon-arrow-circle-right -
-          <code>*-circle</code> means a circle is under the previous modifier.
-          <code>*-right</code> is the directional modifier, which always comes last to keep icons properly grouped
-          alphabetically.
-        </li>
-        <li>
-          <i class="fa-icon fa-icon-arrow-circle-alt-right fa-icon-li"></i>
-          fa-icon-arrow-circle-alt-right -
-          <code>*-alt</code> means that the previous modifier is outlined.
-          <code>*-right</code> is the directional modifier, which always comes last to keep icons properly grouped
-          alphabetically.
-        </li>
-      </ul>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <h4><i class="fa-icon fa-icon-exclamation"></i>fa-icon-exclamation</h4>
-      <ul class="fa-icon-ul padding-left-sm">
         <li>
           <i class="fa-icon fa-icon-exclamation-circle fa-icon-li"></i>
-          fa-icon-exclamation-circle -
-          <code>*-circle</code> means a circle is under the previous modifier.
+          fa-icon-exclamation-circle
         </li>
         <li>
-          <i class="fa-icon fa-icon-exclamation-triangle fa-icon-li"></i>
-          fa-icon-exclamation-triangle -
-          <code>*-triangle</code> means a triangle is under the previous modifier.
+          <i class="fa-icon fa-icon-plus-circle fa-icon-li"></i>
+          fa-icon-plus-circle
         </li>
       </ul>
     </div>
+    <div class="col-md-4 col-sm-6">
+      <h4 class="margin-bottom-sm">*-square</h4>
+      <p class="text-muted margin-bottom-sm">Square under previous modifier</p>
+      <ul class="fa-icon-ul padding-left-sm">
+        <li>
+          <i class="fa-icon fa-icon-check-square fa-icon-li"></i>
+          fa-icon-check-square
+        </li>
+        <li>
+          <i class="fa-icon fa-icon-twitter-square fa-icon-li"></i>
+          fa-icon-twitter-square
+        </li>
+        <li>
+          <i class="fa-icon fa-icon-plus-square fa-icon-li"></i>
+          fa-icon-plus-square
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h4 class="margin-bottom-sm">*-right, *-up, etc.</h4>
+      <p class="text-muted margin-bottom-sm">Directional modifier always at the end</p>
+      <ul class="fa-icon-ul padding-left-sm">
+        <li>
+          <i class="fa-icon fa-icon-arrow-right fa-icon-li"></i>
+          fa-icon-arrow-right
+        </li>
+        <li>
+          <i class="fa-icon fa-icon-arrow-circle-right fa-icon-li"></i>
+          fa-icon-arrow-circle-right
+        </li>
+        <li>
+          <i class="fa-icon fa-icon-angle-double-right fa-icon-li"></i>
+          fa-icon-angle-double-right
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h4 class="margin-bottom-sm">Combine 'em up...</h4>
+      <p class="text-muted margin-bottom-sm">Consistent when strung together</p>
+      <ul class="fa-icon-ul padding-left-sm">
+        <li>
+          <i class="fa-icon fa-icon-arrow-circle-alt-right fa-icon-li"></i>
+          fa-icon-arrow-circle-alt-right
+        </li>
+        <li>
+          <i class="fa-icon fa-icon-caret-square-alt-right fa-icon-li"></i>
+          fa-icon-caret-square-alt-right
+        </li>
+        <li>
+          <i class="fa-icon fa-icon-hand-alt-right fa-icon-li"></i>
+          fa-icon-hand-alt-right
+        </li>
+      </ul>
+    </div>
+
   </div>
 
 </section>
