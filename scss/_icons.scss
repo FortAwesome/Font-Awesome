@@ -3,7 +3,8 @@
 
 .fa-icon-glass:before { content: $fa-icon-glass; }
 .fa-icon-music:before { content: $fa-icon-music; }
-.fa-icon-search:before { content: $fa-icon-search; }
+.fa-icon-search:before,
+.fa-icon-magnifying-glass:before { content: $fa-icon-magnifying-glass; }
 .fa-icon-envelope-alt:before { content: $fa-icon-envelope-alt; }
 .fa-icon-heart:before { content: $fa-icon-heart; }
 .fa-icon-star:before { content: $fa-icon-star; }
@@ -15,16 +16,16 @@
 .fa-icon-th-list:before { content: $fa-icon-th-list; }
 .fa-icon-check:before { content: $fa-icon-check; }
 .fa-icon-times:before { content: $fa-icon-times; }
-.fa-icon-zoom-in:before { content: $fa-icon-zoom-in; }
-.fa-icon-zoom-out:before { content: $fa-icon-zoom-out; }
+.fa-icon-magnifying-glass-plus:before { content: $fa-icon-magnifying-glass-plus; }
+.fa-icon-magnifying-glass-minus:before { content: $fa-icon-magnifying-glass-minus; }
 .fa-icon-power-off:before { content: $fa-icon-power-off; }
 .fa-icon-signal:before { content: $fa-icon-signal; }
 .fa-icon-gear:before,
 .fa-icon-cog:before { content: $fa-icon-cog; }
-.fa-icon-trash:before { content: $fa-icon-trash; }
+.fa-icon-trash-alt:before { content: $fa-icon-trash-alt; }
 .fa-icon-home:before { content: $fa-icon-home; }
 .fa-icon-file-alt:before { content: $fa-icon-file-alt; }
-.fa-icon-time:before { content: $fa-icon-time; }
+.fa-icon-clock-alt:before { content: $fa-icon-clock-alt; }
 .fa-icon-road:before { content: $fa-icon-road; }
 .fa-icon-download:before { content: $fa-icon-download; }
 .fa-icon-arrow-circle-alt-down:before { content: $fa-icon-arrow-circle-alt-down; }
@@ -63,7 +64,7 @@
 .fa-icon-outdent:before { content: $fa-icon-outdent; }
 .fa-icon-indent:before { content: $fa-icon-indent; }
 .fa-icon-video-camera:before { content: $fa-icon-video-camera; }
-.fa-icon-picture:before { content: $fa-icon-picture; }
+.fa-icon-picture-alt:before { content: $fa-icon-picture-alt; }
 .fa-icon-pencil:before { content: $fa-icon-pencil; }
 .fa-icon-map-marker:before { content: $fa-icon-map-marker; }
 .fa-icon-adjust:before { content: $fa-icon-adjust; }
@@ -91,7 +92,7 @@
 .fa-icon-check-circle:before { content: $fa-icon-check-circle; }
 .fa-icon-question-circle:before { content: $fa-icon-question-circle; }
 .fa-icon-info-circle:before { content: $fa-icon-info-circle; }
-.fa-icon-screenshot:before { content: $fa-icon-screenshot; }
+.fa-icon-crosshairs:before { content: $fa-icon-crosshairs; }
 .fa-icon-times-circle-alt:before { content: $fa-icon-times-circle-alt; }
 .fa-icon-check-circle-alt:before { content: $fa-icon-check-circle-alt; }
 .fa-icon-ban:before { content: $fa-icon-ban; }
@@ -111,7 +112,7 @@
 .fa-icon-leaf:before { content: $fa-icon-leaf; }
 .fa-icon-fire:before { content: $fa-icon-fire; }
 .fa-icon-eye:before { content: $fa-icon-eye; }
-.fa-icon-eye-closed:before { content: $fa-icon-eye-closed; }
+.fa-icon-eye-slash:before { content: $fa-icon-eye-slash; }
 .fa-icon-warning:before,
 .fa-icon-exclamation-triangle:before { content: $fa-icon-exclamation-triangle; }
 .fa-icon-plane:before { content: $fa-icon-plane; }
@@ -127,7 +128,7 @@
 .fa-icon-folder-open:before { content: $fa-icon-folder-open; }
 .fa-icon-resize-vertical:before { content: $fa-icon-resize-vertical; }
 .fa-icon-resize-horizontal:before { content: $fa-icon-resize-horizontal; }
-.fa-icon-bar-chart:before { content: $fa-icon-bar-chart; }
+.fa-icon-bar-chart-alt:before { content: $fa-icon-bar-chart-alt; }
 .fa-icon-twitter-square:before { content: $fa-icon-twitter-square; }
 .fa-icon-facebook-square:before { content: $fa-icon-facebook-square; }
 .fa-icon-camera-retro:before { content: $fa-icon-camera-retro; }
@@ -163,10 +164,10 @@
 .fa-icon-bullhorn:before { content: $fa-icon-bullhorn; }
 .fa-icon-bell:before { content: $fa-icon-bell; }
 .fa-icon-certificate:before { content: $fa-icon-certificate; }
-.fa-icon-hand-right:before { content: $fa-icon-hand-right; }
-.fa-icon-hand-left:before { content: $fa-icon-hand-left; }
-.fa-icon-hand-up:before { content: $fa-icon-hand-up; }
-.fa-icon-hand-down:before { content: $fa-icon-hand-down; }
+.fa-icon-hand-alt-right:before { content: $fa-icon-hand-alt-right; }
+.fa-icon-hand-alt-left:before { content: $fa-icon-hand-alt-left; }
+.fa-icon-hand-alt-up:before { content: $fa-icon-hand-alt-up; }
+.fa-icon-hand-alt-down:before { content: $fa-icon-hand-alt-down; }
 .fa-icon-arrow-circle-left:before { content: $fa-icon-arrow-circle-left; }
 .fa-icon-arrow-circle-right:before { content: $fa-icon-arrow-circle-right; }
 .fa-icon-arrow-circle-up:before { content: $fa-icon-arrow-circle-up; }
@@ -185,10 +186,10 @@
 .fa-icon-cut:before,
 .fa-icon-scissors:before { content: $fa-icon-scissors; }
 .fa-icon-copy:before,
-.fa-icon-files:before { content: $fa-icon-files; }
+.fa-icon-files-alt:before { content: $fa-icon-files-alt; }
 .fa-icon-paperclip:before { content: $fa-icon-paperclip; }
 .fa-icon-save:before,
-.fa-icon-floppy:before { content: $fa-icon-floppy; }
+.fa-icon-floppy-alt:before { content: $fa-icon-floppy-alt; }
 .fa-icon-square:before { content: $fa-icon-square; }
 .fa-icon-reorder:before { content: $fa-icon-reorder; }
 .fa-icon-list-ul:before { content: $fa-icon-list-ul; }
@@ -230,7 +231,7 @@
 .fa-icon-umbrella:before { content: $fa-icon-umbrella; }
 .fa-icon-paste:before,
 .fa-icon-clipboard:before { content: $fa-icon-clipboard; }
-.fa-icon-lightbulb:before { content: $fa-icon-lightbulb; }
+.fa-icon-lightbulb-alt:before { content: $fa-icon-lightbulb-alt; }
 .fa-icon-exchange:before { content: $fa-icon-exchange; }
 .fa-icon-cloud-download:before { content: $fa-icon-cloud-download; }
 .fa-icon-cloud-upload:before { content: $fa-icon-cloud-upload; }
@@ -249,10 +250,10 @@
 .fa-icon-beer:before { content: $fa-icon-beer; }
 .fa-icon-h-square:before { content: $fa-icon-h-square; }
 .fa-icon-plus-square:before { content: $fa-icon-plus-square; }
-.fa-icon-double-angle-left:before { content: $fa-icon-double-angle-left; }
-.fa-icon-double-angle-right:before { content: $fa-icon-double-angle-right; }
-.fa-icon-double-angle-up:before { content: $fa-icon-double-angle-up; }
-.fa-icon-double-angle-down:before { content: $fa-icon-double-angle-down; }
+.fa-icon-angle-double-left:before { content: $fa-icon-angle-double-left; }
+.fa-icon-angle-double-right:before { content: $fa-icon-angle-double-right; }
+.fa-icon-angle-double-up:before { content: $fa-icon-angle-double-up; }
+.fa-icon-angle-double-down:before { content: $fa-icon-angle-double-down; }
 .fa-icon-angle-left:before { content: $fa-icon-angle-left; }
 .fa-icon-angle-right:before { content: $fa-icon-angle-right; }
 .fa-icon-angle-up:before { content: $fa-icon-angle-up; }
@@ -274,11 +275,11 @@
 .fa-icon-folder-open-alt:before { content: $fa-icon-folder-open-alt; }
 .fa-icon-expand-alt:before { content: $fa-icon-expand-alt; }
 .fa-icon-collapse-alt:before { content: $fa-icon-collapse-alt; }
-.fa-icon-smile:before { content: $fa-icon-smile; }
-.fa-icon-frown:before { content: $fa-icon-frown; }
-.fa-icon-meh:before { content: $fa-icon-meh; }
+.fa-icon-smile-alt:before { content: $fa-icon-smile-alt; }
+.fa-icon-frown-alt:before { content: $fa-icon-frown-alt; }
+.fa-icon-meh-alt:before { content: $fa-icon-meh-alt; }
 .fa-icon-gamepad:before { content: $fa-icon-gamepad; }
-.fa-icon-keyboard:before { content: $fa-icon-keyboard; }
+.fa-icon-keyboard-alt:before { content: $fa-icon-keyboard-alt; }
 .fa-icon-flag-alt:before { content: $fa-icon-flag-alt; }
 .fa-icon-flag-checkered:before { content: $fa-icon-flag-checkered; }
 .fa-icon-terminal:before { content: $fa-icon-terminal; }
@@ -301,7 +302,7 @@
 .fa-icon-eraser:before { content: $fa-icon-eraser; }
 .fa-icon-puzzle-piece:before { content: $fa-icon-puzzle-piece; }
 .fa-icon-microphone:before { content: $fa-icon-microphone; }
-.fa-icon-microphone-off:before { content: $fa-icon-microphone-off; }
+.fa-icon-microphone-slash:before { content: $fa-icon-microphone-slash; }
 .fa-icon-shield:before { content: $fa-icon-shield; }
 .fa-icon-calendar-alt:before { content: $fa-icon-calendar-alt; }
 .fa-icon-fire-extinguisher:before { content: $fa-icon-fire-extinguisher; }
@@ -330,9 +331,12 @@
 .fa-icon-external-link-square:before { content: $fa-icon-external-link-square; }
 .fa-icon-share-square:before { content: $fa-icon-share-square; }
 .fa-icon-compass:before { content: $fa-icon-compass; }
-.fa-icon-collapse-down:before { content: $fa-icon-collapse-down; }
-.fa-icon-collapse-up:before { content: $fa-icon-collapse-up; }
-.fa-icon-expand:before { content: $fa-icon-expand; }
+.fa-icon-toggle-down:before,
+.fa-icon-caret-square-alt-down:before { content: $fa-icon-caret-square-alt-down; }
+.fa-icon-toggle-up:before,
+.fa-icon-caret-square-alt-up:before { content: $fa-icon-caret-square-alt-up; }
+.fa-icon-toggle-right:before,
+.fa-icon-caret-square-alt-right:before { content: $fa-icon-caret-square-alt-right; }
 .fa-icon-euro:before,
 .fa-icon-eur:before { content: $fa-icon-eur; }
 .fa-icon-gbp:before { content: $fa-icon-gbp; }
@@ -361,10 +365,10 @@
 .fa-icon-sort-numeric-desc:before { content: $fa-icon-sort-numeric-desc; }
 .fa-icon-thumbs-up:before { content: $fa-icon-thumbs-up; }
 .fa-icon-thumbs-down:before { content: $fa-icon-thumbs-down; }
-.fa-icon-youtube-sign:before { content: $fa-icon-youtube-sign; }
+.fa-icon-youtube-square:before { content: $fa-icon-youtube-square; }
 .fa-icon-youtube:before { content: $fa-icon-youtube; }
 .fa-icon-xing:before { content: $fa-icon-xing; }
-.fa-icon-xing-sign:before { content: $fa-icon-xing-sign; }
+.fa-icon-xing-square:before { content: $fa-icon-xing-square; }
 .fa-icon-youtube-play:before { content: $fa-icon-youtube-play; }
 .fa-icon-dropbox:before { content: $fa-icon-dropbox; }
 .fa-icon-stack-overflow:before { content: $fa-icon-stack-overflow; }
@@ -390,8 +394,8 @@
 .fa-icon-female:before { content: $fa-icon-female; }
 .fa-icon-male:before { content: $fa-icon-male; }
 .fa-icon-gittip:before { content: $fa-icon-gittip; }
-.fa-icon-sun:before { content: $fa-icon-sun; }
-.fa-icon-moon:before { content: $fa-icon-moon; }
+.fa-icon-sun-alt:before { content: $fa-icon-sun-alt; }
+.fa-icon-moon-alt:before { content: $fa-icon-moon-alt; }
 .fa-icon-archive:before { content: $fa-icon-archive; }
 .fa-icon-bug:before { content: $fa-icon-bug; }
 .fa-icon-vk:before { content: $fa-icon-vk; }
@@ -399,3 +403,7 @@
 .fa-icon-renren:before { content: $fa-icon-renren; }
 .fa-icon-pagelines:before { content: $fa-icon-pagelines; }
 .fa-icon-stack-exchange:before { content: $fa-icon-stack-exchange; }
+.fa-icon-arrow-circle-alt-right:before { content: $fa-icon-arrow-circle-alt-right; }
+.fa-icon-arrow-circle-alt-left:before { content: $fa-icon-arrow-circle-alt-left; }
+.fa-icon-toggle-left:before,
+.fa-icon-caret-square-alt-left:before { content: $fa-icon-caret-square-alt-left; }

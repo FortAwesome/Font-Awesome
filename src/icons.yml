@@ -13,10 +13,12 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Search
-    id:         search
+  - name:       Magnifying Glass
+    id:         magnifying-glass
     unicode:    f002
     created:    1.0
+    aliases:
+      - search
     categories:
       - Web Application Icons
 
@@ -97,18 +99,22 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Zoom In
-    id:         zoom-in
+  - name:       Magnifying Glass Plus
+    id:         magnifying-glass-plus
     unicode:    f00e
     created:    1.0
+    alias:
+      - search-plus
     categories:
       - Web Application Icons
 
 
-  - name:       Zoom Out
-    id:         zoom-out
+  - name:       Magnifying Glass Minus
+    id:         magnifying-glass-minus
     unicode:    f010
     created:    1.0
+    alias:
+      - search-minus
     categories:
       - Web Application Icons
 
@@ -135,8 +141,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       trash
-    id:         trash
+  - name:       Trash Alt
+    id:         trash-alt
     unicode:    f014
     created:    1.0
     categories:
@@ -156,8 +162,8 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       time
-    id:         time
+  - name:       Clock Alt
+    id:         clock-alt
     unicode:    f017
     created:    1.0
     categories:
@@ -182,14 +188,14 @@ icons:
     unicode:    f01a
     created:    1.0
     categories:
-      - Web Application Icons
+      - Directional Icons
 
   - name:       Arrow Circle Alt Up
     id:         arrow-circle-alt-up
     unicode:    f01b
     created:    1.0
     categories:
-      - Web Application Icons
+      - Directional Icons
 
   - name:       inbox
     id:         inbox
@@ -421,8 +427,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       picture
-    id:         picture
+  - name:       Picture Alt
+    id:         picture-alt
     unicode:    f03e
     created:    1.0
     categories:
@@ -614,8 +620,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       screenshot
-    id:         screenshot
+  - name:       Crosshairs
+    id:         crosshairs
     unicode:    f05b
     created:    1.0
     categories:
@@ -751,8 +757,8 @@ icons:
       - Web Application Icons
 
 
-  - name:       Eye Closed
-    id:         eye-closed
+  - name:       Eye Slash
+    id:         eye-slash
     unicode:    f070
     created:    1.0
     categories:
@@ -859,8 +865,8 @@ icons:
       - Web Application Icons
 
 
-  - name:       bar-chart
-    id:         bar-chart
+  - name:       Bar Chart Alt
+    id:         bar-chart-alt
     unicode:    f080
     created:    1.0
     categories:
@@ -1103,29 +1109,29 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       hand-right
-    id:         hand-right
+  - name:       Hand Alt Right
+    id:         hand-alt-right
     unicode:    f0a4
     created:    2.0
     categories:
       - Directional Icons
 
-  - name:       hand-left
-    id:         hand-left
+  - name:       Hand Alt Left
+    id:         hand-alt-left
     unicode:    f0a5
     created:    2.0
     categories:
       - Directional Icons
 
-  - name:       hand-up
-    id:         hand-up
+  - name:       Hand Alt Up
+    id:         hand-alt-up
     unicode:    f0a6
     created:    2.0
     categories:
       - Directional Icons
 
-  - name:       hand-down
-    id:         hand-down
+  - name:       Hand Alt Down
+    id:         hand-alt-down
     unicode:    f0a7
     created:    2.0
     categories:
@@ -1242,8 +1248,8 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       Files
-    id:         files
+  - name:       Files Alt
+    id:         files-alt
     unicode:    f0c5
     created:    2.0
     aliases:
@@ -1258,8 +1264,8 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       Floppy
-    id:         floppy
+  - name:       Floppy Alt
+    id:         floppy-alt
     unicode:    f0c7
     created:    2.0
     aliases:
@@ -1518,8 +1524,8 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       Lightbulb
-    id:         lightbulb
+  - name:       Lightbulb Alt
+    id:         lightbulb-alt
     unicode:    f0eb
     created:    3.0
     categories:
@@ -1654,29 +1660,29 @@ icons:
       - Web Application Icons
 
 
-  - name:       double-angle-left
-    id:         double-angle-left
+  - name:       Angle Double Left
+    id:         angle-double-left
     unicode:    f100
     created:    3.0
     categories:
       - Directional Icons
 
-  - name:       double-angle-right
-    id:         double-angle-right
+  - name:       Angle Double Right
+    id:         angle-double-right
     unicode:    f101
     created:    3.0
     categories:
       - Directional Icons
 
-  - name:       double-angle-up
-    id:         double-angle-up
+  - name:       Angle Double Up
+    id:         angle-double-up
     unicode:    f102
     created:    3.0
     categories:
       - Directional Icons
 
-  - name:       double-angle-down
-    id:         double-angle-down
+  - name:       Angle Double Down
+    id:         angle-double-down
     unicode:    f103
     created:    3.0
     categories:
@@ -1820,22 +1826,22 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Smile
-    id:         smile
+  - name:       Smile Alt
+    id:         smile-alt
     unicode:    f118
     created:    3.1
     categories:
       - Web Application Icons
 
-  - name:       Frown
-    id:         frown
+  - name:       Frown Alt
+    id:         frown-alt
     unicode:    f119
     created:    3.1
     categories:
       - Web Application Icons
 
-  - name:       Meh.
-    id:         meh
+  - name:       Meh Alt
+    id:         meh-alt
     unicode:    f11a
     created:    3.1
     categories:
@@ -1848,8 +1854,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Keyboard
-    id:         keyboard
+  - name:       Keyboard Alt
+    id:         keyboard-alt
     unicode:    f11c
     created:    3.1
     categories:
@@ -1996,8 +2002,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       microphone-off
-    id:         microphone-off
+  - name:       Microphone Slash
+    id:         microphone-slash
     unicode:    f131
     created:    3.1
     categories:
@@ -2201,26 +2207,35 @@ icons:
       - Web Application Icons
 
 
-  - name:       Collapse Down
-    id:         collapse-down
+  - name:       Caret Square Alt Down
+    id:         caret-square-alt-down
     unicode:    f150
     created:    3.2
+    aliases:
+      - toggle-down
     categories:
       - Web Application Icons
+      - Directional Icons
 
-  - name:       Collapse Up
-    id:         collapse-up
+  - name:       Caret Square Alt Up
+    id:         caret-square-alt-up
     unicode:    f151
     created:    3.2
+    aliases:
+      - toggle-up
     categories:
       - Web Application Icons
+      - Directional Icons
 
-  - name:       Expand
-    id:         expand
+  - name:       Caret Square Alt Right
+    id:         caret-square-alt-right
     unicode:    f152
     created:    3.2
+    aliases:
+      - toggle-right
     categories:
       - Web Application Icons
+      - Directional Icons
 
   - name:       Euro (EUR)
     id:         eur
@@ -2368,8 +2383,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       YouTube Sign
-    id:         youtube-sign
+  - name:       YouTube Square
+    id:         youtube-square
     unicode:    f166
     created:    3.2
     categories:
@@ -2389,8 +2404,8 @@ icons:
     categories:
       - Brand Icons
 
-  - name:       Xing Sign
-    id:         xing-sign
+  - name:       Xing Square
+    id:         xing-square
     unicode:    f169
     created:    3.2
     categories:
@@ -2573,15 +2588,15 @@ icons:
     categories:
       - Brand Icons
 
-  - name:       Sun
-    id:         sun
+  - name:       Sun Alt
+    id:         sun-alt
     unicode:    f185
     created:    3.2
     categories:
       - Web Application Icons
 
-  - name:       Moon
-    id:         moon
+  - name:       Moon Alt
+    id:         moon-alt
     unicode:    f186
     created:    3.2
     categories:
@@ -2636,3 +2651,28 @@ icons:
     created:    4.0
     categories:
       - Brand Icons
+
+  - name:       Arrow Circle Alt Right
+    id:         arrow-circle-alt-right
+    unicode:    f18e
+    created:    4.0
+    categories:
+      - Directional Icons
+
+
+  - name:       Arrow Circle Alt Left
+    id:         arrow-circle-alt-left
+    unicode:    f190
+    created:    4.0
+    categories:
+      - Directional Icons
+
+  - name:       Caret Square Alt Left
+    id:         caret-square-alt-left
+    unicode:    f191
+    created:    4.0
+    aliases:
+      - toggle-left
+    categories:
+      - Web Application Icons
+      - Directional Icons

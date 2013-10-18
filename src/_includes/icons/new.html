@@ -1,5 +1,5 @@
 <{% if page.navbar_active == "icons" %}div{% else %}section{% endif %} id="new">
-  <h2 class="page-header">New Icons in {{ site.fontawesome.minor_version }}</h2>
+  <h2 class="page-header">{{ icons | version:site.fontawesome.minor_version | size }} New Icons in {{ site.fontawesome.minor_version }}</h2>
   {% if page.navbar_active != "icons" %}
     <div class="margin-botom-large">
       You asked, Font Awesome delivers with {{ icons | version:site.fontawesome.minor_version | size }} shiny new icons in version {{ site.fontawesome.minor_version }}.
