@@ -69,9 +69,18 @@
 // BOOTSTRAP OVERRIDES
 // -------------------
 
+// Brand colors
+//@brand-primary:         @blue-dark;
+@brand-success:         lighten(@jumbotron-bg, 5%);
+//@brand-warning:         @yellow-dark;
+//@brand-danger:          @red;
+//@brand-info:            @blue;
+
+
 // Links
 @link-color:            lighten(@jumbotron-bg, 5%);
 @link-hover-color:      darken(@jumbotron-bg, 5%);
+
 
 // Typography
 @font-family-sans-serif:  proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -79,22 +88,9 @@
 @headings-font-family:    @font-family-serif;
 
 
-// Form states and alerts
-@state-warning-text:             mix(@yellow-dark, @yellow-darker, 80%);
-@state-warning-bg:               @yellow-lighter;
-@state-warning-border:           darken(spin(@state-warning-bg, -10), 7%);
+// Components
+@component-active-bg:            @jumbotron-bg;
 
-@state-danger-text:              @red;
-@state-danger-bg:                @red-lighter;
-@state-danger-border:            darken(spin(@state-danger-bg, -10), 4%);
-
-@state-success-text:             mix(@green-darker, @green-dark, 30%);
-@state-success-bg:               @green-lighter;
-@state-success-border:           darken(spin(@state-success-bg, -10), 13%);
-
-@state-info-text:                mix(@blue-dark, @blue, 50%);
-@state-info-bg:                  @blue-lighter;
-@state-info-border:              darken(spin(@state-info-bg, -10), 7%);
 
 // Navbar
 @navbar-height:                     40px;
@@ -115,15 +111,24 @@
 @navbar-inverse-toggle-icon-bar-bg:         @jumbotron-text;
 @navbar-inverse-toggle-border-color:        mix(@jumbotron-text, @jumbotron-bg, 75%);
 
-//@brand-primary:         @blue-dark;
-//@brand-success:         @green;
-//@brand-warning:         @yellow-dark;
-//@brand-danger:          @red;
-//@brand-info:            @blue;
 
+// Form states and alerts
+//@state-warning-text:             mix(@yellow-dark, @yellow-darker, 80%);
+//@state-warning-bg:               @yellow-lighter;
+//@state-warning-border:           darken(spin(@state-warning-bg, -10), 7%);
+//
+//@state-danger-text:              @red;
+//@state-danger-bg:                @red-lighter;
+//@state-danger-border:            darken(spin(@state-danger-bg, -10), 4%);
+//
+//@state-success-text:             mix(@green-darker, @green-dark, 30%);
+//@state-success-bg:               @green-lighter;
+//@state-success-border:           darken(spin(@state-success-bg, -10), 13%);
 
-// Components
-@component-active-bg:            @jumbotron-bg;
+@state-info-text:                mix(@blue-dark, @blue, 50%);
+@state-info-bg:                  @blue-lighter;
+@state-info-border:              darken(spin(@state-info-bg, -10), 7%);
+
 
 // Carousel
 @carousel-text-shadow:                      0 1px 0 rgba(255,255,255,0.25);
