@@ -45,24 +45,10 @@
 @purple-light:          #c3b8f4;
 @purple-lighter:        #fbf5ff;
 
-// Reds
-@red:                   #9d261d;
-@red-dark:              darken(@red, 10%);
+@fa-green:              #1d9d74;
+@fa-green-dark:         darken(@fa-green, 10%);
 
-@constructicons-green-light:  desaturate(#c9f8b2, 55%);
-@constructicons-green-dark:   desaturate(#a0d57d, 55%);
-
-@constructicons-purple:       #573486;
-@constructicons-purple-dark:  #2e1d51;
-
-
-
-@jumbotron-bg:          #1d9d74;
-@jumbotron-bg-dark:     darken(#1d9d74, 10%);
-
-@jumbotron-border:      mix(@jumbotron-bg, @jumbotron-bg-dark, 75%);
-@jumbotron-text:        #fff;
-
+@jumbotron-border:      mix(@fa-green, @fa-green-dark, 75%);
 @font-family-alt:       proxima-nova-sc-osf, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 
@@ -71,15 +57,15 @@
 
 // Brand colors
 //@brand-primary:         @blue-dark;
-@brand-success:         lighten(@jumbotron-bg, 5%);
+@brand-success:         lighten(@fa-green, 5%);
 //@brand-warning:         @yellow-dark;
 //@brand-danger:          @red;
 //@brand-info:            @blue;
 
 
 // Links
-@link-color:            lighten(@jumbotron-bg, 5%);
-@link-hover-color:      darken(@jumbotron-bg, 5%);
+@link-color:            lighten(@fa-green, 5%);
+@link-hover-color:      darken(@fa-green, 5%);
 
 
 // Typography
@@ -89,7 +75,7 @@
 
 
 // Components
-@component-active-bg:            @jumbotron-bg;
+@component-active-bg:            @fa-green;
 
 
 // Navbar
@@ -97,19 +83,24 @@
 @navbar-inverse-brand-color:        #fff;
 
 // Reset inverted navbar basics
-@navbar-inverse-color:                      mix(@jumbotron-bg, #fff, 50%);
-@navbar-inverse-bg:                         @jumbotron-bg;
+@navbar-inverse-color:                      mix(@fa-green, #fff, 50%);
+@navbar-inverse-bg:                         @fa-green;
 @navbar-inverse-border:                     @jumbotron-border;
 
 // Inverted navbar links
-@navbar-inverse-link-color:                 mix(@jumbotron-bg, #fff, 35%);
+@navbar-inverse-link-color:                 mix(@fa-green, #fff, 35%);
 @navbar-inverse-link-hover-color:           #fff;
 @navbar-inverse-link-active-bg:             @navbar-inverse-border;
 
 // Inverted navbar toggle
-@navbar-inverse-toggle-hover-bg:            @jumbotron-bg-dark;
-@navbar-inverse-toggle-icon-bar-bg:         @jumbotron-text;
-@navbar-inverse-toggle-border-color:        mix(@jumbotron-text, @jumbotron-bg, 75%);
+@navbar-inverse-toggle-hover-bg:            @fa-green-dark;
+@navbar-inverse-toggle-icon-bar-bg:         @jumbotron-color;
+@navbar-inverse-toggle-border-color:        mix(@jumbotron-color, @fa-green, 75%);
+
+
+// Jumbotron
+@jumbotron-color:                           #fff;
+@jumbotron-bg:                              @fa-green;
 
 
 // Form states and alerts
@@ -133,5 +124,5 @@
 // Carousel
 @carousel-text-shadow:                      0 1px 0 rgba(255,255,255,0.25);
 
-@carousel-control-color:                    @jumbotron-bg-dark;
+@carousel-control-color:                    @fa-green-dark;
 @carousel-control-font-size:                30px;

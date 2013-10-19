@@ -1,9 +1,9 @@
 .jumbotron {
   background-color: lighten(@jumbotron-bg, 2%);
-  border-top: 1px solid mix(@jumbotron-bg, @jumbotron-text, 90%);
+  border-top: 1px solid mix(@jumbotron-bg, @jumbotron-color, 90%);
   border-bottom: 1px solid @jumbotron-border;
   margin-bottom: 0;
-  &, h1 { color: @jumbotron-text; }
+  &, h1 { color: @jumbotron-color; }
   padding: 50px 0 40px;
 
   h1 {
@@ -15,7 +15,7 @@
   }
   p {
     font-family: @font-family-alt;
-    color: mix(@jumbotron-text, @jumbotron-bg, 75%);
+    color: mix(@jumbotron-color, @jumbotron-bg, 75%);
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 24px;

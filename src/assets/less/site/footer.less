@@ -1,16 +1,16 @@
 #footer {
   //  #gradient > .vertical(@navbarInverseBackgroundHighlight, @navbarInverseBackground);
-  background-color: lighten(@jumbotron-bg, 2%);
+  background-color: lighten(@fa-green, 2%);
   border-top: 1px solid @jumbotron-border;
-  color: mix(@jumbotron-text, @jumbotron-bg, 60%);
+  color: mix(@jumbotron-color, @fa-green, 60%);
   text-shadow: 0 1px 0 rgba(0,0,0,0.15);
   a {
-    color: mix(@jumbotron-text, @jumbotron-bg, 80%);
-    border-bottom: dotted 1px mix(@jumbotron-text, @jumbotron-bg, 60%);
+    color: mix(@jumbotron-color, @fa-green, 80%);
+    border-bottom: dotted 1px mix(@jumbotron-color, @fa-green, 60%);
     &:hover {
-      color: @jumbotron-text;
+      color: @jumbotron-color;
       text-decoration: none;
-      border-bottom: solid 1px @jumbotron-text;
+      border-bottom: solid 1px @jumbotron-color;
     }
   }
   .container { padding-top: 40px; }
