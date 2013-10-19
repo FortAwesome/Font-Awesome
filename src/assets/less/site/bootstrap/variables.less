@@ -57,7 +57,7 @@
 
 // Brand colors
 //@brand-primary:         @blue-dark;
-@brand-success:         lighten(@fa-green, 5%);
+@brand-success:         mix(@fa-green, #fff, 70%);
 //@brand-warning:         @yellow-dark;
 //@brand-danger:          @red;
 //@brand-info:            @blue;
@@ -112,9 +112,9 @@
 //@state-danger-bg:                @red-lighter;
 //@state-danger-border:            darken(spin(@state-danger-bg, -10), 4%);
 //
-//@state-success-text:             mix(@green-darker, @green-dark, 30%);
-//@state-success-bg:               @green-lighter;
-//@state-success-border:           darken(spin(@state-success-bg, -10), 13%);
+@state-success-text:             @fa-green;
+@state-success-bg:               mix(@fa-green, #fff, 6%);
+@state-success-border:           darken(spin(@state-success-bg, -10), 13%);
 
 @state-info-text:                mix(@blue-dark, @blue, 50%);
 @state-info-bg:                  @blue-lighter;
