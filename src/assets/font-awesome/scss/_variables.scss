@@ -3,14 +3,15 @@
 // Variables
 // --------------------------
 
-$fa-font-path:       "../fonts" !default;
-//$fa-font-path:       "//netdna.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version}}/font" !default; // for referencing Bootstrap CDN font files directly
-$fa-version:         "{{ site.fontawesome.version }}" !default;
-$fa-border-color:    #eee !default;
-$fa-icon-muted:      #eee !default;
-$fa-icon-light:      #fff !default;
-$fa-icon-dark:       #333 !default;
-$fa-icon-li-width:   (30em / 14);
+$fa-css-prefix:       {{ site.fontawesome.css_prefix }};
+$fa-font-path:        "../fonts" !default;
+//$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version}}/font" !default; // for referencing Bootstrap CDN font files directly
+$fa-version:          "{{ site.fontawesome.version }}" !default;
+$fa-border-color:     #eee !default;
+$fa-icon-muted:       #eee !default;
+$fa-icon-light:       #fff !default;
+$fa-icon-dark:        #333 !default;
+$fa-icon-li-width:    (30em / 14);
 
-{% for icon in icons %}${{ site.fontawesome.css_prefix }}-{{ icon.id }}: "\{{ icon.unicode }}";
+{% for icon in icons %}$fa-var-{{ icon.id }}: "\{{ icon.unicode }}";
 {% endfor %}

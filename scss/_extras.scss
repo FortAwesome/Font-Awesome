@@ -5,7 +5,7 @@
 @include fa-icon-stack();
 
 /* Animated rotating icon */
-.fa-icon-spin {
+.#{$fa-css-prefix}-spin {
   -webkit-animation: spin 2s infinite linear;
   -moz-animation: spin 2s infinite linear;
   -o-animation: spin 2s infinite linear;
@@ -37,9 +37,9 @@
 // Icon rotations & flipping
 // -------------------------
 
-.fa-icon-rotate-90  { @include fa-icon-rotate(90deg, 1);  }
-.fa-icon-rotate-180 { @include fa-icon-rotate(180deg, 2); }
-.fa-icon-rotate-270 { @include fa-icon-rotate(270deg, 3); }
+.#{$fa-css-prefix}-rotate-90  { @include fa-icon-rotate(90deg, 1);  }
+.#{$fa-css-prefix}-rotate-180 { @include fa-icon-rotate(180deg, 2); }
+.#{$fa-css-prefix}-rotate-270 { @include fa-icon-rotate(270deg, 3); }
 
-.fa-icon-flip-horizontal { @include fa-icon-flip(-1, 1); }
-.fa-icon-flip-vertical   { @include fa-icon-flip(1, -1); }
+.#{$fa-css-prefix}-flip-horizontal { @include fa-icon-flip(-1, 1); }
+.#{$fa-css-prefix}-flip-vertical   { @include fa-icon-flip(1, -1); }

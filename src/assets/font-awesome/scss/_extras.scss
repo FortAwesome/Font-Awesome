@@ -4,10 +4,10 @@
  * -------------------------- */
 
 /* Stacked and layered icon */
-@include {{ site.fontawesome.css_prefix }}-stack();
+@include fa-icon-stack();
 
 /* Animated rotating icon */
-.{{ site.fontawesome.css_prefix }}-spin {
+.#{$fa-css-prefix}-spin {
   -webkit-animation: spin 2s infinite linear;
   -moz-animation: spin 2s infinite linear;
   -o-animation: spin 2s infinite linear;
@@ -39,9 +39,9 @@
 // Icon rotations & flipping
 // -------------------------
 
-.{{ site.fontawesome.css_prefix }}-rotate-90  { @include {{ site.fontawesome.css_prefix }}-rotate(90deg, 1);  }
-.{{ site.fontawesome.css_prefix }}-rotate-180 { @include {{ site.fontawesome.css_prefix }}-rotate(180deg, 2); }
-.{{ site.fontawesome.css_prefix }}-rotate-270 { @include {{ site.fontawesome.css_prefix }}-rotate(270deg, 3); }
+.#{$fa-css-prefix}-rotate-90  { @include fa-icon-rotate(90deg, 1);  }
+.#{$fa-css-prefix}-rotate-180 { @include fa-icon-rotate(180deg, 2); }
+.#{$fa-css-prefix}-rotate-270 { @include fa-icon-rotate(270deg, 3); }
 
-.{{ site.fontawesome.css_prefix }}-flip-horizontal { @include {{ site.fontawesome.css_prefix }}-flip(-1, 1); }
-.{{ site.fontawesome.css_prefix }}-flip-vertical   { @include {{ site.fontawesome.css_prefix }}-flip(1, -1); }
+.#{$fa-css-prefix}-flip-horizontal { @include fa-icon-flip(-1, 1); }
+.#{$fa-css-prefix}-flip-vertical   { @include fa-icon-flip(1, -1); }
