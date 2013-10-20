@@ -33,12 +33,10 @@
       height: 100%;
       font-size: $top-font-size;
       line-height: inherit;
-      *line-height: $height;
       text-align: center;
     }
     .fa-icon-stack-base {
       font-size: $base-font-size;
-      *line-height: ($height / $base-font-size);
     }
   }
 }

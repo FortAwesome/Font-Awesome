@@ -19,26 +19,24 @@
 }
 
 .fa-icon-stack(@width: 2em, @height: 2em, @top-font-size: 1em, @base-font-size: 2em) {
-  .fa-icon-stack {
+  .@{fa-css-prefix}-stack {
     position: relative;
     display: inline-block;
     width: @width;
     height: @height;
     line-height: @width;
     vertical-align: -35%;
-    .fa-icon {
+    .@{fa-css-prefix} {
       position: absolute;
       display: block;
       width: 100%;
       height: 100%;
       font-size: @top-font-size;
       line-height: inherit;
-      *line-height: @height;
       text-align: center;
     }
-    .fa-icon-stack-base {
+    .@{fa-css-prefix}-stack-base {
       font-size: @base-font-size;
-      *line-height: (@height / @base-font-size);
     }
   }
 }

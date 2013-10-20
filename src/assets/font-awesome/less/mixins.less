@@ -3,7 +3,7 @@
 // Mixins
 // --------------------------
 
-.{{ site.fontawesome.css_prefix }}-rotate(@degrees, @rotation) {
+.fa-icon-rotate(@degrees, @rotation) {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@rotation);
   -webkit-transform: rotate(@degrees);
      -moz-transform: rotate(@degrees);
@@ -12,7 +12,7 @@
           transform: rotate(@degrees);
 }
 
-.{{ site.fontawesome.css_prefix }}-flip(@horiz, @vert) {
+.fa-icon-flip(@horiz, @vert) {
   -webkit-transform: scale(@horiz, @vert);
      -moz-transform: scale(@horiz, @vert);
       -ms-transform: scale(@horiz, @vert);
@@ -20,27 +20,25 @@
           transform: scale(@horiz, @vert);
 }
 
-.{{ site.fontawesome.css_prefix }}-stack(@width: 2em, @height: 2em, @top-font-size: 1em, @base-font-size: 2em) {
-  .{{ site.fontawesome.css_prefix }}-stack {
+.fa-icon-stack(@width: 2em, @height: 2em, @top-font-size: 1em, @base-font-size: 2em) {
+  .@{fa-css-prefix}-stack {
     position: relative;
     display: inline-block;
     width: @width;
     height: @height;
     line-height: @width;
     vertical-align: -35%;
-    .{{ site.fontawesome.css_prefix }} {
+    .@{fa-css-prefix} {
       position: absolute;
       display: block;
       width: 100%;
       height: 100%;
       font-size: @top-font-size;
       line-height: inherit;
-      *line-height: @height;
       text-align: center;
     }
-    .{{ site.fontawesome.css_prefix }}-stack-base {
+    .@{fa-css-prefix}-stack-base {
       font-size: @base-font-size;
-      *line-height: (@height / @base-font-size);
     }
   }
 }

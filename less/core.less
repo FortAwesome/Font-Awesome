@@ -1,7 +1,7 @@
 /* FONT AWESOME CORE
  * -------------------------- */
 
-.fa-icon {
+.@{fa-css-prefix} {
   display: inline-block;
   font-family: FontAwesome;
   font-style: normal;
@@ -12,17 +12,17 @@
 }
 
 /* makes the font 33% larger relative to the icon container */
-.fa-icon-lg {
+.@{fa-css-prefix}-lg {
   font-size: (4em / 3);
   line-height: (3em / 4);
   vertical-align: -15%;
 }
 /* increased font size for icon-lg */
-.fa-icon-fixed-width {
+.@{fa-css-prefix}-fixed-width {
   width: (16em / 14);
   padding-right: (4em / 14);
   text-align: right;
-  &.fa-icon-lg {
+  &.@{fa-css-prefix}-lg {
     width: (20em / 14);
   }
 }
@@ -31,37 +31,37 @@
 // Icon UL & LI
 // -------------------------
 
-.fa-icon-ul {
+.@{fa-css-prefix}-ul {
   padding-left: 0;
   margin-left: @fa-icon-li-width;
   list-style-type: none;
 
   > li { position: relative; }
 }
-.fa-icon-li {
+.@{fa-css-prefix}-li {
   position: absolute;
   left: -@fa-icon-li-width;
   width: @fa-icon-li-width;
   top: (2em / 14);
   text-align: center;
-  &.fa-icon-lg {
+  &.@{fa-css-prefix}-lg {
     left: -@fa-icon-li-width + (4em / 14);
   }
 }
 
 
 // allows usage of the hide class directly on font awesome icons
-.fa-icon.hide { display: none; }
+.@{fa-css-prefix}.hide { display: none; }
 
-.fa-icon-muted { color: @fa-icon-muted; }
-.fa-icon-light { color: @fa-icon-light; }
-.fa-icon-dark { color: @fa-icon-dark; }
+.@{fa-css-prefix}-muted { color: @fa-icon-muted; }
+.@{fa-css-prefix}-light { color: @fa-icon-light; }
+.@{fa-css-prefix}-dark { color: @fa-icon-dark; }
 
 
 // Icon Borders
 // -------------------------
 
-.fa-icon-border {
+.@{fa-css-prefix}-border {
   padding: .2em .25em .15em;
   border: solid 1px @fa-border-color;
   border-radius: 3px;
@@ -71,30 +71,30 @@
 // Icon Sizes
 // -------------------------
 
-.fa-icon-2x {
+.@{fa-css-prefix}-2x {
   font-size: 2em;
-  &.fa-icon-border {
+  &.@{fa-css-prefix}-border {
     border-width: 2px;
     border-radius: 4px;
   }
 }
-.fa-icon-3x {
+.@{fa-css-prefix}-3x {
   font-size: 3em;
-  &.fa-icon-border {
+  &.@{fa-css-prefix}-border {
     border-width: 3px;
     border-radius: 5px;
   }
 }
-.fa-icon-4x {
+.@{fa-css-prefix}-4x {
   font-size: 4em;
-  &.fa-icon-border {
+  &.@{fa-css-prefix}-border {
     border-width: 4px;
     border-radius: 6px;
   }
 }
-.fa-icon-5x {
+.@{fa-css-prefix}-5x {
   font-size: 5em;
-  &.fa-icon-border {
+  &.@{fa-css-prefix}-border {
     border-width: 5px;
     border-radius: 7px;
   }
@@ -108,7 +108,7 @@
 .pull-right { float: right; }
 .pull-left { float: left; }
 
-.fa-icon {
+.@{fa-css-prefix} {
   &.pull-left { margin-right: .3em; }
   &.pull-right { margin-left: .3em; }
 }
