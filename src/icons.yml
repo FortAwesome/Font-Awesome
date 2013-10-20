@@ -22,8 +22,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Envelope Alt
-    id:         envelope-alt
+  - name:       Envelope Outlined
+    id:         envelope-o
     unicode:    f003
     created:    1.0
     categories:
@@ -43,8 +43,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Star Alt
-    id:         star-alt
+  - name:       Star Outlined
+    id:         star-o
     unicode:    f006
     created:    1.0
     categories:
@@ -141,8 +141,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Trash Alt
-    id:         trash-alt
+  - name:       Trash Outlined
+    id:         trash-o
     unicode:    f014
     created:    1.0
     categories:
@@ -155,15 +155,15 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       File Alt
-    id:         file-alt
+  - name:       File Outlined
+    id:         file-o
     unicode:    f016
     created:    1.0
     categories:
       - Text Editor Icons
 
-  - name:       Clock Alt
-    id:         clock-alt
+  - name:       Clock Outlined
+    id:         clock-o
     unicode:    f017
     created:    1.0
     categories:
@@ -183,15 +183,15 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Arrow Circle Alt Down
-    id:         arrow-circle-alt-down
+  - name:       Arrow Circle Outlined Down
+    id:         arrow-circle-o-down
     unicode:    f01a
     created:    1.0
     categories:
       - Directional Icons
 
-  - name:       Arrow Circle Alt Up
-    id:         arrow-circle-alt-up
+  - name:       Arrow Circle Outlined Up
+    id:         arrow-circle-o-up
     unicode:    f01b
     created:    1.0
     categories:
@@ -204,8 +204,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Play Circle Alt
-    id:         play-circle-alt
+  - name:       Play Circle Outlined
+    id:         play-circle-o
     unicode:    f01d
     created:    1.0
     categories:
@@ -427,8 +427,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Picture Alt
-    id:         picture-alt
+  - name:       Picture Outlined
+    id:         picture-o
     unicode:    f03e
     created:    1.0
     categories:
@@ -463,8 +463,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Pencil Square Alt
-    id:         pencil-square-alt
+  - name:       Pencil Square Outlined
+    id:         pencil-square-o
     unicode:    f044
     created:    1.0
     aliases:
@@ -472,15 +472,15 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Share Square Alt
-    id:         share-square-alt
+  - name:       Share Square Outlined
+    id:         share-square-o
     unicode:    f045
     created:    1.0
     categories:
       - Web Application Icons
 
-  - name:       Check Square Alt
-    id:         check-square-alt
+  - name:       Check Square Outlined
+    id:         check-square-o
     unicode:    f046
     created:    1.0
     categories:
@@ -627,15 +627,15 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Times Circle Alt
-    id:         times-circle-alt
+  - name:       Times Circle Outlined
+    id:         times-circle-o
     unicode:    f05c
     created:    1.0
     categories:
       - Web Application Icons
 
-  - name:       Check Circle Alt
-    id:         check-circle-alt
+  - name:       Check Circle Outlined
+    id:         check-circle-o
     unicode:    f05d
     created:    1.0
     categories:
@@ -865,8 +865,8 @@ icons:
       - Web Application Icons
 
 
-  - name:       Bar Chart Alt
-    id:         bar-chart-alt
+  - name:       Bar Chart Outlined
+    id:         bar-chart-o
     unicode:    f080
     created:    1.0
     categories:
@@ -916,15 +916,15 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       thumbs-up-alt
-    id:         thumbs-up-alt
+  - name:       thumbs-up-o
+    id:         thumbs-up-o
     unicode:    f087
     created:    1.0
     categories:
       - Web Application Icons
 
-  - name:       thumbs-down-alt
-    id:         thumbs-down-alt
+  - name:       thumbs-down-o
+    id:         thumbs-down-o
     unicode:    f088
     created:    1.0
     categories:
@@ -937,8 +937,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Heart Alt
-    id:         heart-alt
+  - name:       Heart Outlined
+    id:         heart-o
     unicode:    f08a
     created:    1.0
     categories:
@@ -1001,8 +1001,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Lemon Alt
-    id:         lemon-alt
+  - name:       Lemon Outlined
+    id:         lemon-o
     unicode:    f094
     created:    1.0
     categories:
@@ -1015,8 +1015,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Square Alt
-    id:         square-alt
+  - name:       Square Outlined
+    id:         square-o
     unicode:    f096
     created:    2.0
     aliases:
@@ -1024,8 +1024,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Bookmark Alt
-    id:         bookmark-alt
+  - name:       Bookmark Outlined
+    id:         bookmark-o
     unicode:    f097
     created:    2.0
     categories:
@@ -1109,29 +1109,29 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Hand Alt Right
-    id:         hand-alt-right
+  - name:       Hand Outlined Right
+    id:         hand-o-right
     unicode:    f0a4
     created:    2.0
     categories:
       - Directional Icons
 
-  - name:       Hand Alt Left
-    id:         hand-alt-left
+  - name:       Hand Outlined Left
+    id:         hand-o-left
     unicode:    f0a5
     created:    2.0
     categories:
       - Directional Icons
 
-  - name:       Hand Alt Up
-    id:         hand-alt-up
+  - name:       Hand Outlined Up
+    id:         hand-o-up
     unicode:    f0a6
     created:    2.0
     categories:
       - Directional Icons
 
-  - name:       Hand Alt Down
-    id:         hand-alt-down
+  - name:       Hand Outlined Down
+    id:         hand-o-down
     unicode:    f0a7
     created:    2.0
     categories:
@@ -1248,8 +1248,8 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       Files Alt
-    id:         files-alt
+  - name:       Files Outlined
+    id:         files-o
     unicode:    f0c5
     created:    2.0
     aliases:
@@ -1264,8 +1264,8 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       Floppy Alt
-    id:         floppy-alt
+  - name:       Floppy Outlined
+    id:         floppy-o
     unicode:    f0c7
     created:    2.0
     aliases:
@@ -1478,15 +1478,15 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       comment-alt
-    id:         comment-alt
+  - name:       comment-o
+    id:         comment-o
     unicode:    f0e5
     created:    2.0
     categories:
       - Web Application Icons
 
-  - name:       comments-alt
-    id:         comments-alt
+  - name:       comments-o
+    id:         comments-o
     unicode:    f0e6
     created:    2.0
     categories:
@@ -1524,8 +1524,8 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       Lightbulb Alt
-    id:         lightbulb-alt
+  - name:       Lightbulb Outlined
+    id:         lightbulb-o
     unicode:    f0eb
     created:    3.0
     categories:
@@ -1574,8 +1574,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Bell Alt
-    id:         bell-alt
+  - name:       Bell Outlined
+    id:         bell-o
     unicode:    f0a2
     created:    3.0
     categories:
@@ -1595,8 +1595,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       File Text Alt
-    id:         file-text-alt
+  - name:       File Text Outlined
+    id:         file-text-o
     unicode:    f0f6
     created:    3.0
     categories:
@@ -1746,8 +1746,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Circle Alt
-    id:         circle-alt
+  - name:       Circle Outlined
+    id:         circle-o
     unicode:    f10c
     created:    3.0
     categories:
@@ -1798,50 +1798,50 @@ icons:
     categories:
       - Brand Icons
 
-  - name:       Folder Alt
-    id:         folder-alt
+  - name:       Folder Outlined
+    id:         folder-o
     unicode:    f114
     created:    3.0
     categories:
       - Web Application Icons
 
-  - name:       Folder Open Alt
-    id:         folder-open-alt
+  - name:       Folder Open Outlined
+    id:         folder-open-o
     unicode:    f115
     created:    3.0
     categories:
       - Web Application Icons
 
-  - name:       Expand Alt
-    id:         expand-alt
+  - name:       Expand Outlined
+    id:         expand-o
     unicode:    f116
     created:    3.1
     categories:
       - Web Application Icons
 
-  - name:       Collapse Alt
-    id:         collapse-alt
+  - name:       Collapse Outlined
+    id:         collapse-o
     unicode:    f117
     created:    3.1
     categories:
       - Web Application Icons
 
-  - name:       Smile Alt
-    id:         smile-alt
+  - name:       Smile Outlined
+    id:         smile-o
     unicode:    f118
     created:    3.1
     categories:
       - Web Application Icons
 
-  - name:       Frown Alt
-    id:         frown-alt
+  - name:       Frown Outlined
+    id:         frown-o
     unicode:    f119
     created:    3.1
     categories:
       - Web Application Icons
 
-  - name:       Meh Alt
-    id:         meh-alt
+  - name:       Meh Outlined
+    id:         meh-o
     unicode:    f11a
     created:    3.1
     categories:
@@ -1854,15 +1854,15 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Keyboard Alt
-    id:         keyboard-alt
+  - name:       Keyboard Outlined
+    id:         keyboard-o
     unicode:    f11c
     created:    3.1
     categories:
       - Web Application Icons
 
-  - name:       Flag Alt
-    id:         flag-alt
+  - name:       Flag Outlined
+    id:         flag-o
     unicode:    f11d
     created:    3.1
     categories:
@@ -1904,8 +1904,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Star Half Alt
-    id:         star-half-alt
+  - name:       Star Half Outlined
+    id:         star-half-o
     unicode:    f123
     created:    3.1
     aliases:
@@ -2016,8 +2016,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       calendar-alt
-    id:         calendar-alt
+  - name:       calendar-o
+    id:         calendar-o
     unicode:    f133
     created:    3.1
     categories:
@@ -2093,8 +2093,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Unlock Alt
-    id:         unlock-alt
+  - name:       Unlock Outlined
+    id:         unlock-o
     unicode:    f13e
     created:    3.1
     categories:
@@ -2150,8 +2150,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Minus Square Alt
-    id:         minus-square-alt
+  - name:       Minus Square Outlined
+    id:         minus-square-o
     unicode:    f147
     created:    3.1
     categories:
@@ -2207,8 +2207,8 @@ icons:
       - Web Application Icons
 
 
-  - name:       Caret Square Alt Down
-    id:         caret-square-alt-down
+  - name:       Caret Square Outlined Down
+    id:         caret-square-o-down
     unicode:    f150
     created:    3.2
     aliases:
@@ -2217,8 +2217,8 @@ icons:
       - Web Application Icons
       - Directional Icons
 
-  - name:       Caret Square Alt Up
-    id:         caret-square-alt-up
+  - name:       Caret Square Outlined Up
+    id:         caret-square-o-up
     unicode:    f151
     created:    3.2
     aliases:
@@ -2227,8 +2227,8 @@ icons:
       - Web Application Icons
       - Directional Icons
 
-  - name:       Caret Square Alt Right
-    id:         caret-square-alt-right
+  - name:       Caret Square Outlined Right
+    id:         caret-square-o-right
     unicode:    f152
     created:    3.2
     aliases:
@@ -2588,15 +2588,15 @@ icons:
     categories:
       - Brand Icons
 
-  - name:       Sun Alt
-    id:         sun-alt
+  - name:       Sun Outlined
+    id:         sun-o
     unicode:    f185
     created:    3.2
     categories:
       - Web Application Icons
 
-  - name:       Moon Alt
-    id:         moon-alt
+  - name:       Moon Outlined
+    id:         moon-o
     unicode:    f186
     created:    3.2
     categories:
@@ -2652,23 +2652,23 @@ icons:
     categories:
       - Brand Icons
 
-  - name:       Arrow Circle Alt Right
-    id:         arrow-circle-alt-right
+  - name:       Arrow Circle Outlined Right
+    id:         arrow-circle-o-right
     unicode:    f18e
     created:    4.0
     categories:
       - Directional Icons
 
 
-  - name:       Arrow Circle Alt Left
-    id:         arrow-circle-alt-left
+  - name:       Arrow Circle Outlined Left
+    id:         arrow-circle-o-left
     unicode:    f190
     created:    4.0
     categories:
       - Directional Icons
 
-  - name:       Caret Square Alt Left
-    id:         caret-square-alt-left
+  - name:       Caret Square Outlined Left
+    id:         caret-square-o-left
     unicode:    f191
     created:    4.0
     aliases:

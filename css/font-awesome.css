@@ -252,7 +252,7 @@
 .fa-magnifying-glass:before {
   content: "\f002";
 }
-.fa-envelope-alt:before {
+.fa-envelope-o:before {
   content: "\f003";
 }
 .fa-heart:before {
@@ -261,7 +261,7 @@
 .fa-star:before {
   content: "\f005";
 }
-.fa-star-alt:before {
+.fa-star-o:before {
   content: "\f006";
 }
 .fa-user:before {
@@ -301,16 +301,16 @@
 .fa-cog:before {
   content: "\f013";
 }
-.fa-trash-alt:before {
+.fa-trash-o:before {
   content: "\f014";
 }
 .fa-home:before {
   content: "\f015";
 }
-.fa-file-alt:before {
+.fa-file-o:before {
   content: "\f016";
 }
-.fa-clock-alt:before {
+.fa-clock-o:before {
   content: "\f017";
 }
 .fa-road:before {
@@ -319,16 +319,16 @@
 .fa-download:before {
   content: "\f019";
 }
-.fa-arrow-circle-alt-down:before {
+.fa-arrow-circle-o-down:before {
   content: "\f01a";
 }
-.fa-arrow-circle-alt-up:before {
+.fa-arrow-circle-o-up:before {
   content: "\f01b";
 }
 .fa-inbox:before {
   content: "\f01c";
 }
-.fa-play-circle-alt:before {
+.fa-play-circle-o:before {
   content: "\f01d";
 }
 .fa-rotate-right:before,
@@ -423,7 +423,7 @@
 .fa-video-camera:before {
   content: "\f03d";
 }
-.fa-picture-alt:before {
+.fa-picture-o:before {
   content: "\f03e";
 }
 .fa-pencil:before {
@@ -439,13 +439,13 @@
   content: "\f043";
 }
 .fa-edit:before,
-.fa-pencil-square-alt:before {
+.fa-pencil-square-o:before {
   content: "\f044";
 }
-.fa-share-square-alt:before {
+.fa-share-square-o:before {
   content: "\f045";
 }
-.fa-check-square-alt:before {
+.fa-check-square-o:before {
   content: "\f046";
 }
 .fa-move:before {
@@ -508,10 +508,10 @@
 .fa-crosshairs:before {
   content: "\f05b";
 }
-.fa-times-circle-alt:before {
+.fa-times-circle-o:before {
   content: "\f05c";
 }
-.fa-check-circle-alt:before {
+.fa-check-circle-o:before {
   content: "\f05d";
 }
 .fa-ban:before {
@@ -609,7 +609,7 @@
 .fa-resize-horizontal:before {
   content: "\f07e";
 }
-.fa-bar-chart-alt:before {
+.fa-bar-chart-o:before {
   content: "\f080";
 }
 .fa-twitter-square:before {
@@ -631,16 +631,16 @@
 .fa-comments:before {
   content: "\f086";
 }
-.fa-thumbs-up-alt:before {
+.fa-thumbs-up-o:before {
   content: "\f087";
 }
-.fa-thumbs-down-alt:before {
+.fa-thumbs-down-o:before {
   content: "\f088";
 }
 .fa-star-half:before {
   content: "\f089";
 }
-.fa-heart-alt:before {
+.fa-heart-o:before {
   content: "\f08a";
 }
 .fa-sign-out:before {
@@ -667,17 +667,17 @@
 .fa-upload:before {
   content: "\f093";
 }
-.fa-lemon-alt:before {
+.fa-lemon-o:before {
   content: "\f094";
 }
 .fa-phone:before {
   content: "\f095";
 }
 .fa-unchecked:before,
-.fa-square-alt:before {
+.fa-square-o:before {
   content: "\f096";
 }
-.fa-bookmark-alt:before {
+.fa-bookmark-o:before {
   content: "\f097";
 }
 .fa-phone-square:before {
@@ -713,16 +713,16 @@
 .fa-certificate:before {
   content: "\f0a3";
 }
-.fa-hand-alt-right:before {
+.fa-hand-o-right:before {
   content: "\f0a4";
 }
-.fa-hand-alt-left:before {
+.fa-hand-o-left:before {
   content: "\f0a5";
 }
-.fa-hand-alt-up:before {
+.fa-hand-o-up:before {
   content: "\f0a6";
 }
-.fa-hand-alt-down:before {
+.fa-hand-o-down:before {
   content: "\f0a7";
 }
 .fa-arrow-circle-left:before {
@@ -773,14 +773,14 @@
   content: "\f0c4";
 }
 .fa-copy:before,
-.fa-files-alt:before {
+.fa-files-o:before {
   content: "\f0c5";
 }
 .fa-paperclip:before {
   content: "\f0c6";
 }
 .fa-save:before,
-.fa-floppy-alt:before {
+.fa-floppy-o:before {
   content: "\f0c7";
 }
 .fa-square:before {
@@ -870,10 +870,10 @@
 .fa-tachometer:before {
   content: "\f0e4";
 }
-.fa-comment-alt:before {
+.fa-comment-o:before {
   content: "\f0e5";
 }
-.fa-comments-alt:before {
+.fa-comments-o:before {
   content: "\f0e6";
 }
 .fa-flash:before,
@@ -890,7 +890,7 @@
 .fa-clipboard:before {
   content: "\f0ea";
 }
-.fa-lightbulb-alt:before {
+.fa-lightbulb-o:before {
   content: "\f0eb";
 }
 .fa-exchange:before {
@@ -911,7 +911,7 @@
 .fa-suitcase:before {
   content: "\f0f2";
 }
-.fa-bell-alt:before {
+.fa-bell-o:before {
   content: "\f0a2";
 }
 .fa-coffee:before {
@@ -920,7 +920,7 @@
 .fa-cutlery:before {
   content: "\f0f5";
 }
-.fa-file-text-alt:before {
+.fa-file-text-o:before {
   content: "\f0f6";
 }
 .fa-building:before {
@@ -984,7 +984,7 @@
 .fa-mobile:before {
   content: "\f10b";
 }
-.fa-circle-alt:before {
+.fa-circle-o:before {
   content: "\f10c";
 }
 .fa-quote-left:before {
@@ -1006,34 +1006,34 @@
 .fa-github-alt:before {
   content: "\f113";
 }
-.fa-folder-alt:before {
+.fa-folder-o:before {
   content: "\f114";
 }
-.fa-folder-open-alt:before {
+.fa-folder-open-o:before {
   content: "\f115";
 }
-.fa-expand-alt:before {
+.fa-expand-o:before {
   content: "\f116";
 }
-.fa-collapse-alt:before {
+.fa-collapse-o:before {
   content: "\f117";
 }
-.fa-smile-alt:before {
+.fa-smile-o:before {
   content: "\f118";
 }
-.fa-frown-alt:before {
+.fa-frown-o:before {
   content: "\f119";
 }
-.fa-meh-alt:before {
+.fa-meh-o:before {
   content: "\f11a";
 }
 .fa-gamepad:before {
   content: "\f11b";
 }
-.fa-keyboard-alt:before {
+.fa-keyboard-o:before {
   content: "\f11c";
 }
-.fa-flag-alt:before {
+.fa-flag-o:before {
   content: "\f11d";
 }
 .fa-flag-checkered:before {
@@ -1053,7 +1053,7 @@
 }
 .fa-star-half-empty:before,
 .fa-star-half-full:before,
-.fa-star-half-alt:before {
+.fa-star-half-o:before {
   content: "\f123";
 }
 .fa-location-arrow:before {
@@ -1099,7 +1099,7 @@
 .fa-shield:before {
   content: "\f132";
 }
-.fa-calendar-alt:before {
+.fa-calendar-o:before {
   content: "\f133";
 }
 .fa-fire-extinguisher:before {
@@ -1132,7 +1132,7 @@
 .fa-anchor:before {
   content: "\f13d";
 }
-.fa-unlock-alt:before {
+.fa-unlock-o:before {
   content: "\f13e";
 }
 .fa-bullseye:before {
@@ -1156,7 +1156,7 @@
 .fa-minus-square:before {
   content: "\f146";
 }
-.fa-minus-square-alt:before {
+.fa-minus-square-o:before {
   content: "\f147";
 }
 .fa-level-up:before {
@@ -1181,15 +1181,15 @@
   content: "\f14e";
 }
 .fa-toggle-down:before,
-.fa-caret-square-alt-down:before {
+.fa-caret-square-o-down:before {
   content: "\f150";
 }
 .fa-toggle-up:before,
-.fa-caret-square-alt-up:before {
+.fa-caret-square-o-up:before {
   content: "\f151";
 }
 .fa-toggle-right:before,
-.fa-caret-square-alt-right:before {
+.fa-caret-square-o-right:before {
   content: "\f152";
 }
 .fa-euro:before,
@@ -1343,10 +1343,10 @@
 .fa-gittip:before {
   content: "\f184";
 }
-.fa-sun-alt:before {
+.fa-sun-o:before {
   content: "\f185";
 }
-.fa-moon-alt:before {
+.fa-moon-o:before {
   content: "\f186";
 }
 .fa-archive:before {
@@ -1370,13 +1370,13 @@
 .fa-stack-exchange:before {
   content: "\f18d";
 }
-.fa-arrow-circle-alt-right:before {
+.fa-arrow-circle-o-right:before {
   content: "\f18e";
 }
-.fa-arrow-circle-alt-left:before {
+.fa-arrow-circle-o-left:before {
   content: "\f190";
 }
 .fa-toggle-left:before,
-.fa-caret-square-alt-left:before {
+.fa-caret-square-o-left:before {
   content: "\f191";
 }
