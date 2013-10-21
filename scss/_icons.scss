@@ -3,8 +3,7 @@
 
 .#{$fa-css-prefix}-glass:before { content: $fa-var-glass; }
 .#{$fa-css-prefix}-music:before { content: $fa-var-music; }
-.#{$fa-css-prefix}-search:before,
-.#{$fa-css-prefix}-magnifying-glass:before { content: $fa-var-magnifying-glass; }
+.#{$fa-css-prefix}-search:before { content: $fa-var-search; }
 .#{$fa-css-prefix}-envelope-o:before { content: $fa-var-envelope-o; }
 .#{$fa-css-prefix}-heart:before { content: $fa-var-heart; }
 .#{$fa-css-prefix}-star:before { content: $fa-var-star; }
@@ -16,8 +15,8 @@
 .#{$fa-css-prefix}-th-list:before { content: $fa-var-th-list; }
 .#{$fa-css-prefix}-check:before { content: $fa-var-check; }
 .#{$fa-css-prefix}-times:before { content: $fa-var-times; }
-.#{$fa-css-prefix}-magnifying-glass-plus:before { content: $fa-var-magnifying-glass-plus; }
-.#{$fa-css-prefix}-magnifying-glass-minus:before { content: $fa-var-magnifying-glass-minus; }
+.#{$fa-css-prefix}-search-plus:before { content: $fa-var-search-plus; }
+.#{$fa-css-prefix}-search-minus:before { content: $fa-var-search-minus; }
 .#{$fa-css-prefix}-power-off:before { content: $fa-var-power-off; }
 .#{$fa-css-prefix}-signal:before { content: $fa-var-signal; }
 .#{$fa-css-prefix}-gear:before,
@@ -136,8 +135,8 @@
 .#{$fa-css-prefix}-gears:before,
 .#{$fa-css-prefix}-cogs:before { content: $fa-var-cogs; }
 .#{$fa-css-prefix}-comments:before { content: $fa-var-comments; }
-.#{$fa-css-prefix}-thumbs-up-o:before { content: $fa-var-thumbs-up-o; }
-.#{$fa-css-prefix}-thumbs-down-o:before { content: $fa-var-thumbs-down-o; }
+.#{$fa-css-prefix}-thumbs-o-up:before { content: $fa-var-thumbs-o-up; }
+.#{$fa-css-prefix}-thumbs-o-down:before { content: $fa-var-thumbs-o-down; }
 .#{$fa-css-prefix}-star-half:before { content: $fa-var-star-half; }
 .#{$fa-css-prefix}-heart-o:before { content: $fa-var-heart-o; }
 .#{$fa-css-prefix}-sign-out:before { content: $fa-var-sign-out; }

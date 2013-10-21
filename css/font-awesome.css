@@ -248,8 +248,7 @@
 .fa-music:before {
   content: "\f001";
 }
-.fa-search:before,
-.fa-magnifying-glass:before {
+.fa-search:before {
   content: "\f002";
 }
 .fa-envelope-o:before {
@@ -285,10 +284,10 @@
 .fa-times:before {
   content: "\f00d";
 }
-.fa-magnifying-glass-plus:before {
+.fa-search-plus:before {
   content: "\f00e";
 }
-.fa-magnifying-glass-minus:before {
+.fa-search-minus:before {
   content: "\f010";
 }
 .fa-power-off:before {
@@ -631,10 +630,10 @@
 .fa-comments:before {
   content: "\f086";
 }
-.fa-thumbs-up-o:before {
+.fa-thumbs-o-up:before {
   content: "\f087";
 }
-.fa-thumbs-down-o:before {
+.fa-thumbs-o-down:before {
   content: "\f088";
 }
 .fa-star-half:before {

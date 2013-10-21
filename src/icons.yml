@@ -13,12 +13,10 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Magnifying Glass
-    id:         magnifying-glass
+  - name:       Search
+    id:         search
     unicode:    f002
     created:    1.0
-    aliases:
-      - search
     categories:
       - Web Application Icons
 
@@ -99,22 +97,18 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Magnifying Glass Plus
-    id:         magnifying-glass-plus
+  - name:       Search Plus
+    id:         search-plus
     unicode:    f00e
     created:    1.0
-    alias:
-      - search-plus
     categories:
       - Web Application Icons
 
 
-  - name:       Magnifying Glass Minus
-    id:         magnifying-glass-minus
+  - name:       Search Minus
+    id:         search-minus
     unicode:    f010
     created:    1.0
-    alias:
-      - search-minus
     categories:
       - Web Application Icons
 
@@ -916,15 +910,15 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       thumbs-up-o
-    id:         thumbs-up-o
+  - name:       Thumbs Up Outlined
+    id:         thumbs-o-up
     unicode:    f087
     created:    1.0
     categories:
       - Web Application Icons
 
-  - name:       thumbs-down-o
-    id:         thumbs-down-o
+  - name:       Thumbs Down Outlined
+    id:         thumbs-o-down
     unicode:    f088
     created:    1.0
     categories:

@@ -26,7 +26,7 @@
 .fa-flip-vertical{-webkit-transform:scale(1, -1);-moz-transform:scale(1, -1);-ms-transform:scale(1, -1);-o-transform:scale(1, -1);transform:scale(1, -1)}
 .fa-glass:before{content:"\f000"}
 .fa-music:before{content:"\f001"}
-.fa-search:before,.fa-magnifying-glass:before{content:"\f002"}
+.fa-search:before{content:"\f002"}
 .fa-envelope-o:before{content:"\f003"}
 .fa-heart:before{content:"\f004"}
 .fa-star:before{content:"\f005"}
@@ -38,8 +38,8 @@
 .fa-th-list:before{content:"\f00b"}
 .fa-check:before{content:"\f00c"}
 .fa-times:before{content:"\f00d"}
-.fa-magnifying-glass-plus:before{content:"\f00e"}
-.fa-magnifying-glass-minus:before{content:"\f010"}
+.fa-search-plus:before{content:"\f00e"}
+.fa-search-minus:before{content:"\f010"}
 .fa-power-off:before{content:"\f011"}
 .fa-signal:before{content:"\f012"}
 .fa-gear:before,.fa-cog:before{content:"\f013"}
@@ -151,8 +151,8 @@
 .fa-key:before{content:"\f084"}
 .fa-gears:before,.fa-cogs:before{content:"\f085"}
 .fa-comments:before{content:"\f086"}
-.fa-thumbs-up-o:before{content:"\f087"}
-.fa-thumbs-down-o:before{content:"\f088"}
+.fa-thumbs-o-up:before{content:"\f087"}
+.fa-thumbs-o-down:before{content:"\f088"}
 .fa-star-half:before{content:"\f089"}
 .fa-heart-o:before{content:"\f08a"}
 .fa-sign-out:before{content:"\f08b"}
