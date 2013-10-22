@@ -165,7 +165,7 @@
 .fa-upload:before{content:"\f093"}
 .fa-lemon-o:before{content:"\f094"}
 .fa-phone:before{content:"\f095"}
-.fa-unchecked:before,.fa-square-o:before{content:"\f096"}
+.fa-square-o:before{content:"\f096"}
 .fa-bookmark-o:before{content:"\f097"}
 .fa-phone-square:before{content:"\f098"}
 .fa-twitter:before{content:"\f099"}
@@ -390,3 +390,4 @@
 .fa-arrow-circle-o-right:before{content:"\f18e"}
 .fa-arrow-circle-o-left:before{content:"\f190"}
 .fa-toggle-left:before,.fa-caret-square-o-left:before{content:"\f191"}
+.fa-dot-circle-o:before{content:"\f192"}

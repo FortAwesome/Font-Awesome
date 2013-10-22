@@ -672,7 +672,6 @@
 .fa-phone:before {
   content: "\f095";
 }
-.fa-unchecked:before,
 .fa-square-o:before {
   content: "\f096";
 }
@@ -1378,4 +1377,7 @@
 .fa-toggle-left:before,
 .fa-caret-square-o-left:before {
   content: "\f191";
+}
+.fa-dot-circle-o:before {
+  content: "\f192";
 }

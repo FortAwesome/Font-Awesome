@@ -479,6 +479,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Form Control Icons
 
   - name:       move
     id:         move
@@ -1013,10 +1014,10 @@ icons:
     id:         square-o
     unicode:    f096
     created:    2.0
-    aliases:
-      - unchecked
     categories:
       - Web Application Icons
+      - Form Control Icons
+
 
   - name:       Bookmark Outlined
     id:         bookmark-o
@@ -1273,6 +1274,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Form Control Icons
 
   - name:       Reorder
     id:         reorder
@@ -1746,6 +1748,7 @@ icons:
     created:    3.0
     categories:
       - Web Application Icons
+      - Form Control Icons
 
   - name:       quote-left
     id:         quote-left
@@ -1775,6 +1778,7 @@ icons:
     created:    3.0
     categories:
       - Web Application Icons
+      - Form Control Icons
 
   - name:       Reply
     id:         reply
@@ -2143,6 +2147,7 @@ icons:
     created:    3.1
     categories:
       - Web Application Icons
+      - Form Control Icons
 
   - name:       Minus Square Outlined
     id:         minus-square-o
@@ -2150,6 +2155,8 @@ icons:
     created:    3.1
     categories:
       - Web Application Icons
+      - Form Control Icons
+
 
   - name:       Level Up
     id:         level-up
@@ -2171,6 +2178,7 @@ icons:
     created:    3.1
     categories:
       - Web Application Icons
+      - Form Control Icons
 
   - name:       Pencil Square
     id:         pencil-square
@@ -2670,3 +2678,11 @@ icons:
     categories:
       - Web Application Icons
       - Directional Icons
+
+  - name:       Dot Circle O
+    id:         dot-circle-o
+    unicode:    f192
+    created:    4.0
+    categories:
+      - Web Application Icons
+      - Form Control Icons
