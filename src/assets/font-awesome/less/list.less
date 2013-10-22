@@ -1,0 +1,23 @@
+---
+---
+
+// Icon UL & LI
+// -------------------------
+
+.@{fa-css-prefix}-ul {
+  padding-left: 0;
+  margin-left: @fa-icon-li-width;
+  list-style-type: none;
+  > li { position: relative; }
+}
+.@{fa-css-prefix}-li {
+  position: absolute;
+  left: -@fa-icon-li-width;
+  width: @fa-icon-li-width;
+  top: (2em / 14);
+  text-align: center;
+  &.@{fa-css-prefix}-lg {
+    left: -@fa-icon-li-width + (4em / 14);
+  }
+}
+

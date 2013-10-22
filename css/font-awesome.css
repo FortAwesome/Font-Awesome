@@ -31,8 +31,6 @@
   font-weight: normal;
   font-style: normal;
 }
-/* FONT AWESOME CORE
- * -------------------------- */
 .fa {
   display: inline-block;
   font-family: FontAwesome;
@@ -47,6 +45,18 @@
   font-size: 1.3333333333333333em;
   line-height: 0.75em;
   vertical-align: -15%;
+}
+.fa-2x {
+  font-size: 2em;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-4x {
+  font-size: 4em;
+}
+.fa-5x {
+  font-size: 5em;
 }
 .fa-fw {
   width: 1.2857142857142858em;
@@ -70,50 +80,11 @@
 .fa-li.fa-lg {
   left: -1.8571428571428572em;
 }
-.fa.hide {
-  display: none;
-}
-.fa-muted {
-  color: #eeeeee;
-}
-.fa-light {
-  color: #ffffff;
-}
-.fa-dark {
-  color: #333333;
-}
 .fa-border {
   padding: .2em .25em .15em;
   border: solid 1px #eeeeee;
-  border-radius: 3px;
-}
-.fa-2x {
-  font-size: 2em;
-}
-.fa-2x.fa-border {
-  border-width: 2px;
-  border-radius: 4px;
-}
-.fa-3x {
-  font-size: 3em;
-}
-.fa-3x.fa-border {
-  border-width: 3px;
-  border-radius: 5px;
-}
-.fa-4x {
-  font-size: 4em;
-}
-.fa-4x.fa-border {
-  border-width: 4px;
-  border-radius: 6px;
-}
-.fa-5x {
-  font-size: 5em;
-}
-.fa-5x.fa-border {
-  border-width: 5px;
-  border-radius: 7px;
+  border-width: .08em;
+  border-radius: .1em;
 }
 .pull-right {
   float: right;
@@ -127,30 +98,6 @@
 .fa.pull-right {
   margin-left: .3em;
 }
-/* EXTRAS
- * -------------------------- */
-/* Stacked and layered icon */
-.fa-stack {
-  position: relative;
-  display: inline-block;
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
-  vertical-align: -35%;
-}
-.fa-stack .fa {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  font-size: 1em;
-  line-height: inherit;
-  text-align: center;
-}
-.fa-stack .fa-stack-base {
-  font-size: 2em;
-}
-/* Animated rotating icon */
 .fa-spin {
   -webkit-animation: spin 2s infinite linear;
   -moz-animation: spin 2s infinite linear;
@@ -234,6 +181,29 @@
   -ms-transform: scale(1, -1);
   -o-transform: scale(1, -1);
   transform: scale(1, -1);
+}
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.fa-stack-top,
+.fa-stack-bottom {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.fa-stack-top {
+  line-height: inherit;
+}
+.fa-stack-bottom {
+  font-size: 2em;
+}
+.fa-inverse {
+  color: #ffffff;
 }
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */

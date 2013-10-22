@@ -1,29 +1,28 @@
 @font-face{font-family:'FontAwesome';src:url('../fonts/FontAwesome.otf') format('opentype');font-weight:normal;font-style:normal}.fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .fa-lg{font-size:1.3333333333333333em;line-height:.75em;vertical-align:-15%}
+.fa-2x{font-size:2em}
+.fa-3x{font-size:3em}
+.fa-4x{font-size:4em}
+.fa-5x{font-size:5em}
 .fa-fw{width:1.2857142857142858em;text-align:center}
 .fa-ul{padding-left:0;margin-left:2.142857142857143em;list-style-type:none}.fa-ul>li{position:relative}
 .fa-li{position:absolute;left:-2.142857142857143em;width:2.142857142857143em;top:.14285714285714285em;text-align:center}.fa-li.fa-lg{left:-1.8571428571428572em}
-.fa.hide{display:none}
-.fa-muted{color:#eee}
-.fa-light{color:#fff}
-.fa-dark{color:#333}
-.fa-border{padding:.2em .25em .15em;border:solid 1px #eee;border-radius:3px}
-.fa-2x{font-size:2em}.fa-2x.fa-border{border-width:2px;border-radius:4px}
-.fa-3x{font-size:3em}.fa-3x.fa-border{border-width:3px;border-radius:5px}
-.fa-4x{font-size:4em}.fa-4x.fa-border{border-width:4px;border-radius:6px}
-.fa-5x{font-size:5em}.fa-5x.fa-border{border-width:5px;border-radius:7px}
+.fa-border{padding:.2em .25em .15em;border:solid 1px #eee;border-width:.08em;border-radius:.1em}
 .pull-right{float:right}
 .pull-left{float:left}
 .fa.pull-left{margin-right:.3em}
 .fa.pull-right{margin-left:.3em}
-.fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:-35%}.fa-stack .fa{position:absolute;display:block;width:100%;height:100%;font-size:1em;line-height:inherit;text-align:center}
-.fa-stack .fa-stack-base{font-size:2em}
 .fa-spin{-webkit-animation:spin 2s infinite linear;-moz-animation:spin 2s infinite linear;-o-animation:spin 2s infinite linear;animation:spin 2s infinite linear}
 @-moz-keyframes spin{0%{-moz-transform:rotate(0deg)} 100%{-moz-transform:rotate(359deg)}}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg)} 100%{-webkit-transform:rotate(359deg)}}@-o-keyframes spin{0%{-o-transform:rotate(0deg)} 100%{-o-transform:rotate(359deg)}}@-ms-keyframes spin{0%{-ms-transform:rotate(0deg)} 100%{-ms-transform:rotate(359deg)}}@keyframes spin{0%{transform:rotate(0deg)} 100%{transform:rotate(359deg)}}.fa-rotate-90{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg)}
 .fa-rotate-180{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}
 .fa-rotate-270{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg)}
 .fa-flip-horizontal{-webkit-transform:scale(-1, 1);-moz-transform:scale(-1, 1);-ms-transform:scale(-1, 1);-o-transform:scale(-1, 1);transform:scale(-1, 1)}
 .fa-flip-vertical{-webkit-transform:scale(1, -1);-moz-transform:scale(1, -1);-ms-transform:scale(1, -1);-o-transform:scale(1, -1);transform:scale(1, -1)}
+.fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}
+.fa-stack-top,.fa-stack-bottom{position:absolute;width:100%;text-align:center}
+.fa-stack-top{line-height:inherit}
+.fa-stack-bottom{font-size:2em}
+.fa-inverse{color:#fff}
 .fa-glass:before{content:"\f000"}
 .fa-music:before{content:"\f001"}
 .fa-search:before{content:"\f002"}
