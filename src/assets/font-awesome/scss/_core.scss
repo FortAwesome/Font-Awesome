@@ -19,14 +19,10 @@
   line-height: (3em / 4);
   vertical-align: -15%;
 }
-/* increased font size for icon-lg */
+
 .#{$fa-css-prefix}-fixed-width {
-  width: (16em / 14);
-  padding-right: (4em / 14);
-  text-align: right;
-  &.#{$fa-css-prefix}-lg {
-    width: (20em / 14);
-  }
+ width: (18em / 14);
+ text-align: center;
 }
 
 

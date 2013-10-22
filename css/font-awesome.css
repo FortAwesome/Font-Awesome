@@ -48,14 +48,9 @@
   line-height: 0.75em;
   vertical-align: -15%;
 }
-/* increased font size for icon-lg */
-.fa-fixed-width {
-  width: 1.1428571428571428em;
-  padding-right: 0.2857142857142857em;
-  text-align: right;
-}
-.fa-fixed-width.fa-lg {
-  width: 1.4285714285714286em;
+.fa-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
 }
 .fa-ul {
   padding-left: 0;

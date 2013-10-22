@@ -1,6 +1,6 @@
 @font-face{font-family:'FontAwesome';src:url('../fonts/FontAwesome.otf') format('opentype');font-weight:normal;font-style:normal}.fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .fa-lg{font-size:1.3333333333333333em;line-height:.75em;vertical-align:-15%}
-.fa-fixed-width{width:1.1428571428571428em;padding-right:.2857142857142857em;text-align:right}.fa-fixed-width.fa-lg{width:1.4285714285714286em}
+.fa-fw{width:1.2857142857142858em;text-align:center}
 .fa-ul{padding-left:0;margin-left:2.142857142857143em;list-style-type:none}.fa-ul>li{position:relative}
 .fa-li{position:absolute;left:-2.142857142857143em;width:2.142857142857143em;top:.14285714285714285em;text-align:center}.fa-li.fa-lg{left:-1.8571428571428572em}
 .fa.hide{display:none}
