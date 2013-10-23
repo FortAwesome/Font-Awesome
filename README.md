@@ -1,4 +1,4 @@
-#[Font Awesome v3.2.1](http://fontawesome.io)
+#[Font Awesome v4.0.0](http://fontawesome.io)
 ###the iconic font designed for Bootstrap
 
 Font Awesome is a full suite of 361 pictographic icons for easy scalable vector graphics on websites, created and

@@ -1346,3 +1346,9 @@
 .fa-dot-circle-o:before {
   content: "\f192";
 }
+.fa-wheelchair:before {
+  content: "\f193";
+}
+.fa-vimeo-square:before {
+  content: "\f194";
+}

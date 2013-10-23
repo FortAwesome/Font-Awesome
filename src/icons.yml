@@ -2686,3 +2686,17 @@ icons:
     categories:
       - Web Application Icons
       - Form Control Icons
+
+  - name:       Wheelchair
+    id:         wheelchair
+    unicode:    f193
+    created:    4.0
+    categories:
+      - Web Application Icons
+
+  - name:       Vimeo Square
+    id:         vimeo-square
+    unicode:    f194
+    created:    4.0
+    categories:
+      - Brand Icons
