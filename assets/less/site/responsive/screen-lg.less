@@ -1,0 +1,53 @@
+@media (min-width: @screen-lg) {
+  #icon-carousel {
+    @size: 240px;
+    font-size: @size;
+    line-height: @size + 5;
+    margin-top: @buffer-lg;
+  }
+
+  .carousel-control {
+    top: @size + 25px;
+    .square(30px);
+    font-size: 40px;
+    line-height: 35px;
+    left: 370/2 - 42px;
+    &.right {
+      right: 370/2 - 42px;
+    }
+  }
+
+  .jumbotron-ad {
+    padding: 50px 0;
+    h1 {
+      margin-top: 25px;
+      font-size: 90px;
+    }
+    p {
+      font-size: 28px;
+      margin: 35px 0 20px;
+    }
+  }
+
+  .jumbotron-carousel {
+    padding: 50px 0;
+    h1 { font-size: 100px; }
+    p {
+      font-size: 32px;
+      margin: 20px 0;
+    }
+    .btn-large {
+      font-size: 30px;
+      padding: 21px 35px;
+    }
+  }
+
+  .stripe-ad .lead { margin-top: 7px; }
+
+  .lead {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .hide-lg { display: none; }
+}

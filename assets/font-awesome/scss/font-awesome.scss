@@ -1,5 +1,5 @@
 /*!
- *  Font Awesome 3.2.1
+ *  Font Awesome 4.0.0
  *  the iconic font designed for Bootstrap
  *  ------------------------------------------------------------------------------
  *  The full suite of pictographic icons, examples, and documentation can be
@@ -28,6 +28,11 @@
 @import "mixins";
 @import "path";
 @import "core";
-@import "bootstrap";
-@import "extras";
+@import "larger";
+@import "fixed-width";
+@import "list";
+@import "bordered-pulled";
+@import "spinning";
+@import "rotated-flipped";
+@import "stacked";
 @import "icons";

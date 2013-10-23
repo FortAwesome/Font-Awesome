@@ -1,34 +1,26 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
+<html lang="en">
 <head>
   <!-- Basic Page Needs
  ================================================== -->
   <meta charset="utf-8" />
-  <title>Font Awesome Cheatsheet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Font Awesome, the iconic font designed for Bootstrap">
   <meta name="author" content="Dave Gandy">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--<meta name="viewport" content="initial-scale=1; maximum-scale=1">-->
+  <link rel="shortcut icon" href="../assets/ico/favicon.ico">
 
-  <!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <title>Font Awesome Cheatsheet</title>
 
   <!-- CSS
- ================================================== -->
-
+  ================================================== -->
   <link rel="stylesheet" href="../assets/css/site.css">
   <link rel="stylesheet" href="../assets/css/pygments.css">
   <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.css">
-  <!--[if IE 7]>
-  <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome-ie7.css">
+
+  <!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+    <script src="../assets/js/respond.min.js"></script>
   <![endif]-->
-  <!-- Le fav and touch icons -->
-  <link rel="shortcut icon" href="../assets/ico/favicon.ico">
 
   <script type="text/javascript" src="//use.typekit.net/wnc7ioh.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -45,75 +37,75 @@
     })();
   </script>
 </head>
-<body data-spy="scroll" data-target=".navbar">
-<div class="wrapper"> <!-- necessary for sticky footer. wrap all content except footer -->
+<body>
+<div id="wrap"> <!-- necessary for sticky footer. wrap all content except footer -->
   <div class="navbar navbar-inverse navbar-static-top hidden-print">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-
-      <a class="brand" href="../"><i class="icon-flag"></i> Font Awesome</a>
-      <div class="nav-collapse collapse">
-        <ul class="nav">
-          <li class="hidden-tablet "><a href="../">Home</a></li>
-          <li><a href="../get-started/">Get Started</a></li>
-          <li class="dropdown-split-left"><a href="../icons/">Icons</a></li>
-          <li class="dropdown dropdown-split-right hidden-phone">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="icon-caret-down"></i>
-            </a>
-            <ul class="dropdown-menu pull-right">
-              <li><a href="../icons/"><i class="icon-flag icon-fixed-width"></i>&nbsp; Icons</a></li>
-              <li class="divider"></li>
-              <li><a href="../icons/#new"><i class="icon-shield icon-fixed-width"></i>&nbsp; New Icons in 3.2.1</a></li>
-              <li><a href="../icons/#web-application"><i class="icon-camera-retro icon-fixed-width"></i>&nbsp; Web Application Icons</a></li>
-              <li><a href="../icons/#currency"><i class="icon-won icon-fixed-width"></i>&nbsp; Currency Icons</a></li>
-              <li><a href="../icons/#text-editor"><i class="icon-file-text-alt icon-fixed-width"></i>&nbsp; Text Editor Icons</a></li>
-              <li><a href="../icons/#directional"><i class="icon-hand-right icon-fixed-width"></i>&nbsp; Directional Icons</a></li>
-              <li><a href="../icons/#video-player"><i class="icon-play-sign icon-fixed-width"></i>&nbsp; Video Player Icons</a></li>
-              <li><a href="../icons/#brand"><i class="icon-github icon-fixed-width"></i>&nbsp; Brand Icons</a></li>
-              <li><a href="../icons/#medical"><i class="icon-medkit icon-fixed-width"></i>&nbsp; Medical Icons</a></li>
-            </ul>
-          </li>
-          <li class="dropdown-split-left"><a href="../examples/">Examples</a></li>
-          <li class="dropdown dropdown-split-right hidden-phone">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="icon-caret-down"></i>
-            </a>
-            <ul class="dropdown-menu pull-right">
-              <li><a href="../examples/">Examples</a></li>
-              <li class="divider"></li>
-              <li><a href="../examples/#new-styles">New Styles</a></li>
-              <li><a href="../examples/#inline-icons">Inline Icons</a></li>
-              <li><a href="../examples/#larger-icons">Larger Icons</a></li>
-              <li><a href="../examples/#bordered-pulled">Bordered & Pulled</a></li>
-              <li><a href="../examples/#buttons">Buttons</a></li>
-              <li><a href="../examples/#button-groups">Button Groups</a></li>
-              <li><a href="../examples/#button-dropdowns">Button Dropdowns</a></li>
-              <li><a href="../examples/#bulleted-lists">Bulleted Lists</a></li>
-              <li><a href="../examples/#navigation">Navigation</a></li>
-              <li><a href="../examples/#form-inputs">Form Inputs</a></li>
-              <li><a href="../examples/#animated-spinner">Animated Spinner</a></li>
-              <li><a href="../examples/#rotated-flipped">Rotated &amp; Flipped</a></li>
-              <li><a href="../examples/#stacked">Stacked</a></li>
-              <li><a href="../examples/#custom">Custom CSS</a></li>
-            </ul>
-          </li>
-          <li><a href="../whats-new/">
-          <span class="hidden-tablet">What's </span>New</a>
-          </li>
-          <li><a href="../community/">Community</a></li>
-          <li><a href="../license/">License</a></li>
-        </ul>
-        <ul class="nav pull-right">
-          <li><a href="http://blog.fontawesome.io">Blog</a></li>
-        </ul>
-      </div>
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-reorder fa-lg"></i>
+      </button>
+      <a class="navbar-brand" href="../"><i class="fa fa-flag"></i> Font Awesome</a>
     </div>
+
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="hidden-sm "><a href="../">Home</a></li>
+        <li class="hidden-sm">
+          <a href="../whats-new/">What's New</a>
+        </li>
+        <li class="hidden-xs hidden-md hidden-lg">
+          <a href="../whats-new/">New</a>
+        </li>
+        <li><a href="../get-started/">Get Started</a></li>
+        <li class="dropdown-split-left"><a href="../icons/">Icons</a></li>
+        <li class="dropdown dropdown-split-right hidden-xs">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu pull-right">
+            <li><a href="../icons/"><i class="fa fa-flag fa-fw"></i>&nbsp; Icons</a></li>
+            <li class="divider"></li>
+            <li><a href="../icons/#new"><i class="fa fa-rub fa-fw"></i>&nbsp; New Icons in 4.0</a></li>
+            <li><a href="../icons/#web-application"><i class="fa fa-camera-retro fa-fw"></i>&nbsp; Web Application Icons</a></li>
+            <li><a href="../icons/#form-control"><i class="fa fa-check-square fa-fw"></i>&nbsp; Form Control Icons</a></li>
+            <li><a href="../icons/#currency"><i class="fa fa-won fa-fw"></i>&nbsp; Currency Icons</a></li>
+            <li><a href="../icons/#text-editor"><i class="fa fa-file-text-o fa-fw"></i>&nbsp; Text Editor Icons</a></li>
+            <li><a href="../icons/#directional"><i class="fa fa-hand-o-right fa-fw"></i>&nbsp; Directional Icons</a></li>
+            <li><a href="../icons/#video-player"><i class="fa fa-play-circle fa-fw"></i>&nbsp; Video Player Icons</a></li>
+            <li><a href="../icons/#brand"><i class="fa fa-github fa-fw"></i>&nbsp; Brand Icons</a></li>
+            <li><a href="../icons/#medical"><i class="fa fa-medkit fa-fw"></i>&nbsp; Medical Icons</a></li>
+          </ul>
+        </li>
+        <li class="dropdown-split-left"><a href="../examples/">Examples</a></li>
+        <li class="dropdown dropdown-split-right hidden-xs">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu pull-right">
+            <li><a href="../examples/">Examples</a></li>
+            <li class="divider"></li>
+            <li><a href="../examples/#inline">Inline Icons</a></li>
+            <li><a href="../examples/#larger">Larger Icons</a></li>
+            <li><a href="../examples/#fixed-width">Fixed Width Icons</a></li>
+            <li><a href="../examples/#list">List Icons</a></li>
+            <li><a href="../examples/#bordered-pulled">Bordered & Pulled Icons</a></li>
+            <li><a href="../examples/#spinning">Spinning Icons</a></li>
+            <li><a href="../examples/#rotated-flipped">Rotated &amp; Flipped Icons</a></li>
+            <li><a href="../examples/#stacked">Stacked Icons</a></li>
+            <li><a href="../examples/#bootstrap">Bootstrap 3 Examples</a></li>
+            <li><a href="../examples/#custom">Custom CSS</a></li>
+          </ul>
+        </li>
+        <li><a href="../community/">Community</a></li>
+        <li><a href="../license/">License</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://blog.fontawesome.io">Blog</a></li>
+      </ul>
+    </div>
+
   </div>
 </div>
 
@@ -123,14 +115,14 @@
 
 <div class="jumbotron jumbotron-ad hidden-print">
   <div class="container">
-    <h1><i class="icon-list-ul icon-large"></i>&nbsp; Cheatsheet</h1>
-    <p>The complete Font Awesome 3.2.1 icon reference</p>
+    <h1><i class="fa fa-list-ul"></i>&nbsp; Cheatsheet</h1>
+    <p>The complete Font Awesome 4.0.0 icon reference</p>
   </div>
 </div>
 
 <div id="social-buttons" class="hidden-print">
   <div class="container">
-    <ul class="unstyled inline">
+    <ul class="list-inline">
       <li>
         <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
       </li>
@@ -150,2216 +142,2264 @@
 
 <div class="container">
   
-<section class="hidden-print">
-  <div class="row stripe-ad">
-    <div class="span8">
-      
-<p class="lead">
-  Print this page to PDF for the complete set of vectors. Or to use on the desktop, install FontAwesome.otf and copy
-  and paste the icons (not the unicode) directly into your designs.
-</p>
+  <section class="hidden-print">
+  <div class="stripe-ad">
+    <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/32291/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
 
-    </div>
-    <div class="span4">
-      <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/32291/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
-
-    </div>
+    
+  <p class="lead">
+    Print this page to PDF for the complete set of vectors. Or to use on the desktop, install FontAwesome.otf and copy
+    and paste the icons (not the unicode) directly into your designs.
+  </p>
+  
   </div>
 </section>
 
 
-<h2 class="page-header">Every Font Awesome 3.2.1 Icon, CSS Class, &amp; Unicode</h2>
-
-<div class="row">
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf000</i>
-    icon-glass
-    <span class="muted">(&amp;#xf000;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf001</i>
-    icon-music
-    <span class="muted">(&amp;#xf001;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf002</i>
-    icon-search
-    <span class="muted">(&amp;#xf002;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf003</i>
-    icon-envelope-alt
-    <span class="muted">(&amp;#xf003;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf004</i>
-    icon-heart
-    <span class="muted">(&amp;#xf004;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf005</i>
-    icon-star
-    <span class="muted">(&amp;#xf005;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf006</i>
-    icon-star-empty
-    <span class="muted">(&amp;#xf006;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf007</i>
-    icon-user
-    <span class="muted">(&amp;#xf007;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf008</i>
-    icon-film
-    <span class="muted">(&amp;#xf008;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf009</i>
-    icon-th-large
-    <span class="muted">(&amp;#xf009;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf00a</i>
-    icon-th
-    <span class="muted">(&amp;#xf00a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf00b</i>
-    icon-th-list
-    <span class="muted">(&amp;#xf00b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf00c</i>
-    icon-ok
-    <span class="muted">(&amp;#xf00c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf00d</i>
-    icon-remove
-    <span class="muted">(&amp;#xf00d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf00e</i>
-    icon-zoom-in
-    <span class="muted">(&amp;#xf00e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf010</i>
-    icon-zoom-out
-    <span class="muted">(&amp;#xf010;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf011</i>
-    icon-off
-    <span class="muted">(&amp;#xf011;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf012</i>
-    icon-signal
-    <span class="muted">(&amp;#xf012;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf013</i>
-    icon-cog
-    <span class="muted">(&amp;#xf013;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf014</i>
-    icon-trash
-    <span class="muted">(&amp;#xf014;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf015</i>
-    icon-home
-    <span class="muted">(&amp;#xf015;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf016</i>
-    icon-file-alt
-    <span class="muted">(&amp;#xf016;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf017</i>
-    icon-time
-    <span class="muted">(&amp;#xf017;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf018</i>
-    icon-road
-    <span class="muted">(&amp;#xf018;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf019</i>
-    icon-download-alt
-    <span class="muted">(&amp;#xf019;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf01a</i>
-    icon-download
-    <span class="muted">(&amp;#xf01a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf01b</i>
-    icon-upload
-    <span class="muted">(&amp;#xf01b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf01c</i>
-    icon-inbox
-    <span class="muted">(&amp;#xf01c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf01d</i>
-    icon-play-circle
-    <span class="muted">(&amp;#xf01d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf01e</i>
-    icon-repeat
-    <span class="muted">(&amp;#xf01e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf021</i>
-    icon-refresh
-    <span class="muted">(&amp;#xf021;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf022</i>
-    icon-list-alt
-    <span class="muted">(&amp;#xf022;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf023</i>
-    icon-lock
-    <span class="muted">(&amp;#xf023;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf024</i>
-    icon-flag
-    <span class="muted">(&amp;#xf024;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf025</i>
-    icon-headphones
-    <span class="muted">(&amp;#xf025;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf026</i>
-    icon-volume-off
-    <span class="muted">(&amp;#xf026;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf027</i>
-    icon-volume-down
-    <span class="muted">(&amp;#xf027;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf028</i>
-    icon-volume-up
-    <span class="muted">(&amp;#xf028;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf029</i>
-    icon-qrcode
-    <span class="muted">(&amp;#xf029;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf02a</i>
-    icon-barcode
-    <span class="muted">(&amp;#xf02a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf02b</i>
-    icon-tag
-    <span class="muted">(&amp;#xf02b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf02c</i>
-    icon-tags
-    <span class="muted">(&amp;#xf02c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf02d</i>
-    icon-book
-    <span class="muted">(&amp;#xf02d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf02e</i>
-    icon-bookmark
-    <span class="muted">(&amp;#xf02e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf02f</i>
-    icon-print
-    <span class="muted">(&amp;#xf02f;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf030</i>
-    icon-camera
-    <span class="muted">(&amp;#xf030;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf031</i>
-    icon-font
-    <span class="muted">(&amp;#xf031;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf032</i>
-    icon-bold
-    <span class="muted">(&amp;#xf032;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf033</i>
-    icon-italic
-    <span class="muted">(&amp;#xf033;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf034</i>
-    icon-text-height
-    <span class="muted">(&amp;#xf034;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf035</i>
-    icon-text-width
-    <span class="muted">(&amp;#xf035;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf036</i>
-    icon-align-left
-    <span class="muted">(&amp;#xf036;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf037</i>
-    icon-align-center
-    <span class="muted">(&amp;#xf037;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf038</i>
-    icon-align-right
-    <span class="muted">(&amp;#xf038;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf039</i>
-    icon-align-justify
-    <span class="muted">(&amp;#xf039;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf03a</i>
-    icon-list
-    <span class="muted">(&amp;#xf03a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf03b</i>
-    icon-indent-left
-    <span class="muted">(&amp;#xf03b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf03c</i>
-    icon-indent-right
-    <span class="muted">(&amp;#xf03c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf03d</i>
-    icon-facetime-video
-    <span class="muted">(&amp;#xf03d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf03e</i>
-    icon-picture
-    <span class="muted">(&amp;#xf03e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf040</i>
-    icon-pencil
-    <span class="muted">(&amp;#xf040;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf041</i>
-    icon-map-marker
-    <span class="muted">(&amp;#xf041;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf042</i>
-    icon-adjust
-    <span class="muted">(&amp;#xf042;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf043</i>
-    icon-tint
-    <span class="muted">(&amp;#xf043;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf044</i>
-    icon-edit
-    <span class="muted">(&amp;#xf044;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf045</i>
-    icon-share
-    <span class="muted">(&amp;#xf045;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf046</i>
-    icon-check
-    <span class="muted">(&amp;#xf046;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf047</i>
-    icon-move
-    <span class="muted">(&amp;#xf047;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf048</i>
-    icon-step-backward
-    <span class="muted">(&amp;#xf048;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf049</i>
-    icon-fast-backward
-    <span class="muted">(&amp;#xf049;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf04a</i>
-    icon-backward
-    <span class="muted">(&amp;#xf04a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf04b</i>
-    icon-play
-    <span class="muted">(&amp;#xf04b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf04c</i>
-    icon-pause
-    <span class="muted">(&amp;#xf04c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf04d</i>
-    icon-stop
-    <span class="muted">(&amp;#xf04d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf04e</i>
-    icon-forward
-    <span class="muted">(&amp;#xf04e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf050</i>
-    icon-fast-forward
-    <span class="muted">(&amp;#xf050;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf051</i>
-    icon-step-forward
-    <span class="muted">(&amp;#xf051;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf052</i>
-    icon-eject
-    <span class="muted">(&amp;#xf052;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf053</i>
-    icon-chevron-left
-    <span class="muted">(&amp;#xf053;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf054</i>
-    icon-chevron-right
-    <span class="muted">(&amp;#xf054;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf055</i>
-    icon-plus-sign
-    <span class="muted">(&amp;#xf055;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf056</i>
-    icon-minus-sign
-    <span class="muted">(&amp;#xf056;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf057</i>
-    icon-remove-sign
-    <span class="muted">(&amp;#xf057;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf058</i>
-    icon-ok-sign
-    <span class="muted">(&amp;#xf058;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf059</i>
-    icon-question-sign
-    <span class="muted">(&amp;#xf059;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf05a</i>
-    icon-info-sign
-    <span class="muted">(&amp;#xf05a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf05b</i>
-    icon-screenshot
-    <span class="muted">(&amp;#xf05b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf05c</i>
-    icon-remove-circle
-    <span class="muted">(&amp;#xf05c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf05d</i>
-    icon-ok-circle
-    <span class="muted">(&amp;#xf05d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf05e</i>
-    icon-ban-circle
-    <span class="muted">(&amp;#xf05e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf060</i>
-    icon-arrow-left
-    <span class="muted">(&amp;#xf060;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf061</i>
-    icon-arrow-right
-    <span class="muted">(&amp;#xf061;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf062</i>
-    icon-arrow-up
-    <span class="muted">(&amp;#xf062;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf063</i>
-    icon-arrow-down
-    <span class="muted">(&amp;#xf063;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf064</i>
-    icon-share-alt
-    <span class="muted">(&amp;#xf064;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf065</i>
-    icon-resize-full
-    <span class="muted">(&amp;#xf065;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf066</i>
-    icon-resize-small
-    <span class="muted">(&amp;#xf066;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf067</i>
-    icon-plus
-    <span class="muted">(&amp;#xf067;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf068</i>
-    icon-minus
-    <span class="muted">(&amp;#xf068;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf069</i>
-    icon-asterisk
-    <span class="muted">(&amp;#xf069;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf06a</i>
-    icon-exclamation-sign
-    <span class="muted">(&amp;#xf06a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf06b</i>
-    icon-gift
-    <span class="muted">(&amp;#xf06b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf06c</i>
-    icon-leaf
-    <span class="muted">(&amp;#xf06c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf06d</i>
-    icon-fire
-    <span class="muted">(&amp;#xf06d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf06e</i>
-    icon-eye-open
-    <span class="muted">(&amp;#xf06e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf070</i>
-    icon-eye-close
-    <span class="muted">(&amp;#xf070;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf071</i>
-    icon-warning-sign
-    <span class="muted">(&amp;#xf071;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf072</i>
-    icon-plane
-    <span class="muted">(&amp;#xf072;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf073</i>
-    icon-calendar
-    <span class="muted">(&amp;#xf073;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf074</i>
-    icon-random
-    <span class="muted">(&amp;#xf074;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf075</i>
-    icon-comment
-    <span class="muted">(&amp;#xf075;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf076</i>
-    icon-magnet
-    <span class="muted">(&amp;#xf076;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf077</i>
-    icon-chevron-up
-    <span class="muted">(&amp;#xf077;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf078</i>
-    icon-chevron-down
-    <span class="muted">(&amp;#xf078;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf079</i>
-    icon-retweet
-    <span class="muted">(&amp;#xf079;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf07a</i>
-    icon-shopping-cart
-    <span class="muted">(&amp;#xf07a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf07b</i>
-    icon-folder-close
-    <span class="muted">(&amp;#xf07b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf07c</i>
-    icon-folder-open
-    <span class="muted">(&amp;#xf07c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf07d</i>
-    icon-resize-vertical
-    <span class="muted">(&amp;#xf07d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf07e</i>
-    icon-resize-horizontal
-    <span class="muted">(&amp;#xf07e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf080</i>
-    icon-bar-chart
-    <span class="muted">(&amp;#xf080;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf081</i>
-    icon-twitter-sign
-    <span class="muted">(&amp;#xf081;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf082</i>
-    icon-facebook-sign
-    <span class="muted">(&amp;#xf082;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf083</i>
-    icon-camera-retro
-    <span class="muted">(&amp;#xf083;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf084</i>
-    icon-key
-    <span class="muted">(&amp;#xf084;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf085</i>
-    icon-cogs
-    <span class="muted">(&amp;#xf085;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf086</i>
-    icon-comments
-    <span class="muted">(&amp;#xf086;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf087</i>
-    icon-thumbs-up-alt
-    <span class="muted">(&amp;#xf087;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf088</i>
-    icon-thumbs-down-alt
-    <span class="muted">(&amp;#xf088;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf089</i>
-    icon-star-half
-    <span class="muted">(&amp;#xf089;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf08a</i>
-    icon-heart-empty
-    <span class="muted">(&amp;#xf08a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf08b</i>
-    icon-signout
-    <span class="muted">(&amp;#xf08b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf08c</i>
-    icon-linkedin-sign
-    <span class="muted">(&amp;#xf08c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf08d</i>
-    icon-pushpin
-    <span class="muted">(&amp;#xf08d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf08e</i>
-    icon-external-link
-    <span class="muted">(&amp;#xf08e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf090</i>
-    icon-signin
-    <span class="muted">(&amp;#xf090;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf091</i>
-    icon-trophy
-    <span class="muted">(&amp;#xf091;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf092</i>
-    icon-github-sign
-    <span class="muted">(&amp;#xf092;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf093</i>
-    icon-upload-alt
-    <span class="muted">(&amp;#xf093;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf094</i>
-    icon-lemon
-    <span class="muted">(&amp;#xf094;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf095</i>
-    icon-phone
-    <span class="muted">(&amp;#xf095;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf096</i>
-    icon-check-empty
-    <span class="muted">(&amp;#xf096;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf097</i>
-    icon-bookmark-empty
-    <span class="muted">(&amp;#xf097;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf098</i>
-    icon-phone-sign
-    <span class="muted">(&amp;#xf098;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf099</i>
-    icon-twitter
-    <span class="muted">(&amp;#xf099;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf09a</i>
-    icon-facebook
-    <span class="muted">(&amp;#xf09a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf09b</i>
-    icon-github
-    <span class="muted">(&amp;#xf09b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf09c</i>
-    icon-unlock
-    <span class="muted">(&amp;#xf09c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf09d</i>
-    icon-credit-card
-    <span class="muted">(&amp;#xf09d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf09e</i>
-    icon-rss
-    <span class="muted">(&amp;#xf09e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0a0</i>
-    icon-hdd
-    <span class="muted">(&amp;#xf0a0;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0a1</i>
-    icon-bullhorn
-    <span class="muted">(&amp;#xf0a1;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0a2</i>
-    icon-bell
-    <span class="muted">(&amp;#xf0a2;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0a3</i>
-    icon-certificate
-    <span class="muted">(&amp;#xf0a3;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0a4</i>
-    icon-hand-right
-    <span class="muted">(&amp;#xf0a4;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0a5</i>
-    icon-hand-left
-    <span class="muted">(&amp;#xf0a5;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0a6</i>
-    icon-hand-up
-    <span class="muted">(&amp;#xf0a6;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0a7</i>
-    icon-hand-down
-    <span class="muted">(&amp;#xf0a7;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0a8</i>
-    icon-circle-arrow-left
-    <span class="muted">(&amp;#xf0a8;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0a9</i>
-    icon-circle-arrow-right
-    <span class="muted">(&amp;#xf0a9;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0aa</i>
-    icon-circle-arrow-up
-    <span class="muted">(&amp;#xf0aa;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0ab</i>
-    icon-circle-arrow-down
-    <span class="muted">(&amp;#xf0ab;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0ac</i>
-    icon-globe
-    <span class="muted">(&amp;#xf0ac;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0ad</i>
-    icon-wrench
-    <span class="muted">(&amp;#xf0ad;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0ae</i>
-    icon-tasks
-    <span class="muted">(&amp;#xf0ae;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0b0</i>
-    icon-filter
-    <span class="muted">(&amp;#xf0b0;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0b1</i>
-    icon-briefcase
-    <span class="muted">(&amp;#xf0b1;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0b2</i>
-    icon-fullscreen
-    <span class="muted">(&amp;#xf0b2;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0c0</i>
-    icon-group
-    <span class="muted">(&amp;#xf0c0;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0c1</i>
-    icon-link
-    <span class="muted">(&amp;#xf0c1;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0c2</i>
-    icon-cloud
-    <span class="muted">(&amp;#xf0c2;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0c3</i>
-    icon-beaker
-    <span class="muted">(&amp;#xf0c3;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0c4</i>
-    icon-cut
-    <span class="muted">(&amp;#xf0c4;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0c5</i>
-    icon-copy
-    <span class="muted">(&amp;#xf0c5;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0c6</i>
-    icon-paper-clip
-    <span class="muted">(&amp;#xf0c6;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0c7</i>
-    icon-save
-    <span class="muted">(&amp;#xf0c7;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0c8</i>
-    icon-sign-blank
-    <span class="muted">(&amp;#xf0c8;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0c9</i>
-    icon-reorder
-    <span class="muted">(&amp;#xf0c9;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0ca</i>
-    icon-list-ul
-    <span class="muted">(&amp;#xf0ca;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0cb</i>
-    icon-list-ol
-    <span class="muted">(&amp;#xf0cb;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0cc</i>
-    icon-strikethrough
-    <span class="muted">(&amp;#xf0cc;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0cd</i>
-    icon-underline
-    <span class="muted">(&amp;#xf0cd;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0ce</i>
-    icon-table
-    <span class="muted">(&amp;#xf0ce;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0d0</i>
-    icon-magic
-    <span class="muted">(&amp;#xf0d0;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0d1</i>
-    icon-truck
-    <span class="muted">(&amp;#xf0d1;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0d2</i>
-    icon-pinterest
-    <span class="muted">(&amp;#xf0d2;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0d3</i>
-    icon-pinterest-sign
-    <span class="muted">(&amp;#xf0d3;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0d4</i>
-    icon-google-plus-sign
-    <span class="muted">(&amp;#xf0d4;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0d5</i>
-    icon-google-plus
-    <span class="muted">(&amp;#xf0d5;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0d6</i>
-    icon-money
-    <span class="muted">(&amp;#xf0d6;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0d7</i>
-    icon-caret-down
-    <span class="muted">(&amp;#xf0d7;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0d8</i>
-    icon-caret-up
-    <span class="muted">(&amp;#xf0d8;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0d9</i>
-    icon-caret-left
-    <span class="muted">(&amp;#xf0d9;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0da</i>
-    icon-caret-right
-    <span class="muted">(&amp;#xf0da;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0db</i>
-    icon-columns
-    <span class="muted">(&amp;#xf0db;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0dc</i>
-    icon-sort
-    <span class="muted">(&amp;#xf0dc;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0dd</i>
-    icon-sort-down
-    <span class="muted">(&amp;#xf0dd;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0de</i>
-    icon-sort-up
-    <span class="muted">(&amp;#xf0de;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0e0</i>
-    icon-envelope
-    <span class="muted">(&amp;#xf0e0;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0e1</i>
-    icon-linkedin
-    <span class="muted">(&amp;#xf0e1;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0e2</i>
-    icon-undo
-    <span class="muted">(&amp;#xf0e2;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0e3</i>
-    icon-legal
-    <span class="muted">(&amp;#xf0e3;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0e4</i>
-    icon-dashboard
-    <span class="muted">(&amp;#xf0e4;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0e5</i>
-    icon-comment-alt
-    <span class="muted">(&amp;#xf0e5;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0e6</i>
-    icon-comments-alt
-    <span class="muted">(&amp;#xf0e6;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0e7</i>
-    icon-bolt
-    <span class="muted">(&amp;#xf0e7;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0e8</i>
-    icon-sitemap
-    <span class="muted">(&amp;#xf0e8;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0e9</i>
-    icon-umbrella
-    <span class="muted">(&amp;#xf0e9;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0ea</i>
-    icon-paste
-    <span class="muted">(&amp;#xf0ea;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0eb</i>
-    icon-lightbulb
-    <span class="muted">(&amp;#xf0eb;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0ec</i>
-    icon-exchange
-    <span class="muted">(&amp;#xf0ec;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0ed</i>
-    icon-cloud-download
-    <span class="muted">(&amp;#xf0ed;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0ee</i>
-    icon-cloud-upload
-    <span class="muted">(&amp;#xf0ee;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0f0</i>
-    icon-user-md
-    <span class="muted">(&amp;#xf0f0;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0f1</i>
-    icon-stethoscope
-    <span class="muted">(&amp;#xf0f1;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0f2</i>
-    icon-suitcase
-    <span class="muted">(&amp;#xf0f2;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0f3</i>
-    icon-bell-alt
-    <span class="muted">(&amp;#xf0f3;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0f4</i>
-    icon-coffee
-    <span class="muted">(&amp;#xf0f4;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0f5</i>
-    icon-food
-    <span class="muted">(&amp;#xf0f5;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0f6</i>
-    icon-file-text-alt
-    <span class="muted">(&amp;#xf0f6;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0f7</i>
-    icon-building
-    <span class="muted">(&amp;#xf0f7;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0f8</i>
-    icon-hospital
-    <span class="muted">(&amp;#xf0f8;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0f9</i>
-    icon-ambulance
-    <span class="muted">(&amp;#xf0f9;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0fa</i>
-    icon-medkit
-    <span class="muted">(&amp;#xf0fa;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0fb</i>
-    icon-fighter-jet
-    <span class="muted">(&amp;#xf0fb;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0fc</i>
-    icon-beer
-    <span class="muted">(&amp;#xf0fc;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0fd</i>
-    icon-h-sign
-    <span class="muted">(&amp;#xf0fd;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf0fe</i>
-    icon-plus-sign-alt
-    <span class="muted">(&amp;#xf0fe;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf100</i>
-    icon-double-angle-left
-    <span class="muted">(&amp;#xf100;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf101</i>
-    icon-double-angle-right
-    <span class="muted">(&amp;#xf101;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf102</i>
-    icon-double-angle-up
-    <span class="muted">(&amp;#xf102;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf103</i>
-    icon-double-angle-down
-    <span class="muted">(&amp;#xf103;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf104</i>
-    icon-angle-left
-    <span class="muted">(&amp;#xf104;)</span>
+  <h2 class="page-header">Every Font Awesome 4.0.0 Icon, CSS Class, &amp; Unicode</h2>
+
+  <div class="row">
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf000</i>
+      fa-glass
+      <span class="muted">(&amp;#xf000;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf001</i>
+      fa-music
+      <span class="muted">(&amp;#xf001;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf002</i>
+      fa-search
+      <span class="muted">(&amp;#xf002;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf003</i>
+      fa-envelope-o
+      <span class="muted">(&amp;#xf003;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf004</i>
+      fa-heart
+      <span class="muted">(&amp;#xf004;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf005</i>
+      fa-star
+      <span class="muted">(&amp;#xf005;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf006</i>
+      fa-star-o
+      <span class="muted">(&amp;#xf006;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf007</i>
+      fa-user
+      <span class="muted">(&amp;#xf007;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf008</i>
+      fa-film
+      <span class="muted">(&amp;#xf008;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf009</i>
+      fa-th-large
+      <span class="muted">(&amp;#xf009;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf00a</i>
+      fa-th
+      <span class="muted">(&amp;#xf00a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf00b</i>
+      fa-th-list
+      <span class="muted">(&amp;#xf00b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf00c</i>
+      fa-check
+      <span class="muted">(&amp;#xf00c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf00d</i>
+      fa-times
+      <span class="muted">(&amp;#xf00d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf00e</i>
+      fa-search-plus
+      <span class="muted">(&amp;#xf00e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf010</i>
+      fa-search-minus
+      <span class="muted">(&amp;#xf010;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf011</i>
+      fa-power-off
+      <span class="muted">(&amp;#xf011;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf012</i>
+      fa-signal
+      <span class="muted">(&amp;#xf012;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf013</i>
+      fa-cog
+      <span class="muted">(&amp;#xf013;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf014</i>
+      fa-trash-o
+      <span class="muted">(&amp;#xf014;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf015</i>
+      fa-home
+      <span class="muted">(&amp;#xf015;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf016</i>
+      fa-file-o
+      <span class="muted">(&amp;#xf016;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf017</i>
+      fa-clock-o
+      <span class="muted">(&amp;#xf017;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf018</i>
+      fa-road
+      <span class="muted">(&amp;#xf018;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf019</i>
+      fa-download
+      <span class="muted">(&amp;#xf019;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf01a</i>
+      fa-arrow-circle-o-down
+      <span class="muted">(&amp;#xf01a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf01b</i>
+      fa-arrow-circle-o-up
+      <span class="muted">(&amp;#xf01b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf01c</i>
+      fa-inbox
+      <span class="muted">(&amp;#xf01c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf01d</i>
+      fa-play-circle-o
+      <span class="muted">(&amp;#xf01d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf01e</i>
+      fa-repeat
+      <span class="muted">(&amp;#xf01e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf021</i>
+      fa-refresh
+      <span class="muted">(&amp;#xf021;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf022</i>
+      fa-list-alt
+      <span class="muted">(&amp;#xf022;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf023</i>
+      fa-lock
+      <span class="muted">(&amp;#xf023;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf024</i>
+      fa-flag
+      <span class="muted">(&amp;#xf024;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf025</i>
+      fa-headphones
+      <span class="muted">(&amp;#xf025;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf026</i>
+      fa-volume-off
+      <span class="muted">(&amp;#xf026;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf027</i>
+      fa-volume-down
+      <span class="muted">(&amp;#xf027;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf028</i>
+      fa-volume-up
+      <span class="muted">(&amp;#xf028;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf029</i>
+      fa-qrcode
+      <span class="muted">(&amp;#xf029;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf02a</i>
+      fa-barcode
+      <span class="muted">(&amp;#xf02a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf02b</i>
+      fa-tag
+      <span class="muted">(&amp;#xf02b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf02c</i>
+      fa-tags
+      <span class="muted">(&amp;#xf02c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf02d</i>
+      fa-book
+      <span class="muted">(&amp;#xf02d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf02e</i>
+      fa-bookmark
+      <span class="muted">(&amp;#xf02e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf02f</i>
+      fa-print
+      <span class="muted">(&amp;#xf02f;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf030</i>
+      fa-camera
+      <span class="muted">(&amp;#xf030;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf031</i>
+      fa-font
+      <span class="muted">(&amp;#xf031;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf032</i>
+      fa-bold
+      <span class="muted">(&amp;#xf032;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf033</i>
+      fa-italic
+      <span class="muted">(&amp;#xf033;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf034</i>
+      fa-text-height
+      <span class="muted">(&amp;#xf034;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf035</i>
+      fa-text-width
+      <span class="muted">(&amp;#xf035;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf036</i>
+      fa-align-left
+      <span class="muted">(&amp;#xf036;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf037</i>
+      fa-align-center
+      <span class="muted">(&amp;#xf037;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf038</i>
+      fa-align-right
+      <span class="muted">(&amp;#xf038;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf039</i>
+      fa-align-justify
+      <span class="muted">(&amp;#xf039;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf03a</i>
+      fa-list
+      <span class="muted">(&amp;#xf03a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf03b</i>
+      fa-outdent
+      <span class="muted">(&amp;#xf03b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf03c</i>
+      fa-indent
+      <span class="muted">(&amp;#xf03c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf03d</i>
+      fa-video-camera
+      <span class="muted">(&amp;#xf03d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf03e</i>
+      fa-picture-o
+      <span class="muted">(&amp;#xf03e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf040</i>
+      fa-pencil
+      <span class="muted">(&amp;#xf040;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf041</i>
+      fa-map-marker
+      <span class="muted">(&amp;#xf041;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf042</i>
+      fa-adjust
+      <span class="muted">(&amp;#xf042;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf043</i>
+      fa-tint
+      <span class="muted">(&amp;#xf043;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf044</i>
+      fa-pencil-square-o
+      <span class="muted">(&amp;#xf044;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf045</i>
+      fa-share-square-o
+      <span class="muted">(&amp;#xf045;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf046</i>
+      fa-check-square-o
+      <span class="muted">(&amp;#xf046;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf047</i>
+      fa-move
+      <span class="muted">(&amp;#xf047;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf048</i>
+      fa-step-backward
+      <span class="muted">(&amp;#xf048;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf049</i>
+      fa-fast-backward
+      <span class="muted">(&amp;#xf049;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf04a</i>
+      fa-backward
+      <span class="muted">(&amp;#xf04a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf04b</i>
+      fa-play
+      <span class="muted">(&amp;#xf04b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf04c</i>
+      fa-pause
+      <span class="muted">(&amp;#xf04c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf04d</i>
+      fa-stop
+      <span class="muted">(&amp;#xf04d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf04e</i>
+      fa-forward
+      <span class="muted">(&amp;#xf04e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf050</i>
+      fa-fast-forward
+      <span class="muted">(&amp;#xf050;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf051</i>
+      fa-step-forward
+      <span class="muted">(&amp;#xf051;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf052</i>
+      fa-eject
+      <span class="muted">(&amp;#xf052;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf053</i>
+      fa-chevron-left
+      <span class="muted">(&amp;#xf053;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf054</i>
+      fa-chevron-right
+      <span class="muted">(&amp;#xf054;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf055</i>
+      fa-plus-circle
+      <span class="muted">(&amp;#xf055;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf056</i>
+      fa-minus-circle
+      <span class="muted">(&amp;#xf056;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf057</i>
+      fa-times-circle
+      <span class="muted">(&amp;#xf057;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf058</i>
+      fa-check-circle
+      <span class="muted">(&amp;#xf058;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf059</i>
+      fa-question-circle
+      <span class="muted">(&amp;#xf059;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf05a</i>
+      fa-info-circle
+      <span class="muted">(&amp;#xf05a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf05b</i>
+      fa-crosshairs
+      <span class="muted">(&amp;#xf05b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf05c</i>
+      fa-times-circle-o
+      <span class="muted">(&amp;#xf05c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf05d</i>
+      fa-check-circle-o
+      <span class="muted">(&amp;#xf05d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf05e</i>
+      fa-ban
+      <span class="muted">(&amp;#xf05e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf060</i>
+      fa-arrow-left
+      <span class="muted">(&amp;#xf060;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf061</i>
+      fa-arrow-right
+      <span class="muted">(&amp;#xf061;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf062</i>
+      fa-arrow-up
+      <span class="muted">(&amp;#xf062;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf063</i>
+      fa-arrow-down
+      <span class="muted">(&amp;#xf063;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf064</i>
+      fa-share
+      <span class="muted">(&amp;#xf064;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf065</i>
+      fa-resize-full
+      <span class="muted">(&amp;#xf065;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf066</i>
+      fa-resize-small
+      <span class="muted">(&amp;#xf066;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf067</i>
+      fa-plus
+      <span class="muted">(&amp;#xf067;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf068</i>
+      fa-minus
+      <span class="muted">(&amp;#xf068;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf069</i>
+      fa-asterisk
+      <span class="muted">(&amp;#xf069;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf06a</i>
+      fa-exclamation-circle
+      <span class="muted">(&amp;#xf06a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf06b</i>
+      fa-gift
+      <span class="muted">(&amp;#xf06b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf06c</i>
+      fa-leaf
+      <span class="muted">(&amp;#xf06c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf06d</i>
+      fa-fire
+      <span class="muted">(&amp;#xf06d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf06e</i>
+      fa-eye
+      <span class="muted">(&amp;#xf06e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf070</i>
+      fa-eye-slash
+      <span class="muted">(&amp;#xf070;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf071</i>
+      fa-exclamation-triangle
+      <span class="muted">(&amp;#xf071;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf072</i>
+      fa-plane
+      <span class="muted">(&amp;#xf072;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf073</i>
+      fa-calendar
+      <span class="muted">(&amp;#xf073;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf074</i>
+      fa-random
+      <span class="muted">(&amp;#xf074;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf075</i>
+      fa-comment
+      <span class="muted">(&amp;#xf075;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf076</i>
+      fa-magnet
+      <span class="muted">(&amp;#xf076;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf077</i>
+      fa-chevron-up
+      <span class="muted">(&amp;#xf077;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf078</i>
+      fa-chevron-down
+      <span class="muted">(&amp;#xf078;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf079</i>
+      fa-retweet
+      <span class="muted">(&amp;#xf079;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf07a</i>
+      fa-shopping-cart
+      <span class="muted">(&amp;#xf07a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf07b</i>
+      fa-folder
+      <span class="muted">(&amp;#xf07b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf07c</i>
+      fa-folder-open
+      <span class="muted">(&amp;#xf07c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf07d</i>
+      fa-resize-vertical
+      <span class="muted">(&amp;#xf07d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf07e</i>
+      fa-resize-horizontal
+      <span class="muted">(&amp;#xf07e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf080</i>
+      fa-bar-chart-o
+      <span class="muted">(&amp;#xf080;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf081</i>
+      fa-twitter-square
+      <span class="muted">(&amp;#xf081;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf082</i>
+      fa-facebook-square
+      <span class="muted">(&amp;#xf082;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf083</i>
+      fa-camera-retro
+      <span class="muted">(&amp;#xf083;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf084</i>
+      fa-key
+      <span class="muted">(&amp;#xf084;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf085</i>
+      fa-cogs
+      <span class="muted">(&amp;#xf085;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf086</i>
+      fa-comments
+      <span class="muted">(&amp;#xf086;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf087</i>
+      fa-thumbs-o-up
+      <span class="muted">(&amp;#xf087;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf088</i>
+      fa-thumbs-o-down
+      <span class="muted">(&amp;#xf088;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf089</i>
+      fa-star-half
+      <span class="muted">(&amp;#xf089;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf08a</i>
+      fa-heart-o
+      <span class="muted">(&amp;#xf08a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf08b</i>
+      fa-sign-out
+      <span class="muted">(&amp;#xf08b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf08c</i>
+      fa-linkedin-square
+      <span class="muted">(&amp;#xf08c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf08d</i>
+      fa-thumb-tack
+      <span class="muted">(&amp;#xf08d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf08e</i>
+      fa-external-link
+      <span class="muted">(&amp;#xf08e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf090</i>
+      fa-sign-in
+      <span class="muted">(&amp;#xf090;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf091</i>
+      fa-trophy
+      <span class="muted">(&amp;#xf091;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf092</i>
+      fa-github-square
+      <span class="muted">(&amp;#xf092;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf093</i>
+      fa-upload
+      <span class="muted">(&amp;#xf093;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf094</i>
+      fa-lemon-o
+      <span class="muted">(&amp;#xf094;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf095</i>
+      fa-phone
+      <span class="muted">(&amp;#xf095;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf096</i>
+      fa-square-o
+      <span class="muted">(&amp;#xf096;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf097</i>
+      fa-bookmark-o
+      <span class="muted">(&amp;#xf097;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf098</i>
+      fa-phone-square
+      <span class="muted">(&amp;#xf098;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf099</i>
+      fa-twitter
+      <span class="muted">(&amp;#xf099;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf09a</i>
+      fa-facebook
+      <span class="muted">(&amp;#xf09a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf09b</i>
+      fa-github
+      <span class="muted">(&amp;#xf09b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf09c</i>
+      fa-unlock
+      <span class="muted">(&amp;#xf09c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf09d</i>
+      fa-credit-card
+      <span class="muted">(&amp;#xf09d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf09e</i>
+      fa-rss
+      <span class="muted">(&amp;#xf09e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0a0</i>
+      fa-hdd
+      <span class="muted">(&amp;#xf0a0;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0a1</i>
+      fa-bullhorn
+      <span class="muted">(&amp;#xf0a1;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0f3</i>
+      fa-bell
+      <span class="muted">(&amp;#xf0f3;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0a3</i>
+      fa-certificate
+      <span class="muted">(&amp;#xf0a3;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0a4</i>
+      fa-hand-o-right
+      <span class="muted">(&amp;#xf0a4;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0a5</i>
+      fa-hand-o-left
+      <span class="muted">(&amp;#xf0a5;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0a6</i>
+      fa-hand-o-up
+      <span class="muted">(&amp;#xf0a6;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0a7</i>
+      fa-hand-o-down
+      <span class="muted">(&amp;#xf0a7;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0a8</i>
+      fa-arrow-circle-left
+      <span class="muted">(&amp;#xf0a8;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0a9</i>
+      fa-arrow-circle-right
+      <span class="muted">(&amp;#xf0a9;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0aa</i>
+      fa-arrow-circle-up
+      <span class="muted">(&amp;#xf0aa;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0ab</i>
+      fa-arrow-circle-down
+      <span class="muted">(&amp;#xf0ab;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0ac</i>
+      fa-globe
+      <span class="muted">(&amp;#xf0ac;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0ad</i>
+      fa-wrench
+      <span class="muted">(&amp;#xf0ad;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0ae</i>
+      fa-tasks
+      <span class="muted">(&amp;#xf0ae;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0b0</i>
+      fa-filter
+      <span class="muted">(&amp;#xf0b0;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0b1</i>
+      fa-briefcase
+      <span class="muted">(&amp;#xf0b1;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0b2</i>
+      fa-fullscreen
+      <span class="muted">(&amp;#xf0b2;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0c0</i>
+      fa-group
+      <span class="muted">(&amp;#xf0c0;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0c1</i>
+      fa-link
+      <span class="muted">(&amp;#xf0c1;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0c2</i>
+      fa-cloud
+      <span class="muted">(&amp;#xf0c2;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0c3</i>
+      fa-flask
+      <span class="muted">(&amp;#xf0c3;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0c4</i>
+      fa-scissors
+      <span class="muted">(&amp;#xf0c4;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0c5</i>
+      fa-files-o
+      <span class="muted">(&amp;#xf0c5;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0c6</i>
+      fa-paperclip
+      <span class="muted">(&amp;#xf0c6;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0c7</i>
+      fa-floppy-o
+      <span class="muted">(&amp;#xf0c7;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0c8</i>
+      fa-square
+      <span class="muted">(&amp;#xf0c8;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0c9</i>
+      fa-reorder
+      <span class="muted">(&amp;#xf0c9;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0ca</i>
+      fa-list-ul
+      <span class="muted">(&amp;#xf0ca;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0cb</i>
+      fa-list-ol
+      <span class="muted">(&amp;#xf0cb;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0cc</i>
+      fa-strikethrough
+      <span class="muted">(&amp;#xf0cc;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0cd</i>
+      fa-underline
+      <span class="muted">(&amp;#xf0cd;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0ce</i>
+      fa-table
+      <span class="muted">(&amp;#xf0ce;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0d0</i>
+      fa-magic
+      <span class="muted">(&amp;#xf0d0;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0d1</i>
+      fa-truck
+      <span class="muted">(&amp;#xf0d1;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0d2</i>
+      fa-pinterest
+      <span class="muted">(&amp;#xf0d2;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0d3</i>
+      fa-pinterest-square
+      <span class="muted">(&amp;#xf0d3;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0d4</i>
+      fa-google-plus-square
+      <span class="muted">(&amp;#xf0d4;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0d5</i>
+      fa-google-plus
+      <span class="muted">(&amp;#xf0d5;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0d6</i>
+      fa-money
+      <span class="muted">(&amp;#xf0d6;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0d7</i>
+      fa-caret-down
+      <span class="muted">(&amp;#xf0d7;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0d8</i>
+      fa-caret-up
+      <span class="muted">(&amp;#xf0d8;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0d9</i>
+      fa-caret-left
+      <span class="muted">(&amp;#xf0d9;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0da</i>
+      fa-caret-right
+      <span class="muted">(&amp;#xf0da;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0db</i>
+      fa-columns
+      <span class="muted">(&amp;#xf0db;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0dc</i>
+      fa-sort
+      <span class="muted">(&amp;#xf0dc;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0dd</i>
+      fa-sort-asc
+      <span class="muted">(&amp;#xf0dd;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0de</i>
+      fa-sort-desc
+      <span class="muted">(&amp;#xf0de;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0e0</i>
+      fa-envelope
+      <span class="muted">(&amp;#xf0e0;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0e1</i>
+      fa-linkedin
+      <span class="muted">(&amp;#xf0e1;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0e2</i>
+      fa-undo
+      <span class="muted">(&amp;#xf0e2;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0e3</i>
+      fa-gavel
+      <span class="muted">(&amp;#xf0e3;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0e4</i>
+      fa-tachometer
+      <span class="muted">(&amp;#xf0e4;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0e5</i>
+      fa-comment-o
+      <span class="muted">(&amp;#xf0e5;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0e6</i>
+      fa-comments-o
+      <span class="muted">(&amp;#xf0e6;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0e7</i>
+      fa-bolt
+      <span class="muted">(&amp;#xf0e7;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0e8</i>
+      fa-sitemap
+      <span class="muted">(&amp;#xf0e8;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0e9</i>
+      fa-umbrella
+      <span class="muted">(&amp;#xf0e9;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0ea</i>
+      fa-clipboard
+      <span class="muted">(&amp;#xf0ea;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0eb</i>
+      fa-lightbulb-o
+      <span class="muted">(&amp;#xf0eb;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0ec</i>
+      fa-exchange
+      <span class="muted">(&amp;#xf0ec;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0ed</i>
+      fa-cloud-download
+      <span class="muted">(&amp;#xf0ed;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0ee</i>
+      fa-cloud-upload
+      <span class="muted">(&amp;#xf0ee;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0f0</i>
+      fa-user-md
+      <span class="muted">(&amp;#xf0f0;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0f1</i>
+      fa-stethoscope
+      <span class="muted">(&amp;#xf0f1;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0f2</i>
+      fa-suitcase
+      <span class="muted">(&amp;#xf0f2;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0a2</i>
+      fa-bell-o
+      <span class="muted">(&amp;#xf0a2;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0f4</i>
+      fa-coffee
+      <span class="muted">(&amp;#xf0f4;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0f5</i>
+      fa-cutlery
+      <span class="muted">(&amp;#xf0f5;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0f6</i>
+      fa-file-text-o
+      <span class="muted">(&amp;#xf0f6;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0f7</i>
+      fa-building
+      <span class="muted">(&amp;#xf0f7;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0f8</i>
+      fa-hospital
+      <span class="muted">(&amp;#xf0f8;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0f9</i>
+      fa-ambulance
+      <span class="muted">(&amp;#xf0f9;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0fa</i>
+      fa-medkit
+      <span class="muted">(&amp;#xf0fa;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0fb</i>
+      fa-fighter-jet
+      <span class="muted">(&amp;#xf0fb;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0fc</i>
+      fa-beer
+      <span class="muted">(&amp;#xf0fc;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0fd</i>
+      fa-h-square
+      <span class="muted">(&amp;#xf0fd;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf0fe</i>
+      fa-plus-square
+      <span class="muted">(&amp;#xf0fe;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf100</i>
+      fa-angle-double-left
+      <span class="muted">(&amp;#xf100;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf101</i>
+      fa-angle-double-right
+      <span class="muted">(&amp;#xf101;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf102</i>
+      fa-angle-double-up
+      <span class="muted">(&amp;#xf102;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf103</i>
+      fa-angle-double-down
+      <span class="muted">(&amp;#xf103;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf104</i>
+      fa-angle-left
+      <span class="muted">(&amp;#xf104;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf105</i>
+      fa-angle-right
+      <span class="muted">(&amp;#xf105;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf106</i>
+      fa-angle-up
+      <span class="muted">(&amp;#xf106;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf107</i>
+      fa-angle-down
+      <span class="muted">(&amp;#xf107;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf108</i>
+      fa-desktop
+      <span class="muted">(&amp;#xf108;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf109</i>
+      fa-laptop
+      <span class="muted">(&amp;#xf109;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf10a</i>
+      fa-tablet
+      <span class="muted">(&amp;#xf10a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf10b</i>
+      fa-mobile
+      <span class="muted">(&amp;#xf10b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf10c</i>
+      fa-circle-o
+      <span class="muted">(&amp;#xf10c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf10d</i>
+      fa-quote-left
+      <span class="muted">(&amp;#xf10d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf10e</i>
+      fa-quote-right
+      <span class="muted">(&amp;#xf10e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf110</i>
+      fa-spinner
+      <span class="muted">(&amp;#xf110;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf111</i>
+      fa-circle
+      <span class="muted">(&amp;#xf111;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf112</i>
+      fa-reply
+      <span class="muted">(&amp;#xf112;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf113</i>
+      fa-github-alt
+      <span class="muted">(&amp;#xf113;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf114</i>
+      fa-folder-o
+      <span class="muted">(&amp;#xf114;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf115</i>
+      fa-folder-open-o
+      <span class="muted">(&amp;#xf115;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf116</i>
+      fa-expand-o
+      <span class="muted">(&amp;#xf116;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf117</i>
+      fa-collapse-o
+      <span class="muted">(&amp;#xf117;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf118</i>
+      fa-smile-o
+      <span class="muted">(&amp;#xf118;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf119</i>
+      fa-frown-o
+      <span class="muted">(&amp;#xf119;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf11a</i>
+      fa-meh-o
+      <span class="muted">(&amp;#xf11a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf11b</i>
+      fa-gamepad
+      <span class="muted">(&amp;#xf11b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf11c</i>
+      fa-keyboard-o
+      <span class="muted">(&amp;#xf11c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf11d</i>
+      fa-flag-o
+      <span class="muted">(&amp;#xf11d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf11e</i>
+      fa-flag-checkered
+      <span class="muted">(&amp;#xf11e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf120</i>
+      fa-terminal
+      <span class="muted">(&amp;#xf120;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf121</i>
+      fa-code
+      <span class="muted">(&amp;#xf121;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf122</i>
+      fa-reply-all
+      <span class="muted">(&amp;#xf122;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf122</i>
+      fa-mail-reply-all
+      <span class="muted">(&amp;#xf122;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf123</i>
+      fa-star-half-o
+      <span class="muted">(&amp;#xf123;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf124</i>
+      fa-location-arrow
+      <span class="muted">(&amp;#xf124;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf125</i>
+      fa-crop
+      <span class="muted">(&amp;#xf125;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf126</i>
+      fa-code-fork
+      <span class="muted">(&amp;#xf126;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf127</i>
+      fa-chain-broken
+      <span class="muted">(&amp;#xf127;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf128</i>
+      fa-question
+      <span class="muted">(&amp;#xf128;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf129</i>
+      fa-info
+      <span class="muted">(&amp;#xf129;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf12a</i>
+      fa-exclamation
+      <span class="muted">(&amp;#xf12a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf12b</i>
+      fa-superscript
+      <span class="muted">(&amp;#xf12b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf12c</i>
+      fa-subscript
+      <span class="muted">(&amp;#xf12c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf12d</i>
+      fa-eraser
+      <span class="muted">(&amp;#xf12d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf12e</i>
+      fa-puzzle-piece
+      <span class="muted">(&amp;#xf12e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf130</i>
+      fa-microphone
+      <span class="muted">(&amp;#xf130;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf131</i>
+      fa-microphone-slash
+      <span class="muted">(&amp;#xf131;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf132</i>
+      fa-shield
+      <span class="muted">(&amp;#xf132;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf133</i>
+      fa-calendar-o
+      <span class="muted">(&amp;#xf133;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf134</i>
+      fa-fire-extinguisher
+      <span class="muted">(&amp;#xf134;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf135</i>
+      fa-rocket
+      <span class="muted">(&amp;#xf135;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf136</i>
+      fa-maxcdn
+      <span class="muted">(&amp;#xf136;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf137</i>
+      fa-chevron-circle-left
+      <span class="muted">(&amp;#xf137;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf138</i>
+      fa-chevron-circle-right
+      <span class="muted">(&amp;#xf138;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf139</i>
+      fa-chevron-circle-up
+      <span class="muted">(&amp;#xf139;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf13a</i>
+      fa-chevron-circle-down
+      <span class="muted">(&amp;#xf13a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf13b</i>
+      fa-html5
+      <span class="muted">(&amp;#xf13b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf13c</i>
+      fa-css3
+      <span class="muted">(&amp;#xf13c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf13d</i>
+      fa-anchor
+      <span class="muted">(&amp;#xf13d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf13e</i>
+      fa-unlock-o
+      <span class="muted">(&amp;#xf13e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf140</i>
+      fa-bullseye
+      <span class="muted">(&amp;#xf140;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf141</i>
+      fa-ellipsis-horizontal
+      <span class="muted">(&amp;#xf141;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf142</i>
+      fa-ellipsis-vertical
+      <span class="muted">(&amp;#xf142;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf143</i>
+      fa-rss-square
+      <span class="muted">(&amp;#xf143;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf144</i>
+      fa-play-circle
+      <span class="muted">(&amp;#xf144;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf145</i>
+      fa-ticket
+      <span class="muted">(&amp;#xf145;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf146</i>
+      fa-minus-square
+      <span class="muted">(&amp;#xf146;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf147</i>
+      fa-minus-square-o
+      <span class="muted">(&amp;#xf147;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf148</i>
+      fa-level-up
+      <span class="muted">(&amp;#xf148;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf149</i>
+      fa-level-down
+      <span class="muted">(&amp;#xf149;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf14a</i>
+      fa-check-square
+      <span class="muted">(&amp;#xf14a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf14b</i>
+      fa-pencil-square
+      <span class="muted">(&amp;#xf14b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf14c</i>
+      fa-external-link-square
+      <span class="muted">(&amp;#xf14c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf14d</i>
+      fa-share-square
+      <span class="muted">(&amp;#xf14d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf14e</i>
+      fa-compass
+      <span class="muted">(&amp;#xf14e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf150</i>
+      fa-caret-square-o-down
+      <span class="muted">(&amp;#xf150;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf151</i>
+      fa-caret-square-o-up
+      <span class="muted">(&amp;#xf151;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf152</i>
+      fa-caret-square-o-right
+      <span class="muted">(&amp;#xf152;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf153</i>
+      fa-eur
+      <span class="muted">(&amp;#xf153;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf154</i>
+      fa-gbp
+      <span class="muted">(&amp;#xf154;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf155</i>
+      fa-usd
+      <span class="muted">(&amp;#xf155;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf156</i>
+      fa-inr
+      <span class="muted">(&amp;#xf156;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf157</i>
+      fa-jpy
+      <span class="muted">(&amp;#xf157;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf158</i>
+      fa-rub
+      <span class="muted">(&amp;#xf158;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf159</i>
+      fa-krw
+      <span class="muted">(&amp;#xf159;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf15a</i>
+      fa-btc
+      <span class="muted">(&amp;#xf15a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf15b</i>
+      fa-file
+      <span class="muted">(&amp;#xf15b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf15c</i>
+      fa-file-text
+      <span class="muted">(&amp;#xf15c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf15d</i>
+      fa-sort-alpha-asc
+      <span class="muted">(&amp;#xf15d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf15e</i>
+      fa-sort-alpha-desc
+      <span class="muted">(&amp;#xf15e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf160</i>
+      fa-sort-amount-asc
+      <span class="muted">(&amp;#xf160;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf161</i>
+      fa-sort-amount-desc
+      <span class="muted">(&amp;#xf161;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf162</i>
+      fa-sort-numeric-asc
+      <span class="muted">(&amp;#xf162;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf163</i>
+      fa-sort-numeric-desc
+      <span class="muted">(&amp;#xf163;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf164</i>
+      fa-thumbs-up
+      <span class="muted">(&amp;#xf164;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf165</i>
+      fa-thumbs-down
+      <span class="muted">(&amp;#xf165;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf166</i>
+      fa-youtube-square
+      <span class="muted">(&amp;#xf166;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf167</i>
+      fa-youtube
+      <span class="muted">(&amp;#xf167;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf168</i>
+      fa-xing
+      <span class="muted">(&amp;#xf168;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf169</i>
+      fa-xing-square
+      <span class="muted">(&amp;#xf169;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf16a</i>
+      fa-youtube-play
+      <span class="muted">(&amp;#xf16a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf16b</i>
+      fa-dropbox
+      <span class="muted">(&amp;#xf16b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf16c</i>
+      fa-stack-overflow
+      <span class="muted">(&amp;#xf16c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf16d</i>
+      fa-instagram
+      <span class="muted">(&amp;#xf16d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf16e</i>
+      fa-flickr
+      <span class="muted">(&amp;#xf16e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf170</i>
+      fa-adn
+      <span class="muted">(&amp;#xf170;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf171</i>
+      fa-bitbucket
+      <span class="muted">(&amp;#xf171;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf172</i>
+      fa-bitbucket-square
+      <span class="muted">(&amp;#xf172;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf173</i>
+      fa-tumblr
+      <span class="muted">(&amp;#xf173;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf174</i>
+      fa-tumblr-square
+      <span class="muted">(&amp;#xf174;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf175</i>
+      fa-long-arrow-down
+      <span class="muted">(&amp;#xf175;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf176</i>
+      fa-long-arrow-up
+      <span class="muted">(&amp;#xf176;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf177</i>
+      fa-long-arrow-left
+      <span class="muted">(&amp;#xf177;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf178</i>
+      fa-long-arrow-right
+      <span class="muted">(&amp;#xf178;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf179</i>
+      fa-apple
+      <span class="muted">(&amp;#xf179;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf17a</i>
+      fa-windows
+      <span class="muted">(&amp;#xf17a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf17b</i>
+      fa-android
+      <span class="muted">(&amp;#xf17b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf17c</i>
+      fa-linux
+      <span class="muted">(&amp;#xf17c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf17d</i>
+      fa-dribbble
+      <span class="muted">(&amp;#xf17d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf17e</i>
+      fa-skype
+      <span class="muted">(&amp;#xf17e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf180</i>
+      fa-foursquare
+      <span class="muted">(&amp;#xf180;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf181</i>
+      fa-trello
+      <span class="muted">(&amp;#xf181;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf182</i>
+      fa-female
+      <span class="muted">(&amp;#xf182;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf183</i>
+      fa-male
+      <span class="muted">(&amp;#xf183;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf184</i>
+      fa-gittip
+      <span class="muted">(&amp;#xf184;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf185</i>
+      fa-sun-o
+      <span class="muted">(&amp;#xf185;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf186</i>
+      fa-moon-o
+      <span class="muted">(&amp;#xf186;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf187</i>
+      fa-archive
+      <span class="muted">(&amp;#xf187;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf188</i>
+      fa-bug
+      <span class="muted">(&amp;#xf188;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf189</i>
+      fa-vk
+      <span class="muted">(&amp;#xf189;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf18a</i>
+      fa-weibo
+      <span class="muted">(&amp;#xf18a;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf18b</i>
+      fa-renren
+      <span class="muted">(&amp;#xf18b;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf18c</i>
+      fa-pagelines
+      <span class="muted">(&amp;#xf18c;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf18d</i>
+      fa-stack-exchange
+      <span class="muted">(&amp;#xf18d;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf18e</i>
+      fa-arrow-circle-o-right
+      <span class="muted">(&amp;#xf18e;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf190</i>
+      fa-arrow-circle-o-left
+      <span class="muted">(&amp;#xf190;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf191</i>
+      fa-caret-square-o-left
+      <span class="muted">(&amp;#xf191;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf192</i>
+      fa-dot-circle-o
+      <span class="muted">(&amp;#xf192;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf193</i>
+      fa-wheelchair
+      <span class="muted">(&amp;#xf193;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf194</i>
+      fa-vimeo-square
+      <span class="muted">(&amp;#xf194;)</span>
+    </div>
+    
+    <div class="col-md-4 col-sm-6 col-lg-3">
+      <i class="fa fa-fw">&#xf195</i>
+      fa-try
+      <span class="muted">(&amp;#xf195;)</span>
+    </div>
+    
   </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf105</i>
-    icon-angle-right
-    <span class="muted">(&amp;#xf105;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf106</i>
-    icon-angle-up
-    <span class="muted">(&amp;#xf106;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf107</i>
-    icon-angle-down
-    <span class="muted">(&amp;#xf107;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf108</i>
-    icon-desktop
-    <span class="muted">(&amp;#xf108;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf109</i>
-    icon-laptop
-    <span class="muted">(&amp;#xf109;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf10a</i>
-    icon-tablet
-    <span class="muted">(&amp;#xf10a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf10b</i>
-    icon-mobile-phone
-    <span class="muted">(&amp;#xf10b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf10c</i>
-    icon-circle-blank
-    <span class="muted">(&amp;#xf10c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf10d</i>
-    icon-quote-left
-    <span class="muted">(&amp;#xf10d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf10e</i>
-    icon-quote-right
-    <span class="muted">(&amp;#xf10e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf110</i>
-    icon-spinner
-    <span class="muted">(&amp;#xf110;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf111</i>
-    icon-circle
-    <span class="muted">(&amp;#xf111;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf112</i>
-    icon-reply
-    <span class="muted">(&amp;#xf112;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf113</i>
-    icon-github-alt
-    <span class="muted">(&amp;#xf113;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf114</i>
-    icon-folder-close-alt
-    <span class="muted">(&amp;#xf114;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf115</i>
-    icon-folder-open-alt
-    <span class="muted">(&amp;#xf115;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf116</i>
-    icon-expand-alt
-    <span class="muted">(&amp;#xf116;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf117</i>
-    icon-collapse-alt
-    <span class="muted">(&amp;#xf117;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf118</i>
-    icon-smile
-    <span class="muted">(&amp;#xf118;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf119</i>
-    icon-frown
-    <span class="muted">(&amp;#xf119;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf11a</i>
-    icon-meh
-    <span class="muted">(&amp;#xf11a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf11b</i>
-    icon-gamepad
-    <span class="muted">(&amp;#xf11b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf11c</i>
-    icon-keyboard
-    <span class="muted">(&amp;#xf11c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf11d</i>
-    icon-flag-alt
-    <span class="muted">(&amp;#xf11d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf11e</i>
-    icon-flag-checkered
-    <span class="muted">(&amp;#xf11e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf120</i>
-    icon-terminal
-    <span class="muted">(&amp;#xf120;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf121</i>
-    icon-code
-    <span class="muted">(&amp;#xf121;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf122</i>
-    icon-reply-all
-    <span class="muted">(&amp;#xf122;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf122</i>
-    icon-mail-reply-all
-    <span class="muted">(&amp;#xf122;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf123</i>
-    icon-star-half-empty
-    <span class="muted">(&amp;#xf123;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf124</i>
-    icon-location-arrow
-    <span class="muted">(&amp;#xf124;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf125</i>
-    icon-crop
-    <span class="muted">(&amp;#xf125;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf126</i>
-    icon-code-fork
-    <span class="muted">(&amp;#xf126;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf127</i>
-    icon-unlink
-    <span class="muted">(&amp;#xf127;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf128</i>
-    icon-question
-    <span class="muted">(&amp;#xf128;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf129</i>
-    icon-info
-    <span class="muted">(&amp;#xf129;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf12a</i>
-    icon-exclamation
-    <span class="muted">(&amp;#xf12a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf12b</i>
-    icon-superscript
-    <span class="muted">(&amp;#xf12b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf12c</i>
-    icon-subscript
-    <span class="muted">(&amp;#xf12c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf12d</i>
-    icon-eraser
-    <span class="muted">(&amp;#xf12d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf12e</i>
-    icon-puzzle-piece
-    <span class="muted">(&amp;#xf12e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf130</i>
-    icon-microphone
-    <span class="muted">(&amp;#xf130;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf131</i>
-    icon-microphone-off
-    <span class="muted">(&amp;#xf131;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf132</i>
-    icon-shield
-    <span class="muted">(&amp;#xf132;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf133</i>
-    icon-calendar-empty
-    <span class="muted">(&amp;#xf133;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf134</i>
-    icon-fire-extinguisher
-    <span class="muted">(&amp;#xf134;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf135</i>
-    icon-rocket
-    <span class="muted">(&amp;#xf135;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf136</i>
-    icon-maxcdn
-    <span class="muted">(&amp;#xf136;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf137</i>
-    icon-chevron-sign-left
-    <span class="muted">(&amp;#xf137;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf138</i>
-    icon-chevron-sign-right
-    <span class="muted">(&amp;#xf138;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf139</i>
-    icon-chevron-sign-up
-    <span class="muted">(&amp;#xf139;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf13a</i>
-    icon-chevron-sign-down
-    <span class="muted">(&amp;#xf13a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf13b</i>
-    icon-html5
-    <span class="muted">(&amp;#xf13b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf13c</i>
-    icon-css3
-    <span class="muted">(&amp;#xf13c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf13d</i>
-    icon-anchor
-    <span class="muted">(&amp;#xf13d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf13e</i>
-    icon-unlock-alt
-    <span class="muted">(&amp;#xf13e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf140</i>
-    icon-bullseye
-    <span class="muted">(&amp;#xf140;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf141</i>
-    icon-ellipsis-horizontal
-    <span class="muted">(&amp;#xf141;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf142</i>
-    icon-ellipsis-vertical
-    <span class="muted">(&amp;#xf142;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf143</i>
-    icon-rss-sign
-    <span class="muted">(&amp;#xf143;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf144</i>
-    icon-play-sign
-    <span class="muted">(&amp;#xf144;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf145</i>
-    icon-ticket
-    <span class="muted">(&amp;#xf145;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf146</i>
-    icon-minus-sign-alt
-    <span class="muted">(&amp;#xf146;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf147</i>
-    icon-check-minus
-    <span class="muted">(&amp;#xf147;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf148</i>
-    icon-level-up
-    <span class="muted">(&amp;#xf148;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf149</i>
-    icon-level-down
-    <span class="muted">(&amp;#xf149;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf14a</i>
-    icon-check-sign
-    <span class="muted">(&amp;#xf14a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf14b</i>
-    icon-edit-sign
-    <span class="muted">(&amp;#xf14b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf14c</i>
-    icon-external-link-sign
-    <span class="muted">(&amp;#xf14c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf14d</i>
-    icon-share-sign
-    <span class="muted">(&amp;#xf14d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf14e</i>
-    icon-compass
-    <span class="muted">(&amp;#xf14e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf150</i>
-    icon-collapse
-    <span class="muted">(&amp;#xf150;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf151</i>
-    icon-collapse-top
-    <span class="muted">(&amp;#xf151;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf152</i>
-    icon-expand
-    <span class="muted">(&amp;#xf152;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf153</i>
-    icon-eur
-    <span class="muted">(&amp;#xf153;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf154</i>
-    icon-gbp
-    <span class="muted">(&amp;#xf154;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf155</i>
-    icon-usd
-    <span class="muted">(&amp;#xf155;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf156</i>
-    icon-inr
-    <span class="muted">(&amp;#xf156;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf157</i>
-    icon-jpy
-    <span class="muted">(&amp;#xf157;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf158</i>
-    icon-cny
-    <span class="muted">(&amp;#xf158;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf159</i>
-    icon-krw
-    <span class="muted">(&amp;#xf159;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf15a</i>
-    icon-btc
-    <span class="muted">(&amp;#xf15a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf15b</i>
-    icon-file
-    <span class="muted">(&amp;#xf15b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf15c</i>
-    icon-file-text
-    <span class="muted">(&amp;#xf15c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf15d</i>
-    icon-sort-by-alphabet
-    <span class="muted">(&amp;#xf15d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf15e</i>
-    icon-sort-by-alphabet-alt
-    <span class="muted">(&amp;#xf15e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf160</i>
-    icon-sort-by-attributes
-    <span class="muted">(&amp;#xf160;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf161</i>
-    icon-sort-by-attributes-alt
-    <span class="muted">(&amp;#xf161;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf162</i>
-    icon-sort-by-order
-    <span class="muted">(&amp;#xf162;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf163</i>
-    icon-sort-by-order-alt
-    <span class="muted">(&amp;#xf163;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf164</i>
-    icon-thumbs-up
-    <span class="muted">(&amp;#xf164;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf165</i>
-    icon-thumbs-down
-    <span class="muted">(&amp;#xf165;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf166</i>
-    icon-youtube-sign
-    <span class="muted">(&amp;#xf166;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf167</i>
-    icon-youtube
-    <span class="muted">(&amp;#xf167;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf168</i>
-    icon-xing
-    <span class="muted">(&amp;#xf168;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf169</i>
-    icon-xing-sign
-    <span class="muted">(&amp;#xf169;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf16a</i>
-    icon-youtube-play
-    <span class="muted">(&amp;#xf16a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf16b</i>
-    icon-dropbox
-    <span class="muted">(&amp;#xf16b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf16c</i>
-    icon-stackexchange
-    <span class="muted">(&amp;#xf16c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf16d</i>
-    icon-instagram
-    <span class="muted">(&amp;#xf16d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf16e</i>
-    icon-flickr
-    <span class="muted">(&amp;#xf16e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf170</i>
-    icon-adn
-    <span class="muted">(&amp;#xf170;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf171</i>
-    icon-bitbucket
-    <span class="muted">(&amp;#xf171;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf172</i>
-    icon-bitbucket-sign
-    <span class="muted">(&amp;#xf172;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf173</i>
-    icon-tumblr
-    <span class="muted">(&amp;#xf173;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf174</i>
-    icon-tumblr-sign
-    <span class="muted">(&amp;#xf174;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf175</i>
-    icon-long-arrow-down
-    <span class="muted">(&amp;#xf175;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf176</i>
-    icon-long-arrow-up
-    <span class="muted">(&amp;#xf176;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf177</i>
-    icon-long-arrow-left
-    <span class="muted">(&amp;#xf177;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf178</i>
-    icon-long-arrow-right
-    <span class="muted">(&amp;#xf178;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf179</i>
-    icon-apple
-    <span class="muted">(&amp;#xf179;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf17a</i>
-    icon-windows
-    <span class="muted">(&amp;#xf17a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf17b</i>
-    icon-android
-    <span class="muted">(&amp;#xf17b;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf17c</i>
-    icon-linux
-    <span class="muted">(&amp;#xf17c;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf17d</i>
-    icon-dribbble
-    <span class="muted">(&amp;#xf17d;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf17e</i>
-    icon-skype
-    <span class="muted">(&amp;#xf17e;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf180</i>
-    icon-foursquare
-    <span class="muted">(&amp;#xf180;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf181</i>
-    icon-trello
-    <span class="muted">(&amp;#xf181;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf182</i>
-    icon-female
-    <span class="muted">(&amp;#xf182;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf183</i>
-    icon-male
-    <span class="muted">(&amp;#xf183;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf184</i>
-    icon-gittip
-    <span class="muted">(&amp;#xf184;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf185</i>
-    icon-sun
-    <span class="muted">(&amp;#xf185;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf186</i>
-    icon-moon
-    <span class="muted">(&amp;#xf186;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf187</i>
-    icon-archive
-    <span class="muted">(&amp;#xf187;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf188</i>
-    icon-bug
-    <span class="muted">(&amp;#xf188;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf189</i>
-    icon-vk
-    <span class="muted">(&amp;#xf189;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf18a</i>
-    icon-weibo
-    <span class="muted">(&amp;#xf18a;)</span>
-  </div>
-
-  <div class="span4">
-    <i class="icon-fixed-width">&#xf18b</i>
-    icon-renren
-    <span class="muted">(&amp;#xf18b;)</span>
-  </div>
-
 </div>
 
 </div>
-
-  <div class="push"><!-- necessary for sticky footer --></div>
-</div>
-<footer class="footer hidden-print">
+<footer id="footer" class="footer hidden-print">
   <div class="container text-center">
     <div>
-      <i class="icon-flag"></i> Font Awesome 3.2.1
-      <span class="hidden-phone">&middot;</span><br class="visible-phone">
+      <i class="fa fa-flag"></i> Font Awesome 4.0.0
+      <span class="hide-xs">&middot;</span><br class="hide-sm hide-md hide-lg">
       Created and Maintained by <a href="http://twitter.com/davegandy">Dave Gandy</a>
     </div>
     <div>
       Font Awesome licensed under <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a>
-      <span class="hidden-phone">&middot;</span><br class="visible-phone">
+      <span class="hide-xs">&middot;</span><br class="hide-sm hide-md hide-lg">
       Code licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a>
-      <span class="hidden-phone hidden-tablet">&middot;</span><br class="visible-phone visible-tablet">
+      <span class="hide-xs hide-sm">&middot;</span><br class="hide-md hide-lg">
       Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>
     </div>
     <div>
-      Thanks to <a href="http://maxcdn.com"><i class="icon-maxcdn"></i> MaxCDN</a> for providing the excellent <a href="http://www.bootstrapcdn.com/#tab_fontawesome">BootstrapCDN for Font Awesome</a>
+      Thanks to <a href="http://maxcdn.com"><i class="fa fa-maxcdn"></i> MaxCDN</a> for providing the excellent <a href="http://www.bootstrapcdn.com/#fontawesome_tab">BootstrapCDN for Font Awesome</a>
     </div>
     <div class="project">
       <a href="https://github.com/FortAwesome/Font-Awesome">GitHub Project</a> &middot;
@@ -2370,9 +2410,9 @@
 
 
 <script src="http://platform.twitter.com/widgets.js"></script>
-<script src="../assets/js/jquery-1.7.1.min.js"></script>
+<script src="../assets/js/jquery-1.10.2.min.js"></script>
 <script src="../assets/js/ZeroClipboard-1.1.7.min.js"></script>
-<script src="../assets/js/bootstrap-2.3.1.min.js"></script>
+<script src="../assets/js/bootstrap-3.0.0.min.js"></script>
 <script src="../assets/js/site.js"></script>
 
 </body>
