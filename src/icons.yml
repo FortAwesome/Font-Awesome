@@ -2693,6 +2693,7 @@ icons:
     created:    4.0
     categories:
       - Web Application Icons
+      - Medical Icons
 
   - name:       Vimeo Square
     id:         vimeo-square
@@ -2700,3 +2701,12 @@ icons:
     created:    4.0
     categories:
       - Brand Icons
+
+  - name:       Turkish Lira (TRY)
+    id:         try
+    unicode:    f195
+    created:    4.0
+    aliases:
+      - turkish-lira
+    categories:
+      - Currency Icons

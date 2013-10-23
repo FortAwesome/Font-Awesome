@@ -1352,3 +1352,7 @@
 .fa-vimeo-square:before {
   content: "\f194";
 }
+.fa-turkish-lira:before,
+.fa-try:before {
+  content: "\f195";
+}
