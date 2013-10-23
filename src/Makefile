@@ -16,7 +16,7 @@ FA_CSS_MODERN_MIN = ${FA_CSS_DIRECTORY}/font-awesome.min.css
 SITE_LESS_DIRECTORY = assets/less
 SITE_CSS_DIRECTORY = assets/css
 
-SITE_LESS = ${SITE_LESS_DIRECTORY}/site-3.0.0.less
+SITE_LESS = ${SITE_LESS_DIRECTORY}/site.less
 SITE_CSS_MIN = ${SITE_CSS_DIRECTORY}/site.css
 
 build:
