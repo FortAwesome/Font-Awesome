@@ -170,6 +170,7 @@
   transform: rotate(270deg);
 }
 .fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
   -webkit-transform: scale(-1, 1);
   -moz-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
@@ -177,6 +178,7 @@
   transform: scale(-1, 1);
 }
 .fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   -webkit-transform: scale(1, -1);
   -moz-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
