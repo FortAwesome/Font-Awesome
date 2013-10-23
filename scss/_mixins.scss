@@ -10,33 +10,11 @@
           transform: rotate($degrees);
 }
 
-@mixin fa-icon-flip($horiz, $vert) {
+@mixin fa-icon-flip($horiz, $vert, $rotation) {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=$rotation);
   -webkit-transform: scale($horiz, $vert);
      -moz-transform: scale($horiz, $vert);
       -ms-transform: scale($horiz, $vert);
        -o-transform: scale($horiz, $vert);
           transform: scale($horiz, $vert);
-}
-
-@mixin fa-icon-stack($width: 2em, $height: 2em, $top-font-size: 1em, $base-font-size: 2em) {
-  .#{$fa-css-prefix}-stack {
-    position: relative;
-    display: inline-block;
-    width: $width;
-    height: $height;
-    line-height: $width;
-    vertical-align: -35%;
-    .#{$fa-css-prefix} {
-      position: absolute;
-      display: block;
-      width: 100%;
-      height: 100%;
-      font-size: $top-font-size;
-      line-height: inherit;
-      text-align: center;
-    }
-    .#{$fa-css-prefix}-stack-base {
-      font-size: $base-font-size;
-    }
-  }
 }
