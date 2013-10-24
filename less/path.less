@@ -12,3 +12,10 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'FontAwesome';
+    src: url('#{$fa-font-path}/fontawesome-webfont.ttf?v=#{$fa-version}') format('truetype');
+  }
+}
