@@ -1,7 +1,7 @@
 #[Font Awesome v4.0.1](http://fontawesome.io)
 ###the iconic font designed for Bootstrap
 
-Font Awesome is a full suite of 361 pictographic icons for easy scalable vector graphics on websites, created and
+Font Awesome is a full suite of 370 pictographic icons for easy scalable vector graphics on websites, created and
 maintained by [Dave Gandy](http://twitter.com/davegandy). Stay up to date [@fontawesome](http://twitter.com/fontawesome).
 
 Get started at http://fontawesome.io!
