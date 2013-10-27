@@ -1,4 +1,4 @@
-@font-face{font-family:'FontAwesome';src:url('../fonts/fontawesome-webfont.eot?v=4.0.0');src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.0.0') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff?v=4.0.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.0.0') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.0.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}.fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+@font-face{font-family:'FontAwesome';src:url('../fonts/fontawesome-webfont.eot?v=4.0.1');src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}.fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .fa-lg{font-size:1.3333333333333333em;line-height:.75em;vertical-align:-15%}
 .fa-2x{font-size:2em}
 .fa-3x{font-size:3em}
@@ -19,7 +19,7 @@
 .fa-flip-horizontal{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);-webkit-transform:scale(-1, 1);-moz-transform:scale(-1, 1);-ms-transform:scale(-1, 1);-o-transform:scale(-1, 1);transform:scale(-1, 1)}
 .fa-flip-vertical{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);-webkit-transform:scale(1, -1);-moz-transform:scale(1, -1);-ms-transform:scale(1, -1);-o-transform:scale(1, -1);transform:scale(1, -1)}
 .fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}
-.fa-stack-1x,.fa-stack-2x{position:absolute;width:100%;text-align:center}
+.fa-stack-1x,.fa-stack-2x{position:absolute;left:0;width:100%;text-align:center}
 .fa-stack-1x{line-height:inherit}
 .fa-stack-2x{font-size:2em}
 .fa-inverse{color:#fff}
@@ -173,7 +173,7 @@
 .fa-unlock:before{content:"\f09c"}
 .fa-credit-card:before{content:"\f09d"}
 .fa-rss:before{content:"\f09e"}
-.fa-hdd:before{content:"\f0a0"}
+.fa-hdd-o:before{content:"\f0a0"}
 .fa-bullhorn:before{content:"\f0a1"}
 .fa-bell:before{content:"\f0f3"}
 .fa-certificate:before{content:"\f0a3"}

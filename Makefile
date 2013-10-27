@@ -27,7 +27,7 @@ build:
 
 	lessc --compress ${SITE_LESS} > ${SITE_CSS_MIN}
 	cp -r ${FA_ROOT_DIRECTORY}/* ../
-	cd assets && mv font-awesome font-awesome-4.0.0 && zip -r9 font-awesome-4.0.0.zip font-awesome-4.0.0 && mv font-awesome-4.0.0 font-awesome
+	cd assets && mv font-awesome font-awesome-4.0.1 && zip -r9 font-awesome-4.0.1.zip font-awesome-4.0.1 && mv font-awesome-4.0.1 font-awesome
 
 
 default: build

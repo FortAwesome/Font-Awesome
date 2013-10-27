@@ -1077,7 +1077,7 @@ icons:
 
 
   - name:       HDD
-    id:         hdd
+    id:         hdd-o
     unicode:    f0a0
     created:    2.0
     categories:
