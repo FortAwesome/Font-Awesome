@@ -1,11 +1,18 @@
 // Spinning Icons
 // --------------------------
 
-.#{$fa-css-prefix}-spin {
+%fa-spin {
   -webkit-animation: spin 2s infinite linear;
   -moz-animation: spin 2s infinite linear;
   -o-animation: spin 2s infinite linear;
   animation: spin 2s infinite linear;
+}
+
+@if $fa-show-classes == true {
+
+  .#{$fa-css-prefix}-spin {
+    @extend %fa-spin;
+  }
 }
 
 @-moz-keyframes spin {

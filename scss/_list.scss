@@ -1,13 +1,13 @@
 // List Icons
 // -------------------------
 
-.#{$fa-css-prefix}-ul {
+%fa-ul {
   padding-left: 0;
   margin-left: $fa-li-width;
   list-style-type: none;
   > li { position: relative; }
 }
-.#{$fa-css-prefix}-li {
+%fa-li {
   position: absolute;
   left: -$fa-li-width;
   width: $fa-li-width;
@@ -16,4 +16,15 @@
   &.#{$fa-css-prefix}-lg {
     left: -$fa-li-width + (4em / 14);
   }
+}
+
+@if $fa-show-classes == true {
+
+  .#{$fa-css-prefix}-ul {
+    @extend %fa-ul;
+  }
+  .#{$fa-css-prefix}-li {
+    @extend %fa-li;
+  }
+
 }

@@ -1,16 +1,32 @@
 // Bordered & Pulled
 // -------------------------
 
-.#{$fa-css-prefix}-border {
+%fa-border {
   padding: .2em .25em .15em;
   border: solid .08em $fa-border-color;
   border-radius: .1em;
 }
 
-.pull-right { float: right; }
-.pull-left { float: left; }
+%fa-pull-right { float: right; }
+%fa-pull-left { float: left; }
 
-.#{$fa-css-prefix} {
+%fa-pull {
   &.pull-left { margin-right: .3em; }
   &.pull-right { margin-left: .3em; }
+}
+
+
+@if $fa-show-classes == true {
+
+  .#{$fa-css-prefix}-border {
+    @extend %fa-border;
+  }
+
+  .pull-right { @extend %fa-pull-right; }
+  .pull-left { @extend %fa-pull-left; }
+
+  .#{$fa-css-prefix} {
+   @extend %fa-pull;
+  }
+
 }
