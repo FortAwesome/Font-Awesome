@@ -6,15 +6,15 @@
 @each $var in $fa-vars {
   //create icon placeholders
   %fa-#{nth($var, 1)} {
-    &:before {
-      content: nth($var, 2);
-    }
+    content: nth($var, 2);
   }
   
   //create icon classes if enabled
   @if $fa-show-classes == true {
     .#{$fa-css-prefix}-#{nth($var, 1)} {
-      @extend %fa-#{nth($var, 1)};
+      &:before {
+        @extend %fa-#{nth($var, 1)};
+      }
     }
   }
 
@@ -31,7 +31,9 @@
   //create icon classes if enabled
   @if $fa-show-classes == true {
     .#{$fa-css-prefix}-#{nth($alias, 1)} {
-      @extend %fa-#{nth($alias, 2)};
+      &:before {
+        @extend %fa-#{nth($alias, 2)};
+      }
     }
   }
 
