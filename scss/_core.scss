@@ -1,7 +1,7 @@
 // Base Class Definition
 // -------------------------
 
-.#{$fa-css-prefix} {
+%fa {
   display: inline-block;
   font-family: FontAwesome;
   font-style: normal;
@@ -9,4 +9,10 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@if $fa-show-classes == true {
+  .#{$fa-css-prefix} {
+    @extend %fa;
+  }
 }
