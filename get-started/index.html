@@ -44,7 +44,7 @@
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
-        <i class="fa fa-reorder fa-lg"></i>
+        <i class="fa fa-bars fa-lg"></i>
       </button>
       <a class="navbar-brand" href="../"><i class="fa fa-flag"></i> Font Awesome</a>
     </div>
@@ -116,7 +116,7 @@
 <div class="jumbotron jumbotron-ad hidden-print">
   <div class="container">
     <h1><i class="fa fa-cogs"></i>&nbsp; Get Started</h1>
-    <p>Easy ways to get Font Awesome 4.0.1 onto your website</p>
+    <p>Easy ways to get Font Awesome 4.0.2 onto your website</p>
   </div>
 </div>
 
@@ -163,7 +163,7 @@
     <ol>
       <li>
         Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span><span class="nt">&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;//netdna.bootstrapcdn.com/font-awesome/4.0.2/css/font-awesome.css&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span><span class="nt">&gt;</span>
 </code></pre></div>
       </li>
       <li>
@@ -190,11 +190,35 @@
     </ol>
   </section>
 
-  <section id="ruby-gem">
-    <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-sass">Font Awesome Ruby Gem</a></h2>
+  <section id="ruby-gem-less">
+    <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-less">LESS Ruby Gem</a></h2>
     <p>
-      Use the <a href="https://github.com/FortAwesome/font-awesome-sass">Official Font Awesome Ruby Gem</a> to easily get Font
-      Awesome into a Rails project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
+      Use the <a href="https://github.com/FortAwesome/font-awesome-less">Official Font Awesome LESS Ruby Gem</a> to easily get Font
+      Awesome LESS into a Rails project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
+    </p>
+    <ol>
+      <li>
+        Add this line to your application's Gemfile:
+<div class="highlight"><pre><code class="bash">gem <span class="s1">&#39;font-awesome-less&#39;</span>
+</code></pre></div>
+      </li>
+      <li>
+        And then execute:
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>bundle
+</code></pre></div>
+      </li>
+      <li>Or install it yourself as:
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>gem install font-awesome-less
+</code></pre></div>
+      </li>
+    </ol>
+  </section>
+
+  <section id="ruby-gem-sass">
+    <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-sass">SASS Ruby Gem</a></h2>
+    <p>
+      Use the <a href="https://github.com/FortAwesome/font-awesome-sass">Official Font Awesome SASS Ruby Gem</a> to easily get Font
+      Awesome SASS into a Rails project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
     </p>
     <ol>
       <li>
@@ -215,18 +239,18 @@
   </section>
 
   <section id="custom-less">
-    <h2 class="page-header">PRO: Custom LESS or SCSS</h2>
-    <p>Use this method to customize Font Awesome 4.0.1 using LESS or SCSS.</p>
+    <h2 class="page-header">PRO: Custom LESS or SASS</h2>
+    <p>Use this method to customize Font Awesome 4.0.2 using LESS or SASS.</p>
     <ol>
       <li>Copy the <code>font-awesome/</code> directory into your project.</li>
       <li>
-        Open your project's font-awesome/variables.less and edit the <code>@fa-font-path</code> or <code>$fa-font-path</code>
+        Open your project's <code>font-awesome/less/variables.less</code> or <code>font-awesome/scss/_variables.scss</code> and edit the <code>@fa-font-path</code> or <code>$fa-font-path</code>
         variable to point to your font directory.
 <div class="highlight"><pre><code class="scss"><span class="k">@fa-font-path</span><span class="nd">:</span>   <span class="s2">&quot;../font&quot;</span><span class="o">;</span>
 </code></pre></div>
         <p class="alert alert-success"><i class="fa fa-info-circle"></i> The font path is relative from your compiled CSS directory.</p>
       </li>
-      <li>Re-compile your LESS or SCSS if using a static compiler. Otherwise, you should be good to go.</li>
+      <li>Re-compile your LESS or SASS if using a static compiler. Otherwise, you should be good to go.</li>
       <li>Check out the <a href="../examples/">examples</a> to start using Font Awesome!</li>
     </ol>
   </section>
@@ -234,7 +258,7 @@
   <section class="need-ie7">
     <h2 class="page-header">Need IE7 Support?</h2>
     <p>
-      If you need IE7 support, you have my condolences. Really. Font Awesome 4.0.1
+      If you need IE7 support, you have my condolences. Really. Font Awesome 4.0.2
       doesn't support IE7, but an older version does. You'll need to check out the
       <a href="../3.2.1/get-started/#need-ie7">3.2.1 instructions for using IE7</a>. Then go complain to
       whomever decided your project needs IE7 support.
@@ -255,7 +279,7 @@
 <footer id="footer" class="footer hidden-print">
   <div class="container text-center">
     <div>
-      <i class="fa fa-flag"></i> Font Awesome 4.0.1
+      <i class="fa fa-flag"></i> Font Awesome 4.0.2
       <span class="hide-xs">&middot;</span><br class="hide-sm hide-md hide-lg">
       Created by <a href="http://twitter.com/davegandy">Dave Gandy</a>
     </div>

@@ -1,34 +1,13 @@
 /*!
- *  Font Awesome 4.0.1
- *  the iconic font designed for Bootstrap
- *  ------------------------------------------------------------------------------
- *  The full suite of pictographic icons, examples, and documentation can be
- *  found at http://fontawesome.io.  Stay up to date on Twitter at
- *  http://twitter.com/fontawesome.
- *
- *  License
- *  ------------------------------------------------------------------------------
- *  - The Font Awesome font is licensed under SIL OFL 1.1 -
- *    http://scripts.sil.org/OFL
- *  - Font Awesome CSS, LESS, and SASS files are licensed under MIT License -
- *    http://opensource.org/licenses/mit-license.html
- *  - Font Awesome documentation licensed under CC BY 3.0 -
- *    http://creativecommons.org/licenses/by/3.0/
- *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
- *    "Font Awesome by Dave Gandy - http://fontawesome.io"
- *
- *  Author - Dave Gandy
- *  ------------------------------------------------------------------------------
- *  Email: dave@fontawesome.io
- *  Twitter: http://twitter.com/davegandy
- *  Work: Lead Product Designer @ Kyruus - http://kyruus.com
+ *  Font Awesome 4.0.2 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.0.1');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.0.1') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.0.1') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');
+  src: url('../fonts/fontawesome-webfont.eot?v=4.0.2');
+  src: url('../fonts/fontawesome-webfont.eot?v=4.0.2#iefix') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.0.2') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.0.2') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.0.2#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -415,7 +394,7 @@
 .fa-check-square-o:before {
   content: "\f046";
 }
-.fa-move:before {
+.fa-arrows:before {
   content: "\f047";
 }
 .fa-step-backward:before {
@@ -500,10 +479,10 @@
 .fa-share:before {
   content: "\f064";
 }
-.fa-resize-full:before {
+.fa-expand:before {
   content: "\f065";
 }
-.fa-resize-small:before {
+.fa-compress:before {
   content: "\f066";
 }
 .fa-plus:before {
@@ -570,10 +549,10 @@
 .fa-folder-open:before {
   content: "\f07c";
 }
-.fa-resize-vertical:before {
+.fa-arrows-v:before {
   content: "\f07d";
 }
-.fa-resize-horizontal:before {
+.fa-arrows-h:before {
   content: "\f07e";
 }
 .fa-bar-chart-o:before {
@@ -718,10 +697,11 @@
 .fa-briefcase:before {
   content: "\f0b1";
 }
-.fa-fullscreen:before {
+.fa-arrows-alt:before {
   content: "\f0b2";
 }
-.fa-group:before {
+.fa-group:before,
+.fa-users:before {
   content: "\f0c0";
 }
 .fa-chain:before,
@@ -752,7 +732,7 @@
 .fa-square:before {
   content: "\f0c8";
 }
-.fa-reorder:before {
+.fa-bars:before {
   content: "\f0c9";
 }
 .fa-list-ul:before {
@@ -889,10 +869,10 @@
 .fa-file-text-o:before {
   content: "\f0f6";
 }
-.fa-building:before {
+.fa-building-o:before {
   content: "\f0f7";
 }
-.fa-hospital:before {
+.fa-hospital-o:before {
   content: "\f0f8";
 }
 .fa-ambulance:before {
@@ -977,12 +957,6 @@
 }
 .fa-folder-open-o:before {
   content: "\f115";
-}
-.fa-expand-o:before {
-  content: "\f116";
-}
-.fa-collapse-o:before {
-  content: "\f117";
 }
 .fa-smile-o:before {
   content: "\f118";
@@ -1098,16 +1072,16 @@
 .fa-anchor:before {
   content: "\f13d";
 }
-.fa-unlock-o:before {
+.fa-unlock-alt:before {
   content: "\f13e";
 }
 .fa-bullseye:before {
   content: "\f140";
 }
-.fa-ellipsis-horizontal:before {
+.fa-ellipsis-h:before {
   content: "\f141";
 }
-.fa-ellipsis-vertical:before {
+.fa-ellipsis-v:before {
   content: "\f142";
 }
 .fa-rss-square:before {
@@ -1358,4 +1332,7 @@
 .fa-turkish-lira:before,
 .fa-try:before {
   content: "\f195";
+}
+.fa-plus-square-o:before {
+  content: "\f196";
 }

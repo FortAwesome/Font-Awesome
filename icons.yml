@@ -481,12 +481,13 @@ icons:
       - Web Application Icons
       - Form Control Icons
 
-  - name:       move
-    id:         move
+  - name:       Arrows
+    id:         arrows
     unicode:    f047
     created:    1.0
     categories:
       - Web Application Icons
+      - Directional Icons
 
   - name:       step-backward
     id:         step-backward
@@ -681,15 +682,15 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       resize-full
-    id:         resize-full
+  - name:       Expand
+    id:         expand
     unicode:    f065
     created:    1.0
     categories:
       - Video Player Icons
 
-  - name:       resize-small
-    id:         resize-small
+  - name:       Compress
+    id:         compress
     unicode:    f066
     created:    1.0
     categories:
@@ -845,19 +846,21 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       resize-vertical
-    id:         resize-vertical
+  - name:       Arrows Vertical
+    id:         arrows-v
     unicode:    f07d
     created:    1.0
     categories:
       - Web Application Icons
+      - Directional Icons
 
-  - name:       resize-horizontal
-    id:         resize-horizontal
+  - name:       Arrows Horizontal
+    id:         arrows-h
     unicode:    f07e
     created:    1.0
     categories:
       - Web Application Icons
+      - Directional Icons
 
 
   - name:       Bar Chart Outlined
@@ -1196,18 +1199,21 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       fullscreen
-    id:         fullscreen
+  - name:       Arrows Alt
+    id:         arrows-alt
     unicode:    f0b2
     created:    2.0
     categories:
       - Video Player Icons
+      - Directional Icons
 
 
-  - name:       Group
-    id:         group
+  - name:       Users
+    id:         users
     unicode:    f0c0
     created:    2.0
+    aliases:
+      - group
     categories:
       - Web Application Icons
 
@@ -1276,8 +1282,8 @@ icons:
       - Web Application Icons
       - Form Control Icons
 
-  - name:       Reorder
-    id:         reorder
+  - name:       Bars
+    id:         bars
     unicode:    f0c9
     created:    2.0
     categories:
@@ -1598,15 +1604,15 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       Building
-    id:         building
+  - name:       Building Outlined
+    id:         building-o
     unicode:    f0f7
     created:    3.0
     categories:
       - Web Application Icons
 
-  - name:       hospital
-    id:         hospital
+  - name:       hospital Outlined
+    id:         hospital-o
     unicode:    f0f8
     created:    3.0
     categories:
@@ -1654,6 +1660,7 @@ icons:
     categories:
       - Medical Icons
       - Web Application Icons
+      - Form Control Icons
 
 
   - name:       Angle Double Left
@@ -1807,20 +1814,6 @@ icons:
     id:         folder-open-o
     unicode:    f115
     created:    3.0
-    categories:
-      - Web Application Icons
-
-  - name:       Expand Outlined
-    id:         expand-o
-    unicode:    f116
-    created:    3.1
-    categories:
-      - Web Application Icons
-
-  - name:       Collapse Outlined
-    id:         collapse-o
-    unicode:    f117
-    created:    3.1
     categories:
       - Web Application Icons
 
@@ -2091,8 +2084,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Unlock Outlined
-    id:         unlock-o
+  - name:       Unlock Alt
+    id:         unlock-alt
     unicode:    f13e
     created:    3.1
     categories:
@@ -2106,15 +2099,15 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Horizontal Ellipsis
-    id:         ellipsis-horizontal
+  - name:       Ellipsis Horizontal
+    id:         ellipsis-h
     unicode:    f141
     created:    3.1
     categories:
       - Web Application Icons
 
-  - name:       Vertical Ellipsis
-    id:         ellipsis-vertical
+  - name:       Ellipsis Vertical
+    id:         ellipsis-v
     unicode:    f142
     created:    3.1
     categories:
@@ -2710,3 +2703,11 @@ icons:
       - turkish-lira
     categories:
       - Currency Icons
+
+  - name:       Plus Square Outlined
+    id:         plus-square-o
+    unicode:    f196
+    created:    4.0
+    categories:
+      - Web Application Icons
+      - Form Control Icons

@@ -22,12 +22,12 @@ build:
 	@mkdir -p ${FA_CSS_DIRECTORY}
 
 	lessc ${FA_LESS_MODERN} > ${FA_CSS_MODERN}
-	lessc --compress ${FA_LESS_MODERN} > ${FA_CSS_MODERN_MIN}
+	lessc --yui-compress ${FA_LESS_MODERN} > ${FA_CSS_MODERN_MIN}
 #	sass ${FA_SCSS_MODERN} ${FA_CSS_MODERN}
 
 	lessc --compress ${SITE_LESS} > ${SITE_CSS_MIN}
 	cp -r ${FA_ROOT_DIRECTORY}/* ../
-	cd assets && mv font-awesome font-awesome-4.0.1 && zip -r9 font-awesome-4.0.1.zip font-awesome-4.0.1 && mv font-awesome-4.0.1 font-awesome
+	cd assets && mv font-awesome font-awesome-4.0.2 && zip -r9 font-awesome-4.0.2.zip font-awesome-4.0.2 && mv font-awesome-4.0.2 font-awesome
 
 
 default: build
