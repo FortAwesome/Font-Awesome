@@ -487,6 +487,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Directional Icons
 
   - name:       step-backward
     id:         step-backward
@@ -851,6 +852,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Directional Icons
 
   - name:       Arrows Horizontal
     id:         arrows-h
@@ -858,6 +860,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Directional Icons
 
 
   - name:       Bar Chart Outlined
@@ -1202,6 +1205,7 @@ icons:
     created:    2.0
     categories:
       - Video Player Icons
+      - Directional Icons
 
 
   - name:       Users
@@ -1656,6 +1660,7 @@ icons:
     categories:
       - Medical Icons
       - Web Application Icons
+      - Form Control Icons
 
 
   - name:       Angle Double Left
@@ -2705,3 +2710,4 @@ icons:
     created:    4.0
     categories:
       - Web Application Icons
+      - Form Control Icons
