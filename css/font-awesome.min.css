@@ -90,7 +90,7 @@
 .fa-edit:before,.fa-pencil-square-o:before{content:"\f044"}
 .fa-share-square-o:before{content:"\f045"}
 .fa-check-square-o:before{content:"\f046"}
-.fa-move:before{content:"\f047"}
+.fa-arrows:before{content:"\f047"}
 .fa-step-backward:before{content:"\f048"}
 .fa-fast-backward:before{content:"\f049"}
 .fa-backward:before{content:"\f04a"}
@@ -118,8 +118,8 @@
 .fa-arrow-up:before{content:"\f062"}
 .fa-arrow-down:before{content:"\f063"}
 .fa-mail-forward:before,.fa-share:before{content:"\f064"}
-.fa-resize-full:before{content:"\f065"}
-.fa-resize-small:before{content:"\f066"}
+.fa-expand:before{content:"\f065"}
+.fa-compress:before{content:"\f066"}
 .fa-plus:before{content:"\f067"}
 .fa-minus:before{content:"\f068"}
 .fa-asterisk:before{content:"\f069"}
@@ -141,8 +141,8 @@
 .fa-shopping-cart:before{content:"\f07a"}
 .fa-folder:before{content:"\f07b"}
 .fa-folder-open:before{content:"\f07c"}
-.fa-resize-vertical:before{content:"\f07d"}
-.fa-resize-horizontal:before{content:"\f07e"}
+.fa-arrows-v:before{content:"\f07d"}
+.fa-arrows-h:before{content:"\f07e"}
 .fa-bar-chart-o:before{content:"\f080"}
 .fa-twitter-square:before{content:"\f081"}
 .fa-facebook-square:before{content:"\f082"}
@@ -190,8 +190,8 @@
 .fa-tasks:before{content:"\f0ae"}
 .fa-filter:before{content:"\f0b0"}
 .fa-briefcase:before{content:"\f0b1"}
-.fa-fullscreen:before{content:"\f0b2"}
-.fa-group:before{content:"\f0c0"}
+.fa-arrows-alt:before{content:"\f0b2"}
+.fa-group:before,.fa-users:before{content:"\f0c0"}
 .fa-chain:before,.fa-link:before{content:"\f0c1"}
 .fa-cloud:before{content:"\f0c2"}
 .fa-flask:before{content:"\f0c3"}
@@ -200,7 +200,7 @@
 .fa-paperclip:before{content:"\f0c6"}
 .fa-save:before,.fa-floppy-o:before{content:"\f0c7"}
 .fa-square:before{content:"\f0c8"}
-.fa-reorder:before{content:"\f0c9"}
+.fa-bars:before{content:"\f0c9"}
 .fa-list-ul:before{content:"\f0ca"}
 .fa-list-ol:before{content:"\f0cb"}
 .fa-strikethrough:before{content:"\f0cc"}
@@ -243,8 +243,8 @@
 .fa-coffee:before{content:"\f0f4"}
 .fa-cutlery:before{content:"\f0f5"}
 .fa-file-text-o:before{content:"\f0f6"}
-.fa-building:before{content:"\f0f7"}
-.fa-hospital:before{content:"\f0f8"}
+.fa-building-o:before{content:"\f0f7"}
+.fa-hospital-o:before{content:"\f0f8"}
 .fa-ambulance:before{content:"\f0f9"}
 .fa-medkit:before{content:"\f0fa"}
 .fa-fighter-jet:before{content:"\f0fb"}
@@ -309,10 +309,10 @@
 .fa-html5:before{content:"\f13b"}
 .fa-css3:before{content:"\f13c"}
 .fa-anchor:before{content:"\f13d"}
-.fa-unlock-o:before{content:"\f13e"}
+.fa-unlock-alt:before{content:"\f13e"}
 .fa-bullseye:before{content:"\f140"}
-.fa-ellipsis-horizontal:before{content:"\f141"}
-.fa-ellipsis-vertical:before{content:"\f142"}
+.fa-ellipsis-h:before{content:"\f141"}
+.fa-ellipsis-v:before{content:"\f142"}
 .fa-rss-square:before{content:"\f143"}
 .fa-play-circle:before{content:"\f144"}
 .fa-ticket:before{content:"\f145"}

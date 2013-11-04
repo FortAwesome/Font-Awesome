@@ -415,7 +415,7 @@
 .fa-check-square-o:before {
   content: "\f046";
 }
-.fa-move:before {
+.fa-arrows:before {
   content: "\f047";
 }
 .fa-step-backward:before {
@@ -500,10 +500,10 @@
 .fa-share:before {
   content: "\f064";
 }
-.fa-resize-full:before {
+.fa-expand:before {
   content: "\f065";
 }
-.fa-resize-small:before {
+.fa-compress:before {
   content: "\f066";
 }
 .fa-plus:before {
@@ -570,10 +570,10 @@
 .fa-folder-open:before {
   content: "\f07c";
 }
-.fa-resize-vertical:before {
+.fa-arrows-v:before {
   content: "\f07d";
 }
-.fa-resize-horizontal:before {
+.fa-arrows-h:before {
   content: "\f07e";
 }
 .fa-bar-chart-o:before {
@@ -718,10 +718,11 @@
 .fa-briefcase:before {
   content: "\f0b1";
 }
-.fa-fullscreen:before {
+.fa-arrows-alt:before {
   content: "\f0b2";
 }
-.fa-group:before {
+.fa-group:before,
+.fa-users:before {
   content: "\f0c0";
 }
 .fa-chain:before,
@@ -752,7 +753,7 @@
 .fa-square:before {
   content: "\f0c8";
 }
-.fa-reorder:before {
+.fa-bars:before {
   content: "\f0c9";
 }
 .fa-list-ul:before {
@@ -889,10 +890,10 @@
 .fa-file-text-o:before {
   content: "\f0f6";
 }
-.fa-building:before {
+.fa-building-o:before {
   content: "\f0f7";
 }
-.fa-hospital:before {
+.fa-hospital-o:before {
   content: "\f0f8";
 }
 .fa-ambulance:before {
@@ -1092,16 +1093,16 @@
 .fa-anchor:before {
   content: "\f13d";
 }
-.fa-unlock-o:before {
+.fa-unlock-alt:before {
   content: "\f13e";
 }
 .fa-bullseye:before {
   content: "\f140";
 }
-.fa-ellipsis-horizontal:before {
+.fa-ellipsis-h:before {
   content: "\f141";
 }
-.fa-ellipsis-vertical:before {
+.fa-ellipsis-v:before {
   content: "\f142";
 }
 .fa-rss-square:before {
