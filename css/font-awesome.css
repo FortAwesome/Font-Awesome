@@ -978,12 +978,6 @@
 .fa-folder-open-o:before {
   content: "\f115";
 }
-.fa-expand-o:before {
-  content: "\f116";
-}
-.fa-collapse-o:before {
-  content: "\f117";
-}
 .fa-smile-o:before {
   content: "\f118";
 }
@@ -1358,4 +1352,7 @@
 .fa-turkish-lira:before,
 .fa-try:before {
   content: "\f195";
+}
+.fa-plus-square-o:before {
+  content: "\f196";
 }

@@ -1810,20 +1810,6 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Expand Outlined
-    id:         expand-o
-    unicode:    f116
-    created:    3.1
-    categories:
-      - Web Application Icons
-
-  - name:       Collapse Outlined
-    id:         collapse-o
-    unicode:    f117
-    created:    3.1
-    categories:
-      - Web Application Icons
-
   - name:       Smile Outlined
     id:         smile-o
     unicode:    f118
@@ -2710,3 +2696,10 @@ icons:
       - turkish-lira
     categories:
       - Currency Icons
+
+  - name:       Plus Square Outlined
+    id:         plus-square-o
+    unicode:    f196
+    created:    4.0
+    categories:
+      - Web Application Icons

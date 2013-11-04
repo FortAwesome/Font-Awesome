@@ -272,8 +272,6 @@
 .fa-github-alt:before{content:"\f113"}
 .fa-folder-o:before{content:"\f114"}
 .fa-folder-open-o:before{content:"\f115"}
-.fa-expand-o:before{content:"\f116"}
-.fa-collapse-o:before{content:"\f117"}
 .fa-smile-o:before{content:"\f118"}
 .fa-frown-o:before{content:"\f119"}
 .fa-meh-o:before{content:"\f11a"}
@@ -393,3 +391,4 @@
 .fa-wheelchair:before{content:"\f193"}
 .fa-vimeo-square:before{content:"\f194"}
 .fa-turkish-lira:before,.fa-try:before{content:"\f195"}
+.fa-plus-square-o:before{content:"\f196"}
