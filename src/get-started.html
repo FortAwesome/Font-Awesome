@@ -55,11 +55,38 @@ relative_path: ../
     </ol>
   </section>
 
-  <section id="ruby-gem">
-    <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-sass">Font Awesome Ruby Gem</a></h2>
+  <section id="ruby-gem-less">
+    <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-less">LESS Ruby Gem</a></h2>
     <p>
-      Use the <a href="https://github.com/FortAwesome/font-awesome-sass">Official Font Awesome Ruby Gem</a> to easily get Font
-      Awesome into a Rails project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
+      Use the <a href="https://github.com/FortAwesome/font-awesome-less">Official Font Awesome LESS Ruby Gem</a> to easily get Font
+      Awesome LESS into a Rails project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
+    </p>
+    <ol>
+      <li>
+        Add this line to your application's Gemfile:
+{% highlight bash %}
+gem 'font-awesome-less'
+{% endhighlight %}
+      </li>
+      <li>
+        And then execute:
+{% highlight bash %}
+$ bundle
+{% endhighlight %}
+      </li>
+      <li>Or install it yourself as:
+{% highlight bash %}
+$ gem install font-awesome-less
+{% endhighlight %}
+      </li>
+    </ol>
+  </section>
+
+  <section id="ruby-gem-sass">
+    <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-sass">SASS Ruby Gem</a></h2>
+    <p>
+      Use the <a href="https://github.com/FortAwesome/font-awesome-sass">Official Font Awesome SASS Ruby Gem</a> to easily get Font
+      Awesome SASS into a Rails project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
     </p>
     <ol>
       <li>
@@ -83,19 +110,19 @@ $ gem install font-awesome-sass
   </section>
 
   <section id="custom-less">
-    <h2 class="page-header">PRO: Custom LESS or SCSS</h2>
-    <p>Use this method to customize Font Awesome {{ site.fontawesome.version }} using LESS or SCSS.</p>
+    <h2 class="page-header">PRO: Custom LESS or SASS</h2>
+    <p>Use this method to customize Font Awesome {{ site.fontawesome.version }} using LESS or SASS.</p>
     <ol>
       <li>Copy the <code>font-awesome/</code> directory into your project.</li>
       <li>
-        Open your project's font-awesome/variables.less and edit the <code>@fa-font-path</code> or <code>$fa-font-path</code>
+        Open your project's <code>font-awesome/less/variables.less</code> or <code>font-awesome/scss/_variables.scss</code> and edit the <code>@fa-font-path</code> or <code>$fa-font-path</code>
         variable to point to your font directory.
 {% highlight scss %}
 @fa-font-path:   "../font";
 {% endhighlight %}
         <p class="alert alert-success"><i class="fa fa-info-circle"></i> The font path is relative from your compiled CSS directory.</p>
       </li>
-      <li>Re-compile your LESS or SCSS if using a static compiler. Otherwise, you should be good to go.</li>
+      <li>Re-compile your LESS or SASS if using a static compiler. Otherwise, you should be good to go.</li>
       <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
     </ol>
   </section>
