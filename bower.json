@@ -1,0 +1,18 @@
+{
+  "name": "Font-Awesome",
+  "description": "Font Awesome",
+  "version": "4.0.1",
+  "keywords": [],
+  "homepage": "http://fontawesome.io",
+  "dependencies": {},
+  "development": {},
+  "license": "SIL, MIT, CC BY 3.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FortAwesome/Font-Awesome.git"
+  },
+  "main": [
+    "./css/font-awesome.min.css"
+    "./fonts/*"
+  ]
+}
