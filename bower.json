@@ -12,7 +12,7 @@
     "url": "git://github.com/FortAwesome/Font-Awesome.git"
   },
   "main": [
-    "./css/font-awesome.min.css"
+    "./css/font-awesome.min.css",
     "./fonts/*"
   ]
 }
