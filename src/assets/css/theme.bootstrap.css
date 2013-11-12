@@ -1,0 +1,133 @@
+/*************
+  Bootstrap theme
+ *************/
+/* jQuery Bootstrap Theme */
+.tablesorter-bootstrap {
+	width: 100%;
+}
+.tablesorter-bootstrap .tablesorter-header,
+.tablesorter-bootstrap tfoot th,
+.tablesorter-bootstrap tfoot td {
+	font: bold 14px/20px Arial, Sans-serif;
+	padding: 4px;
+	margin: 0 0 18px;
+	color: #fff;
+}
+
+.tablesorter-bootstrap .tablesorter-header {
+	cursor: pointer;
+}
+
+.tablesorter-bootstrap .tablesorter-header-inner {
+	position: relative;
+	padding: 4px 18px 4px 4px;
+}
+
+/* bootstrap uses <i> for icons */
+.tablesorter-bootstrap .tablesorter-header i {
+	font-size: 11px;
+	position: absolute;
+	right: 2px;
+	top: 50%;
+	margin-top: -7px; /* half the icon height; older IE doesn't like this */
+	width: 14px;
+	height: 14px;
+	background-repeat: no-repeat;
+	line-height: 14px;
+	display: inline-block;
+}
+.tablesorter-bootstrap .bootstrap-icon-unsorted {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAQAAABTaC4eAAAAAXNSR0IArs4c6QAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsMAi4cQ/Cq9QAAAL1JREFUGNN1zztqAgEABNDZFOINgiLY6xVsbCLkWIo3SGVrlUZBEBTcNGKlHiRNOsEvL8VaJtPNq2YijTSi0PKppWikEYkKO0qUOoonK3QtXHG10FVU3LR0wQ8ulpoVb91x/Hh3xN224pmzw7Qv076Ds5kU8lde8i9PckqZdjNpp8wpkyTi6IGNVxs8HCUy79m54htXu3lPIsPa6s3WDTfb1duwVg3MuL4e2GO/Hozrnucjo9qi72vRH9Wq/gu/9qXuKExtnQAAAABJRU5ErkJggg==);
+}
+
+/* since bootstrap (table-striped) uses nth-child(), we just use this to add a zebra stripe color */
+.tablesorter-bootstrap tr.odd td {
+	background-color: #f9f9f9;
+}
+.tablesorter-bootstrap tbody > .odd:hover > td,
+.tablesorter-bootstrap tbody > .even:hover > td {
+	background-color: #f5f5f5;
+}
+.tablesorter-bootstrap tr.even td {
+	background-color: #fff;
+}
+
+/* processing icon */
+.tablesorter-bootstrap .tablesorter-processing {
+	background-image: url(data:image/gif;base64,R0lGODlhFAAUAKEAAO7u7lpaWgAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQBCgACACwAAAAAFAAUAAACQZRvoIDtu1wLQUAlqKTVxqwhXIiBnDg6Y4eyx4lKW5XK7wrLeK3vbq8J2W4T4e1nMhpWrZCTt3xKZ8kgsggdJmUFACH5BAEKAAIALAcAAAALAAcAAAIUVB6ii7jajgCAuUmtovxtXnmdUAAAIfkEAQoAAgAsDQACAAcACwAAAhRUIpmHy/3gUVQAQO9NetuugCFWAAAh+QQBCgACACwNAAcABwALAAACE5QVcZjKbVo6ck2AF95m5/6BSwEAIfkEAQoAAgAsBwANAAsABwAAAhOUH3kr6QaAcSrGWe1VQl+mMUIBACH5BAEKAAIALAIADQALAAcAAAIUlICmh7ncTAgqijkruDiv7n2YUAAAIfkEAQoAAgAsAAAHAAcACwAAAhQUIGmHyedehIoqFXLKfPOAaZdWAAAh+QQFCgACACwAAAIABwALAAACFJQFcJiXb15zLYRl7cla8OtlGGgUADs=);
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	position: absolute;
+	z-index: 1000;
+}
+
+/* caption */
+.caption {
+	background: #fff;
+}
+
+/* filter widget */
+.tablesorter-bootstrap .tablesorter-filter-row .tablesorter-filter {
+	width: 98%;
+	height: auto;
+	margin: 0 auto;
+	padding: 4px 6px;
+	background-color: #fff;
+	color: #333;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: height 0.1s ease;
+	-moz-transition: height 0.1s ease;
+	-o-transition: height 0.1s ease;
+	transition: height 0.1s ease;
+}
+.tablesorter-bootstrap .tablesorter-filter-row .tablesorter-filter.disabled {
+	background: #eee;
+	cursor: not-allowed;
+}
+.tablesorter-bootstrap .tablesorter-filter-row td {
+	background: #efefef;
+	line-height: normal;
+	text-align: center;
+	padding: 4px 6px;
+	vertical-align: middle;
+	-webkit-transition: line-height 0.1s ease;
+	-moz-transition: line-height 0.1s ease;
+	-o-transition: line-height 0.1s ease;
+	transition: line-height 0.1s ease;
+}
+/* hidden filter row */
+.tablesorter-bootstrap .tablesorter-filter-row.hideme td {
+	padding: 2px; /* change this to modify the thickness of the closed border row */
+	margin: 0;
+	line-height: 0;
+}
+.tablesorter-bootstrap .tablesorter-filter-row.hideme .tablesorter-filter {
+	height: 1px;
+	min-height: 0;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	/* don't use visibility: hidden because it disables tabbing */
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+/* pager plugin */
+.tablesorter-bootstrap .tablesorter-pager select {
+  padding: 4px 6px;
+}
+.tablesorter-bootstrap .tablesorter-pager .pagedisplay {
+	border: 0;
+}
+/* tfoot i for pager controls */
+.tablesorter-bootstrap tfoot i {
+	font-size: 11px;
+}
+
+/* ajax error row */
+.tablesorter .tablesorter-errorRow td {
+	cursor: pointer;
+	background-color: #e6bf99;
+}

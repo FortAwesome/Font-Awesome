@@ -20,7 +20,7 @@ relative_path: ../
 
   <h2 class="page-header">Every Font Awesome {{ site.fontawesome.version }} Icon, CSS Class, &amp; Unicode</h2>
 
-  <div class="row">
+  <div class="row visible-print">
     {% for icon in icons %}
     <div class="col-md-4 col-sm-6 col-lg-3">
       <i class="fa fa-fw">&#x{{ icon.unicode }}</i>
@@ -29,4 +29,7 @@ relative_path: ../
     </div>
     {% endfor %}
   </div>
+
+  {% include sort-cheatsheet.html %}
+
 </div>

@@ -1,0 +1,24 @@
+  <link rel="stylesheet" href="{{ page.relative_path }}assets/css/theme.bootstrap.css">
+
+  <div class="row hidden-print">
+    <table class="cheatsheet table table-bordered table-striped">
+      <thead>
+        <tr class="fa-inverse">
+         <th class="navbar-inverse">icon</th>
+         <th class="navbar-inverse">class name</th>
+         <th class="navbar-inverse">unicode</th>
+         <th class="navbar-inverse" data-placeholder="All">category</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for icon in icons %}
+        <tr>
+          <td data-id="{{ icon.unicode }}"><i class="fa fa-fw fa-lg">&#x{{ icon.unicode }}</i></td>
+          <td>fa-{{ icon.id }}</td>
+          <td>&amp;#x{{ icon.unicode }};</td>
+          <td>{{ icon.categories }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
