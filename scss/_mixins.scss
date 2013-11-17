@@ -2,7 +2,7 @@
 // --------------------------
 
 @mixin fa-icon-rotate($degrees, $rotation) {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=$rotation);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation});
   -webkit-transform: rotate($degrees);
      -moz-transform: rotate($degrees);
       -ms-transform: rotate($degrees);
@@ -11,7 +11,7 @@
 }
 
 @mixin fa-icon-flip($horiz, $vert, $rotation) {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=$rotation);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation});
   -webkit-transform: scale($horiz, $vert);
      -moz-transform: scale($horiz, $vert);
       -ms-transform: scale($horiz, $vert);
