@@ -10,5 +10,12 @@
   "main": [
     "./css/font-awesome.css",
     "./fonts/*"
+  ],
+  "ignore": [
+    "less/*",
+    "scss/*",
+    "src/*",
+    "*.yml",
+    "*.md"
   ]
 }
