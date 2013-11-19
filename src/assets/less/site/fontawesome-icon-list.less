@@ -30,3 +30,23 @@
     }
   }
 }
+
+.filter-parent {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 0 10px 0 14px;
+  border-radius: 3px;
+  #filter-by {
+    padding: 7px 0 7px 12px;
+    border: 0 none;
+    outline: 0 none;
+    width: 200px;
+  }
+  a {
+    text-decoration: none;
+    &.gone {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+}
