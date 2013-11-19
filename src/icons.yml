@@ -3,6 +3,11 @@ icons:
     id:         glass
     unicode:    f000
     created:    1.0
+    filter:
+      - martini
+      - drink
+      - bar
+      - alcohol
     categories:
       - Web Application Icons
 
@@ -10,6 +15,9 @@ icons:
     id:         music
     unicode:    f001
     created:    1.0
+    filter:
+      - note
+      - sound
     categories:
       - Web Application Icons
 
@@ -17,6 +25,11 @@ icons:
     id:         search
     unicode:    f002
     created:    1.0
+    filter:
+      - magnify
+      - zoom
+      - enlarge
+      - bigger
     categories:
       - Web Application Icons
 
@@ -24,6 +37,12 @@ icons:
     id:         envelope-o
     unicode:    f003
     created:    1.0
+    filter:
+      - email
+      - support
+      - e-mail
+      - letter
+      - mail
     categories:
       - Web Application Icons
 
@@ -31,6 +50,10 @@ icons:
     id:         heart
     unicode:    f004
     created:    1.0
+    filter:
+      - love
+      - like
+      - favorite
     categories:
       - Web Application Icons
 
@@ -38,6 +61,12 @@ icons:
     id:         star
     unicode:    f005
     created:    1.0
+    filter:
+      - award
+      - achievement
+      - night
+      - rating
+      - score
     categories:
       - Web Application Icons
 
@@ -45,6 +74,12 @@ icons:
     id:         star-o
     unicode:    f006
     created:    1.0
+    filter:
+      - award
+      - achievement
+      - night
+      - rating
+      - score
     categories:
       - Web Application Icons
 
@@ -52,6 +87,11 @@ icons:
     id:         user
     unicode:    f007
     created:    1.0
+    filter:
+      - person
+      - man
+      - head
+      - profile
     categories:
       - Web Application Icons
 
@@ -59,6 +99,8 @@ icons:
     id:         film
     unicode:    f008
     created:    1.0
+    filter:
+      - movie
     categories:
       - Web Application Icons
 
@@ -66,6 +108,10 @@ icons:
     id:         th-large
     unicode:    f009
     created:    1.0
+    filter:
+      - blocks
+      - squares
+      - boxes
     categories:
       - Text Editor Icons
 
@@ -73,6 +119,10 @@ icons:
     id:         th
     unicode:    f00a
     created:    1.0
+    filter:
+      - blocks
+      - squares
+      - boxes
     categories:
       - Text Editor Icons
 
@@ -80,6 +130,11 @@ icons:
     id:         th-list
     unicode:    f00b
     created:    1.0
+    filter:
+      - ul
+      - ol
+      - checklist
+      - todo
     categories:
       - Text Editor Icons
 
@@ -87,6 +142,13 @@ icons:
     id:         check
     unicode:    f00c
     created:    1.0
+    filter:
+      - checkmark
+      - done
+      - todo
+      - agree
+      - accept
+      - confirm
     categories:
       - Web Application Icons
 
@@ -97,6 +159,10 @@ icons:
     aliases:
       - remove
       - close
+    filter:
+      - close
+      - exit
+      - x
     categories:
       - Web Application Icons
 
@@ -104,6 +170,11 @@ icons:
     id:         search-plus
     unicode:    f00e
     created:    1.0
+    filter:
+      - magnify
+      - zoom
+      - enlarge
+      - bigger
     categories:
       - Web Application Icons
 
@@ -112,6 +183,11 @@ icons:
     id:         search-minus
     unicode:    f010
     created:    1.0
+    filter:
+      - magnify
+      - minify
+      - zoom
+      - smaller
     categories:
       - Web Application Icons
 
@@ -119,6 +195,8 @@ icons:
     id:         power-off
     unicode:    f011
     created:    1.0
+    filter:
+      - on
     categories:
       - Web Application Icons
 
@@ -133,6 +211,8 @@ icons:
     id:         cog
     unicode:    f013
     created:    1.0
+    filter:
+      - settings
     aliases:
       - gear
     categories:
@@ -143,6 +223,12 @@ icons:
     id:         trash-o
     unicode:    f014
     created:    1.0
+    filter:
+      - garbage
+      - delete
+      - remove
+      - trash
+      - hide
     categories:
       - Web Application Icons
 
@@ -150,6 +236,9 @@ icons:
     id:         home
     unicode:    f015
     created:    1.0
+    filter:
+      - main
+      - house
     categories:
       - Web Application Icons
 
@@ -157,6 +246,11 @@ icons:
     id:         file-o
     unicode:    f016
     created:    1.0
+    filter:
+      - new
+      - page
+      - pdf
+      - document
     categories:
       - Text Editor Icons
       - File Type Icons
@@ -165,6 +259,11 @@ icons:
     id:         clock-o
     unicode:    f017
     created:    1.0
+    filter:
+      - watch
+      - timer
+      - late
+      - timestamp
     categories:
       - Web Application Icons
 
@@ -172,6 +271,8 @@ icons:
     id:         road
     unicode:    f018
     created:    1.0
+    filter:
+      - street
     categories:
       - Web Application Icons
 
@@ -179,6 +280,8 @@ icons:
     id:         download
     unicode:    f019
     created:    1.0
+    filter:
+     - import
     categories:
       - Web Application Icons
 
@@ -186,6 +289,8 @@ icons:
     id:         arrow-circle-o-down
     unicode:    f01a
     created:    1.0
+    filter:
+        - download
     categories:
       - Directional Icons
 
@@ -214,6 +319,9 @@ icons:
     id:         repeat
     unicode:    f01e
     created:    1.0
+    filter:
+      - redo
+      - forward
     aliases:
       - rotate-right
     categories:
@@ -232,6 +340,11 @@ icons:
     id:         list-alt
     unicode:    f022
     created:    1.0
+    filter:
+      - ul
+      - ol
+      - checklist
+      - todo
     categories:
       - Text Editor Icons
 
@@ -239,6 +352,9 @@ icons:
     id:         lock
     unicode:    f023
     created:    1.0
+    filter:
+      - protect
+      - admin
     categories:
       - Web Application Icons
 
@@ -246,6 +362,8 @@ icons:
     id:         flag
     unicode:    f024
     created:    1.0
+    filter:
+      - report
     categories:
       - Web Application Icons
 
@@ -253,6 +371,9 @@ icons:
     id:         headphones
     unicode:    f025
     created:    1.0
+    filter:
+      - sound
+      - listen
     categories:
       - Web Application Icons
 
@@ -260,6 +381,10 @@ icons:
     id:         volume-off
     unicode:    f026
     created:    1.0
+    filter:
+      - mute
+      - sound
+      - music
     categories:
       - Web Application Icons
 
@@ -267,6 +392,11 @@ icons:
     id:         volume-down
     unicode:    f027
     created:    1.0
+    filter:
+      - lower
+      - quieter
+      - sound
+      - music
     categories:
       - Web Application Icons
 
@@ -274,6 +404,11 @@ icons:
     id:         volume-up
     unicode:    f028
     created:    1.0
+    filter:
+      - higher
+      - louder
+      - sound
+      - music
     categories:
       - Web Application Icons
 
@@ -281,6 +416,8 @@ icons:
     id:         qrcode
     unicode:    f029
     created:    1.0
+    filter:
+      - scan
     categories:
       - Web Application Icons
 
@@ -288,6 +425,8 @@ icons:
     id:         barcode
     unicode:    f02a
     created:    1.0
+    filter:
+      - scan
     categories:
       - Web Application Icons
 
@@ -295,6 +434,8 @@ icons:
     id:         tag
     unicode:    f02b
     created:    1.0
+    filter:
+      - label
     categories:
       - Web Application Icons
 
@@ -302,6 +443,8 @@ icons:
     id:         tags
     unicode:    f02c
     created:    1.0
+    filter:
+      - labels
     categories:
       - Web Application Icons
 
@@ -309,6 +452,9 @@ icons:
     id:         book
     unicode:    f02d
     created:    1.0
+    filter:
+      - read
+      - documentation
     categories:
       - Web Application Icons
 
@@ -316,6 +462,8 @@ icons:
     id:         bookmark
     unicode:    f02e
     created:    1.0
+    filter:
+      - save
     categories:
       - Web Application Icons
 
@@ -331,6 +479,10 @@ icons:
     id:         camera
     unicode:    f030
     created:    1.0
+    filter:
+      - photo
+      - picture
+      - record
     categories:
       - Web Application Icons
 
@@ -338,6 +490,8 @@ icons:
     id:         font
     unicode:    f031
     created:    1.0
+    filter:
+      - text
     categories:
       - Text Editor Icons
 
@@ -352,6 +506,8 @@ icons:
     id:         italic
     unicode:    f033
     created:    1.0
+    filter:
+      - italics
     categories:
       - Text Editor Icons
 
@@ -373,6 +529,8 @@ icons:
     id:         align-left
     unicode:    f036
     created:    1.0
+    filter:
+      - text
     categories:
       - Text Editor Icons
 
@@ -380,6 +538,9 @@ icons:
     id:         align-center
     unicode:    f037
     created:    1.0
+    filter:
+      - middle
+      - text
     categories:
       - Text Editor Icons
 
@@ -387,6 +548,8 @@ icons:
     id:         align-right
     unicode:    f038
     created:    1.0
+    filter:
+      - text
     categories:
       - Text Editor Icons
 
@@ -394,6 +557,8 @@ icons:
     id:         align-justify
     unicode:    f039
     created:    1.0
+    filter:
+      - text
     categories:
       - Text Editor Icons
 
@@ -401,6 +566,11 @@ icons:
     id:         list
     unicode:    f03a
     created:    1.0
+    filter:
+      - ul
+      - ol
+      - checklist
+      - todo
     categories:
       - Text Editor Icons
 
@@ -424,6 +594,10 @@ icons:
     id:         video-camera
     unicode:    f03d
     created:    1.0
+    filter:
+      - film
+      - movie
+      - record
     categories:
       - Web Application Icons
 
@@ -431,7 +605,7 @@ icons:
     id:         picture-o
     unicode:    f03e
     created:    1.0
-    aliases:
+    filter:
       - photo
       - image
     categories:
@@ -442,6 +616,9 @@ icons:
     id:         pencil
     unicode:    f040
     created:    1.0
+    filter:
+      - write
+      - edit
     categories:
       - Web Application Icons
 
@@ -449,6 +626,16 @@ icons:
     id:         map-marker
     unicode:    f041
     created:    1.0
+    filter:
+      - map
+      - pin
+      - location
+      - coordinates
+      - localize
+      - address
+      - travel
+      - where
+      - place
     categories:
       - Web Application Icons
 
@@ -456,6 +643,8 @@ icons:
     id:         adjust
     unicode:    f042
     created:    1.0
+    filter:
+      - contrast
     categories:
       - Web Application Icons
 
@@ -463,6 +652,8 @@ icons:
     id:         tint
     unicode:    f043
     created:    1.0
+    filter:
+      - raindrop
     categories:
       - Web Application Icons
 
@@ -470,6 +661,9 @@ icons:
     id:         pencil-square-o
     unicode:    f044
     created:    1.0
+    filter:
+      - write
+      - edit
     aliases:
       - edit
     categories:
@@ -479,6 +673,9 @@ icons:
     id:         share-square-o
     unicode:    f045
     created:    1.0
+    filter:
+      - social
+      - send
     categories:
       - Web Application Icons
 
@@ -486,6 +683,12 @@ icons:
     id:         check-square-o
     unicode:    f046
     created:    1.0
+    filter:
+      - todo
+      - done
+      - agree
+      - accept
+      - confirm
     categories:
       - Web Application Icons
       - Form Control Icons
@@ -494,6 +697,10 @@ icons:
     id:         arrows
     unicode:    f047
     created:    1.0
+    filter:
+      - move
+      - reorder
+      - resize
     categories:
       - Web Application Icons
       - Directional Icons
@@ -502,6 +709,12 @@ icons:
     id:         step-backward
     unicode:    f048
     created:    1.0
+    filter:
+      - rewind
+      - previous
+      - beginning
+      - start
+      - first
     categories:
       - Video Player Icons
 
@@ -509,6 +722,12 @@ icons:
     id:         fast-backward
     unicode:    f049
     created:    1.0
+    filter:
+      - rewind
+      - previous
+      - beginning
+      - start
+      - first
     categories:
       - Video Player Icons
 
@@ -516,6 +735,9 @@ icons:
     id:         backward
     unicode:    f04a
     created:    1.0
+    filter:
+      - rewind
+      - previous
     categories:
       - Video Player Icons
 
@@ -523,6 +745,11 @@ icons:
     id:         play
     unicode:    f04b
     created:    1.0
+    filter:
+      - start
+      - playing
+      - music
+      - sound
     categories:
       - Video Player Icons
 
@@ -530,6 +757,8 @@ icons:
     id:         pause
     unicode:    f04c
     created:    1.0
+    filter:
+      - wait
     categories:
       - Video Player Icons
 
@@ -537,6 +766,10 @@ icons:
     id:         stop
     unicode:    f04d
     created:    1.0
+    filter:
+      - block
+      - box
+      - square
     categories:
       - Video Player Icons
 
@@ -544,6 +777,9 @@ icons:
     id:         forward
     unicode:    f04e
     created:    1.0
+    filter:
+      - forward
+      - next
     categories:
       - Video Player Icons
 
@@ -552,6 +788,10 @@ icons:
     id:         fast-forward
     unicode:    f050
     created:    1.0
+    filter:
+      - next
+      - end
+      - last
     categories:
       - Video Player Icons
 
@@ -559,6 +799,10 @@ icons:
     id:         step-forward
     unicode:    f051
     created:    1.0
+    filter:
+      - next
+      - end
+      - last
     categories:
       - Video Player Icons
 
@@ -573,6 +817,10 @@ icons:
     id:         chevron-left
     unicode:    f053
     created:    1.0
+    filter:
+      - bracket
+      - previous
+      - back
     categories:
       - Directional Icons
 
@@ -580,6 +828,10 @@ icons:
     id:         chevron-right
     unicode:    f054
     created:    1.0
+    filter:
+      - bracket
+      - next
+      - forward
     categories:
       - Directional Icons
 
@@ -587,6 +839,11 @@ icons:
     id:         plus-circle
     unicode:    f055
     created:    1.0
+    filter:
+      - add
+      - new
+      - create
+      - expand
     categories:
       - Web Application Icons
 
@@ -594,6 +851,11 @@ icons:
     id:         minus-circle
     unicode:    f056
     created:    1.0
+    filter:
+      - delete
+      - remove
+      - trash
+      - hide
     categories:
       - Web Application Icons
 
@@ -601,6 +863,10 @@ icons:
     id:         times-circle
     unicode:    f057
     created:    1.0
+    filter:
+      - close
+      - exit
+      - x
     categories:
       - Web Application Icons
 
@@ -608,12 +874,23 @@ icons:
     id:         check-circle
     unicode:    f058
     created:    1.0
+    filter:
+      - todo
+      - done
+      - agree
+      - accept
+      - confirm
     categories:
       - Web Application Icons
 
   - name:       Question Circle
     id:         question-circle
     unicode:    f059
+    filter:
+      - help
+      - information
+      - unknown
+      - support
     created:    1.0
     categories:
       - Web Application Icons
@@ -622,6 +899,11 @@ icons:
     id:         info-circle
     unicode:    f05a
     created:    1.0
+    filter:
+      - help
+      - information
+      - more
+      - details
     categories:
       - Web Application Icons
 
@@ -629,6 +911,8 @@ icons:
     id:         crosshairs
     unicode:    f05b
     created:    1.0
+    filter:
+      - picker
     categories:
       - Web Application Icons
 
@@ -636,6 +920,10 @@ icons:
     id:         times-circle-o
     unicode:    f05c
     created:    1.0
+    filter:
+      - close
+      - exit
+      - x
     categories:
       - Web Application Icons
 
@@ -643,6 +931,12 @@ icons:
     id:         check-circle-o
     unicode:    f05d
     created:    1.0
+    filter:
+      - todo
+      - done
+      - agree
+      - accept
+      - confirm
     categories:
       - Web Application Icons
 
@@ -650,6 +944,12 @@ icons:
     id:         ban
     unicode:    f05e
     created:    1.0
+      - delete
+      - remove
+      - trash
+      - hide
+      - block
+      - stop
     categories:
       - Web Application Icons
 
@@ -658,6 +958,9 @@ icons:
     id:         arrow-left
     unicode:    f060
     created:    1.0
+    filter:
+      - previous
+      - back
     categories:
       - Directional Icons
 
@@ -665,6 +968,9 @@ icons:
     id:         arrow-right
     unicode:    f061
     created:    1.0
+    filter:
+      - next
+      - forward
     categories:
       - Directional Icons
 
@@ -679,6 +985,8 @@ icons:
     id:         arrow-down
     unicode:    f063
     created:    1.0
+    filter:
+        - download
     categories:
       - Directional Icons
 
@@ -695,6 +1003,10 @@ icons:
     id:         expand
     unicode:    f065
     created:    1.0
+    filter:
+      - enlarge
+      - bigger
+      - resize
     categories:
       - Video Player Icons
 
@@ -702,6 +1014,10 @@ icons:
     id:         compress
     unicode:    f066
     created:    1.0
+    filter:
+      - combine
+      - merge
+      - smaller
     categories:
       - Video Player Icons
 
@@ -709,6 +1025,11 @@ icons:
     id:         plus
     unicode:    f067
     created:    1.0
+    filter:
+      - add
+      - new
+      - create
+      - expand
     categories:
       - Web Application Icons
 
@@ -716,6 +1037,14 @@ icons:
     id:         minus
     unicode:    f068
     created:    1.0
+    filter:
+      - hide
+      - minify
+      - delete
+      - remove
+      - trash
+      - hide
+      - collapse
     categories:
       - Web Application Icons
 
@@ -723,6 +1052,8 @@ icons:
     id:         asterisk
     unicode:    f069
     created:    1.0
+    filter:
+      - details
     categories:
       - Web Application Icons
 
@@ -730,6 +1061,12 @@ icons:
     id:         exclamation-circle
     unicode:    f06a
     created:    1.0
+    filter:
+      - warning
+      - error
+      - problem
+      - notification
+      - alert
     categories:
       - Web Application Icons
 
@@ -737,6 +1074,8 @@ icons:
     id:         gift
     unicode:    f06b
     created:    1.0
+    filter:
+      - present
     categories:
       - Web Application Icons
 
@@ -744,6 +1083,9 @@ icons:
     id:         leaf
     unicode:    f06c
     created:    1.0
+    filter:
+      - eco
+      - nature
     categories:
       - Web Application Icons
 
@@ -751,6 +1093,10 @@ icons:
     id:         fire
     unicode:    f06d
     created:    1.0
+    filter:
+      - flame
+      - hot
+      - popular
     categories:
       - Web Application Icons
 
@@ -758,6 +1104,9 @@ icons:
     id:         eye
     unicode:    f06e
     created:    1.0
+    filter:
+      - show
+      - visible
     categories:
       - Web Application Icons
 
@@ -766,6 +1115,12 @@ icons:
     id:         eye-slash
     unicode:    f070
     created:    1.0
+    filter:
+      - toggle
+      - show
+      - hide
+      - visible
+      - visiblity
     categories:
       - Web Application Icons
 
@@ -773,6 +1128,12 @@ icons:
     id:         exclamation-triangle
     unicode:    f071
     created:    1.0
+    filter:
+      - warning
+      - error
+      - problem
+      - notification
+      - alert
     aliases:
       - warning
     categories:
@@ -782,6 +1143,14 @@ icons:
     id:         plane
     unicode:    f072
     created:    1.0
+    filter:
+      - travel
+      - trip
+      - location
+      - destination
+      - airplane
+      - fly
+      - mode
     categories:
       - Web Application Icons
 
@@ -789,6 +1158,10 @@ icons:
     id:         calendar
     unicode:    f073
     created:    1.0
+    filter:
+      - date
+      - time
+      - when
     categories:
       - Web Application Icons
 
@@ -796,6 +1169,8 @@ icons:
     id:         random
     unicode:    f074
     created:    1.0
+    filter:
+      - sort
     categories:
       - Web Application Icons
 
@@ -803,6 +1178,10 @@ icons:
     id:         comment
     unicode:    f075
     created:    1.0
+    filter:
+      - speech
+      - notification
+      - note
     categories:
       - Web Application Icons
 
@@ -831,6 +1210,9 @@ icons:
     id:         retweet
     unicode:    f079
     created:    1.0
+    filter:
+      - refresh
+      - share
     categories:
       - Web Application Icons
 
@@ -838,6 +1220,11 @@ icons:
     id:         shopping-cart
     unicode:    f07a
     created:    1.0
+    filter:
+      - checkout
+      - buy
+      - purchase
+      - payment
     categories:
       - Web Application Icons
 
@@ -859,6 +1246,8 @@ icons:
     id:         arrows-v
     unicode:    f07d
     created:    1.0
+    filter:
+        - resize
     categories:
       - Web Application Icons
       - Directional Icons
@@ -867,6 +1256,8 @@ icons:
     id:         arrows-h
     unicode:    f07e
     created:    1.0
+    filter:
+        - resize
     categories:
       - Web Application Icons
       - Directional Icons
@@ -878,6 +1269,8 @@ icons:
     created:    1.0
     aliases:
       - bar-chart-o
+    filter:
+      - graph
     categories:
       - Web Application Icons
       - Chart Icons
@@ -900,6 +1293,10 @@ icons:
     id:         camera-retro
     unicode:    f083
     created:    1.0
+    filter:
+      - photo
+      - picture
+      - record
     categories:
       - Web Application Icons
 
@@ -907,6 +1304,9 @@ icons:
     id:         key
     unicode:    f084
     created:    1.0
+    filter:
+      - unlock
+      - password
     categories:
       - Web Application Icons
 
@@ -916,6 +1316,8 @@ icons:
     created:    1.0
     aliases:
       - gears
+    filter:
+      - settings
     categories:
       - Web Application Icons
 
@@ -923,6 +1325,10 @@ icons:
     id:         comments
     unicode:    f086
     created:    1.0
+    filter:
+      - conversation
+      - notification
+      - notes
     categories:
       - Web Application Icons
 
@@ -930,6 +1336,11 @@ icons:
     id:         thumbs-o-up
     unicode:    f087
     created:    1.0
+    filter:
+      - like
+      - approve
+      - favorite
+      - agree
     categories:
       - Web Application Icons
 
@@ -937,6 +1348,10 @@ icons:
     id:         thumbs-o-down
     unicode:    f088
     created:    1.0
+    filter:
+      - dislike
+      - disapprove
+      - disagree
     categories:
       - Web Application Icons
 
@@ -944,6 +1359,11 @@ icons:
     id:         star-half
     unicode:    f089
     created:    1.0
+    filter:
+      - award
+      - achievement
+      - rating
+      - score
     categories:
       - Web Application Icons
 
@@ -951,6 +1371,10 @@ icons:
     id:         heart-o
     unicode:    f08a
     created:    1.0
+    filter:
+      - love
+      - like
+      - favorite
     categories:
       - Web Application Icons
 
@@ -958,6 +1382,12 @@ icons:
     id:         sign-out
     unicode:    f08b
     created:    1.0
+    filter:
+      - log out
+      - logout
+      - leave
+      - exit
+      - arrow
     categories:
       - Web Application Icons
 
@@ -972,6 +1402,11 @@ icons:
     id:         thumb-tack
     unicode:    f08d
     created:    1.0
+    filter:
+      - marker
+      - pin
+      - location
+      - coordinates
     categories:
       - Web Application Icons
 
@@ -979,6 +1414,9 @@ icons:
     id:         external-link
     unicode:    f08e
     created:    1.0
+    filter:
+      - open
+      - new
     categories:
       - Web Application Icons
 
@@ -987,6 +1425,14 @@ icons:
     id:         sign-in
     unicode:    f090
     created:    1.0
+    filter:
+      - enter
+      - join
+      - sign up
+      - sign in
+      - signin
+      - signup
+      - arrow
     categories:
       - Web Application Icons
 
@@ -994,6 +1440,11 @@ icons:
     id:         trophy
     unicode:    f091
     created:    1.0
+    filter:
+      - award
+      - achievement
+      - winner
+      - game
     categories:
       - Web Application Icons
 
@@ -1001,6 +1452,8 @@ icons:
     id:         github-square
     unicode:    f092
     created:    1.0
+    filter:
+      - octocat
     categories:
       - Brand Icons
 
@@ -1008,6 +1461,8 @@ icons:
     id:         upload
     unicode:    f093
     created:    1.0
+    filter:
+     - import
     categories:
       - Web Application Icons
 
@@ -1022,6 +1477,11 @@ icons:
     id:         phone
     unicode:    f095
     created:    2.0
+    filter:
+       - call
+       - voice
+       - number
+       - support
     categories:
       - Web Application Icons
 
@@ -1029,6 +1489,10 @@ icons:
     id:         square-o
     unicode:    f096
     created:    2.0
+    filter:
+      - block
+      - square
+      - box
     categories:
       - Web Application Icons
       - Form Control Icons
@@ -1038,6 +1502,8 @@ icons:
     id:         bookmark-o
     unicode:    f097
     created:    2.0
+    filter:
+      - save
     categories:
       - Web Application Icons
 
@@ -1045,6 +1511,11 @@ icons:
     id:         phone-square
     unicode:    f098
     created:    2.0
+    filter:
+       - call
+       - voice
+       - number
+       - support
     categories:
       - Web Application Icons
 
@@ -1052,6 +1523,8 @@ icons:
     id:         twitter
     unicode:    f099
     created:    2.0
+    filter:
+      - tweet
     categories:
       - Brand Icons
 
@@ -1066,6 +1539,8 @@ icons:
     id:         github
     unicode:    f09b
     created:    2.0
+    filter:
+      - octocat
     categories:
       - Brand Icons
 
@@ -1073,6 +1548,10 @@ icons:
     id:         unlock
     unicode:    f09c
     created:    2.0
+    filter:
+      - protect
+      - admin
+      - password
     categories:
       - Web Application Icons
 
@@ -1080,6 +1559,12 @@ icons:
     id:         credit-card
     unicode:    f09d
     created:    2.0
+    filter:
+      - money
+      - buy
+      - checkout
+      - purchase
+      - payment
     categories:
       - Web Application Icons
       - Payment Icons
@@ -1088,6 +1573,9 @@ icons:
     id:         rss
     unicode:    f09e
     created:    2.0
+    filter:
+      - feed
+      - blog
     categories:
       - Web Application Icons
 
@@ -1096,6 +1584,11 @@ icons:
     id:         hdd-o
     unicode:    f0a0
     created:    2.0
+    filter:
+      - harddrive
+      - hard drive
+      - storage
+      - save
     categories:
       - Web Application Icons
 
@@ -1103,6 +1596,10 @@ icons:
     id:         bullhorn
     unicode:    f0a1
     created:    2.0
+    filter:
+      - share
+      - broadcast
+      - louder
     categories:
       - Web Application Icons
 
@@ -1110,6 +1607,10 @@ icons:
     id:         bell
     unicode:    f0f3
     created:    2.0
+    filter:
+      - alert
+      - reminder
+      - notification
     categories:
       - Web Application Icons
 
@@ -1117,6 +1618,9 @@ icons:
     id:         certificate
     unicode:    f0a3
     created:    2.0
+    filter:
+      - badge
+      - star
     categories:
       - Web Application Icons
 
@@ -1124,6 +1628,11 @@ icons:
     id:         hand-o-right
     unicode:    f0a4
     created:    2.0
+    filter:
+      - point
+      - right
+      - next
+      - forward
     categories:
       - Directional Icons
 
@@ -1131,6 +1640,11 @@ icons:
     id:         hand-o-left
     unicode:    f0a5
     created:    2.0
+    filter:
+      - point
+      - left
+      - previous
+      - back
     categories:
       - Directional Icons
 
@@ -1138,6 +1652,8 @@ icons:
     id:         hand-o-up
     unicode:    f0a6
     created:    2.0
+    filter:
+      - point
     categories:
       - Directional Icons
 
@@ -1145,6 +1661,8 @@ icons:
     id:         hand-o-down
     unicode:    f0a7
     created:    2.0
+    filter:
+      - point
     categories:
       - Directional Icons
 
@@ -1152,6 +1670,9 @@ icons:
     id:         arrow-circle-left
     unicode:    f0a8
     created:    2.0
+    filter:
+      - previous
+      - back
     categories:
       - Directional Icons
 
@@ -1159,6 +1680,9 @@ icons:
     id:         arrow-circle-right
     unicode:    f0a9
     created:    2.0
+    filter:
+      - next
+      - forward
     categories:
       - Directional Icons
 
@@ -1173,6 +1697,8 @@ icons:
     id:         arrow-circle-down
     unicode:    f0ab
     created:    2.0
+    filter:
+        - download
     categories:
       - Directional Icons
 
@@ -1180,6 +1706,20 @@ icons:
     id:         globe
     unicode:    f0ac
     created:    2.0
+    filter:
+      - world
+      - planet
+      - place
+      - travel
+      - earth
+      - global
+      - translate
+      - all
+      - language
+      - localize
+      - location
+      - coordinates
+      - country
     categories:
       - Web Application Icons
 
@@ -1187,6 +1727,10 @@ icons:
     id:         wrench
     unicode:    f0ad
     created:    2.0
+    filter:
+      - settings
+      - fix
+      - update
     categories:
       - Web Application Icons
 
@@ -1194,6 +1738,12 @@ icons:
     id:         tasks
     unicode:    f0ae
     created:    2.0
+    filter:
+       - progress
+       - loading
+       - downloading
+       - downloads
+       - settings
     categories:
       - Web Application Icons
 
@@ -1202,6 +1752,9 @@ icons:
     id:         filter
     unicode:    f0b0
     created:    2.0
+    filter:
+      - funnel
+      - options
     categories:
       - Web Application Icons
 
@@ -1209,6 +1762,12 @@ icons:
     id:         briefcase
     unicode:    f0b1
     created:    2.0
+    filter:
+      - work
+      - business
+      - office
+      - luggage
+      - bag
     categories:
       - Web Application Icons
 
@@ -1216,6 +1775,13 @@ icons:
     id:         arrows-alt
     unicode:    f0b2
     created:    2.0
+    filter:
+      - expand
+      - enlarge
+      - bigger
+      - move
+      - reorder
+      - resize
     categories:
       - Video Player Icons
       - Directional Icons
@@ -1225,6 +1791,10 @@ icons:
     id:         users
     unicode:    f0c0
     created:    2.0
+    filter:
+      - people
+      - profiles
+      - persons
     aliases:
       - group
     categories:
@@ -1234,6 +1804,8 @@ icons:
     id:         link
     unicode:    f0c1
     created:    2.0
+    filter:
+      - chain
     aliases:
       - chain
     categories:
@@ -1241,6 +1813,8 @@ icons:
 
   - name:       Cloud
     id:         cloud
+    filter:
+      - save
     unicode:    f0c2
     created:    2.0
     categories:
@@ -1250,6 +1824,11 @@ icons:
     id:         flask
     unicode:    f0c3
     created:    2.0
+    filter:
+      - science
+      - beaker
+      - experimental
+      - labs
     categories:
       - Web Application Icons
 
@@ -1266,6 +1845,8 @@ icons:
     id:         files-o
     unicode:    f0c5
     created:    2.0
+    filter:
+      - duplicate
     aliases:
       - copy
     categories:
@@ -1275,6 +1856,8 @@ icons:
     id:         paperclip
     unicode:    f0c6
     created:    2.0
+    filter:
+      - attachment
     categories:
       - Text Editor Icons
 
@@ -1291,6 +1874,9 @@ icons:
     id:         square
     unicode:    f0c8
     created:    2.0
+    filter:
+      - block
+      - box
     categories:
       - Web Application Icons
       - Form Control Icons
@@ -1302,6 +1888,15 @@ icons:
     aliases:
       - navicon
       - reorder
+    filter:
+      - menu
+      - settings
+      - list
+      - ul
+      - ol
+      - checklist
+      - todo
+      - list
     categories:
       - Web Application Icons
 
@@ -1309,6 +1904,12 @@ icons:
     id:         list-ul
     unicode:    f0ca
     created:    2.0
+    filter:
+      - ul
+      - ol
+      - checklist
+      - todo
+      - list
     categories:
       - Text Editor Icons
 
@@ -1316,6 +1917,13 @@ icons:
     id:         list-ol
     unicode:    f0cb
     created:    2.0
+    filter:
+      - ul
+      - ol
+      - checklist
+      - list
+      - todo
+      - list
     categories:
       - Text Editor Icons
 
@@ -1337,6 +1945,10 @@ icons:
     id:         table
     unicode:    f0ce
     created:    2.0
+    filter:
+      - data
+      - excel
+      - spreadsheet
     categories:
       - Text Editor Icons
 
@@ -1345,6 +1957,10 @@ icons:
     id:         magic
     unicode:    f0d0
     created:    2.0
+    filter:
+      - wizard
+      - automatic
+      - autocomplete
     categories:
       - Web Application Icons
 
@@ -1352,6 +1968,8 @@ icons:
     id:         truck
     unicode:    f0d1
     created:    2.0
+    filter:
+      - shipping
     categories:
       - Web Application Icons
 
@@ -1387,6 +2005,13 @@ icons:
     id:         money
     unicode:    f0d6
     created:    2.0
+    filter:
+      - cash
+      - money
+      - buy
+      - checkout
+      - purchase
+      - payment
     categories:
       - Web Application Icons
       - Currency Icons
@@ -1395,6 +2020,10 @@ icons:
     id:         caret-down
     unicode:    f0d7
     created:    2.0
+    filter:
+      - more
+      - dropdown
+      - menu
     categories:
       - Directional Icons
 
@@ -1409,6 +2038,9 @@ icons:
     id:         caret-left
     unicode:    f0d9
     created:    2.0
+    filter:
+      - previous
+      - back
     categories:
       - Directional Icons
 
@@ -1416,6 +2048,9 @@ icons:
     id:         caret-right
     unicode:    f0da
     created:    2.0
+    filter:
+      - next
+      - forward
     categories:
       - Directional Icons
 
@@ -1423,6 +2058,9 @@ icons:
     id:         columns
     unicode:    f0db
     created:    2.0
+    filter:
+      - split
+      - panes
     categories:
       - Text Editor Icons
 
@@ -1430,6 +2068,8 @@ icons:
     id:         sort
     unicode:    f0dc
     created:    2.0
+    filter:
+      - order
     aliases:
       - unsorted
     categories:
@@ -1438,6 +2078,10 @@ icons:
   - name:       Sort Descending
     id:         sort-desc
     unicode:    f0dd
+    filter:
+      - dropdown
+      - more
+      - menu
     created:    2.0
     aliases:
       - sort-down
@@ -1458,6 +2102,11 @@ icons:
     id:         envelope
     unicode:    f0e0
     created:    2.0
+      - email
+      - e-mail
+      - letter
+      - support
+      - mail
     categories:
       - Web Application Icons
 
@@ -1473,6 +2122,8 @@ icons:
     id:         undo
     unicode:    f0e2
     created:    2.0
+    filter:
+      - back
     aliases:
       - rotate-left
     categories:
@@ -1482,6 +2133,10 @@ icons:
     id:         gavel
     unicode:    f0e3
     created:    2.0
+    label:
+      - judge
+      - lawyer
+      - opinion
     aliases:
       - legal
     categories:
@@ -1491,6 +2146,9 @@ icons:
     id:         tachometer
     unicode:    f0e4
     created:    2.0
+    label:
+      - speedometer
+      - fast
     aliases:
       - dashboard
     categories:
@@ -1500,6 +2158,9 @@ icons:
     id:         comment-o
     unicode:    f0e5
     created:    2.0
+    filter:
+      - notification
+      - note
     categories:
       - Web Application Icons
 
@@ -1507,6 +2168,10 @@ icons:
     id:         comments-o
     unicode:    f0e6
     created:    2.0
+    filter:
+      - conversation
+      - notification
+      - notes
     categories:
       - Web Application Icons
 
@@ -1514,6 +2179,9 @@ icons:
     id:         bolt
     unicode:    f0e7
     created:    2.0
+    filter:
+      - lightning
+      - weather
     aliases:
       - flash
     categories:
@@ -1523,6 +2191,10 @@ icons:
     id:         sitemap
     unicode:    f0e8
     created:    2.0
+    filter:
+      - directory
+      - hierarchy
+      - organization
     categories:
       - Web Application Icons
 
@@ -1537,6 +2209,8 @@ icons:
     id:         clipboard
     unicode:    f0ea
     created:    2.0
+    filter:
+      - copy
     aliases:
       - paste
     categories:
@@ -1546,6 +2220,9 @@ icons:
     id:         lightbulb-o
     unicode:    f0eb
     created:    3.0
+    filter:
+      - idea
+      - inspiration
     categories:
       - Web Application Icons
 
@@ -1560,6 +2237,8 @@ icons:
     id:         cloud-download
     unicode:    f0ed
     created:    3.0
+    filter:
+      - import
     categories:
       - Web Application Icons
 
@@ -1567,6 +2246,8 @@ icons:
     id:         cloud-upload
     unicode:    f0ee
     created:    3.0
+    filter:
+      - import
     categories:
       - Web Application Icons
 
@@ -1575,6 +2256,11 @@ icons:
     id:         user-md
     unicode:    f0f0
     created:    2.0
+    filter:
+      - doctor
+      - profile
+      - medical
+      - nurse
     categories:
       - Medical Icons
 
@@ -1589,6 +2275,12 @@ icons:
     id:         suitcase
     unicode:    f0f2
     created:    3.0
+    filter:
+      - trip
+      - luggage
+      - travel
+      - move
+      - baggage
     categories:
       - Web Application Icons
 
@@ -1596,6 +2288,10 @@ icons:
     id:         bell-o
     unicode:    f0a2
     created:    3.0
+    filter:
+      - alert
+      - reminder
+      - notification
     categories:
       - Web Application Icons
 
@@ -1603,6 +2299,13 @@ icons:
     id:         coffee
     unicode:    f0f4
     created:    3.0
+    filter:
+      - morning
+      - mug
+      - breakfast
+      - tea
+      - drink
+      - cafe
     categories:
       - Web Application Icons
 
@@ -1610,6 +2313,13 @@ icons:
     id:         cutlery
     unicode:    f0f5
     created:    3.0
+    filter:
+       - food
+       - restaurant
+       - spoon
+       - knife
+       - dinner
+       - eat
     categories:
       - Web Application Icons
 
@@ -1617,6 +2327,11 @@ icons:
     id:         file-text-o
     unicode:    f0f6
     created:    3.0
+    filter:
+      - new
+      - page
+      - pdf
+      - document
     categories:
       - Text Editor Icons
       - File Type Icons
@@ -1625,6 +2340,11 @@ icons:
     id:         building-o
     unicode:    f0f7
     created:    3.0
+    filter:
+      - work
+      - business
+      - apartment
+      - office
     categories:
       - Web Application Icons
 
@@ -1632,6 +2352,8 @@ icons:
     id:         hospital-o
     unicode:    f0f8
     created:    3.0
+    filter:
+      - building
     categories:
       - Medical Icons
 
@@ -1639,6 +2361,9 @@ icons:
     id:         ambulance
     unicode:    f0f9
     created:    3.0
+    filter:
+      - support
+      - help
     categories:
       - Medical Icons
 
@@ -1646,6 +2371,11 @@ icons:
     id:         medkit
     unicode:    f0fa
     created:    3.0
+    filter:
+      - first aid
+      - firstaid
+      - help
+      - support
     categories:
       - Medical Icons
 
@@ -1653,6 +2383,13 @@ icons:
     id:         fighter-jet
     unicode:    f0fb
     created:    3.0
+    filter:
+      - fly
+      - plane
+      - airplane
+      - quick
+      - fast
+      - travel
     categories:
       - Web Application Icons
 
@@ -1660,6 +2397,12 @@ icons:
     id:         beer
     unicode:    f0fc
     created:    3.0
+    filter:
+      - alcohol
+      - stein
+      - drink
+      - mug
+      - bar
     categories:
       - Web Application Icons
 
@@ -1667,6 +2410,9 @@ icons:
     id:         h-square
     unicode:    f0fd
     created:    3.0
+    filter:
+      - hospital
+      - hotel
     categories:
       - Medical Icons
 
@@ -1674,6 +2420,11 @@ icons:
     id:         plus-square
     unicode:    f0fe
     created:    3.0
+    filter:
+      - add
+      - new
+      - create
+      - expand
     categories:
       - Medical Icons
       - Web Application Icons
@@ -1684,6 +2435,11 @@ icons:
     id:         angle-double-left
     unicode:    f100
     created:    3.0
+    filter:
+      - laquo
+      - quote
+      - previous
+      - back
     categories:
       - Directional Icons
 
@@ -1691,6 +2447,11 @@ icons:
     id:         angle-double-right
     unicode:    f101
     created:    3.0
+    filter:
+      - raquo
+      - quote
+      - next
+      - forward
     categories:
       - Directional Icons
 
@@ -1712,6 +2473,9 @@ icons:
     id:         angle-left
     unicode:    f104
     created:    3.0
+    filter:
+      - previous
+      - back
     categories:
       - Directional Icons
 
@@ -1719,6 +2483,9 @@ icons:
     id:         angle-right
     unicode:    f105
     created:    3.0
+    filter:
+      - next
+      - forward
     categories:
       - Directional Icons
 
@@ -1740,6 +2507,13 @@ icons:
     id:         desktop
     unicode:    f108
     created:    3.0
+    filter:
+      - monitor
+      - screen
+      - desktop
+      - computer
+      - demo
+      - device
     categories:
       - Web Application Icons
 
@@ -1747,6 +2521,10 @@ icons:
     id:         laptop
     unicode:    f109
     created:    3.0
+    filter:
+      - demo
+      - computer
+      - device
     categories:
       - Web Application Icons
 
@@ -1754,6 +2532,9 @@ icons:
     id:         tablet
     unicode:    f10a
     created:    3.0
+    filter:
+      - ipad
+      - device
     categories:
       - Web Application Icons
 
@@ -1761,6 +2542,12 @@ icons:
     id:         mobile
     unicode:    f10b
     created:    3.0
+    filter:
+      - cell phone
+      - cellphone
+      - text
+      - iphone
+      - number
     aliases:
       - mobile-phone
     categories:
@@ -1793,6 +2580,9 @@ icons:
     id:         spinner
     unicode:    f110
     created:    3.0
+    filter:
+      - loading
+      - progress
     categories:
       - Web Application Icons
       - Spinner Icons
@@ -1801,6 +2591,8 @@ icons:
     id:         circle
     unicode:    f111
     created:    3.0
+    filter:
+      - dot
     categories:
       - Web Application Icons
       - Form Control Icons
@@ -1818,6 +2610,8 @@ icons:
     id:         github-alt
     unicode:    f113
     created:    3.0
+    filter:
+      - octocat
     categories:
       - Brand Icons
 
@@ -1839,6 +2633,12 @@ icons:
     id:         smile-o
     unicode:    f118
     created:    3.1
+    filter:
+      - emoticon
+      - happy
+      - approve
+      - satisfied
+      - rating
     categories:
       - Web Application Icons
 
@@ -1846,6 +2646,11 @@ icons:
     id:         frown-o
     unicode:    f119
     created:    3.1
+    filter:
+      - emoticon
+      - sad
+      - disapprove
+      - rating
     categories:
       - Web Application Icons
 
@@ -1853,6 +2658,10 @@ icons:
     id:         meh-o
     unicode:    f11a
     created:    3.1
+    filter:
+      - emoticon
+      - rating
+      - neutral
     categories:
       - Web Application Icons
 
@@ -1860,6 +2669,8 @@ icons:
     id:         gamepad
     unicode:    f11b
     created:    3.1
+    filter:
+      - controller
     categories:
       - Web Application Icons
 
@@ -1867,6 +2678,9 @@ icons:
     id:         keyboard-o
     unicode:    f11c
     created:    3.1
+    filter:
+      - type
+      - input
     categories:
       - Web Application Icons
 
@@ -1874,6 +2688,8 @@ icons:
     id:         flag-o
     unicode:    f11d
     created:    3.1
+    filter:
+      - report
     categories:
       - Web Application Icons
 
@@ -1881,6 +2697,8 @@ icons:
     id:         flag-checkered
     unicode:    f11e
     created:    3.1
+    filter:
+      - report
     categories:
       - Web Application Icons
 
@@ -1889,6 +2707,9 @@ icons:
     id:         terminal
     unicode:    f120
     created:    3.1
+    filter:
+      - command
+      - code
     categories:
       - Web Application Icons
 
@@ -1896,6 +2717,9 @@ icons:
     id:         code
     unicode:    f121
     created:    3.1
+    filter:
+      - html
+      - brackets
     categories:
       - Web Application Icons
 
@@ -1912,6 +2736,11 @@ icons:
     id:         star-half-o
     unicode:    f123
     created:    3.1
+    filter:
+      - award
+      - achievement
+      - rating
+      - score
     aliases:
       - star-half-empty
       - star-half-full
@@ -1922,6 +2751,13 @@ icons:
     id:         location-arrow
     unicode:    f124
     created:    3.1
+    filter:
+      - map
+      - coordinates
+      - location
+      - address
+      - place
+      - where
     categories:
       - Web Application Icons
 
@@ -1936,6 +2772,10 @@ icons:
     id:         code-fork
     unicode:    f126
     created:    3.1
+    filter:
+      - git
+      - version
+      - merge
     categories:
       - Web Application Icons
 
@@ -1943,6 +2783,8 @@ icons:
     id:         chain-broken
     unicode:    f127
     created:    3.1
+    filter:
+      - remove
     aliases:
       - unlink
     categories:
@@ -1952,6 +2794,11 @@ icons:
     id:         question
     unicode:    f128
     created:    3.1
+    filter:
+      - help
+      - information
+      - unknown
+      - support
     categories:
       - Web Application Icons
 
@@ -1959,6 +2806,11 @@ icons:
     id:         info
     unicode:    f129
     created:    3.1
+    filter:
+      - help
+      - information
+      - more
+      - details
     categories:
       - Web Application Icons
 
@@ -1966,6 +2818,12 @@ icons:
     id:         exclamation
     unicode:    f12a
     created:    3.1
+    filter:
+      - warning
+      - error
+      - problem
+      - notification
+      - alert
     categories:
       - Web Application Icons
 
@@ -1973,6 +2831,8 @@ icons:
     id:         superscript
     unicode:    f12b
     created:    3.1
+    filter:
+      - exponential
     categories:
       - Text Editor Icons
 
@@ -1995,6 +2855,10 @@ icons:
     id:         puzzle-piece
     unicode:    f12e
     created:    3.1
+    filter:
+      - addon
+      - add-on
+      - section
     categories:
       - Web Application Icons
 
@@ -2003,6 +2867,10 @@ icons:
     id:         microphone
     unicode:    f130
     created:    3.1
+    filter:
+      - record
+      - voice
+      - sound
     categories:
       - Web Application Icons
 
@@ -2010,6 +2878,11 @@ icons:
     id:         microphone-slash
     unicode:    f131
     created:    3.1
+    filter:
+      - record
+      - voice
+      - sound
+      - mute
     categories:
       - Web Application Icons
 
@@ -2017,6 +2890,10 @@ icons:
     id:         shield
     unicode:    f132
     created:    3.1
+    filter:
+      - award
+      - achievement
+      - winner
     categories:
       - Web Application Icons
 
@@ -2024,6 +2901,10 @@ icons:
     id:         calendar-o
     unicode:    f133
     created:    3.1
+    filter:
+      - date
+      - time
+      - when
     categories:
       - Web Application Icons
 
@@ -2038,6 +2919,8 @@ icons:
     id:         rocket
     unicode:    f135
     created:    3.1
+    filter:
+      - app
     categories:
       - Web Application Icons
 
@@ -2052,6 +2935,9 @@ icons:
     id:         chevron-circle-left
     unicode:    f137
     created:    3.1
+    filter:
+      - previous
+      - back
     categories:
       - Directional Icons
 
@@ -2059,6 +2945,9 @@ icons:
     id:         chevron-circle-right
     unicode:    f138
     created:    3.1
+    filter:
+      - next
+      - forward
     categories:
       - Directional Icons
 
@@ -2073,6 +2962,10 @@ icons:
     id:         chevron-circle-down
     unicode:    f13a
     created:    3.1
+    filter:
+      - more
+      - dropdown
+      - menu
     categories:
       - Directional Icons
 
@@ -2080,6 +2973,9 @@ icons:
     id:         html5
     unicode:    f13b
     created:    3.1
+    code:
+      - code
+      - html5
     categories:
       - Brand Icons
 
@@ -2087,6 +2983,8 @@ icons:
     id:         css3
     unicode:    f13c
     created:    3.1
+    filter:
+      - code
     categories:
       - Brand Icons
 
@@ -2094,6 +2992,8 @@ icons:
     id:         anchor
     unicode:    f13d
     created:    3.1
+    filter:
+      - link
     categories:
       - Web Application Icons
 
@@ -2101,6 +3001,10 @@ icons:
     id:         unlock-alt
     unicode:    f13e
     created:    3.1
+    filter:
+      - protect
+      - admin
+      - password
     categories:
       - Web Application Icons
 
@@ -2109,6 +3013,8 @@ icons:
     id:         bullseye
     unicode:    f140
     created:    3.1
+    filter:
+      - target
     categories:
       - Web Application Icons
 
@@ -2116,6 +3022,8 @@ icons:
     id:         ellipsis-h
     unicode:    f141
     created:    3.1
+    filter:
+      - dots
     categories:
       - Web Application Icons
 
@@ -2123,6 +3031,8 @@ icons:
     id:         ellipsis-v
     unicode:    f142
     created:    3.1
+    filter:
+      - dots
     categories:
       - Web Application Icons
 
@@ -2130,6 +3040,9 @@ icons:
     id:         rss-square
     unicode:    f143
     created:    3.1
+    filter:
+      - feed
+      - blog
     categories:
       - Web Application Icons
 
@@ -2137,6 +3050,9 @@ icons:
     id:         play-circle
     unicode:    f144
     created:    3.1
+    filter:
+      - start
+      - playing
     categories:
       - Video Player Icons
 
@@ -2144,6 +3060,10 @@ icons:
     id:         ticket
     unicode:    f145
     created:    3.1
+    filter:
+      - movie
+      - pass
+      - support
     categories:
       - Web Application Icons
 
@@ -2151,6 +3071,14 @@ icons:
     id:         minus-square
     unicode:    f146
     created:    3.1
+    filter:
+      - hide
+      - minify
+      - delete
+      - remove
+      - trash
+      - hide
+      - collapse
     categories:
       - Web Application Icons
       - Form Control Icons
@@ -2159,6 +3087,14 @@ icons:
     id:         minus-square-o
     unicode:    f147
     created:    3.1
+    filter:
+      - hide
+      - minify
+      - delete
+      - remove
+      - trash
+      - hide
+      - collapse
     categories:
       - Web Application Icons
       - Form Control Icons
@@ -2182,6 +3118,13 @@ icons:
     id:         check-square
     unicode:    f14a
     created:    3.1
+    filter:
+      - checkmark
+      - done
+      - todo
+      - agree
+      - accept
+      - confirm
     categories:
       - Web Application Icons
       - Form Control Icons
@@ -2190,6 +3133,9 @@ icons:
     id:         pencil-square
     unicode:    f14b
     created:    3.1
+    filter:
+      - write
+      - edit
     categories:
       - Web Application Icons
 
@@ -2197,6 +3143,9 @@ icons:
     id:         external-link-square
     unicode:    f14c
     created:    3.1
+    filter:
+      - open
+      - new
     categories:
       - Web Application Icons
 
@@ -2204,6 +3153,9 @@ icons:
     id:         share-square
     unicode:    f14d
     created:    3.1
+    filter:
+      - social
+      - send
     categories:
       - Web Application Icons
 
@@ -2211,6 +3163,11 @@ icons:
     id:         compass
     unicode:    f14e
     created:    3.2
+    filter:
+      - safari
+      - directory
+      - menu
+      - location
     categories:
       - Web Application Icons
 
@@ -2221,6 +3178,10 @@ icons:
     created:    3.2
     aliases:
       - toggle-down
+    filter:
+      - more
+      - dropdown
+      - menu
     categories:
       - Web Application Icons
       - Directional Icons
@@ -2239,6 +3200,9 @@ icons:
     id:         caret-square-o-right
     unicode:    f152
     created:    3.2
+    filter:
+      - next
+      - forward
     aliases:
       - toggle-right
     categories:
@@ -2323,6 +3287,11 @@ icons:
     id:         file
     unicode:    f15b
     created:    3.2
+    filter:
+      - new
+      - page
+      - pdf
+      - document
     categories:
       - Text Editor Icons
       - File Type Icons
@@ -2331,6 +3300,11 @@ icons:
     id:         file-text
     unicode:    f15c
     created:    3.2
+    filter:
+      - new
+      - page
+      - pdf
+      - document
     categories:
       - Text Editor Icons
       - File Type Icons
@@ -2383,6 +3357,11 @@ icons:
     id:         thumbs-up
     unicode:    f164
     created:    3.2
+    filter:
+      - like
+      - favorite
+      - approve
+      - agree
     categories:
       - Web Application Icons
 
@@ -2390,6 +3369,10 @@ icons:
     id:         thumbs-down
     unicode:    f165
     created:    3.2
+    filter:
+      - dislike
+      - disapprove
+      - disagree
     categories:
       - Web Application Icons
 
@@ -2397,6 +3380,9 @@ icons:
     id:         youtube-square
     unicode:    f166
     created:    3.2
+    filter:
+      - video
+      - film
     categories:
       - Brand Icons
 
@@ -2404,6 +3390,9 @@ icons:
     id:         youtube
     unicode:    f167
     created:    3.2
+    filter:
+      - video
+      - film
     categories:
       - Brand Icons
 
@@ -2425,6 +3414,9 @@ icons:
     id:         youtube-play
     unicode:    f16a
     created:    3.2
+    filter:
+      - start
+      - playing
     categories:
       - Brand Icons
       - Video Player Icons
@@ -2468,6 +3460,8 @@ icons:
     id:         bitbucket
     unicode:    f171
     created:    3.2
+    filter:
+        - git
     categories:
       - Brand Icons
 
@@ -2475,6 +3469,8 @@ icons:
     id:         bitbucket-square
     unicode:    f172
     created:    3.2
+    filter:
+        - git
     categories:
       - Brand Icons
 
@@ -2510,6 +3506,9 @@ icons:
     id:         long-arrow-left
     unicode:    f177
     created:    3.2
+    filter:
+      - previous
+      - back
     categories:
       - Directional Icons
 
@@ -2524,6 +3523,8 @@ icons:
     id:         apple
     unicode:    f179
     created:    3.2
+    filter:
+      - osx
     categories:
       - Brand Icons
 
@@ -2531,6 +3532,7 @@ icons:
     id:         windows
     unicode:    f17a
     created:    3.2
+      - microsoft
     categories:
       - Brand Icons
 
@@ -2545,6 +3547,8 @@ icons:
     id:         linux
     unicode:    f17c
     created:    3.2
+    filter:
+      - tux
     categories:
       - Brand Icons
 
@@ -2581,6 +3585,11 @@ icons:
     id:         female
     unicode:    f182
     created:    3.2
+    filter:
+      - woman
+      - user
+      - person
+      - profile
     categories:
       - Web Application Icons
 
@@ -2588,6 +3597,11 @@ icons:
     id:         male
     unicode:    f183
     created:    3.2
+    filter:
+      - man
+      - user
+      - person
+      - profile
     categories:
       - Web Application Icons
 
@@ -2595,6 +3609,11 @@ icons:
     id:         gittip
     unicode:    f184
     created:    3.2
+    filter:
+      - heart
+      - like
+      - favorite
+      - love
     categories:
       - Brand Icons
 
@@ -2602,6 +3621,12 @@ icons:
     id:         sun-o
     unicode:    f185
     created:    3.2
+    filter:
+      - weather
+      - contrast
+      - lighter
+      - brighten
+      - day
     categories:
       - Web Application Icons
 
@@ -2609,6 +3634,10 @@ icons:
     id:         moon-o
     unicode:    f186
     created:    3.2
+    filter:
+       - night
+       - darker
+       - contrast
     categories:
       - Web Application Icons
 
@@ -2616,6 +3645,9 @@ icons:
     id:         archive
     unicode:    f187
     created:    3.2
+    filter:
+      - box
+      - storage
     categories:
       - Web Application Icons
 
@@ -2623,6 +3655,8 @@ icons:
     id:         bug
     unicode:    f188
     created:    3.2
+    filter:
+      - report
     categories:
       - Web Application Icons
 
@@ -2652,6 +3686,13 @@ icons:
     id:         pagelines
     unicode:    f18c
     created:    4.0
+    filter:
+      - leaf
+      - leaves
+      - tree
+      - plant
+      - eco
+      - nature
     categories:
       - Brand Icons
 
@@ -2666,6 +3707,9 @@ icons:
     id:         arrow-circle-o-right
     unicode:    f18e
     created:    4.0
+    filter:
+      - next
+      - forward
     categories:
       - Directional Icons
 
@@ -2674,6 +3718,9 @@ icons:
     id:         arrow-circle-o-left
     unicode:    f190
     created:    4.0
+    filter:
+      - previous
+      - back
     categories:
       - Directional Icons
 
@@ -2681,6 +3728,9 @@ icons:
     id:         caret-square-o-left
     unicode:    f191
     created:    4.0
+    filter:
+      - previous
+      - back
     aliases:
       - toggle-left
     categories:
@@ -2691,6 +3741,9 @@ icons:
     id:         dot-circle-o
     unicode:    f192
     created:    4.0
+    filter:
+      - target
+      - bullseye
     categories:
       - Web Application Icons
       - Form Control Icons
@@ -2699,6 +3752,11 @@ icons:
     id:         wheelchair
     unicode:    f193
     created:    4.0
+    filter:
+      - handicap
+      - person
+      - accessibility
+      - accessibile
     categories:
       - Web Application Icons
       - Medical Icons
@@ -2723,6 +3781,11 @@ icons:
     id:         plus-square-o
     unicode:    f196
     created:    4.0
+    filter:
+      - add
+      - new
+      - create
+      - expand
     categories:
       - Web Application Icons
       - Form Control Icons
