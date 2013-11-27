@@ -75,3 +75,7 @@ Build the project and documentation:
 Or serve it on a local server on http://localhost:7998/Font-Awesome/:
 
     $ bundle exec jekyll serve
+    
+### Submitting Pull Requests
+
+Pull requests are welcome, but please ensure you are on the next development [version](#versioning), which is the branch labeled #.#.#-wip.
