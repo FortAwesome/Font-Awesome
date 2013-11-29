@@ -12,10 +12,12 @@
     "./fonts/*"
   ],
   "ignore": [
-    "less/*",
-    "scss/*",
-    "src/*",
+    "*/.*",
+    "*.json",
+    "src",
     "*.yml",
+    "Gemfile",
+    "Gemfile.lock",
     "*.md"
   ]
 }
