@@ -211,9 +211,9 @@
 .#{$fa-css-prefix}-unsorted:before,
 .#{$fa-css-prefix}-sort:before { content: $fa-var-sort; }
 .#{$fa-css-prefix}-sort-down:before,
-.#{$fa-css-prefix}-sort-asc:before { content: $fa-var-sort-asc; }
-.#{$fa-css-prefix}-sort-up:before,
 .#{$fa-css-prefix}-sort-desc:before { content: $fa-var-sort-desc; }
+.#{$fa-css-prefix}-sort-up:before,
+.#{$fa-css-prefix}-sort-asc:before { content: $fa-var-sort-asc; }
 .#{$fa-css-prefix}-envelope:before { content: $fa-var-envelope; }
 .#{$fa-css-prefix}-linkedin:before { content: $fa-var-linkedin; }
 .#{$fa-css-prefix}-rotate-left:before,
