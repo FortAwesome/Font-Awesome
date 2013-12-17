@@ -1419,8 +1419,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Sort Ascending
-    id:         sort-asc
+  - name:       Sort Descending
+    id:         sort-desc
     unicode:    f0dd
     created:    2.0
     aliases:
@@ -1428,8 +1428,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Sort Descending
-    id:         sort-desc
+  - name:       Sort Ascending
+    id:         sort-asc
     unicode:    f0de
     created:    2.0
     aliases:
