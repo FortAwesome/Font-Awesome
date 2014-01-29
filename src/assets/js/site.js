@@ -4,6 +4,38 @@ $(function() {
     interval: 5000
   });
 
+  // Filter icons
+  if($('#filter-by').length) {
+    var $filter_val = $('#filter-val');
+    var $filter = $('#filter');
+    var $other = $('#new, #web-application, #form-control, #medical, #currency, #text-editor, #directional, #video-player, #brand');
+    var $clear = $('#filter-clear');
+
+    var $icons = $('.filter-icon', $filter);
+
+    $clear.click(function(e) {
+      e.preventDefault();
+      $('#filter-by').val('').trigger('keyup').focus();
+    });
+
+
+    $('#filter-by').keyup(function() {
+      var $this = $(this);
+      var val = $this.val();
+      $filter.toggle(!!val);
+      $other.toggle(!val);
+      $clear.toggleClass('gone', !val);
+      $filter_val.text(val);
+
+      if(!val) return;
+
+      $icons.each(function() {
+        var show = $(this).attr('data-filter').match(' '+val);
+        $(this).toggle(!!show);
+      });
+    }).trigger('keyup');
+  }
+
 
 
 
