@@ -43,6 +43,7 @@ icons:
       - e-mail
       - letter
       - mail
+      - notification
     categories:
       - Web Application Icons
 
@@ -134,6 +135,9 @@ icons:
       - ul
       - ol
       - checklist
+      - finished
+      - completed
+      - done
       - todo
     categories:
       - Text Editor Icons
@@ -332,6 +336,8 @@ icons:
     id:         refresh
     unicode:    f021
     created:    1.0
+    filter:
+      - reload
     categories:
       - Web Application Icons
       - Spinner Icons
@@ -344,6 +350,9 @@ icons:
       - ul
       - ol
       - checklist
+      - finished
+      - completed
+      - done
       - todo
     categories:
       - Text Editor Icons
@@ -364,6 +373,8 @@ icons:
     created:    1.0
     filter:
       - report
+      - notification
+      - notify
     categories:
       - Web Application Icons
 
@@ -374,6 +385,7 @@ icons:
     filter:
       - sound
       - listen
+      - music
     categories:
       - Web Application Icons
 
@@ -570,6 +582,9 @@ icons:
       - ul
       - ol
       - checklist
+      - finished
+      - completed
+      - done
       - todo
     categories:
       - Text Editor Icons
@@ -619,6 +634,7 @@ icons:
     filter:
       - write
       - edit
+      - update
     categories:
       - Web Application Icons
 
@@ -664,6 +680,7 @@ icons:
     filter:
       - write
       - edit
+      - update
     aliases:
       - edit
     categories:
@@ -1107,6 +1124,7 @@ icons:
     filter:
       - show
       - visible
+      - views
     categories:
       - Web Application Icons
 
@@ -1121,6 +1139,7 @@ icons:
       - hide
       - visible
       - visiblity
+      - views
     categories:
       - Web Application Icons
 
@@ -1212,6 +1231,7 @@ icons:
     created:    1.0
     filter:
       - refresh
+      - reload
       - share
     categories:
       - Web Application Icons
@@ -1562,6 +1582,7 @@ icons:
     filter:
       - money
       - buy
+      - debit
       - checkout
       - purchase
       - payment
@@ -1597,6 +1618,7 @@ icons:
     unicode:    f0a1
     created:    2.0
     filter:
+      - announcement
       - share
       - broadcast
       - louder
@@ -1709,6 +1731,7 @@ icons:
     filter:
       - world
       - planet
+      - map
       - place
       - travel
       - earth
@@ -1890,6 +1913,8 @@ icons:
       - reorder
     filter:
       - menu
+      - drag
+      - reorder
       - settings
       - list
       - ul
@@ -1924,6 +1949,7 @@ icons:
       - list
       - todo
       - list
+      - numbers
     categories:
       - Text Editor Icons
 
@@ -2107,6 +2133,7 @@ icons:
       - letter
       - support
       - mail
+      - notification
     categories:
       - Web Application Icons
 
@@ -2546,6 +2573,7 @@ icons:
       - cell phone
       - cellphone
       - text
+      - call
       - iphone
       - number
     aliases:
@@ -2593,6 +2621,7 @@ icons:
     created:    3.0
     filter:
       - dot
+      - notification
     categories:
       - Web Application Icons
       - Form Control Icons
@@ -2690,6 +2719,7 @@ icons:
     created:    3.1
     filter:
       - report
+      - notification
     categories:
       - Web Application Icons
 
@@ -2699,6 +2729,8 @@ icons:
     created:    3.1
     filter:
       - report
+      - notification
+      - notify
     categories:
       - Web Application Icons
 
@@ -2709,6 +2741,7 @@ icons:
     created:    3.1
     filter:
       - command
+      - prompt
       - code
     categories:
       - Web Application Icons
@@ -2774,6 +2807,11 @@ icons:
     created:    3.1
     filter:
       - git
+      - fork
+      - vcs
+      - svn
+      - github
+      - rebase
       - version
       - merge
     categories:
@@ -2823,6 +2861,7 @@ icons:
       - error
       - problem
       - notification
+      - notify
       - alert
     categories:
       - Web Application Icons
@@ -3136,6 +3175,7 @@ icons:
     filter:
       - write
       - edit
+      - update
     categories:
       - Web Application Icons
 
@@ -3342,6 +3382,8 @@ icons:
     id:         sort-numeric-asc
     unicode:    f162
     created:    3.2
+    filter:
+      - numbers
     categories:
       - Web Application Icons
 
@@ -3349,6 +3391,8 @@ icons:
     id:         sort-numeric-desc
     unicode:    f163
     created:    3.2
+    filter:
+      - numbers
     categories:
       - Web Application Icons
 
@@ -3746,6 +3790,7 @@ icons:
     filter:
       - target
       - bullseye
+      - notification
     categories:
       - Web Application Icons
       - Form Control Icons
