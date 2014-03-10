@@ -14,6 +14,11 @@
           animation: fa-spin 1s infinite steps(8);
 }
 
+.@{fa-css-prefix}-pulsate {
+  -webkit-animation: fa-pulsate 0.9s infinite ease-in-out;
+  animation: fa-pulsate 0.9s infinite ease-in-out;
+}
+
 @-webkit-keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -33,5 +38,35 @@
   100% {
     -webkit-transform: rotate(359deg);
             transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes fa-pulsate {
+  0% {  
+    -webkit-transform: scale(1);  
+            transform: scale(1);  
+  }
+  50% {  
+    -webkit-transform: scale(1.15); 
+            transform: scale(1.15);  
+  }
+  100% {  
+    -webkit-transform: scale(1);
+            transform: scale(1);  
+  }
+}
+
+@keyframes pulsate {
+  0% {  
+    -webkit-transform: scale(1);  
+            transform: scale(1);  
+  }
+  50% {  
+    -webkit-transform: scale(1.15); 
+            transform: scale(1.15);  
+  }
+  100% {  
+    -webkit-transform: scale(1);
+            transform: scale(1);  
   }
 }
