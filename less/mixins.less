@@ -18,3 +18,10 @@
        -o-transform: scale(@horiz, @vert);
           transform: scale(@horiz, @vert);
 }
+
+.smooth-text() {
+  /* CODESIGN2 ADDITIONS */
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.004) !important;
+}
