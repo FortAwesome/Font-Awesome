@@ -5,6 +5,10 @@
     {% include brand-license.html %}
   </div>
 
+  <div class="alert alert-warning">
+    {% include brand-adblock-warning.html %}
+  </div>
+
   <div class="row fontawesome-icon-list">
     {% assign icons_brand = icons | expand_aliases | category:"Brand Icons" | sort_by:'class' %}
 
