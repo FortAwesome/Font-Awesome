@@ -5,8 +5,8 @@
   "keywords": [],
   "homepage": "http://fontawesome.io",
   "dependencies": {},
-  "development": {},
-  "license": "SIL, MIT, CC BY 3.0",
+  "devDependencies": {},
+  "license": ["OFL-1.1", "MIT", "CC-BY-3.0"],
   "main": [
     "./css/font-awesome.css",
     "./fonts/*"
