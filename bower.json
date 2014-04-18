@@ -1,0 +1,27 @@
+{
+  "name": "fontawesome",
+  "description": "The iconic font designed for Bootstrap",
+  "version": "4.0.3",
+  "homepage": "http://fontawesome.io/",
+  "authors": [
+    { "name": "Dave Gandy", "email": "dave@fontawesome.io", "homepage": "http://twitter.com/davegandy" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FortAwesome/Font-Awesome.git"
+  },
+  "keywords": ["font", "awesome", "fontawesome", "icon", "font", "bootstrap"],
+  "dependencies": {},
+  "devDependencies": {
+    "less.js": "1.4.2"
+  },
+  "license": ["OFL-1.1", "MIT", "CC-BY-3.0"],
+  "main": [
+    "css/font-awesome.css",
+    "fonts/fontawesome-webfont.eot",
+    "fonts/fontawesome-webfont.svg",
+    "fonts/fontawesome-webfont.ttf",
+    "fonts/fontawesome-webfont.woff",
+    "fonts/FontAwesome.otf"
+  ]
+}
