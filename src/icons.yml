@@ -2732,3 +2732,10 @@ icons:
     created:    4.1
     categories:
       - Web Application Icons
+
+  - name:       Wordpress Logo
+    id:         wordpress
+    unicode:    f19a
+    created:    4.1
+    categories:
+      - Brand Icons
