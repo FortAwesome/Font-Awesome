@@ -2725,3 +2725,10 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       Envelope Square
+    id:         envelope-square
+    unicode:    f199
+    created:    4.1
+    categories:
+      - Web Application Icons
