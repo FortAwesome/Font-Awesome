@@ -2746,3 +2746,12 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       University
+    id:         university
+    unicode:    f19c
+    created:    4.1
+    aliases:
+      - institution
+    categories:
+      - Web Application Icons

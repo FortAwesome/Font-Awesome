@@ -1344,3 +1344,7 @@
 .fa-openid:before {
   content: "\f19b";
 }
+.fa-institution:before,
+.fa-university:before {
+  content: "\f19c";
+}
