@@ -2711,3 +2711,10 @@ icons:
     categories:
       - Web Application Icons
       - Form Control Icons
+
+  - name:       Space Shuttle
+    id:         space-shuttle
+    unicode:    f197
+    created:    4.1
+    categories:
+      - Web Application Icons
