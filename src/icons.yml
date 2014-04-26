@@ -2739,3 +2739,10 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       OpenID
+    id:         openid
+    unicode:    f19b
+    created:    4.1
+    categories:
+      - Brand Icons
