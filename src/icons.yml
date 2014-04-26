@@ -2718,3 +2718,10 @@ icons:
     created:    4.1
     categories:
       - Web Application Icons
+
+  - name:       Slack Logo
+    id:         slack
+    unicode:    f198
+    created:    4.1
+    categories:
+      - Brand Icons
