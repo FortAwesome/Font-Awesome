@@ -2755,3 +2755,12 @@ icons:
       - institution
     categories:
       - Web Application Icons
+
+  - name:       Graduation Cap
+    id:         graduation-cap
+    unicode:    f19d
+    created:    4.1
+    aliases:
+      - mortar-board
+    categories:
+      - Web Application Icons
