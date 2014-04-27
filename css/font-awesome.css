@@ -1348,3 +1348,12 @@
 .fa-university:before {
   content: "\f19c";
 }
+.fa-yahoo:before {
+  content: "\f19d";
+}
+.fa-google:before {
+  content: "\f19e";
+}
+.fa-gmail:before {
+  content: "\f200";
+}
