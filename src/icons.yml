@@ -2755,3 +2755,24 @@ icons:
       - institution
     categories:
       - Web Application Icons
+
+  - name:       Yahoo
+    id:         yahoo
+    unicode:    f19d
+    created:    4.1
+    categories:
+      - Social Icons
+
+  - name:       Google
+    id:         google
+    unicode:    f19e
+    created:    4.1
+    categories:
+      - Social Icons
+
+  - name:       Gmail
+    id:         gmail
+    unicode:    f200
+    created:    4.1
+    categories:
+      - Social Icons
