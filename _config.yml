@@ -19,13 +19,13 @@ icon_layout:      icon.html    # Relative to _layouts directory
 icon_destination: icon         # Relative to destination
 
 fontawesome:
-  version:        4.0.3
-  minor_version:  4.0
+  version:        4.1.0
+  minor_version:  4.1
   url:            http://fontawesome.io
   legacy_url:     http://fortawesome.github.com/Font-Awesome/
   blog_url:       http://blog.fontawesome.io
   twitter:        fontawesome
-  tagline:        The iconic font designed for Bootstrap
+  tagline:        The iconic font and CSS framework
   css_prefix:     fa
   author:
     name:         Dave Gandy
@@ -51,7 +51,7 @@ fontawesome:
       url:          http://creativecommons.org/licenses/by/3.0/
 
 bootstrap:
-  version:        3.0.0
+  version:        3.0.2
   url:            http://getbootstrap.com
 
 jquery:

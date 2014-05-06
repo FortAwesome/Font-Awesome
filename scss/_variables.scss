@@ -2,9 +2,9 @@
 // --------------------------
 
 $fa-font-path:        "../fonts" !default;
-//$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.0.3/fonts" !default; // for referencing Bootstrap CDN font files directly
+//$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.1.0/fonts" !default; // for referencing Bootstrap CDN font files directly
 $fa-css-prefix:       fa !default;
-$fa-version:          "4.0.3" !default;
+$fa-version:          "4.1.0" !default;
 $fa-border-color:     #eee !default;
 $fa-inverse:          #fff !default;
 $fa-li-width:        (30em / 14) !default;
@@ -205,8 +205,8 @@ $fa-var-caret-left: "\f0d9";
 $fa-var-caret-right: "\f0da";
 $fa-var-columns: "\f0db";
 $fa-var-sort: "\f0dc";
-$fa-var-sort-asc: "\f0dd";
-$fa-var-sort-desc: "\f0de";
+$fa-var-sort-desc: "\f0dd";
+$fa-var-sort-asc: "\f0de";
 $fa-var-envelope: "\f0e0";
 $fa-var-linkedin: "\f0e1";
 $fa-var-undo: "\f0e2";
@@ -378,4 +378,11 @@ $fa-var-wheelchair: "\f193";
 $fa-var-vimeo-square: "\f194";
 $fa-var-try: "\f195";
 $fa-var-plus-square-o: "\f196";
+$fa-var-space-shuttle: "\f197";
+$fa-var-slack: "\f198";
+$fa-var-envelope-square: "\f199";
+$fa-var-wordpress: "\f19a";
+$fa-var-openid: "\f19b";
+$fa-var-university: "\f19c";
+$fa-var-graduation-cap: "\f19d";
 

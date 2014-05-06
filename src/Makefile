@@ -17,7 +17,7 @@ SITE_LESS_DIRECTORY = assets/less
 SITE_CSS_DIRECTORY = assets/css
 
 SITE_LESS = ${SITE_LESS_DIRECTORY}/site.less
-SITE_CSS_MIN = ${SITE_CSS_DIRECTORY}/site.css
+SITE_CSS = ${SITE_CSS_DIRECTORY}/site.css
 
 build:
 	@echo "Compiling Less files"
@@ -27,7 +27,7 @@ build:
 	lessc --yui-compress ${FA_LESS_MODERN} > ${FA_CSS_MODERN_MIN}
 #	sass ${FA_SCSS_MODERN} ${FA_CSS_MODERN}
 
-	lessc --compress ${SITE_LESS} > ${SITE_CSS_MIN}
+	lessc --yui-compress ${SITE_LESS} > ${SITE_CSS}
 	cp -r ${FA_ROOT_DIRECTORY}/* ../
 	cd assets && mv font-awesome font-awesome-{{ site.fontawesome.version }} && zip -r9 font-awesome-{{ site.fontawesome.version }}.zip font-awesome-{{ site.fontawesome.version }} && mv font-awesome-{{ site.fontawesome.version }} font-awesome
 

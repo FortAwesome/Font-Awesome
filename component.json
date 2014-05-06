@@ -1,8 +1,8 @@
 {
-  "name": "Font-Awesome",
+  "name": "font-awesome",
   "repo": "FortAwesome/Font-Awesome",
   "description": "Font Awesome",
-  "version": "4.0.3",
+  "version": "4.1.0",
   "keywords": [],
   "dependencies": {},
   "development": {},

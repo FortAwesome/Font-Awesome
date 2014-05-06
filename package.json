@@ -1,9 +1,12 @@
 {
   "name": "font-awesome",
-  "description": "The iconic font designed for Bootstrap",
-  "version": "4.0.3",
+  "description": "The iconic font and CSS framework",
+  "version": "4.1.0",
   "keywords": ["font", "awesome", "fontawesome", "icon", "font", "bootstrap"],
   "homepage": "http://fontawesome.io/",
+  "bugs": {
+    "url" : "http://github.com/FortAwesome/Font-Awesome/issues"
+  },
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.io",
@@ -29,15 +32,17 @@
   ],
   "licenses": [
     {
-      "type": "SIL OFL 1.1",
+      "type": "OFL-1.1",
       "url": "http://scripts.sil.org/OFL"
     },
     {
-      "type": "MIT License",
+      "type": "MIT",
       "url": "http://opensource.org/licenses/mit-license.html"
     }
   ],
   "dependencies": {
-    "less": "1.4.2"
+  },
+  "engines" : {
+    "node" : ">=0.10.3"
   }
 }

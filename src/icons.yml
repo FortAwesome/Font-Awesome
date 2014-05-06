@@ -1419,8 +1419,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Sort Ascending
-    id:         sort-asc
+  - name:       Sort Descending
+    id:         sort-desc
     unicode:    f0dd
     created:    2.0
     aliases:
@@ -1428,8 +1428,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Sort Descending
-    id:         sort-desc
+  - name:       Sort Ascending
+    id:         sort-asc
     unicode:    f0de
     created:    2.0
     aliases:
@@ -1961,14 +1961,14 @@ icons:
     unicode:    f12b
     created:    3.1
     categories:
-      - Web Application Icons
+      - Text Editor Icons
 
   - name:       subscript
     id:         subscript
     unicode:    f12c
     created:    3.1
     categories:
-      - Web Application Icons
+      - Text Editor Icons
 
   - name:       eraser
     id:         eraser
@@ -2711,3 +2711,56 @@ icons:
     categories:
       - Web Application Icons
       - Form Control Icons
+
+  - name:       Space Shuttle
+    id:         space-shuttle
+    unicode:    f197
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Slack Logo
+    id:         slack
+    unicode:    f198
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Envelope Square
+    id:         envelope-square
+    unicode:    f199
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Wordpress Logo
+    id:         wordpress
+    unicode:    f19a
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       OpenID
+    id:         openid
+    unicode:    f19b
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       University
+    id:         university
+    unicode:    f19c
+    created:    4.1
+    aliases:
+      - institution
+    categories:
+      - Web Application Icons
+
+  - name:       Graduation Cap
+    id:         graduation-cap
+    unicode:    f19d
+    created:    4.1
+    aliases:
+      - mortar-board
+    categories:
+      - Web Application Icons

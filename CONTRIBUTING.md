@@ -34,9 +34,10 @@ As of v3.2.0, Font Awesome's CSS, LESS, SCSS, and documentation are all powered 
 
 ## Pull requests
 
+- At the moment we are not accepting pull requests containing icons
 - Submit all pull requests against the appropriate `*-wip` branch for easier merging
 - Any changes to the docs must be made to the Liquid templates in the `src` directory
-- CSS changes must be done in .less and .scss files first, never the compiled files
+- Any changes to the styles must be made to the .less and .scss files in the `src` directory
 - If modifying the .less and .scss files, always recompile and commit the compiled files
 - Try not to pollute your pull request with unintended changes--keep them simple and small
 - Try to share which browsers your code has been tested in before submitting a pull request
