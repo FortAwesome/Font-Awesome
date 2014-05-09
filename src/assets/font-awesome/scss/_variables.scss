@@ -9,7 +9,7 @@ $fa-css-prefix:       {{ site.fontawesome.css_prefix }} !default;
 $fa-version:          "{{ site.fontawesome.version }}" !default;
 $fa-border-color:     #eee !default;
 $fa-inverse:          #fff !default;
-$fa-li-width:        (30em / 14) !default;
+$fa-li-width:         (30em / 14) !default;
 
-{% for icon in icons %}$fa-var-{{ icon.id }}: "\{{ icon.unicode }}";
+{% assign sorted_icons = icons | sort_by:'class' %}{% for icon in sorted_icons %}$fa-var-{{ icon.id }}: "\{{ icon.unicode }}";
 {% endfor %}
