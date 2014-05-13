@@ -2975,3 +2975,10 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       deviantART
+    id:         deviantart
+    unicode:    f1bd
+    created:    4.1
+    categories:
+      - Brand Icons
