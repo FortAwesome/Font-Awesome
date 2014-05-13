@@ -2863,3 +2863,46 @@ icons:
     created:    4.1
     categories:
       - Web Application Icons
+
+  - name:       Building
+    id:         building
+    unicode:    f1ad
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Child
+    id:         child
+    unicode:    f1ae
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+
+  - name:       Paw
+    id:         paw
+    unicode:    f1b0
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       spoon
+    id:         spoon
+    unicode:    f1b1
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Cube
+    id:         cube
+    unicode:    f1b2
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Cubes
+    id:         cubes
+    unicode:    f1b3
+    created:    4.1
+    categories:
+      - Web Application Icons
