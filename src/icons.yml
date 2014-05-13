@@ -2936,3 +2936,35 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       Recycle
+    id:         recycle
+    unicode:    f1b8
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Car
+    id:         car
+    unicode:    f1b9
+    created:    4.1
+    categories:
+      - Web Application Icons
+    aliases:
+      - automobile
+
+  - name:       Taxi
+    id:         taxi
+    unicode:    f1ba
+    created:    4.1
+    categories:
+      - Web Application Icons
+    aliases:
+      - cab
+
+  - name:       Tree
+    id:         tree
+    unicode:    f1bb
+    created:    4.1
+    categories:
+      - Web Application Icons

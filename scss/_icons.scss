@@ -67,6 +67,8 @@
 .#{$fa-css-prefix}-calendar-o:before { content: $fa-var-calendar-o; }
 .#{$fa-css-prefix}-camera:before { content: $fa-var-camera; }
 .#{$fa-css-prefix}-camera-retro:before { content: $fa-var-camera-retro; }
+.#{$fa-css-prefix}-automobile:before,
+.#{$fa-css-prefix}-car:before { content: $fa-var-car; }
 .#{$fa-css-prefix}-caret-down:before { content: $fa-var-caret-down; }
 .#{$fa-css-prefix}-caret-left:before { content: $fa-var-caret-left; }
 .#{$fa-css-prefix}-caret-right:before { content: $fa-var-caret-right; }
@@ -306,6 +308,7 @@
 .#{$fa-css-prefix}-quote-left:before { content: $fa-var-quote-left; }
 .#{$fa-css-prefix}-quote-right:before { content: $fa-var-quote-right; }
 .#{$fa-css-prefix}-random:before { content: $fa-var-random; }
+.#{$fa-css-prefix}-recycle:before { content: $fa-var-recycle; }
 .#{$fa-css-prefix}-reddit:before { content: $fa-var-reddit; }
 .#{$fa-css-prefix}-reddit-square:before { content: $fa-var-reddit-square; }
 .#{$fa-css-prefix}-refresh:before { content: $fa-var-refresh; }
@@ -386,6 +389,8 @@
 .#{$fa-css-prefix}-tag:before { content: $fa-var-tag; }
 .#{$fa-css-prefix}-tags:before { content: $fa-var-tags; }
 .#{$fa-css-prefix}-tasks:before { content: $fa-var-tasks; }
+.#{$fa-css-prefix}-cab:before,
+.#{$fa-css-prefix}-taxi:before { content: $fa-var-taxi; }
 .#{$fa-css-prefix}-terminal:before { content: $fa-var-terminal; }
 .#{$fa-css-prefix}-text-height:before { content: $fa-var-text-height; }
 .#{$fa-css-prefix}-text-width:before { content: $fa-var-text-width; }
@@ -403,6 +408,7 @@
 .#{$fa-css-prefix}-times-circle-o:before { content: $fa-var-times-circle-o; }
 .#{$fa-css-prefix}-tint:before { content: $fa-var-tint; }
 .#{$fa-css-prefix}-trash-o:before { content: $fa-var-trash-o; }
+.#{$fa-css-prefix}-tree:before { content: $fa-var-tree; }
 .#{$fa-css-prefix}-trello:before { content: $fa-var-trello; }
 .#{$fa-css-prefix}-trophy:before { content: $fa-var-trophy; }
 .#{$fa-css-prefix}-truck:before { content: $fa-var-truck; }
