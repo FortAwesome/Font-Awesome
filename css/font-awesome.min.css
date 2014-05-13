@@ -1419,3 +1419,9 @@
 .fa-behance-square:before {
   content: "\f1b5";
 }
+.fa-steam:before {
+  content: "\f1b6";
+}
+.fa-steam-square:before {
+  content: "\f1b7";
+}

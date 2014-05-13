@@ -2914,11 +2914,25 @@ icons:
     unicode:    f1b4
     created:    4.1
     categories:
-      - Web Application Icons
+      - Brand Icons
 
   - name:       Behance Square
     id:         behance-square
     unicode:    f1b5
     created:    4.1
     categories:
-      - Web Application Icons
+      - Brand Icons
+
+  - name:       Steam
+    id:         steam
+    unicode:    f1b6
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Steam Square
+    id:         steam-square
+    unicode:    f1b7
+    created:    4.1
+    categories:
+      - Brand Icons
