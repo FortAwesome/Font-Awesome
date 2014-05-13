@@ -1364,3 +1364,9 @@
 .fa-reddit-square:before {
   content: "\f1a2";
 }
+.fa-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+.fa-stumbleupon:before {
+  content: "\f1a4";
+}

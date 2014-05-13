@@ -2793,3 +2793,17 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       StumbleUpon Circle
+    id:         stumbleupon-circle
+    unicode:    f1a3
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       StumbleUpon Logo
+    id:         stumbleupon
+    unicode:    f1a4
+    created:    4.1
+    categories:
+      - Brand Icons
