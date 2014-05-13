@@ -2968,3 +2968,10 @@ icons:
     created:    4.1
     categories:
       - Web Application Icons
+
+  - name:       Spotify
+    id:         spotify
+    unicode:    f1bc
+    created:    4.1
+    categories:
+      - Brand Icons
