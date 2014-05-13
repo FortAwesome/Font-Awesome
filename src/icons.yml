@@ -2849,3 +2849,10 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       Language
+    id:         language
+    unicode:    f1ab
+    created:    4.1
+    categories:
+      - Web Application Icons
