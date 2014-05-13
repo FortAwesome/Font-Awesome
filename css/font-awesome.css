@@ -1358,3 +1358,9 @@
 .fa-google:before {
   content: "\f1a0";
 }
+.fa-reddit:before {
+  content: "\f1a1";
+}
+.fa-reddit-square:before {
+  content: "\f1a2";
+}

@@ -2779,3 +2779,17 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       Reddit Logo
+    id:         reddit
+    unicode:    f1a1
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Reddit Square
+    id:         reddit-square
+    unicode:    f1a2
+    created:    4.1
+    categories:
+      - Brand Icons
