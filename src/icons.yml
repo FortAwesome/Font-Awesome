@@ -2828,6 +2828,8 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+    aliases:
+      - pied-piper-square
 
   - name:       Pied Piper Alternate Logo
     id:         pied-piper-alt
@@ -2903,6 +2905,20 @@ icons:
   - name:       Cubes
     id:         cubes
     unicode:    f1b3
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Behance
+    id:         behance
+    unicode:    f1b4
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Behance Square
+    id:         behance-square
+    unicode:    f1b5
     created:    4.1
     categories:
       - Web Application Icons

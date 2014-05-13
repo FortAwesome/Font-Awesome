@@ -1376,6 +1376,7 @@
 .fa-digg:before {
   content: "\f1a6";
 }
+.fa-pied-piper-square:before,
 .fa-pied-piper:before {
   content: "\f1a7";
 }
@@ -1411,4 +1412,10 @@
 }
 .fa-cubes:before {
   content: "\f1b3";
+}
+.fa-behance:before {
+  content: "\f1b4";
+}
+.fa-behance-square:before {
+  content: "\f1b5";
 }
