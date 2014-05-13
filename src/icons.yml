@@ -2780,14 +2780,14 @@ icons:
     categories:
       - Brand Icons
 
-  - name:       Reddit Logo
+  - name:       reddit Logo
     id:         reddit
     unicode:    f1a1
     created:    4.1
     categories:
       - Brand Icons
 
-  - name:       Reddit Square
+  - name:       reddit Square
     id:         reddit-square
     unicode:    f1a2
     created:    4.1
@@ -2811,6 +2811,13 @@ icons:
   - name:       Delicious Logo
     id:         delicious
     unicode:    f1a5
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Digg Logo
+    id:         digg
+    unicode:    f1a6
     created:    4.1
     categories:
       - Brand Icons
