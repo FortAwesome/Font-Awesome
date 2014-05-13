@@ -2807,3 +2807,10 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       Delicious Logo
+    id:         delicious
+    unicode:    f1a5
+    created:    4.1
+    categories:
+      - Brand Icons
