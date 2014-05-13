@@ -2982,3 +2982,10 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       SoundCloud
+    id:         soundcloud
+    unicode:    f1be
+    created:    4.1
+    categories:
+      - Brand Icons
