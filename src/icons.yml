@@ -2821,3 +2821,17 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       Pied Piper Logo
+    id:         pied-piper
+    unicode:    f1a7
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Pied Piper Alternate Logo
+    id:         pied-piper-alt
+    unicode:    f1a8
+    created:    4.1
+    categories:
+      - Brand Icons

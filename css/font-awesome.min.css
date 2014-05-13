@@ -1376,3 +1376,9 @@
 .fa-digg:before {
   content: "\f1a6";
 }
+.fa-pied-piper:before {
+  content: "\f1a7";
+}
+.fa-pied-piper-alt:before {
+  content: "\f1a8";
+}
