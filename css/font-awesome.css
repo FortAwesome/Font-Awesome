@@ -1382,3 +1382,9 @@
 .fa-pied-piper-alt:before {
   content: "\f1a8";
 }
+.fa-drupal:before {
+  content: "\f1a9";
+}
+.fa-joomla:before {
+  content: "\f1aa";
+}

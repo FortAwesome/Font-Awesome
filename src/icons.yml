@@ -2835,3 +2835,17 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       Drupal Logo
+    id:         drupal
+    unicode:    f1a9
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Joomla Logo
+    id:         joomla
+    unicode:    f1aa
+    created:    4.1
+    categories:
+      - Brand Icons
