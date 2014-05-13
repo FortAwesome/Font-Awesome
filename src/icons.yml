@@ -2856,3 +2856,10 @@ icons:
     created:    4.1
     categories:
       - Web Application Icons
+
+  - name:       Fax
+    id:         fax
+    unicode:    f1ac
+    created:    4.1
+    categories:
+      - Web Application Icons
