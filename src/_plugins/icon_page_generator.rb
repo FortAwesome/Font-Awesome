@@ -23,7 +23,7 @@ module Jekyll
       self.read_yaml(File.join(base, site.config['layouts']), site.config['icon_layout'])
 
       self.data['icon'] = icon
-      self.data['title'] = "icon-#{icon.id}: " + self.data['title_suffix']
+      self.data['title'] = "fa-#{icon.id}: " + self.data['title_suffix']
     end
 
   end

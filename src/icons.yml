@@ -2764,3 +2764,18 @@ icons:
       - mortar-board
     categories:
       - Web Application Icons
+
+  - name:       Yahoo Logo
+    id:         yahoo
+    unicode:    f19e
+    created:    4.1
+    categories:
+      - Brand Icons
+
+
+  - name:       Google Logo
+    id:         google
+    unicode:    f1a0
+    created:    4.1
+    categories:
+      - Brand Icons
