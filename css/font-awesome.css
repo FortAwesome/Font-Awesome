@@ -1542,3 +1542,6 @@
 .fa-history:before {
   content: "\f1da";
 }
+.fa-circle-thin:before {
+  content: "\f1db";
+}

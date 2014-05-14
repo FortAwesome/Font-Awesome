@@ -3214,3 +3214,10 @@ icons:
     created:    4.1
     categories:
       - Web Application Icons
+
+  - name:       Circle Outlined Thin
+    id:         circle-thin
+    unicode:    f1db
+    created:    4.1
+    categories:
+      - Web Application Icons
