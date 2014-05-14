@@ -1502,3 +1502,11 @@
 .fa-circle-o-notch:before {
   content: "\f1ce";
 }
+.fa-ra:before,
+.fa-rebel:before {
+  content: "\f1d0";
+}
+.fa-ge:before,
+.fa-empire:before {
+  content: "\f1d1";
+}

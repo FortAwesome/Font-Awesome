@@ -3120,3 +3120,22 @@ icons:
     categories:
       - Web Application Icons
       - Spinner Icons
+
+
+  - name:       Rebel Alliance
+    id:         rebel
+    unicode:    f1d0
+    created:    4.1
+    aliases:
+      - ra
+    categories:
+      - Brand Icons
+
+  - name:       Galactic Empire
+    id:         empire
+    unicode:    f1d1
+    created:    4.1
+    aliases:
+      - ge
+    categories:
+      - Brand Icons
