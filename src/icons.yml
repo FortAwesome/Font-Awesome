@@ -3156,3 +3156,10 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       Hacker News
+    id:         hacker-news
+    unicode:    f1d4
+    created:    4.1
+    categories:
+      - Brand Icons
