@@ -3207,3 +3207,10 @@ icons:
       - send-o
     categories:
       - Web Application Icons
+
+  - name:       History
+    id:         history
+    unicode:    f1da
+    created:    4.1
+    categories:
+      - Web Application Icons
