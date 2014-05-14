@@ -134,6 +134,7 @@ icons:
       - gear
     categories:
       - Web Application Icons
+      - Spinner Icons
 
   - name:       Trash Outlined
     id:         trash-o
@@ -222,6 +223,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Spinner Icons
 
   - name:       list-alt
     id:         list-alt
@@ -1786,6 +1788,7 @@ icons:
     created:    3.0
     categories:
       - Web Application Icons
+      - Spinner Icons
 
   - name:       Circle
     id:         circle
@@ -3186,3 +3189,21 @@ icons:
       - wechat
     categories:
       - Brand Icons
+
+  - name:       Paper Plane
+    id:         paper-plane
+    unicode:    f1d8
+    created:    4.1
+    aliases:
+      - send
+    categories:
+      - Web Application Icons
+
+  - name:       Paper Plane Outlined
+    id:         paper-plane-o
+    unicode:    f1d9
+    created:    4.1
+    aliases:
+      - send-o
+    categories:
+      - Web Application Icons

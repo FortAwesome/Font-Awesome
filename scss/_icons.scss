@@ -305,6 +305,10 @@
 .#{$fa-css-prefix}-dedent:before,
 .#{$fa-css-prefix}-outdent:before { content: $fa-var-outdent; }
 .#{$fa-css-prefix}-pagelines:before { content: $fa-var-pagelines; }
+.#{$fa-css-prefix}-send:before,
+.#{$fa-css-prefix}-paper-plane:before { content: $fa-var-paper-plane; }
+.#{$fa-css-prefix}-send-o:before,
+.#{$fa-css-prefix}-paper-plane-o:before { content: $fa-var-paper-plane-o; }
 .#{$fa-css-prefix}-paperclip:before { content: $fa-var-paperclip; }
 .#{$fa-css-prefix}-pause:before { content: $fa-var-pause; }
 .#{$fa-css-prefix}-paw:before { content: $fa-var-paw; }
