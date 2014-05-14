@@ -1512,3 +1512,9 @@
 .fa-empire:before {
   content: "\f1d1";
 }
+.fa-git-square:before {
+  content: "\f1d2";
+}
+.fa-git:before {
+  content: "\f1d3";
+}

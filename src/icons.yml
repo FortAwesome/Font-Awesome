@@ -3142,3 +3142,17 @@ icons:
       - ge
     categories:
       - Brand Icons
+
+  - name:       Git Square
+    id:         git-square
+    unicode:    f1d2
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Git
+    id:         git
+    unicode:    f1d3
+    created:    4.1
+    categories:
+      - Brand Icons
