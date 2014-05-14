@@ -3221,3 +3221,17 @@ icons:
     created:    4.1
     categories:
       - Web Application Icons
+
+  - name:       header
+    id:         header
+    unicode:    f1dc
+    created:    4.1
+    categories:
+      - Text Editor Icons
+
+  - name:       paragraph
+    id:         paragraph
+    unicode:    f1dd
+    created:    4.1
+    categories:
+      - Text Editor Icons
