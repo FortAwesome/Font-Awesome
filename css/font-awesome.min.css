@@ -978,10 +978,8 @@
 .fa-code:before {
   content: "\f121";
 }
+.fa-mail-reply-all:before,
 .fa-reply-all:before {
-  content: "\f122";
-}
-.fa-mail-reply-all:before {
   content: "\f122";
 }
 .fa-star-half-empty:before,

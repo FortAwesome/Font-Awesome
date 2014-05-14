@@ -257,7 +257,6 @@
 .#{$fa-css-prefix}-long-arrow-up:before { content: $fa-var-long-arrow-up; }
 .#{$fa-css-prefix}-magic:before { content: $fa-var-magic; }
 .#{$fa-css-prefix}-magnet:before { content: $fa-var-magnet; }
-.#{$fa-css-prefix}-mail-reply-all:before { content: $fa-var-mail-reply-all; }
 .#{$fa-css-prefix}-male:before { content: $fa-var-male; }
 .#{$fa-css-prefix}-map-marker:before { content: $fa-var-map-marker; }
 .#{$fa-css-prefix}-maxcdn:before { content: $fa-var-maxcdn; }
@@ -319,6 +318,7 @@
 .#{$fa-css-prefix}-repeat:before { content: $fa-var-repeat; }
 .#{$fa-css-prefix}-mail-reply:before,
 .#{$fa-css-prefix}-reply:before { content: $fa-var-reply; }
+.#{$fa-css-prefix}-mail-reply-all:before,
 .#{$fa-css-prefix}-reply-all:before { content: $fa-var-reply-all; }
 .#{$fa-css-prefix}-retweet:before { content: $fa-var-retweet; }
 .#{$fa-css-prefix}-road:before { content: $fa-var-road; }

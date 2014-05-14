@@ -1885,13 +1885,8 @@ icons:
     id:         reply-all
     unicode:    f122
     created:    3.1
-    categories:
-      - Web Application Icons
-
-  - name:       mail-reply-all
-    id:         mail-reply-all
-    unicode:    f122
-    created:    3.1
+    aliases:
+      - mail-reply-all
     categories:
       - Web Application Icons
 
