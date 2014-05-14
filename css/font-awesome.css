@@ -1492,3 +1492,12 @@
 .fa-jsfiddle:before {
   content: "\f1cc";
 }
+.fa-life-bouy:before,
+.fa-life-saver:before,
+.fa-support:before,
+.fa-life-ring:before {
+  content: "\f1cd";
+}
+.fa-circle-o-notch:before {
+  content: "\f1ce";
+}

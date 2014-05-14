@@ -3100,3 +3100,22 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       Life Ring
+    id:         life-ring
+    unicode:    f1cd
+    created:    4.1
+    aliases:
+      - life-bouy
+      - life-saver
+      - support
+    categories:
+      - Web Application Icons
+
+  - name:       Circle Outlined Notched
+    id:         circle-o-notch
+    unicode:    f1ce
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - Spinner Icons
