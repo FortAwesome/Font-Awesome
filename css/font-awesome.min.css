@@ -1486,3 +1486,9 @@
 .fa-vine:before {
   content: "\f1ca";
 }
+.fa-codepen:before {
+  content: "\f1cb";
+}
+.fa-jsfiddle:before {
+  content: "\f1cc";
+}

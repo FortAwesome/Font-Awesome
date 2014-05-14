@@ -3086,3 +3086,17 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       Codepen
+    id:         codepen
+    unicode:    f1cb
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       jsFiddle
+    id:         jsfiddle
+    unicode:    f1cc
+    created:    4.1
+    categories:
+      - Brand Icons
