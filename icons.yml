@@ -134,6 +134,7 @@ icons:
       - gear
     categories:
       - Web Application Icons
+      - Spinner Icons
 
   - name:       Trash Outlined
     id:         trash-o
@@ -155,6 +156,7 @@ icons:
     created:    1.0
     categories:
       - Text Editor Icons
+      - File Type Icons
 
   - name:       Clock Outlined
     id:         clock-o
@@ -221,6 +223,7 @@ icons:
     created:    1.0
     categories:
       - Web Application Icons
+      - Spinner Icons
 
   - name:       list-alt
     id:         list-alt
@@ -425,6 +428,9 @@ icons:
     id:         picture-o
     unicode:    f03e
     created:    1.0
+    aliases:
+      - photo
+      - image
     categories:
       - Web Application Icons
 
@@ -1286,6 +1292,9 @@ icons:
     id:         bars
     unicode:    f0c9
     created:    2.0
+    aliases:
+      - navicon
+      - reorder
     categories:
       - Web Application Icons
 
@@ -1419,8 +1428,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Sort Ascending
-    id:         sort-asc
+  - name:       Sort Descending
+    id:         sort-desc
     unicode:    f0dd
     created:    2.0
     aliases:
@@ -1428,8 +1437,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Sort Descending
-    id:         sort-desc
+  - name:       Sort Ascending
+    id:         sort-asc
     unicode:    f0de
     created:    2.0
     aliases:
@@ -1603,6 +1612,7 @@ icons:
     created:    3.0
     categories:
       - Text Editor Icons
+      - File Type Icons
 
   - name:       Building Outlined
     id:         building-o
@@ -1778,6 +1788,7 @@ icons:
     created:    3.0
     categories:
       - Web Application Icons
+      - Spinner Icons
 
   - name:       Circle
     id:         circle
@@ -1885,13 +1896,8 @@ icons:
     id:         reply-all
     unicode:    f122
     created:    3.1
-    categories:
-      - Web Application Icons
-
-  - name:       mail-reply-all
-    id:         mail-reply-all
-    unicode:    f122
-    created:    3.1
+    aliases:
+      - mail-reply-all
     categories:
       - Web Application Icons
 
@@ -1961,14 +1967,14 @@ icons:
     unicode:    f12b
     created:    3.1
     categories:
-      - Web Application Icons
+      - Text Editor Icons
 
   - name:       subscript
     id:         subscript
     unicode:    f12c
     created:    3.1
     categories:
-      - Web Application Icons
+      - Text Editor Icons
 
   - name:       eraser
     id:         eraser
@@ -2312,6 +2318,7 @@ icons:
     created:    3.2
     categories:
       - Text Editor Icons
+      - File Type Icons
 
   - name:       File Text
     id:         file-text
@@ -2319,6 +2326,7 @@ icons:
     created:    3.2
     categories:
       - Text Editor Icons
+      - File Type Icons
 
   - name:       Sort Alpha Ascending
     id:         sort-alpha-asc
@@ -2711,3 +2719,550 @@ icons:
     categories:
       - Web Application Icons
       - Form Control Icons
+
+  - name:       Space Shuttle
+    id:         space-shuttle
+    unicode:    f197
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Slack Logo
+    id:         slack
+    unicode:    f198
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Envelope Square
+    id:         envelope-square
+    unicode:    f199
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Wordpress Logo
+    id:         wordpress
+    unicode:    f19a
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       OpenID
+    id:         openid
+    unicode:    f19b
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       University
+    id:         university
+    unicode:    f19c
+    created:    4.1
+    aliases:
+      - institution
+      - bank
+    categories:
+      - Web Application Icons
+
+  - name:       Graduation Cap
+    id:         graduation-cap
+    unicode:    f19d
+    created:    4.1
+    aliases:
+      - mortar-board
+    categories:
+      - Web Application Icons
+
+  - name:       Yahoo Logo
+    id:         yahoo
+    unicode:    f19e
+    created:    4.1
+    categories:
+      - Brand Icons
+
+
+  - name:       Google Logo
+    id:         google
+    unicode:    f1a0
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       reddit Logo
+    id:         reddit
+    unicode:    f1a1
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       reddit Square
+    id:         reddit-square
+    unicode:    f1a2
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       StumbleUpon Circle
+    id:         stumbleupon-circle
+    unicode:    f1a3
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       StumbleUpon Logo
+    id:         stumbleupon
+    unicode:    f1a4
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Delicious Logo
+    id:         delicious
+    unicode:    f1a5
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Digg Logo
+    id:         digg
+    unicode:    f1a6
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Pied Piper Logo
+    id:         pied-piper
+    unicode:    f1a7
+    created:    4.1
+    categories:
+      - Brand Icons
+    aliases:
+      - pied-piper-square
+
+  - name:       Pied Piper Alternate Logo
+    id:         pied-piper-alt
+    unicode:    f1a8
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Drupal Logo
+    id:         drupal
+    unicode:    f1a9
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Joomla Logo
+    id:         joomla
+    unicode:    f1aa
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Language
+    id:         language
+    unicode:    f1ab
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Fax
+    id:         fax
+    unicode:    f1ac
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Building
+    id:         building
+    unicode:    f1ad
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Child
+    id:         child
+    unicode:    f1ae
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+
+  - name:       Paw
+    id:         paw
+    unicode:    f1b0
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       spoon
+    id:         spoon
+    unicode:    f1b1
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Cube
+    id:         cube
+    unicode:    f1b2
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Cubes
+    id:         cubes
+    unicode:    f1b3
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Behance
+    id:         behance
+    unicode:    f1b4
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Behance Square
+    id:         behance-square
+    unicode:    f1b5
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Steam
+    id:         steam
+    unicode:    f1b6
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Steam Square
+    id:         steam-square
+    unicode:    f1b7
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Recycle
+    id:         recycle
+    unicode:    f1b8
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Car
+    id:         car
+    unicode:    f1b9
+    created:    4.1
+    categories:
+      - Web Application Icons
+    aliases:
+      - automobile
+
+  - name:       Taxi
+    id:         taxi
+    unicode:    f1ba
+    created:    4.1
+    categories:
+      - Web Application Icons
+    aliases:
+      - cab
+
+  - name:       Tree
+    id:         tree
+    unicode:    f1bb
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Spotify
+    id:         spotify
+    unicode:    f1bc
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       deviantART
+    id:         deviantart
+    unicode:    f1bd
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       SoundCloud
+    id:         soundcloud
+    unicode:    f1be
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Database
+    id:         database
+    unicode:    f1c0
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       PDF File Outlined
+    id:         file-pdf-o
+    unicode:    f1c1
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Word File Outlined
+    id:         file-word-o
+    unicode:    f1c2
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Excel File Outlined
+    id:         file-excel-o
+    unicode:    f1c3
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Powerpoint File Outlined
+    id:         file-powerpoint-o
+    unicode:    f1c4
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Image File Outlined
+    id:         file-image-o
+    unicode:    f1c5
+    created:    4.1
+    aliases:
+      - file-photo-o
+      - file-picture-o
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Archive File Outlined
+    id:         file-archive-o
+    unicode:    f1c6
+    created:    4.1
+    aliases:
+      - file-zip-o
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Audio File Outlined
+    id:         file-audio-o
+    unicode:    f1c7
+    created:    4.1
+    aliases:
+      - file-sound-o
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Video File Outlined
+    id:         file-video-o
+    unicode:    f1c8
+    created:    4.1
+    aliases:
+      - file-movie-o
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Code File Outlined
+    id:         file-code-o
+    unicode:    f1c9
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Vine
+    id:         vine
+    unicode:    f1ca
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Codepen
+    id:         codepen
+    unicode:    f1cb
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       jsFiddle
+    id:         jsfiddle
+    unicode:    f1cc
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Life Ring
+    id:         life-ring
+    unicode:    f1cd
+    created:    4.1
+    aliases:
+      - life-bouy
+      - life-saver
+      - support
+    categories:
+      - Web Application Icons
+
+  - name:       Circle Outlined Notched
+    id:         circle-o-notch
+    unicode:    f1ce
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - Spinner Icons
+
+
+  - name:       Rebel Alliance
+    id:         rebel
+    unicode:    f1d0
+    created:    4.1
+    aliases:
+      - ra
+    categories:
+      - Brand Icons
+
+  - name:       Galactic Empire
+    id:         empire
+    unicode:    f1d1
+    created:    4.1
+    aliases:
+      - ge
+    categories:
+      - Brand Icons
+
+  - name:       Git Square
+    id:         git-square
+    unicode:    f1d2
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Git
+    id:         git
+    unicode:    f1d3
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Hacker News
+    id:         hacker-news
+    unicode:    f1d4
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Tencent Weibo
+    id:         tencent-weibo
+    unicode:    f1d5
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       QQ
+    id:         qq
+    unicode:    f1d6
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Weixin (WeChat)
+    id:         weixin
+    unicode:    f1d7
+    created:    4.1
+    aliases:
+      - wechat
+    categories:
+      - Brand Icons
+
+  - name:       Paper Plane
+    id:         paper-plane
+    unicode:    f1d8
+    created:    4.1
+    aliases:
+      - send
+    categories:
+      - Web Application Icons
+
+  - name:       Paper Plane Outlined
+    id:         paper-plane-o
+    unicode:    f1d9
+    created:    4.1
+    aliases:
+      - send-o
+    categories:
+      - Web Application Icons
+
+  - name:       History
+    id:         history
+    unicode:    f1da
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       Circle Outlined Thin
+    id:         circle-thin
+    unicode:    f1db
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+  - name:       header
+    id:         header
+    unicode:    f1dc
+    created:    4.1
+    categories:
+      - Text Editor Icons
+
+  - name:       paragraph
+    id:         paragraph
+    unicode:    f1dd
+    created:    4.1
+    categories:
+      - Text Editor Icons
+
+  - name:       Sliders
+    id:         sliders
+    unicode:    f1de
+    created:    4.1
+    categories:
+      - Web Application Icons
+
+
+  - name:       Share Alt
+    id:         share-alt
+    unicode:    f1e0
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - Brand Icons
+
+  - name:       Share Alt Square
+    id:         share-alt-square
+    unicode:    f1e1
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - Brand Icons
+
+  - name:       Bomb
+    id:         bomb
+    unicode:    f1e2
+    created:    4.1
+    categories:
+      - Web Application Icons

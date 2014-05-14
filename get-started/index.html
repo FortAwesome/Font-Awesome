@@ -5,7 +5,7 @@
  ================================================== -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Font Awesome, the iconic font designed for Bootstrap">
+  <meta name="description" content="Font Awesome, the iconic font and CSS framework">
   <meta name="author" content="Dave Gandy">
   <link rel="shortcut icon" href="../assets/ico/favicon.ico">
 
@@ -67,8 +67,10 @@
           <ul class="dropdown-menu pull-right">
             <li><a href="../icons/"><i class="fa fa-flag fa-fw"></i>&nbsp; Icons</a></li>
             <li class="divider"></li>
-            <li><a href="../icons/#new"><i class="fa fa-rub fa-fw"></i>&nbsp; New Icons in 4.0</a></li>
+            <li><a href="../icons/#new"><i class="fa fa-cube fa-fw"></i>&nbsp; New Icons in 4.1</a></li>
             <li><a href="../icons/#web-application"><i class="fa fa-camera-retro fa-fw"></i>&nbsp; Web Application Icons</a></li>
+            <li><a href="../icons/#file-type"><i class="fa fa-file-image-o fa-fw"></i>&nbsp; File Type Icons</a></li>
+            <li><a href="../icons/#spinner"><i class="fa fa-spinner fa-fw"></i>&nbsp; Spinner Icons</a></li>
             <li><a href="../icons/#form-control"><i class="fa fa-check-square fa-fw"></i>&nbsp; Form Control Icons</a></li>
             <li><a href="../icons/#currency"><i class="fa fa-won fa-fw"></i>&nbsp; Currency Icons</a></li>
             <li><a href="../icons/#text-editor"><i class="fa fa-file-text-o fa-fw"></i>&nbsp; Text Editor Icons</a></li>
@@ -86,7 +88,7 @@
           <ul class="dropdown-menu pull-right">
             <li><a href="../examples/">Examples</a></li>
             <li class="divider"></li>
-            <li><a href="../examples/#inline">Inline Icons</a></li>
+            <li><a href="../examples/#basic">Basic Icons</a></li>
             <li><a href="../examples/#larger">Larger Icons</a></li>
             <li><a href="../examples/#fixed-width">Fixed Width Icons</a></li>
             <li><a href="../examples/#list">List Icons</a></li>
@@ -116,7 +118,7 @@
 <div class="jumbotron jumbotron-ad hidden-print">
   <div class="container">
     <h1><i class="fa fa-cogs"></i>&nbsp; Get Started</h1>
-    <p>Easy ways to get Font Awesome 4.0.3 onto your website</p>
+    <p>Easy ways to get Font Awesome 4.1.0 onto your website</p>
   </div>
 </div>
 
@@ -133,7 +135,7 @@
         <a href="https://twitter.com/fontawesome" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @fontawesome</a>
       </li>
       <li class="tweet-btn hidden-phone">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://fontawesome.io" data-text="Font Awesome, the iconic font designed for Bootstrap" data-counturl="http://fortawesome.github.com/Font-Awesome/" data-count="horizontal" data-via="fontawesome" data-related="davegandy:Creator of Font Awesome">Tweet</a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://fontawesome.io" data-text="Font Awesome, the iconic font and CSS framework" data-counturl="http://fortawesome.github.com/Font-Awesome/" data-count="horizontal" data-via="fontawesome" data-related="davegandy:Creator of Font Awesome">Tweet</a>
       </li>
     </ul>
   </div>
@@ -158,13 +160,14 @@
 
 
   <div id="bootstrapcdn">
-    <h2 class="page-header">EASIEST: <a href="http://www.bootstrapcdn.com/#tab_fontawesome">BootstrapCDN</a></h2>
+    <h2 class="page-header">EASIEST: <a href="http://www.bootstrapcdn.com/#fontawesome_tab">BootstrapCDN</a></h2>
     <p>Add Font Awesome into your website with a single line of code. You don't even have to download or install anything!</p>
     <ol>
       <li>
         Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span><span class="nt">&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span><span class="nt">&gt;</span>
 </code></pre></div>
+        <p class="alert alert-success"><i class="fa fa-info-circle"></i> Immediately after release, it takes a bit of time for BootstrapCDN to catch up and get the newest version live on their CDN.</p>
       </li>
       <li>
         Pat yourself on the back for your scalable-vector-icons-on-the-website
@@ -240,7 +243,7 @@
 
   <section id="custom-less">
     <h2 class="page-header">PRO: Custom LESS or SASS</h2>
-    <p>Use this method to customize Font Awesome 4.0.3 using LESS or SASS.</p>
+    <p>Use this method to customize Font Awesome 4.1.0 using LESS or SASS.</p>
     <ol>
       <li>Copy the <code>font-awesome/</code> directory into your project.</li>
       <li>
@@ -258,7 +261,7 @@
   <section class="need-ie7">
     <h2 class="page-header">Need IE7 Support?</h2>
     <p>
-      If you need IE7 support, you have my condolences. Really. Font Awesome 4.0.3
+      If you need IE7 support, you have my condolences. Really. Font Awesome 4.1.0
       doesn't support IE7, but an older version does. You'll need to check out the
       <a href="../3.2.1/get-started/#need-ie7">3.2.1 instructions for using IE7</a>. Then go complain to
       whomever decided your project needs IE7 support.
@@ -279,7 +282,7 @@
 <footer id="footer" class="footer hidden-print">
   <div class="container text-center">
     <div>
-      <i class="fa fa-flag"></i> Font Awesome 4.0.3
+      <i class="fa fa-flag"></i> Font Awesome 4.1.0
       <span class="hide-xs">&middot;</span><br class="hide-sm hide-md hide-lg">
       Created by <a href="http://twitter.com/davegandy">Dave Gandy</a>
     </div>
@@ -303,9 +306,8 @@
 
 
 <script src="http://platform.twitter.com/widgets.js"></script>
-<script src="../assets/js/jquery-1.10.2.min.js"></script>
-<script src="../assets/js/ZeroClipboard-1.1.7.min.js"></script>
-<script src="../assets/js/bootstrap-3.0.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script src="../assets/js/site.js"></script>
 
 </body>
