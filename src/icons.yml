@@ -2989,3 +2989,10 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       Database
+    id:         database
+    unicode:    f1c0
+    created:    4.1
+    categories:
+      - Web Application Icons
