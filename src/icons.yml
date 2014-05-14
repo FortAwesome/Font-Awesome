@@ -3079,3 +3079,10 @@ icons:
     categories:
       - Web Application Icons
       - File Type Icons
+
+  - name:       Vine
+    id:         vine
+    unicode:    f1ca
+    created:    4.1
+    categories:
+      - Brand Icons
