@@ -22,7 +22,7 @@ build:
 	@mkdir -p ${FA_CSS_DIRECTORY}
 
 	lessc ${FA_LESS_MODERN} > ${FA_CSS_MODERN}
-	lessc --yui-compress ${FA_LESS_MODERN} > ${FA_CSS_MODERN_MIN}
+	lessc --compress ${FA_LESS_MODERN} > ${FA_CSS_MODERN_MIN}
 #	sass ${FA_SCSS_MODERN} ${FA_CSS_MODERN}
 
 	lessc --yui-compress ${SITE_LESS} > ${SITE_CSS}
