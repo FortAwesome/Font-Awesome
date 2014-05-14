@@ -3259,3 +3259,10 @@ icons:
     categories:
       - Web Application Icons
       - Brand Icons
+
+  - name:       Bomb
+    id:         bomb
+    unicode:    f1e2
+    created:    4.1
+    categories:
+      - Web Application Icons

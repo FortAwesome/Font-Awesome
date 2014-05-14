@@ -1560,3 +1560,6 @@
 .fa-share-alt-square:before {
   content: "\f1e1";
 }
+.fa-bomb:before {
+  content: "\f1e2";
+}
