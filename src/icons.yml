@@ -1290,6 +1290,9 @@ icons:
     id:         bars
     unicode:    f0c9
     created:    2.0
+    aliases:
+      - navicon
+      - reorder
     categories:
       - Web Application Icons
 
