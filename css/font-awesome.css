@@ -1521,3 +1521,13 @@
 .fa-hacker-news:before {
   content: "\f1d4";
 }
+.fa-tencent-weibo:before {
+  content: "\f1d5";
+}
+.fa-qq:before {
+  content: "\f1d6";
+}
+.fa-wechat:before,
+.fa-weixin:before {
+  content: "\f1d7";
+}

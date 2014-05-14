@@ -3163,3 +3163,26 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
+
+  - name:       Tencent Weibo
+    id:         tencent-weibo
+    unicode:    f1d5
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       QQ
+    id:         qq
+    unicode:    f1d6
+    created:    4.1
+    categories:
+      - Brand Icons
+
+  - name:       Weixin (WeChat)
+    id:         weixin
+    unicode:    f1d7
+    created:    4.1
+    aliases:
+      - wechat
+    categories:
+      - Brand Icons
