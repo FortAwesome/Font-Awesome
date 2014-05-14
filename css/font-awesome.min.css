@@ -1554,3 +1554,9 @@
 .fa-sliders:before {
   content: "\f1de";
 }
+.fa-share-alt:before {
+  content: "\f1e0";
+}
+.fa-share-alt-square:before {
+  content: "\f1e1";
+}

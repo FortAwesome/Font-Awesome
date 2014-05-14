@@ -3242,3 +3242,20 @@ icons:
     created:    4.1
     categories:
       - Web Application Icons
+
+
+  - name:       Share Alt
+    id:         share-alt
+    unicode:    f1e0
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - Brand Icons
+
+  - name:       Share Alt Square
+    id:         share-alt-square
+    unicode:    f1e1
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - Brand Icons
