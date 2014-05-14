@@ -3235,3 +3235,10 @@ icons:
     created:    4.1
     categories:
       - Text Editor Icons
+
+  - name:       Sliders
+    id:         sliders
+    unicode:    f1de
+    created:    4.1
+    categories:
+      - Web Application Icons

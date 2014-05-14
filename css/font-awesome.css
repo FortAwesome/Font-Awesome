@@ -1551,3 +1551,6 @@
 .fa-paragraph:before {
   content: "\f1dd";
 }
+.fa-sliders:before {
+  content: "\f1de";
+}
