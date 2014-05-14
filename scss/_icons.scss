@@ -164,9 +164,23 @@
 .#{$fa-css-prefix}-female:before { content: $fa-var-female; }
 .#{$fa-css-prefix}-fighter-jet:before { content: $fa-var-fighter-jet; }
 .#{$fa-css-prefix}-file:before { content: $fa-var-file; }
+.#{$fa-css-prefix}-file-zip-o:before,
+.#{$fa-css-prefix}-file-archive-o:before { content: $fa-var-file-archive-o; }
+.#{$fa-css-prefix}-file-sound-o:before,
+.#{$fa-css-prefix}-file-audio-o:before { content: $fa-var-file-audio-o; }
+.#{$fa-css-prefix}-file-code-o:before { content: $fa-var-file-code-o; }
+.#{$fa-css-prefix}-file-excel-o:before { content: $fa-var-file-excel-o; }
+.#{$fa-css-prefix}-file-photo-o:before,
+.#{$fa-css-prefix}-file-picture-o:before,
+.#{$fa-css-prefix}-file-image-o:before { content: $fa-var-file-image-o; }
 .#{$fa-css-prefix}-file-o:before { content: $fa-var-file-o; }
+.#{$fa-css-prefix}-file-pdf-o:before { content: $fa-var-file-pdf-o; }
+.#{$fa-css-prefix}-file-powerpoint-o:before { content: $fa-var-file-powerpoint-o; }
 .#{$fa-css-prefix}-file-text:before { content: $fa-var-file-text; }
 .#{$fa-css-prefix}-file-text-o:before { content: $fa-var-file-text-o; }
+.#{$fa-css-prefix}-file-movie-o:before,
+.#{$fa-css-prefix}-file-video-o:before { content: $fa-var-file-video-o; }
+.#{$fa-css-prefix}-file-word-o:before { content: $fa-var-file-word-o; }
 .#{$fa-css-prefix}-copy:before,
 .#{$fa-css-prefix}-files-o:before { content: $fa-var-files-o; }
 .#{$fa-css-prefix}-film:before { content: $fa-var-film; }
@@ -286,6 +300,8 @@
 .#{$fa-css-prefix}-pencil-square-o:before { content: $fa-var-pencil-square-o; }
 .#{$fa-css-prefix}-phone:before { content: $fa-var-phone; }
 .#{$fa-css-prefix}-phone-square:before { content: $fa-var-phone-square; }
+.#{$fa-css-prefix}-photo:before,
+.#{$fa-css-prefix}-image:before,
 .#{$fa-css-prefix}-picture-o:before { content: $fa-var-picture-o; }
 .#{$fa-css-prefix}-pied-piper-square:before,
 .#{$fa-css-prefix}-pied-piper:before { content: $fa-var-pied-piper; }

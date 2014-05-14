@@ -155,6 +155,7 @@ icons:
     created:    1.0
     categories:
       - Text Editor Icons
+      - File Type Icons
 
   - name:       Clock Outlined
     id:         clock-o
@@ -425,6 +426,9 @@ icons:
     id:         picture-o
     unicode:    f03e
     created:    1.0
+    aliases:
+      - photo
+      - image
     categories:
       - Web Application Icons
 
@@ -1603,6 +1607,7 @@ icons:
     created:    3.0
     categories:
       - Text Editor Icons
+      - File Type Icons
 
   - name:       Building Outlined
     id:         building-o
@@ -2307,6 +2312,7 @@ icons:
     created:    3.2
     categories:
       - Text Editor Icons
+      - File Type Icons
 
   - name:       File Text
     id:         file-text
@@ -2314,6 +2320,7 @@ icons:
     created:    3.2
     categories:
       - Text Editor Icons
+      - File Type Icons
 
   - name:       Sort Alpha Ascending
     id:         sort-alpha-asc
@@ -2991,3 +2998,84 @@ icons:
     created:    4.1
     categories:
       - Web Application Icons
+
+  - name:       PDF File Outlined
+    id:         file-pdf-o
+    unicode:    f1c1
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Word File Outlined
+    id:         file-word-o
+    unicode:    f1c2
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Excel File Outlined
+    id:         file-excel-o
+    unicode:    f1c3
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Powerpoint File Outlined
+    id:         file-powerpoint-o
+    unicode:    f1c4
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Image File Outlined
+    id:         file-image-o
+    unicode:    f1c5
+    created:    4.1
+    aliases:
+      - file-photo-o
+      - file-picture-o
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Archive File Outlined
+    id:         file-archive-o
+    unicode:    f1c6
+    created:    4.1
+    aliases:
+      - file-zip-o
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Audio File Outlined
+    id:         file-audio-o
+    unicode:    f1c7
+    created:    4.1
+    aliases:
+      - file-sound-o
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Video File Outlined
+    id:         file-video-o
+    unicode:    f1c8
+    created:    4.1
+    aliases:
+      - file-movie-o
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Code File Outlined
+    id:         file-code-o
+    unicode:    f1c9
+    created:    4.1
+    categories:
+      - Web Application Icons
+      - File Type Icons
