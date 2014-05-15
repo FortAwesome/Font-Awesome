@@ -7,6 +7,9 @@
   font-style: normal;
   font-weight: normal;
   line-height: 1;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* CODESIGN2 ADDITIONS */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
