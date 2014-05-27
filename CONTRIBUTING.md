@@ -9,7 +9,7 @@ Looking to contribute something to Font Awesome? **Here's how you can help.**
 New icons mostly start as requests by the [Font Awesome community on GitHub](../../issues). Want to request a new icon? Here are some things to keep in mind:
 
 1. Please be nice. Font Awesome is a happy place.
-2. Please [search](../../search?type=Issues) to see if your icon request already exists. If a request is 1.  found, please +1 that one.
+2. Please [search](../../search?type=Issues) to see if your icon request already exists. If a request is found, please +1 that one.
 3. Please make requests for single icons, unless you are requesting a couple of strictly related icons (e.g., thumbs-up/thumbs-down).
 4. Please and thank you if you include the following:
   - Title your [new issue](../../issues/new?title=Icon%20Request:%20fa-) `Icon request: fa-name` (e.g., `Icon request: fa-car`).
