@@ -157,6 +157,13 @@
   -o-transform: scale(1, -1);
   transform: scale(1, -1);
 }
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
 .fa-stack {
   position: relative;
   display: inline-block;
