@@ -49,20 +49,29 @@
     padding: 0;
   }
 
-  #carbonads-container {
-    .carbonad {
-      margin-left: 0;
-      margin-top: -20px;
-      float: none;
-      width: 100%;
-      height: 120px;
+  #fusionads {
+    float: none;
+    display: block;
+    margin-left: 0;
+    .clearfix();
+  }
+
+  .vertical-ad #fusionads {
+    width: 300px;
+    .fusion-img {
+      float: left;
+      padding-right: 10px;
     }
   }
-  #azcarbon {
-    width: 300px;
-    margin: 0 auto;
+
+
+
+  .black-tie .tagline {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 15px;
   }
-  .info-ad #carbonads-container .carbonad { margin-top: @buffer-lg; }
+
 
   .sticky-footer(245px, 60px);
 

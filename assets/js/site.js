@@ -4,35 +4,13 @@ $(function() {
     interval: 5000
   });
 
-
-
-
-  // make code pretty
-//  $('pre').addClass('prettyprint');
-//  window.prettyPrint && prettyPrint();
-
-  // Disable links with href="#" inside <section>, so users can click on them
-  // to preview :active state without being scrolled up to the top of the page.
-//  $('section a[href="#"]').click(function(e) {
-//    e.preventDefault();
-//    e.stopPropagation();
-//  });
-
-//  // inject twitter & github counts
-//  $.ajax({
-//    url: 'http://api.twitter.com/1/users/show.json',
-//    data: {screen_name: 'fortaweso_me'},
-//    dataType: 'jsonp',
-//    success: function(data) {
-//      $('#followers').html(data.followers_count);
-//    }
-//  });
-//  $.ajax({
-//    url: 'https://api.github.com/repos/fortawesome/Font-Awesome',
-//    dataType: 'jsonp',
-//    success: function(data) {
-//      $('#watchers').html(data.data.watchers);
-//      $('#forks').html(data.data.forks);
-//    }
-//  });
+  var quotes = new Array(
+      "Please support <strong>Black Tie</strong>, the new icon font from Font Awesome!",
+      "Please help me make Font Awesome <strong>Black Tie</strong>!",
+      "Get your company logo added to Font Awesome!",
+      "Need a specific icon added to Font Awesome?",
+      "If you like Font Awesome, you're going to love <strong>Black Tie</strong>!"
+    ),
+    random_quote = quotes[Math.floor( Math.random() * quotes.length )];
+  $('.tagline').html(random_quote);
 });
