@@ -83,6 +83,12 @@
   -o-animation: spin 2s infinite linear;
   animation: spin 2s infinite linear;
 }
+.fa-spin-reverse { 
+  -webkit-animation: spin 2s infinite linear reverse;
+  -moz-animation: spin 2s infinite linear reverse;
+  -o-animation: spin 2s infinite linear reverse;
+  animation: spin 2s infinite linear reverse;
+}
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg);
