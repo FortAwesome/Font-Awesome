@@ -42,3 +42,16 @@
 
 .#{$fa-css-prefix}-flip-horizontal { @include fa-icon-flip(-1, 1, 0); }
 .#{$fa-css-prefix}-flip-vertical   { @include fa-icon-flip(1, -1, 2); }
+
+// Checkbox icons
+// --------------
+
+.fa-cbox{
+  display: none;
+}
+input:checked~.fa-cbox-on{
+  display: inline-block;
+}
+input:not(:checked)~.fa-cbox-off{
+  display: inline-block;
+}
