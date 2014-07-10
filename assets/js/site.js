@@ -5,12 +5,12 @@ $(function() {
   });
 
   var quotes = new Array(
-      "Get your company logo added to Font Awesome!",
-      "Want SVG support in Font Awesome? Support the Kickstarter!",
-      "Major improvements to Font Awesome at 3000 backers!",
-      "Better Font Awesome icon search at 3000 backers!",
-      "Need a specific icon added to Font Awesome?",
-      "If you like Font Awesome, you're going to love <strong>Black Tie</strong>!"
+      "Donate $1 and help Font Awesome get <strong>MAJOR upgrades!</strong>",
+      "Donate $1 and help give Font Awesome <strong>SVG support!</strong>",
+      "Donate $1 and help give Font Awesome <strong>better icon search!</strong>",
+      "Get your <strong>company logo</strong> added to Font Awesome!",
+      "Get your <strong>company logo</strong> added to Font Awesome!",
+      "Need a specific icon added to Font Awesome?"
     ),
     random_quote = quotes[Math.floor( Math.random() * quotes.length )];
   $('.tagline').html(random_quote);
