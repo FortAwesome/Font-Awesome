@@ -82,6 +82,7 @@
   -moz-animation: spin 2s infinite linear;
   -o-animation: spin 2s infinite linear;
   animation: spin 2s infinite linear;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'saturate\' values=\'1\'/></filter>http://www.w3.org/2000/svg\</svg>#grayscale");
 }
 @-moz-keyframes spin {
   0% {
