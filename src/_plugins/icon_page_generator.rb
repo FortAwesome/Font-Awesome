@@ -2,7 +2,7 @@
 # Create individual pages for each icon in the FontAwesome set
 
 require 'yaml'
-require 'debugger'
+require 'byebug'
 
 module Jekyll
 
