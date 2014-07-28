@@ -138,6 +138,34 @@ $ gem install font-awesome-sass
     </p>
   </section>
 
+  <section class="joomla3">
+    <h2 class="page-header">Joomla3 Support?</h2>
+    <p>
+      Joomla uses its own classes for icons. We do not map these classes onto the closest suitable
+      Font Awesome icon as standard, but we do provide a CSS file which you can include in your template
+      or a LESS file which you can include in your template's top-level LESS file to generate the mappings
+      needed to display Joomla icon classes using Font Awesome.
+    </p>
+    <p>
+      Note: Icons were chosen where there is a reasonable match either visually or semantically.
+      Where there is not currently a suitable matching icon in Font Awesome, the mapping is left blank.
+    </p>
+    <p>Use one of the following two methods to add the Joomla3 mappings:</p>
+    <ol>
+      <li>
+        Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML after the link tag
+        for Font Awesome as shown above:
+{% highlight html %}
+<link href="//netdna.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome-joomla.min.css" rel="stylesheet">
+{% endhighlight %}
+      </li>
+      <li>
+        Open your project's LESS or SCSS file (or <code>font-awesome/less/font-awesome.less</code> or <code>font-awesome/scss/font-awesome.scss</code> and uncomment the <code>@import "joomla3"</code> line.
+        <p>Re-compile your LESS or SASS if using a static compiler and you should be good to go.</p>
+      </li>
+    </ol>
+  </section>
+
   <section id="troubleshooting">
     <h2 class="page-header">Troubleshooting</h2>
     <p>
