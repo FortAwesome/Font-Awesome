@@ -3113,7 +3113,8 @@ icons:
     unicode:    f1cd
     created:    4.1
     aliases:
-      - life-bouy
+      - life-bouy # TODO: Deprecated - remove in 5.0.0
+      - life-buoy
       - life-saver
       - support
     categories:
