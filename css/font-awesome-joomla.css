@@ -73,15 +73,6 @@ a [class*=" icon-"] {
   display: inline;
 }
 
-
-
-
-
-
-
-
-
-
 /* Arrows */
 .icon-arrow-down-2:before {content: "\f01a";} /* fa-arrow-circle-o-down */
 .icon-arrow-left-2:before {content: "\f190";} /* fa-arrow-circle-o-left */
@@ -277,9 +268,9 @@ a [class*=" icon-"] {
 .icon-lightning:before {content: "\f0e7";} /* fa-bolt */
 .icon-bookmark:before {content: "\f02e";} /* fa-bookmark */
 .icon-bookmark-2:before {content: "\f097";} /* fa-bookmark-o */
-.icon-calendar-2:before,
+.icon-calendar:before,
 .icon-calendar-3:before {content: "\f073";} /* fa-calendar */
-.icon-calendar:before {content: "\f133";} /* fa-calendar-o */
+.icon-calendar-2:before {content: "\f133";} /* fa-calendar-o */
 .icon-camera:before {content: "\f030";} /* fa-camera */
 .icon-new-tab:before,
 .icon-new-tab-2:before,
@@ -397,56 +388,3 @@ a [class*=" icon-"] {
 .icon-compass:before {content: "\f14e";} /* fa-compass */
 .icon-puzzle:before {content: "\f12e";} /* fa-puzzle-piece */
 .icon-filter:before {content: "\f0b0";} /* fa-filter */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Fix-up joomla icons by icon stacking */
-.icon-folder-plus-2:before {
-  content: "+\f114";
-  line-height: 0;
-  word-break: break-all;
-}
-.icon-folder-remove:before {
-  content: "-\f114";
-  line-height: 0;
-  word-break: break-all;
-}
-.icon-file-check:before {
-  content: "\f016\f00c";
-  line-height: 1px;
-  word-break: break-all;
-}
-.icon-file-remove:before {
-  content: "\f016\f00d";
-  line-height: 1px;
-  word-break: break-all;
-}
-.icon-file-add:before,
-.icon-file-plus:before {
-  content: "+\f016";
-  line-height: 0;
-  word-break: break-all;
-}
-.icon-file-minus:before {
-  content: "-\f016";
-  line-height: 0;
-  word-break: break-all;
-}

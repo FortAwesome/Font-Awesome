@@ -69,15 +69,6 @@ a [class*=" icon-"] {
   display: inline;
 }
 
-
-
-
-
-
-
-
-
-
 /* Arrows */
 .icon-arrow-down-2:before {content: #{$fa-var-arrow-circle-o-down};} /* fa-arrow-circle-o-down */
 .icon-arrow-left-2:before {content: #{$fa-var-arrow-circle-o-left};} /* fa-arrow-circle-o-left */
@@ -273,9 +264,9 @@ a [class*=" icon-"] {
 .icon-lightning:before {content: #{$fa-var-bolt};} /* fa-bolt */
 .icon-bookmark:before {content: #{$fa-var-bookmark};} /* fa-bookmark */
 .icon-bookmark-2:before {content: #{$fa-var-bookmark-o};} /* fa-bookmark-o */
-.icon-calendar-2:before,
+.icon-calendar:before,
 .icon-calendar-3:before {content: #{$fa-var-calendar};} /* fa-calendar */
-.icon-calendar:before {content: #{$fa-var-calendar-o};} /* fa-calendar-o */
+.icon-calendar-2:before {content: #{$fa-var-calendar-o};} /* fa-calendar-o */
 .icon-camera:before {content: #{$fa-var-camera};} /* fa-camera */
 .icon-new-tab:before,
 .icon-new-tab-2:before,
