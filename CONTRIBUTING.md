@@ -12,7 +12,7 @@ New icons mostly start as requests by the [Font Awesome community on GitHub](../
 2. Please [search](../../search?type=Issues) to see if your icon request already exists. If a request is found, please +1 that one.
 3. Please make requests for single icons, unless you are requesting a couple of strictly related icons (e.g., thumbs-up/thumbs-down).
 4. Please and thank you if you include the following:
-  - Title your [new issue](../../issues/new?title=Icon%20Request:%20fa-) `Icon request: fa-name` (e.g., `Icon request: fa-car`).
+  - Title your [new issue](../../issues/new?title=Icon%20Request:%20icon-) `Icon request: icon-name` (e.g., `Icon request: icon-car`).
   - Include a few use cases for your requested icon. How do you plan on using it?
   - Attach a single color image or two that represent the idea you're going for.
   - Request concrete objects: it's harder to make an icon to represent happiness, it's easier to make a smiley face. ☺
