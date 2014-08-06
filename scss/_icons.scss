@@ -15,6 +15,8 @@
 .#{$fa-css-prefix}-th-list:before { content: $fa-var-th-list; }
 .#{$fa-css-prefix}-check:before { content: $fa-var-check; }
 .#{$fa-css-prefix}-times:before { content: $fa-var-times; }
+.#{$fa-css-prefix}-close:before { content: $fa-var-close; }
+.#{$fa-css-prefix}-delete:before { content: $fa-var-delete; }
 .#{$fa-css-prefix}-search-plus:before { content: $fa-var-search-plus; }
 .#{$fa-css-prefix}-search-minus:before { content: $fa-var-search-minus; }
 .#{$fa-css-prefix}-power-off:before { content: $fa-var-power-off; }
@@ -90,11 +92,15 @@
 .#{$fa-css-prefix}-plus-circle:before { content: $fa-var-plus-circle; }
 .#{$fa-css-prefix}-minus-circle:before { content: $fa-var-minus-circle; }
 .#{$fa-css-prefix}-times-circle:before { content: $fa-var-times-circle; }
+.#{$fa-css-prefix}-close-circle:before { content: $fa-var-close-circle; }
+.#{$fa-css-prefix}-delete-circle:before { content: $fa-var-delete-circle; }
 .#{$fa-css-prefix}-check-circle:before { content: $fa-var-check-circle; }
 .#{$fa-css-prefix}-question-circle:before { content: $fa-var-question-circle; }
 .#{$fa-css-prefix}-info-circle:before { content: $fa-var-info-circle; }
 .#{$fa-css-prefix}-crosshairs:before { content: $fa-var-crosshairs; }
 .#{$fa-css-prefix}-times-circle-o:before { content: $fa-var-times-circle-o; }
+.#{$fa-css-prefix}-close-circle-o:before { content: $fa-var-close-circle-o; }
+.#{$fa-css-prefix}-delete-circle-o:before { content: $fa-var-delete-circle-o; }
 .#{$fa-css-prefix}-check-circle-o:before { content: $fa-var-check-circle-o; }
 .#{$fa-css-prefix}-ban:before { content: $fa-var-ban; }
 .#{$fa-css-prefix}-arrow-left:before { content: $fa-var-arrow-left; }
