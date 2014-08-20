@@ -94,6 +94,9 @@ icons:
     id:         times
     unicode:    f00d
     created:    1.0
+    aliases:
+      - remove
+      - close
     categories:
       - Web Application Icons
 
