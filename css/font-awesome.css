@@ -86,25 +86,31 @@
 @-moz-keyframes fa-spin {
   0% {
     -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
     -moz-transform: rotate(359deg);
-  }
-}
-@-webkit-keyframes fa-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
   }
 }
 @-o-keyframes fa-spin {
   0% {
     -o-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
     -o-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
   }
 }
 @keyframes fa-spin {
@@ -156,6 +162,13 @@
   -ms-transform: scale(1, -1);
   -o-transform: scale(1, -1);
   transform: scale(1, -1);
+}
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
 }
 .fa-stack {
   position: relative;
@@ -1497,6 +1510,7 @@
   content: "\f1cc";
 }
 .fa-life-bouy:before,
+.fa-life-buoy:before,
 .fa-life-saver:before,
 .fa-support:before,
 .fa-life-ring:before {
