@@ -11,7 +11,7 @@ pygments:         true
 permalink:        pretty
 
 # ensures SCSS files are compiled
-include:          [_bordered-pulled.scss, _core.scss, _fixed-width.scss, _icons.scss, _larger.scss, _list.scss, _mixins.scss, _path.scss, _rotated-flipped.scss, _spinning.scss, _stacked.scss, _variables.scss]
+include:          [_*.scss]
 
 # used in building icon pages
 icon_meta:        src/icons.yml
@@ -19,8 +19,8 @@ icon_layout:      icon.html    # Relative to _layouts directory
 icon_destination: icon         # Relative to destination
 
 fontawesome:
-  version:        4.1.0
-  minor_version:  4.1
+  version:        4.2.0
+  minor_version:  4.2
   url:            http://fontawesome.io
   legacy_url:     http://fortawesome.github.com/Font-Awesome/
   blog_url:       http://blog.fontawesome.io
@@ -31,6 +31,7 @@ fontawesome:
     name:         Dave Gandy
     email:        dave@fontawesome.io
     twitter:      davegandy
+    github:       davegandy
   github:
     url:          https://github.com/FortAwesome/Font-Awesome
     project:      Font-Awesome

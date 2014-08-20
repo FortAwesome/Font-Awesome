@@ -1,11 +1,13 @@
-#[Font Awesome v4.2.0](http://fontawesome.io)
+---
+---
+#[Font Awesome v{{ site.fontawesome.version }}]({{ site.fontawesome.url }})
 ###The iconic font and CSS framework
 
-Font Awesome is a full suite of 439 pictographic icons for easy scalable vector graphics on websites,
-created and maintained by [Dave Gandy](http://twitter.com/davegandy).
-Stay up to date [@fontawesome](http://twitter.com/fontawesome).
+Font Awesome is a full suite of {{ icons | size }} pictographic icons for easy scalable vector graphics on websites,
+created and maintained by [{{ site.fontawesome.author.name }}](http://twitter.com/{{ site.fontawesome.author.twitter }}).
+Stay up to date [@{{ site.fontawesome.twitter }}](http://twitter.com/{{ site.fontawesome.twitter }}).
 
-Get started at http://fontawesome.io!
+Get started at {{ site.fontawesome.url }}!
 
 ##License
 - The Font Awesome font is licensed under the SIL OFL 1.1:
@@ -54,9 +56,9 @@ And constructed with the following guidelines:
 For more information on SemVer, please visit http://semver.org.
 
 ##Author
-- Email: dave@fontawesome.io
-- Twitter: http://twitter.com/davegandy
-- GitHub: https://github.com/davegandy
+- Email: {{ site.fontawesome.author.email }}
+- Twitter: http://twitter.com/{{ site.fontawesome.author.twitter }}
+- GitHub: https://github.com/{{ site.fontawesome.author.github }}
 
 ##Component
 To include as a [component](http://github.com/component/component), just run
