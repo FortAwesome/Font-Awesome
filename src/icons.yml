@@ -2840,8 +2840,6 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
-    aliases:
-      - pied-piper-square
 
   - name:       Pied Piper Alternate Logo
     id:         pied-piper-alt
