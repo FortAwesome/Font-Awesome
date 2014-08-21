@@ -3270,3 +3270,12 @@ icons:
     created:    4.1
     categories:
       - Web Application Icons
+
+  - name:       Futbol Outlined
+    id:         futbol-o
+    unicode:    f1e3
+    created:    4.2
+    aliases:
+      - soccer-ball-o
+    categories:
+      - Web Application Icons
