@@ -3277,3 +3277,10 @@ icons:
       - soccer-ball-o
     categories:
       - Web Application Icons
+
+  - name:       TTY
+    id:         tty
+    unicode:    f1e4
+    created:    4.2
+    categories:
+      - Web Application Icons
