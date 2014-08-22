@@ -3285,9 +3285,16 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       binoculars
+  - name:       Binoculars
     id:         binoculars
     unicode:    f1e5
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Plug
+    id:         plug
+    unicode:    f1e6
     created:    4.2
     categories:
       - Web Application Icons
