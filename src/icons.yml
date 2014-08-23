@@ -3305,3 +3305,38 @@ icons:
     created:    4.2
     categories:
       - Brand Icons
+
+  - name:       Twitch
+    id:         twitch
+    unicode:    f1e8
+    created:    4.2
+    categories:
+      - Brand Icons
+
+  - name:       Yelp
+    id:         yelp
+    unicode:    f1e9
+    created:    4.2
+    categories:
+      - Brand Icons
+
+  - name:       Newspaper
+    id:         newspaper
+    unicode:    f1ea
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       WiFi
+    id:         wifi
+    unicode:    f1eb
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Calculator
+    id:         calculator
+    unicode:    f1ec
+    created:    4.2
+    categories:
+      - Web Application Icons
