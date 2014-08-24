@@ -3,6 +3,10 @@
 // Mixins
 // --------------------------
 
+@mixin fa-icon() {
+{% include code/core.css %}
+}
+
 @mixin fa-icon-rotate($degrees, $rotation) {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation});
   -webkit-transform: rotate($degrees);
