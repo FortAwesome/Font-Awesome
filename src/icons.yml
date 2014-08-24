@@ -3406,3 +3406,17 @@ icons:
     categories:
       - Brand Icons
       - Payment Icons
+
+  - name:       Bell Slash
+    id:         bell-slash
+    unicode:    f1f6
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Bell Slash Outlined
+    id:         bell-slash-o
+    unicode:    f1f7
+    created:    4.2
+    categories:
+      - Web Application Icons

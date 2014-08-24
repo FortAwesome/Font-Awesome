@@ -1600,3 +1600,9 @@
 .fa-cc-stripe:before {
   content: "\f1f5";
 }
+.fa-bell-slash:before {
+  content: "\f1f6";
+}
+.fa-bell-slash-o:before {
+  content: "\f1f7";
+}
