@@ -3427,3 +3427,10 @@ icons:
     created:    4.2
     categories:
       - Web Application Icons
+
+  - name:       Copyright
+    id:         copyright
+    unicode:    f1f9
+    created:    4.2
+    categories:
+      - Web Application Icons
