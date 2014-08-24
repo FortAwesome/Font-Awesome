@@ -1567,7 +1567,7 @@
 .fa-yelp:before {
   content: "\f1e9";
 }
-.fa-newspaper:before {
+.fa-newspaper-o:before {
   content: "\f1ea";
 }
 .fa-wifi:before {
@@ -1575,4 +1575,28 @@
 }
 .fa-calculator:before {
   content: "\f1ec";
+}
+.fa-paypal:before {
+  content: "\f1ed";
+}
+.fa-google-wallet:before {
+  content: "\f1ee";
+}
+.fa-cc-visa:before {
+  content: "\f1f0";
+}
+.fa-cc-mastercard:before {
+  content: "\f1f1";
+}
+.fa-cc-discover:before {
+  content: "\f1f2";
+}
+.fa-cc-amex:before {
+  content: "\f1f3";
+}
+.fa-cc-paypal:before {
+  content: "\f1f4";
+}
+.fa-cc-stripe:before {
+  content: "\f1f5";
 }

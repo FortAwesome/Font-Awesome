@@ -1079,6 +1079,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Payment Icons
 
   - name:       rss
     id:         rss
@@ -3320,8 +3321,8 @@ icons:
     categories:
       - Brand Icons
 
-  - name:       Newspaper
-    id:         newspaper
+  - name:       Newspaper Outlined
+    id:         newspaper-o
     unicode:    f1ea
     created:    4.2
     categories:
@@ -3340,3 +3341,68 @@ icons:
     created:    4.2
     categories:
       - Web Application Icons
+
+  - name:       Paypal
+    id:         paypal
+    unicode:    f1ed
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       Goole Wallet
+    id:         google-wallet
+    unicode:    f1ee
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+
+  - name:       Visa Credit Card
+    id:         cc-visa
+    unicode:    f1f0
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       MasterCard Credit Card
+    id:         cc-mastercard
+    unicode:    f1f1
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       Discover Credit Card
+    id:         cc-discover
+    unicode:    f1f2
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       American Express Credit Card
+    id:         cc-amex
+    unicode:    f1f3
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       Paypal Credit Card
+    id:         cc-paypal
+    unicode:    f1f4
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       Stripe Credit Card
+    id:         cc-stripe
+    unicode:    f1f5
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
