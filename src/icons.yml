@@ -3434,3 +3434,10 @@ icons:
     created:    4.2
     categories:
       - Web Application Icons
+
+  - name:       At
+    id:         at
+    unicode:    f1fa
+    created:    4.2
+    categories:
+      - Web Application Icons
