@@ -3420,3 +3420,10 @@ icons:
     created:    4.2
     categories:
       - Web Application Icons
+
+  - name:       Trash
+    id:         trash
+    unicode:    f1f8
+    created:    4.2
+    categories:
+      - Web Application Icons
