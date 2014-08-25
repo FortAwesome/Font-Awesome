@@ -3448,3 +3448,10 @@ icons:
     created:    4.2
     categories:
       - Web Application Icons
+
+  - name:       Paint Brush
+    id:         paint-brush
+    unicode:    f1fc
+    created:    4.2
+    categories:
+      - Web Application Icons
