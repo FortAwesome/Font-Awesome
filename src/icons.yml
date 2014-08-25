@@ -3441,3 +3441,10 @@ icons:
     created:    4.2
     categories:
       - Web Application Icons
+
+  - name:       Eyedropper
+    id:         eyedropper
+    unicode:    f1fb
+    created:    4.2
+    categories:
+      - Web Application Icons

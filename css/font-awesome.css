@@ -1615,3 +1615,6 @@
 .fa-at:before {
   content: "\f1fa";
 }
+.fa-eyedropper:before {
+  content: "\f1fb";
+}
