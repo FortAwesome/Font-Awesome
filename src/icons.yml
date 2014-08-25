@@ -872,12 +872,15 @@ icons:
       - Directional Icons
 
 
-  - name:       Bar Chart Outlined
-    id:         bar-chart-o
+  - name:       Bar Chart
+    id:         bar-chart
     unicode:    f080
     created:    1.0
+    aliases:
+      - bar-chart-o
     categories:
       - Web Application Icons
+      - Chart Icons
 
   - name:       Twitter Square
     id:         twitter-square
@@ -3462,3 +3465,28 @@ icons:
     created:    4.2
     categories:
       - Web Application Icons
+
+  - name:       Area Chart
+    id:         area-chart
+    unicode:    f1fe
+    created:    4.2
+    categories:
+      - Web Application Icons
+      - Chart Icons
+
+
+  - name:       Pie Chart
+    id:         pie-chart
+    unicode:    f200
+    created:    4.2
+    categories:
+      - Web Application Icons
+      - Chart Icons
+
+  - name:       Line Chart
+    id:         line-chart
+    unicode:    f201
+    created:    4.2
+    categories:
+      - Web Application Icons
+      - Chart Icons

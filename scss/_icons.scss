@@ -131,7 +131,8 @@
 .#{$fa-css-prefix}-folder-open:before { content: $fa-var-folder-open; }
 .#{$fa-css-prefix}-arrows-v:before { content: $fa-var-arrows-v; }
 .#{$fa-css-prefix}-arrows-h:before { content: $fa-var-arrows-h; }
-.#{$fa-css-prefix}-bar-chart-o:before { content: $fa-var-bar-chart-o; }
+.#{$fa-css-prefix}-bar-chart-o:before,
+.#{$fa-css-prefix}-bar-chart:before { content: $fa-var-bar-chart; }
 .#{$fa-css-prefix}-twitter-square:before { content: $fa-var-twitter-square; }
 .#{$fa-css-prefix}-facebook-square:before { content: $fa-var-facebook-square; }
 .#{$fa-css-prefix}-camera-retro:before { content: $fa-var-camera-retro; }
@@ -533,3 +534,6 @@
 .#{$fa-css-prefix}-eyedropper:before { content: $fa-var-eyedropper; }
 .#{$fa-css-prefix}-paint-brush:before { content: $fa-var-paint-brush; }
 .#{$fa-css-prefix}-birthday-cake:before { content: $fa-var-birthday-cake; }
+.#{$fa-css-prefix}-area-chart:before { content: $fa-var-area-chart; }
+.#{$fa-css-prefix}-pie-chart:before { content: $fa-var-pie-chart; }
+.#{$fa-css-prefix}-line-chart:before { content: $fa-var-line-chart; }

@@ -1,10 +1,10 @@
-<section id="payment">
-  <h2 class="page-header">Payment Icons</h2>
+<section id="chart">
+  <h2 class="page-header">Chart Icons</h2>
 
   <div class="row fontawesome-icon-list">
-    {% assign icons_payment = icons | expand_aliases | category:"Payment Icons" | sort_by:'class' %}
+    {% assign icons_chart = icons | expand_aliases | category:"Chart Icons" | sort_by:'class' %}
 
-    {% for icon in icons_payment %}
+    {% for icon in icons_chart %}
       <div class="fa-hover col-md-3 col-sm-4"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="fa fa-{{ icon.class }}"></i> fa-{{ icon.class }}{% if icon.alias_of %} <span class="text-muted">(alias)</span>{% endif %}</a></div>
     {% endfor %}
   </div>
