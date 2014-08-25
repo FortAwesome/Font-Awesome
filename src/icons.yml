@@ -3455,3 +3455,10 @@ icons:
     created:    4.2
     categories:
       - Web Application Icons
+
+  - name:       Birthday Cake
+    id:         birthday-cake
+    unicode:    f1fd
+    created:    4.2
+    categories:
+      - Web Application Icons
