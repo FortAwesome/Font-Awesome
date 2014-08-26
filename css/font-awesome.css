@@ -1634,3 +1634,9 @@
 .fa-line-chart:before {
   content: "\f201";
 }
+.fa-lastfm:before {
+  content: "\f202";
+}
+.fa-lastfm-square:before {
+  content: "\f203";
+}

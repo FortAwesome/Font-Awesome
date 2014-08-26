@@ -3490,3 +3490,17 @@ icons:
     categories:
       - Web Application Icons
       - Chart Icons
+
+  - name:       last.fm
+    id:         lastfm
+    unicode:    f202
+    created:    4.2
+    categories:
+      - Brand Icons
+
+  - name:       last.fm Square
+    id:         lastfm-square
+    unicode:    f203
+    created:    4.2
+    categories:
+      - Brand Icons
