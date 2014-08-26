@@ -18,6 +18,7 @@ relative_path: ../../
     <h1 class="info-class">
       fa-{{ page.icon.id }}
       <small>
+        {% if page.icon.url %}<a target="_blank" href="http://{{ page.icon.url }}">{{ page.icon.url }}<i class="fa fa-external-link-square margin-left-sm"></i></a> &middot;{% endif %}
         <i class="fa fa-{{ page.icon.id }}"></i> &middot;
         Unicode: <span class="upper">{{ page.icon.unicode }}</span> &middot;
         Created: v{{ page.icon.created }} &middot;

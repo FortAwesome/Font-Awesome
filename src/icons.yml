@@ -3532,3 +3532,18 @@ icons:
     created:    4.2
     categories:
       - Web Application Icons
+
+  - name:       ioxhost
+    id:         ioxhost
+    unicode:    f208
+    created:    4.2
+    url:        ioxhost.co.uk
+    categories:
+      - Brand Icons
+
+  - name:       AngelList
+    id:         angellist
+    unicode:    f209
+    created:    4.2
+    categories:
+      - Brand Icons
