@@ -3554,3 +3554,13 @@ icons:
     created:    4.2
     categories:
       - Web Application Icons
+
+  - name:       Shekel (ILS)
+    id:         ils
+    unicode:    f20b
+    created:    4.2
+    aliases:
+      - shekel
+      - sheqel
+    categories:
+      - Currency Icons

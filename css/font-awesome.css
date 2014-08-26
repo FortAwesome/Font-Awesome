@@ -1661,3 +1661,8 @@
 .fa-cc:before {
   content: "\f20a";
 }
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before {
+  content: "\f20b";
+}
