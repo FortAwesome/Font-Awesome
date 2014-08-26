@@ -3564,3 +3564,11 @@ icons:
       - sheqel
     categories:
       - Currency Icons
+
+  - name:       meanpath
+    id:         meanpath
+    unicode:    f20c
+    created:    4.2
+    url:        meanpath.com
+    categories:
+      - Brand Icons
