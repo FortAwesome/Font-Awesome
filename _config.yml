@@ -21,7 +21,7 @@ icon_destination: icon         # Relative to destination
 fontawesome:
   version:        4.2.0
   minor_version:  4.2
-  doc_blob:       4.2.0-wip
+  doc_blob:       v4.2.0
   url:            http://fontawesome.io
   legacy_url:     http://fortawesome.github.com/Font-Awesome/
   blog_url:       http://blog.fontawesome.io
