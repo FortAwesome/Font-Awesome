@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Font Awesome, the iconic font and CSS framework">
   <meta name="author" content="Dave Gandy">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="shortcut icon" href="../assets/ico/favicon.ico">
 
   <title>Get Started with Font Awesome</title>
@@ -76,11 +77,13 @@
           <ul class="dropdown-menu pull-right">
             <li><a href="../icons/"><i class="fa fa-flag fa-fw"></i>&nbsp; Icons</a></li>
             <li class="divider"></li>
-            <li><a href="../icons/#new"><i class="fa fa-cube fa-fw"></i>&nbsp; New Icons in 4.1</a></li>
+            <li><a href="../icons/#new"><i class="fa fa-cube fa-fw"></i>&nbsp; New Icons in 4.2</a></li>
             <li><a href="../icons/#web-application"><i class="fa fa-camera-retro fa-fw"></i>&nbsp; Web Application Icons</a></li>
             <li><a href="../icons/#file-type"><i class="fa fa-file-image-o fa-fw"></i>&nbsp; File Type Icons</a></li>
             <li><a href="../icons/#spinner"><i class="fa fa-spinner fa-fw"></i>&nbsp; Spinner Icons</a></li>
             <li><a href="../icons/#form-control"><i class="fa fa-check-square fa-fw"></i>&nbsp; Form Control Icons</a></li>
+            <li><a href="../icons/#payment"><i class="fa fa-credit-card fa-fw"></i>&nbsp; Payment Icons</a></li>
+            <li><a href="../icons/#chart"><i class="fa fa-pie-chart fa-fw"></i>&nbsp; Chart Icons</a></li>
             <li><a href="../icons/#currency"><i class="fa fa-won fa-fw"></i>&nbsp; Currency Icons</a></li>
             <li><a href="../icons/#text-editor"><i class="fa fa-file-text-o fa-fw"></i>&nbsp; Text Editor Icons</a></li>
             <li><a href="../icons/#directional"><i class="fa fa-hand-o-right fa-fw"></i>&nbsp; Directional Icons</a></li>
@@ -126,7 +129,7 @@
 <div class="jumbotron jumbotron-ad hidden-print">
   <div class="container">
     <h1><i class="fa fa-cogs"></i>&nbsp; Get Started</h1>
-    <p>Easy ways to get Font Awesome 4.1.0 onto your website</p>
+    <p>Easy ways to get Font Awesome 4.2.0 onto your website</p>
   </div>
 </div>
 
@@ -173,7 +176,7 @@
     <ol>
       <li>
         Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span><span class="nt">&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span><span class="nt">&gt;</span>
 </code></pre></div>
         <p class="alert alert-success"><i class="fa fa-info-circle"></i> Immediately after release, it takes a bit of time for BootstrapCDN to catch up and get the newest version live on their CDN.</p>
       </li>
@@ -223,13 +226,18 @@
 </code></pre></div>
       </li>
     </ol>
+    <p>
+    If you use Rails, add this to your e.g. <code>application.css</code>, just before <code>*= require_self</code>:
+    </p>
+<div class="highlight"><pre><code class="css"> <span class="o">*=</span> <span class="nt">require</span> <span class="nt">font-awesome</span>
+</code></pre></div>
   </section>
 
   <section id="ruby-gem-sass">
     <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-sass">SASS Ruby Gem</a></h2>
     <p>
       Use the <a href="https://github.com/FortAwesome/font-awesome-sass">Official Font Awesome SASS Ruby Gem</a> to easily get Font
-      Awesome SASS into a Rails project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
+      Awesome SASS into a Rails or Compass project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
     </p>
     <ol>
       <li>
@@ -247,11 +255,16 @@
 </code></pre></div>
       </li>
     </ol>
+    <p>
+    If you use Rails, add this to your e.g. <code>application.css</code>, just before <code>*= require_self</code>:
+    </p>
+<div class="highlight"><pre><code class="css"> <span class="o">*=</span> <span class="nt">require</span> <span class="nt">font-awesome</span>
+</code></pre></div>
   </section>
 
   <section id="custom-less">
     <h2 class="page-header">PRO: Custom LESS or SASS</h2>
-    <p>Use this method to customize Font Awesome 4.1.0 using LESS or SASS.</p>
+    <p>Use this method to customize Font Awesome 4.2.0 using LESS or SASS.</p>
     <ol>
       <li>Copy the <code>font-awesome/</code> directory into your project.</li>
       <li>
@@ -269,7 +282,7 @@
   <section class="need-ie7">
     <h2 class="page-header">Need IE7 Support?</h2>
     <p>
-      If you need IE7 support, you have my condolences. Really. Font Awesome 4.1.0
+      If you need IE7 support, you have my condolences. Really. Font Awesome 4.2.0
       doesn't support IE7, but an older version does. You'll need to check out the
       <a href="../3.2.1/get-started/#need-ie7">3.2.1 instructions for using IE7</a>. Then go complain to
       whomever decided your project needs IE7 support.
@@ -291,7 +304,7 @@
   <div class="container text-center">
     <div id="bsap_1298241" class="bsarocks bsap_b1146e3f9fa32a794fc6d2c7be47ece8"></div>
     <div>
-      <i class="fa fa-flag"></i> Font Awesome 4.1.0
+      <i class="fa fa-flag"></i> Font Awesome 4.2.0
       <span class="hide-xs">&middot;</span><br class="hide-sm hide-md hide-lg">
       Created by <a href="http://twitter.com/davegandy">Dave Gandy</a>
     </div>
@@ -315,8 +328,8 @@
 
 
 <script src="http://platform.twitter.com/widgets.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="../assets/js/site.js"></script>
 
 </body>

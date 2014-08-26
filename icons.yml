@@ -94,6 +94,9 @@ icons:
     id:         times
     unicode:    f00d
     created:    1.0
+    aliases:
+      - remove
+      - close
     categories:
       - Web Application Icons
 
@@ -869,12 +872,15 @@ icons:
       - Directional Icons
 
 
-  - name:       Bar Chart Outlined
-    id:         bar-chart-o
+  - name:       Bar Chart
+    id:         bar-chart
     unicode:    f080
     created:    1.0
+    aliases:
+      - bar-chart-o
     categories:
       - Web Application Icons
+      - Chart Icons
 
   - name:       Twitter Square
     id:         twitter-square
@@ -1076,6 +1082,7 @@ icons:
     created:    2.0
     categories:
       - Web Application Icons
+      - Payment Icons
 
   - name:       rss
     id:         rss
@@ -2837,8 +2844,6 @@ icons:
     created:    4.1
     categories:
       - Brand Icons
-    aliases:
-      - pied-piper-square
 
   - name:       Pied Piper Alternate Logo
     id:         pied-piper-alt
@@ -3113,7 +3118,8 @@ icons:
     unicode:    f1cd
     created:    4.1
     aliases:
-      - life-bouy
+      - life-bouy # TODO: Deprecated - remove in 5.0.0
+      - life-buoy
       - life-saver
       - support
     categories:
@@ -3266,3 +3272,303 @@ icons:
     created:    4.1
     categories:
       - Web Application Icons
+
+  - name:       Futbol Outlined
+    id:         futbol-o
+    unicode:    f1e3
+    created:    4.2
+    aliases:
+      - soccer-ball-o
+    categories:
+      - Web Application Icons
+
+  - name:       TTY
+    id:         tty
+    unicode:    f1e4
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Binoculars
+    id:         binoculars
+    unicode:    f1e5
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Plug
+    id:         plug
+    unicode:    f1e6
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Slideshare
+    id:         slideshare
+    unicode:    f1e7
+    created:    4.2
+    categories:
+      - Brand Icons
+
+  - name:       Twitch
+    id:         twitch
+    unicode:    f1e8
+    created:    4.2
+    categories:
+      - Brand Icons
+
+  - name:       Yelp
+    id:         yelp
+    unicode:    f1e9
+    created:    4.2
+    categories:
+      - Brand Icons
+
+  - name:       Newspaper Outlined
+    id:         newspaper-o
+    unicode:    f1ea
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       WiFi
+    id:         wifi
+    unicode:    f1eb
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Calculator
+    id:         calculator
+    unicode:    f1ec
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Paypal
+    id:         paypal
+    unicode:    f1ed
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       Goole Wallet
+    id:         google-wallet
+    unicode:    f1ee
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+
+  - name:       Visa Credit Card
+    id:         cc-visa
+    unicode:    f1f0
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       MasterCard Credit Card
+    id:         cc-mastercard
+    unicode:    f1f1
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       Discover Credit Card
+    id:         cc-discover
+    unicode:    f1f2
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       American Express Credit Card
+    id:         cc-amex
+    unicode:    f1f3
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       Paypal Credit Card
+    id:         cc-paypal
+    unicode:    f1f4
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       Stripe Credit Card
+    id:         cc-stripe
+    unicode:    f1f5
+    created:    4.2
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       Bell Slash
+    id:         bell-slash
+    unicode:    f1f6
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Bell Slash Outlined
+    id:         bell-slash-o
+    unicode:    f1f7
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Trash
+    id:         trash
+    unicode:    f1f8
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Copyright
+    id:         copyright
+    unicode:    f1f9
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       At
+    id:         at
+    unicode:    f1fa
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Eyedropper
+    id:         eyedropper
+    unicode:    f1fb
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Paint Brush
+    id:         paint-brush
+    unicode:    f1fc
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Birthday Cake
+    id:         birthday-cake
+    unicode:    f1fd
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Area Chart
+    id:         area-chart
+    unicode:    f1fe
+    created:    4.2
+    categories:
+      - Web Application Icons
+      - Chart Icons
+
+
+  - name:       Pie Chart
+    id:         pie-chart
+    unicode:    f200
+    created:    4.2
+    categories:
+      - Web Application Icons
+      - Chart Icons
+
+  - name:       Line Chart
+    id:         line-chart
+    unicode:    f201
+    created:    4.2
+    categories:
+      - Web Application Icons
+      - Chart Icons
+
+  - name:       last.fm
+    id:         lastfm
+    unicode:    f202
+    created:    4.2
+    categories:
+      - Brand Icons
+
+  - name:       last.fm Square
+    id:         lastfm-square
+    unicode:    f203
+    created:    4.2
+    categories:
+      - Brand Icons
+
+  - name:       Toggle Off
+    id:         toggle-off
+    unicode:    f204
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Toggle On
+    id:         toggle-on
+    unicode:    f205
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Bicycle
+    id:         bicycle
+    unicode:    f206
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Bus
+    id:         bus
+    unicode:    f207
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       ioxhost
+    id:         ioxhost
+    unicode:    f208
+    created:    4.2
+    url:        ioxhost.co.uk
+    categories:
+      - Brand Icons
+
+  - name:       AngelList
+    id:         angellist
+    unicode:    f209
+    created:    4.2
+    categories:
+      - Brand Icons
+
+  - name:       Closed Captions
+    id:         cc
+    unicode:    f20a
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Shekel (ILS)
+    id:         ils
+    unicode:    f20b
+    created:    4.2
+    aliases:
+      - shekel
+      - sheqel
+    categories:
+      - Currency Icons
+
+  - name:       meanpath
+    id:         meanpath
+    unicode:    f20c
+    created:    4.2
+    url:        meanpath.com
+    categories:
+      - Brand Icons
