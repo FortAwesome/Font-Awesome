@@ -1646,3 +1646,9 @@
 .fa-toggle-on:before {
   content: "\f205";
 }
+.fa-bicycle:before {
+  content: "\f206";
+}
+.fa-bus:before {
+  content: "\f207";
+}

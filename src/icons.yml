@@ -3518,3 +3518,17 @@ icons:
     created:    4.2
     categories:
       - Web Application Icons
+
+  - name:       Bicycle
+    id:         bicycle
+    unicode:    f206
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Bus
+    id:         bus
+    unicode:    f207
+    created:    4.2
+    categories:
+      - Web Application Icons
