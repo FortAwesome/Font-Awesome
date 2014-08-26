@@ -3504,3 +3504,17 @@ icons:
     created:    4.2
     categories:
       - Brand Icons
+
+  - name:       Toggle Off
+    id:         toggle-off
+    unicode:    f204
+    created:    4.2
+    categories:
+      - Web Application Icons
+
+  - name:       Toggle On
+    id:         toggle-on
+    unicode:    f205
+    created:    4.2
+    categories:
+      - Web Application Icons
