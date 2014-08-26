@@ -3547,3 +3547,10 @@ icons:
     created:    4.2
     categories:
       - Brand Icons
+
+  - name:       Closed Captions
+    id:         cc
+    unicode:    f20a
+    created:    4.2
+    categories:
+      - Web Application Icons
