@@ -79,6 +79,8 @@
 .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear;
+  -webkit-transform-origin: 50% calc(50% - 1px);
+  transform-origin: 50% calc(50% - 1px);
 }
 .fa-spinner.fa-spin {
     -webkit-animation-timing-function: steps(8, end);
