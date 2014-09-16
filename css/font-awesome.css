@@ -80,6 +80,10 @@
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear;
 }
+.fa-spinner.fa-spin {
+    -webkit-animation-timing-function: steps(8, end);
+    animation-timing-function: steps(8, end);
+}
 @-webkit-keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
