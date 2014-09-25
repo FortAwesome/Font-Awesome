@@ -3,5 +3,5 @@
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 {% for icon in icons %}{% for alias in icon.aliases %}
-.#{$fa-css-prefix}-{{ alias }}:before,{% endfor %}
-.#{$fa-css-prefix}-{{ icon.id }}:before { content: $fa-var-{{ icon.id }}; }{% endfor %}
+.#{$fa-css-prefix}-{{ alias }},{% endfor %}
+.#{$fa-css-prefix}-{{ icon.id }} { &:before { content: $fa-var-{{ icon.id }}; } }{% endfor %}
