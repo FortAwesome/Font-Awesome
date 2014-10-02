@@ -2687,7 +2687,7 @@ icons:
       - Web Application Icons
       - Directional Icons
 
-  - name:       Dot Circle O
+  - name:       Dot Circle Outlined
     id:         dot-circle-o
     unicode:    f192
     created:    4.0
