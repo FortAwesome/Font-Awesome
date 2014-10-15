@@ -25,8 +25,8 @@
 }
 
 @mixin fa-icon-transition($duration: 0.25s, $timing: ease-in-out) {
-    -webkit-transition: transform $duration $timing;
-    -moz-transition: transform $duration $timing;
-    -o-transition: transform $duration $timing;
-    transition: transform $duration $timing;
+  -webkit-transition: transform $duration $timing;
+     -moz-transition: transform $duration $timing;
+       -o-transition: transform $duration $timing;
+          transition: transform $duration $timing;
 }
