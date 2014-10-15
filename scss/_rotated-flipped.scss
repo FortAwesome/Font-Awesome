@@ -8,6 +8,8 @@
 .#{$fa-css-prefix}-flip-horizontal { @include fa-icon-flip(-1, 1, 0); }
 .#{$fa-css-prefix}-flip-vertical   { @include fa-icon-flip(1, -1, 2); }
 
+.#{$fa-css-prefix}-animate { @include fa-icon-transition; }
+
 // Hook for IE8-9
 // -------------------------
 
