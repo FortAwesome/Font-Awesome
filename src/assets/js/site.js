@@ -32,12 +32,12 @@ $(function() {
 
       var resultsCount = 0;
       $icons.each(function() {
-        var filter = $(this).attr('data-filter')
-        var show = filter.match(' '+val);
+        var filter = $(this).attr('data-filter').split('|');
+        var show = inFilter(val, filter);
         if (!show) {
           if (val.slice(-1) === 's') {
             // Try to be smart. Make plural terms singular.
-            show = filter.match(' '+val.slice(0, -1));
+            show = inFilter(val.slice(0, -1), filter);
           }
         }
         if (show) resultsCount++;
@@ -51,6 +51,17 @@ $(function() {
         $no_results.hide();
       }
     }).trigger('keyup');
+  }
+
+  function inFilter(val, filter) {
+    var found = false;
+    for (var i = 0; i < filter.length; i++) {
+      if (filter[i].match(val)) {
+        found = true;
+        break;
+      }
+    }
+    return found;
   }
 
 
