@@ -967,6 +967,9 @@ icons:
       - hide
       - block
       - stop
+    filter:
+      - block
+      - abort
     categories:
       - Web Application Icons
 
