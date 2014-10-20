@@ -1302,6 +1302,9 @@ icons:
     id:         twitter-square
     unicode:    f081
     created:    1.0
+    filter:
+      - tweet
+      - social network
     categories:
       - Brand Icons
 
@@ -1309,6 +1312,8 @@ icons:
     id:         facebook-square
     unicode:    f082
     created:    1.0
+    filter:
+      - social network
     categories:
       - Brand Icons
 
@@ -1548,6 +1553,7 @@ icons:
     created:    2.0
     filter:
       - tweet
+      - social network
     categories:
       - Brand Icons
 
@@ -1555,6 +1561,8 @@ icons:
     id:         facebook
     unicode:    f09a
     created:    2.0
+    filter:
+      - social network
     categories:
       - Brand Icons
 
@@ -2020,6 +2028,8 @@ icons:
     id:         google-plus-square
     unicode:    f0d4
     created:    2.0
+    filter:
+      - social network
     categories:
       - Brand Icons
 
@@ -2027,6 +2037,8 @@ icons:
     id:         google-plus
     unicode:    f0d5
     created:    2.0
+    filter:
+      - social network
     categories:
       - Brand Icons
 
@@ -4075,6 +4087,9 @@ icons:
     id:         car
     unicode:    f1b9
     created:    4.1
+    filter:
+      - vehicle
+      - transportation
     categories:
       - Web Application Icons
     aliases:
@@ -4084,6 +4099,9 @@ icons:
     id:         taxi
     unicode:    f1ba
     created:    4.1
+    filter:
+      - vehicle
+      - transportation
     categories:
       - Web Application Icons
     aliases:
@@ -4636,6 +4654,9 @@ icons:
     id:         bicycle
     unicode:    f206
     created:    4.2
+    filter:
+      - vehicle
+      - transportation
     categories:
       - Web Application Icons
 
@@ -4643,6 +4664,9 @@ icons:
     id:         bus
     unicode:    f207
     created:    4.2
+    filter:
+      - vehicle
+      - transportation
     categories:
       - Web Application Icons
 
