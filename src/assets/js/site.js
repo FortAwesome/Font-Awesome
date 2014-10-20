@@ -10,6 +10,7 @@ $(function() {
     var $filter = $('#filter');
     var $other = $('#new, #web-application, #form-control, #medical, #currency, #text-editor, #directional, #video-player, #brand, #file-type, #spinner, #payment, #chart');
     var $clear = $('#filter-clear');
+    var $no_results = $('#no-search-results');
 
     var $icons = $('.filter-icon', $filter);
 
@@ -29,10 +30,21 @@ $(function() {
 
       if(!val) return;
 
+      var resultsCount = 0;
       $icons.each(function() {
         var show = $(this).attr('data-filter').match(' '+val);
+        if( show ) resultsCount++;
         $(this).toggle(!!show);
       });
+
+      console.log(resultsCount);
+
+      if( resultsCount == 0 && val.length != 0 ) {
+        $no_results.find('span').text(val);
+        $no_results.show();
+      } else {
+        $no_results.hide();
+      }
     }).trigger('keyup');
   }
 
