@@ -54,14 +54,10 @@ $(function() {
   }
 
   function inFilter(val, filter) {
-    var found = false;
     for (var i = 0; i < filter.length; i++) {
-      if (filter[i].match(val)) {
-        found = true;
-        break;
-      }
+      if (filter[i].match(val)) return true;
     }
-    return found;
+    return false;
   }
 
 
