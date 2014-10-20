@@ -32,12 +32,17 @@ $(function() {
 
       var resultsCount = 0;
       $icons.each(function() {
-        var show = $(this).attr('data-filter').match(' '+val);
-        if( show ) resultsCount++;
+        var filter = $(this).attr('data-filter')
+        var show = filter.match(' '+val);
+        if (!show) {
+          if (val.slice(-1) === 's') {
+            // Try to be smart. Make plural terms singular.
+            show = filter.match(' '+val.slice(0, -1));
+          }
+        }
+        if (show) resultsCount++;
         $(this).toggle(!!show);
       });
-
-      console.log(resultsCount);
 
       if( resultsCount == 0 && val.length != 0 ) {
         $no_results.find('span').text(val);
