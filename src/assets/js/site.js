@@ -8,7 +8,7 @@ $(function() {
   if($('#filter-by').length) {
     var $filter_val = $('#filter-val');
     var $filter = $('#filter');
-    var $other = $('#new, #web-application, #form-control, #medical, #currency, #text-editor, #directional, #video-player, #brand');
+    var $other = $('#new, #web-application, #form-control, #medical, #currency, #text-editor, #directional, #video-player, #brand, #file-type, #spinner, #payment, #chart');
     var $clear = $('#filter-clear');
 
     var $icons = $('.filter-icon', $filter);
