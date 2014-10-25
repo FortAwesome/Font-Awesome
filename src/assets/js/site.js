@@ -4,8 +4,10 @@ $(function() {
     interval: 5000
   });
 
+  var $filter_by = $('#filter-by');
+
   // Filter icons
-  if($('#filter-by').length) {
+  if($filter_by.length) {
     var $filter_val = $('#filter-val');
     var $filter = $('#filter');
     var $other = $('#new, #web-application, #form-control, #medical, #currency, #text-editor, #directional, #video-player, #brand, #file-type, #spinner, #payment, #chart');
@@ -16,11 +18,11 @@ $(function() {
 
     $clear.click(function(e) {
       e.preventDefault();
-      $('#filter-by').val('').trigger('keyup').focus();
+      $filter_by.val('').trigger('keyup').focus();
     });
 
 
-    $('#filter-by').keyup(function() {
+    $filter_by.keyup(function() {
       var $this = $(this);
       var val = $this.val();
       $filter.toggle(!!val);
