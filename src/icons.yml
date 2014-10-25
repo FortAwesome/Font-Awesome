@@ -200,7 +200,7 @@ icons:
     unicode:    f011
     created:    1.0
     filter:
-      - on
+      - "on"
     categories:
       - Web Application Icons
 
