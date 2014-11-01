@@ -16,6 +16,11 @@ $(function() {
 
     var $icons = $('.filter-icon', $filter);
 
+    // Add tab completion
+    $filter_by.tabcomplete(filterSet, {
+      arrowKeys: true
+    });
+
     $clear.click(function(e) {
       e.preventDefault();
       $filter_by.val('').trigger('keyup').focus();
@@ -24,7 +29,7 @@ $(function() {
 
     $filter_by.keyup(function() {
       var $this = $(this);
-      var val = $this.val();
+      var val = $this.val().toLowerCase();
       $filter.toggle(!!val);
       $other.toggle(!val);
       $clear.toggleClass('gone', !val);
@@ -61,36 +66,4 @@ $(function() {
     }
     return false;
   }
-
-
-
-
-  // make code pretty
-//  $('pre').addClass('prettyprint');
-//  window.prettyPrint && prettyPrint();
-
-  // Disable links with href="#" inside <section>, so users can click on them
-  // to preview :active state without being scrolled up to the top of the page.
-//  $('section a[href="#"]').click(function(e) {
-//    e.preventDefault();
-//    e.stopPropagation();
-//  });
-
-//  // inject twitter & github counts
-//  $.ajax({
-//    url: 'http://api.twitter.com/1/users/show.json',
-//    data: {screen_name: 'fortaweso_me'},
-//    dataType: 'jsonp',
-//    success: function(data) {
-//      $('#followers').html(data.followers_count);
-//    }
-//  });
-//  $.ajax({
-//    url: 'https://api.github.com/repos/fortawesome/Font-Awesome',
-//    dataType: 'jsonp',
-//    success: function(data) {
-//      $('#watchers').html(data.data.watchers);
-//      $('#forks').html(data.data.forks);
-//    }
-//  });
 });
