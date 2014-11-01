@@ -3,6 +3,14 @@
   <input placeholder="Filter icons..." id="filter-by">
   <a href="#" id="filter-clear" class="fa fa-times"></a>
 </div>
+<script>
+  try {
+    var filterSet = JSON.parse('{{ icons | flattenIconFilters | jsonify }}');
+  } catch (e) {
+    console.error('Invalid JSON data!');
+    var filterSet = [];
+  }
+</script>
 <{% if page.navbar_active == "icons" %}div{% else %}section{% endif %} id="filter">
   <h2 class="page-header">Filter for <span class="text-muted" id="filter-val"></span></h2>
   {% if page.navbar_active != "icons" %}
