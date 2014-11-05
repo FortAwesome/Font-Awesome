@@ -11,7 +11,7 @@ pygments:         true
 permalink:        pretty
 
 # ensures SCSS files are compiled
-include:          [_*.scss]
+include:          [_*.scss, _*.less]
 
 # used in building icon pages
 icon_meta:        src/icons.yml
