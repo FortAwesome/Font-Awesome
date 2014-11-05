@@ -30,3 +30,28 @@
     }
   }
 }
+
+.filter-parent {
+  display: inline-block;
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 0 10px 0 14px;
+  border-radius: 3px;
+  #filter-by, .hint {
+    padding: 7px 0 7px 12px;
+    border: 0 none;
+    outline: 0 none;
+    width: 300px;
+    z-index: 2;
+  }
+  .hint {
+    color: #aaa;
+  }
+  a {
+    text-decoration: none;
+    &.gone {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+}
