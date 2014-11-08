@@ -23,5 +23,8 @@
   "require-dev": {
       "jekyll": "1.0.2",
       "lessc": "1.4.2"
+  },
+  "require": {
+    "composer/installers": "~1.0"
   }
 }
