@@ -25,12 +25,14 @@ for PACKAGE_FILE in meteor/package*.js; do
     # actually this is the first time the package is created, so pass the special --create flag and congratulate the maintainer
     echo "Thank you for creating the official Meteor package for this library!"
     if meteor publish --create; then
-      echo "Success! Please post the following to https://github.com/raix/Meteor-community-discussions/issues/14:
+      echo "Please post the following to https://github.com/raix/Meteor-community-discussions/issues/14:
 
-<<< ----------------------------------------- 8< --------------------------------------------------------
+--------------------------------------------- 8< --------------------------------------------------------
+
 Happy to announce that I've published the official $PACKAGE_NAME to Atmosphere. Please star!
 https://atmospherejs.com/$ATMOSPHERE_NAME
->>> ----------------------------------------- >8 --------------------------------------------------------
+
+--------------------------------------------- >8 --------------------------------------------------------
 
 "
     else
@@ -40,9 +42,9 @@ https://atmospherejs.com/$ATMOSPHERE_NAME
     if (( $? > 0 )); then
       # the error wasn't that the package didn't exist, so we need to ask for help
       echo "We got an error. Please post it at https://github.com/raix/Meteor-community-discussions/issues/14:
-<<< ----------------------------------------- 8< --------------------------------------------------------
+--------------------------------------------- 8< --------------------------------------------------------
 $POTENTIAL_ERROR
->>> ----------------------------------------- >8 --------------------------------------------------------
+--------------------------------------------- >8 --------------------------------------------------------
 "
     else
       echo "Thanks for releasing a new version of $PACKAGE_NAME! You can see it at
@@ -52,5 +54,8 @@ https://atmospherejs.com/$ATMOSPHERE_NAME"
 
   # we copied the file as package.js, regardless of its original name
   rm package.js
+
+  # temporary build files
+  rm -rf ".build.$PACKAGE_NAME"
 
 done

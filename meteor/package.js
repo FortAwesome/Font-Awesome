@@ -15,7 +15,12 @@ Package.describe({
 Package.onUse(function (api) {
   api.versionsFrom('METEOR@0.9.2.1');
   api.addFiles([
-    'fonts/fontawesome-webfont.woff', // Supported by all modern browsers. For compatibility with older browsers (that somehow still run Meteor), use the package-fontcompat.js file.
+    // we bundle all font files, but the client will request only one of them via the CSS @font-face rule
+    'fonts/fontawesome-webfont.eot',  // IE8 or older
+    'fonts/fontawesome-webfont.svg',  // SVG fallback for iOS < 5 - http://caniuse.com/#feat=svg-fonts, http://stackoverflow.com/a/11002874/1269037
+    'fonts/fontawesome-webfont.ttf',  // Android Browers 4.1, 4.3 - http://caniuse.com/#feat=ttf
+    'fonts/fontawesome-webfont.woff', // Most modern browsers
+
     'css/font-awesome.css'
   ], where);
 });
