@@ -8,6 +8,7 @@ Stay up to date [@fontawesome](http://twitter.com/fontawesome).
 Get started at http://fontawesome.io!
 
 ##License
+
 - The Font Awesome font is licensed under the SIL OFL 1.1:
   - http://scripts.sil.org/OFL
 - Font Awesome CSS, LESS, and SASS files are licensed under the MIT License:
@@ -18,7 +19,9 @@ Get started at http://fontawesome.io!
   - `Font Awesome by Dave Gandy - http://fontawesome.io`
 - Full details: http://fontawesome.io/license
 
+
 ##Changelog
+
 - v3.0.0 - all icons redesigned from scratch, optimized for Bootstrap's 14px default
 - v3.0.1 - much improved rendering in webkit, various bug fixes
 - v3.0.2 - much improved rendering and alignment in IE7
@@ -38,7 +41,8 @@ Get started at http://fontawesome.io!
 Please read through our [contributing guidelines](https://github.com/FortAwesome/Font-Awesome/blob/master/CONTRIBUTING.md).
 Included are directions for opening issues, coding standards, and notes on development.
 
-##Versioning
+
+## Versioning
 
 Font Awesome will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered
 with the following format:
@@ -53,12 +57,15 @@ And constructed with the following guidelines:
 
 For more information on SemVer, please visit http://semver.org.
 
-##Author
+
+## Author
+
 - Email: dave@fontawesome.io
 - Twitter: http://twitter.com/davegandy
 - GitHub: https://github.com/davegandy
 
-##Component
+
+## Component
 To include as a [component](http://github.com/component/component), just run
 
     $ component install FortAwesome/Font-Awesome
@@ -68,6 +75,16 @@ Or add
     "FortAwesome/Font-Awesome": "*"
 
 to the `dependencies` in your `component.json`.
+
+
+## Meteor
+
+To use Font Awesome integrates with the Meteor framework, run
+
+    $ meteor add fortawesome:fontawesome
+
+Learn more about the [Meteor integration in the README](meteor/README.md).
+
 
 ## Hacking on Font Awesome
 

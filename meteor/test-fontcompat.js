@@ -3,8 +3,8 @@
 var packageName;  // there seems to be no official way of finding out the name of the very package we're testing - http://stackoverflow.com/questions/27180709/in-a-tinytest-test-file-how-do-i-get-the-name-of-the-package
 
 // Check that the font files are downloadable. Meteor places assets at /packages/<packageName>/.
-// Only 'woff' for now, but we expect 'woff2' soon - https://github.com/FortAwesome/Font-Awesome/pull/5062#discussion_r20936453
-['woff'].forEach(function (font) {
+// Only the WOFF file is used in modern browsers.
+['eot', 'svg', 'ttf', 'woff'].forEach(function (font) {
   Tinytest.addAsync(font + ' fonts are shipped', function (test, done) {
 
     // curiously enough, the 'local-test:...' package isn't loaded into Package before calling Tinytest, so we can't do this determination outside this loop

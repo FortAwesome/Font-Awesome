@@ -4,20 +4,53 @@
 type meteor >/dev/null 2>&1 || { curl https://install.meteor.com/ | sh; }
 
 # sanity check: make sure we're in the root directory of the checkout
-DIR=$( cd "$( dirname "$0" )" && pwd )
-cd $DIR/..
+cd "$( dirname "$0" )/.."
 
-# Meteor expects package.js to be in the root directory of the checkout, so copy it there temporarily
-cp meteor/package.js ./
+# publish separately any package*.js files we have, e.g. package.js, package-compat.js
+for PACKAGE_FILE in meteor/package*.js; do
 
-# publish package, creating it if it's the first time we're publishing
-PACKAGE_NAME=$(grep -i name package.js | head -1 | cut -d "'" -f 2)
-PACKAGE_EXISTS=$(meteor search $PACKAGE_NAME 2>/dev/null | wc -l)
+  # Meteor expects package.js to be in the root directory of the checkout, so copy there our package file under that name, temporarily
+  cp $PACKAGE_FILE ./package.js
 
-if [ $PACKAGE_EXISTS -gt 0 ]; then
-  meteor publish
-else
-  meteor publish --create
-fi
+  # publish package, creating it if it's the first time we're publishing
+  PACKAGE_NAME=$(grep -i name $PACKAGE_FILE | head -1 | cut -d "'" -f 2)
+  ATMOSPHERE_NAME=${PACKAGE_NAME/://}
 
-rm package.js
+  echo "Publishing $PACKAGE_NAME..."
+
+  # attempt to re-publish the package - the most common operation once the initial release has been made
+  POTENTIAL_ERROR=$( meteor publish 2>&1 )
+
+  if [[ $POTENTIAL_ERROR =~ "There is no package named" ]]; then
+    # actually this is the first time the package is created, so pass the special --create flag and congratulate the maintainer
+    echo "Thank you for creating the official Meteor package for this library!"
+    if meteor publish --create; then
+      echo "Success! Please post the following to https://github.com/raix/Meteor-community-discussions/issues/14:
+
+<<< ----------------------------------------- 8< --------------------------------------------------------
+Happy to announce that I've published the official $PACKAGE_NAME to Atmosphere. Please star!
+https://atmospherejs.com/$ATMOSPHERE_NAME
+>>> ----------------------------------------- >8 --------------------------------------------------------
+
+"
+    else
+      echo "We got an error. Please post it at https://github.com/raix/Meteor-community-discussions/issues/14"
+    fi
+  else
+    if (( $? > 0 )); then
+      # the error wasn't that the package didn't exist, so we need to ask for help
+      echo "We got an error. Please post it at https://github.com/raix/Meteor-community-discussions/issues/14:
+<<< ----------------------------------------- 8< --------------------------------------------------------
+$POTENTIAL_ERROR
+>>> ----------------------------------------- >8 --------------------------------------------------------
+"
+    else
+      echo "Thanks for releasing a new version of $PACKAGE_NAME! You can see it at
+https://atmospherejs.com/$ATMOSPHERE_NAME"
+    fi
+  fi
+
+  # we copied the file as package.js, regardless of its original name
+  rm package.js
+
+done
