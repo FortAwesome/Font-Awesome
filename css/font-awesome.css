@@ -20,7 +20,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .fa-inset{
-    background-color: #565656;
   color: transparent;
   text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
   -webkit-background-clip: text;
