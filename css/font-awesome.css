@@ -21,6 +21,7 @@
 }
 .fa-inset{
   color: transparent;
+  background:#565656;
   text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
   -webkit-background-clip: text;
      -moz-background-clip: text;
