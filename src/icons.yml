@@ -2591,10 +2591,12 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Gittip
-    id:         gittip
+  - name:       Gratipay (Gittip)
+    id:         gratipay
     unicode:    f184
     created:    3.2
+    aliases:
+      - gittip
     categories:
       - Brand Icons
 
