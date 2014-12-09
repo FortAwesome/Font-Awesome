@@ -620,6 +620,9 @@ icons:
     id:         picture-o
     unicode:    f03e
     created:    1.0
+    aliases:
+      - photo
+      - image
     filter:
       - photo
       - image
