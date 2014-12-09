@@ -623,9 +623,6 @@ icons:
     aliases:
       - photo
       - image
-    filter:
-      - photo
-      - image
     categories:
       - Web Application Icons
 
