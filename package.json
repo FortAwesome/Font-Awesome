@@ -2,10 +2,17 @@
   "name": "font-awesome",
   "description": "The iconic font and CSS framework",
   "version": "4.2.0",
-  "keywords": ["font", "awesome", "fontawesome", "icon", "font", "bootstrap"],
+  "keywords": [
+    "font",
+    "awesome",
+    "fontawesome",
+    "icon",
+    "font",
+    "bootstrap"
+  ],
   "homepage": "http://fontawesome.io/",
   "bugs": {
-    "url" : "http://github.com/FortAwesome/Font-Awesome/issues"
+    "url": "http://github.com/FortAwesome/Font-Awesome/issues"
   },
   "author": {
     "name": "Dave Gandy",
@@ -40,9 +47,11 @@
       "url": "http://opensource.org/licenses/mit-license.html"
     }
   ],
-  "dependencies": {
+  "dependencies": {},
+  "engines": {
+    "node": ">=0.10.3"
   },
-  "engines" : {
-    "node" : ">=0.10.3"
+  "devDependencies": {
+    "less": "~1.4.0"
   }
 }
