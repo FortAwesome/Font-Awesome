@@ -5,10 +5,10 @@
 </div>
 <script>
   try {
-    var filterSet = JSON.parse('{{ icons | flattenIconFilters | jsonify }}');
+    window.filterSet = JSON.parse('{{ icons | flattenIconFilters | jsonify }}');
   } catch (e) {
     console.error('Invalid JSON data!');
-    var filterSet = [];
+    window.filterSet = [];
   }
 </script>
 <{% if page.navbar_active == "icons" %}div{% else %}section{% endif %} id="filter">
