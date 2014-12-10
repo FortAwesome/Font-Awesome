@@ -21,13 +21,19 @@ $(function() {
       arrowKeys: true
     });
 
-    $clear.click(function(e) {
+    $clear.on('click', function(e) {
       e.preventDefault();
-      $filter_by.val('').trigger('keyup').focus();
+      $filter_by
+        .val('')
+        .trigger('input')
+        .trigger('keyup')
+        .focus();
+
+      $clear.addClass('gone'); // Hide clear button
     });
 
 
-    $filter_by.keyup(function() {
+    $filter_by.on('keyup', function() {
       var $this = $(this);
       var val = $this.val().toLowerCase();
       $filter.toggle(!!val);
@@ -57,7 +63,7 @@ $(function() {
       } else {
         $no_results.hide();
       }
-    }).trigger('keyup');
+    });
   }
 
   function inFilter(val, filter) {
