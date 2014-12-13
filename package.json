@@ -40,9 +40,11 @@
       "url": "http://opensource.org/licenses/mit-license.html"
     }
   ],
-  "dependencies": {
+  "dependencies": {},
+  "engines": {
+    "node": ">=0.10.3"
   },
-  "engines" : {
-    "node" : ">=0.10.3"
+  "devDependencies": {
+    "less": "~2"
   }
 }
