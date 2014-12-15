@@ -42,6 +42,9 @@
   ],
   "dependencies": {
   },
+  "devDependencies": {
+    "spacejam": "^1.1.1"
+  },
   "engines" : {
     "node" : ">=0.10.3"
   }

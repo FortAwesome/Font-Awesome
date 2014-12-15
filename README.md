@@ -58,6 +58,7 @@ For more information on SemVer, please visit http://semver.org.
 - Twitter: http://twitter.com/davegandy
 - GitHub: https://github.com/davegandy
 
+
 ##Component
 To include as a [component](http://github.com/component/component), just run
 
@@ -68,6 +69,14 @@ Or add
     "FortAwesome/Font-Awesome": "*"
 
 to the `dependencies` in your `component.json`.
+
+## Meteor
+To use Font Awesome with the Meteor framework, run
+
+    $ meteor add fortawesome:fontawesome
+
+Learn more about the [Meteor integration in the README](meteor/README.md).
+
 
 ## Hacking on Font Awesome
 
