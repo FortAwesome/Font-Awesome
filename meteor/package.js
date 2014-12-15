@@ -13,7 +13,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('METEOR@0.9.2.1');
+  api.versionsFrom(['METEOR@0.9.2.1', 'METEOR@1.0']);
   api.addFiles([
     // we bundle all font files, but the client will request only one of them via the CSS @font-face rule
     'fonts/fontawesome-webfont.eot',  // IE8 or older only understands EOT. IE9+ will read it too because it loads the first occurrence of `src`
