@@ -7,6 +7,16 @@ Stay up to date [@fontawesome](http://twitter.com/fontawesome).
 
 Get started at http://fontawesome.io!
 
+##How to install
+
+```bower install fontawesome --save```
+
+And add to your index.html
+
+```html
+<link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
+```
+
 ##License
 - The Font Awesome font is licensed under the SIL OFL 1.1:
   - http://scripts.sil.org/OFL
