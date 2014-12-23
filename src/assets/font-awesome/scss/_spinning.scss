@@ -9,6 +9,11 @@
           animation: fa-spin 2s infinite linear;
 }
 
+.#{$fa-css-prefix}-spin.#{$fa-css-prefix}-spinner {
+  -webkit-animation: fa-spin-fa-spinner .8s infinite linear;
+          animation: fa-spin-fa-spinner .8s infinite linear;
+}
+
 @-webkit-keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -30,3 +35,74 @@
             transform: rotate(359deg);
   }
 }
+
+@-webkit-keyframes fa-spin-fa-spinner {
+  0%, 12.499% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  12.5%, 24.999% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  25%, 37.499% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  37.5%, 49.99% {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  50%, 62.499% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  62.5%, 74.999% {
+    -webkit-transform: rotate(225deg);
+            transform: rotate(225deg);
+  }
+  75%, 87.499% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+  87.5%, 99.999% {
+    -webkit-transform: rotate(315deg);
+            transform: rotate(315deg);
+  }
+}
+
+@keyframes fa-spin-fa-spinner {
+  0%, 12.499% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  12.5%, 24.999% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  25%, 37.499% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  37.5%, 49.99% {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  50%, 62.499% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  62.5%, 74.999% {
+    -webkit-transform: rotate(225deg);
+            transform: rotate(225deg);
+  }
+  75%, 87.499% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+  87.5%, 99.999% {
+    -webkit-transform: rotate(315deg);
+            transform: rotate(315deg);
+  }
+}
+
