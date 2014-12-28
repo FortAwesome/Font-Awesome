@@ -4,7 +4,7 @@
 // --------------------------
 
 @mixin fa-icon() {
-{% include code/core.css %}
+{% include code/core.scss %}
 }
 
 @mixin fa-icon-rotate($degrees, $rotation) {
