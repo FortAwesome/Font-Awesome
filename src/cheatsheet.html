@@ -16,10 +16,11 @@ relative_path: ../
   </p>
   {% endcapture %}
   {% include stripe-ad.html %}
+  {% include icons/filter.html %}
 
   <h2 class="page-header">Every Font Awesome {{ site.fontawesome.version }} Icon, CSS Class, &amp; Unicode</h2>
 
-  <div class="row">
+  <div class="row fontawesome-icon-list">
     {% assign sorted_icons = icons | expand_aliases | sort_by:'class' %}
 
     {% for icon in sorted_icons %}
