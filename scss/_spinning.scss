@@ -6,6 +6,11 @@
           animation: fa-spin 2s infinite linear;
 }
 
+.#{$fa-css-prefix}-spin-hover:hover {
+	-webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear;
+}
+
 @-webkit-keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
