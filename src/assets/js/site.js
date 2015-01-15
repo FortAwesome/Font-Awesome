@@ -72,4 +72,13 @@ $(function() {
     }
     return false;
   }
+
+  $filter_by
+    .val('')
+    .trigger('input')
+    .trigger('keyup')
+    .focus();
+
+  $clear.addClass('gone'); // Hide clear button
+
 });

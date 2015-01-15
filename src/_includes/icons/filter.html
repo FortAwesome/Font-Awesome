@@ -1,6 +1,6 @@
-<div class="filter-parent">
-  <label for="filter-by" class="fa fa-search"></label>
-  <input placeholder="Filter icons..." id="filter-by">
+<div class="filter-parent" id="search">
+  <label for="filter-by"><i class="fa fa-search"></i></label>
+  <input placeholder="Search" id="filter-by" class="form-control input-lg">
   <a href="#" id="filter-clear" class="fa fa-times"></a>
 </div>
 <script>
@@ -11,14 +11,8 @@
     window.filterSet = [];
   }
 </script>
-<{% if page.navbar_active == "icons" %}div{% else %}section{% endif %} id="filter">
-  <h2 class="page-header">Filter for <span class="text-muted" id="filter-val"></span></h2>
-  {% if page.navbar_active != "icons" %}
-    <div class="margin-botom-large">
-      You asked, Font Awesome delivers with {{ icons | version:site.fontawesome.minor_version | size }} shiny new icons in version {{ site.fontawesome.minor_version }}.
-      Want to request new icons? <a href="{{ page.relative_path }}community/#requesting-new-icons">Here's how</a>.
-    </div>
-  {% endif %}
+<section id="filter">
+  <h2 class="page-header text-muted">Search for '<span class="text-color-default" id="filter-val"></span>'</h2>
 
   <div class="row fontawesome-icon-list">
     {% for icon in icons %}
@@ -29,8 +23,8 @@
     {% endfor %}
   </div>
   <div id="no-search-results">
-    <div class="alert alert-danger" role="alert"><i class="fa fa-ban"></i> No icons with the tag <strong>'<span></span>'</strong> were found.</div>
-    <div class="alert alert-info" role="alert"><i class="fa fa-exclamation-circle"></i> Tags are added by the community. Do you think your search query should return an icon? Send a pull request on <a href="https://github.com/FortAwesome/Font-Awesome">GitHub</a>!</div>
+    <div class="alert alert-warning" role="alert"><i class="fa fa-warning margin-right-sm"></i>No icons matching <strong>'<span></span>'</strong> were found.</div>
+    <div class="alert alert-info" role="alert"><i class="fa fa-exclamation-circle margin-right-sm"></i>Tags are added by the community. Do you think your search query should return an icon? Send a pull request on <a href="https://github.com/FortAwesome/Font-Awesome">GitHub</a>!</div>
   </div>
 
-</{% if page.navbar_active == "icons" %}div{% else %}section{% endif %}>
+</section>
