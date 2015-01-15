@@ -1,4 +1,4 @@
-<{% if page.navbar_active == "icons" %}div{% else %}section{% endif %} id="new">
+<section id="new">
   <h2 class="page-header">{{ icons | version:site.fontawesome.minor_version | size }} New Icons in {{ site.fontawesome.minor_version }}</h2>
   {% if page.navbar_active != "icons" %}
     <div class="margin-botom-large">
@@ -15,4 +15,4 @@
     {% endfor %}
   </div>
 
-</{% if page.navbar_active == "icons" %}div{% else %}section{% endif %}>
+</section>
