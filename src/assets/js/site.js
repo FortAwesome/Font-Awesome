@@ -10,7 +10,7 @@ $(function() {
   if($filter_by.length) {
     var $filter_val = $('#filter-val');
     var $filter = $('#filter');
-    var $other = $('#new, #web-application, #form-control, #medical, #currency, #text-editor, #directional, #video-player, #brand, #file-type, #spinner, #payment, #chart');
+    var $other = $('#new, #web-application, #transportation, #gender, #form-control, #medical, #currency, #text-editor, #directional, #video-player, #brand, #file-type, #spinner, #payment, #chart');
     var $clear = $('#filter-clear');
     var $no_results = $('#no-search-results');
 
@@ -29,7 +29,7 @@ $(function() {
         .trigger('keyup')
         .focus();
 
-      $clear.addClass('gone'); // Hide clear button
+      $clear.addClass('hide'); // Hide clear button
     });
 
 
@@ -38,7 +38,7 @@ $(function() {
       var val = $this.val().toLowerCase();
       $filter.toggle(!!val);
       $other.toggle(!val);
-      $clear.toggleClass('gone', !val);
+      $clear.toggleClass('hide', !val);
       $filter_val.text(val);
 
       if(!val) return;
@@ -76,9 +76,8 @@ $(function() {
   $filter_by
     .val('')
     .trigger('input')
-    .trigger('keyup')
-    .focus();
+    .trigger('keyup');
 
-  $clear.addClass('gone'); // Hide clear button
+  $clear.addClass('hide'); // Hide clear button
 
 });

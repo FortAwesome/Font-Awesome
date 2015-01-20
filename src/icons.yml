@@ -58,6 +58,7 @@ icons:
       - favorite
     categories:
       - Web Application Icons
+      - Medical Icons
 
   - name:       Star
     id:         star
@@ -1176,6 +1177,7 @@ icons:
       - mode
     categories:
       - Web Application Icons
+      - Transportation Icons
 
   - name:       calendar
     id:         calendar
@@ -1406,6 +1408,7 @@ icons:
       - favorite
     categories:
       - Web Application Icons
+      - Medical Icons
 
   - name:       Sign Out
     id:         sign-out
@@ -2010,6 +2013,7 @@ icons:
       - shipping
     categories:
       - Web Application Icons
+      - Transportation Icons
 
   - name:       Pinterest
     id:         pinterest
@@ -2409,6 +2413,7 @@ icons:
       - help
     categories:
       - Medical Icons
+      - Transportation Icons
 
   - name:       medkit
     id:         medkit
@@ -2435,6 +2440,7 @@ icons:
       - travel
     categories:
       - Web Application Icons
+      - Transportation Icons
 
   - name:       beer
     id:         beer
@@ -2979,6 +2985,7 @@ icons:
       - app
     categories:
       - Web Application Icons
+      - Transportation Icons
 
   - name:       MaxCDN
     id:         maxcdn
@@ -3824,6 +3831,7 @@ icons:
     categories:
       - Web Application Icons
       - Medical Icons
+      - Transportation Icons
 
   - name:       Vimeo Square
     id:         vimeo-square
@@ -3858,8 +3866,10 @@ icons:
     id:         space-shuttle
     unicode:    f197
     created:    4.1
+    filter:
     categories:
       - Web Application Icons
+      - Transportation Icons
 
   - name:       Slack Logo
     id:         slack
@@ -4089,25 +4099,25 @@ icons:
     id:         car
     unicode:    f1b9
     created:    4.1
-    filter:
-      - vehicle
-      - transportation
-    categories:
-      - Web Application Icons
     aliases:
       - automobile
+    filter:
+      - vehicle
+    categories:
+      - Web Application Icons
+      - Transportation Icons
 
   - name:       Taxi
     id:         taxi
     unicode:    f1ba
     created:    4.1
-    filter:
-      - vehicle
-      - transportation
-    categories:
-      - Web Application Icons
     aliases:
       - cab
+    filter:
+      - vehicle
+    categories:
+      - Web Application Icons
+      - Transportation Icons
 
   - name:       Tree
     id:         tree
@@ -4335,6 +4345,7 @@ icons:
     created:    4.1
     aliases:
       - send
+    filter:
     categories:
       - Web Application Icons
 
@@ -4358,8 +4369,11 @@ icons:
     id:         circle-thin
     unicode:    f1db
     created:    4.1
+    aliases:
+      - genderless
     categories:
       - Web Application Icons
+      - Gender Icons
 
   - name:       header
     id:         header
@@ -4658,9 +4672,10 @@ icons:
     created:    4.2
     filter:
       - vehicle
-      - transportation
+      - bike
     categories:
       - Web Application Icons
+      - Transportation Icons
 
   - name:       Bus
     id:         bus
@@ -4668,9 +4683,9 @@ icons:
     created:    4.2
     filter:
       - vehicle
-      - transportation
     categories:
       - Web Application Icons
+      - Transportation Icons
 
   - name:       ioxhost
     id:         ioxhost
@@ -4711,3 +4726,246 @@ icons:
     url:        meanpath.com
     categories:
       - Brand Icons
+
+  - name:       BuySellAds
+    id:         buysellads
+    unicode:    f20d
+    created:    4.3
+    url:        buysellads.com
+    categories:
+      - Brand Icons
+
+  - name:       Connect Develop
+    id:         connectdevelop
+    unicode:    f20e
+    created:    4.3
+    url:        connectdevelop.com
+    categories:
+      - Brand Icons
+
+
+  - name:       DashCube
+    id:         dashcube
+    unicode:    f210
+    created:    4.3
+    url:        dashcube.com
+    categories:
+      - Brand Icons
+
+  - name:       Forumbee
+    id:         forumbee
+    unicode:    f211
+    created:    4.3
+    url:        forumbee.com
+    categories:
+      - Brand Icons
+
+  - name:       Leanpub
+    id:         leanpub
+    unicode:    f212
+    created:    4.3
+    url:        leanpub.com
+    categories:
+      - Brand Icons
+
+  - name:       Sellsy
+    id:         sellsy
+    unicode:    f213
+    created:    4.3
+    url:        sellsy.com
+    categories:
+      - Brand Icons
+
+  - name:       Shirts in Bulk
+    id:         shirtsinbulk
+    unicode:    f214
+    created:    4.3
+    url:        shirtsinbulk.com
+    categories:
+      - Brand Icons
+
+  - name:       SimplyBuilt
+    id:         simplybuilt
+    unicode:    f215
+    created:    4.3
+    url:        simplybuilt.com
+    categories:
+      - Brand Icons
+
+  - name:       skyatlas
+    id:         skyatlas
+    unicode:    f216
+    created:    4.3
+    url:        skyatlas.com
+    categories:
+      - Brand Icons
+
+  - name:       Add to Shopping Cart
+    id:         cart-plus
+    unicode:    f217
+    created:    4.3
+    filter:
+      - add
+      - shopping
+    categories:
+      - Web Application Icons
+
+  - name:       Shopping Cart Arrow Down
+    id:         cart-arrow-down
+    unicode:    f218
+    created:    4.3
+    filter:
+      - shopping
+    categories:
+      - Web Application Icons
+
+  - name:       Diamond
+    id:         diamond
+    unicode:    f219
+    created:    4.3
+    filter:
+      - gem
+      - gemstone
+    categories:
+      - Web Application Icons
+
+  - name:       Ship
+    id:         ship
+    unicode:    f21a
+    created:    4.3
+    filter:
+      - boat
+      - sea
+    categories:
+      - Web Application Icons
+      - Transportation Icons
+
+  - name:       User Secret
+    id:         user-secret
+    unicode:    f21b
+    created:    4.3
+    filter:
+      - whisper
+    categories:
+      - Web Application Icons
+
+  - name:       Motorcycle
+    id:         motorcycle
+    unicode:    f21c
+    created:    4.3
+    filter:
+      - vehicle
+      - bike
+    categories:
+      - Web Application Icons
+      - Transportation Icons
+
+  - name:       Street View
+    id:         street-view
+    unicode:    f21d
+    created:    4.3
+    filter:
+      - map
+    categories:
+      - Web Application Icons
+
+  - name:       Heartbeat
+    id:         heartbeat
+    unicode:    f21e
+    created:    4.3
+    filter:
+      - ekg
+    categories:
+      - Web Application Icons
+      - Medical Icons
+
+
+  - name:       Venus
+    id:         venus
+    unicode:    f221
+    created:    4.3
+    filter:
+      - female
+    categories:
+      - Gender Icons
+
+  - name:       Mars
+    id:         mars
+    unicode:    f222
+    created:    4.3
+    filter:
+      - male
+    categories:
+      - Gender Icons
+
+  - name:       Mercury
+    id:         mercury
+    unicode:    f223
+    created:    4.3
+    filter:
+      - transgender
+    categories:
+      - Gender Icons
+
+  - name:       Transgender
+    id:         transgender
+    unicode:    f224
+    created:    4.3
+    categories:
+      - Gender Icons
+
+  - name:       Transgender Alt
+    id:         transgender-alt
+    unicode:    f225
+    created:    4.3
+    categories:
+      - Gender Icons
+
+  - name:       Venus Double
+    id:         venus-double
+    unicode:    f226
+    created:    4.3
+    categories:
+      - Gender Icons
+
+  - name:       Mars Double
+    id:         mars-double
+    unicode:    f227
+    created:    4.3
+    categories:
+      - Gender Icons
+
+  - name:       Venus Mars
+    id:         venus-mars
+    unicode:    f228
+    created:    4.3
+    categories:
+      - Gender Icons
+
+  - name:       Mars Stroke
+    id:         mars-stroke
+    unicode:    f229
+    created:    4.3
+    categories:
+      - Gender Icons
+
+  - name:       Mars Stroke Vertical
+    id:         mars-stroke-v
+    unicode:    f22a
+    created:    4.3
+    categories:
+      - Gender Icons
+
+  - name:       Mars Stroke Horizontal
+    id:         mars-stroke-h
+    unicode:    f22b
+    created:    4.3
+    categories:
+      - Gender Icons
+
+  - name:       Neuter
+    id:         neuter
+    unicode:    f22c
+    created:    4.3
+    categories:
+      - Gender Icons
