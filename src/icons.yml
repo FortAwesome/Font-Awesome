@@ -5014,3 +5014,14 @@ icons:
     created:    4.3
     categories:
       - Web Application Icons
+
+  - name:       Bed
+    id:         bed
+    unicode:    f236
+    created:    4.3
+    filter:
+      - travel
+    aliases:
+      - hotel
+    categories:
+      - Web Application Icons
