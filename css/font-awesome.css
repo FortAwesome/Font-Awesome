@@ -1777,3 +1777,7 @@
 .fa-user-times:before {
   content: "\f235";
 }
+.fa-hotel:before,
+.fa-bed:before {
+  content: "\f236";
+}

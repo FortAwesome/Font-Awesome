@@ -587,3 +587,5 @@
 .#{$fa-css-prefix}-server:before { content: $fa-var-server; }
 .#{$fa-css-prefix}-user-plus:before { content: $fa-var-user-plus; }
 .#{$fa-css-prefix}-user-times:before { content: $fa-var-user-times; }
+.#{$fa-css-prefix}-hotel:before,
+.#{$fa-css-prefix}-bed:before { content: $fa-var-bed; }
