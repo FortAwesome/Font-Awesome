@@ -4984,3 +4984,10 @@ icons:
     created:    4.3
     categories:
       - Brand Icons
+
+  - name:       What's App
+    id:         whatsapp
+    unicode:    f232
+    created:    4.3
+    categories:
+      - Brand Icons
