@@ -1759,3 +1759,9 @@
 .fa-neuter:before {
   content: "\f22c";
 }
+.fa-facebook-f:before {
+  content: "\f230";
+}
+.fa-pinterest-p:before {
+  content: "\f231";
+}

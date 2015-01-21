@@ -4969,3 +4969,18 @@ icons:
     created:    4.3
     categories:
       - Gender Icons
+
+
+  - name:       Facebook f
+    id:         facebook-f
+    unicode:    f230
+    created:    4.3
+    categories:
+      - Brand Icons
+
+  - name:       Pinterest P
+    id:         pinterest-p
+    unicode:    f231
+    created:    4.3
+    categories:
+      - Brand Icons
