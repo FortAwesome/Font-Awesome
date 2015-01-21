@@ -102,5 +102,5 @@ $(function() {
     $clear.addClass('hide'); // Hide clear button
   }
 
-  
+
 });
