@@ -5023,3 +5023,11 @@ icons:
       - hotel
     categories:
       - Web Application Icons
+
+  - name:       Viacoin
+    id:         viacoin
+    unicode:    f237
+    created:    4.3
+    url:        viacoin.org
+    categories:
+      - Brand Icons
