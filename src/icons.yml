@@ -4998,3 +4998,17 @@ icons:
     created:    4.3
     categories:
       - Web Application Icons
+
+  - name:       Add User
+    id:         user-plus
+    unicode:    f234
+    created:    4.3
+    categories:
+      - Web Application Icons
+
+  - name:       Remove User
+    id:         user-times
+    unicode:    f235
+    created:    4.3
+    categories:
+      - Web Application Icons

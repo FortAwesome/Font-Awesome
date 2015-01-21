@@ -1771,3 +1771,9 @@
 .fa-server:before {
   content: "\f233";
 }
+.fa-user-plus:before {
+  content: "\f234";
+}
+.fa-user-times:before {
+  content: "\f235";
+}
