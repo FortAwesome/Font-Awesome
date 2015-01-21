@@ -1,4 +1,24 @@
 $(function() {
+  var quotes = new Array(
+      "Take your icon game to the next level.",
+      "Subset your icons, add your own, and serve up from a CDN.",
+      "Make your icons load 10x faster!",
+      "Looking for other great icon sets?",
+      "Need a custom icon in Font Awesome?"
+    );
+  var url_strings = new Array(
+    "ad_1_next_level",
+    "ad_2_all_value_add",
+    "ad_3_faster_loading",
+    "ad_4_more_icons",
+    "ad_5_custom_icons"
+  );
+  random_number = Math.floor( Math.random() * quotes.length );
+  random_quote = quotes[random_number];
+  random_url_string = url_strings[random_number];
+  $('#rotating-message').html(random_quote);
+  $('#rotating-url').attr("href", "https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=" + random_url_string + "&utm_campaign=promo_4.3_update");
+
   // start the icon carousel
   $('#icon-carousel').carousel({
     interval: 5000
