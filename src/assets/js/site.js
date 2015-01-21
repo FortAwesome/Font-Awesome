@@ -98,6 +98,9 @@ $(function() {
     .trigger('input')
     .trigger('keyup');
 
-  $clear.addClass('hide'); // Hide clear button
+  if ($clear) {
+    $clear.addClass('hide'); // Hide clear button
+  }
 
+  
 });
