@@ -4991,3 +4991,10 @@ icons:
     created:    4.3
     categories:
       - Brand Icons
+
+  - name:       Server
+    id:         server
+    unicode:    f233
+    created:    4.3
+    categories:
+      - Web Application Icons
