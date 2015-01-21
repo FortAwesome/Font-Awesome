@@ -5033,3 +5033,17 @@ icons:
     url:        viacoin.org
     categories:
       - Brand Icons
+
+  - name:       Train
+    id:         train
+    unicode:    f238
+    created:    4.3
+    categories:
+      - Transportation Icons
+
+  - name:       Subway
+    id:         subway
+    unicode:    f239
+    created:    4.3
+    categories:
+      - Transportation Icons
