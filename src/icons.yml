@@ -5047,3 +5047,10 @@ icons:
     created:    4.3
     categories:
       - Transportation Icons
+
+  - name:       Medium
+    id:         medium
+    unicode:    f23a
+    created:    4.3
+    categories:
+      - Brand Icons
