@@ -49,7 +49,21 @@
   })();
 </script>
 <div id="wrap"> <!-- necessary for sticky footer. wrap all content except footer -->
-  <div class="navbar navbar-inverse navbar-static-top hidden-print">
+  <div class="fonticons">
+  <div class="container">
+    <div class="message-container">
+      <div class="tagline">
+        <span id="rotating-message">Take your icon game to the next level.</span>
+        Check out <strong>Fonticons</strong>, from the maker of Font Awesome.
+      </div>
+      <div class="action">
+        <a id="rotating-url" class="btn btn-primary btn-block" href="https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_1_next_level&utm_campaign=promo_4.3_update">Gimme Some!</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="navbar navbar-inverse navbar-static-top hidden-print">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -75,10 +89,11 @@
             <i class="fa fa-caret-down"></i>
           </a>
           <ul class="dropdown-menu pull-right">
-            <li><a href="../icons/"><i class="fa fa-flag fa-fw"></i>&nbsp; Icons</a></li>
+            <li><a href="../icons/"><i class="fa fa-flag fa-fw"></i>&nbsp; All Icons</a></li>
             <li class="divider"></li>
-            <li><a href="../icons/#new"><i class="fa fa-cube fa-fw"></i>&nbsp; New Icons in 4.2</a></li>
+            <li><a href="../icons/#new"><i class="fa fa-diamond fa-fw"></i>&nbsp; New Icons in 4.3</a></li>
             <li><a href="../icons/#web-application"><i class="fa fa-camera-retro fa-fw"></i>&nbsp; Web Application Icons</a></li>
+            <li><a href="../icons/#transportation"><i class="fa fa-ship fa-fw"></i>&nbsp; Transportation Icons</a></li>
             <li><a href="../icons/#file-type"><i class="fa fa-file-image-o fa-fw"></i>&nbsp; File Type Icons</a></li>
             <li><a href="../icons/#spinner"><i class="fa fa-spinner fa-fw"></i>&nbsp; Spinner Icons</a></li>
             <li><a href="../icons/#form-control"><i class="fa fa-check-square fa-fw"></i>&nbsp; Form Control Icons</a></li>
@@ -105,7 +120,7 @@
             <li><a href="../examples/#fixed-width">Fixed Width Icons</a></li>
             <li><a href="../examples/#list">List Icons</a></li>
             <li><a href="../examples/#bordered-pulled">Bordered & Pulled Icons</a></li>
-            <li><a href="../examples/#spinning">Spinning Icons</a></li>
+            <li><a href="../examples/#animated">Animated Icons</a></li>
             <li><a href="../examples/#rotated-flipped">Rotated &amp; Flipped Icons</a></li>
             <li><a href="../examples/#stacked">Stacked Icons</a></li>
             <li><a href="../examples/#bootstrap">Bootstrap 3 Examples</a></li>
@@ -129,7 +144,7 @@
 <div class="jumbotron jumbotron-ad hidden-print">
   <div class="container">
     <h1><i class="fa fa-cogs"></i>&nbsp; Get Started</h1>
-    <p>Easy ways to get Font Awesome 4.2.0 onto your website</p>
+    <p>Easy ways to get Font Awesome 4.3.0 onto your website</p>
   </div>
 </div>
 
@@ -176,7 +191,7 @@
     <ol>
       <li>
         Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span><span class="nt">&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css&quot;</span><span class="nt">&gt;</span>
 </code></pre></div>
         <p class="alert alert-success"><i class="fa fa-info-circle"></i> Immediately after release, it takes a bit of time for BootstrapCDN to catch up and get the newest version live on their CDN.</p>
       </li>
@@ -192,7 +207,7 @@
 
   <section id="default-css">
     <h2 class="page-header">EASY: Default CSS</h2>
-    <p>Use this method to get the default Font Awesome CSS with the default Bootstrap CSS.</p>
+    <p>Use this method to get the default Font Awesome CSS.</p>
     <ol>
       <li>Copy the entire <code>font-awesome</code> directory into your project.</li>
       <li>
@@ -227,9 +242,10 @@
       </li>
     </ol>
     <p>
-    If you use Rails, add this to your e.g. <code>application.css</code>, just before <code>*= require_self</code>:
+    If you use Rails, add this to your e.g. <code>application.less</code>:
     </p>
-<div class="highlight"><pre><code class="css"> <span class="o">*=</span> <span class="nt">require</span> <span class="nt">font-awesome</span>
+<div class="highlight"><pre><code class="css">  <span class="k">@import</span> <span class="s2">&quot;font-awesome-sprockets&quot;</span><span class="p">;</span>
+  <span class="k">@import</span> <span class="s2">&quot;font-awesome&quot;</span><span class="p">;</span>
 </code></pre></div>
   </section>
 
@@ -256,15 +272,16 @@
       </li>
     </ol>
     <p>
-    If you use Rails, add this to your e.g. <code>application.css</code>, just before <code>*= require_self</code>:
+    If you use Rails, add this to your e.g. <code>application.scss</code>:
     </p>
-<div class="highlight"><pre><code class="css"> <span class="o">*=</span> <span class="nt">require</span> <span class="nt">font-awesome</span>
+<div class="highlight"><pre><code class="css">  <span class="k">@import</span> <span class="s2">&quot;font-awesome-sprockets&quot;</span><span class="p">;</span>
+  <span class="k">@import</span> <span class="s2">&quot;font-awesome&quot;</span><span class="p">;</span>
 </code></pre></div>
   </section>
 
   <section id="custom-less">
     <h2 class="page-header">PRO: Custom LESS or SASS</h2>
-    <p>Use this method to customize Font Awesome 4.2.0 using LESS or SASS.</p>
+    <p>Use this method to customize Font Awesome 4.3.0 using LESS or SASS.</p>
     <ol>
       <li>Copy the <code>font-awesome/</code> directory into your project.</li>
       <li>
@@ -279,10 +296,16 @@
     </ol>
   </section>
 
+  <section id="support-validators">
+    <h2 class="page-header">Validators</h2>
+    <p>In order to provide the best possible experience to old and buggy browsers, Font Awesome uses <a href="http://browserhacks.com">CSS browser hacks</a> in several places to target special CSS to certain browser versions in order to work around bugs in the browsers themselves. These hacks understandably cause CSS validators to complain that they are invalid. In a couple places, we also use bleeding-edge CSS features that aren't yet fully standardized, but these are used purely for progressive enhancement.</p>
+    <p>These validation warnings don't matter in practice since the non-hacky portion of our CSS does fully validate and the hacky portions don't interfere with the proper functioning of the non-hacky portion, hence why we deliberately ignore these particular warnings.</p>
+  </section>
+
   <section class="need-ie7">
     <h2 class="page-header">Need IE7 Support?</h2>
     <p>
-      If you need IE7 support, you have my condolences. Really. Font Awesome 4.2.0
+      If you need IE7 support, you have my condolences. Really. Font Awesome 4.3.0
       doesn't support IE7, but an older version does. You'll need to check out the
       <a href="../3.2.1/get-started/#need-ie7">3.2.1 instructions for using IE7</a>. Then go complain to
       whomever decided your project needs IE7 support.
@@ -304,7 +327,7 @@
   <div class="container text-center">
     <div id="bsap_1298241" class="bsarocks bsap_b1146e3f9fa32a794fc6d2c7be47ece8"></div>
     <div>
-      <i class="fa fa-flag"></i> Font Awesome 4.2.0
+      <i class="fa fa-flag"></i> Font Awesome 4.3.0
       <span class="hide-xs">&middot;</span><br class="hide-sm hide-md hide-lg">
       Created by <a href="http://twitter.com/davegandy">Dave Gandy</a>
     </div>
@@ -330,7 +353,15 @@
 <script src="http://platform.twitter.com/widgets.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="../assets/js/tabcomplete.min.js"></script>
 <script src="../assets/js/site.js"></script>
-
+<script type="text/javascript">
+  (function() {
+    window._pa = window._pa || {};
+    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/54bfdab8751a087f190000f8.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+  })();
+</script>
 </body>
 </html>

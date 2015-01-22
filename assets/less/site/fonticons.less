@@ -1,0 +1,62 @@
+.fonticons {
+  @fonticons-bg: #1c1e29;
+  @fonticons-orange: desaturate(#ff7f3f, 5%);
+  background-color: @fonticons-orange;
+  color: #fff;
+  padding: 10px 0;
+  border-bottom: solid 1px mix(@fonticons-bg, @fonticons-orange, 15%);
+  .message-container {
+    display: table;
+    width: auto;
+    margin: 0 auto;
+  }
+  .tagline, .action {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .tagline {
+    font-weight: 200;
+    font-size: 16px;
+    padding-right: 20px;
+  }
+  .btn-primary {
+    @color: #fff;
+    @background: mix(#fff,@fonticons-bg,10%);
+    @border: @fonticons-bg;
+    font-weight: bold;
+    color: @color;
+    background-color: @background;
+    border-color: @border;
+    border-bottom-width: 2px;
+    text-shadow: none;
+    border-radius: 4px;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active,
+    .open > &.dropdown-toggle {
+      color: #fff;
+      background-color: darken(@border, 3%);
+      border-color: darken(@border, 12%);
+      border-bottom-color: darken(@border, 18%);
+    }
+    &:active,
+    &.active,
+    .open > &.dropdown-toggle {
+      background-image: none;
+    }
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+      &,
+      &:hover,
+      &:focus,
+      &:active,
+      &.active {
+        background-color: @background;
+        border-color: @border;
+      }
+    }
+  }
+}
