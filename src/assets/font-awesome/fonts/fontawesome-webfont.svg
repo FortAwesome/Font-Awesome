@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg>
 <metadata>
-Created by FontForge 20150108 at Thu Jan 22 16:03:17 2015
+Created by FontForge 20150108 at Thu Jan 22 16:45:29 2015
  By vagrant,,,
 Copyright Dave Gandy 2015. All rights reserved.
 </metadata>
@@ -17,8 +17,8 @@ Copyright Dave Gandy 2015. All rights reserved.
     ascent="1536"
     descent="-256"
     bbox="-0.97314 -256.17 2304 1536.16"
-    underline-thickness="90"
-    underline-position="-89"
+    underline-thickness="0"
+    underline-position="0"
     stemv="128"
     unicode-range="U+0020-F500"
   />

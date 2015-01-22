@@ -91,8 +91,8 @@
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(359.99deg);
-    transform: rotate(359.99deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
   }
 }
 @keyframes fa-spin {
@@ -101,8 +101,8 @@
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(359.99deg);
-    transform: rotate(359.99deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
   }
 }
 .fa-rotate-90 {
