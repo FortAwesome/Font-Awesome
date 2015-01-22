@@ -1,10 +1,10 @@
 $(function() {
   var ads = [
-    { quote: "Take your icon game to the next level.", url_string: "ad_1_next_level"},
-    { quote: "Subset your icons, add your own, and serve up from a CDN.", url_string: "ad_2_all_value_add"},
-    { quote: "Make your icons load 10x faster!", url_string: "ad_3_faster_loading"},
-    { quote: "Looking for other great icon sets?", url_string: "ad_4_more_icons"},
-    { quote: "Need a custom icon in Font Awesome?", url_string: "ad_5_custom_icons"}
+    { quote: "Take your icon game to the next level.", content: "ad_1_next_level"},
+    { quote: "Subset your icons, add your own, and serve up from a CDN.", content: "ad_2_all_value_add"},
+    { quote: "Make your icons load 10x faster!", content: "ad_3_faster_loading"},
+    { quote: "Looking for other great icon sets?", content: "ad_4_more_icons"},
+    { quote: "Need a custom icon in Font Awesome?", content: "ad_5_custom_icons"}
   ];
 
   selectFonticonsAd();
@@ -97,6 +97,6 @@ $(function() {
     random_ad = ads[random_number];
 
     $('#rotating-message').html(random_ad.quote);
-    $('#rotating-url').attr("href", "https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=" + random_ad._url_string + "&utm_campaign=promo_4.3_update");
+    $('#rotating-url').attr("href", "https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=" + random_ad.content + "&utm_campaign=promo_4.3_update");
   }
 });
