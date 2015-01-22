@@ -82,10 +82,11 @@ $ gem install font-awesome-less
       </li>
     </ol>
     <p>
-    If you use Rails, add this to your e.g. <code>application.css</code>, just before <code>*= require_self</code>:
+    If you use Rails, add this to your e.g. <code>application.less</code>:
     </p>
 {% highlight css %}
- *= require font-awesome
+  @import "font-awesome-sprockets";
+  @import "font-awesome";
 {% endhighlight %}
   </section>
 
@@ -115,10 +116,11 @@ $ gem install font-awesome-sass
       </li>
     </ol>
     <p>
-    If you use Rails, add this to your e.g. <code>application.css</code>, just before <code>*= require_self</code>:
+    If you use Rails, add this to your e.g. <code>application.scss</code>:
     </p>
 {% highlight css %}
- *= require font-awesome
+  @import "font-awesome-sprockets";
+  @import "font-awesome";
 {% endhighlight %}
   </section>
 
