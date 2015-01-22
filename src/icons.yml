@@ -1565,6 +1565,8 @@ icons:
     id:         facebook
     unicode:    f09a
     created:    2.0
+    aliases:
+      - facebook-f
     filter:
       - social network
     categories:
@@ -4973,8 +4975,8 @@ icons:
       - Gender Icons
 
 
-  - name:       Facebook f
-    id:         facebook-f
+  - name:       Facebook Official
+    id:         facebook-official
     unicode:    f230
     created:    4.3
     categories:

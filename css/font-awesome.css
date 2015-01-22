@@ -80,6 +80,10 @@
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear;
 }
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
 @-webkit-keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -610,6 +614,7 @@
 .fa-twitter:before {
   content: "\f099";
 }
+.fa-facebook-f:before,
 .fa-facebook:before {
   content: "\f09a";
 }
@@ -1759,7 +1764,7 @@
 .fa-neuter:before {
   content: "\f22c";
 }
-.fa-facebook-f:before {
+.fa-facebook-official:before {
   content: "\f230";
 }
 .fa-pinterest-p:before {
