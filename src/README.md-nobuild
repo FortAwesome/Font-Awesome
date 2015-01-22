@@ -5,7 +5,8 @@
 
 Font Awesome is a full suite of {{ icons | size }} pictographic icons for easy scalable vector graphics on websites,
 created and maintained by [{{ site.fontawesome.author.name }}](http://twitter.com/{{ site.fontawesome.author.twitter }}).
-Stay up to date [@{{ site.fontawesome.twitter }}](http://twitter.com/{{ site.fontawesome.twitter }}).
+Stay up to date with the latest release and announcements on Twitter:
+[@{{ site.fontawesome.twitter }}](http://twitter.com/{{ site.fontawesome.twitter }}).
 
 Get started at {{ site.fontawesome.url }}!
 
@@ -85,4 +86,4 @@ Build the project and documentation:
 
 Or serve it on a local server on http://localhost:7998/Font-Awesome/:
 
-    $ bundle exec jekyll serve
+    $ bundle exec jekyll -w serve

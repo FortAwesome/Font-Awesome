@@ -3,7 +3,8 @@
 
 Font Awesome is a full suite of 519 pictographic icons for easy scalable vector graphics on websites,
 created and maintained by [Dave Gandy](http://twitter.com/davegandy).
-Stay up to date [@fontawesome](http://twitter.com/fontawesome).
+Stay up to date with the latest release and announcements on Twitter:
+[@fontawesome](http://twitter.com/fontawesome).
 
 Get started at http://fontawesome.io!
 
@@ -83,4 +84,4 @@ Build the project and documentation:
 
 Or serve it on a local server on http://localhost:7998/Font-Awesome/:
 
-    $ bundle exec jekyll serve
+    $ bundle exec jekyll -w serve
