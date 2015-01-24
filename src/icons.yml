@@ -3572,3 +3572,11 @@ icons:
     url:        meanpath.com
     categories:
       - Brand Icons
+
+  - name:       Lanyrd
+    id:         lanyrd
+    unicode:    f20d
+    created:    4.3
+    categories:
+      - Brand Icons
+

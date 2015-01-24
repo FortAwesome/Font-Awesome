@@ -1,0 +1,41 @@
+/*
+  Icon Font: fontcustom
+*/
+
+@font-face {
+  font-family: "fontcustom";
+  src: url("./fontcustom_102c82ddecaee7be0b3144b75fe0694f.eot");
+  src: url("./fontcustom_102c82ddecaee7be0b3144b75fe0694f.eot?#iefix") format("embedded-opentype"),
+       url("./fontcustom_102c82ddecaee7be0b3144b75fe0694f.woff") format("woff"),
+       url("./fontcustom_102c82ddecaee7be0b3144b75fe0694f.ttf") format("truetype"),
+       url("./fontcustom_102c82ddecaee7be0b3144b75fe0694f.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fontcustom";
+    src: url("./fontcustom_102c82ddecaee7be0b3144b75fe0694f.svg#fontcustom") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-lanyrd:before {
+  display: inline-block;
+  font-family: "fontcustom";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-lanyrd:before { content: "\f100"; }
