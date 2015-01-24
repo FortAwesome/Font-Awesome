@@ -1,7 +1,8 @@
 // Base Class Definition
 // -------------------------
 
-.#{$fa-css-prefix} {
+// Include this mixin to turn any element or pseudo-element into an icon.
+@mixin font-awesome-icon() {
   display: inline-block;
   font: normal normal normal #{$fa-font-size-base}/1 FontAwesome; // shortening font declaration
   font-size: inherit; // can't have font-size inherit on line above, so need to override
@@ -10,4 +11,8 @@
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0); // ensures no half-pixel rendering in firefox
 
+}
+
+.#{$fa-css-prefix} {
+  @include font-awesome-icon();
 }
