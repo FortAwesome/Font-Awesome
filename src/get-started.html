@@ -27,7 +27,7 @@ relative_path: ../
       <li>
         Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
 {% highlight html %}
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome.min.css">
 {% endhighlight %}
         <p class="alert alert-success"><i class="fa fa-info-circle"></i> Immediately after release, it takes a bit of time for BootstrapCDN to catch up and get the newest version live on their CDN.</p>
       </li>
@@ -43,7 +43,7 @@ relative_path: ../
 
   <section id="default-css">
     <h2 class="page-header">EASY: Default CSS</h2>
-    <p>Use this method to get the default Font Awesome CSS with the default Bootstrap CSS.</p>
+    <p>Use this method to get the default Font Awesome CSS.</p>
     <ol>
       <li>Copy the entire <code>font-awesome</code> directory into your project.</li>
       <li>
@@ -82,10 +82,11 @@ $ gem install font-awesome-less
       </li>
     </ol>
     <p>
-    If you use Rails, add this to your e.g. <code>application.css</code>, just before <code>*= require_self</code>:
+    If you use Rails, add this to your e.g. <code>application.less</code>:
     </p>
 {% highlight css %}
- *= require font-awesome
+  @import "font-awesome-sprockets";
+  @import "font-awesome";
 {% endhighlight %}
   </section>
 
@@ -115,10 +116,11 @@ $ gem install font-awesome-sass
       </li>
     </ol>
     <p>
-    If you use Rails, add this to your e.g. <code>application.css</code>, just before <code>*= require_self</code>:
+    If you use Rails, add this to your e.g. <code>application.scss</code>:
     </p>
 {% highlight css %}
- *= require font-awesome
+  @import "font-awesome-sprockets";
+  @import "font-awesome";
 {% endhighlight %}
   </section>
 
@@ -138,6 +140,12 @@ $ gem install font-awesome-sass
       <li>Re-compile your LESS or SASS if using a static compiler. Otherwise, you should be good to go.</li>
       <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
     </ol>
+  </section>
+
+  <section id="support-validators">
+    <h2 class="page-header">Validators</h2>
+    <p>In order to provide the best possible experience to old and buggy browsers, Font Awesome uses <a href="http://browserhacks.com">CSS browser hacks</a> in several places to target special CSS to certain browser versions in order to work around bugs in the browsers themselves. These hacks understandably cause CSS validators to complain that they are invalid. In a couple places, we also use bleeding-edge CSS features that aren't yet fully standardized, but these are used purely for progressive enhancement.</p>
+    <p>These validation warnings don't matter in practice since the non-hacky portion of our CSS does fully validate and the hacky portions don't interfere with the proper functioning of the non-hacky portion, hence why we deliberately ignore these particular warnings.</p>
   </section>
 
   <section class="need-ie7">

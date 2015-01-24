@@ -1,0 +1,36 @@
+<section id="animated">
+  <h2 class="page-header">
+    Animated Icons
+    <div class="pull-right text-default margin-top padding-top-sm hidden-xs">
+      <a href="https://github.com/FortAwesome/Font-Awesome/blob/{{ site.fontawesome.doc_blob }}/less/animated.less" class="text-muted padding-right">View LESS</a>
+      <a href="https://github.com/FortAwesome/Font-Awesome/blob/{{ site.fontawesome.doc_blob }}/scss/_animated.scss" class="text-muted">View SASS</a>
+    </div>
+  </h2>
+  <div class="row">
+    <div class="col-md-3 col-sm-4">
+      <p>
+        <i class="fa fa-spinner fa-spin fa-3x fa-fw margin-bottom"></i>
+        <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw margin-bottom"></i>
+        <i class="fa fa-refresh fa-spin fa-3x fa-fw margin-bottom"></i>
+        <i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i>
+        <i class="fa fa-spinner fa-pulse fa-3x fa-fw margin-bottom"></i>
+      </p>
+    </div>
+    <div class="col-md-9 col-sm-8">
+      <p>
+        Use the <code>fa-spin</code> class to get any icon to rotate, and use <code>fa-pulse</code> to have it rotate
+        with 8 steps. Works well with <code>fa-spinner</code>, <code>fa-refresh</code>, and <code>fa-cog</code>.
+      </p>
+{% highlight html %}
+<i class="fa fa-spinner fa-spin"></i>
+<i class="fa fa-circle-o-notch fa-spin"></i>
+<i class="fa fa-refresh fa-spin"></i>
+<i class="fa fa-cog fa-spin"></i>
+<i class="fa fa-spinner fa-pulse"></i>
+{% endhighlight %}
+      <p class="alert alert-success">
+        <i class="fa fa-info-circle"></i> CSS3 animations aren't supported in IE8 - IE9.
+      </p>
+    </div>
+  </div>
+</section>

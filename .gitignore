@@ -30,3 +30,4 @@ src/website/settingslocal.py
 stunnel.log
 
 .ruby-version
+.bundle

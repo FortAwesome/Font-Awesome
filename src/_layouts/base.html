@@ -58,7 +58,15 @@
 <script src="http://platform.twitter.com/widgets.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ site.jquery.version }}/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/{{ site.bootstrap.version }}/js/bootstrap.min.js"></script>
+<script src="{{ page.relative_path}}assets/js/tabcomplete.min.js"></script>
 <script src="{{ page.relative_path }}assets/js/site.js"></script>
-
+<script type="text/javascript">
+  (function() {
+    window._pa = window._pa || {};
+    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/54bfdab8751a087f190000f8.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+  })();
+</script>
 </body>
 </html>

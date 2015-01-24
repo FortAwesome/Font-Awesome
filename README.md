@@ -1,16 +1,17 @@
-#[Font Awesome v4.2.0](http://fontawesome.io)
+#[Font Awesome v5.0.0](http://fontawesome.io)
 ###The iconic font and CSS framework
 
-Font Awesome is a full suite of 479 pictographic icons for easy scalable vector graphics on websites,
+Font Awesome is a full suite of 519 pictographic icons for easy scalable vector graphics on websites,
 created and maintained by [Dave Gandy](http://twitter.com/davegandy).
-Stay up to date [@fontawesome](http://twitter.com/fontawesome).
+Stay up to date with the latest release and announcements on Twitter:
+[@fontawesome](http://twitter.com/fontawesome).
 
 Get started at http://fontawesome.io!
 
 ##License
 - The Font Awesome font is licensed under the SIL OFL 1.1:
   - http://scripts.sil.org/OFL
-- Font Awesome CSS, LESS, and SASS files are licensed under the MIT License:
+- Font Awesome CSS, LESS, and Sass files are licensed under the MIT License:
   - http://opensource.org/licenses/mit-license.html
 - The Font Awesome documentation is licensed under the CC BY 3.0 License:
   - http://creativecommons.org/licenses/by/3.0/
@@ -22,7 +23,7 @@ Get started at http://fontawesome.io!
 - v3.0.0 - all icons redesigned from scratch, optimized for Bootstrap's 14px default
 - v3.0.1 - much improved rendering in webkit, various bug fixes
 - v3.0.2 - much improved rendering and alignment in IE7
-- v3.1.0 - Added 54 icons, icon stacking styles, flipping and rotating icons, removed SASS support
+- v3.1.0 - Added 54 icons, icon stacking styles, flipping and rotating icons, removed Sass support
 - [v3.1.1 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=4&page=1&state=closed)
 - [v3.2.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=3&page=1&state=closed)
 - [v3.2.1 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=5&page=1&state=closed)
@@ -32,6 +33,8 @@ Get started at http://fontawesome.io!
 - [v4.0.3 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=9&page=1&state=closed)
 - [v4.1.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=6&page=1&state=closed)
 - [v4.2.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=12&page=1&state=closed)
+- [v4.3.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?q=milestone%3A4.3.0+is%3Aclosed)
+- [v5.0.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?q=milestone%3A5.0.0+is%3Aclosed)
 
 ## Contributing
 
@@ -82,4 +85,4 @@ Build the project and documentation:
 
 Or serve it on a local server on http://localhost:7998/Font-Awesome/:
 
-    $ bundle exec jekyll serve
+    $ bundle exec jekyll -w serve
