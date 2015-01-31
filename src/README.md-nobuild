@@ -74,6 +74,11 @@ Or add
 
 to the `dependencies` in your `component.json`.
 
+## Meteor
+To use Font Awesome with the Meteor framework, just run
+
+    $ meteor add fortawesome:fontawesome
+
 ## Hacking on Font Awesome
 
 From the root of the repository, install the tools used to develop.
