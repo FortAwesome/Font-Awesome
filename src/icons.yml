@@ -963,14 +963,13 @@ icons:
     id:         ban
     unicode:    f05e
     created:    1.0
+    filter:
       - delete
       - remove
       - trash
       - hide
       - block
       - stop
-    filter:
-      - block
       - abort
     categories:
       - Web Application Icons
@@ -2126,11 +2125,11 @@ icons:
   - name:       Sort Descending
     id:         sort-desc
     unicode:    f0dd
+    created:    2.0
     filter:
       - dropdown
       - more
       - menu
-    created:    2.0
     aliases:
       - sort-down
     categories:
@@ -2150,6 +2149,7 @@ icons:
     id:         envelope
     unicode:    f0e0
     created:    2.0
+    filter:
       - email
       - e-mail
       - letter
@@ -3602,6 +3602,7 @@ icons:
     id:         windows
     unicode:    f17a
     created:    3.2
+    filter:
       - microsoft
     categories:
       - Brand Icons
