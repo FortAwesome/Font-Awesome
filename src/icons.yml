@@ -971,6 +971,7 @@ icons:
       - block
       - stop
       - abort
+      - cancel
     categories:
       - Web Application Icons
 
