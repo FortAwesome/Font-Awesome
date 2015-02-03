@@ -972,6 +972,7 @@ icons:
     filter:
       - block
       - abort
+      - cancel
     categories:
       - Web Application Icons
 
