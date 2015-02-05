@@ -2398,6 +2398,7 @@ icons:
       - business
       - apartment
       - office
+      - company
     categories:
       - Web Application Icons
 
@@ -4028,6 +4029,12 @@ icons:
     id:         building
     unicode:    f1ad
     created:    4.1
+    filter:
+      - work
+      - business
+      - apartment
+      - office
+      - company
     categories:
       - Web Application Icons
 
