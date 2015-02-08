@@ -2279,8 +2279,11 @@ icons:
     id:         exchange
     unicode:    f0ec
     created:    3.0
+    filter:
+      - transfer
     categories:
       - Web Application Icons
+      - Directional Icons
 
   - name:       Cloud Download
     id:         cloud-download
