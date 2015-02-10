@@ -5061,3 +5061,39 @@ icons:
     created:    4.3
     categories:
       - Brand Icons
+
+  - name:       Одноклассники
+    id:         ok
+    unicode:    f23b
+    created:    4.3
+    url:        ok.ru
+    filter:
+      - social network
+    categories:
+      - Brand Icons
+
+  - name:       Одноклассники Square
+    id:         ok-square
+    unicode:    f23c
+    created:    4.3
+    url:        ok.ru
+    filter:
+      - social network
+    categories:
+      - Brand Icons
+
+  - name:       Яндекс
+    id:         ya
+    unicode:    f23d
+    created:    4.3
+    url:        ya.ru
+    categories:
+      - Brand Icons
+
+  - name:       Яндекс Square
+    id:         ya-square
+    unicode:    f23e
+    created:    4.3
+    url:        ya.ru
+    categories:
+      - Brand Icons

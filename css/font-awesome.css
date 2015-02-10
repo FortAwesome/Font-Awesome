@@ -1799,3 +1799,15 @@
 .fa-medium:before {
   content: "\f23a";
 }
+.fa-ok:before {
+  content: "\f23b";
+}
+.fa-ok-square:before {
+  content: "\f23c";
+}
+.fa-ya:before {
+  content: "\f23d";
+}
+.fa-ya-square:before {
+  content: "\f23e";
+}
