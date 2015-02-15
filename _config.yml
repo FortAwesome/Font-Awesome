@@ -11,7 +11,7 @@ pygments:         true
 permalink:        pretty
 
 # ensures SCSS files are compiled
-include:          [_*.scss]
+include:          [_*.scss, _*.less]
 
 # used in building icon pages
 icon_meta:        src/icons.yml
@@ -19,9 +19,9 @@ icon_layout:      icon.html    # Relative to _layouts directory
 icon_destination: icon         # Relative to destination
 
 fontawesome:
-  version:        4.3.0
-  minor_version:  4.3
-  doc_blob:       v4.3.0
+  version:        5.0.0
+  minor_version:  5.0
+  doc_blob:       v5.0.0
   url:            http://fontawesome.io
   legacy_url:     http://fortawesome.github.com/Font-Awesome/
   blog_url:       http://blog.fontawesome.io
