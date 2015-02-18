@@ -148,6 +148,8 @@ icons:
     id:         check
     unicode:    f00c
     created:    1.0
+    aliases:
+      - tick
     filter:
       - checkmark
       - done
@@ -165,6 +167,7 @@ icons:
     aliases:
       - remove
       - close
+      - cross
     filter:
       - close
       - exit

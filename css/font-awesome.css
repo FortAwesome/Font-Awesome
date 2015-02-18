@@ -204,11 +204,13 @@
 .fa-th-list:before {
   content: "\f00b";
 }
+.fa-tick:before,
 .fa-check:before {
   content: "\f00c";
 }
 .fa-remove:before,
 .fa-close:before,
+.fa-cross:before,
 .fa-times:before {
   content: "\f00d";
 }
