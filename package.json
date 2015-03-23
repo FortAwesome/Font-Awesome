@@ -4,6 +4,8 @@
   "version": "4.3.0",
   "keywords": ["font", "awesome", "fontawesome", "icon", "font", "bootstrap"],
   "homepage": "http://fontawesome.io/",
+  "style": "css/font-awesome.css",
+  "less": "less/font-awesome.less",
   "bugs": {
     "url" : "http://github.com/FortAwesome/Font-Awesome/issues"
   },
