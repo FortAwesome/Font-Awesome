@@ -36,31 +36,31 @@ $(function() {
     {
       quote: "So hot right now: <strong>Black Tie</strong>, the new multi-weight icon font from the maker of Font Awesome.",
       class: "black-tie",
-      url: "https://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_1_so_hot&utm_campaign=promo_4.3_update",
+      url: "http://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_1_so_hot&utm_campaign=promo_4.3_update",
       btn_text: "Buy it Now!"
     },
     {
       quote: "<strong>Black Tie</strong>, from the creator of Font Awesome. On sale at the Kickstarter price for a limited time.",
       class: "black-tie",
-      url: "https://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_2_kickstarter&utm_campaign=promo_4.3_update",
+      url: "http://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_2_kickstarter&utm_campaign=promo_4.3_update",
       btn_text: "Buy it Now!"
     },
     {
       quote: "Get more Awesome: <strong>Black Tie</strong>, the new multi-weight icon font from the maker of Font Awesome.",
       class: "black-tie",
-      url: "https://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_3_more_awesome&utm_campaign=promo_4.3_update",
+      url: "http://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_3_more_awesome&utm_campaign=promo_4.3_update",
       btn_text: "Buy it Now!"
     },
     {
       quote: "The new hotness from the maker of Font Awesome: <strong>Black Tie</strong>, the multi-weight icon font.",
       class: "black-tie",
-      url: "https://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_4_new_hotness&utm_campaign=promo_4.3_update",
+      url: "http://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_4_new_hotness&utm_campaign=promo_4.3_update",
       btn_text: "Buy it Now!"
     },
     {
       quote: "Want clean, minimalist icons? Check out <strong>Black Tie</strong>, the new multi-weight icon font from the maker of Font Awesome.",
       class: "black-tie",
-      url: "https://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_5_clean_minimalist&utm_campaign=promo_4.3_update",
+      url: "http://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_5_clean_minimalist&utm_campaign=promo_4.3_update",
       btn_text: "Buy it Now!"
     }
   ];
