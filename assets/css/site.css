@@ -6889,6 +6889,10 @@ div.bsap a.adhere {
 div.bsap a.adhere:hover {
   background: #198563 !important;
 }
+.sumome-popup .sumome-popup-content .sumome-popup-form h2.sumome-popup-heading {
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: left !important;
+}
 @media (min-width: 1200px) {
   #icon-carousel {
     font-size: 240px;
