@@ -6489,6 +6489,7 @@ section {
   border-top: 1px solid #1b926c;
   color: #a5d8c7;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  margin-top: 60px;
 }
 #footer a {
   color: #d2ebe3;
@@ -6500,26 +6501,11 @@ section {
   border-bottom: solid 1px #ffffff;
 }
 #footer .container {
-  padding-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 55px;
 }
 #footer .project {
   margin-top: 10px;
-}
-html,
-body {
-  height: 100%;
-}
-#wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-}
-#wrap {
-  margin: 0 auto -251px;
-  padding: 0 0 311px;
-}
-#footer {
-  height: 251px;
 }
 .padding-none {
   padding: 0px !important;
@@ -6881,6 +6867,7 @@ div.bsap {
 div.bsap a {
   display: inline-block !important;
   border-bottom: inherit !important;
+  margin: 0 15px 20px !important;
 }
 div.bsap a.adhere {
   background: inherit !important;
@@ -6997,13 +6984,6 @@ div.bsap a.adhere:hover {
   .fonticons .action {
     width: 33%;
   }
-  #wrap {
-    margin: 0 auto -271px;
-    padding: 0 0 331px;
-  }
-  #footer {
-    height: 271px;
-  }
   .hide-sm {
     display: none;
   }
@@ -7104,13 +7084,6 @@ div.bsap a.adhere:hover {
   }
   .fonticons .tagline {
     margin-bottom: 10px;
-  }
-  #wrap {
-    margin: 0 auto -331px;
-    padding: 0 0 391px;
-  }
-  #footer {
-    height: 331px;
   }
   .hide-xs {
     display: none;
