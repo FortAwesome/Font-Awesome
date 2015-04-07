@@ -963,18 +963,17 @@ icons:
     id:         ban
     unicode:    f05e
     created:    1.0
-      - delete
-      - remove
-      - trash
-      - hide
-      - block
-      - stop
     filter:
-      - block
       - abort
+      - block
+      - delete
+      - disabled
+      - hide
+      - remove
+      - stop
+      - trash
     categories:
       - Web Application Icons
-
 
   - name:       arrow-left
     id:         arrow-left
