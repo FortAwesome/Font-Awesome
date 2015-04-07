@@ -969,6 +969,7 @@ icons:
       - hide
       - block
       - stop
+      - disabled
     filter:
       - block
       - abort
