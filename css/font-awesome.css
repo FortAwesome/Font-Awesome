@@ -11,7 +11,7 @@
   font-weight: normal;
   font-style: normal;
 }
-.fa {
+.fa:before {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -21,24 +21,24 @@
   transform: translate(0, 0);
 }
 /* makes the font 33% larger relative to the icon container */
-.fa-lg {
+.fa-lg:before {
   font-size: 1.33333333em;
   line-height: 0.75em;
   vertical-align: -15%;
 }
-.fa-2x {
+.fa-2x:before {
   font-size: 2em;
 }
-.fa-3x {
+.fa-3x:before {
   font-size: 3em;
 }
-.fa-4x {
+.fa-4x:before {
   font-size: 4em;
 }
-.fa-5x {
+.fa-5x:before {
   font-size: 5em;
 }
-.fa-fw {
+.fa-fw:before {
   width: 1.28571429em;
   text-align: center;
 }
@@ -50,38 +50,38 @@
 .fa-ul > li {
   position: relative;
 }
-.fa-li {
+.fa-li:before {
   position: absolute;
   left: -2.14285714em;
   width: 2.14285714em;
   top: 0.14285714em;
   text-align: center;
 }
-.fa-li.fa-lg {
+.fa-li.fa-lg:before {
   left: -1.85714286em;
 }
-.fa-border {
+.fa-border:before {
   padding: .2em .25em .15em;
   border: solid 0.08em #eeeeee;
   border-radius: .1em;
 }
-.pull-right {
+.pull-right:before {
   float: right;
 }
-.pull-left {
+.pull-left:before {
   float: left;
 }
-.fa.pull-left {
+.fa.pull-left:before {
   margin-right: .3em;
 }
-.fa.pull-right {
+.fa.pull-right:before {
   margin-left: .3em;
 }
-.fa-spin {
+.fa-spin:before {
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear;
 }
-.fa-pulse {
+.fa-pulse:before {
   -webkit-animation: fa-spin 1s infinite steps(8);
   animation: fa-spin 1s infinite steps(8);
 }
@@ -105,44 +105,44 @@
     transform: rotate(359deg);
   }
 }
-.fa-rotate-90 {
+.fa-rotate-90:before {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-.fa-rotate-180 {
+.fa-rotate-180:before {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-.fa-rotate-270 {
+.fa-rotate-270:before {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   transform: rotate(270deg);
 }
-.fa-flip-horizontal {
+.fa-flip-horizontal:before {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
   -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
-.fa-flip-vertical {
+.fa-flip-vertical:before {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
-:root .fa-rotate-90,
-:root .fa-rotate-180,
-:root .fa-rotate-270,
-:root .fa-flip-horizontal,
-:root .fa-flip-vertical {
+:root .fa-rotate-90:before,
+:root .fa-rotate-180:before,
+:root .fa-rotate-270:before,
+:root .fa-flip-horizontal:before,
+:root .fa-flip-vertical:before {
   filter: none;
 }
-.fa-stack {
+.fa-stack:before {
   position: relative;
   display: inline-block;
   width: 2em;
@@ -150,20 +150,20 @@
   line-height: 2em;
   vertical-align: middle;
 }
-.fa-stack-1x,
-.fa-stack-2x {
+.fa-stack-1x:before,
+.fa-stack-2x:before {
   position: absolute;
   left: 0;
   width: 100%;
   text-align: center;
 }
-.fa-stack-1x {
+.fa-stack-1x:before {
   line-height: inherit;
 }
-.fa-stack-2x {
+.fa-stack-2x:before {
   font-size: 2em;
 }
-.fa-inverse {
+.fa-inverse:before {
   color: #ffffff;
 }
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
