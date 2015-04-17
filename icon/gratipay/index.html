@@ -4,7 +4,7 @@
   <!-- Basic Page Needs
  ================================================== -->
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Font Awesome, the iconic font and CSS framework">
   <meta name="author" content="Dave Gandy">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,29 +23,29 @@
     <script src="../../assets/js/respond.min.js"></script>
   <![endif]-->
 
-  <script type="text/javascript" src="//use.typekit.net/wnc7ioh.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script src="https://use.typekit.net/wnc7ioh.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
 
-  <script type="text/javascript">
+  <script>
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-30136587-1']);
     _gaq.push(['_trackPageview']);
 
     (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      var ga = document.createElement('script');
+      ga.src = 'https://www.google-analytics.com/ga.js';
+      var s = document.scripts[0];
+      s.parentNode.insertBefore(ga, s);
     })();
   </script>
 </head>
 <body>
-<script type="text/javascript">
+<script>
   (function(){
     var bsa = document.createElement('script');
-    bsa.type = 'text/javascript';
-    bsa.async = true;
-    bsa.src = 'http://s3.buysellads.com/ac/bsa.js';
-    (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+    bsa.src = 'https://s3.buysellads.com/ac/bsa.js';
+    var s = document.scripts[0];
+    s.parentNode.insertBefore(bsa, s);
   })();
 </script>
 <div id="wrap"> <!-- necessary for sticky footer. wrap all content except footer -->
@@ -189,7 +189,7 @@
         <div class="lead"><i class="fa fa-info-sign"></i> Looking for more? Check out the <a href="../../examples/">examples</a>.</div>
       </div>
       <div class="col-md-3 col-sm-3">
-        <div class="vertical-ad"><script type="text/javascript" src="//cdn.fusionads.net/fusion.js?zoneid=1332&serve=C6SDP2Y&placement=fontawesome" id="_fusionads_js"></script>
+        <div class="vertical-ad"><script src="https://cdn.fusionads.net/fusion.js?zoneid=1332&amp;serve=C6SDP2Y&amp;placement=fontawesome" id="_fusionads_js"></script>
 </div>
       </div>
     </div>
@@ -205,11 +205,15 @@
          onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'wpbeginner.com']);">
         <img src="../../assets/img/logo-wpbeginner.png" width="220" height="65" alt="">
       </a>
+      <a href="https://themeisle.com/?utm_source=fontawesome_footer&utm_medium=banner&utm_campaign=fontawesome" title="Beginner's Guide to WordPress" target="_blank" rel="nofollow"
+         onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'themeisle.com']);">
+        <img src="../../assets/img/logo-themeisle.png" width="220" height="65" alt="">
+      </a>
     </div>
     <div>
       <i class="fa fa-flag"></i> Font Awesome 4.3.0
       <span class="hide-xs">&middot;</span><br class="hide-sm hide-md hide-lg">
-      Created by <a href="http://twitter.com/davegandy">Dave Gandy</a>
+      Created by <a href="https://twitter.com/davegandy">Dave Gandy</a>
     </div>
     <div>
       Font Awesome licensed under <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a>
@@ -219,7 +223,7 @@
       Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>
     </div>
     <div>
-      Thanks to <a href="http://maxcdn.com"><i class="fa fa-maxcdn"></i> MaxCDN</a> for providing the excellent <a href="http://www.bootstrapcdn.com/#fontawesome_tab">BootstrapCDN for Font Awesome</a>
+      Thanks to <a href="http://maxcdn.com/"><i class="fa fa-maxcdn"></i> MaxCDN</a> for providing the excellent <a href="http://www.bootstrapcdn.com/#fontawesome_tab">BootstrapCDN for Font Awesome</a>
     </div>
     <div class="project">
       <a href="https://github.com/FortAwesome/Font-Awesome">GitHub Project</a> &middot;
@@ -230,19 +234,20 @@
 </footer>
 
 
-<script src="http://platform.twitter.com/widgets.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="../../assets/js/tabcomplete.min.js"></script>
 <script src="../../assets/js/site.js"></script>
-<script type="text/javascript">
+<script>
   (function() {
     window._pa = window._pa || {};
-    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/54bfdab8751a087f190000f8.js";
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+    var pa = document.createElement('script');
+    pa.src = 'https://tag.perfectaudience.com/serve/54bfdab8751a087f190000f8.js';
+    var s = document.scripts[0];
+    s.parentNode.insertBefore(pa, s);
   })();
 </script>
-<script src="//load.sumome.com/" data-sumo-site-id="24237ee44267a89bbc339f27e22e961bf78a1ada5785f8173d40c094e994c8a6" async="async"></script>
+<script src="https://load.sumome.com/" data-sumo-site-id="24237ee44267a89bbc339f27e22e961bf78a1ada5785f8173d40c094e994c8a6" async></script>
 </body>
 </html>
