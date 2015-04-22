@@ -4050,6 +4050,8 @@ icons:
     id:         paw
     unicode:    f1b0
     created:    4.1
+    filter:
+      - pet
     categories:
       - Web Application Icons
 
