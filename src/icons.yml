@@ -1612,8 +1612,9 @@ icons:
     unicode:    f09e
     created:    2.0
     filter:
-      - feed
       - blog
+    aliases:
+      - feed
     categories:
       - Web Application Icons
 
