@@ -4517,7 +4517,7 @@ icons:
       - Brand Icons
       - Payment Icons
 
-  - name:       Goole Wallet
+  - name:       Google Wallet
     id:         google-wallet
     unicode:    f1ee
     created:    4.2
