@@ -1,0 +1,172 @@
+// Nested Icons
+// -------------------------
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest {
+  position: relative;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+}
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .#{$fa-css-prefix} {
+  position: absolute;
+  top: .5em;
+  left: .5em;
+  width: 1em;
+  height: 1em;
+  font-size: .5em;
+  text-align: center;
+}
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg {
+	font-size: .667em;
+	top: .25em;
+	left: .25em;
+}
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm {
+	font-size: .333em;
+	top: 1em;
+	left: 1em;
+}
+
+//
+//	base alignment
+//		scale = 1/2
+//		divisions = 8
+//		delta = 1 / (scale * divisions)
+//
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-l4 { left: -.5em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-l3 { left: -.25em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-l2 { left: 0em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-l1 { left: .25em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-r1 { left: .75em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-r2 { left: 1em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-r3 { left: 1.25em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-r4 { left: 1.5em; }
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-t4 { top: -.5em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-t3 { top: -.25em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-t2 { top: 0em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-t1 { top: .25em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-b1 { top: .75em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-b2 { top: 1em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-b3 { top: 1.25em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-b4 { top: 1.5em; }
+
+//
+// alignment aliases
+//
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-tl {
+  left: 0em;
+  top: 0em;
+}
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-tr {
+  left: 1em;
+  top: 0em;
+}
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-br {
+  left: 1em;
+  top: 1em;
+}
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .align-bl {
+  left: 0em;
+  top: 1em;
+}
+
+//
+//	small alignment
+//		scale = 1/3
+//		divisions = 8
+//		delta = 1 / (scale * divisions)
+//
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-l4 { left: -.5em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-l3 { left: -.125em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-l2 { left: .25em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-l1 { left: .625em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-r1 { left: 1.375em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-r2 { left: 1.75em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-r3 { left: 2.125em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-r4 { left: 2.5em; }
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-t4 { top: -.5em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-t3 { top: -.125em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-t2 { top: .25em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-t1 { top: .625em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-b1 { top: 1.375em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-b2 { top: 1.75em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-b3 { top: 2.125em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-b4 { top: 2.5em; }
+
+//
+// small alignment aliases
+//
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-tl {
+  left: .25em;
+  top: .25em;
+}
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-tr {
+  left: 1.75em;
+  top: .25em;
+}
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-br {
+  left: 1.75em;
+  top: 1.75em;
+}
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .sm.align-bl {
+  left: .25em;
+  top: 1.75em;
+}
+
+//
+//	large alignment
+//		scale = 2/3
+//		divisions = 8
+//		delta = 1 / (scale * divisions)
+//
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-l4 { left: -.5em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-l3 { left: -.3125em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-l2 { left: -.125em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-l1 { left: .0625em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-r1 { left: .4375em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-r2 { left: .625em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-r3 { left: .8125em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-r4 { left: 1em; }
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-t4 { top: -.5em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-t3 { top: -.3125em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-t2 { top: -.125em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-t1 { top: .0625em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-b1 { top: .4375em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-b2 { top: .625em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-b3 { top: .8125em; }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-b4 { top: 1em; }
+
+//
+// large alignment aliases
+//
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-tl {
+  left: -.125em;
+  top: -.125em;
+}
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-tr {
+  left: .625em;
+  top: -.125em;
+}
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-br {
+  left: .625em;
+  top: .625em;
+}
+
+.#{$fa-css-prefix}.#{$fa-css-prefix}-nest .lg.align-bl {
+  left: -.125em;
+  top: .625em;
+}

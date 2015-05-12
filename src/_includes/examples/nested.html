@@ -1,0 +1,159 @@
+<section id="nested">
+  <h2 class="page-header">
+    Nested Icons
+    <div class="pull-right text-default margin-top padding-top-sm hidden-xs">
+      <a href="https://github.com/FortAwesome/Font-Awesome/blob/{{ site.fontawesome.doc_blob }}/less/nested.less" class="text-muted padding-right">View LESS</a>
+      <a href="https://github.com/FortAwesome/Font-Awesome/blob/{{ site.fontawesome.doc_blob }}/scss/_nested.scss" class="text-muted">View SASS</a>
+    </div>
+  </h2>
+  <div class="row">
+    <div class="col-md-3 col-sm-4">
+      <div class="margin-bottom">
+        <!-- three deep nesting with multiple positioned icons on second layer -->
+		<i class="fa fa-nest fa-square fa-4x">
+			<i class="fa fa-arrows-h sm fa-inverse"></i>
+			<i class="fa fa-arrows-v sm fa-inverse">
+				<i class="fa fa-circle text-danger""></i>
+			</i>
+			
+			<i class="fa fa-arrows-v sm align-l2 fa-inverse text-muted"></i>
+			<i class="fa fa-arrows-v sm align-r2 fa-inverse text-muted"></i>
+			<i class="fa fa-arrows-h sm align-t2 fa-inverse text-muted"></i>
+			<i class="fa fa-arrows-h sm align-b2 fa-inverse text-muted"></i>
+		</i>
+		multiple positioned icons on nested layer<br>
+		
+        <!-- three deep nesting with alignment adjustment -->
+        <i class="fa fa-nest fa-circle fa-4x">
+          <i class="fa fa-nest fa-user fa-inverse">
+          <i class="fa fa-lock lg align-b1 text-danger"></i>
+          </i>
+        </i>
+        locked user account<br>
+
+        <!-- four deep nesting with size adjustments -->
+        <i class="fa fa-nest fa-circle fa-4x">
+          <i class="fa fa-circle text-danger lg">
+            <i class="fa fa-circle text-info lg">
+            <i class="fa fa-circle fa-inverse"></i>
+          </i>
+          </i>
+        </i>
+        bullseye<br>
+    
+        <!-- three deep nesting with alignment adjustments -->
+        <i class="fa fa-nest fa-mobile fa-4x">
+          <i class="fa fa-nest fa-comment align-tr text-info">
+            <i class="fa fa-exclamation fa-inverse"></i>
+          </i>
+        </i>
+        mobile exclamation<br>
+    
+        <!-- two deep nesting with multiple icons on second layer -->
+        <i class="fa fa-nest fa-square fa-4x">
+          <i class="fa fa-camera sm fa-inverse"></i>
+          <i class="fa fa-ban lg text-danger"></i>
+        </i>
+        camera ban<br>
+      </div>
+    </div>
+    <div class="col-md-9 col-sm-8">
+      <p>
+	    To nest multiple icons, use the <code>fa-nest</code> class on the parent icon.  By default the nested
+		icons will be one half the size of the parent, but this can be adjusted using the <code>lg</code> (for
+		two thirds size) and <code>sm</code> (for one third size) classes.
+    </p>
+    <p>
+      Additionally, the child icon, by default, will be centered within the parent icon.  Adjustments can be made
+	  using the following classes on the child icon:
+    </p>
+    
+    <ul>
+      <li>
+        To adjust the child icon to the <strong>left</strong> of center use <code>align-l1</code>, <code>align-l2</code>,
+        <code>align-l3</code> or <code>align-l4</code>
+      </li>
+      <li>
+        To adjust the child icon to the <strong>right</strong> of center use <code>align-r1</code>, <code>align-r2</code>,
+        <code>align-r3</code> or <code>align-r4</code>
+      </li>
+      <li>
+        To adjust the child icon <strong>above</strong> center use <code>align-t1</code>, <code>align-t2</code>,
+        <code>align-t3</code> or <code>align-t4</code>
+      </li>
+      <li>
+        To adjust the child icon <strong>below</strong> center use <code>align-b1</code>, <code>align-b2</code>,
+        <code>align-b3</code> or <code>align-b4</code>
+      </li>
+    </ul>
+    
+    <p>
+      There are several shortcuts for the above alignments.
+    </p>
+    
+    <ul>
+	  <li>
+        Top left: <code>align-tl</code> is an alias for <code>"align-t2 align-l2"</code>
+      </li>
+      <li>
+        Top right: <code>align-tr</code> is an alias for <code>"align-t2 align-r2"</code>
+      </li>
+      <li>
+        Bottom right: <code>align-br</code> is an alias for <code>"align-b2 align-r2"</code>
+      </li>
+      <li>
+        Bottom left: <code>align-bl</code> is an alias for <code>"align-b2 align-l2"</code>
+      </li>
+    </ul>
+    
+{% highlight html %}
+	<!-- three deep nesting with multiple positioned icons on second layer -->
+	<i class="fa fa-nest fa-square fa-4x">
+		<i class="fa fa-arrows-h sm fa-inverse"></i>
+		<i class="fa fa-arrows-v sm fa-inverse">
+			<i class="fa fa-circle text-danger""></i>
+		</i>
+		
+		<i class="fa fa-arrows-v sm align-l2 fa-inverse text-muted"></i>
+		<i class="fa fa-arrows-v sm align-r2 fa-inverse text-muted"></i>
+		<i class="fa fa-arrows-h sm align-t2 fa-inverse text-muted"></i>
+		<i class="fa fa-arrows-h sm align-b2 fa-inverse text-muted"></i>
+	</i>
+	multiple positioned icons on nested layer<br>
+		
+    <!-- three deep nesting with alignment adjustment -->
+    <i class="fa fa-nest fa-circle fa-4x">
+      <i class="fa fa-nest fa-user fa-inverse">
+      <i class="fa fa-lock lg align-b1 text-danger"></i>
+      </i>
+    </i>
+    locked user account<br>
+
+    <!-- four deep nesting with size adjustments -->
+    <i class="fa fa-nest fa-circle fa-4x">
+      <i class="fa fa-circle text-danger lg">
+        <i class="fa fa-circle text-info lg">
+        <i class="fa fa-circle fa-inverse"></i>
+      </i>
+      </i>
+    </i>
+    bullseye<br>
+    
+    <!-- three deep nesting with alignment adjustments -->
+    <i class="fa fa-nest fa-mobile fa-4x">
+      <i class="fa fa-nest fa-comment align-tr text-info">
+        <i class="fa fa-exclamation fa-inverse"></i>
+      </i>
+    </i>
+    mobile exclamation<br>
+    
+    <!-- two deep nesting with multiple icons on second layer -->
+    <i class="fa fa-nest fa-square fa-4x">
+      <i class="fa fa-camera sm fa-inverse"></i>
+      <i class="fa fa-ban lg text-danger"></i>
+    </i>
+    camera ban<br>
+{% endhighlight %}
+    </div>
+  </div>
+</section>
