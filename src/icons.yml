@@ -3924,6 +3924,10 @@ icons:
     created:    4.1
     aliases:
       - mortar-board
+    filter:
+      - learning
+      - school
+      - student
     categories:
       - Web Application Icons
 
