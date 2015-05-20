@@ -30,16 +30,7 @@
       "web": "http://twitter.com/supercodepoet"
     }
   ],
-  "licenses": [
-    {
-      "type": "OFL-1.1",
-      "url": "http://scripts.sil.org/OFL"
-    },
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/mit-license.html"
-    }
-  ],
+  "license": "OFL-1.1 AND MIT",
   "dependencies": {
   },
   "engines" : {
