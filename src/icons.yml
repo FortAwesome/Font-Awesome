@@ -1196,8 +1196,10 @@ icons:
     created:    1.0
     filter:
       - sort
+      - shuffle
     categories:
       - Web Application Icons
+      - Video Player Icons
 
   - name:       comment
     id:         comment
