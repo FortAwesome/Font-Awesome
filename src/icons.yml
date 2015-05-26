@@ -1037,7 +1037,9 @@ icons:
     unicode:    f066
     created:    1.0
     filter:
+      - collapse
       - combine
+      - contract
       - merge
       - smaller
     categories:
