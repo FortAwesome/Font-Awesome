@@ -1823,6 +1823,7 @@ icons:
     filter:
       - expand
       - enlarge
+      - fullscreen
       - bigger
       - move
       - reorder
