@@ -4939,6 +4939,8 @@ icons:
     id:         transgender
     unicode:    f224
     created:    4.3
+    aliases:
+      - intersex
     categories:
       - Gender Icons
 
