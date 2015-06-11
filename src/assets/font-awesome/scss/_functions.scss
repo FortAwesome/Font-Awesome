@@ -1,0 +1,9 @@
+---
+---
+
+// Functions
+// --------------------------
+
+@function prepend-slash($value) {
+  @return unquote('"\\#{$value}"');
+}

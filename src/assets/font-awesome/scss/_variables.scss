@@ -12,5 +12,5 @@ $fa-border-color:     #eee !default;
 $fa-inverse:          #fff !default;
 $fa-li-width:         (30em / 14) !default;
 
-{% assign sorted_icons = icons | expand_aliases | sort_by:'class' %}{% for icon in sorted_icons %}$fa-var-{{ icon.class }}: "\{{ icon.unicode }}";
+{% assign sorted_icons = icons | expand_aliases | sort_by:'class' %}{% for icon in sorted_icons %}$fa-var-{{ icon.class }}: "{{ icon.unicode }}";
 {% endfor %}
