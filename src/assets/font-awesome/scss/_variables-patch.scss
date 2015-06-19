@@ -1,0 +1,7 @@
+---
+---
+// Variables Patch (for Sass 3.4.0+)
+// ------------------------------------
+
+{% assign sorted_icons = icons | expand_aliases | sort_by:'class' %}{% for icon in sorted_icons %}$fa-var-{{ icon.class }}: unqoute('"\\{{ icon.unicode }}"');
+{% endfor %}

@@ -1,0 +1,19 @@
+---
+---
+{% include code/license.css %}
+
+// This is a patched version of the Sass files for Font Awesome to be used with Sass v3.4.0+
+
+@import "variables-patch";
+@import "variables";
+@import "mixins";
+@import "path";
+@import "core";
+@import "larger";
+@import "fixed-width";
+@import "list";
+@import "bordered-pulled";
+@import "animated";
+@import "rotated-flipped";
+@import "stacked";
+@import "icons";
