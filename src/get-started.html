@@ -91,10 +91,10 @@ $ gem install font-awesome-less
   </section>
 
   <section id="ruby-gem-sass">
-    <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-sass">SASS Ruby Gem</a></h2>
+    <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-sass">Sass Ruby Gem</a></h2>
     <p>
-      Use the <a href="https://github.com/FortAwesome/font-awesome-sass">Official Font Awesome SASS Ruby Gem</a> to easily get Font
-      Awesome SASS into a Rails or Compass project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
+      Use the <a href="https://github.com/FortAwesome/font-awesome-sass">Official Font Awesome Sass Ruby Gem</a> to easily get Font
+      Awesome Sass into a Rails or Compass project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
     </p>
     <ol>
       <li>
@@ -116,17 +116,22 @@ $ gem install font-awesome-sass
       </li>
     </ol>
     <p>
-    If you use Rails, add this to your e.g. <code>application.scss</code>:
+    If you use Rails, add this to your <code>application.scss</code> file:
     </p>
-{% highlight css %}
+{% highlight scss %}
   @import "font-awesome-sprockets";
   @import "font-awesome";
 {% endhighlight %}
+    <p class="alert alert-warning">
+    <i class="fa fa-exclamation-triangle"></i> <b>Sass 3.4.0+ has <a href="https://github.com/sass/sass/issues/659">an issue</a> that causes problems displaying icons!</b>
+    If you are using any of the effected Sass versions in your project, use <code>font-awesome-patched.scss</code> when importing/compiling rather than <code>font-awesome.scss</code> to avoid problems.
+    Future versions of Font Awesome will eventually contain fixes in the main Sass file and will not require the patched file to be used.
+    </p>
   </section>
 
   <section id="custom-less">
-    <h2 class="page-header">PRO: Custom LESS or SASS</h2>
-    <p>Use this method to customize Font Awesome {{ site.fontawesome.version }} using LESS or SASS.</p>
+    <h2 class="page-header">PRO: Custom LESS or Sass</h2>
+    <p>Use this method to customize Font Awesome {{ site.fontawesome.version }} using LESS or Sass.</p>
     <ol>
       <li>Copy the <code>font-awesome/</code> directory into your project.</li>
       <li>
@@ -137,7 +142,7 @@ $ gem install font-awesome-sass
 {% endhighlight %}
         <p class="alert alert-success"><i class="fa fa-info-circle"></i> The font path is relative from your compiled CSS directory.</p>
       </li>
-      <li>Re-compile your LESS or SASS if using a static compiler. Otherwise, you should be good to go.</li>
+      <li>Re-compile your LESS or Sass if using a static compiler. Otherwise, you should be good to go.</li>
       <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
     </ol>
   </section>
