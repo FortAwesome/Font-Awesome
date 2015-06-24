@@ -6966,6 +6966,10 @@ section {
   padding: 22px 0 17px;
   text-align: center;
 }
+label.error {
+  color: #a94442;
+  margin-top: 5px;
+}
 #icon-carousel {
   margin-top: 5px;
   font-size: 220px;

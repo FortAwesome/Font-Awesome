@@ -1,4 +1,6 @@
 $(function() {
+  $("#newsletter").validate();
+
   var ads = [
     {
       quote: "Take your icon game to the next level. Check out <strong>Fonticons</strong>, from the maker of Font Awesome.",
@@ -122,7 +124,8 @@ $(function() {
   $filter_by
     .val('')
     .trigger('input')
-    .trigger('keyup');
+    .trigger('keyup')
+    .focus();
 
   if ($clear) {
     $clear.addClass('hide'); // Hide clear button
