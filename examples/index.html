@@ -150,6 +150,21 @@
 
 <div id="social-buttons" class="hidden-print">
   <div class="container">
+    <form method="post" action="https://formkeep.com/f/ba101f5b69f0">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2 col-sm-6">
+          <input name="email" type="email" class="form-control margin-bottom" id="email" placeholder="Enter your email address&hellip;" required>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <button type="submit" class="btn btn-success btn-block margin-bottom-lg"
+              data-toggle="popover" data-trigger="hover" data-placement="top" title="Stay up to date with the Awesome"
+              data-content="We'll send you updates on new Font Awesome releases, icons, and other stuff that we're working on. We won't spam you. Scout's honor.">
+            Subscribe to Font Awesome Updates&nbsp;&nbsp;<i class="fa fa-envelope"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+
     <ul class="list-inline">
       <li>
         <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
@@ -384,7 +399,13 @@ current, borne back ceaselessly into the past.
 <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-spinner fa-pulse&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
 </code></pre></div>
       <p class="alert alert-success">
-        <i class="fa fa-info-circle"></i> CSS3 animations aren't supported in IE8 - IE9.
+        <i class="fa fa-exclamation-triangle fa-lg"></i> 
+        Some browsers on some platforms have issues with animated icons resulting in a jittery wobbling effect. See 
+        <a href="https://github.com/FortAwesome/Font-Awesome/issues/671" class="alert-link" target="_blank">issue #671</a> 
+        for examples and possible workarounds.
+      </p>
+      <p class="alert alert-success">
+        <i class="fa fa-info-circle fa-lg"></i> CSS3 animations aren't supported in IE8 - IE9.
       </p>
     </div>
   </div>
@@ -640,8 +661,8 @@ fa-ban on fa-camera
 
 
 <script src="https://platform.twitter.com/widgets.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="../assets/js/tabcomplete.min.js"></script>
 <script src="../assets/js/site.js"></script>
 <script>

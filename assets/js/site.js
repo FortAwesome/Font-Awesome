@@ -7,12 +7,6 @@ $(function() {
       btn_text: "Gimme Some!"
     },
     {
-      quote: "Subset your icons, add your own, and serve up from a CDN. Check out <strong>Fonticons</strong>, from the maker of Font Awesome.",
-      class: "fonticons",
-      url: "https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_2_all_value_add&utm_campaign=promo_4.3_update",
-      btn_text: "Gimme Some!"
-    },
-    {
       quote: "Make your icons load 10x faster! Check out <strong>Fonticons</strong>, from the maker of Font Awesome.",
       class: "fonticons",
       url: "https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_3_faster_loading&utm_campaign=promo_4.3_update",
@@ -25,43 +19,25 @@ $(function() {
       btn_text: "Gimme Some!"
     },
     {
-      quote: "Need a custom icon in Font Awesome? Check out <strong>Fonticons</strong>, from the maker of Font Awesome.",
+      quote: "Want to add your own icon? Check out <strong>Fonticons</strong>, from the maker of Font Awesome.",
       class: "fonticons",
-      url: "https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_5_custom_icons&utm_campaign=promo_4.3_update",
+      url: "https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_6_your_own_icon&utm_campaign=promo_4.3_update",
       btn_text: "Gimme Some!"
     },
 
 
 
     {
-      quote: "So hot right now: <strong>Black Tie</strong>, the new multi-weight icon font from the maker of Font Awesome.",
-      class: "black-tie",
-      url: "http://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_1_so_hot&utm_campaign=promo_4.3_update",
-      btn_text: "Buy it Now!"
-    },
-    {
       quote: "<strong>Black Tie</strong>, from the creator of Font Awesome. On sale at the Kickstarter price for a limited time.",
       class: "black-tie",
       url: "http://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_2_kickstarter&utm_campaign=promo_4.3_update",
-      btn_text: "Buy it Now!"
-    },
-    {
-      quote: "Get more Awesome: <strong>Black Tie</strong>, the new multi-weight icon font from the maker of Font Awesome.",
-      class: "black-tie",
-      url: "http://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_3_more_awesome&utm_campaign=promo_4.3_update",
-      btn_text: "Buy it Now!"
-    },
-    {
-      quote: "The new hotness from the maker of Font Awesome: <strong>Black Tie</strong>, the multi-weight icon font.",
-      class: "black-tie",
-      url: "http://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_4_new_hotness&utm_campaign=promo_4.3_update",
-      btn_text: "Buy it Now!"
+      btn_text: "Check it Out!"
     },
     {
       quote: "Want clean, minimalist icons? Check out <strong>Black Tie</strong>, the new multi-weight icon font from the maker of Font Awesome.",
       class: "black-tie",
       url: "http://blacktie.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_5_clean_minimalist&utm_campaign=promo_4.3_update",
-      btn_text: "Buy it Now!"
+      btn_text: "Check it Out!"
     }
   ];
 
@@ -71,6 +47,8 @@ $(function() {
   $('#icon-carousel').carousel({
     interval: 5000
   });
+
+  $('[data-toggle="popover"]').popover();
 
   var $filter_by = $('#filter-by');
 

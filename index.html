@@ -145,9 +145,9 @@
         <h1>Font Awesome</h1>
         <p>The iconic font and CSS toolkit</p>
         <div class="actions">
-          <a class="btn btn-default btn-lg" href="./assets/font-awesome-4.3.0.zip"
-             onClick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download on GitHub']);">
-            <i class="fa fa-download fa-lg"></i>&nbsp;&nbsp;
+          <a class="btn btn-default btn-lg" href="#modal-download" data-toggle="modal"
+             onClick="_gaq.push(['_trackEvent', 'Launch Modal', 'Launch Download Modal']);">
+            <i class="fa fa-download fa-lg"></i>&nbsp;
             Download
           </a>
         </div>
@@ -193,6 +193,21 @@
 
 <div id="social-buttons" class="hidden-print">
   <div class="container">
+    <form method="post" action="https://formkeep.com/f/ba101f5b69f0">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2 col-sm-6">
+          <input name="email" type="email" class="form-control margin-bottom" id="email" placeholder="Enter your email address&hellip;" required>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <button type="submit" class="btn btn-success btn-block margin-bottom-lg"
+              data-toggle="popover" data-trigger="hover" data-placement="top" title="Stay up to date with the Awesome"
+              data-content="We'll send you updates on new Font Awesome releases, icons, and other stuff that we're working on. We won't spam you. Scout's honor.">
+            Subscribe to Font Awesome Updates&nbsp;&nbsp;<i class="fa fa-envelope"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+
     <ul class="list-inline">
       <li>
         <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
@@ -298,6 +313,42 @@
 
 </div>
 
+<div class="modal fade" id="modal-download" tabindex="-1" role="dialog" aria-labelledby="modal-download-label">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
+        <h2 class="modal-title" id="modal-download-label">Help Us Out!</h2>
+      </div>
+      <div class="modal-body text-lg">
+        <p class="margin-bottom-lg">
+          I hope you love Font Awesome. If you've found it useful,
+          <a class="strong" href="https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=download_modal&utm_campaign=promo_4.3_update" target="_blank">
+            please do me a favor and check out my latest project, Fonticons</a>. It makes it easy to put the perfect
+          icons on your website. Choose from our awesome, comprehensive icon sets or copy and paste your own.
+        </p>
+
+        <p class="margin-bottom-lg">
+          Please. Check it out.
+        </p>
+
+        <p>&mdash;Dave Gandy</p>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-default btn-lg block-xs" href="./assets/font-awesome-4.3.0.zip"
+           onClick="_gaq.push(['_trackEvent', 'Outbound Modal Link', 'Download on GitHub']);">
+          <i class="fa fa-download fa-lg"></i>&nbsp;
+          Download
+        </a>
+        <a class="btn btn-success btn-lg block-xs" href="https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=download_modal&utm_campaign=promo_4.3_update" target="_blank">
+          Check out Fonticons &nbsp;<i class="fa fa-external-link fa-lg"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 </div>
 <footer id="footer" class="footer hidden-print">
@@ -337,8 +388,8 @@
 
 
 <script src="https://platform.twitter.com/widgets.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="./assets/js/tabcomplete.min.js"></script>
 <script src="./assets/js/site.js"></script>
 <script>
