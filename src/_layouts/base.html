@@ -40,36 +40,27 @@
   </script>
 </head>
 <body>
-<script>
-  (function(){
-    var bsa = document.createElement('script');
-    bsa.src = 'https://s3.buysellads.com/ac/bsa.js';
-    var s = document.scripts[0];
-    s.parentNode.insertBefore(bsa, s);
-  })();
-</script>
-<div id="wrap"> <!-- necessary for sticky footer. wrap all content except footer -->
-  {% include navbar.html %}
+  <script>
+    (function(){
+      var bsa = document.createElement('script');
+      bsa.src = 'https://s3.buysellads.com/ac/bsa.js';
+      var s = document.scripts[0];
+      s.parentNode.insertBefore(bsa, s);
+    })();
+  </script>
+  <div id="wrap"> <!-- necessary for sticky footer. wrap all content except footer -->
+    {% include navbar.html %}
 
-  {{ content }}
+    {{ content }}
 
-</div>
-{% include footer.html %}
+  </div>
+  {% include footer.html %}
 
-<script src="https://platform.twitter.com/widgets.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ site.jquery.version }}/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/{{ site.bootstrap.version }}/js/bootstrap.min.js"></script>
-<script src="{{ page.relative_path}}assets/js/tabcomplete.min.js"></script>
-<script src="{{ page.relative_path }}assets/js/site.js"></script>
-<script>
-  (function() {
-    window._pa = window._pa || {};
-    var pa = document.createElement('script');
-    pa.src = 'https://tag.perfectaudience.com/serve/54bfdab8751a087f190000f8.js';
-    var s = document.scripts[0];
-    s.parentNode.insertBefore(pa, s);
-  })();
-</script>
-<script src="https://load.sumome.com/" data-sumo-site-id="24237ee44267a89bbc339f27e22e961bf78a1ada5785f8173d40c094e994c8a6" async></script>
-</body>
+  <script src="https://platform.twitter.com/widgets.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ site.jquery.version }}/jquery.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/{{ site.jquery_validate.version }}/jquery.validate.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/{{ site.bootstrap.version }}/js/bootstrap.min.js"></script>
+  <script src="{{ page.relative_path}}assets/js/tabcomplete.min.js"></script>
+  <script src="{{ page.relative_path }}assets/js/site.js"></script>
+  </body>
 </html>

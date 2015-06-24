@@ -54,3 +54,6 @@ bootstrap:
 
 jquery:
   version:        1.11.3
+
+jquery_validate:
+  version:        1.13.1
