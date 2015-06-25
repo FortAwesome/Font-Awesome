@@ -1,4 +1,4 @@
-<{% if page.navbar_active == "icons" %}div{% else %}section{% endif %} id="new">
+<section id="new">
   <h2 class="page-header">{{ icons | version:site.fontawesome.minor_version | size }} New Icons in {{ site.fontawesome.minor_version }}</h2>
   {% if page.navbar_active != "icons" %}
     <div class="margin-botom-large">
@@ -11,8 +11,8 @@
     {% assign icons_new = icons | expand_aliases | version:site.fontawesome.minor_version | sort_by:'class' %}
 
     {% for icon in icons_new %}
-      <div class="fa-hover col-md-3 col-sm-4"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="fa fa-{{ icon.class }}"></i> fa-{{ icon.class }}{% if icon.alias_of %} <span class="text-muted">(alias)</span>{% endif %}</a></div>
+      <div class="fa-hover col-md-3 col-sm-4"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="fa fa-{{ icon.class }}"></i> {{ icon.class }}{% if icon.alias_of %} <span class="text-muted">(alias)</span>{% endif %}</a></div>
     {% endfor %}
   </div>
 
-</{% if page.navbar_active == "icons" %}div{% else %}section{% endif %}>
+</section>

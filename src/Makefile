@@ -29,8 +29,10 @@ build:
 
 	lessc --yui-compress ${SITE_LESS} > ${SITE_CSS}
 	cp -r ${FA_ROOT_DIRECTORY}/* ../
+	mv README.md-nobuild ../README.md
 	cd assets && mv font-awesome font-awesome-{{ site.fontawesome.version }} && zip -r9 font-awesome-{{ site.fontawesome.version }}.zip font-awesome-{{ site.fontawesome.version }} && mv font-awesome-{{ site.fontawesome.version }} font-awesome
 
+	find .. -type f ! -perm 644 -exec chmod 644 {} \;
 
 default: build
 

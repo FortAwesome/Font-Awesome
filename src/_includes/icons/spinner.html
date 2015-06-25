@@ -6,7 +6,7 @@
       <li>
         <i class="fa fa-info-circle fa-lg fa-li"></i>
         These icons work great with the <code>fa-spin</code> class. Check out the
-        <a href="{{ page.relative_path }}examples/#spinning" class="alert-link">spinning icons example</a>.
+        <a href="{{ page.relative_path }}examples/#animated" class="alert-link">spinning icons example</a>.
       </li>
     </ul>
   </div>
@@ -15,7 +15,7 @@
     {% assign icons_spinner = icons | expand_aliases | category:"Spinner Icons" | sort_by:'class' %}
 
     {% for icon in icons_spinner %}
-      <div class="fa-hover col-md-3 col-sm-4"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="fa fa-{{ icon.class }}"></i> fa-{{ icon.class }}{% if icon.alias_of %} <span class="text-muted">(alias)</span>{% endif %}</a></div>
+      <div class="fa-hover col-md-3 col-sm-4"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="fa fa-{{ icon.class }}"></i> {{ icon.class }}{% if icon.alias_of %} <span class="text-muted">(alias)</span>{% endif %}</a></div>
     {% endfor %}
   </div>
 </section>

@@ -1,62 +1,79 @@
-@buffer-none: 0px;
-@buffer-sm:   5px;
-@buffer-md:   10px;
-@buffer-lg:   22px;
+@buffer-none:         0px;
+@buffer-sm:           5px;
+@buffer-md:           10px;
+@buffer-lg:           22px;
+@buffer-xl:           40px;
 
 .padding-none         { padding: @buffer-none !important; }
 .padding              { padding: @buffer-md !important; }
 .padding-sm           { padding: @buffer-sm !important; }
 .padding-lg           { padding: @buffer-lg !important; }
+.padding-xl           { padding: @buffer-xl !important; }
 
 .padding-top-none     { padding-top: @buffer-none !important; }
 .padding-top          { padding-top: @buffer-md !important; }
 .padding-top-sm       { padding-top: @buffer-sm !important; }
 .padding-top-lg       { padding-top: @buffer-lg !important; }
+.padding-top-xl       { padding-top: @buffer-xl !important; }
 
 .padding-right-none   { padding-right: @buffer-none !important; }
 .padding-right        { padding-right: @buffer-md !important; }
 .padding-right-sm     { padding-right: @buffer-sm !important; }
 .padding-right-lg     { padding-right: @buffer-lg !important; }
+.padding-right-xl     { padding-right: @buffer-xl !important; }
 
 .padding-bottom-none  { padding-bottom: @buffer-none !important; }
 .padding-bottom       { padding-bottom: @buffer-md !important; }
 .padding-bottom-sm    { padding-bottom: @buffer-sm !important; }
 .padding-bottom-lg    { padding-bottom: @buffer-lg !important; }
+.padding-bottom-xl    { padding-bottom: @buffer-xl !important; }
 
 .padding-left-none    { padding-left: @buffer-none !important; }
 .padding-left         { padding-left: @buffer-md !important; }
 .padding-left-sm      { padding-left: @buffer-sm !important; }
 .padding-left-lg      { padding-left: @buffer-lg !important; }
+.padding-left-xl      { padding-left: @buffer-xl !important; }
 
 .margin-none          { margin: @buffer-none !important; }
 .margin               { margin: @buffer-md !important; }
 .margin-sm            { margin: @buffer-sm !important; }
 .margin-lg            { margin: @buffer-lg !important; }
+.margin-xl            { margin: @buffer-xl !important; }
 
 .margin-top-none      { margin-top: @buffer-none !important; }
 .margin-top           { margin-top: @buffer-md !important; }
-.margin-top-lg        { margin-top: @buffer-lg !important; }
 .margin-top-sm        { margin-top: @buffer-sm !important; }
+.margin-top-lg        { margin-top: @buffer-lg !important; }
+.margin-top-xl        { margin-top: @buffer-xl !important; }
 
 .margin-right-none    { margin-right: @buffer-none !important; }
 .margin-right         { margin-right: @buffer-md !important; }
-.margin-right-lg      { margin-right: @buffer-lg !important; }
 .margin-right-sm      { margin-right: @buffer-sm !important; }
+.margin-right-lg      { margin-right: @buffer-lg !important; }
+.margin-right-xl      { margin-right: @buffer-xl !important; }
 
 .margin-bottom-none   { margin-bottom: @buffer-none !important; }
 .margin-bottom        { margin-bottom: @buffer-md !important; }
-.margin-bottom-lg     { margin-bottom: @buffer-lg !important; }
 .margin-bottom-sm     { margin-bottom: @buffer-sm !important; }
+.margin-bottom-lg     { margin-bottom: @buffer-lg !important; }
+.margin-bottom-xl     { margin-bottom: @buffer-xl !important; }
 
 .margin-left-none     { margin-left: @buffer-none !important; }
 .margin-left          { margin-left: @buffer-md !important; }
-.margin-left-lg       { margin-left: @buffer-lg !important; }
 .margin-left-sm       { margin-left: @buffer-sm !important; }
+.margin-left-lg       { margin-left: @buffer-lg !important; }
+.margin-left-xl       { margin-left: @buffer-xl !important; }
 
 .border-left-none     { border-left: none !important; }
 .border-right-none    { border-right: none !important; }
 .border-bottom-none   { border-bottom: none !important; }
 .border-top-none      { border-top: none !important; }
+
+.text-sm              { font-size: @font-size-small !important; }
+.text-base            { font-size: @font-size-base !important; }
+.text-md              { font-size: @font-size-base + 2 !important; }
+.text-lg              { font-size: @font-size-large !important; }
+
 
 .display-block { display: block; } // use to swap an anchor tag to span a whole row to make click target larger
 .no-underline:hover { text-decoration: none; }
@@ -74,6 +91,9 @@
   line-height: @line-height-base;
   font-weight: normal;
 }
+.text-color-default {
+  color: @text-color;
+}
 .text-hilite {
   color: @link-color;
   &:hover {
@@ -84,3 +104,7 @@
 .text-strike { text-decoration: line-through; }
 .text-upper { text-transform: uppercase; }
 .text-lower { text-transform: lowercase; }
+
+#no-search-results {
+  display: none;
+}
