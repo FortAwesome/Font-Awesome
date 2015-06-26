@@ -1,0 +1,33 @@
+<section id="ruby-gem-less">
+  <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-less">LESS Ruby Gem</a></h2>
+  <p>
+    Use the <a href="https://github.com/FortAwesome/font-awesome-less">Official Font Awesome LESS Ruby Gem</a> to easily get Font
+    Awesome LESS into a Rails project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
+  </p>
+  <ol>
+    <li>
+      Add this line to your application's Gemfile:
+{% highlight bash %}
+gem 'font-awesome-less'
+{% endhighlight %}
+    </li>
+    <li>
+      And then execute:
+{% highlight bash %}
+$ bundle
+{% endhighlight %}
+    </li>
+    <li>Or install it yourself as:
+{% highlight bash %}
+$ gem install font-awesome-less
+{% endhighlight %}
+    </li>
+  </ol>
+  <p>
+  If you use Rails, add this to your e.g. <code>application.less</code>:
+  </p>
+{% highlight css %}
+@import "font-awesome-sprockets";
+@import "font-awesome";
+{% endhighlight %}
+</section>

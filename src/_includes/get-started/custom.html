@@ -1,0 +1,19 @@
+<section id="custom-less">
+  <h2 class="page-header">PRO: Custom LESS or Sass</h2>
+  <p>Use this method to customize Font Awesome {{ site.fontawesome.version }} using LESS or Sass.</p>
+  <ol>
+    <li>Copy the <code>font-awesome/</code> directory into your project.</li>
+    <li>
+      Open your project's <code>font-awesome/less/variables.less</code> or <code>font-awesome/scss/_variables.scss</code> and edit the <code>@fa-font-path</code> or <code>$fa-font-path</code>
+      variable to point to your font directory.
+{% highlight scss %}
+@fa-font-path:   "../font";
+{% endhighlight %}
+      <p class="alert alert-success"><i class="fa fa-info-circle"></i> The font path is relative from your compiled CSS directory.</p>
+    </li>
+    <li>Re-compile your LESS or Sass if using a static compiler. Otherwise, you should be good to go.</li>
+    <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
+  </ol>
+
+  {% include sass-patch-warning.html %}
+</section>
