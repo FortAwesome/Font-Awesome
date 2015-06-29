@@ -1,4 +1,4 @@
-#[Font Awesome v4.3.0](http://fontawesome.io)
+#[Font Awesome v4.4.0](http://fontawesome.io)
 ###The iconic font and CSS framework
 
 Font Awesome is a full suite of 519 pictographic icons for easy scalable vector graphics on websites,
@@ -20,6 +20,7 @@ Get started at http://fontawesome.io!
 - Full details: http://fontawesome.io/license
 
 ##Changelog
+- v4.4.0 - SASS/LessCSS refactoring
 - v3.0.0 - all icons redesigned from scratch, optimized for Bootstrap's 14px default
 - v3.0.1 - much improved rendering in webkit, various bug fixes
 - v3.0.2 - much improved rendering and alignment in IE7
