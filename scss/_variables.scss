@@ -1,17 +1,18 @@
-// Variables
+// variables
 // --------------------------
 
-$fa-border-color:       #eee !default;
-$fa-css-prefix:         fa !default;
 $fa-font-path:          "../fonts" !default;
 $fa-font-size-base:     14px !default;
+//$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts" !default; // for referencing Bootstrap CDN font files directly
+$fa-css-prefix:         fa !default;
+$fa-version:            "4.4.0" !default;
+$fa-border-color:       #eee !default;
 $fa-inverse:            #fff !default;
 $fa-li-width:           (30em / 14) !default;
-$fa-version:            "4.4.0" !default;
 $fa-rotation-increment: 45 !default;
-//$fa-font-path:          "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts" !default; // for referencing Bootstrap CDN font files directly
 
-// the icons
+
+
 $fa-var-glyphs: (
   "adjust": "\f042",
   "adn": "\f170",
@@ -605,16 +606,16 @@ $fa-var-glyphs: (
   "yen": "\f157",
   "youtube": "\f167",
   "youtube-play": "\f16a",
-  "youtube-square": "\f166"
+  "youtube-square": "\f166",
+  
 );
-
 // icon sizes - these scale font size and line height
 $fa-var-scales: (
   "default": 1.000,
-  "lg":  1.333,
-  "sm":  0.666,
-  "xlg": 1.666,
-  "xsm": 0.333
+  "lg":      1.333,
+  "sm":      0.666,
+  "xlg":     1.666,
+  "xsm":     0.333
 ) !default;
 
 // icon size multipliers - these scale font size
