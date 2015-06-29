@@ -1,0 +1,29 @@
+---
+---
+
+// functions
+// --------------------------
+
+// extract the number from a unit
+@function unitless($number) {
+  @return $number / ($number * 0 + 1);
+}
+
+// fudge a number to an accuracy of 0-6 decimal places
+@function fudge($number, $places: 0) {
+  $fraction: 10;
+  $number: unitless($number);
+  $return: null;
+
+  @if $places == 0 {
+    @return round($number);
+  } @else {
+    @if $places > 6 {
+      $places: 6;
+    }
+    @for $i from 1 through $places {
+      $fraction: $fraction * 10;
+    }
+    @return round($number * $fraction) / $fraction;
+  }
+}

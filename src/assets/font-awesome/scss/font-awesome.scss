@@ -1,12 +1,14 @@
 ---
 ---
+
 {% include code/license.css %}
 
 @import "variables";
+@import "functions";
 @import "mixins";
 @import "path";
 @import "core";
-@import "larger";
+@import "sizes";
 @import "fixed-width";
 @import "list";
 @import "bordered-pulled";

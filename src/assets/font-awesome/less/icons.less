@@ -1,7 +1,15 @@
 ---
 ---
+
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
-{% for icon in icons %}{% for alias in icon.aliases %}
-.@{fa-css-prefix}-{{ alias }}:before,{% endfor %}
-.@{fa-css-prefix}-{{ icon.id }}:before { content: @fa-var-{{ icon.id }}; }{% endfor %}
+
+.createIconClasses(@iterator: 1) when(@iterator <= length(@fa-var-glyphs)) {
+  @fa-glyph-name: extract(extract(@fa-var-glyphs, @iterator), 1);
+  @fa-glyph-name-unquoted: ~"@{fa-glyph-name}";
+  .@{fa-css-prefix}-@{fa-glyph-name-unquoted}:before {
+    content: extract(extract(@fa-var-glyphs, @iterator), 2);
+  }
+  .createIconClasses((@iterator + 1));
+}
+.createIconClasses();
