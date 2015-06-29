@@ -178,18 +178,6 @@
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
-:root .fa-rotate-270 {
-  filter: none;
-}
-:root .fa-rotate-180 {
-  filter: none;
-}
-:root .fa-rotate-90 {
-  filter: none;
-}
-:root .fa-rotate-0 {
-  filter: none;
-}
 .fa-stack {
   position: relative;
   display: inline-block;

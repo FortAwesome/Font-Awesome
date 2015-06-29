@@ -3,34 +3,28 @@
 
 // scale icon size by n
 .createIconScales(@iterator: 1) when(@iterator <= length(@fa-var-scales)) {
-
   @fa-icon-scale-name: extract(extract(@fa-var-scales, @iterator), 1);
   @fa-icon-scale-name-unquoted: ~"@{fa-icon-scale-name}";
   @fa-icon-scale: extract(extract(@fa-var-scales, @iterator), 2);
 
   .@{fa-css-prefix}-@{fa-icon-scale-name-unquoted} {
-
     font-size: floor(@fa-font-size-base * @fa-icon-scale);
     line-height: floor(@fa-font-size-base * @fa-icon-scale * 0.75);
     vertical-align: -15%;
   }
-
   .createIconScales((@iterator + 1));
 }
 .createIconScales();
 
 // multiply icon size by n
 .createIconMultipliers(@iterator: 1) when(@iterator <= length(@fa-var-multipliers)) {
-
   @fa-icon-multiplier-name: extract(extract(@fa-var-multipliers, @iterator), 1);
   @fa-icon-multiplier-name-unquoted: ~"@{fa-icon-multiplier-name}";
   @fa-icon-multiplier: extract(extract(@fa-var-multipliers, @iterator), 2);
 
   .@{fa-css-prefix}-@{fa-icon-multiplier-name-unquoted} {
-
     font-size: floor(@fa-font-size-base * @fa-icon-multiplier);
   }
-
   .createIconMultipliers((@iterator + 1));
 }
 .createIconMultipliers();
