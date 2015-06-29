@@ -7,13 +7,13 @@
 @rotation-selector: '';
 
 // calculate classes and values for rotation
-.calculateRotations(@i) when (@i >= 0) {
+.calculateRotations(@i) when (@i <= 0) {
   @rotation-selector: ~"@{fa-css-prefix}-rotate-@{i}";
 
   .@{rotation-selector} when (mod(@i, @fa-rotation-increment) = 0) {
     .fa-icon-rotate(@i);
   }
-  .calculateRotations((@i - 1));
+  .calculateRotations((@i + 1));
 }
 .calculateRotations(359);
 
