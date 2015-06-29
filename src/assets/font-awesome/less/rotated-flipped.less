@@ -10,13 +10,13 @@
 @rotation-selector: '';
 
 // calculate classes and values for rotation
-.calculateRotations(@i) when (@i <= 0) {
+.calculateRotations(@i) when (@i >= 0) {
   @rotation-selector: ~"@{fa-css-prefix}-rotate-@{i}";
 
   .@{rotation-selector} when (mod(@i, @fa-rotation-increment) = 0) {
     .fa-icon-rotate(@i);
   }
-  .calculateRotations((@i + 1));
+  .calculateRotations((@i - 1));
 }
 .calculateRotations(359);
 
@@ -30,14 +30,14 @@
 //       this loop
 
 :root  {
-  .calculateIEFixes(@i) when (@i <= 0) {
-    @rotation-selector: ~"@{wi-css-prefix}-rotate-@{i}";
+  .calculateIEFixes(@i) when (@i >= 0) {
+    @rotation-selector: ~"@{fa-css-prefix}-rotate-@{i}";
 
     // check if this item needs some ie love
     .@{rotation-selector} when (mod(@i, 90) = 0) {
       filter: none;
     }
-    .calculateIEFixes((@i + 1));
+    .calculateIEFixes((@i - 1));
   }
   .calculateIEFixes(359);
 }
