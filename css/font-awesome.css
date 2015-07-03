@@ -19,41 +19,41 @@
   transform: translate(0, 0);
 }
 .fa-default {
-  font-size: 14px;
-  line-height: 10px;
+  font-size: 1em;
+  line-height: 0.75em;
   vertical-align: -15%;
 }
 .fa-lg {
-  font-size: 18px;
-  line-height: 13px;
+  font-size: 1.333em;
+  line-height: 0.99975em;
   vertical-align: -15%;
 }
 .fa-sm {
-  font-size: 9px;
-  line-height: 6px;
+  font-size: 0.666em;
+  line-height: 0.4995em;
   vertical-align: -15%;
 }
 .fa-xl {
-  font-size: 23px;
-  line-height: 17px;
+  font-size: 1.666em;
+  line-height: 1.2495em;
   vertical-align: -15%;
 }
 .fa-xs {
-  font-size: 4px;
-  line-height: 3px;
+  font-size: 0.333em;
+  line-height: 0.24975em;
   vertical-align: -15%;
 }
 .fa-2x {
-  font-size: 28px;
+  font-size: 2em;
 }
 .fa-3x {
-  font-size: 42px;
+  font-size: 3em;
 }
 .fa-4x {
-  font-size: 56px;
+  font-size: 4em;
 }
 .fa-5x {
-  font-size: 70px;
+  font-size: 5em;
 }
 .fa-fw {
   width: 1.28571429em;

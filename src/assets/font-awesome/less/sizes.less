@@ -11,8 +11,8 @@
   @fa-icon-scale: extract(extract(@fa-var-scales, @iterator), 2);
 
   .@{fa-css-prefix}-@{fa-icon-scale-name-unquoted} {
-    font-size: floor(@fa-font-size-base * @fa-icon-scale);
-    line-height: floor(@fa-font-size-base * @fa-icon-scale * 0.75);
+    font-size: unit(@fa-icon-scale, em);
+    line-height: unit(@fa-icon-scale * 0.75, em);
     vertical-align: -15%;
   }
   .createIconScales((@iterator + 1));
@@ -26,7 +26,7 @@
   @fa-icon-multiplier: extract(extract(@fa-var-multipliers, @iterator), 2);
 
   .@{fa-css-prefix}-@{fa-icon-multiplier-name-unquoted} {
-    font-size: floor(@fa-font-size-base * @fa-icon-multiplier);
+    font-size: unit(@fa-icon-multiplier, em);
   }
   .createIconMultipliers((@iterator + 1));
 }

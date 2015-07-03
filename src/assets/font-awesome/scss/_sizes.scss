@@ -7,8 +7,8 @@
 // scale icon size by n
 @each $fa-icon-scale-name, $fa-icon-scale in $fa-var-scales {
   .#{$fa-css-prefix}-#{$fa-icon-scale-name} {
-    font-size: #{fudge(unitless($fa-font-size-base) * $fa-icon-scale)}px;
-    line-height: #{fudge(unitless($fa-font-size-base) * $fa-icon-scale * 0.75)}px;
+    font-size: #{$fa-icon-scale}em;
+    line-height: #{$fa-icon-scale * 0.75}em;
     vertical-align: -15%;
   }
 }
@@ -16,6 +16,6 @@
 // multiply icon size by n
 @each $fa-icon-multiplier-name, $fa-icon-multiplier in $fa-var-multipliers {
   .#{$fa-css-prefix}-#{$fa-icon-multiplier-name} {
-    font-size: #{fudge($fa-font-size-base * $fa-icon-multiplier)}px;
+    font-size: #{$fa-icon-multiplier}em;
   }
 }
