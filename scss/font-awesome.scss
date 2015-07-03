@@ -1,13 +1,14 @@
 /*!
- *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
 @import "variables";
+@import "functions";
 @import "mixins";
 @import "path";
 @import "core";
-@import "larger";
+@import "sizes";
 @import "fixed-width";
 @import "list";
 @import "bordered-pulled";

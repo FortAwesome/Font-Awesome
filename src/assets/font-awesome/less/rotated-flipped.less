@@ -1,23 +1,43 @@
 ---
 ---
 
-// Rotated & Flipped Icons
+// rotated and flipped icons
 // -------------------------
 
-.@{fa-css-prefix}-rotate-90  { .fa-icon-rotate(90deg, 1);  }
-.@{fa-css-prefix}-rotate-180 { .fa-icon-rotate(180deg, 2); }
-.@{fa-css-prefix}-rotate-270 { .fa-icon-rotate(270deg, 3); }
+@rotations-requiring-ie-fix:
+  "flip-horizontal",
+  "flip-vertical";
+@rotation-selector: '';
 
+// calculate classes and values for rotation
+.calculateRotations(@i) when (@i >= 0) {
+  @rotation-selector: ~"@{fa-css-prefix}-rotate-@{i}";
+
+  .@{rotation-selector} when (mod(@i, @fa-rotation-increment) = 0) {
+    .fa-icon-rotate(@i);
+  }
+  .calculateRotations((@i - 1));
+}
+.calculateRotations(359);
+
+// flip icons horizontal/vertical
 .@{fa-css-prefix}-flip-horizontal { .fa-icon-flip(-1, 1, 0); }
 .@{fa-css-prefix}-flip-vertical   { .fa-icon-flip(1, -1, 2); }
 
-// Hook for IE8-9
+// ie 8-9 fix
 // -------------------------
+// todo: check on assigning an array of selectors to the selector instead of using
+//       this loop
 
-:root .@{fa-css-prefix}-rotate-90,
-:root .@{fa-css-prefix}-rotate-180,
-:root .@{fa-css-prefix}-rotate-270,
-:root .@{fa-css-prefix}-flip-horizontal,
-:root .@{fa-css-prefix}-flip-vertical {
-  filter: none;
+:root  {
+  .calculateIEFixes(@i) when (@i >= 0) {
+    @rotation-selector: ~"@{fa-css-prefix}-rotate-@{i}";
+
+    // check if this item needs some ie love
+    .@{rotation-selector} when (mod(@i, 90) = 0) {
+      filter: none;
+    }
+    .calculateIEFixes((@i - 1));
+  }
+  .calculateIEFixes(359);
 }

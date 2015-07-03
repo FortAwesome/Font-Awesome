@@ -1,4 +1,4 @@
-// Mixins
+// mixins
 // --------------------------
 
 .fa-icon() {
@@ -12,11 +12,15 @@
 
 }
 
-.fa-icon-rotate(@degrees, @rotation) {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@rotation);
-  -webkit-transform: rotate(@degrees);
-      -ms-transform: rotate(@degrees);
-          transform: rotate(@degrees);
+.fa-icon-rotate(@degrees) {
+  // check if this ie fix is necessary
+  & when (mod(@degrees, 90) = 0) {
+    @rotation: @degrees / 90;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@rotation);
+  }
+  -webkit-transform: rotate(~"@{degrees}deg");
+      -ms-transform: rotate(~"@{degrees}deg");
+          transform: rotate(~"@{degrees}deg");
 }
 
 .fa-icon-flip(@horiz, @vert, @rotation) {

@@ -1,7 +1,7 @@
 ---
 ---
 
-// List Icons
+// list icons
 // -------------------------
 
 .#{$fa-css-prefix}-ul {
@@ -10,6 +10,7 @@
   list-style-type: none;
   > li { position: relative; }
 }
+
 .#{$fa-css-prefix}-li {
   position: absolute;
   left: -$fa-li-width;

@@ -1,23 +1,43 @@
 ---
 ---
 
-// Rotated & Flipped Icons
+// rotated and flipped icons
 // -------------------------
 
-.#{$fa-css-prefix}-rotate-90  { @include fa-icon-rotate(90deg, 1);  }
-.#{$fa-css-prefix}-rotate-180 { @include fa-icon-rotate(180deg, 2); }
-.#{$fa-css-prefix}-rotate-270 { @include fa-icon-rotate(270deg, 3); }
+$rotations-requiring-ie-fix: (
+  "flip-horizontal",
+  "flip-vertical"
+);
+$rotation-selector: '';
 
+// calculate classes and values for rotation
+@for $i from 0 through 359 {
+  @if $i == 0 or $i % $fa-rotation-increment == 0 {
+    $rotation-selector: #{$fa-css-prefix}-rotate-#{$i};
+
+    .#{$rotation-selector} {
+      @include fa-icon-rotate($i);
+    }
+    // check if this item needs some ie love
+    @if $i == 0 or $i % 90 == 0 {
+      $rotations-requiring-ie-fix: append($rotations-requiring-ie-fix, #{$rotation-selector});
+    }
+  }
+}
+
+// flip icons horizontal/vertical
 .#{$fa-css-prefix}-flip-horizontal { @include fa-icon-flip(-1, 1, 0); }
 .#{$fa-css-prefix}-flip-vertical   { @include fa-icon-flip(1, -1, 2); }
 
-// Hook for IE8-9
+// ie 8-9 fix
 // -------------------------
+// todo: check on assigning an array of selectors to the selector instead of using
+//       this loop
 
-:root .#{$fa-css-prefix}-rotate-90,
-:root .#{$fa-css-prefix}-rotate-180,
-:root .#{$fa-css-prefix}-rotate-270,
-:root .#{$fa-css-prefix}-flip-horizontal,
-:root .#{$fa-css-prefix}-flip-vertical {
-  filter: none;
+:root  {
+  @each $fix in $rotations-requiring-ie-fix {
+    .#{$fix} {
+      filter: none;
+    }
+  }
 }
