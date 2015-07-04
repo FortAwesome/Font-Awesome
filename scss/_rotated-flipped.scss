@@ -16,5 +16,6 @@
 :root .#{$fa-css-prefix}-rotate-270,
 :root .#{$fa-css-prefix}-flip-horizontal,
 :root .#{$fa-css-prefix}-flip-vertical {
+  /* autoprefixer: off */
   filter: none;
 }

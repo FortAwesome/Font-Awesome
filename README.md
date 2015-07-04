@@ -83,6 +83,7 @@ to the `dependencies` in your `component.json`.
 - [Node Package Manager (AKA NPM)](https://docs.npmjs.com/getting-started/installing-node)
 - [Less](http://lesscss.org/) (Run `npm install -g less` to install).
 - [Less Plugin: Clean CSS](https://github.com/less/less-plugin-clean-css) (Run `npm install -g less-plugin-clean-css` to install).
+- [Less Plugin: Autoprefixer](https://github.com/less/less-plugin-autoprefix) (Run `npm install -g less-plugin-autoprefix` to install).
 
 From the root of the repository, install the tools used to develop.
 
