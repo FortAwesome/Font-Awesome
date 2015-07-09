@@ -1464,6 +1464,8 @@ icons:
     filter:
       - enter
       - join
+      - log in
+      - login
       - sign up
       - sign in
       - signin
