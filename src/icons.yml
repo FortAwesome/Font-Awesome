@@ -1211,6 +1211,9 @@ icons:
       - speech
       - notification
       - note
+      - chat
+      - bubble
+      - feedback
     categories:
       - Web Application Icons
 
@@ -1947,6 +1950,7 @@ icons:
       - checklist
       - todo
       - list
+      - hamburger
     categories:
       - Web Application Icons
 
@@ -3743,6 +3747,7 @@ icons:
     created:    3.2
     filter:
       - report
+      - insect
     categories:
       - Web Application Icons
 
