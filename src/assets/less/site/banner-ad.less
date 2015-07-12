@@ -1,0 +1,112 @@
+#banner {
+  color: #fff;
+  .message-container {
+    display: table;
+    width: auto;
+    margin: 0 auto;
+    padding: 15px 0;
+  }
+  .tagline, .action {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .tagline {
+    font-weight: 200;
+    font-size: 16px;
+    padding-right: 20px;
+  }
+
+  &.black-tie {
+    @black-tie-bg: #222222;
+    background-color: @black-tie-bg;
+    border-bottom: solid 1px mix(@black-tie-bg, #fff, 95%);
+
+    .btn-primary {
+      @color: @black-tie-bg;
+      @background: mix(#fff,@black-tie-bg,90%);
+      @border: mix(#fff,@black-tie-bg,60%);
+      font-weight: bold;
+      color: @color;
+      background-color: @background;
+      border-color: @border;
+      border-bottom-width: 2px;
+      text-shadow: none;
+      border-radius: 4px;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        color: #fff;
+        background-color: darken(@border, 3%);
+        border-color: darken(@border, 12%);
+        border-bottom-color: darken(@border, 18%);
+      }
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        background-image: none;
+      }
+      &.disabled,
+      &[disabled],
+      fieldset[disabled] & {
+        &,
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+          background-color: @background;
+          border-color: @border;
+        }
+      }
+    }
+  }
+
+  &.fonticons {
+    @fonticons-bg: #1c1e29;
+    @fonticons-orange: desaturate(#ff7f3f, 5%);
+    background-color: @fonticons-orange;
+    border-bottom: solid 1px mix(@fonticons-bg, @fonticons-orange, 15%);
+    .btn-primary {
+      @color: #fff;
+      @background: mix(#fff,@fonticons-bg,10%);
+      @border: @fonticons-bg;
+      font-weight: bold;
+      color: @color;
+      background-color: @background;
+      border-color: @border;
+      border-bottom-width: 2px;
+      text-shadow: none;
+      border-radius: 4px;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        color: #fff;
+        background-color: darken(@border, 3%);
+        border-color: darken(@border, 12%);
+        border-bottom-color: darken(@border, 18%);
+      }
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        background-image: none;
+      }
+      &.disabled,
+      &[disabled],
+      fieldset[disabled] & {
+        &,
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+          background-color: @background;
+          border-color: @border;
+        }
+      }
+    }
+  }
+}
