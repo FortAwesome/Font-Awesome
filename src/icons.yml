@@ -5089,3 +5089,10 @@ icons:
     created:    4.3
     categories:
       - Brand Icons
+
+  - name:       Palm Tree
+    id:         palm-tree
+    unicode:    1f334
+    created:    4.3
+    categories:
+      - Web Application Icons
