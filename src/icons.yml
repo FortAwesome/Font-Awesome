@@ -4348,6 +4348,9 @@ icons:
     id:         hacker-news
     unicode:    f1d4
     created:    4.1
+    aliases:
+      - y-combinator-square
+      - yc-square
     categories:
       - Brand Icons
 
@@ -5091,3 +5094,109 @@ icons:
     created:    4.3
     categories:
       - Brand Icons
+
+  - name:       Y Combinator
+    id:         y-combinator
+    unicode:    f23b
+    created:    4.4
+    aliases:
+      - yc
+    categories:
+      - Brand Icons
+
+  - name:       Optin Monster
+    id:         optin-monster
+    unicode:    f23c
+    created:    4.4
+    url:        optinmonster.com
+    categories:
+      - Brand Icons
+
+  - name:       OpenCart
+    id:         opencart
+    unicode:    f23d
+    created:    4.4
+    url:        opencart.com
+    categories:
+      - Brand Icons
+
+  - name:       ExpeditedSSL
+    id:         expeditedssl
+    unicode:    f23e
+    created:    4.4
+    categories:
+      - Brand Icons
+
+
+  - name:       Battery Full
+    id:         battery-full
+    unicode:    f240
+    created:    4.4
+    aliases:
+      - battery-4
+    categories:
+      - Web Application Icons
+
+  - name:       Battery 3/4 Full
+    id:         battery-three-quarters
+    unicode:    f241
+    created:    4.4
+    aliases:
+      - battery-3
+    categories:
+      - Web Application Icons
+
+  - name:       Battery 1/2 Full
+    id:         battery-half
+    unicode:    f242
+    created:    4.4
+    aliases:
+      - battery-2
+    categories:
+      - Web Application Icons
+
+  - name:       Battery 1/4 Full
+    id:         battery-quarter
+    unicode:    f243
+    created:    4.4
+    aliases:
+      - battery-1
+    categories:
+      - Web Application Icons
+
+  - name:       Battery Empty
+    id:         battery-empty
+    unicode:    f244
+    created:    4.4
+    aliases:
+      - battery-0
+    categories:
+      - Web Application Icons
+
+  - name:       Mouse Pointer
+    id:         mouse-pointer
+    unicode:    f245
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       I Beam Cursor
+    id:         i-cursor
+    unicode:    f246
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Object Group
+    id:         object-group
+    unicode:    f247
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Object Ungroup
+    id:         object-ungroup
+    unicode:    f248
+    created:    4.4
+    categories:
+      - Web Application Icons
