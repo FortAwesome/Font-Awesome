@@ -5200,3 +5200,142 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
+
+  - name:       Sticky Note
+    id:         sticky-note
+    unicode:    f249
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Sticky Note Outlined
+    id:         sticky-note-o
+    unicode:    f24a
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       JCB Credit Card
+    id:         cc-jcb
+    unicode:    f24b
+    created:    4.4
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       Diner's Club Credit Card
+    id:         cc-diners-club
+    unicode:    f24c
+    created:    4.4
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+
+  - name:       Hourglass Outlined
+    id:         hourglass-o
+    unicode:    f250
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Hourglass Start
+    id:         hourglass-start
+    unicode:    f251
+    created:    4.4
+    aliases:
+      - hourglass-1
+    categories:
+      - Web Application Icons
+
+  - name:       Hourglass Half
+    id:         hourglass-half
+    unicode:    f252
+    created:    4.4
+    aliases:
+      - hourglass-2
+    categories:
+      - Web Application Icons
+
+  - name:       Hourglass End
+    id:         hourglass-end
+    unicode:    f253
+    created:    4.4
+    aliases:
+      - hourglass-3
+    categories:
+      - Web Application Icons
+
+  - name:       Hourglass
+    id:         hourglass
+    unicode:    f254
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Rock (Hand)
+    id:         hand-rock
+    unicode:    f255
+    created:    4.4
+    aliases:
+      - hand-grab
+    categories:
+      - Web Application Icons
+
+  - name:       Paper (Hand)
+    id:         hand-paper
+    unicode:    f256
+    created:    4.4
+    aliases:
+      - hand-stop
+    categories:
+      - Web Application Icons
+
+  - name:       Scissors (Hand)
+    id:         hand-scissors
+    unicode:    f257
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Lizard (Hand)
+    id:         hand-lizard
+    unicode:    f258
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Spock (Hand)
+    id:         hand-spock
+    unicode:    f259
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Hand Pointer
+    id:         hand-pointer
+    unicode:    f25a
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Trademark
+    id:         trademark
+    unicode:    f25b
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Registered Trademark
+    id:         registered
+    unicode:    f25c
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Creative Commons
+    id:         creative-commons
+    unicode:    f25d
+    created:    4.4
+    categories:
+      - Web Application Icons
