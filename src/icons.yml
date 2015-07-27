@@ -5319,23 +5319,30 @@ icons:
     categories:
       - Web Application Icons
 
+  - name:       Hand Peace
+    id:         hand-peace
+    unicode:    f25b
+    created:    4.4
+    categories:
+      - Web Application Icons
+
   - name:       Trademark
     id:         trademark
-    unicode:    f25b
+    unicode:    f25c
     created:    4.4
     categories:
       - Web Application Icons
 
   - name:       Registered Trademark
     id:         registered
-    unicode:    f25c
+    unicode:    f25d
     created:    4.4
     categories:
       - Web Application Icons
 
   - name:       Creative Commons
     id:         creative-commons
-    unicode:    f25d
+    unicode:    f25e
     created:    4.4
     categories:
       - Web Application Icons
