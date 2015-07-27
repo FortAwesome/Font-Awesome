@@ -1911,12 +1911,15 @@
 .fa-hand-pointer:before {
   content: "\f25a";
 }
-.fa-trademark:before {
+.fa-hand-peace:before {
   content: "\f25b";
 }
-.fa-registered:before {
+.fa-trademark:before {
   content: "\f25c";
 }
-.fa-creative-commons:before {
+.fa-registered:before {
   content: "\f25d";
+}
+.fa-creative-commons:before {
+  content: "\f25e";
 }
