@@ -5252,6 +5252,13 @@ icons:
     categories:
       - Web Application Icons
 
+  - name:       Balance Scale
+    id:         balance-scale
+    unicode:    f24e
+    created:    4.4
+    categories:
+      - Web Application Icons
+
 
   - name:       Hourglass Outlined
     id:         hourglass-o
@@ -5420,8 +5427,8 @@ icons:
     categories:
       - Brand Icons
 
-  - name:       Balance Scale
-    id:         balance-scale
+  - name:       Wikipedia W
+    id:         wikipedia-w
     unicode:    f266
     created:    4.4
     categories:
