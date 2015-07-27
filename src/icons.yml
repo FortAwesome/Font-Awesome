@@ -1379,8 +1379,10 @@ icons:
       - approve
       - favorite
       - agree
+      - hand
     categories:
       - Web Application Icons
+      - Hand Icons
 
   - name:       Thumbs Down Outlined
     id:         thumbs-o-down
@@ -1390,8 +1392,10 @@ icons:
       - dislike
       - disapprove
       - disagree
+      - hand
     categories:
       - Web Application Icons
+      - Hand Icons
 
   - name:       star-half
     id:         star-half
@@ -1685,6 +1689,7 @@ icons:
       - forward
     categories:
       - Directional Icons
+      - Hand Icons
 
   - name:       Hand Outlined Left
     id:         hand-o-left
@@ -1697,6 +1702,7 @@ icons:
       - back
     categories:
       - Directional Icons
+      - Hand Icons
 
   - name:       Hand Outlined Up
     id:         hand-o-up
@@ -1706,6 +1712,7 @@ icons:
       - point
     categories:
       - Directional Icons
+      - Hand Icons
 
   - name:       Hand Outlined Down
     id:         hand-o-down
@@ -1715,6 +1722,7 @@ icons:
       - point
     categories:
       - Directional Icons
+      - Hand Icons
 
   - name:       Arrow Circle Left
     id:         arrow-circle-left
@@ -3451,8 +3459,10 @@ icons:
       - favorite
       - approve
       - agree
+      - hand
     categories:
       - Web Application Icons
+      - Hand Icons
 
   - name:       thumbs-down
     id:         thumbs-down
@@ -3462,8 +3472,10 @@ icons:
       - dislike
       - disapprove
       - disagree
+      - hand
     categories:
       - Web Application Icons
+      - Hand Icons
 
   - name:       YouTube Square
     id:         youtube-square
@@ -5283,57 +5295,64 @@ icons:
       - Web Application Icons
 
   - name:       Rock (Hand)
-    id:         hand-rock
+    id:         hand-rock-o
     unicode:    f255
     created:    4.4
     aliases:
-      - hand-grab
+      - hand-grab-o
     categories:
       - Web Application Icons
+      - Hand Icons
 
   - name:       Paper (Hand)
-    id:         hand-paper
+    id:         hand-paper-o
     unicode:    f256
     created:    4.4
     aliases:
-      - hand-stop
+      - hand-stop-o
     categories:
       - Web Application Icons
+      - Hand Icons
 
   - name:       Scissors (Hand)
-    id:         hand-scissors
+    id:         hand-scissors-o
     unicode:    f257
     created:    4.4
     categories:
       - Web Application Icons
+      - Hand Icons
 
   - name:       Lizard (Hand)
-    id:         hand-lizard
+    id:         hand-lizard-o
     unicode:    f258
     created:    4.4
     categories:
       - Web Application Icons
+      - Hand Icons
 
   - name:       Spock (Hand)
-    id:         hand-spock
+    id:         hand-spock-o
     unicode:    f259
     created:    4.4
     categories:
       - Web Application Icons
+      - Hand Icons
 
   - name:       Hand Pointer
-    id:         hand-pointer
+    id:         hand-pointer-o
     unicode:    f25a
     created:    4.4
     categories:
       - Web Application Icons
+      - Hand Icons
 
   - name:       Hand Peace
-    id:         hand-peace
+    id:         hand-peace-o
     unicode:    f25b
     created:    4.4
     categories:
       - Web Application Icons
+      - Hand Icons
 
   - name:       Trademark
     id:         trademark

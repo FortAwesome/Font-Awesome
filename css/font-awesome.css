@@ -1894,27 +1894,27 @@
 .fa-hourglass:before {
   content: "\f254";
 }
-.fa-hand-grab:before,
-.fa-hand-rock:before {
+.fa-hand-grab-o:before,
+.fa-hand-rock-o:before {
   content: "\f255";
 }
-.fa-hand-stop:before,
-.fa-hand-paper:before {
+.fa-hand-stop-o:before,
+.fa-hand-paper-o:before {
   content: "\f256";
 }
-.fa-hand-scissors:before {
+.fa-hand-scissors-o:before {
   content: "\f257";
 }
-.fa-hand-lizard:before {
+.fa-hand-lizard-o:before {
   content: "\f258";
 }
-.fa-hand-spock:before {
+.fa-hand-spock-o:before {
   content: "\f259";
 }
-.fa-hand-pointer:before {
+.fa-hand-pointer-o:before {
   content: "\f25a";
 }
-.fa-hand-peace:before {
+.fa-hand-peace-o:before {
   content: "\f25b";
 }
 .fa-trademark:before {

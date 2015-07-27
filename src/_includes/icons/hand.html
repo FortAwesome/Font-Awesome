@@ -1,0 +1,12 @@
+<section id="hand">
+  <h2 class="page-header">Hand Icons</h2>
+
+  <div class="row fontawesome-icon-list">
+    {% assign icons_hand = icons | expand_aliases | category:"Hand Icons" | sort_by:'class' %}
+
+    {% for icon in icons_hand %}
+      <div class="fa-hover col-md-3 col-sm-4"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="fa fa-{{ icon.class }}"></i> {{ icon.class }}{% if icon.alias_of %} <span class="text-muted">(alias)</span>{% endif %}</a></div>
+    {% endfor %}
+  </div>
+
+</section>
