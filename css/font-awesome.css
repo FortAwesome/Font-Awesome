@@ -1876,6 +1876,9 @@
 .fa-clone:before {
   content: "\f24d";
 }
+.fa-balance-scale:before {
+  content: "\f24e";
+}
 .fa-hourglass-o:before {
   content: "\f250";
 }
@@ -1944,6 +1947,6 @@
 .fa-get-pocket:before {
   content: "\f265";
 }
-.fa-balance-scale:before {
+.fa-wikipedia-w:before {
   content: "\f266";
 }
