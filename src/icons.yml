@@ -5374,3 +5374,20 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
+
+
+  - name:       GG Currency
+    id:         gg
+    unicode:    f260
+    created:    4.4
+    categories:
+      - Currency Icons
+      - Brand Icons
+
+  - name:       GG Currency Circle
+    id:         gg-circle
+    unicode:    f261
+    created:    4.4
+    categories:
+      - Currency Icons
+      - Brand Icons

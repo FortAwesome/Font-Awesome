@@ -1926,3 +1926,9 @@
 .fa-creative-commons:before {
   content: "\f25e";
 }
+.fa-gg:before {
+  content: "\f260";
+}
+.fa-gg-circle:before {
+  content: "\f261";
+}
