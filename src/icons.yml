@@ -5398,3 +5398,17 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
+
+  - name:       Odnoklassniki
+    id:         Odnoklassniki
+    unicode:    f263
+    created:    4.4
+    categories:
+      - Brand Icons
+
+  - name:       Odnoklassniki Square
+    id:         odnoklassniki-square
+    unicode:    f264
+    created:    4.4
+    categories:
+      - Brand Icons
