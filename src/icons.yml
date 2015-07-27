@@ -5400,7 +5400,7 @@ icons:
       - Brand Icons
 
   - name:       Odnoklassniki
-    id:         Odnoklassniki
+    id:         odnoklassniki
     unicode:    f263
     created:    4.4
     categories:
@@ -5409,6 +5409,20 @@ icons:
   - name:       Odnoklassniki Square
     id:         odnoklassniki-square
     unicode:    f264
+    created:    4.4
+    categories:
+      - Brand Icons
+
+  - name:       Get Pocket
+    id:         get-pocket
+    unicode:    f265
+    created:    4.4
+    categories:
+      - Brand Icons
+
+  - name:       Balance Scale
+    id:         balance-scale
+    unicode:    f266
     created:    4.4
     categories:
       - Brand Icons
