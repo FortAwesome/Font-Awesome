@@ -1935,9 +1935,15 @@
 .fa-tripadvisor:before {
   content: "\f262";
 }
-.fa-Odnoklassniki:before {
+.fa-odnoklassniki:before {
   content: "\f263";
 }
 .fa-odnoklassniki-square:before {
   content: "\f264";
+}
+.fa-get-pocket:before {
+  content: "\f265";
+}
+.fa-balance-scale:before {
+  content: "\f266";
 }
