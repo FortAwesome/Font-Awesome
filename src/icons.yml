@@ -5391,3 +5391,10 @@ icons:
     categories:
       - Currency Icons
       - Brand Icons
+
+  - name:       TripAdvisor
+    id:         tripadvisor
+    unicode:    f262
+    created:    4.4
+    categories:
+      - Brand Icons
