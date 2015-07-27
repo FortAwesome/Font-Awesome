@@ -5231,6 +5231,15 @@ icons:
       - Brand Icons
       - Payment Icons
 
+  - name:       Clone
+    id:         clone
+    unicode:    f24d
+    created:    4.4
+    filter:
+      - copy
+    categories:
+      - Web Application Icons
+
 
   - name:       Hourglass Outlined
     id:         hourglass-o
