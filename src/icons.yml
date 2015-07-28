@@ -5491,3 +5491,11 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
+
+
+  - name:       Amazon
+    id:         amazon
+    unicode:    f270
+    created:    4.4
+    categories:
+      - Brand Icons
