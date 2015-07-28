@@ -5527,3 +5527,52 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
+
+  - name:       Industry
+    id:         industry
+    unicode:    f275
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Map Pin
+    id:         map-pin
+    unicode:    f276
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Map Signs
+    id:         map-signs
+    unicode:    f277
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Map Outline
+    id:         map-o
+    unicode:    f278
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Map
+    id:         map
+    unicode:    f279
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Commenting
+    id:         commenting
+    unicode:    f27a
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Commenting Outlined
+    id:         commenting-o
+    unicode:    f27b
+    created:    4.4
+    categories:
+      - Web Application Icons
