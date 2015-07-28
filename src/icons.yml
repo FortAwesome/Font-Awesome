@@ -5433,3 +5433,38 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
+
+  - name:       Safari
+    id:         safari
+    unicode:    f267
+    created:    4.4
+    categories:
+      - Brand Icons
+
+  - name:       Chrome
+    id:         chrome
+    unicode:    f268
+    created:    4.4
+    categories:
+      - Brand Icons
+
+  - name:       Firefox
+    id:         firefox
+    unicode:    f269
+    created:    4.4
+    categories:
+      - Brand Icons
+
+  - name:       Opera
+    id:         opera
+    unicode:    f26a
+    created:    4.4
+    categories:
+      - Brand Icons
+
+  - name:       Internet-explorer
+    id:         internet-explorer
+    unicode:    f26b
+    created:    4.4
+    categories:
+      - Brand Icons
