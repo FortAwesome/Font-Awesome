@@ -1965,3 +1965,7 @@
 .fa-internet-explorer:before {
   content: "\f26b";
 }
+.fa-tv:before,
+.fa-television:before {
+  content: "\f26c";
+}

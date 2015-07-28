@@ -58,7 +58,7 @@ $(function() {
   if($filter_by.length) {
     var $filter_val = $('#filter-val');
     var $filter = $('#filter');
-    var $other = $('#new, #web-application, #transportation, #gender, #form-control, #medical, #currency, #text-editor, #directional, #video-player, #brand, #file-type, #spinner, #payment, #chart');
+    var $other = $('#new, #web-application, #hand, #transportation, #gender, #form-control, #medical, #currency, #text-editor, #directional, #video-player, #brand, #file-type, #spinner, #payment, #chart');
     var $clear = $('#filter-clear');
     var $no_results = $('#no-search-results');
 
