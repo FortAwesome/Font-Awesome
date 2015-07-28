@@ -91,9 +91,11 @@
           <ul class="dropdown-menu pull-right">
             <li><a href="../icons/"><i class="fa fa-flag fa-fw"></i>&nbsp; All Icons</a></li>
             <li class="divider"></li>
-            <li><a href="../icons/#new"><i class="fa fa-diamond fa-fw"></i>&nbsp; New Icons in 4.3</a></li>
+            <li><a href="../icons/#new"><i class="fa fa-diamond fa-fw"></i>&nbsp; New Icons in 4.4</a></li>
             <li><a href="../icons/#web-application"><i class="fa fa-camera-retro fa-fw"></i>&nbsp; Web Application Icons</a></li>
+            <li><a href="../icons/#hand"><i class="fa fa-hand-spock-o fa-fw"></i>&nbsp; Hand Icons</a></li>
             <li><a href="../icons/#transportation"><i class="fa fa-ship fa-fw"></i>&nbsp; Transportation Icons</a></li>
+            <li><a href="../icons/#gender"><i class="fa fa-venus fa-fw"></i>&nbsp; Gender Icons</a></li>
             <li><a href="../icons/#file-type"><i class="fa fa-file-image-o fa-fw"></i>&nbsp; File Type Icons</a></li>
             <li><a href="../icons/#spinner"><i class="fa fa-spinner fa-fw"></i>&nbsp; Spinner Icons</a></li>
             <li><a href="../icons/#form-control"><i class="fa fa-check-square fa-fw"></i>&nbsp; Form Control Icons</a></li>
@@ -101,7 +103,7 @@
             <li><a href="../icons/#chart"><i class="fa fa-pie-chart fa-fw"></i>&nbsp; Chart Icons</a></li>
             <li><a href="../icons/#currency"><i class="fa fa-won fa-fw"></i>&nbsp; Currency Icons</a></li>
             <li><a href="../icons/#text-editor"><i class="fa fa-file-text-o fa-fw"></i>&nbsp; Text Editor Icons</a></li>
-            <li><a href="../icons/#directional"><i class="fa fa-hand-o-right fa-fw"></i>&nbsp; Directional Icons</a></li>
+            <li><a href="../icons/#directional"><i class="fa fa-arrow-right fa-fw"></i>&nbsp; Directional Icons</a></li>
             <li><a href="../icons/#video-player"><i class="fa fa-play-circle fa-fw"></i>&nbsp; Video Player Icons</a></li>
             <li><a href="../icons/#brand"><i class="fa fa-github fa-fw"></i>&nbsp; Brand Icons</a></li>
             <li><a href="../icons/#medical"><i class="fa fa-medkit fa-fw"></i>&nbsp; Medical Icons</a></li>
@@ -144,7 +146,7 @@
 <div class="jumbotron jumbotron-ad hidden-print">
   <div class="container">
     <h1><i class="fa fa-cogs"></i>&nbsp; Get Started</h1>
-    <p>Easy ways to get Font Awesome 4.3.0 onto your website</p>
+    <p>Easy ways to get Font Awesome 4.4.0 onto your website</p>
   </div>
 </div>
 
@@ -169,10 +171,10 @@
 
     <ul class="list-inline">
       <li>
-        <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+        <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
       </li>
       <li>
-        <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>
+        <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>
       </li>
       <li class="follow-btn">
         <a href="https://twitter.com/fontawesome" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @fontawesome</a>
@@ -208,7 +210,7 @@
     <ol>
       <li>
         Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css&quot;</span><span class="nt">&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css&quot;</span><span class="nt">&gt;</span>
 </code></pre></div>
         <p class="alert alert-success"><i class="fa fa-info-circle"></i> Immediately after release, it takes a bit of time for BootstrapCDN to catch up and get the newest version live on their CDN.</p>
       </li>
@@ -298,7 +300,7 @@
 
   <section id="custom-less">
     <h2 class="page-header">PRO: Custom LESS or SASS</h2>
-    <p>Use this method to customize Font Awesome 4.3.0 using LESS or SASS.</p>
+    <p>Use this method to customize Font Awesome 4.4.0 using LESS or SASS.</p>
     <ol>
       <li>Copy the <code>font-awesome/</code> directory into your project.</li>
       <li>
@@ -319,10 +321,21 @@
     <p>These validation warnings don't matter in practice since the non-hacky portion of our CSS does fully validate and the hacky portions don't interfere with the proper functioning of the non-hacky portion, hence why we deliberately ignore these particular warnings.</p>
   </section>
 
-  <section class="need-ie7">
+  <section id="ie8-font-face">
+    <h2 class="page-header">Internet Explorer 8 and @font-face</h2>
+    <p>
+      IE8 has some issues with <code>@font-face</code> when combined with <code>:before</code>.
+      Font Awesome uses that combination. If a page is cached, and loaded without the mouse over the window
+      (i.e. hit the refresh button or load something in an iframe) then the page gets rendered before the font loads.
+      Hovering over the page (body) will show some of the icons and hovering over the remaining icons will show those as well.
+      <a href="https://github.com/FortAwesome/Font-Awesome/issues/954">See issue #954</a> for details.
+    </p>
+  </section>
+
+  <section id="need-ie7">
     <h2 class="page-header">Need IE7 Support?</h2>
     <p>
-      If you need IE7 support, you have my condolences. Really. Font Awesome 4.3.0
+      If you need IE7 support, you have my condolences. Really. Font Awesome 4.4.0
       doesn't support IE7, but an older version does. You'll need to check out the
       <a href="../3.2.1/get-started/#need-ie7">3.2.1 instructions for using IE7</a>. Then go complain to
       whomever decided your project needs IE7 support.
@@ -354,7 +367,7 @@
       </a>
     </div>
     <div>
-      <i class="fa fa-flag"></i> Font Awesome 4.3.0
+      <i class="fa fa-flag"></i> Font Awesome 4.4.0
       <span class="hide-xs">&middot;</span><br class="hide-sm hide-md hide-lg">
       Created by <a href="https://twitter.com/davegandy">Dave Gandy</a>
     </div>
@@ -379,7 +392,7 @@
 
   <script src="https://platform.twitter.com/widgets.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="../assets/js/tabcomplete.min.js"></script>
   <script src="../assets/js/site.js"></script>
