@@ -5477,3 +5477,10 @@ icons:
       - tv
     categories:
       - Web Application Icons
+
+  - name:       Contao
+    id:         contao
+    unicode:    f26d
+    created:    4.4
+    categories:
+      - Brand Icons
