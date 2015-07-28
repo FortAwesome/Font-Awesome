@@ -5468,3 +5468,12 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
+
+  - name:       Television
+    id:         television
+    unicode:    f26c
+    created:    4.4
+    aliases:
+      - tv
+    categories:
+      - Web Application Icons
