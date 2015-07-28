@@ -4419,11 +4419,8 @@ icons:
     id:         circle-thin
     unicode:    f1db
     created:    4.1
-    aliases:
-      - genderless
     categories:
       - Web Application Icons
-      - Gender Icons
 
   - name:       header
     id:         header
@@ -5021,6 +5018,13 @@ icons:
     id:         neuter
     unicode:    f22c
     created:    4.3
+    categories:
+      - Gender Icons
+
+  - name:       Genderless
+    id:         genderless
+    unicode:    f22d
+    created:    4.4
     categories:
       - Gender Icons
 
