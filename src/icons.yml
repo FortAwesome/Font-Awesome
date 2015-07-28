@@ -5587,3 +5587,10 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
+
+  - name:       Vimeo
+    id:         vimeo
+    unicode:    f27d
+    created:    4.4
+    categories:
+      - Brand Icons
