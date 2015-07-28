@@ -5594,3 +5594,20 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
+
+  - name:       Font Awesome Black Tie
+    id:         black-tie
+    unicode:    f27e
+    created:    4.4
+    url:        blacktie.io
+    categories:
+      - Brand Icons
+
+
+  - name:       Fonticons
+    id:         fonticons
+    unicode:    f280
+    created:    4.4
+    url:        fonticons.com
+    categories:
+      - Brand Icons
