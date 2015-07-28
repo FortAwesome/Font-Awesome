@@ -5499,3 +5499,31 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
+
+  - name:       Calendar Plus Outlined
+    id:         calendar-plus-o
+    unicode:    f271
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Calendar Minus Outlined
+    id:         calendar-minus-o
+    unicode:    f272
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Calendar Times Outlined
+    id:         calendar-times-o
+    unicode:    f273
+    created:    4.4
+    categories:
+      - Web Application Icons
+
+  - name:       Calendar Check Outlined
+    id:         calendar-check-o
+    unicode:    f274
+    created:    4.4
+    categories:
+      - Web Application Icons
