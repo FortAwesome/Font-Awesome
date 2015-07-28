@@ -5484,3 +5484,10 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
+
+  - name:       500px
+    id:         500px
+    unicode:    f26e
+    created:    4.4
+    categories:
+      - Brand Icons
