@@ -5580,3 +5580,10 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
+
+  - name:       Houzz
+    id:         houzz
+    unicode:    f27c
+    created:    4.4
+    categories:
+      - Brand Icons
