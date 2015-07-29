@@ -4522,6 +4522,8 @@ icons:
     id:         newspaper-o
     unicode:    f1ea
     created:    4.2
+    filter:
+      - press
     categories:
       - Web Application Icons
 
