@@ -61,6 +61,16 @@ For more information on SemVer, please visit http://semver.org.
 - Twitter: http://twitter.com/davegandy
 - GitHub: https://github.com/davegandy
 
+##Bower
+
+To include as a bower package, add 
+
+```"fontawesome": "latest"```
+
+to your dependencies and run
+
+```$ bower install```
+
 ##Component
 To include as a [component](http://github.com/component/component), just run
 
