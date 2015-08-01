@@ -1304,6 +1304,7 @@ icons:
       - bar-chart-o
     filter:
       - graph
+      - analytics
     categories:
       - Web Application Icons
       - Chart Icons
@@ -4669,6 +4670,9 @@ icons:
     categories:
       - Web Application Icons
       - Chart Icons
+    filter:
+      - graph
+      - analytics
 
 
   - name:       Pie Chart
@@ -4678,6 +4682,9 @@ icons:
     categories:
       - Web Application Icons
       - Chart Icons
+    filter:
+      - graph
+      - analytics
 
   - name:       Line Chart
     id:         line-chart
@@ -4686,6 +4693,9 @@ icons:
     categories:
       - Web Application Icons
       - Chart Icons
+    filter:
+      - graph
+      - analytics
 
   - name:       last.fm
     id:         lastfm
