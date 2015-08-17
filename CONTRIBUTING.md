@@ -18,6 +18,8 @@ New icons mostly start as requests by the [Font Awesome community on GitHub](../
   - Attach a single color image or two that represent the idea you're going for.
   - Request concrete objects: it's harder to make an icon to represent happiness, it's easier to make a smiley face. ☺
 
+
+
 ## Suggesting icon keyword addition/removal
 
 Icon filters are maintained by the [Font Awesome community on GitHub](../../pulls?q=is%3Apr+label%3Adoc).
@@ -28,6 +30,8 @@ If you feel that an icon
 * contains invalid keyword(s)
 
 please send a [PR](https://help.github.com/articles/using-pull-requests/) to the `master` branch.
+
+
 
 ## Reporting issues
 
@@ -42,7 +46,7 @@ We only accept issues that are icon requests, bug reports, or feature requests. 
 
 ## Key branches
 
-- `master` is the latest, deployed version (not to be used for pull requests)
+- `master` is the latest, deployed version (use for pull request if they only affect the docs)
 - `gh-pages` is the hosted docs (not to be used for pull requests)
 - `*-wip` branches are the official work in progress branches for the next releases. All pull requests should be submitted against the appropriate branch
 
