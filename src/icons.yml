@@ -4428,6 +4428,8 @@ icons:
     id:         header
     unicode:    f1dc
     created:    4.1
+    filter:
+      - heading
     categories:
       - Text Editor Icons
 
