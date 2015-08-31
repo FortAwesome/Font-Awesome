@@ -1,25 +1,34 @@
-.filter-parent {
+#search {
   position: relative;
   font-size: 18px;
   padding-top: 40px;
-  margin: -20px auto 50px;
+  margin: -20px auto 0px;
+
   label {
     position: absolute;
     left: 17px;
     top: 50px;
   }
-  #filter-by, .hint {
+
+  #search-input, .hint {
     padding-left: 43px;
     padding-right: 43px;
     border-radius: 23px;
   }
+
   .hint {
     color: #aaa;
   }
-  #filter-clear {
+
+  #search-clear {
     text-decoration: none;
     position: absolute;
     right: 18px;
     top: 53px;
   }
+}
+
+.algolia {
+  margin-top: -20px;
+  padding-top: 45px;
 }

@@ -10,7 +10,7 @@ relative_path: ../
 {% include jumbotron.html %}
 {% include stripe-social.html %}
 
-<div class="container">
+<div class="container" data-view="search">
   {% capture stripe_ad_content %}
   <p class="lead">
     You asked, Font Awesome delivers with {{ icons | version:site.fontawesome.minor_version | size }} shiny new icons in version {{ site.fontawesome.minor_version }}.
@@ -21,22 +21,54 @@ relative_path: ../
   {% endcapture %}
   {% include stripe-ad.html %}
 
-  {% include icons/filter.html %}
+  <div class="row">
+    <div class="col-md-10">
+      <section id="search">
+        <label for="search-input"><i class="fa fa-search"></i></label>
+        <input id="search-input" class="form-control input-lg" placeholder="Search icons" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
+        <a id="search-clear" href="#" class="fa fa-times hide"></a>
+      </section>
+    </div>
+    <div class="col-md-2">
+      <div class="algolia">
+        by <a href="https://www.algolia.com"><img src="{{ page.relative_path }}assets/img/algolia.png" width=100" height="32"></a>
+      </div>
+    </div>
+  </div>
 
-  {% include icons/new.html %}
-  {% include icons/web-application.html %}
-  {% include icons/hand.html %}
-  {% include icons/transportation.html %}
-  {% include icons/gender.html %}
-  {% include icons/file-type.html %}
-  {% include icons/spinner.html %}
-  {% include icons/form-control.html %}
-  {% include icons/payment.html %}
-  {% include icons/chart.html %}
-  {% include icons/currency.html %}
-  {% include icons/text-editor.html %}
-  {% include icons/directional.html %}
-  {% include icons/video-player.html %}
-  {% include icons/brand.html %}
-  {% include icons/medical.html %}
+  <div id="search-results" class="hide"></div>
+  <div id="icons">
+    {% include icons/new.html %}
+    {% include icons/web-application.html %}
+    {% include icons/hand.html %}
+    {% include icons/transportation.html %}
+    {% include icons/gender.html %}
+    {% include icons/file-type.html %}
+    {% include icons/spinner.html %}
+    {% include icons/form-control.html %}
+    {% include icons/payment.html %}
+    {% include icons/chart.html %}
+    {% include icons/currency.html %}
+    {% include icons/text-editor.html %}
+    {% include icons/directional.html %}
+    {% include icons/video-player.html %}
+    {% include icons/brand.html %}
+    {% include icons/medical.html %}
+  </div>
+  <script type="text/template" id="results-template">
+    <h2 class="page-header">Search for '<span class="text-color-default"><%= results.query %></span>'</h2>
+    <% if (results.nbHits > 0) { %>
+      <div class="row fontawesome-icon-list">
+      <% _.each(results.hits, function(icon) { %>
+        <div class="fa-hover col-md-3 col-sm-4">
+          <a href="{{ page.relative_path }}icon/<%= icon.name %>">
+            <i class="fa <%= icon.css_class %>"></i> <%= icon.name %>
+          </a>
+        </div>
+      <% }); %>
+    <% } else { %>
+        No Results
+    <% } %>
+    </div>
+  </script>
 </div>
