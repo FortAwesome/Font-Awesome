@@ -22,16 +22,16 @@ relative_path: ../
   {% include stripe-ad.html %}
 
   <div class="row">
-    <div class="col-md-10">
+    <div class="col-md-10 col-sm-9">
       <section id="search">
         <label for="search-input"><i class="fa fa-search"></i></label>
         <input id="search-input" class="form-control input-lg" placeholder="Search icons" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
         <a id="search-clear" href="#" class="fa fa-times hide"></a>
       </section>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-2 col-sm-3 hidden-xs">
       <div class="algolia">
-        by <a href="https://www.algolia.com"><img src="{{ page.relative_path }}assets/img/algolia.png" width=100" height="32"></a>
+        by <a href="https://algolia.com"><i class="fas fas-algolia"></i></a>
       </div>
     </div>
   </div>
@@ -68,11 +68,25 @@ relative_path: ../
       <% }); %>
       </div>
     <% } else { %>
-      <div class="alert alert-warning" role="alert">
-        <strong>Oops!</strong> No icons were found that matched your query. Have no fear you may still be
-        able to find that perfect icon. <a class="alert-link" href="https://www.fonticons.com">Check out
-        our latest project, Fonticons.</a> We have multiple icon sets and even have the ablility to
-        commission an icon to be made!
+      <div class="alert alert-danger text-lg" role="alert">
+        <h3 class="margin-top margin-bottom-lg"><i class="fa fa-meh-o"></i> Oops! No icons matched your query.</h3>
+        A few things that might help:
+        <ol>
+          <li>
+            Use <a class="alert-link" href="https://fonticons.com">Fonticons</a> (our latest project) to add your
+            own icons and take your icon game to the next level!
+          </li>
+          <li>
+            Really, really want to see an icon in Font Awesome?
+            <a class="alert-link" href="mailto:dave@fonticons.com">Drop me an email</a> to commission the icons you need!
+          </li>
+          <li>
+            Are we missing something in our search results?
+            <a class="alert-link" href="https://github.com/FortAwesome/Font-Awesome/issues/new">Open an issue on GitHub!</a>
+            (Make sure to <a class="alert-link" href="https://github.com/FortAwesome/Font-Awesome/issues">search existing
+            issues first</a>.)
+          </li>
+        </ol>
       </div>
     <% } %>
   </script>
