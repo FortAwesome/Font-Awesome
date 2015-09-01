@@ -56,16 +56,10 @@ relative_path: ../
     {% include icons/medical.html %}
   </div>
   <script type="text/template" id="results-template">
-    <h2 class="page-header">Search for '<span class="text-color-default"><%= results.query %></span>'</h2>
-    <% if (results.nbHits > 0) { %>
+    <h2 class="page-header">Search for '<span class="text-color-default"><%= content.query %></span>'</h2>
+    <% if (content.nbHits > 0) { %>
       <div class="row fontawesome-icon-list">
-      <% _.each(results.hits, function(icon) { %>
-        <div class="fa-hover col-md-3 col-sm-4">
-          <a href="{{ page.relative_path }}icon/<%= icon.name %>">
-            <i class="fa <%= icon.css_class %>"></i> <%= icon.name %>
-          </a>
-        </div>
-      <% }); %>
+        <%= results %>
       </div>
     <% } else { %>
       <div class="alert alert-danger text-lg" role="alert">
@@ -89,5 +83,12 @@ relative_path: ../
         </ol>
       </div>
     <% } %>
+  </script>
+  <script type="text/template" id="result-template">
+    <div class="fa-hover col-md-3 col-sm-4">
+      <a href="{{ page.relative_path }}icon/<%= result.name %>">
+        <i class="fa <%= result.css_class %>"></i> <%= result._highlightResult.name.value %> <% if (matches !== "") { %>(<%= matches %>)<% } %>
+      </a>
+    </div>
   </script>
 </div>

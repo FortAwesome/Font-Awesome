@@ -1,8 +1,5 @@
 $(function() {
     var SearchView = Backbone.View.extend({
-
-        template: _.template($("#results-template").html()),
-
         events: {
             "keyup #search-input": "search",
             "click #search-clear": "clear"
@@ -11,6 +8,7 @@ $(function() {
         initialize: function() {
             this.algolia = algoliasearch("M19DXW5X0Q", "c79b2e61519372a99fa5890db070064c");
             this.algoliaHelper = algoliasearchHelper(this.algolia, "font_awesome");
+            this.template = _.template($("#results-template").html());
 
             this.$searchInput = this.$("#search-input");
             this.$searchResultsSection = this.$("#search-results");
@@ -41,7 +39,14 @@ $(function() {
             this.$searchResultsSection.removeClass("hide");
             this.$searchInputClear.removeClass("hide");
             this.$iconsSection.addClass("hide");
-            this.$searchResultsSection.html(this.template({results: content}));
+
+            var results = [];
+
+            _.each(content.hits, function(result) {
+                results.push(new SearchResultView({ result: result }).render())
+            });
+
+            this.$searchResultsSection.html(this.template({ content: content, results: results.join("") }));
         },
 
         clearResults: function() {
@@ -50,6 +55,32 @@ $(function() {
             this.$searchResultsSection.html("");
             this.$searchInputClear.addClass("hide");
             this.$iconsSection.removeClass("hide");
+        }
+    });
+
+    var SearchResultView = Backbone.View.extend({
+        initialize: function(options) {
+            this.template = _.template($("#result-template").html());
+            this.result = options.result
+        },
+
+        render: function() {
+            var matches = [];
+
+            this.pullMatches(matches, this.result._highlightResult.aliases);
+            this.pullMatches(matches, this.result._highlightResult.synonyms);
+
+            return this.template({ result: this.result, matches: matches.join(", ") });
+        },
+
+        pullMatches: function(matches, list) {
+            if (list !== undefined) {
+                _.each(list, function(highlight) {
+                    if (highlight.matchLevel !== "none") {
+                        matches.push(highlight.value)
+                    }
+                })
+            }
         }
     });
 
