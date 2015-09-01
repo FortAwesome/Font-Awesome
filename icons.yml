@@ -1304,6 +1304,7 @@ icons:
       - bar-chart-o
     filter:
       - graph
+      - analytics
     categories:
       - Web Application Icons
       - Chart Icons
@@ -2303,6 +2304,7 @@ icons:
     created:    3.0
     filter:
       - transfer
+      - arrows
     categories:
       - Web Application Icons
       - Directional Icons
@@ -4426,6 +4428,8 @@ icons:
     id:         header
     unicode:    f1dc
     created:    4.1
+    filter:
+      - heading
     categories:
       - Text Editor Icons
 
@@ -4522,6 +4526,8 @@ icons:
     id:         newspaper-o
     unicode:    f1ea
     created:    4.2
+    filter:
+      - press
     categories:
       - Web Application Icons
 
@@ -4667,6 +4673,9 @@ icons:
     categories:
       - Web Application Icons
       - Chart Icons
+    filter:
+      - graph
+      - analytics
 
 
   - name:       Pie Chart
@@ -4676,6 +4685,9 @@ icons:
     categories:
       - Web Application Icons
       - Chart Icons
+    filter:
+      - graph
+      - analytics
 
   - name:       Line Chart
     id:         line-chart
@@ -4684,6 +4696,9 @@ icons:
     categories:
       - Web Application Icons
       - Chart Icons
+    filter:
+      - graph
+      - analytics
 
   - name:       last.fm
     id:         lastfm
