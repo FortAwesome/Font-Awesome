@@ -70,7 +70,7 @@ $(function() {
             this.pullMatches(matches, this.result._highlightResult.aliases);
             this.pullMatches(matches, this.result._highlightResult.synonyms);
 
-            return this.template({ result: this.result, matches: matches.join(", ") });
+            return this.template({ result: this.result, matches: matches });
         },
 
         pullMatches: function(matches, list) {
@@ -83,7 +83,6 @@ $(function() {
             }
         }
     });
-
 
     var $searchViewElement = $("[data-view=search]");
 

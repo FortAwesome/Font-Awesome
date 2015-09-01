@@ -87,7 +87,10 @@ relative_path: ../
   <script type="text/template" id="result-template">
     <div class="fa-hover col-md-3 col-sm-4">
       <a href="{{ page.relative_path }}icon/<%= result.name %>">
-        <i class="fa <%= result.css_class %>"></i> <%= result._highlightResult.name.value %> <% if (matches !== "") { %>(<%= matches %>)<% } %>
+        <i class="fa <%= result.css_class %>"></i> <%= result._highlightResult.name.value %>
+        <% if (matches.length > 0) { %>
+          <span class="text-muted">(<%= matches.join(", ") %>)</span>
+        <% } %>
       </a>
     </div>
   </script>
