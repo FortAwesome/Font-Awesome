@@ -59,5 +59,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 1.0)
   less (~> 2.5.0)
+  safe_yaml (~> 1.0.4)
   sass (~> 3.0)
   therubyracer
