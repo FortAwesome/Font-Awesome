@@ -1,7 +1,6 @@
 $(function() {
     var SearchView = Backbone.View.extend({
         events: {
-            "keyup #search-input": "search",
             "click #search-clear": "clear"
         },
 
@@ -15,6 +14,7 @@ $(function() {
             this.$searchInputClear = this.$("#search-clear");
             this.$iconsSection = this.$("#icons");
 
+            this.$searchInput.on("keyup", _.debounce(_.bind(this.search, this), 200));
             this.algoliaHelper.on("result", _.bind(this.showResults, this));
         },
 
