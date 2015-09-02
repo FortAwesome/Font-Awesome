@@ -1,5 +1,6 @@
 #[Font Awesome v4.4.0](http://fontawesome.io)
 ###The iconic font and CSS framework
+[![中文说明](http://awesomes.oss-cn-beijing.aliyuncs.com/readme.png)](http://www.awesomes.cn/repo/FortAwesome/font-awesome)
 
 Font Awesome is a full suite of 585 pictographic icons for easy scalable vector graphics on websites,
 created and maintained by [Dave Gandy](http://twitter.com/davegandy).
