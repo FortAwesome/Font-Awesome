@@ -155,6 +155,7 @@ icons:
       - agree
       - accept
       - confirm
+      - tick
     categories:
       - Web Application Icons
 
@@ -169,6 +170,7 @@ icons:
       - close
       - exit
       - x
+      - cross
     categories:
       - Web Application Icons
 
