@@ -2094,6 +2094,7 @@ icons:
       - more
       - dropdown
       - menu
+      - triangle down
     categories:
       - Directional Icons
 
@@ -2101,6 +2102,8 @@ icons:
     id:         caret-up
     unicode:    f0d8
     created:    2.0
+    filter: 
+      - triangle up
     categories:
       - Directional Icons
 
@@ -2111,6 +2114,7 @@ icons:
     filter:
       - previous
       - back
+      - triangle left
     categories:
       - Directional Icons
 
@@ -2121,6 +2125,7 @@ icons:
     filter:
       - next
       - forward
+      - triangle right
     categories:
       - Directional Icons
 
@@ -4590,6 +4595,8 @@ icons:
     id:         cc-amex
     unicode:    f1f3
     created:    4.2
+    filter: 
+      - amex
     categories:
       - Brand Icons
       - Payment Icons
