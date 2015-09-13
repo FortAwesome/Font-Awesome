@@ -674,6 +674,9 @@ icons:
     created:    1.0
     filter:
       - raindrop
+      - waterdrop
+      - drop
+      - droplet
     categories:
       - Web Application Icons
 
@@ -2105,7 +2108,7 @@ icons:
     id:         caret-up
     unicode:    f0d8
     created:    2.0
-    filter: 
+    filter:
       - triangle up
     categories:
       - Directional Icons
@@ -4598,7 +4601,7 @@ icons:
     id:         cc-amex
     unicode:    f1f3
     created:    4.2
-    filter: 
+    filter:
       - amex
     categories:
       - Brand Icons
