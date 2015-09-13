@@ -342,6 +342,7 @@ icons:
     created:    1.0
     filter:
       - reload
+      - sync
     categories:
       - Web Application Icons
       - Spinner Icons
