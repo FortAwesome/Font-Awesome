@@ -4638,6 +4638,11 @@ icons:
     id:         trash
     unicode:    f1f8
     created:    4.2
+    filter:
+      - garbage
+      - delete
+      - remove
+      - hide
     categories:
       - Web Application Icons
 
