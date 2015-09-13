@@ -5095,6 +5095,9 @@ icons:
     id:         user-plus
     unicode:    f234
     created:    4.3
+    filter:
+      - sign up
+      - signup
     categories:
       - Web Application Icons
 
