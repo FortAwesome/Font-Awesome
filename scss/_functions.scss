@@ -1,0 +1,12 @@
+// Functions
+// --------------------------
+
+@function fa-icon-var($icon) {
+  @if not map-has-key($fa-icon-vars, $icon) {
+    @warn "Key `#{$icon}` not found in $fa-icon-vars map.";
+    @return "";
+  } @else {
+    $icon-code: #{map-get($fa-icon-vars, $icon)};
+    @return #{"\"\\"}#{$icon-code + "\""};
+  }
+}
