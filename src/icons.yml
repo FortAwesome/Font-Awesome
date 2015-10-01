@@ -1259,6 +1259,8 @@ icons:
     id:         shopping-cart
     unicode:    f07a
     created:    1.0
+    aliases:
+      - fa-cart
     filter:
       - checkout
       - buy
