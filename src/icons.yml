@@ -1260,7 +1260,7 @@ icons:
     unicode:    f07a
     created:    1.0
     aliases:
-      - fa-cart
+      - cart
     filter:
       - checkout
       - buy
