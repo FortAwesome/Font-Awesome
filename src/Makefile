@@ -23,11 +23,11 @@ build:
 	@echo "Compiling Less files"
 	@mkdir -p ${FA_CSS_DIRECTORY}
 
-	lessc ${FA_LESS_MODERN} > ${FA_CSS_MODERN}
-	lessc --compress ${FA_LESS_MODERN} > ${FA_CSS_MODERN_MIN}
+	bundle exec lessc ${FA_LESS_MODERN} > ${FA_CSS_MODERN}
+	bundle exec lessc --compress ${FA_LESS_MODERN} > ${FA_CSS_MODERN_MIN}
 #	sass ${FA_SCSS_MODERN} ${FA_CSS_MODERN}
 
-	lessc --yui-compress ${SITE_LESS} > ${SITE_CSS}
+	bundle exec lessc --yui-compress ${SITE_LESS} > ${SITE_CSS}
 	cp -r ${FA_ROOT_DIRECTORY}/* ../
 	mv README.md-nobuild ../README.md
 	cd assets && mv font-awesome font-awesome-{{ site.fontawesome.version }} && zip -r9 font-awesome-{{ site.fontawesome.version }}.zip font-awesome-{{ site.fontawesome.version }} && mv font-awesome-{{ site.fontawesome.version }} font-awesome

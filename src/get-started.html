@@ -21,13 +21,13 @@ relative_path: ../
   {% include stripe-ad.html %}
 
   <div id="bootstrapcdn">
-    <h2 class="page-header">EASIEST: <a href="http://www.bootstrapcdn.com/#fontawesome_tab">BootstrapCDN</a> by <a href="http://maxcdn.com">MaxCDN</a></h2>
-    <p>Thanks to the generous folks at <a href="http://maxcdn.com">MaxCDN</a>, you can use Bootstrap CDN to add Font Awesome into your website with a single line of code. You don't even have to download or install anything!</p>
+    <h2 class="page-header">EASIEST: <a href="http://www.bootstrapcdn.com/#fontawesome_tab">BootstrapCDN</a> by <a href="http://tracking.maxcdn.com/c/148092/3982/378">MaxCDN</a></h2>
+    <p>Thanks to the generous folks at <a href="http://tracking.maxcdn.com/c/148092/3982/378">MaxCDN</a>, you can use Bootstrap CDN to add Font Awesome into your website with a single line of code. You don't even have to download or install anything!</p>
     <ol>
       <li>
         Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
 {% highlight html %}
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome.min.css">
 {% endhighlight %}
         <p class="alert alert-success"><i class="fa fa-info-circle"></i> Immediately after release, it takes a bit of time for BootstrapCDN to catch up and get the newest version live on their CDN.</p>
       </li>
@@ -146,9 +146,22 @@ $ gem install font-awesome-sass
     <h2 class="page-header">Validators</h2>
     <p>In order to provide the best possible experience to old and buggy browsers, Font Awesome uses <a href="http://browserhacks.com">CSS browser hacks</a> in several places to target special CSS to certain browser versions in order to work around bugs in the browsers themselves. These hacks understandably cause CSS validators to complain that they are invalid. In a couple places, we also use bleeding-edge CSS features that aren't yet fully standardized, but these are used purely for progressive enhancement.</p>
     <p>These validation warnings don't matter in practice since the non-hacky portion of our CSS does fully validate and the hacky portions don't interfere with the proper functioning of the non-hacky portion, hence why we deliberately ignore these particular warnings.</p>
+    <p><a href="http://getbootstrap.com/getting-started/#support-validators">Getting started - Validators</a> by <a href="http://getbootstrap.com/about/#team">Bootstrap Team</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
   </section>
 
-  <section class="need-ie7">
+  <section id="ie8-font-face">
+    <h2 class="page-header">Internet Explorer 8 and @font-face</h2>
+    <p>
+      IE8 has some issues with <code>@font-face</code> when combined with <code>:before</code>.
+      Font Awesome uses that combination. If a page is cached, and loaded without the mouse over the window
+      (i.e. hit the refresh button or load something in an iframe) then the page gets rendered before the font loads.
+      Hovering over the page (body) will show some of the icons and hovering over the remaining icons will show those as well.
+      <a href="https://github.com/FortAwesome/Font-Awesome/issues/954">See issue #954</a> for details.
+    </p>
+    <p><a href="http://getbootstrap.com/getting-started/#support-ie8-font-face">Getting started - Internet Explorer 8 and @font-face</a> by <a href="http://getbootstrap.com/about/#team">Bootstrap Team</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
+  </section>
+
+  <section id="need-ie7">
     <h2 class="page-header">Need IE7 Support?</h2>
     <p>
       If you need IE7 support, you have my condolences. Really. Font Awesome {{ site.fontawesome.version }}

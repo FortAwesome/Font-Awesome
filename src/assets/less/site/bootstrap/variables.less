@@ -49,14 +49,14 @@
 @fa-green-dark:         darken(@fa-green, 10%);
 
 @jumbotron-border:      mix(@fa-green, @fa-green-dark, 75%);
-@font-family-alt:       proxima-nova-sc-osf, "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-alt:       proxima-nova-sc, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 
 // BOOTSTRAP OVERRIDES
 // -------------------
 
 // Brand colors
-@brand-success:         mix(@fa-green, #fff, 70%);
+@brand-success:         @fa-green;
 
 
 // Links
@@ -106,6 +106,10 @@
 @state-info-text:               mix(@blue-dark, @blue, 50%);
 @state-info-bg:                 @blue-lighter;
 @state-info-border:             darken(spin(@state-info-bg, -10), 7%);
+
+@state-danger-text:              @brand-danger;
+@state-danger-bg:                mix(@state-danger-text,#fff,10%);
+@state-danger-border:            darken(spin(@state-danger-bg, -10), 5%);
 
 
 // Carousel

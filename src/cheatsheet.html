@@ -24,10 +24,11 @@ relative_path: ../
 
     {% for icon in sorted_icons %}
     <div class="col-md-4 col-sm-6 col-lg-3">
+      {% if icon.created >= site.fontawesome.major_version %}<small class="text-muted pull-right">{{ icon.created }}</small>{% endif %}
       <i class="fa fa-fw">&#x{{ icon.unicode }}</i>
       fa-{{ icon.class }}
       {% if icon.alias_of %} <span class="text-muted">(alias)</span>{% endif %}
-      <span class="muted">[&amp;#x{{ icon.unicode }};]</span>
+      <span class="text-muted">[&amp;#x{{ icon.unicode }};]</span>
     </div>
     {% endfor %}
   </div>

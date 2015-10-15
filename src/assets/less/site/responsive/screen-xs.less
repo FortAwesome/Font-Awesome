@@ -71,8 +71,12 @@
     .tagline { margin-bottom: 10px; }
   }
 
-
-  .sticky-footer(331px, 60px);
-
   .hide-xs { display: none; }
+
+  .block-xs { display: block; }
+
+  .modal-footer .block-xs + .block-xs {
+    margin-left: 0;
+    margin-top: 10px;
+  }
 }

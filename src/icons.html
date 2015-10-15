@@ -10,7 +10,7 @@ relative_path: ../
 {% include jumbotron.html %}
 {% include stripe-social.html %}
 
-<div class="container">
+<div class="container" data-view="search">
   {% capture stripe_ad_content %}
   <p class="lead">
     You asked, Font Awesome delivers with {{ icons | version:site.fontawesome.minor_version | size }} shiny new icons in version {{ site.fontawesome.minor_version }}.
@@ -21,21 +21,77 @@ relative_path: ../
   {% endcapture %}
   {% include stripe-ad.html %}
 
-  {% include icons/filter.html %}
+  <div class="row">
+    <div class="col-md-10 col-sm-9">
+      <section id="search">
+        <label for="search-input"><i class="fa fa-search"></i></label>
+        <input id="search-input" class="form-control input-lg" placeholder="Search icons" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
+        <a id="search-clear" href="#" class="fa fa-times-circle hide"></a>
+      </section>
+    </div>
+    <div class="col-md-2 col-sm-3 padding-left-none hidden-xs">
+      <div class="algolia">
+        by <a href="https://algolia.com"><i class="fas fas-algolia"></i></a>
+      </div>
+    </div>
+  </div>
 
-  {% include icons/new.html %}
-  {% include icons/web-application.html %}
-  {% include icons/transportation.html %}
-  {% include icons/gender.html %}
-  {% include icons/file-type.html %}
-  {% include icons/spinner.html %}
-  {% include icons/form-control.html %}
-  {% include icons/payment.html %}
-  {% include icons/chart.html %}
-  {% include icons/currency.html %}
-  {% include icons/text-editor.html %}
-  {% include icons/directional.html %}
-  {% include icons/video-player.html %}
-  {% include icons/brand.html %}
-  {% include icons/medical.html %}
+  <div id="search-results" class="hide"></div>
+  <div id="icons">
+    {% include icons/new.html %}
+    {% include icons/web-application.html %}
+    {% include icons/hand.html %}
+    {% include icons/transportation.html %}
+    {% include icons/gender.html %}
+    {% include icons/file-type.html %}
+    {% include icons/spinner.html %}
+    {% include icons/form-control.html %}
+    {% include icons/payment.html %}
+    {% include icons/chart.html %}
+    {% include icons/currency.html %}
+    {% include icons/text-editor.html %}
+    {% include icons/directional.html %}
+    {% include icons/video-player.html %}
+    {% include icons/brand.html %}
+    {% include icons/medical.html %}
+  </div>
+  <script type="text/template" id="results-template">
+    <h2 class="page-header">Search for '<span class="text-color-default"><%= content.query %></span>'</h2>
+    <% if (content.nbHits > 0) { %>
+      <div class="row fontawesome-icon-list">
+        <%= results %>
+      </div>
+    <% } else { %>
+      <div class="alert alert-danger text-lg" role="alert">
+        <h3 class="margin-top margin-bottom-lg"><i class="fa fa-meh-o"></i> Oops! No icons matched your query.</h3>
+        A few things that might help:
+        <ol>
+          <li>
+            Use <a class="alert-link" href="https://fonticons.com">Fonticons</a> (our latest project) to add your
+            own icons and take your icon game to the next level!
+          </li>
+          <li>
+            Really, really want to see an icon in Font Awesome?
+            <a class="alert-link" href="mailto:dave@fonticons.com">Drop me an email</a> to commission the icons you need!
+          </li>
+          <li>
+            Are we missing something in our search results?
+            <a class="alert-link" href="https://github.com/FortAwesome/Font-Awesome/issues/new">Open an issue on GitHub!</a>
+            (Make sure to <a class="alert-link" href="https://github.com/FortAwesome/Font-Awesome/issues">search existing
+            issues first</a>.)
+          </li>
+        </ol>
+      </div>
+    <% } %>
+  </script>
+  <script type="text/template" id="result-template">
+    <div class="fa-hover col-md-3 col-sm-4">
+      <a href="{{ page.relative_path }}icon/<%= result.name %>">
+        <i class="fa <%= result.css_class %>"></i> <%= result._highlightResult.name.value %>
+        <% if (matches.length > 0) { %>
+          <span class="text-muted">(<%= matches.join(", ") %>)</span>
+        <% } %>
+      </a>
+    </div>
+  </script>
 </div>
