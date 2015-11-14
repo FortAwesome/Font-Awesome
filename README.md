@@ -74,6 +74,9 @@ to the `dependencies` in your `component.json`.
 
 ## Hacking on Font Awesome
 
+## Bower Installation
+`bower install components-font-awesome`.
+
 **Before you can build the project**, you must first have the following installed:
 
 - [Ruby](https://www.ruby-lang.org/en/)
