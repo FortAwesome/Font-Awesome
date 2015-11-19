@@ -5684,3 +5684,11 @@ icons:
     categories:
       - Brand Icons
       - Payment Icons
+
+  - name:       Codie Pie
+    id:         codiepie
+    unicode:    f284
+    created:    4.4
+    url:        codiepie.com
+    categories:
+      - Brand Icons
