@@ -5674,3 +5674,13 @@ icons:
       - ie
     categories:
       - Brand Icons
+
+  - name:       Credit Card
+    id:         credit-card-alt
+    unicode:    f283
+    created:    4.4
+    filter:
+      - credit card
+    categories:
+      - Brand Icons
+      - Payment Icons
