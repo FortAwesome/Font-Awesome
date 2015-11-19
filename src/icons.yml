@@ -5692,3 +5692,10 @@ icons:
     url:        codiepie.com
     categories:
       - Brand Icons
+
+  - name:       MODX
+    id:         modx
+    unicode:    f285
+    created:    4.4
+    categories:
+      - Brand Icons
