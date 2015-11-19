@@ -5650,3 +5650,10 @@ icons:
     url:        fonticons.com
     categories:
       - Brand Icons
+
+  - name:       reddit Alien
+    id:         reddit-alien
+    unicode:    f281
+    created:    4.4
+    categories:
+      - Brand Icons
