@@ -1,7 +1,7 @@
 #[Font Awesome v4.4.1](http://fontawesome.io)
 ###The iconic font and CSS framework
 
-Font Awesome is a full suite of 586 pictographic icons for easy scalable vector graphics on websites,
+Font Awesome is a full suite of 587 pictographic icons for easy scalable vector graphics on websites,
 created and maintained by [Dave Gandy](http://twitter.com/davegandy).
 Stay up to date with the latest release and announcements on Twitter:
 [@fontawesome](http://twitter.com/fontawesome).

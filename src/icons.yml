@@ -5479,6 +5479,8 @@ icons:
     id:         safari
     unicode:    f267
     created:    4.4
+    filter:
+      - browser
     categories:
       - Brand Icons
 
@@ -5486,6 +5488,8 @@ icons:
     id:         chrome
     unicode:    f268
     created:    4.4
+    filter:
+      - browser
     categories:
       - Brand Icons
 
@@ -5493,6 +5497,8 @@ icons:
     id:         firefox
     unicode:    f269
     created:    4.4
+    filter:
+      - browser
     categories:
       - Brand Icons
 
@@ -5507,6 +5513,9 @@ icons:
     id:         internet-explorer
     unicode:    f26b
     created:    4.4
+    filter:
+      - browser
+      - ie
     categories:
       - Brand Icons
 
@@ -5653,5 +5662,15 @@ icons:
     id:         reddit-alien
     unicode:    f281
     created:    4.4
+    categories:
+      - Brand Icons
+
+  - name:       Edge Browser
+    id:         edge
+    unicode:    f282
+    created:    4.4
+    filter:
+      - browser
+      - ie
     categories:
       - Brand Icons
