@@ -5699,3 +5699,17 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
+
+  - name:       Fort Awesome
+    id:         fort-awesome
+    unicode:    f286
+    created:    4.4
+    categories:
+      - Brand Icons
+
+  - name:       USB
+    id:         usb
+    unicode:    f287
+    created:    4.4
+    categories:
+      - Brand Icons
