@@ -5772,3 +5772,10 @@ icons:
     created:    4.5
     categories:
       - Web Application Icons
+
+  - name:       Shopping Basket
+    id:         shopping-basket
+    unicode:    f291
+    created:    4.5
+    categories:
+      - Web Application Icons
