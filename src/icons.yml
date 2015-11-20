@@ -5713,3 +5713,10 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
+
+  - name:       Product Hunt
+    id:         product-hunt
+    unicode:    f288
+    created:    4.4
+    categories:
+      - Brand Icons
