@@ -5777,3 +5777,10 @@ icons:
     created:    4.5
     categories:
       - Web Application Icons
+
+  - name:       Hashtag
+    id:         hashtag
+    unicode:    f292
+    created:    4.5
+    categories:
+      - Web Application Icons
