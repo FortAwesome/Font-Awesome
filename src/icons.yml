@@ -5762,3 +5762,11 @@ icons:
     created:    4.5
     categories:
       - Video Player Icons
+
+
+  - name:       Shopping Bag
+    id:         shopping-bag
+    unicode:    f290
+    created:    4.5
+    categories:
+      - Web Application Icons
