@@ -5793,10 +5793,19 @@ icons:
     created:    4.5
     categories:
       - Web Application Icons
+      - Brand Icons
 
   - name:       Bluetooth
     id:         bluetooth-b
     unicode:    f294
+    created:    4.5
+    categories:
+      - Web Application Icons
+      - Brand Icons
+
+  - name:       Percent
+    id:         percent
+    unicode:    f295
     created:    4.5
     categories:
       - Web Application Icons
