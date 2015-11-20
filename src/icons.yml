@@ -5722,3 +5722,10 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
+
+  - name:       Mixcloud
+    id:         mixcloud
+    unicode:    f289
+    created:    4.4
+    categories:
+      - Brand Icons
