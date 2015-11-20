@@ -5734,3 +5734,31 @@ icons:
     created:    4.5
     categories:
       - Brand Icons
+
+  - name:       Pause Circle
+    id:         pause-circle
+    unicode:    f28b
+    created:    4.5
+    categories:
+      - Video Player Icons
+
+  - name:       Pause Circle Outlined
+    id:         pause-circle-o
+    unicode:    f28c
+    created:    4.5
+    categories:
+      - Video Player Icons
+
+  - name:       Stop Circle
+    id:         stop-circle
+    unicode:    f28d
+    created:    4.5
+    categories:
+      - Video Player Icons
+
+  - name:       Stop Circle Outlined
+    id:         stop-circle-o
+    unicode:    f28e
+    created:    4.5
+    categories:
+      - Video Player Icons
