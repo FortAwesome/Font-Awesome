@@ -2074,3 +2074,9 @@
 .fa-hashtag:before {
   content: "\f292";
 }
+.fa-bluetooth:before {
+  content: "\f293";
+}
+.fa-bluetooth-b:before {
+  content: "\f294";
+}
