@@ -5786,3 +5786,17 @@ icons:
     created:    4.5
     categories:
       - Web Application Icons
+
+  - name:       Bluetooth
+    id:         bluetooth
+    unicode:    f293
+    created:    4.5
+    categories:
+      - Web Application Icons
+
+  - name:       Bluetooth
+    id:         bluetooth-b
+    unicode:    f294
+    created:    4.5
+    categories:
+      - Web Application Icons
