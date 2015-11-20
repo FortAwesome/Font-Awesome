@@ -5729,3 +5729,10 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
+
+  - name:       Scribd
+    id:         scribd
+    unicode:    f28a
+    created:    4.4
+    categories:
+      - Brand Icons
