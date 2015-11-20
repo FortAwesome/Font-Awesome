@@ -5661,14 +5661,14 @@ icons:
   - name:       reddit Alien
     id:         reddit-alien
     unicode:    f281
-    created:    4.4
+    created:    4.5
     categories:
       - Brand Icons
 
   - name:       Edge Browser
     id:         edge
     unicode:    f282
-    created:    4.4
+    created:    4.5
     filter:
       - browser
       - ie
@@ -5678,7 +5678,7 @@ icons:
   - name:       Credit Card
     id:         credit-card-alt
     unicode:    f283
-    created:    4.4
+    created:    4.5
     filter:
       - credit card
     categories:
@@ -5688,7 +5688,7 @@ icons:
   - name:       Codie Pie
     id:         codiepie
     unicode:    f284
-    created:    4.4
+    created:    4.5
     url:        codiepie.com
     categories:
       - Brand Icons
@@ -5696,41 +5696,41 @@ icons:
   - name:       MODX
     id:         modx
     unicode:    f285
-    created:    4.4
+    created:    4.5
     categories:
       - Brand Icons
 
   - name:       Fort Awesome
     id:         fort-awesome
     unicode:    f286
-    created:    4.4
+    created:    4.5
     categories:
       - Brand Icons
 
   - name:       USB
     id:         usb
     unicode:    f287
-    created:    4.4
+    created:    4.5
     categories:
       - Brand Icons
 
   - name:       Product Hunt
     id:         product-hunt
     unicode:    f288
-    created:    4.4
+    created:    4.5
     categories:
       - Brand Icons
 
   - name:       Mixcloud
     id:         mixcloud
     unicode:    f289
-    created:    4.4
+    created:    4.5
     categories:
       - Brand Icons
 
   - name:       Scribd
     id:         scribd
     unicode:    f28a
-    created:    4.4
+    created:    4.5
     categories:
       - Brand Icons
