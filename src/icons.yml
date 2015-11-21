@@ -115,6 +115,7 @@ icons:
       - blocks
       - squares
       - boxes
+      - grid
     categories:
       - Text Editor Icons
 
@@ -126,6 +127,7 @@ icons:
       - blocks
       - squares
       - boxes
+      - grid
     categories:
       - Text Editor Icons
 
