@@ -31,7 +31,7 @@
       "web": "http://twitter.com/supercodepoet"
     }
   ],
-  "license": "OFL-1.1 AND MIT",
+  "license": "(OFL-1.1 AND MIT)",
   "dependencies": {
   },
   "engines" : {

@@ -115,6 +115,7 @@ icons:
       - blocks
       - squares
       - boxes
+      - grid
     categories:
       - Text Editor Icons
 
@@ -126,6 +127,7 @@ icons:
       - blocks
       - squares
       - boxes
+      - grid
     categories:
       - Text Editor Icons
 
@@ -3111,6 +3113,7 @@ icons:
       - protect
       - admin
       - password
+      - lock
     categories:
       - Web Application Icons
 
@@ -5479,6 +5482,8 @@ icons:
     id:         safari
     unicode:    f267
     created:    4.4
+    filter:
+      - browser
     categories:
       - Brand Icons
 
@@ -5486,6 +5491,8 @@ icons:
     id:         chrome
     unicode:    f268
     created:    4.4
+    filter:
+      - browser
     categories:
       - Brand Icons
 
@@ -5493,6 +5500,8 @@ icons:
     id:         firefox
     unicode:    f269
     created:    4.4
+    filter:
+      - browser
     categories:
       - Brand Icons
 
@@ -5507,6 +5516,9 @@ icons:
     id:         internet-explorer
     unicode:    f26b
     created:    4.4
+    filter:
+      - browser
+      - ie
     categories:
       - Brand Icons
 
@@ -5648,3 +5660,153 @@ icons:
     url:        fonticons.com
     categories:
       - Brand Icons
+
+  - name:       reddit Alien
+    id:         reddit-alien
+    unicode:    f281
+    created:    4.5
+    categories:
+      - Brand Icons
+
+  - name:       Edge Browser
+    id:         edge
+    unicode:    f282
+    created:    4.5
+    filter:
+      - browser
+      - ie
+    categories:
+      - Brand Icons
+
+  - name:       Credit Card
+    id:         credit-card-alt
+    unicode:    f283
+    created:    4.5
+    filter:
+      - credit card
+    categories:
+      - Brand Icons
+      - Payment Icons
+
+  - name:       Codie Pie
+    id:         codiepie
+    unicode:    f284
+    created:    4.5
+    url:        codiepie.com
+    categories:
+      - Brand Icons
+
+  - name:       MODX
+    id:         modx
+    unicode:    f285
+    created:    4.5
+    categories:
+      - Brand Icons
+
+  - name:       Fort Awesome
+    id:         fort-awesome
+    unicode:    f286
+    created:    4.5
+    categories:
+      - Brand Icons
+
+  - name:       USB
+    id:         usb
+    unicode:    f287
+    created:    4.5
+    categories:
+      - Brand Icons
+
+  - name:       Product Hunt
+    id:         product-hunt
+    unicode:    f288
+    created:    4.5
+    categories:
+      - Brand Icons
+
+  - name:       Mixcloud
+    id:         mixcloud
+    unicode:    f289
+    created:    4.5
+    categories:
+      - Brand Icons
+
+  - name:       Scribd
+    id:         scribd
+    unicode:    f28a
+    created:    4.5
+    categories:
+      - Brand Icons
+
+  - name:       Pause Circle
+    id:         pause-circle
+    unicode:    f28b
+    created:    4.5
+    categories:
+      - Video Player Icons
+
+  - name:       Pause Circle Outlined
+    id:         pause-circle-o
+    unicode:    f28c
+    created:    4.5
+    categories:
+      - Video Player Icons
+
+  - name:       Stop Circle
+    id:         stop-circle
+    unicode:    f28d
+    created:    4.5
+    categories:
+      - Video Player Icons
+
+  - name:       Stop Circle Outlined
+    id:         stop-circle-o
+    unicode:    f28e
+    created:    4.5
+    categories:
+      - Video Player Icons
+
+
+  - name:       Shopping Bag
+    id:         shopping-bag
+    unicode:    f290
+    created:    4.5
+    categories:
+      - Web Application Icons
+
+  - name:       Shopping Basket
+    id:         shopping-basket
+    unicode:    f291
+    created:    4.5
+    categories:
+      - Web Application Icons
+
+  - name:       Hashtag
+    id:         hashtag
+    unicode:    f292
+    created:    4.5
+    categories:
+      - Web Application Icons
+
+  - name:       Bluetooth
+    id:         bluetooth
+    unicode:    f293
+    created:    4.5
+    categories:
+      - Web Application Icons
+      - Brand Icons
+
+  - name:       Bluetooth
+    id:         bluetooth-b
+    unicode:    f294
+    created:    4.5
+    categories:
+      - Web Application Icons
+      - Brand Icons
+
+  - name:       Percent
+    id:         percent
+    unicode:    f295
+    created:    4.5
+    categories:
+      - Web Application Icons
