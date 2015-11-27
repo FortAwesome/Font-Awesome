@@ -3113,6 +3113,7 @@ icons:
       - protect
       - admin
       - password
+      - lock
     categories:
       - Web Application Icons
 
