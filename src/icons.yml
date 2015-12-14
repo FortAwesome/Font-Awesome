@@ -5683,10 +5683,16 @@ icons:
     unicode:    f283
     created:    4.5
     filter:
+      - money
+      - buy
+      - debit
+      - checkout
+      - purchase
+      - payment
       - credit card
     categories:
-      - Brand Icons
       - Payment Icons
+      - Web Application Icons
 
   - name:       Codie Pie
     id:         codiepie
