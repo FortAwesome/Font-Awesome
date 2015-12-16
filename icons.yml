@@ -115,6 +115,7 @@ icons:
       - blocks
       - squares
       - boxes
+      - grid
     categories:
       - Text Editor Icons
 
@@ -126,6 +127,7 @@ icons:
       - blocks
       - squares
       - boxes
+      - grid
     categories:
       - Text Editor Icons
 
@@ -3111,6 +3113,7 @@ icons:
       - protect
       - admin
       - password
+      - lock
     categories:
       - Web Application Icons
 
@@ -5680,10 +5683,16 @@ icons:
     unicode:    f283
     created:    4.5
     filter:
+      - money
+      - buy
+      - debit
+      - checkout
+      - purchase
+      - payment
       - credit card
     categories:
-      - Brand Icons
       - Payment Icons
+      - Web Application Icons
 
   - name:       Codie Pie
     id:         codiepie

@@ -6779,8 +6779,9 @@ button.close {
   font-weight: 300;
   font-size: 20px;
 }
-.navbar-brand .fa-flag {
+.navbar-brand .fas-flag-logo {
   padding-right: 3px;
+  vertical-align: baseline;
 }
 .navbar-nav > li > a {
   padding: 11px 10px 9px;
@@ -6810,6 +6811,116 @@ button.close {
 }
 .navbar-nav.navbar-right:last-child {
   margin-right: -10px;
+}
+.navbar-org {
+  background-color: #1b926c;
+  border-color: #177e5d;
+  padding: 0;
+}
+.navbar-org .ficon-logo-flag,
+.navbar-org .ficon-log-fort {
+  vertical-align: baseline;
+}
+.navbar-org .navbar-text {
+  color: #a5d8c7;
+  margin-top: 12px;
+  margin-right: 30px;
+}
+.navbar-org .navbar-nav {
+  margin-right: -10px;
+}
+.navbar-org .navbar-nav > li + li {
+  margin-left: 15px;
+}
+.navbar-org .navbar-nav > li > a {
+  color: #c7e7dc;
+}
+.navbar-org .navbar-nav > li > a:hover,
+.navbar-org .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+  border-bottom: solid 2px #e8f5f1;
+}
+.navbar-org .navbar-nav > .active > a,
+.navbar-org .navbar-nav > .active > a:hover,
+.navbar-org .navbar-nav > .active > a:focus {
+  color: #c7e7dc;
+  background-color: transparent;
+  border-radius: 0;
+  border-bottom: solid 2px #b0ddce;
+}
+.navbar-org .navbar-nav > .disabled > a,
+.navbar-org .navbar-nav > .disabled > a:hover,
+.navbar-org .navbar-nav > .disabled > a:focus {
+  color: #444444;
+  background-color: transparent;
+}
+.navbar-org .navbar-toggle {
+  border-color: #c7e7dc;
+}
+.navbar-org .navbar-toggle:hover,
+.navbar-org .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-org .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-org .navbar-collapse,
+.navbar-org .navbar-form {
+  border-color: #177f5e;
+}
+.navbar-org .navbar-nav > .open > a,
+.navbar-org .navbar-nav > .open > a:hover,
+.navbar-org .navbar-nav > .open > a:focus {
+  background-color: #1b926c;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .navbar-org .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #1b926c;
+  }
+  .navbar-org .navbar-nav .open .dropdown-menu .divider {
+    background-color: #1b926c;
+  }
+  .navbar-org .navbar-nav .open .dropdown-menu > li > a {
+    color: #b0ddce;
+  }
+  .navbar-org .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-org .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-org .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-org .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-org .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #1b926c;
+  }
+  .navbar-org .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-org .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-org .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444444;
+    background-color: transparent;
+  }
+}
+.navbar-org .navbar-link {
+  color: #b0ddce;
+}
+.navbar-org .navbar-link:hover {
+  color: #ffffff;
+}
+.navbar-org .btn-link {
+  color: #b0ddce;
+}
+.navbar-org .btn-link:hover,
+.navbar-org .btn-link:focus {
+  color: #ffffff;
+}
+.navbar-org .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-org .btn-link:hover,
+.navbar-org .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-org .btn-link:focus {
+  color: #444444;
 }
 .btn {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
@@ -6977,7 +7088,7 @@ label.error {
   margin-top: 5px;
   font-size: 220px;
   text-align: center;
-  line-height: 240px;
+  line-height: 250px;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
 }
 .carousel-control {
@@ -7397,11 +7508,15 @@ label.error {
 }
 .jumbotron,
 .navbar-inverse,
+.navbar-inverse .navbar-nav > li.active > a,
+.navbar-org,
 #footer {
   position: relative;
 }
 .jumbotron:after,
 .navbar-inverse:after,
+.navbar-inverse .navbar-nav > li.active > a:after,
+.navbar-org:after,
 #footer:after {
   content: '';
   display: block;
@@ -7416,6 +7531,8 @@ label.error {
 }
 .jumbotron .container,
 .navbar-inverse .container,
+.navbar-inverse .navbar-nav > li.active > a .container,
+.navbar-org .container,
 #footer .container {
   position: relative;
   z-index: 2;
@@ -7596,7 +7713,7 @@ div.bsap a.adhere:hover {
 @media (min-width: 1200px) {
   #icon-carousel {
     font-size: 240px;
-    line-height: 260px;
+    line-height: 275px;
     margin-top: 22px;
   }
   .carousel-control {
@@ -7657,7 +7774,7 @@ div.bsap a.adhere:hover {
 @media (min-width: 768px) and (max-width: 991px) {
   #icon-carousel {
     font-size: 200px;
-    line-height: 220px;
+    line-height: 230px;
   }
   .carousel-control {
     top: 210px;
@@ -7704,7 +7821,7 @@ div.bsap a.adhere:hover {
 @media (max-width: 767px) {
   #icon-carousel {
     font-size: 180px;
-    line-height: 200px;
+    line-height: 210px;
     width: 280px;
     margin: 30px auto 0;
   }
@@ -7807,5 +7924,21 @@ div.bsap a.adhere:hover {
   .modal-footer .block-xs + .block-xs {
     margin-left: 0;
     margin-top: 10px;
+  }
+  .navbar-org {
+    text-align: center;
+  }
+  .navbar-org .container {
+    padding: 0;
+  }
+  .navbar-org .navbar-nav {
+    margin: 0;
+  }
+  .navbar-org .navbar-nav > li + li {
+    margin-left: 0;
+  }
+  .navbar-org .nav > li {
+    float: left;
+    width: 50%;
   }
 }
