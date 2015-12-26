@@ -63,9 +63,9 @@ For more information on SemVer, please visit http://semver.org.
 - GitHub: https://github.com/davegandy
 - 
 ## Bower
-To Install with [bower](http://bower.io/),
+To Install with [bower](http://bower.io/).
 
-add
+Just run
 
     $ bower install font-awesome
 
