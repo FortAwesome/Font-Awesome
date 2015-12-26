@@ -1350,6 +1350,7 @@
 .fa-openid:before {
   content: "\f19b";
 }
+.fa-government:before,
 .fa-institution:before,
 .fa-bank:before,
 .fa-university:before {
