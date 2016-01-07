@@ -1,33 +1,156 @@
-<div class="modal fade" id="modal-download" tabindex="-1" role="dialog" aria-labelledby="modal-download-label">
-  <div class="modal-dialog" role="document">
+<div class="modal fade" id="modal-download" tabindex="-1" role="dialog" aria-labelledby="modal-download-label"
+     xmlns="http://www.w3.org/1999/html">
+  <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
-        <h2 class="modal-title" id="modal-download-label">Help Us Out!</h2>
+        <h2 class="modal-title" id="modal-download-label"><i class="fa fa-download fa-lg"></i>&nbsp; Download</h2>
       </div>
-      <div class="modal-body text-lg">
-        <p class="margin-bottom-lg">
-          I hope you love Font Awesome. If you've found it useful,
-          <a class="strong" href="https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=download_modal&utm_campaign=promo_4.4_update" target="_blank">
-            please do me a favor and check out my latest project, Fonticons</a>. It makes it easy to put the perfect
-          icons on your website. Choose from our awesome, comprehensive icon sets or copy and paste your own.
-        </p>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="panel panel-success">
+              <div class="panel-heading">
+                <div class="panel-title">
+                  <h3 class="margin-none">
+                    <i class="fas fas-fort-logo fas-lg valign-baseline"></i> Fort Awesome
+                  </h3>
+                </div>
+              </div>
+              <div class="panel-body padding-bottom-none">
+                <div class="lead text-center">
+                  Take your icon game to the next level &amp;<br class="hide-xs"> start your 14 day free trial!
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 text-center">
+                    <div class="panel panel-success">
+                      <div class="panel-heading">
+                        <div class="panel-title">
+                          <h3 class="margin-none">Pro</h3>
+                          <div class="text-normal">$99/year</div>
+                        </div>
+                      </div>
+                      <div class="panel-body">
+                        <div><strong>15</strong> Kits</div>
+                        <div>Starter Icon Library</div>
+                        <div>10,000+ Icons</div>
+                        <div><strong>Unlimited</strong> Uploaded Icons</div>
+                        <div>Upload Your Logo</div>
+                        <div><strong>2500</strong> Icons per Kit</div>
+                        <div><strong>8</strong> Typefaces per Kit</div>
+                        <div>Kit Download</div>
+                        <div><strong>1M</strong> Pageviews/month</div>
 
-        <p class="margin-bottom-lg">
-          Please. Check it out.
-        </p>
+                        <div class="margin-top-sm strong"><a href="https://fonticons.com/start">Find out More</a></div>
 
-        <p>&mdash;Dave Gandy</p>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-default btn-lg block-xs" href="{{ page.relative_path }}assets/font-awesome-{{ site.fontawesome.version }}.zip"
-           onClick="_gaq.push(['_trackEvent', 'Outbound Modal Link', 'Download on GitHub']);">
-          <i class="fa fa-download fa-lg"></i>&nbsp;
-          Download
-        </a>
-        <a class="btn btn-success btn-lg block-xs" href="https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=download_modal&utm_campaign=promo_4.4_update" target="_blank">
-          Check out Fonticons &nbsp;<i class="fa fa-external-link fa-lg"></i>
-        </a>
+                        <a href="<%= new_pro_path %>" class="btn btn-success btn-block btn-lg margin-top">Sign Up &nbsp;<i class="fa fa-pencil-square-o"></i></a>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-md-6 col-sm-6 text-center">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <div class="panel-title">
+                          <h3 class="margin-none">Basic</h3>
+                          <div class="text-normal">$49/year</div>
+                        </div>
+                      </div>
+                      <div class="panel-body">
+                        <div>5 Kits</div>
+                        <div>Starter Icon Library</div>
+                        <div>10,000+ Icons</div>
+                        <div>20 Uploaded Icons</div>
+                        <div>Upload Your Logo</div>
+                        <div>100 Icons per Kit</div>
+                        <div>4 Typefaces per Kit</div>
+                        <div class="text-strike text-muted">Kit Download</div>
+                        <div>250k Pageviews/month</div>
+
+                        <div class="margin-top-sm strong"><a href="https://fonticons.com/start">Find out More</a></div>
+
+                        <a href="<%= new_basic_path %>" class="btn btn-default btn-block btn-lg margin-top">Sign Up &nbsp;<i class="fa fa-pencil-square-o"></i></a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+
+                <div class="lead">
+                  You'll get even more Awesome:
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="alert alert-default clearfix">
+                      <i class="fa fa-dashboard fa-4x pull-left"></i>
+                      Subset & shrink your icons <strong>AND TYPEFACES</strong> by 10x.
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="alert alert-default clearfix">
+                      <i class="fa fa-paint-brush fa-4x pull-left"></i>
+                      Upload &amp; build your own logo and vector icons.
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="alert alert-default clearfix">
+                      <i class="fa fa-eye fa-4x pull-left"></i>
+                      Get the perfect visual with the right icon set. Tons to choose from.
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="alert alert-default clearfix">
+                      <i class="fa fa-globe fa-4x pull-left"></i>
+                      Serve your icons &amp; typefaces in a single request with our CDN.
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <p class="">Or get regular 'ole Font Awesome...</p>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <div class="panel-title">
+                  <h3 class="margin-none">
+                    <i class="fas fas-flag-logo"></i> Font Awesome
+                  </h3>
+                </div>
+              </div>
+              <div class="panel-body text-center">
+                <div class="text-strike text-muted">Upload Your Logo &amp; Icons</div>
+                <div class="text-strike text-muted">Shrink Your Icons by 10x</div>
+                <div class="text-strike text-muted">Serve Your Typefaces</div>
+                <div class="text-strike text-muted">Shrink Your Typefaces by 10x</div>
+                <div>Font Awesome Only</div>
+                <div>1 Icon Set</div>
+                <div>{{ icons | size }} Icons</div>
+
+                <a class="btn btn-default btn-lg block-xs margin-top" href="{{ page.relative_path }}assets/font-awesome-{{ site.fontawesome.version }}.zip"
+                   onClick="_gaq.push(['_trackEvent', 'Outbound Modal Link', 'Download on GitHub']);">
+                  <i class="fa fa-download fa-lg"></i>&nbsp;
+                  Download
+                </a>
+              </div>
+            </div>
+            <p class="margin-bottom">
+              I hope you love Font Awesome. If you've found it useful,
+              <a class="strong" href="https://fortawesome.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=download_modal&utm_campaign=promo_4.4_update" target="_blank">
+                please do me a favor and check out my latest project, Fort Awesome</a>.
+            </p>
+
+            <p>&mdash;Dave Gandy</p>
+
+          </div>
+
+        </div>
+
       </div>
     </div>
   </div>
