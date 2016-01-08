@@ -5721,94 +5721,94 @@ button.list-group-item-danger.active:focus {
   border-bottom-color: #dddddd;
 }
 .panel-primary {
-  border-color: #337ab7;
+  border-color: #99bddb;
 }
 .panel-primary > .panel-heading {
   color: #ffffff;
   background-color: #337ab7;
-  border-color: #337ab7;
+  border-color: #99bddb;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #337ab7;
+  border-top-color: #99bddb;
 }
 .panel-primary > .panel-heading .badge {
   color: #337ab7;
   background-color: #ffffff;
 }
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #337ab7;
+  border-bottom-color: #99bddb;
 }
 .panel-success {
-  border-color: #e0f1e9;
+  border-color: #8eceba;
 }
 .panel-success > .panel-heading {
-  color: #1d9d74;
-  background-color: #f1f9f7;
-  border-color: #e0f1e9;
+  color: #ffffff;
+  background-color: #1d9d74;
+  border-color: #8eceba;
 }
 .panel-success > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #e0f1e9;
+  border-top-color: #8eceba;
 }
 .panel-success > .panel-heading .badge {
-  color: #f1f9f7;
-  background-color: #1d9d74;
+  color: #1d9d74;
+  background-color: #ffffff;
 }
 .panel-success > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #e0f1e9;
+  border-bottom-color: #8eceba;
 }
 .panel-info {
-  border-color: #ccf3ff;
+  border-color: #ade0ef;
 }
 .panel-info > .panel-heading {
-  color: #007dbc;
-  background-color: #f0f9ff;
-  border-color: #ccf3ff;
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #ade0ef;
 }
 .panel-info > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #ccf3ff;
+  border-top-color: #ade0ef;
 }
 .panel-info > .panel-heading .badge {
-  color: #f0f9ff;
-  background-color: #007dbc;
+  color: #5bc0de;
+  background-color: #ffffff;
 }
 .panel-info > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #ccf3ff;
+  border-bottom-color: #ade0ef;
 }
 .panel-warning {
-  border-color: #faebcc;
+  border-color: #f8d6a7;
 }
 .panel-warning > .panel-heading {
-  color: #8a6d3b;
-  background-color: #fcf8e3;
-  border-color: #faebcc;
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #f8d6a7;
 }
 .panel-warning > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #faebcc;
+  border-top-color: #f8d6a7;
 }
 .panel-warning > .panel-heading .badge {
-  color: #fcf8e3;
-  background-color: #8a6d3b;
+  color: #f0ad4e;
+  background-color: #ffffff;
 }
 .panel-warning > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #faebcc;
+  border-bottom-color: #f8d6a7;
 }
 .panel-danger {
-  border-color: #f7d8dd;
+  border-color: #eca9a7;
 }
 .panel-danger > .panel-heading {
-  color: #d9534f;
-  background-color: #fbeeed;
-  border-color: #f7d8dd;
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #eca9a7;
 }
 .panel-danger > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #f7d8dd;
+  border-top-color: #eca9a7;
 }
 .panel-danger > .panel-heading .badge {
-  color: #fbeeed;
-  background-color: #d9534f;
+  color: #d9534f;
+  background-color: #ffffff;
 }
 .panel-danger > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #f7d8dd;
+  border-bottom-color: #eca9a7;
 }
 .embed-responsive {
   position: relative;
@@ -7058,6 +7058,59 @@ h1.info-class {
 .alert-link {
   text-decoration: underline;
 }
+.alert-default {
+  background-color: transparent;
+  border-color: #ebebeb;
+  color: #333333;
+}
+.alert-default hr {
+  border-top-color: #dedede;
+}
+.alert-default .alert-link {
+  color: #1a1a1a;
+}
+.alert-well {
+  background-color: #f5f5f5;
+  border-color: #dddddd;
+  color: #333333;
+}
+.alert-well hr {
+  border-top-color: #d0d0d0;
+}
+.alert-well .alert-link {
+  color: #1a1a1a;
+}
+.alert-well-alt {
+  background-color: #f5f5f5;
+  border-color: #dddddd;
+  color: #737373;
+}
+.alert-well-alt hr {
+  border-top-color: #d0d0d0;
+}
+.alert-well-alt .alert-link {
+  color: #595959;
+}
+.tooltip {
+  font-size: 14px;
+}
+.tooltip-inner {
+  padding: 5px 10px;
+}
+.panel {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.panel-heading {
+  margin: -1px;
+  border-bottom-width: 0;
+  padding: 11px 15px;
+}
+.panel-default .panel-heading {
+  margin: 0;
+  border-bottom-width: 1px;
+  padding: 10px 15px;
+}
 @media (min-width: 768px) {
   .modal-md {
     width: 450px;
@@ -7505,6 +7558,9 @@ label.error {
 }
 #no-search-results {
   display: none;
+}
+.valign-baseline {
+  vertical-align: baseline !important;
 }
 .jumbotron,
 .navbar-inverse,

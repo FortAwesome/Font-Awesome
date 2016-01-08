@@ -61,6 +61,7 @@ $(function () {
     interval: 5000
   });
 
+  $('[data-toggle="tooltip"]').tooltip();
   $('[data-toggle="popover"]').popover();
 
   function selectFonticonsAd() {
