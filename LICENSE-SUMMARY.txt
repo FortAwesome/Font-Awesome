@@ -1,3 +1,9 @@
+This is a human-readable summary of (and not a substitute for) all the licenses 
+applied in this project (and listed below).
+All license files are in `licenses/` directory.
+
+---
+
 Font License
 Applies to all desktop and webfont files in the following directory: `font-awesome/fonts/`.
 License: SIL OFL 1.1
