@@ -2319,6 +2319,7 @@ icons:
     filter:
       - transfer
       - arrows
+      - arrow
     categories:
       - Web Application Icons
       - Directional Icons
