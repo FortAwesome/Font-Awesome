@@ -5,9 +5,9 @@ url:              http://localhost:7998
 
 source:           src
 destination:      _gh_pages
-plugins:          src/_plugins
+plugins_dir:      src/_plugins
 
-pygments:         true
+highlighter:      pygments
 permalink:        pretty
 
 # ensures SCSS files are compiled
