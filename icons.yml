@@ -158,6 +158,7 @@ icons:
       - accept
       - confirm
       - tick
+      - ok
     categories:
       - Web Application Icons
 
@@ -2319,6 +2320,7 @@ icons:
     filter:
       - transfer
       - arrows
+      - arrow
     categories:
       - Web Application Icons
       - Directional Icons
