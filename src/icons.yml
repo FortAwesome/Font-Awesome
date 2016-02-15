@@ -5587,6 +5587,8 @@ icons:
     id:         industry
     unicode:    f275
     created:    4.4
+    filter:
+      - factory
     categories:
       - Web Application Icons
 
