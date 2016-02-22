@@ -717,6 +717,7 @@ icons:
       - agree
       - accept
       - confirm
+      - ok
     categories:
       - Web Application Icons
       - Form Control Icons
@@ -908,6 +909,7 @@ icons:
       - agree
       - accept
       - confirm
+      - ok
     categories:
       - Web Application Icons
 
@@ -965,6 +967,7 @@ icons:
       - agree
       - accept
       - confirm
+      - ok
     categories:
       - Web Application Icons
 
@@ -1223,6 +1226,7 @@ icons:
       - chat
       - bubble
       - feedback
+      - message
     categories:
       - Web Application Icons
 
@@ -1377,6 +1381,7 @@ icons:
       - conversation
       - notification
       - notes
+      - message
     categories:
       - Web Application Icons
 
@@ -2248,6 +2253,7 @@ icons:
     filter:
       - notification
       - note
+      - message
     categories:
       - Web Application Icons
 
@@ -2259,6 +2265,7 @@ icons:
       - conversation
       - notification
       - notes
+      - message
     categories:
       - Web Application Icons
 
@@ -3236,6 +3243,7 @@ icons:
       - agree
       - accept
       - confirm
+      - ok
     categories:
       - Web Application Icons
       - Form Control Icons
@@ -5580,6 +5588,8 @@ icons:
     id:         calendar-check-o
     unicode:    f274
     created:    4.4
+    filter:
+      - ok
     categories:
       - Web Application Icons
 
@@ -5622,6 +5632,8 @@ icons:
     id:         commenting
     unicode:    f27a
     created:    4.4
+    filter:
+      - message
     categories:
       - Web Application Icons
 
@@ -5629,6 +5641,8 @@ icons:
     id:         commenting-o
     unicode:    f27b
     created:    4.4
+    filter:
+      - message
     categories:
       - Web Application Icons
 
