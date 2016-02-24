@@ -16,6 +16,55 @@
     padding-right: 20px;
   }
 
+  &.font-awesome-survey {
+    @survey-bg: #8E8F94;
+    background-color: @survey-bg;
+    border-bottom: solid 1px mix(@survey-bg, #fff, 95%);
+
+    .btn-primary {
+      @color: mix(#fff,@survey-bg,80%);
+      @background: darken(@survey-bg, 15%);
+      @border: darken(@background, 15%);
+      font-weight: bold;
+      color: @color;
+      background-color: @background;
+      border-color: @border;
+      border-bottom-width: 2px;
+      text-shadow: none;
+      border-radius: 4px;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        color: #fff;
+        background-color: darken(@border, 10%);
+        border-color: darken(@border, 20%);
+        border-bottom-color: darken(@border, 30%);
+      }
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        background-image: none;
+      }
+      &.disabled,
+      &[disabled],
+      fieldset[disabled] & {
+        &,
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+          background-color: @background;
+          border-color: @border;
+        }
+      }
+    }
+
+
+  }
+
   &.black-tie {
     @black-tie-bg: #222222;
     background-color: @black-tie-bg;

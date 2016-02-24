@@ -7615,6 +7615,52 @@ label.error {
   font-size: 16px;
   padding-right: 20px;
 }
+#banner.font-awesome-survey {
+  background-color: #8e8f94;
+  border-bottom: solid 1px #949599;
+}
+#banner.font-awesome-survey .btn-primary {
+  font-weight: bold;
+  color: #e8e9ea;
+  background-color: #68696e;
+  border-color: #434346;
+  border-bottom-width: 2px;
+  text-shadow: none;
+  border-radius: 4px;
+}
+#banner.font-awesome-survey .btn-primary:hover,
+#banner.font-awesome-survey .btn-primary:focus,
+#banner.font-awesome-survey .btn-primary:active,
+#banner.font-awesome-survey .btn-primary.active,
+.open > #banner.font-awesome-survey .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #2a2a2c;
+  border-color: #111112;
+  border-bottom-color: #000000;
+}
+#banner.font-awesome-survey .btn-primary:active,
+#banner.font-awesome-survey .btn-primary.active,
+.open > #banner.font-awesome-survey .btn-primary.dropdown-toggle {
+  background-image: none;
+}
+#banner.font-awesome-survey .btn-primary.disabled,
+#banner.font-awesome-survey .btn-primary[disabled],
+fieldset[disabled] #banner.font-awesome-survey .btn-primary,
+#banner.font-awesome-survey .btn-primary.disabled:hover,
+#banner.font-awesome-survey .btn-primary[disabled]:hover,
+fieldset[disabled] #banner.font-awesome-survey .btn-primary:hover,
+#banner.font-awesome-survey .btn-primary.disabled:focus,
+#banner.font-awesome-survey .btn-primary[disabled]:focus,
+fieldset[disabled] #banner.font-awesome-survey .btn-primary:focus,
+#banner.font-awesome-survey .btn-primary.disabled:active,
+#banner.font-awesome-survey .btn-primary[disabled]:active,
+fieldset[disabled] #banner.font-awesome-survey .btn-primary:active,
+#banner.font-awesome-survey .btn-primary.disabled.active,
+#banner.font-awesome-survey .btn-primary[disabled].active,
+fieldset[disabled] #banner.font-awesome-survey .btn-primary.active {
+  background-color: #68696e;
+  border-color: #434346;
+}
 #banner.black-tie {
   background-color: #222222;
   border-bottom: solid 1px #2d2d2d;
