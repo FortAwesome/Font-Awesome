@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Page Needs
+ ================================================== -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Font Awesome, the iconic font and CSS framework">
+  <meta name="author" content="Dave Gandy">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="{{ page.relative_path }}assets/ico/favicon.ico">
+
+  <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+
+  <style type="text/css">
+    html{
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    iframe{
+      position: absolute;
+      left:0;
+      right:0;
+      bottom:0;
+      top:0;
+      border:0;
+    }
+  </style>
+
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30136587-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script');
+      ga.src = 'https://www.google-analytics.com/ga.js';
+      var s = document.scripts[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body>
+  {{content}}
+</body>
+</html>
