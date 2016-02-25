@@ -53,7 +53,7 @@ $(function () {
     //   btn_text: "Check it Out!"
     // },
     {
-      quote: "<strong>Help make Font Awesome more awesome!</strong> Fill out a 6-minute survey and give us your feedback.",
+      quote: "<strong>Help make Font Awesome more awesome!</strong> Fill out our 10-minute survey to give us your feedback.",
       class: "font-awesome-survey",
       url: "http://fontawesome.io/survey/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_survey&utm_campaign=promo_4.5_update",
       btn_text: "Take the survey!"
