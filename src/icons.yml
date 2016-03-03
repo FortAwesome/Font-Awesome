@@ -1227,6 +1227,8 @@ icons:
       - bubble
       - feedback
       - message
+      - texting
+      - sms
     categories:
       - Web Application Icons
 
@@ -1382,6 +1384,8 @@ icons:
       - notification
       - notes
       - message
+      - texting
+      - sms
     categories:
       - Web Application Icons
 
@@ -2251,9 +2255,15 @@ icons:
     unicode:    f0e5
     created:    2.0
     filter:
+      - speech
       - notification
       - note
+      - chat
+      - bubble
+      - feedback
       - message
+      - texting
+      - sms
     categories:
       - Web Application Icons
 
@@ -2266,6 +2276,8 @@ icons:
       - notification
       - notes
       - message
+      - texting
+      - sms
     categories:
       - Web Application Icons
 
