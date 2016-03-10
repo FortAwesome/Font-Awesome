@@ -66,14 +66,14 @@
   }
 
   &.black-tie {
-    @black-tie-bg: #222222;
+    @black-tie-bg: #2E2E2E;
     background-color: @black-tie-bg;
     border-bottom: solid 1px mix(@black-tie-bg, #fff, 95%);
 
     .btn-primary {
-      @color: @black-tie-bg;
-      @background: mix(#fff,@black-tie-bg,90%);
-      @border: mix(#fff,@black-tie-bg,60%);
+      @color: mix(#fff, @black-tie-bg, 85%);
+      @background: darken(@black-tie-bg, 5%);
+      @border: darken(@black-tie-bg, 10%);
       font-weight: bold;
       color: @color;
       background-color: @background;
@@ -88,7 +88,7 @@
       &.active,
       .open > &.dropdown-toggle {
         color: #fff;
-        background-color: darken(@border, 3%);
+        background-color: darken(@background, 5%);
         border-color: darken(@border, 12%);
         border-bottom-color: darken(@border, 18%);
       }
