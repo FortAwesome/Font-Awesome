@@ -3,26 +3,26 @@ $(function () {
 
   var ads = [
     {
-      quote: "Take your icon game to the next level. Check out <strong>Fonticons</strong>, from the maker of Font Awesome.",
-      class: "fonticons",
+      quote: "Take your icon game to the next level. Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
+      class: "fort-awesome",
       url: "https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_1_next_level&utm_campaign=promo_4.4_update",
       btn_text: "Gimme Some!"
     },
     {
-      quote: "Make your icons load 10x faster! Check out <strong>Fonticons</strong>, from the maker of Font Awesome.",
-      class: "fonticons",
+      quote: "Make your icons load 10x faster! Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
+      class: "fort-awesome",
       url: "https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_3_faster_loading&utm_campaign=promo_4.4_update",
       btn_text: "Gimme Some!"
     },
     {
-      quote: "Looking for other great icon sets? Check out <strong>Fonticons</strong>, from the maker of Font Awesome.",
-      class: "fonticons",
+      quote: "Looking for other great icon sets? Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
+      class: "fort-awesome",
       url: "https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_4_more_icons&utm_campaign=promo_4.4_update",
       btn_text: "Gimme Some!"
     },
     {
-      quote: "Want to add your own icon? Check out <strong>Fonticons</strong>, from the maker of Font Awesome.",
-      class: "fonticons",
+      quote: "Want to add your own icon? Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
+      class: "fort-awesome",
       url: "https://fonticons.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_6_your_own_icon&utm_campaign=promo_4.4_update",
       btn_text: "Gimme Some!"
     },
@@ -54,7 +54,7 @@ $(function () {
     }
   ];
 
-  selectFonticonsAd();
+  selectAd();
 
   // start the icon carousel
   $('#icon-carousel').carousel({
@@ -64,7 +64,7 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip();
   $('[data-toggle="popover"]').popover();
 
-  function selectFonticonsAd() {
+  function selectAd() {
     random_number = Math.floor(Math.random() * ads.length);
     random_ad = ads[random_number];
 
