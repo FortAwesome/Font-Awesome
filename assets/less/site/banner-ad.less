@@ -66,14 +66,14 @@
   }
 
   &.black-tie {
-    @black-tie-bg: #222222;
+    @black-tie-bg: #2E2E2E;
     background-color: @black-tie-bg;
     border-bottom: solid 1px mix(@black-tie-bg, #fff, 95%);
 
     .btn-primary {
-      @color: @black-tie-bg;
-      @background: mix(#fff,@black-tie-bg,90%);
-      @border: mix(#fff,@black-tie-bg,60%);
+      @color: mix(#fff, @black-tie-bg, 85%);
+      @background: darken(@black-tie-bg, 5%);
+      @border: darken(@black-tie-bg, 10%);
       font-weight: bold;
       color: @color;
       background-color: @background;
@@ -88,7 +88,7 @@
       &.active,
       .open > &.dropdown-toggle {
         color: #fff;
-        background-color: darken(@border, 3%);
+        background-color: darken(@background, 5%);
         border-color: darken(@border, 12%);
         border-bottom-color: darken(@border, 18%);
       }
@@ -112,15 +112,16 @@
     }
   }
 
-  &.fonticons {
-    @fonticons-bg: #1c1e29;
-    @fonticons-orange: desaturate(#ff7f3f, 5%);
-    background-color: @fonticons-orange;
-    border-bottom: solid 1px mix(@fonticons-bg, @fonticons-orange, 15%);
+  &.fort-awesome {
+    @fort-awesome-color: #1C1E29;
+    @fort-awesome-color-accent: #525879;
+    @fort-awesome-bg: mix(@fort-awesome-color-accent, @fort-awesome-color, 15%);
+    background-color: @fort-awesome-bg;
+    border-bottom: solid 1px mix(@fort-awesome-bg, #000, 15%);
     .btn-primary {
       @color: #fff;
-      @background: mix(#fff,@fonticons-bg,10%);
-      @border: @fonticons-bg;
+      @background: mix(#fff,@fort-awesome-bg,15%);
+      @border: darken(@fort-awesome-bg, 5%);
       font-weight: bold;
       color: @color;
       background-color: @background;
@@ -135,7 +136,7 @@
       &.active,
       .open > &.dropdown-toggle {
         color: #fff;
-        background-color: darken(@border, 3%);
+        background-color: mix(@fort-awesome-color, @fort-awesome-color-accent, 30%);
         border-color: darken(@border, 12%);
         border-bottom-color: darken(@border, 18%);
       }

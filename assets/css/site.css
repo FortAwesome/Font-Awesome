@@ -7662,14 +7662,14 @@ fieldset[disabled] #banner.font-awesome-survey .btn-primary.active {
   border-color: #434346;
 }
 #banner.black-tie {
-  background-color: #222222;
-  border-bottom: solid 1px #2d2d2d;
+  background-color: #2e2e2e;
+  border-bottom: solid 1px #383838;
 }
 #banner.black-tie .btn-primary {
   font-weight: bold;
-  color: #222222;
-  background-color: #e9e9e9;
-  border-color: #a7a7a7;
+  color: #e0e0e0;
+  background-color: #212121;
+  border-color: #141414;
   border-bottom-width: 2px;
   text-shadow: none;
   border-radius: 4px;
@@ -7680,9 +7680,9 @@ fieldset[disabled] #banner.font-awesome-survey .btn-primary.active {
 #banner.black-tie .btn-primary.active,
 .open > #banner.black-tie .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #9f9f9f;
-  border-color: #888888;
-  border-bottom-color: #797979;
+  background-color: #141414;
+  border-color: #000000;
+  border-bottom-color: #000000;
 }
 #banner.black-tie .btn-primary:active,
 #banner.black-tie .btn-primary.active,
@@ -7704,54 +7704,54 @@ fieldset[disabled] #banner.black-tie .btn-primary:active,
 #banner.black-tie .btn-primary.disabled.active,
 #banner.black-tie .btn-primary[disabled].active,
 fieldset[disabled] #banner.black-tie .btn-primary.active {
-  background-color: #e9e9e9;
-  border-color: #a7a7a7;
+  background-color: #212121;
+  border-color: #141414;
 }
-#banner.fonticons {
-  background-color: #fa8144;
-  border-bottom: solid 1px #d97240;
+#banner.fort-awesome {
+  background-color: #242735;
+  border-bottom: solid 1px #050608;
 }
-#banner.fonticons .btn-primary {
+#banner.fort-awesome .btn-primary {
   font-weight: bold;
   color: #ffffff;
-  background-color: #33343e;
-  border-color: #1c1e29;
+  background-color: #454753;
+  border-color: #1a1c26;
   border-bottom-width: 2px;
   text-shadow: none;
   border-radius: 4px;
 }
-#banner.fonticons .btn-primary:hover,
-#banner.fonticons .btn-primary:focus,
-#banner.fonticons .btn-primary:active,
-#banner.fonticons .btn-primary.active,
-.open > #banner.fonticons .btn-primary.dropdown-toggle {
+#banner.fort-awesome .btn-primary:hover,
+#banner.fort-awesome .btn-primary:focus,
+#banner.fort-awesome .btn-primary:active,
+#banner.fort-awesome .btn-primary.active,
+.open > #banner.fort-awesome .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #161720;
-  border-color: #030305;
+  background-color: #424761;
+  border-color: #010101;
   border-bottom-color: #000000;
 }
-#banner.fonticons .btn-primary:active,
-#banner.fonticons .btn-primary.active,
-.open > #banner.fonticons .btn-primary.dropdown-toggle {
+#banner.fort-awesome .btn-primary:active,
+#banner.fort-awesome .btn-primary.active,
+.open > #banner.fort-awesome .btn-primary.dropdown-toggle {
   background-image: none;
 }
-#banner.fonticons .btn-primary.disabled,
-#banner.fonticons .btn-primary[disabled],
-fieldset[disabled] #banner.fonticons .btn-primary,
-#banner.fonticons .btn-primary.disabled:hover,
-#banner.fonticons .btn-primary[disabled]:hover,
-fieldset[disabled] #banner.fonticons .btn-primary:hover,
-#banner.fonticons .btn-primary.disabled:focus,
-#banner.fonticons .btn-primary[disabled]:focus,
-fieldset[disabled] #banner.fonticons .btn-primary:focus,
-#banner.fonticons .btn-primary.disabled:active,
-#banner.fonticons .btn-primary[disabled]:active,
-fieldset[disabled] #banner.fonticons .btn-primary:active,
-#banner.fonticons .btn-primary.disabled.active,
-#banner.fonticons .btn-primary[disabled].active,
-fieldset[disabled] #banner.fonticons .btn-primary.active {
-  background-color: #33343e;
-  border-color: #1c1e29;
+#banner.fort-awesome .btn-primary.disabled,
+#banner.fort-awesome .btn-primary[disabled],
+fieldset[disabled] #banner.fort-awesome .btn-primary,
+#banner.fort-awesome .btn-primary.disabled:hover,
+#banner.fort-awesome .btn-primary[disabled]:hover,
+fieldset[disabled] #banner.fort-awesome .btn-primary:hover,
+#banner.fort-awesome .btn-primary.disabled:focus,
+#banner.fort-awesome .btn-primary[disabled]:focus,
+fieldset[disabled] #banner.fort-awesome .btn-primary:focus,
+#banner.fort-awesome .btn-primary.disabled:active,
+#banner.fort-awesome .btn-primary[disabled]:active,
+fieldset[disabled] #banner.fort-awesome .btn-primary:active,
+#banner.fort-awesome .btn-primary.disabled.active,
+#banner.fort-awesome .btn-primary[disabled].active,
+fieldset[disabled] #banner.fort-awesome .btn-primary.active {
+  background-color: #454753;
+  border-color: #1a1c26;
 }
 #fusionads {
   float: right;
