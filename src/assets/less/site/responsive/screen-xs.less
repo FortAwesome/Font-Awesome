@@ -2,7 +2,7 @@
   #icon-carousel {
     @size: 180px;
     font-size: @size;
-    line-height: @size;
+    line-height: @size + 30;
     width: 280px;
     margin: 30px auto 0;
   }
@@ -49,22 +49,50 @@
     padding: 0;
   }
 
-  #carbonads-container {
-    .carbonad {
-      margin-left: 0;
-      margin-top: -20px;
-      float: none;
-      width: 100%;
-      height: 120px;
+  #fusionads {
+    float: none;
+    display: block;
+    margin-left: 0;
+    .clearfix();
+  }
+
+  .vertical-ad #fusionads {
+    width: 300px;
+    .fusion-img {
+      float: left;
+      padding-right: 10px;
     }
   }
-  #azcarbon {
-    width: 300px;
-    margin: 0 auto;
-  }
-  .info-ad #carbonads-container .carbonad { margin-top: @buffer-lg; }
 
-  .sticky-footer(245px, 60px);
+
+  .fonticons {
+    padding: 15px 0;
+    .tagline, .action { display: block; }
+    .tagline { margin-bottom: 10px; }
+  }
 
   .hide-xs { display: none; }
+
+  .block-xs { display: block; }
+
+  .modal-footer .block-xs + .block-xs {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+
+  .navbar-org {
+    text-align: center;
+    .container { padding: 0; }
+    .navbar-nav {
+      margin: 0;
+      > li + li {
+        margin-left: 0;
+      }
+    }
+    .nav > li {
+      float: left;
+      width: 50%;
+    }
+  }
 }

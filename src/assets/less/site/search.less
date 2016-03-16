@@ -1,0 +1,40 @@
+#search {
+  position: relative;
+  font-size: 18px;
+  padding-top: 40px;
+  margin: -20px auto 0px;
+
+  label {
+    position: absolute;
+    left: 17px;
+    top: 51px;
+  }
+
+  #search-input, .hint {
+    padding-left: 43px;
+    padding-right: 43px;
+    border-radius: 23px;
+  }
+
+  .hint {
+    color: #aaa;
+  }
+
+  #search-clear {
+    text-decoration: none;
+    position: absolute;
+    right: 18px;
+    top: 54px;
+    color: @text-muted;
+    &:hover {
+      color: mix(#000, @text-muted, 20%);
+    }
+  }
+}
+
+#search-results {
+  em {
+    font-style: normal;
+    text-decoration: underline;
+  }
+}

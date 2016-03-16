@@ -1,0 +1,162 @@
+#banner {
+  color: #fff;
+  .message-container {
+    display: table;
+    width: auto;
+    margin: 0 auto;
+    padding: 15px 0;
+  }
+  .tagline, .action {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .tagline {
+    font-weight: 200;
+    font-size: 16px;
+    padding-right: 20px;
+  }
+
+  &.font-awesome-survey {
+    @survey-bg: #8E8F94;
+    background-color: @survey-bg;
+    border-bottom: solid 1px mix(@survey-bg, #fff, 95%);
+
+    .btn-primary {
+      @color: mix(#fff,@survey-bg,80%);
+      @background: darken(@survey-bg, 15%);
+      @border: darken(@background, 15%);
+      font-weight: bold;
+      color: @color;
+      background-color: @background;
+      border-color: @border;
+      border-bottom-width: 2px;
+      text-shadow: none;
+      border-radius: 4px;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        color: #fff;
+        background-color: darken(@border, 10%);
+        border-color: darken(@border, 20%);
+        border-bottom-color: darken(@border, 30%);
+      }
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        background-image: none;
+      }
+      &.disabled,
+      &[disabled],
+      fieldset[disabled] & {
+        &,
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+          background-color: @background;
+          border-color: @border;
+        }
+      }
+    }
+
+
+  }
+
+  &.black-tie {
+    @black-tie-bg: #2E2E2E;
+    background-color: @black-tie-bg;
+    border-bottom: solid 1px mix(@black-tie-bg, #fff, 95%);
+
+    .btn-primary {
+      @color: mix(#fff, @black-tie-bg, 85%);
+      @background: darken(@black-tie-bg, 5%);
+      @border: darken(@black-tie-bg, 10%);
+      font-weight: bold;
+      color: @color;
+      background-color: @background;
+      border-color: @border;
+      border-bottom-width: 2px;
+      text-shadow: none;
+      border-radius: 4px;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        color: #fff;
+        background-color: darken(@background, 5%);
+        border-color: darken(@border, 12%);
+        border-bottom-color: darken(@border, 18%);
+      }
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        background-image: none;
+      }
+      &.disabled,
+      &[disabled],
+      fieldset[disabled] & {
+        &,
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+          background-color: @background;
+          border-color: @border;
+        }
+      }
+    }
+  }
+
+  &.fort-awesome {
+    @fort-awesome-color: #1C1E29;
+    @fort-awesome-color-accent: #525879;
+    @fort-awesome-bg: mix(@fort-awesome-color-accent, @fort-awesome-color, 15%);
+    background-color: @fort-awesome-bg;
+    border-bottom: solid 1px mix(@fort-awesome-bg, #000, 15%);
+    .btn-primary {
+      @color: #fff;
+      @background: mix(#fff,@fort-awesome-bg,15%);
+      @border: darken(@fort-awesome-bg, 5%);
+      font-weight: bold;
+      color: @color;
+      background-color: @background;
+      border-color: @border;
+      border-bottom-width: 2px;
+      text-shadow: none;
+      border-radius: 4px;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        color: #fff;
+        background-color: mix(@fort-awesome-color, @fort-awesome-color-accent, 30%);
+        border-color: darken(@border, 12%);
+        border-bottom-color: darken(@border, 18%);
+      }
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        background-image: none;
+      }
+      &.disabled,
+      &[disabled],
+      fieldset[disabled] & {
+        &,
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+          background-color: @background;
+          border-color: @border;
+        }
+      }
+    }
+  }
+}

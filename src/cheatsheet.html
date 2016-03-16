@@ -12,8 +12,7 @@ relative_path: ../
 <div class="container">
   {% capture stripe_ad_content %}
   <p class="lead">
-    Print this page to PDF for the complete set of vectors. Or to use on the desktop, install FontAwesome.otf and copy
-    and paste the icons (not the unicode) directly into your designs.
+    Print this page to PDF for the complete set of vectors. Or to use on the desktop, install FontAwesome.otf, set it as the font in your application, and copy and paste the icons (not the unicode) directly from this page into your designs.
   </p>
   {% endcapture %}
   {% include stripe-ad.html %}
@@ -21,11 +20,15 @@ relative_path: ../
   <h2 class="page-header">Every Font Awesome {{ site.fontawesome.version }} Icon, CSS Class, &amp; Unicode</h2>
 
   <div class="row">
-    {% for icon in icons %}
+    {% assign sorted_icons = icons | expand_aliases | sort_by:'class' %}
+
+    {% for icon in sorted_icons %}
     <div class="col-md-4 col-sm-6 col-lg-3">
+      {% if icon.created >= site.fontawesome.major_version %}<small class="text-muted pull-right">{{ icon.created }}</small>{% endif %}
       <i class="fa fa-fw">&#x{{ icon.unicode }}</i>
-      fa-{{ icon.id }}
-      <span class="muted">(&amp;#x{{ icon.unicode }};)</span>
+      fa-{{ icon.class }}
+      {% if icon.alias_of %} <span class="text-muted">(alias)</span>{% endif %}
+      <span class="text-muted">[&amp;#x{{ icon.unicode }};]</span>
     </div>
     {% endfor %}
   </div>

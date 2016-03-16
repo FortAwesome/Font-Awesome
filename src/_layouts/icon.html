@@ -32,11 +32,11 @@ relative_path: ../../
             fa-{{ alias }}{% unless forloop.last %},{% endunless %}
           {% endfor %}
         {% endif %}
+        {% if page.icon.url %}&middot; <a target="_blank" href="http://{{ page.icon.url }}">{{ page.icon.url }}<i class="fa fa-external-link-square margin-left-sm"></i></a>{% endif %}
       </small>
     </h1>
   </div>
 </div>
-
 
 <div class="container">
   <section>
@@ -49,13 +49,13 @@ relative_path: ../../
           </div>
         </div>
 {% highlight html %}
-<i class="fa fa-{{ page.icon.id }}"></i> fa-{{ page.icon.id }}
+<i class="fa fa-{{ page.icon.id }}"></i>
 {% endhighlight %}
         <br>
         <div class="lead"><i class="fa fa-info-sign"></i> Looking for more? Check out the <a href="{{ page.relative_path }}examples/">examples</a>.</div>
       </div>
       <div class="col-md-3 col-sm-3">
-        <div class="info-ad">{% include ads/carbon-light-vertical.html %}</div>
+        <div class="vertical-ad">{% include ads/fusion.html %}</div>
       </div>
     </div>
   </section>

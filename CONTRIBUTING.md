@@ -4,6 +4,35 @@ Looking to contribute something to Font Awesome? **Here's how you can help.**
 
 
 
+## Requesting new icons
+
+New icons mostly start as requests by the [Font Awesome community on GitHub](../../issues). Want to request a new icon? Here are some things to keep in mind:
+
+1. Please be nice. Font Awesome is a happy place.
+2. Please do not request comprehensive sets of icons related to a very specific field.
+3. Please [search](../../search?type=Issues) to see if your icon request already exists. If a request is found, please +1 that one.
+4. Please make requests for single icons, unless you are requesting a couple of strictly related icons (e.g., thumbs-up/thumbs-down).
+5. Please and thank you if you include the following:
+  - Title your [new issue](../../issues/new?title=Icon%20Request:%20icon-) `Icon request: icon-name` (e.g., `Icon request: icon-car`).
+  - Include a few use cases for your requested icon. How do you plan on using it?
+  - Attach a single color image or two that represent the idea you're going for.
+  - Request concrete objects: it's harder to make an icon to represent happiness, it's easier to make a smiley face. ☺
+
+
+
+## Suggesting icon keyword addition/removal
+
+Icon filters are maintained by the [Font Awesome community on GitHub](../../pulls?q=is%3Apr+label%3Adoc).
+
+If you feel that an icon
+
+* is missing keyword(s)
+* contains invalid keyword(s)
+
+please send a [PR](https://help.github.com/articles/using-pull-requests/) to the `master` branch.
+
+
+
 ## Reporting issues
 
 We only accept issues that are icon requests, bug reports, or feature requests. Bugs must be isolated and reproducible problems that we can fix within the Font Awesome core. Please read the following guidelines to ensure you are the paragon of bug reporting.
@@ -17,7 +46,7 @@ We only accept issues that are icon requests, bug reports, or feature requests. 
 
 ## Key branches
 
-- `master` is the latest, deployed version (not to be used for pull requests)
+- `master` is the latest, deployed version (use for pull request if they only affect the docs)
 - `gh-pages` is the hosted docs (not to be used for pull requests)
 - `*-wip` branches are the official work in progress branches for the next releases. All pull requests should be submitted against the appropriate branch
 
@@ -34,9 +63,11 @@ As of v3.2.0, Font Awesome's CSS, LESS, SCSS, and documentation are all powered 
 
 ## Pull requests
 
+- At the moment we are not accepting pull requests containing icons
 - Submit all pull requests against the appropriate `*-wip` branch for easier merging
+- If your PR only affect the docs, feel free to push against the `master` branch
 - Any changes to the docs must be made to the Liquid templates in the `src` directory
-- CSS changes must be done in .less and .scss files first, never the compiled files
+- Any changes to the styles must be made to the .less and .scss files in the `src` directory
 - If modifying the .less and .scss files, always recompile and commit the compiled files
 - Try not to pollute your pull request with unintended changes--keep them simple and small
 - Try to share which browsers your code has been tested in before submitting a pull request
@@ -58,7 +89,7 @@ As of v3.2.0, Font Awesome's CSS, LESS, SCSS, and documentation are all powered 
 - Multiple-line approach (one property and value per line)
 - Always a space after a property's colon (.e.g, `display: block;` and not `display:block;`)
 - End all lines with a semi-colon
-- For multiple, comma-separated selectors, place each selector on it's own line
+- For multiple, comma-separated selectors, place each selector on its own line
 - Attribute selectors, like `input[type="text"]` should always wrap the attribute's value in double quotes, for consistency and safety (see this [blog post on unquoted attribute values](http://mathiasbynens.be/notes/unquoted-attribute-values) that can lead to XSS attacks)
 
 

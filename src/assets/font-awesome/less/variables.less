@@ -4,6 +4,8 @@
 // --------------------------
 
 @fa-font-path:        "../fonts";
+@fa-font-size-base:   14px;
+@fa-line-height-base: 1;
 //@fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/{{site.fontawesome.version}}/fonts"; // for referencing Bootstrap CDN font files directly
 @fa-css-prefix:       {{ site.fontawesome.css_prefix }};
 @fa-version:          "{{ site.fontawesome.version }}";
@@ -11,5 +13,5 @@
 @fa-inverse:          #fff;
 @fa-li-width:         (30em / 14);
 
-{% for icon in icons %}@fa-var-{{ icon.id }}: "\{{ icon.unicode }}";
+{% assign sorted_icons = icons | expand_aliases | sort_by:'class' %}{% for icon in sorted_icons %}@fa-var-{{ icon.class }}: "\{{ icon.unicode }}";
 {% endfor %}

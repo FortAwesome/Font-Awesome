@@ -30,5 +30,4 @@ src/website/settingslocal.py
 stunnel.log
 
 .ruby-version
-*.sublime-project
-*.sublime-workspace
+.bundle

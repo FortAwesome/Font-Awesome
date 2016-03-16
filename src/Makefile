@@ -17,20 +17,22 @@ SITE_LESS_DIRECTORY = assets/less
 SITE_CSS_DIRECTORY = assets/css
 
 SITE_LESS = ${SITE_LESS_DIRECTORY}/site.less
-SITE_CSS_MIN = ${SITE_CSS_DIRECTORY}/site.css
+SITE_CSS = ${SITE_CSS_DIRECTORY}/site.css
 
 build:
 	@echo "Compiling Less files"
 	@mkdir -p ${FA_CSS_DIRECTORY}
 
-	lessc ${FA_LESS_MODERN} > ${FA_CSS_MODERN}
-	lessc --yui-compress ${FA_LESS_MODERN} > ${FA_CSS_MODERN_MIN}
+	bundle exec lessc ${FA_LESS_MODERN} > ${FA_CSS_MODERN}
+	bundle exec lessc --compress ${FA_LESS_MODERN} > ${FA_CSS_MODERN_MIN}
 #	sass ${FA_SCSS_MODERN} ${FA_CSS_MODERN}
 
-	lessc --compress ${SITE_LESS} > ${SITE_CSS_MIN}
+	bundle exec lessc --yui-compress ${SITE_LESS} > ${SITE_CSS}
 	cp -r ${FA_ROOT_DIRECTORY}/* ../
+	mv README.md-nobuild ../README.md
 	cd assets && mv font-awesome font-awesome-{{ site.fontawesome.version }} && zip -r9 font-awesome-{{ site.fontawesome.version }}.zip font-awesome-{{ site.fontawesome.version }} && mv font-awesome-{{ site.fontawesome.version }} font-awesome
 
+	find .. -type f ! -perm 644 -exec chmod 644 {} \;
 
 default: build
 

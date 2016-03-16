@@ -5,8 +5,8 @@
 
 // Blues
 @blue-darker:           #003366;
-@blue-dark:             #005f9b; // Kyruus Dark Blue - Pantone 3015 C
-@blue:                  #009add; // Kyruus Blue - Pantone 2925 C
+@blue-dark:             #005f9b; // Pantone 3015 C
+@blue:                  #009add; // Pantone 2925 C
 @blue-light:            #b8dcf2;
 @blue-lighter:          #f0f9ff;
 
@@ -49,14 +49,14 @@
 @fa-green-dark:         darken(@fa-green, 10%);
 
 @jumbotron-border:      mix(@fa-green, @fa-green-dark, 75%);
-@font-family-alt:       proxima-nova-sc-osf, "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-alt:       proxima-nova-sc, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 
 // BOOTSTRAP OVERRIDES
 // -------------------
 
 // Brand colors
-@brand-success:         mix(@fa-green, #fff, 70%);
+@brand-success:         @fa-green;
 
 
 // Links
@@ -107,6 +107,10 @@
 @state-info-bg:                 @blue-lighter;
 @state-info-border:             darken(spin(@state-info-bg, -10), 7%);
 
+  @state-danger-text:              @brand-danger;
+@state-danger-bg:                mix(@state-danger-text,#fff,10%);
+@state-danger-border:            darken(spin(@state-danger-bg, -10), 5%);
+
 
 // Carousel
 @carousel-text-shadow:          0 1px 0 rgba(255,255,255,0.25);
@@ -117,3 +121,46 @@
 
 // Code
 @pre-border-color:              #eee;
+
+
+//== Type
+//** Text muted color
+@text-muted:                  mix(@gray-light,@gray-lighter,50%);
+
+
+
+
+@alert-well-bg:               @panel-default-heading-bg;
+@alert-well-text:             @text-color;
+@alert-well-border:           @panel-default-border;
+
+@alert-default-bg:            transparent;
+@alert-default-text:          @text-color;
+@alert-default-border:        mix(#fff,@panel-default-border,40%);
+
+
+
+
+//@panel-default-text:          @gray-dark;
+//@panel-default-border:        @panel-default-heading-bg;
+//@panel-default-heading-bg:    #f5f5f5;
+
+@panel-primary-text:          #fff;
+@panel-primary-border:        mix(#fff,@brand-primary,50%);
+@panel-primary-heading-bg:    @brand-primary;
+
+@panel-success-text:          #fff;
+@panel-success-border:        mix(#fff,@brand-success,50%);
+@panel-success-heading-bg:    @brand-success;
+
+@panel-info-text:             #fff;
+@panel-info-border:           mix(#fff,@brand-info,50%);
+@panel-info-heading-bg:       @brand-info;
+
+@panel-warning-text:          #fff;
+@panel-warning-border:        mix(#fff,@brand-warning,50%);
+@panel-warning-heading-bg:    @brand-warning;
+
+@panel-danger-text:           #fff;
+@panel-danger-border:         mix(#fff,@brand-danger,50%);
+@panel-danger-heading-bg:     @brand-danger;

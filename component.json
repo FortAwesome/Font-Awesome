@@ -1,8 +1,8 @@
 {
-  "name": "Font-Awesome",
+  "name": "font-awesome",
   "repo": "FortAwesome/Font-Awesome",
   "description": "Font Awesome",
-  "version": "4.0.3",
+  "version": "4.5.0",
   "keywords": [],
   "dependencies": {},
   "development": {},
@@ -15,6 +15,7 @@
     "fonts/fontawesome-webfont.svg",
     "fonts/fontawesome-webfont.ttf",
     "fonts/fontawesome-webfont.woff",
+    "fonts/fontawesome-webfont.woff2",
     "fonts/FontAwesome.otf"
   ]
 }
