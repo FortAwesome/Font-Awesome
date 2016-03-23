@@ -1201,6 +1201,7 @@ icons:
       - date
       - time
       - when
+      - event
     categories:
       - Web Application Icons
 
@@ -3033,6 +3034,7 @@ icons:
       - date
       - time
       - when
+      - event
     categories:
       - Web Application Icons
 
