@@ -20,6 +20,26 @@
     line-height: 1.3;
     font-weight: lighter;
   }
+
+  .list-group-item {
+    border-color: mix(@jumbotron-color, @fa-green, 15%);
+    background: transparent;
+  }
+
+  .text-muted {
+    color: mix(@jumbotron-color, @fa-green, 45%);
+  }
+
+  a {
+    color: mix(@jumbotron-color, @fa-green, 70%);
+
+    // STATE: hover, focus, active
+    &:hover, &:focus, &:active {
+      border-color: @fa-green-dark;
+      background: @fa-green-dark;
+      color: @jumbotron-color;
+    }
+  }
 }
 
 .jumbotron-ad, .jumbotron-carousel {
@@ -30,7 +50,6 @@
     color: mix(@jumbotron-color, @jumbotron-bg, 75%);
     text-shadow: 0 1px 0 rgba(0,0,0,0.15);
   }
-
 }
 
 .jumbotron-icon {
