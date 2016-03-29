@@ -32,7 +32,8 @@ stunnel.log
 .ruby-version
 
 # don't need these in the npm package.
-src/
+src/*
+!src/icons.yml
 _config.yml
 bower.json
 component.json
