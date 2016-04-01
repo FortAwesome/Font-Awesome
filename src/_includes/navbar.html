@@ -96,6 +96,7 @@
             <li><a href="{{ page.relative_path }}examples/#custom">Custom CSS</a></li>
           </ul>
         </li>
+        <li{% if page.navbar_active == "accessibility" %} class="active"{% endif %}><a href="{{ page.relative_path }}accessibility/">Accessibility</a></li>
         <li{% if page.navbar_active == "community" %} class="active"{% endif %}><a href="{{ page.relative_path }}community/">Community</a></li>
         <li{% if page.navbar_active == "license" %} class="active"{% endif %}><a href="{{ page.relative_path }}license/">License</a></li>
       </ul>
