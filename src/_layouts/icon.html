@@ -49,10 +49,15 @@ relative_path: ../../
           </div>
         </div>
 {% highlight html %}
-<i class="fa fa-{{ page.icon.id }}"></i>
+<i class="fa fa-{{ page.icon.id }}" aria-hidden="true"></i>
 {% endhighlight %}
-        <br>
-        <div class="lead"><i class="fa fa-info-sign"></i> Looking for more? Check out the <a href="{{ page.relative_path }}examples/">examples</a>.</div>
+        <p class="margin-bottom-lg">
+          <small class="text-muted">Note: to improve <a href="{{ page.relative_path }}accessibility/">web accessibility</a>, we recommend using <strong>aria-hidden="true"</strong> to hide icons used purely for decoration.</small>
+        </p>
+
+        <div class="lead">
+          <i class="fa fa-info-sign"></i> Looking for more? Check out the <a href="{{ page.relative_path }}examples/">examples</a>.
+        </div>
       </div>
       <div class="col-md-3 col-sm-3">
         <div class="vertical-ad">{% include ads/fusion.html %}</div>
