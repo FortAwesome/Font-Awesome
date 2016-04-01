@@ -4,7 +4,7 @@ title: Get Started with Font Awesome
 navbar_active: get-started
 relative_path: ../
 ---
-{% capture jumbotron_h1 %}<i class="fa fa-cogs"></i>&nbsp; Get Started{% endcapture %}
+{% capture jumbotron_h1 %}<i class="fa fa-cogs" aria-hidden="true"></i>&nbsp; Get Started{% endcapture %}
 {% capture jumbotron_p %}Easy ways to get Font Awesome {{ site.fontawesome.version }} onto your website{% endcapture %}
 
 {% include jumbotron.html %}
@@ -29,7 +29,7 @@ relative_path: ../
 {% highlight html %}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome.min.css">
 {% endhighlight %}
-        <p class="alert alert-success"><i class="fa fa-info-circle"></i> Immediately after release, it takes a bit of time for BootstrapCDN to catch up and get the newest version live on their CDN.</p>
+        <p class="alert alert-success"><i class="fa fa-info-circle" aria-hidden="true"></i> Immediately after release, it takes a bit of time for BootstrapCDN to catch up and get the newest version live on their CDN.</p>
       </li>
       <li>
         Pat yourself on the back for your scalable-vector-icons-on-the-website
@@ -135,7 +135,7 @@ $ gem install font-awesome-sass
 {% highlight scss %}
 @fa-font-path:   "../font";
 {% endhighlight %}
-        <p class="alert alert-success"><i class="fa fa-info-circle"></i> The font path is relative from your compiled CSS directory.</p>
+        <p class="alert alert-success"><i class="fa fa-info-circle" aria-hidden="true"></i> The font path is relative from your compiled CSS directory.</p>
       </li>
       <li>Re-compile your LESS or SASS if using a static compiler. Otherwise, you should be good to go.</li>
       <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>

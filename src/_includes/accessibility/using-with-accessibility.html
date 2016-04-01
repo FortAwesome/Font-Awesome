@@ -1,0 +1,130 @@
+<div id="using-with-accessibility">
+  <h2 class="page-header">Using Font Awesome with Acessibility in mind</h2>
+  <p>
+    When using icons in your UI, there are ways to help assistive technology either ignore or better understand Font Awesome.
+  </p>
+
+  <h3>Icons used for pure decoration or visual styling</h3>
+  <p>
+    If you're using an icon to add some extra decoration or branding, it does not need to be announced to users as they are navigating your site or app aurally. Additionally, if you're using an icon to visually re-emphasize or add styling to content already present in your HTML, it does not need to be repeated to an assistive technology-using user. You can make sure this is not read by adding the <code>aria-hidden="true"</code> to your Font Awesome markup.
+  </p>
+
+  <div class="margin-top-lg margin-bottom-lg">
+{% highlight html %}
+<i class="fa fa-fighter-jet" aria-hidden="true"></i>
+{% endhighlight %}
+<small class="text-muted">an icon being used as pure decoration</small>
+  </div>
+
+  <div class="margin-bottom-lg">
+{% highlight html %}
+<h1 class="logo">
+  <i class="fa fa-pied-piper" aria-hidden="true"></i>
+  Pied Piper, A Middle-Out Compression Solution Making Data Storage Problems Smaller
+</h1>
+{% endhighlight %}
+<small class="text-muted">an icon being used as a logo</small>
+  </div>
+
+  <div class="margin-bottom-lg">
+{% highlight html %}
+<a href="https://github.com/FortAwesome/Font-Awesome"><i class="fa fa-github" aria-hidden="true"></i> View this project's code on Github</a>
+{% endhighlight %}
+<small class="text-muted">an icon being used in front of link text</small>
+  </div>
+
+  <h3>Icons that with semantic or interactive purpose</h3>
+  <p>
+    If you're using an icon to convey meaning (rather than only as a decorative element), ensure that this meaning is also conveyed to assistive technologies. This goes for content you're abbreviating via icons as well as interactive controls (buttons, form elements, toggles, etc.). There are a few techniques to accomplish this:
+  </p>
+
+  <h4>If an icon is <strong>not</strong> an interactive element</h4>
+  <p>
+    If not representing an interactive element, like a button or link, use both a <code>title</code> attribute and an  on the icon to provide a text alternative. This has the advantages of working with all modern screen readers, working well with the most ubiquitous speech recognition program, and helping users with cognitive disabilities by providing a mouse tooltip.
+  </p>
+
+  <div class="margin-bottom-lg margin-top-lg">
+{% highlight html %}
+<dl>
+  <dt>
+    <i class="fa fa-car" aria-hidden="true"></i>
+    <span class="sr-only">Time to destination by car:</span>
+  </dt>
+  <dd>4 minutes</dd>
+
+  <dt>
+    <i class="fa fa-bicycle" aria-hidden="true"></i>
+    <span class="sr-only">Time to destination by bike:</span>
+  </dt>
+  <dd>12 minutes</dd>
+</dl>
+{% endhighlight %}
+    <small class="text-muted">an icon being used to communicate travel methods</small>
+  </div>
+
+  <div class="margin-bottom-lg margin-top-lg">
+{% highlight html %}
+<i class="fa fa-hourglass" aria-hidden="true"></i>
+<span class="sr-only">60 minutes remains in your exam</span>
+
+<i class="fa fa-hourglass-half" aria-hidden="true"></i>
+<span class="sr-only">30 minutes remains in your exam</span>
+
+<i class="fa fa-hourglass-end" aria-hidden="true"></i>
+<span class="sr-only">0 minutes remains in your exam</span>
+{% endhighlight %}
+    <small class="text-muted">an icon being used to denote time remaining</small>
+  </div>
+
+  <h4>If an icon represents an interactive element</h4>
+  <p>
+    In addition to the recommendations above, use a <code>title</code> attribute which makes the accessible text discoverable by mouse and those with cognitive disabilities.
+  </p>
+
+  <div class="margin-bottom-lg margin-top-lg">
+{% highlight html %}
+<a href="path/to/shopping/cart">
+  <i class="fa fa-shopping-cart" title="View 3 items in your shopping cart" aria-hidden="true"></i>
+  <span class="sr-only">View 3 items in your shopping cart</span>
+</a>
+{% endhighlight %}
+    <small class="text-muted">an icon being used to communicate shopping cart state</small>
+  </div>
+
+  <div class="margin-bottom-lg margin-top-lg">
+{% highlight html %}
+<a href="#navigation-main">
+  <i class="fa fa-bars" title="Skip to main navigation" aria-hidden="true"></i>
+  <span class="sr-only">Skip to main navigation</span>
+</a>
+{% endhighlight %}
+    <small class="text-muted">an icon being used as a link to a navigation menu</small>
+
+{% highlight html %}
+<a class="btn btn-danger" href="path/to/settings">
+  <i class="fa fa-trash-o" title="Delete" aria-hidden="true"></i>
+  <span class="sr-only">Delete</span>
+</a>
+{% endhighlight %}
+    <small class="text-muted">an icon being used as a delete button's symbol</small>
+
+  </div>
+</div>
+
+<div class="alert alert-success">
+  <ul class="fa-ul margin-bottom-none">
+    <li>
+      <i class="fa-li fa fa-info-circle fa-lg" aria-hidden="true"></i>
+      Bootstrap comes with a <a href="http://getbootstrap.com/css/#callout-has-feedback-icon-accessibility">utility class to visually hide content, but make semantically accessible</a>. Not using Bootstrap, there are <a href="https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/">plenty</a> of <a href="https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L124">recipes</a> to roll your own from.
+    </li>
+  </ul>
+</div>
+
+<div class="alert alert-success">
+  <ul class="fa-ul margin-bottom-none">
+    <li>
+      <i class="fa-li fa fa-info-circle fa-lg" aria-hidden"true"></i>
+      <a href="{{ page.relative_path }}examples/#accessible">See more examples of how to add accessibility-minded icons</a> into your UI.
+    </li>
+  </ul>
+</div>

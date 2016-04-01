@@ -4,7 +4,7 @@ title: Font Awesome Examples
 navbar_active: examples
 relative_path: ../
 ---
-{% capture jumbotron_h1 %}<i class="fa fa-magic"></i>&nbsp; Examples{% endcapture %}
+{% capture jumbotron_h1 %}<i class="fa fa-magic" aria-hidden="true"></i>&nbsp; Examples{% endcapture %}
 {% capture jumbotron_p %}Lots of easy ways to use Font Awesome{% endcapture %}
 
 {% include jumbotron.html %}
@@ -26,6 +26,7 @@ relative_path: ../
   {% include examples/list.html %}
   {% include examples/bordered-pulled.html %}
   {% include examples/animated.html %}
+  {% include examples/accessible.html %}
   {% include examples/rotated-flipped.html %}
   {% include examples/stacked.html %}
   {% include examples/bootstrap.html %}
