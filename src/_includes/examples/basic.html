@@ -10,7 +10,9 @@
   <div class="row">
     <div class="col-md-3 col-sm-4">
       <p>
-        <i class="fa fa-camera-retro"></i> fa-camera-retro
+        <i class="fa fa-camera-retro" aria-hidden="true"></i>
+        <span class="sr-only">Example: basic icon</span>
+        fa-camera-retro
       </p>
     </div>
     <div class="col-md-9 col-sm-8">
@@ -20,12 +22,13 @@
         brevity, but using a <code>&lt;span&gt;</code> is more semantically correct).
       </p>
 {% highlight html %}
-<i class="fa fa-camera-retro"></i> fa-camera-retro
+<i class="fa fa-camera-retro" aria-hidden="true"></i> fa-camera-retro
 {% endhighlight %}
       <div class="alert alert-success">
         <ul class="fa-ul">
           <li>
-            <i class="fa fa-info-circle fa-lg fa-li"></i>
+            <i class="fa fa-info-circle fa-lg fa-li" aria-hidden="true"></i>
+            <strong class="sr-only">Example: basic icon</strong>
             If you change the font-size of the icon's container, the icon gets bigger. Same things goes for color,
             drop shadow, and anything else that gets inherited using CSS.
           </li>

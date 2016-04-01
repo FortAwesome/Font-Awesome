@@ -4,7 +4,7 @@ title: Font Awesome Icons
 navbar_active: icons
 relative_path: ../
 ---
-{% capture jumbotron_h1 %}<i class="fa fa-flag"></i>&nbsp; The Icons{% endcapture %}
+{% capture jumbotron_h1 %}<i class="fa fa-flag" aria-hidden="true"></i>&nbsp; The Icons{% endcapture %}
 {% capture jumbotron_p %}The complete set of {{ icons | size }} icons in Font Awesome {{ site.fontawesome.version }}{% endcapture %}
 
 {% include jumbotron.html %}
@@ -24,14 +24,14 @@ relative_path: ../
   <div class="row">
     <div class="col-md-10 col-sm-9">
       <section id="search">
-        <label for="search-input"><i class="fa fa-search"></i></label>
+        <label for="search-input"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search icons</span></label>
         <input id="search-input" class="form-control input-lg" placeholder="Search icons" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
-        <a id="search-clear" href="#" class="fa fa-times-circle hide"></a>
+        <a id="search-clear" href="#" class="fa fa-times-circle hide" aria-hidden="true"><span class="sr-only">Clear search</span></a>
       </section>
     </div>
     <div class="col-md-2 col-sm-3 padding-left-none hidden-xs">
       <div class="algolia">
-        by <a href="https://algolia.com"><i class="fas fas-algolia"></i></a>
+        by <a href="https://algolia.com"><i class="fas fas-algolia" aria-hidden="true"></i><span class="sr-only">Algolia</span></a>
       </div>
     </div>
   </div>
@@ -63,7 +63,7 @@ relative_path: ../
       </div>
     <% } else { %>
       <div class="alert alert-danger text-lg" role="alert">
-        <h3 class="margin-top margin-bottom-lg"><i class="fa fa-meh-o"></i> Oops! No icons matched your query.</h3>
+        <h3 class="margin-top margin-bottom-lg"><i class="fa fa-meh-o" aria-hidden="true"></i> Oops! No icons matched your query.</h3>
         A few things that might help:
         <ol>
           <li>
@@ -87,7 +87,7 @@ relative_path: ../
   <script type="text/template" id="result-template">
     <div class="fa-hover col-md-3 col-sm-4">
       <a href="{{ page.relative_path }}icon/<%= result.name %>">
-        <i class="fa <%= result.css_class %>"></i> <%= result._highlightResult.name.value %>
+        <i class="fa <%= result.css_class %>" aria-hidden="true"></i> <%= result._highlightResult.name.value %>
         <% if (matches.length > 0) { %>
           <span class="text-muted">(<%= matches.join(", ") %>)</span>
         <% } %>
