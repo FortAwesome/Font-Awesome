@@ -7,7 +7,7 @@
         <div class="actions">
           <a class="btn btn-default btn-lg" href="#modal-download" data-toggle="modal"
              onClick="_gaq.push(['_trackEvent', 'Launch Modal', 'Launch Download Modal']);">
-            <i class="fa fa-download fa-lg"></i>&nbsp;
+            <i class="fa fa-download fa-lg" aria-hidden="true"></i>&nbsp;
             Download
           </a>
         </div>
@@ -24,27 +24,31 @@
         <div id="icon-carousel" class="carousel slide">
           <!-- Carousel items -->
           <div class="carousel-inner">
-            <div class="active item"><div><i class="fa fa-flag"></i></div></div>
-            <div class="item"><div><i class="fa fa-fort-awesome"></i></div></div>
-            <div class="item"><div><i class="fa fa-sticky-note"></i></div></div>
-            <div class="item"><div><i class="fa fa-commenting"></i></div></div>
-            <div class="item"><div><i class="fa fa-map-signs"></i></div></div>
-            <div class="item"><div><i class="fa fa-envelope"></i></div></div>
-            <div class="item"><div><i class="fa fa-send-o"></i></div></div>
-            <div class="item"><div><i class="fa fa-book"></i></div></div>
-            <div class="item"><div><i class="fa fa-fighter-jet"></i></div></div>
-            <div class="item"><div><i class="fa fa-beer"></i></div></div>
-            <div class="item"><div><i class="fa fa-heart-o"></i></div></div>
-            <div class="item"><div><i class="fa fa-thumbs-o-up"></i></div></div>
-            <div class="item"><div><i class="fa fa-pied-piper-alt"></i></div></div>
+            <div class="active item"><div><i class="fa fa-flag" aria-hidden="true"></i><span class="sr-only">flag icon</span></div></div>
+            <div class="item"><div><i class="fa fa-fort-awesome" aria-hidden="true"></i><span class="sr-only">fort awesome icon</span></div></div>
+            <div class="item"><div><i class="fa fa-sticky-note" aria-hidden="true"></i><span class="sr-only">sticky note icon</span></div></div>
+            <div class="item"><div><i class="fa fa-commenting" aria-hidden="true"></i><span class="sr-only">commenting icon</span></div></div>
+            <div class="item"><div><i class="fa fa-map-signs" aria-hidden="true"></i><span class="sr-only">map signs icon</span></div></div>
+            <div class="item"><div><i class="fa fa-envelope" aria-hidden="true"></i><span class="sr-only">envelope icon</span></div></div>
+            <div class="item"><div><i class="fa fa-send-o" aria-hidden="true"></i><span class="sr-only">send icon</span></div></div>
+            <div class="item"><div><i class="fa fa-book" aria-hidden="true"></i><span class="sr-only">book icon</span></div></div>
+            <div class="item"><div><i class="fa fa-fighter-jet" aria-hidden="true"></i><span class="sr-only">fighter jet icon</span></div></div>
+            <div class="item"><div><i class="fa fa-beer" aria-hidden="true"></i><span class="sr-only">beer icon</span></div></div>
+            <div class="item"><div><i class="fa fa-heart-o" aria-hidden="true"></i><span class="sr-only">heart icon</span></div></div>
+            <div class="item"><div><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span class="sr-only">thumbs up icon</span></div></div>
+            <div class="item"><div><i class="fa fa-pied-piper-alt" aria-hidden="true"></i><span class="sr-only">pied piper icon</span></div></div>
           </div>
           <!-- Carousel nav -->
           <a class="carousel-control left" href="#icon-carousel" data-slide="prev"
              onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Prev']);">
-            <i class="fa fa-arrow-circle-left"></i></a>
+            <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+            <span class="sr-only">Previous</span>
+          </a>
           <a class="carousel-control right" href="#icon-carousel" data-slide="next"
              onClick="_gaq.push(['_trackEvent', 'iconCarousel', 'Next']);">
-            <i class="fa fa-arrow-circle-right"></i></a>
+            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </div>
