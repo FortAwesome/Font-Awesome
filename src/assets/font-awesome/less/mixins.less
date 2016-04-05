@@ -8,14 +8,14 @@
 }
 
 .fa-icon-rotate(@degrees, @rotation) {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@rotation);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=@{rotation})";
   -webkit-transform: rotate(@degrees);
       -ms-transform: rotate(@degrees);
           transform: rotate(@degrees);
 }
 
 .fa-icon-flip(@horiz, @vert, @rotation) {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@rotation, mirror=1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=@{rotation}, mirror=1)";
   -webkit-transform: scale(@horiz, @vert);
       -ms-transform: scale(@horiz, @vert);
           transform: scale(@horiz, @vert);
