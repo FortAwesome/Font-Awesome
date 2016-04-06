@@ -2104,6 +2104,9 @@
 .fa-question-circle-o:before {
   content: "\f29c";
 }
+.fa-blind:before {
+  content: "\f29d";
+}
 .sr-only {
   position: absolute;
   width: 1px;
