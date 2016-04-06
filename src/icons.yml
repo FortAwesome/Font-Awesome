@@ -5913,12 +5913,12 @@ icons:
       - Web Application Icons
       - Accessibility Icons
 
-  - name:       Low Vision
-    id:         low-vision
+  - name:       Blind
+    id:         blind
     unicode:    f29d
     created:    4.6
     aliases:
-      - blind
+      - low-vision
     categories:
       - Web Application Icons
       - Accessibility Icons

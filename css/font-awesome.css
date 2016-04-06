@@ -2104,8 +2104,8 @@
 .fa-question-circle-o:before {
   content: "\f29c";
 }
-.fa-blind:before,
-.fa-low-vision:before {
+.fa-low-vision:before,
+.fa-blind:before {
   content: "\f29d";
 }
 .fa-audio-description:before {
