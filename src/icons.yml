@@ -1517,6 +1517,7 @@ icons:
     id:         github-square
     unicode:    f092
     created:    1.0
+    url:        github.com/logos
     filter:
       - octocat
     categories:
@@ -1610,6 +1611,7 @@ icons:
     id:         github
     unicode:    f09b
     created:    2.0
+    url:        github.com/logos
     filter:
       - octocat
     categories:
@@ -2729,6 +2731,7 @@ icons:
     id:         github-alt
     unicode:    f113
     created:    3.0
+    url:        github.com/logos
     filter:
       - octocat
     categories:
@@ -5849,3 +5852,52 @@ icons:
     created:    4.5
     categories:
       - Web Application Icons
+
+
+  - name:       GitLab
+    id:         gitlab
+    unicode:    f296
+    created:    4.6
+    url:        gitlab.com
+    categories:
+      - Brand Icons
+
+  - name:       WPBeginner
+    id:         wpbeginner
+    unicode:    f297
+    created:    4.6
+    url:        wpbeginner.com
+    categories:
+      - Brand Icons
+
+  - name:       WPForms
+    id:         wpforms
+    unicode:    f298
+    created:    4.6
+    url:        wpforms.com
+    categories:
+      - Brand Icons
+
+  - name:       Envira Gallery
+    id:         envira
+    unicode:    f299
+    created:    4.6
+    url:        enviragallery.com
+    categories:
+      - Brand Icons
+
+  - name:       Universal Access
+    id:         universal-access
+    unicode:    f29a
+    created:    4.6
+    categories:
+      - Web Application Icons
+      - Accessibility Icons
+
+  - name:       Wheelchair Alt
+    id:         wheelchair-alt
+    unicode:    f29b
+    created:    4.6
+    categories:
+      - Web Application Icons
+      - Accessibility Icons
