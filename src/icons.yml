@@ -5947,3 +5947,11 @@ icons:
     categories:
       - Web Application Icons
       - Accessibility Icons
+
+  - name:       Assistive Listening Systems
+    id:         assistive-listening-systems
+    unicode:    f2a2
+    created:    4.6
+    categories:
+      - Web Application Icons
+      - Accessibility Icons

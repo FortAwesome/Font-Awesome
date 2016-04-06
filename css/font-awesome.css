@@ -2117,6 +2117,9 @@
 .fa-braille:before {
   content: "\f2a1";
 }
+.fa-assistive-listening-systems:before {
+  content: "\f2a2";
+}
 .sr-only {
   position: absolute;
   width: 1px;
