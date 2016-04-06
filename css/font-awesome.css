@@ -2104,7 +2104,8 @@
 .fa-question-circle-o:before {
   content: "\f29c";
 }
-.fa-blind:before {
+.fa-blind:before,
+.fa-low-vision:before {
   content: "\f29d";
 }
 .fa-audio-description:before {
@@ -2112,6 +2113,9 @@
 }
 .fa-volume-control-phone:before {
   content: "\f2a0";
+}
+.fa-braille:before {
+  content: "\f2a1";
 }
 .sr-only {
   position: absolute;

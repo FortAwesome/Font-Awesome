@@ -5913,10 +5913,12 @@ icons:
       - Web Application Icons
       - Accessibility Icons
 
-  - name:       Blind
-    id:         blind
+  - name:       Low Vision
+    id:         low-vision
     unicode:    f29d
     created:    4.6
+    aliases:
+      - blind
     categories:
       - Web Application Icons
       - Accessibility Icons
@@ -5933,6 +5935,14 @@ icons:
   - name:       Volume Control Phone
     id:         volume-control-phone
     unicode:    f2a0
+    created:    4.6
+    categories:
+      - Web Application Icons
+      - Accessibility Icons
+
+  - name:       Braille
+    id:         braille
+    unicode:    f2a1
     created:    4.6
     categories:
       - Web Application Icons
