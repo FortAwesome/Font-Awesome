@@ -2108,7 +2108,10 @@
   content: "\f29d";
 }
 .fa-audio-description:before {
-  content: "\f29d";
+  content: "\f29e";
+}
+.fa-volume-control-phone:before {
+  content: "\f2a0";
 }
 .sr-only {
   position: absolute;

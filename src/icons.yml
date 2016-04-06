@@ -5923,7 +5923,16 @@ icons:
 
   - name:       Audio Description
     id:         audio-description
-    unicode:    f29d
+    unicode:    f29e
+    created:    4.6
+    categories:
+      - Web Application Icons
+      - Accessibility Icons
+
+
+  - name:       Volume Control Phone
+    id:         volume-control-phone
+    unicode:    f2a0
     created:    4.6
     categories:
       - Web Application Icons
