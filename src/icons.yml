@@ -5920,3 +5920,11 @@ icons:
     categories:
       - Web Application Icons
       - Accessibility Icons
+
+  - name:       Audio Description
+    id:         audio-description
+    unicode:    f29d
+    created:    4.6
+    categories:
+      - Web Application Icons
+      - Accessibility Icons
