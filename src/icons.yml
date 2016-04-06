@@ -5901,3 +5901,11 @@ icons:
     categories:
       - Web Application Icons
       - Accessibility Icons
+
+  - name:       Question Circle Outlined
+    id:         question-circle-o
+    unicode:    f29c
+    created:    4.6
+    categories:
+      - Web Application Icons
+      - Accessibility Icons

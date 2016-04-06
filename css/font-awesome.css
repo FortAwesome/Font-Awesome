@@ -2101,6 +2101,9 @@
 .fa-wheelchair-alt:before {
   content: "\f29b";
 }
+.fa-question-circle-o:before {
+  content: "\f29c";
+}
 .sr-only {
   position: absolute;
   width: 1px;
