@@ -3911,6 +3911,7 @@ icons:
       - Web Application Icons
       - Medical Icons
       - Transportation Icons
+      - Accessibility Icons
 
   - name:       Vimeo Square
     id:         vimeo-square
@@ -4528,6 +4529,7 @@ icons:
     created:    4.2
     categories:
       - Web Application Icons
+      - Accessibility Icons
 
   - name:       Binoculars
     id:         binoculars
@@ -4819,6 +4821,7 @@ icons:
     created:    4.2
     categories:
       - Web Application Icons
+      - Accessibility Icons
 
   - name:       Shekel (ILS)
     id:         ils
