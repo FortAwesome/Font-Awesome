@@ -5976,3 +5976,19 @@ icons:
     categories:
       - Web Application Icons
       - Accessibility Icons
+
+
+  - name:       Glide
+    id:         glide
+    unicode:    f2a5
+    created:    4.6
+    categories:
+      - Brand Icons
+
+
+  - name:       Glide G
+    id:         glide-g
+    unicode:    f2a6
+    created:    4.6
+    categories:
+      - Brand Icons

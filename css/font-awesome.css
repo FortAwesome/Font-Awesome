@@ -2129,6 +2129,12 @@
 .fa-deaf:before {
   content: "\f2a4";
 }
+.fa-glide:before {
+  content: "\f2a5";
+}
+.fa-glide-g:before {
+  content: "\f2a6";
+}
 .sr-only {
   position: absolute;
   width: 1px;
