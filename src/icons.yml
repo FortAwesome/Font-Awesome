@@ -5917,8 +5917,6 @@ icons:
     id:         blind
     unicode:    f29d
     created:    4.6
-    aliases:
-      - low-vision
     categories:
       - Web Application Icons
       - Accessibility Icons
@@ -5997,6 +5995,15 @@ icons:
     created:    4.6
     aliases:
       - signing
+    categories:
+      - Web Application Icons
+      - Accessibility Icons
+
+
+  - name:       Low Vision
+    id:         low-vision
+    unicode:    f2a8
+    created:    4.6
     categories:
       - Web Application Icons
       - Accessibility Icons

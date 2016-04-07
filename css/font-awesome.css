@@ -2104,7 +2104,6 @@
 .fa-question-circle-o:before {
   content: "\f29c";
 }
-.fa-low-vision:before,
 .fa-blind:before {
   content: "\f29d";
 }
@@ -2138,6 +2137,9 @@
 .fa-signing:before,
 .fa-sign-language:before {
   content: "\f2a7";
+}
+.fa-low-vision:before {
+  content: "\f2a8";
 }
 .sr-only {
   position: absolute;
