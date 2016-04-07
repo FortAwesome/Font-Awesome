@@ -2135,6 +2135,10 @@
 .fa-glide-g:before {
   content: "\f2a6";
 }
+.fa-signing:before,
+.fa-sign-language:before {
+  content: "\f2a7";
+}
 .sr-only {
   position: absolute;
   width: 1px;

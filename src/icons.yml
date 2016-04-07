@@ -5977,7 +5977,6 @@ icons:
       - Web Application Icons
       - Accessibility Icons
 
-
   - name:       Glide
     id:         glide
     unicode:    f2a5
@@ -5985,10 +5984,19 @@ icons:
     categories:
       - Brand Icons
 
-
   - name:       Glide G
     id:         glide-g
     unicode:    f2a6
     created:    4.6
     categories:
       - Brand Icons
+
+  - name:       Sign Language
+    id:         sign-language
+    unicode:    f2a7
+    created:    4.6
+    aliases:
+      - signing
+    categories:
+      - Web Application Icons
+      - Accessibility Icons
