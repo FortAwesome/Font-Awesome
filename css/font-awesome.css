@@ -2120,7 +2120,8 @@
 .fa-assistive-listening-systems:before {
   content: "\f2a2";
 }
-.fa-sign-language-interpreting:before {
+.fa-asl-interpreting:before,
+.fa-american-sign-language-interpreting:before {
   content: "\f2a3";
 }
 .sr-only {

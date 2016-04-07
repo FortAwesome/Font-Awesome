@@ -5956,10 +5956,12 @@ icons:
       - Web Application Icons
       - Accessibility Icons
 
-  - name:       Sign Language Interpreting
-    id:         sign-language-interpreting
+  - name:       American Sign Language Interpreting
+    id:         american-sign-language-interpreting
     unicode:    f2a3
     created:    4.6
+    aliases:
+      - asl-interpreting
     categories:
       - Web Application Icons
       - Accessibility Icons
