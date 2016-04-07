@@ -5965,3 +5965,14 @@ icons:
     categories:
       - Web Application Icons
       - Accessibility Icons
+
+  - name:       Deaf
+    id:         deaf
+    unicode:    f2a4
+    created:    4.6
+    aliases:
+      - deafness
+      - hard-of-hearing
+    categories:
+      - Web Application Icons
+      - Accessibility Icons

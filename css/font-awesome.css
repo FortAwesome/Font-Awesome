@@ -2124,6 +2124,11 @@
 .fa-american-sign-language-interpreting:before {
   content: "\f2a3";
 }
+.fa-deafness:before,
+.fa-hard-of-hearing:before,
+.fa-deaf:before {
+  content: "\f2a4";
+}
 .sr-only {
   position: absolute;
   width: 1px;
