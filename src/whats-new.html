@@ -20,6 +20,24 @@ relative_path: ../
   {% endcapture %}
   {% include stripe-ad.html %}
 
+  <div class="row feature-list">
+    <div class="col-md-4 col-sm-6">
+      <h4><i class="fa fa-universal-access" aria-hidden="true"></i> <a href="{{ page.relative_path }}accessibility">Accessibility Docs</a></h4>
+      Details on how to mark up your icons depending on how you’re using them.
+      Make your site icons usable by the most people, and start here.
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h4><i class="fa fa-code" aria-hidden="true"></i> Better Examples</h4>
+      Every FA icon example page now has a better, more accessibility-minded
+      default block of code that users can copy and paste.
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h4><i class="fa fa-wheelchair-alt" aria-hidden="true"></i> <a href="{{ page.relative_path }}icons/#accessibility">Accessibility Category</a></h4>
+      We've added a new icon category specifically for accessibility and seeded
+      it with 15 icons to start. Make sure to <a href="{{ page.relative_path }}community/#requesting-new-icons">request more</a> if you need them!
+    </div>
+  </div>
+
   {% include icons/new.html %}
   {% include new-upgrading.html %}
 </div>
