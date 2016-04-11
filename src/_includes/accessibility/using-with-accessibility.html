@@ -33,27 +33,27 @@
 <small class="text-muted">an icon being used in front of link text</small>
   </div>
 
-  <h3>Icons that with semantic or interactive purpose</h3>
+  <h3>Icons with semantic or interactive purpose</h3>
   <p>
     If you're using an icon to convey meaning (rather than only as a decorative element), ensure that this meaning is also conveyed to assistive technologies. This goes for content you're abbreviating via icons as well as interactive controls (buttons, form elements, toggles, etc.). There are a few techniques to accomplish this:
   </p>
 
   <h4>If an icon is <strong>not</strong> an interactive element</h4>
   <p>
-    If not representing an interactive element, like a button or link, use both a <code>title</code> attribute and an  on the icon to provide a text alternative. This has the advantages of working with all modern screen readers, working well with the most ubiquitous speech recognition program, and helping users with cognitive disabilities by providing a mouse tooltip.
+    The simplest way to provide a text alternative is to use the <code>aria-hidden="true"</code> attribute on the icon and to include the text with an additional element, such as a <code>&lt;span&gt;</code>, with appropriate CSS to visually hide the element while keeping it accessible to assistive technologies. In addition, you can add a <code>title</code> attribute on the icon to provide a tooltip for sighted mouse users.
   </p>
 
   <div class="margin-bottom-lg margin-top-lg">
 {% highlight html %}
 <dl>
   <dt>
-    <i class="fa fa-car" aria-hidden="true"></i>
+    <i class="fa fa-car" aria-hidden="true" title="Time to destination by car"></i>
     <span class="sr-only">Time to destination by car:</span>
   </dt>
   <dd>4 minutes</dd>
 
   <dt>
-    <i class="fa fa-bicycle" aria-hidden="true"></i>
+    <i class="fa fa-bicycle" aria-hidden="true" title="Time to destination by bike"></i>
     <span class="sr-only">Time to destination by bike:</span>
   </dt>
   <dd>12 minutes</dd>
@@ -64,28 +64,27 @@
 
   <div class="margin-bottom-lg margin-top-lg">
 {% highlight html %}
-<i class="fa fa-hourglass" aria-hidden="true"></i>
-<span class="sr-only">60 minutes remains in your exam</span>
+<i class="fa fa-hourglass" aria-hidden="true" title="60 minutes remain in your exam"></i>
+<span class="sr-only">60 minutes remain in your exam</span>
 
-<i class="fa fa-hourglass-half" aria-hidden="true"></i>
-<span class="sr-only">30 minutes remains in your exam</span>
+<i class="fa fa-hourglass-half" aria-hidden="true" title="30 minutes remain in your exam"></i>
+<span class="sr-only">30 minutes remain in your exam</span>
 
-<i class="fa fa-hourglass-end" aria-hidden="true"></i>
-<span class="sr-only">0 minutes remains in your exam</span>
+<i class="fa fa-hourglass-end" aria-hidden="true" title="0 minutes remain in your exam"></i>
+<span class="sr-only">0 minutes remain in your exam</span>
 {% endhighlight %}
     <small class="text-muted">an icon being used to denote time remaining</small>
   </div>
 
   <h4>If an icon represents an interactive element</h4>
   <p>
-    In addition to the recommendations above, use a <code>title</code> attribute which makes the accessible text discoverable by mouse and those with cognitive disabilities.
+    In the case of focusable interactive elements, there are various options to include an alternative text or label to the element, without the need for any visually hidden <code>&lt;span&gt;</code> or similar. For instance, simply adding the <code>title</code> attribute to the interactive element itself will be sufficient to provide an accessible alternative name for the element, as well as providing the mouse tooltip.
   </p>
 
   <div class="margin-bottom-lg margin-top-lg">
 {% highlight html %}
-<a href="path/to/shopping/cart">
-  <i class="fa fa-shopping-cart" title="View 3 items in your shopping cart" aria-hidden="true"></i>
-  <span class="sr-only">View 3 items in your shopping cart</span>
+<a href="path/to/shopping/cart" title="View 3 items in your shopping cart">
+  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
 </a>
 {% endhighlight %}
     <small class="text-muted">an icon being used to communicate shopping cart state</small>
@@ -93,17 +92,15 @@
 
   <div class="margin-bottom-lg margin-top-lg">
 {% highlight html %}
-<a href="#navigation-main">
-  <i class="fa fa-bars" title="Skip to main navigation" aria-hidden="true"></i>
-  <span class="sr-only">Skip to main navigation</span>
+<a href="#navigation-main" title="Skip to main navigation">
+  <i class="fa fa-bars" aria-hidden="true"></i>
 </a>
 {% endhighlight %}
     <small class="text-muted">an icon being used as a link to a navigation menu</small>
 
 {% highlight html %}
-<a class="btn btn-danger" href="path/to/settings">
-  <i class="fa fa-trash-o" title="Delete" aria-hidden="true"></i>
-  <span class="sr-only">Delete</span>
+<a class="btn btn-danger" href="path/to/settings" title="Delete">
+  <i class="fa fa-trash-o" aria-hidden="true"></i>
 </a>
 {% endhighlight %}
     <small class="text-muted">an icon being used as a delete button's symbol</small>
@@ -115,7 +112,7 @@
   <ul class="fa-ul margin-bottom-none">
     <li>
       <i class="fa-li fa fa-info-circle fa-lg" aria-hidden="true"></i>
-      Bootstrap comes with a <a href="http://getbootstrap.com/css/#callout-has-feedback-icon-accessibility">utility class to visually hide content, but make semantically accessible</a>. Not using Bootstrap, there are <a href="https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/">plenty</a> of <a href="https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L124">recipes</a> to roll your own from.
+      Bootstrap comes with a <a href="http://getbootstrap.com/css/#callout-has-feedback-icon-accessibility">utility class to visually hide content, but keep it semantically accessible</a>. If you're not using Bootstrap, there are <a href="https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/">plenty</a> of <a href="https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L124">recipes</a> to roll your own from.
     </li>
   </ul>
 </div>
