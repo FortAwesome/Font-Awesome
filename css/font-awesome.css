@@ -2142,6 +2142,21 @@
 .fa-low-vision:before {
   content: "\f2a8";
 }
+.fa-viadeo:before {
+  content: "\f2a9";
+}
+.fa-viadeo-square:before {
+  content: "\f2aa";
+}
+.fa-snapchat:before {
+  content: "\f2ab";
+}
+.fa-snapchat-ghost:before {
+  content: "\f2ac";
+}
+.fa-snapchat-square:before {
+  content: "\f2ad";
+}
 .sr-only {
   position: absolute;
   width: 1px;

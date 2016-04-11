@@ -6007,3 +6007,38 @@ icons:
     categories:
       - Web Application Icons
       - Accessibility Icons
+
+  - name:       Viadeo
+    id:         viadeo
+    unicode:    f2a9
+    created:    4.6
+    categories:
+      - Brand Icons
+
+  - name:       Viadeo Square
+    id:         viadeo-square
+    unicode:    f2aa
+    created:    4.6
+    categories:
+      - Brand Icons
+
+  - name:       Snapchat
+    id:         snapchat
+    unicode:    f2ab
+    created:    4.6
+    categories:
+      - Brand Icons
+
+  - name:       Snapchat Ghost
+    id:         snapchat-ghost
+    unicode:    f2ac
+    created:    4.6
+    categories:
+      - Brand Icons
+
+  - name:       Snapchat Square
+    id:         snapchat-square
+    unicode:    f2ad
+    created:    4.6
+    categories:
+      - Brand Icons
