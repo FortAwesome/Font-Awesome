@@ -1,7 +1,7 @@
 {
   "name": "font-awesome",
   "description": "The iconic font and CSS framework",
-  "version": "4.5.0",
+  "version": "4.6.0",
   "style": "css/font-awesome.css",
   "keywords": ["font", "awesome", "fontawesome", "icon", "font", "bootstrap"],
   "homepage": "http://fontawesome.io/",
@@ -19,16 +19,20 @@
   },
   "contributors": [
     {
+      "name": "Brian Talbot",
+      "web": "http://twitter.com/talbs"
+    },
+    {
+      "name": "Travis Chase",
+      "web": "http://twitter.com/supercodepoet"
+    },
+    {
       "name": "Rob Madole",
       "web": "http://twitter.com/robmadole"
     },
     {
       "name": "Geremia Taglialatela",
       "web": "http://twitter.com/gtagliala"
-    },
-    {
-      "name": "Travis Chase",
-      "web": "http://twitter.com/supercodepoet"
     }
   ],
   "license": "(OFL-1.1 AND MIT)",

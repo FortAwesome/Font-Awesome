@@ -1,0 +1,28 @@
+---
+layout: base
+title: Font Awesome & Accessibility
+navbar_active: accessibility
+relative_path: ../
+---
+{% capture jumbotron_h1 %}<i class="fa fa-universal-access" aria-hidden="true"></i>&nbsp; Accessibility{% endcapture %}
+{% capture jumbotron_p %}Make your icons awesome for all of your users{% endcapture %}
+
+{% include jumbotron.html %}
+{% include stripe-social.html %}
+
+<div class="container">
+  {% capture stripe_ad_content %}
+  <p class="lead">
+    Icons are symbols that can convey a ton of information and really help people comprehend directions, signs, and interfaces. Its important that we create and use them so that they can reach the largest amount of people possible.
+  </p>
+
+  <p class="lead">
+    When creating web sites and apps, that means making sure our icons play well with assistive tech when users are navigating apps and sites.
+  </p>
+  {% endcapture %}
+  {% include stripe-ad.html %}
+
+  {% include accessibility/background.html %}
+  {% include accessibility/using-with-accessibility.html %}
+  {% include accessibility/other.html %}
+</div>
