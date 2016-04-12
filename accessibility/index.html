@@ -161,6 +161,10 @@
         <li><a href="../community/">Community</a></li>
         <li><a href="../license/">License</a></li>
       </ul>
+
+      <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+        <li><a href="http://blog.fontawesome.io">Blog</a></li>
+      </ul>
     </div>
   </div>
 </div>
@@ -243,7 +247,7 @@
       The assistive technology may not find any content to read out to a user
     </li>
     <li>
-      The assistive technolog may read the unicode equivalent which could not match up to what the icon means in context or worse is just plain confusing
+      The assistive technology may read the unicode equivalent, which could not match up to what the icon means in context, or worse is just plain confusing
     </li>
   </ul>
 </div>
@@ -280,26 +284,26 @@
 <small class="text-muted">an icon being used in front of link text</small>
   </div>
 
-  <h3>Icons that with semantic or interactive purpose</h3>
+  <h3>Icons with semantic or interactive purpose</h3>
   <p>
     If you're using an icon to convey meaning (rather than only as a decorative element), ensure that this meaning is also conveyed to assistive technologies. This goes for content you're abbreviating via icons as well as interactive controls (buttons, form elements, toggles, etc.). There are a few techniques to accomplish this:
   </p>
 
   <h4>If an icon is <strong>not</strong> an interactive element</h4>
   <p>
-    If not representing an interactive element, like a button or link, use both a <code>title</code> attribute and an  on the icon to provide a text alternative. This has the advantages of working with all modern screen readers, working well with the most ubiquitous speech recognition program, and helping users with cognitive disabilities by providing a mouse tooltip.
+    The simplest way to provide a text alternative is to use the <code>aria-hidden="true"</code> attribute on the icon and to include the text with an additional element, such as a <code>&lt;span&gt;</code>, with appropriate CSS to visually hide the element while keeping it accessible to assistive technologies. In addition, you can add a <code>title</code> attribute on the icon to provide a tooltip for sighted mouse users.
   </p>
 
   <div class="margin-bottom-lg margin-top-lg">
 <div class="highlight"><pre><code class="html"><span class="nt">&lt;dl&gt;</span>
   <span class="nt">&lt;dt&gt;</span>
-    <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-car&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
+    <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-car&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span> <span class="na">title=</span><span class="s">&quot;Time to destination by car&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;sr-only&quot;</span><span class="nt">&gt;</span>Time to destination by car:<span class="nt">&lt;/span&gt;</span>
   <span class="nt">&lt;/dt&gt;</span>
   <span class="nt">&lt;dd&gt;</span>4 minutes<span class="nt">&lt;/dd&gt;</span>
 
   <span class="nt">&lt;dt&gt;</span>
-    <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-bicycle&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
+    <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-bicycle&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span> <span class="na">title=</span><span class="s">&quot;Time to destination by bike&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;sr-only&quot;</span><span class="nt">&gt;</span>Time to destination by bike:<span class="nt">&lt;/span&gt;</span>
   <span class="nt">&lt;/dt&gt;</span>
   <span class="nt">&lt;dd&gt;</span>12 minutes<span class="nt">&lt;/dd&gt;</span>
@@ -309,43 +313,40 @@
   </div>
 
   <div class="margin-bottom-lg margin-top-lg">
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-hourglass&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
-<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;sr-only&quot;</span><span class="nt">&gt;</span>60 minutes remains in your exam<span class="nt">&lt;/span&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-hourglass&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span> <span class="na">title=</span><span class="s">&quot;60 minutes remain in your exam&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;sr-only&quot;</span><span class="nt">&gt;</span>60 minutes remain in your exam<span class="nt">&lt;/span&gt;</span>
 
-<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-hourglass-half&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
-<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;sr-only&quot;</span><span class="nt">&gt;</span>30 minutes remains in your exam<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-hourglass-half&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span> <span class="na">title=</span><span class="s">&quot;30 minutes remain in your exam&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;sr-only&quot;</span><span class="nt">&gt;</span>30 minutes remain in your exam<span class="nt">&lt;/span&gt;</span>
 
-<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-hourglass-end&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
-<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;sr-only&quot;</span><span class="nt">&gt;</span>0 minutes remains in your exam<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-hourglass-end&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span> <span class="na">title=</span><span class="s">&quot;0 minutes remain in your exam&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;sr-only&quot;</span><span class="nt">&gt;</span>0 minutes remain in your exam<span class="nt">&lt;/span&gt;</span>
 </code></pre></div>
     <small class="text-muted">an icon being used to denote time remaining</small>
   </div>
 
   <h4>If an icon represents an interactive element</h4>
   <p>
-    In addition to the recommendations above, use a <code>title</code> attribute which makes the accessible text discoverable by mouse and those with cognitive disabilities.
+    In the case of focusable interactive elements, there are various options to include an alternative text or label to the element, without the need for any visually hidden <code>&lt;span&gt;</code> or similar. For instance, simply adding the <code>title</code> attribute to the interactive element itself will be sufficient to provide an accessible alternative name for the element, as well as providing the mouse tooltip.
   </p>
 
   <div class="margin-bottom-lg margin-top-lg">
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;path/to/shopping/cart&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-shopping-cart&quot;</span> <span class="na">title=</span><span class="s">&quot;View 3 items in your shopping cart&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
-  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;sr-only&quot;</span><span class="nt">&gt;</span>View 3 items in your shopping cart<span class="nt">&lt;/span&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;path/to/shopping/cart&quot;</span> <span class="na">title=</span><span class="s">&quot;View 3 items in your shopping cart&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-shopping-cart&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/a&gt;</span>
 </code></pre></div>
     <small class="text-muted">an icon being used to communicate shopping cart state</small>
   </div>
 
   <div class="margin-bottom-lg margin-top-lg">
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#navigation-main&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-bars&quot;</span> <span class="na">title=</span><span class="s">&quot;Skip to main navigation&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
-  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;sr-only&quot;</span><span class="nt">&gt;</span>Skip to main navigation<span class="nt">&lt;/span&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#navigation-main&quot;</span> <span class="na">title=</span><span class="s">&quot;Skip to main navigation&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-bars&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/a&gt;</span>
 </code></pre></div>
     <small class="text-muted">an icon being used as a link to a navigation menu</small>
 
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;btn btn-danger&quot;</span> <span class="na">href=</span><span class="s">&quot;path/to/settings&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-trash-o&quot;</span> <span class="na">title=</span><span class="s">&quot;Delete&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
-  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;sr-only&quot;</span><span class="nt">&gt;</span>Delete<span class="nt">&lt;/span&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;btn btn-danger&quot;</span> <span class="na">href=</span><span class="s">&quot;path/to/settings&quot;</span> <span class="na">title=</span><span class="s">&quot;Delete&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-trash-o&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/a&gt;</span>
 </code></pre></div>
     <small class="text-muted">an icon being used as a delete button's symbol</small>
@@ -357,7 +358,7 @@
   <ul class="fa-ul margin-bottom-none">
     <li>
       <i class="fa-li fa fa-info-circle fa-lg" aria-hidden="true"></i>
-      Bootstrap comes with a <a href="http://getbootstrap.com/css/#callout-has-feedback-icon-accessibility">utility class to visually hide content, but make semantically accessible</a>. Not using Bootstrap, there are <a href="https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/">plenty</a> of <a href="https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L124">recipes</a> to roll your own from.
+      Bootstrap comes with a <a href="http://getbootstrap.com/css/#callout-has-feedback-icon-accessibility">utility class to visually hide content, but keep it semantically accessible</a>. If you're not using Bootstrap, there are <a href="https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/">plenty</a> of <a href="https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L124">recipes</a> to roll your own from.
     </li>
   </ul>
 </div>
@@ -374,7 +375,7 @@
   <div id="other">
   <h2 class="page-header">Other cases and information</h2>
   <p>
-    While the scenarios and techniques above help avoid some serious issues and confusion, they are not exhaustive. There are many complex contexts and use cases when it comes to accessibility, such as users with low quality vision using high contrast mode to better see UI. There are some great tools and resources to learning and work on these out there. Here are a few reads we recommend.
+    While the scenarios and techniques above help avoid some serious issues and confusion, they are not exhaustive. There are many complex contexts and use cases when it comes to accessibility, such as users with low vision using high contrast mode to better see UI. There are some great tools and resources to learn from and work on these issues out there. Here are a few reads we recommend.
   </p>
 
   <ul>
@@ -412,7 +413,7 @@
       </a>
     </div>
     <div>
-      <i class="fa fa-flag" aria-hidden="true"></i> Font Awesome 4.6.0
+      <i class="fa fa-flag" aria-hidden="true"></i> Font Awesome 4.6.1
       <span class="hide-xs">&middot;</span><br class="hide-sm hide-md hide-lg">
       Created by <a href="https://twitter.com/davegandy">Dave Gandy</a>
     </div>
