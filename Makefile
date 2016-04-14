@@ -25,7 +25,7 @@ build:
 	bundle exec lessc --compress ${FA_LESS_MODERN} > ${FA_CSS_MODERN_MIN}
 #	sass ${FA_SCSS_MODERN} ${FA_CSS_MODERN}
 
-	bundle exec lessc --yui-compress ${SITE_LESS} > ${SITE_CSS}
+	bundle exec lessc --compress ${SITE_LESS} > ${SITE_CSS}
 	cp -r ${FA_ROOT_DIRECTORY}/* ../
 	mv README.md-nobuild ../README.md
 	cd assets && mv font-awesome font-awesome-4.6.1 && zip -r9 font-awesome-4.6.1.zip font-awesome-4.6.1 && mv font-awesome-4.6.1 font-awesome
