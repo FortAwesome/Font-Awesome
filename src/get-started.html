@@ -47,6 +47,13 @@ relative_path: ../
 
     <p class="help-block"><a role="button" data-toggle="collapse" href="#cdn-why-email" aria-expanded="false" aria-controls="collapseExample">Why do we need your email address?</a></p>
 
+    <div class="collapse" id="cdn-why-email">
+      <div class="well">
+        <h5>Why we need your email address</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
     <div class="row margin-bottom-none">
       <div class="col-md-4">
         <h4>Add icons, quickly &amp; easily</h4>
@@ -61,13 +68,6 @@ relative_path: ../
       <div class="col-md-4">
         <h4>Load your icons asynchronously</h4>
         <p>Make sure your interface loads on time with your icons. Don't want page loads to slow down for another request. We don't either. Have them load in the background, once your page has one.</p>
-      </div>
-    </div>
-
-    <div class="collapse" id="cdn-why-email">
-      <div class="well">
-        <h5>Why we need your email address</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
   </section>
@@ -212,27 +212,8 @@ $ gem install font-awesome-sass
     </div>
   </section>
 
-<<<<<<< 8bc6342828e6aecc8fe86950af72d0f63377a19f
-  <section id="custom-less">
-    <h2 class="page-header">PRO: Custom LESS or SASS</h2>
-    <p>Use this method to customize Font Awesome {{ site.fontawesome.version }} using LESS or SASS.</p>
-    <ol>
-      <li>Copy the <code>font-awesome/</code> directory into your project.</li>
-      <li>
-        Open your project's <code>font-awesome/less/variables.less</code> or <code>font-awesome/scss/_variables.scss</code> and edit the <code>@fa-font-path</code> or <code>$fa-font-path</code>
-        variable to point to your font directory.
-{% highlight scss %}
-@fa-font-path:   "../font";
-{% endhighlight %}
-        <p class="alert alert-success"><i class="fa fa-info-circle" aria-hidden="true"></i> The font path is relative from your compiled CSS directory.</p>
-      </li>
-      <li>Re-compile your LESS or SASS if using a static compiler. Otherwise, you should be good to go.</li>
-      <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
-    </ol>
-=======
   <section class="get-started-more margin-top-lg" id="get-started-more">
     <h2 class="page-header">More Information</h2>
->>>>>>> WIP - revising get started UI with Font CDN options
   </section>
 
   <div class="row">
