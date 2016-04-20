@@ -2,256 +2,181 @@
 layout: base
 title: Get Started with Font Awesome
 navbar_active: get-started
-view_class: v-get-started
 relative_path: ../
 ---
 {% capture jumbotron_h1 %}<i class="fa fa-cogs" aria-hidden="true"></i>&nbsp; Get Started{% endcapture %}
 {% capture jumbotron_p %}Easy ways to get Font Awesome {{ site.fontawesome.version }} onto your website{% endcapture %}
 
 {% include jumbotron.html %}
-
-<div class="content-underlay"></div>
+{% include stripe-social.html %}
 
 <div class="container">
-  <section class="get-started-cdn" id="get-started-cdn">
-    <h2 class="page-header margin-top-lg clearfix">
-      Font Awesome CDN
-      <span class="label label-brand text-base pull-right">Easiest</span>
-    </h2>
+  {% capture stripe_ad_content %}
+  <p class="lead">
+    Setting up Font Awesome can be as simple as adding two lines of code to your website, or you can be a pro and
+    customize the LESS yourself! Font Awesome even plays nicely with
+    <a href="{{ site.bootstrap.url }}">Bootstrap 3</a>!
+  </p>
+  {% endcapture %}
+  {% include stripe-ad.html %}
 
-    <p class="lead">Add Font Awesome into your website or app with a single line of code. You don't even have to worry about downloading or installing anything!</p>
-
-    <form class="row">
-      <div class="col-md-6 form-group margin-bottom-none">
-        <label for="cdn-email" class="sr-only">Email address</label>
-        <input type="email" class="form-control input-lg" id="cdn-email" placeholder="Your email address">
-      </div>
-
-      <div class="col-md-6">
-        <button type="submit" class="btn btn-success btn-lg btn-block">Send my Font Awesome<br class="visible-xs-block" /> embed code!</button>
-      </div>
-    </form>
-
-    <!-- CASE: error -->
-    <!-- <form class="row">
-      <div class="col-md-6 form-group margin-bottom-none has-error">
-        <label for="cdn-email" class="sr-only">Email address</label>
-        <input type="email" class="form-control input-lg" id="cdn-email" placeholder="Your email address">
-        <p id="cdn-email-error" class="help-block">We need a valid email address to send your embed code to.</p>
-      </div>
-
-      <div class="col-md-6">
-        <button type="submit" class="btn btn-success btn-lg btn-block">Send my Font Awesome<br class="visible-xs-block" /> embed code!</button>
-      </div>
-    </form> -->
-
-    <p class="help-block"><a role="button" data-toggle="collapse" href="#cdn-why-email" aria-expanded="false" aria-controls="collapseExample">Why do we need your email address?</a></p>
-
-    <div class="collapse" id="cdn-why-email">
-      <div class="well">
-        <h5>Why we need your email address</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-
-    <div class="row margin-bottom-none">
-      <div class="col-md-4">
-        <h4>Add icons, quickly &amp; easily</h4>
-        <p>Don't worry where you put your files locally or in production. You'll get all of Font Awesome's {{ icons | version:site.fontawesome.minor_version | size }} icons plus style support - all optimized for speed without the hassle.</p>
-      </div>
-
-      <div class="col-md-4">
-        <h4>Automate Accessibility Support</h4>
-        <p>Icons and symbols can really enhance your site and app. We want to help you make sure those enhancements reach the most people possible. That's why have <a href="[TODO]">best practices when it comes to web accessibility</a>. Want those added in easily for your site or app, our CDN can do that.</p>
-      </div>
-
-      <div class="col-md-4">
-        <h4>Load your icons asynchronously</h4>
-        <p>Make sure your interface loads on time with your icons. Don't want page loads to slow down for another request. We don't either. Have them load in the background, once your page has one.</p>
-      </div>
-    </div>
-  </section>
-
-  <div class="hr margin-top-lg">
-    <span class="hr-text text-xl text-muted">or</span>
+  <div id="bootstrapcdn">
+    <h2 class="page-header">EASIEST: <a href="http://www.bootstrapcdn.com/#fontawesome_tab">BootstrapCDN</a> by <a href="http://tracking.maxcdn.com/c/148092/3982/378">MaxCDN</a></h2>
+    <p>Thanks to the generous folks at <a href="http://tracking.maxcdn.com/c/148092/3982/378">MaxCDN</a>, you can use Bootstrap CDN to add Font Awesome into your website with a single line of code. You don't even have to download or install anything!</p>
+    <ol>
+      <li>
+        Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
+{% highlight html %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/{{ site.fontawesome.version }}/css/font-awesome.min.css">
+{% endhighlight %}
+        <p class="alert alert-success"><i class="fa fa-info-circle" aria-hidden="true"></i> Immediately after release, it takes a bit of time for BootstrapCDN to catch up and get the newest version live on their CDN.</p>
+      </li>
+      <li>
+        Pat yourself on the back for your scalable-vector-icons-on-the-website
+        <a href="http://37signals.com/svn/posts/312-lingo-judo">judo solution</a> in a single line of code.
+      </li>
+      <li>
+        Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!
+      </li>
+    </ol>
   </div>
 
-  <section class="get-started-download" id="get-started-download">
-    <h2 class="page-header clearfix">
-      Download &amp; Customize
-      <span class="label label-default text-base pull-right">Easy</span>
-    </h2>
-
-    <div class="row">
-      <div class="col-md-9">
-        <p class="text-lg">Want to manage and host Font Awesome assets yourself? You can <a href="">download</a>, customize, and use the icons and default styling manually. Both CSS and CSS Preprocessor (Sass and Less) formats are included.</p>
-      </div>
-
-      <div class="col-md-3">
-        <a class="btn btn-default btn-lg btn-block" href="#modal-download" data-toggle="modal"
-           onClick="_gaq.push(['_trackEvent', 'Launch Modal', 'Launch Download Modal']);">
-          <i class="fa fa-download fa-lg margin-right-sm"></i>
-          Download
-        </a>
-      </div>
-    </div>
-
-    <div class="download-css margin-bottom-xl" id="download-css">
-      <h3>Using CSS</h3>
-
-      <ol>
-        <li>Copy the entire <code>font-awesome</code> directory into your project.</li>
-        <li>
-          In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome.min.css.
+  <section id="default-css">
+    <h2 class="page-header">EASY: Default CSS</h2>
+    <p>Use this method to get the default Font Awesome CSS.</p>
+    <ol>
+      <li>Copy the entire <code>font-awesome</code> directory into your project.</li>
+      <li>
+        In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome.min.css.
 {% highlight html %}
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 {% endhighlight %}
-        </li>
-        <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
-      </ol>
-    </div>
-
-    <div class="download-preprocessors" id="download-preprocessors">
-      <h3>Using Sass or Less</h3>
-
-      <p>Use this method to customize Font Awesome {{ site.fontawesome.version }} using LESS or SASS.</p>
-      <ol>
-        <li>Copy the <code>font-awesome/</code> directory into your project.</li>
-        <li>
-          Open your project's <code>font-awesome/less/variables.less</code> or <code>font-awesome/scss/_variables.scss</code> and edit the <code>@fa-font-path</code> or <code>$fa-font-path</code>
-          variable to point to your font directory.
-{% highlight scss %}
-@fa-font-path:   "../font";
-{% endhighlight %}
-          <p class="alert alert-success"><i class="fa fa-info-circle"></i> The font path is relative from your compiled CSS directory.</p>
-        </li>
-        <li>Re-compile your LESS or SASS if using a static compiler. Otherwise, you should be good to go.</li>
-        <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
-      </ol>
-    </div>
+      </li>
+      <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
+    </ol>
   </section>
 
-  <div class="hr margin-top-lg">
-    <span class="hr-text text-xl text-muted">or</span>
-  </div>
-
-  <section class="get-started-advanced" id="get-started-advanced">
-    <h2 class="page-header clearfix">
-      Advanced &amp; Packages
-      <span class="label label-default text-base pull-right">Pro</span>
-    </h2>
-
-    <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-    <div class="ruby-gem-less margin-bottom-xl" id="ruby-gem-less">
-      <h3><a href="https://github.com/FortAwesome/font-awesome-less">LESS Ruby Gem</a></h3>
-      <p>
-        Use the <a href="https://github.com/FortAwesome/font-awesome-less">Official Font Awesome LESS Ruby Gem</a> to easily get Font
-        Awesome LESS into a Rails project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
-      </p>
-      <ol>
-        <li>
-          Add this line to your application's Gemfile:
-  {% highlight bash %}
-  gem 'font-awesome-less'
-  {% endhighlight %}
-        </li>
-        <li>
-          And then execute:
-  {% highlight bash %}
-  $ bundle
-  {% endhighlight %}
-        </li>
-        <li>Or install it yourself as:
-  {% highlight bash %}
-  $ gem install font-awesome-less
-  {% endhighlight %}
-        </li>
-      </ol>
-      <p>
-      If you use Rails, add this to your e.g. <code>application.less</code>:
-      </p>
-  {% highlight css %}
-    @import "font-awesome-sprockets";
-    @import "font-awesome";
-  {% endhighlight %}
-    </div>
-
-    <div class="ruby-gem-sass" id="ruby-gem-sass">
-      <h3><a href="https://github.com/FortAwesome/font-awesome-sass">SASS Ruby Gem</a></h3>
-      <p>
-        Use the <a href="https://github.com/FortAwesome/font-awesome-sass">Official Font Awesome SASS Ruby Gem</a> to easily get Font
-        Awesome SASS into a Rails or Compass project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
-      </p>
-      <ol>
-        <li>
-          Add this line to your application's Gemfile:
+  <section id="ruby-gem-less">
+    <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-less">LESS Ruby Gem</a></h2>
+    <p>
+      Use the <a href="https://github.com/FortAwesome/font-awesome-less">Official Font Awesome LESS Ruby Gem</a> to easily get Font
+      Awesome LESS into a Rails project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
+    </p>
+    <ol>
+      <li>
+        Add this line to your application's Gemfile:
 {% highlight bash %}
-gem 'font-awesome-sass'
+gem 'font-awesome-less'
 {% endhighlight %}
-        </li>
-        <li>
-          And then execute:
+      </li>
+      <li>
+        And then execute:
 {% highlight bash %}
 $ bundle
 {% endhighlight %}
-        </li>
-        <li>Or install it yourself as:
+      </li>
+      <li>Or install it yourself as:
 {% highlight bash %}
-$ gem install font-awesome-sass
+$ gem install font-awesome-less
 {% endhighlight %}
-        </li>
-      </ol>
-      <p>
-      If you use Rails, add this to your e.g. <code>application.scss</code>:
-      </p>
+      </li>
+    </ol>
+    <p>
+    If you use Rails, add this to your e.g. <code>application.less</code>:
+    </p>
 {% highlight css %}
   @import "font-awesome-sprockets";
   @import "font-awesome";
 {% endhighlight %}
-    </div>
   </section>
 
-  <section class="get-started-more margin-top-lg" id="get-started-more">
-    <h2 class="page-header">More Information</h2>
+  <section id="ruby-gem-sass">
+    <h2 class="page-header">EASY: <a href="https://github.com/FortAwesome/font-awesome-sass">SASS Ruby Gem</a></h2>
+    <p>
+      Use the <a href="https://github.com/FortAwesome/font-awesome-sass">Official Font Awesome SASS Ruby Gem</a> to easily get Font
+      Awesome SASS into a Rails or Compass project. Generously maintained by <a href="https://twitter.com/supercodepoet/">@supercodepoet</a>.
+    </p>
+    <ol>
+      <li>
+        Add this line to your application's Gemfile:
+{% highlight bash %}
+gem 'font-awesome-sass'
+{% endhighlight %}
+      </li>
+      <li>
+        And then execute:
+{% highlight bash %}
+$ bundle
+{% endhighlight %}
+      </li>
+      <li>Or install it yourself as:
+{% highlight bash %}
+$ gem install font-awesome-sass
+{% endhighlight %}
+      </li>
+    </ol>
+    <p>
+    If you use Rails, add this to your e.g. <code>application.scss</code>:
+    </p>
+{% highlight css %}
+  @import "font-awesome-sprockets";
+  @import "font-awesome";
+{% endhighlight %}
   </section>
 
-  <div class="row">
-    <div class="col-md-6" id="support-validators">
-      <h4>Validators</h4>
-      <p>In order to provide the best possible experience to old and buggy browsers, Font Awesome uses <a href="http://browserhacks.com">CSS browser hacks</a> in several places to target special CSS to certain browser versions in order to work around bugs in the browsers themselves. These hacks understandably cause CSS validators to complain that they are invalid. In a couple places, we also use bleeding-edge CSS features that aren't yet fully standardized, but these are used purely for progressive enhancement.</p>
-      <p>These validation warnings don't matter in practice since the non-hacky portion of our CSS does fully validate and the hacky portions don't interfere with the proper functioning of the non-hacky portion, hence why we deliberately ignore these particular warnings.</p>
-      <p><a href="http://getbootstrap.com/getting-started/#support-validators">Getting started - Validators</a> by <a href="http://getbootstrap.com/about/#team">Bootstrap Team</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
-    </div>
+  <section id="custom-less">
+    <h2 class="page-header">PRO: Custom LESS or SASS</h2>
+    <p>Use this method to customize Font Awesome {{ site.fontawesome.version }} using LESS or SASS.</p>
+    <ol>
+      <li>Copy the <code>font-awesome/</code> directory into your project.</li>
+      <li>
+        Open your project's <code>font-awesome/less/variables.less</code> or <code>font-awesome/scss/_variables.scss</code> and edit the <code>@fa-font-path</code> or <code>$fa-font-path</code>
+        variable to point to your font directory.
+{% highlight scss %}
+@fa-font-path:   "../font";
+{% endhighlight %}
+        <p class="alert alert-success"><i class="fa fa-info-circle" aria-hidden="true"></i> The font path is relative from your compiled CSS directory.</p>
+      </li>
+      <li>Re-compile your LESS or SASS if using a static compiler. Otherwise, you should be good to go.</li>
+      <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
+    </ol>
+  </section>
 
-    <div class="col-md-6" id="ie8-font-face">
-      <h4>Internet Explorer 8 and @font-face</h4>
-      <p>IE8 has some issues with <code>@font-face</code> when combined with <code>:before</code>.
-        Font Awesome uses that combination. If a page is cached, and loaded without the mouse over the window
-        (i.e. hit the refresh button or load something in an iframe) then the page gets rendered before the font loads.
-        Hovering over the page (body) will show some of the icons and hovering over the remaining icons will show those as well.
-        <a href="https://github.com/FortAwesome/Font-Awesome/issues/954">See issue #954</a> for details.</p>
-      <p><a href="http://getbootstrap.com/getting-started/#support-ie8-font-face">Getting started - Internet Explorer 8 and @font-face</a> by <a href="http://getbootstrap.com/about/#team">Bootstrap Team</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
-    </div>
-  </div>
+  <section id="support-validators">
+    <h2 class="page-header">Validators</h2>
+    <p>In order to provide the best possible experience to old and buggy browsers, Font Awesome uses <a href="http://browserhacks.com">CSS browser hacks</a> in several places to target special CSS to certain browser versions in order to work around bugs in the browsers themselves. These hacks understandably cause CSS validators to complain that they are invalid. In a couple places, we also use bleeding-edge CSS features that aren't yet fully standardized, but these are used purely for progressive enhancement.</p>
+    <p>These validation warnings don't matter in practice since the non-hacky portion of our CSS does fully validate and the hacky portions don't interfere with the proper functioning of the non-hacky portion, hence why we deliberately ignore these particular warnings.</p>
+    <p><a href="http://getbootstrap.com/getting-started/#support-validators">Getting started - Validators</a> by <a href="http://getbootstrap.com/about/#team">Bootstrap Team</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
+  </section>
 
-  <div class="row">
-    <div class="col-md-6" id="need-ie7">
-      <h4>Need IE7 Support?</h4>
-      <p>IE8 has some issues with <code>@font-face</code> when combined with <code>:before</code>.
-        Font Awesome uses that combination. If a page is cached, and loaded without the mouse over the window
-        (i.e. hit the refresh button or load something in an iframe) then the page gets rendered before the font loads.
-        Hovering over the page (body) will show some of the icons and hovering over the remaining icons will show those as well.
-        <a href="https://github.com/FortAwesome/Font-Awesome/issues/954">See issue #954</a> for details.</p>
-      <p><a href="http://getbootstrap.com/getting-started/#support-ie8-font-face">Getting started - Internet Explorer 8 and @font-face</a> by <a href="http://getbootstrap.com/about/#team">Bootstrap Team</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
-    </div>
+  <section id="ie8-font-face">
+    <h2 class="page-header">Internet Explorer 8 and @font-face</h2>
+    <p>
+      IE8 has some issues with <code>@font-face</code> when combined with <code>:before</code>.
+      Font Awesome uses that combination. If a page is cached, and loaded without the mouse over the window
+      (i.e. hit the refresh button or load something in an iframe) then the page gets rendered before the font loads.
+      Hovering over the page (body) will show some of the icons and hovering over the remaining icons will show those as well.
+      <a href="https://github.com/FortAwesome/Font-Awesome/issues/954">See issue #954</a> for details.
+    </p>
+    <p><a href="http://getbootstrap.com/getting-started/#support-ie8-font-face">Getting started - Internet Explorer 8 and @font-face</a> by <a href="http://getbootstrap.com/about/#team">Bootstrap Team</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
+  </section>
 
-    <div class="col-md-6" id="troubleshooting">
-      <h4>Troubleshooting</h4>
-      <p>If you're having trouble with Font Awesome, make sure to check out the
-        <a href="{{ site.fontawesome.github.url }}/wiki/Troubleshooting">troubleshooting wiki page</a>.
-        Generously maintained by <a href="https://twitter.com/gtagliala">@gtagliala</a>.</p>
-    </div>
-  </div>
+  <section id="need-ie7">
+    <h2 class="page-header">Need IE7 Support?</h2>
+    <p>
+      If you need IE7 support, you have my condolences. Really. Font Awesome {{ site.fontawesome.version }}
+      doesn't support IE7, but an older version does. You'll need to check out the
+      <a href="{{ page.relative_path }}3.2.1/get-started/#need-ie7">3.2.1 instructions for using IE7</a>. Then go complain to
+      whomever decided your project needs IE7 support.
+    </p>
+  </section>
 
-{% include modals/download.html %}
+  <section id="troubleshooting">
+    <h2 class="page-header">Troubleshooting</h2>
+    <p>
+      If you're having trouble with Font Awesome, make sure to check out the
+      <a href="{{ site.fontawesome.github.url }}/wiki/Troubleshooting">troubleshooting wiki page</a>.
+      Generously maintained by <a href="https://twitter.com/gtagliala">@gtagliala</a>.
+    </p>
+  </section>
+</div>
