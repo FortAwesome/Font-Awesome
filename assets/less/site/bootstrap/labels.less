@@ -1,0 +1,21 @@
+// reset
+.label {
+  padding: .3em .6em;
+}
+
+// new types of labels
+.label-brand {
+  .label-variant(@label-brand-bg);
+}
+
+.label-dark {
+  .label-variant(@label-dark-bg);
+}
+
+// labels inside of headings
+h1, h2, h3, h4, h5, h6 {
+
+  .label {
+    font-family: @font-family-sans-serif;
+  }
+}
