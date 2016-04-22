@@ -1,0 +1,43 @@
+.gg { .gg(); }
+.gg-fixed { table-layout: fixed; }
+.gg-col { .gg-col(); }
+.gg-row { display: table-row; }
+.gg-min-width { width: 1%; }
+
+.gg-top    { vertical-align: top; }
+.gg-middle { vertical-align: middle; }
+.gg-bottom { vertical-align: bottom; }
+
+.gg-padded {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  .gg { border-spacing: 1rem 0; }
+}
+
+.gg-col-1,
+.gg-col-2,
+.gg-col-3,
+.gg-col-4,
+.gg-col-5,
+.gg-col-6,
+.gg-col-7,
+.gg-col-8,
+.gg-col-9,
+.gg-col-10,
+.gg-col-11,
+.gg-col-12 {
+  .gg-col();
+}
+
+.gg-col-1  { .gg-make-col(1,12); }
+.gg-col-2  { .gg-make-col(2,12); }
+.gg-col-3  { .gg-make-col(3,12); }
+.gg-col-4  { .gg-make-col(4,12); }
+.gg-col-5  { .gg-make-col(5,12); }
+.gg-col-6  { .gg-make-col(6,12); }
+.gg-col-7  { .gg-make-col(7,12); }
+.gg-col-8  { .gg-make-col(8,12); }
+.gg-col-9  { .gg-make-col(9,12); }
+.gg-col-10 { .gg-make-col(10,12); }
+.gg-col-11 { .gg-make-col(11,12); }
+.gg-col-12 { .gg-make-col(12,12); }
