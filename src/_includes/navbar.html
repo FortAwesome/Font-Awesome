@@ -107,13 +107,15 @@
             <li><a href="{{ page.relative_path }}examples/#custom">Custom CSS</a></li>
           </ul>
         </li>
-        <li{% if page.navbar_active == "accessibility" %} class="active"{% endif %}><a href="{{ page.relative_path }}accessibility/">Accessibility</a></li>
+        <li class="hidden-sm{% if page.navbar_active == "accessibility" %} active{% endif %}"><a href="{{ page.relative_path }}accessibility/">Accessibility</a></li>
+        <li class="hidden-xs hidden-md hidden-lg{% if page.navbar_active == "accessibility" %} active{% endif %}"><a href="{{ page.relative_path }}accessibility/"><i class="fa fa-universal-access"></i></a></li>
         <li{% if page.navbar_active == "community" %} class="active"{% endif %}><a href="{{ page.relative_path }}community/">Community</a></li>
         <li{% if page.navbar_active == "license" %} class="active"{% endif %}><a href="{{ page.relative_path }}license/">License</a></li>
+        <li class="hidden-sm hidden-xs"><a href="{{ site.fontawesome.blog_url }}">Blog</a></li>
       </ul>
 
-      <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
-        <li><a href="{{ site.fontawesome.blog_url }}">Blog</a></li>
+      <ul class="nav navbar-nav navbar-right">
+        <li{% if page.navbar_active == "store" %} class="active"{% endif %}><a href="{{ page.relative_path }}store/"><i class="fa fa-shopping-cart margin-right-sm hidden-sm hidden-md"></i>Store</a></li>
       </ul>
     </div>
   </div>

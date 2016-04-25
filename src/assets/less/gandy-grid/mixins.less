@@ -1,0 +1,18 @@
+.gg {
+  display: table;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.gg-col {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.gg-vertical-align(@align) {
+  vertical-align: @align;
+}
+
+.gg-make-col(@column-width, @total-columns) {
+  width: (100% / @total-columns * @column-width);
+}
