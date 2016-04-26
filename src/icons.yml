@@ -70,6 +70,7 @@ icons:
       - night
       - rating
       - score
+      - favorite
     categories:
       - Web Application Icons
 
@@ -83,6 +84,7 @@ icons:
       - night
       - rating
       - score
+      - favorite
     categories:
       - Web Application Icons
 
@@ -215,6 +217,9 @@ icons:
     id:         signal
     unicode:    f012
     created:    1.0
+    filter:
+      - graph
+      - bars
     categories:
       - Web Application Icons
 
@@ -394,6 +399,7 @@ icons:
       - sound
       - listen
       - music
+      - audio
     categories:
       - Web Application Icons
 
@@ -402,6 +408,7 @@ icons:
     unicode:    f026
     created:    1.0
     filter:
+      - audio
       - mute
       - sound
       - music
@@ -413,6 +420,7 @@ icons:
     unicode:    f027
     created:    1.0
     filter:
+      - audio
       - lower
       - quieter
       - sound
@@ -425,6 +433,7 @@ icons:
     unicode:    f028
     created:    1.0
     filter:
+      - audio
       - higher
       - louder
       - sound
@@ -704,6 +713,7 @@ icons:
     filter:
       - social
       - send
+      - arrow
     categories:
       - Web Application Icons
 
@@ -1030,6 +1040,7 @@ icons:
     created:    1.0
     aliases:
       - mail-forward
+      - social
     categories:
       - Web Application Icons
 
@@ -1122,6 +1133,7 @@ icons:
     filter:
       - eco
       - nature
+      - plant
     categories:
       - Web Application Icons
 
@@ -1387,6 +1399,7 @@ icons:
       - message
       - texting
       - sms
+      - chat
     categories:
       - Web Application Icons
 
@@ -1536,6 +1549,8 @@ icons:
     id:         lemon-o
     unicode:    f094
     created:    1.0
+    filter:
+      - food
     categories:
       - Web Application Icons
 
@@ -1710,6 +1725,7 @@ icons:
       - right
       - next
       - forward
+      - finger
     categories:
       - Directional Icons
       - Hand Icons
@@ -1723,6 +1739,7 @@ icons:
       - left
       - previous
       - back
+      - finger
     categories:
       - Directional Icons
       - Hand Icons
@@ -1733,6 +1750,7 @@ icons:
     created:    2.0
     filter:
       - point
+      - finger
     categories:
       - Directional Icons
       - Hand Icons
@@ -1743,6 +1761,7 @@ icons:
     created:    2.0
     filter:
       - point
+      - finger
     categories:
       - Directional Icons
       - Hand Icons
@@ -1865,6 +1884,7 @@ icons:
       - move
       - reorder
       - resize
+      - arrow
     categories:
       - Video Player Icons
       - Directional Icons
@@ -1930,6 +1950,8 @@ icons:
     created:    2.0
     filter:
       - duplicate
+      - clone
+      - copy
     aliases:
       - copy
     categories:
@@ -2117,6 +2139,7 @@ icons:
       - dropdown
       - menu
       - triangle down
+      - arrow
     categories:
       - Directional Icons
 
@@ -2126,6 +2149,7 @@ icons:
     created:    2.0
     filter:
       - triangle up
+      - arrow
     categories:
       - Directional Icons
 
@@ -2137,6 +2161,7 @@ icons:
       - previous
       - back
       - triangle left
+      - arrow
     categories:
       - Directional Icons
 
@@ -2148,6 +2173,7 @@ icons:
       - next
       - forward
       - triangle right
+      - arrow
     categories:
       - Directional Icons
 
@@ -2182,6 +2208,8 @@ icons:
       - menu
     aliases:
       - sort-down
+    filter:
+      - arrow
     categories:
       - Web Application Icons
 
@@ -2191,6 +2219,8 @@ icons:
     created:    2.0
     aliases:
       - sort-up
+    filter:
+      - arrow
     categories:
       - Web Application Icons
 
@@ -2281,6 +2311,7 @@ icons:
       - message
       - texting
       - sms
+      - chat
     categories:
       - Web Application Icons
 
@@ -2477,6 +2508,7 @@ icons:
     unicode:    f0f9
     created:    3.0
     filter:
+      - vehicle
       - support
       - help
     categories:
@@ -2559,6 +2591,7 @@ icons:
       - quote
       - previous
       - back
+      - arrows
     categories:
       - Directional Icons
 
@@ -2571,6 +2604,7 @@ icons:
       - quote
       - next
       - forward
+      - arrows
     categories:
       - Directional Icons
 
@@ -2578,6 +2612,8 @@ icons:
     id:         angle-double-up
     unicode:    f102
     created:    3.0
+    filter:
+      - arrows
     categories:
       - Directional Icons
 
@@ -2585,6 +2621,8 @@ icons:
     id:         angle-double-down
     unicode:    f103
     created:    3.0
+    filter:
+      - arrows
     categories:
       - Directional Icons
 
@@ -2595,6 +2633,7 @@ icons:
     filter:
       - previous
       - back
+      - arrow
     categories:
       - Directional Icons
 
@@ -2605,6 +2644,7 @@ icons:
     filter:
       - next
       - forward
+      - arrow
     categories:
       - Directional Icons
 
@@ -2612,6 +2652,8 @@ icons:
     id:         angle-up
     unicode:    f106
     created:    3.0
+    filter:
+      - arrow
     categories:
       - Directional Icons
 
@@ -2619,6 +2661,8 @@ icons:
     id:         angle-down
     unicode:    f107
     created:    3.0
+    filter:
+      - arrow
     categories:
       - Directional Icons
 
@@ -2724,6 +2768,7 @@ icons:
     created:    3.0
     aliases:
       - mail-reply
+      - arrow
     categories:
       - Web Application Icons
 
@@ -2756,6 +2801,7 @@ icons:
     unicode:    f118
     created:    3.1
     filter:
+      - face
       - emoticon
       - happy
       - approve
@@ -2769,6 +2815,7 @@ icons:
     unicode:    f119
     created:    3.1
     filter:
+      - face
       - emoticon
       - sad
       - disapprove
@@ -2781,6 +2828,7 @@ icons:
     unicode:    f11a
     created:    3.1
     filter:
+      - face
       - emoticon
       - rating
       - neutral
@@ -2855,6 +2903,7 @@ icons:
     created:    3.1
     aliases:
       - mail-reply-all
+      - arrow
     categories:
       - Web Application Icons
 
@@ -2979,6 +3028,9 @@ icons:
     id:         eraser
     unicode:    f12d
     created:    3.1
+    filter:
+      - remove
+      - delete
     categories:
       - Text Editor Icons
       - Web Application Icons
@@ -3072,6 +3124,7 @@ icons:
     filter:
       - previous
       - back
+      - arrow
     categories:
       - Directional Icons
 
@@ -3082,6 +3135,7 @@ icons:
     filter:
       - next
       - forward
+      - arrow
     categories:
       - Directional Icons
 
@@ -3089,6 +3143,8 @@ icons:
     id:         chevron-circle-up
     unicode:    f139
     created:    3.1
+    filter: 
+      - arrow
     categories:
       - Directional Icons
 
@@ -3100,6 +3156,7 @@ icons:
       - more
       - dropdown
       - menu
+      - arrow
     categories:
       - Directional Icons
 
@@ -3239,6 +3296,8 @@ icons:
     id:         level-up
     unicode:    f148
     created:    3.1
+    filter:
+      - arrow
     categories:
       - Web Application Icons
 
@@ -3246,6 +3305,8 @@ icons:
     id:         level-down
     unicode:    f149
     created:    3.1
+    filter:
+      - arrow
     categories:
       - Web Application Icons
 
@@ -3670,6 +3731,7 @@ icons:
     created:    3.2
     filter:
       - osx
+      - food
     categories:
       - Brand Icons
 
@@ -3686,6 +3748,8 @@ icons:
     id:         android
     unicode:    f17b
     created:    3.2
+    filter:
+      - robot
     categories:
       - Brand Icons
 
@@ -3955,6 +4019,10 @@ icons:
     id:         slack
     unicode:    f198
     created:    4.1
+    filter:
+      - hashtag
+      - anchor
+      - hash
     categories:
       - Brand Icons
 
@@ -4487,6 +4555,8 @@ icons:
     id:         sliders
     unicode:    f1de
     created:    4.1
+    filter: 
+      - settings
     categories:
       - Web Application Icons
 
@@ -4542,6 +4612,9 @@ icons:
     id:         plug
     unicode:    f1e6
     created:    4.2
+    filter:
+      - power
+      - connect
     categories:
       - Web Application Icons
 
@@ -5221,6 +5294,8 @@ icons:
     created:    4.4
     aliases:
       - battery-4
+    filter:
+      - power
     categories:
       - Web Application Icons
 
@@ -5230,6 +5305,8 @@ icons:
     created:    4.4
     aliases:
       - battery-3
+    filter:
+      - power
     categories:
       - Web Application Icons
 
@@ -5239,6 +5316,8 @@ icons:
     created:    4.4
     aliases:
       - battery-2
+    filter:
+      - power
     categories:
       - Web Application Icons
 
@@ -5248,6 +5327,8 @@ icons:
     created:    4.4
     aliases:
       - battery-1
+    filter:
+      - power
     categories:
       - Web Application Icons
 
@@ -5257,6 +5338,8 @@ icons:
     created:    4.4
     aliases:
       - battery-0
+    filter:
+      - power
     categories:
       - Web Application Icons
 
@@ -5392,6 +5475,8 @@ icons:
     created:    4.4
     aliases:
       - hand-stop-o
+    filter:
+      - stop
     categories:
       - Web Application Icons
       - Hand Icons
@@ -5559,6 +5644,10 @@ icons:
     created:    4.4
     aliases:
       - tv
+    filter:
+      - display
+      - computer
+      - monitor
     categories:
       - Web Application Icons
 
@@ -5886,6 +5975,8 @@ icons:
     unicode:    f299
     created:    4.6
     url:        enviragallery.com
+    filter:
+      - leaf
     categories:
       - Brand Icons
 
