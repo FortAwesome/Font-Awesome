@@ -1040,7 +1040,6 @@ icons:
     created:    1.0
     aliases:
       - mail-forward
-      - social
     categories:
       - Web Application Icons
 
@@ -2206,10 +2205,9 @@ icons:
       - dropdown
       - more
       - menu
+      - arrow
     aliases:
       - sort-down
-    filter:
-      - arrow
     categories:
       - Web Application Icons
 
@@ -2768,7 +2766,6 @@ icons:
     created:    3.0
     aliases:
       - mail-reply
-      - arrow
     categories:
       - Web Application Icons
 
@@ -2903,7 +2900,6 @@ icons:
     created:    3.1
     aliases:
       - mail-reply-all
-      - arrow
     categories:
       - Web Application Icons
 
@@ -3143,7 +3139,7 @@ icons:
     id:         chevron-circle-up
     unicode:    f139
     created:    3.1
-    filter: 
+    filter:
       - arrow
     categories:
       - Directional Icons
@@ -4555,7 +4551,7 @@ icons:
     id:         sliders
     unicode:    f1de
     created:    4.1
-    filter: 
+    filter:
       - settings
     categories:
       - Web Application Icons
