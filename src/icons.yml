@@ -4123,8 +4123,8 @@ icons:
     categories:
       - Brand Icons
 
-  - name:       Pied Piper Logo
-    id:         pied-piper
+  - name:       Pied Piper PP Logo (Old)
+    id:         pied-piper-pp
     unicode:    f1a7
     created:    4.1
     categories:
@@ -6126,6 +6126,13 @@ icons:
   - name:       Snapchat Square
     id:         snapchat-square
     unicode:    f2ad
+    created:    4.6
+    categories:
+      - Brand Icons
+
+  - name:       Pied Piper Logo
+    id:         pied-piper
+    unicode:    f2ae
     created:    4.6
     categories:
       - Brand Icons
