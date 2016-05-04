@@ -1,7 +1,7 @@
-# [Font Awesome v4.6.1](http://fontawesome.io)
+# [Font Awesome v4.6.2](http://fontawesome.io)
 ### The iconic font and CSS framework
 
-Font Awesome is a full suite of 628 pictographic icons for easy scalable vector graphics on websites,
+Font Awesome is a full suite of 632 pictographic icons for easy scalable vector graphics on websites,
 created and maintained by [Dave Gandy](https://twitter.com/davegandy).
 Stay up to date with the latest release and announcements on Twitter:
 [@fontawesome](http://twitter.com/fontawesome).
@@ -20,6 +20,7 @@ Get started at http://fontawesome.io!
 - Full details: http://fontawesome.io/license/
 
 ## Changelog
+- [v4.6.2 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/9117)
 - [v4.6.1 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/8962)
 - [v4.6.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?q=milestone%3A4.6.0+is%3Aclosed)
 - [v4.5.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?q=milestone%3A4.5.0+is%3Aclosed)
@@ -55,7 +56,7 @@ And constructed with the following guidelines:
 
 * Breaking backward compatibility bumps the major (and resets the minor and patch)
 * New additions, including new icons, without breaking backward compatibility bumps the minor (and resets the patch)
-* Bug fixes and misc changes bumps the patch
+* Bug fixes, changes to brand logos, and misc changes bumps the patch
 
 For more information on SemVer, please visit http://semver.org.
 
