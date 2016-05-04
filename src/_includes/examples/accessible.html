@@ -1,0 +1,109 @@
+<section id="accessible">
+  <h2 class="page-header">
+    Accessibility-Minded
+  </h2>
+  <div class="row">
+    <div class="col-md-3 col-sm-4">
+      <p>
+        <a class="btn btn-default" href="path/to/settings">
+          <i class="fa fa-cog" title="Settings" aria-hidden="true"></i>
+          <span class="sr-only">Settings</span>
+        </a>
+
+        <a class="btn btn-danger" href="path/to/settings">
+          <i class="fa fa-trash-o" title="Delete" aria-hidden="true"></i>
+          <span class="sr-only">Delete</span>
+        </a>
+
+        <a class="btn btn-primary" href="#navigation-main">
+          <i class="fa fa-bars" aria-hidden="true" title="Skip to main navigation"></i>
+          <span class="sr-only">Skip to main navigation</span>
+        </a>
+      </p>
+
+      <p>
+        <i class="fa fa-refresh fa-spin fa-3x fa-fw" aria-hidden="true"></i>
+        <span class="sr-only">Refreshing...</span>
+
+        <i class="fa fa-cog fa-spin fa-3x fa-fw" aria-hidden="true"></i>
+        <span class="sr-only">Saving. Hang tight!</span>
+      </p>
+
+      <p>
+        <div class="input-group margin-bottom-sm">
+          <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></span>
+          <input class="form-control" type="text" placeholder="Email address">
+        </div>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="fa fa-key fa-fw" aria-hidden="true"></i></span>
+          <input class="form-control" type="password" placeholder="Password">
+        </div>
+      </p>
+
+      <p>
+        <a href="path/to/shopping/cart" class="btn btn-primary">
+          <i class="fa fa-shopping-cart" title="View 3 items in your shopping cart" aria-hidden="true"></i>
+          <span class="sr-only">View 3 items in your shopping cart</span>
+        </a>
+      </p>
+
+      <p>
+        <i class="fa fa-battery-half" aria-hidden="true"></i>
+        <span class="sr-only">Battery level: 50%</span>
+      </p>
+    </div>
+    <div class="col-md-9 col-sm-8">
+      <p>
+        With <a href="{{ page.relative_path }}accessibility/">our thoughts on icon accessibility</a> in mind, If an icon only adds some extra decoration or branding, it does not need to be announced to users as they are navigating your site or app aurally. Alternatively, if an icon conveys meaning in your content or interface, ensure that this meaning is also conveyed to assistive technologies through alternative displays or text.
+      </p>
+
+{% highlight html %}
+<a class="btn btn-default" href="path/to/settings">
+  <i class="fa fa-cog" title="Settings" aria-hidden="true"></i>
+  <span class="sr-only">Settings</span>
+</a>
+
+<a class="btn btn-danger" href="path/to/settings">
+  <i class="fa fa-trash-o" title="Delete" aria-hidden="true"></i>
+  <span class="sr-only">Delete</span>
+</a>
+
+<a class="btn btn-primary" href="#navigation-main">
+  <i class="fa fa-bars" aria-hidden="true" title="Skip to main navigation"></i>
+  <span class="sr-only">Skip to main navigation</span>
+</a>
+{% endhighlight %}
+
+{% highlight html %}
+<i class="fa fa-refresh fa-spin fa-3x fa-fw" aria-hidden="true"></i>
+<span class="sr-only">Refreshing...</span>
+
+<i class="fa fa-cog fa-spin fa-3x fa-fw" aria-hidden="true"></i>
+<span class="sr-only">Saving. Hang tight!</span>
+{% endhighlight %}
+
+{% highlight html %}
+<div class="input-group margin-bottom-sm">
+  <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></span>
+  <input class="form-control" type="text" placeholder="Email address">
+</div>
+<div class="input-group">
+  <span class="input-group-addon"><i class="fa fa-key fa-fw" aria-hidden="true"></i></span>
+  <input class="form-control" type="password" placeholder="Password">
+</div>
+{% endhighlight %}
+
+{% highlight html %}
+<a href="path/to/shopping/cart" class="btn btn-primary">
+  <i class="fa fa-shopping-cart" title="View 3 items in your shopping cart" aria-hidden="true"></i>
+  <span class="sr-only">View 3 items in your shopping cart</span>
+</a>
+{% endhighlight %}
+
+{% highlight html %}
+<i class="fa fa-battery-half" aria-hidden="true"></i>
+<span class="sr-only">Battery level: 50%</span>
+{% endhighlight %}
+    </div>
+  </div>
+</section>

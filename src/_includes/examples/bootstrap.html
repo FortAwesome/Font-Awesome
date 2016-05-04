@@ -4,43 +4,52 @@
     <div class="col-md-3 col-sm-4">
       <p>
         <a class="btn btn-danger" href="#">
-          <i class="fa fa-trash-o fa-lg"></i> Delete</a>
+          <i class="fa fa-trash-o fa-lg"  aria-hidden="true"></i> Delete</a>
         <a class="btn btn-default btn-sm" href="#">
-          <i class="fa fa-cog"></i> Settings</a>
+          <i class="fa fa-cog" aria-hidden="true"></i> Settings</a>
       </p>
       <p>
         <a class="btn btn-lg btn-success" href="#">
-          <i class="fa fa-flag fa-2x pull-left"></i> Font Awesome<br>Version {{ site.fontawesome.version }}</a>
+          <i class="fa fa-flag fa-2x pull-left" aria-hidden="true"></i> Font Awesome<br>Version {{ site.fontawesome.version }}</a>
       </p>
       <div class="margin-bottom">
         <div class="btn-group">
-          <a class="btn btn-default" href="#"><i class="fa fa-align-left"></i></a>
-          <a class="btn btn-default" href="#"><i class="fa fa-align-center"></i></a>
-          <a class="btn btn-default" href="#"><i class="fa fa-align-right"></i></a>
-          <a class="btn btn-default" href="#"><i class="fa fa-align-justify"></i></a>
+          <a class="btn btn-default" href="#">
+            <i class="fa fa-align-left" title="Align Left"></i>
+          </a>
+          <a class="btn btn-default" href="#">
+            <i class="fa fa-align-center" title="Align Center"></i>
+          </a>
+          <a class="btn btn-default" href="#">
+            <i class="fa fa-align-right" title="Align Right"></i>
+          </a>
+          <a class="btn btn-default" href="#">
+            <i class="fa fa-align-justify" title="Align Justify"></i>
+          </a>
         </div>
       </div>
       <div class="margin-bottom">
         <div class="input-group margin-bottom-sm">
-          <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+          <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></span>
           <input class="form-control" type="text" placeholder="Email address">
         </div>
         <div class="input-group">
-          <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+          <span class="input-group-addon"><i class="fa fa-key fa-fw" aria-hidden="true"></i></span>
           <input class="form-control" type="password" placeholder="Password">
         </div>
       </div>
       <div class="margin-bottom">
         <div class="btn-group open">
-          <a class="btn btn-primary" href="#"><i class="fa fa-user fa-fw"></i> User</a>
+          <a class="btn btn-primary" href="#"><i class="fa fa-user fa-fw" aria-hidden="true"></i> User</a>
           <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
-            <span class="fa fa-caret-down"></span></a>
+            <span class="fa fa-caret-down" title="Toggle dropdown menu"></span>
+          </a>
           <ul class="dropdown-menu">
-            <li><a href="#"><i class="fa fa-pencil fa-fw"></i> Edit</a></li>
-            <li><a href="#"><i class="fa fa-trash-o fa-fw"></i> Delete</a></li>
-            <li><a href="#"><i class="fa fa-ban fa-fw"></i> Ban</a></li>
+            <li><a href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i> Edit</a></li>
+            <li><a href="#"><i class="fa fa-trash-o fa-fw" aria-hidden="true"></i> Delete</a></li>
+            <li><a href="#"><i class="fa fa-ban fa-fw" aria-hidden="true"></i> Ban</a></li>
             <li class="divider"></li>
-            <li><a href="#"><i class="i"></i> Make admin</a></li>
+            <li><a href="#"><i class="fa fa-unlock" aria-hidden="true"></i> Make admin</a></li>
           </ul>
         </div>
       </div>
@@ -52,18 +61,26 @@
       </p>
 {% highlight html %}
 <a class="btn btn-danger" href="#">
-  <i class="fa fa-trash-o fa-lg"></i> Delete</a>
+  <i class="fa fa-trash-o fa-lg" aria-hidden="true"></i> Delete</a>
 <a class="btn btn-default btn-sm" href="#">
-  <i class="fa fa-cog"></i> Settings</a>
+  <i class="fa fa-cog" aria-hidden="true"></i> Settings</a>
 
 <a class="btn btn-lg btn-success" href="#">
-  <i class="fa fa-flag fa-2x pull-left"></i> Font Awesome<br>Version {{ site.fontawesome.version }}</a>
+  <i class="fa fa-flag fa-2x pull-left" aria-hidden="true"></i> Font Awesome<br>Version {{ site.fontawesome.version }}</a>
 
 <div class="btn-group">
-  <a class="btn btn-default" href="#"><i class="fa fa-align-left"></i></a>
-  <a class="btn btn-default" href="#"><i class="fa fa-align-center"></i></a>
-  <a class="btn btn-default" href="#"><i class="fa fa-align-right"></i></a>
-  <a class="btn btn-default" href="#"><i class="fa fa-align-justify"></i></a>
+  <a class="btn btn-default" href="#">
+    <i class="fa fa-align-left" title="Align Left"></i>
+  </a>
+  <a class="btn btn-default" href="#">
+    <i class="fa fa-align-center" title="Align Center"></i>
+  </a>
+  <a class="btn btn-default" href="#">
+    <i class="fa fa-align-right" title="Align Right"></i>
+  </a>
+  <a class="btn btn-default" href="#">
+    <i class="fa fa-align-justify" title="Align Justify"></i>
+  </a>
 </div>
 
 <div class="input-group margin-bottom-sm">
@@ -78,13 +95,14 @@
 <div class="btn-group open">
   <a class="btn btn-primary" href="#"><i class="fa fa-user fa-fw"></i> User</a>
   <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
-    <span class="fa fa-caret-down"></span></a>
+    <span class="fa fa-caret-down" title="Toggle dropdown menu"></span>
+  </a>
   <ul class="dropdown-menu">
-    <li><a href="#"><i class="fa fa-pencil fa-fw"></i> Edit</a></li>
-    <li><a href="#"><i class="fa fa-trash-o fa-fw"></i> Delete</a></li>
-    <li><a href="#"><i class="fa fa-ban fa-fw"></i> Ban</a></li>
+    <li><a href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i> Edit</a></li>
+    <li><a href="#"><i class="fa fa-trash-o fa-fw" aria-hidden="true"></i> Delete</a></li>
+    <li><a href="#"><i class="fa fa-ban fa-fw" aria-hidden="true"></i> Ban</a></li>
     <li class="divider"></li>
-    <li><a href="#"><i class="i"></i> Make admin</a></li>
+    <li><a href="#"><i class="fa fa-unlock" aria-hidden="true"></i> Make admin</a></li>
   </ul>
 </div>
 {% endhighlight %}

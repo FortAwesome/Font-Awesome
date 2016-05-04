@@ -1,0 +1,127 @@
+<div id="using-with-accessibility">
+  <h2 class="page-header">Using Font Awesome with Acessibility in mind</h2>
+  <p>
+    When using icons in your UI, there are ways to help assistive technology either ignore or better understand Font Awesome.
+  </p>
+
+  <h3>Icons used for pure decoration or visual styling</h3>
+  <p>
+    If you're using an icon to add some extra decoration or branding, it does not need to be announced to users as they are navigating your site or app aurally. Additionally, if you're using an icon to visually re-emphasize or add styling to content already present in your HTML, it does not need to be repeated to an assistive technology-using user. You can make sure this is not read by adding the <code>aria-hidden="true"</code> to your Font Awesome markup.
+  </p>
+
+  <div class="margin-top-lg margin-bottom-lg">
+{% highlight html %}
+<i class="fa fa-fighter-jet" aria-hidden="true"></i>
+{% endhighlight %}
+<small class="text-muted">an icon being used as pure decoration</small>
+  </div>
+
+  <div class="margin-bottom-lg">
+{% highlight html %}
+<h1 class="logo">
+  <i class="fa fa-pied-piper" aria-hidden="true"></i>
+  Pied Piper, A Middle-Out Compression Solution Making Data Storage Problems Smaller
+</h1>
+{% endhighlight %}
+<small class="text-muted">an icon being used as a logo</small>
+  </div>
+
+  <div class="margin-bottom-lg">
+{% highlight html %}
+<a href="https://github.com/FortAwesome/Font-Awesome"><i class="fa fa-github" aria-hidden="true"></i> View this project's code on Github</a>
+{% endhighlight %}
+<small class="text-muted">an icon being used in front of link text</small>
+  </div>
+
+  <h3>Icons with semantic or interactive purpose</h3>
+  <p>
+    If you're using an icon to convey meaning (rather than only as a decorative element), ensure that this meaning is also conveyed to assistive technologies. This goes for content you're abbreviating via icons as well as interactive controls (buttons, form elements, toggles, etc.). There are a few techniques to accomplish this:
+  </p>
+
+  <h4>If an icon is <strong>not</strong> an interactive element</h4>
+  <p>
+    The simplest way to provide a text alternative is to use the <code>aria-hidden="true"</code> attribute on the icon and to include the text with an additional element, such as a <code>&lt;span&gt;</code>, with appropriate CSS to visually hide the element while keeping it accessible to assistive technologies. In addition, you can add a <code>title</code> attribute on the icon to provide a tooltip for sighted mouse users.
+  </p>
+
+  <div class="margin-bottom-lg margin-top-lg">
+{% highlight html %}
+<dl>
+  <dt>
+    <i class="fa fa-car" aria-hidden="true" title="Time to destination by car"></i>
+    <span class="sr-only">Time to destination by car:</span>
+  </dt>
+  <dd>4 minutes</dd>
+
+  <dt>
+    <i class="fa fa-bicycle" aria-hidden="true" title="Time to destination by bike"></i>
+    <span class="sr-only">Time to destination by bike:</span>
+  </dt>
+  <dd>12 minutes</dd>
+</dl>
+{% endhighlight %}
+    <small class="text-muted">an icon being used to communicate travel methods</small>
+  </div>
+
+  <div class="margin-bottom-lg margin-top-lg">
+{% highlight html %}
+<i class="fa fa-hourglass" aria-hidden="true" title="60 minutes remain in your exam"></i>
+<span class="sr-only">60 minutes remain in your exam</span>
+
+<i class="fa fa-hourglass-half" aria-hidden="true" title="30 minutes remain in your exam"></i>
+<span class="sr-only">30 minutes remain in your exam</span>
+
+<i class="fa fa-hourglass-end" aria-hidden="true" title="0 minutes remain in your exam"></i>
+<span class="sr-only">0 minutes remain in your exam</span>
+{% endhighlight %}
+    <small class="text-muted">an icon being used to denote time remaining</small>
+  </div>
+
+  <h4>If an icon represents an interactive element</h4>
+  <p>
+    In the case of focusable interactive elements, there are various options to include an alternative text or label to the element, without the need for any visually hidden <code>&lt;span&gt;</code> or similar. For instance, simply adding the <code>title</code> attribute to the interactive element itself will be sufficient to provide an accessible alternative name for the element, as well as providing the mouse tooltip.
+  </p>
+
+  <div class="margin-bottom-lg margin-top-lg">
+{% highlight html %}
+<a href="path/to/shopping/cart" title="View 3 items in your shopping cart">
+  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+</a>
+{% endhighlight %}
+    <small class="text-muted">an icon being used to communicate shopping cart state</small>
+  </div>
+
+  <div class="margin-bottom-lg margin-top-lg">
+{% highlight html %}
+<a href="#navigation-main" title="Skip to main navigation">
+  <i class="fa fa-bars" aria-hidden="true"></i>
+</a>
+{% endhighlight %}
+    <small class="text-muted">an icon being used as a link to a navigation menu</small>
+
+{% highlight html %}
+<a class="btn btn-danger" href="path/to/settings" title="Delete">
+  <i class="fa fa-trash-o" aria-hidden="true"></i>
+</a>
+{% endhighlight %}
+    <small class="text-muted">an icon being used as a delete button's symbol</small>
+
+  </div>
+</div>
+
+<div class="alert alert-success">
+  <ul class="fa-ul margin-bottom-none">
+    <li>
+      <i class="fa-li fa fa-info-circle fa-lg" aria-hidden="true"></i>
+      Bootstrap comes with a <a href="http://getbootstrap.com/css/#callout-has-feedback-icon-accessibility">utility class to visually hide content, but keep it semantically accessible</a>. If you're not using Bootstrap, there are <a href="https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/">plenty</a> of <a href="https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L124">recipes</a> to roll your own from.
+    </li>
+  </ul>
+</div>
+
+<div class="alert alert-success">
+  <ul class="fa-ul margin-bottom-none">
+    <li>
+      <i class="fa-li fa fa-info-circle fa-lg" aria-hidden"true"></i>
+      <a href="{{ page.relative_path }}examples/#accessible">See more examples of how to add accessibility-minded icons</a> into your UI.
+    </li>
+  </ul>
+</div>

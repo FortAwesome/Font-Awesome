@@ -19,13 +19,13 @@ icon_layout:      icon.html    # Relative to _layouts directory
 icon_destination: icon         # Relative to destination
 
 fontawesome:
-  version:        4.4.0
-  minor_version:  4.4
+  version:        4.6.1
+  minor_version:  4.6
   major_version:  4
-  doc_blob:       v4.4.0
+  doc_blob:       v4.6.1
   url:            http://fontawesome.io
   legacy_url:     http://fortawesome.github.com/Font-Awesome/
-  blog_url:       http://blog.fontawesome.io
+  blog_url:       http://articles.fortawesome.com
   twitter:        fontawesome
   tagline:        The iconic font and CSS toolkit
   css_prefix:     fa

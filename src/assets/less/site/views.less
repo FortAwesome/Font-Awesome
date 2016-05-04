@@ -1,0 +1,26 @@
+// view-specific
+.v-get-started, .v-store {
+  background: @alert-well-bg; // resetting for depth
+
+  .get-started-cdn {
+    background: @section-emphasized-bg;
+  }
+
+  .jumbotron {
+    border-bottom: none;
+  }
+
+  // sections
+  .get-started-cdn {
+    z-index: 2;
+    position: relative;
+    border-radius: @border-radius-base;
+    padding: @buffer-sm @buffer-xl @buffer-lg @buffer-xl;
+  }
+
+  .hr .hr-text {
+    background:  @alert-well-bg;
+    font-family: @font-family-serif;
+    font-size: (@font-size-large*1.5);
+  }
+}
