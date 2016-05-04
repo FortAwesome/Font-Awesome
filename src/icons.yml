@@ -6145,3 +6145,19 @@ icons:
     created:    4.6
     categories:
       - Brand Icons
+
+  - name:       Yoast
+    id:         yoast
+    unicode:    f2b1
+    created:    4.6
+    url:        yoast.com
+    categories:
+      - Brand Icons
+
+  - name:       ThemeIsle
+    id:         themeisle
+    unicode:    f2b2
+    created:    4.6
+    url:        themeisle.com
+    categories:
+      - Brand Icons

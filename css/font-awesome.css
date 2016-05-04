@@ -2163,6 +2163,12 @@
 .fa-first-order:before {
   content: "\f2b0";
 }
+.fa-yoast:before {
+  content: "\f2b1";
+}
+.fa-themeisle:before {
+  content: "\f2b2";
+}
 .sr-only {
   position: absolute;
   width: 1px;

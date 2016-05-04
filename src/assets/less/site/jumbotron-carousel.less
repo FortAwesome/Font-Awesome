@@ -58,4 +58,14 @@
       }
     }
   }
+  a {
+    color: mix(@jumbotron-color, @fa-green, 70%);
+
+    // STATE: hover, focus, active
+    &:hover, &:focus, &:active {
+      border-color: @fa-green-dark;
+      background: @fa-green-dark;
+      color: @jumbotron-color;
+    }
+  }
 }
