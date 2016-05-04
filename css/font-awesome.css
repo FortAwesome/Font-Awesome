@@ -1508,6 +1508,7 @@
   content: "\f1ce";
 }
 .fa-ra:before,
+.fa-resistance:before,
 .fa-rebel:before {
   content: "\f1d0";
 }
@@ -2158,6 +2159,9 @@
 }
 .fa-pied-piper:before {
   content: "\f2ae";
+}
+.fa-first-order:before {
+  content: "\f2b0";
 }
 .sr-only {
   position: absolute;

@@ -4439,6 +4439,7 @@ icons:
     created:    4.1
     aliases:
       - ra
+      - resistance
     categories:
       - Brand Icons
 
@@ -6133,6 +6134,14 @@ icons:
   - name:       Pied Piper Logo
     id:         pied-piper
     unicode:    f2ae
+    created:    4.6
+    categories:
+      - Brand Icons
+
+
+  - name:       First Order
+    id:         first-order
+    unicode:    f2b0
     created:    4.6
     categories:
       - Brand Icons
