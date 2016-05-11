@@ -10,48 +10,53 @@
         </h2>
       </div>
       <div class="modal-body">
-        <div class="text-lg margin-bottom-lg">
-          Before you download, check out our latest project: Fort Awesome&mdash;
+        <div class="well">
+          <h3 class="text-success margin-top-none margin-bottom-lg">Want the easiest way to use Font Awesome?</h3>
+          <p class="text-lg margin-bottom-lg"><strong>Font Awesome CDN</strong> gets you started in just 2 steps! And it comes with these free benefits&hellip;</p>
+
+          <div class="row">
+            <div class="col-md-6 col-sm-6 margin-bottom-lg">
+              <h5 class="page-header margin-top-none padding-bottom-sm margin-bottom-sm">Icons on your site. Fast.</h5>
+              <p>Don't mess with files locally or in production. Get all {{ icons| size }} icons plus our CSS toolkit where you want.</p>
+            </div>
+            <div class="col-md-6 col-sm-6 margin-bottom-lg">
+              <h5 class="page-header margin-top-none padding-bottom-sm margin-bottom-sm">Auto accessibility support</h5>
+              <p>We'll automate accessibility support so your site's icons work for the most people possible.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-6 margin-bottom-lg">
+              <h5 class="page-header margin-top-none padding-bottom-sm margin-bottom-sm">Super-simple upgrades</h5>
+              <p>Easily upgrade to the latest version of Font Awesome, all without pushing any code.</p>
+            </div>
+            <div class="col-md-6 col-sm-6 margin-bottom-lg">
+              <h5 class="page-header margin-top-none padding-bottom-sm margin-bottom-sm">A Faster Font Awesome</h5>
+              <p>Make you site load faster with our asynchronously loading icons and our already popular cached CDN.</p>
+            </div>
+          </div>
+
+          <form class="row" action="https://cdn.fontawesome.com/register" method="post">
+            <div class="col-sm-6 signup-input">
+              <label for="email" class="sr-only">Email address</label>
+              <input type="email" class="form-control input-lg margin-bottom" id="email" name="email" placeholder="Your email address">
+            </div>
+
+            <div class="col-sm-6 signup-button">
+              <button type="submit" class="btn btn-success btn-lg btn-block margin-bottom">Send a CDN embed code!</button>
+            </div>
+          </form>
         </div>
 
-        <div class="row">
-          <div class="col-md-6 col-sm-6 margin-bottom-lg">
-            <h4 class="page-header margin-top-none padding-bottom-sm margin-bottom-sm">More Sets</h4>
-            Font Awesome not the right look? We've got the perfect icon set for your website!
-          </div>
-          <div class="col-md-6 col-sm-6 margin-bottom-lg">
-            <h4 class="page-header margin-top-none padding-bottom-sm margin-bottom-sm">Your Icons</h4>
-            Copy &amp; paste your own logo and icons directly into Fort Awesome. Easy peasy.
-          </div>
-          <div class="col-md-6 col-sm-6 margin-bottom-lg">
-            <h4 class="page-header margin-top-none padding-bottom-sm margin-bottom-sm">Fonts Too!</h4>
-            Subset and serve your typefaces too! We've got some great ones to start with.
-          </div>
-          <div class="col-md-6 col-sm-6 margin-bottom-lg">
-            <h4 class="page-header margin-top-none padding-bottom-sm margin-bottom-sm">Optimized</h4>
-            Subsetting your icons and typefaces often shrinks them by 95% or more!
-          </div>
-          <div class="col-md-6 col-sm-6 margin-bottom-lg">
-            <h4 class="page-header margin-top-none padding-bottom-sm margin-bottom-sm">Hosted</h4>
-            No more messing with files! Update and deploy your icons to our CDN.
-          </div>
-          <div class="col-md-6 col-sm-6 margin-bottom-lg">
-            <h4 class="page-header margin-top-none padding-bottom-sm margin-bottom-sm">Faster</h4>
-            Optimized and hosted means your icons and typefaces load much faster.
-          </div>
-        </div>
+        <hr>
 
-        <a href="https://fortawesome.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=download_modal&utm_campaign=promo_5.0_update" class="btn btn-success btn-lg btn-block">
-          Take your icon game <br class="visible-xs" />to the next level with
-          <h2 class="margin-top-sm margin-bottom-sm hidden-xs"><i class="fas fas-fort-logo fas-lg valign-baseline"></i>&nbsp; Fort Awesome</h2>
-          <h3 class="margin-top-sm margin-bottom-sm visible-xs"><i class="fas fas-fort-logo fas-lg valign-baseline"></i>&nbsp; Fort Awesome</h3>
-        </a>
-        <div class="text-center margin-top-sm margin-bottom-sm">or</div>
         <a class="btn btn-default btn-lg btn-block" href="{{ page.relative_path }}assets/font-awesome-{{ site.fontawesome.version }}.zip"
            onClick="_gaq.push(['_trackEvent', 'Outbound Modal Link', 'Download on GitHub']);">
           No thanks, just download <br class="visible-xs" />Font Awesome
         </a>
 
+        <div class="text-muted text-center margin-top">
+          <small>We get it - downloading is great for being particular about your Front End assets (and for use in Design tools).</small>
+        </div>
       </div>
     </div>
   </div>
