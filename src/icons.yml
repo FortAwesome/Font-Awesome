@@ -6176,7 +6176,6 @@ icons:
     id:         font-awesome
     unicode:    f2b4
     created:    4.6
-    url:        fontawesome.io
     aliases:
       - fa
     categories:
