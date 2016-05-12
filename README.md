@@ -1,4 +1,4 @@
-# [Font Awesome v4.6.2](http://fontawesome.io)
+# [Font Awesome v4.6.3](http://fontawesome.io)
 ### The iconic font and CSS framework
 
 Font Awesome is a full suite of 634 pictographic icons for easy scalable vector graphics on websites,
