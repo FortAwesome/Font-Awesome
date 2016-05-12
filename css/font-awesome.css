@@ -2169,6 +2169,14 @@
 .fa-themeisle:before {
   content: "\f2b2";
 }
+.fa-google-plus-circle:before,
+.fa-google-plus-official:before {
+  content: "\f2b3";
+}
+.fa-fa:before,
+.fa-font-awesome:before {
+  content: "\f2b4";
+}
 .sr-only {
   position: absolute;
   width: 1px;
