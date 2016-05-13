@@ -3640,7 +3640,7 @@ icons:
   - name:       Instagram
     id:         instagram
     unicode:    f16d
-    created:    3.2
+    created:    4.6
     categories:
       - Brand Icons
 
@@ -5838,6 +5838,7 @@ icons:
     id:         fort-awesome
     unicode:    f286
     created:    4.5
+    url:        fortawesome.com
     categories:
       - Brand Icons
 
@@ -6159,5 +6160,23 @@ icons:
     unicode:    f2b2
     created:    4.6
     url:        themeisle.com
+    categories:
+      - Brand Icons
+
+  - name:       Google Plus Official
+    id:         google-plus-official
+    unicode:    f2b3
+    created:    4.6
+    aliases:
+      - google-plus-circle
+    categories:
+      - Brand Icons
+
+  - name:       Font Awesome
+    id:         font-awesome
+    unicode:    f2b4
+    created:    4.6
+    aliases:
+      - fa
     categories:
       - Brand Icons

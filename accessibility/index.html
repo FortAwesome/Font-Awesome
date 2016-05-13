@@ -38,7 +38,7 @@
     })();
   </script>
 </head>
-<body class="font-awesome ">
+<body class="font-awesome v-accessibility">
   <script>
     (function(){
       var bsa = document.createElement('script');
@@ -66,13 +66,13 @@
     <ul class="nav navbar-nav navbar-right">
       <li>
         <a href="http://fortawesome.com/?utm_source=font_awesome_navbar&utm_medium=display&utm_content=ad_1_next_level&utm_campaign=promo_5.0_update" data-toggle="tooltip" data-container="body" data-placement="bottom" data-html="true" title="Take your front end game<br>to the next level!">
-          <i class="fas fas-fort-logo fas-lg valign-baseline"></i>&nbsp;
+          <i class="fa fa-fort-awesome fa-lg valign-baseline"></i>&nbsp;
           Fort Awesome
         </a>
       </li>
       <li class="active">
         <a href="http://fontawesome.io/?utm_source=font_awesome_navbar&utm_medium=display&utm_content=font_awesome_navbar&utm_campaign=promo_5.0_update" data-toggle="tooltip" data-container="body" data-placement="bottom" data-html="true" title="The iconic font<br>&amp; CSS toolkit">
-          <i class="fas fas-flag-logo"></i>&nbsp;
+          <i class="fa fa-font-awesome"></i>&nbsp;
           Font Awesome</a>
       </li>
     </ul>
@@ -87,7 +87,7 @@
         <i class="fa fa-bars fa-lg" aria-hidden="true" title="Toggle navigation"></i>
         <span class="sr-only">Toggle navigation</span>
       </button>
-      <a class="navbar-brand" href="../"><i class="fas fas-flag-logo fas-lg" aria-hidden="true"></i> Font Awesome</a>
+      <a class="navbar-brand" href="../"><i class="fa fa-font-awesome" aria-hidden="true"></i> Font Awesome</a>
     </div>
 
     <div class="navbar-collapse collapse">
@@ -186,66 +186,20 @@
 
 </div>
 
-<div id="social-buttons" class="hidden-print">
-  <div class="container">
-    <form id="newsletter" method="post" action="https://formkeep.com/f/ba101f5b69f0">
-      <div class="row">
-        <div class="col-md-4 col-md-offset-2 col-sm-6">
-          <div class="form-group margin-bottom">
-            <input name="email" type="email" class="form-control" id="email" placeholder="Enter your email address&hellip;" required>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <button type="submit" class="btn btn-success btn-block margin-bottom-lg"
-              data-toggle="popover" data-trigger="hover" data-placement="top" title="Stay up to date with the Awesome"
-              data-content="We'll send you updates on new Font Awesome releases, icons, and other stuff that we're working on. We won't spam you. Scout's honor.">
-            Subscribe to Font Awesome Updates&nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i>
-          </button>
-        </div>
-      </div>
-    </form>
-
-    <ul class="list-inline">
-      <li>
-        <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
-      </li>
-      <li>
-        <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>
-      </li>
-      <li class="follow-btn">
-        <a href="https://twitter.com/fontawesome" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @fontawesome</a>
-      </li>
-      <li class="tweet-btn hidden-phone">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://fontawesome.io" data-text="Font Awesome, the iconic font and CSS framework" data-counturl="http://fortawesome.github.com/Font-Awesome/" data-count="horizontal" data-via="fontawesome" data-related="davegandy:Creator of Font Awesome">Tweet</a>
-      </li>
-    </ul>
-  </div>
-</div>
-
 
 <div class="container">
-  
-  <section class="hidden-print">
-  <div class="stripe-ad">
-    <script src="https://cdn.fusionads.net/fusion.js?zoneid=1332&amp;serve=C6SDP2Y&amp;placement=fontawesome" id="_fusionads_js"></script>
-
-    
-  <p class="lead">
-    Icons are symbols that can convey a ton of information and really help people comprehend directions, signs, and interfaces. Its important that we create and use them so that they can reach the largest amount of people possible.
-  </p>
-
-  <p class="lead">
-    When creating web sites and apps, that means making sure our icons play well with assistive tech when users are navigating apps and sites.
-  </p>
-  
-  </div>
-</section>
-
-
-  <div id="background">
-  <h2 class="page-header">Icon Fonts &amp; Accessibility</h2>
+  <section id="accessibility-intro" class="accessibility-intro">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="lead">
+          Icons are symbols that can convey a ton of information and really help people comprehend directions, signs, and interfaces. Its important that we create and use them so that they can reach the largest amount of people possible.
+        </p>
+      </div>
+      <div class="col-md-6">
+          <div id="accessibility-background">
+  <h4 class="margin-top-none">About Icon Fonts &amp; Accessibility</h4>
   <p>
-    Modern versions of assistive technology, like screen readers, will read CSS generated content (how Font Awesome icons are rendered), as well as specific Unicode characters. When trying our default markup for rendering icons, assisistive technology may have the following problems.
+    Modern versions of assistive technology, like screen readers, will read CSS generated content (how Font Awesome icons are rendered), as well as specific Unicode characters. When reading our default markup for rendering icons, assisistive technology may have the following problems.
   </p>
 
   <ul>
@@ -258,16 +212,52 @@
   </ul>
 </div>
 
-  <div id="using-with-accessibility">
-  <h2 class="page-header">Using Font Awesome with Acessibility in mind</h2>
-  <p>
-    When using icons in your UI, there are ways to help assistive technology either ignore or better understand Font Awesome.
-  </p>
+      </div>
+    </div>
+  </section>
 
-  <h3>Icons used for pure decoration or visual styling</h3>
-  <p>
-    If you're using an icon to add some extra decoration or branding, it does not need to be announced to users as they are navigating your site or app aurally. Additionally, if you're using an icon to visually re-emphasize or add styling to content already present in your HTML, it does not need to be repeated to an assistive technology-using user. You can make sure this is not read by adding the <code>aria-hidden="true"</code> to your Font Awesome markup.
-  </p>
+  <h2 class="page-header">
+    Using Font Awesome with Acessibility in mind
+  </h2>
+
+  <section id="accessibility-cdn" class="accessibility-cdn">
+  <div class="row">
+    <div class="col-md-8">
+      <h3>
+        <i class="gg-col fa fa-magic text-muted fa-lg padding-right" aria-hidden="true"></i>
+        Use Font Awesome CDN's auto accessibility
+      </h3>
+
+      <p><a href="../get-started/#get-started-cdn">Font Awesome CDN</a> helps you automate accessibility support more easily so your icons work for the most people possible. You only need turn on a setting, <a href="https://cdn.fontawesome.com/help#qa-autoa11y">use our simple syntax</a>, and any icons you use will have all of the best practices and manual techniques below <strong>applied automatically</strong>.</p>
+    </div>
+
+    <div class="col-md-4">
+      <a href="../get-started/#get-started-cdn" class="btn btn-success btn-block btn-lg margin-top-lg margin-bottom">Automate Your Icons' Accessibility</a>
+
+      <p class="text-sm text-center margin-bottom-none">
+        <a href="https://cdn.fontawesome.com/help#qa-autoa11y">Read more about our auto accessibility</a>
+      </p>
+    </div>
+  </div>
+
+</section>
+
+
+  <div class="hr margin-top-xl">
+    <span class="hr-text text-xl text-muted">or</span>
+  </div>
+
+  <section id="accessibility-manual" class="accessibility-manual">
+
+  <h3>
+    <i class="gg-col fa fa-wrench text-muted fa-lg padding-right" aria-hidden="true"></i>
+    Manually make your icons accessible
+  </h3>
+
+  <p>When using icons in your UI, there are manual techniques and ways to help assistive technology either ignore or better understand Font Awesome.</p>
+
+  <h4 class="margin-top-xl">Icons used for pure decoration or visual styling</h4>
+  <p>If you're using an icon to add some extra decoration or branding, it does not need to be announced to users as they are navigating your site or app aurally. Additionally, if you're using an icon to visually re-emphasize or add styling to content already present in your HTML, it does not need to be repeated to an assistive technology-using user. You can make sure this is not read by adding the <code>aria-hidden="true"</code> to your Font Awesome markup.</p>
 
   <div class="margin-top-lg margin-bottom-lg">
 <div class="highlight"><pre><code class="html"><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-fighter-jet&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
@@ -290,12 +280,12 @@
 <small class="text-muted">an icon being used in front of link text</small>
   </div>
 
-  <h3>Icons with semantic or interactive purpose</h3>
+  <h4 class="margin-top-xl">Icons with semantic or interactive purpose</h4>
   <p>
     If you're using an icon to convey meaning (rather than only as a decorative element), ensure that this meaning is also conveyed to assistive technologies. This goes for content you're abbreviating via icons as well as interactive controls (buttons, form elements, toggles, etc.). There are a few techniques to accomplish this:
   </p>
 
-  <h4>If an icon is <strong>not</strong> an interactive element</h4>
+  <h4 class="margin-top-xl text-muted">If an icon is <strong>not</strong> an interactive element</h4>
   <p>
     The simplest way to provide a text alternative is to use the <code>aria-hidden="true"</code> attribute on the icon and to include the text with an additional element, such as a <code>&lt;span&gt;</code>, with appropriate CSS to visually hide the element while keeping it accessible to assistive technologies. In addition, you can add a <code>title</code> attribute on the icon to provide a tooltip for sighted mouse users.
   </p>
@@ -331,7 +321,7 @@
     <small class="text-muted">an icon being used to denote time remaining</small>
   </div>
 
-  <h4>If an icon represents an interactive element</h4>
+  <h4 class="margin-top-xl text-muted">If an icon represents an interactive element</h4>
   <p>
     In the case of focusable interactive elements, there are various options to include an alternative text or label to the element, without the need for any visually hidden <code>&lt;span&gt;</code> or similar. For instance, simply adding the <code>title</code> attribute to the interactive element itself will be sufficient to provide an accessible alternative name for the element, as well as providing the mouse tooltip.
   </p>
@@ -358,30 +348,22 @@
     <small class="text-muted">an icon being used as a delete button's symbol</small>
 
   </div>
-</div>
 
-<div class="alert alert-success">
-  <ul class="fa-ul margin-bottom-none">
-    <li>
-      <i class="fa-li fa fa-info-circle fa-lg" aria-hidden="true"></i>
-      Bootstrap comes with a <a href="http://getbootstrap.com/css/#callout-has-feedback-icon-accessibility">utility class to visually hide content, but keep it semantically accessible</a>. If you're not using Bootstrap, there are <a href="https://css-tricks.com/places-its-tempting-to-use-display-none-but-dont/">plenty</a> of <a href="https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L124">recipes</a> to roll your own from.
-    </li>
-  </ul>
-</div>
 
-<div class="alert alert-success">
-  <ul class="fa-ul margin-bottom-none">
-    <li>
-      <i class="fa-li fa fa-info-circle fa-lg" aria-hidden"true"></i>
-      <a href="../examples/#accessible">See more examples of how to add accessibility-minded icons</a> into your UI.
-    </li>
-  </ul>
-</div>
+  <div class="alert alert-success">
+    <ul class="fa-ul margin-bottom-none">
+      <li>
+        <i class="fa-li fa fa-info-circle fa-lg" aria-hidden"true"></i>
+        <a href="../examples/#accessible">See more examples of how to add accessibility-minded icons</a> into your UI.
+      </li>
+    </ul>
+  </div>
+</section>
 
-  <div id="other">
+  <section id="accessibility-other" class="accessibility-other">
   <h2 class="page-header">Other cases and information</h2>
   <p>
-    While the scenarios and techniques above help avoid some serious issues and confusion, they are not exhaustive. There are many complex contexts and use cases when it comes to accessibility, such as users with low vision who need a high color contrast ratio to see UI. There are some great tools and resources to learn from and work on these issues out there. Here are a few reads we recommend.
+    While the scenarios and techniques here help avoid some serious issues and confusion, they are not exhaustive. There are many complex contexts and use cases when it comes to accessibility, such as users with low vision who need a high color contrast ratio to see UI. There are some great tools and resources to learn from and work on these issues out there. Here are a few reads we recommend.
   </p>
 
   <ul>
@@ -394,7 +376,7 @@
   <p>
     We'll continue to work on these under the larger topic of accessibility, but in the meantime, <a href="../community/#reporting-bugs">let us know if any bugs or issues</a>.
   </p>
-</div>
+</section>
 
 </div>
 
@@ -415,7 +397,7 @@
       </a>
     </div>
     <div>
-      <i class="fa fa-flag" aria-hidden="true"></i> Font Awesome 4.6.2
+      <i class="fa fa-flag" aria-hidden="true"></i> Font Awesome 4.6.3
       <span class="hide-xs">&middot;</span><br class="hide-sm hide-md hide-lg">
       Created by <a href="https://twitter.com/davegandy">Dave Gandy</a>
     </div>

@@ -727,3 +727,7 @@
 .#{$fa-css-prefix}-first-order:before { content: $fa-var-first-order; }
 .#{$fa-css-prefix}-yoast:before { content: $fa-var-yoast; }
 .#{$fa-css-prefix}-themeisle:before { content: $fa-var-themeisle; }
+.#{$fa-css-prefix}-google-plus-circle:before,
+.#{$fa-css-prefix}-google-plus-official:before { content: $fa-var-google-plus-official; }
+.#{$fa-css-prefix}-fa:before,
+.#{$fa-css-prefix}-font-awesome:before { content: $fa-var-font-awesome; }

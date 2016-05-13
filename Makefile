@@ -28,7 +28,7 @@ build:
 	bundle exec lessc --compress ${SITE_LESS} > ${SITE_CSS}
 	cp -r ${FA_ROOT_DIRECTORY}/* ../
 	mv README.md-nobuild ../README.md
-	cd assets && mv font-awesome font-awesome-4.6.2 && zip -r9 font-awesome-4.6.2.zip font-awesome-4.6.2 && mv font-awesome-4.6.2 font-awesome
+	cd assets && mv font-awesome font-awesome-4.6.3 && zip -r9 font-awesome-4.6.3.zip font-awesome-4.6.3 && mv font-awesome-4.6.3 font-awesome
 
 	find .. -type f ! -perm 644 -exec chmod 644 {} \;
 
