@@ -1,7 +1,7 @@
-# [Font Awesome v4.6.2](http://fontawesome.io)
+# [Font Awesome v4.6.3](http://fontawesome.io)
 ### The iconic font and CSS framework
 
-Font Awesome is a full suite of 632 pictographic icons for easy scalable vector graphics on websites,
+Font Awesome is a full suite of 634 pictographic icons for easy scalable vector graphics on websites,
 created and maintained by [Dave Gandy](https://twitter.com/davegandy).
 Stay up to date with the latest release and announcements on Twitter:
 [@fontawesome](http://twitter.com/fontawesome).
@@ -20,6 +20,7 @@ Get started at http://fontawesome.io!
 - Full details: http://fontawesome.io/license/
 
 ## Changelog
+- [v4.6.3 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/9189)
 - [v4.6.2 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/9117)
 - [v4.6.1 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/8962)
 - [v4.6.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?q=milestone%3A4.6.0+is%3Aclosed)
