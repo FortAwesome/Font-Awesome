@@ -3965,8 +3965,6 @@ icons:
     filter:
       - handicap
       - person
-      - accessibility
-      - accessibile
     categories:
       - Web Application Icons
       - Medical Icons
@@ -4505,7 +4503,6 @@ icons:
     created:    4.1
     aliases:
       - send
-    filter:
     categories:
       - Web Application Icons
 
@@ -4791,35 +4788,34 @@ icons:
     id:         area-chart
     unicode:    f1fe
     created:    4.2
-    categories:
-      - Web Application Icons
-      - Chart Icons
     filter:
       - graph
       - analytics
-
+    categories:
+      - Web Application Icons
+      - Chart Icons
 
   - name:       Pie Chart
     id:         pie-chart
     unicode:    f200
     created:    4.2
-    categories:
-      - Web Application Icons
-      - Chart Icons
     filter:
       - graph
       - analytics
+    categories:
+      - Web Application Icons
+      - Chart Icons
 
   - name:       Line Chart
     id:         line-chart
     unicode:    f201
     created:    4.2
-    categories:
-      - Web Application Icons
-      - Chart Icons
     filter:
       - graph
       - analytics
+    categories:
+      - Web Application Icons
+      - Chart Icons
 
   - name:       last.fm
     id:         lastfm
@@ -5723,7 +5719,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Map Outline
+  - name:       Map Outlined
     id:         map-o
     unicode:    f278
     created:    4.4
