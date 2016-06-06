@@ -10,7 +10,7 @@ New icons mostly start as requests by the [Font Awesome community on GitHub](../
 
 1. Please be nice. Font Awesome is a happy place.
 2. Please do not request comprehensive sets of icons related to a very specific field.
-3. Please [search](../../search?type=Issues) to see if your icon request already exists. If a request is found, please +1 that one.
+3. Please [search](../../search?type=Issues) to see if your icon request already exists. If a request is found, please add a 👍 reaction to that one.
 4. Please make requests for single icons, unless you are requesting a couple of strictly related icons (e.g., thumbs-up/thumbs-down).
 5. Please and thank you if you include the following:
   - Title your [new issue](../../issues/new?title=Icon%20Request:%20icon-) `Icon request: icon-name` (e.g., `Icon request: icon-car`).
