@@ -1241,6 +1241,7 @@ icons:
       - message
       - texting
       - sms
+      - conversation
     categories:
       - Web Application Icons
 
@@ -1392,13 +1393,16 @@ icons:
     unicode:    f086
     created:    1.0
     filter:
-      - conversation
+      - speech
       - notification
-      - notes
+      - note
+      - chat
+      - bubble
+      - feedback
       - message
       - texting
       - sms
-      - chat
+      - conversation
     categories:
       - Web Application Icons
 
@@ -2296,6 +2300,7 @@ icons:
       - message
       - texting
       - sms
+      - conversation
     categories:
       - Web Application Icons
 
@@ -2304,13 +2309,16 @@ icons:
     unicode:    f0e6
     created:    2.0
     filter:
-      - conversation
+      - speech
       - notification
-      - notes
+      - note
+      - chat
+      - bubble
+      - feedback
       - message
       - texting
       - sms
-      - chat
+      - conversation
     categories:
       - Web Application Icons
 
@@ -5739,7 +5747,16 @@ icons:
     unicode:    f27a
     created:    4.4
     filter:
+      - speech
+      - notification
+      - note
+      - chat
+      - bubble
+      - feedback
       - message
+      - texting
+      - sms
+      - conversation
     categories:
       - Web Application Icons
 
@@ -5748,7 +5765,16 @@ icons:
     unicode:    f27b
     created:    4.4
     filter:
+      - speech
+      - notification
+      - note
+      - chat
+      - bubble
+      - feedback
       - message
+      - texting
+      - sms
+      - conversation
     categories:
       - Web Application Icons
 
