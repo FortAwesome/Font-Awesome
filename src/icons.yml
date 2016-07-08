@@ -1567,6 +1567,7 @@ icons:
        - number
        - support
        - earphone
+       - telephone
     categories:
       - Web Application Icons
 
@@ -1601,6 +1602,7 @@ icons:
        - voice
        - number
        - support
+       - telephone
     categories:
       - Web Application Icons
 
@@ -2719,6 +2721,7 @@ icons:
       - call
       - iphone
       - number
+      - telephone
     aliases:
       - mobile-phone
     categories:
@@ -6046,6 +6049,8 @@ icons:
     id:         volume-control-phone
     unicode:    f2a0
     created:    4.6
+    filter:
+      - telephone
     categories:
       - Web Application Icons
       - Accessibility Icons
