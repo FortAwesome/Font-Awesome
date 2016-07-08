@@ -306,7 +306,7 @@ icons:
     unicode:    f01a
     created:    1.0
     filter:
-        - download
+      - download
     categories:
       - Directional Icons
 
@@ -1030,7 +1030,7 @@ icons:
     unicode:    f063
     created:    1.0
     filter:
-        - download
+      - download
     categories:
       - Directional Icons
 
@@ -1308,7 +1308,7 @@ icons:
     unicode:    f07d
     created:    1.0
     filter:
-        - resize
+      - resize
     categories:
       - Web Application Icons
       - Directional Icons
@@ -1318,7 +1318,7 @@ icons:
     unicode:    f07e
     created:    1.0
     filter:
-        - resize
+      - resize
     categories:
       - Web Application Icons
       - Directional Icons
@@ -1562,12 +1562,12 @@ icons:
     unicode:    f095
     created:    2.0
     filter:
-       - call
-       - voice
-       - number
-       - support
-       - earphone
-       - telephone
+      - call
+      - voice
+      - number
+      - support
+      - earphone
+      - telephone
     categories:
       - Web Application Icons
 
@@ -1598,11 +1598,11 @@ icons:
     unicode:    f098
     created:    2.0
     filter:
-       - call
-       - voice
-       - number
-       - support
-       - telephone
+      - call
+      - voice
+      - number
+      - support
+      - telephone
     categories:
       - Web Application Icons
 
@@ -1804,7 +1804,7 @@ icons:
     unicode:    f0ab
     created:    2.0
     filter:
-        - download
+      - download
     categories:
       - Directional Icons
 
@@ -1846,11 +1846,11 @@ icons:
     unicode:    f0ae
     created:    2.0
     filter:
-       - progress
-       - loading
-       - downloading
-       - downloads
-       - settings
+      - progress
+      - loading
+      - downloading
+      - downloads
+      - settings
     categories:
       - Web Application Icons
 
@@ -2468,12 +2468,12 @@ icons:
     unicode:    f0f5
     created:    3.0
     filter:
-       - food
-       - restaurant
-       - spoon
-       - knife
-       - dinner
-       - eat
+      - food
+      - restaurant
+      - spoon
+      - knife
+      - dinner
+      - eat
     categories:
       - Web Application Icons
 
@@ -3675,7 +3675,7 @@ icons:
     unicode:    f171
     created:    3.2
     filter:
-        - git
+      - git
     categories:
       - Brand Icons
 
@@ -3684,7 +3684,7 @@ icons:
     unicode:    f172
     created:    3.2
     filter:
-        - git
+      - git
     categories:
       - Brand Icons
 
@@ -3855,9 +3855,9 @@ icons:
     unicode:    f186
     created:    3.2
     filter:
-       - night
-       - darker
-       - contrast
+      - night
+      - darker
+      - contrast
     categories:
       - Web Application Icons
 
