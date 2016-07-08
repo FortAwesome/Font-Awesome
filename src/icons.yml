@@ -6016,8 +6016,13 @@ icons:
     id:         wheelchair-alt
     unicode:    f29b
     created:    4.6
+    filter:
+      - handicap
+      - person
     categories:
       - Web Application Icons
+      - Medical Icons
+      - Transportation Icons
       - Accessibility Icons
 
   - name:       Question Circle Outlined
