@@ -306,7 +306,7 @@ icons:
     unicode:    f01a
     created:    1.0
     filter:
-        - download
+      - download
     categories:
       - Directional Icons
 
@@ -1030,7 +1030,7 @@ icons:
     unicode:    f063
     created:    1.0
     filter:
-        - download
+      - download
     categories:
       - Directional Icons
 
@@ -1241,6 +1241,7 @@ icons:
       - message
       - texting
       - sms
+      - conversation
     categories:
       - Web Application Icons
 
@@ -1307,7 +1308,7 @@ icons:
     unicode:    f07d
     created:    1.0
     filter:
-        - resize
+      - resize
     categories:
       - Web Application Icons
       - Directional Icons
@@ -1317,7 +1318,7 @@ icons:
     unicode:    f07e
     created:    1.0
     filter:
-        - resize
+      - resize
     categories:
       - Web Application Icons
       - Directional Icons
@@ -1392,13 +1393,16 @@ icons:
     unicode:    f086
     created:    1.0
     filter:
-      - conversation
+      - speech
       - notification
-      - notes
+      - note
+      - chat
+      - bubble
+      - feedback
       - message
       - texting
       - sms
-      - chat
+      - conversation
     categories:
       - Web Application Icons
 
@@ -1558,11 +1562,12 @@ icons:
     unicode:    f095
     created:    2.0
     filter:
-       - call
-       - voice
-       - number
-       - support
-       - earphone
+      - call
+      - voice
+      - number
+      - support
+      - earphone
+      - telephone
     categories:
       - Web Application Icons
 
@@ -1593,10 +1598,11 @@ icons:
     unicode:    f098
     created:    2.0
     filter:
-       - call
-       - voice
-       - number
-       - support
+      - call
+      - voice
+      - number
+      - support
+      - telephone
     categories:
       - Web Application Icons
 
@@ -1691,6 +1697,7 @@ icons:
       - share
       - broadcast
       - louder
+      - megaphone
     categories:
       - Web Application Icons
 
@@ -1797,7 +1804,7 @@ icons:
     unicode:    f0ab
     created:    2.0
     filter:
-        - download
+      - download
     categories:
       - Directional Icons
 
@@ -1839,11 +1846,11 @@ icons:
     unicode:    f0ae
     created:    2.0
     filter:
-       - progress
-       - loading
-       - downloading
-       - downloads
-       - settings
+      - progress
+      - loading
+      - downloading
+      - downloads
+      - settings
     categories:
       - Web Application Icons
 
@@ -2295,6 +2302,7 @@ icons:
       - message
       - texting
       - sms
+      - conversation
     categories:
       - Web Application Icons
 
@@ -2303,13 +2311,16 @@ icons:
     unicode:    f0e6
     created:    2.0
     filter:
-      - conversation
+      - speech
       - notification
-      - notes
+      - note
+      - chat
+      - bubble
+      - feedback
       - message
       - texting
       - sms
-      - chat
+      - conversation
     categories:
       - Web Application Icons
 
@@ -2457,12 +2468,12 @@ icons:
     unicode:    f0f5
     created:    3.0
     filter:
-       - food
-       - restaurant
-       - spoon
-       - knife
-       - dinner
-       - eat
+      - food
+      - restaurant
+      - spoon
+      - knife
+      - dinner
+      - eat
     categories:
       - Web Application Icons
 
@@ -2710,6 +2721,7 @@ icons:
       - call
       - iphone
       - number
+      - telephone
     aliases:
       - mobile-phone
     categories:
@@ -3663,7 +3675,7 @@ icons:
     unicode:    f171
     created:    3.2
     filter:
-        - git
+      - git
     categories:
       - Brand Icons
 
@@ -3672,7 +3684,7 @@ icons:
     unicode:    f172
     created:    3.2
     filter:
-        - git
+      - git
     categories:
       - Brand Icons
 
@@ -3843,9 +3855,9 @@ icons:
     unicode:    f186
     created:    3.2
     filter:
-       - night
-       - darker
-       - contrast
+      - night
+      - darker
+      - contrast
     categories:
       - Web Application Icons
 
@@ -3965,8 +3977,6 @@ icons:
     filter:
       - handicap
       - person
-      - accessibility
-      - accessibile
     categories:
       - Web Application Icons
       - Medical Icons
@@ -4505,7 +4515,6 @@ icons:
     created:    4.1
     aliases:
       - send
-    filter:
     categories:
       - Web Application Icons
 
@@ -4791,35 +4800,34 @@ icons:
     id:         area-chart
     unicode:    f1fe
     created:    4.2
-    categories:
-      - Web Application Icons
-      - Chart Icons
     filter:
       - graph
       - analytics
-
+    categories:
+      - Web Application Icons
+      - Chart Icons
 
   - name:       Pie Chart
     id:         pie-chart
     unicode:    f200
     created:    4.2
-    categories:
-      - Web Application Icons
-      - Chart Icons
     filter:
       - graph
       - analytics
+    categories:
+      - Web Application Icons
+      - Chart Icons
 
   - name:       Line Chart
     id:         line-chart
     unicode:    f201
     created:    4.2
-    categories:
-      - Web Application Icons
-      - Chart Icons
     filter:
       - graph
       - analytics
+    categories:
+      - Web Application Icons
+      - Chart Icons
 
   - name:       last.fm
     id:         lastfm
@@ -5723,7 +5731,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Map Outline
+  - name:       Map Outlined
     id:         map-o
     unicode:    f278
     created:    4.4
@@ -5742,7 +5750,16 @@ icons:
     unicode:    f27a
     created:    4.4
     filter:
+      - speech
+      - notification
+      - note
+      - chat
+      - bubble
+      - feedback
       - message
+      - texting
+      - sms
+      - conversation
     categories:
       - Web Application Icons
 
@@ -5751,7 +5768,16 @@ icons:
     unicode:    f27b
     created:    4.4
     filter:
+      - speech
+      - notification
+      - note
+      - chat
+      - bubble
+      - feedback
       - message
+      - texting
+      - sms
+      - conversation
     categories:
       - Web Application Icons
 
@@ -5990,8 +6016,13 @@ icons:
     id:         wheelchair-alt
     unicode:    f29b
     created:    4.6
+    filter:
+      - handicap
+      - person
     categories:
       - Web Application Icons
+      - Medical Icons
+      - Transportation Icons
       - Accessibility Icons
 
   - name:       Question Circle Outlined
@@ -6023,6 +6054,8 @@ icons:
     id:         volume-control-phone
     unicode:    f2a0
     created:    4.6
+    filter:
+      - telephone
     categories:
       - Web Application Icons
       - Accessibility Icons
