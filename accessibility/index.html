@@ -323,11 +323,11 @@
 
   <h4 class="margin-top-xl text-muted">If an icon represents an interactive element</h4>
   <p>
-    In the case of focusable interactive elements, there are various options to include an alternative text or label to the element, without the need for any visually hidden <code>&lt;span&gt;</code> or similar. For instance, simply adding the <code>title</code> attribute to the interactive element itself will be sufficient to provide an accessible alternative name for the element, as well as providing the mouse tooltip.
+    In the case of focusable interactive elements, there are various options to include an alternative text or label to the element, without the need for any visually hidden <code>&lt;span&gt;</code> or similar. For instance, simply adding the <code>aria-label</code> attribute with a text description to the interactive element itself will be sufficient to provide an accessible alternative name for the element. If you need to provide a visual tooltip on mouseover/focus, we recommend additionally using the <code>title</code> attribute or a <a href="https://github.com/chinchang/hint.css">custom tooltip</a> solution.
   </p>
 
   <div class="margin-bottom-lg margin-top-lg">
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;path/to/shopping/cart&quot;</span> <span class="na">title=</span><span class="s">&quot;View 3 items in your shopping cart&quot;</span><span class="nt">&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;path/to/shopping/cart&quot;</span> <span class="na">aria-label=</span><span class="s">&quot;View 3 items in your shopping cart&quot;</span><span class="nt">&gt;</span>
   <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-shopping-cart&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/a&gt;</span>
 </code></pre></div>
@@ -335,18 +335,19 @@
   </div>
 
   <div class="margin-bottom-lg margin-top-lg">
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#navigation-main&quot;</span> <span class="na">title=</span><span class="s">&quot;Skip to main navigation&quot;</span><span class="nt">&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#navigation-main&quot;</span> <span class="na">aria-label=</span><span class="s">&quot;Skip to main navigation&quot;</span><span class="nt">&gt;</span>
   <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-bars&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/a&gt;</span>
 </code></pre></div>
     <small class="text-muted">an icon being used as a link to a navigation menu</small>
+  </div>
 
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;btn btn-danger&quot;</span> <span class="na">href=</span><span class="s">&quot;path/to/settings&quot;</span> <span class="na">title=</span><span class="s">&quot;Delete&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-trash-o&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
+  <div class="margin-bottom-lg margin-top-lg">
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;btn btn-danger&quot;</span> <span class="na">href=</span><span class="s">&quot;path/to/settings&quot;</span> <span class="na">aria-label=</span><span class="s">&quot;Delete&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-trash-o&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span> <span class="na">title=</span><span class="s">&quot;Delete this item?&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;/a&gt;</span>
 </code></pre></div>
-    <small class="text-muted">an icon being used as a delete button's symbol</small>
-
+    <small class="text-muted">an icon being used as a delete button's symbol with a <code>title</code> attribute to provide a native mouse tooltip</small>
   </div>
 
 
