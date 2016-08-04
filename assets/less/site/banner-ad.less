@@ -115,13 +115,13 @@
   &.fort-awesome {
     @fort-awesome-color: #1C1E29;
     @fort-awesome-color-accent: #525879;
-    @fort-awesome-bg: mix(@fort-awesome-color-accent, @fort-awesome-color, 15%);
+    @fort-awesome-bg: #2d2f39;
     background-color: @fort-awesome-bg;
     border-bottom: solid 1px mix(@fort-awesome-bg, #000, 15%);
     .btn-primary {
       @color: #fff;
-      @background: mix(#fff,@fort-awesome-bg,15%);
-      @border: darken(@fort-awesome-bg, 5%);
+      @background: #ff8c52;
+      @border: rgba(0,0,0,0.2);
       font-weight: bold;
       color: @color;
       background-color: @background;
@@ -136,9 +136,9 @@
       &.active,
       .open > &.dropdown-toggle {
         color: #fff;
-        background-color: mix(@fort-awesome-color, @fort-awesome-color-accent, 30%);
-        border-color: darken(@border, 12%);
-        border-bottom-color: darken(@border, 18%);
+        background-color: #e67e4a;
+        border-color: rgba(0,0,0,0.296);
+        border-bottom-color: rgba(0,0,0,0.296);
       }
       &:active,
       &.active,
