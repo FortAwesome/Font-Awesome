@@ -3,31 +3,57 @@ $(function () {
 
   var ads = [
     {
-      quote: "Take your icon game to the next level. Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
-      class: "fort-awesome",
-      url: "https://fortawesome.com/start?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_1_next_level&utm_campaign=promo_4.6_update",
+      quote: "<i class='fas fas-perfect fas-2x valign-middle margin-right'></i>Looking for the best icon sets? Check out <strong>Symbolset</strong>, <a href='https://articles.fortawesome.com/fort-awesome-acquires-symbolset-72229dab2c13'>now</a> from the maker of Font Awesome.",
+      class: "symbolset",
+      url: "https://symbolset.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_1_best_icons&utm_campaign=promo_4.6_update",
       btn_text: "Gimme Some!"
     },
     {
-      quote: "Make your icons load 10x faster! Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
-      class: "fort-awesome",
-      url: "https://fortawesome.com/start?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_3_faster_loading&utm_campaign=promo_4.6_update",
+      quote: "<i class='fas fas-curate fas-2x valign-middle margin-right'></i>Need a different look for your icons? Check out <strong>Symbolset</strong>, <a href='https://articles.fortawesome.com/fort-awesome-acquires-symbolset-72229dab2c13'>now</a> from the maker of Font Awesome.",
+      class: "symbolset",
+      url: "https://symbolset.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_2_different_look&utm_campaign=promo_4.6_update",
       btn_text: "Gimme Some!"
     },
-    {
-      quote: "Looking for other great icon sets? Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
-      class: "fort-awesome",
-      url: "https://fortawesome.com/start?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_4_more_icons&utm_campaign=promo_4.6_update",
-      btn_text: "Gimme Some!"
-    },
-    {
-      quote: "Want to add your own icon? Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
-      class: "fort-awesome",
-      url: "https://fortawesome.com/start?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_6_your_own_icon&utm_campaign=promo_4.6_update",
-      btn_text: "Gimme Some!"
-    },
+    // {
+    //   quote: "Fort Awesome <a href='#'>acquires</a> Symbolset!",
+    //   class: "symbolset",
+    //   url: "https://symbolset.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_3_acquires&utm_campaign=promo_4.6_update",
+    //   btn_text: "Check out Symbolset"
+    // },
+    // {
+    //   quote: "<a href='#' class='no-underline'>Fort Awesome <i class='fa fa-plus fa-lg'></i> Symbolset = <i class='fa fa-heart fa-lg'></i></a>",
+    //   class: "symbolset",
+    //   url: "https://symbolset.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_4_math&utm_campaign=promo_4.6_update",
+    //   btn_text: "Check out Symbolset"
+    // },
 
 
+    // {
+    //   quote: "Take your icon game to the next level. Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
+    //   class: "fort-awesome",
+    //   url: "https://fortawesome.com/start?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_1_next_level&utm_campaign=promo_4.6_update",
+    //   btn_text: "Gimme Some!"
+    // },
+    // {
+    //   quote: "Make your icons load 10x faster! Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
+    //   class: "fort-awesome",
+    //   url: "https://fortawesome.com/start?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_3_faster_loading&utm_campaign=promo_4.6_update",
+    //   btn_text: "Gimme Some!"
+    // },
+    // {
+    //   quote: "Looking for other great icon sets? Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
+    //   class: "fort-awesome",
+    //   url: "https://fortawesome.com/start?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_4_more_icons&utm_campaign=promo_4.6_update",
+    //   btn_text: "Gimme Some!"
+    // },
+    // {
+    //   quote: "Want to add your own icon? Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
+    //   class: "fort-awesome",
+    //   url: "https://fortawesome.com/start?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_6_your_own_icon&utm_campaign=promo_4.6_update",
+    //   btn_text: "Gimme Some!"
+    // },
+    //
+    //
     // {
     //   quote: "<strong>Black Tie</strong>, from the creator of Font Awesome. On sale at the Kickstarter price for a limited time.",
     //   class: "black-tie",

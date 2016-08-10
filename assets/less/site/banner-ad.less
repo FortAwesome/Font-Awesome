@@ -13,7 +13,7 @@
   .tagline {
     font-weight: 200;
     font-size: 16px;
-    padding-right: 20px;
+    padding-right: 30px;
   }
 
   &.font-awesome-survey {
@@ -159,4 +159,56 @@
       }
     }
   }
+
+  &.symbolset {
+    @symbolset-bg: desaturate(#866cba,5%);
+    background-color: @symbolset-bg;
+    border-bottom: rgba(0,0,0,0.2);
+    a:not(.btn) {
+      text-decoration: underline;
+      color: #fff;
+      &:hover { color: rgba(255,255,255,.8); }
+    }
+    .btn-primary {
+      @color: @symbolset-bg;
+      @background: #fff;
+      @border: mix(#000,@symbolset-bg,10%);
+      font-weight: bold;
+      color: @color;
+      background-color: @background;
+      border-color: @border;
+      border-bottom-width: 2px;
+      text-shadow: none;
+      border-radius: 4px;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        color: #fff;
+        background-color: rgba(0,0,0,0.2);
+        border-color: rgba(0,0,0,0.2);
+        border-bottom-color: rgba(0,0,0,0.2);
+      }
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        background-image: none;
+      }
+      &.disabled,
+      &[disabled],
+      fieldset[disabled] & {
+        &,
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+          background-color: @background;
+          border-color: @border;
+        }
+      }
+    }
+  }
+
 }
