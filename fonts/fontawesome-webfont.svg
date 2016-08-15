@@ -7,6 +7,7 @@
 <font-face units-per-em="1792" ascent="1536" descent="-256" />
 <missing-glyph horiz-adv-x="448" />
 <glyph unicode=" "  horiz-adv-x="448" />
+<glyph unicode="&#x2000;" horiz-adv-x="652" />
 <glyph unicode="&#x09;" horiz-adv-x="448" />
 <glyph unicode="&#xa0;" horiz-adv-x="448" />
 <glyph unicode="&#xa8;" horiz-adv-x="1792" />
