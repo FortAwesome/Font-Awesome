@@ -377,6 +377,7 @@ icons:
     filter:
       - protect
       - admin
+      - security
     categories:
       - Web Application Icons
 
@@ -3085,6 +3086,7 @@ icons:
     filter:
       - award
       - achievement
+      - security
       - winner
     categories:
       - Web Application Icons
