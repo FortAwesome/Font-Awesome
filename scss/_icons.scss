@@ -1,8 +1,8 @@
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 
-@if (type-of($fa-limited-icons) == list) {
-    @each $icon in $fa-limited-icons {
+@if (type-of($fa-allowed-icons) != false) {
+    @each $icon in $fa-allowed-icons {
         .#{$fa-css-prefix}-#{$icon}::before { content: $fa-var-glass; }
     }
 }
