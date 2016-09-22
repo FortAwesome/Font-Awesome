@@ -1,7 +1,7 @@
 {
   "name": "scss-font-awesome",
   "description": "SCSS-only package for the iconic font and CSS framework",
-  "version": "4.6.3",
+  "version": "0.0.1",
   "keywords": ["font", "awesome", "fontawesome", "icon", "font", "bootstrap"],
   "homepage": "http://fontawesome.io/",
   "bugs": {
