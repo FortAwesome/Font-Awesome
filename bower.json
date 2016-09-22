@@ -1,5 +1,5 @@
 {
-  "name": "font-awesome",
+  "name": "scss-font-awesome",
   "description": "Font Awesome",
   "keywords": [],
   "homepage": "http://fontawesome.io",
@@ -7,7 +7,6 @@
   "devDependencies": {},
   "license": ["OFL-1.1", "MIT", "CC-BY-3.0"],
   "main": [
-    "less/font-awesome.less",
     "scss/font-awesome.scss"
   ],
   "ignore": [
@@ -15,8 +14,6 @@
     "*.json",
     "src",
     "*.yml",
-    "Gemfile",
-    "Gemfile.lock",
     "*.md"
   ]
 }
