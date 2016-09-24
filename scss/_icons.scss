@@ -732,7 +732,7 @@
 %#{$fa-css-prefix}-fa,
 %#{$fa-css-prefix}-font-awesome { content: $fa-var-font-awesome; }
 
-@if (type-of($fa-allowed-icons) != false) {
+@if ($fa-allowed-icons != false) {
     @each $icon in $fa-allowed-icons {
         .#{$fa-css-prefix}-#{$icon}::before { @extend %#{$fa-css-prefix}-#{$icon}; }
     }
