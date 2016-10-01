@@ -1525,6 +1525,7 @@ icons:
     filter:
       - award
       - achievement
+      - cup
       - winner
       - game
     categories:
