@@ -1,7 +1,7 @@
 {
   "name": "font-awesome",
   "description": "The iconic font and CSS framework",
-  "version": "4.6.3",
+  "version": "4.7.0",
   "style": "css/font-awesome.css",
   "keywords": ["font", "awesome", "fontawesome", "icon", "font", "bootstrap"],
   "homepage": "http://fontawesome.io/",
