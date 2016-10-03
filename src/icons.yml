@@ -6217,3 +6217,10 @@ icons:
       - fa
     categories:
       - Brand Icons
+
+  - name:       Handshake Outlined
+    id:         handshake-o
+    unicode:    f2b5
+    created:    4.7
+    categories:
+      - Web Application Icons
