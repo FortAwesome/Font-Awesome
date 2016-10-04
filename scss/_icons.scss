@@ -735,3 +735,9 @@
 .#{$fa-css-prefix}-envelope-open:before { content: $fa-var-envelope-open; }
 .#{$fa-css-prefix}-envelope-open-o:before { content: $fa-var-envelope-open-o; }
 .#{$fa-css-prefix}-linode:before { content: $fa-var-linode; }
+.#{$fa-css-prefix}-address-book:before { content: $fa-var-address-book; }
+.#{$fa-css-prefix}-address-book-o:before { content: $fa-var-address-book-o; }
+.#{$fa-css-prefix}-vcard:before,
+.#{$fa-css-prefix}-address-card:before { content: $fa-var-address-card; }
+.#{$fa-css-prefix}-vcard-o:before,
+.#{$fa-css-prefix}-address-card-o:before { content: $fa-var-address-card-o; }

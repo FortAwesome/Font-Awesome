@@ -6239,7 +6239,6 @@ icons:
     categories:
       - Web Application Icons
 
-
   - name:       Linode
     id:         linode
     unicode:    f2b8
@@ -6247,3 +6246,35 @@ icons:
     url:        linode.com
     categories:
       - Brand Icons
+
+  - name:       Address Book
+    id:         address-book
+    unicode:    f2b9
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Address Book Outlined
+    id:         address-book-o
+    unicode:    f2ba
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Address Card
+    id:         address-card
+    unicode:    f2bb
+    created:    4.7
+    aliases:
+      - vcard
+    categories:
+      - Web Application Icons
+
+  - name:       Address Card Outlined
+    id:         address-card-o
+    unicode:    f2bc
+    created:    4.7
+    aliases:
+      - vcard-o
+    categories:
+      - Web Application Icons
