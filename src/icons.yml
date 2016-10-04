@@ -6224,3 +6224,17 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
+
+  - name:       Envelope Open
+    id:         envelope-open
+    unicode:    f2b6
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Envelope Open Outlined
+    id:         envelope-open-o
+    unicode:    f2b7
+    created:    4.7
+    categories:
+      - Web Application Icons

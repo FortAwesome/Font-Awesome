@@ -2180,6 +2180,12 @@
 .fa-handshake-o:before {
   content: "\f2b5";
 }
+.fa-envelope-open:before {
+  content: "\f2b6";
+}
+.fa-envelope-open-o:before {
+  content: "\f2b7";
+}
 .sr-only {
   position: absolute;
   width: 1px;
