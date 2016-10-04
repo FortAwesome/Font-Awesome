@@ -6238,3 +6238,12 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
+
+
+  - name:       Linode
+    id:         linode
+    unicode:    f2b8
+    created:    4.7
+    url:        linode.com
+    categories:
+      - Brand Icons
