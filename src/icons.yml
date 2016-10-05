@@ -6332,3 +6332,10 @@ icons:
     created:    4.7
     categories:
       - Brand Icons
+
+  - name:       Free Code Camp
+    id:         free-code-camp
+    unicode:    f2c5
+    created:    4.7
+    categories:
+      - Brand Icons

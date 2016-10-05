@@ -2226,6 +2226,9 @@
 .fa-quora:before {
   content: "\f2c4";
 }
+.fa-free-code-camp:before {
+  content: "\f2c5";
+}
 .sr-only {
   position: absolute;
   width: 1px;
