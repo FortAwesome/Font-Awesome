@@ -2223,6 +2223,9 @@
 .fa-id-card-o:before {
   content: "\f2c3";
 }
+.fa-quora:before {
+  content: "\f2c4";
+}
 .sr-only {
   position: absolute;
   width: 1px;

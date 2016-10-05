@@ -6325,3 +6325,10 @@ icons:
       - drivers-license-o
     categories:
       - Web Application Icons
+
+  - name:       Quora
+    id:         quora
+    unicode:    f2c4
+    created:    4.7
+    categories:
+      - Brand Icons
