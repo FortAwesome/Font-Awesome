@@ -6300,3 +6300,28 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
+
+  - name:       Identification Badge
+    id:         id-badge
+    unicode:    f2c1
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Identification Card
+    id:         id-card
+    unicode:    f2c2
+    created:    4.7
+    aliases:
+      - drivers-license
+    categories:
+      - Web Application Icons
+
+  - name:       Identification Card Outlined
+    id:         id-card-o
+    unicode:    f2c3
+    created:    4.7
+    aliases:
+      - drivers-license-o
+    categories:
+      - Web Application Icons

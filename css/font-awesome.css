@@ -2212,6 +2212,17 @@
 .fa-user-o:before {
   content: "\f2c0";
 }
+.fa-id-badge:before {
+  content: "\f2c1";
+}
+.fa-drivers-license:before,
+.fa-id-card:before {
+  content: "\f2c2";
+}
+.fa-drivers-license-o:before,
+.fa-id-card-o:before {
+  content: "\f2c3";
+}
 .sr-only {
   position: absolute;
   width: 1px;
