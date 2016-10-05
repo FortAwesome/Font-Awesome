@@ -2203,6 +2203,15 @@
 .fa-address-card-o:before {
   content: "\f2bc";
 }
+.fa-user-circle:before {
+  content: "\f2bd";
+}
+.fa-user-circle-o:before {
+  content: "\f2be";
+}
+.fa-user-o:before {
+  content: "\f2c0";
+}
 .sr-only {
   position: absolute;
   width: 1px;

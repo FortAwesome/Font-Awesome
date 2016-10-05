@@ -6278,3 +6278,25 @@ icons:
       - vcard-o
     categories:
       - Web Application Icons
+
+  - name:       User Circle
+    id:         user-circle
+    unicode:    f2bd
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       User Circle Outlined
+    id:         user-circle-o
+    unicode:    f2be
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+
+  - name:       User Outlined
+    id:         user-o
+    unicode:    f2c0
+    created:    4.7
+    categories:
+      - Web Application Icons
