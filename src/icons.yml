@@ -6339,3 +6339,10 @@ icons:
     created:    4.7
     categories:
       - Brand Icons
+
+  - name:       Telegram
+    id:         telegram
+    unicode:    f2c6
+    created:    4.7
+    categories:
+      - Brand Icons

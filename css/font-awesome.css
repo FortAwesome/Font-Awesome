@@ -2229,6 +2229,9 @@
 .fa-free-code-camp:before {
   content: "\f2c5";
 }
+.fa-telegram:before {
+  content: "\f2c6";
+}
 .sr-only {
   position: absolute;
   width: 1px;
