@@ -6393,3 +6393,19 @@ icons:
       - thermometer-0
     categories:
       - Web Application Icons
+
+  - name:       Shower
+    id:         shower
+    unicode:    f2cc
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Bath
+    id:         bath
+    unicode:    f2cd
+    created:    4.7
+    aliases:
+      - bathtub
+    categories:
+      - Web Application Icons

@@ -764,3 +764,6 @@
 .#{$fa-css-prefix}-thermometer-quarter:before { content: $fa-var-thermometer-quarter; }
 .#{$fa-css-prefix}-thermometer-0:before,
 .#{$fa-css-prefix}-thermometer-empty:before { content: $fa-var-thermometer-empty; }
+.#{$fa-css-prefix}-shower:before { content: $fa-var-shower; }
+.#{$fa-css-prefix}-bathtub:before,
+.#{$fa-css-prefix}-bath:before { content: $fa-var-bath; }

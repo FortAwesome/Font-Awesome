@@ -2254,6 +2254,13 @@
 .fa-thermometer-empty:before {
   content: "\f2cb";
 }
+.fa-shower:before {
+  content: "\f2cc";
+}
+.fa-bathtub:before,
+.fa-bath:before {
+  content: "\f2cd";
+}
 .sr-only {
   position: absolute;
   width: 1px;
