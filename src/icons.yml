@@ -5303,6 +5303,7 @@ icons:
     created:    4.4
     aliases:
       - battery-4
+      - battery
     filter:
       - power
     categories:
@@ -6346,3 +6347,49 @@ icons:
     created:    4.7
     categories:
       - Brand Icons
+
+  - name:       Thermometer Full
+    id:         thermometer-full
+    unicode:    f2c7
+    created:    4.7
+    aliases:
+      - thermometer-4
+      - thermometer
+    categories:
+      - Web Application Icons
+
+  - name:       Thermometer 3/4 Full
+    id:         thermometer-three-quarters
+    unicode:    f2c8
+    created:    4.7
+    aliases:
+      - thermometer-3
+    categories:
+      - Web Application Icons
+
+  - name:       Thermometer 1/2 Full
+    id:         thermometer-half
+    unicode:    f2c9
+    created:    4.7
+    aliases:
+      - thermometer-2
+    categories:
+      - Web Application Icons
+
+  - name:       Thermometer 1/4 Full
+    id:         thermometer-quarter
+    unicode:    f2ca
+    created:    4.7
+    aliases:
+      - thermometer-1
+    categories:
+      - Web Application Icons
+
+  - name:       Thermometer Empty
+    id:         thermometer-empty
+    unicode:    f2cb
+    created:    4.7
+    aliases:
+      - thermometer-0
+    categories:
+      - Web Application Icons
