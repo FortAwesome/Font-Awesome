@@ -39,22 +39,12 @@
   </script>
 </head>
 <body class="font-awesome {{ page.view_class }}">
-  <script>
-    (function(){
-      var bsa = document.createElement('script');
-      bsa.src = 'https://s3.buysellads.com/ac/bsa.js';
-      var s = document.scripts[0];
-      s.parentNode.insertBefore(bsa, s);
-    })();
-  </script>
   <div id="wrap"> <!-- necessary for sticky footer. wrap all content except footer -->
     {% include navbar.html %}
 
     {{ content }}
-
   </div>
   {% include footer.html %}
-
   <script src="https://platform.twitter.com/widgets.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ site.jquery.version }}/jquery.min.js"></script>
   <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/{{ site.jquery_validate.version }}/jquery.validate.min.js"></script>
@@ -66,6 +56,19 @@
   <script src="https://cdn.jsdelivr.net/jsdelivr-rum/1.5/jsdelivr-rum.min.js" integrity="sha256-HlY2rbkgbiHhtilMXmQ86rjL/EIxGDtdg9GU9/T2ZxE=" crossorigin="anonymous"></script>
   <script src="{{ page.relative_path }}assets/js/site.js"></script>
   <script src="{{ page.relative_path }}assets/js/search.js"></script>
+  
+  <script src="https://m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+  <script>
+    (function(){
+      // format, zoneKey, segment:value, options
+      _bsa.init('imageonly', 'CVADP2Y', 'placement:demo', {
+        target: '#inventory',
+        disable_css: true,
+        path: '//localhost:4000/api/inventory?zone=CVADP2Y'
+      });
+    })();
+  </script>
+
   <!-- Facebook Pixel Code -->
   <script>
   !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
