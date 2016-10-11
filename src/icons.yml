@@ -6409,3 +6409,10 @@ icons:
       - bathtub
     categories:
       - Web Application Icons
+
+  - name:       Podcast
+    id:         podcast
+    unicode:    f2ce
+    created:    4.7
+    categories:
+      - Web Application Icons
