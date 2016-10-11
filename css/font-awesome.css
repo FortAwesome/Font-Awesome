@@ -2282,6 +2282,9 @@
 .fa-window-close-o:before {
   content: "\f2d3";
 }
+.fa-bandcamp:before {
+  content: "\f2d4";
+}
 .sr-only {
   position: absolute;
   width: 1px;

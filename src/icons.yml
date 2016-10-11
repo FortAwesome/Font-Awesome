@@ -6457,3 +6457,10 @@ icons:
       - times-rectangle-o
     categories:
       - Web Application Icons
+
+  - name:       Bandcamp
+    id:         bandcamp
+    unicode:    f2d4
+    created:    4.7
+    categories:
+      - Brand Icons
