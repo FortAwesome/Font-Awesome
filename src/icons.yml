@@ -6451,7 +6451,7 @@ icons:
 
   - name:       Window Close Outline
     id:         window-close-o
-    unicode:    f2d3
+    unicode:    f2d4
     created:    4.7
     aliases:
       - times-rectangle-o
@@ -6460,7 +6460,7 @@ icons:
 
   - name:       Bandcamp
     id:         bandcamp
-    unicode:    f2d4
+    unicode:    f2d5
     created:    4.7
     categories:
       - Brand Icons

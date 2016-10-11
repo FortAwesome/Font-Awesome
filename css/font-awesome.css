@@ -2280,10 +2280,10 @@
 }
 .fa-times-rectangle-o:before,
 .fa-window-close-o:before {
-  content: "\f2d3";
+  content: "\f2d4";
 }
 .fa-bandcamp:before {
-  content: "\f2d4";
+  content: "\f2d5";
 }
 .sr-only {
   position: absolute;
