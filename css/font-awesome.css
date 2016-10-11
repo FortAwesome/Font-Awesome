@@ -2288,6 +2288,15 @@
 .fa-grav:before {
   content: "\f2d6";
 }
+.fa-etsy:before {
+  content: "\f2d7";
+}
+.fa-imdb:before {
+  content: "\f2d8";
+}
+.fa-ravelry:before {
+  content: "\f2d9";
+}
 .sr-only {
   position: absolute;
   width: 1px;

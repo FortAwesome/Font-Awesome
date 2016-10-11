@@ -6471,3 +6471,24 @@ icons:
     created:    4.7
     categories:
       - Brand Icons
+
+  - name:       Etsy
+    id:         etsy
+    unicode:    f2d7
+    created:    4.7
+    categories:
+      - Brand Icons
+
+  - name:       IMDB
+    id:         imdb
+    unicode:    f2d8
+    created:    4.7
+    categories:
+      - Brand Icons
+
+  - name:       Ravelry
+    id:         ravelry
+    unicode:    f2d9
+    created:    4.7
+    categories:
+      - Brand Icons
