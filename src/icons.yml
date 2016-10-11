@@ -6464,3 +6464,10 @@ icons:
     created:    4.7
     categories:
       - Brand Icons
+
+  - name:       Grav
+    id:         grav
+    unicode:    f2d6
+    created:    4.7
+    categories:
+      - Brand Icons

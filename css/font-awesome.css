@@ -2285,6 +2285,9 @@
 .fa-bandcamp:before {
   content: "\f2d5";
 }
+.fa-grav:before {
+  content: "\f2d6";
+}
 .sr-only {
   position: absolute;
   width: 1px;
