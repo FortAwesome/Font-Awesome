@@ -2265,6 +2265,23 @@
 .fa-podcast:before {
   content: "\f2ce";
 }
+.fa-window-maximize:before {
+  content: "\f2d0";
+}
+.fa-window-minimize:before {
+  content: "\f2d1";
+}
+.fa-window-restore:before {
+  content: "\f2d2";
+}
+.fa-times-rectangle:before,
+.fa-window-close:before {
+  content: "\f2d3";
+}
+.fa-times-rectangle-o:before,
+.fa-window-close-o:before {
+  content: "\f2d3";
+}
 .sr-only {
   position: absolute;
   width: 1px;
