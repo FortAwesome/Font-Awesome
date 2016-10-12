@@ -6492,3 +6492,11 @@ icons:
     created:    4.7
     categories:
       - Brand Icons
+
+  - name:       Eercast
+    id:         eercast
+    unicode:    f2da
+    created:    4.7
+    url:        eercast.com
+    categories:
+      - Brand Icons

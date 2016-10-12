@@ -2297,6 +2297,9 @@
 .fa-ravelry:before {
   content: "\f2d9";
 }
+.fa-eercast:before {
+  content: "\f2da";
+}
 .sr-only {
   position: absolute;
   width: 1px;
