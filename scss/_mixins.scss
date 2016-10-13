@@ -25,6 +25,48 @@
           transform: scale($horiz, $vert);
 }
 
+// Include one icon or list of icons.
+// @param {string|list}   $icon   Icon name or list of icons names to include.
+@mixin fa-include-icon($icon){
+    
+  // Is a icon name
+  @if type-of($icon) == 'string' {
+
+    @if map-has-key($fa-iconlist, $icon) {
+      .#{$fa-css-prefix}-#{$icon}:before {
+        content: "#{map-get($fa-iconlist, $icon)}";
+      }
+    } @else {
+      @warn "Unfortunately, no value could be retrieved from `#{$icon}`. "
+          + "Please make sure it is defined in $fa-iconlist` map.";
+    }
+  
+  // Is not a list and is not a string
+  } @else {
+
+    // Is a list of icons name
+    @if type-of($icon) == 'list' {
+
+      @each $name in $icon {
+        @include fa-include-icon($name);
+      }
+
+    } @else {
+      
+      @warn "Mixin `fa-include-icons`: only can recive string or list.";
+
+    }
+
+  }
+}
+
+
+// Include all icons defineds.
+@mixin fa-include-all-icons(){
+  @each $name, $icon in $fa-iconlist {
+    @include fa-include-icon($name);
+  }
+}
 
 // Only display content to screen readers. A la Bootstrap 4.
 //
