@@ -75,7 +75,7 @@ Or add
 
     "FortAwesome/Font-Awesome": "*"
 
-to the `dependencies` in your `component.json`.
+To the `dependencies` in your `component.json`.
 
 ## Hacking on Font Awesome
 
