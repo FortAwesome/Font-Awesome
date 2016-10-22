@@ -6514,3 +6514,27 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
+
+  - name:       Superpowers
+    id:         superpowers
+    unicode:    f2dd
+    created:    4.7
+    url:        superpowers.io
+    categories:
+      - Brand Icons
+
+  - name:       WPExplorer
+    id:         wpexplorer
+    unicode:    f2de
+    created:    4.7
+    url:        wpexplorer.com
+    categories:
+      - Brand Icons
+
+
+  - name:       Meetup
+    id:         meetup
+    unicode:    f2e0
+    created:    4.7
+    categories:
+      - Brand Icons

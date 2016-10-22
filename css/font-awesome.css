@@ -2306,6 +2306,15 @@
 .fa-snowflake-o:before {
   content: "\f2dc";
 }
+.fa-superpowers:before {
+  content: "\f2dd";
+}
+.fa-wpexplorer:before {
+  content: "\f2de";
+}
+.fa-meetup:before {
+  content: "\f2e0";
+}
 .sr-only {
   position: absolute;
   width: 1px;
