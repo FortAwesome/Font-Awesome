@@ -211,4 +211,60 @@
     }
   }
 
+  &.kickstarter {
+    @kickstarter-bg: #489fdf;
+    background-color: @kickstarter-bg;
+    border-bottom: rgba(0,0,0,0.2);
+    .message-container { padding: 40px 0; }
+    .tagline { font-size: 24px; }
+    a:not(.btn) {
+      text-decoration: underline;
+      color: #fff;
+      &:hover { color: rgba(255,255,255,.8); }
+    }
+    .btn-primary {
+      @color: @kickstarter-bg;
+      @background: #fff;
+      @border: mix(#000,@kickstarter-bg,10%);
+      font-weight: 600;
+      font-size: 22px;
+      padding: 14px 28px;
+      border-radius: 30px;
+
+      color: @color;
+      background-color: @background;
+      border-color: @border;
+      border-bottom-width: 2px;
+      text-shadow: none;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        color: #fff;
+        background-color: rgba(0,0,0,0.2);
+        border-color: rgba(0,0,0,0.2);
+        border-bottom-color: rgba(0,0,0,0.2);
+      }
+      &:active,
+      &.active,
+      .open > &.dropdown-toggle {
+        background-image: none;
+      }
+      &.disabled,
+      &[disabled],
+      fieldset[disabled] & {
+        &,
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+          background-color: @background;
+          border-color: @border;
+        }
+      }
+    }
+  }
+
 }
