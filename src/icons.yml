@@ -6507,3 +6507,10 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
+
+  - name:       Snowflake Outlined
+    id:         snowflake-o
+    unicode:    f2dc
+    created:    4.7
+    categories:
+      - Web Application Icons

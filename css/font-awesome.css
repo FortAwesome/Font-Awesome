@@ -2303,6 +2303,9 @@
 .fa-microchip:before {
   content: "\f2db";
 }
+.fa-snowflake-o:before {
+  content: "\f2dc";
+}
 .sr-only {
   position: absolute;
   width: 1px;
