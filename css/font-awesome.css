@@ -2300,6 +2300,9 @@
 .fa-eercast:before {
   content: "\f2da";
 }
+.fa-microchip:before {
+  content: "\f2db";
+}
 .sr-only {
   position: absolute;
   width: 1px;

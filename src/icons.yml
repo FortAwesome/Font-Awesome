@@ -6500,3 +6500,10 @@ icons:
     url:        eercast.com
     categories:
       - Brand Icons
+
+  - name:       Microchip
+    id:         microchip
+    unicode:    f2db
+    created:    4.7
+    categories:
+      - Web Application Icons
