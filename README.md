@@ -20,6 +20,8 @@ Get started at http://fontawesome.io!
 - Full details: http://fontawesome.io/license/
 
 ## Changelog
+- [v4.7.0 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/10012)
+- [v4.6.3 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/9189)
 - [v4.6.3 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/9189)
 - [v4.6.2 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/9117)
 - [v4.6.1 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/8962)
