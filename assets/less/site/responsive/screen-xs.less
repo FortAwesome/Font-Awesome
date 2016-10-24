@@ -81,20 +81,14 @@
   }
 
 
-  .navbar-org {
+  .navbar-org { display: none; }
+  #banner {
     text-align: center;
-    .container { padding: 0; }
-    .navbar-nav {
-      margin: 0;
-      > li + li {
-        margin-left: 0;
-      }
-    }
-    .nav > li {
-      float: left;
-      width: 50%;
-    }
+    .message-container, .tagline, .action { display: block; }
+    .tagline { padding-right: 0; }
+    .btn-primary { margin-top: 10px; }
   }
+
   .signup-button .btn { white-space: normal; }
   .v-get-started .get-started-cdn { padding: 5px 22px 22px 22px; }
 

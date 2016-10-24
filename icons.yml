@@ -377,6 +377,7 @@ icons:
     filter:
       - protect
       - admin
+      - security
     categories:
       - Web Application Icons
 
@@ -1524,6 +1525,7 @@ icons:
     filter:
       - award
       - achievement
+      - cup
       - winner
       - game
     categories:
@@ -1838,6 +1840,7 @@ icons:
       - settings
       - fix
       - update
+      - spanner
     categories:
       - Web Application Icons
 
@@ -3085,6 +3088,7 @@ icons:
     filter:
       - award
       - achievement
+      - security
       - winner
     categories:
       - Web Application Icons
@@ -5299,6 +5303,7 @@ icons:
     created:    4.4
     aliases:
       - battery-4
+      - battery
     filter:
       - power
     categories:
@@ -6211,5 +6216,325 @@ icons:
     created:    4.6
     aliases:
       - fa
+    categories:
+      - Brand Icons
+
+  - name:       Handshake Outlined
+    id:         handshake-o
+    unicode:    f2b5
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Envelope Open
+    id:         envelope-open
+    unicode:    f2b6
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Envelope Open Outlined
+    id:         envelope-open-o
+    unicode:    f2b7
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Linode
+    id:         linode
+    unicode:    f2b8
+    created:    4.7
+    url:        linode.com
+    categories:
+      - Brand Icons
+
+  - name:       Address Book
+    id:         address-book
+    unicode:    f2b9
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Address Book Outlined
+    id:         address-book-o
+    unicode:    f2ba
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Address Card
+    id:         address-card
+    unicode:    f2bb
+    created:    4.7
+    aliases:
+      - vcard
+    categories:
+      - Web Application Icons
+
+  - name:       Address Card Outlined
+    id:         address-card-o
+    unicode:    f2bc
+    created:    4.7
+    aliases:
+      - vcard-o
+    categories:
+      - Web Application Icons
+
+  - name:       User Circle
+    id:         user-circle
+    unicode:    f2bd
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       User Circle Outlined
+    id:         user-circle-o
+    unicode:    f2be
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+
+  - name:       User Outlined
+    id:         user-o
+    unicode:    f2c0
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Identification Badge
+    id:         id-badge
+    unicode:    f2c1
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Identification Card
+    id:         id-card
+    unicode:    f2c2
+    created:    4.7
+    aliases:
+      - drivers-license
+    categories:
+      - Web Application Icons
+
+  - name:       Identification Card Outlined
+    id:         id-card-o
+    unicode:    f2c3
+    created:    4.7
+    aliases:
+      - drivers-license-o
+    categories:
+      - Web Application Icons
+
+  - name:       Quora
+    id:         quora
+    unicode:    f2c4
+    created:    4.7
+    categories:
+      - Brand Icons
+
+  - name:       Free Code Camp
+    id:         free-code-camp
+    unicode:    f2c5
+    created:    4.7
+    categories:
+      - Brand Icons
+
+  - name:       Telegram
+    id:         telegram
+    unicode:    f2c6
+    created:    4.7
+    categories:
+      - Brand Icons
+
+  - name:       Thermometer Full
+    id:         thermometer-full
+    unicode:    f2c7
+    created:    4.7
+    aliases:
+      - thermometer-4
+      - thermometer
+    categories:
+      - Web Application Icons
+
+  - name:       Thermometer 3/4 Full
+    id:         thermometer-three-quarters
+    unicode:    f2c8
+    created:    4.7
+    aliases:
+      - thermometer-3
+    categories:
+      - Web Application Icons
+
+  - name:       Thermometer 1/2 Full
+    id:         thermometer-half
+    unicode:    f2c9
+    created:    4.7
+    aliases:
+      - thermometer-2
+    categories:
+      - Web Application Icons
+
+  - name:       Thermometer 1/4 Full
+    id:         thermometer-quarter
+    unicode:    f2ca
+    created:    4.7
+    aliases:
+      - thermometer-1
+    categories:
+      - Web Application Icons
+
+  - name:       Thermometer Empty
+    id:         thermometer-empty
+    unicode:    f2cb
+    created:    4.7
+    aliases:
+      - thermometer-0
+    categories:
+      - Web Application Icons
+
+  - name:       Shower
+    id:         shower
+    unicode:    f2cc
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Bath
+    id:         bath
+    unicode:    f2cd
+    created:    4.7
+    aliases:
+      - bathtub
+      - s15
+    categories:
+      - Web Application Icons
+
+  - name:       Podcast
+    id:         podcast
+    unicode:    f2ce
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+
+  - name:       Window Maximize
+    id:         window-maximize
+    unicode:    f2d0
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Window Minimize
+    id:         window-minimize
+    unicode:    f2d1
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Window Restore
+    id:         window-restore
+    unicode:    f2d2
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Window Close
+    id:         window-close
+    unicode:    f2d3
+    created:    4.7
+    aliases:
+      - times-rectangle
+    categories:
+      - Web Application Icons
+
+  - name:       Window Close Outline
+    id:         window-close-o
+    unicode:    f2d4
+    created:    4.7
+    aliases:
+      - times-rectangle-o
+    categories:
+      - Web Application Icons
+
+  - name:       Bandcamp
+    id:         bandcamp
+    unicode:    f2d5
+    created:    4.7
+    categories:
+      - Brand Icons
+
+  - name:       Grav
+    id:         grav
+    unicode:    f2d6
+    created:    4.7
+    categories:
+      - Brand Icons
+
+  - name:       Etsy
+    id:         etsy
+    unicode:    f2d7
+    created:    4.7
+    categories:
+      - Brand Icons
+
+  - name:       IMDB
+    id:         imdb
+    unicode:    f2d8
+    created:    4.7
+    categories:
+      - Brand Icons
+
+  - name:       Ravelry
+    id:         ravelry
+    unicode:    f2d9
+    created:    4.7
+    categories:
+      - Brand Icons
+
+  - name:       Eercast
+    id:         eercast
+    unicode:    f2da
+    created:    4.7
+    url:        eercast.com
+    categories:
+      - Brand Icons
+
+  - name:       Microchip
+    id:         microchip
+    unicode:    f2db
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Snowflake Outlined
+    id:         snowflake-o
+    unicode:    f2dc
+    created:    4.7
+    categories:
+      - Web Application Icons
+
+  - name:       Superpowers
+    id:         superpowers
+    unicode:    f2dd
+    created:    4.7
+    url:        superpowers.io
+    categories:
+      - Brand Icons
+
+  - name:       WPExplorer
+    id:         wpexplorer
+    unicode:    f2de
+    created:    4.7
+    url:        wpexplorer.com
+    categories:
+      - Brand Icons
+
+
+  - name:       Meetup
+    id:         meetup
+    unicode:    f2e0
+    created:    4.7
     categories:
       - Brand Icons
