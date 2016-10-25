@@ -35,13 +35,13 @@ $(function () {
     {
       quote: "Font Awesome 5. The most awesome-est Font Awesome ever!",
       class: "kickstarter",
-      url: "http://five.fontawesome.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_1_most_awesome-est&utm_campaign=promo_4.7_update",
+      url: "https://www.kickstarter.com/projects/232193852/font-awesome-5?ref=fontawesome-banner",
       btn_text: "Check out the Kickstarter",
     },
     {
       quote: "Get 1,000+ more icons and SVG in Font Awesome 5 Pro!",
       class: "kickstarter",
-      url: "http://five.fontawesome.io/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_2_svg_and_1000_more&utm_campaign=promo_4.7_update",
+      url: "https://www.kickstarter.com/projects/232193852/font-awesome-5?ref=fontawesome-banner",
       btn_text: "Check out the Kickstarter",
     },
   ];
