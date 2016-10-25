@@ -55,8 +55,14 @@ $(function () {
 
   $('[data-toggle="tooltip"]').tooltip();
   $('[data-toggle="popover"]').popover();
+
   if (storageAvailable('localStorage') && !localStorage.seenKickstarterModal) {
-    $('#modal-kickstarter').modal('toggle');
+    $('#modal-kickstarter')
+      .modal('toggle')
+      .on('hidden.bs.modal', function (e) {
+        $('#kickstarter-iframe').remove();
+      });
+    ;
   }
 
   if (storageAvailable('localStorage')) {
