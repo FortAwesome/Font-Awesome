@@ -2,7 +2,7 @@
   #icon-carousel {
     @size: 180px;
     font-size: @size;
-    line-height: @size + 20;
+    line-height: @size + 30;
     width: 280px;
     margin: 30px auto 0;
   }
@@ -65,15 +65,31 @@
   }
 
 
+  .fonticons {
+    padding: 15px 0;
+    .tagline, .action { display: block; }
+    .tagline { margin-bottom: 10px; }
+  }
 
-  .black-tie .tagline {
-    font-size: 18px;
-    line-height: 22px;
-    margin-bottom: 15px;
+  .hide-xs { display: none; }
+
+  .block-xs { display: block; }
+
+  .modal-footer .block-xs + .block-xs {
+    margin-left: 0;
+    margin-top: 10px;
   }
 
 
-  .sticky-footer(331px, 60px);
+  .navbar-org { display: none; }
+  #banner {
+    text-align: center;
+    .message-container, .tagline, .action { display: block; }
+    .tagline { padding-right: 0; }
+    .btn-primary { margin-top: 10px; }
+  }
 
-  .hide-xs { display: none; }
+  .signup-button .btn { white-space: normal; }
+  .v-get-started .get-started-cdn { padding: 5px 22px 22px 22px; }
+
 }

@@ -6,7 +6,11 @@
   font-family: @font-family-serif;
   font-weight: 300;
   font-size: 20px;
-  .fa-flag { padding-right: 3px; }
+  i {
+    font-size: 23px;
+    padding-right: 3px;
+    line-height: .75;
+  }
 }
 .navbar-nav > li > a { padding: 11px 10px 9px; }
 
@@ -33,3 +37,143 @@
 }
 
 .navbar-nav.navbar-right:last-child { margin-right: -10px; }
+
+
+//
+// FORT AWESOME ORG NAVBAR
+// --------------------
+//
+.navbar-org {
+  background-color: @navbar-inverse-link-active-bg;
+  border-color: mix(#000, @fa-green, 20%);
+  padding: 0;
+
+  .ficon-logo-flag, .ficon-log-fort { vertical-align: baseline; }
+
+  .navbar-text {
+    color: mix(#fff, @fa-green, 60%);
+    margin-top: 12px;
+    margin-right: 30px;
+  }
+
+  .navbar-nav {
+    margin-right: -10px;
+
+    > li + li { margin-left: 15px; }
+    > li > a {
+      color: mix(#fff, @navbar-inverse-bg, 75%);
+
+      &:hover,
+      &:focus {
+        color: mix(#fff, @fa-green, 100%);
+        background-color: transparent;
+        border-bottom: solid 2px mix(#fff, @fa-green, 90%);
+      }
+    }
+    > .active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: mix(#fff, @navbar-inverse-bg, 75%);
+        background-color: transparent;
+        border-radius: 0;
+        border-bottom: solid 2px mix(#fff, @navbar-inverse-bg, 65%);
+      }
+    }
+    > .disabled > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @navbar-inverse-link-disabled-color;
+        background-color: @navbar-inverse-link-disabled-bg;
+      }
+    }
+  }
+
+  // Darken the responsive nav toggle
+  .navbar-toggle {
+    border-color: @navbar-inverse-toggle-border-color;
+    &:hover,
+    &:focus {
+      background-color: @navbar-inverse-toggle-hover-bg;
+    }
+    .icon-bar {
+      background-color: @navbar-inverse-toggle-icon-bar-bg;
+    }
+  }
+
+  .navbar-collapse,
+  .navbar-form {
+    border-color: darken(@navbar-inverse-bg, 7%);
+  }
+
+  // Dropdowns
+  .navbar-nav {
+    > .open > a {
+      &,
+      &:hover,
+      &:focus {
+        background-color: @navbar-inverse-link-active-bg;
+        color: @navbar-inverse-link-active-color;
+      }
+    }
+
+    @media (max-width: @grid-float-breakpoint-max) {
+      // Dropdowns get custom display
+      .open .dropdown-menu {
+        > .dropdown-header {
+          border-color: @navbar-inverse-border;
+        }
+        .divider {
+          background-color: @navbar-inverse-border;
+        }
+        > li > a {
+          color: @navbar-inverse-link-color;
+          &:hover,
+          &:focus {
+            color: @navbar-inverse-link-hover-color;
+            background-color: @navbar-inverse-link-hover-bg;
+          }
+        }
+        > .active > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-inverse-link-active-color;
+            background-color: @navbar-inverse-link-active-bg;
+          }
+        }
+        > .disabled > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-inverse-link-disabled-color;
+            background-color: @navbar-inverse-link-disabled-bg;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-link {
+    color: @navbar-inverse-link-color;
+    &:hover {
+      color: @navbar-inverse-link-hover-color;
+    }
+  }
+
+  .btn-link {
+    color: @navbar-inverse-link-color;
+    &:hover,
+    &:focus {
+      color: @navbar-inverse-link-hover-color;
+    }
+    &[disabled],
+    fieldset[disabled] & {
+      &:hover,
+      &:focus {
+        color: @navbar-inverse-link-disabled-color;
+      }
+    }
+  }
+}

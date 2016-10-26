@@ -3,7 +3,7 @@ layout: base
 title: Font Awesome Cheatsheet
 relative_path: ../
 ---
-{% capture jumbotron_h1 %}<i class="fa fa-list-ul"></i>&nbsp; Cheatsheet{% endcapture %}
+{% capture jumbotron_h1 %}<i class="fa fa-list-ul" aria-hidden="true"></i>&nbsp; Cheatsheet{% endcapture %}
 {% capture jumbotron_p %}The complete Font Awesome {{ site.fontawesome.version }} icon reference{% endcapture %}
 
 {% include jumbotron.html %}
@@ -24,10 +24,11 @@ relative_path: ../
 
     {% for icon in sorted_icons %}
     <div class="col-md-4 col-sm-6 col-lg-3">
-      <i class="fa fa-fw">&#x{{ icon.unicode }}</i>
+      {% if icon.created >= site.fontawesome.major_version %}<small class="text-muted pull-right">{{ icon.created }}</small>{% endif %}
+      <i class="fa fa-fw" aria-hidden="true" title="Copy to use {{ icon.class }}">&#x{{ icon.unicode }}</i>
       fa-{{ icon.class }}
       {% if icon.alias_of %} <span class="text-muted">(alias)</span>{% endif %}
-      <span class="muted">[&amp;#x{{ icon.unicode }};]</span>
+      <span class="text-muted">[&amp;#x{{ icon.unicode }};]</span>
     </div>
     {% endfor %}
   </div>

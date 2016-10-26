@@ -3,7 +3,7 @@
   margin-top: @buffer-sm;
   font-size: @size;
   text-align: center;
-  line-height: @size + 20;
+  line-height: @size + 30;
   text-shadow: 0 2px 0 rgba(0,0,0,0.15);
 }
 .carousel-control {
@@ -56,6 +56,16 @@
         text-decoration: none;
         border-bottom: solid 1px @jumbotron-color;
       }
+    }
+  }
+  a {
+    color: mix(@jumbotron-color, @fa-green, 70%);
+
+    // STATE: hover, focus, active
+    &:hover, &:focus, &:active {
+      border-color: @fa-green-dark;
+      background: @fa-green-dark;
+      color: @jumbotron-color;
     }
   }
 }
