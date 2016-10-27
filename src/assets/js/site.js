@@ -44,6 +44,12 @@ $(function () {
       url: "https://www.kickstarter.com/projects/232193852/font-awesome-5?ref=fontawesome-banner",
       btn_text: "Check out the Kickstarter",
     },
+    {
+      quote: "Save 50% with the early backer price until Monday! Just $20!",
+      class: "kickstarter",
+      url: "https://www.kickstarter.com/projects/232193852/font-awesome-5?ref=fontawesome-banner",
+      btn_text: "Font Awesome 5 Kickstarter",
+    },
   ];
 
   selectAd();
