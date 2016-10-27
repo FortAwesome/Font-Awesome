@@ -1,0 +1,14 @@
+.jumbotron-ad #newsletter {
+  .btn {
+    color: @jumbotron-color;
+    border-color: mix(@jumbotron-color, @jumbotron-bg, 75%);
+    background-color: transparent;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    &:hover {
+      background-color: mix(@jumbotron-color, @jumbotron-bg, 95%);
+      border-color: mix(@jumbotron-color, @jumbotron-bg, 95%);
+      color: @jumbotron-bg;
+      text-shadow: 0 -1px 0 @jumbotron-color;
+    }
+  }
+}

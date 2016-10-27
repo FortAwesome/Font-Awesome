@@ -2270,7 +2270,7 @@ icons:
     id:         gavel
     unicode:    f0e3
     created:    2.0
-    label:
+    filter:
       - judge
       - lawyer
       - opinion
@@ -2283,7 +2283,7 @@ icons:
     id:         tachometer
     unicode:    f0e4
     created:    2.0
-    label:
+    filter:
       - speedometer
       - fast
     aliases:
