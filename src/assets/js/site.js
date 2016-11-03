@@ -35,19 +35,19 @@ $(function () {
     {
       quote: "Font Awesome 5. The most awesome-est Font Awesome ever!",
       class: "kickstarter",
-      url: "https://www.kickstarter.com/projects/232193852/font-awesome-5?ref=fontawesome-banner",
+      url: "https://www.kickstarter.com/projects/232193852/font-awesome-5?ref=c92610",
       btn_text: "Check out the Kickstarter",
     },
     {
       quote: "Get 1,000+ more icons and SVG in Font Awesome 5 Pro!",
       class: "kickstarter",
-      url: "https://www.kickstarter.com/projects/232193852/font-awesome-5?ref=fontawesome-banner",
+      url: "https://www.kickstarter.com/projects/232193852/font-awesome-5?ref=c92610",
       btn_text: "Check out the Kickstarter",
     },
     {
-      quote: "Save 50% with the early backer price until Monday! Just $20!",
+      quote: "Early backer prices extended and tons of stretch goals already funded!",
       class: "kickstarter",
-      url: "https://www.kickstarter.com/projects/232193852/font-awesome-5?ref=fontawesome-banner",
+      url: "https://www.kickstarter.com/projects/232193852/font-awesome-5?ref=c92610",
       btn_text: "Font Awesome 5 Kickstarter",
     },
   ];
