@@ -7,8 +7,15 @@
   "devDependencies": {},
   "license": ["OFL-1.1", "MIT", "CC-BY-3.0"],
   "main": [
+    "css/font-awasome.css",
     "less/font-awesome.less",
-    "scss/font-awesome.scss"
+    "scss/font-awesome.scss",
+    "fonts/fontawesome-webfont.eot",
+    "fonts/fontawesome-webfont.svg",
+    "fonts/fontawesome-webfont.ttf",
+    "fonts/fontawesome-webfont.woff",
+    "fonts/fontawesome-webfont.woff2",
+    "fonts/FontAwesome.otf"
   ],
   "ignore": [
     "*/.*",
