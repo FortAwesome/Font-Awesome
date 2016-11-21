@@ -57,7 +57,7 @@ relative_path: ../
     {% include icons/medical.html %}
   </div>
   <script type="text/template" id="results-template">
-    <h2 class="page-header">Search for '<span class="text-color-default"><%= content.query %></span>'</h2>
+    <h2 class="page-header">Search for '<span class="text-color-default"><%- content.query %></span>'</h2>
     <% if (content.nbHits > 0) { %>
       <div class="row fontawesome-icon-list">
         <%= results %>
