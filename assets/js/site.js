@@ -39,7 +39,7 @@ $(function () {
       btn_text: "Check out the Kickstarter",
     },
     {
-      quote: "Get 1,000+ more icons and SVG in Font Awesome 5 Pro!",
+      quote: "Get 2,500+ more icons and SVG framework in Font Awesome 5 Pro!",
       class: "kickstarter",
       url: "https://www.kickstarter.com/projects/232193852/font-awesome-5?ref=c92610",
       btn_text: "Check out the Kickstarter",
@@ -76,6 +76,27 @@ $(function () {
   	// Yippee! We can use localStorage awesomeness
   }
 
+  function timeLeft() {
+    var now, ksEndsAt, hoursLeft, minutesLeft, humanized;
+
+    try {
+      now = moment();
+      ksEndsAt = moment("2016-12-01 12:01:00-05");
+      hoursLeft = ksEndsAt.diff(now, "hours");
+      minutesLeft = ksEndsAt.diff(now, "minutes") - hoursLeft * 60;
+    } catch (e) {}
+
+    if (hoursLeft < 0 || minutesLeft < 0) {
+      return;
+    }
+
+    humanized = hoursLeft + " " + ((hoursLeft === 1) ? "hour" : "hours") + ", " + minutesLeft + " " + ((minutesLeft === 1) ? "minute" : "minutes");
+
+    $('#time-left-message').html('Just <span class="duration">' + humanized + '</span> left to support the Font Awesome 5 Kickstarter for $20');
+
+    setTimeout(timeLeft, 2000);
+  }
+
   function storageAvailable(type) {
   	try {
   		var storage = window[type],
@@ -88,9 +109,12 @@ $(function () {
   		return false;
   	}
   }
+
   function selectAd() {
     random_number = Math.floor(Math.random() * ads.length);
     random_ad = ads[random_number];
+
+    timeLeft();
 
     $('#banner').addClass(random_ad.class);
     $('#rotating-message').html(random_ad.quote);

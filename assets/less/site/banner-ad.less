@@ -217,6 +217,23 @@
     border-bottom: rgba(0,0,0,0.2);
     .message-container { padding: 40px 0; }
     .tagline { font-size: 24px; }
+    .time-left {
+      font-size: 18px;
+      color: mix(@kickstarter-bg, #fff, 20%);
+    }
+    @keyframes flash-duration {
+      from {
+        color: #fff;
+      }
+      to {
+        color: mix(@kickstarter-bg, #fff, 20%);
+      }
+    }
+    .duration {
+      font-weight: 600;
+      animation-name: flash-duration;
+      animation-duration: 1.0s;
+    }
     a:not(.btn) {
       text-decoration: underline;
       color: #fff;
