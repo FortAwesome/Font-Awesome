@@ -1,0 +1,71 @@
+@size: 220px;
+#icon-carousel {
+  margin-top: @buffer-sm;
+  font-size: @size;
+  text-align: center;
+  line-height: @size + 30;
+  text-shadow: 0 2px 0 rgba(0,0,0,0.15);
+}
+.carousel-control {
+  top: @size + 10px;
+  .square(30px);
+  border-width: 0;
+  font-size: 30px;
+  line-height: 25px;
+  left: 300/2 - 36px;
+  &.right {
+    left: auto;
+    right: 300/2 - 36px;
+  }
+  &.right, &.left {
+    background-image: none;
+    filter: none;
+  }
+}
+
+
+.jumbotron-carousel {
+  padding-top: 40px;
+  .btn {
+    margin-top: @buffer-lg;
+    font-family: @font-family-serif;
+    font-size: 24px;
+    padding: 17px 30px;
+    color: @jumbotron-color;
+    border-color: mix(@jumbotron-color, @jumbotron-bg, 75%);
+    background-color: transparent;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    &:hover {
+      background-color: mix(@jumbotron-color, @jumbotron-bg, 95%);
+      border-color: mix(@jumbotron-color, @jumbotron-bg, 95%);
+      color: @jumbotron-bg;
+      text-shadow: 0 -1px 0 @jumbotron-color;
+    }
+  }
+  .shameless-self-promotion {
+    margin-top: @buffer-lg;
+    font-size: @font-size-base;
+    line-height: @line-height-base;
+    color: mix(@jumbotron-color, @jumbotron-bg, 60%);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    a {
+      color: mix(@jumbotron-color, @jumbotron-bg, 80%);
+      border-bottom: dotted 1px mix(@jumbotron-color, @jumbotron-bg, 50%);
+      &:hover {
+        color: @jumbotron-color;
+        text-decoration: none;
+        border-bottom: solid 1px @jumbotron-color;
+      }
+    }
+  }
+  a {
+    color: mix(@jumbotron-color, @fa-green, 70%);
+
+    // STATE: hover, focus, active
+    &:hover, &:focus, &:active {
+      border-color: @fa-green-dark;
+      background: @fa-green-dark;
+      color: @jumbotron-color;
+    }
+  }
+}

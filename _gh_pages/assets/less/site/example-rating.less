@@ -1,0 +1,25 @@
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+
+  font-size: 30px;
+  span.star {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  span.star:before {
+    content: "\f006"; // empty star
+    padding-right: 5px;
+    color: @gray-light;
+  }
+
+  span.star:hover:before, span.star:hover ~ span.star:before {
+    content: "\f005"; // solid star
+    color: #e3cf7a;
+  }
+}

@@ -1,0 +1,179 @@
+// SITE SPECIFIC NAVBAR STYLES
+
+.navbar { margin-bottom: 0; }
+.navbar-inverse { background-color: lighten(@fa-green, 2%); }
+.navbar-brand {
+  font-family: @font-family-serif;
+  font-weight: 300;
+  font-size: 20px;
+  i {
+    font-size: 23px;
+    padding-right: 3px;
+    line-height: .75;
+  }
+}
+.navbar-nav > li > a { padding: 11px 10px 9px; }
+
+// makes dropdowns closer for split dropdown
+.navbar-nav > li {
+  &.dropdown-split-right > a { padding-left: 7px; }
+  &.dropdown-split-left > a { padding-right: 0; }
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { border-color: @jumbotron-border; }
+
+.navbar-inverse .navbar-toggle {
+  color: @jumbotron-color;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+  padding: 4px 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  &:hover {
+    background-color: mix(@jumbotron-color, @jumbotron-bg, 95%);
+    border-color: mix(@jumbotron-color, @jumbotron-bg, 95%);
+    color: @jumbotron-bg;
+    text-shadow: 0 -1px 0 @jumbotron-color;
+  }
+}
+
+.navbar-nav.navbar-right:last-child { margin-right: -10px; }
+
+
+//
+// FORT AWESOME ORG NAVBAR
+// --------------------
+//
+.navbar-org {
+  background-color: @navbar-inverse-link-active-bg;
+  border-color: mix(#000, @fa-green, 20%);
+  padding: 0;
+
+  .ficon-logo-flag, .ficon-log-fort { vertical-align: baseline; }
+
+  .navbar-text {
+    color: mix(#fff, @fa-green, 60%);
+    margin-top: 12px;
+    margin-right: 30px;
+  }
+
+  .navbar-nav {
+    margin-right: -10px;
+
+    > li + li { margin-left: 15px; }
+    > li > a {
+      color: mix(#fff, @navbar-inverse-bg, 75%);
+
+      &:hover,
+      &:focus {
+        color: mix(#fff, @fa-green, 100%);
+        background-color: transparent;
+        border-bottom: solid 2px mix(#fff, @fa-green, 90%);
+      }
+    }
+    > .active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: mix(#fff, @navbar-inverse-bg, 75%);
+        background-color: transparent;
+        border-radius: 0;
+        border-bottom: solid 2px mix(#fff, @navbar-inverse-bg, 65%);
+      }
+    }
+    > .disabled > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @navbar-inverse-link-disabled-color;
+        background-color: @navbar-inverse-link-disabled-bg;
+      }
+    }
+  }
+
+  // Darken the responsive nav toggle
+  .navbar-toggle {
+    border-color: @navbar-inverse-toggle-border-color;
+    &:hover,
+    &:focus {
+      background-color: @navbar-inverse-toggle-hover-bg;
+    }
+    .icon-bar {
+      background-color: @navbar-inverse-toggle-icon-bar-bg;
+    }
+  }
+
+  .navbar-collapse,
+  .navbar-form {
+    border-color: darken(@navbar-inverse-bg, 7%);
+  }
+
+  // Dropdowns
+  .navbar-nav {
+    > .open > a {
+      &,
+      &:hover,
+      &:focus {
+        background-color: @navbar-inverse-link-active-bg;
+        color: @navbar-inverse-link-active-color;
+      }
+    }
+
+    @media (max-width: @grid-float-breakpoint-max) {
+      // Dropdowns get custom display
+      .open .dropdown-menu {
+        > .dropdown-header {
+          border-color: @navbar-inverse-border;
+        }
+        .divider {
+          background-color: @navbar-inverse-border;
+        }
+        > li > a {
+          color: @navbar-inverse-link-color;
+          &:hover,
+          &:focus {
+            color: @navbar-inverse-link-hover-color;
+            background-color: @navbar-inverse-link-hover-bg;
+          }
+        }
+        > .active > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-inverse-link-active-color;
+            background-color: @navbar-inverse-link-active-bg;
+          }
+        }
+        > .disabled > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-inverse-link-disabled-color;
+            background-color: @navbar-inverse-link-disabled-bg;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-link {
+    color: @navbar-inverse-link-color;
+    &:hover {
+      color: @navbar-inverse-link-hover-color;
+    }
+  }
+
+  .btn-link {
+    color: @navbar-inverse-link-color;
+    &:hover,
+    &:focus {
+      color: @navbar-inverse-link-hover-color;
+    }
+    &[disabled],
+    fieldset[disabled] & {
+      &:hover,
+      &:focus {
+        color: @navbar-inverse-link-disabled-color;
+      }
+    }
+  }
+}

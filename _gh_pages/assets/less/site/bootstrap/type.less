@@ -1,0 +1,26 @@
+.small-caps {
+  font-family: @font-family-alt;
+}
+
+.hr {
+  position: relative;
+  text-align: center;
+  font-size: @font-size-base;
+  z-index: 1;
+  min-height: 20px;
+
+  &:after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    border-top: 2px solid @hr-border;
+    z-index: -1;
+  }
+  .hr-text {
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 .5em;
+  }
+}

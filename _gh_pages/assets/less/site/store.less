@@ -1,0 +1,115 @@
+// product vars
+@shirt-kellygreen: #249265;
+@shirt-black: #151010;
+@shirt-royalblue: #2A4DB3;
+@shirt-navy: #2E2737;
+@shirt-silver: #D4D2D3;
+@shirt-asphalt: #535059;
+
+.content-underlay {
+  margin-bottom: -180px;
+  border-bottom: 1px solid @jumbotron-border;
+  padding-bottom: 100px;
+  background-color: lighten(@jumbotron-bg, 2%);
+}
+
+
+.product {
+  transition: box-shadow 0.25s ease-in-out, transform 0.25s ease-in-out;
+  transform: scale(0.99);
+  z-index: 2;
+  position: relative;
+  display: block;
+  margin-top: @buffer-xl;
+  color: @text-color;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: @border-radius-small;
+  padding: @buffer-lg;
+  .box-shadow(0 4px 2px 0 rgba(127,127,127,.2));
+
+  &:hover, &:focus {
+    transform: scale(1.0);
+    .box-shadow(0 4px 2px 0 rgba(127,127,127,.4));
+    text-decoration: none;
+    color: @text-color;
+
+    .product-sizes {
+      opacity: 0.75;
+    }
+  }
+  img { max-width: 100%; }
+  li {
+    padding: @buffer-sm;
+  }
+  li.active {
+    cursor: default;
+    text-decoration: none;
+  }
+
+  .swatch {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+
+    &.swatch-kellygreen {
+      background-color: @shirt-kellygreen;
+    }
+
+    &.swatch-black {
+      background-color: @shirt-black;
+    }
+
+    &.swatch-navy {
+      background-color: @shirt-navy;
+    }
+
+    &.swatch-silver {
+      background-color: @shirt-silver;
+    }
+
+    &.swatch-asphalt {
+      background-color: @shirt-asphalt;
+    }
+
+    &.swatch-royalblue {
+      background-color: @shirt-royalblue;
+    }
+  }
+}
+
+.product-sizes {
+  transition: opacity 0.25s ease-in-out;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  border-radius: @border-radius-base;
+  background-color: #fff;
+  font-size: 21px;
+  line-height: 21px;
+  padding: @buffer-sm @buffer-md;
+  color: @text-muted;
+  opacity: 0.25;
+}
+
+.product-title {
+  height: 52px;
+}
+
+// calls-to-action
+.product-cta {
+  display: block;
+  margin-top: @buffer-xl;
+  color: @text-color;
+  text-decoration: none;
+  border-radius: @border-radius-base;
+  padding: @buffer-lg;
+}
+
+.cta-content {
+  margin-bottom: @buffer-lg;
+}
+
+.cta-fine-print {
+  margin-top: @buffer-lg;
+}
