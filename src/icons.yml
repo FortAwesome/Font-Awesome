@@ -120,7 +120,7 @@ icons:
 
   - name:       th-large
     id:         th-large
-    unicode:    
+    unicode:    f009
     pua:        f009
     created:    1.0
     filter:
@@ -133,7 +133,7 @@ icons:
 
   - name:       th
     id:         th
-    unicode:    
+    unicode:    f00a
     pua:        f00a
     created:    1.0
     filter:
@@ -146,7 +146,7 @@ icons:
 
   - name:       th-list
     id:         th-list
-    unicode:    
+    unicode:    f00b
     pua:        f00b
     created:    1.0
     filter:
@@ -195,7 +195,7 @@ icons:
 
   - name:       Search Plus
     id:         search-plus
-    unicode:    
+    unicode:    f00e
     pua:        f00e
     created:    1.0
     filter:
@@ -208,7 +208,7 @@ icons:
 
   - name:       Search Minus
     id:         search-minus
-    unicode:    
+    unicode:    f010
     pua:        f010
     created:    1.0
     filter:
@@ -480,7 +480,7 @@ icons:
 
   - name:       qrcode
     id:         qrcode
-    unicode:    
+    unicode:    f029
     pua:        f029
     created:    1.0
     filter:
@@ -490,7 +490,7 @@ icons:
 
   - name:       barcode
     id:         barcode
-    unicode:    
+    unicode:    f02a
     pua:        f02a
     created:    1.0
     filter:
@@ -510,7 +510,7 @@ icons:
 
   - name:       tags
     id:         tags
-    unicode:    
+    unicode:    f02c
     pua:        f02c
     created:    1.0
     filter:
@@ -589,7 +589,7 @@ icons:
 
   - name:       text-height
     id:         text-height
-    unicode:    
+    unicode:    f034
     pua:        f034
     created:    1.0
     categories:
@@ -597,7 +597,7 @@ icons:
 
   - name:       text-width
     id:         text-width
-    unicode:    
+    unicode:    f035
     pua:        f035
     created:    1.0
     categories:
@@ -605,7 +605,7 @@ icons:
 
   - name:       align-left
     id:         align-left
-    unicode:    
+    unicode:    f036
     pua:        f036
     created:    1.0
     filter:
@@ -615,7 +615,7 @@ icons:
 
   - name:       align-center
     id:         align-center
-    unicode:    
+    unicode:    f037
     pua:        f037
     created:    1.0
     filter:
@@ -626,7 +626,7 @@ icons:
 
   - name:       align-right
     id:         align-right
-    unicode:    
+    unicode:    f038
     pua:        f038
     created:    1.0
     filter:
@@ -636,7 +636,7 @@ icons:
 
   - name:       align-justify
     id:         align-justify
-    unicode:    
+    unicode:    f039
     pua:        f039
     created:    1.0
     filter:
@@ -646,7 +646,7 @@ icons:
 
   - name:       list
     id:         list
-    unicode:    
+    unicode:    f03a
     pua:        f03a
     created:    1.0
     filter:
@@ -662,7 +662,7 @@ icons:
 
   - name:       Outdent
     id:         outdent
-    unicode:    
+    unicode:    f03b
     pua:        f03b
     created:    1.0
     aliases:
@@ -672,7 +672,7 @@ icons:
 
   - name:       Indent
     id:         indent
-    unicode:    
+    unicode:    f03c
     pua:        f03c
     created:    1.0
     categories:
@@ -811,7 +811,7 @@ icons:
 
   - name:       step-backward
     id:         step-backward
-    unicode:    
+    unicode:    f048
     pua:        f048
     created:    1.0
     filter:
@@ -908,7 +908,7 @@ icons:
 
   - name:       step-forward
     id:         step-forward
-    unicode:    
+    unicode:    f051
     pua:        f051
     created:    1.0
     filter:
@@ -928,7 +928,7 @@ icons:
 
   - name:       chevron-left
     id:         chevron-left
-    unicode:    
+    unicode:    f053
     pua:        f053
     created:    1.0
     filter:
@@ -940,7 +940,7 @@ icons:
 
   - name:       chevron-right
     id:         chevron-right
-    unicode:    
+    unicode:    f054
     pua:        f054
     created:    1.0
     filter:
@@ -1260,7 +1260,7 @@ icons:
 
   - name:       Eye Slash
     id:         eye-slash
-    unicode:    
+    unicode:    f070
     pua:        f070
     created:    1.0
     filter:
@@ -1352,7 +1352,7 @@ icons:
 
   - name:       magnet
     id:         magnet
-    unicode:    
+    unicode:    f076
     pua:        f076
     created:    1.0
     categories:
@@ -1360,7 +1360,7 @@ icons:
 
   - name:       chevron-up
     id:         chevron-up
-    unicode:    
+    unicode:    f077
     pua:        f077
     created:    1.0
     categories:
@@ -1368,7 +1368,7 @@ icons:
 
   - name:       chevron-down
     id:         chevron-down
-    unicode:    
+    unicode:    f078
     pua:        f078
     created:    1.0
     categories:
@@ -1453,7 +1453,7 @@ icons:
 
   - name:       Twitter Square
     id:         twitter-square
-    unicode:    
+    unicode:    f081
     pua:        f081
     created:    1.0
     filter:
@@ -1464,7 +1464,7 @@ icons:
 
   - name:       Facebook Square
     id:         facebook-square
-    unicode:    
+    unicode:    f082
     pua:        f082
     created:    1.0
     filter:
@@ -1497,7 +1497,7 @@ icons:
 
   - name:       cogs
     id:         cogs
-    unicode:    
+    unicode:    f085
     pua:        f085
     created:    1.0
     aliases:
@@ -1557,7 +1557,7 @@ icons:
 
   - name:       star-half
     id:         star-half
-    unicode:    
+    unicode:    f089
     pua:        f089
     created:    1.0
     filter:
@@ -1583,7 +1583,7 @@ icons:
 
   - name:       Sign Out
     id:         sign-out
-    unicode:    
+    unicode:    f08b
     pua:        f08b
     created:    1.0
     filter:
@@ -1597,7 +1597,7 @@ icons:
 
   - name:       LinkedIn Square
     id:         linkedin-square
-    unicode:    
+    unicode:    f08c
     pua:        f08c
     created:    1.0
     categories:
@@ -1661,7 +1661,7 @@ icons:
 
   - name:       GitHub Square
     id:         github-square
-    unicode:    
+    unicode:    f092
     pua:        f092
     created:    1.0
     url:        github.com/logos
@@ -1744,7 +1744,7 @@ icons:
 
   - name:       Twitter
     id:         twitter
-    unicode:    
+    unicode:    f099
     pua:        f099
     created:    2.0
     filter:
@@ -1755,7 +1755,7 @@ icons:
 
   - name:       Facebook
     id:         facebook
-    unicode:    
+    unicode:    f09a
     pua:        f09a
     created:    2.0
     aliases:
@@ -1767,7 +1767,7 @@ icons:
 
   - name:       GitHub
     id:         github
-    unicode:    
+    unicode:    f09b
     pua:        f09b
     created:    2.0
     url:        github.com/logos
@@ -1999,7 +1999,7 @@ icons:
 
   - name:       Tasks
     id:         tasks
-    unicode:    
+    unicode:    f0ae
     pua:        f0ae
     created:    2.0
     filter:
@@ -2013,7 +2013,7 @@ icons:
 
   - name:       Filter
     id:         filter
-    unicode:    
+    unicode:    f0b0
     pua:        f0b0
     created:    2.0
     filter:
@@ -2038,7 +2038,7 @@ icons:
 
   - name:       Arrows Alt
     id:         arrows-alt
-    unicode:    
+    unicode:    f0b2
     pua:        f0b2
     created:    2.0
     filter:
@@ -2184,7 +2184,7 @@ icons:
 
   - name:       list-ul
     id:         list-ul
-    unicode:    
+    unicode:    f0ca
     pua:        f0ca
     created:    2.0
     filter:
@@ -2198,7 +2198,7 @@ icons:
 
   - name:       list-ol
     id:         list-ol
-    unicode:    
+    unicode:    f0cb
     pua:        f0cb
     created:    2.0
     filter:
@@ -2214,7 +2214,7 @@ icons:
 
   - name:       Strikethrough
     id:         strikethrough
-    unicode:    
+    unicode:    f0cc
     pua:        f0cc
     created:    2.0
     categories:
@@ -2230,7 +2230,7 @@ icons:
 
   - name:       table
     id:         table
-    unicode:    
+    unicode:    f0ce
     pua:        f0ce
     created:    2.0
     filter:
@@ -2242,7 +2242,7 @@ icons:
 
   - name:       magic
     id:         magic
-    unicode:    
+    unicode:    f0d0
     pua:        f0d0
     created:    2.0
     filter:
@@ -2265,7 +2265,7 @@ icons:
 
   - name:       Pinterest
     id:         pinterest
-    unicode:    
+    unicode:    f0d2
     pua:        f0d2
     created:    2.0
     categories:
@@ -2273,7 +2273,7 @@ icons:
 
   - name:       Pinterest Square
     id:         pinterest-square
-    unicode:    
+    unicode:    f0d3
     pua:        f0d3
     created:    2.0
     categories:
@@ -2281,7 +2281,7 @@ icons:
 
   - name:       Google Plus Square
     id:         google-plus-square
-    unicode:    
+    unicode:    f0d4
     pua:        f0d4
     created:    2.0
     filter:
@@ -2291,7 +2291,7 @@ icons:
 
   - name:       Google Plus
     id:         google-plus
-    unicode:    
+    unicode:    f0d5
     pua:        f0d5
     created:    2.0
     filter:
@@ -2368,7 +2368,7 @@ icons:
 
   - name:       Columns
     id:         columns
-    unicode:    
+    unicode:    f0db
     pua:        f0db
     created:    2.0
     filter:
@@ -2433,7 +2433,7 @@ icons:
 
   - name:       LinkedIn
     id:         linkedin
-    unicode:    
+    unicode:    f0e1
     pua:        f0e1
     created:    2.0
     categories:
@@ -2467,7 +2467,7 @@ icons:
 
   - name:       Tachometer
     id:         tachometer
-    unicode:    
+    unicode:    f0e4
     pua:        f0e4
     created:    2.0
     filter:
@@ -2531,7 +2531,7 @@ icons:
 
   - name:       Sitemap
     id:         sitemap
-    unicode:    
+    unicode:    f0e8
     pua:        f0e8
     created:    2.0
     filter:
@@ -2587,7 +2587,7 @@ icons:
 
   - name:       Cloud Download
     id:         cloud-download
-    unicode:    
+    unicode:    f0ed
     pua:        f0ed
     created:    3.0
     filter:
@@ -2597,7 +2597,7 @@ icons:
 
   - name:       Cloud Upload
     id:         cloud-upload
-    unicode:    
+    unicode:    f0ee
     pua:        f0ee
     created:    3.0
     filter:
@@ -2620,7 +2620,7 @@ icons:
 
   - name:       Stethoscope
     id:         stethoscope
-    unicode:    
+    unicode:    f0f1
     pua:        f0f1
     created:    3.0
     categories:
@@ -2735,7 +2735,7 @@ icons:
 
   - name:       medkit
     id:         medkit
-    unicode:    
+    unicode:    f0fa
     pua:        f0fa
     created:    3.0
     filter:
@@ -2913,7 +2913,7 @@ icons:
 
   - name:       Laptop
     id:         laptop
-    unicode:    
+    unicode:    f109
     pua:        f109
     created:    3.0
     filter:
@@ -2925,7 +2925,7 @@ icons:
 
   - name:       tablet
     id:         tablet
-    unicode:    
+    unicode:    f10a
     pua:        f10a
     created:    3.0
     filter:
@@ -2979,7 +2979,7 @@ icons:
 
   - name:       Spinner
     id:         spinner
-    unicode:    
+    unicode:    f110
     pua:        f110
     created:    3.0
     filter:
@@ -3013,7 +3013,7 @@ icons:
 
   - name:       GitHub Alt
     id:         github-alt
-    unicode:    
+    unicode:    f113
     pua:        f113
     created:    3.0
     url:        github.com/logos
@@ -3138,7 +3138,7 @@ icons:
 
   - name:       Code
     id:         code
-    unicode:    
+    unicode:    f121
     pua:        f121
     created:    3.1
     filter:
@@ -3149,7 +3149,7 @@ icons:
 
   - name:       reply-all
     id:         reply-all
-    unicode:    
+    unicode:    f122
     pua:        f122
     created:    3.1
     aliases:
@@ -3159,7 +3159,7 @@ icons:
 
   - name:       Star Half Outlined
     id:         star-half-o
-    unicode:    
+    unicode:    f123
     pua:        f123
     created:    3.1
     filter:
@@ -3190,7 +3190,7 @@ icons:
 
   - name:       crop
     id:         crop
-    unicode:    
+    unicode:    f125
     pua:        f125
     created:    3.1
     categories:
@@ -3198,7 +3198,7 @@ icons:
 
   - name:       code-fork
     id:         code-fork
-    unicode:    
+    unicode:    f126
     pua:        f126
     created:    3.1
     filter:
@@ -3215,7 +3215,7 @@ icons:
 
   - name:       Chain Broken
     id:         chain-broken
-    unicode:    
+    unicode:    f127
     pua:        f127
     created:    3.1
     filter:
@@ -3268,7 +3268,7 @@ icons:
 
   - name:       superscript
     id:         superscript
-    unicode:    
+    unicode:    f12b
     pua:        f12b
     created:    3.1
     filter:
@@ -3278,7 +3278,7 @@ icons:
 
   - name:       subscript
     id:         subscript
-    unicode:    
+    unicode:    f12c
     pua:        f12c
     created:    3.1
     categories:
@@ -3286,7 +3286,7 @@ icons:
 
   - name:       eraser
     id:         eraser
-    unicode:    
+    unicode:    f12d
     pua:        f12d
     created:    3.1
     filter:
@@ -3298,7 +3298,7 @@ icons:
 
   - name:       Puzzle Piece
     id:         puzzle-piece
-    unicode:    
+    unicode:    f12e
     pua:        f12e
     created:    3.1
     filter:
@@ -3322,7 +3322,7 @@ icons:
 
   - name:       Microphone Slash
     id:         microphone-slash
-    unicode:    
+    unicode:    f131
     pua:        f131
     created:    3.1
     filter:
@@ -3361,7 +3361,7 @@ icons:
 
   - name:       fire-extinguisher
     id:         fire-extinguisher
-    unicode:    
+    unicode:    f134
     pua:        f134
     created:    3.1
     categories:
@@ -3380,7 +3380,7 @@ icons:
 
   - name:       MaxCDN
     id:         maxcdn
-    unicode:    
+    unicode:    f136
     pua:        f136
     created:    3.1
     categories:
@@ -3388,7 +3388,7 @@ icons:
 
   - name:       Chevron Circle Left
     id:         chevron-circle-left
-    unicode:    
+    unicode:    f137
     pua:        f137
     created:    3.1
     filter:
@@ -3400,7 +3400,7 @@ icons:
 
   - name:       Chevron Circle Right
     id:         chevron-circle-right
-    unicode:    
+    unicode:    f138
     pua:        f138
     created:    3.1
     filter:
@@ -3412,7 +3412,7 @@ icons:
 
   - name:       Chevron Circle Up
     id:         chevron-circle-up
-    unicode:    
+    unicode:    f139
     pua:        f139
     created:    3.1
     filter:
@@ -3422,7 +3422,7 @@ icons:
 
   - name:       Chevron Circle Down
     id:         chevron-circle-down
-    unicode:    
+    unicode:    f13a
     pua:        f13a
     created:    3.1
     filter:
@@ -3435,7 +3435,7 @@ icons:
 
   - name:       HTML 5 Logo
     id:         html5
-    unicode:    
+    unicode:    f13b
     pua:        f13b
     created:    3.1
     code:
@@ -3446,7 +3446,7 @@ icons:
 
   - name:       CSS 3 Logo
     id:         css3
-    unicode:    
+    unicode:    f13c
     pua:        f13c
     created:    3.1
     filter:
@@ -3509,7 +3509,7 @@ icons:
 
   - name:       RSS Square
     id:         rss-square
-    unicode:    
+    unicode:    f143
     pua:        f143
     created:    3.1
     filter:
@@ -3520,7 +3520,7 @@ icons:
 
   - name:       Play Circle
     id:         play-circle
-    unicode:    
+    unicode:    f144
     pua:        f144
     created:    3.1
     filter:
@@ -3543,7 +3543,7 @@ icons:
 
   - name:       Minus Square
     id:         minus-square
-    unicode:    
+    unicode:    f146
     pua:        f146
     created:    3.1
     filter:
@@ -3560,7 +3560,7 @@ icons:
 
   - name:       Minus Square Outlined
     id:         minus-square-o
-    unicode:    
+    unicode:    f147
     pua:        f147
     created:    3.1
     filter:
@@ -3648,7 +3648,7 @@ icons:
 
   - name:       Compass
     id:         compass
-    unicode:    
+    unicode:    f14e
     pua:        f14e
     created:    3.2
     filter:
@@ -3661,7 +3661,7 @@ icons:
 
   - name:       Caret Square Outlined Down
     id:         caret-square-o-down
-    unicode:    
+    unicode:    f150
     pua:        f150
     created:    3.2
     aliases:
@@ -3676,7 +3676,7 @@ icons:
 
   - name:       Caret Square Outlined Up
     id:         caret-square-o-up
-    unicode:    
+    unicode:    f151
     pua:        f151
     created:    3.2
     aliases:
@@ -3687,7 +3687,7 @@ icons:
 
   - name:       Caret Square Outlined Right
     id:         caret-square-o-right
-    unicode:    
+    unicode:    f152
     pua:        f152
     created:    3.2
     filter:
@@ -3811,7 +3811,7 @@ icons:
 
   - name:       Sort Alpha Ascending
     id:         sort-alpha-asc
-    unicode:    
+    unicode:    f15d
     pua:        f15d
     created:    3.2
     categories:
@@ -3819,7 +3819,7 @@ icons:
 
   - name:       Sort Alpha Descending
     id:         sort-alpha-desc
-    unicode:    
+    unicode:    f15e
     pua:        f15e
     created:    3.2
     categories:
@@ -3827,7 +3827,7 @@ icons:
 
   - name:       Sort Amount Ascending
     id:         sort-amount-asc
-    unicode:    
+    unicode:    f160
     pua:        f160
     created:    3.2
     categories:
@@ -3835,7 +3835,7 @@ icons:
 
   - name:       Sort Amount Descending
     id:         sort-amount-desc
-    unicode:    
+    unicode:    f161
     pua:        f161
     created:    3.2
     categories:
@@ -3843,7 +3843,7 @@ icons:
 
   - name:       Sort Numeric Ascending
     id:         sort-numeric-asc
-    unicode:    
+    unicode:    f162
     pua:        f162
     created:    3.2
     filter:
@@ -3853,7 +3853,7 @@ icons:
 
   - name:       Sort Numeric Descending
     id:         sort-numeric-desc
-    unicode:    
+    unicode:    f163
     pua:        f163
     created:    3.2
     filter:
@@ -3892,7 +3892,7 @@ icons:
 
   - name:       YouTube Square
     id:         youtube-square
-    unicode:    
+    unicode:    f166
     pua:        f166
     created:    3.2
     filter:
@@ -3903,7 +3903,7 @@ icons:
 
   - name:       YouTube
     id:         youtube
-    unicode:    
+    unicode:    f167
     pua:        f167
     created:    3.2
     filter:
@@ -3914,7 +3914,7 @@ icons:
 
   - name:       Xing
     id:         xing
-    unicode:    
+    unicode:    f168
     pua:        f168
     created:    3.2
     categories:
@@ -3922,7 +3922,7 @@ icons:
 
   - name:       Xing Square
     id:         xing-square
-    unicode:    
+    unicode:    f169
     pua:        f169
     created:    3.2
     categories:
@@ -3930,7 +3930,7 @@ icons:
 
   - name:       YouTube Play
     id:         youtube-play
-    unicode:    
+    unicode:    f16a
     pua:        f16a
     created:    3.2
     filter:
@@ -3942,7 +3942,7 @@ icons:
 
   - name:       Dropbox
     id:         dropbox
-    unicode:    
+    unicode:    f16b
     pua:        f16b
     created:    3.2
     categories:
@@ -3950,7 +3950,7 @@ icons:
 
   - name:       Stack Overflow
     id:         stack-overflow
-    unicode:    
+    unicode:    f16c
     pua:        f16c
     created:    3.2
     categories:
@@ -3958,7 +3958,7 @@ icons:
 
   - name:       Instagram
     id:         instagram
-    unicode:    
+    unicode:    f16d
     pua:        f16d
     created:    4.6
     categories:
@@ -3966,7 +3966,7 @@ icons:
 
   - name:       Flickr
     id:         flickr
-    unicode:    
+    unicode:    f16e
     pua:        f16e
     created:    3.2
     categories:
@@ -3974,7 +3974,7 @@ icons:
 
   - name:       App.net
     id:         adn
-    unicode:    
+    unicode:    f170
     pua:        f170
     created:    3.2
     categories:
@@ -3982,7 +3982,7 @@ icons:
 
   - name:       Bitbucket
     id:         bitbucket
-    unicode:    
+    unicode:    f171
     pua:        f171
     created:    3.2
     filter:
@@ -3992,7 +3992,7 @@ icons:
 
   - name:       Bitbucket Square
     id:         bitbucket-square
-    unicode:    
+    unicode:    f172
     pua:        f172
     created:    3.2
     filter:
@@ -4002,7 +4002,7 @@ icons:
 
   - name:       Tumblr
     id:         tumblr
-    unicode:    
+    unicode:    f173
     pua:        f173
     created:    3.2
     categories:
@@ -4010,7 +4010,7 @@ icons:
 
   - name:       Tumblr Square
     id:         tumblr-square
-    unicode:    
+    unicode:    f174
     pua:        f174
     created:    3.2
     categories:
@@ -4064,7 +4064,7 @@ icons:
 
   - name:       Windows
     id:         windows
-    unicode:    
+    unicode:    f17a
     pua:        f17a
     created:    3.2
     filter:
@@ -4094,7 +4094,7 @@ icons:
 
   - name:       Dribbble
     id:         dribbble
-    unicode:    
+    unicode:    f17d
     pua:        f17d
     created:    3.2
     categories:
@@ -4102,7 +4102,7 @@ icons:
 
   - name:       Skype
     id:         skype
-    unicode:    
+    unicode:    f17e
     pua:        f17e
     created:    3.2
     categories:
@@ -4110,7 +4110,7 @@ icons:
 
   - name:       Foursquare
     id:         foursquare
-    unicode:    
+    unicode:    f180
     pua:        f180
     created:    3.2
     categories:
@@ -4118,7 +4118,7 @@ icons:
 
   - name:       Trello
     id:         trello
-    unicode:    
+    unicode:    f181
     pua:        f181
     created:    3.2
     categories:
@@ -4152,7 +4152,7 @@ icons:
 
   - name:       Gratipay # Gittip
     id:         gratipay
-    unicode:    
+    unicode:    f184
     pua:        f184
     created:    3.2
     aliases:
@@ -4215,7 +4215,7 @@ icons:
 
   - name:       VK
     id:         vk
-    unicode:    
+    unicode:    f189
     pua:        f189
     created:    3.2
     categories:
@@ -4223,7 +4223,7 @@ icons:
 
   - name:       Weibo
     id:         weibo
-    unicode:    
+    unicode:    f18a
     pua:        f18a
     created:    3.2
     categories:
@@ -4231,7 +4231,7 @@ icons:
 
   - name:       Renren
     id:         renren
-    unicode:    
+    unicode:    f18b
     pua:        f18b
     created:    3.2
     categories:
@@ -4239,7 +4239,7 @@ icons:
 
   - name:       Pagelines
     id:         pagelines
-    unicode:    
+    unicode:    f18c
     pua:        f18c
     created:    4.0
     filter:
@@ -4254,7 +4254,7 @@ icons:
 
   - name:       Stack Exchange
     id:         stack-exchange
-    unicode:    
+    unicode:    f18d
     pua:        f18d
     created:    4.0
     categories:
@@ -4262,7 +4262,7 @@ icons:
 
   - name:       Arrow Circle Outlined Right
     id:         arrow-circle-o-right
-    unicode:    
+    unicode:    f18e
     pua:        f18e
     created:    4.0
     filter:
@@ -4273,7 +4273,7 @@ icons:
 
   - name:       Arrow Circle Outlined Left
     id:         arrow-circle-o-left
-    unicode:    
+    unicode:    f190
     pua:        f190
     created:    4.0
     filter:
@@ -4284,7 +4284,7 @@ icons:
 
   - name:       Caret Square Outlined Left
     id:         caret-square-o-left
-    unicode:    
+    unicode:    f191
     pua:        f191
     created:    4.0
     filter:
@@ -4298,7 +4298,7 @@ icons:
 
   - name:       Dot Circle Outlined
     id:         dot-circle-o
-    unicode:    
+    unicode:    f192
     pua:        f192
     created:    4.0
     filter:
@@ -4325,7 +4325,7 @@ icons:
 
   - name:       Vimeo Square
     id:         vimeo-square
-    unicode:    
+    unicode:    f194
     pua:        f194
     created:    4.0
     categories:
@@ -4343,7 +4343,7 @@ icons:
 
   - name:       Plus Square Outlined
     id:         plus-square-o
-    unicode:    
+    unicode:    f196
     pua:        f196
     created:    4.0
     filter:
@@ -4357,7 +4357,7 @@ icons:
 
   - name:       Space Shuttle
     id:         space-shuttle
-    unicode:    
+    unicode:    f197
     pua:        f197
     created:    4.1
     filter:
@@ -4367,7 +4367,7 @@ icons:
 
   - name:       Slack Logo
     id:         slack
-    unicode:    
+    unicode:    f198
     pua:        f198
     created:    4.1
     filter:
@@ -4387,7 +4387,7 @@ icons:
 
   - name:       WordPress Logo
     id:         wordpress
-    unicode:    
+    unicode:    f19a
     pua:        f19a
     created:    4.1
     categories:
@@ -4395,7 +4395,7 @@ icons:
 
   - name:       OpenID
     id:         openid
-    unicode:    
+    unicode:    f19b
     pua:        f19b
     created:    4.1
     categories:
@@ -4428,7 +4428,7 @@ icons:
 
   - name:       Yahoo Logo
     id:         yahoo
-    unicode:    
+    unicode:    f19e
     pua:        f19e
     created:    4.1
     categories:
@@ -4436,7 +4436,7 @@ icons:
 
   - name:       Google Logo
     id:         google
-    unicode:    
+    unicode:    f1a0
     pua:        f1a0
     created:    4.1
     categories:
@@ -4444,7 +4444,7 @@ icons:
 
   - name:       reddit Logo
     id:         reddit
-    unicode:    
+    unicode:    f1a1
     pua:        f1a1
     created:    4.1
     categories:
@@ -4452,7 +4452,7 @@ icons:
 
   - name:       reddit Square
     id:         reddit-square
-    unicode:    
+    unicode:    f1a2
     pua:        f1a2
     created:    4.1
     categories:
@@ -4460,7 +4460,7 @@ icons:
 
   - name:       StumbleUpon Circle
     id:         stumbleupon-circle
-    unicode:    
+    unicode:    f1a3
     pua:        f1a3
     created:    4.1
     categories:
@@ -4468,7 +4468,7 @@ icons:
 
   - name:       StumbleUpon Logo
     id:         stumbleupon
-    unicode:    
+    unicode:    f1a4
     pua:        f1a4
     created:    4.1
     categories:
@@ -4476,7 +4476,7 @@ icons:
 
   - name:       Delicious Logo
     id:         delicious
-    unicode:    
+    unicode:    f1a5
     pua:        f1a5
     created:    4.1
     categories:
@@ -4484,7 +4484,7 @@ icons:
 
   - name:       Digg Logo
     id:         digg
-    unicode:    
+    unicode:    f1a6
     pua:        f1a6
     created:    4.1
     categories:
@@ -4492,7 +4492,7 @@ icons:
 
   - name:       Pied Piper PP Logo # Old
     id:         pied-piper-pp
-    unicode:    
+    unicode:    f1a7
     pua:        f1a7
     created:    4.1
     categories:
@@ -4500,7 +4500,7 @@ icons:
 
   - name:       Pied Piper Alternate Logo
     id:         pied-piper-alt
-    unicode:    
+    unicode:    f1a8
     pua:        f1a8
     created:    4.1
     categories:
@@ -4508,7 +4508,7 @@ icons:
 
   - name:       Drupal Logo
     id:         drupal
-    unicode:    
+    unicode:    f1a9
     pua:        f1a9
     created:    4.1
     categories:
@@ -4516,7 +4516,7 @@ icons:
 
   - name:       Joomla Logo
     id:         joomla
-    unicode:    
+    unicode:    f1aa
     pua:        f1aa
     created:    4.1
     categories:
@@ -4524,7 +4524,7 @@ icons:
 
   - name:       Language
     id:         language
-    unicode:    
+    unicode:    f1ab
     pua:        f1ab
     created:    4.1
     categories:
@@ -4588,7 +4588,7 @@ icons:
 
   - name:       Cubes
     id:         cubes
-    unicode:    
+    unicode:    f1b3
     pua:        f1b3
     created:    4.1
     categories:
@@ -4596,7 +4596,7 @@ icons:
 
   - name:       Behance
     id:         behance
-    unicode:    
+    unicode:    f1b4
     pua:        f1b4
     created:    4.1
     categories:
@@ -4604,7 +4604,7 @@ icons:
 
   - name:       Behance Square
     id:         behance-square
-    unicode:    
+    unicode:    f1b5
     pua:        f1b5
     created:    4.1
     categories:
@@ -4612,7 +4612,7 @@ icons:
 
   - name:       Steam
     id:         steam
-    unicode:    
+    unicode:    f1b6
     pua:        f1b6
     created:    4.1
     categories:
@@ -4620,7 +4620,7 @@ icons:
 
   - name:       Steam Square
     id:         steam-square
-    unicode:    
+    unicode:    f1b7
     pua:        f1b7
     created:    4.1
     categories:
@@ -4670,7 +4670,7 @@ icons:
 
   - name:       Spotify
     id:         spotify
-    unicode:    
+    unicode:    f1bc
     pua:        f1bc
     created:    4.1
     categories:
@@ -4678,7 +4678,7 @@ icons:
 
   - name:       deviantART
     id:         deviantart
-    unicode:    
+    unicode:    f1bd
     pua:        f1bd
     created:    4.1
     categories:
@@ -4686,7 +4686,7 @@ icons:
 
   - name:       SoundCloud
     id:         soundcloud
-    unicode:    
+    unicode:    f1be
     pua:        f1be
     created:    4.1
     categories:
@@ -4711,7 +4711,7 @@ icons:
 
   - name:       Word File Outlined
     id:         file-word-o
-    unicode:    
+    unicode:    f1c2
     pua:        f1c2
     created:    4.1
     categories:
@@ -4720,7 +4720,7 @@ icons:
 
   - name:       Excel File Outlined
     id:         file-excel-o
-    unicode:    
+    unicode:    f1c3
     pua:        f1c3
     created:    4.1
     categories:
@@ -4729,7 +4729,7 @@ icons:
 
   - name:       Powerpoint File Outlined
     id:         file-powerpoint-o
-    unicode:    
+    unicode:    f1c4
     pua:        f1c4
     created:    4.1
     categories:
@@ -4761,7 +4761,7 @@ icons:
 
   - name:       Audio File Outlined
     id:         file-audio-o
-    unicode:    
+    unicode:    f1c7
     pua:        f1c7
     created:    4.1
     aliases:
@@ -4772,7 +4772,7 @@ icons:
 
   - name:       Video File Outlined
     id:         file-video-o
-    unicode:    
+    unicode:    f1c8
     pua:        f1c8
     created:    4.1
     aliases:
@@ -4783,7 +4783,7 @@ icons:
 
   - name:       Code File Outlined
     id:         file-code-o
-    unicode:    
+    unicode:    f1c9
     pua:        f1c9
     created:    4.1
     categories:
@@ -4792,7 +4792,7 @@ icons:
 
   - name:       Vine
     id:         vine
-    unicode:    
+    unicode:    f1ca
     pua:        f1ca
     created:    4.1
     categories:
@@ -4800,7 +4800,7 @@ icons:
 
   - name:       Codepen
     id:         codepen
-    unicode:    
+    unicode:    f1cb
     pua:        f1cb
     created:    4.1
     categories:
@@ -4808,7 +4808,7 @@ icons:
 
   - name:       jsFiddle
     id:         jsfiddle
-    unicode:    
+    unicode:    f1cc
     pua:        f1cc
     created:    4.1
     categories:
@@ -4816,7 +4816,7 @@ icons:
 
   - name:       Life Ring
     id:         life-ring
-    unicode:    
+    unicode:    f1cd
     pua:        f1cd
     created:    4.1
     aliases:
@@ -4829,7 +4829,7 @@ icons:
 
   - name:       Circle Outlined Notched
     id:         circle-o-notch
-    unicode:    
+    unicode:    f1ce
     pua:        f1ce
     created:    4.1
     categories:
@@ -4838,7 +4838,7 @@ icons:
 
   - name:       Rebel Alliance
     id:         rebel
-    unicode:    
+    unicode:    f1d0
     pua:        f1d0
     created:    4.1
     aliases:
@@ -4849,7 +4849,7 @@ icons:
 
   - name:       Galactic Empire
     id:         empire
-    unicode:    
+    unicode:    f1d1
     pua:        f1d1
     created:    4.1
     aliases:
@@ -4859,7 +4859,7 @@ icons:
 
   - name:       Git Square
     id:         git-square
-    unicode:    
+    unicode:    f1d2
     pua:        f1d2
     created:    4.1
     categories:
@@ -4867,7 +4867,7 @@ icons:
 
   - name:       Git
     id:         git
-    unicode:    
+    unicode:    f1d3
     pua:        f1d3
     created:    4.1
     categories:
@@ -4875,7 +4875,7 @@ icons:
 
   - name:       Hacker News
     id:         hacker-news
-    unicode:    
+    unicode:    f1d4
     pua:        f1d4
     created:    4.1
     aliases:
@@ -4886,7 +4886,7 @@ icons:
 
   - name:       Tencent Weibo
     id:         tencent-weibo
-    unicode:    
+    unicode:    f1d5
     pua:        f1d5
     created:    4.1
     categories:
@@ -4894,7 +4894,7 @@ icons:
 
   - name:       QQ
     id:         qq
-    unicode:    
+    unicode:    f1d6
     pua:        f1d6
     created:    4.1
     categories:
@@ -4902,7 +4902,7 @@ icons:
 
   - name:       Weixin # WeChat
     id:         weixin
-    unicode:    
+    unicode:    f1d7
     pua:        f1d7
     created:    4.1
     aliases:
@@ -4912,7 +4912,7 @@ icons:
 
   - name:       Paper Plane
     id:         paper-plane
-    unicode:    
+    unicode:    f1d8
     pua:        f1d8
     created:    4.1
     aliases:
@@ -4922,7 +4922,7 @@ icons:
 
   - name:       Paper Plane Outlined
     id:         paper-plane-o
-    unicode:    
+    unicode:    f1d9
     pua:        f1d9
     created:    4.1
     aliases:
@@ -4932,7 +4932,7 @@ icons:
 
   - name:       History
     id:         history
-    unicode:    
+    unicode:    f1da
     pua:        f1da
     created:    4.1
     categories:
@@ -4940,7 +4940,7 @@ icons:
 
   - name:       Circle Outlined Thin
     id:         circle-thin
-    unicode:    
+    unicode:    f1db
     pua:        f1db
     created:    4.1
     categories:
@@ -4976,7 +4976,7 @@ icons:
 
   - name:       Share Alt
     id:         share-alt
-    unicode:    
+    unicode:    f1e0
     pua:        f1e0
     created:    4.1
     categories:
@@ -4985,7 +4985,7 @@ icons:
 
   - name:       Share Alt Square
     id:         share-alt-square
-    unicode:    
+    unicode:    f1e1
     pua:        f1e1
     created:    4.1
     categories:
@@ -5021,7 +5021,7 @@ icons:
 
   - name:       Binoculars
     id:         binoculars
-    unicode:    
+    unicode:    f1e5
     pua:        f1e5
     created:    4.2
     categories:
@@ -5040,7 +5040,7 @@ icons:
 
   - name:       Slideshare
     id:         slideshare
-    unicode:    
+    unicode:    f1e7
     pua:        f1e7
     created:    4.2
     categories:
@@ -5048,7 +5048,7 @@ icons:
 
   - name:       Twitch
     id:         twitch
-    unicode:    
+    unicode:    f1e8
     pua:        f1e8
     created:    4.2
     categories:
@@ -5056,7 +5056,7 @@ icons:
 
   - name:       Yelp
     id:         yelp
-    unicode:    
+    unicode:    f1e9
     pua:        f1e9
     created:    4.2
     categories:
@@ -5074,7 +5074,7 @@ icons:
 
   - name:       WiFi
     id:         wifi
-    unicode:    
+    unicode:    f1eb
     pua:        f1eb
     created:    4.2
     categories:
@@ -5090,7 +5090,7 @@ icons:
 
   - name:       Paypal
     id:         paypal
-    unicode:    
+    unicode:    f1ed
     pua:        f1ed
     created:    4.2
     categories:
@@ -5099,7 +5099,7 @@ icons:
 
   - name:       Google Wallet
     id:         google-wallet
-    unicode:    
+    unicode:    f1ee
     pua:        f1ee
     created:    4.2
     categories:
@@ -5108,7 +5108,7 @@ icons:
 
   - name:       Visa Credit Card
     id:         cc-visa
-    unicode:    
+    unicode:    f1f0
     pua:        f1f0
     created:    4.2
     categories:
@@ -5117,7 +5117,7 @@ icons:
 
   - name:       MasterCard Credit Card
     id:         cc-mastercard
-    unicode:    
+    unicode:    f1f1
     pua:        f1f1
     created:    4.2
     categories:
@@ -5126,7 +5126,7 @@ icons:
 
   - name:       Discover Credit Card
     id:         cc-discover
-    unicode:    
+    unicode:    f1f2
     pua:        f1f2
     created:    4.2
     categories:
@@ -5135,7 +5135,7 @@ icons:
 
   - name:       American Express Credit Card
     id:         cc-amex
-    unicode:    
+    unicode:    f1f3
     pua:        f1f3
     created:    4.2
     filter:
@@ -5146,7 +5146,7 @@ icons:
 
   - name:       Paypal Credit Card
     id:         cc-paypal
-    unicode:    
+    unicode:    f1f4
     pua:        f1f4
     created:    4.2
     categories:
@@ -5155,7 +5155,7 @@ icons:
 
   - name:       Stripe Credit Card
     id:         cc-stripe
-    unicode:    
+    unicode:    f1f5
     pua:        f1f5
     created:    4.2
     categories:
@@ -5209,7 +5209,7 @@ icons:
 
   - name:       Eyedropper
     id:         eyedropper
-    unicode:    
+    unicode:    f1fb
     pua:        f1fb
     created:    4.2
     filter:
@@ -5236,7 +5236,7 @@ icons:
 
   - name:       Area Chart
     id:         area-chart
-    unicode:    
+    unicode:    f1fe
     pua:        f1fe
     created:    4.2
     filter:
@@ -5248,7 +5248,7 @@ icons:
 
   - name:       Pie Chart
     id:         pie-chart
-    unicode:    
+    unicode:    f200
     pua:        f200
     created:    4.2
     filter:
@@ -5260,7 +5260,7 @@ icons:
 
   - name:       Line Chart
     id:         line-chart
-    unicode:    
+    unicode:    f201
     pua:        f201
     created:    4.2
     filter:
@@ -5272,7 +5272,7 @@ icons:
 
   - name:       last.fm
     id:         lastfm
-    unicode:    
+    unicode:    f202
     pua:        f202
     created:    4.2
     categories:
@@ -5280,7 +5280,7 @@ icons:
 
   - name:       last.fm Square
     id:         lastfm-square
-    unicode:    
+    unicode:    f203
     pua:        f203
     created:    4.2
     categories:
@@ -5288,7 +5288,7 @@ icons:
 
   - name:       Toggle Off
     id:         toggle-off
-    unicode:    
+    unicode:    f204
     pua:        f204
     created:    4.2
     categories:
@@ -5296,7 +5296,7 @@ icons:
 
   - name:       Toggle On
     id:         toggle-on
-    unicode:    
+    unicode:    f205
     pua:        f205
     created:    4.2
     categories:
@@ -5327,7 +5327,7 @@ icons:
 
   - name:       ioxhost
     id:         ioxhost
-    unicode:    
+    unicode:    f208
     pua:        f208
     created:    4.2
     url:        ioxhost.co.uk
@@ -5336,7 +5336,7 @@ icons:
 
   - name:       AngelList
     id:         angellist
-    unicode:    
+    unicode:    f209
     pua:        f209
     created:    4.2
     categories:
@@ -5364,7 +5364,7 @@ icons:
 
   - name:       meanpath
     id:         meanpath
-    unicode:    
+    unicode:    f20c
     pua:        f20c
     created:    4.2
     url:        meanpath.com
@@ -5373,7 +5373,7 @@ icons:
 
   - name:       BuySellAds
     id:         buysellads
-    unicode:    
+    unicode:    f20d
     pua:        f20d
     created:    4.3
     url:        buysellads.com
@@ -5382,7 +5382,7 @@ icons:
 
   - name:       Connect Develop
     id:         connectdevelop
-    unicode:    
+    unicode:    f20e
     pua:        f20e
     created:    4.3
     url:        connectdevelop.com
@@ -5391,7 +5391,7 @@ icons:
 
   - name:       DashCube
     id:         dashcube
-    unicode:    
+    unicode:    f210
     pua:        f210
     created:    4.3
     url:        dashcube.com
@@ -5400,7 +5400,7 @@ icons:
 
   - name:       Forumbee
     id:         forumbee
-    unicode:    
+    unicode:    f211
     pua:        f211
     created:    4.3
     url:        forumbee.com
@@ -5409,7 +5409,7 @@ icons:
 
   - name:       Leanpub
     id:         leanpub
-    unicode:    
+    unicode:    f212
     pua:        f212
     created:    4.3
     url:        leanpub.com
@@ -5418,7 +5418,7 @@ icons:
 
   - name:       Sellsy
     id:         sellsy
-    unicode:    
+    unicode:    f213
     pua:        f213
     created:    4.3
     url:        sellsy.com
@@ -5427,7 +5427,7 @@ icons:
 
   - name:       Shirts in Bulk
     id:         shirtsinbulk
-    unicode:    
+    unicode:    f214
     pua:        f214
     created:    4.3
     url:        shirtsinbulk.com
@@ -5436,7 +5436,7 @@ icons:
 
   - name:       SimplyBuilt
     id:         simplybuilt
-    unicode:    
+    unicode:    f215
     pua:        f215
     created:    4.3
     url:        simplybuilt.com
@@ -5445,7 +5445,7 @@ icons:
 
   - name:       skyatlas
     id:         skyatlas
-    unicode:    
+    unicode:    f216
     pua:        f216
     created:    4.3
     url:        skyatlas.com
@@ -5454,7 +5454,7 @@ icons:
 
   - name:       Add to Shopping Cart
     id:         cart-plus
-    unicode:    
+    unicode:    f217
     pua:        f217
     created:    4.3
     filter:
@@ -5465,7 +5465,7 @@ icons:
 
   - name:       Shopping Cart Arrow Down
     id:         cart-arrow-down
-    unicode:    
+    unicode:    f218
     pua:        f218
     created:    4.3
     filter:
@@ -5523,7 +5523,7 @@ icons:
 
   - name:       Street View
     id:         street-view
-    unicode:    
+    unicode:    f21d
     pua:        f21d
     created:    4.3
     filter:
@@ -5656,7 +5656,7 @@ icons:
 
   - name:       Facebook Official
     id:         facebook-official
-    unicode:    
+    unicode:    f230
     pua:        f230
     created:    4.3
     categories:
@@ -5664,7 +5664,7 @@ icons:
 
   - name:       Pinterest P
     id:         pinterest-p
-    unicode:    
+    unicode:    f231
     pua:        f231
     created:    4.3
     categories:
@@ -5672,7 +5672,7 @@ icons:
 
   - name:       What's App
     id:         whatsapp
-    unicode:    
+    unicode:    f232
     pua:        f232
     created:    4.3
     categories:
@@ -5680,7 +5680,7 @@ icons:
 
   - name:       Server
     id:         server
-    unicode:    
+    unicode:    f233
     pua:        f233
     created:    4.3
     categories:
@@ -5688,7 +5688,7 @@ icons:
 
   - name:       Add User
     id:         user-plus
-    unicode:    
+    unicode:    f234
     pua:        f234
     created:    4.3
     filter:
@@ -5699,7 +5699,7 @@ icons:
 
   - name:       Remove User
     id:         user-times
-    unicode:    
+    unicode:    f235
     pua:        f235
     created:    4.3
     categories:
@@ -5719,7 +5719,7 @@ icons:
 
   - name:       Viacoin
     id:         viacoin
-    unicode:    
+    unicode:    f237
     pua:        f237
     created:    4.3
     url:        viacoin.org
@@ -5744,7 +5744,7 @@ icons:
 
   - name:       Medium
     id:         medium
-    unicode:    
+    unicode:    f23a
     pua:        f23a
     created:    4.3
     categories:
@@ -5752,7 +5752,7 @@ icons:
 
   - name:       Y Combinator
     id:         y-combinator
-    unicode:    
+    unicode:    f23b
     pua:        f23b
     created:    4.4
     aliases:
@@ -5762,7 +5762,7 @@ icons:
 
   - name:       Optin Monster
     id:         optin-monster
-    unicode:    
+    unicode:    f23c
     pua:        f23c
     created:    4.4
     url:        optinmonster.com
@@ -5771,7 +5771,7 @@ icons:
 
   - name:       OpenCart
     id:         opencart
-    unicode:    
+    unicode:    f23d
     pua:        f23d
     created:    4.4
     url:        opencart.com
@@ -5780,7 +5780,7 @@ icons:
 
   - name:       ExpeditedSSL
     id:         expeditedssl
-    unicode:    
+    unicode:    f23e
     pua:        f23e
     created:    4.4
     categories:
@@ -5801,7 +5801,7 @@ icons:
 
   - name:       Battery 3/4 Full
     id:         battery-three-quarters
-    unicode:    
+    unicode:    f241
     pua:        f241
     created:    4.4
     aliases:
@@ -5813,7 +5813,7 @@ icons:
 
   - name:       Battery 1/2 Full
     id:         battery-half
-    unicode:    
+    unicode:    f242
     pua:        f242
     created:    4.4
     aliases:
@@ -5825,7 +5825,7 @@ icons:
 
   - name:       Battery 1/4 Full
     id:         battery-quarter
-    unicode:    
+    unicode:    f243
     pua:        f243
     created:    4.4
     aliases:
@@ -5837,7 +5837,7 @@ icons:
 
   - name:       Battery Empty
     id:         battery-empty
-    unicode:    
+    unicode:    f244
     pua:        f244
     created:    4.4
     aliases:
@@ -5849,7 +5849,7 @@ icons:
 
   - name:       Mouse Pointer
     id:         mouse-pointer
-    unicode:    
+    unicode:    f245
     pua:        f245
     created:    4.4
     categories:
@@ -5857,7 +5857,7 @@ icons:
 
   - name:       I Beam Cursor
     id:         i-cursor
-    unicode:    
+    unicode:    f246
     pua:        f246
     created:    4.4
     categories:
@@ -5865,7 +5865,7 @@ icons:
 
   - name:       Object Group
     id:         object-group
-    unicode:    
+    unicode:    f247
     pua:        f247
     created:    4.4
     categories:
@@ -5873,7 +5873,7 @@ icons:
 
   - name:       Object Ungroup
     id:         object-ungroup
-    unicode:    
+    unicode:    f248
     pua:        f248
     created:    4.4
     categories:
@@ -5897,7 +5897,7 @@ icons:
 
   - name:       JCB Credit Card
     id:         cc-jcb
-    unicode:    
+    unicode:    f24b
     pua:        f24b
     created:    4.4
     categories:
@@ -5906,7 +5906,7 @@ icons:
 
   - name:       Diner's Club Credit Card
     id:         cc-diners-club
-    unicode:    
+    unicode:    f24c
     pua:        f24c
     created:    4.4
     categories:
@@ -6012,7 +6012,7 @@ icons:
 
   - name:       Lizard # Hand
     id:         hand-lizard-o
-    unicode:    
+    unicode:    f258
     pua:        f258
     created:    4.4
     categories:
@@ -6072,7 +6072,7 @@ icons:
 
   - name:       GG Currency
     id:         gg
-    unicode:    
+    unicode:    f260
     pua:        f260
     created:    4.4
     categories:
@@ -6081,7 +6081,7 @@ icons:
 
   - name:       GG Currency Circle
     id:         gg-circle
-    unicode:    
+    unicode:    f261
     pua:        f261
     created:    4.4
     categories:
@@ -6090,7 +6090,7 @@ icons:
 
   - name:       TripAdvisor
     id:         tripadvisor
-    unicode:    
+    unicode:    f262
     pua:        f262
     created:    4.4
     categories:
@@ -6098,7 +6098,7 @@ icons:
 
   - name:       Odnoklassniki
     id:         odnoklassniki
-    unicode:    
+    unicode:    f263
     pua:        f263
     created:    4.4
     categories:
@@ -6106,7 +6106,7 @@ icons:
 
   - name:       Odnoklassniki Square
     id:         odnoklassniki-square
-    unicode:    
+    unicode:    f264
     pua:        f264
     created:    4.4
     categories:
@@ -6114,7 +6114,7 @@ icons:
 
   - name:       Get Pocket
     id:         get-pocket
-    unicode:    
+    unicode:    f265
     pua:        f265
     created:    4.4
     categories:
@@ -6122,7 +6122,7 @@ icons:
 
   - name:       Wikipedia W
     id:         wikipedia-w
-    unicode:    
+    unicode:    f266
     pua:        f266
     created:    4.4
     categories:
@@ -6130,7 +6130,7 @@ icons:
 
   - name:       Safari
     id:         safari
-    unicode:    
+    unicode:    f267
     pua:        f267
     created:    4.4
     filter:
@@ -6140,7 +6140,7 @@ icons:
 
   - name:       Chrome
     id:         chrome
-    unicode:    
+    unicode:    f268
     pua:        f268
     created:    4.4
     filter:
@@ -6150,7 +6150,7 @@ icons:
 
   - name:       Firefox
     id:         firefox
-    unicode:    
+    unicode:    f269
     pua:        f269
     created:    4.4
     filter:
@@ -6160,7 +6160,7 @@ icons:
 
   - name:       Opera
     id:         opera
-    unicode:    
+    unicode:    f26a
     pua:        f26a
     created:    4.4
     categories:
@@ -6168,7 +6168,7 @@ icons:
 
   - name:       Internet-explorer
     id:         internet-explorer
-    unicode:    
+    unicode:    f26b
     pua:        f26b
     created:    4.4
     filter:
@@ -6193,7 +6193,7 @@ icons:
 
   - name:       Contao
     id:         contao
-    unicode:    
+    unicode:    f26d
     pua:        f26d
     created:    4.4
     categories:
@@ -6201,7 +6201,7 @@ icons:
 
   - name:       500px
     id:         500px
-    unicode:    
+    unicode:    f26e
     pua:        f26e
     created:    4.4
     categories:
@@ -6209,7 +6209,7 @@ icons:
 
   - name:       Amazon
     id:         amazon
-    unicode:    
+    unicode:    f270
     pua:        f270
     created:    4.4
     categories:
@@ -6217,7 +6217,7 @@ icons:
 
   - name:       Calendar Plus Outlined
     id:         calendar-plus-o
-    unicode:    
+    unicode:    f271
     pua:        f271
     created:    4.4
     categories:
@@ -6225,7 +6225,7 @@ icons:
 
   - name:       Calendar Minus Outlined
     id:         calendar-minus-o
-    unicode:    
+    unicode:    f272
     pua:        f272
     created:    4.4
     categories:
@@ -6233,7 +6233,7 @@ icons:
 
   - name:       Calendar Times Outlined
     id:         calendar-times-o
-    unicode:    
+    unicode:    f273
     pua:        f273
     created:    4.4
     categories:
@@ -6241,7 +6241,7 @@ icons:
 
   - name:       Calendar Check Outlined
     id:         calendar-check-o
-    unicode:    
+    unicode:    f274
     pua:        f274
     created:    4.4
     filter:
@@ -6269,7 +6269,7 @@ icons:
 
   - name:       Map Signs
     id:         map-signs
-    unicode:    
+    unicode:    f277
     pua:        f277
     created:    4.4
     categories:
@@ -6331,7 +6331,7 @@ icons:
 
   - name:       Houzz
     id:         houzz
-    unicode:    
+    unicode:    f27c
     pua:        f27c
     created:    4.4
     categories:
@@ -6339,7 +6339,7 @@ icons:
 
   - name:       Vimeo
     id:         vimeo
-    unicode:    
+    unicode:    f27d
     pua:        f27d
     created:    4.4
     categories:
@@ -6347,7 +6347,7 @@ icons:
 
   - name:       Font Awesome Black Tie
     id:         black-tie
-    unicode:    
+    unicode:    f27e
     pua:        f27e
     created:    4.4
     url:        blacktie.io
@@ -6356,7 +6356,7 @@ icons:
 
   - name:       Fonticons
     id:         fonticons
-    unicode:    
+    unicode:    f280
     pua:        f280
     created:    4.4
     url:        fonticons.com
@@ -6365,7 +6365,7 @@ icons:
 
   - name:       reddit Alien
     id:         reddit-alien
-    unicode:    
+    unicode:    f281
     pua:        f281
     created:    4.5
     categories:
@@ -6373,7 +6373,7 @@ icons:
 
   - name:       Edge Browser
     id:         edge
-    unicode:    
+    unicode:    f282
     pua:        f282
     created:    4.5
     filter:
@@ -6401,7 +6401,7 @@ icons:
 
   - name:       Codie Pie
     id:         codiepie
-    unicode:    
+    unicode:    f284
     pua:        f284
     created:    4.5
     url:        codiepie.com
@@ -6410,7 +6410,7 @@ icons:
 
   - name:       MODX
     id:         modx
-    unicode:    
+    unicode:    f285
     pua:        f285
     created:    4.5
     categories:
@@ -6418,7 +6418,7 @@ icons:
 
   - name:       Fort Awesome
     id:         fort-awesome
-    unicode:    
+    unicode:    f286
     pua:        f286
     created:    4.5
     url:        fortawesome.com
@@ -6435,7 +6435,7 @@ icons:
 
   - name:       Product Hunt
     id:         product-hunt
-    unicode:    
+    unicode:    f288
     pua:        f288
     created:    4.5
     categories:
@@ -6443,7 +6443,7 @@ icons:
 
   - name:       Mixcloud
     id:         mixcloud
-    unicode:    
+    unicode:    f289
     pua:        f289
     created:    4.5
     categories:
@@ -6451,7 +6451,7 @@ icons:
 
   - name:       Scribd
     id:         scribd
-    unicode:    
+    unicode:    f28a
     pua:        f28a
     created:    4.5
     categories:
@@ -6459,7 +6459,7 @@ icons:
 
   - name:       Pause Circle
     id:         pause-circle
-    unicode:    
+    unicode:    f28b
     pua:        f28b
     created:    4.5
     categories:
@@ -6467,7 +6467,7 @@ icons:
 
   - name:       Pause Circle Outlined
     id:         pause-circle-o
-    unicode:    
+    unicode:    f28c
     pua:        f28c
     created:    4.5
     categories:
@@ -6475,7 +6475,7 @@ icons:
 
   - name:       Stop Circle
     id:         stop-circle
-    unicode:    
+    unicode:    f28d
     pua:        f28d
     created:    4.5
     categories:
@@ -6483,7 +6483,7 @@ icons:
 
   - name:       Stop Circle Outlined
     id:         stop-circle-o
-    unicode:    
+    unicode:    f28e
     pua:        f28e
     created:    4.5
     categories:
@@ -6499,7 +6499,7 @@ icons:
 
   - name:       Shopping Basket
     id:         shopping-basket
-    unicode:    
+    unicode:    f291
     pua:        f291
     created:    4.5
     categories:
@@ -6515,7 +6515,7 @@ icons:
 
   - name:       Bluetooth
     id:         bluetooth
-    unicode:    
+    unicode:    f293
     pua:        f293
     created:    4.5
     categories:
@@ -6524,7 +6524,7 @@ icons:
 
   - name:       Bluetooth
     id:         bluetooth-b
-    unicode:    
+    unicode:    f294
     pua:        f294
     created:    4.5
     categories:
@@ -6541,7 +6541,7 @@ icons:
 
   - name:       GitLab
     id:         gitlab
-    unicode:    
+    unicode:    f296
     pua:        f296
     created:    4.6
     url:        gitlab.com
@@ -6550,7 +6550,7 @@ icons:
 
   - name:       WPBeginner
     id:         wpbeginner
-    unicode:    
+    unicode:    f297
     pua:        f297
     created:    4.6
     url:        wpbeginner.com
@@ -6559,7 +6559,7 @@ icons:
 
   - name:       WPForms
     id:         wpforms
-    unicode:    
+    unicode:    f298
     pua:        f298
     created:    4.6
     url:        wpforms.com
@@ -6568,7 +6568,7 @@ icons:
 
   - name:       Envira Gallery
     id:         envira
-    unicode:    
+    unicode:    f299
     pua:        f299
     created:    4.6
     url:        enviragallery.com
@@ -6579,7 +6579,7 @@ icons:
 
   - name:       Universal Access
     id:         universal-access
-    unicode:    
+    unicode:    f29a
     pua:        f29a
     created:    4.6
     categories:
@@ -6602,7 +6602,7 @@ icons:
 
   - name:       Question Circle Outlined
     id:         question-circle-o
-    unicode:    
+    unicode:    f29c
     pua:        f29c
     created:    4.6
     categories:
@@ -6611,7 +6611,7 @@ icons:
 
   - name:       Blind
     id:         blind
-    unicode:    
+    unicode:    f29d
     pua:        f29d
     created:    4.6
     categories:
@@ -6629,7 +6629,7 @@ icons:
 
   - name:       Volume Control Phone
     id:         volume-control-phone
-    unicode:    
+    unicode:    f2a0
     pua:        f2a0
     created:    4.6
     filter:
@@ -6640,7 +6640,7 @@ icons:
 
   - name:       Braille
     id:         braille
-    unicode:    
+    unicode:    f2a1
     pua:        f2a1
     created:    4.6
     categories:
@@ -6649,7 +6649,7 @@ icons:
 
   - name:       Assistive Listening Systems
     id:         assistive-listening-systems
-    unicode:    
+    unicode:    f2a2
     pua:        f2a2
     created:    4.6
     categories:
@@ -6658,7 +6658,7 @@ icons:
 
   - name:       American Sign Language Interpreting
     id:         american-sign-language-interpreting
-    unicode:    
+    unicode:    f2a3
     pua:        f2a3
     created:    4.6
     aliases:
@@ -6681,7 +6681,7 @@ icons:
 
   - name:       Glide
     id:         glide
-    unicode:    
+    unicode:    f2a5
     pua:        f2a5
     created:    4.6
     categories:
@@ -6689,7 +6689,7 @@ icons:
 
   - name:       Glide G
     id:         glide-g
-    unicode:    
+    unicode:    f2a6
     pua:        f2a6
     created:    4.6
     categories:
@@ -6708,7 +6708,7 @@ icons:
 
   - name:       Low Vision
     id:         low-vision
-    unicode:    
+    unicode:    f2a8
     pua:        f2a8
     created:    4.6
     categories:
@@ -6717,7 +6717,7 @@ icons:
 
   - name:       Viadeo
     id:         viadeo
-    unicode:    
+    unicode:    f2a9
     pua:        f2a9
     created:    4.6
     categories:
@@ -6725,7 +6725,7 @@ icons:
 
   - name:       Viadeo Square
     id:         viadeo-square
-    unicode:    
+    unicode:    f2aa
     pua:        f2aa
     created:    4.6
     categories:
@@ -6733,7 +6733,7 @@ icons:
 
   - name:       Snapchat
     id:         snapchat
-    unicode:    
+    unicode:    f2ab
     pua:        f2ab
     created:    4.6
     categories:
@@ -6741,7 +6741,7 @@ icons:
 
   - name:       Snapchat Ghost
     id:         snapchat-ghost
-    unicode:    
+    unicode:    f2ac
     pua:        f2ac
     created:    4.6
     categories:
@@ -6749,7 +6749,7 @@ icons:
 
   - name:       Snapchat Square
     id:         snapchat-square
-    unicode:    
+    unicode:    f2ad
     pua:        f2ad
     created:    4.6
     categories:
@@ -6757,7 +6757,7 @@ icons:
 
   - name:       Pied Piper Logo
     id:         pied-piper
-    unicode:    
+    unicode:    f2ae
     pua:        f2ae
     created:    4.6
     categories:
@@ -6765,7 +6765,7 @@ icons:
 
   - name:       First Order
     id:         first-order
-    unicode:    
+    unicode:    f2b0
     pua:        f2b0
     created:    4.6
     categories:
@@ -6773,7 +6773,7 @@ icons:
 
   - name:       Yoast
     id:         yoast
-    unicode:    
+    unicode:    f2b1
     pua:        f2b1
     created:    4.6
     url:        yoast.com
@@ -6782,7 +6782,7 @@ icons:
 
   - name:       ThemeIsle
     id:         themeisle
-    unicode:    
+    unicode:    f2b2
     pua:        f2b2
     created:    4.6
     url:        themeisle.com
@@ -6791,7 +6791,7 @@ icons:
 
   - name:       Google Plus Official
     id:         google-plus-official
-    unicode:    
+    unicode:    f2b3
     pua:        f2b3
     created:    4.6
     aliases:
@@ -6801,7 +6801,7 @@ icons:
 
   - name:       Font Awesome
     id:         font-awesome
-    unicode:    
+    unicode:    f2b4
     pua:        f2b4
     created:    4.6
     aliases:
@@ -6819,7 +6819,7 @@ icons:
 
   - name:       Envelope Open
     id:         envelope-open
-    unicode:    
+    unicode:    f2b6
     pua:        f2b6
     created:    4.7
     categories:
@@ -6827,7 +6827,7 @@ icons:
 
   - name:       Envelope Open Outlined
     id:         envelope-open-o
-    unicode:    
+    unicode:    f2b7
     pua:        f2b7
     created:    4.7
     categories:
@@ -6835,7 +6835,7 @@ icons:
 
   - name:       Linode
     id:         linode
-    unicode:    
+    unicode:    f2b8
     pua:        f2b8
     created:    4.7
     url:        linode.com
@@ -6880,7 +6880,7 @@ icons:
 
   - name:       User Circle
     id:         user-circle
-    unicode:    
+    unicode:    f2bd
     pua:        f2bd
     created:    4.7
     categories:
@@ -6888,7 +6888,7 @@ icons:
 
   - name:       User Circle Outlined
     id:         user-circle-o
-    unicode:    
+    unicode:    f2be
     pua:        f2be
     created:    4.7
     categories:
@@ -6896,7 +6896,7 @@ icons:
 
   - name:       User Outlined
     id:         user-o
-    unicode:    
+    unicode:    f2c0
     pua:        f2c0
     created:    4.7
     categories:
@@ -6932,7 +6932,7 @@ icons:
 
   - name:       Quora
     id:         quora
-    unicode:    
+    unicode:    f2c4
     pua:        f2c4
     created:    4.7
     categories:
@@ -6940,7 +6940,7 @@ icons:
 
   - name:       Free Code Camp
     id:         free-code-camp
-    unicode:    
+    unicode:    f2c5
     pua:        f2c5
     created:    4.7
     categories:
@@ -6948,7 +6948,7 @@ icons:
 
   - name:       Telegram
     id:         telegram
-    unicode:    
+    unicode:    f2c6
     pua:        f2c6
     created:    4.7
     categories:
@@ -7026,7 +7026,7 @@ icons:
 
   - name:       Podcast
     id:         podcast
-    unicode:    
+    unicode:    f2ce
     pua:        f2ce
     created:    4.7
     categories:
@@ -7078,7 +7078,7 @@ icons:
 
   - name:       Bandcamp
     id:         bandcamp
-    unicode:    
+    unicode:    f2d5
     pua:        f2d5
     created:    4.7
     categories:
@@ -7086,7 +7086,7 @@ icons:
 
   - name:       Grav
     id:         grav
-    unicode:    
+    unicode:    f2d6
     pua:        f2d6
     created:    4.7
     categories:
@@ -7094,7 +7094,7 @@ icons:
 
   - name:       Etsy
     id:         etsy
-    unicode:    
+    unicode:    f2d7
     pua:        f2d7
     created:    4.7
     categories:
@@ -7102,7 +7102,7 @@ icons:
 
   - name:       IMDB
     id:         imdb
-    unicode:    
+    unicode:    f2d8
     pua:        f2d8
     created:    4.7
     categories:
@@ -7110,7 +7110,7 @@ icons:
 
   - name:       Ravelry
     id:         ravelry
-    unicode:    
+    unicode:    f2d9
     pua:        f2d9
     created:    4.7
     categories:
@@ -7118,7 +7118,7 @@ icons:
 
   - name:       Eercast
     id:         eercast
-    unicode:    
+    unicode:    f2da
     pua:        f2da
     created:    4.7
     url:        eercast.com
@@ -7127,7 +7127,7 @@ icons:
 
   - name:       Microchip
     id:         microchip
-    unicode:    
+    unicode:    f2db
     pua:        f2db
     created:    4.7
     categories:
@@ -7143,7 +7143,7 @@ icons:
 
   - name:       Superpowers
     id:         superpowers
-    unicode:    
+    unicode:    f2dd
     pua:        f2dd
     created:    4.7
     url:        superpowers.io
@@ -7152,7 +7152,7 @@ icons:
 
   - name:       WPExplorer
     id:         wpexplorer
-    unicode:    
+    unicode:    f2de
     pua:        f2de
     created:    4.7
     url:        wpexplorer.com
@@ -7161,7 +7161,7 @@ icons:
 
   - name:       Meetup
     id:         meetup
-    unicode:    
+    unicode:    f2e0
     pua:        f2e0
     created:    4.7
     categories:
