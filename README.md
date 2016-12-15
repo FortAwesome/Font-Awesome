@@ -11,7 +11,7 @@ Get started at http://fontawesome.io!
 ## License
 - The Font Awesome font is licensed under the SIL OFL 1.1:
   - http://scripts.sil.org/OFL
-- Font Awesome CSS, LESS, and Sass files are licensed under the MIT License:
+- Font Awesome and Font Awesome CDN CSS, LESS, Sass, and JavaScript files are licensed under the MIT License:
   - https://opensource.org/licenses/mit-license.html
 - The Font Awesome documentation is licensed under the CC BY 3.0 License:
   - http://creativecommons.org/licenses/by/3.0/
