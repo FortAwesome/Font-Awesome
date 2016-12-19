@@ -23,9 +23,9 @@ relative_path: ../
     {% assign sorted_icons = icons | expand_aliases | sort_by:'class' %}
 
     {% for icon in sorted_icons %}
-    <div class="col-md-4 col-sm-6 col-lg-3">
+    <div class="col-md-4 col-sm-6 col-lg-3 col-print-4">
       {% if icon.created >= site.fontawesome.major_version %}<small class="text-muted pull-right">{{ icon.created }}</small>{% endif %}
-      <i class="fa fa-fw" aria-hidden="true" title="Copy to use {{ icon.class }}">&#x{{ icon.unicode }}</i>
+      <i class="fa fa-fw" aria-hidden="true" title="Copy to use {{ icon.class }}">&#x{{ icon.unicode }};</i>
       fa-{{ icon.class }}
       {% if icon.alias_of %} <span class="text-muted">(alias)</span>{% endif %}
       <span class="text-muted">[&amp;#x{{ icon.unicode }};]</span>
