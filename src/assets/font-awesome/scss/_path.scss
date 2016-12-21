@@ -2,7 +2,7 @@
  * -------------------------- */
 
 @font-face {
-  font-family: 'FontAwesome';
+  font-family: '#{$fa-font-family}';
   src: url('#{$fa-font-path}/fontawesome-webfont.eot?v=#{$fa-version}');
   src: url('#{$fa-font-path}/fontawesome-webfont.eot?#iefix&v=#{$fa-version}') format('embedded-opentype'),
     url('#{$fa-font-path}/fontawesome-webfont.woff2?v=#{$fa-version}') format('woff2'),
