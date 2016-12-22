@@ -44,7 +44,7 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip();
   $('[data-toggle="popover"]').popover();
 
-  if (storageAvailable('localStorage') && !localStorage.seenFA5Modal) {
+  if (storageAvailable('localStorage') && !localStorage.seenFA5Modal2) {
     $('#modal-fa5')
       .modal('toggle')
       .on('hidden.bs.modal', function (e) {
@@ -54,7 +54,7 @@ $(function () {
   }
 
   if (storageAvailable('localStorage')) {
-    localStorage.seenFA5Modal = true;
+    localStorage.seenFA5Modal2 = true;
   	// Yippee! We can use localStorage awesomeness
   }
 
