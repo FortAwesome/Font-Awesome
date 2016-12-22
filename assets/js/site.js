@@ -3,35 +3,11 @@ $(function () {
 
   var ads = [
     {
-      quote: "<i class='fas fas-perfect fas-2x valign-middle margin-right'></i>Looking for the best icon sets? Check out <strong>Symbolset</strong>, <a href='https://articles.fortawesome.com/fort-awesome-acquires-symbolset-72229dab2c13'>now</a> from the maker of Font Awesome.",
-      class: "symbolset",
-      url: "https://symbolset.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_1_best_icons&utm_campaign=promo_4.7_update",
-      btn_text: "Gimme Some!"
+      quote: "Pre-order and get Font Awesome 5 Pro and <strong>ALL</strong> stretch goals for just $40!",
+      class: "fa5",
+      url: "http://five.fontawesome.com",
+      btn_text: "Pre-order FA Pro! &nbsp;<i class='fa fa-external-link'></i>",
     },
-    {
-      quote: "<i class='fas fas-curate fas-2x valign-middle margin-right'></i>Need a different look for your icons? Check out <strong>Symbolset</strong>, <a href='https://articles.fortawesome.com/fort-awesome-acquires-symbolset-72229dab2c13'>now</a> from the maker of Font Awesome.",
-      class: "symbolset",
-      url: "https://symbolset.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_2_different_look&utm_campaign=promo_4.7_update",
-      btn_text: "Gimme Some!"
-    },
-    {
-      quote: "Take your icon game to the next level. Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
-      class: "fort-awesome",
-      url: "https://fortawesome.com/start?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_1_next_level&utm_campaign=promo_4.7_update",
-      btn_text: "Gimme Some!"
-    },
-    {
-      quote: "Make your icons load 10x faster! Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
-      class: "fort-awesome",
-      url: "https://fortawesome.com/start?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_3_faster_loading&utm_campaign=promo_4.7_update",
-      btn_text: "Gimme Some!"
-    },
-    {
-      quote: "Want to add your own icon? Check out <strong>Fort Awesome</strong>, from the maker of Font Awesome.",
-      class: "fort-awesome",
-      url: "https://fortawesome.com/start?utm_source=font_awesome_homepage&utm_medium=display&utm_content=ad_6_your_own_icon&utm_campaign=promo_4.7_update",
-      btn_text: "Gimme Some!"
-    }
   ];
 
   selectAd();
@@ -44,7 +20,7 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip();
   $('[data-toggle="popover"]').popover();
 
-  if (storageAvailable('localStorage') && !localStorage.seenFA5Modal) {
+  if (storageAvailable('localStorage') && !localStorage.seenFA5Modal2) {
     $('#modal-fa5')
       .modal('toggle')
       .on('hidden.bs.modal', function (e) {
@@ -54,7 +30,7 @@ $(function () {
   }
 
   if (storageAvailable('localStorage')) {
-    localStorage.seenFA5Modal = true;
+    localStorage.seenFA5Modal2 = true;
   	// Yippee! We can use localStorage awesomeness
   }
 
