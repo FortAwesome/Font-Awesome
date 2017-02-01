@@ -5870,6 +5870,8 @@ icons:
     unicode:    f286
     created:    4.5
     url:        fortawesome.com
+    filter:
+      - castle
     categories:
       - Brand Icons
 
