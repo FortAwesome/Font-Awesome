@@ -103,3 +103,6 @@ Build the project and documentation:
 Or serve it on a local server on http://localhost:7998/Font-Awesome/:
 
     $ bundle exec jekyll -w serve
+
+## Bower install
+    $ bower install font-awesome --save
