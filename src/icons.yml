@@ -110,7 +110,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       th-large
+  - name:       Large Grid
     id:         th-large
     unicode:    f009
     created:    1.0
@@ -122,7 +122,7 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       th
+  - name:       Grid
     id:         th
     unicode:    f00a
     created:    1.0
@@ -134,7 +134,7 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       th-list
+  - name:       Grid List
     id:         th-list
     unicode:    f00b
     created:    1.0
@@ -214,7 +214,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       signal
+  - name:       Signal
     id:         signal
     unicode:    f012
     created:    1.0
@@ -224,7 +224,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       cog
+  - name:       Cog
     id:         cog
     unicode:    f013
     created:    1.0
@@ -249,7 +249,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       home
+  - name:       Home
     id:         home
     unicode:    f015
     created:    1.0
@@ -284,7 +284,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       road
+  - name:       Road
     id:         road
     unicode:    f018
     created:    1.0
@@ -318,7 +318,7 @@ icons:
     categories:
       - Directional Icons
 
-  - name:       inbox
+  - name:       Inbox
     id:         inbox
     unicode:    f01c
     created:    1.0
@@ -345,7 +345,7 @@ icons:
       - Text Editor Icons
 
 
-  - name:       refresh
+  - name:       Refresh
     id:         refresh
     unicode:    f021
     created:    1.0
@@ -356,7 +356,7 @@ icons:
       - Web Application Icons
       - Spinner Icons
 
-  - name:       list-alt
+  - name:       List Alt
     id:         list-alt
     unicode:    f022
     created:    1.0
@@ -371,7 +371,7 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       lock
+  - name:       Lock
     id:         lock
     unicode:    f023
     created:    1.0
@@ -382,7 +382,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       flag
+  - name:       Flag
     id:         flag
     unicode:    f024
     created:    1.0
@@ -393,7 +393,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       headphones
+  - name:       Headphones
     id:         headphones
     unicode:    f025
     created:    1.0
@@ -405,7 +405,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       volume-off
+  - name:       Volume Off
     id:         volume-off
     unicode:    f026
     created:    1.0
@@ -417,7 +417,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       volume-down
+  - name:       Volume Down
     id:         volume-down
     unicode:    f027
     created:    1.0
@@ -430,7 +430,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       volume-up
+  - name:       Volume Up
     id:         volume-up
     unicode:    f028
     created:    1.0
@@ -443,7 +443,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       qrcode
+  - name:       QR Code
     id:         qrcode
     unicode:    f029
     created:    1.0
@@ -452,7 +452,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       barcode
+  - name:       Barcode
     id:         barcode
     unicode:    f02a
     created:    1.0
@@ -461,7 +461,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       tag
+  - name:       Tag
     id:         tag
     unicode:    f02b
     created:    1.0
@@ -470,7 +470,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       tags
+  - name:       Tags
     id:         tags
     unicode:    f02c
     created:    1.0
@@ -479,7 +479,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       book
+  - name:       Book
     id:         book
     unicode:    f02d
     created:    1.0
@@ -489,7 +489,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       bookmark
+  - name:       Bookmark
     id:         bookmark
     unicode:    f02e
     created:    1.0
@@ -498,7 +498,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       print
+  - name:       Print
     id:         print
     unicode:    f02f
     created:    1.0
@@ -506,7 +506,7 @@ icons:
       - Web Application Icons
 
 
-  - name:       camera
+  - name:       Camera
     id:         camera
     unicode:    f030
     created:    1.0
@@ -517,7 +517,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       font
+  - name:       Font
     id:         font
     unicode:    f031
     created:    1.0
@@ -526,14 +526,14 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       bold
+  - name:       Bold
     id:         bold
     unicode:    f032
     created:    1.0
     categories:
       - Text Editor Icons
 
-  - name:       italic
+  - name:       Italic
     id:         italic
     unicode:    f033
     created:    1.0
@@ -542,21 +542,21 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       text-height
+  - name:       Text Height
     id:         text-height
     unicode:    f034
     created:    1.0
     categories:
       - Text Editor Icons
 
-  - name:       text-width
+  - name:       Text Width
     id:         text-width
     unicode:    f035
     created:    1.0
     categories:
       - Text Editor Icons
 
-  - name:       align-left
+  - name:       Align Left
     id:         align-left
     unicode:    f036
     created:    1.0
@@ -565,7 +565,7 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       align-center
+  - name:       Align Center
     id:         align-center
     unicode:    f037
     created:    1.0
@@ -575,7 +575,7 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       align-right
+  - name:       Align Right
     id:         align-right
     unicode:    f038
     created:    1.0
@@ -584,7 +584,7 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       align-justify
+  - name:       Align Justify
     id:         align-justify
     unicode:    f039
     created:    1.0
@@ -593,7 +593,7 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       list
+  - name:       List
     id:         list
     unicode:    f03a
     created:    1.0
@@ -646,7 +646,7 @@ icons:
       - Web Application Icons
 
 
-  - name:       pencil
+  - name:       Pencil
     id:         pencil
     unicode:    f040
     created:    1.0
@@ -657,7 +657,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       map-marker
+  - name:       Map Marker
     id:         map-marker
     unicode:    f041
     created:    1.0
@@ -674,7 +674,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       adjust
+  - name:       Adjust
     id:         adjust
     unicode:    f042
     created:    1.0
@@ -683,7 +683,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       tint
+  - name:       Tint
     id:         tint
     unicode:    f043
     created:    1.0
@@ -746,7 +746,7 @@ icons:
       - Web Application Icons
       - Directional Icons
 
-  - name:       step-backward
+  - name:       Step Backward
     id:         step-backward
     unicode:    f048
     created:    1.0
@@ -759,7 +759,7 @@ icons:
     categories:
       - Video Player Icons
 
-  - name:       fast-backward
+  - name:       Fast Backward
     id:         fast-backward
     unicode:    f049
     created:    1.0
@@ -772,7 +772,7 @@ icons:
     categories:
       - Video Player Icons
 
-  - name:       backward
+  - name:       Backward
     id:         backward
     unicode:    f04a
     created:    1.0
@@ -782,7 +782,7 @@ icons:
     categories:
       - Video Player Icons
 
-  - name:       play
+  - name:       Play
     id:         play
     unicode:    f04b
     created:    1.0
@@ -794,7 +794,7 @@ icons:
     categories:
       - Video Player Icons
 
-  - name:       pause
+  - name:       Pause
     id:         pause
     unicode:    f04c
     created:    1.0
@@ -803,7 +803,7 @@ icons:
     categories:
       - Video Player Icons
 
-  - name:       stop
+  - name:       Stop
     id:         stop
     unicode:    f04d
     created:    1.0
@@ -814,7 +814,7 @@ icons:
     categories:
       - Video Player Icons
 
-  - name:       forward
+  - name:       Forward
     id:         forward
     unicode:    f04e
     created:    1.0
@@ -825,7 +825,7 @@ icons:
       - Video Player Icons
 
 
-  - name:       fast-forward
+  - name:       Fast Forward
     id:         fast-forward
     unicode:    f050
     created:    1.0
@@ -836,7 +836,7 @@ icons:
     categories:
       - Video Player Icons
 
-  - name:       step-forward
+  - name:       Step Forward
     id:         step-forward
     unicode:    f051
     created:    1.0
@@ -847,14 +847,14 @@ icons:
     categories:
       - Video Player Icons
 
-  - name:       eject
+  - name:       Eject
     id:         eject
     unicode:    f052
     created:    1.0
     categories:
       - Video Player Icons
 
-  - name:       chevron-left
+  - name:       Chevron Left
     id:         chevron-left
     unicode:    f053
     created:    1.0
@@ -865,7 +865,7 @@ icons:
     categories:
       - Directional Icons
 
-  - name:       chevron-right
+  - name:       Chevron Right
     id:         chevron-right
     unicode:    f054
     created:    1.0
@@ -983,7 +983,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       ban
+  - name:       Ban
     id:         ban
     unicode:    f05e
     created:    1.0
@@ -1000,7 +1000,7 @@ icons:
       - Web Application Icons
 
 
-  - name:       arrow-left
+  - name:       Arrow Left
     id:         arrow-left
     unicode:    f060
     created:    1.0
@@ -1010,7 +1010,7 @@ icons:
     categories:
       - Directional Icons
 
-  - name:       arrow-right
+  - name:       Arrow Right
     id:         arrow-right
     unicode:    f061
     created:    1.0
@@ -1020,14 +1020,14 @@ icons:
     categories:
       - Directional Icons
 
-  - name:       arrow-up
+  - name:       Arrow Up
     id:         arrow-up
     unicode:    f062
     created:    1.0
     categories:
       - Directional Icons
 
-  - name:       arrow-down
+  - name:       Arrow Down
     id:         arrow-down
     unicode:    f063
     created:    1.0
@@ -1069,7 +1069,7 @@ icons:
     categories:
       - Video Player Icons
 
-  - name:       plus
+  - name:       Plus
     id:         plus
     unicode:    f067
     created:    1.0
@@ -1081,7 +1081,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       minus
+  - name:       Minus
     id:         minus
     unicode:    f068
     created:    1.0
@@ -1096,7 +1096,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       asterisk
+  - name:       Asterisk
     id:         asterisk
     unicode:    f069
     created:    1.0
@@ -1118,7 +1118,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       gift
+  - name:       Gift
     id:         gift
     unicode:    f06b
     created:    1.0
@@ -1127,7 +1127,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       leaf
+  - name:       Leaf
     id:         leaf
     unicode:    f06c
     created:    1.0
@@ -1138,7 +1138,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       fire
+  - name:       Fire
     id:         fire
     unicode:    f06d
     created:    1.0
@@ -1190,7 +1190,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       plane
+  - name:       Plane
     id:         plane
     unicode:    f072
     created:    1.0
@@ -1206,7 +1206,7 @@ icons:
       - Web Application Icons
       - Transportation Icons
 
-  - name:       calendar
+  - name:       Calendar
     id:         calendar
     unicode:    f073
     created:    1.0
@@ -1218,7 +1218,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       random
+  - name:       Random
     id:         random
     unicode:    f074
     created:    1.0
@@ -1229,7 +1229,7 @@ icons:
       - Web Application Icons
       - Video Player Icons
 
-  - name:       comment
+  - name:       Comment
     id:         comment
     unicode:    f075
     created:    1.0
@@ -1247,28 +1247,28 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       magnet
+  - name:       Magnet
     id:         magnet
     unicode:    f076
     created:    1.0
     categories:
       - Web Application Icons
 
-  - name:       chevron-up
+  - name:       Chevron Up
     id:         chevron-up
     unicode:    f077
     created:    1.0
     categories:
       - Directional Icons
 
-  - name:       chevron-down
+  - name:       Chevron Down
     id:         chevron-down
     unicode:    f078
     created:    1.0
     categories:
       - Directional Icons
 
-  - name:       retweet
+  - name:       Retweet
     id:         retweet
     unicode:    f079
     created:    1.0
@@ -1279,7 +1279,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       shopping-cart
+  - name:       Shopping Card
     id:         shopping-cart
     unicode:    f07a
     created:    1.0
@@ -1358,7 +1358,7 @@ icons:
     categories:
       - Brand Icons
 
-  - name:       camera-retro
+  - name:       Retro Camera
     id:         camera-retro
     unicode:    f083
     created:    1.0
@@ -1369,7 +1369,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       key
+  - name:       Key
     id:         key
     unicode:    f084
     created:    1.0
@@ -1379,7 +1379,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       cogs
+  - name:       Cogs
     id:         cogs
     unicode:    f085
     created:    1.0
@@ -1390,7 +1390,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       comments
+  - name:       Comments
     id:         comments
     unicode:    f086
     created:    1.0
@@ -1435,7 +1435,7 @@ icons:
       - Web Application Icons
       - Hand Icons
 
-  - name:       star-half
+  - name:       Half Star
     id:         star-half
     unicode:    f089
     created:    1.0
@@ -1519,7 +1519,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       trophy
+  - name:       Trophy
     id:         trophy
     unicode:    f091
     created:    1.0
@@ -1640,7 +1640,7 @@ icons:
     categories:
       - Brand Icons
 
-  - name:       unlock
+  - name:       Unlock
     id:         unlock
     unicode:    f09c
     created:    2.0
@@ -1652,7 +1652,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       credit-card
+  - name:       Credit Card
     id:         credit-card
     unicode:    f09d
     created:    2.0
@@ -1667,7 +1667,7 @@ icons:
       - Web Application Icons
       - Payment Icons
 
-  - name:       rss
+  - name:       RSS
     id:         rss
     unicode:    f09e
     created:    2.0
@@ -1691,7 +1691,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       bullhorn
+  - name:       Bullhorn
     id:         bullhorn
     unicode:    f0a1
     created:    2.0
@@ -1704,7 +1704,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       bell
+  - name:       Bell
     id:         bell
     unicode:    f0f3
     created:    2.0
@@ -1715,7 +1715,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       certificate
+  - name:       Certificate
     id:         certificate
     unicode:    f0a3
     created:    2.0
@@ -2018,7 +2018,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       list-ul
+  - name:       Unordered List
     id:         list-ul
     unicode:    f0ca
     created:    2.0
@@ -2031,7 +2031,7 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       list-ol
+  - name:       Ordered List
     id:         list-ol
     unicode:    f0cb
     created:    2.0
@@ -2060,7 +2060,7 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       table
+  - name:       Table
     id:         table
     unicode:    f0ce
     created:    2.0
@@ -2072,7 +2072,7 @@ icons:
       - Text Editor Icons
 
 
-  - name:       magic
+  - name:       Magic
     id:         magic
     unicode:    f0d0
     created:    2.0
@@ -2083,7 +2083,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       truck
+  - name:       Truck
     id:         truck
     unicode:    f0d1
     created:    2.0
@@ -2293,7 +2293,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       comment-o
+  - name:       Comment Outlined 
     id:         comment-o
     unicode:    f0e5
     created:    2.0
@@ -2311,7 +2311,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       comments-o
+  - name:       Comments Outlined
     id:         comments-o
     unicode:    f0e6
     created:    2.0
@@ -2411,7 +2411,7 @@ icons:
       - Web Application Icons
 
 
-  - name:       user-md
+  - name:       Medical User
     id:         user-md
     unicode:    f0f0
     created:    2.0
@@ -2508,7 +2508,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       hospital Outlined
+  - name:       Outlined Hospital
     id:         hospital-o
     unicode:    f0f8
     created:    3.0
@@ -2517,7 +2517,7 @@ icons:
     categories:
       - Medical Icons
 
-  - name:       ambulance
+  - name:       Ambulance
     id:         ambulance
     unicode:    f0f9
     created:    3.0
@@ -2529,7 +2529,7 @@ icons:
       - Medical Icons
       - Transportation Icons
 
-  - name:       medkit
+  - name:       Medkit
     id:         medkit
     unicode:    f0fa
     created:    3.0
@@ -2542,7 +2542,7 @@ icons:
     categories:
       - Medical Icons
 
-  - name:       fighter-jet
+  - name:       Fighter Jet
     id:         fighter-jet
     unicode:    f0fb
     created:    3.0
@@ -2557,7 +2557,7 @@ icons:
       - Web Application Icons
       - Transportation Icons
 
-  - name:       beer
+  - name:       Beer
     id:         beer
     unicode:    f0fc
     created:    3.0
@@ -2640,7 +2640,7 @@ icons:
     categories:
       - Directional Icons
 
-  - name:       angle-left
+  - name:       Angle Left
     id:         angle-left
     unicode:    f104
     created:    3.0
@@ -2651,7 +2651,7 @@ icons:
     categories:
       - Directional Icons
 
-  - name:       angle-right
+  - name:       Angle Right
     id:         angle-right
     unicode:    f105
     created:    3.0
@@ -2662,7 +2662,7 @@ icons:
     categories:
       - Directional Icons
 
-  - name:       angle-up
+  - name:       Angle Up
     id:         angle-up
     unicode:    f106
     created:    3.0
@@ -2671,7 +2671,7 @@ icons:
     categories:
       - Directional Icons
 
-  - name:       angle-down
+  - name:       Angle Down
     id:         angle-down
     unicode:    f107
     created:    3.0
@@ -2705,7 +2705,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       tablet
+  - name:       Tablet
     id:         tablet
     unicode:    f10a
     created:    3.0
@@ -2740,14 +2740,14 @@ icons:
       - Web Application Icons
       - Form Control Icons
 
-  - name:       quote-left
+  - name:       Quote Left
     id:         quote-left
     unicode:    f10d
     created:    3.0
     categories:
       - Web Application Icons
 
-  - name:       quote-right
+  - name:       Quote Right
     id:         quote-right
     unicode:    f10e
     created:    3.0
@@ -2878,7 +2878,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       flag-checkered
+  - name:       Checkered Flag
     id:         flag-checkered
     unicode:    f11e
     created:    3.1
@@ -2911,7 +2911,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       reply-all
+  - name:       Reply All
     id:         reply-all
     unicode:    f122
     created:    3.1
@@ -2935,7 +2935,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       location-arrow
+  - name:       Location Arrow
     id:         location-arrow
     unicode:    f124
     created:    3.1
@@ -2949,14 +2949,14 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       crop
+  - name:       Crop
     id:         crop
     unicode:    f125
     created:    3.1
     categories:
       - Web Application Icons
 
-  - name:       code-fork
+  - name:       Code Fork
     id:         code-fork
     unicode:    f126
     created:    3.1
@@ -3007,7 +3007,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       exclamation
+  - name:       Exclamation
     id:         exclamation
     unicode:    f12a
     created:    3.1
@@ -3021,7 +3021,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       superscript
+  - name:       Superscript
     id:         superscript
     unicode:    f12b
     created:    3.1
@@ -3030,14 +3030,14 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       subscript
+  - name:       Subscript
     id:         subscript
     unicode:    f12c
     created:    3.1
     categories:
       - Text Editor Icons
 
-  - name:       eraser
+  - name:       Eraser
     id:         eraser
     unicode:    f12d
     created:    3.1
@@ -3060,7 +3060,7 @@ icons:
       - Web Application Icons
 
 
-  - name:       microphone
+  - name:       Microphone
     id:         microphone
     unicode:    f130
     created:    3.1
@@ -3083,7 +3083,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       shield
+  - name:       Shield
     id:         shield
     unicode:    f132
     created:    3.1
@@ -3095,7 +3095,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       calendar-o
+  - name:       Outlined Calendar
     id:         calendar-o
     unicode:    f133
     created:    3.1
@@ -3107,14 +3107,14 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       fire-extinguisher
+  - name:       Fire Extinguisher
     id:         fire-extinguisher
     unicode:    f134
     created:    3.1
     categories:
       - Web Application Icons
 
-  - name:       rocket
+  - name:       Rocket
     id:         rocket
     unicode:    f135
     created:    3.1
@@ -3569,7 +3569,7 @@ icons:
       - Web Application Icons
 
 
-  - name:       thumbs-up
+  - name:       Thumbs Up
     id:         thumbs-up
     unicode:    f164
     created:    3.2
@@ -3583,7 +3583,7 @@ icons:
       - Web Application Icons
       - Hand Icons
 
-  - name:       thumbs-down
+  - name:       Thumbs Down
     id:         thumbs-down
     unicode:    f165
     created:    3.2
@@ -4219,7 +4219,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       spoon
+  - name:       Spoon
     id:         spoon
     unicode:    f1b1
     created:    4.1
@@ -4555,7 +4555,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       header
+  - name:       Header
     id:         header
     unicode:    f1dc
     created:    4.1
@@ -4564,7 +4564,7 @@ icons:
     categories:
       - Text Editor Icons
 
-  - name:       paragraph
+  - name:       Paragraph
     id:         paragraph
     unicode:    f1dd
     created:    4.1
@@ -4998,7 +4998,7 @@ icons:
     categories:
       - Brand Icons
 
-  - name:       skyatlas
+  - name:       SkyAtlas
     id:         skyatlas
     unicode:    f216
     created:    4.3
@@ -6475,7 +6475,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Window Close Outline
+  - name:       Window Close Outlined
     id:         window-close-o
     unicode:    f2d4
     created:    4.7
