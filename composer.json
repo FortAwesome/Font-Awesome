@@ -3,6 +3,7 @@
   "description": "The iconic font and CSS framework",
   "keywords": ["font", "awesome", "fontawesome", "icon", "font", "bootstrap"],
   "homepage": "http://fontawesome.io/",
+  "type": "component",
   "authors": [
     {
       "name": "Dave Gandy",
