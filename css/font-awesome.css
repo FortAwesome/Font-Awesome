@@ -25,6 +25,7 @@
   line-height: 0.75em;
   vertical-align: -15%;
 }
+/* enlarges the font by 2x, 3x, 4x or 5x */
 .fa-2x {
   font-size: 2em;
 }
