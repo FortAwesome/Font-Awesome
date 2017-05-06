@@ -4786,6 +4786,9 @@ icons:
     id:         at
     unicode:    f1fa
     created:    4.2
+    filter:
+      - email
+      - e-mail
     categories:
       - Web Application Icons
 
