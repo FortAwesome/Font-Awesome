@@ -5,7 +5,7 @@ $(function () {
     {
       quote: "Pre-order and get Font Awesome 5 Pro and <strong>ALL</strong> stretch goals for just $40!",
       class: "fa5",
-      url: "http://five.fontawesome.com",
+      url: "https://fontawesome.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=banner&utm_campaign=promo_4.7_update",
       btn_text: "Pre-order FA Pro! &nbsp;<i class='fa fa-external-link'></i>",
     },
   ];

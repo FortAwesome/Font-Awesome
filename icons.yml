@@ -40,10 +40,11 @@ icons:
     created:    1.0
     filter:
       - email
-      - support
       - e-mail
       - letter
+      - support
       - mail
+      - message
       - notification
     categories:
       - Web Application Icons
@@ -2243,6 +2244,7 @@ icons:
       - letter
       - support
       - mail
+      - message
       - notification
     categories:
       - Web Application Icons
@@ -4040,6 +4042,14 @@ icons:
     id:         envelope-square
     unicode:    f199
     created:    4.1
+    filter:
+      - email
+      - e-mail
+      - letter
+      - support
+      - mail
+      - message
+      - notification
     categories:
       - Web Application Icons
 
@@ -4776,6 +4786,9 @@ icons:
     id:         at
     unicode:    f1fa
     created:    4.2
+    filter:
+      - email
+      - e-mail
     categories:
       - Web Application Icons
 
@@ -6230,6 +6243,14 @@ icons:
     id:         envelope-open
     unicode:    f2b6
     created:    4.7
+    filter:
+      - email
+      - e-mail
+      - letter
+      - support
+      - mail
+      - message
+      - notification
     categories:
       - Web Application Icons
 
@@ -6237,6 +6258,14 @@ icons:
     id:         envelope-open-o
     unicode:    f2b7
     created:    4.7
+    filter:
+      - email
+      - e-mail
+      - letter
+      - support
+      - mail
+      - message
+      - notification
     categories:
       - Web Application Icons
 
