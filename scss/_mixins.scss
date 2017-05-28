@@ -12,6 +12,7 @@
 }
 
 @mixin fa-icon-rotate($degrees, $rotation) {
+  animation: fa-spin 2s infinite linear;
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})";
   -webkit-transform: rotate($degrees);
       -ms-transform: rotate($degrees);
