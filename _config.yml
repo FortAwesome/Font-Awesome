@@ -29,6 +29,7 @@ fontawesome:
   twitter:        fontawesome
   tagline:        The iconic font and CSS toolkit
   css_prefix:     fa
+  font_family:    FontAwesome
   author:
     name:         Dave Gandy
     email:        dave@fontawesome.io
