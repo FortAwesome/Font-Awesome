@@ -1,0 +1,107 @@
+@mixin fontawesome-icon($name) {
+  @include icon(
+    $name: $name,
+
+    $name-list: (
+      glass, music, search, envelope, heart, star, star-empty, user,
+      film, th-large, th, th-list, ok, remove, zoom-in, zoom-out, off, signal,
+      cog, trash, home, file, time, road, download-alt, download, upload,
+      inbox, play-circle, repeat, refresh, list-alt, lock, flag, headphones,
+      volume-off, volume-down, volume-up, qrcode, barcode, tag, tags, book,
+      bookmark, print, camera, font, bold, italic, text-height, text-width,
+      align-left, align-center, align-right, align-justify, list, indent-left,
+      indent-right, facetime-video, picture, pencil, map-marker, adjust, tint,
+      edit, share, check, move, step-backward, fast-backward, backward, play,
+      pause, stop, forward, fast-forward, step-forward, eject, chevron-left,
+      chevron-right, plus-sign, minus-sign, remove-sign, ok-sign,
+      question-sign, info-sign, screenshot, remove-circle, ok-circle,
+      ban-circle, arrow-left, arrow-right, arrow-up, arrow-down, share-alt,
+      resize-full, resize-small, plus, minus, asterisk, exclamation-sign, gift,
+      leaf, fire, eye-open, eye-close, warning-sign, plane, calendar, random,
+      comment, magnet, chevron-up, chevron-down, retweet, shopping-cart,
+      folder-close, folder-open, resize-vertical, resize-horizontal, bar-chart,
+      twitter-sign, facebook-sign, camera-retro, key, cogs, comments,
+      thumbs-up, thumbs-down, star-half, heart-empty, signout, linkedin-sign,
+      pushpin, external-link, signin, trophy, github-sign, upload-alt, lemon,
+      phone, check-empty, bookmark-empty, phone-sign, twitter, facebook,
+      github, unlock, credit-card, rss, hdd, bullhorn, bell, certificate,
+      hand-right, hand-left, hand-up, hand-down, circle-arrow-left,
+      circle-arrow-right, circle-arrow-up, circle-arrow-down, globe, wrench,
+      tasks, filter, briefcase, fullscreen, group, link, cloud, beaker, cut,
+      copy, paper-clip, save, sign-blank, reorder, list-ul, list-ol,
+      strikethrough, underline, table, magic, truck, pinterest, pinterest-sign,
+      google-plus-sign, google-plus, money, caret-down, caret-up, caret-left,
+      caret-right, columns, sort, sort-down, sort-up, envelope-alt, linkedin,
+      undo, legal, dashboard, comment-alt, comments-alt, bolt, sitemap,
+      umbrella, paste, lightbulb, exchange, cloud-download, cloud-upload,
+      user-md, stethoscope, suitcase, bell-alt, coffee, food, file-alt,
+      building, hospital, ambulance, medkit, fighter-jet, beer, h-sign,
+      plus-sign-alt, double-angle-left, double-angle-right, double-angle-up,
+      double-angle-down, angle-left, angle-right, angle-up, angle-down,
+      desktop, laptop, tablet, mobile-phone, circle-blank, quote-left,
+      quote-right, spinner, circle, reply, github-alt, folder-close-alt,
+      folder-open-alt
+    ),
+
+    $value-list: (
+      "000", "001", "002", "003", "004", "005", "006", "007", "008", "009",
+      "00a", "00b", "00c", "00d", "00e", "010", "011", "012", "013", "014",
+      "015", "016", "017", "018", "019", "01a", "01b", "01c", "01d", "01e",
+      "021", "022", "023", "024", "025", "026", "027", "028", "029", "02a",
+      "02b", "02c", "02d", "02e", "02f", "030", "031", "032", "033", "034",
+      "035", "036", "037", "038", "039", "03a", "03b", "03c", "03d", "03e",
+      "040", "041", "042", "043", "044", "045", "046", "047", "048", "049",
+      "04a", "04b", "04c", "04d", "04e", "050", "051", "052", "053", "054",
+      "055", "056", "057", "058", "059", "05a", "05b", "05c", "05d", "05e",
+      "060", "061", "062", "063", "064", "065", "066", "067", "068", "069",
+      "06a", "06b", "06c", "06d", "06e", "070", "071", "072", "073", "074",
+      "075", "076", "077", "078", "079", "07a", "07b", "07c", "07d", "07e",
+      "080", "081", "082", "083", "084", "085", "086", "087", "088", "089",
+      "08a", "08b", "08c", "08d", "08e", "090", "091", "092", "093", "094",
+      "095", "096", "097", "098", "099", "09a", "09b", "09c", "09d", "09e",
+      "0a0", "0a1", "0a2", "0a3", "0a4", "0a5", "0a6", "0a7", "0a8", "0a9",
+      "0aa", "0ab", "0ac", "0ad", "0ae", "0b0", "0b1", "0b2", "0c0", "0c1",
+      "0c2", "0c3", "0c4", "0c5", "0c6", "0c7", "0c8", "0c9", "0ca", "0cb",
+      "0cc", "0cd", "0ce", "0d0", "0d1", "0d2", "0d3", "0d4", "0d5", "0d6",
+      "0d7", "0d8", "0d9", "0da", "0db", "0dc", "0dd", "0de", "0e0", "0e1",
+      "0e2", "0e3", "0e4", "0e5", "0e6", "0e7", "0e8", "0e9", "0ea", "0eb",
+      "0ec", "0ed", "0ee", "0f0", "0f1", "0f2", "0f3", "0f4", "0f5", "0f6",
+      "0f7", "0f8", "0f9", "0fa", "0fb", "0fc", "0fd", "0fe", "100", "101",
+      "102", "103", "104", "105", "106", "107", "108", "109", "10a", "10b",
+      "10c", "10d", "10e", "110", "111", "112", "113", "114", "115"
+    ),
+
+    $font-name: "FontAwesome"
+  );
+}
+
+@mixin icon($name, $name-list, $font-name, $value-list: null) {
+  &:before {
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: inherit;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+
+    font-family: $font-name;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    vertical-align: middle;
+
+    @for $i from 1 through length($name-list) {
+      $icon-name: nth($name-list, $i);
+
+      @if $name == $icon-name {
+        @if $value-list {
+          content: "\f#{nth($value-list, $i)}";
+        } @else {
+          content: "\f#{hex($i - 1, 3)}";
+        }
+      }
+    }
+  }
+}
