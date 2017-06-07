@@ -1,0 +1,802 @@
+/*  Font Awesome 3.0
+    the iconic font designed for use with Twitter Bootstrap
+    -------------------------------------------------------
+    The full suite of pictographic icons, examples, and documentation
+    can be found at: http://fortawesome.github.com/Font-Awesome/
+
+    License
+    -------------------------------------------------------
+    • The Font Awesome font is licensed under the SIL Open Font License - http://scripts.sil.org/OFL
+    • Font Awesome CSS, LESS, and SASS files are licensed under the MIT License -
+      http://opensource.org/licenses/mit-license.html
+    • The Font Awesome pictograms are licensed under the CC BY 3.0 License - http://creativecommons.org/licenses/by/3.0/
+    • Attribution is no longer required in Font Awesome 3.0, but much appreciated:
+      "Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome"
+
+    Contact
+    -------------------------------------------------------
+    Email: dave@davegandy.com
+    Twitter: http://twitter.com/fortaweso_me
+    Work: Lead Product Designer @ http://kyruus.com
+
+    */
+
+/*  Font Awesome styles
+    ------------------------------------------------------- */
+
+$defineIconClasses: false !default;
+$fontAwesomePath:   "../font" !default;
+$borderColor:       #eee;
+$iconMuted:         #eee;
+@mixin border-radius($radius) { -webkit-border-radius: $radius; -moz-border-radius: $radius; border-radius: $radius; }
+
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('#{$fontAwesomePath}/fontawesome-webfont.eot');
+  src: url('#{$fontAwesomePath}/fontawesome-webfont.eot?#iefix') format("embedded-opentype"),
+    url('#{$fontAwesomePath}/fontawesome-webfont.woff') format("woff"),
+    url('#{$fontAwesomePath}/fontawesome-webfont.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon"],
+[class*=" icon"] {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none !important;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+}
+
+[class^="icon"]:before,
+[class*=" icon"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+
+/* makes sure icons active on rollover in links */
+a {
+  [class^="icon"],
+  [class*=" icon"] {
+    display: inline-block;
+  }
+}
+
+/* makes the font 33% larger relative to the icon container */
+@mixin icon-large() {
+  &:before {
+    vertical-align: -10%;
+    font-size: 1.3333333333333333em;
+  }
+}
+
+.icon-large {
+  @include icon-large();
+}
+
+.btn, .nav {
+  [class^="icon"],
+  [class*=" icon"] {
+    display: inline;
+    /* keeps button heights with and without icons the same */
+    line-height: .6em;
+    &.icon-spin {
+      display: inline-block;
+    }
+  }
+}
+
+li {
+  [class^="icon"],
+  [class*=" icon"] {
+    display: inline-block;
+    width: 1.25em;
+    text-align: center;
+    &.icon-large {
+      /* increased font size for icon-large */
+      width: 1.25*1.25em;
+    }
+  }
+}
+
+ul.icons {
+  list-style-type: none;
+  text-indent: -.75em;
+
+  li {
+    [class^="icon"],
+    [class*=" icon"] {
+      width: .75em;
+    }
+  }
+}
+
+@mixin icon-muted() {
+  color: $iconMuted;
+}
+
+.icon-muted {
+  @include icon-muted();
+}
+
+// Icon Borders
+// -------------------------
+
+@mixin icon-border() {
+  border: solid 1px $borderColor;
+  padding: .2em .25em .15em;
+  @include border-radius(3px);
+}
+
+.icon-border {
+  @include icon-border();
+}
+
+// Icon Sizes
+// -------------------------
+
+@mixin icon-2x() {
+  font-size: 2em;
+  &.icon-border {
+    border-width: 2px;
+    @include border-radius(4px);
+  }
+}
+
+@mixin icon-3x() {
+  font-size: 3em;
+  &.icon-border {
+    border-width: 3px;
+    @include border-radius(5px);
+  }
+}
+
+@mixin icon-4x() {
+  font-size: 4em;
+  &.icon-border {
+    border-width: 4px;
+    @include border-radius(6px);
+  }
+}
+
+.icon-2x {
+  @include icon-2x();
+}
+
+.icon-3x {
+  @include icon-3x();
+}
+
+.icon-4x {
+  @include icon-4x();
+}
+
+// Floats
+// -------------------------
+
+// Quick floats
+.pull-right { float: right; }
+.pull-left { float: left; }
+
+[class^="icon"],
+[class*=" icon"] {
+  &.pull-left {
+    margin-right: .35em;
+  }
+  &.pull-right {
+    margin-left: .35em;
+  }
+}
+
+.btn {
+  [class^="icon"],
+  [class*=" icon"] {
+    &.pull-left, &.pull-right {
+      &.icon-2x { margin-top: .35em; }
+    }
+    &.icon-spin.icon-large { height: .75em; }
+  }
+}
+
+.btn.btn-small {
+  [class^="icon"],
+  [class*=" icon"] {
+    &.pull-left, &.pull-right {
+      &.icon-2x { margin-top: .45em; }
+    }
+  }
+}
+
+.btn.btn-large {
+  [class^="icon"],
+  [class*=" icon"] {
+    &.pull-left, &.pull-right {
+      &.icon-2x { margin-top: .2em; }
+    }
+  }
+}
+
+
+@mixin icon-spin() {
+  display: inline-block;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+.icon-spin {
+  @include icon-spin();
+}
+
+@-moz-keyframes spin {
+  0% { -moz-transform: rotate(0deg); }
+  100% { -moz-transform: rotate(359deg); }
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(359deg); }
+}
+@-o-keyframes spin {
+  0% { -o-transform: rotate(0deg); }
+  100% { -o-transform: rotate(359deg); }
+}
+@-ms-keyframes spin {
+  0% { -ms-transform: rotate(0deg); }
+  100% { -ms-transform: rotate(359deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+@mixin icon-glass                { &:before { content: "\f000"; }}
+@mixin icon-music                { &:before { content: "\f001"; }}
+@mixin icon-search               { &:before { content: "\f002"; }}
+@mixin icon-envelope             { &:before { content: "\f003"; }}
+@mixin icon-heart                { &:before { content: "\f004"; }}
+@mixin icon-star                 { &:before { content: "\f005"; }}
+@mixin icon-star-empty           { &:before { content: "\f006"; }}
+@mixin icon-user                 { &:before { content: "\f007"; }}
+@mixin icon-film                 { &:before { content: "\f008"; }}
+@mixin icon-th-large             { &:before { content: "\f009"; }}
+@mixin icon-th                   { &:before { content: "\f00a"; }}
+@mixin icon-th-list              { &:before { content: "\f00b"; }}
+@mixin icon-ok                   { &:before { content: "\f00c"; }}
+@mixin icon-remove               { &:before { content: "\f00d"; }}
+@mixin icon-zoom-in              { &:before { content: "\f00e"; }}
+
+@mixin icon-zoom-out             { &:before { content: "\f010"; }}
+@mixin icon-off                  { &:before { content: "\f011"; }}
+@mixin icon-signal               { &:before { content: "\f012"; }}
+@mixin icon-cog                  { &:before { content: "\f013"; }}
+@mixin icon-trash                { &:before { content: "\f014"; }}
+@mixin icon-home                 { &:before { content: "\f015"; }}
+@mixin icon-file                 { &:before { content: "\f016"; }}
+@mixin icon-time                 { &:before { content: "\f017"; }}
+@mixin icon-road                 { &:before { content: "\f018"; }}
+@mixin icon-download-alt         { &:before { content: "\f019"; }}
+@mixin icon-download             { &:before { content: "\f01a"; }}
+@mixin icon-upload               { &:before { content: "\f01b"; }}
+@mixin icon-inbox                { &:before { content: "\f01c"; }}
+@mixin icon-play-circle          { &:before { content: "\f01d"; }}
+@mixin icon-repeat               { &:before { content: "\f01e"; }}
+
+/* \f020 doesn't work in Safari. all shifted one down */
+@mixin icon-refresh              { &:before { content: "\f021"; }}
+@mixin icon-list-alt             { &:before { content: "\f022"; }}
+@mixin icon-lock                 { &:before { content: "\f023"; }}
+@mixin icon-flag                 { &:before { content: "\f024"; }}
+@mixin icon-headphones           { &:before { content: "\f025"; }}
+@mixin icon-volume-off           { &:before { content: "\f026"; }}
+@mixin icon-volume-down          { &:before { content: "\f027"; }}
+@mixin icon-volume-up            { &:before { content: "\f028"; }}
+@mixin icon-qrcode               { &:before { content: "\f029"; }}
+@mixin icon-barcode              { &:before { content: "\f02a"; }}
+@mixin icon-tag                  { &:before { content: "\f02b"; }}
+@mixin icon-tags                 { &:before { content: "\f02c"; }}
+@mixin icon-book                 { &:before { content: "\f02d"; }}
+@mixin icon-bookmark             { &:before { content: "\f02e"; }}
+@mixin icon-print                { &:before { content: "\f02f"; }}
+
+@mixin icon-camera               { &:before { content: "\f030"; }}
+@mixin icon-font                 { &:before { content: "\f031"; }}
+@mixin icon-bold                 { &:before { content: "\f032"; }}
+@mixin icon-italic               { &:before { content: "\f033"; }}
+@mixin icon-text-height          { &:before { content: "\f034"; }}
+@mixin icon-text-width           { &:before { content: "\f035"; }}
+@mixin icon-align-left           { &:before { content: "\f036"; }}
+@mixin icon-align-center         { &:before { content: "\f037"; }}
+@mixin icon-align-right          { &:before { content: "\f038"; }}
+@mixin icon-align-justify        { &:before { content: "\f039"; }}
+@mixin icon-list                 { &:before { content: "\f03a"; }}
+@mixin icon-indent-left          { &:before { content: "\f03b"; }}
+@mixin icon-indent-right         { &:before { content: "\f03c"; }}
+@mixin icon-facetime-video       { &:before { content: "\f03d"; }}
+@mixin icon-picture              { &:before { content: "\f03e"; }}
+
+@mixin icon-pencil               { &:before { content: "\f040"; }}
+@mixin icon-map-marker           { &:before { content: "\f041"; }}
+@mixin icon-adjust               { &:before { content: "\f042"; }}
+@mixin icon-tint                 { &:before { content: "\f043"; }}
+@mixin icon-edit                 { &:before { content: "\f044"; }}
+@mixin icon-share                { &:before { content: "\f045"; }}
+@mixin icon-check                { &:before { content: "\f046"; }}
+@mixin icon-move                 { &:before { content: "\f047"; }}
+@mixin icon-step-backward        { &:before { content: "\f048"; }}
+@mixin icon-fast-backward        { &:before { content: "\f049"; }}
+@mixin icon-backward             { &:before { content: "\f04a"; }}
+@mixin icon-play                 { &:before { content: "\f04b"; }}
+@mixin icon-pause                { &:before { content: "\f04c"; }}
+@mixin icon-stop                 { &:before { content: "\f04d"; }}
+@mixin icon-forward              { &:before { content: "\f04e"; }}
+
+@mixin icon-fast-forward         { &:before { content: "\f050"; }}
+@mixin icon-step-forward         { &:before { content: "\f051"; }}
+@mixin icon-eject                { &:before { content: "\f052"; }}
+@mixin icon-chevron-left         { &:before { content: "\f053"; }}
+@mixin icon-chevron-right        { &:before { content: "\f054"; }}
+@mixin icon-plus-sign            { &:before { content: "\f055"; }}
+@mixin icon-minus-sign           { &:before { content: "\f056"; }}
+@mixin icon-remove-sign          { &:before { content: "\f057"; }}
+@mixin icon-ok-sign              { &:before { content: "\f058"; }}
+@mixin icon-question-sign        { &:before { content: "\f059"; }}
+@mixin icon-info-sign            { &:before { content: "\f05a"; }}
+@mixin icon-screenshot           { &:before { content: "\f05b"; }}
+@mixin icon-remove-circle        { &:before { content: "\f05c"; }}
+@mixin icon-ok-circle            { &:before { content: "\f05d"; }}
+@mixin icon-ban-circle           { &:before { content: "\f05e"; }}
+
+@mixin icon-arrow-left           { &:before { content: "\f060"; }}
+@mixin icon-arrow-right          { &:before { content: "\f061"; }}
+@mixin icon-arrow-up             { &:before { content: "\f062"; }}
+@mixin icon-arrow-down           { &:before { content: "\f063"; }}
+@mixin icon-share-alt            { &:before { content: "\f064"; }}
+@mixin icon-resize-full          { &:before { content: "\f065"; }}
+@mixin icon-resize-small         { &:before { content: "\f066"; }}
+@mixin icon-plus                 { &:before { content: "\f067"; }}
+@mixin icon-minus                { &:before { content: "\f068"; }}
+@mixin icon-asterisk             { &:before { content: "\f069"; }}
+@mixin icon-exclamation-sign     { &:before { content: "\f06a"; }}
+@mixin icon-gift                 { &:before { content: "\f06b"; }}
+@mixin icon-leaf                 { &:before { content: "\f06c"; }}
+@mixin icon-fire                 { &:before { content: "\f06d"; }}
+@mixin icon-eye-open             { &:before { content: "\f06e"; }}
+
+@mixin icon-eye-close            { &:before { content: "\f070"; }}
+@mixin icon-warning-sign         { &:before { content: "\f071"; }}
+@mixin icon-plane                { &:before { content: "\f072"; }}
+@mixin icon-calendar             { &:before { content: "\f073"; }}
+@mixin icon-random               { &:before { content: "\f074"; }}
+@mixin icon-comment              { &:before { content: "\f075"; }}
+@mixin icon-magnet               { &:before { content: "\f076"; }}
+@mixin icon-chevron-up           { &:before { content: "\f077"; }}
+@mixin icon-chevron-down         { &:before { content: "\f078"; }}
+@mixin icon-retweet              { &:before { content: "\f079"; }}
+@mixin icon-shopping-cart        { &:before { content: "\f07a"; }}
+@mixin icon-folder-close         { &:before { content: "\f07b"; }}
+@mixin icon-folder-open          { &:before { content: "\f07c"; }}
+@mixin icon-resize-vertical      { &:before { content: "\f07d"; }}
+@mixin icon-resize-horizontal    { &:before { content: "\f07e"; }}
+
+@mixin icon-bar-chart            { &:before { content: "\f080"; }}
+@mixin icon-twitter-sign         { &:before { content: "\f081"; }}
+@mixin icon-facebook-sign        { &:before { content: "\f082"; }}
+@mixin icon-camera-retro         { &:before { content: "\f083"; }}
+@mixin icon-key                  { &:before { content: "\f084"; }}
+@mixin icon-cogs                 { &:before { content: "\f085"; }}
+@mixin icon-comments             { &:before { content: "\f086"; }}
+@mixin icon-thumbs-up            { &:before { content: "\f087"; }}
+@mixin icon-thumbs-down          { &:before { content: "\f088"; }}
+@mixin icon-star-half            { &:before { content: "\f089"; }}
+@mixin icon-heart-empty          { &:before { content: "\f08a"; }}
+@mixin icon-signout              { &:before { content: "\f08b"; }}
+@mixin icon-linkedin-sign        { &:before { content: "\f08c"; }}
+@mixin icon-pushpin              { &:before { content: "\f08d"; }}
+@mixin icon-external-link        { &:before { content: "\f08e"; }}
+
+@mixin icon-signin               { &:before { content: "\f090"; }}
+@mixin icon-trophy               { &:before { content: "\f091"; }}
+@mixin icon-github-sign          { &:before { content: "\f092"; }}
+@mixin icon-upload-alt           { &:before { content: "\f093"; }}
+@mixin icon-lemon                { &:before { content: "\f094"; }}
+@mixin icon-phone                { &:before { content: "\f095"; }}
+@mixin icon-check-empty          { &:before { content: "\f096"; }}
+@mixin icon-bookmark-empty       { &:before { content: "\f097"; }}
+@mixin icon-phone-sign           { &:before { content: "\f098"; }}
+@mixin icon-twitter              { &:before { content: "\f099"; }}
+@mixin icon-facebook             { &:before { content: "\f09a"; }}
+@mixin icon-github               { &:before { content: "\f09b"; }}
+@mixin icon-unlock               { &:before { content: "\f09c"; }}
+@mixin icon-credit-card          { &:before { content: "\f09d"; }}
+@mixin icon-rss                  { &:before { content: "\f09e"; }}
+
+@mixin icon-hdd                  { &:before { content: "\f0a0"; }}
+@mixin icon-bullhorn             { &:before { content: "\f0a1"; }}
+@mixin icon-bell                 { &:before { content: "\f0a2"; }}
+@mixin icon-certificate          { &:before { content: "\f0a3"; }}
+@mixin icon-hand-right           { &:before { content: "\f0a4"; }}
+@mixin icon-hand-left            { &:before { content: "\f0a5"; }}
+@mixin icon-hand-up              { &:before { content: "\f0a6"; }}
+@mixin icon-hand-down            { &:before { content: "\f0a7"; }}
+@mixin icon-circle-arrow-left    { &:before { content: "\f0a8"; }}
+@mixin icon-circle-arrow-right   { &:before { content: "\f0a9"; }}
+@mixin icon-circle-arrow-up      { &:before { content: "\f0aa"; }}
+@mixin icon-circle-arrow-down    { &:before { content: "\f0ab"; }}
+@mixin icon-globe                { &:before { content: "\f0ac"; }}
+@mixin icon-wrench               { &:before { content: "\f0ad"; }}
+@mixin icon-tasks                { &:before { content: "\f0ae"; }}
+
+@mixin icon-filter               { &:before { content: "\f0b0"; }}
+@mixin icon-briefcase            { &:before { content: "\f0b1"; }}
+@mixin icon-fullscreen           { &:before { content: "\f0b2"; }}
+
+@mixin icon-group                { &:before { content: "\f0c0"; }}
+@mixin icon-link                 { &:before { content: "\f0c1"; }}
+@mixin icon-cloud                { &:before { content: "\f0c2"; }}
+@mixin icon-beaker               { &:before { content: "\f0c3"; }}
+@mixin icon-cut                  { &:before { content: "\f0c4"; }}
+@mixin icon-copy                 { &:before { content: "\f0c5"; }}
+@mixin icon-paper-clip           { &:before { content: "\f0c6"; }}
+@mixin icon-save                 { &:before { content: "\f0c7"; }}
+@mixin icon-sign-blank           { &:before { content: "\f0c8"; }}
+@mixin icon-reorder              { &:before { content: "\f0c9"; }}
+@mixin icon-list-ul              { &:before { content: "\f0ca"; }}
+@mixin icon-list-ol              { &:before { content: "\f0cb"; }}
+@mixin icon-strikethrough        { &:before { content: "\f0cc"; }}
+@mixin icon-underline            { &:before { content: "\f0cd"; }}
+@mixin icon-table                { &:before { content: "\f0ce"; }}
+
+@mixin icon-magic                { &:before { content: "\f0d0"; }}
+@mixin icon-truck                { &:before { content: "\f0d1"; }}
+@mixin icon-pinterest            { &:before { content: "\f0d2"; }}
+@mixin icon-pinterest-sign       { &:before { content: "\f0d3"; }}
+@mixin icon-google-plus-sign     { &:before { content: "\f0d4"; }}
+@mixin icon-google-plus          { &:before { content: "\f0d5"; }}
+@mixin icon-money                { &:before { content: "\f0d6"; }}
+@mixin icon-caret-down           { &:before { content: "\f0d7"; }}
+@mixin icon-caret-up             { &:before { content: "\f0d8"; }}
+@mixin icon-caret-left           { &:before { content: "\f0d9"; }}
+@mixin icon-caret-right          { &:before { content: "\f0da"; }}
+@mixin icon-columns              { &:before { content: "\f0db"; }}
+@mixin icon-sort                 { &:before { content: "\f0dc"; }}
+@mixin icon-sort-down            { &:before { content: "\f0dd"; }}
+@mixin icon-sort-up              { &:before { content: "\f0de"; }}
+
+@mixin icon-envelope-alt         { &:before { content: "\f0e0"; }}
+@mixin icon-linkedin             { &:before { content: "\f0e1"; }}
+@mixin icon-undo                 { &:before { content: "\f0e2"; }}
+@mixin icon-legal                { &:before { content: "\f0e3"; }}
+@mixin icon-dashboard            { &:before { content: "\f0e4"; }}
+@mixin icon-comment-alt          { &:before { content: "\f0e5"; }}
+@mixin icon-comments-alt         { &:before { content: "\f0e6"; }}
+@mixin icon-bolt                 { &:before { content: "\f0e7"; }}
+@mixin icon-sitemap              { &:before { content: "\f0e8"; }}
+@mixin icon-umbrella             { &:before { content: "\f0e9"; }}
+@mixin icon-paste                { &:before { content: "\f0ea"; }}
+@mixin icon-lightbulb            { &:before { content: "\f0eb"; }}
+@mixin icon-exchange             { &:before { content: "\f0ec"; }}
+@mixin icon-cloud-download       { &:before { content: "\f0ed"; }}
+@mixin icon-cloud-upload         { &:before { content: "\f0ee"; }}
+
+@mixin icon-user-md              { &:before { content: "\f0f0"; }}
+@mixin icon-stethoscope          { &:before { content: "\f0f1"; }}
+@mixin icon-suitcase             { &:before { content: "\f0f2"; }}
+@mixin icon-bell-alt             { &:before { content: "\f0f3"; }}
+@mixin icon-coffee               { &:before { content: "\f0f4"; }}
+@mixin icon-food                 { &:before { content: "\f0f5"; }}
+@mixin icon-file-alt             { &:before { content: "\f0f6"; }}
+@mixin icon-building             { &:before { content: "\f0f7"; }}
+@mixin icon-hospital             { &:before { content: "\f0f8"; }}
+@mixin icon-ambulance            { &:before { content: "\f0f9"; }}
+@mixin icon-medkit               { &:before { content: "\f0fa"; }}
+@mixin icon-fighter-jet          { &:before { content: "\f0fb"; }}
+@mixin icon-beer                 { &:before { content: "\f0fc"; }}
+@mixin icon-h-sign               { &:before { content: "\f0fd"; }}
+@mixin icon-plus-sign-alt        { &:before { content: "\f0fe"; }}
+
+@mixin icon-double-angle-left    { &:before { content: "\f100"; }}
+@mixin icon-double-angle-right   { &:before { content: "\f101"; }}
+@mixin icon-double-angle-up      { &:before { content: "\f102"; }}
+@mixin icon-double-angle-down    { &:before { content: "\f103"; }}
+@mixin icon-angle-left           { &:before { content: "\f104"; }}
+@mixin icon-angle-right          { &:before { content: "\f105"; }}
+@mixin icon-angle-up             { &:before { content: "\f106"; }}
+@mixin icon-angle-down           { &:before { content: "\f107"; }}
+@mixin icon-desktop              { &:before { content: "\f108"; }}
+@mixin icon-laptop               { &:before { content: "\f109"; }}
+@mixin icon-tablet               { &:before { content: "\f10a"; }}
+@mixin icon-mobile-phone         { &:before { content: "\f10b"; }}
+@mixin icon-circle-blank         { &:before { content: "\f10c"; }}
+@mixin icon-quote-left           { &:before { content: "\f10d"; }}
+@mixin icon-quote-right          { &:before { content: "\f10e"; }}
+
+@mixin icon-spinner              { &:before { content: "\f110"; }}
+@mixin icon-circle               { &:before { content: "\f111"; }}
+@mixin icon-reply                { &:before { content: "\f112"; }}
+@mixin icon-github-alt           { &:before { content: "\f113"; }}
+@mixin icon-folder-close-alt     { &:before { content: "\f114"; }}
+@mixin icon-folder-open-alt      { &:before { content: "\f115"; }}
+
+/*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+    readers do not read off random characters that represent icons */
+@if($defineIconClasses)
+{
+  .icon-glass                { @include icon-glass(); }
+  .icon-music                { @include icon-music(); }
+  .icon-search               { @include icon-search(); }
+  .icon-envelope             { @include icon-envelope(); }
+  .icon-heart                { @include icon-heart(); }
+  .icon-star                 { @include icon-star(); }
+  .icon-star-empty           { @include icon-star-empty(); }
+  .icon-user                 { @include icon-user(); }
+  .icon-film                 { @include icon-film(); }
+  .icon-th-large             { @include icon-th-large(); }
+  .icon-th                   { @include icon-th(); }
+  .icon-th-list              { @include icon-th-list(); }
+  .icon-ok                   { @include icon-ok(); }
+  .icon-remove               { @include icon-remove(); }
+  .icon-zoom-in              { @include icon-zoom-in(); }
+
+  .icon-zoom-out             { @include icon-zoom-out(); }
+  .icon-off                  { @include icon-off(); }
+  .icon-signal               { @include icon-signal(); }
+  .icon-cog                  { @include icon-cog(); }
+  .icon-trash                { @include icon-trash(); }
+  .icon-home                 { @include icon-home(); }
+  .icon-file                 { @include icon-file(); }
+  .icon-time                 { @include icon-time(); }
+  .icon-road                 { @include icon-road(); }
+  .icon-download-alt         { @include icon-download-alt(); }
+  .icon-download             { @include icon-download(); }
+  .icon-upload               { @include icon-upload(); }
+  .icon-inbox                { @include icon-inbox(); }
+  .icon-play-circle          { @include icon-play-circle(); }
+  .icon-repeat               { @include icon-repeat(); }
+
+  /* \f020 doesn't work in Safari. all shifted one down */
+  .icon-refresh              { @include icon-refresh(); }
+  .icon-list-alt             { @include icon-list-alt(); }
+  .icon-lock                 { @include icon-lock(); }
+  .icon-flag                 { @include icon-flag(); }
+  .icon-headphones           { @include icon-headphones(); }
+  .icon-volume-off           { @include icon-volume-off(); }
+  .icon-volume-down          { @include icon-volume-down(); }
+  .icon-volume-up            { @include icon-volume-up(); }
+  .icon-qrcode               { @include icon-qrcode(); }
+  .icon-barcode              { @include icon-barcode(); }
+  .icon-tag                  { @include icon-tag(); }
+  .icon-tags                 { @include icon-tags(); }
+  .icon-book                 { @include icon-book(); }
+  .icon-bookmark             { @include icon-bookmark(); }
+  .icon-print                { @include icon-print(); }
+
+  .icon-camera               { @include icon-camera(); }
+  .icon-font                 { @include icon-font(); }
+  .icon-bold                 { @include icon-bold(); }
+  .icon-italic               { @include icon-italic(); }
+  .icon-text-height          { @include icon-text-height(); }
+  .icon-text-width           { @include icon-text-width(); }
+  .icon-align-left           { @include icon-align-left(); }
+  .icon-align-center         { @include icon-align-center(); }
+  .icon-align-right          { @include icon-align-right(); }
+  .icon-align-justify        { @include icon-align-justify(); }
+  .icon-list                 { @include icon-list(); }
+  .icon-indent-left          { @include icon-indent-left(); }
+  .icon-indent-right         { @include icon-indent-right(); }
+  .icon-facetime-video       { @include icon-facetime-video(); }
+  .icon-picture              { @include icon-picture(); }
+
+  .icon-pencil               { @include icon-pencil(); }
+  .icon-map-marker           { @include icon-map-marker(); }
+  .icon-adjust               { @include icon-adjust(); }
+  .icon-tint                 { @include icon-tint(); }
+  .icon-edit                 { @include icon-edit(); }
+  .icon-share                { @include icon-share(); }
+  .icon-check                { @include icon-check(); }
+  .icon-move                 { @include icon-move(); }
+  .icon-step-backward        { @include icon-step-backward(); }
+  .icon-fast-backward        { @include icon-fast-backward(); }
+  .icon-backward             { @include icon-backward(); }
+  .icon-play                 { @include icon-play(); }
+  .icon-pause                { @include icon-pause(); }
+  .icon-stop                 { @include icon-stop(); }
+  .icon-forward              { @include icon-forward(); }
+
+  .icon-fast-forward         { @include icon-fast-forward(); }
+  .icon-step-forward         { @include icon-step-forward(); }
+  .icon-eject                { @include icon-eject(); }
+  .icon-chevron-left         { @include icon-chevron-left(); }
+  .icon-chevron-right        { @include icon-chevron-right(); }
+  .icon-plus-sign            { @include icon-plus-sign(); }
+  .icon-minus-sign           { @include icon-minus-sign(); }
+  .icon-remove-sign          { @include icon-remove-sign(); }
+  .icon-ok-sign              { @include icon-ok-sign(); }
+  .icon-question-sign        { @include icon-question-sign(); }
+  .icon-info-sign            { @include icon-info-sign(); }
+  .icon-screenshot           { @include icon-screenshot(); }
+  .icon-remove-circle        { @include icon-remove-circle(); }
+  .icon-ok-circle            { @include icon-ok-circle(); }
+  .icon-ban-circle           { @include icon-ban-circle(); }
+
+  .icon-arrow-left           { @include icon-arrow-left(); }
+  .icon-arrow-right          { @include icon-arrow-right(); }
+  .icon-arrow-up             { @include icon-arrow-up(); }
+  .icon-arrow-down           { @include icon-arrow-down(); }
+  .icon-share-alt            { @include icon-share-alt(); }
+  .icon-resize-full          { @include icon-resize-full(); }
+  .icon-resize-small         { @include icon-resize-small(); }
+  .icon-plus                 { @include icon-plus(); }
+  .icon-minus                { @include icon-minus(); }
+  .icon-asterisk             { @include icon-asterisk(); }
+  .icon-exclamation-sign     { @include icon-exclamation-sign(); }
+  .icon-gift                 { @include icon-gift(); }
+  .icon-leaf                 { @include icon-leaf(); }
+  .icon-fire                 { @include icon-fire(); }
+  .icon-eye-open             { @include icon-eye-open(); }
+
+  .icon-eye-close            { @include icon-eye-close(); }
+  .icon-warning-sign         { @include icon-warning-sign(); }
+  .icon-plane                { @include icon-plane(); }
+  .icon-calendar             { @include icon-calendar(); }
+  .icon-random               { @include icon-random(); }
+  .icon-comment              { @include icon-comment(); }
+  .icon-magnet               { @include icon-magnet(); }
+  .icon-chevron-up           { @include icon-chevron-up(); }
+  .icon-chevron-down         { @include icon-chevron-down(); }
+  .icon-retweet              { @include icon-retweet(); }
+  .icon-shopping-cart        { @include icon-shopping-cart(); }
+  .icon-folder-close         { @include icon-folder-close(); }
+  .icon-folder-open          { @include icon-folder-open(); }
+  .icon-resize-vertical      { @include icon-resize-vertical(); }
+  .icon-resize-horizontal    { @include icon-resize-horizontal(); }
+
+  .icon-bar-chart            { @include icon-bar-chart(); }
+  .icon-twitter-sign         { @include icon-twitter-sign(); }
+  .icon-facebook-sign        { @include icon-facebook-sign(); }
+  .icon-camera-retro         { @include icon-camera-retro(); }
+  .icon-key                  { @include icon-key(); }
+  .icon-cogs                 { @include icon-cogs(); }
+  .icon-comments             { @include icon-comments(); }
+  .icon-thumbs-up            { @include icon-thumbs-up(); }
+  .icon-thumbs-down          { @include icon-thumbs-down(); }
+  .icon-star-half            { @include icon-star-half(); }
+  .icon-heart-empty          { @include icon-heart-empty(); }
+  .icon-signout              { @include icon-signout(); }
+  .icon-linkedin-sign        { @include icon-linkedin-sign(); }
+  .icon-pushpin              { @include icon-pushpin(); }
+  .icon-external-link        { @include icon-external-link(); }
+
+  .icon-signin               { @include icon-signin(); }
+  .icon-trophy               { @include icon-trophy(); }
+  .icon-github-sign          { @include icon-github-sign(); }
+  .icon-upload-alt           { @include icon-upload-alt(); }
+  .icon-lemon                { @include icon-lemon(); }
+  .icon-phone                { @include icon-phone(); }
+  .icon-check-empty          { @include icon-check-empty(); }
+  .icon-bookmark-empty       { @include icon-bookmark-empty(); }
+  .icon-phone-sign           { @include icon-phone-sign(); }
+  .icon-twitter              { @include icon-twitter(); }
+  .icon-facebook             { @include icon-facebook(); }
+  .icon-github               { @include icon-github(); }
+  .icon-unlock               { @include icon-unlock(); }
+  .icon-credit-card          { @include icon-credit-card(); }
+  .icon-rss                  { @include icon-rss(); }
+
+  .icon-hdd                  { @include icon-hdd(); }
+  .icon-bullhorn             { @include icon-bullhorn(); }
+  .icon-bell                 { @include icon-bell(); }
+  .icon-certificate          { @include icon-certificate(); }
+  .icon-hand-right           { @include icon-hand-right(); }
+  .icon-hand-left            { @include icon-hand-left(); }
+  .icon-hand-up              { @include icon-hand-up(); }
+  .icon-hand-down            { @include icon-hand-down(); }
+  .icon-circle-arrow-left    { @include icon-circle-arrow-left(); }
+  .icon-circle-arrow-right   { @include icon-circle-arrow-right(); }
+  .icon-circle-arrow-up      { @include icon-circle-arrow-up(); }
+  .icon-circle-arrow-down    { @include icon-circle-arrow-down(); }
+  .icon-globe                { @include icon-globe(); }
+  .icon-wrench               { @include icon-wrench(); }
+  .icon-tasks                { @include icon-tasks(); }
+
+  .icon-filter               { @include icon-filter(); }
+  .icon-briefcase            { @include icon-briefcase(); }
+  .icon-fullscreen           { @include icon-fullscreen(); }
+
+  .icon-group                { @include icon-group(); }
+  .icon-link                 { @include icon-link(); }
+  .icon-cloud                { @include icon-cloud(); }
+  .icon-beaker               { @include icon-beaker(); }
+  .icon-cut                  { @include icon-cut(); }
+  .icon-copy                 { @include icon-copy(); }
+  .icon-paper-clip           { @include icon-paper-clip(); }
+  .icon-save                 { @include icon-save(); }
+  .icon-sign-blank           { @include icon-sign-blank(); }
+  .icon-reorder              { @include icon-reorder(); }
+  .icon-list-ul              { @include icon-list-ul(); }
+  .icon-list-ol              { @include icon-list-ol(); }
+  .icon-strikethrough        { @include icon-strikethrough(); }
+  .icon-underline            { @include icon-underline(); }
+  .icon-table                { @include icon-table(); }
+
+  .icon-magic                { @include icon-magic(); }
+  .icon-truck                { @include icon-truck(); }
+  .icon-pinterest            { @include icon-pinterest(); }
+  .icon-pinterest-sign       { @include icon-pinterest-sign(); }
+  .icon-google-plus-sign     { @include icon-google-plus-sign(); }
+  .icon-google-plus          { @include icon-google-plus(); }
+  .icon-money                { @include icon-money(); }
+  .icon-caret-down           { @include icon-caret-down(); }
+  .icon-caret-up             { @include icon-caret-up(); }
+  .icon-caret-left           { @include icon-caret-left(); }
+  .icon-caret-right          { @include icon-caret-right(); }
+  .icon-columns              { @include icon-columns(); }
+  .icon-sort                 { @include icon-sort(); }
+  .icon-sort-down            { @include icon-sort-down(); }
+  .icon-sort-up              { @include icon-sort-up(); }
+
+  .icon-envelope-alt         { @include icon-envelope-alt(); }
+  .icon-linkedin             { @include icon-linkedin(); }
+  .icon-undo                 { @include icon-undo(); }
+  .icon-legal                { @include icon-legal(); }
+  .icon-dashboard            { @include icon-dashboard(); }
+  .icon-comment-alt          { @include icon-comment-alt(); }
+  .icon-comments-alt         { @include icon-comments-alt(); }
+  .icon-bolt                 { @include icon-bolt(); }
+  .icon-sitemap              { @include icon-sitemap(); }
+  .icon-umbrella             { @include icon-umbrella(); }
+  .icon-paste                { @include icon-paste(); }
+  .icon-lightbulb            { @include icon-lightbulb(); }
+  .icon-exchange             { @include icon-exchange(); }
+  .icon-cloud-download       { @include icon-cloud-download(); }
+  .icon-cloud-upload         { @include icon-cloud-upload(); }
+
+  .icon-user-md              { @include icon-user-md(); }
+  .icon-stethoscope          { @include icon-stethoscope(); }
+  .icon-suitcase             { @include icon-suitcase(); }
+  .icon-bell-alt             { @include icon-bell-alt(); }
+  .icon-coffee               { @include icon-coffee(); }
+  .icon-food                 { @include icon-food(); }
+  .icon-file-alt             { @include icon-file-alt(); }
+  .icon-building             { @include icon-building(); }
+  .icon-hospital             { @include icon-hospital(); }
+  .icon-ambulance            { @include icon-ambulance(); }
+  .icon-medkit               { @include icon-medkit(); }
+  .icon-fighter-jet          { @include icon-fighter-jet(); }
+  .icon-beer                 { @include icon-beer(); }
+  .icon-h-sign               { @include icon-h-sign(); }
+  .icon-plus-sign-alt        { @include icon-plus-sign-alt(); }
+
+  .icon-double-angle-left    { @include icon-double-angle-left(); }
+  .icon-double-angle-right   { @include icon-double-angle-right(); }
+  .icon-double-angle-up      { @include icon-double-angle-up(); }
+  .icon-double-angle-down    { @include icon-double-angle-down(); }
+  .icon-angle-left           { @include icon-angle-left(); }
+  .icon-angle-right          { @include icon-angle-right(); }
+  .icon-angle-up             { @include icon-angle-up(); }
+  .icon-angle-down           { @include icon-angle-down(); }
+  .icon-desktop              { @include icon-desktop(); }
+  .icon-laptop               { @include icon-laptop(); }
+  .icon-tablet               { @include icon-tablet(); }
+  .icon-mobile-phone         { @include icon-mobile-phone(); }
+  .icon-circle-blank         { @include icon-circle-blank(); }
+  .icon-quote-left           { @include icon-quote-left(); }
+  .icon-quote-right          { @include icon-quote-right(); }
+
+  .icon-spinner              { @include icon-spinner(); }
+  .icon-circle               { @include icon-circle(); }
+  .icon-reply                { @include icon-reply(); }
+  .icon-github-alt           { @include icon-github-alt(); }
+  .icon-folder-close-alt     { @include icon-folder-close-alt(); }
+  .icon-folder-open-alt      { @include icon-folder-open-alt(); }
+}
