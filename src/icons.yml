@@ -5,7 +5,7 @@ icons:
     created:    1.0
     filter:
       - martini
-      - drink
+      - drinkf
       - bar
       - alcohol
       - liquor
@@ -6446,7 +6446,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-
+      - Brand Icons
 
   - name:       Window Maximize
     id:         window-maximize
