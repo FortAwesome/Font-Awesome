@@ -1335,6 +1335,7 @@ icons:
     filter:
       - graph
       - analytics
+      - statistics
     categories:
       - Web Application Icons
       - Chart Icons
@@ -4822,6 +4823,7 @@ icons:
     filter:
       - graph
       - analytics
+      - statistics
     categories:
       - Web Application Icons
       - Chart Icons
@@ -4833,6 +4835,7 @@ icons:
     filter:
       - graph
       - analytics
+      - statistics
     categories:
       - Web Application Icons
       - Chart Icons
@@ -4844,6 +4847,7 @@ icons:
     filter:
       - graph
       - analytics
+      - statistics
     categories:
       - Web Application Icons
       - Chart Icons
