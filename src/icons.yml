@@ -4179,6 +4179,8 @@ icons:
     id:         language
     unicode:    f1ab
     created:    4.1
+    filter:
+      - translate
     categories:
       - Web Application Icons
 
