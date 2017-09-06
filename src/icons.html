@@ -8,7 +8,6 @@ relative_path: ../
 {% capture jumbotron_p %}The complete set of {{ icons | size }} icons in Font Awesome {{ site.fontawesome.version }}{% endcapture %}
 
 {% include jumbotron.html %}
-{% include stripe-social.html %}
 
 <div class="container" data-view="search">
   {% capture stripe_ad_content %}
@@ -22,16 +21,16 @@ relative_path: ../
   {% include stripe-ad.html %}
 
   <div class="row">
-    <div class="col-md-10 col-sm-9">
+    <div class="col-sm-10">
       <section id="search">
         <label for="search-input"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search icons</span></label>
         <input id="search-input" class="form-control input-lg" placeholder="Search icons" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
         <a id="search-clear" href="#" class="fa fa-times-circle hide" aria-hidden="true"><span class="sr-only">Clear search</span></a>
       </section>
     </div>
-    <div class="col-md-2 col-sm-3 padding-left-none hidden-xs">
-      <div class="algolia">
-        by <a href="https://algolia.com"><i class="fas fas-algolia" aria-hidden="true"></i><span class="sr-only">Algolia</span></a>
+    <div class="col-sm-2 padding-left-none hidden-xs">
+      <div class="algolia text-center">
+        <a href="https://algolia.com"><i class="fas fas-algolia-new fas-4x" aria-hidden="true"></i><div>by Algolia</div></a>
       </div>
     </div>
   </div>

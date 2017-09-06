@@ -3,10 +3,10 @@ $(function () {
 
   var ads = [
     {
-      quote: "Pre-order and get Font Awesome 5 Pro and <strong>ALL</strong> stretch goals for just $40!",
+      quote: "September is your last chance to get FA Pro and <strong>ALL</strong> KS rewards for just $40!",
       class: "fa5",
-      url: "https://fontawesome.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_content=banner&utm_campaign=promo_4.7_update",
-      btn_text: "Pre-order FA Pro! &nbsp;<i class='fa fa-external-link'></i>",
+      url: "https://fontawesome.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_campaign=september_last_chance&utm_content=banner",
+      btn_text: "Pre-order FA Pro! &nbsp;<i class='fas fas-external-link'></i>",
     },
   ];
 
@@ -20,7 +20,7 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip();
   $('[data-toggle="popover"]').popover();
 
-  if (storageAvailable('localStorage') && !localStorage.seenFA5Modal2) {
+  if (storageAvailable('localStorage') && !localStorage.seenFA5Modal3) {
     $('#modal-fa5')
       .modal('toggle')
       .on('hidden.bs.modal', function (e) {
@@ -30,7 +30,7 @@ $(function () {
   }
 
   if (storageAvailable('localStorage')) {
-    localStorage.seenFA5Modal2 = true;
+    localStorage.seenFA5Modal3 = true;
   	// Yippee! We can use localStorage awesomeness
   }
 
