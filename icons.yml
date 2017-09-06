@@ -1335,6 +1335,7 @@ icons:
     filter:
       - graph
       - analytics
+      - statistics
     categories:
       - Web Application Icons
       - Chart Icons
@@ -4179,6 +4180,8 @@ icons:
     id:         language
     unicode:    f1ab
     created:    4.1
+    filter:
+      - translate
     categories:
       - Web Application Icons
 
@@ -4820,6 +4823,7 @@ icons:
     filter:
       - graph
       - analytics
+      - statistics
     categories:
       - Web Application Icons
       - Chart Icons
@@ -4831,6 +4835,7 @@ icons:
     filter:
       - graph
       - analytics
+      - statistics
     categories:
       - Web Application Icons
       - Chart Icons
@@ -4842,6 +4847,7 @@ icons:
     filter:
       - graph
       - analytics
+      - statistics
     categories:
       - Web Application Icons
       - Chart Icons
