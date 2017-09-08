@@ -8,7 +8,7 @@ created and maintained by [{{ site.fontawesome.author.name }}](https://twitter.c
 Stay up to date with the latest release and announcements on Twitter:
 [@{{ site.fontawesome.twitter }}](http://twitter.com/{{ site.fontawesome.twitter }}).
 
-Get started at {{ site.fontawesome.url }}!
+Get started at <{{ site.fontawesome.url }}>!
 
 ## License
 - The Font Awesome font is licensed under the SIL OFL 1.1:
@@ -102,6 +102,6 @@ Build the project and documentation:
 
     $ bundle exec jekyll build
 
-Or serve it on a local server on http://localhost:7998/Font-Awesome/:
+Or serve it on a local server on `http://localhost:7998/Font-Awesome/`:
 
     $ bundle exec jekyll -w serve
