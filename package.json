@@ -3,6 +3,7 @@
   "description": "The iconic font and CSS framework",
   "version": "4.7.0",
   "style": "css/font-awesome.css",
+  "jsdelivr": "css/font-awesome.min.css",
   "keywords": ["font", "awesome", "fontawesome", "icon", "bootstrap"],
   "homepage": "http://fontawesome.io/",
   "bugs": {
