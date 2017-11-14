@@ -4548,6 +4548,8 @@ icons:
     id:         history
     unicode:    f1da
     created:    4.1
+    filter:
+      - recent
     categories:
       - Web Application Icons
 
