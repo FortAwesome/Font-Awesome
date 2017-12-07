@@ -4872,6 +4872,8 @@ icons:
     id:         toggle-off
     unicode:    f204
     created:    4.2
+    filter:
+    - switch
     categories:
       - Web Application Icons
 
@@ -4879,6 +4881,8 @@ icons:
     id:         toggle-on
     unicode:    f205
     created:    4.2
+    filter:
+    - switch
     categories:
       - Web Application Icons
 
