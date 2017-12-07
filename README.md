@@ -64,7 +64,7 @@ For more information on SemVer, please visit http://semver.org.
 
 ## Author
 - Email: dave@fontawesome.io
-- Twitter: http://twitter.com/davegandy
+- Twitter: https://twitter.com/davegandy
 - GitHub: https://github.com/davegandy
 
 ## Component
