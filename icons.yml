@@ -4548,6 +4548,8 @@ icons:
     id:         history
     unicode:    f1da
     created:    4.1
+    filter:
+      - recent
     categories:
       - Web Application Icons
 
@@ -5254,12 +5256,13 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Viacoin
+  - name:       Viacoin (VIA)
     id:         viacoin
     unicode:    f237
     created:    4.3
     url:        viacoin.org
     categories:
+      - Currency Icons
       - Brand Icons
 
   - name:       Train
