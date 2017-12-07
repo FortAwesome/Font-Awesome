@@ -1,6 +1,10 @@
 // Mixins
 // --------------------------
 
+@function fa-var($iconName) {
+  @return map-get($fa-var, $iconName);
+}
+
 @mixin fa-icon() {
   display: inline-block;
   font: normal normal normal #{$fa-font-size-base}/#{$fa-line-height-base} FontAwesome; // shortening font declaration
