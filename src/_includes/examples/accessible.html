@@ -5,11 +5,11 @@
   <div class="row">
     <div class="col-md-3 col-sm-4">
       <p>
-        <a class="btn btn-default" href="path/to/settings" aria-label="Settings">
+        <a class="btn btn-default" href="#path/to/settings" aria-label="Settings">
           <i class="fa fa-cog" aria-hidden="true"></i>
         </a>
 
-        <a class="btn btn-danger" href="path/to/settings" aria-label="Delete">
+        <a class="btn btn-danger" href="#path/to/delete" aria-label="Delete">
           <i class="fa fa-trash-o" aria-hidden="true"></i>
         </a>
 
@@ -26,19 +26,17 @@
         <span class="sr-only">Saving. Hang tight!</span>
       </p>
 
-      <p>
-        <div class="input-group margin-bottom-sm">
-          <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></span>
-          <input class="form-control" type="text" placeholder="Email address">
-        </div>
-        <div class="input-group">
-          <span class="input-group-addon"><i class="fa fa-key fa-fw" aria-hidden="true"></i></span>
-          <input class="form-control" type="password" placeholder="Password">
-        </div>
-      </p>
+      <div class="input-group margin-bottom-sm">
+        <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></span>
+        <input class="form-control" type="text" placeholder="Email address">
+      </div>
+      <div class="input-group margin-bottom">
+        <span class="input-group-addon"><i class="fa fa-key fa-fw" aria-hidden="true"></i></span>
+        <input class="form-control" type="password" placeholder="Password">
+      </div>
 
       <p>
-        <a href="path/to/shopping/cart" class="btn btn-primary" aria-label="View 3 items in your shopping cart">
+        <a href="#path/to/shopping/cart" class="btn btn-primary" aria-label="View 3 items in your shopping cart">
           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
         </a>
       </p>
@@ -54,11 +52,11 @@
       </p>
 
 {% highlight html %}
-<a class="btn btn-default" href="path/to/settings" aria-label="Settings">
+<a class="btn btn-default" href="#path/to/settings" aria-label="Settings">
   <i class="fa fa-cog" aria-hidden="true"></i>
 </a>
 
-<a class="btn btn-danger" href="path/to/settings" aria-label="Delete">
+<a class="btn btn-danger" href="#path/to/delete" aria-label="Delete">
   <i class="fa fa-trash-o" aria-hidden="true"></i>
 </a>
 
@@ -87,7 +85,7 @@
 {% endhighlight %}
 
 {% highlight html %}
-<a href="path/to/shopping/cart" class="btn btn-primary" aria-label="View 3 items in your shopping cart">
+<a href="#path/to/shopping/cart" class="btn btn-primary" aria-label="View 3 items in your shopping cart">
   <i class="fa fa-shopping-cart" aria-hidden="true"></i>
 </a>
 {% endhighlight %}
