@@ -352,6 +352,7 @@ icons:
     filter:
       - reload
       - sync
+      - swap
     categories:
       - Web Application Icons
       - Spinner Icons
@@ -1276,6 +1277,7 @@ icons:
       - refresh
       - reload
       - share
+      - swap
     categories:
       - Web Application Icons
 
