@@ -5,12 +5,12 @@ $(function () {
     {
       quote: "Get 2,000+ icons with Font Awesome Pro and <strong>ALL</strong> KS rewards for just $60!",
       class: "fa5",
-      url: "https://fontawesome.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_campaign=two_thousand_60&utm_content=banner",
+      url: "https://fontawesome.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=banner",
       btn_text: "Check out FA Pro &nbsp;<i class='fas fas-external-link'></i>",
     },
   ];
 
-  selectAd();
+  // selectAd();
 
   // start the icon carousel
   $('#icon-carousel').carousel({
@@ -20,7 +20,7 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip();
   $('[data-toggle="popover"]').popover();
 
-  if (storageAvailable('localStorage') && !localStorage.seenFA5Modal3) {
+  if (storageAvailable('localStorage') && !localStorage.seenFA5ReleasedModal) {
     $('#modal-fa5')
       .modal('toggle')
       .on('hidden.bs.modal', function (e) {
@@ -30,7 +30,7 @@ $(function () {
   }
 
   if (storageAvailable('localStorage')) {
-    localStorage.seenFA5Modal3 = true;
+    localStorage.seenFA5ReleasedModal = true;
   	// Yippee! We can use localStorage awesomeness
   }
 

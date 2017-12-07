@@ -4,7 +4,7 @@
 Font Awesome is a full suite of 675 pictographic icons for easy scalable vector graphics on websites,
 created and maintained by [Dave Gandy](https://twitter.com/davegandy).
 Stay up to date with the latest release and announcements on Twitter:
-[@fontawesome](http://twitter.com/fontawesome).
+[@fontawesome](https://twitter.com/fontawesome).
 
 Get started at http://fontawesome.io!
 
@@ -14,7 +14,7 @@ Get started at http://fontawesome.io!
 - Font Awesome CSS, LESS, and Sass files are licensed under the MIT License:
   - https://opensource.org/licenses/mit-license.html
 - The Font Awesome documentation is licensed under the CC BY 3.0 License:
-  - http://creativecommons.org/licenses/by/3.0/
+  - https://creativecommons.org/licenses/by/3.0/
 - Attribution is no longer required as of Font Awesome 3.0, but much appreciated:
   - `Font Awesome by Dave Gandy - http://fontawesome.io`
 - Full details: http://fontawesome.io/license/
