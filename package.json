@@ -5,6 +5,8 @@
   "style": "css/font-awesome.css",
   "keywords": ["font", "awesome", "fontawesome", "icon", "bootstrap"],
   "homepage": "http://fontawesome.io/",
+  "style": "css/font-awesome.css",
+  "less": "less/font-awesome.less",
   "bugs": {
     "url" : "http://github.com/FortAwesome/Font-Awesome/issues"
   },
