@@ -45,6 +45,9 @@ fontawesome:
     code:
       version:      MIT License
       url:          http://opensource.org/licenses/mit-license.html
+    cdn:
+      version:      MIT License
+      url:          http://opensource.org/licenses/mit-license.html
     documentation:
       version:      CC BY 3.0
       url:          http://creativecommons.org/licenses/by/3.0/
