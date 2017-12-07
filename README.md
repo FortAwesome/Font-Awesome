@@ -66,6 +66,13 @@ For more information on SemVer, please visit http://semver.org.
 - Email: dave@fontawesome.io
 - Twitter: http://twitter.com/davegandy
 - GitHub: https://github.com/davegandy
+- 
+## Bower
+To Install with [bower](http://bower.io/).
+
+Just run
+
+    $ bower install font-awesome
 
 ## Component
 To include as a [component](https://github.com/componentjs/component), just run
