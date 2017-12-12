@@ -17,7 +17,7 @@ Get started at http://fontawesome.io!
   - https://creativecommons.org/licenses/by/3.0/
 - Attribution is no longer required as of Font Awesome 3.0, but much appreciated:
   - `Font Awesome by Dave Gandy - http://fontawesome.io`
-- Full details: http://fontawesome.io/license/
+- Full details: https://fontawesome.com/license/
 
 ## Changelog
 - [v4.7.0 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/10012)
