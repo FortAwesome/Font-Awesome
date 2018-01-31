@@ -1,6 +1,6 @@
-# Font Awesome 5 Free
+<h1><img src="https://img.fortawesome.com/349cfdf6/logo-fa-free.svg" alt="Font Awesome 5 Free" width="50%"></h1>
 
-> The iconic SVG, font, and CSS framework
+> Version 5 – the iconic SVG, font, and CSS framework
 
 The internet's most popular icon toolkit has been redesigned and built from
 scratch. On top of this, features like icon font ligatures, an SVG framework,
@@ -13,7 +13,7 @@ successful Kickstarter and plan. You can also **[order Font Awesome
 Pro](https://fontawesome.com/pro)** which includes tons more icons directly
 from [fontawesome.com](https://fontawesome.com).
 
-## Get started!
+## Get started with 5!
 
 Learn how to [get started](https://fontawesome.com/get-started) with Font Awesome or dive deeper into [other topics](https://fontawesome.com/how-to-use).
 
@@ -29,6 +29,20 @@ Learn how to [get started](https://fontawesome.com/get-started) with Font Awesom
 * [Performance and Security](https://fontawesome.com/how-to-use/performance-and-security)
 * [Accessibility](https://fontawesome.com/how-to-use/accessibility)
 
+### Where did Font Awesome 4 (or 3) go?
+
+Now that Font Awesome 5 has been released we are marking version 4 as
+end-of-life. We don't plan on releasing any further versions of the 4.x or 3.x.
+
+Documentation is still available but it's moved to
+[https://fontawesome.com/v4.7.0](https://fontawesome.com/v4.7.0) and
+[https://fontawesome.com/v3.2.1](https://fontawesome.com/v3.2.1).
+
+The Git repository for
+[v4.7.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/v4.7.0) and
+[v3.2.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/v3.2.1) can
+be found in our GitHub releases.
+
 ## Change log
 
 We'll keep track of each release in the [CHANGELOG.md](./CHANGELOG.md)
@@ -40,6 +54,11 @@ Looking for older versions of Font Awesome? Check the [releases](https://github.
 From time-to-time we'll have special upgrading instructions from one version to the next.
 
 Check out the [UPGRADING.md](./UPGRADING.md) guide when you upgrade your dependencies.
+
+## Code of conduct
+
+We will behave ourselves if you behave yourselves. For more details see our
+[CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
 
 ## Contributing
 
@@ -88,3 +107,12 @@ files normally.
 We've kept attribution comments terse, so we ask that you do not actively work
 to remove them from files, especially code. They're a great way for folks to
 learn about Font Awesome.
+
+## Team
+
+* [Dave Gandy](https://github.com/davegandy)
+* [Travis Chase](https://github.com/supercodepoet)
+* [Rob Madole](https://github.com/robmadole)
+* [Brian Talbot](https://github.com/talbs)
+* [Jory Raphael](https://github.com/sensibleworld)
+* [Mike Wilkerson](https://github.com/mlwilkerson)
