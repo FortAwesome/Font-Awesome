@@ -1,7 +1,7 @@
 # [Font Awesome v4.7.0](http://fontawesome.io) [![Changelog #226](https://img.shields.io/badge/changelog-%23226-9E978E.svg)](https://changelog.com/podcast/226)
 ### The iconic font and CSS framework
 
-Font Awesome is a full suite of 675 pictographic icons for easy scalable vector graphics on websites,
+Font Awesome is a full suite of 677 pictographic icons for easy scalable vector graphics on websites,
 created and maintained by [Dave Gandy](https://twitter.com/davegandy).
 Stay up to date with the latest release and announcements on Twitter:
 [@fontawesome](https://twitter.com/fontawesome).
