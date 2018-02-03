@@ -6576,3 +6576,27 @@ icons:
     created:    4.7
     categories:
       - Brand Icons
+
+  - name:       Mastodon
+    id:         mastodon
+    unicode:    f2e1
+    created:    5.0
+    url:        joinmastodon.org
+    filter:
+      - toot
+      - social network
+    categories:
+      - Web Application Icons
+      - Brand Icons
+
+  - name:       Mastodon Alt
+    id:         mastodon-alt
+    unicode:    f2e2
+    created:    5.0
+    url:        joinmastodon.org
+    filter:
+      - toot
+      - social network
+    categories:
+      - Web Application Icons
+      - Brand Icons
