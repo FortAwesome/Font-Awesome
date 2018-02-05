@@ -8,8 +8,8 @@ We only accept issues that are icon requests, bug reports, or feature requests.
 Bugs must be isolated and reproducible problems that we can fix within the Font
 Awesome core.
 
-* [Request a new icon](https://github.com/FortAwesome/Font-Awesome/issues/new?title=Icon%20request:%20icon-name&template=icon-request)
-* [Submit a bug report](https://github.com/FortAwesome/Font-Awesome/issues/new?template=bug-report)
+* [Request a new icon](https://github.com/FortAwesome/Font-Awesome/issues/new?title=Icon%20request:%20icon-name&template=icon-request.md)
+* [Submit a bug report](https://github.com/FortAwesome/Font-Awesome/issues/new?template=bug-report.md)
 
 ## Key branches
 
