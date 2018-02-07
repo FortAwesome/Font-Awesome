@@ -367,6 +367,9 @@ var makeIconMasking = function (_ref) {
   var maskWidth = mask.width,
       maskPath = mask.icon;
 
+  if (!main.found) {
+    return null;
+  }
 
   var trans = transformForSvg({ transform: transform, containerWidth: maskWidth, iconWidth: mainWidth });
 
@@ -416,6 +419,10 @@ var makeIconStandard = function (_ref) {
       main = _ref.main,
       transform = _ref.transform,
       styles = _ref.styles;
+
+  if (!main.found) {
+    return null;
+  }
 
   var styleString = joinStyles(styles);
 
@@ -546,8 +553,13 @@ function makeInlineSvgAbstract(params) {
     styles: extra.styles
   });
 
-  var _ref2 = mask.found && main.found ? makeIconMasking(args) : makeIconStandard(args),
-      children = _ref2.children,
+  var _ref2 = mask.found && main.found ? makeIconMasking(args) : makeIconStandard(args);
+
+  if (!_ref2) {
+    return null;
+  }
+
+  var children = _ref2.children,
       attributes = _ref2.attributes;
 
   args.children = children;
@@ -1223,8 +1235,7 @@ function generateSvgReplacementMutation(node, nodeMeta) {
       mask = nodeMeta.mask,
       extra = nodeMeta.extra;
 
-
-  return [node, makeInlineSvgAbstract({
+  var icon = makeInlineSvgAbstract({
     icons: {
       main: findIcon(iconName, prefix),
       mask: findIcon(mask.iconName, mask.prefix)
@@ -1237,7 +1248,13 @@ function generateSvgReplacementMutation(node, nodeMeta) {
     title: title,
     extra: extra,
     watchable: true
-  })];
+  });
+
+  if (!icon) {
+    return false;
+  }
+
+  return [node, icon];
 }
 
 function generateLayersText(node, nodeMeta) {
