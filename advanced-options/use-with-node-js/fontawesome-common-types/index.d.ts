@@ -238,6 +238,112 @@ export type IconName = '500px' |
   'gratipay' | 
   'grav' | 
   'gripfire' | 
+  'address-book' | 
+  'address-card' | 
+  'adjust' | 
+  'align-center' | 
+  'align-justify' | 
+  'align-left' | 
+  'align-right' | 
+  'ambulance' | 
+  'american-sign-language-interpreting' | 
+  'anchor' | 
+  'angle-double-down' | 
+  'angle-double-left' | 
+  'angle-double-right' | 
+  'angle-double-up' | 
+  'angle-down' | 
+  'angle-left' | 
+  'angle-right' | 
+  'angle-up' | 
+  'archive' | 
+  'arrow-alt-circle-down' | 
+  'arrow-alt-circle-left' | 
+  'arrow-alt-circle-right' | 
+  'arrow-alt-circle-up' | 
+  'arrow-circle-down' | 
+  'arrow-circle-left' | 
+  'arrow-circle-right' | 
+  'arrow-circle-up' | 
+  'arrow-down' | 
+  'arrow-left' | 
+  'arrow-right' | 
+  'arrow-up' | 
+  'arrows-alt' | 
+  'arrows-alt-h' | 
+  'arrows-alt-v' | 
+  'assistive-listening-systems' | 
+  'asterisk' | 
+  'at' | 
+  'audio-description' | 
+  'backward' | 
+  'balance-scale' | 
+  'ban' | 
+  'band-aid' | 
+  'barcode' | 
+  'bars' | 
+  'baseball-ball' | 
+  'basketball-ball' | 
+  'bath' | 
+  'battery-empty' | 
+  'battery-full' | 
+  'battery-half' | 
+  'battery-quarter' | 
+  'battery-three-quarters' | 
+  'bed' | 
+  'beer' | 
+  'bell' | 
+  'bell-slash' | 
+  'bicycle' | 
+  'binoculars' | 
+  'birthday-cake' | 
+  'blind' | 
+  'bold' | 
+  'bolt' | 
+  'bomb' | 
+  'book' | 
+  'bookmark' | 
+  'bowling-ball' | 
+  'box' | 
+  'boxes' | 
+  'braille' | 
+  'briefcase' | 
+  'bug' | 
+  'building' | 
+  'bullhorn' | 
+  'bullseye' | 
+  'bus' | 
+  'calculator' | 
+  'calendar' | 
+  'calendar-alt' | 
+  'calendar-check' | 
+  'calendar-minus' | 
+  'calendar-plus' | 
+  'calendar-times' | 
+  'camera' | 
+  'camera-retro' | 
+  'car' | 
+  'caret-down' | 
+  'caret-left' | 
+  'caret-right' | 
+  'caret-square-down' | 
+  'caret-square-left' | 
+  'caret-square-right' | 
+  'caret-square-up' | 
+  'caret-up' | 
+  'cart-arrow-down' | 
+  'cart-plus' | 
+  'certificate' | 
+  'chart-area' | 
+  'chart-bar' | 
+  'chart-line' | 
+  'chart-pie' | 
+  'check' | 
+  'check-circle' | 
+  'check-square' | 
+  'chess' | 
+  'chess-bishop' | 
+  'chess-board' | 
   'money-bill-alt' | 
   'moon' | 
   'newspaper' | 
@@ -332,111 +438,116 @@ export type IconName = '500px' |
   'opencart' | 
   'openid' | 
   'opera' | 
-  'address-book' | 
-  'address-card' | 
-  'adjust' | 
-  'align-center' | 
-  'align-justify' | 
-  'align-left' | 
-  'align-right' | 
-  'ambulance' | 
-  'american-sign-language-interpreting' | 
-  'anchor' | 
-  'angle-double-down' | 
-  'angle-double-left' | 
-  'angle-double-right' | 
-  'angle-double-up' | 
-  'angle-down' | 
-  'angle-left' | 
-  'angle-right' | 
-  'angle-up' | 
-  'archive' | 
-  'arrow-alt-circle-down' | 
-  'arrow-alt-circle-left' | 
-  'arrow-alt-circle-right' | 
-  'arrow-alt-circle-up' | 
-  'arrow-circle-down' | 
-  'arrow-circle-left' | 
-  'arrow-circle-right' | 
-  'arrow-circle-up' | 
-  'arrow-down' | 
-  'arrow-left' | 
-  'arrow-right' | 
-  'arrow-up' | 
-  'arrows-alt' | 
-  'arrows-alt-h' | 
-  'arrows-alt-v' | 
-  'assistive-listening-systems' | 
-  'asterisk' | 
-  'at' | 
-  'audio-description' | 
-  'backward' | 
-  'balance-scale' | 
-  'ban' | 
-  'barcode' | 
-  'bars' | 
-  'baseball-ball' | 
-  'basketball-ball' | 
-  'bath' | 
-  'battery-empty' | 
-  'battery-full' | 
-  'battery-half' | 
-  'battery-quarter' | 
-  'battery-three-quarters' | 
-  'bed' | 
-  'beer' | 
-  'bell' | 
-  'bell-slash' | 
-  'bicycle' | 
-  'binoculars' | 
-  'birthday-cake' | 
-  'blind' | 
-  'bold' | 
-  'bolt' | 
-  'bomb' | 
-  'book' | 
-  'bookmark' | 
-  'bowling-ball' | 
-  'braille' | 
-  'briefcase' | 
-  'bug' | 
-  'building' | 
-  'bullhorn' | 
-  'bullseye' | 
-  'bus' | 
-  'calculator' | 
-  'calendar' | 
-  'calendar-alt' | 
-  'calendar-check' | 
-  'calendar-minus' | 
-  'calendar-plus' | 
-  'calendar-times' | 
-  'camera' | 
-  'camera-retro' | 
-  'car' | 
-  'caret-down' | 
-  'caret-left' | 
-  'caret-right' | 
-  'caret-square-down' | 
-  'caret-square-left' | 
-  'caret-square-right' | 
-  'caret-square-up' | 
-  'caret-up' | 
-  'cart-arrow-down' | 
-  'cart-plus' | 
-  'certificate' | 
-  'chart-area' | 
-  'chart-bar' | 
-  'chart-line' | 
-  'chart-pie' | 
-  'check' | 
-  'check-circle' | 
-  'check-square' | 
-  'chess' | 
-  'chess-bishop' | 
-  'chess-board' | 
   'chess-king' | 
   'chess-knight' | 
+  'chess-pawn' | 
+  'chess-queen' | 
+  'chess-rook' | 
+  'chevron-circle-down' | 
+  'chevron-circle-left' | 
+  'chevron-circle-right' | 
+  'chevron-circle-up' | 
+  'chevron-down' | 
+  'chevron-left' | 
+  'chevron-right' | 
+  'chevron-up' | 
+  'child' | 
+  'circle' | 
+  'circle-notch' | 
+  'clipboard' | 
+  'clipboard-check' | 
+  'clipboard-list' | 
+  'clock' | 
+  'clone' | 
+  'closed-captioning' | 
+  'cloud' | 
+  'cloud-download-alt' | 
+  'cloud-upload-alt' | 
+  'code' | 
+  'code-branch' | 
+  'coffee' | 
+  'cog' | 
+  'cogs' | 
+  'columns' | 
+  'comment' | 
+  'comment-alt' | 
+  'comments' | 
+  'compass' | 
+  'compress' | 
+  'copy' | 
+  'copyright' | 
+  'credit-card' | 
+  'crop' | 
+  'crosshairs' | 
+  'cube' | 
+  'cubes' | 
+  'cut' | 
+  'database' | 
+  'deaf' | 
+  'desktop' | 
+  'dna' | 
+  'dollar-sign' | 
+  'dolly' | 
+  'dolly-flatbed' | 
+  'dot-circle' | 
+  'download' | 
+  'edit' | 
+  'eject' | 
+  'ellipsis-h' | 
+  'ellipsis-v' | 
+  'envelope' | 
+  'envelope-open' | 
+  'envelope-square' | 
+  'eraser' | 
+  'euro-sign' | 
+  'exchange-alt' | 
+  'exclamation' | 
+  'exclamation-circle' | 
+  'exclamation-triangle' | 
+  'expand' | 
+  'expand-arrows-alt' | 
+  'external-link-alt' | 
+  'external-link-square-alt' | 
+  'eye' | 
+  'eye-dropper' | 
+  'eye-slash' | 
+  'fast-backward' | 
+  'fast-forward' | 
+  'fax' | 
+  'female' | 
+  'fighter-jet' | 
+  'file' | 
+  'file-alt' | 
+  'file-archive' | 
+  'file-audio' | 
+  'file-code' | 
+  'file-excel' | 
+  'file-image' | 
+  'file-pdf' | 
+  'file-powerpoint' | 
+  'file-video' | 
+  'file-word' | 
+  'film' | 
+  'filter' | 
+  'fire' | 
+  'fire-extinguisher' | 
+  'first-aid' | 
+  'flag' | 
+  'flag-checkered' | 
+  'flask' | 
+  'folder' | 
+  'folder-open' | 
+  'font' | 
+  'football-ball' | 
+  'forward' | 
+  'frown' | 
+  'futbol' | 
+  'gamepad' | 
+  'gavel' | 
+  'gem' | 
+  'genderless' | 
+  'gift' | 
+  'glass-martini' | 
   'optin-monster' | 
   'osi' | 
   'page4' | 
@@ -500,109 +611,6 @@ export type IconName = '500px' |
   'stack-overflow' | 
   'staylinked' | 
   'steam' | 
-  'steam-square' | 
-  'chess-pawn' | 
-  'chess-queen' | 
-  'chess-rook' | 
-  'chevron-circle-down' | 
-  'chevron-circle-left' | 
-  'chevron-circle-right' | 
-  'chevron-circle-up' | 
-  'chevron-down' | 
-  'chevron-left' | 
-  'chevron-right' | 
-  'chevron-up' | 
-  'child' | 
-  'circle' | 
-  'circle-notch' | 
-  'clipboard' | 
-  'clock' | 
-  'clone' | 
-  'closed-captioning' | 
-  'cloud' | 
-  'cloud-download-alt' | 
-  'cloud-upload-alt' | 
-  'code' | 
-  'code-branch' | 
-  'coffee' | 
-  'cog' | 
-  'cogs' | 
-  'columns' | 
-  'comment' | 
-  'comment-alt' | 
-  'comments' | 
-  'compass' | 
-  'compress' | 
-  'copy' | 
-  'copyright' | 
-  'credit-card' | 
-  'crop' | 
-  'crosshairs' | 
-  'cube' | 
-  'cubes' | 
-  'cut' | 
-  'database' | 
-  'deaf' | 
-  'desktop' | 
-  'dollar-sign' | 
-  'dot-circle' | 
-  'download' | 
-  'edit' | 
-  'eject' | 
-  'ellipsis-h' | 
-  'ellipsis-v' | 
-  'envelope' | 
-  'envelope-open' | 
-  'envelope-square' | 
-  'eraser' | 
-  'euro-sign' | 
-  'exchange-alt' | 
-  'exclamation' | 
-  'exclamation-circle' | 
-  'exclamation-triangle' | 
-  'expand' | 
-  'expand-arrows-alt' | 
-  'external-link-alt' | 
-  'external-link-square-alt' | 
-  'eye' | 
-  'eye-dropper' | 
-  'eye-slash' | 
-  'fast-backward' | 
-  'fast-forward' | 
-  'fax' | 
-  'female' | 
-  'fighter-jet' | 
-  'file' | 
-  'file-alt' | 
-  'file-archive' | 
-  'file-audio' | 
-  'file-code' | 
-  'file-excel' | 
-  'file-image' | 
-  'file-pdf' | 
-  'file-powerpoint' | 
-  'file-video' | 
-  'file-word' | 
-  'film' | 
-  'filter' | 
-  'fire' | 
-  'fire-extinguisher' | 
-  'flag' | 
-  'flag-checkered' | 
-  'flask' | 
-  'folder' | 
-  'folder-open' | 
-  'font' | 
-  'football-ball' | 
-  'forward' | 
-  'frown' | 
-  'futbol' | 
-  'gamepad' | 
-  'gavel' | 
-  'gem' | 
-  'genderless' | 
-  'gift' | 
-  'glass-martini' | 
   'globe' | 
   'golf-ball' | 
   'graduation-cap' | 
@@ -611,69 +619,6 @@ export type IconName = '500px' |
   'hand-paper' | 
   'hand-peace' | 
   'hand-point-down' | 
-  'steam-symbol' | 
-  'sticker-mule' | 
-  'strava' | 
-  'stripe' | 
-  'stripe-s' | 
-  'studiovinari' | 
-  'stumbleupon' | 
-  'stumbleupon-circle' | 
-  'superpowers' | 
-  'supple' | 
-  'telegram' | 
-  'telegram-plane' | 
-  'tencent-weibo' | 
-  'themeisle' | 
-  'trello' | 
-  'tripadvisor' | 
-  'tumblr' | 
-  'tumblr-square' | 
-  'twitch' | 
-  'twitter' | 
-  'twitter-square' | 
-  'typo3' | 
-  'uber' | 
-  'uikit' | 
-  'uniregistry' | 
-  'untappd' | 
-  'usb' | 
-  'ussunnah' | 
-  'vaadin' | 
-  'viacoin' | 
-  'viadeo' | 
-  'viadeo-square' | 
-  'viber' | 
-  'vimeo' | 
-  'vimeo-square' | 
-  'vimeo-v' | 
-  'vine' | 
-  'vk' | 
-  'vnv' | 
-  'vuejs' | 
-  'weibo' | 
-  'weixin' | 
-  'whatsapp' | 
-  'whatsapp-square' | 
-  'whmcs' | 
-  'wikipedia-w' | 
-  'windows' | 
-  'wordpress' | 
-  'wordpress-simple' | 
-  'wpbeginner' | 
-  'wpexplorer' | 
-  'wpforms' | 
-  'xbox' | 
-  'xing' | 
-  'xing-square' | 
-  'y-combinator' | 
-  'yahoo' | 
-  'yandex' | 
-  'yandex-international' | 
-  'yelp' | 
-  'yoast' | 
-  'youtube' | 
-  'youtube-square' | 
   'hand-point-left' | 
   'hand-point-right' | 
   'hand-point-up' | 
@@ -692,6 +637,7 @@ export type IconName = '500px' |
   'hockey-puck' | 
   'home' | 
   'hospital' | 
+  'hospital-symbol' | 
   'hourglass' | 
   'hourglass-end' | 
   'hourglass-half' | 
@@ -766,9 +712,74 @@ export type IconName = '500px' |
   'object-ungroup' | 
   'outdent' | 
   'paint-brush' | 
+  'pallet' | 
   'paper-plane' | 
   'paperclip' | 
   'paragraph' | 
+  'steam-square' | 
+  'steam-symbol' | 
+  'sticker-mule' | 
+  'strava' | 
+  'stripe' | 
+  'stripe-s' | 
+  'studiovinari' | 
+  'stumbleupon' | 
+  'stumbleupon-circle' | 
+  'superpowers' | 
+  'supple' | 
+  'telegram' | 
+  'telegram-plane' | 
+  'tencent-weibo' | 
+  'themeisle' | 
+  'trello' | 
+  'tripadvisor' | 
+  'tumblr' | 
+  'tumblr-square' | 
+  'twitch' | 
+  'twitter' | 
+  'twitter-square' | 
+  'typo3' | 
+  'uber' | 
+  'uikit' | 
+  'uniregistry' | 
+  'untappd' | 
+  'usb' | 
+  'ussunnah' | 
+  'vaadin' | 
+  'viacoin' | 
+  'viadeo' | 
+  'viadeo-square' | 
+  'viber' | 
+  'vimeo' | 
+  'vimeo-square' | 
+  'vimeo-v' | 
+  'vine' | 
+  'vk' | 
+  'vnv' | 
+  'vuejs' | 
+  'weibo' | 
+  'weixin' | 
+  'whatsapp' | 
+  'whatsapp-square' | 
+  'whmcs' | 
+  'wikipedia-w' | 
+  'windows' | 
+  'wordpress' | 
+  'wordpress-simple' | 
+  'wpbeginner' | 
+  'wpexplorer' | 
+  'wpforms' | 
+  'xbox' | 
+  'xing' | 
+  'xing-square' | 
+  'y-combinator' | 
+  'yahoo' | 
+  'yandex' | 
+  'yandex-international' | 
+  'yelp' | 
+  'yoast' | 
+  'youtube' | 
+  'youtube-square' | 
   'paste' | 
   'pause' | 
   'pause-circle' | 
@@ -779,6 +790,7 @@ export type IconName = '500px' |
   'phone' | 
   'phone-square' | 
   'phone-volume' | 
+  'pills' | 
   'plane' | 
   'play' | 
   'play-circle' | 
@@ -823,6 +835,7 @@ export type IconName = '500px' |
   'shekel-sign' | 
   'shield-alt' | 
   'ship' | 
+  'shipping-fast' | 
   'shopping-bag' | 
   'shopping-basket' | 
   'shopping-cart' | 
@@ -866,6 +879,7 @@ export type IconName = '500px' |
   'superscript' | 
   'sync' | 
   'sync-alt' | 
+  'syringe' | 
   'table' | 
   'table-tennis' | 
   'tablet' | 
@@ -881,6 +895,7 @@ export type IconName = '500px' |
   'th' | 
   'th-large' | 
   'th-list' | 
+  'thermometer' | 
   'thermometer-empty' | 
   'thermometer-full' | 
   'thermometer-half' | 
@@ -933,6 +948,8 @@ export type IconName = '500px' |
   'volume-down' | 
   'volume-off' | 
   'volume-up' | 
+  'warehouse' | 
+  'weight' | 
   'wheelchair' | 
   'wifi' | 
   'window-close' | 

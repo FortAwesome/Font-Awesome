@@ -1,6 +1,6 @@
 /*!
- * Font Awesome Free 5.0.6 by @fontawesome - http://fontawesome.com
- * License - http://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Font Awesome Free 5.0.7 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -609,7 +609,7 @@ function makeLayersTextAbstract(params) {
 
 var noop$2 = function noop() {};
 var p = config$1.measurePerformance && PERFORMANCE && PERFORMANCE.mark && PERFORMANCE.measure ? PERFORMANCE : { mark: noop$2, measure: noop$2 };
-var preamble = 'FA "5.0.6"';
+var preamble = 'FA "5.0.7"';
 
 var begin = function begin(name) {
   p.mark(preamble + ' ' + name + ' begins');
@@ -891,6 +891,8 @@ function disableObservation(operation) {
   disabled = false;
 }
 
+var mo = null;
+
 function observe(options) {
   if (!MUTATION_OBSERVER) return;
 
@@ -899,7 +901,7 @@ function observe(options) {
       pseudoElementsCallback = options.pseudoElementsCallback;
 
 
-  var mo = new MUTATION_OBSERVER(function (objects) {
+  mo = new MUTATION_OBSERVER(function (objects) {
     if (disabled) return;
 
     toArray(objects).forEach(function (mutationRecord) {
@@ -935,6 +937,12 @@ function observe(options) {
   mo.observe(DOCUMENT.getElementsByTagName('body')[0], {
     childList: true, attributes: true, characterData: true, subtree: true
   });
+}
+
+function disconnect() {
+  if (!mo) return;
+
+  mo.disconnect();
 }
 
 var styleParser = function (node) {
@@ -1584,8 +1592,10 @@ function resolveIcons(next) {
 }
 
 var library = new Library();
+
 var noAuto = function noAuto() {
-  return auto(false);
+  auto(false);
+  disconnect();
 };
 
 var dom = {
@@ -1714,7 +1724,7 @@ var layer = function layer(assembler) {
     var children = [];
 
     assembler(function (args) {
-      Array.isArray(args) ? children = args.map(function (a) {
+      Array.isArray(args) ? args.map(function (a) {
         children = children.concat(a.abstract);
       }) : children = children.concat(args.abstract);
     });
