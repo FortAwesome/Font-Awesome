@@ -10,6 +10,27 @@ not have access**
 
 ---
 
+## [5.0.7](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.0.7)  - 2018-02-26
+
+### Added
+* New Logistics category
+* New Medical category
+* Individual SVG files available from the Font Awesome CDN
+* Additional search terms
+
+### Changed
+* Apple brand icon update FortAwesome/Font-Awesome#12337
+* Disable mutation observers with fontawesome.noAuto() is called
+* License information now references https URL scheme
+
+### Fixed
+* Missing TypeScript names FortAwesome/react-fontawesome#83
+* Adding categories metadata FortAwesome/Font-Awesome#12034
+* TypeScript improvement for fontawesome.layer()
+* Correcting a melting, wobbling, weird-looking whistle
+
+---
+
 ## [5.0.6](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.0.6)  - 2018-01-25
 
 ### Fixed

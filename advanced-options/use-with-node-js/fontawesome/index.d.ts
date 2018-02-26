@@ -10,7 +10,7 @@ export function findIconDefinition(iconLookup: IconLookup): IconDefinition;
 export function text(content: string, params?: Params): Text;
 export function layer(
   assembler: (
-    addLayerCallback: (layerToAdd: IconLookup | IconLookup[]) => void
+    addLayerCallback: (layerToAdd: IconOrText | IconOrText[]) => void
   ) => void
 ): Layer;
 export function icon(icon: IconName | IconLookup, params?: IconParams): Icon;
@@ -25,7 +25,7 @@ declare const api: {
   text(content: string, params?: Params): Text;
   layer(
     assembler: (
-      addLayerCallback: (layerToAdd: IconLookup | IconLookup[]) => void
+      addLayerCallback: (layerToAdd: IconOrText | IconOrText[]) => void
     ) => void
   ): Layer;
   icon(icon: IconName | IconLookup, params?: IconParams): Icon;
@@ -82,6 +82,7 @@ export interface Text extends FontawesomeObject {
 export interface Layer extends FontawesomeObject {
   readonly type: "layer";
 }
+type IconOrText = Icon | Text;
 export interface Attributes {
   [key: string]: number | string;
 }
