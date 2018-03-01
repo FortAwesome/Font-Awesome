@@ -10,6 +10,13 @@ not have access**
 
 ---
 
+## [5.0.8](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.0.8)  - 2018-03-01
+
+### Fixed
+* OTF font files missing ligatures for Pro styles FortAwesome/Font-Awesome#12486 FortAwesome/Font-Awesome-Pro#1034
+
+---
+
 ## [5.0.7](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.0.7)  - 2018-02-26
 
 ### Added
