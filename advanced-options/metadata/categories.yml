@@ -199,6 +199,7 @@ business:
     - pencil-alt
     - percent
     - phone
+    - phone-slash
     - phone-square
     - phone-volume
     - registered
@@ -213,6 +214,42 @@ business:
     - thumbtack
     - trademark
   label: Business
+charity:
+  icons:
+    - dollar-sign
+    - donate
+    - dove
+    - gift
+    - globe
+    - hand-holding-heart
+    - hand-holding-usd
+    - hands-helping
+    - handshake
+    - heart
+    - leaf
+    - parachute-box
+    - piggy-bank
+    - ribbon
+    - seedling
+  label: Charity
+chat:
+  icons:
+    - comment
+    - comment-alt
+    - comment-dots
+    - comment-slash
+    - comments
+    - phone
+    - phone-slash
+    - poo
+    - quote-left
+    - quote-right
+    - smile
+    - video
+    - video-slash
+    - meh
+    - frown
+  label: Chat
 chess:
   icons:
     - chess
@@ -280,6 +317,7 @@ communication:
     - mobile-alt
     - paper-plane
     - phone
+    - phone-slash
     - phone-square
     - phone-volume
     - rss
@@ -289,6 +327,7 @@ communication:
   label: Communication
 computers:
   icons:
+    - database
     - desktop
     - download
     - headphones
@@ -477,6 +516,9 @@ hands:
     - handshake
     - thumbs-down
     - thumbs-up
+    - hand-holding
+    - hands
+    - allergies
   label: Hands
 health:
   icons:
@@ -590,6 +632,7 @@ interfaces:
     - plus
     - plus-circle
     - plus-square
+    - poo
     - qrcode
     - question
     - question-circle
@@ -762,28 +805,61 @@ maps:
     - university
     - utensil-spoon
     - utensils
+    - wine-glass
     - wheelchair
     - wifi
     - wrench
   label: Maps
 medical:
   icons:
+    - allergies
     - ambulance
     - band-aid
+    - briefcase-medical
+    - burn
+    - capsules
+    - diagnoses
     - dna
+    - file-medical
+    - file-medical-alt
     - first-aid
     - heart
     - heartbeat
     - hospital
+    - hospital-alt
     - hospital-symbol
+    - id-card-alt
+    - notes-medical
     - pills
     - plus
+    - prescription-bottle
+    - prescription-bottle-alt
+    - procedures
+    - smoking
     - stethoscope
     - syringe
+    - tablets
     - thermometer
     - user-md
+    - vial
+    - vials
     - weight
+    - x-ray
   label: Medical
+moving:
+  icons:
+    - truck-moving
+    - truck-loading
+    - tape
+    - box-open
+    - sign
+    - couch
+    - people-carry
+    - dolly
+    - wine-glass
+    - suitcase
+    - archive
+  label: Moving
 objects:
   icons:
     - ambulance
@@ -929,6 +1005,7 @@ objects:
     - utensil-spoon
     - utensils
     - wheelchair
+    - wine-glass
     - wrench
   label: Objects
 payments-shopping:
@@ -1086,6 +1163,7 @@ users-people:
     - id-card
     - male
     - meh
+    - poo
     - power-off
     - smile
     - street-view
