@@ -231,6 +231,7 @@ export const faQuinscape: IconDefinition;
 export const faQuora: IconDefinition;
 export const faRavelry: IconDefinition;
 export const faReact: IconDefinition;
+export const faReadme: IconDefinition;
 export const faRebel: IconDefinition;
 export const faRedRiver: IconDefinition;
 export const faReddit: IconDefinition;

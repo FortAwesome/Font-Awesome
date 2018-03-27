@@ -49,7 +49,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-common-types": "^0.1.3"
   },
-  "version": "5.0.8",
+  "version": "5.0.9",
   "name": "@fortawesome/fontawesome-free-brands",
   "main": "index.js",
   "module": "index.es.js",
