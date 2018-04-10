@@ -10,6 +10,21 @@ not have access**
 
 ---
 
+## [5.0.10](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.0.10)  - 2018-04-10
+
+### Added
+* New java brand icon FortAwesome/Font-Awesome#386
+
+### Changed
+* Updating depth of dna icon
+* Updating pied-piper, adding pied-piper-hat
+
+### Fixed
+* Correcting path errors on readme icon FortAwesome/Font-Awesome#12754
+* Light style of lamp icon FortAwesome/Font-Awesome#12725
+
+---
+
 ## [5.0.9](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.0.9)  - 2018-03-27
 
 ### Added
