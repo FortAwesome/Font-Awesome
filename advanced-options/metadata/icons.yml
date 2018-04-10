@@ -2822,6 +2822,7 @@ discourse:
 dna:
   changes:
     - 5.0.7
+    - 5.0.10
   label: DNA
   search:
     terms:
@@ -5152,6 +5153,15 @@ itunes-note:
   styles:
     - brands
   unicode: f3b5
+java:
+  changes:
+    - 5.0.10
+  label: Java
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4e4
 jenkins:
   changes:
     - 5.0.0
@@ -6719,6 +6729,7 @@ pied-piper:
   changes:
     - '4.6'
     - 5.0.0
+    - 5.0.10
   label: Pied Piper Logo
   search:
     terms: []
@@ -6735,6 +6746,15 @@ pied-piper-alt:
   styles:
     - brands
   unicode: f1a8
+pied-piper-hat:
+  changes:
+    - 5.0.10
+  label: Pied Piper-hat
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4e5
 pied-piper-pp:
   changes:
     - '4.1'
@@ -7168,6 +7188,7 @@ react:
 readme:
   changes:
     - 5.0.9
+    - 5.0.10
   label: ReadMe
   search:
     terms: []

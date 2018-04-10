@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 5.0.9 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.0.10 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 .fa,
@@ -1492,6 +1492,9 @@ readers do not read off random characters that represent icons */
 .fa-itunes-note:before {
   content: "\f3b5"; }
 
+.fa-java:before {
+  content: "\f4e4"; }
+
 .fa-jenkins:before {
   content: "\f3b6"; }
 
@@ -1899,6 +1902,9 @@ readers do not read off random characters that represent icons */
 
 .fa-pied-piper-alt:before {
   content: "\f1a8"; }
+
+.fa-pied-piper-hat:before {
+  content: "\f4e5"; }
 
 .fa-pied-piper-pp:before {
   content: "\f1a7"; }
