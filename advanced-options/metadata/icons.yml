@@ -406,7 +406,7 @@ apper:
     terms: []
   sponsored:
     label: Apper Systems AB
-    url: 'http://www.apper.com/'
+    url: 'http://www.apper.com'
   styles:
     - brands
   unicode: f371
@@ -655,7 +655,7 @@ asymmetrik:
     terms: []
   sponsored:
     label: 'Asymmetrik, Ltd.'
-    url: 'http://asymmetrik.com/'
+    url: 'http://asymmetrik.com'
   styles:
     - brands
   unicode: f372
@@ -2204,6 +2204,7 @@ cloud:
   changes:
     - '2'
     - 5.0.0
+    - 5.0.11
   label: Cloud
   search:
     terms:
@@ -2214,6 +2215,7 @@ cloud:
 cloud-download-alt:
   changes:
     - 5.0.0
+    - 5.0.11
   label: Cloud Download Alternate
   search:
     terms:
@@ -2224,6 +2226,7 @@ cloud-download-alt:
 cloud-upload-alt:
   changes:
     - 5.0.0
+    - 5.0.11
   label: Cloud Upload Alternate
   search:
     terms:
@@ -2422,6 +2425,7 @@ comment-dots:
     terms: []
   styles:
     - solid
+    - regular
   unicode: f4ad
 comment-slash:
   changes:
@@ -2546,7 +2550,7 @@ cpanel:
     terms: []
   sponsored:
     label: cPanel
-    url: 'http://cpanel.com/'
+    url: 'http://cpanel.com'
   styles:
     - brands
   unicode: f388
@@ -2554,12 +2558,121 @@ creative-commons:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.0.11
   label: Creative Commons
   search:
     terms: []
   styles:
     - brands
   unicode: f25e
+creative-commons-by:
+  changes:
+    - 5.0.11
+  label: Creative Commons Attribution
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4e7
+creative-commons-nc:
+  changes:
+    - 5.0.11
+  label: Creative Commons Noncommercial
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4e8
+creative-commons-nc-eu:
+  changes:
+    - 5.0.11
+  label: Creative Commons Noncommercial (Euro Sign)
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4e9
+creative-commons-nc-jp:
+  changes:
+    - 5.0.11
+  label: Creative Commons Noncommercial (Yen Sign)
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4ea
+creative-commons-nd:
+  changes:
+    - 5.0.11
+  label: Creative Commons No Derivative Works
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4eb
+creative-commons-pd:
+  changes:
+    - 5.0.11
+  label: Creative Commons Public Domain
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4ec
+creative-commons-pd-alt:
+  changes:
+    - 5.0.11
+  label: Creative Commons Public Domain Alternate
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4ed
+creative-commons-remix:
+  changes:
+    - 5.0.11
+  label: Creative Commons Remix
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4ee
+creative-commons-sa:
+  changes:
+    - 5.0.11
+  label: Creative Commons Share Alike
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4ef
+creative-commons-sampling:
+  changes:
+    - 5.0.11
+  label: Creative Commons Sampling
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f0
+creative-commons-sampling-plus:
+  changes:
+    - 5.0.11
+  label: Creative Commons Sampling +
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f1
+creative-commons-share:
+  changes:
+    - 5.0.11
+  label: Creative Commons Share
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f2
 credit-card:
   changes:
     - '2'
@@ -3000,6 +3113,15 @@ earlybirds:
   styles:
     - brands
   unicode: f39a
+ebay:
+  changes:
+    - 5.0.11
+  label: eBay
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f4
 edge:
   changes:
     - '4.5'
@@ -3897,6 +4019,19 @@ font-awesome-flag:
   styles:
     - brands
   unicode: f425
+font-awesome-logo-full:
+  changes:
+    - 5.0.11
+  label: Font Awesome Full Logo
+  ligatures:
+    - Font Awesome
+  search:
+    terms: []
+  styles:
+    - regular
+    - solid
+    - brands
+  unicode: f4e6
 fonticons:
   changes:
     - '4.4'
@@ -4181,6 +4316,9 @@ gitkraken:
   label: GitKraken
   search:
     terms: []
+  sponsored:
+    label: GitKraken
+    url: 'https://www.gitkraken.com'
   styles:
     - brands
   unicode: f3a6
@@ -5234,6 +5372,15 @@ key:
   styles:
     - solid
   unicode: f084
+keybase:
+  changes:
+    - 5.0.11
+  label: Keybase
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f5
 keyboard:
   changes:
     - '3.1'
@@ -5283,6 +5430,9 @@ korvue:
   label: KORVUE
   search:
     terms: []
+  sponsored:
+    label: Korvue
+    url: 'https://korvue.com'
   styles:
     - brands
   unicode: f42f
@@ -5340,6 +5490,7 @@ lastfm-square:
   changes:
     - '4.2'
     - 5.0.0
+    - 5.0.11
   label: last.fm Square
   search:
     terms: []
@@ -5846,6 +5997,15 @@ mars-stroke-v:
   styles:
     - solid
   unicode: f22a
+mastodon:
+  changes:
+    - 5.0.11
+  label: Mastodon
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f6
 maxcdn:
   changes:
     - '3.1'
@@ -5910,7 +6070,7 @@ medrt:
     terms: []
   sponsored:
     label: MRT
-    url: 'https://medrt.co.jp/'
+    url: 'https://medrt.co.jp'
   styles:
     - brands
   unicode: f3c8
@@ -6295,6 +6455,9 @@ ns8:
   label: NS8
   search:
     terms: []
+  sponsored:
+    label: NS8
+    url: 'https://www.ns8.com'
   styles:
     - brands
   unicode: f3d5
@@ -6421,7 +6584,7 @@ page4:
     terms: []
   sponsored:
     label: page4 Corporation
-    url: 'https://en.page4.com/'
+    url: 'https://en.page4.com'
   styles:
     - brands
   unicode: f3d7
@@ -6648,7 +6811,7 @@ phabricator:
     terms: []
   sponsored:
     label: Phabricator
-    url: 'http://phacility.com/'
+    url: 'http://phacility.com'
   styles:
     - brands
   unicode: f3db
@@ -6946,6 +7109,16 @@ poo:
   styles:
     - solid
   unicode: f2fe
+portrait:
+  changes:
+    - 5.0.0
+    - 5.0.3
+  label: Portrait
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f3e0
 pound-sign:
   changes:
     - '3.2'
@@ -7119,6 +7292,9 @@ quinscape:
   label: QuinScape
   search:
     terms: []
+  sponsored:
+    label: QuinScape
+    url: 'https://www.quinscape.de'
   styles:
     - brands
   unicode: f459
@@ -7154,6 +7330,15 @@ quote-right:
   styles:
     - solid
   unicode: f10e
+r:
+  changes:
+    - 5.0.11
+  label: R
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f7
 random:
   changes:
     - '1'
@@ -7192,6 +7377,9 @@ readme:
   label: ReadMe
   search:
     terms: []
+  sponsored:
+    label: Readme.io
+    url: 'http://readme.io'
   styles:
     - brands
   unicode: f4d5
@@ -7345,6 +7533,15 @@ replyd:
   styles:
     - brands
   unicode: f3e6
+researchgate:
+  changes:
+    - 5.0.11
+  label: Researchgate
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f8
 resolving:
   changes:
     - 5.0.0
@@ -7865,7 +8062,7 @@ sistrix:
     terms: []
   sponsored:
     label: SISTRIX
-    url: 'https://www.sistrix.de/'
+    url: 'https://www.sistrix.de'
   styles:
     - brands
   unicode: f3ee
@@ -7932,6 +8129,7 @@ sliders-h:
   changes:
     - '4.1'
     - 5.0.0
+    - 5.0.11
   label: Horizontal Sliders
   search:
     terms:
@@ -8742,6 +8940,15 @@ taxi:
   styles:
     - solid
   unicode: f1ba
+teamspeak:
+  changes:
+    - 5.0.11
+  label: TeamSpeak
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f9
 telegram:
   changes:
     - '4.7'
@@ -9301,6 +9508,9 @@ typo3:
   label: Typo3
   search:
     terms: []
+  sponsored:
+    label: Typo3
+    url: 'https://typo3.org'
   styles:
     - brands
   unicode: f42b
@@ -9379,6 +9589,9 @@ uniregistry:
   label: Uniregistry
   search:
     terms: []
+  sponsored:
+    label: Uniregistry
+    url: 'https://uniregistry.com'
   styles:
     - brands
   unicode: f404
@@ -9481,6 +9694,7 @@ user:
     - '1'
     - 5.0.0
     - 5.0.3
+    - 5.0.11
   label: User
   search:
     terms:
@@ -9493,11 +9707,55 @@ user:
     - solid
     - regular
   unicode: f007
+user-alt:
+  changes:
+    - 5.0.0
+    - 5.0.3
+    - 5.0.11
+  label: Alternate User
+  search:
+    terms:
+      - person
+      - man
+      - head
+      - profile
+      - account
+  styles:
+    - solid
+  unicode: f406
+user-alt-slash:
+  changes:
+    - 5.0.11
+  label: User Alt-slash
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f4fa
+user-astronaut:
+  changes:
+    - 5.0.11
+  label: User Astronaut
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f4fb
+user-check:
+  changes:
+    - 5.0.11
+  label: User Check
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f4fc
 user-circle:
   changes:
     - '4.7'
     - 5.0.0
     - 5.0.3
+    - 5.0.11
   label: User Circle
   search:
     terms:
@@ -9510,12 +9768,67 @@ user-circle:
     - solid
     - regular
   unicode: f2bd
+user-clock:
+  changes:
+    - 5.0.11
+  label: User Clock
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f4fd
+user-cog:
+  changes:
+    - 5.0.11
+  label: User Cog
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f4fe
+user-edit:
+  changes:
+    - 5.0.11
+  label: User Edit
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f4ff
+user-friends:
+  changes:
+    - 5.0.11
+  label: User Friends
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f500
+user-graduate:
+  changes:
+    - 5.0.11
+  label: User Graduate
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f501
+user-lock:
+  changes:
+    - 5.0.11
+  label: User Lock
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f502
 user-md:
   changes:
     - '2'
     - 5.0.0
     - 5.0.3
     - 5.0.7
+    - 5.0.11
   label: user-md
   search:
     terms:
@@ -9528,11 +9841,30 @@ user-md:
   styles:
     - solid
   unicode: f0f0
+user-minus:
+  changes:
+    - 5.0.11
+  label: User Minus
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f503
+user-ninja:
+  changes:
+    - 5.0.11
+  label: User Ninja
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f504
 user-plus:
   changes:
     - '4.3'
     - 5.0.0
     - 5.0.3
+    - 5.0.11
   label: Add User
   search:
     terms:
@@ -9546,6 +9878,7 @@ user-secret:
     - '4.3'
     - 5.0.0
     - 5.0.3
+    - 5.0.11
   label: User Secret
   search:
     terms:
@@ -9556,11 +9889,51 @@ user-secret:
   styles:
     - solid
   unicode: f21b
+user-shield:
+  changes:
+    - 5.0.11
+  label: User Shield
+  search:
+    terms: []
+  sponsored:
+    label: mylogin.info
+    url: 'https://www.mylogin.info'
+  styles:
+    - solid
+  unicode: f505
+user-slash:
+  changes:
+    - 5.0.11
+  label: User Slash
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f506
+user-tag:
+  changes:
+    - 5.0.11
+  label: User Tag
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f507
+user-tie:
+  changes:
+    - 5.0.11
+  label: User Tie
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f508
 user-times:
   changes:
     - '4.3'
     - 5.0.0
     - 5.0.3
+    - 5.0.11
   label: Remove User
   search:
     terms: []
@@ -9572,6 +9945,7 @@ users:
     - '2'
     - 5.0.0
     - 5.0.3
+    - 5.0.11
   label: Users
   search:
     terms:
@@ -9581,6 +9955,15 @@ users:
   styles:
     - solid
   unicode: f0c0
+users-cog:
+  changes:
+    - 5.0.11
+  label: Users Cog
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f509
 ussunnah:
   changes:
     - 5.0.0

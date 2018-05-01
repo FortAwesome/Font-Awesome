@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 5.0.10 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.0.11 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 .fa,
@@ -829,6 +829,42 @@ readers do not read off random characters that represent icons */
 .fa-creative-commons:before {
   content: "\f25e"; }
 
+.fa-creative-commons-by:before {
+  content: "\f4e7"; }
+
+.fa-creative-commons-nc:before {
+  content: "\f4e8"; }
+
+.fa-creative-commons-nc-eu:before {
+  content: "\f4e9"; }
+
+.fa-creative-commons-nc-jp:before {
+  content: "\f4ea"; }
+
+.fa-creative-commons-nd:before {
+  content: "\f4eb"; }
+
+.fa-creative-commons-pd:before {
+  content: "\f4ec"; }
+
+.fa-creative-commons-pd-alt:before {
+  content: "\f4ed"; }
+
+.fa-creative-commons-remix:before {
+  content: "\f4ee"; }
+
+.fa-creative-commons-sa:before {
+  content: "\f4ef"; }
+
+.fa-creative-commons-sampling:before {
+  content: "\f4f0"; }
+
+.fa-creative-commons-sampling-plus:before {
+  content: "\f4f1"; }
+
+.fa-creative-commons-share:before {
+  content: "\f4f2"; }
+
 .fa-credit-card:before {
   content: "\f09d"; }
 
@@ -948,6 +984,9 @@ readers do not read off random characters that represent icons */
 
 .fa-earlybirds:before {
   content: "\f39a"; }
+
+.fa-ebay:before {
+  content: "\f4f4"; }
 
 .fa-edge:before {
   content: "\f282"; }
@@ -1161,6 +1200,9 @@ readers do not read off random characters that represent icons */
 
 .fa-font-awesome-flag:before {
   content: "\f425"; }
+
+.fa-font-awesome-logo-full:before {
+  content: "\f4e6"; }
 
 .fa-fonticons:before {
   content: "\f280"; }
@@ -1516,6 +1558,9 @@ readers do not read off random characters that represent icons */
 .fa-key:before {
   content: "\f084"; }
 
+.fa-keybase:before {
+  content: "\f4f5"; }
+
 .fa-keyboard:before {
   content: "\f11c"; }
 
@@ -1671,6 +1716,9 @@ readers do not read off random characters that represent icons */
 
 .fa-mars-stroke-v:before {
   content: "\f22a"; }
+
+.fa-mastodon:before {
+  content: "\f4f6"; }
 
 .fa-maxcdn:before {
   content: "\f136"; }
@@ -1954,6 +2002,9 @@ readers do not read off random characters that represent icons */
 .fa-poo:before {
   content: "\f2fe"; }
 
+.fa-portrait:before {
+  content: "\f3e0"; }
+
 .fa-pound-sign:before {
   content: "\f154"; }
 
@@ -2011,6 +2062,9 @@ readers do not read off random characters that represent icons */
 .fa-quote-right:before {
   content: "\f10e"; }
 
+.fa-r:before {
+  content: "\f4f7"; }
+
 .fa-random:before {
   content: "\f074"; }
 
@@ -2064,6 +2118,9 @@ readers do not read off random characters that represent icons */
 
 .fa-replyd:before {
   content: "\f3e6"; }
+
+.fa-researchgate:before {
+  content: "\f4f8"; }
 
 .fa-resolving:before {
   content: "\f3e7"; }
@@ -2422,6 +2479,9 @@ readers do not read off random characters that represent icons */
 .fa-taxi:before {
   content: "\f1ba"; }
 
+.fa-teamspeak:before {
+  content: "\f4f9"; }
+
 .fa-telegram:before {
   content: "\f2c6"; }
 
@@ -2608,11 +2668,47 @@ readers do not read off random characters that represent icons */
 .fa-user:before {
   content: "\f007"; }
 
+.fa-user-alt:before {
+  content: "\f406"; }
+
+.fa-user-alt-slash:before {
+  content: "\f4fa"; }
+
+.fa-user-astronaut:before {
+  content: "\f4fb"; }
+
+.fa-user-check:before {
+  content: "\f4fc"; }
+
 .fa-user-circle:before {
   content: "\f2bd"; }
 
+.fa-user-clock:before {
+  content: "\f4fd"; }
+
+.fa-user-cog:before {
+  content: "\f4fe"; }
+
+.fa-user-edit:before {
+  content: "\f4ff"; }
+
+.fa-user-friends:before {
+  content: "\f500"; }
+
+.fa-user-graduate:before {
+  content: "\f501"; }
+
+.fa-user-lock:before {
+  content: "\f502"; }
+
 .fa-user-md:before {
   content: "\f0f0"; }
+
+.fa-user-minus:before {
+  content: "\f503"; }
+
+.fa-user-ninja:before {
+  content: "\f504"; }
 
 .fa-user-plus:before {
   content: "\f234"; }
@@ -2620,11 +2716,26 @@ readers do not read off random characters that represent icons */
 .fa-user-secret:before {
   content: "\f21b"; }
 
+.fa-user-shield:before {
+  content: "\f505"; }
+
+.fa-user-slash:before {
+  content: "\f506"; }
+
+.fa-user-tag:before {
+  content: "\f507"; }
+
+.fa-user-tie:before {
+  content: "\f508"; }
+
 .fa-user-times:before {
   content: "\f235"; }
 
 .fa-users:before {
   content: "\f0c0"; }
+
+.fa-users-cog:before {
+  content: "\f509"; }
 
 .fa-ussunnah:before {
   content: "\f407"; }
