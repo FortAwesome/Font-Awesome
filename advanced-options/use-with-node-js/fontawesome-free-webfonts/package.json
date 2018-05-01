@@ -47,7 +47,7 @@
     "node": ">=6"
   },
   "dependencies": {},
-  "version": "1.0.6",
+  "version": "1.0.7",
   "name": "@fortawesome/fontawesome-free-webfonts",
   "main": "css/fontawesome.css",
   "style": "css/fontawesome.css",

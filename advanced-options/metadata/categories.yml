@@ -232,6 +232,9 @@ charity:
     - ribbon
     - seedling
   label: Charity
+  sponsored:
+    label: The us-Sunnah Foundation
+    url: 'https://www.ussunnah.org'
 chat:
   icons:
     - comment
@@ -250,6 +253,9 @@ chat:
     - meh
     - frown
   label: Chat
+  sponsored:
+    label: Rocket.Chat
+    url: 'https://rocket.chat'
 chess:
   icons:
     - chess
@@ -552,6 +558,7 @@ images:
     - id-card
     - image
     - images
+    - portrait
     - sliders-h
     - tint
   label: Images
@@ -685,6 +692,7 @@ interfaces:
     - undo-alt
     - upload
     - user
+    - user-alt
     - user-circle
     - wifi
   label: Interfaces
@@ -701,6 +709,9 @@ logistics:
     - clipboard-list
     - clipboard-check
   label: Logistics
+  sponsored:
+    label: StayLinked
+    url: 'https://www.staylinked.com'
 maps:
   icons:
     - ambulance
@@ -846,6 +857,9 @@ medical:
     - weight
     - x-ray
   label: Medical
+  sponsored:
+    label: Harvard Medical School
+    url: 'https://hms.harvard.edu'
 moving:
   icons:
     - truck-moving
@@ -860,6 +874,9 @@ moving:
     - suitcase
     - archive
   label: Moving
+  sponsored:
+    label: HireAHelper
+    url: 'https://www.hireahelper.com'
 objects:
   icons:
     - ambulance
@@ -1161,19 +1178,38 @@ users-people:
     - frown
     - id-badge
     - id-card
+    - id-card-alt
     - male
     - meh
     - poo
+    - portrait
     - power-off
     - smile
     - street-view
     - user
+    - user-alt
     - user-circle
     - user-md
     - user-plus
     - user-secret
     - user-times
     - users
+    - user-astronaut
+    - user-check
+    - user-clock
+    - user-cog
+    - user-edit
+    - user-friends
+    - user-graduate
+    - user-lock
+    - user-minus
+    - user-ninja
+    - user-secret
+    - user-shield
+    - user-slash
+    - user-tag
+    - user-tie
+    - user-alt-slash
     - wheelchair
   label: Users & People
 vehicles:
