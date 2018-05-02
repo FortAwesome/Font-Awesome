@@ -36,6 +36,12 @@ _All packages are in the [@fortawesome NPM scope](https://www.npmjs.com/search?q
 |---------------------------|------------------------|
 | fontawesome-free-webfonts | fontawesome-free       |
 | fontawesome-pro-webfonts  | fontawesome-pro        |
+| fontawesome-free-solid    | free-solid-svg-icons   |
+| fontawesome-free-regular  | free-regular-svg-icons |
+| fontawesome-free-brands   | free-brands-svg-icons  |
+| fontawesome-pro-solid     | pro-solid-svg-icons    |
+| fontawesome-pro-regular   | pro-regular-svg-icons  |
+| fontawesome-pro-light     | pro-light-svg-icons    |
 
 (1) Old packages have now been deprecated. They are still available but will only receive high priority patch release fixes.
 
