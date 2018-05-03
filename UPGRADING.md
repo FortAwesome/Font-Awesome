@@ -61,7 +61,7 @@ What does that mean?
 ~~Old way:~~
 
 ```javascript
-import fontawesome from '@fontawesome/fontawesome'
+import fontawesome from '@fortawesome/fontawesome'
 import solid from '@fortawesome/fontawesome-free-solid'
 import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter'
 import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
@@ -72,7 +72,7 @@ library.add(solid, faTwitter)
 New way:
 
 ```javascript
-import { library, dom } from '@fontawesome/fontawesome-svg-core'
+import { library, dom } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
