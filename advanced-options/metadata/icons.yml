@@ -3494,6 +3494,7 @@ eye:
       - optic
   styles:
     - solid
+    - regular
   unicode: f06e
 eye-dropper:
   changes:
@@ -3872,6 +3873,15 @@ first-order:
   styles:
     - brands
   unicode: f2b0
+first-order-alt:
+  changes:
+    - 5.0.12
+  label: Alternate First Order
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f50a
 firstdraft:
   changes:
     - 5.0.0
@@ -4150,6 +4160,15 @@ frown:
     - solid
     - regular
   unicode: f119
+fulcrum:
+  changes:
+    - 5.0.12
+  label: Fulcrum
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f50b
 futbol:
   changes:
     - '4.2'
@@ -4165,6 +4184,24 @@ futbol:
     - solid
     - regular
   unicode: f1e3
+galactic-republic:
+  changes:
+    - 5.0.12
+  label: Galactic Republic
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f50c
+galactic-senate:
+  changes:
+    - 5.0.12
+  label: Galactic Senate
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f50d
 gamepad:
   changes:
     - '3.1'
@@ -5300,6 +5337,15 @@ java:
   styles:
     - brands
   unicode: f4e4
+jedi-order:
+  changes:
+    - 5.0.12
+  label: Jedi Order
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f50e
 jenkins:
   changes:
     - 5.0.0
@@ -5884,6 +5930,15 @@ male:
   styles:
     - solid
   unicode: f183
+mandalorian:
+  changes:
+    - 5.0.12
+  label: Mandalorian
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f50f
 map:
   changes:
     - '4.4'
@@ -6517,6 +6572,15 @@ odnoklassniki-square:
   styles:
     - brands
   unicode: f264
+old-republic:
+  changes:
+    - 5.0.12
+  label: Old Republic
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f510
 opencart:
   changes:
     - '4.4'
@@ -6825,6 +6889,15 @@ phoenix-framework:
   styles:
     - brands
   unicode: f3dc
+phoenix-squadron:
+  changes:
+    - 5.0.12
+  label: Phoenix Squadron
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f511
 phone:
   changes:
     - '2'
@@ -7330,10 +7403,11 @@ quote-right:
   styles:
     - solid
   unicode: f10e
-r:
+r-project:
   changes:
     - 5.0.11
-  label: R
+    - 5.0.12
+  label: R Project
   search:
     terms: []
   styles:
@@ -8079,6 +8153,15 @@ sitemap:
   styles:
     - solid
   unicode: f0e8
+sith:
+  changes:
+    - 5.0.12
+  label: Sith
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f512
 skyatlas:
   changes:
     - '4.3'
@@ -9274,6 +9357,15 @@ toggle-on:
   styles:
     - solid
   unicode: f205
+trade-federation:
+  changes:
+    - 5.0.12
+  label: Trade Federation
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f513
 trademark:
   changes:
     - '4.4'
@@ -10424,6 +10516,15 @@ wine-glass:
   styles:
     - solid
   unicode: f4e3
+wolf-pack-battalion:
+  changes:
+    - 5.0.12
+  label: Wolf Pack-battalion
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f514
 won-sign:
   changes:
     - '3.2'
