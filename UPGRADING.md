@@ -66,7 +66,7 @@ import solid from '@fortawesome/fontawesome-free-solid'
 import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter'
 import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
 
-import fontaweome.library.add(solid, faTwitter)
+library.add(solid, faTwitter)
 ```
 
 New way:
@@ -77,8 +77,9 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import library.add(fas, faTwitter)
+library.add(fas, faTwitter)
 
+// Kicks off the process of finding <i> tags and replacing with <svg>
 dom.watch()
 ```
 
