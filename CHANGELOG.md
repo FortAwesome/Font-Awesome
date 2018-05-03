@@ -8,6 +8,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.0.12](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.0.12)  - 2018-05-03
+
+### Added
+* A long time ago in a galaxy far, far away some icons were added
+
+### Fixed
+* Renamed the r brand to r-project to prevent ligature collision with the "r" glyph
+
 ---
 
 ## [5.0.11](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.0.11)  - 2018-05-01

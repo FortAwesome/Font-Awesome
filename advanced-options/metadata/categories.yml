@@ -1204,7 +1204,6 @@ users-people:
     - user-lock
     - user-minus
     - user-ninja
-    - user-secret
     - user-shield
     - user-slash
     - user-tag

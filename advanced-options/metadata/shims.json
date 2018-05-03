@@ -150,6 +150,11 @@
     "share"
   ],
   [
+    "eye",
+    "far",
+    null
+  ],
+  [
     "eye-slash",
     "far",
     null
@@ -1145,14 +1150,14 @@
     "taxi"
   ],
   [
-    "spotify",
-    "fab",
-    null
-  ],
-  [
     "envelope-o",
     "far",
     "envelope"
+  ],
+  [
+    "deviantart",
+    "fab",
+    null
   ],
   [
     "soundcloud",
@@ -2295,7 +2300,7 @@
     null
   ],
   [
-    "deviantart",
+    "spotify",
     "fab",
     null
   ]

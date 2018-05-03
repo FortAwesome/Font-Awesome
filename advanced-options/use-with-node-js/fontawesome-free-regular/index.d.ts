@@ -42,6 +42,7 @@ export const faDotCircle: IconDefinition;
 export const faEdit: IconDefinition;
 export const faEnvelope: IconDefinition;
 export const faEnvelopeOpen: IconDefinition;
+export const faEye: IconDefinition;
 export const faEyeSlash: IconDefinition;
 export const faFile: IconDefinition;
 export const faFileAlt: IconDefinition;
