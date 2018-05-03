@@ -72,12 +72,14 @@ import fontaweome.library.add(solid, faTwitter)
 New way:
 
 ```javascript
-import { library } from '@fontawesome/fontawesome-svg-core'
+import { library, dom } from '@fontawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import library.add(fas, faTwitter)
+
+dom.watch()
 ```
 
 This is also a valid way to import icons that works if your tool does not support tree shaking:
