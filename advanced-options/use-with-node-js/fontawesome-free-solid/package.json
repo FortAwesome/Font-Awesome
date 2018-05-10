@@ -47,9 +47,9 @@
     "node": ">=6"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-common-types": "^0.1.6"
+    "@fortawesome/fontawesome-common-types": "^0.1.7"
   },
-  "version": "5.0.12",
+  "version": "5.0.13",
   "name": "@fortawesome/fontawesome-free-solid",
   "main": "index.js",
   "module": "index.es.js",
