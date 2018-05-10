@@ -8,7 +8,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
-## [5.0.12](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.0.12)  - 2018-05-03
+---
+
+## [5.0.13](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.0.13)  - 2018-05-10
+
+### Added
+* 68 icons to Free and 165 to Pro of the most requested icons in Font Awesome
+
+---
+
+## [5.0.12](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.0.12)  - 2018-05-03
 
 ### Added
 * A long time ago in a galaxy far, far away some icons were added
@@ -18,7 +27,7 @@ not have access**
 
 ---
 
-## [5.0.11](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.0.11)  - 2018-05-01
+## [5.0.11](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.0.11)  - 2018-05-01
 
 ### Added
 * 16 new user icons
@@ -36,7 +45,7 @@ not have access**
 
 ---
 
-## [5.0.10](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.0.10)  - 2018-04-10
+## [5.0.10](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.0.10)  - 2018-04-10
 
 ### Added
 * New java brand icon FortAwesome/Font-Awesome#386
