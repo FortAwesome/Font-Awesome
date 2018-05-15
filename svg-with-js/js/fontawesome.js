@@ -1084,6 +1084,7 @@ var attributesParser = function (node) {
       extraAttributes['aria-labelledby'] = config.replacementClass + '-title-' + nextUniqueId();
     } else {
       extraAttributes['aria-hidden'] = 'true';
+      extraAttributes['focusable'] = 'false';
     }
   }
 
@@ -1263,6 +1264,7 @@ function generateLayersText(node, nodeMeta) {
 
   if (config.autoA11y && !title) {
     extra.attributes['aria-hidden'] = 'true';
+    extra.attributes['focusable'] = 'false';
   }
 
   return [node, makeLayersTextAbstract({
@@ -1662,6 +1664,7 @@ var icon = resolveIcons(function (iconDefinition) {
         attributes['aria-labelledby'] = config.replacementClass + '-title-' + nextUniqueId();
       } else {
         attributes['aria-hidden'] = 'true';
+	    attributes['focusable'] = 'false';
       }
     }
 
