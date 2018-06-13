@@ -65,6 +65,9 @@ We will behave ourselves if you behave yourselves. For more details see our
 Please read through our [contributing guidelines](./CONTRIBUTING.md).  Included
 are directions for opening issues.
 
+## Want a new icon?  Request it!
+If you want a new icon added to FontAwesome, open up an issue titled Icon request: icon-name.  Make sure to follow [this](https://github.com/FortAwesome/Font-Awesome/blob/master/.github/ISSUE_TEMPLATE/icon-request.md) checklist!
+
 ## Versioning
 
 Font Awesome will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered
