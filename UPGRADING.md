@@ -6,10 +6,6 @@ This guide is useful to figure out what you need to do between breaking changes.
 
 As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/new) that you run into with this guide or with these upgrades to us.
 
-## 5.0.11 to 5.0.12
-
-Due to a collision with the "r" glyph the R Project brand icon has been renamed to `r-project`.
-
 ## 5.0.x to 5.1.0
 
 ### New packages available for browser-only integration
@@ -126,6 +122,10 @@ rollup({
   ]
 })
 ```
+
+## 5.0.11 to 5.0.12
+
+Due to a collision with the "r" glyph the R Project brand icon has been renamed to `r-project`.
 
 ## 5.0.x to 5.0.6
 
