@@ -13,21 +13,37 @@ successful Kickstarter and plan. You can also **[order Font Awesome
 Pro](https://fontawesome.com/pro)** which includes tons more icons directly
 from [fontawesome.com](https://fontawesome.com).
 
-## Get started with 5!
+## Documentation
 
-Learn how to [get started](https://fontawesome.com/get-started) with Font Awesome or dive deeper into [other topics](https://fontawesome.com/how-to-use).
+Learn how to get started with Font Awesome and then dive deeper into other and advanced topics:
 
-* [SVG with JS](https://fontawesome.com/how-to-use/svg-with-js)
-* [Web Fonts with CSS](https://fontawesome.com/how-to-use/web-fonts-with-css)
-* [Use on the Desktop](https://fontawesome.com/how-to-use/use-on-desktop)
-* [Use with Node.js](https://fontawesome.com/how-to-use/use-with-node-js)
-* [JS Component Packages](https://fontawesome.com/how-to-use/js-component-packages)
-* [SVG Sprites](https://fontawesome.com/how-to-use/svg-sprites)
-* [Upgrading from Version 4](https://fontawesome.com/how-to-use/upgrading-from-4)
-* [Server Side Rendering](https://fontawesome.com/how-to-use/server-side-rendering)
-* [Font Awesome API](https://fontawesome.com/how-to-use/font-awesome-api)
-* [Performance and Security](https://fontawesome.com/how-to-use/performance-and-security)
-* [Accessibility](https://fontawesome.com/how-to-use/accessibility)
+### Using Font Awesome on the Web
+
+* [With SVG with JavaScript](https://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=svg-with-js)
+* [With web fonts with CSS](https://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=web-fonts-with-css)
+* [Upgrading from version 4](https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4)
+* [Installing Font Awesome with a package manager](https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers)
+* [Downloading + hosting Font Awesome yourself](https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself)
+* [Performance and security](https://fontawesome.com/how-to-use/performance-and-security)
+* [Accessibility](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
+* [Troubleshooting](https://fontawesome.com/how-to-use/on-the-web/other-topics/troubleshooting)
+
+#### Advanced Options & Techniques
+
+* [Using CSS pseudo-elements](https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements)
+* [SVG sprites](https://fontawesome.com/how-to-use/svg-sprites)
+* [The Font Awesome API](https://fontawesome.com/how-to-use/font-awesome-api)
+* [SVG symbols](https://fontawesome.com/how-to-use/on-the-web/advanced/svg-symbols)
+* [SVG JavaScript Core](https://fontawesome.com/how-to-use/on-the-web/advanced/svg-javascript-core)
+* [Server side rendering](https://fontawesome.com/how-to-use/server-side-rendering)
+
+### Using Font Awesome on the Desktop
+
+* [Getting started](https://fontawesome.com/how-to-use/on-the-desktop/setup/getting-started)
+* [Upgrading from version 4](https://fontawesome.com/how-to-use/on-the-desktop/setup/upgrading-from-version-4)
+* [Using ligatures](https://fontawesome.com/how-to-use/on-the-desktop/referencing-icons/using-ligatures)
+* [Using glyphs](https://fontawesome.com/how-to-use/on-the-desktop/referencing-icons/using-glyphs)
+* [Troubleshooting](https://fontawesome.com/how-to-use/on-the-desktop/other-topics/troubleshooting)
 
 ### Where did Font Awesome 4 (or 3) go?
 
