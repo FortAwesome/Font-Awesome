@@ -8,6 +8,25 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.1.1](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.1.1)  - 2018-07-17
+
+### Added
+* Additional search terms for various icons FortAwesome/Font-Awesome#13429
+
+### Changed
+* Marked the font-awesome-logo-full as a "private" icon
+* Consistently named and minified CSS and JS files in the CDN, npm packages, and zip files
+
+### Fixed
+* Removed "fa-" prefix from Less and Sass style bundles filenames
+* Unable to use brand icons with pseudo-elements and SVG with JS
+* Adding icons explicitly using the library were not available when using pseudo-elements and SVG with JS
+* smile-plus search terms in icons.yml incorrectly formatted
+* kiss and grin-wink icons having incorrect weight / style FortAwesome/Font-Awesome#13361 FortAwesome/Font-Awesome#13363
+* Missing underscore in filenames in the less/v4-shims.less FortAwesome/Font-Awesome#13415
+* Light style for code-commit
+* Including rev brand icon in the Font Awesome Free version
+
 ---
 
 ## [5.1.0](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.1.0)  - 2018-06-20

@@ -273,6 +273,7 @@ export const faRenren: IconDefinition;
 export const faReplyd: IconDefinition;
 export const faResearchgate: IconDefinition;
 export const faResolving: IconDefinition;
+export const faRev: IconDefinition;
 export const faRocketchat: IconDefinition;
 export const faRockrms: IconDefinition;
 export const faSafari: IconDefinition;

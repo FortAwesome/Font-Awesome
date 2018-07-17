@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 5.1.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.1.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 .fa,
@@ -2574,6 +2574,9 @@ readers do not read off random characters that represent icons */
 
 .fa-retweet:before {
   content: "\f079"; }
+
+.fa-rev:before {
+  content: "\f5b2"; }
 
 .fa-ribbon:before {
   content: "\f4d6"; }

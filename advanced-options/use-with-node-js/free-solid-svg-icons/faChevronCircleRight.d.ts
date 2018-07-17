@@ -2,7 +2,7 @@ import { IconDefinition, IconPrefix, IconName } from "@fortawesome/fontawesome-c
 export const definition: IconDefinition;
 export const faChevronCircleRight: IconDefinition;
 export const prefix: IconPrefix;
-export const iconName: IconName; 
+export const iconName: IconName;
 export const width: number;
 export const height: number;
 export const ligatures: string[];

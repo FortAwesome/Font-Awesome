@@ -398,6 +398,11 @@ resolving:
     - resolving
   label: Resolving
   url: 'https://resolving.com'
+rev-io:
+  icons:
+    - rev
+  label: Rev.io
+  url: 'https://rev.io'
 rock-rms:
   icons:
     - rockrms
