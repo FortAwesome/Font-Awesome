@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 5.1.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.1.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 var noop = function noop() {};
@@ -677,7 +677,7 @@ function makeLayersCounterAbstract(params) {
 
 var noop$2 = function noop() {};
 var p = config.measurePerformance && PERFORMANCE && PERFORMANCE.mark && PERFORMANCE.measure ? PERFORMANCE : { mark: noop$2, measure: noop$2 };
-var preamble = 'FA "5.1.0"';
+var preamble = 'FA "5.1.1"';
 
 var begin = function begin(name) {
   p.mark(preamble + ' ' + name + ' begins');
@@ -1406,7 +1406,7 @@ function searchPseudoElements(root) {
           node.removeChild(alreadyProcessedPseudoElement);
         } else if (fontFamily) {
           var content = styles.getPropertyValue('content');
-          var prefix = ~['Light', 'Regular', 'Solid'].indexOf(fontFamily[1]) ? STYLE_TO_PREFIX[fontFamily[1]] : FONT_WEIGHT_TO_PREFIX[fontWeight];
+          var prefix = ~['Light', 'Regular', 'Solid', 'Brands'].indexOf(fontFamily[1]) ? STYLE_TO_PREFIX[fontFamily[1]] : FONT_WEIGHT_TO_PREFIX[fontWeight];
           var iconName = byUnicode(prefix, toHex(content.length === 3 ? content.substr(1, 1) : content));
           // Only convert the pseudo element in this :before/:after position into an icon if we haven't
           // already done so with the same prefix and iconName
@@ -1591,6 +1591,7 @@ var Library = function () {
       Object.keys(additions).forEach(function (key) {
         _this.definitions[key] = _extends({}, _this.definitions[key] || {}, additions[key]);
         define(key, additions[key]);
+        build();
       });
     }
   }, {

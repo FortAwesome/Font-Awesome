@@ -6,6 +6,26 @@ This guide is useful to figure out what you need to do between breaking changes.
 
 As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/new) that you run into with this guide or with these upgrades to us.
 
+## 5.1.0 to 5.1.1
+
+Less and Sass files incorrectly contained the "fa-" prefix for style files.
+These files have been renamed to be consistent with other files in the
+packages.
+
+If you are using the Less or Sass file styles individually you will need to
+correct the names in your builds.
+
+| Old filename                | New filename             |
+| --------------------------- | ------------------------ |
+| less/fa-solid.less          | less/solid.less          |
+| less/fa-regular.less        | less/regular.less        |
+| less/fa-light.less          | less/light.less          |
+| less/fa-brands.less         | less/brands.less         |
+| scss/fa-solid.scss          | scss/solid.scss          |
+| scss/fa-regular.scss        | scss/regular.scss        |
+| scss/fa-light.scss          | scss/light.scss          |
+| scss/fa-brands.scss         | scss/brands.scss         |
+
 ## 5.0.x to 5.1.0
 
 ### New packages available for browser-only integration

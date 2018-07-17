@@ -8,7 +8,7 @@ var ligatures = [];
 var unicode = 'f414';
 var svgPathData = 'M129.5 512V345.9L18.5 48h55.8l81.8 229.7L250.2 0h51.3L180.8 347.8V512h-51.3z';
 
-exports.definition = {           
+exports.definition = {
   prefix: prefix,
   iconName: iconName,
   icon: [
@@ -18,10 +18,10 @@ exports.definition = {
     unicode,
     svgPathData
   ]};
-  
-exports.faYandexInternational = exports.definition;           
+
+exports.faYandexInternational = exports.definition;
 exports.prefix = prefix;
-exports.iconName = iconName; 
+exports.iconName = iconName;
 exports.width = width;
 exports.height = height;
 exports.ligatures = ligatures;
