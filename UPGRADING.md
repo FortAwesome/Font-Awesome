@@ -63,12 +63,6 @@ _All packages are in the [@fortawesome NPM scope](https://www.npmjs.com/search?q
 |         | fontawesome-pro-regular   | pro-regular-svg-icons  |
 |         | fontawesome-pro-light     | pro-light-svg-icons    |
 
-```javascript
-npm i --save @fortawesome/fontawesome-free \
-             @fortawesome/free-solid-svg-icons \
-             @fortawesome/free-regular-svg-icons \
-             @fortawesome/free-brands-svg-icons
-```
 
 (1) Old packages have now been deprecated. They are still available but will only receive high priority patch release fixes.
 
