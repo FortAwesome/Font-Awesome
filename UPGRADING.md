@@ -52,16 +52,23 @@ The following packages have been renamed as part of 5.1.0 of Font Awesome.
 
 _All packages are in the [@fortawesome NPM scope](https://www.npmjs.com/search?q=scope:fortawesome&page=1&ranking=optimal)_
 
-| Old package(1)            | New package            |
-|---------------------------|------------------------|
-| fontawesome-free-webfonts | fontawesome-free       |
-| fontawesome-pro-webfonts  | fontawesome-pro        |
-| fontawesome-free-solid    | free-solid-svg-icons   |
-| fontawesome-free-regular  | free-regular-svg-icons |
-| fontawesome-free-brands   | free-brands-svg-icons  |
-| fontawesome-pro-solid     | pro-solid-svg-icons    |
-| fontawesome-pro-regular   | pro-regular-svg-icons  |
-| fontawesome-pro-light     | pro-light-svg-icons    |
+|         | Old package(1)            | New package            |
+|---------|---------------------------|------------------------|
+| **Free**| fontawesome-free-webfonts | fontawesome-free       |
+|         | fontawesome-free-solid    | free-solid-svg-icons   |
+|         | fontawesome-free-regular  | free-regular-svg-icons |
+|         | fontawesome-free-brands   | free-brands-svg-icons  |
+| **Pro** | fontawesome-pro-webfonts  | fontawesome-pro        |
+|         | fontawesome-pro-solid     | pro-solid-svg-icons    |
+|         | fontawesome-pro-regular   | pro-regular-svg-icons  |
+|         | fontawesome-pro-light     | pro-light-svg-icons    |
+
+```javascript
+npm i --save @fortawesome/fontawesome-free \
+             @fortawesome/free-solid-svg-icons \
+             @fortawesome/free-regular-svg-icons \
+             @fortawesome/free-brands-svg-icons
+```
 
 (1) Old packages have now been deprecated. They are still available but will only receive high priority patch release fixes.
 
