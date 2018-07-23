@@ -8,6 +8,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.2.0](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.2.0)  - 2018-07-23
+
+### Added
+* New education and automotive categories
+* More icons in the medical and maps categories
+* Top requested brands ello, hackerrank, kaggle, markdown, neos, and zhihu
+
+---
+
 ## [5.1.1](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.1.1)  - 2018-07-17
 
 ### Added
