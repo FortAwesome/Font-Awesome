@@ -239,6 +239,7 @@ hire-a-helper:
     - couch
     - dolly
     - people-carry
+    - route
     - sign
     - suitcase
     - tape
@@ -334,6 +335,12 @@ nimblr:
     - nimblr
   label: Nimblr
   url: 'https://nimblr.ai'
+nompse:
+  icons:
+    - chalkboard
+    - chalkboard-teacher
+  label: Nomp.se
+  url: 'https://nomp.se'
 ns8:
   icons:
     - ns8
@@ -442,6 +449,11 @@ service-stack:
     - servicestack
   label: ServiceStack
   url: 'https://servicestack.net'
+shawn-storie:
+  icons:
+    - teeth
+    - teeth-open
+  label: Shawn Storie
 shopware:
   icons:
     - shopware
@@ -545,6 +557,13 @@ vaadin:
     - vaadin
   label: Vaadin
   url: 'http://vaadin.com'
+via:
+  icons:
+    - car-crash
+    - draw-polygon
+    - layer-group
+  label: VIA Traffic Software Solutions
+  url: 'https://www.via.software'
 vnv:
   icons:
     - vnv

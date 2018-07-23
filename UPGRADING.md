@@ -6,6 +6,12 @@ This guide is useful to figure out what you need to do between breaking changes.
 
 As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/new) that you run into with this guide or with these upgrades to us.
 
+## 5.1.x to 5.2.x
+
+There are no breaking changes in this version upgrade.
+
+---
+
 ## 5.1.0 to 5.1.1
 
 Less and Sass files incorrectly contained the "fa-" prefix for style files.
@@ -25,6 +31,8 @@ correct the names in your builds.
 | scss/fa-regular.scss        | scss/regular.scss        |
 | scss/fa-light.scss          | scss/light.scss          |
 | scss/fa-brands.scss         | scss/brands.scss         |
+
+---
 
 ## 5.0.x to 5.1.0
 
@@ -143,9 +151,13 @@ rollup({
 })
 ```
 
+---
+
 ## 5.0.11 to 5.0.12
 
 Due to a collision with the "r" glyph the R Project brand icon has been renamed to `r-project`.
+
+---
 
 ## 5.0.x to 5.0.6
 

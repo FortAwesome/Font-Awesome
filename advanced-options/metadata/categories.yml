@@ -167,6 +167,28 @@ audio-video:
     - volume-up
     - youtube
   label: Audio & Video
+automotive:
+  icons:
+    - air-freshener
+    - ambulance
+    - bus
+    - bus-alt
+    - car
+    - car-alt
+    - car-battery
+    - car-crash
+    - car-side
+    - charging-station
+    - gas-pump
+    - motorcycle
+    - oil-can
+    - shuttle-van
+    - tachometer-alt
+    - taxi
+    - truck
+    - truck-monster
+    - truck-pickup
+  label: Automotive
 buildings:
   icons:
     - building
@@ -440,6 +462,7 @@ design:
     - crosshairs
     - cut
     - drafting-compass
+    - draw-polygon
     - edit
     - eraser
     - eye
@@ -448,6 +471,7 @@ design:
     - fill
     - fill-drip
     - highlighter
+    - layer-group
     - magic
     - marker
     - object-group
@@ -542,6 +566,26 @@ editors:
     - unlink
     - wrench
   label: Editors
+education:
+  icons:
+    - apple-alt
+    - atom
+    - award
+    - bell
+    - bell-slash
+    - book-open
+    - book-reader
+    - chalkboard
+    - chalkboard-teacher
+    - graduation-cap
+    - laptop-code
+    - microscope
+    - music
+    - school
+    - shapes
+    - theater-masks
+    - user-graduate
+  label: Education
 emoji:
   icons:
     - angry
@@ -865,7 +909,9 @@ maps:
     - car
     - coffee
     - crosshairs
+    - directions
     - dollar-sign
+    - draw-polygon
     - eye
     - eye-slash
     - fighter-jet
@@ -892,6 +938,7 @@ maps:
     - info
     - info-circle
     - key
+    - layer-group
     - leaf
     - lemon
     - life-ring
@@ -911,6 +958,7 @@ maps:
     - motorcycle
     - music
     - newspaper
+    - parking
     - paw
     - phone
     - phone-square
@@ -923,6 +971,7 @@ maps:
     - recycle
     - road
     - rocket
+    - route
     - search
     - search-minus
     - search-plus
@@ -941,6 +990,7 @@ maps:
     - thumbtack
     - ticket-alt
     - tint
+    - traffic-light
     - train
     - tree
     - trophy
@@ -976,6 +1026,9 @@ medical:
     - allergies
     - ambulance
     - band-aid
+    - bone
+    - bong
+    - brain
     - briefcase-medical
     - burn
     - cannabis
@@ -992,18 +1045,27 @@ medical:
     - hospital-alt
     - hospital-symbol
     - id-card-alt
+    - joint
+    - microscope
+    - mortar-pestle
     - notes-medical
     - pills
     - plus
+    - poop
     - prescription
     - prescription-bottle
     - prescription-bottle-alt
     - procedures
     - smoking
+    - smoking-ban
+    - star-of-life
     - stethoscope
     - syringe
     - tablets
+    - teeth
+    - teeth-open
     - thermometer
+    - tooth
     - user-md
     - vial
     - vials
@@ -1017,6 +1079,7 @@ moving:
     - couch
     - dolly
     - people-carry
+    - route
     - sign
     - suitcase
     - tape
@@ -1278,6 +1341,7 @@ shapes:
     - heart
     - map-marker
     - play
+    - shapes
     - square
     - star
   label: Shapes
@@ -1456,7 +1520,11 @@ vehicles:
     - ambulance
     - bicycle
     - bus
+    - bus-alt
     - car
+    - car-alt
+    - car-crash
+    - car-side
     - fighter-jet
     - helicopter
     - motorcycle
@@ -1465,11 +1533,14 @@ vehicles:
     - rocket
     - ship
     - shopping-cart
+    - shuttle-van
     - space-shuttle
     - subway
     - taxi
     - train
     - truck
+    - truck-monster
+    - truck-pickup
     - wheelchair
   label: Vehicles
 writing:
