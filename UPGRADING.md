@@ -58,7 +58,7 @@ account](https://fontawesome.com/account/services).
 
 The following packages have been renamed as part of 5.1.0 of Font Awesome.
 
-_All packages are in the [@fortawesome NPM scope](https://www.npmjs.com/search?q=scope:fortawesome&page=1&ranking=optimal)_
+_All packages are in the [@fortawesome NPM scope](https://www.npmjs.com/search?q=scope:fortawesome&ranking=optimal)_
 
 | Old package(1)            | New package            |
 |---------------------------|------------------------|
