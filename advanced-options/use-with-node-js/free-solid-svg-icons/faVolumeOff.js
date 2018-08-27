@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'fas';
 var iconName = 'volume-off';
-var width = 256;
+var width = 257;
 var height = 512;
 var ligatures = [];
 var unicode = 'f026';
-var svgPathData = 'M256 88.017v335.964c0 21.438-25.943 31.998-40.971 16.971L126.059 352H24c-13.255 0-24-10.745-24-24V184c0-13.255 10.745-24 24-24h102.059l88.971-88.954c15.01-15.01 40.97-4.49 40.97 16.971z';
+var svgPathData = 'M216.36 71.04L127.39 160H25.33c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.47-25.96-31.98-40.97-16.98z';
 
 exports.definition = {
   prefix: prefix,
