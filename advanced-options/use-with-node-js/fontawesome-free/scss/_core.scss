@@ -14,3 +14,7 @@
   text-rendering: auto;
   line-height: 1;
 }
+
+%fa-icon {
+  @include fa-icon;
+}

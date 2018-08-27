@@ -8,6 +8,27 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.3.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.3.0)  - 2018-08-27
+
+### Added
+* New Religion, and Marketing category
+* New icons in the Mathematics, and Business category
+* New stats for signal, volume, and wifi icons
+* New brand icon for the-red-yeti and alipay
+
+### Changed
+* Adding ethereum to Currency category
+* Adding bitcoin and btc to Payments & Shopping
+
+### Fixed
+* Incorrect name for layer-minus and layer-plus in sponsors.yml
+* Reversing route-highway and route-interstate
+* Correct version identifier in OTF and web font files
+* CSS keyframe names are not minified (and renamed) to prevent conflict with user or app specific names
+* Sass placeholder selector added for %fa-icon to fix CSS precendence issue with font-weight
+
+---
+
 ## [5.2.0](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.2.0)  - 2018-07-23
 
 ### Added

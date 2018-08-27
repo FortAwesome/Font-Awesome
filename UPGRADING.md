@@ -6,6 +6,40 @@ This guide is useful to figure out what you need to do between breaking changes.
 
 As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/new) that you run into with this guide or with these upgrades to us.
 
+## 5.x.x to 5.3.0
+
+Sass mixin syntax has been updated to address a bug.
+
+Use `@extend %fa-icon` to correctly maintain CSS order in output files.
+
+~~Old way:~~
+
+```
+.twitter {
+  @include fa-icon; /* incorrect */
+  @extend .fab;
+
+  &:before {
+    content: fa-content($fa-var-twitter);
+  }
+}
+```
+
+New way:
+
+```
+.twitter {
+  @extend %fa-icon; /* correct */
+  @extend .fab;
+
+  &:before {
+    content: fa-content($fa-var-twitter);
+  }
+}
+```
+
+---
+
 ## 5.1.x to 5.2.x
 
 There are no breaking changes in this version upgrade.

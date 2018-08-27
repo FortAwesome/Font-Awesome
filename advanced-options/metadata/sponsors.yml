@@ -434,6 +434,11 @@ rocket-chat:
     - video-slash
   label: Rocket.Chat
   url: 'https://rocket.chat'
+rodney-oliver:
+  icons:
+    - folder-minus
+    - folder-plus
+  label: Rodney Oliver
 schlix:
   icons:
     - schlix
@@ -510,9 +515,26 @@ studio-vinari:
   url: 'https://studiovinari.com'
 supple:
   icons:
+    - ad
+    - bullhorn
+    - bullseye
+    - comment-dollar
+    - comments-dollar
+    - envelope-open-text
+    - funnel-dollar
+    - mail-bulk
+    - poll
+    - poll-h
+    - search-dollar
+    - search-location
     - supple
   label: Supple
   url: 'https://supple.com.au'
+the-red-yeti:
+  icons:
+    - the-red-yeti
+  label: The Red Yeti
+  url: 'http://theredyeti.com'
 the-us-sunnah-foundation:
   icons:
     - dollar-sign

@@ -162,8 +162,11 @@ audio-video:
     - undo
     - undo-alt
     - video
+    - volume
     - volume-down
+    - volume-mute
     - volume-off
+    - volume-slash
     - volume-up
     - youtube
   label: Audio & Video
@@ -193,12 +196,18 @@ buildings:
   icons:
     - building
     - church
+    - gopuram
     - home
     - hospital
     - hospital-alt
     - industry
+    - mosque
+    - place-of-worship
     - school
+    - synagogue
+    - torii-gate
     - university
+    - vihara
   label: Buildings
 business:
   icons:
@@ -212,6 +221,7 @@ business:
     - building
     - bullhorn
     - bullseye
+    - business-time
     - calculator
     - calendar
     - calendar-alt
@@ -220,6 +230,7 @@ business:
     - chart-bar
     - chart-line
     - chart-pie
+    - city
     - clipboard
     - coffee
     - columns
@@ -236,11 +247,14 @@ business:
     - file
     - file-alt
     - folder
+    - folder-minus
     - folder-open
+    - folder-plus
     - glasses
     - globe
     - highlighter
     - industry
+    - landmark
     - marker
     - paperclip
     - paste
@@ -255,13 +269,14 @@ business:
     - phone-slash
     - phone-square
     - phone-volume
+    - print
     - project-diagram
     - registered
     - save
     - sitemap
+    - socks
     - sticky-note
     - stream
-    - suitcase
     - table
     - tag
     - tags
@@ -416,6 +431,7 @@ currency:
     - bitcoin
     - btc
     - dollar-sign
+    - ethereum
     - euro-sign
     - gg
     - gg-circle
@@ -840,6 +856,9 @@ interfaces:
     - sign-in-alt
     - sign-out-alt
     - signal
+    - signal-alt
+    - signal-alt-slash
+    - signal-slash
     - sitemap
     - sliders-h
     - smile
@@ -871,7 +890,14 @@ interfaces:
     - user
     - user-alt
     - user-circle
+    - volume
+    - volume-down
+    - volume-mute
+    - volume-off
+    - volume-slash
+    - volume-up
     - wifi
+    - wifi-slash
     - wrench
   label: Interfaces
 logistics:
@@ -938,6 +964,7 @@ maps:
     - info
     - info-circle
     - key
+    - landmark
     - layer-group
     - leaf
     - lemon
@@ -1005,21 +1032,56 @@ maps:
     - wine-glass
     - wrench
   label: Maps
+marketing:
+  icons:
+    - ad
+    - bullhorn
+    - bullseye
+    - comment-dollar
+    - comments-dollar
+    - envelope-open-text
+    - funnel-dollar
+    - lightbulb
+    - mail-bulk
+    - poll
+    - poll-h
+    - search-dollar
+    - search-location
+  label: Marketing
 mathematics:
   icons:
+    - abacus
+    - calculator
+    - calculator-alt
     - divide
+    - empty-set
     - equals
+    - function
     - greater-than
     - greater-than-equal
+    - infinity
+    - integral
+    - intersection
+    - lambda
     - less-than
     - less-than-equal
     - minus
     - not-equal
+    - omega
     - percentage
+    - pi
     - plus
+    - sigma
+    - square-root
+    - square-root-alt
     - subscript
     - superscript
+    - tally
+    - theta
+    - tilde
     - times
+    - union
+    - value-absolute
   label: Mathematics
 medical:
   icons:
@@ -1285,10 +1347,13 @@ objects:
   label: Objects
 payments-shopping:
   icons:
+    - alipay
     - amazon-pay
     - apple-pay
     - bell
+    - bitcoin
     - bookmark
+    - btc
     - bullhorn
     - camera
     - camera-retro
@@ -1328,6 +1393,39 @@ payments-shopping:
     - thumbs-up
     - trophy
   label: Payments & Shopping
+religion:
+  icons:
+    - ankh
+    - atom
+    - bible
+    - church
+    - cross
+    - dharmachakra
+    - dove
+    - gopuram
+    - hamsa
+    - haykal
+    - jedi
+    - journal-whills
+    - kaaba
+    - khanda
+    - menorah
+    - mosque
+    - om
+    - pastafarianism
+    - peace
+    - place-of-worship
+    - pray
+    - praying-hands
+    - quran
+    - star-and-crescent
+    - star-of-david
+    - synagogue
+    - torah
+    - torii-gate
+    - vihara
+    - yin-yang
+  label: Religion
 shapes:
   icons:
     - bookmark
@@ -1418,6 +1516,10 @@ status:
     - shopping-cart
     - sign-in-alt
     - sign-out-alt
+    - signal
+    - signal-alt
+    - signal-alt-slash
+    - signal-slash
     - stream
     - thermometer-empty
     - thermometer-full
