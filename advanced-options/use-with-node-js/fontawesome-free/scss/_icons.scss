@@ -2,7 +2,6 @@
 readers do not read off random characters that represent icons */
 
 .#{$fa-css-prefix}-500px:before { content: fa-content($fa-var-500px); }
-.#{$fa-css-prefix}-abacus:before { content: fa-content($fa-var-abacus); }
 .#{$fa-css-prefix}-accessible-icon:before { content: fa-content($fa-var-accessible-icon); }
 .#{$fa-css-prefix}-accusoft:before { content: fa-content($fa-var-accusoft); }
 .#{$fa-css-prefix}-ad:before { content: fa-content($fa-var-ad); }
@@ -147,7 +146,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-business-time:before { content: fa-content($fa-var-business-time); }
 .#{$fa-css-prefix}-buysellads:before { content: fa-content($fa-var-buysellads); }
 .#{$fa-css-prefix}-calculator:before { content: fa-content($fa-var-calculator); }
-.#{$fa-css-prefix}-calculator-alt:before { content: fa-content($fa-var-calculator-alt); }
 .#{$fa-css-prefix}-calendar:before { content: fa-content($fa-var-calendar); }
 .#{$fa-css-prefix}-calendar-alt:before { content: fa-content($fa-var-calendar-alt); }
 .#{$fa-css-prefix}-calendar-check:before { content: fa-content($fa-var-calendar-check); }
@@ -345,7 +343,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-ello:before { content: fa-content($fa-var-ello); }
 .#{$fa-css-prefix}-ember:before { content: fa-content($fa-var-ember); }
 .#{$fa-css-prefix}-empire:before { content: fa-content($fa-var-empire); }
-.#{$fa-css-prefix}-empty-set:before { content: fa-content($fa-var-empty-set); }
 .#{$fa-css-prefix}-envelope:before { content: fa-content($fa-var-envelope); }
 .#{$fa-css-prefix}-envelope-open:before { content: fa-content($fa-var-envelope-open); }
 .#{$fa-css-prefix}-envelope-open-text:before { content: fa-content($fa-var-envelope-open-text); }
@@ -445,7 +442,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-frown:before { content: fa-content($fa-var-frown); }
 .#{$fa-css-prefix}-frown-open:before { content: fa-content($fa-var-frown-open); }
 .#{$fa-css-prefix}-fulcrum:before { content: fa-content($fa-var-fulcrum); }
-.#{$fa-css-prefix}-function:before { content: fa-content($fa-var-function); }
 .#{$fa-css-prefix}-funnel-dollar:before { content: fa-content($fa-var-funnel-dollar); }
 .#{$fa-css-prefix}-futbol:before { content: fa-content($fa-var-futbol); }
 .#{$fa-css-prefix}-galactic-republic:before { content: fa-content($fa-var-galactic-republic); }
@@ -579,9 +575,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-info:before { content: fa-content($fa-var-info); }
 .#{$fa-css-prefix}-info-circle:before { content: fa-content($fa-var-info-circle); }
 .#{$fa-css-prefix}-instagram:before { content: fa-content($fa-var-instagram); }
-.#{$fa-css-prefix}-integral:before { content: fa-content($fa-var-integral); }
 .#{$fa-css-prefix}-internet-explorer:before { content: fa-content($fa-var-internet-explorer); }
-.#{$fa-css-prefix}-intersection:before { content: fa-content($fa-var-intersection); }
 .#{$fa-css-prefix}-ioxhost:before { content: fa-content($fa-var-ioxhost); }
 .#{$fa-css-prefix}-italic:before { content: fa-content($fa-var-italic); }
 .#{$fa-css-prefix}-itunes:before { content: fa-content($fa-var-itunes); }
@@ -611,7 +605,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-kiss-wink-heart:before { content: fa-content($fa-var-kiss-wink-heart); }
 .#{$fa-css-prefix}-kiwi-bird:before { content: fa-content($fa-var-kiwi-bird); }
 .#{$fa-css-prefix}-korvue:before { content: fa-content($fa-var-korvue); }
-.#{$fa-css-prefix}-lambda:before { content: fa-content($fa-var-lambda); }
 .#{$fa-css-prefix}-landmark:before { content: fa-content($fa-var-landmark); }
 .#{$fa-css-prefix}-language:before { content: fa-content($fa-var-language); }
 .#{$fa-css-prefix}-laptop:before { content: fa-content($fa-var-laptop); }
@@ -742,7 +735,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-oil-can:before { content: fa-content($fa-var-oil-can); }
 .#{$fa-css-prefix}-old-republic:before { content: fa-content($fa-var-old-republic); }
 .#{$fa-css-prefix}-om:before { content: fa-content($fa-var-om); }
-.#{$fa-css-prefix}-omega:before { content: fa-content($fa-var-omega); }
 .#{$fa-css-prefix}-opencart:before { content: fa-content($fa-var-opencart); }
 .#{$fa-css-prefix}-openid:before { content: fa-content($fa-var-openid); }
 .#{$fa-css-prefix}-opera:before { content: fa-content($fa-var-opera); }
@@ -789,7 +781,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-phone-square:before { content: fa-content($fa-var-phone-square); }
 .#{$fa-css-prefix}-phone-volume:before { content: fa-content($fa-var-phone-volume); }
 .#{$fa-css-prefix}-php:before { content: fa-content($fa-var-php); }
-.#{$fa-css-prefix}-pi:before { content: fa-content($fa-var-pi); }
 .#{$fa-css-prefix}-pied-piper:before { content: fa-content($fa-var-pied-piper); }
 .#{$fa-css-prefix}-pied-piper-alt:before { content: fa-content($fa-var-pied-piper-alt); }
 .#{$fa-css-prefix}-pied-piper-hat:before { content: fa-content($fa-var-pied-piper-hat); }
@@ -916,15 +907,11 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-shopware:before { content: fa-content($fa-var-shopware); }
 .#{$fa-css-prefix}-shower:before { content: fa-content($fa-var-shower); }
 .#{$fa-css-prefix}-shuttle-van:before { content: fa-content($fa-var-shuttle-van); }
-.#{$fa-css-prefix}-sigma:before { content: fa-content($fa-var-sigma); }
 .#{$fa-css-prefix}-sign:before { content: fa-content($fa-var-sign); }
 .#{$fa-css-prefix}-sign-in-alt:before { content: fa-content($fa-var-sign-in-alt); }
 .#{$fa-css-prefix}-sign-language:before { content: fa-content($fa-var-sign-language); }
 .#{$fa-css-prefix}-sign-out-alt:before { content: fa-content($fa-var-sign-out-alt); }
 .#{$fa-css-prefix}-signal:before { content: fa-content($fa-var-signal); }
-.#{$fa-css-prefix}-signal-alt:before { content: fa-content($fa-var-signal-alt); }
-.#{$fa-css-prefix}-signal-alt-slash:before { content: fa-content($fa-var-signal-alt-slash); }
-.#{$fa-css-prefix}-signal-slash:before { content: fa-content($fa-var-signal-slash); }
 .#{$fa-css-prefix}-signature:before { content: fa-content($fa-var-signature); }
 .#{$fa-css-prefix}-simplybuilt:before { content: fa-content($fa-var-simplybuilt); }
 .#{$fa-css-prefix}-sistrix:before { content: fa-content($fa-var-sistrix); }
@@ -967,7 +954,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-spray-can:before { content: fa-content($fa-var-spray-can); }
 .#{$fa-css-prefix}-square:before { content: fa-content($fa-var-square); }
 .#{$fa-css-prefix}-square-full:before { content: fa-content($fa-var-square-full); }
-.#{$fa-css-prefix}-square-root:before { content: fa-content($fa-var-square-root); }
 .#{$fa-css-prefix}-square-root-alt:before { content: fa-content($fa-var-square-root-alt); }
 .#{$fa-css-prefix}-squarespace:before { content: fa-content($fa-var-squarespace); }
 .#{$fa-css-prefix}-stack-exchange:before { content: fa-content($fa-var-stack-exchange); }
@@ -1027,7 +1013,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-tachometer-alt:before { content: fa-content($fa-var-tachometer-alt); }
 .#{$fa-css-prefix}-tag:before { content: fa-content($fa-var-tag); }
 .#{$fa-css-prefix}-tags:before { content: fa-content($fa-var-tags); }
-.#{$fa-css-prefix}-tally:before { content: fa-content($fa-var-tally); }
 .#{$fa-css-prefix}-tape:before { content: fa-content($fa-var-tape); }
 .#{$fa-css-prefix}-tasks:before { content: fa-content($fa-var-tasks); }
 .#{$fa-css-prefix}-taxi:before { content: fa-content($fa-var-taxi); }
@@ -1053,12 +1038,10 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-thermometer-half:before { content: fa-content($fa-var-thermometer-half); }
 .#{$fa-css-prefix}-thermometer-quarter:before { content: fa-content($fa-var-thermometer-quarter); }
 .#{$fa-css-prefix}-thermometer-three-quarters:before { content: fa-content($fa-var-thermometer-three-quarters); }
-.#{$fa-css-prefix}-theta:before { content: fa-content($fa-var-theta); }
 .#{$fa-css-prefix}-thumbs-down:before { content: fa-content($fa-var-thumbs-down); }
 .#{$fa-css-prefix}-thumbs-up:before { content: fa-content($fa-var-thumbs-up); }
 .#{$fa-css-prefix}-thumbtack:before { content: fa-content($fa-var-thumbtack); }
 .#{$fa-css-prefix}-ticket-alt:before { content: fa-content($fa-var-ticket-alt); }
-.#{$fa-css-prefix}-tilde:before { content: fa-content($fa-var-tilde); }
 .#{$fa-css-prefix}-times:before { content: fa-content($fa-var-times); }
 .#{$fa-css-prefix}-times-circle:before { content: fa-content($fa-var-times-circle); }
 .#{$fa-css-prefix}-tint:before { content: fa-content($fa-var-tint); }
@@ -1103,7 +1086,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-underline:before { content: fa-content($fa-var-underline); }
 .#{$fa-css-prefix}-undo:before { content: fa-content($fa-var-undo); }
 .#{$fa-css-prefix}-undo-alt:before { content: fa-content($fa-var-undo-alt); }
-.#{$fa-css-prefix}-union:before { content: fa-content($fa-var-union); }
 .#{$fa-css-prefix}-uniregistry:before { content: fa-content($fa-var-uniregistry); }
 .#{$fa-css-prefix}-universal-access:before { content: fa-content($fa-var-universal-access); }
 .#{$fa-css-prefix}-university:before { content: fa-content($fa-var-university); }
@@ -1141,7 +1123,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-utensil-spoon:before { content: fa-content($fa-var-utensil-spoon); }
 .#{$fa-css-prefix}-utensils:before { content: fa-content($fa-var-utensils); }
 .#{$fa-css-prefix}-vaadin:before { content: fa-content($fa-var-vaadin); }
-.#{$fa-css-prefix}-value-absolute:before { content: fa-content($fa-var-value-absolute); }
 .#{$fa-css-prefix}-vector-square:before { content: fa-content($fa-var-vector-square); }
 .#{$fa-css-prefix}-venus:before { content: fa-content($fa-var-venus); }
 .#{$fa-css-prefix}-venus-double:before { content: fa-content($fa-var-venus-double); }
@@ -1162,11 +1143,8 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-vk:before { content: fa-content($fa-var-vk); }
 .#{$fa-css-prefix}-vnv:before { content: fa-content($fa-var-vnv); }
 .#{$fa-css-prefix}-volleyball-ball:before { content: fa-content($fa-var-volleyball-ball); }
-.#{$fa-css-prefix}-volume:before { content: fa-content($fa-var-volume); }
 .#{$fa-css-prefix}-volume-down:before { content: fa-content($fa-var-volume-down); }
-.#{$fa-css-prefix}-volume-mute:before { content: fa-content($fa-var-volume-mute); }
 .#{$fa-css-prefix}-volume-off:before { content: fa-content($fa-var-volume-off); }
-.#{$fa-css-prefix}-volume-slash:before { content: fa-content($fa-var-volume-slash); }
 .#{$fa-css-prefix}-volume-up:before { content: fa-content($fa-var-volume-up); }
 .#{$fa-css-prefix}-vuejs:before { content: fa-content($fa-var-vuejs); }
 .#{$fa-css-prefix}-walking:before { content: fa-content($fa-var-walking); }
@@ -1182,7 +1160,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-wheelchair:before { content: fa-content($fa-var-wheelchair); }
 .#{$fa-css-prefix}-whmcs:before { content: fa-content($fa-var-whmcs); }
 .#{$fa-css-prefix}-wifi:before { content: fa-content($fa-var-wifi); }
-.#{$fa-css-prefix}-wifi-slash:before { content: fa-content($fa-var-wifi-slash); }
 .#{$fa-css-prefix}-wikipedia-w:before { content: fa-content($fa-var-wikipedia-w); }
 .#{$fa-css-prefix}-window-close:before { content: fa-content($fa-var-window-close); }
 .#{$fa-css-prefix}-window-maximize:before { content: fa-content($fa-var-window-maximize); }

@@ -8,6 +8,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.3.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.3.1)  - 2018-08-28
+
+### Changed
+* Updating icons in the Status category
+
+### Fixed
+* sponsors.yml listed icon prayer instead of pray
+* Removed Pro icons that accidentally made it into Free
+
+---
+
 ## [5.3.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.3.0)  - 2018-08-27
 
 ### Added

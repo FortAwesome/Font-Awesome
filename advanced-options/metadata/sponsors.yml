@@ -68,6 +68,11 @@ bity:
     - bity
   label: Bity
   url: 'http://bity.com'
+blackpulp-designs:
+  icons:
+    - pray
+  label: Blackpulp Designs
+  url: 'https://www.blackpulp.com'
 blissbook:
   icons:
     - pen-fancy

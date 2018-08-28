@@ -162,11 +162,8 @@ audio-video:
     - undo
     - undo-alt
     - video
-    - volume
     - volume-down
-    - volume-mute
     - volume-off
-    - volume-slash
     - volume-up
     - youtube
   label: Audio & Video
@@ -856,9 +853,6 @@ interfaces:
     - sign-in-alt
     - sign-out-alt
     - signal
-    - signal-alt
-    - signal-alt-slash
-    - signal-slash
     - sitemap
     - sliders-h
     - smile
@@ -890,14 +884,10 @@ interfaces:
     - user
     - user-alt
     - user-circle
-    - volume
     - volume-down
-    - volume-mute
     - volume-off
-    - volume-slash
     - volume-up
     - wifi
-    - wifi-slash
     - wrench
   label: Interfaces
 logistics:
@@ -1050,38 +1040,22 @@ marketing:
   label: Marketing
 mathematics:
   icons:
-    - abacus
     - calculator
-    - calculator-alt
     - divide
-    - empty-set
     - equals
-    - function
     - greater-than
     - greater-than-equal
     - infinity
-    - integral
-    - intersection
-    - lambda
     - less-than
     - less-than-equal
     - minus
     - not-equal
-    - omega
     - percentage
-    - pi
     - plus
-    - sigma
-    - square-root
     - square-root-alt
     - subscript
     - superscript
-    - tally
-    - theta
-    - tilde
     - times
-    - union
-    - value-absolute
   label: Mathematics
 medical:
   icons:
@@ -1489,6 +1463,10 @@ status:
     - calendar-times
     - cart-arrow-down
     - cart-plus
+    - comment
+    - comment-alt
+    - comment-slash
+    - compass
     - door-closed
     - door-open
     - exclamation
@@ -1500,16 +1478,28 @@ status:
     - file-alt
     - folder
     - folder-open
+    - gas-pump
     - info
     - info-circle
+    - lightbulb
     - lock
     - lock-open
+    - map-marker
+    - map-marker-alt
+    - microphone
+    - microphone-alt
+    - microphone-alt-slash
+    - microphone-slash
     - minus
     - minus-circle
     - minus-square
+    - parking
+    - phone
+    - phone-slash
     - plus
     - plus-circle
     - plus-square
+    - print
     - question
     - question-circle
     - shield-alt
@@ -1517,9 +1507,10 @@ status:
     - sign-in-alt
     - sign-out-alt
     - signal
-    - signal-alt
-    - signal-alt-slash
-    - signal-slash
+    - smoking-ban
+    - star
+    - star-half
+    - star-half-alt
     - stream
     - thermometer-empty
     - thermometer-full
@@ -1528,10 +1519,22 @@ status:
     - thermometer-three-quarters
     - thumbs-down
     - thumbs-up
+    - tint
+    - tint-slash
     - toggle-off
     - toggle-on
     - unlock
     - unlock-alt
+    - user
+    - user-alt
+    - user-alt-slash
+    - user-slash
+    - video
+    - video-slash
+    - volume-down
+    - volume-off
+    - volume-up
+    - wifi
   label: Status
 travel:
   icons:

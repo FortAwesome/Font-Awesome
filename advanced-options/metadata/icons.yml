@@ -8,15 +8,6 @@
   styles:
     - brands
   unicode: f26e
-abacus:
-  changes:
-    - 5.3.0
-  label: Abacus
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f640
 accessible-icon:
   changes:
     - 5.0.0
@@ -1675,15 +1666,6 @@ calculator:
   styles:
     - solid
   unicode: f1ec
-calculator-alt:
-  changes:
-    - 5.3.0
-  label: Calculator Alt
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f64c
 calendar:
   changes:
     - '3.1'
@@ -4051,15 +4033,6 @@ empire:
   styles:
     - brands
   unicode: f1d1
-empty-set:
-  changes:
-    - 5.3.0
-  label: Empty Set
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f656
 envelope:
   changes:
     - '2'
@@ -5274,15 +5247,6 @@ fulcrum:
   styles:
     - brands
   unicode: f50b
-function:
-  changes:
-    - 5.3.0
-  label: Function
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f661
 funnel-dollar:
   changes:
     - 5.3.0
@@ -6883,15 +6847,6 @@ instagram:
   styles:
     - brands
   unicode: f16d
-integral:
-  changes:
-    - 5.3.0
-  label: Integral
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f667
 internet-explorer:
   changes:
     - '4.4'
@@ -6904,15 +6859,6 @@ internet-explorer:
   styles:
     - brands
   unicode: f26b
-intersection:
-  changes:
-    - 5.3.0
-  label: Intersection
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f668
 ioxhost:
   changes:
     - '4.2'
@@ -7229,15 +7175,6 @@ korvue:
   styles:
     - brands
   unicode: f42f
-lambda:
-  changes:
-    - 5.3.0
-  label: Lambda
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f66e
 landmark:
   changes:
     - 5.3.0
@@ -8814,15 +8751,6 @@ om:
   styles:
     - solid
   unicode: f679
-omega:
-  changes:
-    - 5.3.0
-  label: Omega
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f67a
 opencart:
   changes:
     - '4.4'
@@ -9335,15 +9263,6 @@ php:
   styles:
     - brands
   unicode: f457
-pi:
-  changes:
-    - 5.3.0
-  label: Pi
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f67e
 pied-piper:
   changes:
     - '4.6'
@@ -10732,16 +10651,6 @@ shuttle-van:
   styles:
     - solid
   unicode: f5b6
-sigma:
-  changes:
-    - 5.3.0
-  label: Sigma (Summation)
-  search:
-    terms:
-      - summation
-  styles:
-    - solid
-  unicode: f68b
 sign:
   changes:
     - 5.0.9
@@ -10810,45 +10719,6 @@ signal:
   styles:
     - solid
   unicode: f012
-signal-alt:
-  changes:
-    - 5.3.0
-  label: Signal Alternate
-  search:
-    terms:
-      - bars
-      - graph
-      - online
-      - status
-  styles:
-    - solid
-  unicode: f690
-signal-alt-slash:
-  changes:
-    - 5.3.0
-  label: Signal Alternate Slash
-  search:
-    terms:
-      - bars
-      - graph
-      - online
-      - status
-  styles:
-    - solid
-  unicode: f694
-signal-slash:
-  changes:
-    - 5.3.0
-  label: Signal Slash
-  search:
-    terms:
-      - bars
-      - graph
-      - online
-      - status
-  styles:
-    - solid
-  unicode: f695
 signature:
   changes:
     - 5.1.0
@@ -11336,15 +11206,6 @@ square-full:
   styles:
     - solid
   unicode: f45c
-square-root:
-  changes:
-    - 5.3.0
-  label: Square Root
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f697
 square-root-alt:
   changes:
     - 5.3.0
@@ -12018,15 +11879,6 @@ tags:
   styles:
     - solid
   unicode: f02c
-tally:
-  changes:
-    - 5.3.0
-  label: Tally
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f69c
 tape:
   changes:
     - 5.0.9
@@ -12310,15 +12162,6 @@ thermometer-three-quarters:
   styles:
     - solid
   unicode: f2c8
-theta:
-  changes:
-    - 5.3.0
-  label: Theta
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f69e
 thumbs-down:
   changes:
     - '3.2'
@@ -12382,15 +12225,6 @@ ticket-alt:
   styles:
     - solid
   unicode: f3ff
-tilde:
-  changes:
-    - 5.3.0
-  label: Tilde
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f69f
 times:
   changes:
     - '1'
@@ -12913,15 +12747,6 @@ undo-alt:
   styles:
     - solid
   unicode: f2ea
-union:
-  changes:
-    - 5.3.0
-  label: Union
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f6a2
 uniregistry:
   changes:
     - 5.0.0
@@ -13373,15 +13198,6 @@ vaadin:
   styles:
     - brands
   unicode: f408
-value-absolute:
-  changes:
-    - 5.3.0
-  label: Value Absolute
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f6a6
 vector-square:
   changes:
     - 5.1.0
@@ -13592,20 +13408,6 @@ volleyball-ball:
   styles:
     - solid
   unicode: f45f
-volume:
-  changes:
-    - 5.3.0
-  label: Volume
-  search:
-    terms:
-      - audio
-      - control
-      - music
-      - sound
-      - speaker
-  styles:
-    - solid
-  unicode: f6a8
 volume-down:
   changes:
     - '1'
@@ -13623,15 +13425,6 @@ volume-down:
   styles:
     - solid
   unicode: f027
-volume-mute:
-  changes:
-    - 5.3.0
-  label: Volume Mute
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f6a9
 volume-off:
   changes:
     - '1'
@@ -13647,22 +13440,6 @@ volume-off:
   styles:
     - solid
   unicode: f026
-volume-slash:
-  changes:
-    - 5.0.0
-    - 5.3.0
-  label: Volume Slash
-  search:
-    terms:
-      - audio
-      - ban
-      - music
-      - mute
-      - slash
-      - sound
-  styles:
-    - solid
-  unicode: f2e2
 volume-up:
   changes:
     - '1'
@@ -13821,15 +13598,6 @@ wifi:
   styles:
     - solid
   unicode: f1eb
-wifi-slash:
-  changes:
-    - 5.3.0
-  label: Wifi Slash
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: f6ac
 wikipedia-w:
   changes:
     - '4.4'
