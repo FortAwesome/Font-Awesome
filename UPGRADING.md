@@ -8,7 +8,33 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ## 5.3.0 to 5.3.1
 
-There are no breaking changes in this version upgrade.
+The following Pro-only icons were removed from Font Awesome Free as of 5.3.1:
+
+* abacus
+* calculator-alt
+* empty-set
+* function
+* integral
+* intersection
+* lambda
+* omega
+* pi
+* sigma
+* signal-alt
+* signal-alt-slash
+* signal-slash
+* square-root
+* tally
+* theta
+* tilde
+* union
+* value-absolute
+* volume
+* volume-down
+* volume-slash
+* wifi-slash
+
+These icons were unintentionally included in 5.3.0.
 
 ---
 
