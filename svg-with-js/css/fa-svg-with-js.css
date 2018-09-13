@@ -242,6 +242,10 @@ svg:not(:root).svg-inline--fa {
   -webkit-animation: fa-spin 2s infinite linear;
           animation: fa-spin 2s infinite linear; }
 
+.fa-pulse-zoom {
+  -webkit-animation: fa-pulse-zoom 2s infinite;
+          animation: fa-pulse-zoom 2s infinite;  }
+
 .fa-pulse {
   -webkit-animation: fa-spin 1s infinite steps(8);
           animation: fa-spin 1s infinite steps(8); }
@@ -261,6 +265,30 @@ svg:not(:root).svg-inline--fa {
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
+
+@-webkit-keyframes fa-pulse-zoom {
+  0% {
+    -webkit-transform: scale(1.0);
+            transform: scale(1.0); }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5); }
+  100% {
+    -webkit-transform: scale(1.0);
+            transform: scale(1.0); }
+}
+
+@keyframes fa-pulse-zoom {
+  0% {
+    -webkit-transform: scale(1.0);
+            transform: scale(1.0); }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5); }
+  100% {
+    -webkit-transform: scale(1.0);
+            transform: scale(1.0); }
+}
 
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
