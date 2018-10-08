@@ -273,6 +273,15 @@ in-site-systems:
     - toolbox
   label: InSite Systems
   url: 'https://www.insitesystems.com'
+inspira-bvba:
+  icons:
+    - chess-knight
+  label: Inspira bvba
+  url: 'https://www.inspira.be'
+joe-emison:
+  icons:
+    - blender-phone
+  label: Joe Emison
 joget:
   icons:
     - joget
@@ -371,6 +380,16 @@ phabricator:
     - phabricator
   label: Phabricator
   url: 'http://phacility.com'
+promo-wizard:
+  icons:
+    - hat-wizard
+  label: Promo Wizard
+  url: 'https://promowizard.co.uk'
+pulse-eight:
+  icons:
+    - volume-mute
+  label: Pulse-Eight
+  url: 'https://pulse-eight.com'
 purely-interactive:
   icons:
     - kiwi-bird
@@ -588,9 +607,16 @@ via:
   icons:
     - car-crash
     - draw-polygon
+    - house-damage
     - layer-group
+    - skull-crossbones
+    - user-injured
   label: VIA Traffic Software Solutions
   url: 'https://www.via.software'
+victor-costan:
+  icons:
+    - otter
+  label: Staphany Park and Victor Costan
 vnv:
   icons:
     - vnv
@@ -600,6 +626,7 @@ weedable:
   icons:
     - bong
     - cannabis
+    - hippo
     - joint
     - mortar-pestle
     - prescription

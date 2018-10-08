@@ -8,6 +8,32 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.4.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.4.0)  - 2018-10-08
+
+### Added
+* New Tabletop Gaming, Holiday, Seasonal category
+* 7 tabletop gaming brands (acquisitions-incorporated, critical-role, d-and-d, d-and-d-beyond, fantasy-flight-games, penny-arcade, wizards-of-the-coast)
+* 25 new animals (and all of them are real you Disbelievers)
+* Sponsorship of volume-mute by Pulse-Eight
+* creative-commons-zero added to Free version
+* DEV brand icon
+* Search terms "positive" and "negative" added to applicable icons
+* Sponsorship of chess-knight by Inspira bvba
+* Sponsorship of blender-phone by Joe Emison
+* Icons chair, chair-office, file-csv, hammer, head-side, head-vr, house-damage, hryvnia, network-wired, running, slash, user-injured, and vr-cardboard
+
+### Changed
+* Using masks with SVG and JavaScript now use nanoid generated IDs instead of a simple counter
+* Updated speakap brand icon
+* Revised menorah icon and added hanukiah
+
+### Fixed
+* Slight distortion in book-heart
+* Bad search terms for folder icon
+* Set license for @fortawesome/free-brands-svg-icons NPM package
+
+---
+
 ## [5.3.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.3.1)  - 2018-08-28
 
 ### Changed

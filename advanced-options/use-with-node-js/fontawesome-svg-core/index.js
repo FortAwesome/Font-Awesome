@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 5.3.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.4.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 (function (global, factory) {
@@ -281,12 +281,15 @@ function insertCss(css) {
   return css;
 }
 
-var _uniqueId = 0;
+var idPool = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 function nextUniqueId() {
-  _uniqueId++;
-
-  return _uniqueId;
+  var size = 12;
+  var id = '';
+  while (size-- > 0) {
+    id += idPool[Math.random() * 62 | 0];
+  }
+  return id;
 }
 
 function toArray(obj) {
@@ -683,7 +686,7 @@ function makeLayersCounterAbstract(params) {
 
 var noop$2 = function noop() {};
 var p = config.measurePerformance && PERFORMANCE && PERFORMANCE.mark && PERFORMANCE.measure ? PERFORMANCE : { mark: noop$2, measure: noop$2 };
-var preamble = 'FA "5.3.1"';
+var preamble = 'FA "5.4.0"';
 
 var begin = function begin(name) {
   p.mark(preamble + ' ' + name + ' begins');

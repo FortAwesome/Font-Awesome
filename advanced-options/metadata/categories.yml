@@ -18,13 +18,21 @@ accessibility:
   label: Accessibility
 animals:
   icons:
+    - cat
     - crow
+    - dog
     - dove
+    - dragon
     - feather
     - feather-alt
     - fish
     - frog
+    - hippo
+    - horse
     - kiwi-bird
+    - otter
+    - paw
+    - spider
   label: Animals
 arrows:
   icons:
@@ -163,6 +171,7 @@ audio-video:
     - undo-alt
     - video
     - volume-down
+    - volume-mute
     - volume-off
     - volume-up
     - youtube
@@ -432,6 +441,7 @@ currency:
     - euro-sign
     - gg
     - gg-circle
+    - hryvnia
     - lira-sign
     - money-bill
     - money-bill-alt
@@ -661,6 +671,25 @@ files:
     - save
     - sticky-note
   label: Files
+gaming-tabletop:
+  icons:
+    - acquisitions-incorporated
+    - book-dead
+    - critical-role
+    - d-and-d
+    - dice-d20
+    - dice-d6
+    - dragon
+    - dungeon
+    - fantasy-flight-games
+    - fist-raised
+    - hat-wizard
+    - penny-arcade
+    - ring
+    - scroll
+    - skull-crossbones
+    - wizards-of-the-coast
+  label: Tabletop Gaming
 gender:
   icons:
     - genderless
@@ -680,6 +709,7 @@ gender:
 hands:
   icons:
     - allergies
+    - fist-raised
     - hand-holding
     - hand-lizard
     - hand-paper
@@ -712,6 +742,20 @@ health:
     - user-md
     - wheelchair
   label: Health
+holiday:
+  icons:
+    - book-dead
+    - broom
+    - cat
+    - cloud-moon
+    - crow
+    - ghost
+    - hat-wizard
+    - mask
+    - skull-crossbones
+    - spider
+    - toilet-paper
+  label: Holiday
 images:
   icons:
     - adjust
@@ -885,6 +929,7 @@ interfaces:
     - user-alt
     - user-circle
     - volume-down
+    - volume-mute
     - volume-off
     - volume-up
     - wifi
@@ -1140,6 +1185,7 @@ objects:
     - blender
     - bomb
     - book
+    - book-dead
     - bookmark
     - briefcase
     - broadcast-tower
@@ -1168,6 +1214,8 @@ objects:
     - cubes
     - cut
     - dice
+    - dice-d20
+    - dice-d6
     - dice-five
     - dice-four
     - dice-one
@@ -1206,8 +1254,8 @@ objects:
     - glasses
     - globe
     - graduation-cap
+    - hat-wizard
     - hdd
-    - headphones
     - headphones
     - headphones-alt
     - headset
@@ -1246,7 +1294,6 @@ objects:
     - mobile
     - mobile-alt
     - money-bill
-    - money-bill
     - money-bill-alt
     - money-check
     - money-check-alt
@@ -1268,6 +1315,7 @@ objects:
     - plug
     - print
     - puzzle-piece
+    - ring
     - road
     - rocket
     - ruler-combined
@@ -1276,12 +1324,14 @@ objects:
     - save
     - school
     - screwdriver
+    - scroll
     - search
     - shield-alt
     - shopping-bag
     - shopping-basket
     - shopping-cart
     - shower
+    - skull-crossbones
     - snowflake
     - space-shuttle
     - star
@@ -1378,6 +1428,7 @@ religion:
     - dove
     - gopuram
     - hamsa
+    - hanukiah
     - haykal
     - jedi
     - journal-whills
@@ -1400,6 +1451,20 @@ religion:
     - vihara
     - yin-yang
   label: Religion
+seasonal:
+  icons:
+    - apple-alt
+    - campground
+    - cloud-sun
+    - drumstick-bite
+    - football-ball
+    - hiking
+    - mountain
+    - tractor
+    - tree
+    - wind
+    - wine-bottle
+  label: Seasonal
 shapes:
   icons:
     - bookmark
@@ -1532,6 +1597,7 @@ status:
     - video
     - video-slash
     - volume-down
+    - volume-mute
     - volume-off
     - volume-up
     - wifi
