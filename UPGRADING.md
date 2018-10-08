@@ -6,6 +6,12 @@ This guide is useful to figure out what you need to do between breaking changes.
 
 As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/new) that you run into with this guide or with these upgrades to us.
 
+## 5.3.x to 5.4.0
+
+There are no breaking changes in this version upgrade.
+
+---
+
 ## 5.3.0 to 5.3.1
 
 The following Pro-only icons were removed from Font Awesome Free as of 5.3.1:

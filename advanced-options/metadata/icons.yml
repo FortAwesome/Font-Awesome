@@ -31,6 +31,22 @@ accusoft:
   styles:
     - brands
   unicode: f369
+acquisitions-incorporated:
+  changes:
+    - 5.4.0
+  label: Acquisitions Incorporated
+  search:
+    terms:
+      - Dungeons & Dragons
+      - d&d
+      - dnd
+      - fantasy
+      - game
+      - gaming
+      - tabletop
+  styles:
+    - brands
+  unicode: f6af
 ad:
   changes:
     - 5.3.0
@@ -460,6 +476,7 @@ apple:
     terms:
       - food
       - fruit
+      - mac
       - osx
   styles:
     - brands
@@ -469,7 +486,13 @@ apple-alt:
     - 5.2.0
   label: Fruit Apple
   search:
-    terms: []
+    terms:
+      - autumn
+      - fall
+      - food
+      - fruit
+      - fuji
+      - macintosh
   styles:
     - solid
   unicode: f5d1
@@ -1056,6 +1079,7 @@ beer:
     terms:
       - alcohol
       - bar
+      - beverage
       - drink
       - liquor
       - mug
@@ -1239,6 +1263,18 @@ blender:
   styles:
     - solid
   unicode: f517
+blender-phone:
+  changes:
+    - 5.4.0
+  label: Blender Phone
+  search:
+    terms:
+      - appliance
+      - fantasy
+      - silly
+  styles:
+    - solid
+  unicode: f6b6
 blind:
   changes:
     - '4.6'
@@ -1357,6 +1393,28 @@ book:
   styles:
     - solid
   unicode: f02d
+book-dead:
+  changes:
+    - 5.4.0
+  label: Book of the Dead
+  search:
+    terms:
+      - Dungeons & Dragons
+      - crossbones
+      - d&d
+      - dark arts
+      - death
+      - dnd
+      - documentation
+      - evil
+      - fantasy
+      - halloween
+      - read
+      - skull
+      - spell
+  styles:
+    - solid
+  unicode: f6b7
 book-open:
   changes:
     - 5.0.13
@@ -1501,7 +1559,15 @@ broom:
     - 5.0.13
   label: Broom
   search:
-    terms: []
+    terms:
+      - clean
+      - firebolt
+      - fly
+      - halloween
+      - nimbus 2000
+      - quidditch
+      - sweep
+      - witch
   styles:
     - solid
   unicode: f51a
@@ -1729,6 +1795,7 @@ calendar-minus:
   search:
     terms:
       - delete
+      - negative
       - remove
   styles:
     - solid
@@ -1744,6 +1811,7 @@ calendar-plus:
       - add
       - create
       - new
+      - positive
   styles:
     - solid
     - regular
@@ -1789,6 +1857,20 @@ camera-retro:
   styles:
     - solid
   unicode: f083
+campground:
+  changes:
+    - 5.4.0
+  label: Campground
+  search:
+    terms:
+      - autumn
+      - camping
+      - fall
+      - outdoors
+      - tent
+  styles:
+    - solid
+  unicode: f6bb
 cannabis:
   changes:
     - 5.1.0
@@ -1840,7 +1922,7 @@ car:
 car-alt:
   changes:
     - 5.2.0
-  label: Car Alt
+  label: Alternate Car
   search:
     terms: []
   styles:
@@ -2004,10 +2086,26 @@ cart-plus:
       - add
       - create
       - new
+      - positive
       - shopping
   styles:
     - solid
   unicode: f217
+cat:
+  changes:
+    - 5.4.0
+  label: Cat
+  search:
+    terms:
+      - feline
+      - halloween
+      - kitten
+      - kitty
+      - meow
+      - pet
+  styles:
+    - solid
+  unicode: f6be
 cc-amazon-pay:
   changes:
     - 5.0.2
@@ -2128,6 +2226,17 @@ certificate:
   styles:
     - solid
   unicode: f0a3
+chair:
+  changes:
+    - 5.4.0
+  label: Chair
+  search:
+    terms:
+      - furniture
+      - seat
+  styles:
+    - solid
+  unicode: f6c0
 chalkboard:
   changes:
     - 5.0.13
@@ -2670,6 +2779,33 @@ cloud-download-alt:
   styles:
     - solid
   unicode: f381
+cloud-moon:
+  changes:
+    - 5.4.0
+  label: Cloud with Moon
+  search:
+    terms:
+      - evening
+      - halloween
+      - night
+      - sky
+  styles:
+    - solid
+  unicode: f6c3
+cloud-sun:
+  changes:
+    - 5.4.0
+  label: Cloud with Sun
+  search:
+    terms:
+      - autumn
+      - day
+      - daytime
+      - fall
+      - outdoors
+  styles:
+    - solid
+  unicode: f6c4
 cloud-upload-alt:
   changes:
     - 5.0.0
@@ -2715,6 +2851,7 @@ cocktail:
   search:
     terms:
       - alcohol
+      - beverage
       - drink
   styles:
     - solid
@@ -2776,9 +2913,12 @@ coffee:
   label: Coffee
   search:
     terms:
+      - autumn
+      - beverage
       - breakfast
       - cafe
       - drink
+      - fall
       - morning
       - mug
       - tea
@@ -2861,7 +3001,6 @@ comment-alt:
     terms:
       - bubble
       - chat
-      - commenting
       - commenting
       - conversation
       - feedback
@@ -3073,7 +3212,9 @@ couch:
     - 5.0.9
   label: Couch
   search:
-    terms: []
+    terms:
+      - furniture
+      - sofa
   styles:
     - solid
   unicode: f4b8
@@ -3206,6 +3347,16 @@ creative-commons-share:
   styles:
     - brands
   unicode: f4f2
+creative-commons-zero:
+  changes:
+    - 5.0.11
+    - 5.4.0
+  label: Creative Commons CC0
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f4f3
 credit-card:
   changes:
     - '2'
@@ -3224,6 +3375,22 @@ credit-card:
     - solid
     - regular
   unicode: f09d
+critical-role:
+  changes:
+    - 5.4.0
+  label: Critical Role
+  search:
+    terms:
+      - Dungeons & Dragons
+      - d&d
+      - dnd
+      - fantasy
+      - game
+      - gaming
+      - tabletop
+  styles:
+    - brands
+  unicode: f6c9
 crop:
   changes:
     - '3.1'
@@ -3277,6 +3444,8 @@ crow:
     terms:
       - bird
       - bullfrog
+      - fauna
+      - halloween
       - toad
   styles:
     - solid
@@ -3340,7 +3509,6 @@ cut:
   label: Cut
   search:
     terms:
-      - scissors
       - scissors
   styles:
     - solid
@@ -3441,6 +3609,15 @@ desktop:
   styles:
     - solid
   unicode: f108
+dev:
+  changes:
+    - 5.4.0
+  label: DEV
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f6cc
 deviantart:
   changes:
     - '4.1'
@@ -3485,6 +3662,40 @@ dice:
   styles:
     - solid
   unicode: f522
+dice-d20:
+  changes:
+    - 5.4.0
+  label: Dice D20
+  search:
+    terms:
+      - Dungeons & Dragons
+      - chance
+      - d&d
+      - dnd
+      - fantasy
+      - gambling
+      - game
+      - roll
+  styles:
+    - solid
+  unicode: f6cf
+dice-d6:
+  changes:
+    - 5.4.0
+  label: Dice D6
+  search:
+    terms:
+      - Dungeons & Dragons
+      - chance
+      - d&d
+      - dnd
+      - fantasy
+      - gambling
+      - game
+      - roll
+  styles:
+    - solid
+  unicode: f6d1
 dice-five:
   changes:
     - 5.0.13
@@ -3672,6 +3883,22 @@ docker:
   styles:
     - brands
   unicode: f395
+dog:
+  changes:
+    - 5.4.0
+  label: Dog
+  search:
+    terms:
+      - canine
+      - fauna
+      - mammmal
+      - pet
+      - pooch
+      - puppy
+      - woof
+  styles:
+    - solid
+  unicode: f6d3
 dollar-sign:
   changes:
     - '3.2'
@@ -3755,8 +3982,8 @@ dove:
   label: Dove
   search:
     terms:
-      - animal
       - bird
+      - fauna
       - flying
       - peace
   styles:
@@ -3794,6 +4021,19 @@ drafting-compass:
   styles:
     - solid
   unicode: f568
+dragon:
+  changes:
+    - 5.4.0
+  label: Dragon
+  search:
+    terms:
+      - Dungeons & Dragons
+      - d&d
+      - dnd
+      - fantasy
+  styles:
+    - solid
+  unicode: f6d5
 draw-polygon:
   changes:
     - 5.2.0
@@ -3864,6 +4104,15 @@ drum-steelpan:
   styles:
     - solid
   unicode: f56a
+drumstick-bite:
+  changes:
+    - 5.4.0
+  label: Drumstick with Bite Taken Out
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f6d7
 drupal:
   changes:
     - '4.1'
@@ -3888,6 +4137,22 @@ dumbbell:
   styles:
     - solid
   unicode: f44b
+dungeon:
+  changes:
+    - 5.4.0
+  label: Dungeon
+  search:
+    terms:
+      - Dungeons & Dragons
+      - d&d
+      - dnd
+      - door
+      - entrance
+      - fantasy
+      - gate
+  styles:
+    - solid
+  unicode: f6d9
 dyalog:
   changes:
     - 5.0.0
@@ -4164,7 +4429,6 @@ euro-sign:
   search:
     terms:
       - eur
-      - eur
   styles:
     - solid
   unicode: f153
@@ -4392,6 +4656,22 @@ facebook-square:
   styles:
     - brands
   unicode: f082
+fantasy-flight-games:
+  changes:
+    - 5.4.0
+  label: Fantasy Flight-games
+  search:
+    terms:
+      - Dungeons & Dragons
+      - d&d
+      - dnd
+      - fantasy
+      - game
+      - gaming
+      - tabletop
+  styles:
+    - brands
+  unicode: f6dc
 fast-backward:
   changes:
     - '1'
@@ -4448,7 +4728,7 @@ feather:
 feather-alt:
   changes:
     - 5.1.0
-  label: Feather Alt
+  label: Alternate Feather
   search:
     terms:
       - bird
@@ -4579,6 +4859,16 @@ file-contract:
   styles:
     - solid
   unicode: f56c
+file-csv:
+  changes:
+    - 5.4.0
+  label: File CSV
+  search:
+    terms:
+      - spreadsheets
+  styles:
+    - solid
+  unicode: f6dd
 file-download:
   changes:
     - 5.1.0
@@ -4828,7 +5118,9 @@ fire:
   label: fire
   search:
     terms:
+      - caliente
       - flame
+      - heat
       - hot
       - popular
   styles:
@@ -4898,10 +5190,32 @@ fish:
     - 5.1.0
   label: Fish
   search:
-    terms: []
+    terms:
+      - fauna
+      - gold
+      - swimming
   styles:
     - solid
   unicode: f578
+fist-raised:
+  changes:
+    - 5.4.0
+  label: Raised Fist
+  search:
+    terms:
+      - Dungeons & Dragons
+      - d&d
+      - dnd
+      - fantasy
+      - hand
+      - ki
+      - monk
+      - resist
+      - strength
+      - unarmed combat
+  styles:
+    - solid
+  unicode: f6de
 flag:
   changes:
     - '1'
@@ -4994,7 +5308,7 @@ folder:
     - 5.3.0
   label: Folder
   search:
-    terms: null
+    terms: []
   styles:
     - solid
     - regular
@@ -5007,6 +5321,7 @@ folder-minus:
     terms:
       - archive
       - delete
+      - negative
       - remove
   styles:
     - solid
@@ -5031,6 +5346,7 @@ folder-plus:
       - add
       - create
       - new
+      - positive
   styles:
     - solid
   unicode: f65e
@@ -5113,7 +5429,10 @@ football-ball:
     - 5.0.5
   label: Football Ball
   search:
-    terms: []
+    terms:
+      - autumn
+      - fall
+      - pigskin
   styles:
     - solid
   unicode: f44e
@@ -5196,10 +5515,14 @@ frog:
   label: Frog
   search:
     terms:
+      - amphibian
       - bullfrog
+      - fauna
+      - hop
       - kermit
       - kiss
       - prince
+      - ribbit
       - toad
       - wart
   styles:
@@ -5374,6 +5697,23 @@ gg-circle:
   styles:
     - brands
   unicode: f261
+ghost:
+  changes:
+    - 5.4.0
+  label: Ghost
+  search:
+    terms:
+      - apparition
+      - blinky
+      - clyde
+      - floating
+      - halloween
+      - inky
+      - pinky
+      - spirit
+  styles:
+    - solid
+  unicode: f6e2
 gift:
   changes:
     - '1'
@@ -5482,6 +5822,7 @@ glass-martini:
     terms:
       - alcohol
       - bar
+      - beverage
       - drink
       - glass
       - liquor
@@ -5492,7 +5833,7 @@ glass-martini:
 glass-martini-alt:
   changes:
     - 5.1.0
-  label: Glass Martini-alt
+  label: Alternate Glass Martini
   search:
     terms: []
   styles:
@@ -6097,6 +6438,20 @@ hackerrank:
   styles:
     - brands
   unicode: f5f7
+hammer:
+  changes:
+    - 5.4.0
+  label: Hammer
+  search:
+    terms:
+      - admin
+      - fix
+      - repair
+      - settings
+      - tool
+  styles:
+    - solid
+  unicode: f6e3
 hamsa:
   changes:
     - 5.3.0
@@ -6323,6 +6678,20 @@ handshake:
     - solid
     - regular
   unicode: f2b5
+hanukiah:
+  changes:
+    - 5.4.0
+  label: Hanukiah
+  search:
+    terms:
+      - candle
+      - hanukkah
+      - jewish
+      - judaism
+      - light
+  styles:
+    - solid
+  unicode: f6e6
 hashtag:
   changes:
     - '4.5'
@@ -6333,6 +6702,27 @@ hashtag:
   styles:
     - solid
   unicode: f292
+hat-wizard:
+  changes:
+    - 5.4.0
+  label: Wizard's Hat
+  search:
+    terms:
+      - Dungeons & Dragons
+      - buckle
+      - cloth
+      - clothing
+      - d&d
+      - dnd
+      - fantasy
+      - halloween
+      - mage
+      - magic
+      - pointy
+      - witch
+  styles:
+    - solid
+  unicode: f6e8
 haykal:
   changes:
     - 5.3.0
@@ -6370,7 +6760,6 @@ heading:
   search:
     terms:
       - header
-      - header
   styles:
     - solid
   unicode: f1dc
@@ -6392,7 +6781,7 @@ headphones:
 headphones-alt:
   changes:
     - 5.1.0
-  label: Headphones Alt
+  label: Alternate Headphones
   search:
     terms:
       - audio
@@ -6479,6 +6868,34 @@ highlighter:
   styles:
     - solid
   unicode: f591
+hiking:
+  changes:
+    - 5.4.0
+  label: Hiking
+  search:
+    terms:
+      - activity
+      - autumn
+      - backpack
+      - fall
+      - fitness
+      - outdoors
+      - walking
+  styles:
+    - solid
+  unicode: f6ec
+hippo:
+  changes:
+    - 5.4.0
+  label: Hippo
+  search:
+    terms:
+      - fauna
+      - hungry
+      - mammmal
+  styles:
+    - solid
+  unicode: f6ed
 hips:
   changes:
     - 5.0.5
@@ -6546,6 +6963,19 @@ hornbill:
   styles:
     - brands
   unicode: f592
+horse:
+  changes:
+    - 5.4.0
+  label: Horse
+  search:
+    terms:
+      - equus
+      - fauna
+      - mammmal
+      - neigh
+  styles:
+    - solid
+  unicode: f6f0
 hospital:
   changes:
     - '3'
@@ -6651,6 +7081,17 @@ hourglass-start:
   styles:
     - solid
   unicode: f251
+house-damage:
+  changes:
+    - 5.4.0
+  label: House Damage
+  search:
+    terms:
+      - devastation
+      - home
+  styles:
+    - solid
+  unicode: f6f1
 houzz:
   changes:
     - '4.4'
@@ -6662,6 +7103,16 @@ houzz:
   styles:
     - brands
   unicode: f27c
+hryvnia:
+  changes:
+    - 5.4.0
+  label: Hryvnia
+  search:
+    terms:
+      - money
+  styles:
+    - solid
+  unicode: f6f2
 html5:
   changes:
     - '3.1'
@@ -6737,7 +7188,6 @@ image:
     terms:
       - album
       - photo
-      - picture
       - picture
   styles:
     - solid
@@ -7162,7 +7612,9 @@ kiwi-bird:
     - 5.0.13
   label: Kiwi Bird
   search:
-    terms: []
+    terms:
+      - bird
+      - fauna
   styles:
     - solid
   unicode: f535
@@ -7220,7 +7672,6 @@ laptop:
       - mac
       - macbook
       - machine
-      - pc
       - pc
   styles:
     - solid
@@ -7337,6 +7788,7 @@ leaf:
   search:
     terms:
       - eco
+      - flora
       - nature
       - plant
   styles:
@@ -7508,7 +7960,6 @@ lira-sign:
   search:
     terms:
       - try
-      - try
       - turkish
   styles:
     - solid
@@ -7556,7 +8007,6 @@ list-ol:
   search:
     terms:
       - checklist
-      - list
       - list
       - numbers
       - ol
@@ -7715,6 +8165,10 @@ magic:
     terms:
       - autocomplete
       - automatic
+      - mage
+      - magic
+      - spell
+      - witch
       - wizard
   styles:
     - solid
@@ -7815,7 +8269,7 @@ map-marked:
 map-marked-alt:
   changes:
     - 5.1.0
-  label: Map Marked-alt
+  label: Alternate Map Marked
   search:
     terms:
       - address
@@ -7983,6 +8437,20 @@ mars-stroke-v:
   styles:
     - solid
   unicode: f22a
+mask:
+  changes:
+    - 5.4.0
+  label: Mask
+  search:
+    terms:
+      - costume
+      - disguise
+      - halloween
+      - secret
+      - super hero
+  styles:
+    - solid
+  unicode: f6fa
 mastodon:
   changes:
     - 5.0.11
@@ -8141,10 +8609,12 @@ memory:
 menorah:
   changes:
     - 5.3.0
+    - 5.4.0
   label: Menorah
   search:
     terms:
       - candle
+      - hanukkah
       - jewish
       - judaism
       - light
@@ -8259,8 +8729,8 @@ minus:
       - collapse
       - delete
       - hide
-      - hide
       - minify
+      - negative
       - remove
       - trash
   styles:
@@ -8275,6 +8745,7 @@ minus-circle:
     terms:
       - delete
       - hide
+      - negative
       - remove
       - trash
   styles:
@@ -8290,8 +8761,8 @@ minus-square:
       - collapse
       - delete
       - hide
-      - hide
       - minify
+      - negative
       - remove
       - trash
   styles:
@@ -8528,6 +8999,15 @@ motorcycle:
   styles:
     - solid
   unicode: f21c
+mountain:
+  changes:
+    - 5.4.0
+  label: Mountain
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f6fc
 mouse-pointer:
   changes:
     - '4.4'
@@ -8571,6 +9051,15 @@ neos:
   styles:
     - brands
   unicode: f612
+network-wired:
+  changes:
+    - 5.4.0
+  label: Wired Network
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f6ff
 neuter:
   changes:
     - '4.3'
@@ -8800,6 +9289,17 @@ osi:
   styles:
     - brands
   unicode: f41a
+otter:
+  changes:
+    - 5.4.0
+  label: Otter
+  search:
+    terms:
+      - fauna
+      - mammmal
+  styles:
+    - solid
+  unicode: f700
 outdent:
   changes:
     - '1'
@@ -8827,6 +9327,7 @@ pagelines:
   search:
     terms:
       - eco
+      - flora
       - leaf
       - leaves
       - nature
@@ -9018,6 +9519,7 @@ paw:
   label: Paw
   search:
     terms:
+      - animal
       - pet
   styles:
     - solid
@@ -9134,6 +9636,23 @@ pencil-ruler:
   styles:
     - solid
   unicode: f5ae
+penny-arcade:
+  changes:
+    - 5.4.0
+  label: Penny Arcade
+  search:
+    terms:
+      - Dungeons & Dragons
+      - d&d
+      - dnd
+      - fantasy
+      - game
+      - gaming
+      - pax
+      - tabletop
+  styles:
+    - brands
+  unicode: f704
 people-carry:
   changes:
     - 5.0.9
@@ -9482,6 +10001,7 @@ plus:
       - create
       - expand
       - new
+      - positive
   styles:
     - solid
   unicode: f067
@@ -9496,6 +10016,7 @@ plus-circle:
       - create
       - expand
       - new
+      - positive
   styles:
     - solid
   unicode: f055
@@ -9510,6 +10031,7 @@ plus-square:
       - create
       - expand
       - new
+      - positive
   styles:
     - solid
     - regular
@@ -9578,7 +10100,6 @@ pound-sign:
   label: Pound Sign
   search:
     terms:
-      - gbp
       - gbp
   styles:
     - solid
@@ -10098,6 +10619,24 @@ ribbon:
   styles:
     - solid
   unicode: f4d6
+ring:
+  changes:
+    - 5.4.0
+  label: Ring
+  search:
+    terms:
+      - Dungeons & Dragons
+      - Gollum
+      - band
+      - binding
+      - d&d
+      - dnd
+      - fantasy
+      - jewelry
+      - precious
+  styles:
+    - solid
+  unicode: f70b
 road:
   changes:
     - '1'
@@ -10188,7 +10727,6 @@ ruble-sign:
   search:
     terms:
       - rub
-      - rub
   styles:
     - solid
   unicode: f158
@@ -10228,6 +10766,17 @@ ruler-vertical:
   styles:
     - solid
   unicode: f548
+running:
+  changes:
+    - 5.4.0
+  label: Running
+  search:
+    terms:
+      - jog
+      - sprint
+  styles:
+    - solid
+  unicode: f70c
 rupee-sign:
   changes:
     - '3.2'
@@ -10326,7 +10875,6 @@ screwdriver:
   search:
     terms:
       - admin
-      - container
       - fix
       - repair
       - settings
@@ -10344,6 +10892,21 @@ scribd:
   styles:
     - brands
   unicode: f28a
+scroll:
+  changes:
+    - 5.4.0
+  label: Scroll
+  search:
+    terms:
+      - Dungeons & Dragons
+      - announcement
+      - d&d
+      - dnd
+      - fantasy
+      - paper
+  styles:
+    - solid
+  unicode: f70e
 search:
   changes:
     - '1'
@@ -10386,6 +10949,7 @@ search-minus:
   search:
     terms:
       - minify
+      - negative
       - smaller
       - zoom
       - zoom out
@@ -10402,6 +10966,7 @@ search-plus:
       - bigger
       - enlarge
       - magnify
+      - positive
       - zoom
       - zoom in
   styles:
@@ -10528,7 +11093,6 @@ shekel-sign:
   search:
     terms:
       - ils
-      - ils
   styles:
     - solid
   unicode: f20b
@@ -10538,7 +11102,12 @@ shield-alt:
   label: Alternate Shield
   search:
     terms:
-      - shield
+      - achievement
+      - award
+      - block
+      - defend
+      - security
+      - winner
   styles:
     - solid
   unicode: f3ed
@@ -10788,6 +11357,31 @@ skull:
   styles:
     - solid
   unicode: f54c
+skull-crossbones:
+  changes:
+    - 5.4.0
+  label: Skull & Crossbones
+  search:
+    terms:
+      - Dungeons & Dragons
+      - alert
+      - bones
+      - d&d
+      - danger
+      - dead
+      - deadly
+      - death
+      - dnd
+      - fantasy
+      - halloween
+      - jolly-roger
+      - pirate
+      - poison
+      - skeleton
+      - warning
+  styles:
+    - solid
+  unicode: f714
 skyatlas:
   changes:
     - '4.3'
@@ -10834,6 +11428,15 @@ slack-hash:
   styles:
     - brands
   unicode: f3ef
+slash:
+  changes:
+    - 5.4.0
+  label: Slash
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f715
 sliders-h:
   changes:
     - '4.1'
@@ -10885,6 +11488,7 @@ smile-beam:
       - emoticon
       - face
       - happy
+      - positive
   styles:
     - solid
     - regular
@@ -11114,6 +11718,7 @@ spa:
   label: Spa
   search:
     terms:
+      - flora
       - mindfullness
       - plant
       - wellness
@@ -11138,12 +11743,28 @@ space-shuttle:
 speakap:
   changes:
     - 5.0.0
+    - 5.4.0
   label: Speakap
   search:
     terms: []
   styles:
     - brands
   unicode: f3f3
+spider:
+  changes:
+    - 5.4.0
+  label: Spider
+  search:
+    terms:
+      - arachnid
+      - bug
+      - charlotte
+      - crawl
+      - eight
+      - halloween
+  styles:
+    - solid
+  unicode: f717
 spinner:
   changes:
     - '3'
@@ -12327,6 +12948,21 @@ toggle-on:
   styles:
     - solid
   unicode: f205
+toilet-paper:
+  changes:
+    - 5.4.0
+  label: Toilet Paper
+  search:
+    terms:
+      - bathroom
+      - halloween
+      - lavatory
+      - prank
+      - restroom
+      - roll
+  styles:
+    - solid
+  unicode: f71e
 toolbox:
   changes:
     - 5.0.13
@@ -12379,6 +13015,15 @@ torii-gate:
   styles:
     - solid
   unicode: f6a1
+tractor:
+  changes:
+    - 5.4.0
+  label: Tractor
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f722
 trade-federation:
   changes:
     - 5.0.12
@@ -12477,7 +13122,14 @@ tree:
     - 5.0.0
   label: Tree
   search:
-    terms: []
+    terms:
+      - autumn
+      - bark
+      - fall
+      - flora
+      - forest
+      - nature
+      - plant
   styles:
     - solid
   unicode: f1bb
@@ -12989,6 +13641,18 @@ user-graduate:
   styles:
     - solid
   unicode: f501
+user-injured:
+  changes:
+    - 5.4.0
+  label: User Injured
+  search:
+    terms:
+      - cast
+      - ouch
+      - sling
+  styles:
+    - solid
+  unicode: f728
 user-lock:
   changes:
     - 5.0.11
@@ -13024,6 +13688,7 @@ user-minus:
   search:
     terms:
       - delete
+      - negative
       - remove
   styles:
     - solid
@@ -13037,6 +13702,7 @@ user-ninja:
       - assassin
       - avatar
       - dangerous
+      - deadly
       - sneaky
   styles:
     - solid
@@ -13050,6 +13716,7 @@ user-plus:
   label: User Plus
   search:
     terms:
+      - positive
       - sign up
       - signup
   styles:
@@ -13088,7 +13755,9 @@ user-slash:
     - 5.0.11
   label: User Slash
   search:
-    terms: []
+    terms:
+      - ban
+      - remove
   styles:
     - solid
   unicode: f506
@@ -13255,7 +13924,7 @@ viadeo:
   changes:
     - '4.6'
     - 5.0.0
-  label: Viadeo
+  label: Video
   search:
     terms: []
   styles:
@@ -13265,7 +13934,7 @@ viadeo-square:
   changes:
     - '4.6'
     - 5.0.0
-  label: Viadeo Square
+  label: Video Square
   search:
     terms: []
   styles:
@@ -13425,6 +14094,15 @@ volume-down:
   styles:
     - solid
   unicode: f027
+volume-mute:
+  changes:
+    - 5.3.0
+  label: Volume Mute
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f6a9
 volume-off:
   changes:
     - '1'
@@ -13608,6 +14286,20 @@ wikipedia-w:
   styles:
     - brands
   unicode: f266
+wind:
+  changes:
+    - 5.4.0
+  label: Wind
+  search:
+    terms:
+      - air
+      - autumn
+      - blow
+      - breeze
+      - fall
+  styles:
+    - solid
+  unicode: f72e
 window-close:
   changes:
     - '4.7'
@@ -13663,22 +14355,44 @@ windows:
   styles:
     - brands
   unicode: f17a
+wine-bottle:
+  changes:
+    - 5.4.0
+  label: Wine Bottle
+  search:
+    terms:
+      - alcohol
+      - beverage
+      - drink
+      - glass
+      - grapes
+  styles:
+    - solid
+  unicode: f72f
 wine-glass:
   changes:
     - 5.0.9
     - 5.1.0
   label: Wine Glass
   search:
-    terms: []
+    terms:
+      - alcohol
+      - beverage
+      - drink
+      - grapes
   styles:
     - solid
   unicode: f4e3
 wine-glass-alt:
   changes:
     - 5.1.0
-  label: Wine Glass-alt
+  label: Alternate Wine Glas
   search:
-    terms: []
+    terms:
+      - alcohol
+      - beverage
+      - drink
+      - grapes
   styles:
     - solid
   unicode: f5ce
@@ -13691,10 +14405,26 @@ wix:
   styles:
     - brands
   unicode: f5cf
+wizards-of-the-coast:
+  changes:
+    - 5.4.0
+  label: Wizards of the Coast
+  search:
+    terms:
+      - Dungeons & Dragons
+      - d&d
+      - dnd
+      - fantasy
+      - game
+      - gaming
+      - tabletop
+  styles:
+    - brands
+  unicode: f730
 wolf-pack-battalion:
   changes:
     - 5.0.12
-  label: Wolf Pack-battalion
+  label: Wolf Pack Battalion
   search:
     terms: []
   styles:
@@ -13707,7 +14437,6 @@ won-sign:
   label: Won Sign
   search:
     terms:
-      - krw
       - krw
   styles:
     - solid
@@ -13874,7 +14603,7 @@ yen-sign:
   search:
     terms:
       - jpy
-      - jpy
+      - money
   styles:
     - solid
   unicode: f157
