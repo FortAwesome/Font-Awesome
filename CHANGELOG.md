@@ -8,6 +8,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.4.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.4.1)  - 2018-10-10
+
+### Fixed
+* Separate wand and wand-magic into unique icons
+* Corrected the alignment of linkedin-in
+* Renamed categories "Holiday" to "Halloween" and "Seasonal" to "Autumn"
+
+---
+
 ## [5.4.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.4.0)  - 2018-10-08
 
 ### Added

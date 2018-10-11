@@ -487,12 +487,12 @@ apple-alt:
   label: Fruit Apple
   search:
     terms:
-      - autumn
       - fall
       - food
       - fruit
       - fuji
       - macintosh
+      - seasonal
   styles:
     - solid
   unicode: f5d1
@@ -1409,6 +1409,7 @@ book-dead:
       - evil
       - fantasy
       - halloween
+      - holiday
       - read
       - skull
       - spell
@@ -1564,6 +1565,7 @@ broom:
       - firebolt
       - fly
       - halloween
+      - holiday
       - nimbus 2000
       - quidditch
       - sweep
@@ -1863,10 +1865,10 @@ campground:
   label: Campground
   search:
     terms:
-      - autumn
       - camping
       - fall
       - outdoors
+      - seasonal
       - tent
   styles:
     - solid
@@ -2099,6 +2101,7 @@ cat:
     terms:
       - feline
       - halloween
+      - holiday
       - kitten
       - kitty
       - meow
@@ -2787,6 +2790,7 @@ cloud-moon:
     terms:
       - evening
       - halloween
+      - holiday
       - night
       - sky
   styles:
@@ -2798,11 +2802,11 @@ cloud-sun:
   label: Cloud with Sun
   search:
     terms:
-      - autumn
       - day
       - daytime
       - fall
       - outdoors
+      - seasonal
   styles:
     - solid
   unicode: f6c4
@@ -2913,7 +2917,6 @@ coffee:
   label: Coffee
   search:
     terms:
-      - autumn
       - beverage
       - breakfast
       - cafe
@@ -2921,6 +2924,7 @@ coffee:
       - fall
       - morning
       - mug
+      - seasonal
       - tea
   styles:
     - solid
@@ -3446,6 +3450,7 @@ crow:
       - bullfrog
       - fauna
       - halloween
+      - holiday
       - toad
   styles:
     - solid
@@ -5430,9 +5435,9 @@ football-ball:
   label: Football Ball
   search:
     terms:
-      - autumn
       - fall
       - pigskin
+      - seasonal
   styles:
     - solid
   unicode: f44e
@@ -5708,6 +5713,7 @@ ghost:
       - clyde
       - floating
       - halloween
+      - holiday
       - inky
       - pinky
       - spirit
@@ -6716,6 +6722,7 @@ hat-wizard:
       - dnd
       - fantasy
       - halloween
+      - holiday
       - mage
       - magic
       - pointy
@@ -6875,11 +6882,11 @@ hiking:
   search:
     terms:
       - activity
-      - autumn
       - backpack
       - fall
       - fitness
       - outdoors
+      - seasonal
       - walking
   styles:
     - solid
@@ -7924,6 +7931,7 @@ linkedin-in:
   changes:
     - '2'
     - 5.0.0
+    - 5.4.1
   label: LinkedIn In
   search:
     terms:
@@ -8446,6 +8454,7 @@ mask:
       - costume
       - disguise
       - halloween
+      - holiday
       - secret
       - super hero
   styles:
@@ -11374,6 +11383,7 @@ skull-crossbones:
       - dnd
       - fantasy
       - halloween
+      - holiday
       - jolly-roger
       - pirate
       - poison
@@ -11762,6 +11772,7 @@ spider:
       - crawl
       - eight
       - halloween
+      - holiday
   styles:
     - solid
   unicode: f717
@@ -12956,6 +12967,7 @@ toilet-paper:
     terms:
       - bathroom
       - halloween
+      - holiday
       - lavatory
       - prank
       - restroom
@@ -13123,13 +13135,13 @@ tree:
   label: Tree
   search:
     terms:
-      - autumn
       - bark
       - fall
       - flora
       - forest
       - nature
       - plant
+      - seasonal
   styles:
     - solid
   unicode: f1bb
@@ -14293,10 +14305,10 @@ wind:
   search:
     terms:
       - air
-      - autumn
       - blow
       - breeze
       - fall
+      - seasonal
   styles:
     - solid
   unicode: f72e

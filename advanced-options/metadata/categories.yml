@@ -198,6 +198,20 @@ automotive:
     - truck-monster
     - truck-pickup
   label: Automotive
+autumn:
+  icons:
+    - apple-alt
+    - campground
+    - cloud-sun
+    - drumstick-bite
+    - football-ball
+    - hiking
+    - mountain
+    - tractor
+    - tree
+    - wind
+    - wine-bottle
+  label: Autumn
 buildings:
   icons:
     - building
@@ -206,6 +220,7 @@ buildings:
     - home
     - hospital
     - hospital-alt
+    - house-damage
     - industry
     - mosque
     - place-of-worship
@@ -706,6 +721,20 @@ gender:
     - venus-double
     - venus-mars
   label: Genders
+halloween:
+  icons:
+    - book-dead
+    - broom
+    - cat
+    - cloud-moon
+    - crow
+    - ghost
+    - hat-wizard
+    - mask
+    - skull-crossbones
+    - spider
+    - toilet-paper
+  label: Halloween
 hands:
   icons:
     - allergies
@@ -742,20 +771,6 @@ health:
     - user-md
     - wheelchair
   label: Health
-holiday:
-  icons:
-    - book-dead
-    - broom
-    - cat
-    - cloud-moon
-    - crow
-    - ghost
-    - hat-wizard
-    - mask
-    - skull-crossbones
-    - spider
-    - toilet-paper
-  label: Holiday
 images:
   icons:
     - adjust
@@ -1451,20 +1466,6 @@ religion:
     - vihara
     - yin-yang
   label: Religion
-seasonal:
-  icons:
-    - apple-alt
-    - campground
-    - cloud-sun
-    - drumstick-bite
-    - football-ball
-    - hiking
-    - mountain
-    - tractor
-    - tree
-    - wind
-    - wine-bottle
-  label: Seasonal
 shapes:
   icons:
     - bookmark
@@ -1671,6 +1672,7 @@ users-people:
     - user-edit
     - user-friends
     - user-graduate
+    - user-injured
     - user-lock
     - user-md
     - user-minus
