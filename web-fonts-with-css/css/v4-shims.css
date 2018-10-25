@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 5.4.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.4.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 .fa.fa-glass:before {
@@ -1776,10 +1776,6 @@
 
 .fa.fa-map-o:before {
   content: "\f279"; }
-
-.fa.fa-commenting {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 400; }
 
 .fa.fa-commenting:before {
   content: "\f4ad"; }

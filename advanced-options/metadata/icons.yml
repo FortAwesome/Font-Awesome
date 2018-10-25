@@ -3536,6 +3536,21 @@ d-and-d:
   styles:
     - brands
   unicode: f38d
+d-and-d-beyond:
+  changes:
+    - 5.4.0
+  label: D&D Beyond
+  search:
+    terms:
+      - Dungeons & Dragons
+      - d&d
+      - dnd
+      - fantasy
+      - gaming
+      - tabletop
+  styles:
+    - brands
+  unicode: f6ca
 dashcube:
   changes:
     - '4.3'
@@ -10525,15 +10540,6 @@ registered:
     - solid
     - regular
   unicode: f25d
-rendact:
-  changes:
-    - 5.0.0
-  label: Rendact
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: f3e4
 renren:
   changes:
     - '3.2'
@@ -10681,6 +10687,7 @@ rocket:
 rocketchat:
   changes:
     - 5.0.0
+    - 5.4.2
   label: Rocket.Chat
   search:
     terms: []
@@ -12794,6 +12801,15 @@ thermometer-three-quarters:
   styles:
     - solid
   unicode: f2c8
+think-peaks:
+  changes:
+    - 5.4.2
+  label: Think Peaks
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f731
 thumbs-down:
   changes:
     - '3.2'
@@ -14147,6 +14163,18 @@ volume-up:
   styles:
     - solid
   unicode: f028
+vr-cardboard:
+  changes:
+    - 5.4.0
+  label: Cardboard VR
+  search:
+    terms:
+      - google
+      - reality
+      - virtual
+  styles:
+    - solid
+  unicode: f729
 vuejs:
   changes:
     - 5.0.0
@@ -14502,6 +14530,16 @@ wpforms:
   styles:
     - brands
   unicode: f298
+wpressr:
+  changes:
+    - 5.4.2
+  label: wpressr
+  search:
+    terms:
+      - rendact
+  styles:
+    - brands
+  unicode: f3e4
 wrench:
   changes:
     - '2'

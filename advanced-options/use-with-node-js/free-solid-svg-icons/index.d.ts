@@ -833,6 +833,7 @@ export const faVolumeDown: IconDefinition;
 export const faVolumeMute: IconDefinition;
 export const faVolumeOff: IconDefinition;
 export const faVolumeUp: IconDefinition;
+export const faVrCardboard: IconDefinition;
 export const faWalking: IconDefinition;
 export const faWallet: IconDefinition;
 export const faWarehouse: IconDefinition;

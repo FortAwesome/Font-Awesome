@@ -415,11 +415,6 @@ red-river:
     - red-river
   label: red river
   url: 'https://river.red'
-rendact:
-  icons:
-    - rendact
-  label: Rendact
-  url: 'https://rendact.com'
 replyd:
   icons:
     - replyd
@@ -583,6 +578,11 @@ themeco:
     - themeco
   label: Themeco
   url: 'https://theme.co'
+think-peaks:
+  icons:
+    - think-peaks
+  label: Think Peaks
+  url: 'https://thinkpeaks.com/'
 typo3:
   icons:
     - typo3
@@ -637,3 +637,8 @@ whmcs:
     - whmcs
   label: WHMCS
   url: 'https://www.whmcs.com'
+wpressr:
+  icons:
+    - wpressr
+  label: wpressr
+  url: 'https://wpressr.com'
