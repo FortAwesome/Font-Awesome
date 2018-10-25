@@ -356,6 +356,7 @@ export type IconName = 'address-book' |
   'css3-alt' | 
   'cuttlefish' | 
   'd-and-d' | 
+  'd-and-d-beyond' | 
   'dashcube' | 
   'delicious' | 
   'deploydog' | 
@@ -401,10 +402,6 @@ export type IconName = 'address-book' |
   'font-awesome' | 
   'font-awesome-alt' | 
   'font-awesome-flag' | 
-  'font-awesome-logo-full' | 
-  'fonticons' | 
-  'fonticons-fi' | 
-  'fort-awesome' | 
   'business-time' | 
   'calculator' | 
   'calendar' | 
@@ -509,6 +506,10 @@ export type IconName = 'address-book' |
   'cross' | 
   'crosshairs' | 
   'crow' | 
+  'font-awesome-logo-full' | 
+  'fonticons' | 
+  'fonticons-fi' | 
+  'fort-awesome' | 
   'fort-awesome-alt' | 
   'forumbee' | 
   'foursquare' | 
@@ -567,10 +568,6 @@ export type IconName = 'address-book' |
   'jenkins' | 
   'joget' | 
   'joomla' | 
-  'js' | 
-  'js-square' | 
-  'jsfiddle' | 
-  'kaggle' | 
   'crown' | 
   'cube' | 
   'cubes' | 
@@ -669,6 +666,10 @@ export type IconName = 'address-book' |
   'film' | 
   'filter' | 
   'fingerprint' | 
+  'js' | 
+  'js-square' | 
+  'jsfiddle' | 
+  'kaggle' | 
   'keybase' | 
   'keycdn' | 
   'kickstarter' | 
@@ -714,10 +715,6 @@ export type IconName = 'address-book' |
   'nutritionix' | 
   'odnoklassniki' | 
   'odnoklassniki-square' | 
-  'old-republic' | 
-  'opencart' | 
-  'openid' | 
-  'opera' | 
   'fire' | 
   'fire-extinguisher' | 
   'first-aid' | 
@@ -808,6 +805,10 @@ export type IconName = 'address-book' |
   'heartbeat' | 
   'helicopter' | 
   'highlighter' | 
+  'old-republic' | 
+  'opencart' | 
+  'openid' | 
+  'opera' | 
   'optin-monster' | 
   'osi' | 
   'page4' | 
@@ -844,7 +845,6 @@ export type IconName = 'address-book' |
   'reddit' | 
   'reddit-alien' | 
   'reddit-square' | 
-  'rendact' | 
   'renren' | 
   'replyd' | 
   'researchgate' | 
@@ -870,9 +870,6 @@ export type IconName = 'address-book' |
   'slack' | 
   'slack-hash' | 
   'slideshare' | 
-  'snapchat' | 
-  'snapchat-ghost' | 
-  'snapchat-square' | 
   'hiking' | 
   'hippo' | 
   'history' | 
@@ -970,6 +967,9 @@ export type IconName = 'address-book' |
   'meh-blank' | 
   'meh-rolling-eyes' | 
   'memory' | 
+  'snapchat' | 
+  'snapchat-ghost' | 
+  'snapchat-square' | 
   'soundcloud' | 
   'speakap' | 
   'spotify' | 
@@ -996,6 +996,7 @@ export type IconName = 'address-book' |
   'the-red-yeti' | 
   'themeco' | 
   'themeisle' | 
+  'think-peaks' | 
   'trade-federation' | 
   'trello' | 
   'tripadvisor' | 
@@ -1145,6 +1146,7 @@ export type IconName = 'address-book' |
   'wpbeginner' | 
   'wpexplorer' | 
   'wpforms' | 
+  'wpressr' | 
   'xbox' | 
   'xing' | 
   'xing-square' | 
@@ -1390,6 +1392,7 @@ export type IconName = 'address-book' |
   'volume-mute' | 
   'volume-off' | 
   'volume-up' | 
+  'vr-cardboard' | 
   'walking' | 
   'wallet' | 
   'warehouse' | 

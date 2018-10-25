@@ -8,6 +8,22 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.4.2](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.4.2)  - 2018-10-25
+
+### Added
+* Brand icon think-peaks
+
+### Changed
+* Updated rocketchat brand icon
+* Adding vr-cardboard and d-and-d-beyond to Free version
+* Replacing rendact with wpressr brand icon
+* Changing the version 4 shim for commenting icon to solid style to better match version 4
+
+### Fixed
+* Path issues with tombstone-alt icon in Regular and Light styles
+
+---
+
 ## [5.4.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.4.1)  - 2018-10-10
 
 ### Fixed
