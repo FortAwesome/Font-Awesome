@@ -405,6 +405,11 @@ quin-scape:
     - quinscape
   label: QuinScape
   url: 'https://www.quinscape.de'
+reacteurope:
+  icons:
+    - reacteurope
+  label: ReactEurope
+  url: 'https://www.react-europe.org'
 readme-io:
   icons:
     - readme
@@ -448,6 +453,7 @@ rocket-chat:
     - poo
     - quote-left
     - quote-right
+    - rocketchat
     - smile
     - video
     - video-slash
@@ -637,6 +643,11 @@ whmcs:
     - whmcs
   label: WHMCS
   url: 'https://www.whmcs.com'
+workrails:
+  icons:
+    - briefcase
+  label: WorkRails
+  url: 'https://www.workrails.com'
 wpressr:
   icons:
     - wpressr

@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 5.4.2 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.5.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 .fa,
@@ -167,7 +167,7 @@
   line-height: 2em;
   position: relative;
   vertical-align: middle;
-  width: 2em; }
+  width: 2.5em; }
 
 .fa-stack-1x,
 .fa-stack-2x {
@@ -874,11 +874,26 @@ readers do not read off random characters that represent icons */
 .fa-cloud-download-alt:before {
   content: "\f381"; }
 
+.fa-cloud-meatball:before {
+  content: "\f73b"; }
+
 .fa-cloud-moon:before {
   content: "\f6c3"; }
 
+.fa-cloud-moon-rain:before {
+  content: "\f73c"; }
+
+.fa-cloud-rain:before {
+  content: "\f73d"; }
+
+.fa-cloud-showers-heavy:before {
+  content: "\f740"; }
+
 .fa-cloud-sun:before {
   content: "\f6c4"; }
+
+.fa-cloud-sun-rain:before {
+  content: "\f743"; }
 
 .fa-cloud-upload-alt:before {
   content: "\f382"; }
@@ -1080,6 +1095,9 @@ readers do not read off random characters that represent icons */
 
 .fa-delicious:before {
   content: "\f1a5"; }
+
+.fa-democrat:before {
+  content: "\f747"; }
 
 .fa-deploydog:before {
   content: "\f38e"; }
@@ -1488,6 +1506,9 @@ readers do not read off random characters that represent icons */
 
 .fa-flag-checkered:before {
   content: "\f11e"; }
+
+.fa-flag-usa:before {
+  content: "\f74d"; }
 
 .fa-flask:before {
   content: "\f0c3"; }
@@ -2332,6 +2353,9 @@ readers do not read off random characters that represent icons */
 .fa-mercury:before {
   content: "\f223"; }
 
+.fa-meteor:before {
+  content: "\f753"; }
+
 .fa-microchip:before {
   content: "\f2db"; }
 
@@ -2608,6 +2632,9 @@ readers do not read off random characters that represent icons */
 .fa-periscope:before {
   content: "\f3da"; }
 
+.fa-person-booth:before {
+  content: "\f756"; }
+
 .fa-phabricator:before {
   content: "\f3db"; }
 
@@ -2704,6 +2731,9 @@ readers do not read off random characters that represent icons */
 .fa-poo:before {
   content: "\f2fe"; }
 
+.fa-poo-storm:before {
+  content: "\f75a"; }
+
 .fa-poop:before {
   content: "\f619"; }
 
@@ -2785,6 +2815,9 @@ readers do not read off random characters that represent icons */
 .fa-r-project:before {
   content: "\f4f7"; }
 
+.fa-rainbow:before {
+  content: "\f75b"; }
+
 .fa-random:before {
   content: "\f074"; }
 
@@ -2793,6 +2826,9 @@ readers do not read off random characters that represent icons */
 
 .fa-react:before {
   content: "\f41b"; }
+
+.fa-reacteurope:before {
+  content: "\f75d"; }
 
 .fa-readme:before {
   content: "\f4d5"; }
@@ -2838,6 +2874,9 @@ readers do not read off random characters that represent icons */
 
 .fa-replyd:before {
   content: "\f3e6"; }
+
+.fa-republican:before {
+  content: "\f75e"; }
 
 .fa-researchgate:before {
   content: "\f4f8"; }
@@ -3081,6 +3120,9 @@ readers do not read off random characters that represent icons */
 
 .fa-smile-wink:before {
   content: "\f4da"; }
+
+.fa-smog:before {
+  content: "\f75f"; }
 
 .fa-smoking:before {
   content: "\f48d"; }
@@ -3366,6 +3408,12 @@ readers do not read off random characters that represent icons */
 
 .fa-telegram-plane:before {
   content: "\f3fe"; }
+
+.fa-temperature-high:before {
+  content: "\f769"; }
+
+.fa-temperature-low:before {
+  content: "\f76b"; }
 
 .fa-tencent-weibo:before {
   content: "\f1d5"; }
@@ -3757,6 +3805,9 @@ readers do not read off random characters that represent icons */
 .fa-volume-up:before {
   content: "\f028"; }
 
+.fa-vote-yea:before {
+  content: "\f772"; }
+
 .fa-vr-cardboard:before {
   content: "\f729"; }
 
@@ -3771,6 +3822,9 @@ readers do not read off random characters that represent icons */
 
 .fa-warehouse:before {
   content: "\f494"; }
+
+.fa-water:before {
+  content: "\f773"; }
 
 .fa-weebly:before {
   content: "\f5cc"; }
