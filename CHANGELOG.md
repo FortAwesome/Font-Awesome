@@ -8,6 +8,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.5.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.5.0)  - 2018-11-02
+
+### Added
+* Politics category
+* Weather category (volume 1 and 2)
+* Brand icon reacteurope
+* Sponsorship of briefcase by WorkRails
+
+### Fixed
+* Alignment centered for larger icons when using the CSS stacks feature
+
+---
+
 ## [5.4.2](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.4.2)  - 2018-10-25
 
 ### Added

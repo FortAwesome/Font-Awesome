@@ -1433,6 +1433,23 @@ payments-shopping:
     - thumbs-up
     - trophy
   label: Payments & Shopping
+political:
+  icons:
+    - award
+    - balance-scale
+    - bullhorn
+    - check-double
+    - democrat
+    - donate
+    - dove
+    - fist-raised
+    - flag-usa
+    - handshake
+    - person-booth
+    - piggy-bank
+    - republican
+    - vote-yea
+  label: Political
 religion:
   icons:
     - ankh
@@ -1717,6 +1734,30 @@ vehicles:
     - truck-pickup
     - wheelchair
   label: Vehicles
+weather:
+  icons:
+    - bolt
+    - cloud
+    - cloud-meatball
+    - cloud-moon
+    - cloud-moon-rain
+    - cloud-rain
+    - cloud-showers-heavy
+    - cloud-sun
+    - cloud-sun-rain
+    - meteor
+    - moon
+    - poo-storm
+    - rainbow
+    - smog
+    - snowflake
+    - sun
+    - temperature-high
+    - temperature-low
+    - umbrella
+    - water
+    - wind
+  label: Weather
 writing:
   icons:
     - archive

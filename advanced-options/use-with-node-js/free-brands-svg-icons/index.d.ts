@@ -275,6 +275,7 @@ export const faQuora: IconDefinition;
 export const faRProject: IconDefinition;
 export const faRavelry: IconDefinition;
 export const faReact: IconDefinition;
+export const faReacteurope: IconDefinition;
 export const faReadme: IconDefinition;
 export const faRebel: IconDefinition;
 export const faRedRiver: IconDefinition;

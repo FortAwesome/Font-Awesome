@@ -6,6 +6,14 @@ This guide is useful to figure out what you need to do between breaking changes.
 
 As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/new) that you run into with this guide or with these upgrades to us.
 
+---
+
+## 5.4.x to 5.5.0
+
+There are no breaking changes in this version upgrade.
+
+---
+
 ## 5.4.0 to 5.4.1
 
 Categories were renamed from:

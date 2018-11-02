@@ -1337,6 +1337,7 @@ bolt:
   changes:
     - '2'
     - 5.0.0
+    - 5.5.0
   label: Lightning Bolt
   search:
     terms:
@@ -2684,7 +2685,7 @@ clipboard:
 clipboard-check:
   changes:
     - 5.0.7
-  label: Clipboard Check
+  label: Clipboard with Check
   search:
     terms:
       - accept
@@ -2778,27 +2779,71 @@ cloud-download-alt:
   label: Alternate Cloud Download
   search:
     terms:
-      - cloud-download
+      - import
   styles:
     - solid
   unicode: f381
+cloud-meatball:
+  changes:
+    - 5.5.0
+  label: Cloud with (a chance of) Meatball
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f73b
 cloud-moon:
   changes:
     - 5.4.0
+    - 5.5.0
   label: Cloud with Moon
   search:
     terms:
+      - crescent
       - evening
       - halloween
       - holiday
+      - lunar
       - night
       - sky
   styles:
     - solid
   unicode: f6c3
+cloud-moon-rain:
+  changes:
+    - 5.5.0
+  label: Cloud with Moon and Rain
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f73c
+cloud-rain:
+  changes:
+    - 5.5.0
+  label: Cloud with Rain
+  search:
+    terms:
+      - precipitation
+  styles:
+    - solid
+  unicode: f73d
+cloud-showers-heavy:
+  changes:
+    - 5.5.0
+  label: Cloud with Heavy Showers
+  search:
+    terms:
+      - precipitation
+      - rain
+      - storm
+  styles:
+    - solid
+  unicode: f740
 cloud-sun:
   changes:
     - 5.4.0
+    - 5.5.0
   label: Cloud with Sun
   search:
     terms:
@@ -2810,6 +2855,15 @@ cloud-sun:
   styles:
     - solid
   unicode: f6c4
+cloud-sun-rain:
+  changes:
+    - 5.5.0
+  label: Cloud with Sun and Rain
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f743
 cloud-upload-alt:
   changes:
     - 5.0.0
@@ -3592,6 +3646,24 @@ delicious:
   styles:
     - brands
   unicode: f1a5
+democrat:
+  changes:
+    - 5.5.0
+  label: Democrat
+  search:
+    terms:
+      - american
+      - democratic party
+      - donkey
+      - election
+      - left
+      - left-wing
+      - liberal
+      - politics
+      - usa
+  styles:
+    - solid
+  unicode: f747
 deploydog:
   changes:
     - 5.0.0
@@ -5243,10 +5315,13 @@ flag:
   label: flag
   search:
     terms:
+      - country
       - notice
       - notification
       - notify
+      - pole
       - report
+      - symbol
   styles:
     - solid
     - regular
@@ -5261,10 +5336,28 @@ flag-checkered:
       - notice
       - notification
       - notify
+      - pole
+      - racing
       - report
+      - symbol
   styles:
     - solid
   unicode: f11e
+flag-usa:
+  changes:
+    - 5.5.0
+  label: United States of America Flag
+  search:
+    terms:
+      - betsy ross
+      - country
+      - old glory
+      - stars
+      - stripes
+      - symbol
+  styles:
+    - solid
+  unicode: f74d
 flask:
   changes:
     - '2'
@@ -5619,7 +5712,9 @@ galactic-republic:
     - 5.0.12
   label: Galactic Republic
   search:
-    terms: []
+    terms:
+      - politics
+      - star wars
   styles:
     - brands
   unicode: f50c
@@ -5628,7 +5723,8 @@ galactic-senate:
     - 5.0.12
   label: Galactic Senate
   search:
-    terms: []
+    terms:
+      - star wars
   styles:
     - brands
   unicode: f50d
@@ -7106,7 +7202,7 @@ hourglass-start:
 house-damage:
   changes:
     - 5.4.0
-  label: House Damage
+  label: Damaged House
   search:
     terms:
       - devastation
@@ -7658,6 +7754,7 @@ landmark:
       - building
       - historic
       - memoroable
+      - politics
   styles:
     - solid
   unicode: f66f
@@ -8656,6 +8753,15 @@ mercury:
   styles:
     - solid
   unicode: f223
+meteor:
+  changes:
+    - 5.5.0
+  label: Meteor
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f753
 microchip:
   changes:
     - '4.7'
@@ -8976,7 +9082,9 @@ moon:
   search:
     terms:
       - contrast
+      - crescent
       - darker
+      - lunar
       - night
   styles:
     - solid
@@ -9247,7 +9355,9 @@ old-republic:
     - 5.0.12
   label: Old Republic
   search:
-    terms: []
+    terms:
+      - politics
+      - star wars
   styles:
     - brands
   unicode: f510
@@ -9715,6 +9825,22 @@ periscope:
   styles:
     - brands
   unicode: f3da
+person-booth:
+  changes:
+    - 5.5.0
+  label: Person Entering Booth
+  search:
+    terms:
+      - changing
+      - changing room
+      - election
+      - human
+      - person
+      - vote
+      - voting
+  styles:
+    - solid
+  unicode: f756
 phabricator:
   changes:
     - 5.0.0
@@ -10075,7 +10201,11 @@ poll:
     - 5.3.0
   label: Poll
   search:
-    terms: []
+    terms:
+      - results
+      - survey
+      - vote
+      - voting
   styles:
     - solid
   unicode: f681
@@ -10084,7 +10214,11 @@ poll-h:
     - 5.3.0
   label: Poll H
   search:
-    terms: []
+    terms:
+      - results
+      - survey
+      - vote
+      - voting
   styles:
     - solid
   unicode: f682
@@ -10098,6 +10232,18 @@ poo:
   styles:
     - solid
   unicode: f2fe
+poo-storm:
+  changes:
+    - 5.5.0
+  label: Poo Storm
+  search:
+    terms:
+      - mess
+      - poop
+      - shit
+  styles:
+    - solid
+  unicode: f75a
 poop:
   changes:
     - 5.2.0
@@ -10390,6 +10536,15 @@ r-project:
   styles:
     - brands
   unicode: f4f7
+rainbow:
+  changes:
+    - 5.5.0
+  label: Rainbow
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f75b
 random:
   changes:
     - '1'
@@ -10421,6 +10576,15 @@ react:
   styles:
     - brands
   unicode: f41b
+reacteurope:
+  changes:
+    - 5.5.0
+  label: ReactEurope
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f75d
 readme:
   changes:
     - 5.0.9
@@ -10579,6 +10743,24 @@ replyd:
   styles:
     - brands
   unicode: f3e6
+republican:
+  changes:
+    - 5.5.0
+  label: Republican
+  search:
+    terms:
+      - american
+      - conservative
+      - election
+      - elephant
+      - politics
+      - republican party
+      - right
+      - right-wing
+      - usa
+  styles:
+    - solid
+  unicode: f75e
 researchgate:
   changes:
     - 5.0.11
@@ -11523,6 +11705,16 @@ smile-wink:
     - solid
     - regular
   unicode: f4da
+smog:
+  changes:
+    - 5.5.0
+  label: Smog
+  search:
+    terms:
+      - dragon
+  styles:
+    - solid
+  unicode: f75f
 smoking:
   changes:
     - 5.0.7
@@ -11580,9 +11772,13 @@ snowflake:
   changes:
     - '4.7'
     - 5.0.0
+    - 5.5.0
   label: Snowflake
   search:
-    terms: []
+    terms:
+      - precipitation
+      - seasonal
+      - winter
   styles:
     - solid
     - regular
@@ -12280,6 +12476,7 @@ sun:
   changes:
     - '3.2'
     - 5.0.0
+    - 5.5.0
   label: Sun
   search:
     terms:
@@ -12287,6 +12484,9 @@ sun:
       - contrast
       - day
       - lighter
+      - sol
+      - solar
+      - star
       - weather
   styles:
     - solid
@@ -12609,6 +12809,30 @@ telegram-plane:
   styles:
     - brands
   unicode: f3fe
+temperature-high:
+  changes:
+    - 5.5.0
+  label: High Temperature
+  search:
+    terms:
+      - mercury
+      - thermometer
+      - warm
+  styles:
+    - solid
+  unicode: f769
+temperature-low:
+  changes:
+    - 5.5.0
+  label: Low Temperature
+  search:
+    terms:
+      - cool
+      - mercury
+      - thermometer
+  styles:
+    - solid
+  unicode: f76b
 tencent-weibo:
   changes:
     - '4.1'
@@ -12741,7 +12965,8 @@ thermometer:
   label: Thermometer
   search:
     terms:
-      - fever
+      - mercury
+      - status
       - temperature
   styles:
     - solid
@@ -12753,7 +12978,9 @@ thermometer-empty:
   label: Thermometer Empty
   search:
     terms:
+      - mercury
       - status
+      - temperature
   styles:
     - solid
   unicode: f2cb
@@ -12764,7 +12991,10 @@ thermometer-full:
   label: Thermometer Full
   search:
     terms:
+      - fever
+      - mercury
       - status
+      - temperature
   styles:
     - solid
   unicode: f2c7
@@ -12775,7 +13005,9 @@ thermometer-half:
   label: Thermometer 1/2 Full
   search:
     terms:
+      - mercury
       - status
+      - temperature
   styles:
     - solid
   unicode: f2c9
@@ -12786,7 +13018,9 @@ thermometer-quarter:
   label: Thermometer 1/4 Full
   search:
     terms:
+      - mercury
       - status
+      - temperature
   styles:
     - solid
   unicode: f2ca
@@ -12797,7 +13031,9 @@ thermometer-three-quarters:
   label: Thermometer 3/4 Full
   search:
     terms:
+      - mercury
       - status
+      - temperature
   styles:
     - solid
   unicode: f2c8
@@ -13543,6 +13779,7 @@ user:
       - account
       - avatar
       - head
+      - human
       - man
       - person
       - profile
@@ -13561,6 +13798,7 @@ user-alt:
       - account
       - avatar
       - head
+      - human
       - man
       - person
       - profile
@@ -13611,6 +13849,7 @@ user-circle:
       - account
       - avatar
       - head
+      - human
       - man
       - person
       - profile
@@ -14163,6 +14402,21 @@ volume-up:
   styles:
     - solid
   unicode: f028
+vote-yea:
+  changes:
+    - 5.5.0
+  label: Vote Yea
+  search:
+    terms:
+      - accept
+      - cast
+      - election
+      - politics
+      - positive
+      - 'yes'
+  styles:
+    - solid
+  unicode: f772
 vr-cardboard:
   changes:
     - 5.4.0
@@ -14211,6 +14465,15 @@ warehouse:
   styles:
     - solid
   unicode: f494
+water:
+  changes:
+    - 5.5.0
+  label: Water
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f773
 weebly:
   changes:
     - 5.1.0
@@ -14329,6 +14592,7 @@ wikipedia-w:
 wind:
   changes:
     - 5.4.0
+    - 5.5.0
   label: Wind
   search:
     terms:
