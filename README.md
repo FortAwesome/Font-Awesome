@@ -101,7 +101,7 @@ we deviate from normal SemVer in the following ways:**
   write clear upgrading instructions in UPGRADING.md
 * A `minor` or `patch` release will never remove icons
 * Bug fixes will be addressed as `patch` releases unless they include backward
-  incompability then they will be `minor` releases
+  incompatibility then they will be `minor` releases
 
 ## License
 
