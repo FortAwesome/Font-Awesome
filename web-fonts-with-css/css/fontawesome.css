@@ -120,17 +120,25 @@
   }
 }
 
+.fa-parent:hover .fa-hover-beat {
+  -webkit-animation: fa-beat 0.5s infinite ease alternate;
+          animation: fa-beat 0.5s infinite ease alternate; }
+
 .fa-beat {
   -webkit-animation: fa-beat 0.5s infinite ease alternate;
           animation: fa-beat 0.5s infinite ease alternate; }
 
-.fa-spin {
+.fa-parent:hover .fa-hover-spin {
   -webkit-animation: fa-spin 2s infinite linear;
           animation: fa-spin 2s infinite linear; }
 
 .fa-pulse {
   -webkit-animation: fa-spin 1s infinite steps(8);
           animation: fa-spin 1s infinite steps(8); }
+
+.fa-parent:hover .fa-hover-pulse {
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear; }
 
 @-webkit-keyframes fa-spin {
   0% {
