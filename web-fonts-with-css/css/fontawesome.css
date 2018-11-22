@@ -99,6 +99,31 @@
 .fab.fa-pull-right {
   margin-left: .3em; }
 
+@-webkit-keyframes fa-beat {
+  0% {
+    -webkit-transform:scale(0.95);
+    transform:scale(0.95);
+  }
+  100% {
+    -webkit-transform:scale(1.05);
+    transform:scale(1.05);
+  }
+}
+@keyframes fa-beat {
+  0% {
+    -webkit-transform:scale(0.95);
+            transform:scale(0.95);
+  }
+  100% {
+    -webkit-transform:scale(1.05);
+            transform:scale(1.05);
+  }
+}
+
+.fa-beat {
+  -webkit-animation: fa-beat 0.5s infinite ease alternate;
+          animation: fa-beat 0.5s infinite ease alternate; }
+
 .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;
           animation: fa-spin 2s infinite linear; }
