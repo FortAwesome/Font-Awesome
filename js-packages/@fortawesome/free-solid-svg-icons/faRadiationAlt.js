@@ -1,0 +1,29 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'fas';
+var iconName = 'radiation-alt';
+var width = 496;
+var height = 512;
+var ligatures = [];
+var unicode = 'f7ba';
+var svgPathData = 'M184 256h-79.1c-9.2 0-16.9 7.7-16 16.8 4.6 43.6 27 81.8 59.5 107.8 7.6 6.1 18.8 4.5 24-3.8l41.7-66.8c-18-11.2-30.1-31.2-30.1-54zm97.8-54.1l41.8-66.9c4.9-7.8 2.4-18.4-5.8-22.5C296.7 102.1 273.1 96 248 96s-48.7 6.1-69.9 16.5c-8.2 4.1-10.6 14.7-5.8 22.5l41.8 66.9c9.8-6.2 21.4-9.9 33.8-9.9s24.1 3.7 33.9 9.9zM391.1 256H312c0 22.8-12.1 42.8-30.2 54.1l41.7 66.8c5.2 8.3 16.4 9.9 24 3.8 32.6-26 54.9-64.2 59.5-107.8 1.1-9.2-6.7-16.9-15.9-16.9zM248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 432c-101.5 0-184-82.5-184-184S146.5 72 248 72s184 82.5 184 184-82.5 184-184 184zm0-216c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    ligatures,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faRadiationAlt = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = ligatures;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;

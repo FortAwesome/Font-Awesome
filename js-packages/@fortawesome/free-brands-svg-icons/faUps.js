@@ -1,0 +1,29 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'fab';
+var iconName = 'ups';
+var width = 375;
+var height = 512;
+var ligatures = [];
+var unicode = 'f7e0';
+var svgPathData = 'M99.2 302.6c-5.2 3.6-32.6 13.1-32.6-19v-104H33.9v102.6c0 74.9 80.2 51.1 97.9 39V179.6H99.2v123zM0 74.4v220.9C0 399 74.9 430.5 187.7 479.4c112.4-48.9 187.7-80.2 187.7-184.1V74.4C259.1 12.8 93.6 24.8 0 74.4zm358.1 220.9c0 86.6-53.2 113.6-170.4 165.3C70.2 408.8 17.2 381.9 17.2 295.3V168.9c102.3-93.8 231.6-100 340.9-89.8v216.2zM148.5 187.9v212.8h32.7V332c24.4 7.3 71.7-2.6 71.7-78.5 0-97.4-80.7-80.9-104.4-65.6zm32.7 117.3V204.9c8.4-4.2 38.4-12.7 38.4 49.3 0 67.9-36.4 51.8-38.4 51zm79.1-86.4c.1 47.3 51.6 42.5 52.2 70.4.6 23.5-30.4 23-50.8 4.9v30.1c36.2 21.5 81.9 8.1 83.2-33.5 1.7-51.5-54.1-46.6-53.4-73.2.6-20.3 30.6-20.5 48.5-2.2v-28.4c-28.5-22-79.9-9.2-79.7 31.9z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    ligatures,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faUps = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = ligatures;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;

@@ -8,6 +8,29 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.5.0 to 5.6.0
+
+In this release we've taken time to re-organize the directory structure to
+prevent redundancy and improve findability.
+
+### Directory structure changes
+
+| Old path                          | New path    |
+|-----------------------------------|-------------|
+| advanced-options/metadata         | metadata    |
+| advanced-options/raw-svg          | svgs        |
+| advanced-options/svg-sprites      | sprites     |
+| advanced-options/use-with-node-js | js-packages |
+| svg-with-js/js                    | js          |
+| svg-with-js/css                   | css         |
+| use-on-desktop                    | otfs        |
+| web-fonts-with-css/css            | css         |
+| web-fonts-with-css/less           | less        |
+| web-fonts-with-css/scss           | scss        |
+| web-fonts-with-css/webfonts       | webfonts    |
+
+---
+
 ## 5.4.x to 5.5.0
 
 There are no breaking changes in this version upgrade.

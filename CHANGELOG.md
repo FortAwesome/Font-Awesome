@@ -8,6 +8,31 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.6.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.6.0) - 2018-12-07
+
+**Minor version upgrade notice: there are some backward-incompatible changes to this release. See the
+[UPGRADING.md guide](https://github.com/FortAwesome/Font-Awesome/blob/master/UPGRADING.md) for more
+information.**
+
+### Added
+* Holiday category
+* Winter category
+* A nice selection of the top requested icons from the Font Awesome Leaderboard
+* Sponsored icon horse-head
+* Brand icons adobe, artstation, atlassian, centos, confluence, dhl, diaspora,
+  fedex, fedora, figma, intercom, invision, jira, mendeley, raspberry-pi,
+  redhat, sketch, sourcetree, suse, ubuntu, ups, usps, and yarn
+* The Canadian Maple Leaf (Aboot time, eh. You hosers.)
+
+### Changed
+* Added more icons to Buildings, Hands, Spinners, Users & People, and Vehicles categories
+* Added indicators whether an icon was added to Font Awesome through community voting
+
+### Fixed
+* Missing metadata for holly-berry
+
+---
+
 ## [5.5.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.5.0)  - 2018-11-02
 
 ### Added
