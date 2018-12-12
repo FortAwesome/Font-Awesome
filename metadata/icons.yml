@@ -5312,6 +5312,7 @@ exclamation-triangle:
   changes:
     - '1'
     - 5.0.0
+    - 5.6.1
   label: Exclamation Triangle
   search:
     terms:

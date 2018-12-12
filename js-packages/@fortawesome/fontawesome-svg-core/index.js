@@ -728,7 +728,7 @@
     mark: noop$1,
     measure: noop$1
   };
-  var preamble = "FA \"5.6.0\"";
+  var preamble = "FA \"5.6.1\"";
 
   var begin = function begin(name) {
     p.mark("".concat(preamble, " ").concat(name, " begins"));
@@ -751,7 +751,8 @@
    * Internal helper to bind a function known to have 4 arguments
    * to a given context.
    */
-  var bindInternal4 = function bindInternal4 (func, thisContext) {
+
+  var bindInternal4 = function bindInternal4(func, thisContext) {
     return function (a, b, c, d) {
       return func.call(thisContext, a, b, c, d);
     };
@@ -768,17 +769,20 @@
    * @param  {Object}   thisContext  The context for the reducer.
    * @return {mixed}                 The final result.
    */
-  var reduce = function fastReduceObject (subject, fn, initialValue, thisContext) {
+
+
+  var reduce = function fastReduceObject(subject, fn, initialValue, thisContext) {
     var keys = Object.keys(subject),
         length = keys.length,
         iterator = thisContext !== undefined ? bindInternal4(fn, thisContext) : fn,
-        i, key, result;
+        i,
+        key,
+        result;
 
     if (initialValue === undefined) {
       i = 1;
       result = subject[keys[0]];
-    }
-    else {
+    } else {
       i = 0;
       result = initialValue;
     }

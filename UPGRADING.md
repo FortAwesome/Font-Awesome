@@ -8,6 +8,12 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.6.0 to 5.6.1
+
+There are no breaking changes in this version upgrade.
+
+---
+
 ## 5.5.0 to 5.6.0
 
 In this release we've taken time to re-organize the directory structure to

@@ -8,6 +8,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.6.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.6.1) - 2018-12-12
+
+### Fixed
+* NPM JavaScript icon packages no longer include ES6 expressions in non-ES6 files
+  FortAwesome/Font-Awesome#14382, FortAwesome/Font-Awesome#14380, FortAwesome/Font-Awesome-Pro#1286
+* Removed extra point in the light style of exclamation-triangle
+* Correct a typo in the license files
+
+---
+
 ## [5.6.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.6.0) - 2018-12-07
 
 **Minor version upgrade notice: there are some backward-incompatible changes to this release. See the
