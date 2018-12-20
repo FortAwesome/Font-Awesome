@@ -8,6 +8,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.6.3](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.6.3) - 2018-12-20
+
+### Changed
+* Revising fire icon and adding alternative fire icon
+* Updating fedora brand icon
+
+---
+
 ## [5.6.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.6.1) - 2018-12-12
 
 ### Fixed

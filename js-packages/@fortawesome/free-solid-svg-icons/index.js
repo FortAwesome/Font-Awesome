@@ -1628,7 +1628,12 @@
   var faFire = {
     prefix: 'fas',
     iconName: 'fire',
-    icon: [384, 512, [], "f06d", "M277.3 76.8a520.71 520.71 0 0 0-48.2 52.5C205.8 96.4 176.8 63.1 144 32 59.8 111.8 0 215.7 0 278.4 0 389.7 86 480 192 480s192-90.3 192-201.6c0-46.6-44.6-142.7-106.7-201.6zm-15.2 302.1c-19 13.3-42.3 21.1-67.6 21.1C131.4 400 80 358.2 80 290.4c0-33.8 21.3-63.6 63.7-114.4 6.1 7 86.5 109.7 86.5 109.7l51.3-58.5c3.6 6 6.9 11.9 9.9 17.5 23.9 45.6 13.8 104-29.3 134.2z"]
+    icon: [384, 512, [], "f06d", "M216 23.86c0-23.8-30.65-32.77-44.15-13.04C48 191.85 224 200 224 288c0 35.63-29.11 64.46-64.85 63.99-35.17-.45-63.15-29.77-63.15-64.94v-85.51c0-21.7-26.47-32.23-41.43-16.5C27.8 213.16 0 261.33 0 320c0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-193-168-296.14z"]
+  };
+  var faFireAlt = {
+    prefix: 'fas',
+    iconName: 'fire-alt',
+    icon: [448, 512, [], "f7e4", "M323.56 51.2c-20.8 19.3-39.58 39.59-56.22 59.97C240.08 73.62 206.28 35.53 168 0 69.74 91.17 0 209.96 0 281.6 0 408.85 100.29 512 224 512s224-103.15 224-230.4c0-53.27-51.98-163.14-124.44-230.4zm-19.47 340.65C282.43 407.01 255.72 416 226.86 416 154.71 416 96 368.26 96 290.75c0-38.61 24.31-72.63 72.79-130.75 6.93 7.98 98.83 125.34 98.83 125.34l58.63-66.88c4.14 6.85 7.91 13.55 11.27 19.97 27.35 52.19 15.81 118.97-33.43 153.42z"]
   };
   var faFireExtinguisher = {
     prefix: 'fas',
@@ -4906,6 +4911,7 @@
     faFilter: faFilter,
     faFingerprint: faFingerprint,
     faFire: faFire,
+    faFireAlt: faFireAlt,
     faFireExtinguisher: faFireExtinguisher,
     faFirstAid: faFirstAid,
     faFish: faFish,
@@ -5825,6 +5831,7 @@
   exports.faFilter = faFilter;
   exports.faFingerprint = faFingerprint;
   exports.faFire = faFire;
+  exports.faFireAlt = faFireAlt;
   exports.faFireExtinguisher = faFireExtinguisher;
   exports.faFirstAid = faFirstAid;
   exports.faFish = faFish;

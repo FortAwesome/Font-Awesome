@@ -912,6 +912,7 @@ export type IconName = '500px' |
   'filter' | 
   'fingerprint' | 
   'fire' | 
+  'fire-alt' | 
   'fire-extinguisher' | 
   'first-aid' | 
   'fish' | 

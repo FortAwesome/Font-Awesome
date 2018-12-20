@@ -1030,6 +1030,7 @@ maps:
     - eye-slash
     - fighter-jet
     - fire
+    - fire-alt
     - fire-extinguisher
     - flag
     - flag-checkered
@@ -1303,6 +1304,7 @@ objects:
     - file-prescription
     - film
     - fire
+    - fire-alt
     - fire-extinguisher
     - flag
     - flag-checkered
