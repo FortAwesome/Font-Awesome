@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 5.6.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.6.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 .fa,
@@ -1548,6 +1548,9 @@ readers do not read off random characters that represent icons */
 
 .fa-fire:before {
   content: "\f06d"; }
+
+.fa-fire-alt:before {
+  content: "\f7e4"; }
 
 .fa-fire-extinguisher:before {
   content: "\f134"; }

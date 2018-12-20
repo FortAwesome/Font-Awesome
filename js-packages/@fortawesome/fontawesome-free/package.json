@@ -47,7 +47,7 @@
     "node": ">=6"
   },
   "dependencies": {},
-  "version": "5.6.1",
+  "version": "5.6.3",
   "name": "@fortawesome/fontawesome-free",
   "main": "js/fontawesome.js",
   "style": "css/fontawesome.css",

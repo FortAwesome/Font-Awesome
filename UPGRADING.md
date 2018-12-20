@@ -8,6 +8,14 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.6.x to 5.6.3
+
+The fire icon has been reverted back to the previous design in versions <= 5.5.0.
+
+We have moved the redesigned icon to fire-alt.
+
+---
+
 ## 5.6.0 to 5.6.1
 
 There are no breaking changes in this version upgrade.

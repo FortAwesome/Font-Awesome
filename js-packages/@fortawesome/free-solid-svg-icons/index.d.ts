@@ -323,6 +323,7 @@ export const faFilm: IconDefinition;
 export const faFilter: IconDefinition;
 export const faFingerprint: IconDefinition;
 export const faFire: IconDefinition;
+export const faFireAlt: IconDefinition;
 export const faFireExtinguisher: IconDefinition;
 export const faFirstAid: IconDefinition;
 export const faFish: IconDefinition;
