@@ -8,6 +8,12 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.6.x to 5.7.0
+
+The calendar-alt icon has been reverted back to the previous design in versions <= 5.6.0.
+
+---
+
 ## 5.6.x to 5.6.3
 
 The fire icon has been reverted back to the previous design in versions <= 5.5.0.

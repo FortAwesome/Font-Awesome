@@ -101,7 +101,7 @@ export interface IconParams extends Params {
   mask?: IconLookup;
 }
 export interface DOM {
-  i2svg(params?: { node: Node; callback: () => void }): void;
+  i2svg(params?: { node: Node; callback: () => void }): Promise<void>;
   css(): string;
   insertCss(): string;
   watch(): void;

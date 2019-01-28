@@ -137,6 +137,7 @@ audio-video:
     - circle
     - closed-captioning
     - compress
+    - compress-arrows-alt
     - eject
     - expand
     - expand-arrows-alt
@@ -338,6 +339,7 @@ chat:
     - comment
     - comment-alt
     - comment-dots
+    - comment-medical
     - comment-slash
     - comments
     - frown
@@ -612,8 +614,11 @@ editors:
     - th
     - th-large
     - th-list
+    - tools
     - trash
     - trash-alt
+    - trash-restore
+    - trash-restore-alt
     - underline
     - undo
     - undo-alt
@@ -702,6 +707,29 @@ files:
     - save
     - sticky-note
   label: Files
+food:
+  icons:
+    - apple-alt
+    - bacon
+    - bone
+    - bread-slice
+    - candy-cane
+    - carrot
+    - cheese
+    - cloud-meatball
+    - cookie
+    - drumstick-bite
+    - egg
+    - fish
+    - hamburger
+    - hotdog
+    - ice-cream
+    - lemon
+    - pepper-hot
+    - pizza-slice
+    - seedling
+    - stroopwafel
+  label: Food
 gaming-tabletop:
   icons:
     - acquisitions-incorporated
@@ -760,6 +788,7 @@ hands:
     - hand-holding-heart
     - hand-holding-usd
     - hand-lizard
+    - hand-middle-finger
     - hand-paper
     - hand-peace
     - hand-point-down
@@ -814,6 +843,7 @@ images:
     - chalkboard
     - clone
     - compress
+    - compress-arrows-alt
     - expand
     - eye
     - eye-dropper
@@ -974,6 +1004,8 @@ interfaces:
     - tools
     - trash
     - trash-alt
+    - trash-restore
+    - trash-restore-alt
     - trophy
     - undo
     - undo-alt
@@ -996,6 +1028,7 @@ logistics:
     - clipboard-list
     - dolly
     - dolly-flatbed
+    - hard-hat
     - pallet
     - shipping-fast
     - truck
@@ -1167,11 +1200,15 @@ medical:
     - biohazard
     - bone
     - bong
+    - book-medical
     - brain
     - briefcase-medical
     - burn
     - cannabis
     - capsules
+    - clinic-medical
+    - comment-medical
+    - crutch
     - diagnoses
     - dna
     - file-medical
@@ -1185,9 +1222,11 @@ medical:
     - hospital-symbol
     - id-card-alt
     - joint
+    - laptop-medical
     - microscope
     - mortar-pestle
     - notes-medical
+    - pager
     - pills
     - plus
     - poop
@@ -1208,6 +1247,7 @@ medical:
     - thermometer
     - tooth
     - user-md
+    - user-nurse
     - vial
     - vials
     - weight
@@ -1328,6 +1368,7 @@ objects:
     - headphones-alt
     - headset
     - heart
+    - heart-broken
     - helicopter
     - highlighter
     - holly-berry
@@ -1560,6 +1601,7 @@ shapes:
     - file
     - folder
     - heart
+    - heart-broken
     - map-marker
     - play
     - shapes
@@ -1621,9 +1663,11 @@ status:
     - calendar
     - calendar-alt
     - calendar-check
+    - calendar-day
     - calendar-minus
     - calendar-plus
     - calendar-times
+    - calendar-week
     - cart-arrow-down
     - cart-plus
     - comment
@@ -1788,6 +1832,7 @@ users-people:
     - user-md
     - user-minus
     - user-ninja
+    - user-nurse
     - user-plus
     - user-secret
     - user-shield

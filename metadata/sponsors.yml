@@ -53,6 +53,11 @@ apper-systems-ab:
     - asymmetrik
   label: 'Asymmetrik, Ltd.'
   url: 'http://asymmetrik.com'
+ausmed-education:
+  icons:
+    - user-nurse
+  label: Ausmed Education
+  url: 'https://www.ausmed.com.au'
 avianex:
   icons:
     - avianex
@@ -314,6 +319,16 @@ med-apps:
     - medapps
   label: MedApps
   url: 'http://medapps.com.au'
+medapps:
+  icons:
+    - book-medical
+    - clinic-medical
+    - comment-medical
+    - crutch
+    - laptop-medical
+    - pager
+  label: MedApps
+  url: 'https://medapps.com.au'
 megaport:
   icons:
     - megaport

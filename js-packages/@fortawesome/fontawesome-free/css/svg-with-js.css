@@ -283,7 +283,7 @@ svg:not(:root).svg-inline--fa {
   -webkit-transform: scale(1, -1);
           transform: scale(1, -1); }
 
-.fa-flip-horizontal.fa-flip-vertical {
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   -webkit-transform: scale(-1, -1);
           transform: scale(-1, -1); }
@@ -292,7 +292,8 @@ svg:not(:root).svg-inline--fa {
 :root .fa-rotate-180,
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
-:root .fa-flip-vertical {
+:root .fa-flip-vertical,
+:root .fa-flip-both {
   -webkit-filter: none;
           filter: none; }
 

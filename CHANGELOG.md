@@ -8,6 +8,31 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.7.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.7.0) - 2019-01-28
+
+### Added
+* New Food category
+* More Medical icons
+* More icons from the leaderboard
+* Added tasks-alt
+* New CSS class fa-flip-both that applies fa-flip-horizontal and fa-flip-vertical together
+* CSS now defaults to font-display: auto
+* Sass and Less files contain a variable that can be changed to alter the font-display value
+
+### Changed
+* Updated slack brand icon
+* Reverted calendar-alt to previous design before 5.6.0
+
+### Fixed
+* Safari fails to process pseudo elements if the font-weight is "normal"
+* Renamed internal method to keep from confusing rJS FortAwesome/Font-Awesome#14461
+* Corrected font weights in TTF files FortAwesome/Font-Awesome#13320
+* XCode now correctly displays different styles when using TTF files
+* Support for Turbolinks without modifying the dom.watch() call FortAwesome/Font-Awesome#12709
+* Add focusable=false for SVG elements to prevent IE11 double-focus bug FortAwesome/Font-Awesome#13155
+
+---
+
 ## [5.6.3](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.6.3) - 2018-12-20
 
 ### Changed
