@@ -639,6 +639,7 @@ export type IconName = '500px' |
   'baby-carriage' | 
   'backspace' | 
   'backward' | 
+  'bacon' | 
   'balance-scale' | 
   'ban' | 
   'band-aid' | 
@@ -673,6 +674,7 @@ export type IconName = '500px' |
   'bong' | 
   'book' | 
   'book-dead' | 
+  'book-medical' | 
   'book-open' | 
   'book-reader' | 
   'bookmark' | 
@@ -682,6 +684,7 @@ export type IconName = '500px' |
   'boxes' | 
   'braille' | 
   'brain' | 
+  'bread-slice' | 
   'briefcase' | 
   'briefcase-medical' | 
   'broadcast-tower' | 
@@ -741,6 +744,7 @@ export type IconName = '500px' |
   'check-circle' | 
   'check-double' | 
   'check-square' | 
+  'cheese' | 
   'chess' | 
   'chess-bishop' | 
   'chess-board' | 
@@ -762,6 +766,7 @@ export type IconName = '500px' |
   'circle' | 
   'circle-notch' | 
   'city' | 
+  'clinic-medical' | 
   'clipboard' | 
   'clipboard-check' | 
   'clipboard-list' | 
@@ -790,6 +795,7 @@ export type IconName = '500px' |
   'comment-alt' | 
   'comment-dollar' | 
   'comment-dots' | 
+  'comment-medical' | 
   'comment-slash' | 
   'comments' | 
   'comments-dollar' | 
@@ -810,6 +816,7 @@ export type IconName = '500px' |
   'crosshairs' | 
   'crow' | 
   'crown' | 
+  'crutch' | 
   'cube' | 
   'cubes' | 
   'cut' | 
@@ -854,6 +861,7 @@ export type IconName = '500px' |
   'dumpster-fire' | 
   'dungeon' | 
   'edit' | 
+  'egg' | 
   'eject' | 
   'ellipsis-h' | 
   'ellipsis-v' | 
@@ -978,12 +986,14 @@ export type IconName = '500px' |
   'grip-vertical' | 
   'guitar' | 
   'h-square' | 
+  'hamburger' | 
   'hammer' | 
   'hamsa' | 
   'hand-holding' | 
   'hand-holding-heart' | 
   'hand-holding-usd' | 
   'hand-lizard' | 
+  'hand-middle-finger' | 
   'hand-paper' | 
   'hand-peace' | 
   'hand-point-down' | 
@@ -998,6 +1008,7 @@ export type IconName = '500px' |
   'hands-helping' | 
   'handshake' | 
   'hanukiah' | 
+  'hard-hat' | 
   'hashtag' | 
   'hat-wizard' | 
   'haykal' | 
@@ -1023,6 +1034,7 @@ export type IconName = '500px' |
   'hospital-alt' | 
   'hospital-symbol' | 
   'hot-tub' | 
+  'hotdog' | 
   'hotel' | 
   'hourglass' | 
   'hourglass-end' | 
@@ -1031,6 +1043,7 @@ export type IconName = '500px' |
   'house-damage' | 
   'hryvnia' | 
   'i-cursor' | 
+  'ice-cream' | 
   'icicles' | 
   'id-badge' | 
   'id-card' | 
@@ -1060,6 +1073,7 @@ export type IconName = '500px' |
   'language' | 
   'laptop' | 
   'laptop-code' | 
+  'laptop-medical' | 
   'laugh' | 
   'laugh-beam' | 
   'laugh-squint' | 
@@ -1153,6 +1167,7 @@ export type IconName = '500px' |
   'om' | 
   'otter' | 
   'outdent' | 
+  'pager' | 
   'paint-brush' | 
   'paint-roller' | 
   'palette' | 
@@ -1177,6 +1192,7 @@ export type IconName = '500px' |
   'pencil-alt' | 
   'pencil-ruler' | 
   'people-carry' | 
+  'pepper-hot' | 
   'percent' | 
   'percentage' | 
   'person-booth' | 
@@ -1186,6 +1202,7 @@ export type IconName = '500px' |
   'phone-volume' | 
   'piggy-bank' | 
   'pills' | 
+  'pizza-slice' | 
   'place-of-worship' | 
   'plane' | 
   'plane-arrival' | 
@@ -1418,6 +1435,8 @@ export type IconName = '500px' |
   'transgender-alt' | 
   'trash' | 
   'trash-alt' | 
+  'trash-restore' | 
+  'trash-restore-alt' | 
   'tree' | 
   'trophy' | 
   'truck' | 
@@ -1455,6 +1474,7 @@ export type IconName = '500px' |
   'user-md' | 
   'user-minus' | 
   'user-ninja' | 
+  'user-nurse' | 
   'user-plus' | 
   'user-secret' | 
   'user-shield' | 
