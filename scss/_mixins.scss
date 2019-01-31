@@ -2,14 +2,13 @@
 // --------------------------
 
 @mixin fa-icon {
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   display: inline-block;
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
   line-height: 1;
-  vertical-align: -.125em;
 }
 
 @mixin fa-icon-rotate($degrees, $rotation) {
