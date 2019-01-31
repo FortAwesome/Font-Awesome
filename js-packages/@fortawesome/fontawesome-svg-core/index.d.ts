@@ -100,11 +100,15 @@ export interface IconParams extends Params {
   symbol?: FaSymbol;
   mask?: IconLookup;
 }
+export interface WatchOptions {
+	autoReplaceSvgRoot: HTMLElement;
+	observeMutationsRoot: HTMLElement;
+}
 export interface DOM {
   i2svg(params?: { node: Node; callback: () => void }): Promise<void>;
   css(): string;
-  insertCss(): string;
-  watch(): void;
+  insertCss(css: string): void;
+  watch(params?: WatchOptions): void;
 }
 type IconDefinitionOrPack = IconDefinition | IconPack;
 export interface Library {
