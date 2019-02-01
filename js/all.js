@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 5.7.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.7.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 (function () {
@@ -2342,7 +2342,7 @@
       throw new TypeError('Promise resolver ' + resolver + ' is not a function');
     }
 
-    if (this instanceof Promise === false) {
+    if (this instanceof P === false) {
       throw new TypeError('Failed to construct \'Promise\': Please use the \'new\' operator, this object constructor cannot be called as a function.');
     }
 
@@ -2941,7 +2941,7 @@
     mark: noop$1,
     measure: noop$1
   };
-  var preamble = "FA \"5.7.0\"";
+  var preamble = "FA \"5.7.1\"";
 
   var begin = function begin(name) {
     p.mark("".concat(preamble, " ").concat(name, " begins"));
@@ -3749,9 +3749,13 @@
           hclAdd('complete');
           hclRemove('pending');
           if (typeof callback === 'function') callback();
+          mark();
           resolve();
         });
-      }).catch(reject).finally(mark);
+      }).catch(function () {
+        mark();
+        reject();
+      });
     });
   }
   function onNode(node) {
