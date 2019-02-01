@@ -8,6 +8,12 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.7.0 to 5.7.1
+
+The cheeseburger icon incorrectly placed the cheese on _top_ of the patty. This is unacceptable and we've fixed it.
+
+---
+
 ## 5.6.x to 5.7.0
 
 ### OTF and TTF files

@@ -8,7 +8,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.7.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.7.1) - 2019-02-01
+
+### Fixed
+* The @fortawesome/fontawesome-pro package had a corrupted SVG webfont file for the solid style
+* IE11 error reporting Promise as undefined or finally() not a function
+* The cheese has been moved under the patty for cheeseburger
+
+---
+
 ## [5.7.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.7.0) - 2019-01-28
+
+**Minor version upgrade notice: there are some backward-incompatible changes to this release. See the
+[UPGRADING.md guide](https://github.com/FortAwesome/Font-Awesome/blob/master/UPGRADING.md) for more
+information.**
 
 ### Added
 * New Food category
