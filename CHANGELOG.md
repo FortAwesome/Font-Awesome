@@ -13,7 +13,7 @@ not have access**
 ### Fixed
 * The @fortawesome/fontawesome-pro package had a corrupted SVG webfont file for the solid style
 * IE11 error reporting Promise as undefined or finally() not a function
-* The cheese has been moved under the patty for cheeseburger
+* The cheese has been moved on top of the patty for cheeseburger
 
 ---
 
