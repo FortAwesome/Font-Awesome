@@ -8,6 +8,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.7.2](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.7.2) - 2019-02-12
+
+### Fixed
+* Vertical alignment issues using OTF and TTF files in desktop applications that differ from previous
+  Font Awesome versions (< 5.7.0)
+
+---
+
 ## [5.7.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.7.1) - 2019-02-01
 
 ### Fixed
