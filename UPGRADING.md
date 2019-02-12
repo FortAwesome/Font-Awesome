@@ -8,6 +8,12 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.7.1 to 5.7.2
+
+There are no breaking changes in this version upgrade.
+
+---
+
 ## 5.7.0 to 5.7.1
 
 The cheeseburger icon incorrectly placed the cheese _under_ the patty. This is unacceptable and we've fixed it.
