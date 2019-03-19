@@ -8,6 +8,31 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.8.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.8.0) - 2019-03-20
+
+**Minor version upgrade notice: there are some backward-incompatible changes to this release. See the
+[UPGRADING.md guide](https://github.com/FortAwesome/Font-Awesome/blob/master/UPGRADING.md) for more
+information.**
+
+### Added
+* New sponsored icon wave-square
+* Adding new mutateApproach configuration which can force SVG with JS to render synchronously
+* Adding a round of top requested brand icons
+
+### Changed
+* Updating search terms and adding new categories
+* Removing descender-based CSS from the .fa-icon Sass mixin
+* Removed title elements from SVG sprites
+
+### Fixed
+* Fixing several icons such as spinner-third that had incorrect widths
+* Allow Sass setting for `font-display` to be changed
+* Missing dots in the flower icons
+* Support strict math compatibility for Less
+* Support fa-flip-both in the SVG with JS version
+
+---
+
 ## [5.7.2](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.7.2) - 2019-02-12
 
 ### Fixed

@@ -8,6 +8,31 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.7.x to 5.8.0
+
+### Removing title elements from SVG sprites
+
+Since the initial release of version 5, all the way back to 5.0.0 actually,
+we've included `<title>` elements in the SVG sprites.
+
+In https://github.com/FortAwesome/Font-Awesome/issues/14595 a discussion
+outlines that this practice actually prevents normal efforts to make these
+sprites accessible according to web accessibility standards.
+
+If you are using sprites please refer to [our documentation on accessibility with Font Awesome](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility).
+
+### Removing vertical-align from the .fa-icon Sass mixin
+
+Font Awesome has supported Sass and Less CSS pre-processors for a long time.
+
+The version 5 `.fa-icon` mixin which is present in `scss/_mixins.scss`
+previously included `vertical-align` which was incorrectly shifting icons.
+
+If you have used this mixin in your own Sass files you will need to check the
+alignment of those icons after upgrading to 5.8.0.
+
+---
+
 ## 5.7.1 to 5.7.2
 
 There are no breaking changes in this version upgrade.

@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'fab';
 var iconName = 'adobe';
-var width = 460;
+var width = 512;
 var height = 512;
 var ligatures = [];
 var unicode = 'f778';
-var svgPathData = 'M289.9 64.3h170.9v384l-170.9-384zm-119 0H0v384l170.9-384zm59.5 142.1l107.5 241.9h-73l-30.7-76.8h-78.7l74.9-165.1z';
+var svgPathData = 'M315.5 64h170.9v384L315.5 64zm-119 0H25.6v384L196.5 64zM256 206.1L363.5 448h-73l-30.7-76.8h-78.7L256 206.1z';
 
 exports.definition = {
   prefix: prefix,

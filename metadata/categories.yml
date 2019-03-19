@@ -16,6 +16,17 @@ accessibility:
     - universal-access
     - wheelchair
   label: Accessibility
+alert:
+  icons:
+    - bell
+    - bell-slash
+    - exclamation
+    - exclamation-circle
+    - exclamation-triangle
+    - radiation
+    - radiation-alt
+    - skull-crossbones
+  label: Alert
 animals:
   icons:
     - cat
@@ -215,12 +226,30 @@ autumn:
     - wind
     - wine-bottle
   label: Autumn
+beverage:
+  icons:
+    - beer
+    - blender
+    - cocktail
+    - coffee
+    - flask
+    - glass-cheers
+    - glass-martini
+    - glass-martini-alt
+    - glass-whiskey
+    - mug-hot
+    - wine-bottle
+    - wine-glass
+    - wine-glass-alt
+  label: Beverage
 buildings:
   icons:
+    - archway
     - building
     - campground
     - church
     - city
+    - clinic-medical
     - dungeon
     - gopuram
     - home
@@ -230,10 +259,14 @@ buildings:
     - house-damage
     - igloo
     - industry
+    - kaaba
     - landmark
+    - monument
     - mosque
     - place-of-worship
     - school
+    - store
+    - store-alt
     - synagogue
     - torii-gate
     - university
@@ -316,6 +349,25 @@ business:
     - trademark
     - wallet
   label: Business
+camping:
+  icons:
+    - binoculars
+    - campground
+    - compass
+    - fire
+    - fire-alt
+    - first-aid
+    - frog
+    - hiking
+    - map
+    - map-marked
+    - map-marked-alt
+    - map-signs
+    - mountain
+    - route
+    - toilet-paper
+    - tree
+  label: Camping
 charity:
   icons:
     - dollar-sign
@@ -366,6 +418,32 @@ chess:
     - chess-rook
     - square-full
   label: Chess
+childhood:
+  icons:
+    - apple-alt
+    - baby
+    - baby-carriage
+    - bath
+    - birthday-cake
+    - cookie
+    - cookie-bite
+    - ice-cream
+    - mitten
+    - robot
+    - school
+    - shapes
+    - snowman
+  label: Childhood
+clothing:
+  icons:
+    - graduation-cap
+    - hat-wizard
+    - mitten
+    - shoe-prints
+    - socks
+    - tshirt
+    - user-tie
+  label: Clothing
 code:
   icons:
     - archive
@@ -383,6 +461,7 @@ code:
     - folder
     - folder-open
     - keyboard
+    - laptop-code
     - microchip
     - project-diagram
     - qrcode
@@ -464,6 +543,26 @@ computers:
     - tv
     - upload
   label: Computers
+construction:
+  icons:
+    - brush
+    - drafting-compass
+    - dumpster
+    - hammer
+    - hard-hat
+    - paint-roller
+    - pencil-alt
+    - pencil-ruler
+    - ruler
+    - ruler-combined
+    - ruler-horizontal
+    - ruler-vertical
+    - screwdriver
+    - toolbox
+    - tools
+    - truck-pickup
+    - wrench
+  label: Construction
 currency:
   icons:
     - bitcoin
@@ -684,6 +783,34 @@ emoji:
     - surprise
     - tired
   label: Emoji
+energy:
+  icons:
+    - atom
+    - battery-empty
+    - battery-full
+    - battery-half
+    - battery-quarter
+    - battery-three-quarters
+    - broadcast-tower
+    - burn
+    - charging-station
+    - fire
+    - fire-alt
+    - gas-pump
+    - industry
+    - leaf
+    - lightbulb
+    - plug
+    - poop
+    - power-off
+    - radiation
+    - radiation-alt
+    - seedling
+    - solar-panel
+    - sun
+    - water
+    - wind
+  label: Energy
 files:
   icons:
     - archive
@@ -707,6 +834,52 @@ files:
     - save
     - sticky-note
   label: Files
+finance:
+  icons:
+    - balance-scale
+    - book
+    - cash-register
+    - chart-line
+    - chart-pie
+    - coins
+    - comment-dollar
+    - comments-dollar
+    - credit-card
+    - donate
+    - file-invoice
+    - file-invoice-dollar
+    - hand-holding-usd
+    - landmark
+    - money-bill
+    - money-bill-alt
+    - money-bill-wave
+    - money-bill-wave-alt
+    - money-check
+    - money-check-alt
+    - percentage
+    - piggy-bank
+    - receipt
+    - stamp
+    - wallet
+  label: Finance
+fitness:
+  icons:
+    - bicycle
+    - burn
+    - fire-alt
+    - heart
+    - heartbeat
+    - hiking
+    - running
+    - shoe-prints
+    - skating
+    - skiing
+    - skiing-nordic
+    - snowboarding
+    - spa
+    - swimmer
+    - walking
+  label: Fitness
 food:
   icons:
     - apple-alt
@@ -730,6 +903,47 @@ food:
     - seedling
     - stroopwafel
   label: Food
+fruit-vegetable:
+  icons:
+    - apple-alt
+    - carrot
+    - leaf
+    - lemon
+    - pepper-hot
+    - seedling
+  label: Fruits & Vegetables
+games:
+  icons:
+    - chess
+    - chess-bishop
+    - chess-board
+    - chess-king
+    - chess-knight
+    - chess-pawn
+    - chess-queen
+    - chess-rook
+    - dice
+    - dice-d20
+    - dice-d6
+    - dice-five
+    - dice-four
+    - dice-one
+    - dice-six
+    - dice-three
+    - dice-two
+    - gamepad
+    - ghost
+    - headset
+    - heart
+    - nintendo-switch
+    - playstation
+    - puzzle-piece
+    - steam
+    - steam-square
+    - steam-symbol
+    - twitch
+    - xbox
+  label: Games
 gaming-tabletop:
   icons:
     - acquisitions-incorporated
@@ -834,6 +1048,58 @@ holiday:
     - sleigh
     - snowman
   label: Holiday
+hotel:
+  icons:
+    - baby-carriage
+    - bath
+    - bed
+    - briefcase
+    - car
+    - cocktail
+    - coffee
+    - concierge-bell
+    - dice
+    - dice-five
+    - door-closed
+    - door-open
+    - dumbbell
+    - glass-martini
+    - glass-martini-alt
+    - hot-tub
+    - hotel
+    - infinity
+    - key
+    - luggage-cart
+    - shower
+    - shuttle-van
+    - smoking
+    - smoking-ban
+    - snowflake
+    - spa
+    - suitcase
+    - suitcase-rolling
+    - swimmer
+    - swimming-pool
+    - tv
+    - umbrella-beach
+    - utensils
+    - wheelchair
+    - wifi
+  label: Hotel
+household:
+  icons:
+    - bath
+    - bed
+    - blender
+    - chair
+    - couch
+    - door-closed
+    - door-open
+    - dungeon
+    - shower
+    - toilet-paper
+    - tv
+  label: Household
 images:
   icons:
     - adjust
@@ -1157,6 +1423,19 @@ maps:
     - wine-glass
     - wrench
   label: Maps
+maritime:
+  icons:
+    - anchor
+    - binoculars
+    - compass
+    - dharmachakra
+    - frog
+    - ship
+    - skull-crossbones
+    - swimmer
+    - water
+    - wind
+  label: Maritime
 marketing:
   icons:
     - ad
@@ -1268,6 +1547,25 @@ moving:
     - truck-moving
     - wine-glass
   label: Moving
+music:
+  icons:
+    - drum
+    - drum-steelpan
+    - file-audio
+    - guitar
+    - headphones
+    - headphones-alt
+    - music
+    - napster
+    - play
+    - sliders-h
+    - soundcloud
+    - spotify
+    - volume-down
+    - volume-mute
+    - volume-off
+    - volume-up
+  label: Music
 objects:
   icons:
     - ambulance
@@ -1527,6 +1825,7 @@ payments-shopping:
     - money-check
     - money-check-alt
     - paypal
+    - receipt
     - shopping-bag
     - shopping-basket
     - shopping-cart
@@ -1539,6 +1838,35 @@ payments-shopping:
     - thumbs-up
     - trophy
   label: Payments & Shopping
+pharmacy:
+  icons:
+    - band-aid
+    - book-medical
+    - cannabis
+    - capsules
+    - clinic-medical
+    - eye-dropper
+    - file-medical
+    - file-prescription
+    - first-aid
+    - flask
+    - history
+    - joint
+    - laptop-medical
+    - mortar-pestle
+    - notes-medical
+    - pills
+    - prescription
+    - prescription-bottle
+    - prescription-bottle-alt
+    - receipt
+    - skull-crossbones
+    - syringe
+    - tablets
+    - thermometer
+    - vial
+    - vials
+  label: Pharmacy
 political:
   icons:
     - award
@@ -1590,6 +1918,82 @@ religion:
     - vihara
     - yin-yang
   label: Religion
+science:
+  icons:
+    - atom
+    - biohazard
+    - brain
+    - burn
+    - capsules
+    - clipboard-check
+    - dna
+    - eye-dropper
+    - filter
+    - fire
+    - fire-alt
+    - flask
+    - frog
+    - magnet
+    - microscope
+    - mortar-pestle
+    - pills
+    - prescription-bottle
+    - radiation
+    - radiation-alt
+    - seedling
+    - skull-crossbones
+    - syringe
+    - tablets
+    - temperature-high
+    - temperature-low
+    - vial
+    - vials
+  label: Science
+science-fiction:
+  icons:
+    - galactic-republic
+    - galactic-senate
+    - globe
+    - jedi
+    - jedi-order
+    - journal-whills
+    - meteor
+    - moon
+    - old-republic
+    - robot
+    - rocket
+    - satellite
+    - satellite-dish
+    - space-shuttle
+    - user-astronaut
+  label: Science Fiction
+security:
+  icons:
+    - ban
+    - bug
+    - door-closed
+    - door-open
+    - dungeon
+    - eye
+    - eye-slash
+    - file-contract
+    - file-signature
+    - fingerprint
+    - id-badge
+    - id-card
+    - id-card-alt
+    - key
+    - lock
+    - lock-open
+    - mask
+    - passport
+    - shield-alt
+    - unlock
+    - unlock-alt
+    - user-lock
+    - user-secret
+    - user-shield
+  label: Security
 shapes:
   icons:
     - bookmark
@@ -1608,6 +2012,56 @@ shapes:
     - square
     - star
   label: Shapes
+shopping:
+  icons:
+    - barcode
+    - cart-arrow-down
+    - cart-plus
+    - cash-register
+    - gift
+    - gifts
+    - person-booth
+    - receipt
+    - shipping-fast
+    - shopping-bag
+    - shopping-basket
+    - shopping-cart
+    - store
+    - store-alt
+    - truck
+    - tshirt
+  label: Shopping
+social:
+  icons:
+    - bell
+    - birthday-cake
+    - camera
+    - comment
+    - comment-alt
+    - envelope
+    - hashtag
+    - heart
+    - image
+    - images
+    - map-marker
+    - map-marker-alt
+    - poll
+    - poll-h
+    - retweet
+    - share
+    - share-alt
+    - share-square
+    - star
+    - thumbs-down
+    - thumbs-up
+    - thumbtack
+    - user
+    - user-circle
+    - user-friends
+    - user-plus
+    - users
+    - video
+  label: Social
 spinners:
   icons:
     - asterisk
@@ -1650,6 +2104,17 @@ sports:
     - table-tennis
     - volleyball-ball
   label: Sports
+spring:
+  icons:
+    - allergies
+    - broom
+    - cloud-sun
+    - cloud-sun-rain
+    - frog
+    - rainbow
+    - seedling
+    - umbrella
+  label: Spring
 status:
   icons:
     - ban
@@ -1744,6 +2209,32 @@ status:
     - volume-up
     - wifi
   label: Status
+summer:
+  icons:
+    - anchor
+    - fish
+    - hotdog
+    - ice-cream
+    - lemon
+    - sun
+    - swimmer
+    - swimming-pool
+    - umbrella-beach
+    - volleyball-ball
+    - water
+  label: Summer
+toggle:
+  icons:
+    - bullseye
+    - check-circle
+    - circle
+    - dot-circle
+    - star
+    - star-half
+    - star-half-alt
+    - toggle-off
+    - toggle-on
+  label: Toggle
 travel:
   icons:
     - archway

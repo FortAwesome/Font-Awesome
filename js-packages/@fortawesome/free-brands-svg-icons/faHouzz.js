@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'fab';
 var iconName = 'houzz';
-var width = 414;
+var width = 448;
 var height = 512;
 var ligatures = [];
 var unicode = 'f27c';
-var svgPathData = 'M258.9 330.7H154.3V480H0V32h109.5v104.5l305.1 85.6V480H258.9V330.7z';
+var svgPathData = 'M275.9 330.7H171.3V480H17V32h109.5v104.5l305.1 85.6V480H275.9z';
 
 exports.definition = {
   prefix: prefix,
