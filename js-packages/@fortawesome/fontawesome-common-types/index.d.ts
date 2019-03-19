@@ -28,6 +28,7 @@ export type IconName = '500px' |
   'adobe' | 
   'adversal' | 
   'affiliatetheme' | 
+  'airbnb' | 
   'algolia' | 
   'alipay' | 
   'amazon' | 
@@ -51,6 +52,7 @@ export type IconName = '500px' |
   'aviato' | 
   'aws' | 
   'bandcamp' | 
+  'battle-net' | 
   'behance' | 
   'behance-square' | 
   'bimobject' | 
@@ -63,7 +65,9 @@ export type IconName = '500px' |
   'blogger-b' | 
   'bluetooth' | 
   'bluetooth-b' | 
+  'bootstrap' | 
   'btc' | 
+  'buffer' | 
   'buromobelexperte' | 
   'buysellads' | 
   'canadian-maple-leaf' | 
@@ -80,6 +84,7 @@ export type IconName = '500px' |
   'centercode' | 
   'centos' | 
   'chrome' | 
+  'chromecast' | 
   'cloudscale' | 
   'cloudsmith' | 
   'cloudversify' | 
@@ -140,6 +145,7 @@ export type IconName = '500px' |
   'erlang' | 
   'ethereum' | 
   'etsy' | 
+  'evernote' | 
   'expeditedssl' | 
   'facebook' | 
   'facebook-f' | 
@@ -216,6 +222,7 @@ export type IconName = '500px' |
   'internet-explorer' | 
   'invision' | 
   'ioxhost' | 
+  'itch-io' | 
   'itunes' | 
   'itunes-note' | 
   'java' | 
@@ -325,6 +332,7 @@ export type IconName = '500px' |
   'rocketchat' | 
   'rockrms' | 
   'safari' | 
+  'salesforce' | 
   'sass' | 
   'schlix' | 
   'scribd' | 
@@ -349,6 +357,7 @@ export type IconName = '500px' |
   'soundcloud' | 
   'sourcetree' | 
   'speakap' | 
+  'speaker-deck' | 
   'spotify' | 
   'squarespace' | 
   'stack-exchange' | 
@@ -367,6 +376,7 @@ export type IconName = '500px' |
   'superpowers' | 
   'supple' | 
   'suse' | 
+  'symfony' | 
   'teamspeak' | 
   'telegram' | 
   'telegram-plane' | 
@@ -405,6 +415,7 @@ export type IconName = '500px' |
   'vk' | 
   'vnv' | 
   'vuejs' | 
+  'waze' | 
   'weebly' | 
   'weibo' | 
   'weixin' | 
@@ -427,6 +438,7 @@ export type IconName = '500px' |
   'xing-square' | 
   'y-combinator' | 
   'yahoo' | 
+  'yammer' | 
   'yandex' | 
   'yandex-international' | 
   'yarn' | 
@@ -1506,6 +1518,7 @@ export type IconName = '500px' |
   'wallet' | 
   'warehouse' | 
   'water' | 
+  'wave-square' | 
   'weight' | 
   'weight-hanging' | 
   'wheelchair' | 

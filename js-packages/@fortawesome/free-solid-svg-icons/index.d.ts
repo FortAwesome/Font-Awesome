@@ -917,6 +917,7 @@ export const faWalking: IconDefinition;
 export const faWallet: IconDefinition;
 export const faWarehouse: IconDefinition;
 export const faWater: IconDefinition;
+export const faWaveSquare: IconDefinition;
 export const faWeight: IconDefinition;
 export const faWeightHanging: IconDefinition;
 export const faWheelchair: IconDefinition;
