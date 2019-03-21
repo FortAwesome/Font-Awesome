@@ -8,6 +8,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.8.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.8.1) - 2019-03-21
+
+### Fixed
+* Correct the baseline alignment of the linkedin-in brand icon
+
+---
+
 ## [5.8.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.8.0) - 2019-03-20
 
 **Minor version upgrade notice: there are some backward-incompatible changes to this release. See the
