@@ -14,6 +14,14 @@ export interface IconDefinition extends IconLookup {
     string, // unicode
     string // svgPathData
   ];
+
+  [index: string]: [
+    number, // width
+    number, // height
+    string[], // ligatures
+    string, // unicode
+    string // svgPathData
+  ] | IconName | IconPrefix;
 }
 
 export interface IconPack {

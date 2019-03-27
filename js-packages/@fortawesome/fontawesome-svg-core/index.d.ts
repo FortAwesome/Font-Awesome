@@ -110,4 +110,5 @@ type IconDefinitionOrPack = IconDefinition | IconPack;
 export interface Library {
   add(...definitions: IconDefinitionOrPack[]): void;
   reset(): void;
+  readonly definitions: {fas: IconDefinition, fab: IconDefinition, far: IconDefinition, fal: IconDefinition};
 }
