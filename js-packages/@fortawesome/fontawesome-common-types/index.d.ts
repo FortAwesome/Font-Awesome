@@ -181,6 +181,7 @@ export type IconName = '500px' |
   'gg' | 
   'gg-circle' | 
   'git' | 
+  'git-alt' | 
   'git-square' | 
   'github' | 
   'github-alt' | 
@@ -362,6 +363,7 @@ export type IconName = '500px' |
   'squarespace' | 
   'stack-exchange' | 
   'stack-overflow' | 
+  'stackpath' | 
   'staylinked' | 
   'steam' | 
   'steam-square' | 

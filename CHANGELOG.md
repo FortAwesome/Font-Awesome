@@ -8,6 +8,27 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.8.2](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.8.2) - 2019-05-07
+
+### Added
+* New brand icon stackpath
+
+### Changed
+* Updated redhat, mailchimp brand icons
+* Updated Facebook brand icons in accordance with http://facebookbrand.com (facebook, facebook-f, facebook-square)
+* Updated Git brand icons (git, git-square, git-alt)
+* Removing the "at" character to prevent overlap with the at icon
+
+### Fixed
+* Missing version for the route icon FortAwesome/Font-Awesome#13804
+* Corrected the orientation of radiation and radiation-alt icons
+* Alignment fixed for check-double
+* Moved the notch into the correct location for sim-card
+* Allow the role attribute to be specified FortAwesome/Font-Awesome#14791
+* Prevent IE11 CSS selector error from crashing SVG with JS execution
+
+---
+
 ## [5.8.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.8.1) - 2019-03-21
 
 ### Fixed
