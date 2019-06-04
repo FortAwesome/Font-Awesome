@@ -8,6 +8,15 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.8.2 to 5.9.0
+
+The nintendo-switch icon has been removed by legal request of Nintendo of America Inc.
+
+Font Awesome is no longer able to provide icons related to Nintendo, their
+gaming consoles, accessories, or games.
+
+---
+
 ## 5.8.1 to 5.8.2
 
 There are no breaking changes in this version upgrade.

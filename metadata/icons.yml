@@ -205,6 +205,7 @@ align-center:
   changes:
     - '1'
     - 5.0.0
+    - 5.9.0
   label: align-center
   search:
     terms:
@@ -220,6 +221,7 @@ align-justify:
   changes:
     - '1'
     - 5.0.0
+    - 5.9.0
   label: align-justify
   search:
     terms:
@@ -234,6 +236,7 @@ align-left:
   changes:
     - '1'
     - 5.0.0
+    - 5.9.0
   label: align-left
   search:
     terms:
@@ -248,6 +251,7 @@ align-right:
   changes:
     - '1'
     - 5.0.0
+    - 5.9.0
   label: align-right
   search:
     terms:
@@ -1185,6 +1189,36 @@ balance-scale:
     - solid
   unicode: f24e
   voted: false
+balance-scale-left:
+  changes:
+    - 5.0.13
+  label: Balance Scale (Left-Weighted)
+  search:
+    terms:
+      - justice
+      - legal
+      - measure
+      - unbalanced
+      - weight
+  styles:
+    - solid
+  unicode: f515
+  voted: true
+balance-scale-right:
+  changes:
+    - 5.0.13
+  label: Balance Scale (Right-Weighted)
+  search:
+    terms:
+      - justice
+      - legal
+      - measure
+      - unbalanced
+      - weight
+  styles:
+    - solid
+  unicode: f516
+  voted: true
 ban:
   changes:
     - '1'
@@ -1540,6 +1574,22 @@ bicycle:
     - solid
   unicode: f206
   voted: false
+biking:
+  changes:
+    - 5.9.0
+  label: Biking
+  search:
+    terms:
+      - bicycle
+      - bike
+      - cycle
+      - cycling
+      - ride
+      - wheel
+  styles:
+    - solid
+  unicode: f84a
+  voted: false
 bimobject:
   changes:
     - 5.0.0
@@ -1776,6 +1826,7 @@ bold:
   changes:
     - '1'
     - 5.0.0
+    - 5.9.0
   label: bold
   search:
     terms:
@@ -1968,6 +2019,46 @@ bootstrap:
   styles:
     - brands
   unicode: f836
+border-all:
+  changes:
+    - 5.9.0
+  label: Border All
+  search:
+    terms:
+      - cell
+      - grid
+      - outline
+      - stroke
+      - table
+  styles:
+    - solid
+  unicode: f84c
+  voted: false
+border-none:
+  changes:
+    - 5.9.0
+  label: Border None
+  search:
+    terms:
+      - cell
+      - grid
+      - outline
+      - stroke
+      - table
+  styles:
+    - solid
+  unicode: f850
+  voted: false
+border-style:
+  changes:
+    - 5.9.0
+  label: Border Style
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f853
+  voted: false
 bowling-ball:
   changes:
     - 5.0.5
@@ -2047,6 +2138,7 @@ braille:
 brain:
   changes:
     - 5.2.0
+    - 5.9.0
   label: Brain
   search:
     terms:
@@ -3333,12 +3425,16 @@ cheese:
 chess:
   changes:
     - 5.0.5
+    - 5.9.0
   label: Chess
   search:
     terms:
       - board
+      - castle
       - checkmate
       - game
+      - king
+      - rook
       - strategy
       - tournament
   styles:
@@ -3348,6 +3444,7 @@ chess:
 chess-bishop:
   changes:
     - 5.0.5
+    - 5.9.0
   label: Chess Bishop
   search:
     terms:
@@ -3363,6 +3460,7 @@ chess-board:
   changes:
     - 5.0.5
     - 5.7.0
+    - 5.9.0
   label: Chess Board
   search:
     terms:
@@ -3377,6 +3475,7 @@ chess-board:
 chess-king:
   changes:
     - 5.0.5
+    - 5.9.0
   label: Chess King
   search:
     terms:
@@ -3391,6 +3490,7 @@ chess-king:
 chess-knight:
   changes:
     - 5.0.5
+    - 5.9.0
   label: Chess Knight
   search:
     terms:
@@ -3406,6 +3506,7 @@ chess-knight:
 chess-pawn:
   changes:
     - 5.0.5
+    - 5.9.0
   label: Chess Pawn
   search:
     terms:
@@ -3420,6 +3521,7 @@ chess-pawn:
 chess-queen:
   changes:
     - 5.0.5
+    - 5.9.0
   label: Chess Queen
   search:
     terms:
@@ -3434,6 +3536,7 @@ chess-queen:
 chess-rook:
   changes:
     - 5.0.5
+    - 5.9.0
   label: Chess Rook
   search:
     terms:
@@ -6377,6 +6480,7 @@ facebook-messenger:
   changes:
     - 5.0.0
     - 5.8.2
+    - 5.9.0
   label: Facebook Messenger
   search:
     terms: []
@@ -6397,6 +6501,22 @@ facebook-square:
     - brands
   unicode: f082
   voted: false
+fan:
+  changes:
+    - 5.9.0
+  label: Fan
+  search:
+    terms:
+      - ac
+      - air conditioning
+      - blade
+      - blower
+      - cool
+      - hot
+  styles:
+    - solid
+  unicode: f863
+  voted: true
 fantasy-flight-games:
   changes:
     - 5.4.0
@@ -7351,6 +7471,7 @@ font:
   changes:
     - '1'
     - 5.0.0
+    - 5.9.0
   label: font
   search:
     terms:
@@ -9157,6 +9278,7 @@ heading:
   changes:
     - '4.1'
     - 5.0.0
+    - 5.9.0
   label: heading
   search:
     terms:
@@ -9752,6 +9874,23 @@ icicles:
   styles:
     - solid
   unicode: f7ad
+icons:
+  changes:
+    - 5.9.0
+  label: Icons
+  search:
+    terms:
+      - bolt
+      - emoji
+      - heart
+      - image
+      - music
+      - photo
+      - symbols
+  styles:
+    - solid
+  unicode: f86d
+  voted: false
 id-badge:
   changes:
     - '4.7'
@@ -9885,6 +10024,7 @@ indent:
   changes:
     - '1'
     - 5.0.0
+    - 5.9.0
   label: Indent
   search:
     terms:
@@ -10024,6 +10164,7 @@ italic:
   changes:
     - '1'
     - 5.0.0
+    - 5.9.0
   label: italic
   search:
     terms:
@@ -10834,6 +10975,7 @@ list:
   changes:
     - '1'
     - 5.0.0
+    - 5.9.0
   label: List
   search:
     terms:
@@ -10871,6 +11013,7 @@ list-ol:
   changes:
     - '2'
     - 5.0.0
+    - 5.9.0
   label: list-ol
   search:
     terms:
@@ -10890,6 +11033,7 @@ list-ul:
   changes:
     - '2'
     - 5.0.0
+    - 5.9.0
   label: list-ul
   search:
     terms:
@@ -12258,16 +12402,6 @@ nimblr:
     - brands
   unicode: f5a8
   voted: false
-nintendo-switch:
-  changes:
-    - 5.0.0
-  label: Nintendo Switch
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: f418
-  voted: false
 node:
   changes:
     - 5.0.0
@@ -12522,6 +12656,7 @@ outdent:
   changes:
     - '1'
     - 5.0.0
+    - 5.9.0
   label: Outdent
   search:
     terms:
@@ -12707,6 +12842,7 @@ paragraph:
   changes:
     - '4.1'
     - 5.0.0
+    - 5.9.0
   label: paragraph
   search:
     terms:
@@ -13120,6 +13256,22 @@ phone:
     - solid
   unicode: f095
   voted: false
+phone-alt:
+  changes:
+    - 5.9.0
+  label: Alternate Phone
+  search:
+    terms:
+      - call
+      - earphone
+      - number
+      - support
+      - telephone
+      - voice
+  styles:
+    - solid
+  unicode: f879
+  voted: false
 phone-slash:
   changes:
     - 5.0.0
@@ -13156,6 +13308,22 @@ phone-square:
     - solid
   unicode: f098
   voted: false
+phone-square-alt:
+  changes:
+    - 5.9.0
+  label: Alternate Phone Square
+  search:
+    terms:
+      - call
+      - earphone
+      - number
+      - support
+      - telephone
+      - voice
+  styles:
+    - solid
+  unicode: f87b
+  voted: false
 phone-volume:
   changes:
     - '4.6'
@@ -13176,6 +13344,21 @@ phone-volume:
   styles:
     - solid
   unicode: f2a0
+  voted: false
+photo-video:
+  changes:
+    - 5.9.0
+  label: Photo Video
+  search:
+    terms:
+      - av
+      - film
+      - image
+      - library
+      - media
+  styles:
+    - solid
+  unicode: f87c
   voted: false
 php:
   changes:
@@ -14231,6 +14414,22 @@ registered:
     - solid
     - regular
   unicode: f25d
+  voted: false
+remove-format:
+  changes:
+    - 5.9.0
+  label: Remove Format
+  search:
+    terms:
+      - cancel
+      - font
+      - format
+      - remove
+      - style
+      - text
+  styles:
+    - solid
+  unicode: f87d
   voted: false
 renren:
   changes:
@@ -15851,9 +16050,12 @@ sort-alpha-down:
   changes:
     - '3.2'
     - 5.0.0
-  label: Sort Alpha Down
+    - 5.9.0
+  label: Sort Alphabetical Down
   search:
     terms:
+      - alphabetical
+      - arrange
       - filter
       - order
       - sort-alpha-asc
@@ -15861,13 +16063,31 @@ sort-alpha-down:
     - solid
   unicode: f15d
   voted: false
+sort-alpha-down-alt:
+  changes:
+    - 5.9.0
+  label: Alternate Sort Alphabetical Down
+  search:
+    terms:
+      - alphabetical
+      - arrange
+      - filter
+      - order
+      - sort-alpha-asc
+  styles:
+    - solid
+  unicode: f881
+  voted: false
 sort-alpha-up:
   changes:
     - '3.2'
     - 5.0.0
-  label: Sort Alpha Up
+    - 5.9.0
+  label: Sort Alphabetical Up
   search:
     terms:
+      - alphabetical
+      - arrange
       - filter
       - order
       - sort-alpha-desc
@@ -15875,33 +16095,81 @@ sort-alpha-up:
     - solid
   unicode: f15e
   voted: false
+sort-alpha-up-alt:
+  changes:
+    - 5.9.0
+  label: Alternate Sort Alphabetical Up
+  search:
+    terms:
+      - alphabetical
+      - arrange
+      - filter
+      - order
+      - sort-alpha-desc
+  styles:
+    - solid
+  unicode: f882
+  voted: false
 sort-amount-down:
   changes:
     - '3.2'
     - 5.0.0
+    - 5.9.0
   label: Sort Amount Down
   search:
     terms:
+      - arrange
       - filter
+      - number
       - order
       - sort-amount-asc
   styles:
     - solid
   unicode: f160
   voted: false
+sort-amount-down-alt:
+  changes:
+    - 5.9.0
+  label: Alternate Sort Amount Down
+  search:
+    terms:
+      - arrange
+      - filter
+      - order
+      - sort-amount-asc
+  styles:
+    - solid
+  unicode: f884
+  voted: false
 sort-amount-up:
   changes:
     - '3.2'
     - 5.0.0
+    - 5.9.0
   label: Sort Amount Up
   search:
     terms:
+      - arrange
       - filter
       - order
       - sort-amount-desc
   styles:
     - solid
   unicode: f161
+  voted: false
+sort-amount-up-alt:
+  changes:
+    - 5.9.0
+  label: Alternate Sort Amount Up
+  search:
+    terms:
+      - arrange
+      - filter
+      - order
+      - sort-amount-desc
+  styles:
+    - solid
+  unicode: f885
   voted: false
 sort-down:
   changes:
@@ -15923,9 +16191,11 @@ sort-numeric-down:
   changes:
     - '3.2'
     - 5.0.0
+    - 5.9.0
   label: Sort Numeric Down
   search:
     terms:
+      - arrange
       - filter
       - numbers
       - order
@@ -15934,13 +16204,30 @@ sort-numeric-down:
     - solid
   unicode: f162
   voted: false
+sort-numeric-down-alt:
+  changes:
+    - 5.9.0
+  label: Alternate Sort Numeric Down
+  search:
+    terms:
+      - arrange
+      - filter
+      - numbers
+      - order
+      - sort-numeric-asc
+  styles:
+    - solid
+  unicode: f886
+  voted: false
 sort-numeric-up:
   changes:
     - '3.2'
     - 5.0.0
+    - 5.9.0
   label: Sort Numeric Up
   search:
     terms:
+      - arrange
       - filter
       - numbers
       - order
@@ -15948,6 +16235,21 @@ sort-numeric-up:
   styles:
     - solid
   unicode: f163
+  voted: false
+sort-numeric-up-alt:
+  changes:
+    - 5.9.0
+  label: Alternate Sort Numeric Up
+  search:
+    terms:
+      - arrange
+      - filter
+      - numbers
+      - order
+      - sort-numeric-desc
+  styles:
+    - solid
+  unicode: f887
   voted: false
 sort-up:
   changes:
@@ -16039,6 +16341,21 @@ speaker-deck:
   styles:
     - brands
   unicode: f83c
+spell-check:
+  changes:
+    - 5.9.0
+  label: Spell Check
+  search:
+    terms:
+      - dictionary
+      - edit
+      - editor
+      - grammar
+      - text
+  styles:
+    - solid
+  unicode: f891
+  voted: false
 spider:
   changes:
     - 5.4.0
@@ -16540,6 +16857,7 @@ strikethrough:
   changes:
     - '2'
     - 5.0.0
+    - 5.9.0
   label: Strikethrough
   search:
     terms:
@@ -16626,6 +16944,7 @@ subscript:
   changes:
     - '3.1'
     - 5.0.0
+    - 5.9.0
   label: subscript
   search:
     terms:
@@ -16724,6 +17043,7 @@ superscript:
   changes:
     - '3.1'
     - 5.0.0
+    - 5.9.0
   label: superscript
   search:
     terms:
@@ -17027,6 +17347,7 @@ tasks:
   changes:
     - '2'
     - 5.0.0
+    - 5.9.0
   label: Tasks
   search:
     terms:
@@ -17205,6 +17526,7 @@ text-height:
   changes:
     - '1'
     - 5.0.0
+    - 5.9.0
   label: text-height
   search:
     terms:
@@ -17221,7 +17543,8 @@ text-width:
   changes:
     - '1'
     - 5.0.0
-  label: text-width
+    - 5.9.0
+  label: Text Width
   search:
     terms:
       - edit
@@ -17710,6 +18033,7 @@ torah:
   changes:
     - 5.3.0
     - 5.7.0
+    - 5.9.0
   label: Torah
   search:
     terms:
@@ -17717,6 +18041,7 @@ torah:
       - jewish
       - judaism
       - religion
+      - scroll
   styles:
     - solid
   unicode: f6a0
@@ -18213,6 +18538,7 @@ underline:
   changes:
     - '2'
     - 5.0.0
+    - 5.9.0
   label: Underline
   search:
     terms:
@@ -18600,6 +18926,7 @@ user-injured:
 user-lock:
   changes:
     - 5.0.11
+    - 5.9.0
   label: User Lock
   search:
     terms:
@@ -19135,6 +19462,20 @@ vnv:
     - brands
   unicode: f40b
   voted: false
+voicemail:
+  changes:
+    - 5.9.0
+  label: Voicemail
+  search:
+    terms:
+      - answer
+      - inbox
+      - message
+      - phone
+  styles:
+    - solid
+  unicode: f897
+  voted: true
 volleyball-ball:
   changes:
     - 5.0.5
