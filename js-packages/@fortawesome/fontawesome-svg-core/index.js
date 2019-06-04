@@ -1057,7 +1057,7 @@
     mark: noop$1,
     measure: noop$1
   };
-  var preamble = "FA \"5.8.2\"";
+  var preamble = "FA \"5.9.0\"";
 
   var begin = function begin(name) {
     p.mark("".concat(preamble, " ").concat(name, " begins"));

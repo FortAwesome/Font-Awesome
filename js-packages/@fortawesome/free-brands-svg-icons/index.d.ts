@@ -252,7 +252,6 @@ export const faMonero: IconDefinition;
 export const faNapster: IconDefinition;
 export const faNeos: IconDefinition;
 export const faNimblr: IconDefinition;
-export const faNintendoSwitch: IconDefinition;
 export const faNode: IconDefinition;
 export const faNodeJs: IconDefinition;
 export const faNpm: IconDefinition;
