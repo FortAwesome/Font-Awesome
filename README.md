@@ -125,11 +125,14 @@ to remove them from files, especially code. They're a great way for folks to
 learn about Font Awesome.
 
 ## Team
-
 * [Dave Gandy](https://github.com/davegandy)
 * [Travis Chase](https://github.com/supercodepoet)
 * [Rob Madole](https://github.com/robmadole)
 * [Brian Talbot](https://github.com/talbs)
 * [Jory Raphael](https://github.com/sensibleworld)
 * [Mike Wilkerson](https://github.com/mlwilkerson)
+* [Trevor Chase](https://github.com/trevorchase)
+* [Jason Lundien](https://github.com/jasonlundien)
+* [Jason Otero](https://github.com/deathnfudge)
+* [Edward Emanuel](https://github.com/ej2)
 * [Geremia Taglialatela](https://github.com/tagliala)
