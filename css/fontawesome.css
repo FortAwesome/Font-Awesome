@@ -17,7 +17,7 @@
 
 .fa-lg {
   font-size: 1.33333em;
-  line-height: 0.75em;
+  line-height: .75em;
   vertical-align: -.0667em; }
 
 .fa-xs {
@@ -75,7 +75,7 @@
   line-height: inherit; }
 
 .fa-border {
-  border: solid 0.08em #eee;
+  border: solid .08em #eee;
   border-radius: .1em;
   padding: .2em .25em .15em; }
 
