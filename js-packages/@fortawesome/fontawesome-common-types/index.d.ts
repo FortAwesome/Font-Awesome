@@ -1,4 +1,5 @@
-export type IconPrefix = "fas" | "fab" | "far" | "fal";
+export type IconPrefix = "fas" | "fab" | "far" | "fal" | "fad";
+export type IconPathData = string | string[]
 
 export interface IconLookup {
   prefix: IconPrefix;
@@ -12,7 +13,7 @@ export interface IconDefinition extends IconLookup {
     number, // height
     string[], // ligatures
     string, // unicode
-    string // svgPathData
+    IconPathData // svgPathData
   ];
 }
 
@@ -93,6 +94,7 @@ export type IconName = '500px' |
   'confluence' | 
   'connectdevelop' | 
   'contao' | 
+  'cotton-bureau' | 
   'cpanel' | 
   'creative-commons' | 
   'creative-commons-by' | 

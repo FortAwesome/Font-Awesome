@@ -4625,6 +4625,18 @@ copyright:
     - regular
   unicode: f1f9
   voted: false
+cotton-bureau:
+  changes:
+    - 5.10.0
+  label: Cotton Bureau
+  search:
+    terms:
+      - clothing
+      - t-shirts
+      - tshirts
+  styles:
+    - brands
+  unicode: f89e
 couch:
   changes:
     - 5.0.9

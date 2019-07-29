@@ -8,6 +8,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.10.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.10.0) - 2019-07-29
+
+### Added
+* Duotone icons style added with over 1,600 new icons
+* New conflict detection script to help identify conflicting versions of Font Awesome (js/conflict-detection.js)
+* Icons border-center-v and border-center-h
+* New brand icon for cotton-bureau
+
+### Changed
+* Updated version 4 shim to more accurately match sort-alpha-desc, sort-amount-desc, sort-numeric-desc
+
+### Fixed
+* Icon sort-amount-down-alt incorrectly matching sort-amount-down
+* Icon border-outer icon missing inner grid shapes
+
+---
+
 ## [5.9.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.9.0) - 2019-06-04
 
 **Minor version upgrade notice: there are some backward-incompatible changes to this release. See the
