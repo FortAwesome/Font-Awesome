@@ -228,11 +228,11 @@ sliders:
 sort-alpha-asc:
   name: sort-alpha-down
 sort-alpha-desc:
-  name: sort-alpha-up
+  name: sort-alpha-down-alt
 sort-amount-asc:
   name: sort-amount-down
 sort-amount-desc:
-  name: sort-amount-up
+  name: sort-amount-down-alt
 sort-asc:
   name: sort-up
 sort-desc:
@@ -240,7 +240,7 @@ sort-desc:
 sort-numeric-asc:
   name: sort-numeric-down
 sort-numeric-desc:
-  name: sort-numeric-up
+  name: sort-numeric-down-alt
 spoon:
   name: utensil-spoon
 star-half-empty:

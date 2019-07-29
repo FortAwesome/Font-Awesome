@@ -1,15 +1,17 @@
 // Variables
 // --------------------------
 
-$fa-font-path:                "../webfonts" !default;
-$fa-font-size-base:           16px !default;
-$fa-font-display:             auto !default;
-$fa-css-prefix:               fa !default;
-$fa-version:                  "5.9.0" !default;
-$fa-border-color:             #eee !default;
-$fa-inverse:                  #fff !default;
-$fa-li-width:                 2em !default;
-$fa-fw-width:                 (20em / 16);
+$fa-font-path:         "../webfonts" !default;
+$fa-font-size-base:    16px !default;
+$fa-font-display:      auto !default;
+$fa-css-prefix:        fa !default;
+$fa-version:           "5.10.0" !default;
+$fa-border-color:      #eee !default;
+$fa-inverse:           #fff !default;
+$fa-li-width:          2em !default;
+$fa-fw-width:          (20em / 16);
+$fa-primary-opacity:   1 !default;
+$fa-secondary-opacity: .4 !default;
 
 // Convenience function used to set content property
 @function fa-content($fa-var) {
@@ -316,6 +318,7 @@ $fa-var-cookie: \f563;
 $fa-var-cookie-bite: \f564;
 $fa-var-copy: \f0c5;
 $fa-var-copyright: \f1f9;
+$fa-var-cotton-bureau: \f89e;
 $fa-var-couch: \f4b8;
 $fa-var-cpanel: \f388;
 $fa-var-creative-commons: \f25e;

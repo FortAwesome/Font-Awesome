@@ -71,6 +71,7 @@ export const faCodiepie: IconDefinition;
 export const faConfluence: IconDefinition;
 export const faConnectdevelop: IconDefinition;
 export const faContao: IconDefinition;
+export const faCottonBureau: IconDefinition;
 export const faCpanel: IconDefinition;
 export const faCreativeCommons: IconDefinition;
 export const faCreativeCommonsBy: IconDefinition;

@@ -8,6 +8,16 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.9.0 to 5.10.0
+
+The following icon shims have been changed to better match the original version 4 icon:
+
+* sort-alpha-desc
+* sort-amount-desc
+* sort-numeric-desc
+
+---
+
 ## 5.8.2 to 5.9.0
 
 The nintendo-switch icon has been removed by legal request of Nintendo of America Inc.

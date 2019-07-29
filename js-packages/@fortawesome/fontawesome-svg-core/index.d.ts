@@ -1,5 +1,5 @@
-import {IconDefinition, IconLookup, IconName, IconPrefix, IconPack } from '@fortawesome/fontawesome-common-types';
-export {IconDefinition, IconLookup, IconName, IconPrefix, IconPack } from '@fortawesome/fontawesome-common-types';
+import {IconDefinition, IconLookup, IconName, IconPrefix, IconPathData, IconPack } from '@fortawesome/fontawesome-common-types';
+export {IconDefinition, IconLookup, IconName, IconPrefix, IconPathData, IconPack } from '@fortawesome/fontawesome-common-types';
 export const dom: DOM;
 export const library: Library;
 export const parse: { transform(transformString: string): Transform };
