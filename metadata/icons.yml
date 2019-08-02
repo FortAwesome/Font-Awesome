@@ -1092,6 +1092,7 @@ aws:
 baby:
   changes:
     - 5.6.0
+    - 5.10.1
   label: Baby
   search:
     terms:
@@ -2329,6 +2330,7 @@ bullseye:
     - '3.1'
     - 5.0.0
     - 5.3.0
+    - 5.10.1
   label: Bullseye
   search:
     terms:
@@ -2636,6 +2638,7 @@ camera-retro:
   changes:
     - '1'
     - 5.0.0
+    - 5.10.1
   label: Retro Camera
   search:
     terms:
@@ -2684,6 +2687,7 @@ canadian-maple-leaf:
 candy-cane:
   changes:
     - 5.6.0
+    - 5.10.1
   label: Candy Cane
   search:
     terms:
@@ -2951,6 +2955,7 @@ caret-up:
 carrot:
   changes:
     - 5.6.0
+    - 5.10.1
   label: Carrot
   search:
     terms:
@@ -3015,6 +3020,7 @@ cash-register:
 cat:
   changes:
     - 5.4.0
+    - 5.10.1
   label: Cat
   search:
     terms:
@@ -3167,6 +3173,7 @@ certificate:
   changes:
     - '2'
     - 5.0.0
+    - 5.10.1
   label: certificate
   search:
     terms:
@@ -3226,6 +3233,7 @@ chalkboard-teacher:
 charging-station:
   changes:
     - 5.2.0
+    - 5.10.1
   label: Charging Station
   search:
     terms:
@@ -3721,6 +3729,7 @@ circle:
   changes:
     - '3'
     - 5.0.0
+    - 5.10.1
   label: Circle
   search:
     terms:
@@ -3878,6 +3887,7 @@ closed-captioning:
   changes:
     - '4.2'
     - 5.0.0
+    - 5.10.1
   label: Closed Captioning
   search:
     terms:
@@ -4085,6 +4095,7 @@ cloudversify:
 cocktail:
   changes:
     - 5.1.0
+    - 5.10.1
   label: Cocktail
   search:
     terms:
@@ -4245,6 +4256,7 @@ comment:
     - '1'
     - 5.0.0
     - 5.0.9
+    - 5.10.1
   label: comment
   search:
     terms:
@@ -4268,6 +4280,7 @@ comment-alt:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.10.1
   label: Alternate Comment
   search:
     terms:
@@ -4436,6 +4449,7 @@ comments-dollar:
 compact-disc:
   changes:
     - 5.0.13
+    - 5.10.1
   label: Compact Disc
   search:
     terms:
@@ -4613,6 +4627,7 @@ copyright:
   changes:
     - '4.2'
     - 5.0.0
+    - 5.10.1
   label: Copyright
   search:
     terms:
@@ -4878,6 +4893,7 @@ crop-alt:
 cross:
   changes:
     - 5.3.0
+    - 5.10.1
   label: Cross
   search:
     terms:
@@ -5641,6 +5657,7 @@ dot-circle:
 dove:
   changes:
     - 5.0.9
+    - 5.10.1
   label: Dove
   search:
     terms:
@@ -6088,6 +6105,7 @@ envelope-open:
   changes:
     - '4.7'
     - 5.0.0
+    - 5.10.1
   label: Envelope Open
   search:
     terms:
@@ -6106,6 +6124,7 @@ envelope-open:
 envelope-open-text:
   changes:
     - 5.3.0
+    - 5.10.1
   label: Envelope Open-text
   search:
     terms:
@@ -6276,6 +6295,7 @@ exclamation:
   changes:
     - '3.1'
     - 5.0.0
+    - 5.10.1
   label: exclamation
   search:
     terms:
@@ -6516,6 +6536,7 @@ facebook-square:
 fan:
   changes:
     - 5.9.0
+    - 5.10.1
   label: Fan
   search:
     terms:
@@ -6707,6 +6728,7 @@ file:
   changes:
     - '3.2'
     - 5.0.0
+    - 5.10.1
   label: File
   search:
     terms:
@@ -7120,6 +7142,7 @@ filter:
   changes:
     - '2'
     - 5.0.0
+    - 5.10.1
   label: Filter
   search:
     terms:
@@ -7155,6 +7178,7 @@ fire:
     - 5.0.0
     - 5.6.0
     - 5.6.3
+    - 5.10.1
   label: fire
   search:
     terms:
@@ -7263,6 +7287,7 @@ firstdraft:
 fish:
   changes:
     - 5.1.0
+    - 5.10.1
   label: Fish
   search:
     terms:
@@ -7318,6 +7343,7 @@ flag-checkered:
     - '3.1'
     - 5.0.0
     - 5.7.0
+    - 5.10.1
   label: flag-checkered
   search:
     terms:
@@ -7414,6 +7440,7 @@ folder:
     - '1'
     - 5.0.0
     - 5.3.0
+    - 5.10.1
   label: Folder
   search:
     terms:
@@ -7800,6 +7827,7 @@ gamepad:
 gas-pump:
   changes:
     - 5.0.13
+    - 5.10.1
   label: Gas Pump
   search:
     terms:
@@ -7830,6 +7858,7 @@ gavel:
 gem:
   changes:
     - 5.0.0
+    - 5.10.1
   label: Gem
   search:
     terms:
@@ -8074,6 +8103,7 @@ glass-martini:
     - '1'
     - 5.0.0
     - 5.1.0
+    - 5.10.1
   label: Martini Glass
   search:
     terms:
@@ -8431,6 +8461,7 @@ graduation-cap:
     - '4.1'
     - 5.0.0
     - 5.2.0
+    - 5.10.1
   label: Graduation Cap
   search:
     terms:
@@ -9272,6 +9303,7 @@ hdd:
   changes:
     - '2'
     - 5.0.0
+    - 5.10.1
   label: HDD
   search:
     terms:
@@ -9291,6 +9323,7 @@ heading:
     - '4.1'
     - 5.0.0
     - 5.9.0
+    - 5.10.1
   label: heading
   search:
     terms:
@@ -9358,6 +9391,7 @@ heart:
     - '1'
     - 5.0.0
     - 5.0.9
+    - 5.10.1
   label: Heart
   search:
     terms:
@@ -9426,6 +9460,7 @@ helicopter:
 highlighter:
   changes:
     - 5.1.0
+    - 5.10.1
   label: Highlighter
   search:
     terms:
@@ -9459,6 +9494,7 @@ hiking:
 hippo:
   changes:
     - 5.4.0
+    - 5.10.1
   label: Hippo
   search:
     terms:
@@ -9580,6 +9616,7 @@ hornbill:
 horse:
   changes:
     - 5.4.0
+    - 5.10.1
   label: Horse
   search:
     terms:
@@ -9596,6 +9633,7 @@ horse:
 horse-head:
   changes:
     - 5.6.0
+    - 5.10.1
   label: Horse Head
   search:
     terms:
@@ -9714,6 +9752,7 @@ hourglass:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.10.1
   label: Hourglass
   search:
     terms:
@@ -9731,6 +9770,7 @@ hourglass-end:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.10.1
   label: Hourglass End
   search:
     terms:
@@ -9747,6 +9787,7 @@ hourglass-half:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.10.1
   label: Hourglass Half
   search:
     terms:
@@ -9763,6 +9804,7 @@ hourglass-start:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.10.1
   label: Hourglass Start
   search:
     terms:
@@ -9927,6 +9969,7 @@ id-card:
     - 5.0.0
     - 5.0.3
     - 5.8.0
+    - 5.10.1
   label: Identification Card
   search:
     terms:
@@ -9944,6 +9987,7 @@ id-card:
 id-card-alt:
   changes:
     - 5.0.7
+    - 5.10.1
   label: Alternate Identification Card
   search:
     terms:
@@ -9977,6 +10021,7 @@ image:
   changes:
     - '1'
     - 5.0.0
+    - 5.10.1
   label: Image
   search:
     terms:
@@ -9993,6 +10038,7 @@ images:
   changes:
     - '1'
     - 5.0.0
+    - 5.10.1
   label: Images
   search:
     terms:
@@ -10052,6 +10098,7 @@ industry:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.10.1
   label: Industry
   search:
     terms:
@@ -10069,6 +10116,7 @@ infinity:
   changes:
     - 5.0.13
     - 5.3.0
+    - 5.10.1
   label: Infinity
   search:
     terms:
@@ -10083,6 +10131,7 @@ info:
   changes:
     - '3.1'
     - 5.0.0
+    - 5.10.1
   label: Info
   search:
     terms:
@@ -10177,6 +10226,7 @@ italic:
     - '1'
     - 5.0.0
     - 5.9.0
+    - 5.10.1
   label: italic
   search:
     terms:
@@ -10397,6 +10447,7 @@ key:
   changes:
     - '1'
     - 5.0.0
+    - 5.10.1
   label: key
   search:
     terms:
@@ -11565,6 +11616,7 @@ mars-stroke-v:
 mask:
   changes:
     - 5.4.0
+    - 5.10.1
   label: Mask
   search:
     terms:
@@ -12498,6 +12550,7 @@ object-group:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.10.1
   label: Object Group
   search:
     terms:
@@ -12515,6 +12568,7 @@ object-ungroup:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.10.1
   label: Object Ungroup
   search:
     terms:
@@ -12553,6 +12607,7 @@ odnoklassniki-square:
 oil-can:
   changes:
     - 5.2.0
+    - 5.10.1
   label: Oil Can
   search:
     terms:
@@ -13271,6 +13326,7 @@ phone:
 phone-alt:
   changes:
     - 5.9.0
+    - 5.10.1
   label: Alternate Phone
   search:
     terms:
@@ -13323,6 +13379,7 @@ phone-square:
 phone-square-alt:
   changes:
     - 5.9.0
+    - 5.10.1
   label: Alternate Phone Square
   search:
     terms:
@@ -13714,6 +13771,7 @@ podcast:
 poll:
   changes:
     - 5.3.0
+    - 5.10.1
   label: Poll
   search:
     terms:
@@ -13729,6 +13787,7 @@ poll:
 poll-h:
   changes:
     - 5.3.0
+    - 5.10.1
   label: Poll H
   search:
     terms:
@@ -14019,6 +14078,7 @@ qrcode:
   changes:
     - '1'
     - 5.0.0
+    - 5.10.1
   label: qrcode
   search:
     terms:
@@ -14201,6 +14261,7 @@ radiation-alt:
 rainbow:
   changes:
     - 5.5.0
+    - 5.10.1
   label: Rainbow
   search:
     terms:
@@ -14416,6 +14477,7 @@ registered:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.10.1
   label: Registered Trademark
   search:
     terms:
@@ -14900,6 +14962,7 @@ sass:
 satellite:
   changes:
     - 5.6.0
+    - 5.10.1
   label: Satellite
   search:
     terms:
@@ -15504,6 +15567,7 @@ signal:
     - '1'
     - 5.0.0
     - 5.3.0
+    - 5.10.1
   label: signal
   search:
     terms:
@@ -16187,6 +16251,7 @@ sort-down:
   changes:
     - '2'
     - 5.0.0
+    - 5.10.1
   label: Sort Down (Descending)
   search:
     terms:
@@ -16267,6 +16332,7 @@ sort-up:
   changes:
     - '2'
     - 5.0.0
+    - 5.10.1
   label: Sort Up (Ascending)
   search:
     terms:
@@ -16443,6 +16509,7 @@ square:
   changes:
     - '2'
     - 5.0.0
+    - 5.10.1
   label: Square
   search:
     terms:
@@ -19806,6 +19873,7 @@ wifi:
     - '4.2'
     - 5.0.0
     - 5.3.0
+    - 5.10.1
   label: WiFi
   search:
     terms:
@@ -19882,6 +19950,7 @@ window-minimize:
   changes:
     - '4.7'
     - 5.0.0
+    - 5.10.1
   label: Window Minimize
   search:
     terms:
@@ -19945,6 +20014,7 @@ wine-glass:
   changes:
     - 5.0.9
     - 5.1.0
+    - 5.10.1
   label: Wine Glass
   search:
     terms:
@@ -19962,6 +20032,7 @@ wine-glass:
 wine-glass-alt:
   changes:
     - 5.1.0
+    - 5.10.1
   label: Alternate Wine Glas
   search:
     terms:
