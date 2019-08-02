@@ -8,6 +8,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.10.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.10.1) - 2019-08-02
+
+### Added
+* README file in the otfs/ directory to help direct folks to documentation for the new Duotone OTF file
+
+### Changed
+* A lot of visual improvements and consistency fixes to many of the new Duotone icons
+* The fa-swap-opacity class now works with parent containers where Duotone icons as children
+
+### Fixed
+* Duotone SCSS files were not being correctly compiled with the Dart-Sass tool
+* Font Awesome logo was not appearing in desktop application in font pickers
+
+---
+
 ## [5.10.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.10.0) - 2019-07-29
 
 ### Added
