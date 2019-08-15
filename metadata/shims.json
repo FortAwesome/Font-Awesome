@@ -782,7 +782,7 @@
   [
     "sort-alpha-desc",
     null,
-    "sort-alpha-up"
+    "sort-alpha-down-alt"
   ],
   [
     "sort-amount-asc",
@@ -792,7 +792,7 @@
   [
     "sort-amount-desc",
     null,
-    "sort-amount-up"
+    "sort-amount-down-alt"
   ],
   [
     "sort-numeric-asc",
@@ -802,7 +802,7 @@
   [
     "sort-numeric-desc",
     null,
-    "sort-numeric-up"
+    "sort-numeric-down-alt"
   ],
   [
     "youtube-square",

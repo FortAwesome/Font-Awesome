@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'fab';
 var iconName = 'facebook-f';
-var width = 264;
+var width = 320;
 var height = 512;
 var ligatures = [];
 var unicode = 'f39e';
-var svgPathData = 'M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229';
+var svgPathData = 'M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z';
 
 exports.definition = {
   prefix: prefix,

@@ -8,6 +8,97 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.10.0 to 5.10.1
+
+The Sass function `fa-content-secondary` which was part of the `duotone.scss`
+file has been removed due to its inconsistent behavior in different versions of
+Sass pre-processors. Specifically [`node-sass`](https://github.com/sass/node-sass) and
+[`sass`](https://github.com/sass/dart-sass) didn't produce the same output.
+
+---
+
+## 5.9.0 to 5.10.0
+
+The following icon shims have been changed to better match the original version 4 icon:
+
+* sort-alpha-desc
+* sort-amount-desc
+* sort-numeric-desc
+
+---
+
+## 5.8.2 to 5.9.0
+
+The nintendo-switch icon has been removed by legal request of Nintendo of America Inc.
+
+Font Awesome is no longer able to provide icons related to Nintendo, their
+gaming consoles, accessories, or games.
+
+---
+
+## 5.8.1 to 5.8.2
+
+There are no breaking changes in this version upgrade.
+
+---
+
+## 5.8.0 to 5.8.1
+
+There are no breaking changes in this version upgrade.
+
+---
+
+## 5.7.x to 5.8.0
+
+### Removing title elements from SVG sprites
+
+Since the initial release of version 5, all the way back to 5.0.0 actually,
+we've included `<title>` elements in the SVG sprites.
+
+In https://github.com/FortAwesome/Font-Awesome/issues/14595 a discussion
+outlines that this practice actually prevents normal efforts to make these
+sprites accessible according to web accessibility standards.
+
+If you are using sprites please refer to [our documentation on accessibility with Font Awesome](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility).
+
+### Removing vertical-align from the .fa-icon Sass mixin
+
+Font Awesome has supported Sass and Less CSS pre-processors for a long time.
+
+The version 5 `.fa-icon` mixin which is present in `scss/_mixins.scss`
+previously included `vertical-align` which was incorrectly shifting icons.
+
+If you have used this mixin in your own Sass files you will need to check the
+alignment of those icons after upgrading to 5.8.0.
+
+---
+
+## 5.7.1 to 5.7.2
+
+There are no breaking changes in this version upgrade.
+
+---
+
+## 5.7.0 to 5.7.1
+
+The cheeseburger icon incorrectly placed the cheese _under_ the patty. This is unacceptable and we've fixed it.
+
+---
+
+## 5.6.x to 5.7.0
+
+### OTF and TTF files
+
+The PostScript name has been changed from `FontAwesome5ProSolid` to `FontAwesome5Pro-Solid`. This was done to be more compatible with tooling such as XCode.
+
+We've also update the `Version` specifier. Font files only support a MAJOR and MINOR version number so we have modifed our schema. For example, version 5.7.0 of Font Awesome is reflected as 329.472 in the individual font files.
+
+### Icon changes
+
+The calendar-alt icon has been reverted back to the previous design in versions <= 5.6.0.
+
+---
+
 ## 5.6.x to 5.6.3
 
 The fire icon has been reverted back to the previous design in versions <= 5.5.0.

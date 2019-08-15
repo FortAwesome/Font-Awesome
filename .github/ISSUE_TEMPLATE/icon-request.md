@@ -1,13 +1,19 @@
-### What can it be used for?
+---
+name: Icon request
+about: Suggest an icon to be included in Font Awesome
+title: ''
+labels: ''
+assignees: ''
 
-<!--- describe how this could be used / the use case for this icon -->
+---
 
-### Example image (optional)
+**What can it be used for?**
+Describe how this could be used / the use case for this icon.
 
-<!--- insert the example image here if necessary -->
+**Example image (optional)**
+Insert the example image here if necessary.
 
-### Icon request checklist
-
+**Icon request checklist**
 - [ ] This is a single icon or matched pair (Ex: `lock` / `unlock`)
 - [ ] The title starts with "Icon request: " and is followed by the requested icon name (Ex: `Icon request: magical-unicorn`)
 - [ ] I have [searched for existing issues](https://github.com/FortAwesome/Font-Awesome/issues) and to the best of my knowledge this is not a duplicate

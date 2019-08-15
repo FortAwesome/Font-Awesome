@@ -1,0 +1,29 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'fas';
+var iconName = 'user-nurse';
+var width = 448;
+var height = 512;
+var ligatures = [];
+var unicode = 'f82f';
+var svgPathData = 'M57.78 288h82.36c22.51 19.68 51.62 32 83.86 32s61.35-12.32 83.86-32h82.36a16 16 0 0 0 14.28-23.18c-15.23-29.85-31.28-62.23-42.15-95.54C354.78 146.09 352 121.59 352 97.2V48L224 0 96 48v49.2c0 24.39-2.75 48.89-10.33 72.08C74.78 202.59 58.73 235 43.5 264.82A16 16 0 0 0 57.78 288zM184 71.67a5 5 0 0 1 5-5h21.67V45a5 5 0 0 1 5-5h16.66a5 5 0 0 1 5 5v21.67H259a5 5 0 0 1 5 5v16.66a5 5 0 0 1-5 5h-21.67V115a5 5 0 0 1-5 5h-16.66a5 5 0 0 1-5-5V93.33H189a5 5 0 0 1-5-5zM144 160h160v32a80 80 0 0 1-160 0zm175.41 160L224 415.39 128.59 320C57.1 323.1 0 381.6 0 453.79A58.21 58.21 0 0 0 58.21 512h331.58A58.21 58.21 0 0 0 448 453.79C448 381.6 390.9 323.1 319.41 320z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    ligatures,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faUserNurse = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = ligatures;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
