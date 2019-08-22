@@ -1085,7 +1085,7 @@
     mark: noop$1,
     measure: noop$1
   };
-  var preamble = "FA \"5.10.1\"";
+  var preamble = "FA \"5.10.2\"";
 
   var begin = function begin(name) {
     p.mark("".concat(preamble, " ").concat(name, " begins"));
@@ -2358,6 +2358,9 @@
     });
   };
   var layer = function layer(assembler) {
+    var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+    var _params$classes4 = params.classes,
+        classes = _params$classes4 === void 0 ? [] : _params$classes4;
     return apiObject({
       type: 'layer'
     }, function () {
@@ -2371,7 +2374,7 @@
       return [{
         tag: 'span',
         attributes: {
-          class: "".concat(config.familyPrefix, "-layers")
+          class: ["".concat(config.familyPrefix, "-layers")].concat(_toConsumableArray(classes)).join(' ')
         },
         children: children
       }];

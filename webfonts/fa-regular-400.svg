@@ -1,12 +1,12 @@
 <?xml version="1.0" standalone="no"?>
 <!--
-Font Awesome Free 5.10.1 by @fontawesome - https://fontawesome.com
+Font Awesome Free 5.10.2 by @fontawesome - https://fontawesome.com
 License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
 -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20190112 at Fri Aug  2 14:41:09 2019
+Created by FontForge 20190801 at Thu Aug 22 14:40:02 2019
  By Robert Madole
 Copyright (c) Font Awesome
 </metadata>
@@ -22,7 +22,7 @@ Copyright (c) Font Awesome
     descent="-64"
     bbox="-0.0663408 -64.0662 640.01 448.1"
     underline-thickness="25"
-    underline-position="-51"
+    underline-position="-50"
     unicode-range="U+0020-F5C8"
   />
     <missing-glyph />
