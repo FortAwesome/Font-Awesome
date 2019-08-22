@@ -8,6 +8,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.10.2](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.10.2) - 2019-08-22
+
+### Added
+* SVG with JS API function layers() now accepts params to add additional classes
+
+### Changed
+* Lots of updates to various duotone icons
+* Updated the keybase brand icon
+
+### Fixed
+* Duotone icon updates FortAwesome/Font-Awesome#15396
+  FortAwesome/Font-Awesome#15409 FortAwesome/Font-Awesome#15413
+  FortAwesome/Font-Awesome#15325 FortAwesome/Font-Awesome#15334
+  FortAwesome/Font-Awesome#15339 FortAwesome/Font-Awesome#15346
+
+---
+
 ## [5.10.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.10.1) - 2019-08-02
 
 ### Added
