@@ -188,6 +188,7 @@ audio-video:
     - stop-circle
     - sync
     - sync-alt
+    - tv
     - undo
     - undo-alt
     - video
@@ -441,6 +442,7 @@ childhood:
     - birthday-cake
     - cookie
     - cookie-bite
+    - gamepad
     - ice-cream
     - mitten
     - robot
@@ -451,6 +453,8 @@ childhood:
 clothing:
   icons:
     - graduation-cap
+    - hat-cowboy
+    - hat-cowboy-side
     - hat-wizard
     - mitten
     - shoe-prints
@@ -545,6 +549,7 @@ computers:
     - microchip
     - mobile
     - mobile-alt
+    - mouse
     - plug
     - power-off
     - print
@@ -1595,9 +1600,14 @@ music:
     - guitar
     - headphones
     - headphones-alt
+    - microphone
+    - microphone-alt
+    - microphone-alt-slash
+    - microphone-slash
     - music
     - napster
     - play
+    - record-vinyl
     - sliders-h
     - soundcloud
     - spotify
@@ -2282,11 +2292,14 @@ toggle:
     - check-circle
     - circle
     - dot-circle
+    - microphone
+    - microphone-slash
     - star
     - star-half
     - star-half-alt
     - toggle-off
     - toggle-on
+    - wifi
   label: Toggle
 travel:
   icons:
@@ -2323,6 +2336,7 @@ travel:
     - swimming-pool
     - taxi
     - tram
+    - tv
     - umbrella-beach
     - wine-glass
     - wine-glass-alt

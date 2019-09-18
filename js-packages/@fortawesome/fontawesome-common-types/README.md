@@ -17,7 +17,7 @@ your.ts
 ```
 import {
   IconName
-} from `@fortawesome/fontawesome`
+} from `@fortawesome/fontawesome-svg-core`
 
 const myIcon: IconName = "..."
 ```

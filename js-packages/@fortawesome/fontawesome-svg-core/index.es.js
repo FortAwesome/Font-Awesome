@@ -1079,7 +1079,7 @@ var p = config.measurePerformance && PERFORMANCE && PERFORMANCE.mark && PERFORMA
   mark: noop$1,
   measure: noop$1
 };
-var preamble = "FA \"5.10.2\"";
+var preamble = "FA \"5.11.0\"";
 
 var begin = function begin(name) {
   p.mark("".concat(preamble, " ").concat(name, " begins"));
@@ -1345,6 +1345,7 @@ var mutators = {
 
     var forSvg = new RegExp("".concat(config.familyPrefix, "-.*"));
     delete abstract[0].attributes.style;
+    delete abstract[0].attributes.id;
     var splitClasses = abstract[0].attributes.class.split(' ').reduce(function (acc, cls) {
       if (cls === config.replacementClass || cls.match(forSvg)) {
         acc.toSvg.push(cls);
@@ -1789,6 +1790,12 @@ function findIcon(iconName, prefix) {
     if (iconName && prefix && styles$2[prefix] && styles$2[prefix][iconName]) {
       var icon = styles$2[prefix][iconName];
       return resolve(asFoundIcon(icon));
+    }
+
+    var headers = {};
+
+    if (_typeof(WINDOW.FontAwesomeKitConfig) === 'object' && typeof window.FontAwesomeKitConfig.token === 'string') {
+      headers['fa-kit-token'] = WINDOW.FontAwesomeKitConfig.token;
     }
 
     if (iconName && prefix && !config.showMissingIcons) {

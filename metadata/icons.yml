@@ -110,6 +110,7 @@ adjust:
     - '1'
     - 5.0.0
     - 5.10.2
+    - 5.11.0
   label: adjust
   search:
     terms:
@@ -363,6 +364,7 @@ anchor:
   changes:
     - '3.1'
     - 5.0.0
+    - 5.11.0
   label: Anchor
   search:
     terms:
@@ -485,6 +487,7 @@ angle-left:
   changes:
     - '3'
     - 5.0.0
+    - 5.11.0
   label: angle-left
   search:
     terms:
@@ -501,6 +504,7 @@ angle-right:
   changes:
     - '3'
     - 5.0.0
+    - 5.11.0
   label: angle-right
   search:
     terms:
@@ -531,6 +535,7 @@ angle-up:
 angry:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Angry Face
   search:
     terms:
@@ -883,6 +888,7 @@ arrows-alt-h:
 arrows-alt-v:
   changes:
     - 5.0.0
+    - 5.11.0
   label: Alternate Arrows Vertical
   search:
     terms:
@@ -1313,6 +1319,7 @@ bars:
 baseball-ball:
   changes:
     - 5.0.5
+    - 5.11.0
   label: Baseball Ball
   search:
     terms:
@@ -1330,6 +1337,7 @@ baseball-ball:
 basketball-ball:
   changes:
     - 5.0.5
+    - 5.11.0
   label: Basketball Ball
   search:
     terms:
@@ -1502,6 +1510,7 @@ bell:
     - '2'
     - 5.0.0
     - 5.2.0
+    - 5.11.0
   label: bell
   search:
     terms:
@@ -1757,6 +1766,7 @@ blind:
   changes:
     - '4.6'
     - 5.0.0
+    - 5.11.0
   label: Blind
   search:
     terms:
@@ -2070,6 +2080,7 @@ border-style:
 bowling-ball:
   changes:
     - 5.0.5
+    - 5.11.0
   label: Bowling Ball
   search:
     terms:
@@ -2147,6 +2158,7 @@ brain:
   changes:
     - 5.2.0
     - 5.9.0
+    - 5.11.0
   label: Brain
   search:
     terms:
@@ -2424,6 +2436,15 @@ business-time:
     - solid
   unicode: f64a
   voted: false
+buy-n-large:
+  changes:
+    - 5.11.0
+  label: Buy n Large
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f8a6
 buysellads:
   changes:
     - '4.3'
@@ -2440,6 +2461,7 @@ calculator:
     - '4.2'
     - 5.0.0
     - 5.3.0
+    - 5.11.0
   label: Calculator
   search:
     terms:
@@ -2775,6 +2797,7 @@ car:
 car-alt:
   changes:
     - 5.2.0
+    - 5.11.0
   label: Alternate Car
   search:
     terms:
@@ -3203,6 +3226,7 @@ certificate:
 chair:
   changes:
     - 5.4.0
+    - 5.11.0
   label: Chair
   search:
     terms:
@@ -3889,6 +3913,7 @@ clone:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.11.0
   label: Clone
   search:
     terms:
@@ -4468,6 +4493,7 @@ compact-disc:
   changes:
     - 5.0.13
     - 5.10.1
+    - 5.11.0
   label: Compact Disc
   search:
     terms:
@@ -4491,6 +4517,7 @@ compass:
     - '3.2'
     - 5.0.0
     - 5.2.0
+    - 5.11.0
   label: Compass
   search:
     terms:
@@ -5458,6 +5485,7 @@ digital-tachograph:
 directions:
   changes:
     - 5.2.0
+    - 5.11.0
   label: Directions
   search:
     terms:
@@ -5507,6 +5535,7 @@ divide:
 dizzy:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Dizzy Face
   search:
     terms:
@@ -5579,6 +5608,7 @@ dollar-sign:
     - '3.2'
     - 5.0.0
     - 5.0.9
+    - 5.11.0
   label: Dollar Sign
   search:
     terms:
@@ -5798,6 +5828,7 @@ dropbox:
 drum:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Drum
   search:
     terms:
@@ -6422,6 +6453,7 @@ expeditedssl:
 external-link-alt:
   changes:
     - 5.0.0
+    - 5.11.0
   label: Alternate External Link
   search:
     terms:
@@ -6627,6 +6659,7 @@ fax:
     - '4.1'
     - 5.0.0
     - 5.3.0
+    - 5.11.0
   label: Fax
   search:
     terms:
@@ -7191,6 +7224,7 @@ filter:
     - '2'
     - 5.0.0
     - 5.10.1
+    - 5.11.0
   label: Filter
   search:
     terms:
@@ -7462,6 +7496,7 @@ flipboard:
 flushed:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Flushed Face
   search:
     terms:
@@ -7539,6 +7574,7 @@ folder-open:
 folder-plus:
   changes:
     - 5.3.0
+    - 5.11.0
   label: Folder Plus
   search:
     terms:
@@ -7644,6 +7680,7 @@ fonticons-fi:
 football-ball:
   changes:
     - 5.0.5
+    - 5.11.0
   label: Football Ball
   search:
     terms:
@@ -7763,6 +7800,7 @@ frown:
     - 5.0.0
     - 5.0.9
     - 5.1.0
+    - 5.11.0
   label: Frowning Face
   search:
     terms:
@@ -7779,6 +7817,7 @@ frown:
 frown-open:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Frowning Face With Open Mouth
   search:
     terms:
@@ -7862,13 +7901,16 @@ gamepad:
   changes:
     - '3.1'
     - 5.0.0
+    - 5.11.0
   label: Gamepad
   search:
     terms:
+      - arcade
       - controller
       - d-pad
       - joystick
       - video
+      - video game
   styles:
     - solid
   unicode: f11b
@@ -7925,6 +7967,7 @@ genderless:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.11.0
   label: Genderless
   search:
     terms:
@@ -8242,6 +8285,7 @@ globe:
     - '2'
     - 5.0.0
     - 5.0.9
+    - 5.11.0
   label: Globe
   search:
     terms:
@@ -8268,6 +8312,7 @@ globe:
 globe-africa:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Globe with Africa shown
   search:
     terms:
@@ -8293,6 +8338,7 @@ globe-africa:
 globe-americas:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Globe with Americas shown
   search:
     terms:
@@ -8318,6 +8364,7 @@ globe-americas:
 globe-asia:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Globe with Asia shown
   search:
     terms:
@@ -8343,6 +8390,7 @@ globe-asia:
 globe-europe:
   changes:
     - 5.6.0
+    - 5.11.0
   label: Globe with Europe shown
   search:
     terms:
@@ -8493,6 +8541,7 @@ gopuram:
   changes:
     - 5.3.0
     - 5.7.0
+    - 5.11.0
   label: Gopuram
   search:
     terms:
@@ -8579,6 +8628,7 @@ greater-than-equal:
 grimace:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Grimacing Face
   search:
     terms:
@@ -8594,6 +8644,7 @@ grimace:
 grin:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Grinning Face
   search:
     terms:
@@ -8609,6 +8660,7 @@ grin:
 grin-alt:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Alternate Grinning Face
   search:
     terms:
@@ -8624,6 +8676,7 @@ grin-alt:
 grin-beam:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Grinning Face With Smiling Eyes
   search:
     terms:
@@ -8639,6 +8692,7 @@ grin-beam:
 grin-beam-sweat:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Grinning Face With Sweat
   search:
     terms:
@@ -8654,6 +8708,7 @@ grin-beam-sweat:
 grin-hearts:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Smiling Face With Heart-Eyes
   search:
     terms:
@@ -8669,6 +8724,7 @@ grin-hearts:
 grin-squint:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Grinning Squinting Face
   search:
     terms:
@@ -8699,6 +8755,7 @@ grin-squint-tears:
 grin-stars:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Star-Struck
   search:
     terms:
@@ -8727,6 +8784,7 @@ grin-tears:
 grin-tongue:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Face With Tongue
   search:
     terms:
@@ -8741,6 +8799,7 @@ grin-tongue:
 grin-tongue-squint:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Squinting Face With Tongue
   search:
     terms:
@@ -8755,6 +8814,7 @@ grin-tongue-squint:
 grin-tongue-wink:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Winking Face With Tongue
   search:
     terms:
@@ -8770,6 +8830,7 @@ grin-wink:
   changes:
     - 5.1.0
     - 5.1.1
+    - 5.11.0
   label: Grinning Winking Face
   search:
     terms:
@@ -8816,6 +8877,7 @@ grip-lines:
 grip-lines-vertical:
   changes:
     - 5.6.0
+    - 5.11.0
   label: Grip Lines Vertical
   search:
     terms:
@@ -8866,6 +8928,7 @@ grunt:
 guitar:
   changes:
     - 5.6.0
+    - 5.11.0
   label: Guitar
   search:
     terms:
@@ -9020,6 +9083,7 @@ hand-holding-heart:
 hand-holding-usd:
   changes:
     - 5.0.9
+    - 5.11.0
   label: Hand Holding US Dollar
   search:
     terms:
@@ -9052,6 +9116,7 @@ hand-lizard:
 hand-middle-finger:
   changes:
     - 5.7.0
+    - 5.11.0
   label: Hand with Middle Finger Raised
   search:
     terms:
@@ -9311,9 +9376,52 @@ hashtag:
     - solid
   unicode: f292
   voted: false
+hat-cowboy:
+  changes:
+    - 5.11.0
+  label: Cowboy Hat
+  search:
+    terms:
+      - buckaroo
+      - horse
+      - jackeroo
+      - john b.
+      - old west
+      - pardner
+      - ranch
+      - rancher
+      - rodeo
+      - western
+      - wrangler
+  styles:
+    - solid
+  unicode: f8c0
+  voted: false
+hat-cowboy-side:
+  changes:
+    - 5.11.0
+  label: Cowboy Hat Side
+  search:
+    terms:
+      - buckaroo
+      - horse
+      - jackeroo
+      - john b.
+      - old west
+      - pardner
+      - ranch
+      - rancher
+      - rodeo
+      - western
+      - wrangler
+  styles:
+    - solid
+  unicode: f8c1
+  voted: false
 hat-wizard:
   changes:
     - 5.4.0
+    - 5.11.0
   label: Wizard's Hat
   search:
     terms:
@@ -9950,6 +10058,7 @@ i-cursor:
 ice-cream:
   changes:
     - 5.7.0
+    - 5.11.0
   label: Ice Cream
   search:
     terms:
@@ -10427,6 +10536,7 @@ joomla:
 journal-whills:
   changes:
     - 5.3.0
+    - 5.11.0
   label: Journal of the Whills
   search:
     terms:
@@ -10519,6 +10629,7 @@ keybase:
     - 5.0.11
     - 5.8.0
     - 5.10.2
+    - 5.11.0
   label: Keybase
   search:
     terms: []
@@ -10592,6 +10703,7 @@ kiss:
   changes:
     - 5.1.0
     - 5.1.1
+    - 5.11.0
   label: Kissing Face
   search:
     terms:
@@ -10608,6 +10720,7 @@ kiss:
 kiss-beam:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Kissing Face With Smiling Eyes
   search:
     terms:
@@ -10624,6 +10737,7 @@ kiss-beam:
 kiss-wink-heart:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Face Blowing a Kiss
   search:
     terms:
@@ -10786,6 +10900,7 @@ lastfm-square:
 laugh:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Grinning Face With Big Eyes
   search:
     terms:
@@ -10802,6 +10917,7 @@ laugh:
 laugh-beam:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Laugh Face with Beaming Eyes
   search:
     terms:
@@ -10818,6 +10934,7 @@ laugh-beam:
 laugh-squint:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Laughing Squinting Face
   search:
     terms:
@@ -10834,6 +10951,7 @@ laugh-squint:
 laugh-wink:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Laughing Winking Face
   search:
     terms:
@@ -11651,6 +11769,7 @@ mars-stroke-h:
   changes:
     - '4.3'
     - 5.0.0
+    - 5.11.0
   label: Mars Stroke Horizontal
   search:
     terms: []
@@ -11662,6 +11781,7 @@ mars-stroke-v:
   changes:
     - '4.3'
     - 5.0.0
+    - 5.11.0
   label: Mars Stroke Vertical
   search:
     terms: []
@@ -11708,6 +11828,15 @@ maxcdn:
     - brands
   unicode: f136
   voted: false
+mdb:
+  changes:
+    - 5.11.0
+  label: Material Design for Bootstrap
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f8ca
 medal:
   changes:
     - 5.1.0
@@ -11806,6 +11935,7 @@ meh:
     - 5.0.0
     - 5.0.9
     - 5.1.0
+    - 5.11.0
   label: Neutral Face
   search:
     terms:
@@ -11821,6 +11951,7 @@ meh:
 meh-blank:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Face Without Mouth
   search:
     terms:
@@ -11836,6 +11967,7 @@ meh-blank:
 meh-rolling-eyes:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Face With Rolling Eyes
   search:
     terms:
@@ -11893,6 +12025,7 @@ mercury:
   changes:
     - '4.3'
     - 5.0.0
+    - 5.11.0
   label: Mercury
   search:
     terms:
@@ -12319,6 +12452,7 @@ moon:
   changes:
     - '3.2'
     - 5.0.0
+    - 5.11.0
   label: Moon
   search:
     terms:
@@ -12395,6 +12529,21 @@ mountain:
     - solid
   unicode: f6fc
   voted: false
+mouse:
+  changes:
+    - 5.11.0
+  label: Mouse
+  search:
+    terms:
+      - click
+      - computer
+      - cursor
+      - input
+      - peripheral
+  styles:
+    - solid
+  unicode: f8cc
+  voted: true
 mouse-pointer:
   changes:
     - '4.4'
@@ -12434,6 +12583,7 @@ music:
     - '1'
     - 5.0.0
     - 5.2.0
+    - 5.11.0
   label: Music
   search:
     terms:
@@ -12486,6 +12636,7 @@ neuter:
   changes:
     - '4.3'
     - 5.0.0
+    - 5.11.0
   label: Neuter
   search:
     terms: []
@@ -12749,6 +12900,15 @@ optin-monster:
     - brands
   unicode: f23c
   voted: false
+orcid:
+  changes:
+    - 5.11.0
+  label: ORCID
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f8d2
 osi:
   changes:
     - 5.0.0
@@ -13105,6 +13265,7 @@ paypal:
 peace:
   changes:
     - 5.3.0
+    - 5.11.0
   label: Peace
   search:
     terms:
@@ -14037,6 +14198,7 @@ print:
     - '1'
     - 5.0.0
     - 5.3.0
+    - 5.11.0
   label: print
   search:
     terms:
@@ -14290,6 +14452,7 @@ radiation:
   changes:
     - 5.6.0
     - 5.8.2
+    - 5.11.0
   label: Radiation
   search:
     terms:
@@ -14308,6 +14471,7 @@ radiation-alt:
   changes:
     - 5.6.0
     - 5.8.2
+    - 5.11.0
   label: Alternate Radiation
   search:
     terms:
@@ -14434,6 +14598,22 @@ receipt:
     - solid
   unicode: f543
   voted: true
+record-vinyl:
+  changes:
+    - 5.11.0
+  label: Record Vinyl
+  search:
+    terms:
+      - LP
+      - album
+      - analog
+      - music
+      - phonograph
+      - sound
+  styles:
+    - solid
+  unicode: f8d9
+  voted: false
 recycle:
   changes:
     - '4.1'
@@ -14932,6 +15112,7 @@ ruler-vertical:
 running:
   changes:
     - 5.4.0
+    - 5.11.0
   label: Running
   search:
     terms:
@@ -14964,6 +15145,7 @@ rupee-sign:
 sad-cry:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Crying Face
   search:
     terms:
@@ -14979,6 +15161,7 @@ sad-cry:
 sad-tear:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Loudly Crying Face
   search:
     terms:
@@ -15422,6 +15605,7 @@ ship:
     - '4.3'
     - 5.0.0
     - 5.10.2
+    - 5.11.0
   label: Ship
   search:
     terms:
@@ -15951,6 +16135,7 @@ smile:
     - 5.0.0
     - 5.0.9
     - 5.1.0
+    - 5.11.0
   label: Smiling Face
   search:
     terms:
@@ -15968,6 +16153,7 @@ smile:
 smile-beam:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Beaming Face With Smiling Eyes
   search:
     terms:
@@ -15983,6 +16169,7 @@ smile-beam:
 smile-wink:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Winking Face
   search:
     terms:
@@ -16739,6 +16926,7 @@ star-half:
 star-half-alt:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Alternate Star Half
   search:
     terms:
@@ -16755,6 +16943,7 @@ star-half-alt:
 star-of-david:
   changes:
     - 5.3.0
+    - 5.11.0
   label: Star of David
   search:
     terms:
@@ -16827,6 +17016,7 @@ step-backward:
     - '1'
     - 5.0.0
     - 5.10.2
+    - 5.11.0
   label: step-backward
   search:
     terms:
@@ -16844,6 +17034,7 @@ step-forward:
     - '1'
     - 5.0.0
     - 5.10.2
+    - 5.11.0
   label: step-forward
   search:
     terms:
@@ -16951,6 +17142,7 @@ stopwatch:
 store:
   changes:
     - 5.0.13
+    - 5.11.0
   label: Store
   search:
     terms:
@@ -17238,6 +17430,7 @@ supple:
 surprise:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Hushed Face
   search:
     terms:
@@ -17266,6 +17459,7 @@ suse:
 swatchbook:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Swatchbook
   search:
     terms:
@@ -17278,6 +17472,15 @@ swatchbook:
     - solid
   unicode: f5c3
   voted: false
+swift:
+  changes:
+    - 5.11.0
+  label: Swift
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f8e1
 swimmer:
   changes:
     - 5.1.0
@@ -18003,6 +18206,7 @@ times:
     - '1'
     - 5.0.0
     - 5.0.13
+    - 5.11.0
   label: Times
   search:
     terms:
@@ -18078,6 +18282,7 @@ tint-slash:
 tired:
   changes:
     - 5.1.0
+    - 5.11.0
   label: Tired Face
   search:
     terms:
@@ -18334,6 +18539,7 @@ transgender-alt:
   changes:
     - '4.3'
     - 5.0.0
+    - 5.11.0
   label: Alternate Transgender
   search:
     terms:
@@ -18453,6 +18659,7 @@ trophy:
   changes:
     - '1'
     - 5.0.0
+    - 5.11.0
   label: trophy
   search:
     terms:
@@ -18595,6 +18802,7 @@ tv:
   changes:
     - '4.4'
     - 5.0.0
+    - 5.11.0
   label: Television
   search:
     terms:
@@ -18687,6 +18895,15 @@ uikit:
     - brands
   unicode: f403
   voted: false
+umbraco:
+  changes:
+    - 5.11.0
+  label: Umbraco
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f8e8
 umbrella:
   changes:
     - '2'
@@ -18801,6 +19018,7 @@ university:
     - '4.1'
     - 5.0.0
     - 5.0.3
+    - 5.11.0
   label: University
   search:
     terms:
@@ -19001,6 +19219,7 @@ user-circle:
     - 5.0.0
     - 5.0.3
     - 5.0.11
+    - 5.11.0
   label: User Circle
   search:
     terms:
@@ -19426,6 +19645,7 @@ venus:
   changes:
     - '4.3'
     - 5.0.0
+    - 5.11.0
   label: Venus
   search:
     terms:
@@ -20123,6 +20343,7 @@ wine-glass:
     - 5.0.9
     - 5.1.0
     - 5.10.1
+    - 5.11.0
   label: Wine Glass
   search:
     terms:
@@ -20141,6 +20362,7 @@ wine-glass-alt:
   changes:
     - 5.1.0
     - 5.10.1
+    - 5.11.0
   label: Alternate Wine Glas
   search:
     terms:
@@ -20433,6 +20655,7 @@ yin-yang:
   changes:
     - 5.3.0
     - 5.10.2
+    - 5.11.0
   label: Yin Yang
   search:
     terms:

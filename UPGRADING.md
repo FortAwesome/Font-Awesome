@@ -8,6 +8,12 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.10.2 to 5.11.0
+
+There are no breaking changes in this version upgrade.
+
+---
+
 ## 5.10.1 to 5.10.2
 
 There are no breaking changes in this version upgrade.
