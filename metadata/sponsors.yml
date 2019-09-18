@@ -167,6 +167,11 @@ dyalog-apl:
     - dyalog
   label: Dyalog APL
   url: 'http://www.dyalog.com'
+econopublish:
+  icons:
+    - hat-cowboy-side
+  label: EconoPublish
+  url: 'https://www.econopublish.com'
 firstdraft:
   icons:
     - firstdraft
