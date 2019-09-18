@@ -8,6 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.11.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.11.1) - 2019-09-18
+
+### Fixed
+* Duotone icons updated in 5.11.0 had incorrect attribute order which caused
+  them to fail to load for all kits
+
+---
+
 ## [5.11.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.11.0) - 2019-09-18
 
 ### Added
