@@ -104,7 +104,7 @@ export interface DOM {
   i2svg(params?: { node: Node; callback: () => void }): Promise<void>;
   css(): string;
   insertCss(): string;
-  watch(): void;
+  watch(params?: { autoReplaceSvgRoot: Node; observeMutationsRoot: Node }): void;
 }
 type IconDefinitionOrPack = IconDefinition | IconPack;
 export interface Library {
