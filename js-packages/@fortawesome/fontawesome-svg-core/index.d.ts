@@ -12,7 +12,7 @@ export function toHtml(content: any): string;
 export function toHtml(abstractNodes: AbstractElement): string;
 export function layer(
   assembler: (
-    addLayerCallback: (layerToAdd: IconOrText | IconOrText[]) => void
+    addLayerCallback: (layerToAdd: Counter | IconOrText | IconOrText[]) => void
   ) => void
 ): Layer;
 export function icon(icon: IconName | IconLookup, params?: IconParams): Icon;
