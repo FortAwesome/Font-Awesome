@@ -7,7 +7,7 @@
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
-  font-weight: 900;
+  font-weight: 900 !important;
   font-display: $fa-font-display;
   src: url('#{$fa-font-path}/fa-solid-900.eot');
   src: url('#{$fa-font-path}/fa-solid-900.eot?#iefix') format('embedded-opentype'),
@@ -20,5 +20,5 @@
 .fa,
 .fas {
   font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
+  font-weight: 900 !important;
 }
