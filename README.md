@@ -24,6 +24,7 @@ Learn how to get started with Font Awesome and then dive deeper into other and a
 * [Upgrading from version 4](https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4)
 * [Installing Font Awesome with a package manager](https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers)
 * [Downloading + hosting Font Awesome yourself](https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself)
+* [Font Awesome Free's Cheatsheet](https://fontawesome.com/cheatsheet)
 * [Performance and security](https://fontawesome.com/how-to-use/performance-and-security)
 * [Accessibility](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
 * [Troubleshooting](https://fontawesome.com/how-to-use/on-the-web/other-topics/troubleshooting)
