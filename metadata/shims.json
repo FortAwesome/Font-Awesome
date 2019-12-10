@@ -150,6 +150,16 @@
     "share"
   ],
   [
+    "expand",
+    null,
+    "expand-alt"
+  ],
+  [
+    "compress",
+    null,
+    "compress-alt"
+  ],
+  [
     "eye",
     "far",
     null
@@ -1145,14 +1155,14 @@
     "car"
   ],
   [
-    "cab",
-    null,
-    "taxi"
-  ],
-  [
     "envelope-o",
     "far",
     "envelope"
+  ],
+  [
+    "spotify",
+    "fab",
+    null
   ],
   [
     "deviantart",
@@ -2300,8 +2310,8 @@
     null
   ],
   [
-    "spotify",
-    "fab",
-    null
+    "cab",
+    null,
+    "taxi"
   ]
 ]

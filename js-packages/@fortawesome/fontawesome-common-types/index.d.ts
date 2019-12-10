@@ -159,6 +159,7 @@ export type IconName = '500px' |
   'fedora' | 
   'figma' | 
   'firefox' | 
+  'firefox-browser' | 
   'first-order' | 
   'first-order-alt' | 
   'firstdraft' | 
@@ -220,6 +221,7 @@ export type IconName = '500px' |
   'houzz' | 
   'html5' | 
   'hubspot' | 
+  'ideal' | 
   'imdb' | 
   'instagram' | 
   'intercom' | 
@@ -269,6 +271,7 @@ export type IconName = '500px' |
   'meetup' | 
   'megaport' | 
   'mendeley' | 
+  'microblog' | 
   'microsoft' | 
   'mix' | 
   'mixcloud' | 
@@ -307,6 +310,7 @@ export type IconName = '500px' |
   'pied-piper-alt' | 
   'pied-piper-hat' | 
   'pied-piper-pp' | 
+  'pied-piper-square' | 
   'pinterest' | 
   'pinterest-p' | 
   'pinterest-square' | 
@@ -406,6 +410,7 @@ export type IconName = '500px' |
   'uikit' | 
   'umbraco' | 
   'uniregistry' | 
+  'unity' | 
   'untappd' | 
   'ups' | 
   'usb' | 
@@ -660,6 +665,7 @@ export type IconName = '500px' |
   'backspace' | 
   'backward' | 
   'bacon' | 
+  'bahai' | 
   'balance-scale' | 
   'balance-scale-left' | 
   'balance-scale-right' | 
@@ -744,6 +750,7 @@ export type IconName = '500px' |
   'car-battery' | 
   'car-crash' | 
   'car-side' | 
+  'caravan' | 
   'caret-down' | 
   'caret-left' | 
   'caret-right' | 
@@ -828,6 +835,7 @@ export type IconName = '500px' |
   'compact-disc' | 
   'compass' | 
   'compress' | 
+  'compress-alt' | 
   'compress-arrows-alt' | 
   'concierge-bell' | 
   'cookie' | 
@@ -904,6 +912,7 @@ export type IconName = '500px' |
   'exclamation-circle' | 
   'exclamation-triangle' | 
   'expand' | 
+  'expand-alt' | 
   'expand-arrows-alt' | 
   'external-link-alt' | 
   'external-link-square-alt' | 
@@ -1040,7 +1049,6 @@ export type IconName = '500px' |
   'hat-cowboy' | 
   'hat-cowboy-side' | 
   'hat-wizard' | 
-  'haykal' | 
   'hdd' | 
   'heading' | 
   'headphones' | 
@@ -1472,6 +1480,7 @@ export type IconName = '500px' |
   'tractor' | 
   'trademark' | 
   'traffic-light' | 
+  'trailer' | 
   'train' | 
   'tram' | 
   'transgender' | 

@@ -8,6 +8,33 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.12.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.12.0) - 2019-12-10
+
+### Added
+* New science fiction and household icons
+* Metadata in Yaml format now available in JS packages
+  @fortawesome/fontawesome-free and @fortawesome/fontawesome-pro
+
+### Changed
+* Updated twitch, safari, pied-piper, and android brand icon
+* Renaming haykal icon to bahai
+* Added "sideEffects: false" to JS icon packages to aid with tree-shaking
+
+### Fixed
+* Improved eye position on the dog icon
+* Updated solid style of the shape icon
+* Adding missing versions for balance-scale-left and balance-scale-right icons
+* Corrected missing cut-outs for envelope-open-dollar and envelope-open-text
+  which made swap opacity incorrect
+* Fixing icon mismatch for contract and expand icons in the version 4 shim
+* TypeScript definition includes optional params for layer() API call
+* Symbols can now be inserted using Windows Character Map, Word, and PowerPoint
+  FortAwesome/Font-Awesome#14614
+* Correcting the LICENSE.txt for @fortawesome/fontawesome-svg-core and
+  @fortawesome/fontawesome-common-types
+
+---
+
 ## [5.11.2](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.11.2) - 2019-09-23
 
 ### Changed

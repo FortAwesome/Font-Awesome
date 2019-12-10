@@ -8,6 +8,14 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.11.2 to 5.12.0
+
+The 9-pointed icon named "haykal" was renamed to "bahai" to better match the
+symbol. If you were previously using the misnamed icon rename to "bahai" when
+upgrading.
+
+---
+
 ## 5.11.1 to 5.11.2
 
 The scanner-image icon was previously using the same unicode value as the scanner icon.
