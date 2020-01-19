@@ -17,7 +17,7 @@ export function layer(
   params?: LayerParams
 ): Layer;
 export function icon(icon: IconName | IconLookup, params?: IconParams): Icon;
-export type IconProp = IconName | [IconPrefix, IconName] | IconLookup;
+export type IconProp = IconName | [IconPrefix, IconName] | IconLookup | IconDefinition;
 export type FlipProp = "horizontal" | "vertical" | "both";
 export type SizeProp =
   | "xs"
