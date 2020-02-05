@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.12.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @import 'variables';
@@ -7,7 +7,7 @@
 @font-face {
   font-family: 'Font Awesome 5 Brands';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-display: $fa-font-display;
   src: url('#{$fa-font-path}/fa-brands-400.eot');
   src: url('#{$fa-font-path}/fa-brands-400.eot?#iefix') format('embedded-opentype'),
@@ -19,4 +19,5 @@
 
 .fab {
   font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
 }

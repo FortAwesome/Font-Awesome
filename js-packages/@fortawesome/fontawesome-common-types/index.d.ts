@@ -117,6 +117,7 @@ export type IconName = '500px' |
   'cuttlefish' | 
   'd-and-d' | 
   'd-and-d-beyond' | 
+  'dailymotion' | 
   'dashcube' | 
   'delicious' | 
   'deploydog' | 
@@ -224,6 +225,7 @@ export type IconName = '500px' |
   'ideal' | 
   'imdb' | 
   'instagram' | 
+  'instagram-square' | 
   'intercom' | 
   'internet-explorer' | 
   'invision' | 
@@ -275,6 +277,7 @@ export type IconName = '500px' |
   'microsoft' | 
   'mix' | 
   'mixcloud' | 
+  'mixer' | 
   'mizuni' | 
   'modx' | 
   'monero' | 
@@ -350,6 +353,7 @@ export type IconName = '500px' |
   'sellsy' | 
   'servicestack' | 
   'shirtsinbulk' | 
+  'shopify' | 
   'shopware' | 
   'simplybuilt' | 
   'sistrix' | 
