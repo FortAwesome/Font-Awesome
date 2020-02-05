@@ -6,6 +6,10 @@ This guide is useful to figure out what you need to do between breaking changes.
 
 As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/new) that you run into with this guide or with these upgrades to us.
 
+## 5.12.0 to 5.12.1
+
+There are no breaking changes in this version upgrade.
+
 ---
 
 ## 5.11.2 to 5.12.0

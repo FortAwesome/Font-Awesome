@@ -47,7 +47,7 @@
     "node": ">=6"
   },
   "dependencies": {},
-  "version": "0.2.26",
+  "version": "0.2.27",
   "name": "@fortawesome/fontawesome-common-types",
   "license": "MIT",
   "types": "./index.d.ts"

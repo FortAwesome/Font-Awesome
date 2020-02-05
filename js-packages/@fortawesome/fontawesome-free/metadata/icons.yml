@@ -3940,6 +3940,7 @@ clock:
   changes:
     - '1'
     - 5.0.0
+    - 5.12.1
   label: Clock
   search:
     terms:
@@ -5190,6 +5191,16 @@ d-and-d-beyond:
     - brands
   unicode: f6ca
   voted: false
+dailymotion:
+  changes:
+    - 5.12.1
+  label: dailymotion
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f952
+  voted: true
 dashcube:
   changes:
     - '4.3'
@@ -6062,6 +6073,7 @@ edge:
   changes:
     - '4.5'
     - 5.0.0
+    - 5.12.1
   label: Edge Browser
   search:
     terms:
@@ -7676,6 +7688,7 @@ folder-plus:
   changes:
     - 5.3.0
     - 5.11.0
+    - 5.12.1
   label: Folder Plus
   search:
     terms:
@@ -10458,6 +10471,16 @@ instagram:
     - brands
   unicode: f16d
   voted: false
+instagram-square:
+  changes:
+    - 5.12.1
+  label: Instagram Square
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f955
+  voted: true
 intercom:
   changes:
     - 5.6.0
@@ -12403,6 +12426,16 @@ mixcloud:
     - brands
   unicode: f289
   voted: false
+mixer:
+  changes:
+    - 5.12.1
+  label: Mixer
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f956
+  voted: true
 mizuni:
   changes:
     - 5.0.0
@@ -15831,6 +15864,16 @@ shoe-prints:
     - solid
   unicode: f54b
   voted: true
+shopify:
+  changes:
+    - 5.12.1
+  label: Shopify
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f957
+  voted: false
 shopping-bag:
   changes:
     - '4.5'
