@@ -322,6 +322,7 @@ export const faFileContract: IconDefinition;
 export const faFileCsv: IconDefinition;
 export const faFileDownload: IconDefinition;
 export const faFileExcel: IconDefinition;
+export const faFileExclamation: IconDefinition;
 export const faFileExport: IconDefinition;
 export const faFileImage: IconDefinition;
 export const faFileImport: IconDefinition;

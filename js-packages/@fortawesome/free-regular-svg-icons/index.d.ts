@@ -48,6 +48,7 @@ export const faFileArchive: IconDefinition;
 export const faFileAudio: IconDefinition;
 export const faFileCode: IconDefinition;
 export const faFileExcel: IconDefinition;
+export const faFileExclamation: IconDefinition;
 export const faFileImage: IconDefinition;
 export const faFilePdf: IconDefinition;
 export const faFilePowerpoint: IconDefinition;
