@@ -760,6 +760,7 @@
         attributes = _ref.attributes,
         main = _ref.main,
         mask = _ref.mask,
+        explicitMaskId = _ref.maskId,
         transform = _ref.transform;
     var mainWidth = main.width,
         mainPath = main.icon;
@@ -792,8 +793,8 @@
       attributes: _objectSpread({}, trans.outer),
       children: [maskInnerGroup]
     };
-    var maskId = "mask-".concat(nextUniqueId());
-    var clipId = "clip-".concat(nextUniqueId());
+    var maskId = "mask-".concat(explicitMaskId || nextUniqueId());
+    var clipId = "clip-".concat(explicitMaskId || nextUniqueId());
     var maskTag = {
       tag: 'mask',
       attributes: _objectSpread({}, ALL_SPACE, {
@@ -926,6 +927,8 @@
         transform = params.transform,
         symbol = params.symbol,
         title = params.title,
+        maskId = params.maskId,
+        titleId = params.titleId,
         extra = params.extra,
         _params$watchable = params.watchable,
         watchable = _params$watchable === void 0 ? false : _params$watchable;
@@ -957,7 +960,7 @@
     if (title) content.children.push({
       tag: 'title',
       attributes: {
-        id: content.attributes['aria-labelledby'] || "title-".concat(nextUniqueId())
+        id: content.attributes['aria-labelledby'] || "title-".concat(titleId || nextUniqueId())
       },
       children: [title]
     });
@@ -967,6 +970,7 @@
       iconName: iconName,
       main: main,
       mask: mask,
+      maskId: maskId,
       transform: transform,
       symbol: symbol,
       styles: extra.styles
@@ -1085,7 +1089,7 @@
     mark: noop$1,
     measure: noop$1
   };
-  var preamble = "FA \"5.12.1\"";
+  var preamble = "FA \"5.13.0\"";
 
   var begin = function begin(name) {
     p.mark("".concat(preamble, " ").concat(name, " begins"));
@@ -1590,10 +1594,11 @@
       return acc;
     }, {});
     var title = node.getAttribute('title');
+    var titleId = node.getAttribute('data-fa-title-id');
 
     if (config.autoA11y) {
       if (title) {
-        extraAttributes['aria-labelledby'] = "".concat(config.replacementClass, "-title-").concat(nextUniqueId());
+        extraAttributes['aria-labelledby'] = "".concat(config.replacementClass, "-title-").concat(titleId || nextUniqueId());
       } else {
         extraAttributes['aria-hidden'] = 'true';
         extraAttributes['focusable'] = 'false';
@@ -1619,10 +1624,12 @@
     return {
       iconName: null,
       title: null,
+      titleId: null,
       prefix: null,
       transform: meaninglessTransform,
       symbol: false,
       mask: null,
+      maskId: null,
       extra: {
         classes: [],
         styles: {},
@@ -1644,10 +1651,12 @@
     return {
       iconName: iconName,
       title: node.getAttribute('title'),
+      titleId: node.getAttribute('data-fa-title-id'),
       prefix: prefix,
       transform: transform,
       symbol: symbol,
       mask: mask,
+      maskId: node.getAttribute('data-fa-mask-id'),
       extra: {
         classes: extraClasses,
         styles: extraStyles,
@@ -1817,10 +1826,12 @@
   function generateSvgReplacementMutation(node, nodeMeta) {
     var iconName = nodeMeta.iconName,
         title = nodeMeta.title,
+        titleId = nodeMeta.titleId,
         prefix = nodeMeta.prefix,
         transform = nodeMeta.transform,
         symbol = nodeMeta.symbol,
         mask = nodeMeta.mask,
+        maskId = nodeMeta.maskId,
         extra = nodeMeta.extra;
     return new picked(function (resolve, reject) {
       picked.all([findIcon(iconName, prefix), findIcon(mask.iconName, mask.prefix)]).then(function (_ref) {
@@ -1838,7 +1849,9 @@
           transform: transform,
           symbol: symbol,
           mask: mask,
+          maskId: maskId,
           title: title,
+          titleId: titleId,
           extra: extra,
           watchable: true
         })]);
@@ -2260,8 +2273,12 @@
         symbol = _params$symbol === void 0 ? false : _params$symbol,
         _params$mask = params.mask,
         mask = _params$mask === void 0 ? null : _params$mask,
+        _params$maskId = params.maskId,
+        maskId = _params$maskId === void 0 ? null : _params$maskId,
         _params$title = params.title,
         title = _params$title === void 0 ? null : _params$title,
+        _params$titleId = params.titleId,
+        titleId = _params$titleId === void 0 ? null : _params$titleId,
         _params$classes = params.classes,
         classes = _params$classes === void 0 ? [] : _params$classes,
         _params$attributes = params.attributes,
@@ -2279,7 +2296,7 @@
 
       if (config.autoA11y) {
         if (title) {
-          attributes['aria-labelledby'] = "".concat(config.replacementClass, "-title-").concat(nextUniqueId());
+          attributes['aria-labelledby'] = "".concat(config.replacementClass, "-title-").concat(titleId || nextUniqueId());
         } else {
           attributes['aria-hidden'] = 'true';
           attributes['focusable'] = 'false';
@@ -2301,6 +2318,8 @@
         transform: _objectSpread({}, meaninglessTransform, transform),
         symbol: symbol,
         title: title,
+        maskId: maskId,
+        titleId: titleId,
         extra: {
           attributes: attributes,
           styles: styles,

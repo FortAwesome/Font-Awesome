@@ -8,6 +8,25 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.13.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.13.0) - 2020-03-23
+
+### Added
+* New icons related to COVID-19
+* Added the ability to specify mask ID and title ID for SVG with JS which allows
+  snapshot testing tools to get a predictable result when executing tests
+
+### Changed
+* Explicitly set font-display to block which supresses warnings of font-display
+  in tools like Lighthouse
+
+### Fixed
+* Corrected version 4 font face shim src attribute declaration that was warning
+  of incorrect font file format
+* Fixed font family name to be 'Font Awesome 5 Free' for free kits when using
+  pseudo-elements
+
+---
+
 ## [5.12.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.12.1) - 2020-02-04
 
 ### Added

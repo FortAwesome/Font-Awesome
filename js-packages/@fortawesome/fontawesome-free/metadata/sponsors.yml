@@ -335,6 +335,8 @@ medapps:
     - clinic-medical
     - comment-medical
     - crutch
+    - disease
+    - hospital-user
     - laptop-medical
     - pager
   label: MedApps
@@ -599,6 +601,7 @@ the-us-sunnah-foundation:
     - globe
     - hand-holding-heart
     - hand-holding-usd
+    - hand-holding-water
     - hands-helping
     - handshake
     - heart

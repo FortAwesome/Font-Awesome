@@ -87,6 +87,7 @@ export interface Transform {
 }
 export interface Params {
   title?: string;
+  titleId?: string;
   classes?: string | string[];
   attributes?: Attributes;
   styles?: Styles;
@@ -103,6 +104,7 @@ export interface IconParams extends Params {
   transform?: Transform;
   symbol?: FaSymbol;
   mask?: IconLookup;
+  maskId?: string;
 }
 export interface DOM {
   i2svg(params?: { node: Node; callback: () => void }): Promise<void>;
