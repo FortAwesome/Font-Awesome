@@ -717,6 +717,7 @@ export type IconName = '500px' |
   'bowling-ball' | 
   'box' | 
   'box-open' | 
+  'box-tissue' | 
   'boxes' | 
   'braille' | 
   'brain' | 
@@ -875,6 +876,7 @@ export type IconName = '500px' |
   'dice-two' | 
   'digital-tachograph' | 
   'directions' | 
+  'disease' | 
   'divide' | 
   'dizzy' | 
   'dna' | 
@@ -926,6 +928,7 @@ export type IconName = '500px' |
   'fan' | 
   'fast-backward' | 
   'fast-forward' | 
+  'faucet' | 
   'fax' | 
   'feather' | 
   'feather-alt' | 
@@ -1031,7 +1034,9 @@ export type IconName = '500px' |
   'hamsa' | 
   'hand-holding' | 
   'hand-holding-heart' | 
+  'hand-holding-medical' | 
   'hand-holding-usd' | 
+  'hand-holding-water' | 
   'hand-lizard' | 
   'hand-middle-finger' | 
   'hand-paper' | 
@@ -1043,10 +1048,14 @@ export type IconName = '500px' |
   'hand-pointer' | 
   'hand-rock' | 
   'hand-scissors' | 
+  'hand-sparkles' | 
   'hand-spock' | 
   'hands' | 
   'hands-helping' | 
+  'hands-wash' | 
   'handshake' | 
+  'handshake-alt-slash' | 
+  'handshake-slash' | 
   'hanukiah' | 
   'hard-hat' | 
   'hashtag' | 
@@ -1054,6 +1063,10 @@ export type IconName = '500px' |
   'hat-cowboy-side' | 
   'hat-wizard' | 
   'hdd' | 
+  'head-side-cough' | 
+  'head-side-cough-slash' | 
+  'head-side-mask' | 
+  'head-side-virus' | 
   'heading' | 
   'headphones' | 
   'headphones-alt' | 
@@ -1074,6 +1087,7 @@ export type IconName = '500px' |
   'hospital' | 
   'hospital-alt' | 
   'hospital-symbol' | 
+  'hospital-user' | 
   'hot-tub' | 
   'hotdog' | 
   'hotel' | 
@@ -1082,6 +1096,7 @@ export type IconName = '500px' |
   'hourglass-half' | 
   'hourglass-start' | 
   'house-damage' | 
+  'house-user' | 
   'hryvnia' | 
   'i-cursor' | 
   'ice-cream' | 
@@ -1115,6 +1130,7 @@ export type IconName = '500px' |
   'language' | 
   'laptop' | 
   'laptop-code' | 
+  'laptop-house' | 
   'laptop-medical' | 
   'laugh' | 
   'laugh-beam' | 
@@ -1144,6 +1160,8 @@ export type IconName = '500px' |
   'long-arrow-alt-up' | 
   'low-vision' | 
   'luggage-cart' | 
+  'lungs' | 
+  'lungs-virus' | 
   'magic' | 
   'magnet' | 
   'mail-bulk' | 
@@ -1234,6 +1252,7 @@ export type IconName = '500px' |
   'pen-square' | 
   'pencil-alt' | 
   'pencil-ruler' | 
+  'people-arrows' | 
   'people-carry' | 
   'pepper-hot' | 
   'percent' | 
@@ -1253,6 +1272,7 @@ export type IconName = '500px' |
   'plane' | 
   'plane-arrival' | 
   'plane-departure' | 
+  'plane-slash' | 
   'play' | 
   'play-circle' | 
   'plug' | 
@@ -1276,6 +1296,8 @@ export type IconName = '500px' |
   'print' | 
   'procedures' | 
   'project-diagram' | 
+  'pump-medical' | 
+  'pump-soap' | 
   'puzzle-piece' | 
   'qrcode' | 
   'question' | 
@@ -1338,6 +1360,7 @@ export type IconName = '500px' |
   'share-square' | 
   'shekel-sign' | 
   'shield-alt' | 
+  'shield-virus' | 
   'ship' | 
   'shipping-fast' | 
   'shoe-prints' | 
@@ -1373,6 +1396,7 @@ export type IconName = '500px' |
   'snowflake' | 
   'snowman' | 
   'snowplow' | 
+  'soap' | 
   'socks' | 
   'solar-panel' | 
   'sort' | 
@@ -1414,8 +1438,11 @@ export type IconName = '500px' |
   'stop' | 
   'stop-circle' | 
   'stopwatch' | 
+  'stopwatch-20' | 
   'store' | 
   'store-alt' | 
+  'store-alt-slash' | 
+  'store-slash' | 
   'stream' | 
   'street-view' | 
   'strikethrough' | 
@@ -1476,6 +1503,7 @@ export type IconName = '500px' |
   'toggle-on' | 
   'toilet' | 
   'toilet-paper' | 
+  'toilet-paper-slash' | 
   'toolbox' | 
   'tools' | 
   'tooth' | 
@@ -1551,6 +1579,9 @@ export type IconName = '500px' |
   'video' | 
   'video-slash' | 
   'vihara' | 
+  'virus' | 
+  'virus-slash' | 
+  'viruses' | 
   'voicemail' | 
   'volleyball-ball' | 
   'volume-down' | 
