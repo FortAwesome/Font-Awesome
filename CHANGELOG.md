@@ -8,6 +8,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.13.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.13.1) - 2020-06-18
+
+### Added
+
+* New brand icons deezer, edge-legacy, google-pay, rust, tiktok, and unsplash
+* Icons sink, users-slash, bacteria, and bacterium added to Font Awesome Free
+
+### Changed
+
+* Updated brand icons bandcamp, google-plus, tripadvisor, and yahoo
+
+### Fixed
+
+* Icon hand-holding-water missing 5.13.0 in its versions
+
+---
+
 ## [5.13.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.13.0) - 2020-03-23
 
 ### Added
