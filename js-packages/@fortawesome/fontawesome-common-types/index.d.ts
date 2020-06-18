@@ -119,6 +119,7 @@ export type IconName = '500px' |
   'd-and-d-beyond' | 
   'dailymotion' | 
   'dashcube' | 
+  'deezer' | 
   'delicious' | 
   'deploydog' | 
   'deskpro' | 
@@ -141,6 +142,7 @@ export type IconName = '500px' |
   'earlybirds' | 
   'ebay' | 
   'edge' | 
+  'edge-legacy' | 
   'elementor' | 
   'ello' | 
   'ember' | 
@@ -201,6 +203,7 @@ export type IconName = '500px' |
   'goodreads-g' | 
   'google' | 
   'google-drive' | 
+  'google-pay' | 
   'google-play' | 
   'google-plus' | 
   'google-plus-g' | 
@@ -343,6 +346,7 @@ export type IconName = '500px' |
   'rev' | 
   'rocketchat' | 
   'rockrms' | 
+  'rust' | 
   'safari' | 
   'salesforce' | 
   'sass' | 
@@ -400,6 +404,7 @@ export type IconName = '500px' |
   'themeco' | 
   'themeisle' | 
   'think-peaks' | 
+  'tiktok' | 
   'trade-federation' | 
   'trello' | 
   'tripadvisor' | 
@@ -415,6 +420,7 @@ export type IconName = '500px' |
   'umbraco' | 
   'uniregistry' | 
   'unity' | 
+  'unsplash' | 
   'untappd' | 
   'ups' | 
   'usb' | 
@@ -669,6 +675,8 @@ export type IconName = '500px' |
   'backspace' | 
   'backward' | 
   'bacon' | 
+  'bacteria' | 
+  'bacterium' | 
   'bahai' | 
   'balance-scale' | 
   'balance-scale-left' | 
@@ -1376,6 +1384,7 @@ export type IconName = '500px' |
   'signal' | 
   'signature' | 
   'sim-card' | 
+  'sink' | 
   'sitemap' | 
   'skating' | 
   'skiing' | 
@@ -1568,6 +1577,7 @@ export type IconName = '500px' |
   'user-times' | 
   'users' | 
   'users-cog' | 
+  'users-slash' | 
   'utensil-spoon' | 
   'utensils' | 
   'vector-square' | 
