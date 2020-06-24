@@ -900,7 +900,7 @@ function asSymbol (_ref) {
   return [{
     tag: 'svg',
     attributes: {
-      style: 'display: none;'
+      class: 'svg-symbol--fa'
     },
     children: [{
       tag: 'symbol',
