@@ -233,7 +233,7 @@ function coerce(val) {
 }
 
 if (DOCUMENT && typeof DOCUMENT.querySelector === 'function') {
-  var attrs = [['data-family-prefix', 'familyPrefix'], ['data-replacement-class', 'replacementClass'], ['data-auto-replace-svg', 'autoReplaceSvg'], ['data-auto-add-css', 'autoAddCss'], ['data-auto-a11y', 'autoA11y'], ['data-search-pseudo-elements', 'searchPseudoElements'], ['data-observe-mutations', 'observeMutations'], ['data-mutate-approach', 'mutateApproach'], ['data-keep-original-source', 'keepOriginalSource'], ['data-measure-performance', 'measurePerformance'], ['data-show-missing-icons', 'showMissingIcons']];
+  var attrs = [['data-family-prefix', 'familyPrefix'], ['data-replacement-class', 'replacementClass'], ['data-auto-replace-svg', 'autoReplaceSvg'], ['data-auto-add-css', 'autoAddCss'], ['data-symbol-inline-css', 'symbolInlineCss'], ['data-auto-a11y', 'autoA11y'], ['data-search-pseudo-elements', 'searchPseudoElements'], ['data-observe-mutations', 'observeMutations'], ['data-mutate-approach', 'mutateApproach'], ['data-keep-original-source', 'keepOriginalSource'], ['data-measure-performance', 'measurePerformance'], ['data-show-missing-icons', 'showMissingIcons']];
   attrs.forEach(function (_ref) {
     var _ref2 = _slicedToArray(_ref, 2),
         attr = _ref2[0],
@@ -252,6 +252,7 @@ var _default = {
   replacementClass: DEFAULT_REPLACEMENT_CLASS,
   autoReplaceSvg: true,
   autoAddCss: true,
+  symbolInlineCss: true,
   autoA11y: true,
   searchPseudoElements: false,
   observeMutations: true,
@@ -897,11 +898,10 @@ function asSymbol (_ref) {
       attributes = _ref.attributes,
       symbol = _ref.symbol;
   var id = symbol === true ? "".concat(prefix, "-").concat(config.familyPrefix, "-").concat(iconName) : symbol;
+  var attrs = config.symbolInlineCss === true ? { style: 'display: none;' } : { class: 'svg-symbol--fa' };
   return [{
     tag: 'svg',
-    attributes: {
-      class: 'svg-symbol--fa'
-    },
+    attributes: attrs,
     children: [{
       tag: 'symbol',
       attributes: _objectSpread({}, attributes, {
