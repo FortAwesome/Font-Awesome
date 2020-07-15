@@ -25,7 +25,6 @@ to change the CSS `content` value to the new unicode value.
 | bacteria               | f959 | e059 |
 | bacterium              | f95a | e05a |
 | box-tissue             | f95b | e05b |
-| caravan                | f8ff | f8ff |
 | caravan-alt            | f900 | e000 |
 | cat-space              | f901 | e001 |
 | coffee-pot             | f902 | e002 |
