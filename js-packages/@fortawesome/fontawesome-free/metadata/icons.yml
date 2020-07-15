@@ -1195,6 +1195,7 @@ bacteria:
   changes:
     - 5.13.0
     - 5.13.1
+    - 5.14.0
   label: Bacteria
   search:
     terms:
@@ -1206,12 +1207,13 @@ bacteria:
       - sick
   styles:
     - solid
-  unicode: f959
+  unicode: e059
   voted: false
 bacterium:
   changes:
     - 5.13.0
     - 5.13.1
+    - 5.14.0
   label: Bacterium
   search:
     terms:
@@ -1223,7 +1225,7 @@ bacterium:
       - sick
   styles:
     - solid
-  unicode: f95a
+  unicode: e05a
   voted: false
 bahai:
   changes:
@@ -2194,6 +2196,7 @@ box-open:
 box-tissue:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Tissue Box
   search:
     terms:
@@ -2206,7 +2209,7 @@ box-tissue:
       - snot
   styles:
     - solid
-  unicode: f95b
+  unicode: e05b
   voted: false
 boxes:
   changes:
@@ -5249,12 +5252,13 @@ d-and-d-beyond:
 dailymotion:
   changes:
     - 5.12.1
+    - 5.14.0
   label: dailymotion
   search:
     terms: []
   styles:
     - brands
-  unicode: f952
+  unicode: e052
   voted: true
 dashcube:
   changes:
@@ -5301,12 +5305,13 @@ deaf:
 deezer:
   changes:
     - 5.13.1
+    - 5.14.0
   label: Deezer
   search:
     terms: []
   styles:
     - brands
-  unicode: f977
+  unicode: e077
   voted: true
 delicious:
   changes:
@@ -6168,12 +6173,13 @@ edge:
 edge-legacy:
   changes:
     - 5.13.1
+    - 5.14.0
   label: Edge Legacy Browser
   search:
     terms: []
   styles:
     - brands
-  unicode: f978
+  unicode: e078
   voted: false
 edit:
   changes:
@@ -6849,6 +6855,7 @@ fast-forward:
 faucet:
   changes:
     - 5.12.0
+    - 5.14.0
   label: Faucet
   search:
     terms:
@@ -6861,7 +6868,7 @@ faucet:
       - water
   styles:
     - solid
-  unicode: f905
+  unicode: e005
   voted: false
 fax:
   changes:
@@ -7534,13 +7541,14 @@ firefox:
 firefox-browser:
   changes:
     - 5.12.0
+    - 5.14.0
   label: Firefox Browser
   search:
     terms:
       - browser
   styles:
     - brands
-  unicode: f907
+  unicode: e007
   voted: false
 first-aid:
   changes:
@@ -8715,12 +8723,13 @@ google-drive:
 google-pay:
   changes:
     - 5.13.1
+    - 5.14.0
   label: Google Pay
   search:
     terms: []
   styles:
     - brands
-  unicode: f979
+  unicode: e079
   voted: false
 google-play:
   changes:
@@ -9342,6 +9351,7 @@ hand-holding-heart:
 hand-holding-medical:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Hand Holding Medical Cross
   search:
     terms:
@@ -9351,7 +9361,7 @@ hand-holding-medical:
       - help
   styles:
     - solid
-  unicode: f95c
+  unicode: e05c
   voted: false
 hand-holding-usd:
   changes:
@@ -9562,6 +9572,7 @@ hand-scissors:
 hand-sparkles:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Hand Sparkles
   search:
     terms:
@@ -9573,7 +9584,7 @@ hand-sparkles:
       - wash
   styles:
     - solid
-  unicode: f95d
+  unicode: e05d
   voted: false
 hand-spock:
   changes:
@@ -9624,6 +9635,7 @@ hands-helping:
 hands-wash:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Hands Wash
   search:
     terms:
@@ -9633,7 +9645,7 @@ hands-wash:
       - wash
   styles:
     - solid
-  unicode: f95e
+  unicode: e05e
   voted: false
 handshake:
   changes:
@@ -9655,6 +9667,7 @@ handshake:
 handshake-alt-slash:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Handshake Alternate Slash
   search:
     terms:
@@ -9663,11 +9676,12 @@ handshake-alt-slash:
       - social distance
   styles:
     - solid
-  unicode: f95f
+  unicode: e05f
   voted: false
 handshake-slash:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Handshake Slash
   search:
     terms:
@@ -9676,7 +9690,7 @@ handshake-slash:
       - social distance
   styles:
     - solid
-  unicode: f960
+  unicode: e060
   voted: false
 hanukiah:
   changes:
@@ -9812,6 +9826,7 @@ hdd:
 head-side-cough:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Head Side Cough
   search:
     terms:
@@ -9823,11 +9838,12 @@ head-side-cough:
       - sick
   styles:
     - solid
-  unicode: f961
+  unicode: e061
   voted: false
 head-side-cough-slash:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Head Side-cough-slash
   search:
     terms:
@@ -9839,11 +9855,12 @@ head-side-cough-slash:
       - sick
   styles:
     - solid
-  unicode: f962
+  unicode: e062
   voted: false
 head-side-mask:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Head Side Mask
   search:
     terms:
@@ -9854,11 +9871,12 @@ head-side-mask:
       - virus
   styles:
     - solid
-  unicode: f963
+  unicode: e063
   voted: false
 head-side-virus:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Head Side Virus
   search:
     terms:
@@ -9868,7 +9886,7 @@ head-side-virus:
       - sick
   styles:
     - solid
-  unicode: f964
+  unicode: e064
   voted: false
 heading:
   changes:
@@ -10408,6 +10426,7 @@ house-damage:
 house-user:
   changes:
     - 5.13.0
+    - 5.14.0
   label: House User
   search:
     terms:
@@ -10417,7 +10436,7 @@ house-user:
       - quarantine
   styles:
     - solid
-  unicode: f965
+  unicode: e065
   voted: false
 houzz:
   changes:
@@ -10593,12 +10612,13 @@ id-card-alt:
 ideal:
   changes:
     - 5.12.0
+    - 5.14.0
   label: iDeal
   search:
     terms: []
   styles:
     - brands
-  unicode: f913
+  unicode: e013
   voted: true
 igloo:
   changes:
@@ -10774,12 +10794,13 @@ instagram:
 instagram-square:
   changes:
     - 5.12.1
+    - 5.14.0
   label: Instagram Square
   search:
     terms: []
   styles:
     - brands
-  unicode: f955
+  unicode: e055
   voted: true
 intercom:
   changes:
@@ -11302,6 +11323,7 @@ laptop-code:
 laptop-house:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Laptop House
   search:
     terms:
@@ -11313,7 +11335,7 @@ laptop-house:
       - work from home
   styles:
     - solid
-  unicode: f966
+  unicode: e066
   voted: false
 laptop-medical:
   changes:
@@ -11909,6 +11931,7 @@ lungs:
 lungs-virus:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Lungs Virus
   search:
     terms:
@@ -11918,7 +11941,7 @@ lungs-virus:
       - sick
   styles:
     - solid
-  unicode: f967
+  unicode: e067
   voted: false
 lyft:
   changes:
@@ -12557,12 +12580,13 @@ meteor:
 microblog:
   changes:
     - 5.12.0
+    - 5.14.0
   label: Micro.blog
   search:
     terms: []
   styles:
     - brands
-  unicode: f91a
+  unicode: e01a
   voted: true
 microchip:
   changes:
@@ -12775,12 +12799,13 @@ mixcloud:
 mixer:
   changes:
     - 5.12.1
+    - 5.14.0
   label: Mixer
   search:
     terms: []
   styles:
     - brands
-  unicode: f956
+  unicode: e056
   voted: true
 mizuni:
   changes:
@@ -13930,6 +13955,7 @@ penny-arcade:
 people-arrows:
   changes:
     - 5.13.0
+    - 5.14.0
   label: People Arrows
   search:
     terms:
@@ -13941,7 +13967,7 @@ people-arrows:
       - users
   styles:
     - solid
-  unicode: f968
+  unicode: e068
   voted: false
 people-carry:
   changes:
@@ -14255,12 +14281,13 @@ pied-piper-pp:
 pied-piper-square:
   changes:
     - 5.12.0
+    - 5.14.0
   label: Pied Piper Square Logo (Old)
   search:
     terms: []
   styles:
     - brands
-  unicode: f91e
+  unicode: e01e
   voted: false
 piggy-bank:
   changes:
@@ -14421,6 +14448,7 @@ plane-departure:
 plane-slash:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Plane Slash
   search:
     terms:
@@ -14432,7 +14460,7 @@ plane-slash:
       - travel
   styles:
     - solid
-  unicode: f969
+  unicode: e069
   voted: false
 play:
   changes:
@@ -14829,6 +14857,7 @@ project-diagram:
 pump-medical:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Pump Medical
   search:
     terms:
@@ -14842,11 +14871,12 @@ pump-medical:
       - soap
   styles:
     - solid
-  unicode: f96a
+  unicode: e06a
   voted: false
 pump-soap:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Pump Soap
   search:
     terms:
@@ -14859,7 +14889,7 @@ pump-soap:
       - soap
   styles:
     - solid
-  unicode: f96b
+  unicode: e06b
   voted: false
 pushed:
   changes:
@@ -15756,12 +15786,13 @@ rupee-sign:
 rust:
   changes:
     - 5.13.1
+    - 5.14.0
   label: Rust
   search:
     terms: []
   styles:
     - brands
-  unicode: f97a
+  unicode: e07a
   voted: true
 sad-cry:
   changes:
@@ -16231,6 +16262,7 @@ shield-alt:
 shield-virus:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Shield Virus
   search:
     terms:
@@ -16241,7 +16273,7 @@ shield-virus:
       - protect
   styles:
     - solid
-  unicode: f96c
+  unicode: e06c
   voted: false
 ship:
   changes:
@@ -16305,12 +16337,13 @@ shoe-prints:
 shopify:
   changes:
     - 5.12.1
+    - 5.14.0
   label: Shopify
   search:
     terms: []
   styles:
     - brands
-  unicode: f957
+  unicode: e057
   voted: false
 shopping-bag:
   changes:
@@ -16535,6 +16568,7 @@ sink:
   changes:
     - 5.13.0
     - 5.13.1
+    - 5.14.0
   label: Sink
   search:
     terms:
@@ -16545,7 +16579,7 @@ sink:
       - wash
   styles:
     - solid
-  unicode: f96d
+  unicode: e06d
   voted: false
 sistrix:
   changes:
@@ -17013,6 +17047,7 @@ snowplow:
 soap:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Soap
   search:
     terms:
@@ -17023,7 +17058,7 @@ soap:
       - wash
   styles:
     - solid
-  unicode: f96e
+  unicode: e06e
   voted: false
 socks:
   changes:
@@ -17837,6 +17872,7 @@ stopwatch:
 stopwatch-20:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Stopwatch 20
   search:
     terms:
@@ -17851,7 +17887,7 @@ stopwatch-20:
       - timer
   styles:
     - solid
-  unicode: f96f
+  unicode: e06f
   voted: false
 store:
   changes:
@@ -17886,6 +17922,7 @@ store-alt:
 store-alt-slash:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Alternate Store Slash
   search:
     terms:
@@ -17897,11 +17934,12 @@ store-alt-slash:
       - shopping
   styles:
     - solid
-  unicode: f970
+  unicode: e070
   voted: false
 store-slash:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Store Slash
   search:
     terms:
@@ -17913,7 +17951,7 @@ store-slash:
       - shopping
   styles:
     - solid
-  unicode: f971
+  unicode: e071
   voted: false
 strava:
   changes:
@@ -18957,12 +18995,13 @@ ticket-alt:
 tiktok:
   changes:
     - 5.13.1
+    - 5.14.0
   label: TikTok
   search:
     terms: []
   styles:
     - brands
-  unicode: f97b
+  unicode: e07b
   voted: true
 times:
   changes:
@@ -19131,6 +19170,7 @@ toilet-paper:
 toilet-paper-slash:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Toilet Paper Slash
   search:
     terms:
@@ -19147,7 +19187,7 @@ toilet-paper-slash:
       - ut oh
   styles:
     - solid
-  unicode: f972
+  unicode: e072
   voted: false
 toolbox:
   changes:
@@ -19283,6 +19323,7 @@ traffic-light:
 trailer:
   changes:
     - 5.12.0
+    - 5.14.0
   label: Trailer
   search:
     terms:
@@ -19292,7 +19333,7 @@ trailer:
       - travel
   styles:
     - solid
-  unicode: f941
+  unicode: e041
   voted: true
 train:
   changes:
@@ -19450,6 +19491,7 @@ tripadvisor:
     - '4.4'
     - 5.0.0
     - 5.13.1
+    - 5.14.0
   label: TripAdvisor
   search:
     terms: []
@@ -19802,12 +19844,13 @@ uniregistry:
 unity:
   changes:
     - 5.12.0
+    - 5.14.0
   label: Unity 3D
   search:
     terms: []
   styles:
     - brands
-  unicode: f949
+  unicode: e049
   voted: true
 universal-access:
   changes:
@@ -19895,12 +19938,13 @@ unlock-alt:
 unsplash:
   changes:
     - 5.13.1
+    - 5.14.0
   label: Unsplash
   search:
     terms: []
   styles:
     - brands
-  unicode: f97c
+  unicode: e07c
   voted: false
 untappd:
   changes:
@@ -20389,6 +20433,7 @@ users-cog:
 users-slash:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Users Slash
   search:
     terms:
@@ -20403,7 +20448,7 @@ users-slash:
       - ungroup
   styles:
     - solid
-  unicode: f973
+  unicode: e073
   voted: false
 usps:
   changes:
@@ -20698,6 +20743,7 @@ vine:
 virus:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Virus
   search:
     terms:
@@ -20709,11 +20755,12 @@ virus:
       - viral
   styles:
     - solid
-  unicode: f974
+  unicode: e074
   voted: false
 virus-slash:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Virus Slash
   search:
     terms:
@@ -20727,11 +20774,12 @@ virus-slash:
       - viral
   styles:
     - solid
-  unicode: f975
+  unicode: e075
   voted: false
 viruses:
   changes:
     - 5.13.0
+    - 5.14.0
   label: Viruses
   search:
     terms:
@@ -20745,7 +20793,7 @@ viruses:
       - viral
   styles:
     - solid
-  unicode: f976
+  unicode: e076
   voted: false
 vk:
   changes:
