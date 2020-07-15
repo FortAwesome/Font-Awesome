@@ -47,9 +47,9 @@
     "node": ">=6"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-common-types": "^0.2.29"
+    "@fortawesome/fontawesome-common-types": "^0.2.30"
   },
-  "version": "5.13.1",
+  "version": "5.14.0",
   "name": "@fortawesome/free-solid-svg-icons",
   "main": "index.js",
   "module": "index.es.js",

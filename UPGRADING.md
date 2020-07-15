@@ -8,6 +8,149 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.12.x/5.13.x to 5.14.0
+
+In version 5.12.0 and 5.13.0 some of the icons were assigned unicode values
+that were outside the Private Unicode Area (PUA). This caused problems with
+some desktop software and caused the icons to show up as Chinese, Japanese, or
+Korean (CJK) ideographs.
+
+The unicode values have been re-assigned to values within the PUA range.
+
+If you were using any of the following icons with pseudo-elements you will need
+to change the CSS `content` value to the new unicode value.
+
+| Icon name              | Old  | New  |
+| ---------------------- | ---- | ---- |
+| bacteria               | f959 | e059 |
+| bacterium              | f95a | e05a |
+| box-tissue             | f95b | e05b |
+| caravan                | f8ff | f8ff |
+| caravan-alt            | f900 | e000 |
+| cat-space              | f901 | e001 |
+| coffee-pot             | f902 | e002 |
+| coffin-cross           | f951 | e051 |
+| comet                  | f903 | e003 |
+| dailymotion            | f952 | e052 |
+| deezer                 | f977 | e077 |
+| edge-legacy            | f978 | e078 |
+| fan-table              | f904 | e004 |
+| faucet                 | f905 | e005 |
+| faucet-drip            | f906 | e006 |
+| firefox-browser        | f907 | e007 |
+| folder-download        | f953 | e053 |
+| folder-upload          | f954 | e054 |
+| galaxy                 | f908 | e008 |
+| garage                 | f909 | e009 |
+| garage-car             | f90a | e00a |
+| garage-open            | f90b | e00b |
+| google-pay             | f979 | e079 |
+| hand-holding-medical   | f95c | e05c |
+| hand-sparkles          | f95d | e05d |
+| hands-wash             | f95e | e05e |
+| handshake-alt-slash    | f95f | e05f |
+| handshake-slash        | f960 | e060 |
+| head-side-cough        | f961 | e061 |
+| head-side-cough-slash  | f962 | e062 |
+| head-side-mask         | f963 | e063 |
+| head-side-virus        | f964 | e064 |
+| heat                   | f90c | e00c |
+| house                  | f90d | e00d |
+| house-day              | f90e | e00e |
+| house-leave            | f90f | e00f |
+| house-night            | f910 | e010 |
+| house-return           | f911 | e011 |
+| house-signal           | f912 | e012 |
+| house-user             | f965 | e065 |
+| ideal                  | f913 | e013 |
+| instagram-square       | f955 | e055 |
+| lamp-desk              | f914 | e014 |
+| lamp-floor             | f915 | e015 |
+| laptop-house           | f966 | e066 |
+| light-ceiling          | f916 | e016 |
+| light-switch           | f917 | e017 |
+| light-switch-off       | f918 | e018 |
+| light-switch-on        | f919 | e019 |
+| lungs-virus            | f967 | e067 |
+| microblog              | f91a | e01a |
+| microwave              | f91b | e01b |
+| mixer                  | f956 | e056 |
+| outlet                 | f91c | e01c |
+| oven                   | f91d | e01d |
+| people-arrows          | f968 | e068 |
+| pied-piper-square      | f91e | e01e |
+| plane-slash            | f969 | e069 |
+| planet-moon            | f91f | e01f |
+| planet-ringed          | f920 | e020 |
+| police-box             | f921 | e021 |
+| portal-enter           | f922 | e022 |
+| portal-exit            | f923 | e023 |
+| pump-medical           | f96a | e06a |
+| pump-soap              | f96b | e06b |
+| radar                  | f924 | e024 |
+| raygun                 | f925 | e025 |
+| refrigerator           | f926 | e026 |
+| rocket-launch          | f927 | e027 |
+| rust                   | f97a | e07a |
+| sensor                 | f928 | e028 |
+| sensor-alert           | f929 | e029 |
+| sensor-fire            | f92a | e02a |
+| sensor-on              | f92b | e02b |
+| sensor-smoke           | f92c | e02c |
+| shield-virus           | f96c | e06c |
+| shopify                | f957 | e057 |
+| sink                   | f96d | e06d |
+| siren                  | f92d | e02d |
+| siren-on               | f92e | e02e |
+| soap                   | f96e | e06e |
+| solar-system           | f92f | e02f |
+| sort-circle            | f930 | e030 |
+| sort-circle-down       | f931 | e031 |
+| sort-circle-up         | f932 | e032 |
+| space-station-moon     | f933 | e033 |
+| space-station-moon-alt | f934 | e034 |
+| sprinkler              | f935 | e035 |
+| star-shooting          | f936 | e036 |
+| starfighter            | f937 | e037 |
+| starfighter-alt        | f938 | e038 |
+| starship               | f939 | e039 |
+| starship-freighter     | f93a | e03a |
+| stopwatch-20           | f96f | e06f |
+| store-alt-slash        | f970 | e070 |
+| store-slash            | f971 | e071 |
+| sword-laser            | f93b | e03b |
+| sword-laser-alt        | f93c | e03c |
+| swords-laser           | f93d | e03d |
+| telescope              | f93e | e03e |
+| temperature-down       | f93f | e03f |
+| temperature-up         | f940 | e040 |
+| tiktok                 | f97b | e07b |
+| toilet-paper-slash     | f972 | e072 |
+| trailer                | f941 | e041 |
+| transporter            | f942 | e042 |
+| transporter-1          | f943 | e043 |
+| transporter-2          | f944 | e044 |
+| transporter-3          | f945 | e045 |
+| transporter-empty      | f946 | e046 |
+| ufo                    | f947 | e047 |
+| ufo-beam               | f948 | e048 |
+| unity                  | f949 | e049 |
+| unsplash               | f97c | e07c |
+| user-alien             | f94a | e04a |
+| user-robot             | f94b | e04b |
+| user-unlock            | f958 | e058 |
+| user-visor             | f94c | e04c |
+| users-slash            | f973 | e073 |
+| vacuum                 | f94d | e04d |
+| vacuum-robot           | f94e | e04e |
+| virus                  | f974 | e074 |
+| virus-slash            | f975 | e075 |
+| viruses                | f976 | e076 |
+| window-frame           | f94f | e04f |
+| window-frame-open      | f950 | e050 |
+
+---
+
 ## 5.13.0 to 5.13.1
 
 There are no breaking changes in this version upgrade.
