@@ -11,7 +11,7 @@ not have access**
 ## [5.14.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.14.0) - 2020-07-15
 
 **Minor version upgrade notice: there are some backward-incompatible changes to this release. See the
-[UPGRADING.md guide](https://github.com/FortAwesome/Font-Awesome-Pro/blob/master/UPGRADING.md) for more
+[UPGRADING.md guide](https://github.com/FortAwesome/Font-Awesome/blob/master/UPGRADING.md) for more
 information.**
 
 ### Fixed
