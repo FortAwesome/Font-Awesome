@@ -47,14 +47,17 @@
     "node": ">=6"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-common-types": "^0.2.30"
+    "@fortawesome/fontawesome-common-types": "^0.2.31"
   },
-  "version": "1.2.30",
+  "version": "1.2.31",
   "name": "@fortawesome/fontawesome-svg-core",
   "main": "index.js",
   "module": "index.es.js",
   "jsnext:main": "index.es.js",
   "style": "styles.css",
   "license": "MIT",
-  "types": "./index.d.ts"
+  "types": "./index.d.ts",
+  "scripts": {
+    "postinstall": "node attribution.js"
+  }
 }

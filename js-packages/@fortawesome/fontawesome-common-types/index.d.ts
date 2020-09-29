@@ -26,7 +26,6 @@ export type IconName = '500px' |
   'accusoft' | 
   'acquisitions-incorporated' | 
   'adn' | 
-  'adobe' | 
   'adversal' | 
   'affiliatetheme' | 
   'airbnb' | 
@@ -87,6 +86,7 @@ export type IconName = '500px' |
   'centos' | 
   'chrome' | 
   'chromecast' | 
+  'cloudflare' | 
   'cloudscale' | 
   'cloudsmith' | 
   'cloudversify' | 
@@ -213,12 +213,14 @@ export type IconName = '500px' |
   'grav' | 
   'gripfire' | 
   'grunt' | 
+  'guilded' | 
   'gulp' | 
   'hacker-news' | 
   'hacker-news-square' | 
   'hackerrank' | 
   'hips' | 
   'hire-a-helper' | 
+  'hive' | 
   'hooli' | 
   'hornbill' | 
   'hotjar' | 
@@ -227,8 +229,10 @@ export type IconName = '500px' |
   'hubspot' | 
   'ideal' | 
   'imdb' | 
+  'innosoft' | 
   'instagram' | 
   'instagram-square' | 
+  'instalod' | 
   'intercom' | 
   'internet-explorer' | 
   'invision' | 
@@ -292,6 +296,7 @@ export type IconName = '500px' |
   'npm' | 
   'ns8' | 
   'nutritionix' | 
+  'octopus-deploy' | 
   'odnoklassniki' | 
   'odnoklassniki-square' | 
   'old-republic' | 
@@ -307,6 +312,7 @@ export type IconName = '500px' |
   'patreon' | 
   'paypal' | 
   'penny-arcade' | 
+  'perbyte' | 
   'periscope' | 
   'phabricator' | 
   'phoenix-framework' | 
@@ -418,6 +424,7 @@ export type IconName = '500px' |
   'ubuntu' | 
   'uikit' | 
   'umbraco' | 
+  'uncharted' | 
   'uniregistry' | 
   'unity' | 
   'unsplash' | 
@@ -438,6 +445,7 @@ export type IconName = '500px' |
   'vk' | 
   'vnv' | 
   'vuejs' | 
+  'watchman-monitoring' | 
   'waze' | 
   'weebly' | 
   'weibo' | 
@@ -449,6 +457,7 @@ export type IconName = '500px' |
   'windows' | 
   'wix' | 
   'wizards-of-the-coast' | 
+  'wodu' | 
   'wolf-pack-battalion' | 
   'wordpress' | 
   'wordpress-simple' | 
@@ -1584,6 +1593,8 @@ export type IconName = '500px' |
   'venus' | 
   'venus-double' | 
   'venus-mars' | 
+  'vest' | 
+  'vest-patches' | 
   'vial' | 
   'vials' | 
   'video' | 

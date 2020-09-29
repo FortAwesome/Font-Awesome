@@ -549,6 +549,7 @@ communication:
   label: Communication
 computers:
   icons:
+    - compact-disc
     - database
     - desktop
     - download
@@ -1496,6 +1497,8 @@ maps:
     - university
     - utensil-spoon
     - utensils
+    - vest
+    - vest-patches
     - wheelchair
     - wifi
     - wine-glass
@@ -1646,6 +1649,7 @@ moving:
   label: Moving
 music:
   icons:
+    - compact-disc
     - drum
     - drum-steelpan
     - file-audio
