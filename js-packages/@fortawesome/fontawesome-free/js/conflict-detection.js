@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.15.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 (function (global, factory) {
@@ -799,7 +799,7 @@
       var diagScriptFun = function diagScriptFun(nodeUnderTestId, md5, parentOrigin) {
         parent.FontAwesomeDetection.__pollUntil({
           fn: function fn() {
-            return !!window.FontAwesomeConfig;
+            return !!window.FontAwesomeConfig || !!window.FontAwesomeKitConfig;
           }
         }).then(function () {
           var scriptNode = document.getElementById(nodeUnderTestId);

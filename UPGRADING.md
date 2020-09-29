@@ -8,6 +8,15 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.14.0 to 5.15.0
+
+The adobe icon has been removed by legal request of Adobe.
+
+Font Awesome is no longer able to provide any logos or marks for the Adobe
+brand or their products.
+
+---
+
 ## 5.12.x/5.13.x to 5.14.0
 
 In version 5.12.0 and 5.13.0 some of the icons were assigned unicode values

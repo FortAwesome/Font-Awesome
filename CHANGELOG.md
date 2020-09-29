@@ -8,6 +8,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+---
+
+## [5.15.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.0) - 2020-09-28
+
+### Added
+
+* Added guilded, hive, innosoft, instalod, ns8, octopus-deploy, perbyte,
+  uncharted, watchman-monitoring, wodu sponsored brand icons
+* Added commissioned vest and vest-patch icon
+* Added cloudflare brand icon
+
+### Changed
+
+* Removed the adobe icon at the request of Adobe
+* Update rocketchat brand icon
+
+### Fixed
+
+* Conflict detection now includes Kits when checking for conflicts
+
+---
+
 ## [5.14.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.14.0) - 2020-07-15
 
 **Minor version upgrade notice: there are some backward-incompatible changes to this release. See the

@@ -108,6 +108,11 @@ clear-blue-technologies:
     - solar-panel
   label: Clear Blue Technologies
   url: 'http://www.clearbluetechnologies.com'
+cloudflare:
+  icons:
+    - cloudflare
+  label: Cloudflare
+  url: 'https://www.cloudflare.com'
 cloudscale-ch:
   icons:
     - cloudscale
@@ -210,6 +215,11 @@ gofore:
     - gripfire
   label: 'Gripfire, Inc.'
   url: 'http://gripfire.io'
+guilded:
+  icons:
+    - guilded
+  label: Guilded
+  url: 'https://www.guilded.gg'
 harvard-medical-school:
   icons:
     - allergies
@@ -268,6 +278,11 @@ hire-a-helper:
     - wine-glass
   label: HireAHelper
   url: 'https://www.hireahelper.com'
+hive:
+  icons:
+    - hive
+  label: Hive Blockchain Network
+  url: 'https://hive.io'
 hornbill:
   icons:
     - hornbill
@@ -288,11 +303,21 @@ in-site-systems:
     - toolbox
   label: InSite Systems
   url: 'https://www.insitesystems.com'
+innosoft:
+  icons:
+    - innosoft
+  label: Innosoft
+  url: 'https://innosoft.com.sa'
 inspira-bvba:
   icons:
     - chess-knight
   label: Inspira bvba
   url: 'https://www.inspira.be'
+instalod:
+  icons:
+    - instalod
+  label: InstaLOD
+  url: 'https://instalod.com'
 joe-emison:
   icons:
     - blender-phone
@@ -392,6 +417,11 @@ nutritionix:
     - nutritionix
   label: Nutritionix
   url: 'http://www.nutritionix.com'
+octopus-deploy:
+  icons:
+    - octopus-deploy
+  label: Octopus Deploy
+  url: 'https://octopus.com'
 page4-corporation:
   icons:
     - page4
@@ -402,11 +432,22 @@ pal-fed:
     - palfed
   label: PalFed
   url: 'https://www.palfed.com'
+patch-patrol:
+  icons:
+    - vest
+    - vest-patches
+  label: Patch Patrol
+  url: 'https://patchpatrol.com'
 pcsg:
   icons:
     - horse-head
   label: PCSG
   url: 'https://www.pcsg.de'
+perbyte:
+  icons:
+    - perbyte
+  label: PerByte
+  url: 'https://www.perbyte.com'
 phabricator:
   icons:
     - phabricator
@@ -627,6 +668,11 @@ typo3:
     - typo3
   label: Typo3
   url: 'https://typo3.org'
+uncharted:
+  icons:
+    - uncharted
+  label: Uncharted Software
+  url: 'https://uncharted.software'
 uniregistry:
   icons:
     - uniregistry
@@ -661,6 +707,11 @@ vnv:
     - vnv
   label: VNV
   url: 'https://www.vnv.ch'
+watchman-monitoring:
+  icons:
+    - watchman-monitoring
+  label: Watchman Monitoring
+  url: 'https://www.watchmanmonitoring.com'
 weedable:
   icons:
     - bong
@@ -676,6 +727,11 @@ whmcs:
     - whmcs
   label: WHMCS
   url: 'https://www.whmcs.com'
+wodu:
+  icons:
+    - wodu
+  label: Wodu Media
+  url: 'https://www.wodu.com'
 workrails:
   icons:
     - briefcase

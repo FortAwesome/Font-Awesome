@@ -960,6 +960,8 @@ export const faVectorSquare: IconDefinition;
 export const faVenus: IconDefinition;
 export const faVenusDouble: IconDefinition;
 export const faVenusMars: IconDefinition;
+export const faVest: IconDefinition;
+export const faVestPatches: IconDefinition;
 export const faVial: IconDefinition;
 export const faVials: IconDefinition;
 export const faVideo: IconDefinition;

@@ -133,23 +133,6 @@ adn:
     - brands
   unicode: f170
   voted: false
-adobe:
-  changes:
-    - 5.6.0
-    - 5.8.0
-  label: Adobe
-  search:
-    terms:
-      - acrobat
-      - app
-      - design
-      - illustrator
-      - indesign
-      - photoshop
-  styles:
-    - brands
-  unicode: f778
-  voted: false
 adversal:
   changes:
     - 5.0.0
@@ -4209,6 +4192,16 @@ cloud-upload-alt:
   styles:
     - solid
   unicode: f382
+  voted: false
+cloudflare:
+  changes:
+    - 5.15.0
+  label: Cloudflare
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e07d
   voted: false
 cloudscale:
   changes:
@@ -9193,6 +9186,16 @@ grunt:
     - brands
   unicode: f3ad
   voted: false
+guilded:
+  changes:
+    - 5.15.0
+  label: Guilded
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e07e
+  voted: false
 guitar:
   changes:
     - 5.6.0
@@ -10116,6 +10119,16 @@ history:
     - solid
   unicode: f1da
   voted: false
+hive:
+  changes:
+    - 5.15.0
+  label: Hive Blockchain Network
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e07f
+  voted: false
 hockey-puck:
   changes:
     - 5.0.5
@@ -10780,6 +10793,16 @@ info-circle:
     - solid
   unicode: f05a
   voted: false
+innosoft:
+  changes:
+    - 5.15.0
+  label: Innosoft
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e080
+  voted: false
 instagram:
   changes:
     - '4.6'
@@ -10802,6 +10825,16 @@ instagram-square:
     - brands
   unicode: e055
   voted: true
+instalod:
+  changes:
+    - 5.15.0
+  label: InstaLOD
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e081
+  voted: false
 intercom:
   changes:
     - 5.6.0
@@ -13289,6 +13322,7 @@ npm:
 ns8:
   changes:
     - 5.0.0
+    - 5.15.0
   label: NS8
   search:
     terms: []
@@ -13341,6 +13375,16 @@ object-ungroup:
     - solid
     - regular
   unicode: f248
+  voted: false
+octopus-deploy:
+  changes:
+    - 5.15.0
+  label: Octopus Deploy
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e082
   voted: false
 odnoklassniki:
   changes:
@@ -14005,6 +14049,16 @@ pepper-hot:
     - solid
   unicode: f816
   voted: true
+perbyte:
+  changes:
+    - 5.15.0
+  label: PerByte
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e083
+  voted: false
 percent:
   changes:
     - '4.5'
@@ -15613,6 +15667,7 @@ rocketchat:
     - 5.0.0
     - 5.4.2
     - 5.8.0
+    - 5.15.0
   label: Rocket.Chat
   search:
     terms: []
@@ -19780,6 +19835,16 @@ umbrella-beach:
     - solid
   unicode: f5ca
   voted: false
+uncharted:
+  changes:
+    - 5.15.0
+  label: Uncharted Software
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e084
+  voted: false
 underline:
   changes:
     - '2'
@@ -20571,6 +20636,32 @@ venus-mars:
     - solid
   unicode: f228
   voted: false
+vest:
+  changes:
+    - 5.15.0
+  label: vest
+  search:
+    terms:
+      - biker
+      - fashion
+      - style
+  styles:
+    - solid
+  unicode: e085
+  voted: false
+vest-patches:
+  changes:
+    - 5.15.0
+  label: vest-patches
+  search:
+    terms:
+      - biker
+      - fashion
+      - style
+  styles:
+    - solid
+  unicode: e086
+  voted: false
 viacoin:
   changes:
     - '4.3'
@@ -21000,6 +21091,16 @@ warehouse:
     - solid
   unicode: f494
   voted: false
+watchman-monitoring:
+  changes:
+    - 5.15.0
+  label: Watchman Monitoring
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e087
+  voted: false
 water:
   changes:
     - 5.5.0
@@ -21354,6 +21455,16 @@ wizards-of-the-coast:
   styles:
     - brands
   unicode: f730
+  voted: false
+wodu:
+  changes:
+    - 5.15.0
+  label: Wodu
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e088
   voted: false
 wolf-pack-battalion:
   changes:
