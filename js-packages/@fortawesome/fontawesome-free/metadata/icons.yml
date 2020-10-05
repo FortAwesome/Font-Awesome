@@ -15226,6 +15226,7 @@ ravelry:
   changes:
     - '4.7'
     - 5.0.0
+    - 5.15.0
   label: Ravelry
   search:
     terms: []
@@ -20639,6 +20640,7 @@ venus-mars:
 vest:
   changes:
     - 5.15.0
+    - 5.15.0
   label: vest
   search:
     terms:
@@ -20651,6 +20653,7 @@ vest:
   voted: false
 vest-patches:
   changes:
+    - 5.15.0
     - 5.15.0
   label: vest-patches
   search:
