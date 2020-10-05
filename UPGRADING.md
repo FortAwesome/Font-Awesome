@@ -8,6 +8,12 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.15.0 to 5.15.1
+
+There are no breaking changes in this version upgrade.
+
+---
+
 ## 5.14.0 to 5.15.0
 
 The adobe icon has been removed by legal request of Adobe.

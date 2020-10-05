@@ -10,6 +10,20 @@ not have access**
 
 ---
 
+## [5.15.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.1) - 2020-10-05
+
+### Changed
+
+* Update to the ravelry brand icon
+
+### Fixed
+
+* Removed fill attribute from the vest and vest-patches icon
+* Moved attribution comment to correct location for sprites
+* Fixed duotone icons not rendering in Kits
+
+---
+
 ## [5.15.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.0) - 2020-09-28
 
 **Minor version upgrade notice: there are some backward-incompatible changes to this release. See the
