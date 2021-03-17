@@ -1434,6 +1434,9 @@ function observe(options) {
       observeMutationsRoot = _options$observeMutat === void 0 ? DOCUMENT : _options$observeMutat;
   mo = new MUTATION_OBSERVER(function (objects) {
     if (disabled) return;
+    if (!config.observeMutations) {
+      return;
+    }
     toArray(objects).forEach(function (mutationRecord) {
       if (mutationRecord.type === 'childList' && mutationRecord.addedNodes.length > 0 && !isWatched(mutationRecord.addedNodes[0])) {
         if (config.searchPseudoElements) {
