@@ -1,0 +1,1378 @@
+/**
+ * @project	Font Awesome
+ * @package	Regular Free
+ * @version	5.9.0
+ * @author	Fort Awesome (@fontawesome)
+ * @url	https://fontawesome.com
+ * @license	MIT (CSS code, graphics: CC-BY 4.0)
+ * @see	https://fontawesome.com/license/free
+ * @namespace	far
+ */
+
+.i.far-address-book { background-image: url("/sprites/regular.svg#address-book"); }
+dt.far-address-book, 
+dd.far-address-book, 
+li.far-address-book { list-style-image: url("/sprites/regular.svg#address-book"); }
+i:not(.a).far-address-book::before, 
+.a.far-address-book::after, 
+.b.far-address-book::before { content: url("/sprites/regular.svg#address-book"); }
+summary.far-address-book::marker { content: url("/sprites/regular.svg#address-book"); }
+
+.i.far-address-card { background-image: url("/sprites/regular.svg#address-card"); }
+dt.far-address-card, 
+dd.far-address-card, 
+li.far-address-card { list-style-image: url("/sprites/regular.svg#address-card"); }
+i:not(.a).far-address-card::before, 
+.a.far-address-card::after, 
+.b.far-address-card::before { content: url("/sprites/regular.svg#address-card"); }
+summary.far-address-card::marker { content: url("/sprites/regular.svg#address-card"); }
+
+.i.far-angry { background-image: url("/sprites/regular.svg#angry"); }
+dt.far-angry, 
+dd.far-angry, 
+li.far-angry { list-style-image: url("/sprites/regular.svg#angry"); }
+i:not(.a).far-angry::before, 
+.a.far-angry::after, 
+.b.far-angry::before { content: url("/sprites/regular.svg#angry"); }
+summary.far-angry::marker { content: url("/sprites/regular.svg#angry"); }
+
+.i.far-arrow-alt-circle-down { background-image: url("/sprites/regular.svg#arrow-alt-circle-down"); }
+dt.far-arrow-alt-circle-down, 
+dd.far-arrow-alt-circle-down, 
+li.far-arrow-alt-circle-down { list-style-image: url("/sprites/regular.svg#arrow-alt-circle-down"); }
+i:not(.a).far-arrow-alt-circle-down::before, 
+.a.far-arrow-alt-circle-down::after, 
+.b.far-arrow-alt-circle-down::before { content: url("/sprites/regular.svg#arrow-alt-circle-down"); }
+summary.far-arrow-alt-circle-down::marker { content: url("/sprites/regular.svg#arrow-alt-circle-down"); }
+
+.i.far-arrow-alt-circle-left { background-image: url("/sprites/regular.svg#arrow-alt-circle-left"); }
+dt.far-arrow-alt-circle-left, 
+dd.far-arrow-alt-circle-left, 
+li.far-arrow-alt-circle-left { list-style-image: url("/sprites/regular.svg#arrow-alt-circle-left"); }
+i:not(.a).far-arrow-alt-circle-left::before, 
+.a.far-arrow-alt-circle-left::after, 
+.b.far-arrow-alt-circle-left::before { content: url("/sprites/regular.svg#arrow-alt-circle-left"); }
+summary.far-arrow-alt-circle-left::marker { content: url("/sprites/regular.svg#arrow-alt-circle-left"); }
+
+.i.far-arrow-alt-circle-right { background-image: url("/sprites/regular.svg#arrow-alt-circle-right"); }
+dt.far-arrow-alt-circle-right, 
+dd.far-arrow-alt-circle-right, 
+li.far-arrow-alt-circle-right { list-style-image: url("/sprites/regular.svg#arrow-alt-circle-right"); }
+i:not(.a).far-arrow-alt-circle-right::before, 
+.a.far-arrow-alt-circle-right::after, 
+.b.far-arrow-alt-circle-right::before { content: url("/sprites/regular.svg#arrow-alt-circle-right"); }
+summary.far-arrow-alt-circle-right::marker { content: url("/sprites/regular.svg#arrow-alt-circle-right"); }
+
+.i.far-arrow-alt-circle-up { background-image: url("/sprites/regular.svg#arrow-alt-circle-up"); }
+dt.far-arrow-alt-circle-up, 
+dd.far-arrow-alt-circle-up, 
+li.far-arrow-alt-circle-up { list-style-image: url("/sprites/regular.svg#arrow-alt-circle-up"); }
+i:not(.a).far-arrow-alt-circle-up::before, 
+.a.far-arrow-alt-circle-up::after, 
+.b.far-arrow-alt-circle-up::before { content: url("/sprites/regular.svg#arrow-alt-circle-up"); }
+summary.far-arrow-alt-circle-up::marker { content: url("/sprites/regular.svg#arrow-alt-circle-up"); }
+
+.i.far-bell { background-image: url("/sprites/regular.svg#bell"); }
+dt.far-bell, 
+dd.far-bell, 
+li.far-bell { list-style-image: url("/sprites/regular.svg#bell"); }
+i:not(.a).far-bell::before, 
+.a.far-bell::after, 
+.b.far-bell::before { content: url("/sprites/regular.svg#bell"); }
+summary.far-bell::marker { content: url("/sprites/regular.svg#bell"); }
+
+.i.far-bell-slash { background-image: url("/sprites/regular.svg#bell-slash"); }
+dt.far-bell-slash, 
+dd.far-bell-slash, 
+li.far-bell-slash { list-style-image: url("/sprites/regular.svg#bell-slash"); }
+i:not(.a).far-bell-slash::before, 
+.a.far-bell-slash::after, 
+.b.far-bell-slash::before { content: url("/sprites/regular.svg#bell-slash"); }
+summary.far-bell-slash::marker { content: url("/sprites/regular.svg#bell-slash"); }
+
+.i.far-bookmark { background-image: url("/sprites/regular.svg#bookmark"); }
+dt.far-bookmark, 
+dd.far-bookmark, 
+li.far-bookmark { list-style-image: url("/sprites/regular.svg#bookmark"); }
+i:not(.a).far-bookmark::before, 
+.a.far-bookmark::after, 
+.b.far-bookmark::before { content: url("/sprites/regular.svg#bookmark"); }
+summary.far-bookmark::marker { content: url("/sprites/regular.svg#bookmark"); }
+
+.i.far-building { background-image: url("/sprites/regular.svg#building"); }
+dt.far-building, 
+dd.far-building, 
+li.far-building { list-style-image: url("/sprites/regular.svg#building"); }
+i:not(.a).far-building::before, 
+.a.far-building::after, 
+.b.far-building::before { content: url("/sprites/regular.svg#building"); }
+summary.far-building::marker { content: url("/sprites/regular.svg#building"); }
+
+.i.far-calendar { background-image: url("/sprites/regular.svg#calendar"); }
+dt.far-calendar, 
+dd.far-calendar, 
+li.far-calendar { list-style-image: url("/sprites/regular.svg#calendar"); }
+i:not(.a).far-calendar::before, 
+.a.far-calendar::after, 
+.b.far-calendar::before { content: url("/sprites/regular.svg#calendar"); }
+summary.far-calendar::marker { content: url("/sprites/regular.svg#calendar"); }
+
+.i.far-calendar-alt { background-image: url("/sprites/regular.svg#calendar-alt"); }
+dt.far-calendar-alt, 
+dd.far-calendar-alt, 
+li.far-calendar-alt { list-style-image: url("/sprites/regular.svg#calendar-alt"); }
+i:not(.a).far-calendar-alt::before, 
+.a.far-calendar-alt::after, 
+.b.far-calendar-alt::before { content: url("/sprites/regular.svg#calendar-alt"); }
+summary.far-calendar-alt::marker { content: url("/sprites/regular.svg#calendar-alt"); }
+
+.i.far-calendar-check { background-image: url("/sprites/regular.svg#calendar-check"); }
+dt.far-calendar-check, 
+dd.far-calendar-check, 
+li.far-calendar-check { list-style-image: url("/sprites/regular.svg#calendar-check"); }
+i:not(.a).far-calendar-check::before, 
+.a.far-calendar-check::after, 
+.b.far-calendar-check::before { content: url("/sprites/regular.svg#calendar-check"); }
+summary.far-calendar-check::marker { content: url("/sprites/regular.svg#calendar-check"); }
+
+.i.far-calendar-minus { background-image: url("/sprites/regular.svg#calendar-minus"); }
+dt.far-calendar-minus, 
+dd.far-calendar-minus, 
+li.far-calendar-minus { list-style-image: url("/sprites/regular.svg#calendar-minus"); }
+i:not(.a).far-calendar-minus::before, 
+.a.far-calendar-minus::after, 
+.b.far-calendar-minus::before { content: url("/sprites/regular.svg#calendar-minus"); }
+summary.far-calendar-minus::marker { content: url("/sprites/regular.svg#calendar-minus"); }
+
+.i.far-calendar-plus { background-image: url("/sprites/regular.svg#calendar-plus"); }
+dt.far-calendar-plus, 
+dd.far-calendar-plus, 
+li.far-calendar-plus { list-style-image: url("/sprites/regular.svg#calendar-plus"); }
+i:not(.a).far-calendar-plus::before, 
+.a.far-calendar-plus::after, 
+.b.far-calendar-plus::before { content: url("/sprites/regular.svg#calendar-plus"); }
+summary.far-calendar-plus::marker { content: url("/sprites/regular.svg#calendar-plus"); }
+
+.i.far-calendar-times { background-image: url("/sprites/regular.svg#calendar-times"); }
+dt.far-calendar-times, 
+dd.far-calendar-times, 
+li.far-calendar-times { list-style-image: url("/sprites/regular.svg#calendar-times"); }
+i:not(.a).far-calendar-times::before, 
+.a.far-calendar-times::after, 
+.b.far-calendar-times::before { content: url("/sprites/regular.svg#calendar-times"); }
+summary.far-calendar-times::marker { content: url("/sprites/regular.svg#calendar-times"); }
+
+.i.far-caret-square-down { background-image: url("/sprites/regular.svg#caret-square-down"); }
+dt.far-caret-square-down, 
+dd.far-caret-square-down, 
+li.far-caret-square-down { list-style-image: url("/sprites/regular.svg#caret-square-down"); }
+i:not(.a).far-caret-square-down::before, 
+.a.far-caret-square-down::after, 
+.b.far-caret-square-down::before { content: url("/sprites/regular.svg#caret-square-down"); }
+summary.far-caret-square-down::marker { content: url("/sprites/regular.svg#caret-square-down"); }
+
+.i.far-caret-square-left { background-image: url("/sprites/regular.svg#caret-square-left"); }
+dt.far-caret-square-left, 
+dd.far-caret-square-left, 
+li.far-caret-square-left { list-style-image: url("/sprites/regular.svg#caret-square-left"); }
+i:not(.a).far-caret-square-left::before, 
+.a.far-caret-square-left::after, 
+.b.far-caret-square-left::before { content: url("/sprites/regular.svg#caret-square-left"); }
+summary.far-caret-square-left::marker { content: url("/sprites/regular.svg#caret-square-left"); }
+
+.i.far-caret-square-right { background-image: url("/sprites/regular.svg#caret-square-right"); }
+dt.far-caret-square-right, 
+dd.far-caret-square-right, 
+li.far-caret-square-right { list-style-image: url("/sprites/regular.svg#caret-square-right"); }
+i:not(.a).far-caret-square-right::before, 
+.a.far-caret-square-right::after, 
+.b.far-caret-square-right::before { content: url("/sprites/regular.svg#caret-square-right"); }
+summary.far-caret-square-right::marker { content: url("/sprites/regular.svg#caret-square-right"); }
+
+.i.far-caret-square-up { background-image: url("/sprites/regular.svg#caret-square-up"); }
+dt.far-caret-square-up, 
+dd.far-caret-square-up, 
+li.far-caret-square-up { list-style-image: url("/sprites/regular.svg#caret-square-up"); }
+i:not(.a).far-caret-square-up::before, 
+.a.far-caret-square-up::after, 
+.b.far-caret-square-up::before { content: url("/sprites/regular.svg#caret-square-up"); }
+summary.far-caret-square-up::marker { content: url("/sprites/regular.svg#caret-square-up"); }
+
+.i.far-chart-bar { background-image: url("/sprites/regular.svg#chart-bar"); }
+dt.far-chart-bar, 
+dd.far-chart-bar, 
+li.far-chart-bar { list-style-image: url("/sprites/regular.svg#chart-bar"); }
+i:not(.a).far-chart-bar::before, 
+.a.far-chart-bar::after, 
+.b.far-chart-bar::before { content: url("/sprites/regular.svg#chart-bar"); }
+summary.far-chart-bar::marker { content: url("/sprites/regular.svg#chart-bar"); }
+
+.i.far-check-circle { background-image: url("/sprites/regular.svg#check-circle"); }
+dt.far-check-circle, 
+dd.far-check-circle, 
+li.far-check-circle { list-style-image: url("/sprites/regular.svg#check-circle"); }
+i:not(.a).far-check-circle::before, 
+.a.far-check-circle::after, 
+.b.far-check-circle::before { content: url("/sprites/regular.svg#check-circle"); }
+summary.far-check-circle::marker { content: url("/sprites/regular.svg#check-circle"); }
+
+.i.far-check-square { background-image: url("/sprites/regular.svg#check-square"); }
+dt.far-check-square, 
+dd.far-check-square, 
+li.far-check-square { list-style-image: url("/sprites/regular.svg#check-square"); }
+i:not(.a).far-check-square::before, 
+.a.far-check-square::after, 
+.b.far-check-square::before { content: url("/sprites/regular.svg#check-square"); }
+summary.far-check-square::marker { content: url("/sprites/regular.svg#check-square"); }
+
+.i.far-circle { background-image: url("/sprites/regular.svg#circle"); }
+dt.far-circle, 
+dd.far-circle, 
+li.far-circle { list-style-image: url("/sprites/regular.svg#circle"); }
+i:not(.a).far-circle::before, 
+.a.far-circle::after, 
+.b.far-circle::before { content: url("/sprites/regular.svg#circle"); }
+summary.far-circle::marker { content: url("/sprites/regular.svg#circle"); }
+
+.i.far-clipboard { background-image: url("/sprites/regular.svg#clipboard"); }
+dt.far-clipboard, 
+dd.far-clipboard, 
+li.far-clipboard { list-style-image: url("/sprites/regular.svg#clipboard"); }
+i:not(.a).far-clipboard::before, 
+.a.far-clipboard::after, 
+.b.far-clipboard::before { content: url("/sprites/regular.svg#clipboard"); }
+summary.far-clipboard::marker { content: url("/sprites/regular.svg#clipboard"); }
+
+.i.far-clock { background-image: url("/sprites/regular.svg#clock"); }
+dt.far-clock, 
+dd.far-clock, 
+li.far-clock { list-style-image: url("/sprites/regular.svg#clock"); }
+i:not(.a).far-clock::before, 
+.a.far-clock::after, 
+.b.far-clock::before { content: url("/sprites/regular.svg#clock"); }
+summary.far-clock::marker { content: url("/sprites/regular.svg#clock"); }
+
+.i.far-clone { background-image: url("/sprites/regular.svg#clone"); }
+dt.far-clone, 
+dd.far-clone, 
+li.far-clone { list-style-image: url("/sprites/regular.svg#clone"); }
+i:not(.a).far-clone::before, 
+.a.far-clone::after, 
+.b.far-clone::before { content: url("/sprites/regular.svg#clone"); }
+summary.far-clone::marker { content: url("/sprites/regular.svg#clone"); }
+
+.i.far-closed-captioning { background-image: url("/sprites/regular.svg#closed-captioning"); }
+dt.far-closed-captioning, 
+dd.far-closed-captioning, 
+li.far-closed-captioning { list-style-image: url("/sprites/regular.svg#closed-captioning"); }
+i:not(.a).far-closed-captioning::before, 
+.a.far-closed-captioning::after, 
+.b.far-closed-captioning::before { content: url("/sprites/regular.svg#closed-captioning"); }
+summary.far-closed-captioning::marker { content: url("/sprites/regular.svg#closed-captioning"); }
+
+.i.far-comment { background-image: url("/sprites/regular.svg#comment"); }
+dt.far-comment, 
+dd.far-comment, 
+li.far-comment { list-style-image: url("/sprites/regular.svg#comment"); }
+i:not(.a).far-comment::before, 
+.a.far-comment::after, 
+.b.far-comment::before { content: url("/sprites/regular.svg#comment"); }
+summary.far-comment::marker { content: url("/sprites/regular.svg#comment"); }
+
+.i.far-comment-alt { background-image: url("/sprites/regular.svg#comment-alt"); }
+dt.far-comment-alt, 
+dd.far-comment-alt, 
+li.far-comment-alt { list-style-image: url("/sprites/regular.svg#comment-alt"); }
+i:not(.a).far-comment-alt::before, 
+.a.far-comment-alt::after, 
+.b.far-comment-alt::before { content: url("/sprites/regular.svg#comment-alt"); }
+summary.far-comment-alt::marker { content: url("/sprites/regular.svg#comment-alt"); }
+
+.i.far-comment-dots { background-image: url("/sprites/regular.svg#comment-dots"); }
+dt.far-comment-dots, 
+dd.far-comment-dots, 
+li.far-comment-dots { list-style-image: url("/sprites/regular.svg#comment-dots"); }
+i:not(.a).far-comment-dots::before, 
+.a.far-comment-dots::after, 
+.b.far-comment-dots::before { content: url("/sprites/regular.svg#comment-dots"); }
+summary.far-comment-dots::marker { content: url("/sprites/regular.svg#comment-dots"); }
+
+.i.far-comments { background-image: url("/sprites/regular.svg#comments"); }
+dt.far-comments, 
+dd.far-comments, 
+li.far-comments { list-style-image: url("/sprites/regular.svg#comments"); }
+i:not(.a).far-comments::before, 
+.a.far-comments::after, 
+.b.far-comments::before { content: url("/sprites/regular.svg#comments"); }
+summary.far-comments::marker { content: url("/sprites/regular.svg#comments"); }
+
+.i.far-compass { background-image: url("/sprites/regular.svg#compass"); }
+dt.far-compass, 
+dd.far-compass, 
+li.far-compass { list-style-image: url("/sprites/regular.svg#compass"); }
+i:not(.a).far-compass::before, 
+.a.far-compass::after, 
+.b.far-compass::before { content: url("/sprites/regular.svg#compass"); }
+summary.far-compass::marker { content: url("/sprites/regular.svg#compass"); }
+
+.i.far-copy { background-image: url("/sprites/regular.svg#copy"); }
+dt.far-copy, 
+dd.far-copy, 
+li.far-copy { list-style-image: url("/sprites/regular.svg#copy"); }
+i:not(.a).far-copy::before, 
+.a.far-copy::after, 
+.b.far-copy::before { content: url("/sprites/regular.svg#copy"); }
+summary.far-copy::marker { content: url("/sprites/regular.svg#copy"); }
+
+.i.far-copyright { background-image: url("/sprites/regular.svg#copyright"); }
+dt.far-copyright, 
+dd.far-copyright, 
+li.far-copyright { list-style-image: url("/sprites/regular.svg#copyright"); }
+i:not(.a).far-copyright::before, 
+.a.far-copyright::after, 
+.b.far-copyright::before { content: url("/sprites/regular.svg#copyright"); }
+summary.far-copyright::marker { content: url("/sprites/regular.svg#copyright"); }
+
+.i.far-credit-card { background-image: url("/sprites/regular.svg#credit-card"); }
+dt.far-credit-card, 
+dd.far-credit-card, 
+li.far-credit-card { list-style-image: url("/sprites/regular.svg#credit-card"); }
+i:not(.a).far-credit-card::before, 
+.a.far-credit-card::after, 
+.b.far-credit-card::before { content: url("/sprites/regular.svg#credit-card"); }
+summary.far-credit-card::marker { content: url("/sprites/regular.svg#credit-card"); }
+
+.i.far-dizzy { background-image: url("/sprites/regular.svg#dizzy"); }
+dt.far-dizzy, 
+dd.far-dizzy, 
+li.far-dizzy { list-style-image: url("/sprites/regular.svg#dizzy"); }
+i:not(.a).far-dizzy::before, 
+.a.far-dizzy::after, 
+.b.far-dizzy::before { content: url("/sprites/regular.svg#dizzy"); }
+summary.far-dizzy::marker { content: url("/sprites/regular.svg#dizzy"); }
+
+.i.far-dot-circle { background-image: url("/sprites/regular.svg#dot-circle"); }
+dt.far-dot-circle, 
+dd.far-dot-circle, 
+li.far-dot-circle { list-style-image: url("/sprites/regular.svg#dot-circle"); }
+i:not(.a).far-dot-circle::before, 
+.a.far-dot-circle::after, 
+.b.far-dot-circle::before { content: url("/sprites/regular.svg#dot-circle"); }
+summary.far-dot-circle::marker { content: url("/sprites/regular.svg#dot-circle"); }
+
+.i.far-edit { background-image: url("/sprites/regular.svg#edit"); }
+dt.far-edit, 
+dd.far-edit, 
+li.far-edit { list-style-image: url("/sprites/regular.svg#edit"); }
+i:not(.a).far-edit::before, 
+.a.far-edit::after, 
+.b.far-edit::before { content: url("/sprites/regular.svg#edit"); }
+summary.far-edit::marker { content: url("/sprites/regular.svg#edit"); }
+
+.i.far-envelope { background-image: url("/sprites/regular.svg#envelope"); }
+dt.far-envelope, 
+dd.far-envelope, 
+li.far-envelope { list-style-image: url("/sprites/regular.svg#envelope"); }
+i:not(.a).far-envelope::before, 
+.a.far-envelope::after, 
+.b.far-envelope::before { content: url("/sprites/regular.svg#envelope"); }
+summary.far-envelope::marker { content: url("/sprites/regular.svg#envelope"); }
+
+.i.far-envelope-open { background-image: url("/sprites/regular.svg#envelope-open"); }
+dt.far-envelope-open, 
+dd.far-envelope-open, 
+li.far-envelope-open { list-style-image: url("/sprites/regular.svg#envelope-open"); }
+i:not(.a).far-envelope-open::before, 
+.a.far-envelope-open::after, 
+.b.far-envelope-open::before { content: url("/sprites/regular.svg#envelope-open"); }
+summary.far-envelope-open::marker { content: url("/sprites/regular.svg#envelope-open"); }
+
+.i.far-eye { background-image: url("/sprites/regular.svg#eye"); }
+dt.far-eye, 
+dd.far-eye, 
+li.far-eye { list-style-image: url("/sprites/regular.svg#eye"); }
+i:not(.a).far-eye::before, 
+.a.far-eye::after, 
+.b.far-eye::before { content: url("/sprites/regular.svg#eye"); }
+summary.far-eye::marker { content: url("/sprites/regular.svg#eye"); }
+
+.i.far-eye-slash { background-image: url("/sprites/regular.svg#eye-slash"); }
+dt.far-eye-slash, 
+dd.far-eye-slash, 
+li.far-eye-slash { list-style-image: url("/sprites/regular.svg#eye-slash"); }
+i:not(.a).far-eye-slash::before, 
+.a.far-eye-slash::after, 
+.b.far-eye-slash::before { content: url("/sprites/regular.svg#eye-slash"); }
+summary.far-eye-slash::marker { content: url("/sprites/regular.svg#eye-slash"); }
+
+.i.far-file { background-image: url("/sprites/regular.svg#file"); }
+dt.far-file, 
+dd.far-file, 
+li.far-file { list-style-image: url("/sprites/regular.svg#file"); }
+i:not(.a).far-file::before, 
+.a.far-file::after, 
+.b.far-file::before { content: url("/sprites/regular.svg#file"); }
+summary.far-file::marker { content: url("/sprites/regular.svg#file"); }
+
+.i.far-file-alt { background-image: url("/sprites/regular.svg#file-alt"); }
+dt.far-file-alt, 
+dd.far-file-alt, 
+li.far-file-alt { list-style-image: url("/sprites/regular.svg#file-alt"); }
+i:not(.a).far-file-alt::before, 
+.a.far-file-alt::after, 
+.b.far-file-alt::before { content: url("/sprites/regular.svg#file-alt"); }
+summary.far-file-alt::marker { content: url("/sprites/regular.svg#file-alt"); }
+
+.i.far-file-archive { background-image: url("/sprites/regular.svg#file-archive"); }
+dt.far-file-archive, 
+dd.far-file-archive, 
+li.far-file-archive { list-style-image: url("/sprites/regular.svg#file-archive"); }
+i:not(.a).far-file-archive::before, 
+.a.far-file-archive::after, 
+.b.far-file-archive::before { content: url("/sprites/regular.svg#file-archive"); }
+summary.far-file-archive::marker { content: url("/sprites/regular.svg#file-archive"); }
+
+.i.far-file-audio { background-image: url("/sprites/regular.svg#file-audio"); }
+dt.far-file-audio, 
+dd.far-file-audio, 
+li.far-file-audio { list-style-image: url("/sprites/regular.svg#file-audio"); }
+i:not(.a).far-file-audio::before, 
+.a.far-file-audio::after, 
+.b.far-file-audio::before { content: url("/sprites/regular.svg#file-audio"); }
+summary.far-file-audio::marker { content: url("/sprites/regular.svg#file-audio"); }
+
+.i.far-file-code { background-image: url("/sprites/regular.svg#file-code"); }
+dt.far-file-code, 
+dd.far-file-code, 
+li.far-file-code { list-style-image: url("/sprites/regular.svg#file-code"); }
+i:not(.a).far-file-code::before, 
+.a.far-file-code::after, 
+.b.far-file-code::before { content: url("/sprites/regular.svg#file-code"); }
+summary.far-file-code::marker { content: url("/sprites/regular.svg#file-code"); }
+
+.i.far-file-excel { background-image: url("/sprites/regular.svg#file-excel"); }
+dt.far-file-excel, 
+dd.far-file-excel, 
+li.far-file-excel { list-style-image: url("/sprites/regular.svg#file-excel"); }
+i:not(.a).far-file-excel::before, 
+.a.far-file-excel::after, 
+.b.far-file-excel::before { content: url("/sprites/regular.svg#file-excel"); }
+summary.far-file-excel::marker { content: url("/sprites/regular.svg#file-excel"); }
+
+.i.far-file-image { background-image: url("/sprites/regular.svg#file-image"); }
+dt.far-file-image, 
+dd.far-file-image, 
+li.far-file-image { list-style-image: url("/sprites/regular.svg#file-image"); }
+i:not(.a).far-file-image::before, 
+.a.far-file-image::after, 
+.b.far-file-image::before { content: url("/sprites/regular.svg#file-image"); }
+summary.far-file-image::marker { content: url("/sprites/regular.svg#file-image"); }
+
+.i.far-file-pdf { background-image: url("/sprites/regular.svg#file-pdf"); }
+dt.far-file-pdf, 
+dd.far-file-pdf, 
+li.far-file-pdf { list-style-image: url("/sprites/regular.svg#file-pdf"); }
+i:not(.a).far-file-pdf::before, 
+.a.far-file-pdf::after, 
+.b.far-file-pdf::before { content: url("/sprites/regular.svg#file-pdf"); }
+summary.far-file-pdf::marker { content: url("/sprites/regular.svg#file-pdf"); }
+
+.i.far-file-powerpoint { background-image: url("/sprites/regular.svg#file-powerpoint"); }
+dt.far-file-powerpoint, 
+dd.far-file-powerpoint, 
+li.far-file-powerpoint { list-style-image: url("/sprites/regular.svg#file-powerpoint"); }
+i:not(.a).far-file-powerpoint::before, 
+.a.far-file-powerpoint::after, 
+.b.far-file-powerpoint::before { content: url("/sprites/regular.svg#file-powerpoint"); }
+summary.far-file-powerpoint::marker { content: url("/sprites/regular.svg#file-powerpoint"); }
+
+.i.far-file-video { background-image: url("/sprites/regular.svg#file-video"); }
+dt.far-file-video, 
+dd.far-file-video, 
+li.far-file-video { list-style-image: url("/sprites/regular.svg#file-video"); }
+i:not(.a).far-file-video::before, 
+.a.far-file-video::after, 
+.b.far-file-video::before { content: url("/sprites/regular.svg#file-video"); }
+summary.far-file-video::marker { content: url("/sprites/regular.svg#file-video"); }
+
+.i.far-file-word { background-image: url("/sprites/regular.svg#file-word"); }
+dt.far-file-word, 
+dd.far-file-word, 
+li.far-file-word { list-style-image: url("/sprites/regular.svg#file-word"); }
+i:not(.a).far-file-word::before, 
+.a.far-file-word::after, 
+.b.far-file-word::before { content: url("/sprites/regular.svg#file-word"); }
+summary.far-file-word::marker { content: url("/sprites/regular.svg#file-word"); }
+
+.i.far-flag { background-image: url("/sprites/regular.svg#flag"); }
+dt.far-flag, 
+dd.far-flag, 
+li.far-flag { list-style-image: url("/sprites/regular.svg#flag"); }
+i:not(.a).far-flag::before, 
+.a.far-flag::after, 
+.b.far-flag::before { content: url("/sprites/regular.svg#flag"); }
+summary.far-flag::marker { content: url("/sprites/regular.svg#flag"); }
+
+.i.far-flushed { background-image: url("/sprites/regular.svg#flushed"); }
+dt.far-flushed, 
+dd.far-flushed, 
+li.far-flushed { list-style-image: url("/sprites/regular.svg#flushed"); }
+i:not(.a).far-flushed::before, 
+.a.far-flushed::after, 
+.b.far-flushed::before { content: url("/sprites/regular.svg#flushed"); }
+summary.far-flushed::marker { content: url("/sprites/regular.svg#flushed"); }
+
+.i.far-folder { background-image: url("/sprites/regular.svg#folder"); }
+dt.far-folder, 
+dd.far-folder, 
+li.far-folder { list-style-image: url("/sprites/regular.svg#folder"); }
+i:not(.a).far-folder::before, 
+.a.far-folder::after, 
+.b.far-folder::before { content: url("/sprites/regular.svg#folder"); }
+summary.far-folder::marker { content: url("/sprites/regular.svg#folder"); }
+
+.i.far-folder-open { background-image: url("/sprites/regular.svg#folder-open"); }
+dt.far-folder-open, 
+dd.far-folder-open, 
+li.far-folder-open { list-style-image: url("/sprites/regular.svg#folder-open"); }
+i:not(.a).far-folder-open::before, 
+.a.far-folder-open::after, 
+.b.far-folder-open::before { content: url("/sprites/regular.svg#folder-open"); }
+summary.far-folder-open::marker { content: url("/sprites/regular.svg#folder-open"); }
+
+.i.far-font-awesome-logo-full { background-image: url("/sprites/regular.svg#font-awesome-logo-full"); }
+dt.far-font-awesome-logo-full, 
+dd.far-font-awesome-logo-full, 
+li.far-font-awesome-logo-full { list-style-image: url("/sprites/regular.svg#font-awesome-logo-full"); }
+i:not(.a).far-font-awesome-logo-full::before, 
+.a.far-font-awesome-logo-full::after, 
+.b.far-font-awesome-logo-full::before { content: url("/sprites/regular.svg#font-awesome-logo-full"); }
+summary.far-font-awesome-logo-full::marker { content: url("/sprites/regular.svg#font-awesome-logo-full"); }
+
+.i.far-frown { background-image: url("/sprites/regular.svg#frown"); }
+dt.far-frown, 
+dd.far-frown, 
+li.far-frown { list-style-image: url("/sprites/regular.svg#frown"); }
+i:not(.a).far-frown::before, 
+.a.far-frown::after, 
+.b.far-frown::before { content: url("/sprites/regular.svg#frown"); }
+summary.far-frown::marker { content: url("/sprites/regular.svg#frown"); }
+
+.i.far-frown-open { background-image: url("/sprites/regular.svg#frown-open"); }
+dt.far-frown-open, 
+dd.far-frown-open, 
+li.far-frown-open { list-style-image: url("/sprites/regular.svg#frown-open"); }
+i:not(.a).far-frown-open::before, 
+.a.far-frown-open::after, 
+.b.far-frown-open::before { content: url("/sprites/regular.svg#frown-open"); }
+summary.far-frown-open::marker { content: url("/sprites/regular.svg#frown-open"); }
+
+.i.far-futbol { background-image: url("/sprites/regular.svg#futbol"); }
+dt.far-futbol, 
+dd.far-futbol, 
+li.far-futbol { list-style-image: url("/sprites/regular.svg#futbol"); }
+i:not(.a).far-futbol::before, 
+.a.far-futbol::after, 
+.b.far-futbol::before { content: url("/sprites/regular.svg#futbol"); }
+summary.far-futbol::marker { content: url("/sprites/regular.svg#futbol"); }
+
+.i.far-gem { background-image: url("/sprites/regular.svg#gem"); }
+dt.far-gem, 
+dd.far-gem, 
+li.far-gem { list-style-image: url("/sprites/regular.svg#gem"); }
+i:not(.a).far-gem::before, 
+.a.far-gem::after, 
+.b.far-gem::before { content: url("/sprites/regular.svg#gem"); }
+summary.far-gem::marker { content: url("/sprites/regular.svg#gem"); }
+
+.i.far-grimace { background-image: url("/sprites/regular.svg#grimace"); }
+dt.far-grimace, 
+dd.far-grimace, 
+li.far-grimace { list-style-image: url("/sprites/regular.svg#grimace"); }
+i:not(.a).far-grimace::before, 
+.a.far-grimace::after, 
+.b.far-grimace::before { content: url("/sprites/regular.svg#grimace"); }
+summary.far-grimace::marker { content: url("/sprites/regular.svg#grimace"); }
+
+.i.far-grin { background-image: url("/sprites/regular.svg#grin"); }
+dt.far-grin, 
+dd.far-grin, 
+li.far-grin { list-style-image: url("/sprites/regular.svg#grin"); }
+i:not(.a).far-grin::before, 
+.a.far-grin::after, 
+.b.far-grin::before { content: url("/sprites/regular.svg#grin"); }
+summary.far-grin::marker { content: url("/sprites/regular.svg#grin"); }
+
+.i.far-grin-alt { background-image: url("/sprites/regular.svg#grin-alt"); }
+dt.far-grin-alt, 
+dd.far-grin-alt, 
+li.far-grin-alt { list-style-image: url("/sprites/regular.svg#grin-alt"); }
+i:not(.a).far-grin-alt::before, 
+.a.far-grin-alt::after, 
+.b.far-grin-alt::before { content: url("/sprites/regular.svg#grin-alt"); }
+summary.far-grin-alt::marker { content: url("/sprites/regular.svg#grin-alt"); }
+
+.i.far-grin-beam { background-image: url("/sprites/regular.svg#grin-beam"); }
+dt.far-grin-beam, 
+dd.far-grin-beam, 
+li.far-grin-beam { list-style-image: url("/sprites/regular.svg#grin-beam"); }
+i:not(.a).far-grin-beam::before, 
+.a.far-grin-beam::after, 
+.b.far-grin-beam::before { content: url("/sprites/regular.svg#grin-beam"); }
+summary.far-grin-beam::marker { content: url("/sprites/regular.svg#grin-beam"); }
+
+.i.far-grin-beam-sweat { background-image: url("/sprites/regular.svg#grin-beam-sweat"); }
+dt.far-grin-beam-sweat, 
+dd.far-grin-beam-sweat, 
+li.far-grin-beam-sweat { list-style-image: url("/sprites/regular.svg#grin-beam-sweat"); }
+i:not(.a).far-grin-beam-sweat::before, 
+.a.far-grin-beam-sweat::after, 
+.b.far-grin-beam-sweat::before { content: url("/sprites/regular.svg#grin-beam-sweat"); }
+summary.far-grin-beam-sweat::marker { content: url("/sprites/regular.svg#grin-beam-sweat"); }
+
+.i.far-grin-hearts { background-image: url("/sprites/regular.svg#grin-hearts"); }
+dt.far-grin-hearts, 
+dd.far-grin-hearts, 
+li.far-grin-hearts { list-style-image: url("/sprites/regular.svg#grin-hearts"); }
+i:not(.a).far-grin-hearts::before, 
+.a.far-grin-hearts::after, 
+.b.far-grin-hearts::before { content: url("/sprites/regular.svg#grin-hearts"); }
+summary.far-grin-hearts::marker { content: url("/sprites/regular.svg#grin-hearts"); }
+
+.i.far-grin-squint { background-image: url("/sprites/regular.svg#grin-squint"); }
+dt.far-grin-squint, 
+dd.far-grin-squint, 
+li.far-grin-squint { list-style-image: url("/sprites/regular.svg#grin-squint"); }
+i:not(.a).far-grin-squint::before, 
+.a.far-grin-squint::after, 
+.b.far-grin-squint::before { content: url("/sprites/regular.svg#grin-squint"); }
+summary.far-grin-squint::marker { content: url("/sprites/regular.svg#grin-squint"); }
+
+.i.far-grin-squint-tears { background-image: url("/sprites/regular.svg#grin-squint-tears"); }
+dt.far-grin-squint-tears, 
+dd.far-grin-squint-tears, 
+li.far-grin-squint-tears { list-style-image: url("/sprites/regular.svg#grin-squint-tears"); }
+i:not(.a).far-grin-squint-tears::before, 
+.a.far-grin-squint-tears::after, 
+.b.far-grin-squint-tears::before { content: url("/sprites/regular.svg#grin-squint-tears"); }
+summary.far-grin-squint-tears::marker { content: url("/sprites/regular.svg#grin-squint-tears"); }
+
+.i.far-grin-stars { background-image: url("/sprites/regular.svg#grin-stars"); }
+dt.far-grin-stars, 
+dd.far-grin-stars, 
+li.far-grin-stars { list-style-image: url("/sprites/regular.svg#grin-stars"); }
+i:not(.a).far-grin-stars::before, 
+.a.far-grin-stars::after, 
+.b.far-grin-stars::before { content: url("/sprites/regular.svg#grin-stars"); }
+summary.far-grin-stars::marker { content: url("/sprites/regular.svg#grin-stars"); }
+
+.i.far-grin-tears { background-image: url("/sprites/regular.svg#grin-tears"); }
+dt.far-grin-tears, 
+dd.far-grin-tears, 
+li.far-grin-tears { list-style-image: url("/sprites/regular.svg#grin-tears"); }
+i:not(.a).far-grin-tears::before, 
+.a.far-grin-tears::after, 
+.b.far-grin-tears::before { content: url("/sprites/regular.svg#grin-tears"); }
+summary.far-grin-tears::marker { content: url("/sprites/regular.svg#grin-tears"); }
+
+.i.far-grin-tongue { background-image: url("/sprites/regular.svg#grin-tongue"); }
+dt.far-grin-tongue, 
+dd.far-grin-tongue, 
+li.far-grin-tongue { list-style-image: url("/sprites/regular.svg#grin-tongue"); }
+i:not(.a).far-grin-tongue::before, 
+.a.far-grin-tongue::after, 
+.b.far-grin-tongue::before { content: url("/sprites/regular.svg#grin-tongue"); }
+summary.far-grin-tongue::marker { content: url("/sprites/regular.svg#grin-tongue"); }
+
+.i.far-grin-tongue-squint { background-image: url("/sprites/regular.svg#grin-tongue-squint"); }
+dt.far-grin-tongue-squint, 
+dd.far-grin-tongue-squint, 
+li.far-grin-tongue-squint { list-style-image: url("/sprites/regular.svg#grin-tongue-squint"); }
+i:not(.a).far-grin-tongue-squint::before, 
+.a.far-grin-tongue-squint::after, 
+.b.far-grin-tongue-squint::before { content: url("/sprites/regular.svg#grin-tongue-squint"); }
+summary.far-grin-tongue-squint::marker { content: url("/sprites/regular.svg#grin-tongue-squint"); }
+
+.i.far-grin-tongue-wink { background-image: url("/sprites/regular.svg#grin-tongue-wink"); }
+dt.far-grin-tongue-wink, 
+dd.far-grin-tongue-wink, 
+li.far-grin-tongue-wink { list-style-image: url("/sprites/regular.svg#grin-tongue-wink"); }
+i:not(.a).far-grin-tongue-wink::before, 
+.a.far-grin-tongue-wink::after, 
+.b.far-grin-tongue-wink::before { content: url("/sprites/regular.svg#grin-tongue-wink"); }
+summary.far-grin-tongue-wink::marker { content: url("/sprites/regular.svg#grin-tongue-wink"); }
+
+.i.far-grin-wink { background-image: url("/sprites/regular.svg#grin-wink"); }
+dt.far-grin-wink, 
+dd.far-grin-wink, 
+li.far-grin-wink { list-style-image: url("/sprites/regular.svg#grin-wink"); }
+i:not(.a).far-grin-wink::before, 
+.a.far-grin-wink::after, 
+.b.far-grin-wink::before { content: url("/sprites/regular.svg#grin-wink"); }
+summary.far-grin-wink::marker { content: url("/sprites/regular.svg#grin-wink"); }
+
+.i.far-hand-lizard { background-image: url("/sprites/regular.svg#hand-lizard"); }
+dt.far-hand-lizard, 
+dd.far-hand-lizard, 
+li.far-hand-lizard { list-style-image: url("/sprites/regular.svg#hand-lizard"); }
+i:not(.a).far-hand-lizard::before, 
+.a.far-hand-lizard::after, 
+.b.far-hand-lizard::before { content: url("/sprites/regular.svg#hand-lizard"); }
+summary.far-hand-lizard::marker { content: url("/sprites/regular.svg#hand-lizard"); }
+
+.i.far-hand-paper { background-image: url("/sprites/regular.svg#hand-paper"); }
+dt.far-hand-paper, 
+dd.far-hand-paper, 
+li.far-hand-paper { list-style-image: url("/sprites/regular.svg#hand-paper"); }
+i:not(.a).far-hand-paper::before, 
+.a.far-hand-paper::after, 
+.b.far-hand-paper::before { content: url("/sprites/regular.svg#hand-paper"); }
+summary.far-hand-paper::marker { content: url("/sprites/regular.svg#hand-paper"); }
+
+.i.far-hand-peace { background-image: url("/sprites/regular.svg#hand-peace"); }
+dt.far-hand-peace, 
+dd.far-hand-peace, 
+li.far-hand-peace { list-style-image: url("/sprites/regular.svg#hand-peace"); }
+i:not(.a).far-hand-peace::before, 
+.a.far-hand-peace::after, 
+.b.far-hand-peace::before { content: url("/sprites/regular.svg#hand-peace"); }
+summary.far-hand-peace::marker { content: url("/sprites/regular.svg#hand-peace"); }
+
+.i.far-hand-point-down { background-image: url("/sprites/regular.svg#hand-point-down"); }
+dt.far-hand-point-down, 
+dd.far-hand-point-down, 
+li.far-hand-point-down { list-style-image: url("/sprites/regular.svg#hand-point-down"); }
+i:not(.a).far-hand-point-down::before, 
+.a.far-hand-point-down::after, 
+.b.far-hand-point-down::before { content: url("/sprites/regular.svg#hand-point-down"); }
+summary.far-hand-point-down::marker { content: url("/sprites/regular.svg#hand-point-down"); }
+
+.i.far-hand-point-left { background-image: url("/sprites/regular.svg#hand-point-left"); }
+dt.far-hand-point-left, 
+dd.far-hand-point-left, 
+li.far-hand-point-left { list-style-image: url("/sprites/regular.svg#hand-point-left"); }
+i:not(.a).far-hand-point-left::before, 
+.a.far-hand-point-left::after, 
+.b.far-hand-point-left::before { content: url("/sprites/regular.svg#hand-point-left"); }
+summary.far-hand-point-left::marker { content: url("/sprites/regular.svg#hand-point-left"); }
+
+.i.far-hand-point-right { background-image: url("/sprites/regular.svg#hand-point-right"); }
+dt.far-hand-point-right, 
+dd.far-hand-point-right, 
+li.far-hand-point-right { list-style-image: url("/sprites/regular.svg#hand-point-right"); }
+i:not(.a).far-hand-point-right::before, 
+.a.far-hand-point-right::after, 
+.b.far-hand-point-right::before { content: url("/sprites/regular.svg#hand-point-right"); }
+summary.far-hand-point-right::marker { content: url("/sprites/regular.svg#hand-point-right"); }
+
+.i.far-hand-point-up { background-image: url("/sprites/regular.svg#hand-point-up"); }
+dt.far-hand-point-up, 
+dd.far-hand-point-up, 
+li.far-hand-point-up { list-style-image: url("/sprites/regular.svg#hand-point-up"); }
+i:not(.a).far-hand-point-up::before, 
+.a.far-hand-point-up::after, 
+.b.far-hand-point-up::before { content: url("/sprites/regular.svg#hand-point-up"); }
+summary.far-hand-point-up::marker { content: url("/sprites/regular.svg#hand-point-up"); }
+
+.i.far-hand-pointer { background-image: url("/sprites/regular.svg#hand-pointer"); }
+dt.far-hand-pointer, 
+dd.far-hand-pointer, 
+li.far-hand-pointer { list-style-image: url("/sprites/regular.svg#hand-pointer"); }
+i:not(.a).far-hand-pointer::before, 
+.a.far-hand-pointer::after, 
+.b.far-hand-pointer::before { content: url("/sprites/regular.svg#hand-pointer"); }
+summary.far-hand-pointer::marker { content: url("/sprites/regular.svg#hand-pointer"); }
+
+.i.far-hand-rock { background-image: url("/sprites/regular.svg#hand-rock"); }
+dt.far-hand-rock, 
+dd.far-hand-rock, 
+li.far-hand-rock { list-style-image: url("/sprites/regular.svg#hand-rock"); }
+i:not(.a).far-hand-rock::before, 
+.a.far-hand-rock::after, 
+.b.far-hand-rock::before { content: url("/sprites/regular.svg#hand-rock"); }
+summary.far-hand-rock::marker { content: url("/sprites/regular.svg#hand-rock"); }
+
+.i.far-hand-scissors { background-image: url("/sprites/regular.svg#hand-scissors"); }
+dt.far-hand-scissors, 
+dd.far-hand-scissors, 
+li.far-hand-scissors { list-style-image: url("/sprites/regular.svg#hand-scissors"); }
+i:not(.a).far-hand-scissors::before, 
+.a.far-hand-scissors::after, 
+.b.far-hand-scissors::before { content: url("/sprites/regular.svg#hand-scissors"); }
+summary.far-hand-scissors::marker { content: url("/sprites/regular.svg#hand-scissors"); }
+
+.i.far-hand-spock { background-image: url("/sprites/regular.svg#hand-spock"); }
+dt.far-hand-spock, 
+dd.far-hand-spock, 
+li.far-hand-spock { list-style-image: url("/sprites/regular.svg#hand-spock"); }
+i:not(.a).far-hand-spock::before, 
+.a.far-hand-spock::after, 
+.b.far-hand-spock::before { content: url("/sprites/regular.svg#hand-spock"); }
+summary.far-hand-spock::marker { content: url("/sprites/regular.svg#hand-spock"); }
+
+.i.far-handshake { background-image: url("/sprites/regular.svg#handshake"); }
+dt.far-handshake, 
+dd.far-handshake, 
+li.far-handshake { list-style-image: url("/sprites/regular.svg#handshake"); }
+i:not(.a).far-handshake::before, 
+.a.far-handshake::after, 
+.b.far-handshake::before { content: url("/sprites/regular.svg#handshake"); }
+summary.far-handshake::marker { content: url("/sprites/regular.svg#handshake"); }
+
+.i.far-hdd { background-image: url("/sprites/regular.svg#hdd"); }
+dt.far-hdd, 
+dd.far-hdd, 
+li.far-hdd { list-style-image: url("/sprites/regular.svg#hdd"); }
+i:not(.a).far-hdd::before, 
+.a.far-hdd::after, 
+.b.far-hdd::before { content: url("/sprites/regular.svg#hdd"); }
+summary.far-hdd::marker { content: url("/sprites/regular.svg#hdd"); }
+
+.i.far-heart { background-image: url("/sprites/regular.svg#heart"); }
+dt.far-heart, 
+dd.far-heart, 
+li.far-heart { list-style-image: url("/sprites/regular.svg#heart"); }
+i:not(.a).far-heart::before, 
+.a.far-heart::after, 
+.b.far-heart::before { content: url("/sprites/regular.svg#heart"); }
+summary.far-heart::marker { content: url("/sprites/regular.svg#heart"); }
+
+.i.far-hospital { background-image: url("/sprites/regular.svg#hospital"); }
+dt.far-hospital, 
+dd.far-hospital, 
+li.far-hospital { list-style-image: url("/sprites/regular.svg#hospital"); }
+i:not(.a).far-hospital::before, 
+.a.far-hospital::after, 
+.b.far-hospital::before { content: url("/sprites/regular.svg#hospital"); }
+summary.far-hospital::marker { content: url("/sprites/regular.svg#hospital"); }
+
+.i.far-hourglass { background-image: url("/sprites/regular.svg#hourglass"); }
+dt.far-hourglass, 
+dd.far-hourglass, 
+li.far-hourglass { list-style-image: url("/sprites/regular.svg#hourglass"); }
+i:not(.a).far-hourglass::before, 
+.a.far-hourglass::after, 
+.b.far-hourglass::before { content: url("/sprites/regular.svg#hourglass"); }
+summary.far-hourglass::marker { content: url("/sprites/regular.svg#hourglass"); }
+
+.i.far-id-badge { background-image: url("/sprites/regular.svg#id-badge"); }
+dt.far-id-badge, 
+dd.far-id-badge, 
+li.far-id-badge { list-style-image: url("/sprites/regular.svg#id-badge"); }
+i:not(.a).far-id-badge::before, 
+.a.far-id-badge::after, 
+.b.far-id-badge::before { content: url("/sprites/regular.svg#id-badge"); }
+summary.far-id-badge::marker { content: url("/sprites/regular.svg#id-badge"); }
+
+.i.far-id-card { background-image: url("/sprites/regular.svg#id-card"); }
+dt.far-id-card, 
+dd.far-id-card, 
+li.far-id-card { list-style-image: url("/sprites/regular.svg#id-card"); }
+i:not(.a).far-id-card::before, 
+.a.far-id-card::after, 
+.b.far-id-card::before { content: url("/sprites/regular.svg#id-card"); }
+summary.far-id-card::marker { content: url("/sprites/regular.svg#id-card"); }
+
+.i.far-image { background-image: url("/sprites/regular.svg#image"); }
+dt.far-image, 
+dd.far-image, 
+li.far-image { list-style-image: url("/sprites/regular.svg#image"); }
+i:not(.a).far-image::before, 
+.a.far-image::after, 
+.b.far-image::before { content: url("/sprites/regular.svg#image"); }
+summary.far-image::marker { content: url("/sprites/regular.svg#image"); }
+
+.i.far-images { background-image: url("/sprites/regular.svg#images"); }
+dt.far-images, 
+dd.far-images, 
+li.far-images { list-style-image: url("/sprites/regular.svg#images"); }
+i:not(.a).far-images::before, 
+.a.far-images::after, 
+.b.far-images::before { content: url("/sprites/regular.svg#images"); }
+summary.far-images::marker { content: url("/sprites/regular.svg#images"); }
+
+.i.far-keyboard { background-image: url("/sprites/regular.svg#keyboard"); }
+dt.far-keyboard, 
+dd.far-keyboard, 
+li.far-keyboard { list-style-image: url("/sprites/regular.svg#keyboard"); }
+i:not(.a).far-keyboard::before, 
+.a.far-keyboard::after, 
+.b.far-keyboard::before { content: url("/sprites/regular.svg#keyboard"); }
+summary.far-keyboard::marker { content: url("/sprites/regular.svg#keyboard"); }
+
+.i.far-kiss { background-image: url("/sprites/regular.svg#kiss"); }
+dt.far-kiss, 
+dd.far-kiss, 
+li.far-kiss { list-style-image: url("/sprites/regular.svg#kiss"); }
+i:not(.a).far-kiss::before, 
+.a.far-kiss::after, 
+.b.far-kiss::before { content: url("/sprites/regular.svg#kiss"); }
+summary.far-kiss::marker { content: url("/sprites/regular.svg#kiss"); }
+
+.i.far-kiss-beam { background-image: url("/sprites/regular.svg#kiss-beam"); }
+dt.far-kiss-beam, 
+dd.far-kiss-beam, 
+li.far-kiss-beam { list-style-image: url("/sprites/regular.svg#kiss-beam"); }
+i:not(.a).far-kiss-beam::before, 
+.a.far-kiss-beam::after, 
+.b.far-kiss-beam::before { content: url("/sprites/regular.svg#kiss-beam"); }
+summary.far-kiss-beam::marker { content: url("/sprites/regular.svg#kiss-beam"); }
+
+.i.far-kiss-wink-heart { background-image: url("/sprites/regular.svg#kiss-wink-heart"); }
+dt.far-kiss-wink-heart, 
+dd.far-kiss-wink-heart, 
+li.far-kiss-wink-heart { list-style-image: url("/sprites/regular.svg#kiss-wink-heart"); }
+i:not(.a).far-kiss-wink-heart::before, 
+.a.far-kiss-wink-heart::after, 
+.b.far-kiss-wink-heart::before { content: url("/sprites/regular.svg#kiss-wink-heart"); }
+summary.far-kiss-wink-heart::marker { content: url("/sprites/regular.svg#kiss-wink-heart"); }
+
+.i.far-laugh { background-image: url("/sprites/regular.svg#laugh"); }
+dt.far-laugh, 
+dd.far-laugh, 
+li.far-laugh { list-style-image: url("/sprites/regular.svg#laugh"); }
+i:not(.a).far-laugh::before, 
+.a.far-laugh::after, 
+.b.far-laugh::before { content: url("/sprites/regular.svg#laugh"); }
+summary.far-laugh::marker { content: url("/sprites/regular.svg#laugh"); }
+
+.i.far-laugh-beam { background-image: url("/sprites/regular.svg#laugh-beam"); }
+dt.far-laugh-beam, 
+dd.far-laugh-beam, 
+li.far-laugh-beam { list-style-image: url("/sprites/regular.svg#laugh-beam"); }
+i:not(.a).far-laugh-beam::before, 
+.a.far-laugh-beam::after, 
+.b.far-laugh-beam::before { content: url("/sprites/regular.svg#laugh-beam"); }
+summary.far-laugh-beam::marker { content: url("/sprites/regular.svg#laugh-beam"); }
+
+.i.far-laugh-squint { background-image: url("/sprites/regular.svg#laugh-squint"); }
+dt.far-laugh-squint, 
+dd.far-laugh-squint, 
+li.far-laugh-squint { list-style-image: url("/sprites/regular.svg#laugh-squint"); }
+i:not(.a).far-laugh-squint::before, 
+.a.far-laugh-squint::after, 
+.b.far-laugh-squint::before { content: url("/sprites/regular.svg#laugh-squint"); }
+summary.far-laugh-squint::marker { content: url("/sprites/regular.svg#laugh-squint"); }
+
+.i.far-laugh-wink { background-image: url("/sprites/regular.svg#laugh-wink"); }
+dt.far-laugh-wink, 
+dd.far-laugh-wink, 
+li.far-laugh-wink { list-style-image: url("/sprites/regular.svg#laugh-wink"); }
+i:not(.a).far-laugh-wink::before, 
+.a.far-laugh-wink::after, 
+.b.far-laugh-wink::before { content: url("/sprites/regular.svg#laugh-wink"); }
+summary.far-laugh-wink::marker { content: url("/sprites/regular.svg#laugh-wink"); }
+
+.i.far-lemon { background-image: url("/sprites/regular.svg#lemon"); }
+dt.far-lemon, 
+dd.far-lemon, 
+li.far-lemon { list-style-image: url("/sprites/regular.svg#lemon"); }
+i:not(.a).far-lemon::before, 
+.a.far-lemon::after, 
+.b.far-lemon::before { content: url("/sprites/regular.svg#lemon"); }
+summary.far-lemon::marker { content: url("/sprites/regular.svg#lemon"); }
+
+.i.far-life-ring { background-image: url("/sprites/regular.svg#life-ring"); }
+dt.far-life-ring, 
+dd.far-life-ring, 
+li.far-life-ring { list-style-image: url("/sprites/regular.svg#life-ring"); }
+i:not(.a).far-life-ring::before, 
+.a.far-life-ring::after, 
+.b.far-life-ring::before { content: url("/sprites/regular.svg#life-ring"); }
+summary.far-life-ring::marker { content: url("/sprites/regular.svg#life-ring"); }
+
+.i.far-lightbulb { background-image: url("/sprites/regular.svg#lightbulb"); }
+dt.far-lightbulb, 
+dd.far-lightbulb, 
+li.far-lightbulb { list-style-image: url("/sprites/regular.svg#lightbulb"); }
+i:not(.a).far-lightbulb::before, 
+.a.far-lightbulb::after, 
+.b.far-lightbulb::before { content: url("/sprites/regular.svg#lightbulb"); }
+summary.far-lightbulb::marker { content: url("/sprites/regular.svg#lightbulb"); }
+
+.i.far-list-alt { background-image: url("/sprites/regular.svg#list-alt"); }
+dt.far-list-alt, 
+dd.far-list-alt, 
+li.far-list-alt { list-style-image: url("/sprites/regular.svg#list-alt"); }
+i:not(.a).far-list-alt::before, 
+.a.far-list-alt::after, 
+.b.far-list-alt::before { content: url("/sprites/regular.svg#list-alt"); }
+summary.far-list-alt::marker { content: url("/sprites/regular.svg#list-alt"); }
+
+.i.far-map { background-image: url("/sprites/regular.svg#map"); }
+dt.far-map, 
+dd.far-map, 
+li.far-map { list-style-image: url("/sprites/regular.svg#map"); }
+i:not(.a).far-map::before, 
+.a.far-map::after, 
+.b.far-map::before { content: url("/sprites/regular.svg#map"); }
+summary.far-map::marker { content: url("/sprites/regular.svg#map"); }
+
+.i.far-meh { background-image: url("/sprites/regular.svg#meh"); }
+dt.far-meh, 
+dd.far-meh, 
+li.far-meh { list-style-image: url("/sprites/regular.svg#meh"); }
+i:not(.a).far-meh::before, 
+.a.far-meh::after, 
+.b.far-meh::before { content: url("/sprites/regular.svg#meh"); }
+summary.far-meh::marker { content: url("/sprites/regular.svg#meh"); }
+
+.i.far-meh-blank { background-image: url("/sprites/regular.svg#meh-blank"); }
+dt.far-meh-blank, 
+dd.far-meh-blank, 
+li.far-meh-blank { list-style-image: url("/sprites/regular.svg#meh-blank"); }
+i:not(.a).far-meh-blank::before, 
+.a.far-meh-blank::after, 
+.b.far-meh-blank::before { content: url("/sprites/regular.svg#meh-blank"); }
+summary.far-meh-blank::marker { content: url("/sprites/regular.svg#meh-blank"); }
+
+.i.far-meh-rolling-eyes { background-image: url("/sprites/regular.svg#meh-rolling-eyes"); }
+dt.far-meh-rolling-eyes, 
+dd.far-meh-rolling-eyes, 
+li.far-meh-rolling-eyes { list-style-image: url("/sprites/regular.svg#meh-rolling-eyes"); }
+i:not(.a).far-meh-rolling-eyes::before, 
+.a.far-meh-rolling-eyes::after, 
+.b.far-meh-rolling-eyes::before { content: url("/sprites/regular.svg#meh-rolling-eyes"); }
+summary.far-meh-rolling-eyes::marker { content: url("/sprites/regular.svg#meh-rolling-eyes"); }
+
+.i.far-minus-square { background-image: url("/sprites/regular.svg#minus-square"); }
+dt.far-minus-square, 
+dd.far-minus-square, 
+li.far-minus-square { list-style-image: url("/sprites/regular.svg#minus-square"); }
+i:not(.a).far-minus-square::before, 
+.a.far-minus-square::after, 
+.b.far-minus-square::before { content: url("/sprites/regular.svg#minus-square"); }
+summary.far-minus-square::marker { content: url("/sprites/regular.svg#minus-square"); }
+
+.i.far-money-bill-alt { background-image: url("/sprites/regular.svg#money-bill-alt"); }
+dt.far-money-bill-alt, 
+dd.far-money-bill-alt, 
+li.far-money-bill-alt { list-style-image: url("/sprites/regular.svg#money-bill-alt"); }
+i:not(.a).far-money-bill-alt::before, 
+.a.far-money-bill-alt::after, 
+.b.far-money-bill-alt::before { content: url("/sprites/regular.svg#money-bill-alt"); }
+summary.far-money-bill-alt::marker { content: url("/sprites/regular.svg#money-bill-alt"); }
+
+.i.far-moon { background-image: url("/sprites/regular.svg#moon"); }
+dt.far-moon, 
+dd.far-moon, 
+li.far-moon { list-style-image: url("/sprites/regular.svg#moon"); }
+i:not(.a).far-moon::before, 
+.a.far-moon::after, 
+.b.far-moon::before { content: url("/sprites/regular.svg#moon"); }
+summary.far-moon::marker { content: url("/sprites/regular.svg#moon"); }
+
+.i.far-newspaper { background-image: url("/sprites/regular.svg#newspaper"); }
+dt.far-newspaper, 
+dd.far-newspaper, 
+li.far-newspaper { list-style-image: url("/sprites/regular.svg#newspaper"); }
+i:not(.a).far-newspaper::before, 
+.a.far-newspaper::after, 
+.b.far-newspaper::before { content: url("/sprites/regular.svg#newspaper"); }
+summary.far-newspaper::marker { content: url("/sprites/regular.svg#newspaper"); }
+
+.i.far-object-group { background-image: url("/sprites/regular.svg#object-group"); }
+dt.far-object-group, 
+dd.far-object-group, 
+li.far-object-group { list-style-image: url("/sprites/regular.svg#object-group"); }
+i:not(.a).far-object-group::before, 
+.a.far-object-group::after, 
+.b.far-object-group::before { content: url("/sprites/regular.svg#object-group"); }
+summary.far-object-group::marker { content: url("/sprites/regular.svg#object-group"); }
+
+.i.far-object-ungroup { background-image: url("/sprites/regular.svg#object-ungroup"); }
+dt.far-object-ungroup, 
+dd.far-object-ungroup, 
+li.far-object-ungroup { list-style-image: url("/sprites/regular.svg#object-ungroup"); }
+i:not(.a).far-object-ungroup::before, 
+.a.far-object-ungroup::after, 
+.b.far-object-ungroup::before { content: url("/sprites/regular.svg#object-ungroup"); }
+summary.far-object-ungroup::marker { content: url("/sprites/regular.svg#object-ungroup"); }
+
+.i.far-paper-plane { background-image: url("/sprites/regular.svg#paper-plane"); }
+dt.far-paper-plane, 
+dd.far-paper-plane, 
+li.far-paper-plane { list-style-image: url("/sprites/regular.svg#paper-plane"); }
+i:not(.a).far-paper-plane::before, 
+.a.far-paper-plane::after, 
+.b.far-paper-plane::before { content: url("/sprites/regular.svg#paper-plane"); }
+summary.far-paper-plane::marker { content: url("/sprites/regular.svg#paper-plane"); }
+
+.i.far-pause-circle { background-image: url("/sprites/regular.svg#pause-circle"); }
+dt.far-pause-circle, 
+dd.far-pause-circle, 
+li.far-pause-circle { list-style-image: url("/sprites/regular.svg#pause-circle"); }
+i:not(.a).far-pause-circle::before, 
+.a.far-pause-circle::after, 
+.b.far-pause-circle::before { content: url("/sprites/regular.svg#pause-circle"); }
+summary.far-pause-circle::marker { content: url("/sprites/regular.svg#pause-circle"); }
+
+.i.far-play-circle { background-image: url("/sprites/regular.svg#play-circle"); }
+dt.far-play-circle, 
+dd.far-play-circle, 
+li.far-play-circle { list-style-image: url("/sprites/regular.svg#play-circle"); }
+i:not(.a).far-play-circle::before, 
+.a.far-play-circle::after, 
+.b.far-play-circle::before { content: url("/sprites/regular.svg#play-circle"); }
+summary.far-play-circle::marker { content: url("/sprites/regular.svg#play-circle"); }
+
+.i.far-plus-square { background-image: url("/sprites/regular.svg#plus-square"); }
+dt.far-plus-square, 
+dd.far-plus-square, 
+li.far-plus-square { list-style-image: url("/sprites/regular.svg#plus-square"); }
+i:not(.a).far-plus-square::before, 
+.a.far-plus-square::after, 
+.b.far-plus-square::before { content: url("/sprites/regular.svg#plus-square"); }
+summary.far-plus-square::marker { content: url("/sprites/regular.svg#plus-square"); }
+
+.i.far-question-circle { background-image: url("/sprites/regular.svg#question-circle"); }
+dt.far-question-circle, 
+dd.far-question-circle, 
+li.far-question-circle { list-style-image: url("/sprites/regular.svg#question-circle"); }
+i:not(.a).far-question-circle::before, 
+.a.far-question-circle::after, 
+.b.far-question-circle::before { content: url("/sprites/regular.svg#question-circle"); }
+summary.far-question-circle::marker { content: url("/sprites/regular.svg#question-circle"); }
+
+.i.far-registered { background-image: url("/sprites/regular.svg#registered"); }
+dt.far-registered, 
+dd.far-registered, 
+li.far-registered { list-style-image: url("/sprites/regular.svg#registered"); }
+i:not(.a).far-registered::before, 
+.a.far-registered::after, 
+.b.far-registered::before { content: url("/sprites/regular.svg#registered"); }
+summary.far-registered::marker { content: url("/sprites/regular.svg#registered"); }
+
+.i.far-sad-cry { background-image: url("/sprites/regular.svg#sad-cry"); }
+dt.far-sad-cry, 
+dd.far-sad-cry, 
+li.far-sad-cry { list-style-image: url("/sprites/regular.svg#sad-cry"); }
+i:not(.a).far-sad-cry::before, 
+.a.far-sad-cry::after, 
+.b.far-sad-cry::before { content: url("/sprites/regular.svg#sad-cry"); }
+summary.far-sad-cry::marker { content: url("/sprites/regular.svg#sad-cry"); }
+
+.i.far-sad-tear { background-image: url("/sprites/regular.svg#sad-tear"); }
+dt.far-sad-tear, 
+dd.far-sad-tear, 
+li.far-sad-tear { list-style-image: url("/sprites/regular.svg#sad-tear"); }
+i:not(.a).far-sad-tear::before, 
+.a.far-sad-tear::after, 
+.b.far-sad-tear::before { content: url("/sprites/regular.svg#sad-tear"); }
+summary.far-sad-tear::marker { content: url("/sprites/regular.svg#sad-tear"); }
+
+.i.far-save { background-image: url("/sprites/regular.svg#save"); }
+dt.far-save, 
+dd.far-save, 
+li.far-save { list-style-image: url("/sprites/regular.svg#save"); }
+i:not(.a).far-save::before, 
+.a.far-save::after, 
+.b.far-save::before { content: url("/sprites/regular.svg#save"); }
+summary.far-save::marker { content: url("/sprites/regular.svg#save"); }
+
+.i.far-share-square { background-image: url("/sprites/regular.svg#share-square"); }
+dt.far-share-square, 
+dd.far-share-square, 
+li.far-share-square { list-style-image: url("/sprites/regular.svg#share-square"); }
+i:not(.a).far-share-square::before, 
+.a.far-share-square::after, 
+.b.far-share-square::before { content: url("/sprites/regular.svg#share-square"); }
+summary.far-share-square::marker { content: url("/sprites/regular.svg#share-square"); }
+
+.i.far-smile { background-image: url("/sprites/regular.svg#smile"); }
+dt.far-smile, 
+dd.far-smile, 
+li.far-smile { list-style-image: url("/sprites/regular.svg#smile"); }
+i:not(.a).far-smile::before, 
+.a.far-smile::after, 
+.b.far-smile::before { content: url("/sprites/regular.svg#smile"); }
+summary.far-smile::marker { content: url("/sprites/regular.svg#smile"); }
+
+.i.far-smile-beam { background-image: url("/sprites/regular.svg#smile-beam"); }
+dt.far-smile-beam, 
+dd.far-smile-beam, 
+li.far-smile-beam { list-style-image: url("/sprites/regular.svg#smile-beam"); }
+i:not(.a).far-smile-beam::before, 
+.a.far-smile-beam::after, 
+.b.far-smile-beam::before { content: url("/sprites/regular.svg#smile-beam"); }
+summary.far-smile-beam::marker { content: url("/sprites/regular.svg#smile-beam"); }
+
+.i.far-smile-wink { background-image: url("/sprites/regular.svg#smile-wink"); }
+dt.far-smile-wink, 
+dd.far-smile-wink, 
+li.far-smile-wink { list-style-image: url("/sprites/regular.svg#smile-wink"); }
+i:not(.a).far-smile-wink::before, 
+.a.far-smile-wink::after, 
+.b.far-smile-wink::before { content: url("/sprites/regular.svg#smile-wink"); }
+summary.far-smile-wink::marker { content: url("/sprites/regular.svg#smile-wink"); }
+
+.i.far-snowflake { background-image: url("/sprites/regular.svg#snowflake"); }
+dt.far-snowflake, 
+dd.far-snowflake, 
+li.far-snowflake { list-style-image: url("/sprites/regular.svg#snowflake"); }
+i:not(.a).far-snowflake::before, 
+.a.far-snowflake::after, 
+.b.far-snowflake::before { content: url("/sprites/regular.svg#snowflake"); }
+summary.far-snowflake::marker { content: url("/sprites/regular.svg#snowflake"); }
+
+.i.far-square { background-image: url("/sprites/regular.svg#square"); }
+dt.far-square, 
+dd.far-square, 
+li.far-square { list-style-image: url("/sprites/regular.svg#square"); }
+i:not(.a).far-square::before, 
+.a.far-square::after, 
+.b.far-square::before { content: url("/sprites/regular.svg#square"); }
+summary.far-square::marker { content: url("/sprites/regular.svg#square"); }
+
+.i.far-star { background-image: url("/sprites/regular.svg#star"); }
+dt.far-star, 
+dd.far-star, 
+li.far-star { list-style-image: url("/sprites/regular.svg#star"); }
+i:not(.a).far-star::before, 
+.a.far-star::after, 
+.b.far-star::before { content: url("/sprites/regular.svg#star"); }
+summary.far-star::marker { content: url("/sprites/regular.svg#star"); }
+
+.i.far-star-half { background-image: url("/sprites/regular.svg#star-half"); }
+dt.far-star-half, 
+dd.far-star-half, 
+li.far-star-half { list-style-image: url("/sprites/regular.svg#star-half"); }
+i:not(.a).far-star-half::before, 
+.a.far-star-half::after, 
+.b.far-star-half::before { content: url("/sprites/regular.svg#star-half"); }
+summary.far-star-half::marker { content: url("/sprites/regular.svg#star-half"); }
+
+.i.far-sticky-note { background-image: url("/sprites/regular.svg#sticky-note"); }
+dt.far-sticky-note, 
+dd.far-sticky-note, 
+li.far-sticky-note { list-style-image: url("/sprites/regular.svg#sticky-note"); }
+i:not(.a).far-sticky-note::before, 
+.a.far-sticky-note::after, 
+.b.far-sticky-note::before { content: url("/sprites/regular.svg#sticky-note"); }
+summary.far-sticky-note::marker { content: url("/sprites/regular.svg#sticky-note"); }
+
+.i.far-stop-circle { background-image: url("/sprites/regular.svg#stop-circle"); }
+dt.far-stop-circle, 
+dd.far-stop-circle, 
+li.far-stop-circle { list-style-image: url("/sprites/regular.svg#stop-circle"); }
+i:not(.a).far-stop-circle::before, 
+.a.far-stop-circle::after, 
+.b.far-stop-circle::before { content: url("/sprites/regular.svg#stop-circle"); }
+summary.far-stop-circle::marker { content: url("/sprites/regular.svg#stop-circle"); }
+
+.i.far-sun { background-image: url("/sprites/regular.svg#sun"); }
+dt.far-sun, 
+dd.far-sun, 
+li.far-sun { list-style-image: url("/sprites/regular.svg#sun"); }
+i:not(.a).far-sun::before, 
+.a.far-sun::after, 
+.b.far-sun::before { content: url("/sprites/regular.svg#sun"); }
+summary.far-sun::marker { content: url("/sprites/regular.svg#sun"); }
+
+.i.far-surprise { background-image: url("/sprites/regular.svg#surprise"); }
+dt.far-surprise, 
+dd.far-surprise, 
+li.far-surprise { list-style-image: url("/sprites/regular.svg#surprise"); }
+i:not(.a).far-surprise::before, 
+.a.far-surprise::after, 
+.b.far-surprise::before { content: url("/sprites/regular.svg#surprise"); }
+summary.far-surprise::marker { content: url("/sprites/regular.svg#surprise"); }
+
+.i.far-thumbs-down { background-image: url("/sprites/regular.svg#thumbs-down"); }
+dt.far-thumbs-down, 
+dd.far-thumbs-down, 
+li.far-thumbs-down { list-style-image: url("/sprites/regular.svg#thumbs-down"); }
+i:not(.a).far-thumbs-down::before, 
+.a.far-thumbs-down::after, 
+.b.far-thumbs-down::before { content: url("/sprites/regular.svg#thumbs-down"); }
+summary.far-thumbs-down::marker { content: url("/sprites/regular.svg#thumbs-down"); }
+
+.i.far-thumbs-up { background-image: url("/sprites/regular.svg#thumbs-up"); }
+dt.far-thumbs-up, 
+dd.far-thumbs-up, 
+li.far-thumbs-up { list-style-image: url("/sprites/regular.svg#thumbs-up"); }
+i:not(.a).far-thumbs-up::before, 
+.a.far-thumbs-up::after, 
+.b.far-thumbs-up::before { content: url("/sprites/regular.svg#thumbs-up"); }
+summary.far-thumbs-up::marker { content: url("/sprites/regular.svg#thumbs-up"); }
+
+.i.far-times-circle { background-image: url("/sprites/regular.svg#times-circle"); }
+dt.far-times-circle, 
+dd.far-times-circle, 
+li.far-times-circle { list-style-image: url("/sprites/regular.svg#times-circle"); }
+i:not(.a).far-times-circle::before, 
+.a.far-times-circle::after, 
+.b.far-times-circle::before { content: url("/sprites/regular.svg#times-circle"); }
+summary.far-times-circle::marker { content: url("/sprites/regular.svg#times-circle"); }
+
+.i.far-tired { background-image: url("/sprites/regular.svg#tired"); }
+dt.far-tired, 
+dd.far-tired, 
+li.far-tired { list-style-image: url("/sprites/regular.svg#tired"); }
+i:not(.a).far-tired::before, 
+.a.far-tired::after, 
+.b.far-tired::before { content: url("/sprites/regular.svg#tired"); }
+summary.far-tired::marker { content: url("/sprites/regular.svg#tired"); }
+
+.i.far-trash-alt { background-image: url("/sprites/regular.svg#trash-alt"); }
+dt.far-trash-alt, 
+dd.far-trash-alt, 
+li.far-trash-alt { list-style-image: url("/sprites/regular.svg#trash-alt"); }
+i:not(.a).far-trash-alt::before, 
+.a.far-trash-alt::after, 
+.b.far-trash-alt::before { content: url("/sprites/regular.svg#trash-alt"); }
+summary.far-trash-alt::marker { content: url("/sprites/regular.svg#trash-alt"); }
+
+.i.far-user { background-image: url("/sprites/regular.svg#user"); }
+dt.far-user, 
+dd.far-user, 
+li.far-user { list-style-image: url("/sprites/regular.svg#user"); }
+i:not(.a).far-user::before, 
+.a.far-user::after, 
+.b.far-user::before { content: url("/sprites/regular.svg#user"); }
+summary.far-user::marker { content: url("/sprites/regular.svg#user"); }
+
+.i.far-user-circle { background-image: url("/sprites/regular.svg#user-circle"); }
+dt.far-user-circle, 
+dd.far-user-circle, 
+li.far-user-circle { list-style-image: url("/sprites/regular.svg#user-circle"); }
+i:not(.a).far-user-circle::before, 
+.a.far-user-circle::after, 
+.b.far-user-circle::before { content: url("/sprites/regular.svg#user-circle"); }
+summary.far-user-circle::marker { content: url("/sprites/regular.svg#user-circle"); }
+
+.i.far-window-close { background-image: url("/sprites/regular.svg#window-close"); }
+dt.far-window-close, 
+dd.far-window-close, 
+li.far-window-close { list-style-image: url("/sprites/regular.svg#window-close"); }
+i:not(.a).far-window-close::before, 
+.a.far-window-close::after, 
+.b.far-window-close::before { content: url("/sprites/regular.svg#window-close"); }
+summary.far-window-close::marker { content: url("/sprites/regular.svg#window-close"); }
+
+.i.far-window-maximize { background-image: url("/sprites/regular.svg#window-maximize"); }
+dt.far-window-maximize, 
+dd.far-window-maximize, 
+li.far-window-maximize { list-style-image: url("/sprites/regular.svg#window-maximize"); }
+i:not(.a).far-window-maximize::before, 
+.a.far-window-maximize::after, 
+.b.far-window-maximize::before { content: url("/sprites/regular.svg#window-maximize"); }
+summary.far-window-maximize::marker { content: url("/sprites/regular.svg#window-maximize"); }
+
+.i.far-window-minimize { background-image: url("/sprites/regular.svg#window-minimize"); }
+dt.far-window-minimize, 
+dd.far-window-minimize, 
+li.far-window-minimize { list-style-image: url("/sprites/regular.svg#window-minimize"); }
+i:not(.a).far-window-minimize::before, 
+.a.far-window-minimize::after, 
+.b.far-window-minimize::before { content: url("/sprites/regular.svg#window-minimize"); }
+summary.far-window-minimize::marker { content: url("/sprites/regular.svg#window-minimize"); }
+
+.i.far-window-restore { background-image: url("/sprites/regular.svg#window-restore"); }
+dt.far-window-restore, 
+dd.far-window-restore, 
+li.far-window-restore { list-style-image: url("/sprites/regular.svg#window-restore"); }
+i:not(.a).far-window-restore::before, 
+.a.far-window-restore::after, 
+.b.far-window-restore::before { content: url("/sprites/regular.svg#window-restore"); }
+summary.far-window-restore::marker { content: url("/sprites/regular.svg#window-restore"); }
