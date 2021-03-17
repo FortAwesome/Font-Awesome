@@ -320,6 +320,9 @@ svg:not(:root).svg-inline--fa {
   height: 2em;
   width: 2.5em; }
 
+.svg-symbol--fa {
+  display: none; }
+
 .fa-inverse {
   color: #fff; }
 
