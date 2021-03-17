@@ -10,12 +10,12 @@ a new CDN.
 Not familiar with Font Awesome 5? [Learn
 more](https://www.kickstarter.com/projects/232193852/font-awesome-5) about our
 successful Kickstarter and plan. You can also **[order Font Awesome
-Pro](https://fontawesome.com/pro)** which includes tons more icons directly
+Pro](https://fontawesome.com/pro)** which includes tons of more icons directly
 from [fontawesome.com](https://fontawesome.com).
 
 ## Documentation
 
-Learn how to get started with Font Awesome and then dive deeper into other and advanced topics:
+Learn how to get started with Font Awesome and then dive deeper into other advanced topics:
 
 ### Using Font Awesome on the Web
 
@@ -122,7 +122,7 @@ files normally.
 
 We've kept attribution comments terse, so we ask that you do not actively work
 to remove them from files, especially code. They're a great way for folks to
-learn about Font Awesome.
+learn more about Font Awesome.
 
 ## Team
 * [Dave Gandy](https://github.com/davegandy)
