@@ -10,7 +10,7 @@ a new CDN.
 Not familiar with Font Awesome 5? [Learn
 more](https://www.kickstarter.com/projects/232193852/font-awesome-5) about our
 successful Kickstarter and plan. You can also **[order Font Awesome
-Pro](https://fontawesome.com/pro)** which includes tons more icons directly
+Pro](https://fontawesome.com/pro)** which includes tons of  icons directly
 from [fontawesome.com](https://fontawesome.com).
 
 ## Documentation
@@ -67,7 +67,7 @@ Looking for older versions of Font Awesome? Check the [releases](https://github.
 
 ## Upgrading
 
-From time-to-time we'll have special upgrading instructions from one version to the next.
+From time-to-time, we'll have special upgrading instructions from one version to the next.
 
 Check out the [UPGRADING.md](./UPGRADING.md) guide when you upgrade your dependencies.
 
@@ -105,8 +105,8 @@ we deviate from normal SemVer in the following ways:**
 
 ## License
 
-Font Awesome Free is free, open source, and GPL friendly. You can use it for
-commercial projects, open source projects, or really almost whatever you want.
+Font Awesome Free is a free, open-source, and GPL friendly. You can use it for
+commercial projects, open-source projects, or almost whatever you want.
 
 - Icons — CC BY 4.0 License
   - In the Font Awesome Free download, the CC BY 4.0 license applies to all icons packaged as .svg and .js files types.
