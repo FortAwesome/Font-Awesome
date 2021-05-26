@@ -1,5 +1,6 @@
 // List Icons
 // -------------------------
+@use 'sass:math';
 
 .#{$fa-css-prefix}-ul {
   list-style-type: none;
