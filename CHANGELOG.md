@@ -10,6 +10,22 @@ not have access**
 
 ---
 
+## [5.15.4](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.4) - 2021-08-04
+
+### Changed
+
+* Removed the tripadvisor brand icon by request of Tripadvisor
+* Update bug, bullseye, drone, icons FortAwesome/Font-Awesome#17800 FortAwesome/Font-Awesome#17106 FortAwesome/Font-Awesome#17730
+* Update bootstrap, discord, figma, and font-awesome-* brand icons FortAwesome/Font-Awesome#17436
+
+### Fixed
+
+* Made font-family matching case-insensitive for SVG + JavaScript version of Font Awesome FortAwesome/Font-Awesome#17860
+* Corrected missing version hospital-user FortAwesome/Font-Awesome#17435
+* Removed useless .tgz file in @fortawesome/fontawesome-pro and all @fortawesome/pro-*-svg-icons
+
+---
+
 ## [5.15.3](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.3) - 2021-03-16
 
 ### Changed
