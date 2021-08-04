@@ -8,6 +8,12 @@ As always, [submit issues](https://github.com/FortAwesome/Font-Awesome/issues/ne
 
 ---
 
+## 5.15.3 to 5.15.4
+
+The tripadvisor brand icon has been removed by legal request of Tripadvisor.
+
+---
+
 ## 5.15.2 to 5.15.3
 
 There are no breaking changes in this version upgrade.

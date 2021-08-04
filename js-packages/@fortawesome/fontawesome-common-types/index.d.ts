@@ -413,7 +413,6 @@ export type IconName = '500px' |
   'tiktok' | 
   'trade-federation' | 
   'trello' | 
-  'tripadvisor' | 
   'tumblr' | 
   'tumblr-square' | 
   'twitch' | 
