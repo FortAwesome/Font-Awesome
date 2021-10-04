@@ -1,4 +1,4 @@
-<h1><img src="https://img.fortawesome.com/349cfdf6/logo-fa-free.svg" alt="Font Awesome 5 Free" width="50%"></h1>
+<h1><img src="https://img.fortawesome.com/349cfdf6/fa-free-logo.svg" alt="Font Awesome Free" width="50%"></h1>
 
 > Version 5 – the iconic SVG, font, and CSS framework
 
@@ -131,8 +131,10 @@ learn about Font Awesome.
 * [Brian Talbot](https://github.com/talbs)
 * [Jory Raphael](https://github.com/sensibleworld)
 * [Mike Wilkerson](https://github.com/mlwilkerson)
+* [Frances Botsford](https://github.com/frrrances)
 * [Trevor Chase](https://github.com/trevorchase)
 * [Jason Lundien](https://github.com/jasonlundien)
 * [Jason Otero](https://github.com/deathnfudge)
 * [Edward Emanuel](https://github.com/ej2)
+* [Kelsey Robinson](https://github.com/mlwilkerson)
 * [Geremia Taglialatela](https://github.com/tagliala)
