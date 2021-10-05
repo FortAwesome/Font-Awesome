@@ -136,5 +136,5 @@ learn about Font Awesome.
 * [Jason Lundien](https://github.com/jasonlundien)
 * [Jason Otero](https://github.com/deathnfudge)
 * [Edward Emanuel](https://github.com/ej2)
-* [Kelsey Robinson](https://github.com/mlwilkerson)
+* [Kelsey Jackson](https://github.com/kelseythejackson)
 * [Geremia Taglialatela](https://github.com/tagliala)
