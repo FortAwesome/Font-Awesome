@@ -9,7 +9,7 @@ $fa-version:           "5.15.4" !default;
 $fa-border-color:      #eee !default;
 $fa-inverse:           #fff !default;
 $fa-li-width:          2em !default;
-$fa-fw-width:          (20em / 16);
+$fa-fw-width:          calc(20em / 16);
 $fa-primary-opacity:   1 !default;
 $fa-secondary-opacity: .4 !default;
 
