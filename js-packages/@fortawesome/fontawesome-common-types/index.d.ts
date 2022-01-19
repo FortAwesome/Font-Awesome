@@ -1,4 +1,4 @@
-export type IconPrefix = "fas" | "fab" | "far" | "fal" | "fad";
+export type IconPrefix = "fas" | "fab" | "far" | "fal" | "fad" | string;
 export type IconPathData = string | string[]
 
 export interface IconLookup {
@@ -1631,4 +1631,5 @@ export type IconName = '500px' |
   'wrench' | 
   'x-ray' | 
   'yen-sign' | 
-  'yin-yang';
+  'yin-yang' |
+  string;
