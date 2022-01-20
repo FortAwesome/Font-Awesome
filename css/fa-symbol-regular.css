@@ -1,0 +1,172 @@
+/**
+ * @project	Font Awesome
+ * @package	Regular Free
+ * @version	5.9.0
+ * @author	Fort Awesome (@fontawesome)
+ * @url	https://fontawesome.com
+ * @license	MIT (CSS code, graphics: CC-BY 4.0)
+ * @see	https://fontawesome.com/license/free
+ * @namespace	far
+ */
+
+.i[class|="far"], .i.fa, .i.far { background-image: var(--fa-symbol); }
+dt[class|="far"], dt.fa, dt.far, 
+dd[class|="far"], dd.fa, dd.far, 
+li[class|="far"], li.fa, li.far { list-style-image: var(--fa-symbol); }
+i:not(.a).fa::before, i:not(.a).far::before, 
+.a[class|="far"]::after,  .a.fa::after,  .a.far::after, 
+.b[class|="far"]::before, .b.fa::before, .b.far::before { content: var(--fa-symbol); }
+summary.fa::marker, summary.far::marker { content: var(--fa-symbol); }
+
+.far-address-book { --fa-symbol: url("/sprites/regular.svg#address-book"); }
+.far-address-card { --fa-symbol: url("/sprites/regular.svg#address-card"); }
+.far-angry { --fa-symbol: url("/sprites/regular.svg#angry"); }
+.far-arrow-alt-circle-down { --fa-symbol: url("/sprites/regular.svg#arrow-alt-circle-down"); }
+.far-arrow-alt-circle-left { --fa-symbol: url("/sprites/regular.svg#arrow-alt-circle-left"); }
+.far-arrow-alt-circle-right { --fa-symbol: url("/sprites/regular.svg#arrow-alt-circle-right"); }
+.far-arrow-alt-circle-up { --fa-symbol: url("/sprites/regular.svg#arrow-alt-circle-up"); }
+.far-bell { --fa-symbol: url("/sprites/regular.svg#bell"); }
+.far-bell-slash { --fa-symbol: url("/sprites/regular.svg#bell-slash"); }
+.far-bookmark { --fa-symbol: url("/sprites/regular.svg#bookmark"); }
+.far-building { --fa-symbol: url("/sprites/regular.svg#building"); }
+.far-calendar { --fa-symbol: url("/sprites/regular.svg#calendar"); }
+.far-calendar-alt { --fa-symbol: url("/sprites/regular.svg#calendar-alt"); }
+.far-calendar-check { --fa-symbol: url("/sprites/regular.svg#calendar-check"); }
+.far-calendar-minus { --fa-symbol: url("/sprites/regular.svg#calendar-minus"); }
+.far-calendar-plus { --fa-symbol: url("/sprites/regular.svg#calendar-plus"); }
+.far-calendar-times { --fa-symbol: url("/sprites/regular.svg#calendar-times"); }
+.far-caret-square-down { --fa-symbol: url("/sprites/regular.svg#caret-square-down"); }
+.far-caret-square-left { --fa-symbol: url("/sprites/regular.svg#caret-square-left"); }
+.far-caret-square-right { --fa-symbol: url("/sprites/regular.svg#caret-square-right"); }
+.far-caret-square-up { --fa-symbol: url("/sprites/regular.svg#caret-square-up"); }
+.far-chart-bar { --fa-symbol: url("/sprites/regular.svg#chart-bar"); }
+.far-check-circle { --fa-symbol: url("/sprites/regular.svg#check-circle"); }
+.far-check-square { --fa-symbol: url("/sprites/regular.svg#check-square"); }
+.far-circle { --fa-symbol: url("/sprites/regular.svg#circle"); }
+.far-clipboard { --fa-symbol: url("/sprites/regular.svg#clipboard"); }
+.far-clock { --fa-symbol: url("/sprites/regular.svg#clock"); }
+.far-clone { --fa-symbol: url("/sprites/regular.svg#clone"); }
+.far-closed-captioning { --fa-symbol: url("/sprites/regular.svg#closed-captioning"); }
+.far-comment { --fa-symbol: url("/sprites/regular.svg#comment"); }
+.far-comment-alt { --fa-symbol: url("/sprites/regular.svg#comment-alt"); }
+.far-comment-dots { --fa-symbol: url("/sprites/regular.svg#comment-dots"); }
+.far-comments { --fa-symbol: url("/sprites/regular.svg#comments"); }
+.far-compass { --fa-symbol: url("/sprites/regular.svg#compass"); }
+.far-copy { --fa-symbol: url("/sprites/regular.svg#copy"); }
+.far-copyright { --fa-symbol: url("/sprites/regular.svg#copyright"); }
+.far-credit-card { --fa-symbol: url("/sprites/regular.svg#credit-card"); }
+.far-dizzy { --fa-symbol: url("/sprites/regular.svg#dizzy"); }
+.far-dot-circle { --fa-symbol: url("/sprites/regular.svg#dot-circle"); }
+.far-edit { --fa-symbol: url("/sprites/regular.svg#edit"); }
+.far-envelope { --fa-symbol: url("/sprites/regular.svg#envelope"); }
+.far-envelope-open { --fa-symbol: url("/sprites/regular.svg#envelope-open"); }
+.far-eye { --fa-symbol: url("/sprites/regular.svg#eye"); }
+.far-eye-slash { --fa-symbol: url("/sprites/regular.svg#eye-slash"); }
+.far-file { --fa-symbol: url("/sprites/regular.svg#file"); }
+.far-file-alt { --fa-symbol: url("/sprites/regular.svg#file-alt"); }
+.far-file-archive { --fa-symbol: url("/sprites/regular.svg#file-archive"); }
+.far-file-audio { --fa-symbol: url("/sprites/regular.svg#file-audio"); }
+.far-file-code { --fa-symbol: url("/sprites/regular.svg#file-code"); }
+.far-file-excel { --fa-symbol: url("/sprites/regular.svg#file-excel"); }
+.far-file-image { --fa-symbol: url("/sprites/regular.svg#file-image"); }
+.far-file-pdf { --fa-symbol: url("/sprites/regular.svg#file-pdf"); }
+.far-file-powerpoint { --fa-symbol: url("/sprites/regular.svg#file-powerpoint"); }
+.far-file-video { --fa-symbol: url("/sprites/regular.svg#file-video"); }
+.far-file-word { --fa-symbol: url("/sprites/regular.svg#file-word"); }
+.far-flag { --fa-symbol: url("/sprites/regular.svg#flag"); }
+.far-flushed { --fa-symbol: url("/sprites/regular.svg#flushed"); }
+.far-folder { --fa-symbol: url("/sprites/regular.svg#folder"); }
+.far-folder-open { --fa-symbol: url("/sprites/regular.svg#folder-open"); }
+.far-font-awesome-logo-full { --fa-symbol: url("/sprites/regular.svg#font-awesome-logo-full"); }
+.far-frown { --fa-symbol: url("/sprites/regular.svg#frown"); }
+.far-frown-open { --fa-symbol: url("/sprites/regular.svg#frown-open"); }
+.far-futbol { --fa-symbol: url("/sprites/regular.svg#futbol"); }
+.far-gem { --fa-symbol: url("/sprites/regular.svg#gem"); }
+.far-grimace { --fa-symbol: url("/sprites/regular.svg#grimace"); }
+.far-grin { --fa-symbol: url("/sprites/regular.svg#grin"); }
+.far-grin-alt { --fa-symbol: url("/sprites/regular.svg#grin-alt"); }
+.far-grin-beam { --fa-symbol: url("/sprites/regular.svg#grin-beam"); }
+.far-grin-beam-sweat { --fa-symbol: url("/sprites/regular.svg#grin-beam-sweat"); }
+.far-grin-hearts { --fa-symbol: url("/sprites/regular.svg#grin-hearts"); }
+.far-grin-squint { --fa-symbol: url("/sprites/regular.svg#grin-squint"); }
+.far-grin-squint-tears { --fa-symbol: url("/sprites/regular.svg#grin-squint-tears"); }
+.far-grin-stars { --fa-symbol: url("/sprites/regular.svg#grin-stars"); }
+.far-grin-tears { --fa-symbol: url("/sprites/regular.svg#grin-tears"); }
+.far-grin-tongue { --fa-symbol: url("/sprites/regular.svg#grin-tongue"); }
+.far-grin-tongue-squint { --fa-symbol: url("/sprites/regular.svg#grin-tongue-squint"); }
+.far-grin-tongue-wink { --fa-symbol: url("/sprites/regular.svg#grin-tongue-wink"); }
+.far-grin-wink { --fa-symbol: url("/sprites/regular.svg#grin-wink"); }
+.far-hand-lizard { --fa-symbol: url("/sprites/regular.svg#hand-lizard"); }
+.far-hand-paper { --fa-symbol: url("/sprites/regular.svg#hand-paper"); }
+.far-hand-peace { --fa-symbol: url("/sprites/regular.svg#hand-peace"); }
+.far-hand-point-down { --fa-symbol: url("/sprites/regular.svg#hand-point-down"); }
+.far-hand-point-left { --fa-symbol: url("/sprites/regular.svg#hand-point-left"); }
+.far-hand-point-right { --fa-symbol: url("/sprites/regular.svg#hand-point-right"); }
+.far-hand-point-up { --fa-symbol: url("/sprites/regular.svg#hand-point-up"); }
+.far-hand-pointer { --fa-symbol: url("/sprites/regular.svg#hand-pointer"); }
+.far-hand-rock { --fa-symbol: url("/sprites/regular.svg#hand-rock"); }
+.far-hand-scissors { --fa-symbol: url("/sprites/regular.svg#hand-scissors"); }
+.far-hand-spock { --fa-symbol: url("/sprites/regular.svg#hand-spock"); }
+.far-handshake { --fa-symbol: url("/sprites/regular.svg#handshake"); }
+.far-hdd { --fa-symbol: url("/sprites/regular.svg#hdd"); }
+.far-heart { --fa-symbol: url("/sprites/regular.svg#heart"); }
+.far-hospital { --fa-symbol: url("/sprites/regular.svg#hospital"); }
+.far-hourglass { --fa-symbol: url("/sprites/regular.svg#hourglass"); }
+.far-id-badge { --fa-symbol: url("/sprites/regular.svg#id-badge"); }
+.far-id-card { --fa-symbol: url("/sprites/regular.svg#id-card"); }
+.far-image { --fa-symbol: url("/sprites/regular.svg#image"); }
+.far-images { --fa-symbol: url("/sprites/regular.svg#images"); }
+.far-keyboard { --fa-symbol: url("/sprites/regular.svg#keyboard"); }
+.far-kiss { --fa-symbol: url("/sprites/regular.svg#kiss"); }
+.far-kiss-beam { --fa-symbol: url("/sprites/regular.svg#kiss-beam"); }
+.far-kiss-wink-heart { --fa-symbol: url("/sprites/regular.svg#kiss-wink-heart"); }
+.far-laugh { --fa-symbol: url("/sprites/regular.svg#laugh"); }
+.far-laugh-beam { --fa-symbol: url("/sprites/regular.svg#laugh-beam"); }
+.far-laugh-squint { --fa-symbol: url("/sprites/regular.svg#laugh-squint"); }
+.far-laugh-wink { --fa-symbol: url("/sprites/regular.svg#laugh-wink"); }
+.far-lemon { --fa-symbol: url("/sprites/regular.svg#lemon"); }
+.far-life-ring { --fa-symbol: url("/sprites/regular.svg#life-ring"); }
+.far-lightbulb { --fa-symbol: url("/sprites/regular.svg#lightbulb"); }
+.far-list-alt { --fa-symbol: url("/sprites/regular.svg#list-alt"); }
+.far-map { --fa-symbol: url("/sprites/regular.svg#map"); }
+.far-meh { --fa-symbol: url("/sprites/regular.svg#meh"); }
+.far-meh-blank { --fa-symbol: url("/sprites/regular.svg#meh-blank"); }
+.far-meh-rolling-eyes { --fa-symbol: url("/sprites/regular.svg#meh-rolling-eyes"); }
+.far-minus-square { --fa-symbol: url("/sprites/regular.svg#minus-square"); }
+.far-money-bill-alt { --fa-symbol: url("/sprites/regular.svg#money-bill-alt"); }
+.far-moon { --fa-symbol: url("/sprites/regular.svg#moon"); }
+.far-newspaper { --fa-symbol: url("/sprites/regular.svg#newspaper"); }
+.far-object-group { --fa-symbol: url("/sprites/regular.svg#object-group"); }
+.far-object-ungroup { --fa-symbol: url("/sprites/regular.svg#object-ungroup"); }
+.far-paper-plane { --fa-symbol: url("/sprites/regular.svg#paper-plane"); }
+.far-pause-circle { --fa-symbol: url("/sprites/regular.svg#pause-circle"); }
+.far-play-circle { --fa-symbol: url("/sprites/regular.svg#play-circle"); }
+.far-plus-square { --fa-symbol: url("/sprites/regular.svg#plus-square"); }
+.far-question-circle { --fa-symbol: url("/sprites/regular.svg#question-circle"); }
+.far-registered { --fa-symbol: url("/sprites/regular.svg#registered"); }
+.far-sad-cry { --fa-symbol: url("/sprites/regular.svg#sad-cry"); }
+.far-sad-tear { --fa-symbol: url("/sprites/regular.svg#sad-tear"); }
+.far-save { --fa-symbol: url("/sprites/regular.svg#save"); }
+.far-share-square { --fa-symbol: url("/sprites/regular.svg#share-square"); }
+.far-smile { --fa-symbol: url("/sprites/regular.svg#smile"); }
+.far-smile-beam { --fa-symbol: url("/sprites/regular.svg#smile-beam"); }
+.far-smile-wink { --fa-symbol: url("/sprites/regular.svg#smile-wink"); }
+.far-snowflake { --fa-symbol: url("/sprites/regular.svg#snowflake"); }
+.far-square { --fa-symbol: url("/sprites/regular.svg#square"); }
+.far-star { --fa-symbol: url("/sprites/regular.svg#star"); }
+.far-star-half { --fa-symbol: url("/sprites/regular.svg#star-half"); }
+.far-sticky-note { --fa-symbol: url("/sprites/regular.svg#sticky-note"); }
+.far-stop-circle { --fa-symbol: url("/sprites/regular.svg#stop-circle"); }
+.far-sun { --fa-symbol: url("/sprites/regular.svg#sun"); }
+.far-surprise { --fa-symbol: url("/sprites/regular.svg#surprise"); }
+.far-thumbs-down { --fa-symbol: url("/sprites/regular.svg#thumbs-down"); }
+.far-thumbs-up { --fa-symbol: url("/sprites/regular.svg#thumbs-up"); }
+.far-times-circle { --fa-symbol: url("/sprites/regular.svg#times-circle"); }
+.far-tired { --fa-symbol: url("/sprites/regular.svg#tired"); }
+.far-trash-alt { --fa-symbol: url("/sprites/regular.svg#trash-alt"); }
+.far-user { --fa-symbol: url("/sprites/regular.svg#user"); }
+.far-user-circle { --fa-symbol: url("/sprites/regular.svg#user-circle"); }
+.far-window-close { --fa-symbol: url("/sprites/regular.svg#window-close"); }
+.far-window-maximize { --fa-symbol: url("/sprites/regular.svg#window-maximize"); }
+.far-window-minimize { --fa-symbol: url("/sprites/regular.svg#window-minimize"); }
+.far-window-restore { --fa-symbol: url("/sprites/regular.svg#window-restore"); }
