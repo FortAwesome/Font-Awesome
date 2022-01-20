@@ -19,6 +19,7 @@ include:
 * Gracefully accepting constructive criticism
 * Focusing on what is best for the community
 * Showing empathy towards other community members
+* Welcoming devlopers to gain or devote knowledge.
 
 Examples of unacceptable behavior by participants include:
 
@@ -28,6 +29,7 @@ advances
 * Public or private harassment
 * Publishing others' private information, such as a physical or electronic
   address, without explicit permission
+* use of unacceptable commit text or username is also prohibted.
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
