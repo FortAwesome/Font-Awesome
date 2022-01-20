@@ -12,7 +12,7 @@ more](https://www.kickstarter.com/projects/232193852/font-awesome-5) about our
 successful Kickstarter and plan. You can also **[order Font Awesome
 Pro](https://fontawesome.com/pro)** which includes tons more icons directly
 from [fontawesome.com](https://fontawesome.com).
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" /> # font-awesome cdnjs
 ## Documentation
 
 Learn how to get started with Font Awesome and then dive deeper into other and advanced topics:
