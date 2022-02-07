@@ -1,0 +1,23 @@
+{
+  "name": "fortawesome/font-awesome",
+  "description": "The iconic font, CSS, and SVG framework",
+  "keywords": ["font", "awesome", "fontawesome", "icon", "svg", "font", "bootstrap"],
+  "homepage": "https://fontawesome.com",
+  "authors": [
+    {
+      "name": "The Font Awesome Team",
+      "homepage": "https://github.com/orgs/FortAwesome/people"
+    }
+  ],
+  "support": {
+    "email": "hello@fontawesome.com",
+    "issues": "https://github.com/FortAwesome/Font-Awesome/issues",
+    "source": "https://github.com/FortAwesome/Font-Awesome",
+    "docs": "http://fontawesome.com/docs"
+  },
+  "license": [
+    "CC-BY-4.0",
+    "OFL-1.1",
+    "MIT"
+  ]
+}
