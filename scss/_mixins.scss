@@ -1,0 +1,73 @@
+// mixins
+// --------------------------
+
+// base rendering for an icon
+@mixin fa-icon {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+// sets relative font-sizing and alignment (in _sizing)
+@mixin fa-size ($font-size) {
+  font-size: fa-divide($font-size, $fa-size-scale-base) * 1em; // converts step in sizing scale into an em-based value that's relative to the scale's base
+  line-height: fa-divide(1, $font-size) * 1em; // sets the line-height of the icon back to that of it's parent
+  vertical-align: (fa-divide(6, $font-size) - fa-divide(3, 8)) * 1em; // vertically centers the icon taking into account the surrounding text's descender
+}
+
+// only display content to screen readers
+// see: https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/
+// see: https://hugogiraudel.com/2016/10/13/css-hide-and-seek/
+@mixin fa-sr-only() {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+// use in conjunction with .sr-only to only display content when it's focused
+@mixin fa-sr-only-focusable() {
+  &:not(:focus) {
+    @include fa-sr-only();
+  }
+}
+
+// convenience mixins for declaring pseudo-elements by CSS variable,
+// including all style-specific font properties, and both the ::before
+// and ::after elements in the duotone case.
+@mixin fa-icon-solid($fa-var) {
+  @extend %fa-icon;
+  @extend .fa-solid;
+
+  &::before {
+    content: unquote("\"#{ $fa-var }\"");
+  }
+}
+
+@mixin fa-icon-regular($fa-var) {
+  @extend %fa-icon;
+  @extend .fa-regular;
+
+  &::before {
+    content: unquote("\"#{ $fa-var }\"");
+  }
+}
+
+@mixin fa-icon-brands($fa-var) {
+  @extend %fa-icon;
+  @extend .fa-brands;
+
+  &::before {
+    content: unquote("\"#{ $fa-var }\"");
+  }
+}
+

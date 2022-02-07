@@ -1,0 +1,19 @@
+// sizing icons
+// -------------------------
+
+// literal magnification scale
+.sizes-literal(@factor) when (@factor > 0) {
+  .sizes-literal((@factor - 1));
+
+  .@{fa-css-prefix}-@{factor}x {
+    font-size: (@factor * 1em);
+  }
+}
+.sizes-literal(10);
+
+// step-based scale (with alignment)
+each(.fa-sizes(), {
+  .@{fa-css-prefix}-@{key} {
+    .fa-size(@value);
+  }
+});
