@@ -20,6 +20,7 @@ A clear and concise description of any alternative solutions or features you've 
 Add any other context or screenshots about the feature request here.
 
 **Feature request checklist**
+<!-- Replace the space between the square brackets with an x when completed -->
 - [ ] This is a single feature (i.e. not a re-write of all of Font Awesome)
 - [ ] The title starts with "Feature request: " and is followed by a clear feature name (Ex: `Feature request: moar cowbell`)
 - [ ] I have [searched for existing issues](https://github.com/FortAwesome/Font-Awesome-Pro/issues) and to the best of my knowledge this is not a duplicate
