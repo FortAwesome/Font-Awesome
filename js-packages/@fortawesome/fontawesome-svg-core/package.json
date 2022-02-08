@@ -90,7 +90,8 @@
   },
   "sideEffects": [
     "./index.js",
-    "./index.es.js"
+    "./index.es.js",
+    "./styles.css"
   ],
   "scripts": {
     "postinstall": "node attribution.js"
