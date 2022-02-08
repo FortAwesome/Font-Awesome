@@ -24,13 +24,14 @@ If applicable, add screenshots to help explain your problem.
 **Version and implementation**
 Version: <!--- Give us the version number here -->
 Browser and version: <!--- If applicable give us the browser specs -->
-
+<!-- Replace the space between the square brackets with an x when completed -->
 - [ ] SVG with JS
 - [ ] Web Fonts with CSS
 - [ ] SVG Sprites
 - [ ] On the Desktop
 
 **Bug report checklist**
+<!-- Replace the space between the square brackets with an x when completed -->
 - [ ] I have filled out as much of the above information as I can
 - [ ] I have included a test case because my odds go _way_ up that the team can fix this when I do
 - [ ] I have [searched for existing issues](https://github.com/FortAwesome/Font-Awesome/issues) and to the best of my knowledge this is not a duplicate
