@@ -31,8 +31,8 @@ Looking for older versions of Font Awesome? Check the [releases](https://github.
 
 From time-to-time we'll have special upgrading instructions from one version to the next.
 
-- [Web upgrading guide](https://staging.fontawesome.com/docs/web/setup/upgrade/)
-- [Desktop upgrading guide](https://staging.fontawesome.com/docs/desktop/setup/upgrade/)
+- [Web upgrading guide](https://fontawesome.com/docs/web/setup/upgrade/)
+- [Desktop upgrading guide](https://fontawesome.com/docs/desktop/setup/upgrade/)
 
 ## Code of conduct
 
