@@ -15,7 +15,7 @@ const styles = [
 ]
 
 function importer ({references, state, babel, source, config}) {
-  const license = (config !== undefined ? config.license : 'free')
+  const license = ((config !== undefined && config.license !== undefined) ? config.license : 'free')
 
   if (!['free', 'pro'].includes(license)) {
     throw new Error(
