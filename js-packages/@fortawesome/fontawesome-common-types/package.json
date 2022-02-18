@@ -51,6 +51,7 @@
   "name": "@fortawesome/fontawesome-common-types",
   "license": "MIT",
   "types": "./index.d.ts",
+  "type": "module",
   "scripts": {
     "postinstall": "node attribution.js"
   }

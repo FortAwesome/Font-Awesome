@@ -52,6 +52,7 @@
   "main": "js/fontawesome.js",
   "style": "css/fontawesome.css",
   "license": "(CC-BY-4.0 AND OFL-1.1 AND MIT)",
+  "type": "module",
   "scripts": {
     "postinstall": "node attribution.js"
   }

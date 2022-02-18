@@ -92,6 +92,7 @@
     "./index.js",
     "./index.es.js"
   ],
+  "type": "module",
   "scripts": {
     "postinstall": "node attribution.js"
   }

@@ -75,6 +75,7 @@
     },
     "./*": "./*.js"
   },
+  "type": "module",
   "scripts": {
     "postinstall": "node attribution.js"
   }
