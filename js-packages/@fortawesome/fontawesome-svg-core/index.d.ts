@@ -20,9 +20,12 @@ export function icon(icon: IconName | IconLookup, params?: IconParams): Icon;
 export type IconProp = IconName | [IconPrefix, IconName] | IconLookup;
 export type FlipProp = "horizontal" | "vertical" | "both";
 export type SizeProp =
+  | "2xs"
   | "xs"
-  | "lg"
   | "sm"
+  | "lg"
+  | "xl"
+  | "2xl"
   | "1x"
   | "2x"
   | "3x"
