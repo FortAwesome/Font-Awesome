@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'fas';
+var iconName = 'helicopter-symbol';
+var width = 576;
+var height = 512;
+var aliases = [];
+var unicode = 'e502';
+var svgPathData = 'M320 66.66V1.985C435.8 16.42 527.6 108.2 542 224H477.3C463.9 143.6 400.4 80.15 320 66.66V66.66zM320 510V445.4C400.4 431.9 463.9 368.4 477.3 288H542C527.6 403.8 435.8 495.6 320 510V510zM33.98 288H98.65C112.1 368.4 175.6 431.9 256 445.4V510C140.2 495.6 48.42 403.8 33.98 288zM256 1.984V66.66C175.6 80.15 112.1 143.6 98.66 224H33.98C48.42 108.2 140.2 16.42 256 1.985V1.984zM240 224H336V160C336 142.3 350.3 128 368 128C385.7 128 400 142.3 400 160V352C400 369.7 385.7 384 368 384C350.3 384 336 369.7 336 352V288H240V352C240 369.7 225.7 384 208 384C190.3 384 176 369.7 176 352V160C176 142.3 190.3 128 208 128C225.7 128 240 142.3 240 160V224z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faHelicopterSymbol = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

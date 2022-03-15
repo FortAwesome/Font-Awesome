@@ -157,6 +157,8 @@ export const faFlag: IconDefinition;
 export const faFloppyDisk: IconDefinition;
 export const faSave: IconDefinition;
 export const faFolder: IconDefinition;
+export const faFolderBlank: IconDefinition;
+export const faFolderClosed: IconDefinition;
 export const faFolderOpen: IconDefinition;
 export const faFontAwesome: IconDefinition;
 export const faFontAwesomeFlag: IconDefinition;

@@ -8,17 +8,17 @@
 
 .#{$fa-css-prefix},
 .fas,
-.fa-solid,
+.#{$fa-css-prefix}-solid,
 .far,
-.fa-regular,
+.#{$fa-css-prefix}-regular,
 .fal,
-.fa-light,
+.#{$fa-css-prefix}-light,
 .fat,
-.fa-thin,
+.#{$fa-css-prefix}-thin,
 .fad,
-.fa-duotone,
+.#{$fa-css-prefix}-duotone,
 .fab,
-.fa-brands {
+.#{$fa-css-prefix}-brands {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: var(--#{$fa-css-prefix}-display, #{$fa-display});
