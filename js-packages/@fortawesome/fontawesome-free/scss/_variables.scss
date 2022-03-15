@@ -48,11 +48,6 @@ $fa-stack-z-index       : auto !default;
 $fa-font-display        : block !default;
 $fa-font-path           : "../webfonts" !default;
 
-// convenience function used to set content property
-@function fa-content($fa-var) {
-  @return unquote("\"#{ $fa-var }\"");
-}
-
 $fa-var-0: \30;
 $fa-var-1: \31;
 $fa-var-2: \32;
@@ -74,6 +69,10 @@ $fa-var-align-justify: \f039;
 $fa-var-align-left: \f036;
 $fa-var-align-right: \f038;
 $fa-var-anchor: \f13d;
+$fa-var-anchor-circle-check: \e4aa;
+$fa-var-anchor-circle-exclamation: \e4ab;
+$fa-var-anchor-circle-xmark: \e4ac;
+$fa-var-anchor-lock: \e4ad;
 $fa-var-angle-down: \f107;
 $fa-var-angle-left: \f104;
 $fa-var-angle-right: \f105;
@@ -105,6 +104,8 @@ $fa-var-long-arrow-down: \f175;
 $fa-var-arrow-down-short-wide: \f884;
 $fa-var-sort-amount-desc: \f884;
 $fa-var-sort-amount-down-alt: \f884;
+$fa-var-arrow-down-up-across-line: \e4af;
+$fa-var-arrow-down-up-lock: \e4b0;
 $fa-var-arrow-down-wide-short: \f160;
 $fa-var-sort-amount-asc: \f160;
 $fa-var-sort-amount-down: \f160;
@@ -125,6 +126,7 @@ $fa-var-arrow-right-long: \f178;
 $fa-var-long-arrow-right: \f178;
 $fa-var-arrow-right-to-bracket: \f090;
 $fa-var-sign-in: \f090;
+$fa-var-arrow-right-to-city: \e4b3;
 $fa-var-arrow-rotate-left: \f0e2;
 $fa-var-arrow-left-rotate: \f0e2;
 $fa-var-arrow-rotate-back: \f0e2;
@@ -148,8 +150,11 @@ $fa-var-sort-numeric-up-alt: \f887;
 $fa-var-arrow-up-a-z: \f15e;
 $fa-var-sort-alpha-up: \f15e;
 $fa-var-arrow-up-from-bracket: \e09a;
+$fa-var-arrow-up-from-ground-water: \e4b5;
+$fa-var-arrow-up-from-water-pump: \e4b6;
 $fa-var-arrow-up-long: \f176;
 $fa-var-long-arrow-up: \f176;
+$fa-var-arrow-up-right-dots: \e4b7;
 $fa-var-arrow-up-right-from-square: \f08e;
 $fa-var-external-link: \f08e;
 $fa-var-arrow-up-short-wide: \f885;
@@ -158,15 +163,26 @@ $fa-var-arrow-up-wide-short: \f161;
 $fa-var-sort-amount-up: \f161;
 $fa-var-arrow-up-z-a: \f882;
 $fa-var-sort-alpha-up-alt: \f882;
+$fa-var-arrows-down-to-line: \e4b8;
+$fa-var-arrows-down-to-people: \e4b9;
 $fa-var-arrows-left-right: \f07e;
 $fa-var-arrows-h: \f07e;
+$fa-var-arrows-left-right-to-line: \e4ba;
 $fa-var-arrows-rotate: \f021;
 $fa-var-refresh: \f021;
 $fa-var-sync: \f021;
+$fa-var-arrows-spin: \e4bb;
+$fa-var-arrows-split-up-and-left: \e4bc;
+$fa-var-arrows-to-circle: \e4bd;
+$fa-var-arrows-to-dot: \e4be;
+$fa-var-arrows-to-eye: \e4bf;
+$fa-var-arrows-turn-right: \e4c0;
+$fa-var-arrows-turn-to-dots: \e4c1;
 $fa-var-arrows-up-down: \f07d;
 $fa-var-arrows-v: \f07d;
 $fa-var-arrows-up-down-left-right: \f047;
 $fa-var-arrows: \f047;
+$fa-var-arrows-up-to-line: \e4c2;
 $fa-var-asterisk: \2a;
 $fa-var-at: \40;
 $fa-var-atom: \f5d2;
@@ -252,6 +268,7 @@ $fa-var-book-atlas: \f558;
 $fa-var-atlas: \f558;
 $fa-var-book-bible: \f647;
 $fa-var-bible: \f647;
+$fa-var-book-bookmark: \e0bb;
 $fa-var-book-journal-whills: \f66a;
 $fa-var-journal-whills: \f66a;
 $fa-var-book-medical: \f7e6;
@@ -267,12 +284,18 @@ $fa-var-border-all: \f84c;
 $fa-var-border-none: \f850;
 $fa-var-border-top-left: \f853;
 $fa-var-border-style: \f853;
+$fa-var-bore-hole: \e4c3;
+$fa-var-bottle-droplet: \e4c4;
+$fa-var-bottle-water: \e4c5;
+$fa-var-bowl-food: \e4c6;
+$fa-var-bowl-rice: \e2eb;
 $fa-var-bowling-ball: \f436;
 $fa-var-box: \f466;
 $fa-var-box-archive: \f187;
 $fa-var-archive: \f187;
 $fa-var-box-open: \f49e;
 $fa-var-box-tissue: \e05b;
+$fa-var-boxes-packing: \e4c7;
 $fa-var-boxes-stacked: \f468;
 $fa-var-boxes: \f468;
 $fa-var-boxes-alt: \f468;
@@ -280,6 +303,12 @@ $fa-var-braille: \f2a1;
 $fa-var-brain: \f5dc;
 $fa-var-brazilian-real-sign: \e46c;
 $fa-var-bread-slice: \f7ec;
+$fa-var-bridge: \e4c8;
+$fa-var-bridge-circle-check: \e4c9;
+$fa-var-bridge-circle-exclamation: \e4ca;
+$fa-var-bridge-circle-xmark: \e4cb;
+$fa-var-bridge-lock: \e4cc;
+$fa-var-bridge-water: \e4ce;
 $fa-var-briefcase: \f0b1;
 $fa-var-briefcase-medical: \f469;
 $fa-var-broom: \f51a;
@@ -287,18 +316,32 @@ $fa-var-broom-ball: \f458;
 $fa-var-quidditch: \f458;
 $fa-var-quidditch-broom-ball: \f458;
 $fa-var-brush: \f55d;
+$fa-var-bucket: \e4cf;
 $fa-var-bug: \f188;
 $fa-var-bug-slash: \e490;
+$fa-var-bugs: \e4d0;
 $fa-var-building: \f1ad;
+$fa-var-building-circle-arrow-right: \e4d1;
+$fa-var-building-circle-check: \e4d2;
+$fa-var-building-circle-exclamation: \e4d3;
+$fa-var-building-circle-xmark: \e4d4;
 $fa-var-building-columns: \f19c;
 $fa-var-bank: \f19c;
 $fa-var-institution: \f19c;
 $fa-var-museum: \f19c;
 $fa-var-university: \f19c;
+$fa-var-building-flag: \e4d5;
+$fa-var-building-lock: \e4d6;
+$fa-var-building-ngo: \e4d7;
+$fa-var-building-shield: \e4d8;
+$fa-var-building-un: \e4d9;
+$fa-var-building-user: \e4da;
+$fa-var-building-wheat: \e4db;
 $fa-var-bullhorn: \f0a1;
 $fa-var-bullseye: \f140;
 $fa-var-burger: \f805;
 $fa-var-hamburger: \f805;
+$fa-var-burst: \e4dc;
 $fa-var-bus: \f207;
 $fa-var-bus-simple: \f55e;
 $fa-var-bus-alt: \f55e;
@@ -331,10 +374,13 @@ $fa-var-car: \f1b9;
 $fa-var-automobile: \f1b9;
 $fa-var-car-battery: \f5df;
 $fa-var-battery-car: \f5df;
+$fa-var-car-burst: \f5e1;
 $fa-var-car-crash: \f5e1;
+$fa-var-car-on: \e4dd;
 $fa-var-car-rear: \f5de;
 $fa-var-car-alt: \f5de;
 $fa-var-car-side: \f5e4;
+$fa-var-car-tunnel: \e4de;
 $fa-var-caravan: \f8ff;
 $fa-var-caret-down: \f0d7;
 $fa-var-caret-left: \f0d9;
@@ -372,6 +418,7 @@ $fa-var-chart-line: \f201;
 $fa-var-line-chart: \f201;
 $fa-var-chart-pie: \f200;
 $fa-var-pie-chart: \f200;
+$fa-var-chart-simple: \e473;
 $fa-var-check: \f00c;
 $fa-var-check-double: \f560;
 $fa-var-check-to-slot: \f772;
@@ -390,6 +437,8 @@ $fa-var-chevron-left: \f053;
 $fa-var-chevron-right: \f054;
 $fa-var-chevron-up: \f077;
 $fa-var-child: \f1ae;
+$fa-var-child-rifle: \e4e0;
+$fa-var-children: \e4e1;
 $fa-var-church: \f51d;
 $fa-var-circle: \f111;
 $fa-var-circle-arrow-down: \f0ab;
@@ -428,6 +477,7 @@ $fa-var-circle-left: \f359;
 $fa-var-arrow-alt-circle-left: \f359;
 $fa-var-circle-minus: \f056;
 $fa-var-minus-circle: \f056;
+$fa-var-circle-nodes: \e4e2;
 $fa-var-circle-notch: \f1ce;
 $fa-var-circle-pause: \f28b;
 $fa-var-pause-circle: \f28b;
@@ -455,6 +505,8 @@ $fa-var-clapperboard: \e131;
 $fa-var-clipboard: \f328;
 $fa-var-clipboard-check: \f46c;
 $fa-var-clipboard-list: \f46d;
+$fa-var-clipboard-question: \e4e3;
+$fa-var-clipboard-user: \f7f3;
 $fa-var-clock: \f017;
 $fa-var-clock-four: \f017;
 $fa-var-clock-rotate-left: \f1da;
@@ -468,11 +520,14 @@ $fa-var-cloud-download-alt: \f0ed;
 $fa-var-cloud-arrow-up: \f0ee;
 $fa-var-cloud-upload: \f0ee;
 $fa-var-cloud-upload-alt: \f0ee;
+$fa-var-cloud-bolt: \f76c;
+$fa-var-thunderstorm: \f76c;
 $fa-var-cloud-meatball: \f73b;
 $fa-var-cloud-moon: \f6c3;
 $fa-var-cloud-moon-rain: \f73c;
 $fa-var-cloud-rain: \f73d;
 $fa-var-cloud-showers-heavy: \f740;
+$fa-var-cloud-showers-water: \e4e4;
 $fa-var-cloud-sun: \f6c4;
 $fa-var-cloud-sun-rain: \f743;
 $fa-var-clover: \e139;
@@ -500,6 +555,7 @@ $fa-var-compass: \f14e;
 $fa-var-compass-drafting: \f568;
 $fa-var-drafting-compass: \f568;
 $fa-var-compress: \f066;
+$fa-var-computer: \e4e5;
 $fa-var-computer-mouse: \f8cc;
 $fa-var-mouse: \f8cc;
 $fa-var-cookie: \f563;
@@ -507,6 +563,7 @@ $fa-var-cookie-bite: \f564;
 $fa-var-copy: \f0c5;
 $fa-var-copyright: \f1f9;
 $fa-var-couch: \f4b8;
+$fa-var-cow: \f6c8;
 $fa-var-credit-card: \f09d;
 $fa-var-credit-card-alt: \f09d;
 $fa-var-crop: \f125;
@@ -520,6 +577,7 @@ $fa-var-crutch: \f7f7;
 $fa-var-cruzeiro-sign: \e152;
 $fa-var-cube: \f1b2;
 $fa-var-cubes: \f1b3;
+$fa-var-cubes-stacked: \e4e6;
 $fa-var-d: \44;
 $fa-var-database: \f1c0;
 $fa-var-delete-left: \f55a;
@@ -546,6 +604,7 @@ $fa-var-dice-six: \f526;
 $fa-var-dice-three: \f527;
 $fa-var-dice-two: \f528;
 $fa-var-disease: \f7fa;
+$fa-var-display: \e163;
 $fa-var-divide: \f529;
 $fa-var-dna: \f471;
 $fa-var-dog: \f6d3;
@@ -603,6 +662,7 @@ $fa-var-ellipsis-h: \f141;
 $fa-var-ellipsis-vertical: \f142;
 $fa-var-ellipsis-v: \f142;
 $fa-var-envelope: \f0e0;
+$fa-var-envelope-circle-check: \e4e8;
 $fa-var-envelope-open: \f2b6;
 $fa-var-envelope-open-text: \f658;
 $fa-var-envelopes-bulk: \f674;
@@ -615,6 +675,7 @@ $fa-var-eur: \f153;
 $fa-var-euro: \f153;
 $fa-var-exclamation: \21;
 $fa-var-expand: \f065;
+$fa-var-explosion: \e4e9;
 $fa-var-eye: \f06e;
 $fa-var-eye-dropper: \f1fb;
 $fa-var-eye-dropper-empty: \f1fb;
@@ -697,16 +758,24 @@ $fa-var-face-tired: \f5c8;
 $fa-var-tired: \f5c8;
 $fa-var-fan: \f863;
 $fa-var-faucet: \e005;
+$fa-var-faucet-drip: \e006;
 $fa-var-fax: \f1ac;
 $fa-var-feather: \f52d;
 $fa-var-feather-pointed: \f56b;
 $fa-var-feather-alt: \f56b;
+$fa-var-ferry: \e4ea;
 $fa-var-file: \f15b;
 $fa-var-file-arrow-down: \f56d;
 $fa-var-file-download: \f56d;
 $fa-var-file-arrow-up: \f574;
 $fa-var-file-upload: \f574;
 $fa-var-file-audio: \f1c7;
+$fa-var-file-circle-check: \e493;
+$fa-var-file-circle-exclamation: \e4eb;
+$fa-var-file-circle-minus: \e4ed;
+$fa-var-file-circle-plus: \e4ee;
+$fa-var-file-circle-question: \e4ef;
+$fa-var-file-circle-xmark: \e494;
 $fa-var-file-code: \f1c9;
 $fa-var-file-contract: \f56c;
 $fa-var-file-csv: \f6dd;
@@ -723,8 +792,11 @@ $fa-var-file-alt: \f15c;
 $fa-var-file-text: \f15c;
 $fa-var-file-medical: \f477;
 $fa-var-file-pdf: \f1c1;
+$fa-var-file-pen: \f31c;
+$fa-var-file-edit: \f31c;
 $fa-var-file-powerpoint: \f1c4;
 $fa-var-file-prescription: \f572;
+$fa-var-file-shield: \e4f0;
 $fa-var-file-signature: \f573;
 $fa-var-file-video: \f1c8;
 $fa-var-file-waveform: \f478;
@@ -741,20 +813,25 @@ $fa-var-funnel-dollar: \f662;
 $fa-var-filter-circle-xmark: \e17b;
 $fa-var-fingerprint: \f577;
 $fa-var-fire: \f06d;
+$fa-var-fire-burner: \e4f1;
 $fa-var-fire-extinguisher: \f134;
 $fa-var-fire-flame-curved: \f7e4;
 $fa-var-fire-alt: \f7e4;
 $fa-var-fire-flame-simple: \f46a;
 $fa-var-burn: \f46a;
 $fa-var-fish: \f578;
+$fa-var-fish-fins: \e4f2;
 $fa-var-flag: \f024;
 $fa-var-flag-checkered: \f11e;
 $fa-var-flag-usa: \f74d;
 $fa-var-flask: \f0c3;
+$fa-var-flask-vial: \e4f3;
 $fa-var-floppy-disk: \f0c7;
 $fa-var-save: \f0c7;
 $fa-var-florin-sign: \e184;
 $fa-var-folder: \f07b;
+$fa-var-folder-blank: \f07b;
+$fa-var-folder-closed: \e185;
 $fa-var-folder-minus: \f65d;
 $fa-var-folder-open: \f07c;
 $fa-var-folder-plus: \f65e;
@@ -799,6 +876,8 @@ $fa-var-genderless: \f22d;
 $fa-var-ghost: \f6e2;
 $fa-var-gift: \f06b;
 $fa-var-gifts: \f79c;
+$fa-var-glass-water: \e4f4;
+$fa-var-glass-water-droplet: \e4f5;
 $fa-var-glasses: \f530;
 $fa-var-globe: \f0ac;
 $fa-var-golf-ball-tee: \f450;
@@ -813,6 +892,7 @@ $fa-var-grip-horizontal: \f58d;
 $fa-var-grip-lines: \f7a4;
 $fa-var-grip-lines-vertical: \f7a5;
 $fa-var-grip-vertical: \f58e;
+$fa-var-group-arrows-rotate: \e4f6;
 $fa-var-guarani-sign: \e19a;
 $fa-var-guitar: \f7a6;
 $fa-var-gun: \e19b;
@@ -832,6 +912,7 @@ $fa-var-hand-holding-dollar: \f4c0;
 $fa-var-hand-holding-usd: \f4c0;
 $fa-var-hand-holding-droplet: \f4c1;
 $fa-var-hand-holding-water: \f4c1;
+$fa-var-hand-holding-hand: \e4f7;
 $fa-var-hand-holding-heart: \f4be;
 $fa-var-hand-holding-medical: \e05c;
 $fa-var-hand-lizard: \f258;
@@ -845,6 +926,7 @@ $fa-var-hand-pointer: \f25a;
 $fa-var-hand-scissors: \f257;
 $fa-var-hand-sparkles: \e05d;
 $fa-var-hand-spock: \f259;
+$fa-var-handcuffs: \e4f8;
 $fa-var-hands: \f2a7;
 $fa-var-sign-language: \f2a7;
 $fa-var-signing: \f2a7;
@@ -852,15 +934,20 @@ $fa-var-hands-asl-interpreting: \f2a3;
 $fa-var-american-sign-language-interpreting: \f2a3;
 $fa-var-asl-interpreting: \f2a3;
 $fa-var-hands-american-sign-language-interpreting: \f2a3;
+$fa-var-hands-bound: \e4f9;
 $fa-var-hands-bubbles: \e05e;
 $fa-var-hands-wash: \e05e;
 $fa-var-hands-clapping: \e1a8;
 $fa-var-hands-holding: \f4c2;
+$fa-var-hands-holding-child: \e4fa;
+$fa-var-hands-holding-circle: \e4fb;
 $fa-var-hands-praying: \f684;
 $fa-var-praying-hands: \f684;
 $fa-var-handshake: \f2b5;
 $fa-var-handshake-angle: \f4c4;
 $fa-var-hands-helping: \f4c4;
+$fa-var-handshake-simple: \f4c6;
+$fa-var-handshake-alt: \f4c6;
 $fa-var-handshake-simple-slash: \e05f;
 $fa-var-handshake-alt-slash: \e05f;
 $fa-var-handshake-slash: \e060;
@@ -882,15 +969,25 @@ $fa-var-headphones-simple: \f58f;
 $fa-var-headphones-alt: \f58f;
 $fa-var-headset: \f590;
 $fa-var-heart: \f004;
+$fa-var-heart-circle-bolt: \e4fc;
+$fa-var-heart-circle-check: \e4fd;
+$fa-var-heart-circle-exclamation: \e4fe;
+$fa-var-heart-circle-minus: \e4ff;
+$fa-var-heart-circle-plus: \e500;
+$fa-var-heart-circle-xmark: \e501;
 $fa-var-heart-crack: \f7a9;
 $fa-var-heart-broken: \f7a9;
 $fa-var-heart-pulse: \f21e;
 $fa-var-heartbeat: \f21e;
 $fa-var-helicopter: \f533;
+$fa-var-helicopter-symbol: \e502;
 $fa-var-helmet-safety: \f807;
 $fa-var-hard-hat: \f807;
 $fa-var-hat-hard: \f807;
+$fa-var-helmet-un: \e503;
 $fa-var-highlighter: \f591;
+$fa-var-hill-avalanche: \e507;
+$fa-var-hill-rockslide: \e508;
 $fa-var-hippo: \f6ed;
 $fa-var-hockey-puck: \f453;
 $fa-var-holly-berry: \f7aa;
@@ -924,14 +1021,29 @@ $fa-var-house-chimney-medical: \f7f2;
 $fa-var-clinic-medical: \f7f2;
 $fa-var-house-chimney-user: \e065;
 $fa-var-house-chimney-window: \e00d;
+$fa-var-house-circle-check: \e509;
+$fa-var-house-circle-exclamation: \e50a;
+$fa-var-house-circle-xmark: \e50b;
 $fa-var-house-crack: \e3b1;
+$fa-var-house-fire: \e50c;
+$fa-var-house-flag: \e50d;
+$fa-var-house-flood-water: \e50e;
+$fa-var-house-flood-water-circle-arrow-right: \e50f;
 $fa-var-house-laptop: \e066;
 $fa-var-laptop-house: \e066;
+$fa-var-house-lock: \e510;
 $fa-var-house-medical: \e3b2;
+$fa-var-house-medical-circle-check: \e511;
+$fa-var-house-medical-circle-exclamation: \e512;
+$fa-var-house-medical-circle-xmark: \e513;
+$fa-var-house-medical-flag: \e514;
+$fa-var-house-signal: \e012;
+$fa-var-house-tsunami: \e515;
 $fa-var-house-user: \e1b0;
 $fa-var-home-user: \e1b0;
 $fa-var-hryvnia-sign: \f6f2;
 $fa-var-hryvnia: \f6f2;
+$fa-var-hurricane: \f751;
 $fa-var-i: \49;
 $fa-var-i-cursor: \f246;
 $fa-var-ice-cream: \f810;
@@ -958,10 +1070,14 @@ $fa-var-infinity: \f534;
 $fa-var-info: \f129;
 $fa-var-italic: \f033;
 $fa-var-j: \4a;
+$fa-var-jar: \e516;
+$fa-var-jar-wheat: \e517;
 $fa-var-jedi: \f669;
 $fa-var-jet-fighter: \f0fb;
 $fa-var-fighter-jet: \f0fb;
+$fa-var-jet-fighter-up: \e518;
 $fa-var-joint: \f595;
+$fa-var-jug-detergent: \e519;
 $fa-var-k: \4b;
 $fa-var-kaaba: \f66b;
 $fa-var-key: \f084;
@@ -970,12 +1086,18 @@ $fa-var-khanda: \f66d;
 $fa-var-kip-sign: \e1c4;
 $fa-var-kit-medical: \f479;
 $fa-var-first-aid: \f479;
+$fa-var-kitchen-set: \e51a;
 $fa-var-kiwi-bird: \f535;
 $fa-var-l: \4c;
+$fa-var-land-mine-on: \e51b;
 $fa-var-landmark: \f66f;
+$fa-var-landmark-dome: \f752;
+$fa-var-landmark-alt: \f752;
+$fa-var-landmark-flag: \e51c;
 $fa-var-language: \f1ab;
 $fa-var-laptop: \f109;
 $fa-var-laptop-code: \f5fc;
+$fa-var-laptop-file: \e51d;
 $fa-var-laptop-medical: \f812;
 $fa-var-lari-sign: \e1c8;
 $fa-var-layer-group: \f5fd;
@@ -989,6 +1111,7 @@ $fa-var-less-than: \3c;
 $fa-var-less-than-equal: \f537;
 $fa-var-life-ring: \f1cd;
 $fa-var-lightbulb: \f0eb;
+$fa-var-lines-leaning: \e51e;
 $fa-var-link: \f0c1;
 $fa-var-chain: \f0c1;
 $fa-var-link-slash: \f127;
@@ -1013,14 +1136,18 @@ $fa-var-location-dot: \f3c5;
 $fa-var-map-marker-alt: \f3c5;
 $fa-var-location-pin: \f041;
 $fa-var-map-marker: \f041;
+$fa-var-location-pin-lock: \e51f;
 $fa-var-lock: \f023;
 $fa-var-lock-open: \f3c1;
+$fa-var-locust: \e520;
 $fa-var-lungs: \f604;
 $fa-var-lungs-virus: \e067;
 $fa-var-m: \4d;
 $fa-var-magnet: \f076;
 $fa-var-magnifying-glass: \f002;
 $fa-var-search: \f002;
+$fa-var-magnifying-glass-arrow-right: \e521;
+$fa-var-magnifying-glass-chart: \e522;
 $fa-var-magnifying-glass-dollar: \f688;
 $fa-var-search-dollar: \f688;
 $fa-var-magnifying-glass-location: \f689;
@@ -1039,6 +1166,7 @@ $fa-var-map-pin: \f276;
 $fa-var-marker: \f5a1;
 $fa-var-mars: \f222;
 $fa-var-mars-and-venus: \f224;
+$fa-var-mars-and-venus-burst: \e523;
 $fa-var-mars-double: \f227;
 $fa-var-mars-stroke: \f229;
 $fa-var-mars-stroke-right: \f22b;
@@ -1053,8 +1181,10 @@ $fa-var-martini-glass-empty: \f000;
 $fa-var-glass-martini: \f000;
 $fa-var-mask: \f6fa;
 $fa-var-mask-face: \e1d7;
+$fa-var-mask-ventilator: \e524;
 $fa-var-masks-theater: \f630;
 $fa-var-theater-masks: \f630;
+$fa-var-mattress-pillow: \e525;
 $fa-var-maximize: \f31e;
 $fa-var-expand-arrows-alt: \f31e;
 $fa-var-medal: \f5a2;
@@ -1082,6 +1212,9 @@ $fa-var-mobile: \f3ce;
 $fa-var-mobile-android: \f3ce;
 $fa-var-mobile-phone: \f3ce;
 $fa-var-mobile-button: \f10b;
+$fa-var-mobile-retro: \e527;
+$fa-var-mobile-screen: \f3cf;
+$fa-var-mobile-android-alt: \f3cf;
 $fa-var-mobile-screen-button: \f3cd;
 $fa-var-mobile-alt: \f3cd;
 $fa-var-money-bill: \f0d6;
@@ -1089,7 +1222,11 @@ $fa-var-money-bill-1: \f3d1;
 $fa-var-money-bill-alt: \f3d1;
 $fa-var-money-bill-1-wave: \f53b;
 $fa-var-money-bill-wave-alt: \f53b;
+$fa-var-money-bill-transfer: \e528;
+$fa-var-money-bill-trend-up: \e529;
 $fa-var-money-bill-wave: \f53a;
+$fa-var-money-bill-wheat: \e52a;
+$fa-var-money-bills: \e1f3;
 $fa-var-money-check: \f53c;
 $fa-var-money-check-dollar: \f53d;
 $fa-var-money-check-alt: \f53d;
@@ -1097,8 +1234,13 @@ $fa-var-monument: \f5a6;
 $fa-var-moon: \f186;
 $fa-var-mortar-pestle: \f5a7;
 $fa-var-mosque: \f678;
+$fa-var-mosquito: \e52b;
+$fa-var-mosquito-net: \e52c;
 $fa-var-motorcycle: \f21c;
+$fa-var-mound: \e52d;
 $fa-var-mountain: \f6fc;
+$fa-var-mountain-city: \e52e;
+$fa-var-mountain-sun: \e52f;
 $fa-var-mug-hot: \f7b6;
 $fa-var-mug-saucer: \f0f4;
 $fa-var-coffee: \f0f4;
@@ -1116,6 +1258,7 @@ $fa-var-o: \4f;
 $fa-var-object-group: \f247;
 $fa-var-object-ungroup: \f248;
 $fa-var-oil-can: \f613;
+$fa-var-oil-well: \e532;
 $fa-var-om: \f679;
 $fa-var-otter: \f700;
 $fa-var-outdent: \f03b;
@@ -1153,24 +1296,56 @@ $fa-var-people-arrows-left-right: \e068;
 $fa-var-people-arrows: \e068;
 $fa-var-people-carry-box: \f4ce;
 $fa-var-people-carry: \f4ce;
+$fa-var-people-group: \e533;
+$fa-var-people-line: \e534;
+$fa-var-people-pulling: \e535;
+$fa-var-people-robbery: \e536;
+$fa-var-people-roof: \e537;
 $fa-var-pepper-hot: \f816;
 $fa-var-percent: \25;
 $fa-var-percentage: \25;
 $fa-var-person: \f183;
 $fa-var-male: \f183;
+$fa-var-person-arrow-down-to-line: \e538;
+$fa-var-person-arrow-up-from-line: \e539;
 $fa-var-person-biking: \f84a;
 $fa-var-biking: \f84a;
 $fa-var-person-booth: \f756;
+$fa-var-person-breastfeeding: \e53a;
+$fa-var-person-burst: \e53b;
+$fa-var-person-cane: \e53c;
+$fa-var-person-chalkboard: \e53d;
+$fa-var-person-circle-check: \e53e;
+$fa-var-person-circle-exclamation: \e53f;
+$fa-var-person-circle-minus: \e540;
+$fa-var-person-circle-plus: \e541;
+$fa-var-person-circle-question: \e542;
+$fa-var-person-circle-xmark: \e543;
+$fa-var-person-digging: \f85e;
+$fa-var-digging: \f85e;
 $fa-var-person-dots-from-line: \f470;
 $fa-var-diagnoses: \f470;
 $fa-var-person-dress: \f182;
 $fa-var-female: \f182;
+$fa-var-person-dress-burst: \e544;
+$fa-var-person-drowning: \e545;
+$fa-var-person-falling: \e546;
+$fa-var-person-falling-burst: \e547;
+$fa-var-person-half-dress: \e548;
+$fa-var-person-harassing: \e549;
 $fa-var-person-hiking: \f6ec;
 $fa-var-hiking: \f6ec;
+$fa-var-person-military-pointing: \e54a;
+$fa-var-person-military-rifle: \e54b;
+$fa-var-person-military-to-person: \e54c;
 $fa-var-person-praying: \f683;
 $fa-var-pray: \f683;
+$fa-var-person-pregnant: \e31e;
+$fa-var-person-rays: \e54d;
+$fa-var-person-rifle: \e54e;
 $fa-var-person-running: \f70c;
 $fa-var-running: \f70c;
+$fa-var-person-shelter: \e54f;
 $fa-var-person-skating: \f7c5;
 $fa-var-skating: \f7c5;
 $fa-var-person-skiing: \f7c9;
@@ -1181,8 +1356,13 @@ $fa-var-person-snowboarding: \f7ce;
 $fa-var-snowboarding: \f7ce;
 $fa-var-person-swimming: \f5c4;
 $fa-var-swimmer: \f5c4;
+$fa-var-person-through-window: \e433;
 $fa-var-person-walking: \f554;
 $fa-var-walking: \f554;
+$fa-var-person-walking-arrow-loop-left: \e551;
+$fa-var-person-walking-arrow-right: \e552;
+$fa-var-person-walking-dashed-line-arrow-right: \e553;
+$fa-var-person-walking-luggage: \e554;
 $fa-var-person-walking-with-cane: \f29d;
 $fa-var-blind: \f29d;
 $fa-var-peseta-sign: \e221;
@@ -1201,10 +1381,23 @@ $fa-var-pizza-slice: \f818;
 $fa-var-place-of-worship: \f67f;
 $fa-var-plane: \f072;
 $fa-var-plane-arrival: \f5af;
+$fa-var-plane-circle-check: \e555;
+$fa-var-plane-circle-exclamation: \e556;
+$fa-var-plane-circle-xmark: \e557;
 $fa-var-plane-departure: \f5b0;
+$fa-var-plane-lock: \e558;
 $fa-var-plane-slash: \e069;
+$fa-var-plane-up: \e22d;
+$fa-var-plant-wilt: \e43b;
+$fa-var-plate-wheat: \e55a;
 $fa-var-play: \f04b;
 $fa-var-plug: \f1e6;
+$fa-var-plug-circle-bolt: \e55b;
+$fa-var-plug-circle-check: \e55c;
+$fa-var-plug-circle-exclamation: \e55d;
+$fa-var-plug-circle-minus: \e55e;
+$fa-var-plug-circle-plus: \e55f;
+$fa-var-plug-circle-xmark: \e560;
 $fa-var-plus: \2b;
 $fa-var-add: \2b;
 $fa-var-plus-minus: \e43c;
@@ -1231,7 +1424,9 @@ $fa-var-quote-right: \f10e;
 $fa-var-quote-right-alt: \f10e;
 $fa-var-r: \52;
 $fa-var-radiation: \f7b9;
+$fa-var-radio: \f8d7;
 $fa-var-rainbow: \f75b;
+$fa-var-ranking-star: \e561;
 $fa-var-receipt: \f543;
 $fa-var-record-vinyl: \f8d9;
 $fa-var-rectangle-ad: \f641;
@@ -1263,6 +1458,13 @@ $fa-var-right-to-bracket: \f2f6;
 $fa-var-sign-in-alt: \f2f6;
 $fa-var-ring: \f70b;
 $fa-var-road: \f018;
+$fa-var-road-barrier: \e562;
+$fa-var-road-bridge: \e563;
+$fa-var-road-circle-check: \e564;
+$fa-var-road-circle-exclamation: \e565;
+$fa-var-road-circle-xmark: \e566;
+$fa-var-road-lock: \e567;
+$fa-var-road-spikes: \e568;
 $fa-var-robot: \f544;
 $fa-var-rocket: \f135;
 $fa-var-rotate: \f2f1;
@@ -1281,6 +1483,7 @@ $fa-var-ruble-sign: \f158;
 $fa-var-rouble: \f158;
 $fa-var-rub: \f158;
 $fa-var-ruble: \f158;
+$fa-var-rug: \e569;
 $fa-var-ruler: \f545;
 $fa-var-ruler-combined: \f546;
 $fa-var-ruler-horizontal: \f547;
@@ -1289,6 +1492,8 @@ $fa-var-rupee-sign: \f156;
 $fa-var-rupee: \f156;
 $fa-var-rupiah-sign: \e23d;
 $fa-var-s: \53;
+$fa-var-sack-dollar: \f81d;
+$fa-var-sack-xmark: \e56a;
 $fa-var-sailboat: \e445;
 $fa-var-satellite: \f7bf;
 $fa-var-satellite-dish: \f7c0;
@@ -1299,6 +1504,11 @@ $fa-var-balance-scale-left: \f515;
 $fa-var-scale-unbalanced-flip: \f516;
 $fa-var-balance-scale-right: \f516;
 $fa-var-school: \f549;
+$fa-var-school-circle-check: \e56b;
+$fa-var-school-circle-exclamation: \e56c;
+$fa-var-school-circle-xmark: \e56d;
+$fa-var-school-flag: \e56e;
+$fa-var-school-lock: \e56f;
 $fa-var-scissors: \f0c4;
 $fa-var-cut: \f0c4;
 $fa-var-screwdriver: \f54a;
@@ -1321,14 +1531,19 @@ $fa-var-share-from-square: \f14d;
 $fa-var-share-square: \f14d;
 $fa-var-share-nodes: \f1e0;
 $fa-var-share-alt: \f1e0;
+$fa-var-sheet-plastic: \e571;
 $fa-var-shekel-sign: \f20b;
 $fa-var-ils: \f20b;
 $fa-var-shekel: \f20b;
 $fa-var-sheqel: \f20b;
 $fa-var-sheqel-sign: \f20b;
 $fa-var-shield: \f132;
-$fa-var-shield-blank: \f3ed;
+$fa-var-shield-blank: \f132;
+$fa-var-shield-cat: \e572;
+$fa-var-shield-dog: \e573;
+$fa-var-shield-halved: \f3ed;
 $fa-var-shield-alt: \f3ed;
+$fa-var-shield-heart: \e574;
 $fa-var-shield-virus: \e06c;
 $fa-var-ship: \f21a;
 $fa-var-shirt: \f553;
@@ -1337,6 +1552,7 @@ $fa-var-tshirt: \f553;
 $fa-var-shoe-prints: \f54b;
 $fa-var-shop: \f54f;
 $fa-var-store-alt: \f54f;
+$fa-var-shop-lock: \e4a5;
 $fa-var-shop-slash: \e070;
 $fa-var-store-alt-slash: \e070;
 $fa-var-shower: \f2cc;
@@ -1408,11 +1624,13 @@ $fa-var-square-h: \f0fd;
 $fa-var-h-square: \f0fd;
 $fa-var-square-minus: \f146;
 $fa-var-minus-square: \f146;
+$fa-var-square-nfi: \e576;
 $fa-var-square-parking: \f540;
 $fa-var-parking: \f540;
 $fa-var-square-pen: \f14b;
 $fa-var-pen-square: \f14b;
 $fa-var-pencil-square: \f14b;
+$fa-var-square-person-confined: \e577;
 $fa-var-square-phone: \f098;
 $fa-var-phone-square: \f098;
 $fa-var-square-phone-flip: \f87b;
@@ -1431,9 +1649,14 @@ $fa-var-square-share-nodes: \f1e1;
 $fa-var-share-alt-square: \f1e1;
 $fa-var-square-up-right: \f360;
 $fa-var-external-link-square-alt: \f360;
+$fa-var-square-virus: \e578;
 $fa-var-square-xmark: \f2d3;
 $fa-var-times-square: \f2d3;
 $fa-var-xmark-square: \f2d3;
+$fa-var-staff-aesculapius: \e579;
+$fa-var-rod-asclepius: \e579;
+$fa-var-rod-snake: \e579;
+$fa-var-staff-snake: \e579;
 $fa-var-stairs: \e289;
 $fa-var-stamp: \f5bf;
 $fa-var-star: \f005;
@@ -1461,6 +1684,7 @@ $fa-var-suitcase-medical: \f0fa;
 $fa-var-medkit: \f0fa;
 $fa-var-suitcase-rolling: \f5c1;
 $fa-var-sun: \f185;
+$fa-var-sun-plant-wilt: \e57a;
 $fa-var-superscript: \f12b;
 $fa-var-swatchbook: \f5c3;
 $fa-var-synagogue: \f69b;
@@ -1489,10 +1713,16 @@ $fa-var-digital-tachograph: \f566;
 $fa-var-tag: \f02b;
 $fa-var-tags: \f02c;
 $fa-var-tape: \f4db;
+$fa-var-tarp: \e57b;
+$fa-var-tarp-droplet: \e57c;
 $fa-var-taxi: \f1ba;
 $fa-var-cab: \f1ba;
 $fa-var-teeth: \f62e;
 $fa-var-teeth-open: \f62f;
+$fa-var-temperature-arrow-down: \e03f;
+$fa-var-temperature-down: \e03f;
+$fa-var-temperature-arrow-up: \e040;
+$fa-var-temperature-up: \e040;
 $fa-var-temperature-empty: \f2cb;
 $fa-var-temperature-0: \f2cb;
 $fa-var-thermometer-0: \f2cb;
@@ -1517,6 +1747,12 @@ $fa-var-thermometer-3: \f2c8;
 $fa-var-thermometer-three-quarters: \f2c8;
 $fa-var-tenge-sign: \f7d7;
 $fa-var-tenge: \f7d7;
+$fa-var-tent: \e57d;
+$fa-var-tent-arrow-down-to-line: \e57e;
+$fa-var-tent-arrow-left-right: \e57f;
+$fa-var-tent-arrow-turn-left: \e580;
+$fa-var-tent-arrows-down: \e581;
+$fa-var-tents: \e582;
 $fa-var-terminal: \f120;
 $fa-var-text-height: \f034;
 $fa-var-text-slash: \f87d;
@@ -1536,11 +1772,16 @@ $fa-var-toggle-on: \f205;
 $fa-var-toilet: \f7d8;
 $fa-var-toilet-paper: \f71e;
 $fa-var-toilet-paper-slash: \e072;
+$fa-var-toilet-portable: \e583;
+$fa-var-toilets-portable: \e584;
 $fa-var-toolbox: \f552;
 $fa-var-tooth: \f5c9;
 $fa-var-torii-gate: \f6a1;
+$fa-var-tornado: \f76f;
 $fa-var-tower-broadcast: \f519;
 $fa-var-broadcast-tower: \f519;
+$fa-var-tower-cell: \e585;
+$fa-var-tower-observation: \e586;
 $fa-var-tractor: \f722;
 $fa-var-trademark: \f25c;
 $fa-var-traffic-light: \f637;
@@ -1560,18 +1801,27 @@ $fa-var-trash-alt: \f2ed;
 $fa-var-trash-can-arrow-up: \f82a;
 $fa-var-trash-restore-alt: \f82a;
 $fa-var-tree: \f1bb;
+$fa-var-tree-city: \e587;
 $fa-var-triangle-exclamation: \f071;
 $fa-var-exclamation-triangle: \f071;
 $fa-var-warning: \f071;
 $fa-var-trophy: \f091;
+$fa-var-trowel: \e589;
+$fa-var-trowel-bricks: \e58a;
 $fa-var-truck: \f0d1;
+$fa-var-truck-arrow-right: \e58b;
+$fa-var-truck-droplet: \e58c;
 $fa-var-truck-fast: \f48b;
 $fa-var-shipping-fast: \f48b;
+$fa-var-truck-field: \e58d;
+$fa-var-truck-field-un: \e58e;
+$fa-var-truck-front: \e2b7;
 $fa-var-truck-medical: \f0f9;
 $fa-var-ambulance: \f0f9;
 $fa-var-truck-monster: \f63b;
 $fa-var-truck-moving: \f4df;
 $fa-var-truck-pickup: \f63c;
+$fa-var-truck-plane: \e58f;
 $fa-var-truck-ramp-box: \f4de;
 $fa-var-truck-loading: \f4de;
 $fa-var-tty: \f1e4;
@@ -1636,9 +1886,14 @@ $fa-var-user-tie: \f508;
 $fa-var-user-xmark: \f235;
 $fa-var-user-times: \f235;
 $fa-var-users: \f0c0;
+$fa-var-users-between-lines: \e591;
 $fa-var-users-gear: \f509;
 $fa-var-users-cog: \f509;
+$fa-var-users-line: \e592;
+$fa-var-users-rays: \e593;
+$fa-var-users-rectangle: \e594;
 $fa-var-users-slash: \e073;
+$fa-var-users-viewfinder: \e595;
 $fa-var-utensils: \f2e7;
 $fa-var-cutlery: \f2e7;
 $fa-var-v: \56;
@@ -1652,6 +1907,8 @@ $fa-var-venus-mars: \f228;
 $fa-var-vest: \e085;
 $fa-var-vest-patches: \e086;
 $fa-var-vial: \f492;
+$fa-var-vial-circle-check: \e596;
+$fa-var-vial-virus: \e597;
 $fa-var-vials: \f493;
 $fa-var-video: \f03d;
 $fa-var-video-camera: \f03d;
@@ -1663,6 +1920,7 @@ $fa-var-virus-covid-slash: \e4a9;
 $fa-var-virus-slash: \e075;
 $fa-var-viruses: \e076;
 $fa-var-voicemail: \f897;
+$fa-var-volcano: \f770;
 $fa-var-volleyball: \f45f;
 $fa-var-volleyball-ball: \f45f;
 $fa-var-volume-high: \f028;
@@ -1675,6 +1933,7 @@ $fa-var-volume-mute: \f6a9;
 $fa-var-volume-times: \f6a9;
 $fa-var-vr-cardboard: \f729;
 $fa-var-w: \57;
+$fa-var-walkie-talkie: \f8ef;
 $fa-var-wallet: \f555;
 $fa-var-wand-magic: \f0d0;
 $fa-var-magic: \f0d0;
@@ -1690,7 +1949,12 @@ $fa-var-wave-square: \f83e;
 $fa-var-weight-hanging: \f5cd;
 $fa-var-weight-scale: \f496;
 $fa-var-weight: \f496;
+$fa-var-wheat-awn: \e2cd;
+$fa-var-wheat-alt: \e2cd;
+$fa-var-wheat-awn-circle-exclamation: \e598;
 $fa-var-wheelchair: \f193;
+$fa-var-wheelchair-move: \e2ce;
+$fa-var-wheelchair-alt: \e2ce;
 $fa-var-whiskey-glass: \f7a0;
 $fa-var-glass-whiskey: \f7a0;
 $fa-var-wifi: \f1eb;
@@ -1707,6 +1971,7 @@ $fa-var-wine-glass-alt: \f5ce;
 $fa-var-won-sign: \f159;
 $fa-var-krw: \f159;
 $fa-var-won: \f159;
+$fa-var-worm: \e599;
 $fa-var-wrench: \f0ad;
 $fa-var-x: \58;
 $fa-var-x-ray: \f497;
@@ -1715,6 +1980,7 @@ $fa-var-close: \f00d;
 $fa-var-multiply: \f00d;
 $fa-var-remove: \f00d;
 $fa-var-times: \f00d;
+$fa-var-xmarks-lines: \e59a;
 $fa-var-y: \59;
 $fa-var-yen-sign: \f157;
 $fa-var-cny: \f157;
@@ -1997,6 +2263,8 @@ $fa-var-modx: \f285;
 $fa-var-monero: \f3d0;
 $fa-var-napster: \f3d2;
 $fa-var-neos: \f612;
+$fa-var-nfc-directional: \e530;
+$fa-var-nfc-symbol: \e531;
 $fa-var-nimblr: \f5a8;
 $fa-var-node: \f419;
 $fa-var-node-js: \f3d3;
@@ -2065,6 +2333,7 @@ $fa-var-safari: \f267;
 $fa-var-salesforce: \f83b;
 $fa-var-sass: \f41e;
 $fa-var-schlix: \f3ea;
+$fa-var-screenpal: \e570;
 $fa-var-scribd: \f28a;
 $fa-var-searchengin: \f3eb;
 $fa-var-sellcast: \f2da;
@@ -2215,6 +2484,10 @@ $fa-icons: (
   "align-left": $fa-var-align-left,
   "align-right": $fa-var-align-right,
   "anchor": $fa-var-anchor,
+  "anchor-circle-check": $fa-var-anchor-circle-check,
+  "anchor-circle-exclamation": $fa-var-anchor-circle-exclamation,
+  "anchor-circle-xmark": $fa-var-anchor-circle-xmark,
+  "anchor-lock": $fa-var-anchor-lock,
   "angle-down": $fa-var-angle-down,
   "angle-left": $fa-var-angle-left,
   "angle-right": $fa-var-angle-right,
@@ -2246,6 +2519,8 @@ $fa-icons: (
   "arrow-down-short-wide": $fa-var-arrow-down-short-wide,
   "sort-amount-desc": $fa-var-sort-amount-desc,
   "sort-amount-down-alt": $fa-var-sort-amount-down-alt,
+  "arrow-down-up-across-line": $fa-var-arrow-down-up-across-line,
+  "arrow-down-up-lock": $fa-var-arrow-down-up-lock,
   "arrow-down-wide-short": $fa-var-arrow-down-wide-short,
   "sort-amount-asc": $fa-var-sort-amount-asc,
   "sort-amount-down": $fa-var-sort-amount-down,
@@ -2266,6 +2541,7 @@ $fa-icons: (
   "long-arrow-right": $fa-var-long-arrow-right,
   "arrow-right-to-bracket": $fa-var-arrow-right-to-bracket,
   "sign-in": $fa-var-sign-in,
+  "arrow-right-to-city": $fa-var-arrow-right-to-city,
   "arrow-rotate-left": $fa-var-arrow-rotate-left,
   "arrow-left-rotate": $fa-var-arrow-left-rotate,
   "arrow-rotate-back": $fa-var-arrow-rotate-back,
@@ -2289,8 +2565,11 @@ $fa-icons: (
   "arrow-up-a-z": $fa-var-arrow-up-a-z,
   "sort-alpha-up": $fa-var-sort-alpha-up,
   "arrow-up-from-bracket": $fa-var-arrow-up-from-bracket,
+  "arrow-up-from-ground-water": $fa-var-arrow-up-from-ground-water,
+  "arrow-up-from-water-pump": $fa-var-arrow-up-from-water-pump,
   "arrow-up-long": $fa-var-arrow-up-long,
   "long-arrow-up": $fa-var-long-arrow-up,
+  "arrow-up-right-dots": $fa-var-arrow-up-right-dots,
   "arrow-up-right-from-square": $fa-var-arrow-up-right-from-square,
   "external-link": $fa-var-external-link,
   "arrow-up-short-wide": $fa-var-arrow-up-short-wide,
@@ -2299,15 +2578,26 @@ $fa-icons: (
   "sort-amount-up": $fa-var-sort-amount-up,
   "arrow-up-z-a": $fa-var-arrow-up-z-a,
   "sort-alpha-up-alt": $fa-var-sort-alpha-up-alt,
+  "arrows-down-to-line": $fa-var-arrows-down-to-line,
+  "arrows-down-to-people": $fa-var-arrows-down-to-people,
   "arrows-left-right": $fa-var-arrows-left-right,
   "arrows-h": $fa-var-arrows-h,
+  "arrows-left-right-to-line": $fa-var-arrows-left-right-to-line,
   "arrows-rotate": $fa-var-arrows-rotate,
   "refresh": $fa-var-refresh,
   "sync": $fa-var-sync,
+  "arrows-spin": $fa-var-arrows-spin,
+  "arrows-split-up-and-left": $fa-var-arrows-split-up-and-left,
+  "arrows-to-circle": $fa-var-arrows-to-circle,
+  "arrows-to-dot": $fa-var-arrows-to-dot,
+  "arrows-to-eye": $fa-var-arrows-to-eye,
+  "arrows-turn-right": $fa-var-arrows-turn-right,
+  "arrows-turn-to-dots": $fa-var-arrows-turn-to-dots,
   "arrows-up-down": $fa-var-arrows-up-down,
   "arrows-v": $fa-var-arrows-v,
   "arrows-up-down-left-right": $fa-var-arrows-up-down-left-right,
   "arrows": $fa-var-arrows,
+  "arrows-up-to-line": $fa-var-arrows-up-to-line,
   "asterisk": $fa-var-asterisk,
   "at": $fa-var-at,
   "atom": $fa-var-atom,
@@ -2393,6 +2683,7 @@ $fa-icons: (
   "atlas": $fa-var-atlas,
   "book-bible": $fa-var-book-bible,
   "bible": $fa-var-bible,
+  "book-bookmark": $fa-var-book-bookmark,
   "book-journal-whills": $fa-var-book-journal-whills,
   "journal-whills": $fa-var-journal-whills,
   "book-medical": $fa-var-book-medical,
@@ -2408,12 +2699,18 @@ $fa-icons: (
   "border-none": $fa-var-border-none,
   "border-top-left": $fa-var-border-top-left,
   "border-style": $fa-var-border-style,
+  "bore-hole": $fa-var-bore-hole,
+  "bottle-droplet": $fa-var-bottle-droplet,
+  "bottle-water": $fa-var-bottle-water,
+  "bowl-food": $fa-var-bowl-food,
+  "bowl-rice": $fa-var-bowl-rice,
   "bowling-ball": $fa-var-bowling-ball,
   "box": $fa-var-box,
   "box-archive": $fa-var-box-archive,
   "archive": $fa-var-archive,
   "box-open": $fa-var-box-open,
   "box-tissue": $fa-var-box-tissue,
+  "boxes-packing": $fa-var-boxes-packing,
   "boxes-stacked": $fa-var-boxes-stacked,
   "boxes": $fa-var-boxes,
   "boxes-alt": $fa-var-boxes-alt,
@@ -2421,6 +2718,12 @@ $fa-icons: (
   "brain": $fa-var-brain,
   "brazilian-real-sign": $fa-var-brazilian-real-sign,
   "bread-slice": $fa-var-bread-slice,
+  "bridge": $fa-var-bridge,
+  "bridge-circle-check": $fa-var-bridge-circle-check,
+  "bridge-circle-exclamation": $fa-var-bridge-circle-exclamation,
+  "bridge-circle-xmark": $fa-var-bridge-circle-xmark,
+  "bridge-lock": $fa-var-bridge-lock,
+  "bridge-water": $fa-var-bridge-water,
   "briefcase": $fa-var-briefcase,
   "briefcase-medical": $fa-var-briefcase-medical,
   "broom": $fa-var-broom,
@@ -2428,18 +2731,32 @@ $fa-icons: (
   "quidditch": $fa-var-quidditch,
   "quidditch-broom-ball": $fa-var-quidditch-broom-ball,
   "brush": $fa-var-brush,
+  "bucket": $fa-var-bucket,
   "bug": $fa-var-bug,
   "bug-slash": $fa-var-bug-slash,
+  "bugs": $fa-var-bugs,
   "building": $fa-var-building,
+  "building-circle-arrow-right": $fa-var-building-circle-arrow-right,
+  "building-circle-check": $fa-var-building-circle-check,
+  "building-circle-exclamation": $fa-var-building-circle-exclamation,
+  "building-circle-xmark": $fa-var-building-circle-xmark,
   "building-columns": $fa-var-building-columns,
   "bank": $fa-var-bank,
   "institution": $fa-var-institution,
   "museum": $fa-var-museum,
   "university": $fa-var-university,
+  "building-flag": $fa-var-building-flag,
+  "building-lock": $fa-var-building-lock,
+  "building-ngo": $fa-var-building-ngo,
+  "building-shield": $fa-var-building-shield,
+  "building-un": $fa-var-building-un,
+  "building-user": $fa-var-building-user,
+  "building-wheat": $fa-var-building-wheat,
   "bullhorn": $fa-var-bullhorn,
   "bullseye": $fa-var-bullseye,
   "burger": $fa-var-burger,
   "hamburger": $fa-var-hamburger,
+  "burst": $fa-var-burst,
   "bus": $fa-var-bus,
   "bus-simple": $fa-var-bus-simple,
   "bus-alt": $fa-var-bus-alt,
@@ -2472,10 +2789,13 @@ $fa-icons: (
   "automobile": $fa-var-automobile,
   "car-battery": $fa-var-car-battery,
   "battery-car": $fa-var-battery-car,
+  "car-burst": $fa-var-car-burst,
   "car-crash": $fa-var-car-crash,
+  "car-on": $fa-var-car-on,
   "car-rear": $fa-var-car-rear,
   "car-alt": $fa-var-car-alt,
   "car-side": $fa-var-car-side,
+  "car-tunnel": $fa-var-car-tunnel,
   "caravan": $fa-var-caravan,
   "caret-down": $fa-var-caret-down,
   "caret-left": $fa-var-caret-left,
@@ -2513,6 +2833,7 @@ $fa-icons: (
   "line-chart": $fa-var-line-chart,
   "chart-pie": $fa-var-chart-pie,
   "pie-chart": $fa-var-pie-chart,
+  "chart-simple": $fa-var-chart-simple,
   "check": $fa-var-check,
   "check-double": $fa-var-check-double,
   "check-to-slot": $fa-var-check-to-slot,
@@ -2531,6 +2852,8 @@ $fa-icons: (
   "chevron-right": $fa-var-chevron-right,
   "chevron-up": $fa-var-chevron-up,
   "child": $fa-var-child,
+  "child-rifle": $fa-var-child-rifle,
+  "children": $fa-var-children,
   "church": $fa-var-church,
   "circle": $fa-var-circle,
   "circle-arrow-down": $fa-var-circle-arrow-down,
@@ -2569,6 +2892,7 @@ $fa-icons: (
   "arrow-alt-circle-left": $fa-var-arrow-alt-circle-left,
   "circle-minus": $fa-var-circle-minus,
   "minus-circle": $fa-var-minus-circle,
+  "circle-nodes": $fa-var-circle-nodes,
   "circle-notch": $fa-var-circle-notch,
   "circle-pause": $fa-var-circle-pause,
   "pause-circle": $fa-var-pause-circle,
@@ -2596,6 +2920,8 @@ $fa-icons: (
   "clipboard": $fa-var-clipboard,
   "clipboard-check": $fa-var-clipboard-check,
   "clipboard-list": $fa-var-clipboard-list,
+  "clipboard-question": $fa-var-clipboard-question,
+  "clipboard-user": $fa-var-clipboard-user,
   "clock": $fa-var-clock,
   "clock-four": $fa-var-clock-four,
   "clock-rotate-left": $fa-var-clock-rotate-left,
@@ -2609,11 +2935,14 @@ $fa-icons: (
   "cloud-arrow-up": $fa-var-cloud-arrow-up,
   "cloud-upload": $fa-var-cloud-upload,
   "cloud-upload-alt": $fa-var-cloud-upload-alt,
+  "cloud-bolt": $fa-var-cloud-bolt,
+  "thunderstorm": $fa-var-thunderstorm,
   "cloud-meatball": $fa-var-cloud-meatball,
   "cloud-moon": $fa-var-cloud-moon,
   "cloud-moon-rain": $fa-var-cloud-moon-rain,
   "cloud-rain": $fa-var-cloud-rain,
   "cloud-showers-heavy": $fa-var-cloud-showers-heavy,
+  "cloud-showers-water": $fa-var-cloud-showers-water,
   "cloud-sun": $fa-var-cloud-sun,
   "cloud-sun-rain": $fa-var-cloud-sun-rain,
   "clover": $fa-var-clover,
@@ -2641,6 +2970,7 @@ $fa-icons: (
   "compass-drafting": $fa-var-compass-drafting,
   "drafting-compass": $fa-var-drafting-compass,
   "compress": $fa-var-compress,
+  "computer": $fa-var-computer,
   "computer-mouse": $fa-var-computer-mouse,
   "mouse": $fa-var-mouse,
   "cookie": $fa-var-cookie,
@@ -2648,6 +2978,7 @@ $fa-icons: (
   "copy": $fa-var-copy,
   "copyright": $fa-var-copyright,
   "couch": $fa-var-couch,
+  "cow": $fa-var-cow,
   "credit-card": $fa-var-credit-card,
   "credit-card-alt": $fa-var-credit-card-alt,
   "crop": $fa-var-crop,
@@ -2661,6 +2992,7 @@ $fa-icons: (
   "cruzeiro-sign": $fa-var-cruzeiro-sign,
   "cube": $fa-var-cube,
   "cubes": $fa-var-cubes,
+  "cubes-stacked": $fa-var-cubes-stacked,
   "d": $fa-var-d,
   "database": $fa-var-database,
   "delete-left": $fa-var-delete-left,
@@ -2687,6 +3019,7 @@ $fa-icons: (
   "dice-three": $fa-var-dice-three,
   "dice-two": $fa-var-dice-two,
   "disease": $fa-var-disease,
+  "display": $fa-var-display,
   "divide": $fa-var-divide,
   "dna": $fa-var-dna,
   "dog": $fa-var-dog,
@@ -2744,6 +3077,7 @@ $fa-icons: (
   "ellipsis-vertical": $fa-var-ellipsis-vertical,
   "ellipsis-v": $fa-var-ellipsis-v,
   "envelope": $fa-var-envelope,
+  "envelope-circle-check": $fa-var-envelope-circle-check,
   "envelope-open": $fa-var-envelope-open,
   "envelope-open-text": $fa-var-envelope-open-text,
   "envelopes-bulk": $fa-var-envelopes-bulk,
@@ -2756,6 +3090,7 @@ $fa-icons: (
   "euro": $fa-var-euro,
   "exclamation": $fa-var-exclamation,
   "expand": $fa-var-expand,
+  "explosion": $fa-var-explosion,
   "eye": $fa-var-eye,
   "eye-dropper": $fa-var-eye-dropper,
   "eye-dropper-empty": $fa-var-eye-dropper-empty,
@@ -2838,16 +3173,24 @@ $fa-icons: (
   "tired": $fa-var-tired,
   "fan": $fa-var-fan,
   "faucet": $fa-var-faucet,
+  "faucet-drip": $fa-var-faucet-drip,
   "fax": $fa-var-fax,
   "feather": $fa-var-feather,
   "feather-pointed": $fa-var-feather-pointed,
   "feather-alt": $fa-var-feather-alt,
+  "ferry": $fa-var-ferry,
   "file": $fa-var-file,
   "file-arrow-down": $fa-var-file-arrow-down,
   "file-download": $fa-var-file-download,
   "file-arrow-up": $fa-var-file-arrow-up,
   "file-upload": $fa-var-file-upload,
   "file-audio": $fa-var-file-audio,
+  "file-circle-check": $fa-var-file-circle-check,
+  "file-circle-exclamation": $fa-var-file-circle-exclamation,
+  "file-circle-minus": $fa-var-file-circle-minus,
+  "file-circle-plus": $fa-var-file-circle-plus,
+  "file-circle-question": $fa-var-file-circle-question,
+  "file-circle-xmark": $fa-var-file-circle-xmark,
   "file-code": $fa-var-file-code,
   "file-contract": $fa-var-file-contract,
   "file-csv": $fa-var-file-csv,
@@ -2864,8 +3207,11 @@ $fa-icons: (
   "file-text": $fa-var-file-text,
   "file-medical": $fa-var-file-medical,
   "file-pdf": $fa-var-file-pdf,
+  "file-pen": $fa-var-file-pen,
+  "file-edit": $fa-var-file-edit,
   "file-powerpoint": $fa-var-file-powerpoint,
   "file-prescription": $fa-var-file-prescription,
+  "file-shield": $fa-var-file-shield,
   "file-signature": $fa-var-file-signature,
   "file-video": $fa-var-file-video,
   "file-waveform": $fa-var-file-waveform,
@@ -2882,20 +3228,25 @@ $fa-icons: (
   "filter-circle-xmark": $fa-var-filter-circle-xmark,
   "fingerprint": $fa-var-fingerprint,
   "fire": $fa-var-fire,
+  "fire-burner": $fa-var-fire-burner,
   "fire-extinguisher": $fa-var-fire-extinguisher,
   "fire-flame-curved": $fa-var-fire-flame-curved,
   "fire-alt": $fa-var-fire-alt,
   "fire-flame-simple": $fa-var-fire-flame-simple,
   "burn": $fa-var-burn,
   "fish": $fa-var-fish,
+  "fish-fins": $fa-var-fish-fins,
   "flag": $fa-var-flag,
   "flag-checkered": $fa-var-flag-checkered,
   "flag-usa": $fa-var-flag-usa,
   "flask": $fa-var-flask,
+  "flask-vial": $fa-var-flask-vial,
   "floppy-disk": $fa-var-floppy-disk,
   "save": $fa-var-save,
   "florin-sign": $fa-var-florin-sign,
   "folder": $fa-var-folder,
+  "folder-blank": $fa-var-folder-blank,
+  "folder-closed": $fa-var-folder-closed,
   "folder-minus": $fa-var-folder-minus,
   "folder-open": $fa-var-folder-open,
   "folder-plus": $fa-var-folder-plus,
@@ -2940,6 +3291,8 @@ $fa-icons: (
   "ghost": $fa-var-ghost,
   "gift": $fa-var-gift,
   "gifts": $fa-var-gifts,
+  "glass-water": $fa-var-glass-water,
+  "glass-water-droplet": $fa-var-glass-water-droplet,
   "glasses": $fa-var-glasses,
   "globe": $fa-var-globe,
   "golf-ball-tee": $fa-var-golf-ball-tee,
@@ -2954,6 +3307,7 @@ $fa-icons: (
   "grip-lines": $fa-var-grip-lines,
   "grip-lines-vertical": $fa-var-grip-lines-vertical,
   "grip-vertical": $fa-var-grip-vertical,
+  "group-arrows-rotate": $fa-var-group-arrows-rotate,
   "guarani-sign": $fa-var-guarani-sign,
   "guitar": $fa-var-guitar,
   "gun": $fa-var-gun,
@@ -2973,6 +3327,7 @@ $fa-icons: (
   "hand-holding-usd": $fa-var-hand-holding-usd,
   "hand-holding-droplet": $fa-var-hand-holding-droplet,
   "hand-holding-water": $fa-var-hand-holding-water,
+  "hand-holding-hand": $fa-var-hand-holding-hand,
   "hand-holding-heart": $fa-var-hand-holding-heart,
   "hand-holding-medical": $fa-var-hand-holding-medical,
   "hand-lizard": $fa-var-hand-lizard,
@@ -2986,6 +3341,7 @@ $fa-icons: (
   "hand-scissors": $fa-var-hand-scissors,
   "hand-sparkles": $fa-var-hand-sparkles,
   "hand-spock": $fa-var-hand-spock,
+  "handcuffs": $fa-var-handcuffs,
   "hands": $fa-var-hands,
   "sign-language": $fa-var-sign-language,
   "signing": $fa-var-signing,
@@ -2993,15 +3349,20 @@ $fa-icons: (
   "american-sign-language-interpreting": $fa-var-american-sign-language-interpreting,
   "asl-interpreting": $fa-var-asl-interpreting,
   "hands-american-sign-language-interpreting": $fa-var-hands-american-sign-language-interpreting,
+  "hands-bound": $fa-var-hands-bound,
   "hands-bubbles": $fa-var-hands-bubbles,
   "hands-wash": $fa-var-hands-wash,
   "hands-clapping": $fa-var-hands-clapping,
   "hands-holding": $fa-var-hands-holding,
+  "hands-holding-child": $fa-var-hands-holding-child,
+  "hands-holding-circle": $fa-var-hands-holding-circle,
   "hands-praying": $fa-var-hands-praying,
   "praying-hands": $fa-var-praying-hands,
   "handshake": $fa-var-handshake,
   "handshake-angle": $fa-var-handshake-angle,
   "hands-helping": $fa-var-hands-helping,
+  "handshake-simple": $fa-var-handshake-simple,
+  "handshake-alt": $fa-var-handshake-alt,
   "handshake-simple-slash": $fa-var-handshake-simple-slash,
   "handshake-alt-slash": $fa-var-handshake-alt-slash,
   "handshake-slash": $fa-var-handshake-slash,
@@ -3023,15 +3384,25 @@ $fa-icons: (
   "headphones-alt": $fa-var-headphones-alt,
   "headset": $fa-var-headset,
   "heart": $fa-var-heart,
+  "heart-circle-bolt": $fa-var-heart-circle-bolt,
+  "heart-circle-check": $fa-var-heart-circle-check,
+  "heart-circle-exclamation": $fa-var-heart-circle-exclamation,
+  "heart-circle-minus": $fa-var-heart-circle-minus,
+  "heart-circle-plus": $fa-var-heart-circle-plus,
+  "heart-circle-xmark": $fa-var-heart-circle-xmark,
   "heart-crack": $fa-var-heart-crack,
   "heart-broken": $fa-var-heart-broken,
   "heart-pulse": $fa-var-heart-pulse,
   "heartbeat": $fa-var-heartbeat,
   "helicopter": $fa-var-helicopter,
+  "helicopter-symbol": $fa-var-helicopter-symbol,
   "helmet-safety": $fa-var-helmet-safety,
   "hard-hat": $fa-var-hard-hat,
   "hat-hard": $fa-var-hat-hard,
+  "helmet-un": $fa-var-helmet-un,
   "highlighter": $fa-var-highlighter,
+  "hill-avalanche": $fa-var-hill-avalanche,
+  "hill-rockslide": $fa-var-hill-rockslide,
   "hippo": $fa-var-hippo,
   "hockey-puck": $fa-var-hockey-puck,
   "holly-berry": $fa-var-holly-berry,
@@ -3065,14 +3436,29 @@ $fa-icons: (
   "clinic-medical": $fa-var-clinic-medical,
   "house-chimney-user": $fa-var-house-chimney-user,
   "house-chimney-window": $fa-var-house-chimney-window,
+  "house-circle-check": $fa-var-house-circle-check,
+  "house-circle-exclamation": $fa-var-house-circle-exclamation,
+  "house-circle-xmark": $fa-var-house-circle-xmark,
   "house-crack": $fa-var-house-crack,
+  "house-fire": $fa-var-house-fire,
+  "house-flag": $fa-var-house-flag,
+  "house-flood-water": $fa-var-house-flood-water,
+  "house-flood-water-circle-arrow-right": $fa-var-house-flood-water-circle-arrow-right,
   "house-laptop": $fa-var-house-laptop,
   "laptop-house": $fa-var-laptop-house,
+  "house-lock": $fa-var-house-lock,
   "house-medical": $fa-var-house-medical,
+  "house-medical-circle-check": $fa-var-house-medical-circle-check,
+  "house-medical-circle-exclamation": $fa-var-house-medical-circle-exclamation,
+  "house-medical-circle-xmark": $fa-var-house-medical-circle-xmark,
+  "house-medical-flag": $fa-var-house-medical-flag,
+  "house-signal": $fa-var-house-signal,
+  "house-tsunami": $fa-var-house-tsunami,
   "house-user": $fa-var-house-user,
   "home-user": $fa-var-home-user,
   "hryvnia-sign": $fa-var-hryvnia-sign,
   "hryvnia": $fa-var-hryvnia,
+  "hurricane": $fa-var-hurricane,
   "i": $fa-var-i,
   "i-cursor": $fa-var-i-cursor,
   "ice-cream": $fa-var-ice-cream,
@@ -3099,10 +3485,14 @@ $fa-icons: (
   "info": $fa-var-info,
   "italic": $fa-var-italic,
   "j": $fa-var-j,
+  "jar": $fa-var-jar,
+  "jar-wheat": $fa-var-jar-wheat,
   "jedi": $fa-var-jedi,
   "jet-fighter": $fa-var-jet-fighter,
   "fighter-jet": $fa-var-fighter-jet,
+  "jet-fighter-up": $fa-var-jet-fighter-up,
   "joint": $fa-var-joint,
+  "jug-detergent": $fa-var-jug-detergent,
   "k": $fa-var-k,
   "kaaba": $fa-var-kaaba,
   "key": $fa-var-key,
@@ -3111,12 +3501,18 @@ $fa-icons: (
   "kip-sign": $fa-var-kip-sign,
   "kit-medical": $fa-var-kit-medical,
   "first-aid": $fa-var-first-aid,
+  "kitchen-set": $fa-var-kitchen-set,
   "kiwi-bird": $fa-var-kiwi-bird,
   "l": $fa-var-l,
+  "land-mine-on": $fa-var-land-mine-on,
   "landmark": $fa-var-landmark,
+  "landmark-dome": $fa-var-landmark-dome,
+  "landmark-alt": $fa-var-landmark-alt,
+  "landmark-flag": $fa-var-landmark-flag,
   "language": $fa-var-language,
   "laptop": $fa-var-laptop,
   "laptop-code": $fa-var-laptop-code,
+  "laptop-file": $fa-var-laptop-file,
   "laptop-medical": $fa-var-laptop-medical,
   "lari-sign": $fa-var-lari-sign,
   "layer-group": $fa-var-layer-group,
@@ -3130,6 +3526,7 @@ $fa-icons: (
   "less-than-equal": $fa-var-less-than-equal,
   "life-ring": $fa-var-life-ring,
   "lightbulb": $fa-var-lightbulb,
+  "lines-leaning": $fa-var-lines-leaning,
   "link": $fa-var-link,
   "chain": $fa-var-chain,
   "link-slash": $fa-var-link-slash,
@@ -3154,14 +3551,18 @@ $fa-icons: (
   "map-marker-alt": $fa-var-map-marker-alt,
   "location-pin": $fa-var-location-pin,
   "map-marker": $fa-var-map-marker,
+  "location-pin-lock": $fa-var-location-pin-lock,
   "lock": $fa-var-lock,
   "lock-open": $fa-var-lock-open,
+  "locust": $fa-var-locust,
   "lungs": $fa-var-lungs,
   "lungs-virus": $fa-var-lungs-virus,
   "m": $fa-var-m,
   "magnet": $fa-var-magnet,
   "magnifying-glass": $fa-var-magnifying-glass,
   "search": $fa-var-search,
+  "magnifying-glass-arrow-right": $fa-var-magnifying-glass-arrow-right,
+  "magnifying-glass-chart": $fa-var-magnifying-glass-chart,
   "magnifying-glass-dollar": $fa-var-magnifying-glass-dollar,
   "search-dollar": $fa-var-search-dollar,
   "magnifying-glass-location": $fa-var-magnifying-glass-location,
@@ -3180,6 +3581,7 @@ $fa-icons: (
   "marker": $fa-var-marker,
   "mars": $fa-var-mars,
   "mars-and-venus": $fa-var-mars-and-venus,
+  "mars-and-venus-burst": $fa-var-mars-and-venus-burst,
   "mars-double": $fa-var-mars-double,
   "mars-stroke": $fa-var-mars-stroke,
   "mars-stroke-right": $fa-var-mars-stroke-right,
@@ -3194,8 +3596,10 @@ $fa-icons: (
   "glass-martini": $fa-var-glass-martini,
   "mask": $fa-var-mask,
   "mask-face": $fa-var-mask-face,
+  "mask-ventilator": $fa-var-mask-ventilator,
   "masks-theater": $fa-var-masks-theater,
   "theater-masks": $fa-var-theater-masks,
+  "mattress-pillow": $fa-var-mattress-pillow,
   "maximize": $fa-var-maximize,
   "expand-arrows-alt": $fa-var-expand-arrows-alt,
   "medal": $fa-var-medal,
@@ -3223,6 +3627,9 @@ $fa-icons: (
   "mobile-android": $fa-var-mobile-android,
   "mobile-phone": $fa-var-mobile-phone,
   "mobile-button": $fa-var-mobile-button,
+  "mobile-retro": $fa-var-mobile-retro,
+  "mobile-screen": $fa-var-mobile-screen,
+  "mobile-android-alt": $fa-var-mobile-android-alt,
   "mobile-screen-button": $fa-var-mobile-screen-button,
   "mobile-alt": $fa-var-mobile-alt,
   "money-bill": $fa-var-money-bill,
@@ -3230,7 +3637,11 @@ $fa-icons: (
   "money-bill-alt": $fa-var-money-bill-alt,
   "money-bill-1-wave": $fa-var-money-bill-1-wave,
   "money-bill-wave-alt": $fa-var-money-bill-wave-alt,
+  "money-bill-transfer": $fa-var-money-bill-transfer,
+  "money-bill-trend-up": $fa-var-money-bill-trend-up,
   "money-bill-wave": $fa-var-money-bill-wave,
+  "money-bill-wheat": $fa-var-money-bill-wheat,
+  "money-bills": $fa-var-money-bills,
   "money-check": $fa-var-money-check,
   "money-check-dollar": $fa-var-money-check-dollar,
   "money-check-alt": $fa-var-money-check-alt,
@@ -3238,8 +3649,13 @@ $fa-icons: (
   "moon": $fa-var-moon,
   "mortar-pestle": $fa-var-mortar-pestle,
   "mosque": $fa-var-mosque,
+  "mosquito": $fa-var-mosquito,
+  "mosquito-net": $fa-var-mosquito-net,
   "motorcycle": $fa-var-motorcycle,
+  "mound": $fa-var-mound,
   "mountain": $fa-var-mountain,
+  "mountain-city": $fa-var-mountain-city,
+  "mountain-sun": $fa-var-mountain-sun,
   "mug-hot": $fa-var-mug-hot,
   "mug-saucer": $fa-var-mug-saucer,
   "coffee": $fa-var-coffee,
@@ -3257,6 +3673,7 @@ $fa-icons: (
   "object-group": $fa-var-object-group,
   "object-ungroup": $fa-var-object-ungroup,
   "oil-can": $fa-var-oil-can,
+  "oil-well": $fa-var-oil-well,
   "om": $fa-var-om,
   "otter": $fa-var-otter,
   "outdent": $fa-var-outdent,
@@ -3294,24 +3711,56 @@ $fa-icons: (
   "people-arrows": $fa-var-people-arrows,
   "people-carry-box": $fa-var-people-carry-box,
   "people-carry": $fa-var-people-carry,
+  "people-group": $fa-var-people-group,
+  "people-line": $fa-var-people-line,
+  "people-pulling": $fa-var-people-pulling,
+  "people-robbery": $fa-var-people-robbery,
+  "people-roof": $fa-var-people-roof,
   "pepper-hot": $fa-var-pepper-hot,
   "percent": $fa-var-percent,
   "percentage": $fa-var-percentage,
   "person": $fa-var-person,
   "male": $fa-var-male,
+  "person-arrow-down-to-line": $fa-var-person-arrow-down-to-line,
+  "person-arrow-up-from-line": $fa-var-person-arrow-up-from-line,
   "person-biking": $fa-var-person-biking,
   "biking": $fa-var-biking,
   "person-booth": $fa-var-person-booth,
+  "person-breastfeeding": $fa-var-person-breastfeeding,
+  "person-burst": $fa-var-person-burst,
+  "person-cane": $fa-var-person-cane,
+  "person-chalkboard": $fa-var-person-chalkboard,
+  "person-circle-check": $fa-var-person-circle-check,
+  "person-circle-exclamation": $fa-var-person-circle-exclamation,
+  "person-circle-minus": $fa-var-person-circle-minus,
+  "person-circle-plus": $fa-var-person-circle-plus,
+  "person-circle-question": $fa-var-person-circle-question,
+  "person-circle-xmark": $fa-var-person-circle-xmark,
+  "person-digging": $fa-var-person-digging,
+  "digging": $fa-var-digging,
   "person-dots-from-line": $fa-var-person-dots-from-line,
   "diagnoses": $fa-var-diagnoses,
   "person-dress": $fa-var-person-dress,
   "female": $fa-var-female,
+  "person-dress-burst": $fa-var-person-dress-burst,
+  "person-drowning": $fa-var-person-drowning,
+  "person-falling": $fa-var-person-falling,
+  "person-falling-burst": $fa-var-person-falling-burst,
+  "person-half-dress": $fa-var-person-half-dress,
+  "person-harassing": $fa-var-person-harassing,
   "person-hiking": $fa-var-person-hiking,
   "hiking": $fa-var-hiking,
+  "person-military-pointing": $fa-var-person-military-pointing,
+  "person-military-rifle": $fa-var-person-military-rifle,
+  "person-military-to-person": $fa-var-person-military-to-person,
   "person-praying": $fa-var-person-praying,
   "pray": $fa-var-pray,
+  "person-pregnant": $fa-var-person-pregnant,
+  "person-rays": $fa-var-person-rays,
+  "person-rifle": $fa-var-person-rifle,
   "person-running": $fa-var-person-running,
   "running": $fa-var-running,
+  "person-shelter": $fa-var-person-shelter,
   "person-skating": $fa-var-person-skating,
   "skating": $fa-var-skating,
   "person-skiing": $fa-var-person-skiing,
@@ -3322,8 +3771,13 @@ $fa-icons: (
   "snowboarding": $fa-var-snowboarding,
   "person-swimming": $fa-var-person-swimming,
   "swimmer": $fa-var-swimmer,
+  "person-through-window": $fa-var-person-through-window,
   "person-walking": $fa-var-person-walking,
   "walking": $fa-var-walking,
+  "person-walking-arrow-loop-left": $fa-var-person-walking-arrow-loop-left,
+  "person-walking-arrow-right": $fa-var-person-walking-arrow-right,
+  "person-walking-dashed-line-arrow-right": $fa-var-person-walking-dashed-line-arrow-right,
+  "person-walking-luggage": $fa-var-person-walking-luggage,
   "person-walking-with-cane": $fa-var-person-walking-with-cane,
   "blind": $fa-var-blind,
   "peseta-sign": $fa-var-peseta-sign,
@@ -3342,10 +3796,23 @@ $fa-icons: (
   "place-of-worship": $fa-var-place-of-worship,
   "plane": $fa-var-plane,
   "plane-arrival": $fa-var-plane-arrival,
+  "plane-circle-check": $fa-var-plane-circle-check,
+  "plane-circle-exclamation": $fa-var-plane-circle-exclamation,
+  "plane-circle-xmark": $fa-var-plane-circle-xmark,
   "plane-departure": $fa-var-plane-departure,
+  "plane-lock": $fa-var-plane-lock,
   "plane-slash": $fa-var-plane-slash,
+  "plane-up": $fa-var-plane-up,
+  "plant-wilt": $fa-var-plant-wilt,
+  "plate-wheat": $fa-var-plate-wheat,
   "play": $fa-var-play,
   "plug": $fa-var-plug,
+  "plug-circle-bolt": $fa-var-plug-circle-bolt,
+  "plug-circle-check": $fa-var-plug-circle-check,
+  "plug-circle-exclamation": $fa-var-plug-circle-exclamation,
+  "plug-circle-minus": $fa-var-plug-circle-minus,
+  "plug-circle-plus": $fa-var-plug-circle-plus,
+  "plug-circle-xmark": $fa-var-plug-circle-xmark,
   "plus": $fa-var-plus,
   "add": $fa-var-add,
   "plus-minus": $fa-var-plus-minus,
@@ -3372,7 +3839,9 @@ $fa-icons: (
   "quote-right-alt": $fa-var-quote-right-alt,
   "r": $fa-var-r,
   "radiation": $fa-var-radiation,
+  "radio": $fa-var-radio,
   "rainbow": $fa-var-rainbow,
+  "ranking-star": $fa-var-ranking-star,
   "receipt": $fa-var-receipt,
   "record-vinyl": $fa-var-record-vinyl,
   "rectangle-ad": $fa-var-rectangle-ad,
@@ -3404,6 +3873,13 @@ $fa-icons: (
   "sign-in-alt": $fa-var-sign-in-alt,
   "ring": $fa-var-ring,
   "road": $fa-var-road,
+  "road-barrier": $fa-var-road-barrier,
+  "road-bridge": $fa-var-road-bridge,
+  "road-circle-check": $fa-var-road-circle-check,
+  "road-circle-exclamation": $fa-var-road-circle-exclamation,
+  "road-circle-xmark": $fa-var-road-circle-xmark,
+  "road-lock": $fa-var-road-lock,
+  "road-spikes": $fa-var-road-spikes,
   "robot": $fa-var-robot,
   "rocket": $fa-var-rocket,
   "rotate": $fa-var-rotate,
@@ -3422,6 +3898,7 @@ $fa-icons: (
   "rouble": $fa-var-rouble,
   "rub": $fa-var-rub,
   "ruble": $fa-var-ruble,
+  "rug": $fa-var-rug,
   "ruler": $fa-var-ruler,
   "ruler-combined": $fa-var-ruler-combined,
   "ruler-horizontal": $fa-var-ruler-horizontal,
@@ -3430,6 +3907,8 @@ $fa-icons: (
   "rupee": $fa-var-rupee,
   "rupiah-sign": $fa-var-rupiah-sign,
   "s": $fa-var-s,
+  "sack-dollar": $fa-var-sack-dollar,
+  "sack-xmark": $fa-var-sack-xmark,
   "sailboat": $fa-var-sailboat,
   "satellite": $fa-var-satellite,
   "satellite-dish": $fa-var-satellite-dish,
@@ -3440,6 +3919,11 @@ $fa-icons: (
   "scale-unbalanced-flip": $fa-var-scale-unbalanced-flip,
   "balance-scale-right": $fa-var-balance-scale-right,
   "school": $fa-var-school,
+  "school-circle-check": $fa-var-school-circle-check,
+  "school-circle-exclamation": $fa-var-school-circle-exclamation,
+  "school-circle-xmark": $fa-var-school-circle-xmark,
+  "school-flag": $fa-var-school-flag,
+  "school-lock": $fa-var-school-lock,
   "scissors": $fa-var-scissors,
   "cut": $fa-var-cut,
   "screwdriver": $fa-var-screwdriver,
@@ -3462,6 +3946,7 @@ $fa-icons: (
   "share-square": $fa-var-share-square,
   "share-nodes": $fa-var-share-nodes,
   "share-alt": $fa-var-share-alt,
+  "sheet-plastic": $fa-var-sheet-plastic,
   "shekel-sign": $fa-var-shekel-sign,
   "ils": $fa-var-ils,
   "shekel": $fa-var-shekel,
@@ -3469,7 +3954,11 @@ $fa-icons: (
   "sheqel-sign": $fa-var-sheqel-sign,
   "shield": $fa-var-shield,
   "shield-blank": $fa-var-shield-blank,
+  "shield-cat": $fa-var-shield-cat,
+  "shield-dog": $fa-var-shield-dog,
+  "shield-halved": $fa-var-shield-halved,
   "shield-alt": $fa-var-shield-alt,
+  "shield-heart": $fa-var-shield-heart,
   "shield-virus": $fa-var-shield-virus,
   "ship": $fa-var-ship,
   "shirt": $fa-var-shirt,
@@ -3478,6 +3967,7 @@ $fa-icons: (
   "shoe-prints": $fa-var-shoe-prints,
   "shop": $fa-var-shop,
   "store-alt": $fa-var-store-alt,
+  "shop-lock": $fa-var-shop-lock,
   "shop-slash": $fa-var-shop-slash,
   "store-alt-slash": $fa-var-store-alt-slash,
   "shower": $fa-var-shower,
@@ -3549,11 +4039,13 @@ $fa-icons: (
   "h-square": $fa-var-h-square,
   "square-minus": $fa-var-square-minus,
   "minus-square": $fa-var-minus-square,
+  "square-nfi": $fa-var-square-nfi,
   "square-parking": $fa-var-square-parking,
   "parking": $fa-var-parking,
   "square-pen": $fa-var-square-pen,
   "pen-square": $fa-var-pen-square,
   "pencil-square": $fa-var-pencil-square,
+  "square-person-confined": $fa-var-square-person-confined,
   "square-phone": $fa-var-square-phone,
   "phone-square": $fa-var-phone-square,
   "square-phone-flip": $fa-var-square-phone-flip,
@@ -3572,9 +4064,14 @@ $fa-icons: (
   "share-alt-square": $fa-var-share-alt-square,
   "square-up-right": $fa-var-square-up-right,
   "external-link-square-alt": $fa-var-external-link-square-alt,
+  "square-virus": $fa-var-square-virus,
   "square-xmark": $fa-var-square-xmark,
   "times-square": $fa-var-times-square,
   "xmark-square": $fa-var-xmark-square,
+  "staff-aesculapius": $fa-var-staff-aesculapius,
+  "rod-asclepius": $fa-var-rod-asclepius,
+  "rod-snake": $fa-var-rod-snake,
+  "staff-snake": $fa-var-staff-snake,
   "stairs": $fa-var-stairs,
   "stamp": $fa-var-stamp,
   "star": $fa-var-star,
@@ -3602,6 +4099,7 @@ $fa-icons: (
   "medkit": $fa-var-medkit,
   "suitcase-rolling": $fa-var-suitcase-rolling,
   "sun": $fa-var-sun,
+  "sun-plant-wilt": $fa-var-sun-plant-wilt,
   "superscript": $fa-var-superscript,
   "swatchbook": $fa-var-swatchbook,
   "synagogue": $fa-var-synagogue,
@@ -3630,10 +4128,16 @@ $fa-icons: (
   "tag": $fa-var-tag,
   "tags": $fa-var-tags,
   "tape": $fa-var-tape,
+  "tarp": $fa-var-tarp,
+  "tarp-droplet": $fa-var-tarp-droplet,
   "taxi": $fa-var-taxi,
   "cab": $fa-var-cab,
   "teeth": $fa-var-teeth,
   "teeth-open": $fa-var-teeth-open,
+  "temperature-arrow-down": $fa-var-temperature-arrow-down,
+  "temperature-down": $fa-var-temperature-down,
+  "temperature-arrow-up": $fa-var-temperature-arrow-up,
+  "temperature-up": $fa-var-temperature-up,
   "temperature-empty": $fa-var-temperature-empty,
   "temperature-0": $fa-var-temperature-0,
   "thermometer-0": $fa-var-thermometer-0,
@@ -3658,6 +4162,12 @@ $fa-icons: (
   "thermometer-three-quarters": $fa-var-thermometer-three-quarters,
   "tenge-sign": $fa-var-tenge-sign,
   "tenge": $fa-var-tenge,
+  "tent": $fa-var-tent,
+  "tent-arrow-down-to-line": $fa-var-tent-arrow-down-to-line,
+  "tent-arrow-left-right": $fa-var-tent-arrow-left-right,
+  "tent-arrow-turn-left": $fa-var-tent-arrow-turn-left,
+  "tent-arrows-down": $fa-var-tent-arrows-down,
+  "tents": $fa-var-tents,
   "terminal": $fa-var-terminal,
   "text-height": $fa-var-text-height,
   "text-slash": $fa-var-text-slash,
@@ -3677,11 +4187,16 @@ $fa-icons: (
   "toilet": $fa-var-toilet,
   "toilet-paper": $fa-var-toilet-paper,
   "toilet-paper-slash": $fa-var-toilet-paper-slash,
+  "toilet-portable": $fa-var-toilet-portable,
+  "toilets-portable": $fa-var-toilets-portable,
   "toolbox": $fa-var-toolbox,
   "tooth": $fa-var-tooth,
   "torii-gate": $fa-var-torii-gate,
+  "tornado": $fa-var-tornado,
   "tower-broadcast": $fa-var-tower-broadcast,
   "broadcast-tower": $fa-var-broadcast-tower,
+  "tower-cell": $fa-var-tower-cell,
+  "tower-observation": $fa-var-tower-observation,
   "tractor": $fa-var-tractor,
   "trademark": $fa-var-trademark,
   "traffic-light": $fa-var-traffic-light,
@@ -3701,18 +4216,27 @@ $fa-icons: (
   "trash-can-arrow-up": $fa-var-trash-can-arrow-up,
   "trash-restore-alt": $fa-var-trash-restore-alt,
   "tree": $fa-var-tree,
+  "tree-city": $fa-var-tree-city,
   "triangle-exclamation": $fa-var-triangle-exclamation,
   "exclamation-triangle": $fa-var-exclamation-triangle,
   "warning": $fa-var-warning,
   "trophy": $fa-var-trophy,
+  "trowel": $fa-var-trowel,
+  "trowel-bricks": $fa-var-trowel-bricks,
   "truck": $fa-var-truck,
+  "truck-arrow-right": $fa-var-truck-arrow-right,
+  "truck-droplet": $fa-var-truck-droplet,
   "truck-fast": $fa-var-truck-fast,
   "shipping-fast": $fa-var-shipping-fast,
+  "truck-field": $fa-var-truck-field,
+  "truck-field-un": $fa-var-truck-field-un,
+  "truck-front": $fa-var-truck-front,
   "truck-medical": $fa-var-truck-medical,
   "ambulance": $fa-var-ambulance,
   "truck-monster": $fa-var-truck-monster,
   "truck-moving": $fa-var-truck-moving,
   "truck-pickup": $fa-var-truck-pickup,
+  "truck-plane": $fa-var-truck-plane,
   "truck-ramp-box": $fa-var-truck-ramp-box,
   "truck-loading": $fa-var-truck-loading,
   "tty": $fa-var-tty,
@@ -3777,9 +4301,14 @@ $fa-icons: (
   "user-xmark": $fa-var-user-xmark,
   "user-times": $fa-var-user-times,
   "users": $fa-var-users,
+  "users-between-lines": $fa-var-users-between-lines,
   "users-gear": $fa-var-users-gear,
   "users-cog": $fa-var-users-cog,
+  "users-line": $fa-var-users-line,
+  "users-rays": $fa-var-users-rays,
+  "users-rectangle": $fa-var-users-rectangle,
   "users-slash": $fa-var-users-slash,
+  "users-viewfinder": $fa-var-users-viewfinder,
   "utensils": $fa-var-utensils,
   "cutlery": $fa-var-cutlery,
   "v": $fa-var-v,
@@ -3793,6 +4322,8 @@ $fa-icons: (
   "vest": $fa-var-vest,
   "vest-patches": $fa-var-vest-patches,
   "vial": $fa-var-vial,
+  "vial-circle-check": $fa-var-vial-circle-check,
+  "vial-virus": $fa-var-vial-virus,
   "vials": $fa-var-vials,
   "video": $fa-var-video,
   "video-camera": $fa-var-video-camera,
@@ -3804,6 +4335,7 @@ $fa-icons: (
   "virus-slash": $fa-var-virus-slash,
   "viruses": $fa-var-viruses,
   "voicemail": $fa-var-voicemail,
+  "volcano": $fa-var-volcano,
   "volleyball": $fa-var-volleyball,
   "volleyball-ball": $fa-var-volleyball-ball,
   "volume-high": $fa-var-volume-high,
@@ -3816,6 +4348,7 @@ $fa-icons: (
   "volume-times": $fa-var-volume-times,
   "vr-cardboard": $fa-var-vr-cardboard,
   "w": $fa-var-w,
+  "walkie-talkie": $fa-var-walkie-talkie,
   "wallet": $fa-var-wallet,
   "wand-magic": $fa-var-wand-magic,
   "magic": $fa-var-magic,
@@ -3831,7 +4364,12 @@ $fa-icons: (
   "weight-hanging": $fa-var-weight-hanging,
   "weight-scale": $fa-var-weight-scale,
   "weight": $fa-var-weight,
+  "wheat-awn": $fa-var-wheat-awn,
+  "wheat-alt": $fa-var-wheat-alt,
+  "wheat-awn-circle-exclamation": $fa-var-wheat-awn-circle-exclamation,
   "wheelchair": $fa-var-wheelchair,
+  "wheelchair-move": $fa-var-wheelchair-move,
+  "wheelchair-alt": $fa-var-wheelchair-alt,
   "whiskey-glass": $fa-var-whiskey-glass,
   "glass-whiskey": $fa-var-glass-whiskey,
   "wifi": $fa-var-wifi,
@@ -3848,6 +4386,7 @@ $fa-icons: (
   "won-sign": $fa-var-won-sign,
   "krw": $fa-var-krw,
   "won": $fa-var-won,
+  "worm": $fa-var-worm,
   "wrench": $fa-var-wrench,
   "x": $fa-var-x,
   "x-ray": $fa-var-x-ray,
@@ -3856,6 +4395,7 @@ $fa-icons: (
   "multiply": $fa-var-multiply,
   "remove": $fa-var-remove,
   "times": $fa-var-times,
+  "xmarks-lines": $fa-var-xmarks-lines,
   "y": $fa-var-y,
   "yen-sign": $fa-var-yen-sign,
   "cny": $fa-var-cny,
@@ -4140,6 +4680,8 @@ $fa-brand-icons: (
   "monero": $fa-var-monero,
   "napster": $fa-var-napster,
   "neos": $fa-var-neos,
+  "nfc-directional": $fa-var-nfc-directional,
+  "nfc-symbol": $fa-var-nfc-symbol,
   "nimblr": $fa-var-nimblr,
   "node": $fa-var-node,
   "node-js": $fa-var-node-js,
@@ -4208,6 +4750,7 @@ $fa-brand-icons: (
   "salesforce": $fa-var-salesforce,
   "sass": $fa-var-sass,
   "schlix": $fa-var-schlix,
+  "screenpal": $fa-var-screenpal,
   "scribd": $fa-var-scribd,
   "searchengin": $fa-var-searchengin,
   "sellcast": $fa-var-sellcast,

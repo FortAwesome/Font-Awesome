@@ -294,6 +294,8 @@ export type IconName = '42-group' |
   'monero' | 
   'napster' | 
   'neos' | 
+  'nfc-directional' | 
+  'nfc-symbol' | 
   'nimblr' | 
   'node' | 
   'node-js' | 
@@ -362,6 +364,7 @@ export type IconName = '42-group' |
   'salesforce' | 
   'sass' | 
   'schlix' | 
+  'screenpal' | 
   'scribd' | 
   'searchengin' | 
   'sellcast' | 
@@ -648,6 +651,8 @@ export type IconName = '42-group' |
   'floppy-disk' | 
   'save' | 
   'folder' | 
+  'folder-blank' | 
+  'folder-closed' | 
   'folder-open' | 
   'font-awesome' | 
   'font-awesome-flag' | 
@@ -764,6 +769,10 @@ export type IconName = '42-group' |
   'align-left' | 
   'align-right' | 
   'anchor' | 
+  'anchor-circle-check' | 
+  'anchor-circle-exclamation' | 
+  'anchor-circle-xmark' | 
+  'anchor-lock' | 
   'angle-down' | 
   'angle-left' | 
   'angle-right' | 
@@ -795,6 +804,8 @@ export type IconName = '42-group' |
   'arrow-down-short-wide' | 
   'sort-amount-desc' | 
   'sort-amount-down-alt' | 
+  'arrow-down-up-across-line' | 
+  'arrow-down-up-lock' | 
   'arrow-down-wide-short' | 
   'sort-amount-asc' | 
   'sort-amount-down' | 
@@ -815,6 +826,7 @@ export type IconName = '42-group' |
   'long-arrow-right' | 
   'arrow-right-to-bracket' | 
   'sign-in' | 
+  'arrow-right-to-city' | 
   'arrow-rotate-left' | 
   'arrow-left-rotate' | 
   'arrow-rotate-back' | 
@@ -838,8 +850,11 @@ export type IconName = '42-group' |
   'arrow-up-a-z' | 
   'sort-alpha-up' | 
   'arrow-up-from-bracket' | 
+  'arrow-up-from-ground-water' | 
+  'arrow-up-from-water-pump' | 
   'arrow-up-long' | 
   'long-arrow-up' | 
+  'arrow-up-right-dots' | 
   'arrow-up-right-from-square' | 
   'external-link' | 
   'arrow-up-short-wide' | 
@@ -848,15 +863,26 @@ export type IconName = '42-group' |
   'sort-amount-up' | 
   'arrow-up-z-a' | 
   'sort-alpha-up-alt' | 
+  'arrows-down-to-line' | 
+  'arrows-down-to-people' | 
   'arrows-left-right' | 
   'arrows-h' | 
+  'arrows-left-right-to-line' | 
   'arrows-rotate' | 
   'refresh' | 
   'sync' | 
+  'arrows-spin' | 
+  'arrows-split-up-and-left' | 
+  'arrows-to-circle' | 
+  'arrows-to-dot' | 
+  'arrows-to-eye' | 
+  'arrows-turn-right' | 
+  'arrows-turn-to-dots' | 
   'arrows-up-down' | 
   'arrows-v' | 
   'arrows-up-down-left-right' | 
   'arrows' | 
+  'arrows-up-to-line' | 
   'asterisk' | 
   'at' | 
   'atom' | 
@@ -942,6 +968,7 @@ export type IconName = '42-group' |
   'atlas' | 
   'book-bible' | 
   'bible' | 
+  'book-bookmark' | 
   'book-journal-whills' | 
   'journal-whills' | 
   'book-medical' | 
@@ -957,12 +984,18 @@ export type IconName = '42-group' |
   'border-none' | 
   'border-top-left' | 
   'border-style' | 
+  'bore-hole' | 
+  'bottle-droplet' | 
+  'bottle-water' | 
+  'bowl-food' | 
+  'bowl-rice' | 
   'bowling-ball' | 
   'box' | 
   'box-archive' | 
   'archive' | 
   'box-open' | 
   'box-tissue' | 
+  'boxes-packing' | 
   'boxes-stacked' | 
   'boxes' | 
   'boxes-alt' | 
@@ -970,6 +1003,12 @@ export type IconName = '42-group' |
   'brain' | 
   'brazilian-real-sign' | 
   'bread-slice' | 
+  'bridge' | 
+  'bridge-circle-check' | 
+  'bridge-circle-exclamation' | 
+  'bridge-circle-xmark' | 
+  'bridge-lock' | 
+  'bridge-water' | 
   'briefcase' | 
   'briefcase-medical' | 
   'broom' | 
@@ -977,18 +1016,32 @@ export type IconName = '42-group' |
   'quidditch' | 
   'quidditch-broom-ball' | 
   'brush' | 
+  'bucket' | 
   'bug' | 
   'bug-slash' | 
+  'bugs' | 
   'building' | 
+  'building-circle-arrow-right' | 
+  'building-circle-check' | 
+  'building-circle-exclamation' | 
+  'building-circle-xmark' | 
   'building-columns' | 
   'bank' | 
   'institution' | 
   'museum' | 
   'university' | 
+  'building-flag' | 
+  'building-lock' | 
+  'building-ngo' | 
+  'building-shield' | 
+  'building-un' | 
+  'building-user' | 
+  'building-wheat' | 
   'bullhorn' | 
   'bullseye' | 
   'burger' | 
   'hamburger' | 
+  'burst' | 
   'bus' | 
   'bus-simple' | 
   'bus-alt' | 
@@ -1021,10 +1074,13 @@ export type IconName = '42-group' |
   'automobile' | 
   'car-battery' | 
   'battery-car' | 
+  'car-burst' | 
   'car-crash' | 
+  'car-on' | 
   'car-rear' | 
   'car-alt' | 
   'car-side' | 
+  'car-tunnel' | 
   'caravan' | 
   'caret-down' | 
   'caret-left' | 
@@ -1062,6 +1118,7 @@ export type IconName = '42-group' |
   'line-chart' | 
   'chart-pie' | 
   'pie-chart' | 
+  'chart-simple' | 
   'check' | 
   'check-double' | 
   'check-to-slot' | 
@@ -1080,6 +1137,8 @@ export type IconName = '42-group' |
   'chevron-right' | 
   'chevron-up' | 
   'child' | 
+  'child-rifle' | 
+  'children' | 
   'church' | 
   'circle' | 
   'circle-arrow-down' | 
@@ -1118,6 +1177,7 @@ export type IconName = '42-group' |
   'arrow-alt-circle-left' | 
   'circle-minus' | 
   'minus-circle' | 
+  'circle-nodes' | 
   'circle-notch' | 
   'circle-pause' | 
   'pause-circle' | 
@@ -1145,6 +1205,8 @@ export type IconName = '42-group' |
   'clipboard' | 
   'clipboard-check' | 
   'clipboard-list' | 
+  'clipboard-question' | 
+  'clipboard-user' | 
   'clock' | 
   'clock-four' | 
   'clock-rotate-left' | 
@@ -1158,11 +1220,14 @@ export type IconName = '42-group' |
   'cloud-arrow-up' | 
   'cloud-upload' | 
   'cloud-upload-alt' | 
+  'cloud-bolt' | 
+  'thunderstorm' | 
   'cloud-meatball' | 
   'cloud-moon' | 
   'cloud-moon-rain' | 
   'cloud-rain' | 
   'cloud-showers-heavy' | 
+  'cloud-showers-water' | 
   'cloud-sun' | 
   'cloud-sun-rain' | 
   'clover' | 
@@ -1190,6 +1255,7 @@ export type IconName = '42-group' |
   'compass-drafting' | 
   'drafting-compass' | 
   'compress' | 
+  'computer' | 
   'computer-mouse' | 
   'mouse' | 
   'cookie' | 
@@ -1197,6 +1263,7 @@ export type IconName = '42-group' |
   'copy' | 
   'copyright' | 
   'couch' | 
+  'cow' | 
   'credit-card' | 
   'credit-card-alt' | 
   'crop' | 
@@ -1210,6 +1277,7 @@ export type IconName = '42-group' |
   'cruzeiro-sign' | 
   'cube' | 
   'cubes' | 
+  'cubes-stacked' | 
   'd' | 
   'database' | 
   'delete-left' | 
@@ -1236,6 +1304,7 @@ export type IconName = '42-group' |
   'dice-three' | 
   'dice-two' | 
   'disease' | 
+  'display' | 
   'divide' | 
   'dna' | 
   'dog' | 
@@ -1293,6 +1362,7 @@ export type IconName = '42-group' |
   'ellipsis-vertical' | 
   'ellipsis-v' | 
   'envelope' | 
+  'envelope-circle-check' | 
   'envelope-open' | 
   'envelope-open-text' | 
   'envelopes-bulk' | 
@@ -1305,6 +1375,7 @@ export type IconName = '42-group' |
   'euro' | 
   'exclamation' | 
   'expand' | 
+  'explosion' | 
   'eye' | 
   'eye-dropper' | 
   'eye-dropper-empty' | 
@@ -1387,16 +1458,24 @@ export type IconName = '42-group' |
   'tired' | 
   'fan' | 
   'faucet' | 
+  'faucet-drip' | 
   'fax' | 
   'feather' | 
   'feather-pointed' | 
   'feather-alt' | 
+  'ferry' | 
   'file' | 
   'file-arrow-down' | 
   'file-download' | 
   'file-arrow-up' | 
   'file-upload' | 
   'file-audio' | 
+  'file-circle-check' | 
+  'file-circle-exclamation' | 
+  'file-circle-minus' | 
+  'file-circle-plus' | 
+  'file-circle-question' | 
+  'file-circle-xmark' | 
   'file-code' | 
   'file-contract' | 
   'file-csv' | 
@@ -1413,8 +1492,11 @@ export type IconName = '42-group' |
   'file-text' | 
   'file-medical' | 
   'file-pdf' | 
+  'file-pen' | 
+  'file-edit' | 
   'file-powerpoint' | 
   'file-prescription' | 
+  'file-shield' | 
   'file-signature' | 
   'file-video' | 
   'file-waveform' | 
@@ -1431,20 +1513,25 @@ export type IconName = '42-group' |
   'filter-circle-xmark' | 
   'fingerprint' | 
   'fire' | 
+  'fire-burner' | 
   'fire-extinguisher' | 
   'fire-flame-curved' | 
   'fire-alt' | 
   'fire-flame-simple' | 
   'burn' | 
   'fish' | 
+  'fish-fins' | 
   'flag' | 
   'flag-checkered' | 
   'flag-usa' | 
   'flask' | 
+  'flask-vial' | 
   'floppy-disk' | 
   'save' | 
   'florin-sign' | 
   'folder' | 
+  'folder-blank' | 
+  'folder-closed' | 
   'folder-minus' | 
   'folder-open' | 
   'folder-plus' | 
@@ -1492,6 +1579,8 @@ export type IconName = '42-group' |
   'ghost' | 
   'gift' | 
   'gifts' | 
+  'glass-water' | 
+  'glass-water-droplet' | 
   'glasses' | 
   'globe' | 
   'golf-ball-tee' | 
@@ -1506,6 +1595,7 @@ export type IconName = '42-group' |
   'grip-lines' | 
   'grip-lines-vertical' | 
   'grip-vertical' | 
+  'group-arrows-rotate' | 
   'guarani-sign' | 
   'guitar' | 
   'gun' | 
@@ -1525,6 +1615,7 @@ export type IconName = '42-group' |
   'hand-holding-usd' | 
   'hand-holding-droplet' | 
   'hand-holding-water' | 
+  'hand-holding-hand' | 
   'hand-holding-heart' | 
   'hand-holding-medical' | 
   'hand-lizard' | 
@@ -1538,6 +1629,7 @@ export type IconName = '42-group' |
   'hand-scissors' | 
   'hand-sparkles' | 
   'hand-spock' | 
+  'handcuffs' | 
   'hands' | 
   'sign-language' | 
   'signing' | 
@@ -1545,15 +1637,20 @@ export type IconName = '42-group' |
   'american-sign-language-interpreting' | 
   'asl-interpreting' | 
   'hands-american-sign-language-interpreting' | 
+  'hands-bound' | 
   'hands-bubbles' | 
   'hands-wash' | 
   'hands-clapping' | 
   'hands-holding' | 
+  'hands-holding-child' | 
+  'hands-holding-circle' | 
   'hands-praying' | 
   'praying-hands' | 
   'handshake' | 
   'handshake-angle' | 
   'hands-helping' | 
+  'handshake-simple' | 
+  'handshake-alt' | 
   'handshake-simple-slash' | 
   'handshake-alt-slash' | 
   'handshake-slash' | 
@@ -1575,15 +1672,25 @@ export type IconName = '42-group' |
   'headphones-alt' | 
   'headset' | 
   'heart' | 
+  'heart-circle-bolt' | 
+  'heart-circle-check' | 
+  'heart-circle-exclamation' | 
+  'heart-circle-minus' | 
+  'heart-circle-plus' | 
+  'heart-circle-xmark' | 
   'heart-crack' | 
   'heart-broken' | 
   'heart-pulse' | 
   'heartbeat' | 
   'helicopter' | 
+  'helicopter-symbol' | 
   'helmet-safety' | 
   'hard-hat' | 
   'hat-hard' | 
+  'helmet-un' | 
   'highlighter' | 
+  'hill-avalanche' | 
+  'hill-rockslide' | 
   'hippo' | 
   'hockey-puck' | 
   'holly-berry' | 
@@ -1617,14 +1724,29 @@ export type IconName = '42-group' |
   'clinic-medical' | 
   'house-chimney-user' | 
   'house-chimney-window' | 
+  'house-circle-check' | 
+  'house-circle-exclamation' | 
+  'house-circle-xmark' | 
   'house-crack' | 
+  'house-fire' | 
+  'house-flag' | 
+  'house-flood-water' | 
+  'house-flood-water-circle-arrow-right' | 
   'house-laptop' | 
   'laptop-house' | 
+  'house-lock' | 
   'house-medical' | 
+  'house-medical-circle-check' | 
+  'house-medical-circle-exclamation' | 
+  'house-medical-circle-xmark' | 
+  'house-medical-flag' | 
+  'house-signal' | 
+  'house-tsunami' | 
   'house-user' | 
   'home-user' | 
   'hryvnia-sign' | 
   'hryvnia' | 
+  'hurricane' | 
   'i' | 
   'i-cursor' | 
   'ice-cream' | 
@@ -1651,10 +1773,14 @@ export type IconName = '42-group' |
   'info' | 
   'italic' | 
   'j' | 
+  'jar' | 
+  'jar-wheat' | 
   'jedi' | 
   'jet-fighter' | 
   'fighter-jet' | 
+  'jet-fighter-up' | 
   'joint' | 
+  'jug-detergent' | 
   'k' | 
   'kaaba' | 
   'key' | 
@@ -1663,12 +1789,18 @@ export type IconName = '42-group' |
   'kip-sign' | 
   'kit-medical' | 
   'first-aid' | 
+  'kitchen-set' | 
   'kiwi-bird' | 
   'l' | 
+  'land-mine-on' | 
   'landmark' | 
+  'landmark-dome' | 
+  'landmark-alt' | 
+  'landmark-flag' | 
   'language' | 
   'laptop' | 
   'laptop-code' | 
+  'laptop-file' | 
   'laptop-medical' | 
   'lari-sign' | 
   'layer-group' | 
@@ -1682,6 +1814,7 @@ export type IconName = '42-group' |
   'less-than-equal' | 
   'life-ring' | 
   'lightbulb' | 
+  'lines-leaning' | 
   'link' | 
   'chain' | 
   'link-slash' | 
@@ -1706,14 +1839,18 @@ export type IconName = '42-group' |
   'map-marker-alt' | 
   'location-pin' | 
   'map-marker' | 
+  'location-pin-lock' | 
   'lock' | 
   'lock-open' | 
+  'locust' | 
   'lungs' | 
   'lungs-virus' | 
   'm' | 
   'magnet' | 
   'magnifying-glass' | 
   'search' | 
+  'magnifying-glass-arrow-right' | 
+  'magnifying-glass-chart' | 
   'magnifying-glass-dollar' | 
   'search-dollar' | 
   'magnifying-glass-location' | 
@@ -1732,6 +1869,7 @@ export type IconName = '42-group' |
   'marker' | 
   'mars' | 
   'mars-and-venus' | 
+  'mars-and-venus-burst' | 
   'mars-double' | 
   'mars-stroke' | 
   'mars-stroke-right' | 
@@ -1746,8 +1884,10 @@ export type IconName = '42-group' |
   'glass-martini' | 
   'mask' | 
   'mask-face' | 
+  'mask-ventilator' | 
   'masks-theater' | 
   'theater-masks' | 
+  'mattress-pillow' | 
   'maximize' | 
   'expand-arrows-alt' | 
   'medal' | 
@@ -1775,6 +1915,9 @@ export type IconName = '42-group' |
   'mobile-android' | 
   'mobile-phone' | 
   'mobile-button' | 
+  'mobile-retro' | 
+  'mobile-screen' | 
+  'mobile-android-alt' | 
   'mobile-screen-button' | 
   'mobile-alt' | 
   'money-bill' | 
@@ -1782,7 +1925,11 @@ export type IconName = '42-group' |
   'money-bill-alt' | 
   'money-bill-1-wave' | 
   'money-bill-wave-alt' | 
+  'money-bill-transfer' | 
+  'money-bill-trend-up' | 
   'money-bill-wave' | 
+  'money-bill-wheat' | 
+  'money-bills' | 
   'money-check' | 
   'money-check-dollar' | 
   'money-check-alt' | 
@@ -1790,8 +1937,13 @@ export type IconName = '42-group' |
   'moon' | 
   'mortar-pestle' | 
   'mosque' | 
+  'mosquito' | 
+  'mosquito-net' | 
   'motorcycle' | 
+  'mound' | 
   'mountain' | 
+  'mountain-city' | 
+  'mountain-sun' | 
   'mug-hot' | 
   'mug-saucer' | 
   'coffee' | 
@@ -1809,6 +1961,7 @@ export type IconName = '42-group' |
   'object-group' | 
   'object-ungroup' | 
   'oil-can' | 
+  'oil-well' | 
   'om' | 
   'otter' | 
   'outdent' | 
@@ -1846,24 +1999,56 @@ export type IconName = '42-group' |
   'people-arrows' | 
   'people-carry-box' | 
   'people-carry' | 
+  'people-group' | 
+  'people-line' | 
+  'people-pulling' | 
+  'people-robbery' | 
+  'people-roof' | 
   'pepper-hot' | 
   'percent' | 
   'percentage' | 
   'person' | 
   'male' | 
+  'person-arrow-down-to-line' | 
+  'person-arrow-up-from-line' | 
   'person-biking' | 
   'biking' | 
   'person-booth' | 
+  'person-breastfeeding' | 
+  'person-burst' | 
+  'person-cane' | 
+  'person-chalkboard' | 
+  'person-circle-check' | 
+  'person-circle-exclamation' | 
+  'person-circle-minus' | 
+  'person-circle-plus' | 
+  'person-circle-question' | 
+  'person-circle-xmark' | 
+  'person-digging' | 
+  'digging' | 
   'person-dots-from-line' | 
   'diagnoses' | 
   'person-dress' | 
   'female' | 
+  'person-dress-burst' | 
+  'person-drowning' | 
+  'person-falling' | 
+  'person-falling-burst' | 
+  'person-half-dress' | 
+  'person-harassing' | 
   'person-hiking' | 
   'hiking' | 
+  'person-military-pointing' | 
+  'person-military-rifle' | 
+  'person-military-to-person' | 
   'person-praying' | 
   'pray' | 
+  'person-pregnant' | 
+  'person-rays' | 
+  'person-rifle' | 
   'person-running' | 
   'running' | 
+  'person-shelter' | 
   'person-skating' | 
   'skating' | 
   'person-skiing' | 
@@ -1874,8 +2059,13 @@ export type IconName = '42-group' |
   'snowboarding' | 
   'person-swimming' | 
   'swimmer' | 
+  'person-through-window' | 
   'person-walking' | 
   'walking' | 
+  'person-walking-arrow-loop-left' | 
+  'person-walking-arrow-right' | 
+  'person-walking-dashed-line-arrow-right' | 
+  'person-walking-luggage' | 
   'person-walking-with-cane' | 
   'blind' | 
   'peseta-sign' | 
@@ -1894,10 +2084,23 @@ export type IconName = '42-group' |
   'place-of-worship' | 
   'plane' | 
   'plane-arrival' | 
+  'plane-circle-check' | 
+  'plane-circle-exclamation' | 
+  'plane-circle-xmark' | 
   'plane-departure' | 
+  'plane-lock' | 
   'plane-slash' | 
+  'plane-up' | 
+  'plant-wilt' | 
+  'plate-wheat' | 
   'play' | 
   'plug' | 
+  'plug-circle-bolt' | 
+  'plug-circle-check' | 
+  'plug-circle-exclamation' | 
+  'plug-circle-minus' | 
+  'plug-circle-plus' | 
+  'plug-circle-xmark' | 
   'plus' | 
   'add' | 
   'plus-minus' | 
@@ -1924,7 +2127,9 @@ export type IconName = '42-group' |
   'quote-right-alt' | 
   'r' | 
   'radiation' | 
+  'radio' | 
   'rainbow' | 
+  'ranking-star' | 
   'receipt' | 
   'record-vinyl' | 
   'rectangle-ad' | 
@@ -1956,6 +2161,13 @@ export type IconName = '42-group' |
   'sign-in-alt' | 
   'ring' | 
   'road' | 
+  'road-barrier' | 
+  'road-bridge' | 
+  'road-circle-check' | 
+  'road-circle-exclamation' | 
+  'road-circle-xmark' | 
+  'road-lock' | 
+  'road-spikes' | 
   'robot' | 
   'rocket' | 
   'rotate' | 
@@ -1974,6 +2186,7 @@ export type IconName = '42-group' |
   'rouble' | 
   'rub' | 
   'ruble' | 
+  'rug' | 
   'ruler' | 
   'ruler-combined' | 
   'ruler-horizontal' | 
@@ -1982,6 +2195,8 @@ export type IconName = '42-group' |
   'rupee' | 
   'rupiah-sign' | 
   's' | 
+  'sack-dollar' | 
+  'sack-xmark' | 
   'sailboat' | 
   'satellite' | 
   'satellite-dish' | 
@@ -1992,6 +2207,11 @@ export type IconName = '42-group' |
   'scale-unbalanced-flip' | 
   'balance-scale-right' | 
   'school' | 
+  'school-circle-check' | 
+  'school-circle-exclamation' | 
+  'school-circle-xmark' | 
+  'school-flag' | 
+  'school-lock' | 
   'scissors' | 
   'cut' | 
   'screwdriver' | 
@@ -2014,6 +2234,7 @@ export type IconName = '42-group' |
   'share-square' | 
   'share-nodes' | 
   'share-alt' | 
+  'sheet-plastic' | 
   'shekel-sign' | 
   'ils' | 
   'shekel' | 
@@ -2021,7 +2242,11 @@ export type IconName = '42-group' |
   'sheqel-sign' | 
   'shield' | 
   'shield-blank' | 
+  'shield-cat' | 
+  'shield-dog' | 
+  'shield-halved' | 
   'shield-alt' | 
+  'shield-heart' | 
   'shield-virus' | 
   'ship' | 
   'shirt' | 
@@ -2030,6 +2255,7 @@ export type IconName = '42-group' |
   'shoe-prints' | 
   'shop' | 
   'store-alt' | 
+  'shop-lock' | 
   'shop-slash' | 
   'store-alt-slash' | 
   'shower' | 
@@ -2101,11 +2327,13 @@ export type IconName = '42-group' |
   'h-square' | 
   'square-minus' | 
   'minus-square' | 
+  'square-nfi' | 
   'square-parking' | 
   'parking' | 
   'square-pen' | 
   'pen-square' | 
   'pencil-square' | 
+  'square-person-confined' | 
   'square-phone' | 
   'phone-square' | 
   'square-phone-flip' | 
@@ -2124,9 +2352,14 @@ export type IconName = '42-group' |
   'share-alt-square' | 
   'square-up-right' | 
   'external-link-square-alt' | 
+  'square-virus' | 
   'square-xmark' | 
   'times-square' | 
   'xmark-square' | 
+  'staff-aesculapius' | 
+  'rod-asclepius' | 
+  'rod-snake' | 
+  'staff-snake' | 
   'stairs' | 
   'stamp' | 
   'star' | 
@@ -2154,6 +2387,7 @@ export type IconName = '42-group' |
   'medkit' | 
   'suitcase-rolling' | 
   'sun' | 
+  'sun-plant-wilt' | 
   'superscript' | 
   'swatchbook' | 
   'synagogue' | 
@@ -2182,10 +2416,16 @@ export type IconName = '42-group' |
   'tag' | 
   'tags' | 
   'tape' | 
+  'tarp' | 
+  'tarp-droplet' | 
   'taxi' | 
   'cab' | 
   'teeth' | 
   'teeth-open' | 
+  'temperature-arrow-down' | 
+  'temperature-down' | 
+  'temperature-arrow-up' | 
+  'temperature-up' | 
   'temperature-empty' | 
   'temperature0' | 
   'thermometer0' | 
@@ -2210,6 +2450,12 @@ export type IconName = '42-group' |
   'thermometer-three-quarters' | 
   'tenge-sign' | 
   'tenge' | 
+  'tent' | 
+  'tent-arrow-down-to-line' | 
+  'tent-arrow-left-right' | 
+  'tent-arrow-turn-left' | 
+  'tent-arrows-down' | 
+  'tents' | 
   'terminal' | 
   'text-height' | 
   'text-slash' | 
@@ -2229,11 +2475,16 @@ export type IconName = '42-group' |
   'toilet' | 
   'toilet-paper' | 
   'toilet-paper-slash' | 
+  'toilet-portable' | 
+  'toilets-portable' | 
   'toolbox' | 
   'tooth' | 
   'torii-gate' | 
+  'tornado' | 
   'tower-broadcast' | 
   'broadcast-tower' | 
+  'tower-cell' | 
+  'tower-observation' | 
   'tractor' | 
   'trademark' | 
   'traffic-light' | 
@@ -2253,18 +2504,27 @@ export type IconName = '42-group' |
   'trash-can-arrow-up' | 
   'trash-restore-alt' | 
   'tree' | 
+  'tree-city' | 
   'triangle-exclamation' | 
   'exclamation-triangle' | 
   'warning' | 
   'trophy' | 
+  'trowel' | 
+  'trowel-bricks' | 
   'truck' | 
+  'truck-arrow-right' | 
+  'truck-droplet' | 
   'truck-fast' | 
   'shipping-fast' | 
+  'truck-field' | 
+  'truck-field-un' | 
+  'truck-front' | 
   'truck-medical' | 
   'ambulance' | 
   'truck-monster' | 
   'truck-moving' | 
   'truck-pickup' | 
+  'truck-plane' | 
   'truck-ramp-box' | 
   'truck-loading' | 
   'tty' | 
@@ -2329,9 +2589,14 @@ export type IconName = '42-group' |
   'user-xmark' | 
   'user-times' | 
   'users' | 
+  'users-between-lines' | 
   'users-gear' | 
   'users-cog' | 
+  'users-line' | 
+  'users-rays' | 
+  'users-rectangle' | 
   'users-slash' | 
+  'users-viewfinder' | 
   'utensils' | 
   'cutlery' | 
   'v' | 
@@ -2345,6 +2610,8 @@ export type IconName = '42-group' |
   'vest' | 
   'vest-patches' | 
   'vial' | 
+  'vial-circle-check' | 
+  'vial-virus' | 
   'vials' | 
   'video' | 
   'video-camera' | 
@@ -2356,6 +2623,7 @@ export type IconName = '42-group' |
   'virus-slash' | 
   'viruses' | 
   'voicemail' | 
+  'volcano' | 
   'volleyball' | 
   'volleyball-ball' | 
   'volume-high' | 
@@ -2368,6 +2636,7 @@ export type IconName = '42-group' |
   'volume-times' | 
   'vr-cardboard' | 
   'w' | 
+  'walkie-talkie' | 
   'wallet' | 
   'wand-magic' | 
   'magic' | 
@@ -2383,7 +2652,12 @@ export type IconName = '42-group' |
   'weight-hanging' | 
   'weight-scale' | 
   'weight' | 
+  'wheat-awn' | 
+  'wheat-alt' | 
+  'wheat-awn-circle-exclamation' | 
   'wheelchair' | 
+  'wheelchair-move' | 
+  'wheelchair-alt' | 
   'whiskey-glass' | 
   'glass-whiskey' | 
   'wifi' | 
@@ -2400,6 +2674,7 @@ export type IconName = '42-group' |
   'won-sign' | 
   'krw' | 
   'won' | 
+  'worm' | 
   'wrench' | 
   'x' | 
   'x-ray' | 
@@ -2408,6 +2683,7 @@ export type IconName = '42-group' |
   'multiply' | 
   'remove' | 
   'times' | 
+  'xmarks-lines' | 
   'y' | 
   'yen-sign' | 
   'cny' | 
