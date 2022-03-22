@@ -1137,6 +1137,8 @@ export type IconName = '42-group' |
   'chevron-right' | 
   'chevron-up' | 
   'child' | 
+  'child-dress' | 
+  'child-reaching' | 
   'child-rifle' | 
   'children' | 
   'church' | 
