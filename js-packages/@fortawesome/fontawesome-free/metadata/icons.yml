@@ -1576,6 +1576,7 @@ asterisk:
     unicodes:
       composite:
         - '2731'
+        - f069
       primary:
         - f069
       secondary:
@@ -1605,6 +1606,8 @@ asymmetrik:
 at:
   aliases:
     unicodes:
+      composite:
+        - f1fa
       primary:
         - f1fa
       secondary:
@@ -3212,6 +3215,8 @@ boxes-stacked:
       - boxes
       - boxes-alt
     unicodes:
+      composite:
+        - f4a1
       primary:
         - f4a1
       secondary:
@@ -4046,6 +4051,8 @@ camera:
     names:
       - camera-alt
     unicodes:
+      composite:
+        - f332
       primary:
         - f332
       secondary:
@@ -5177,12 +5184,33 @@ child:
     - 4.1.0
     - 5.0.0
     - 6.0.0-beta1
+    - 6.1.1
   label: Child
   search:
     terms: []
   styles:
     - solid
   unicode: f1ae
+  voted: false
+child-dress:
+  changes:
+    - 6.1.1
+  label: Child Dress
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: e59c
+  voted: false
+child-reaching:
+  changes:
+    - 6.1.1
+  label: Child Reaching
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: e59d
   voted: false
 child-rifle:
   changes:
@@ -5197,6 +5225,7 @@ child-rifle:
 children:
   changes:
     - 6.1.0
+    - 6.1.1
   label: Children
   search:
     terms: []
@@ -6073,6 +6102,8 @@ cloud-arrow-down:
       - cloud-download
       - cloud-download-alt
     unicodes:
+      composite:
+        - f381
       primary:
         - f381
       secondary:
@@ -6099,6 +6130,11 @@ cloud-arrow-up:
     unicodes:
       composite:
         - f382
+      primary:
+        - f382
+      secondary:
+        - 10f0ee
+        - 10f382
   changes:
     - 3.0.0
     - 5.0.0
@@ -7238,6 +7274,7 @@ cubes:
 cubes-stacked:
   changes:
     - 6.1.0
+    - 6.1.1
   label: Cubes Stacked
   search:
     terms: []
@@ -7415,8 +7452,11 @@ desktop:
       composite:
         - f108
         - 1f5a5
+      primary:
+        - f108
       secondary:
         - 10f390
+        - 10f108
   changes:
     - 3.0.0
     - 5.0.0
@@ -7877,6 +7917,7 @@ dollar-sign:
     unicodes:
       composite:
         - 1f4b2
+        - f155
       primary:
         - f155
       secondary:
@@ -8701,6 +8742,8 @@ envira:
 equals:
   aliases:
     unicodes:
+      composite:
+        - f52c
       primary:
         - f52c
       secondary:
@@ -8820,6 +8863,7 @@ exclamation:
       composite:
         - '2755'
         - '2757'
+        - f12a
       primary:
         - f12a
       secondary:
@@ -11082,6 +11126,8 @@ font-awesome:
       - font-awesome-flag
       - font-awesome-logo-full
     unicodes:
+      composite:
+        - f4e6
       primary:
         - f4e6
       secondary:
@@ -11427,6 +11473,8 @@ gauge-high:
       - tachometer-alt
       - tachometer-alt-fast
     unicodes:
+      composite:
+        - f3fd
       primary:
         - f3fd
       secondary:
@@ -11470,6 +11518,8 @@ gauge-simple-high:
       - tachometer
       - tachometer-fast
     unicodes:
+      composite:
+        - f0e4
       primary:
         - f0e4
       secondary:
@@ -12057,6 +12107,8 @@ grav:
 greater-than:
   aliases:
     unicodes:
+      composite:
+        - f531
       primary:
         - f531
       secondary:
@@ -12965,6 +13017,8 @@ hashnode:
 hashtag:
   aliases:
     unicodes:
+      composite:
+        - f292
       primary:
         - f292
       secondary:
@@ -13532,8 +13586,11 @@ hospital:
       composite:
         - 1f3e5
         - f47d
+      primary:
+        - f47d
       secondary:
         - 10f0f8
+        - 10f47d
   changes:
     - 3.0.0
     - 5.0.0
@@ -13725,6 +13782,9 @@ house:
         - f80a
         - f80c
         - 1f3e0
+      primary:
+        - f80a
+        - f80c
       secondary:
         - 10f015
         - 10f80c
@@ -13749,6 +13809,8 @@ house-chimney:
     names:
       - home-lg
     unicodes:
+      composite:
+        - f80b
       primary:
         - f80b
       secondary:
@@ -15296,6 +15358,8 @@ less:
 less-than:
   aliases:
     unicodes:
+      composite:
+        - f536
       primary:
         - f536
       secondary:
@@ -18160,8 +18224,11 @@ pencil:
       composite:
         - f040
         - 270f
+      primary:
+        - f040
       secondary:
         - 10f303
+        - 10f040
   changes:
     - 1.0.0
     - 5.0.0
@@ -18293,11 +18360,14 @@ percent:
     unicodes:
       composite:
         - f295
+        - f541
       primary:
         - f541
+        - f295
       secondary:
         - 10f541
         - '1025'
+        - 10f295
   changes:
     - 4.5.0
     - 5.0.0
@@ -19506,6 +19576,7 @@ plus:
     unicodes:
       composite:
         - '2795'
+        - f067
       primary:
         - f067
       secondary:
@@ -19817,6 +19888,7 @@ question:
       composite:
         - '2753'
         - '2754'
+        - f128
       primary:
         - f128
       secondary:
@@ -25528,6 +25600,8 @@ tv:
       - television
       - tv-alt
     unicodes:
+      composite:
+        - f8e5
       primary:
         - f8e5
       secondary:

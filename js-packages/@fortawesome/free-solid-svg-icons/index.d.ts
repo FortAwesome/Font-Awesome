@@ -387,6 +387,8 @@ export const faChevronLeft: IconDefinition;
 export const faChevronRight: IconDefinition;
 export const faChevronUp: IconDefinition;
 export const faChild: IconDefinition;
+export const faChildDress: IconDefinition;
+export const faChildReaching: IconDefinition;
 export const faChildRifle: IconDefinition;
 export const faChildren: IconDefinition;
 export const faChurch: IconDefinition;

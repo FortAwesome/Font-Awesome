@@ -521,6 +521,9 @@ childhood:
     - bath
     - bucket
     - cake-candles
+    - child
+    - child-dress
+    - child-reaching
     - children
     - cookie
     - cookie-bite
@@ -539,6 +542,7 @@ childhood:
   label: Childhood
 clothing-fashion:
   icons:
+    - glasses
     - graduation-cap
     - hat-cowboy
     - hat-cowboy-side
@@ -864,6 +868,7 @@ editing:
     - grip-vertical
     - link
     - link-slash
+    - minus
     - paintbrush
     - pen
     - pen-clip
@@ -872,6 +877,7 @@ editing:
     - pen-ruler
     - pen-to-square
     - pencil
+    - plus
     - rotate
     - scissors
     - signature
@@ -2847,6 +2853,8 @@ users-people:
     - bed
     - chalkboard-user
     - child
+    - child-dress
+    - child-reaching
     - children
     - circle-user
     - clipboard-user
