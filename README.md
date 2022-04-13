@@ -51,7 +51,7 @@ with the following format:
 
 `<major>.<minor>.<patch>`
 
-For more information on SemVer, please visit http://semver.org.
+For more information on SemVer, please visit https://semver.org.
 
 **The major version "6" is part of an umbrella release.  It includes many different types of files and technologies. Therefore
 we deviate from normal SemVer in the following ways:**
