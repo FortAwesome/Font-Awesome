@@ -1,0 +1,42 @@
+name: Bug report (Desktop / Native / Other)
+description: Report a bug which occurs outside of a web application
+title: "Bug: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill up this bug report!
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: What happened? What are you seeing? How did you arrive here?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Font Awesome version
+      description: Provide the version of Font Awesome affected by this bug
+      placeholder: v6.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: application-operating-system
+    attributes:
+      label: Application and Operating System
+      description: Provide information about the application and operating system affected by this bug
+      placeholder: |
+        - GIMP on Windows 10
+        - Adobe Photoshop on macOS
+    validations:
+      required: true
+  - type: checkboxes
+    id: web-bug-report-checklist
+    attributes:
+      label: Web bug report checklist
+      options:
+        - label: 'I have included a test case because my odds go _way_ up that the team can fix this when I do'
+        - label: 'I have [searched for existing issues](https://github.com/FortAwesome/Font-Awesome/issues) and to the best of my knowledge this is not a duplicate'
+          required: true
