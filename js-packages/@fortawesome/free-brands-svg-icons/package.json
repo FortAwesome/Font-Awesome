@@ -26,24 +26,24 @@
   "version": "6.1.1",
   "name": "@fortawesome/free-brands-svg-icons",
   "main": "index.js",
-  "module": "index.es.js",
-  "jsnext:main": "index.es.js",
+  "module": "index.mjs",
+  "jsnext:main": "index.mjs",
   "license": "(CC-BY-4.0 AND MIT)",
   "types": "./index.d.ts",
   "sideEffects": false,
   "exports": {
     ".": {
-      "import": "./index.es.js",
+      "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
     },
     "./index": {
-      "import": "./index.es.js",
+      "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
     },
     "./index.js": {
-      "import": "./index.es.js",
+      "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
     },
