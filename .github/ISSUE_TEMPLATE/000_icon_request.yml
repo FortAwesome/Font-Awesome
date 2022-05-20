@@ -1,0 +1,36 @@
+name: Icon request
+description: Suggest an icon to be included in Font Awesome
+labels: ["new icon"]
+title: "Icon request: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to request a new icon!
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: Describe how this icon could be used.
+  - type: textarea
+    id: example
+    attributes:
+      label: Example image
+      description: Insert the example image here if necessary. A good example is a single color image which plays well at small sizes (16px)
+  - type: checkboxes
+    id: icon-request-checklist
+    attributes:
+      label: Icon request checklist
+      options:
+        - label: 'The title starts with "Icon request: " and is followed by the requested icon name'
+          required: true
+        - label: 'This icon does not represent a brand'
+          required: true
+        - label: 'This is a single icon or matched pair (Ex: `lock` / `unlock`)'
+          required: true
+        - label: The request is for a concrete object, or I've included an example image
+          required: true
+        - label: 'I have [searched for existing issues](https://github.com/FortAwesome/Font-Awesome/issues) and to the best of my knowledge this is not a duplicate'
+          required: true
+        - label: 'I have [understood how requests work](https://fontawesome.com/community/leaderboard/new#faqs)'
+          required: true
