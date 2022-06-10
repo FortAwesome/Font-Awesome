@@ -1,10 +1,12 @@
+@use "sass:math";
+
 // Icon Sizes
 // -------------------------
 
 // makes the font 33% larger relative to the icon container
 .#{$fa-css-prefix}-lg {
-  font-size: (4em / 3);
-  line-height: (3em / 4);
+  font-size: math.div(4em, 3);
+  line-height: math.div(3em, 4);
   vertical-align: -.0667em;
 }
 
