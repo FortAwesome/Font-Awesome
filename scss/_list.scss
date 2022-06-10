@@ -1,9 +1,11 @@
+@use "sass:math";
+
 // List Icons
 // -------------------------
 
 .#{$fa-css-prefix}-ul {
   list-style-type: none;
-  margin-left: $fa-li-width * 5/4;
+  margin-left: math.div($fa-li-width * 5, 4);
   padding-left: 0;
 
   > li { position: relative; }
