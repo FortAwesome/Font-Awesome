@@ -422,6 +422,7 @@ business:
     - square-phone-flip
     - square-poll-horizontal
     - square-poll-vertical
+    - stapler
     - table
     - table-columns
     - tag
@@ -552,6 +553,8 @@ clothing-fashion:
     - shoe-prints
     - socks
     - user-tie
+    - vest
+    - vest-patches
   label: Clothing + Fashion
 coding:
   icons:
@@ -752,6 +755,7 @@ design:
     - splotch
     - spray-can
     - stamp
+    - stapler
     - swatchbook
     - vector-square
     - wand-magic
@@ -1162,8 +1166,8 @@ gaming:
     - shield-halved
     - skull-crossbones
     - square-full
+    - square-steam
     - steam
-    - steam-square
     - steam-symbol
     - twitch
     - vr-cardboard
@@ -1494,7 +1498,7 @@ humanitarian:
     - mountain-sun
     - oil-well
     - parachute-box
-    - people-arrows-left-right
+    - people-arrows
     - people-group
     - people-line
     - people-pulling
@@ -1589,7 +1593,7 @@ humanitarian:
     - square-nfi
     - square-person-confined
     - square-virus
-    - staff-aesculapius
+    - staff-snake
     - stethoscope
     - suitcase-medical
     - sun-plant-wilt
@@ -2040,7 +2044,7 @@ medical-health:
     - square-h
     - square-plus
     - square-virus
-    - staff-aesculapius
+    - staff-snake
     - star-of-life
     - stethoscope
     - suitcase-medical
@@ -2309,6 +2313,7 @@ religion:
     - book-bible
     - book-journal-whills
     - book-quran
+    - book-tanakh
     - church
     - cross
     - dharmachakra
@@ -2384,6 +2389,7 @@ science-fiction:
     - old-republic
     - robot
     - rocket
+    - space-awesome
     - user-astronaut
   label: Science Fiction
 security:
@@ -2693,8 +2699,8 @@ time:
     - calendar-xmark
     - clock
     - hourglass
-    - hourglass-empty
     - hourglass-end
+    - hourglass-half
     - hourglass-start
     - stopwatch
     - stopwatch-20
@@ -2724,6 +2730,7 @@ transportation:
     - bicycle
     - bus
     - bus-simple
+    - cable-car
     - car
     - car-burst
     - car-rear
@@ -2781,6 +2788,7 @@ travel-hotel:
     - briefcase
     - bus
     - bus-simple
+    - cable-car
     - car
     - caravan
     - cart-flatbed-suitcase
@@ -2830,6 +2838,7 @@ travel-hotel:
     - suitcase-rolling
     - taxi
     - toilet
+    - toilet-paper
     - train-tram
     - tree-city
     - tv
@@ -2875,7 +2884,7 @@ users-people:
     - id-card-clip
     - image-portrait
     - mars-and-venus-burst
-    - people-arrows-left-right
+    - people-arrows
     - people-carry-box
     - people-group
     - people-line

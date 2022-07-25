@@ -158,11 +158,13 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-twitter-square:before { content: unquote("\"#{ $fa-var-square-twitter }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-facebook-square {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-facebook-square:before { content: unquote("\"#{ $fa-var-square-facebook }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-gears:before { content: unquote("\"#{ $fa-var-gears }\""); }
 
@@ -202,6 +204,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-github-square:before { content: unquote("\"#{ $fa-var-square-github }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-lemon-o {
   font-family: 'Font Awesome 6 Free';
@@ -325,11 +328,13 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-pinterest-square:before { content: unquote("\"#{ $fa-var-square-pinterest }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-google-plus-square {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-google-plus-square:before { content: unquote("\"#{ $fa-var-square-google-plus }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-google-plus {
   font-family: 'Font Awesome 6 Brands';
@@ -639,6 +644,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-youtube-square:before { content: unquote("\"#{ $fa-var-square-youtube }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-youtube {
   font-family: 'Font Awesome 6 Brands';
@@ -654,6 +660,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-xing-square:before { content: unquote("\"#{ $fa-var-square-xing }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-youtube-play {
   font-family: 'Font Awesome 6 Brands';
@@ -706,6 +713,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-tumblr-square:before { content: unquote("\"#{ $fa-var-square-tumblr }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-long-arrow-down:before { content: unquote("\"#{ $fa-var-down-long }\""); }
 
@@ -837,6 +845,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-vimeo-square:before { content: unquote("\"#{ $fa-var-square-vimeo }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-try:before { content: unquote("\"#{ $fa-var-turkish-lira-sign }\""); }
 
@@ -888,6 +897,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-reddit-square:before { content: unquote("\"#{ $fa-var-square-reddit }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-stumbleupon-circle {
   font-family: 'Font Awesome 6 Brands';
@@ -938,6 +948,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-behance-square:before { content: unquote("\"#{ $fa-var-square-behance }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-steam {
   font-family: 'Font Awesome 6 Brands';
@@ -948,6 +959,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-steam-square:before { content: unquote("\"#{ $fa-var-square-steam }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-automobile:before { content: unquote("\"#{ $fa-var-car }\""); }
 
@@ -1109,6 +1121,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-git-square:before { content: unquote("\"#{ $fa-var-square-git }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-git {
   font-family: 'Font Awesome 6 Brands';
@@ -1278,6 +1291,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-lastfm-square:before { content: unquote("\"#{ $fa-var-square-lastfm }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-ioxhost {
   font-family: 'Font Awesome 6 Brands';
@@ -1455,13 +1469,11 @@
   font-weight: 400;
 }
 
-.#{$fa-css-prefix}.#{$fa-css-prefix}-hourglass-o:before { content: unquote("\"#{ $fa-var-hourglass-empty }\""); }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-hourglass-o:before { content: unquote("\"#{ $fa-var-hourglass }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-hourglass-1:before { content: unquote("\"#{ $fa-var-hourglass-start }\""); }
 
-.#{$fa-css-prefix}.#{$fa-css-prefix}-hourglass-half:before { content: unquote("\"#{ $fa-var-hourglass }\""); }
-
-.#{$fa-css-prefix}.#{$fa-css-prefix}-hourglass-2:before { content: unquote("\"#{ $fa-var-hourglass }\""); }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-hourglass-2:before { content: unquote("\"#{ $fa-var-hourglass-half }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-hourglass-3:before { content: unquote("\"#{ $fa-var-hourglass-end }\""); }
 
@@ -1548,6 +1560,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-odnoklassniki-square:before { content: unquote("\"#{ $fa-var-square-odnoklassniki }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-get-pocket {
   font-family: 'Font Awesome 6 Brands';
@@ -1790,6 +1803,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-viadeo-square:before { content: unquote("\"#{ $fa-var-square-viadeo }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-snapchat {
   font-family: 'Font Awesome 6 Brands';
@@ -1806,6 +1820,7 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-snapchat-square:before { content: unquote("\"#{ $fa-var-square-snapchat }\""); }
 
 .#{$fa-css-prefix}.#{$fa-css-prefix}-pied-piper {
   font-family: 'Font Awesome 6 Brands';

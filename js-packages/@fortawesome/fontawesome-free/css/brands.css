@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
@@ -119,9 +119,6 @@
 
 .fa-behance:before {
   content: "\f1b4"; }
-
-.fa-behance-square:before {
-  content: "\f1b5"; }
 
 .fa-bilibili:before {
   content: "\e3d9"; }
@@ -372,9 +369,6 @@
 .fa-dribbble:before {
   content: "\f17d"; }
 
-.fa-dribbble-square:before {
-  content: "\f397"; }
-
 .fa-dropbox:before {
   content: "\f16b"; }
 
@@ -434,9 +428,6 @@
 
 .fa-facebook-messenger:before {
   content: "\f39f"; }
-
-.fa-facebook-square:before {
-  content: "\f082"; }
 
 .fa-fantasy-flight-games:before {
   content: "\f6dc"; }
@@ -531,17 +522,11 @@
 .fa-git-alt:before {
   content: "\f841"; }
 
-.fa-git-square:before {
-  content: "\f1d2"; }
-
 .fa-github:before {
   content: "\f09b"; }
 
 .fa-github-alt:before {
   content: "\f113"; }
-
-.fa-github-square:before {
-  content: "\f092"; }
 
 .fa-gitkraken:before {
   content: "\f3a6"; }
@@ -588,9 +573,6 @@
 .fa-google-plus-g:before {
   content: "\f0d5"; }
 
-.fa-google-plus-square:before {
-  content: "\f0d4"; }
-
 .fa-google-wallet:before {
   content: "\f1ee"; }
 
@@ -614,9 +596,6 @@
 
 .fa-hacker-news:before {
   content: "\f1d4"; }
-
-.fa-hacker-news-square:before {
-  content: "\f3af"; }
 
 .fa-hackerrank:before {
   content: "\f5f7"; }
@@ -659,9 +638,6 @@
 
 .fa-instagram:before {
   content: "\f16d"; }
-
-.fa-instagram-square:before {
-  content: "\e055"; }
 
 .fa-instalod:before {
   content: "\e081"; }
@@ -708,9 +684,6 @@
 .fa-js:before {
   content: "\f3b8"; }
 
-.fa-js-square:before {
-  content: "\f3b9"; }
-
 .fa-jsfiddle:before {
   content: "\f1cc"; }
 
@@ -737,9 +710,6 @@
 
 .fa-lastfm:before {
   content: "\f202"; }
-
-.fa-lastfm-square:before {
-  content: "\f203"; }
 
 .fa-leanpub:before {
   content: "\f212"; }
@@ -807,6 +777,9 @@
 .fa-mendeley:before {
   content: "\f7b3"; }
 
+.fa-meta:before {
+  content: "\e49b"; }
+
 .fa-microblog:before {
   content: "\e01a"; }
 
@@ -866,9 +839,6 @@
 
 .fa-odnoklassniki:before {
   content: "\f263"; }
-
-.fa-odnoklassniki-square:before {
-  content: "\f264"; }
 
 .fa-old-republic:before {
   content: "\f510"; }
@@ -939,17 +909,11 @@
 .fa-pied-piper-pp:before {
   content: "\f1a7"; }
 
-.fa-pied-piper-square:before {
-  content: "\e01e"; }
-
 .fa-pinterest:before {
   content: "\f0d2"; }
 
 .fa-pinterest-p:before {
   content: "\f231"; }
-
-.fa-pinterest-square:before {
-  content: "\f0d3"; }
 
 .fa-pix:before {
   content: "\e43a"; }
@@ -1004,9 +968,6 @@
 
 .fa-reddit-alien:before {
   content: "\f281"; }
-
-.fa-reddit-square:before {
-  content: "\f1a2"; }
 
 .fa-redhat:before {
   content: "\f7bc"; }
@@ -1110,14 +1071,14 @@
 .fa-snapchat-ghost:before {
   content: "\f2ab"; }
 
-.fa-snapchat-square:before {
-  content: "\f2ad"; }
-
 .fa-soundcloud:before {
   content: "\f1be"; }
 
 .fa-sourcetree:before {
   content: "\f7d3"; }
+
+.fa-space-awesome:before {
+  content: "\e5ac"; }
 
 .fa-speakap:before {
   content: "\f3f3"; }
@@ -1128,14 +1089,158 @@
 .fa-spotify:before {
   content: "\f1bc"; }
 
+.fa-square-behance:before {
+  content: "\f1b5"; }
+
+.fa-behance-square:before {
+  content: "\f1b5"; }
+
+.fa-square-dribbble:before {
+  content: "\f397"; }
+
+.fa-dribbble-square:before {
+  content: "\f397"; }
+
+.fa-square-facebook:before {
+  content: "\f082"; }
+
+.fa-facebook-square:before {
+  content: "\f082"; }
+
 .fa-square-font-awesome:before {
-  content: "\f425"; }
+  content: "\e5ad"; }
 
 .fa-square-font-awesome-stroke:before {
   content: "\f35c"; }
 
 .fa-font-awesome-alt:before {
   content: "\f35c"; }
+
+.fa-square-git:before {
+  content: "\f1d2"; }
+
+.fa-git-square:before {
+  content: "\f1d2"; }
+
+.fa-square-github:before {
+  content: "\f092"; }
+
+.fa-github-square:before {
+  content: "\f092"; }
+
+.fa-square-gitlab:before {
+  content: "\e5ae"; }
+
+.fa-gitlab-square:before {
+  content: "\e5ae"; }
+
+.fa-square-google-plus:before {
+  content: "\f0d4"; }
+
+.fa-google-plus-square:before {
+  content: "\f0d4"; }
+
+.fa-square-hacker-news:before {
+  content: "\f3af"; }
+
+.fa-hacker-news-square:before {
+  content: "\f3af"; }
+
+.fa-square-instagram:before {
+  content: "\e055"; }
+
+.fa-instagram-square:before {
+  content: "\e055"; }
+
+.fa-square-js:before {
+  content: "\f3b9"; }
+
+.fa-js-square:before {
+  content: "\f3b9"; }
+
+.fa-square-lastfm:before {
+  content: "\f203"; }
+
+.fa-lastfm-square:before {
+  content: "\f203"; }
+
+.fa-square-odnoklassniki:before {
+  content: "\f264"; }
+
+.fa-odnoklassniki-square:before {
+  content: "\f264"; }
+
+.fa-square-pied-piper:before {
+  content: "\e01e"; }
+
+.fa-pied-piper-square:before {
+  content: "\e01e"; }
+
+.fa-square-pinterest:before {
+  content: "\f0d3"; }
+
+.fa-pinterest-square:before {
+  content: "\f0d3"; }
+
+.fa-square-reddit:before {
+  content: "\f1a2"; }
+
+.fa-reddit-square:before {
+  content: "\f1a2"; }
+
+.fa-square-snapchat:before {
+  content: "\f2ad"; }
+
+.fa-snapchat-square:before {
+  content: "\f2ad"; }
+
+.fa-square-steam:before {
+  content: "\f1b7"; }
+
+.fa-steam-square:before {
+  content: "\f1b7"; }
+
+.fa-square-tumblr:before {
+  content: "\f174"; }
+
+.fa-tumblr-square:before {
+  content: "\f174"; }
+
+.fa-square-twitter:before {
+  content: "\f081"; }
+
+.fa-twitter-square:before {
+  content: "\f081"; }
+
+.fa-square-viadeo:before {
+  content: "\f2aa"; }
+
+.fa-viadeo-square:before {
+  content: "\f2aa"; }
+
+.fa-square-vimeo:before {
+  content: "\f194"; }
+
+.fa-vimeo-square:before {
+  content: "\f194"; }
+
+.fa-square-whatsapp:before {
+  content: "\f40c"; }
+
+.fa-whatsapp-square:before {
+  content: "\f40c"; }
+
+.fa-square-xing:before {
+  content: "\f169"; }
+
+.fa-xing-square:before {
+  content: "\f169"; }
+
+.fa-square-youtube:before {
+  content: "\f431"; }
+
+.fa-youtube-square:before {
+  content: "\f431"; }
 
 .fa-squarespace:before {
   content: "\f5be"; }
@@ -1154,9 +1259,6 @@
 
 .fa-steam:before {
   content: "\f1b6"; }
-
-.fa-steam-square:before {
-  content: "\f1b7"; }
 
 .fa-steam-symbol:before {
   content: "\f3f6"; }
@@ -1233,17 +1335,11 @@
 .fa-tumblr:before {
   content: "\f173"; }
 
-.fa-tumblr-square:before {
-  content: "\f174"; }
-
 .fa-twitch:before {
   content: "\f1e8"; }
 
 .fa-twitter:before {
   content: "\f099"; }
-
-.fa-twitter-square:before {
-  content: "\f081"; }
 
 .fa-typo3:before {
   content: "\f42b"; }
@@ -1296,17 +1392,11 @@
 .fa-viadeo:before {
   content: "\f2a9"; }
 
-.fa-viadeo-square:before {
-  content: "\f2aa"; }
-
 .fa-viber:before {
   content: "\f409"; }
 
 .fa-vimeo:before {
   content: "\f40a"; }
-
-.fa-vimeo-square:before {
-  content: "\f194"; }
 
 .fa-vimeo-v:before {
   content: "\f27d"; }
@@ -1340,9 +1430,6 @@
 
 .fa-whatsapp:before {
   content: "\f232"; }
-
-.fa-whatsapp-square:before {
-  content: "\f40c"; }
 
 .fa-whmcs:before {
   content: "\f40d"; }
@@ -1389,14 +1476,14 @@
 .fa-wpressr:before {
   content: "\f3e4"; }
 
+.fa-rendact:before {
+  content: "\f3e4"; }
+
 .fa-xbox:before {
   content: "\f412"; }
 
 .fa-xing:before {
   content: "\f168"; }
-
-.fa-xing-square:before {
-  content: "\f169"; }
 
 .fa-y-combinator:before {
   content: "\f23b"; }
@@ -1424,9 +1511,6 @@
 
 .fa-youtube:before {
   content: "\f167"; }
-
-.fa-youtube-square:before {
-  content: "\f431"; }
 
 .fa-zhihu:before {
   content: "\f63f"; }

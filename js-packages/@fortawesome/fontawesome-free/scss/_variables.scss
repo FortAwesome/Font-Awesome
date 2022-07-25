@@ -204,6 +204,7 @@ $fa-var-bacterium: \e05a;
 $fa-var-bag-shopping: \f290;
 $fa-var-shopping-bag: \f290;
 $fa-var-bahai: \f666;
+$fa-var-haykal: \f666;
 $fa-var-baht-sign: \e0ac;
 $fa-var-ban: \f05e;
 $fa-var-cancel: \f05e;
@@ -279,6 +280,8 @@ $fa-var-book-quran: \f687;
 $fa-var-quran: \f687;
 $fa-var-book-skull: \f6b7;
 $fa-var-book-dead: \f6b7;
+$fa-var-book-tanakh: \f827;
+$fa-var-tanakh: \f827;
 $fa-var-bookmark: \f02e;
 $fa-var-border-all: \f84c;
 $fa-var-border-none: \f850;
@@ -348,6 +351,8 @@ $fa-var-bus-alt: \f55e;
 $fa-var-business-time: \f64a;
 $fa-var-briefcase-clock: \f64a;
 $fa-var-c: \43;
+$fa-var-cable-car: \f7da;
+$fa-var-tram: \f7da;
 $fa-var-cake-candles: \f1fd;
 $fa-var-birthday-cake: \f1fd;
 $fa-var-cake: \f1fd;
@@ -772,12 +777,12 @@ $fa-var-file-download: \f56d;
 $fa-var-file-arrow-up: \f574;
 $fa-var-file-upload: \f574;
 $fa-var-file-audio: \f1c7;
-$fa-var-file-circle-check: \e493;
+$fa-var-file-circle-check: \e5a0;
 $fa-var-file-circle-exclamation: \e4eb;
 $fa-var-file-circle-minus: \e4ed;
-$fa-var-file-circle-plus: \e4ee;
+$fa-var-file-circle-plus: \e494;
 $fa-var-file-circle-question: \e4ef;
-$fa-var-file-circle-xmark: \e494;
+$fa-var-file-circle-xmark: \e5a1;
 $fa-var-file-code: \f1c9;
 $fa-var-file-contract: \f56c;
 $fa-var-file-csv: \f6dd;
@@ -1004,11 +1009,11 @@ $fa-var-hot-tub: \f593;
 $fa-var-hotdog: \f80f;
 $fa-var-hotel: \f594;
 $fa-var-hourglass: \f254;
-$fa-var-hourglass-2: \f254;
-$fa-var-hourglass-half: \f254;
-$fa-var-hourglass-empty: \f252;
+$fa-var-hourglass-empty: \f254;
 $fa-var-hourglass-end: \f253;
 $fa-var-hourglass-3: \f253;
+$fa-var-hourglass-half: \f252;
+$fa-var-hourglass-2: \f252;
 $fa-var-hourglass-start: \f251;
 $fa-var-hourglass-1: \f251;
 $fa-var-house: \f015;
@@ -1253,6 +1258,7 @@ $fa-var-network-wired: \f6ff;
 $fa-var-neuter: \f22c;
 $fa-var-newspaper: \f1ea;
 $fa-var-not-equal: \f53e;
+$fa-var-notdef: \e1fe;
 $fa-var-note-sticky: \f249;
 $fa-var-sticky-note: \f249;
 $fa-var-notes-medical: \f481;
@@ -1294,8 +1300,8 @@ $fa-var-pen-to-square: \f044;
 $fa-var-edit: \f044;
 $fa-var-pencil: \f303;
 $fa-var-pencil-alt: \f303;
-$fa-var-people-arrows-left-right: \e068;
 $fa-var-people-arrows: \e068;
+$fa-var-people-arrows-left-right: \e068;
 $fa-var-people-carry-box: \f4ce;
 $fa-var-people-carry: \f4ce;
 $fa-var-people-group: \e533;
@@ -1358,7 +1364,7 @@ $fa-var-person-snowboarding: \f7ce;
 $fa-var-snowboarding: \f7ce;
 $fa-var-person-swimming: \f5c4;
 $fa-var-swimmer: \f5c4;
-$fa-var-person-through-window: \e433;
+$fa-var-person-through-window: \e5a9;
 $fa-var-person-walking: \f554;
 $fa-var-walking: \f554;
 $fa-var-person-walking-arrow-loop-left: \e551;
@@ -1390,7 +1396,7 @@ $fa-var-plane-departure: \f5b0;
 $fa-var-plane-lock: \e558;
 $fa-var-plane-slash: \e069;
 $fa-var-plane-up: \e22d;
-$fa-var-plant-wilt: \e43b;
+$fa-var-plant-wilt: \e5aa;
 $fa-var-plate-wheat: \e55a;
 $fa-var-play: \f04b;
 $fa-var-plug: \f1e6;
@@ -1655,12 +1661,13 @@ $fa-var-square-virus: \e578;
 $fa-var-square-xmark: \f2d3;
 $fa-var-times-square: \f2d3;
 $fa-var-xmark-square: \f2d3;
-$fa-var-staff-aesculapius: \e579;
+$fa-var-staff-snake: \e579;
 $fa-var-rod-asclepius: \e579;
 $fa-var-rod-snake: \e579;
-$fa-var-staff-snake: \e579;
+$fa-var-staff-aesculapius: \e579;
 $fa-var-stairs: \e289;
 $fa-var-stamp: \f5bf;
+$fa-var-stapler: \e5af;
 $fa-var-star: \f005;
 $fa-var-star-and-crescent: \f699;
 $fa-var-star-half: \f089;
@@ -1791,8 +1798,7 @@ $fa-var-trailer: \e041;
 $fa-var-train: \f238;
 $fa-var-train-subway: \f239;
 $fa-var-subway: \f239;
-$fa-var-train-tram: \f7da;
-$fa-var-tram: \f7da;
+$fa-var-train-tram: \e5b4;
 $fa-var-transgender: \f225;
 $fa-var-transgender-alt: \f225;
 $fa-var-trash: \f1f8;
@@ -2026,7 +2032,6 @@ $fa-var-aws: \f375;
 $fa-var-bandcamp: \f2d5;
 $fa-var-battle-net: \f835;
 $fa-var-behance: \f1b4;
-$fa-var-behance-square: \f1b5;
 $fa-var-bilibili: \e3d9;
 $fa-var-bimobject: \f378;
 $fa-var-bitbucket: \f171;
@@ -2110,7 +2115,6 @@ $fa-var-dochub: \f394;
 $fa-var-docker: \f395;
 $fa-var-draft2digital: \f396;
 $fa-var-dribbble: \f17d;
-$fa-var-dribbble-square: \f397;
 $fa-var-dropbox: \f16b;
 $fa-var-drupal: \f1a9;
 $fa-var-dyalog: \f399;
@@ -2131,7 +2135,6 @@ $fa-var-expeditedssl: \f23e;
 $fa-var-facebook: \f09a;
 $fa-var-facebook-f: \f39e;
 $fa-var-facebook-messenger: \f39f;
-$fa-var-facebook-square: \f082;
 $fa-var-fantasy-flight-games: \f6dc;
 $fa-var-fedex: \f797;
 $fa-var-fedora: \f798;
@@ -2163,10 +2166,8 @@ $fa-var-gg: \f260;
 $fa-var-gg-circle: \f261;
 $fa-var-git: \f1d3;
 $fa-var-git-alt: \f841;
-$fa-var-git-square: \f1d2;
 $fa-var-github: \f09b;
 $fa-var-github-alt: \f113;
-$fa-var-github-square: \f092;
 $fa-var-gitkraken: \f3a6;
 $fa-var-gitlab: \f296;
 $fa-var-gitter: \f426;
@@ -2182,7 +2183,6 @@ $fa-var-google-pay: \e079;
 $fa-var-google-play: \f3ab;
 $fa-var-google-plus: \f2b3;
 $fa-var-google-plus-g: \f0d5;
-$fa-var-google-plus-square: \f0d4;
 $fa-var-google-wallet: \f1ee;
 $fa-var-gratipay: \f184;
 $fa-var-grav: \f2d6;
@@ -2191,7 +2191,6 @@ $fa-var-grunt: \f3ad;
 $fa-var-guilded: \e07e;
 $fa-var-gulp: \f3ae;
 $fa-var-hacker-news: \f1d4;
-$fa-var-hacker-news-square: \f3af;
 $fa-var-hackerrank: \f5f7;
 $fa-var-hashnode: \e499;
 $fa-var-hips: \f452;
@@ -2206,7 +2205,6 @@ $fa-var-hubspot: \f3b2;
 $fa-var-ideal: \e013;
 $fa-var-imdb: \f2d8;
 $fa-var-instagram: \f16d;
-$fa-var-instagram-square: \e055;
 $fa-var-instalod: \e081;
 $fa-var-intercom: \f7af;
 $fa-var-internet-explorer: \f26b;
@@ -2222,7 +2220,6 @@ $fa-var-jira: \f7b1;
 $fa-var-joget: \f3b7;
 $fa-var-joomla: \f1aa;
 $fa-var-js: \f3b8;
-$fa-var-js-square: \f3b9;
 $fa-var-jsfiddle: \f1cc;
 $fa-var-kaggle: \f5fa;
 $fa-var-keybase: \f4f5;
@@ -2232,7 +2229,6 @@ $fa-var-kickstarter-k: \f3bc;
 $fa-var-korvue: \f42f;
 $fa-var-laravel: \f3bd;
 $fa-var-lastfm: \f202;
-$fa-var-lastfm-square: \f203;
 $fa-var-leanpub: \f212;
 $fa-var-less: \f41d;
 $fa-var-line: \f3c0;
@@ -2255,6 +2251,7 @@ $fa-var-medrt: \f3c8;
 $fa-var-meetup: \f2e0;
 $fa-var-megaport: \f5a3;
 $fa-var-mendeley: \f7b3;
+$fa-var-meta: \e49b;
 $fa-var-microblog: \e01a;
 $fa-var-microsoft: \f3ca;
 $fa-var-mix: \f3cb;
@@ -2275,7 +2272,6 @@ $fa-var-ns8: \f3d5;
 $fa-var-nutritionix: \f3d6;
 $fa-var-octopus-deploy: \e082;
 $fa-var-odnoklassniki: \f263;
-$fa-var-odnoklassniki-square: \f264;
 $fa-var-old-republic: \f510;
 $fa-var-opencart: \f23d;
 $fa-var-openid: \f19b;
@@ -2299,10 +2295,8 @@ $fa-var-pied-piper: \f2ae;
 $fa-var-pied-piper-alt: \f1a8;
 $fa-var-pied-piper-hat: \f4e5;
 $fa-var-pied-piper-pp: \f1a7;
-$fa-var-pied-piper-square: \e01e;
 $fa-var-pinterest: \f0d2;
 $fa-var-pinterest-p: \f231;
-$fa-var-pinterest-square: \f0d3;
 $fa-var-pix: \e43a;
 $fa-var-playstation: \f3df;
 $fa-var-product-hunt: \f288;
@@ -2321,7 +2315,6 @@ $fa-var-rebel: \f1d0;
 $fa-var-red-river: \f3e3;
 $fa-var-reddit: \f1a1;
 $fa-var-reddit-alien: \f281;
-$fa-var-reddit-square: \f1a2;
 $fa-var-redhat: \f7bc;
 $fa-var-renren: \f18b;
 $fa-var-replyd: \f3e6;
@@ -2356,22 +2349,69 @@ $fa-var-slack-hash: \f198;
 $fa-var-slideshare: \f1e7;
 $fa-var-snapchat: \f2ab;
 $fa-var-snapchat-ghost: \f2ab;
-$fa-var-snapchat-square: \f2ad;
 $fa-var-soundcloud: \f1be;
 $fa-var-sourcetree: \f7d3;
+$fa-var-space-awesome: \e5ac;
 $fa-var-speakap: \f3f3;
 $fa-var-speaker-deck: \f83c;
 $fa-var-spotify: \f1bc;
-$fa-var-square-font-awesome: \f425;
+$fa-var-square-behance: \f1b5;
+$fa-var-behance-square: \f1b5;
+$fa-var-square-dribbble: \f397;
+$fa-var-dribbble-square: \f397;
+$fa-var-square-facebook: \f082;
+$fa-var-facebook-square: \f082;
+$fa-var-square-font-awesome: \e5ad;
 $fa-var-square-font-awesome-stroke: \f35c;
 $fa-var-font-awesome-alt: \f35c;
+$fa-var-square-git: \f1d2;
+$fa-var-git-square: \f1d2;
+$fa-var-square-github: \f092;
+$fa-var-github-square: \f092;
+$fa-var-square-gitlab: \e5ae;
+$fa-var-gitlab-square: \e5ae;
+$fa-var-square-google-plus: \f0d4;
+$fa-var-google-plus-square: \f0d4;
+$fa-var-square-hacker-news: \f3af;
+$fa-var-hacker-news-square: \f3af;
+$fa-var-square-instagram: \e055;
+$fa-var-instagram-square: \e055;
+$fa-var-square-js: \f3b9;
+$fa-var-js-square: \f3b9;
+$fa-var-square-lastfm: \f203;
+$fa-var-lastfm-square: \f203;
+$fa-var-square-odnoklassniki: \f264;
+$fa-var-odnoklassniki-square: \f264;
+$fa-var-square-pied-piper: \e01e;
+$fa-var-pied-piper-square: \e01e;
+$fa-var-square-pinterest: \f0d3;
+$fa-var-pinterest-square: \f0d3;
+$fa-var-square-reddit: \f1a2;
+$fa-var-reddit-square: \f1a2;
+$fa-var-square-snapchat: \f2ad;
+$fa-var-snapchat-square: \f2ad;
+$fa-var-square-steam: \f1b7;
+$fa-var-steam-square: \f1b7;
+$fa-var-square-tumblr: \f174;
+$fa-var-tumblr-square: \f174;
+$fa-var-square-twitter: \f081;
+$fa-var-twitter-square: \f081;
+$fa-var-square-viadeo: \f2aa;
+$fa-var-viadeo-square: \f2aa;
+$fa-var-square-vimeo: \f194;
+$fa-var-vimeo-square: \f194;
+$fa-var-square-whatsapp: \f40c;
+$fa-var-whatsapp-square: \f40c;
+$fa-var-square-xing: \f169;
+$fa-var-xing-square: \f169;
+$fa-var-square-youtube: \f431;
+$fa-var-youtube-square: \f431;
 $fa-var-squarespace: \f5be;
 $fa-var-stack-exchange: \f18d;
 $fa-var-stack-overflow: \f16c;
 $fa-var-stackpath: \f842;
 $fa-var-staylinked: \f3f5;
 $fa-var-steam: \f1b6;
-$fa-var-steam-square: \f1b7;
 $fa-var-steam-symbol: \f3f6;
 $fa-var-sticker-mule: \f3f7;
 $fa-var-strava: \f428;
@@ -2397,10 +2437,8 @@ $fa-var-tiktok: \e07b;
 $fa-var-trade-federation: \f513;
 $fa-var-trello: \f181;
 $fa-var-tumblr: \f173;
-$fa-var-tumblr-square: \f174;
 $fa-var-twitch: \f1e8;
 $fa-var-twitter: \f099;
-$fa-var-twitter-square: \f081;
 $fa-var-typo3: \f42b;
 $fa-var-uber: \f402;
 $fa-var-ubuntu: \f7df;
@@ -2418,10 +2456,8 @@ $fa-var-ussunnah: \f407;
 $fa-var-vaadin: \f408;
 $fa-var-viacoin: \f237;
 $fa-var-viadeo: \f2a9;
-$fa-var-viadeo-square: \f2aa;
 $fa-var-viber: \f409;
 $fa-var-vimeo: \f40a;
-$fa-var-vimeo-square: \f194;
 $fa-var-vimeo-v: \f27d;
 $fa-var-vine: \f1ca;
 $fa-var-vk: \f189;
@@ -2433,7 +2469,6 @@ $fa-var-weebly: \f5cc;
 $fa-var-weibo: \f18a;
 $fa-var-weixin: \f1d7;
 $fa-var-whatsapp: \f232;
-$fa-var-whatsapp-square: \f40c;
 $fa-var-whmcs: \f40d;
 $fa-var-wikipedia-w: \f266;
 $fa-var-windows: \f17a;
@@ -2449,9 +2484,9 @@ $fa-var-wpbeginner: \f297;
 $fa-var-wpexplorer: \f2de;
 $fa-var-wpforms: \f298;
 $fa-var-wpressr: \f3e4;
+$fa-var-rendact: \f3e4;
 $fa-var-xbox: \f412;
 $fa-var-xing: \f168;
-$fa-var-xing-square: \f169;
 $fa-var-y-combinator: \f23b;
 $fa-var-yahoo: \f19e;
 $fa-var-yammer: \f840;
@@ -2461,7 +2496,6 @@ $fa-var-yarn: \f7e3;
 $fa-var-yelp: \f1e9;
 $fa-var-yoast: \f2b1;
 $fa-var-youtube: \f167;
-$fa-var-youtube-square: \f431;
 $fa-var-zhihu: \f63f;
 
 $fa-icons: (
@@ -2621,6 +2655,7 @@ $fa-icons: (
   "bag-shopping": $fa-var-bag-shopping,
   "shopping-bag": $fa-var-shopping-bag,
   "bahai": $fa-var-bahai,
+  "haykal": $fa-var-haykal,
   "baht-sign": $fa-var-baht-sign,
   "ban": $fa-var-ban,
   "cancel": $fa-var-cancel,
@@ -2696,6 +2731,8 @@ $fa-icons: (
   "quran": $fa-var-quran,
   "book-skull": $fa-var-book-skull,
   "book-dead": $fa-var-book-dead,
+  "book-tanakh": $fa-var-book-tanakh,
+  "tanakh": $fa-var-tanakh,
   "bookmark": $fa-var-bookmark,
   "border-all": $fa-var-border-all,
   "border-none": $fa-var-border-none,
@@ -2765,6 +2802,8 @@ $fa-icons: (
   "business-time": $fa-var-business-time,
   "briefcase-clock": $fa-var-briefcase-clock,
   "c": $fa-var-c,
+  "cable-car": $fa-var-cable-car,
+  "tram": $fa-var-tram,
   "cake-candles": $fa-var-cake-candles,
   "birthday-cake": $fa-var-birthday-cake,
   "cake": $fa-var-cake,
@@ -3421,11 +3460,11 @@ $fa-icons: (
   "hotdog": $fa-var-hotdog,
   "hotel": $fa-var-hotel,
   "hourglass": $fa-var-hourglass,
-  "hourglass-2": $fa-var-hourglass-2,
-  "hourglass-half": $fa-var-hourglass-half,
   "hourglass-empty": $fa-var-hourglass-empty,
   "hourglass-end": $fa-var-hourglass-end,
   "hourglass-3": $fa-var-hourglass-3,
+  "hourglass-half": $fa-var-hourglass-half,
+  "hourglass-2": $fa-var-hourglass-2,
   "hourglass-start": $fa-var-hourglass-start,
   "hourglass-1": $fa-var-hourglass-1,
   "house": $fa-var-house,
@@ -3670,6 +3709,7 @@ $fa-icons: (
   "neuter": $fa-var-neuter,
   "newspaper": $fa-var-newspaper,
   "not-equal": $fa-var-not-equal,
+  "notdef": $fa-var-notdef,
   "note-sticky": $fa-var-note-sticky,
   "sticky-note": $fa-var-sticky-note,
   "notes-medical": $fa-var-notes-medical,
@@ -3711,8 +3751,8 @@ $fa-icons: (
   "edit": $fa-var-edit,
   "pencil": $fa-var-pencil,
   "pencil-alt": $fa-var-pencil-alt,
-  "people-arrows-left-right": $fa-var-people-arrows-left-right,
   "people-arrows": $fa-var-people-arrows,
+  "people-arrows-left-right": $fa-var-people-arrows-left-right,
   "people-carry-box": $fa-var-people-carry-box,
   "people-carry": $fa-var-people-carry,
   "people-group": $fa-var-people-group,
@@ -4072,12 +4112,13 @@ $fa-icons: (
   "square-xmark": $fa-var-square-xmark,
   "times-square": $fa-var-times-square,
   "xmark-square": $fa-var-xmark-square,
-  "staff-aesculapius": $fa-var-staff-aesculapius,
+  "staff-snake": $fa-var-staff-snake,
   "rod-asclepius": $fa-var-rod-asclepius,
   "rod-snake": $fa-var-rod-snake,
-  "staff-snake": $fa-var-staff-snake,
+  "staff-aesculapius": $fa-var-staff-aesculapius,
   "stairs": $fa-var-stairs,
   "stamp": $fa-var-stamp,
+  "stapler": $fa-var-stapler,
   "star": $fa-var-star,
   "star-and-crescent": $fa-var-star-and-crescent,
   "star-half": $fa-var-star-half,
@@ -4209,7 +4250,6 @@ $fa-icons: (
   "train-subway": $fa-var-train-subway,
   "subway": $fa-var-subway,
   "train-tram": $fa-var-train-tram,
-  "tram": $fa-var-tram,
   "transgender": $fa-var-transgender,
   "transgender-alt": $fa-var-transgender-alt,
   "trash": $fa-var-trash,
@@ -4445,7 +4485,6 @@ $fa-brand-icons: (
   "bandcamp": $fa-var-bandcamp,
   "battle-net": $fa-var-battle-net,
   "behance": $fa-var-behance,
-  "behance-square": $fa-var-behance-square,
   "bilibili": $fa-var-bilibili,
   "bimobject": $fa-var-bimobject,
   "bitbucket": $fa-var-bitbucket,
@@ -4529,7 +4568,6 @@ $fa-brand-icons: (
   "docker": $fa-var-docker,
   "draft2digital": $fa-var-draft2digital,
   "dribbble": $fa-var-dribbble,
-  "dribbble-square": $fa-var-dribbble-square,
   "dropbox": $fa-var-dropbox,
   "drupal": $fa-var-drupal,
   "dyalog": $fa-var-dyalog,
@@ -4550,7 +4588,6 @@ $fa-brand-icons: (
   "facebook": $fa-var-facebook,
   "facebook-f": $fa-var-facebook-f,
   "facebook-messenger": $fa-var-facebook-messenger,
-  "facebook-square": $fa-var-facebook-square,
   "fantasy-flight-games": $fa-var-fantasy-flight-games,
   "fedex": $fa-var-fedex,
   "fedora": $fa-var-fedora,
@@ -4582,10 +4619,8 @@ $fa-brand-icons: (
   "gg-circle": $fa-var-gg-circle,
   "git": $fa-var-git,
   "git-alt": $fa-var-git-alt,
-  "git-square": $fa-var-git-square,
   "github": $fa-var-github,
   "github-alt": $fa-var-github-alt,
-  "github-square": $fa-var-github-square,
   "gitkraken": $fa-var-gitkraken,
   "gitlab": $fa-var-gitlab,
   "gitter": $fa-var-gitter,
@@ -4601,7 +4636,6 @@ $fa-brand-icons: (
   "google-play": $fa-var-google-play,
   "google-plus": $fa-var-google-plus,
   "google-plus-g": $fa-var-google-plus-g,
-  "google-plus-square": $fa-var-google-plus-square,
   "google-wallet": $fa-var-google-wallet,
   "gratipay": $fa-var-gratipay,
   "grav": $fa-var-grav,
@@ -4610,7 +4644,6 @@ $fa-brand-icons: (
   "guilded": $fa-var-guilded,
   "gulp": $fa-var-gulp,
   "hacker-news": $fa-var-hacker-news,
-  "hacker-news-square": $fa-var-hacker-news-square,
   "hackerrank": $fa-var-hackerrank,
   "hashnode": $fa-var-hashnode,
   "hips": $fa-var-hips,
@@ -4625,7 +4658,6 @@ $fa-brand-icons: (
   "ideal": $fa-var-ideal,
   "imdb": $fa-var-imdb,
   "instagram": $fa-var-instagram,
-  "instagram-square": $fa-var-instagram-square,
   "instalod": $fa-var-instalod,
   "intercom": $fa-var-intercom,
   "internet-explorer": $fa-var-internet-explorer,
@@ -4641,7 +4673,6 @@ $fa-brand-icons: (
   "joget": $fa-var-joget,
   "joomla": $fa-var-joomla,
   "js": $fa-var-js,
-  "js-square": $fa-var-js-square,
   "jsfiddle": $fa-var-jsfiddle,
   "kaggle": $fa-var-kaggle,
   "keybase": $fa-var-keybase,
@@ -4651,7 +4682,6 @@ $fa-brand-icons: (
   "korvue": $fa-var-korvue,
   "laravel": $fa-var-laravel,
   "lastfm": $fa-var-lastfm,
-  "lastfm-square": $fa-var-lastfm-square,
   "leanpub": $fa-var-leanpub,
   "less": $fa-var-less,
   "line": $fa-var-line,
@@ -4674,6 +4704,7 @@ $fa-brand-icons: (
   "meetup": $fa-var-meetup,
   "megaport": $fa-var-megaport,
   "mendeley": $fa-var-mendeley,
+  "meta": $fa-var-meta,
   "microblog": $fa-var-microblog,
   "microsoft": $fa-var-microsoft,
   "mix": $fa-var-mix,
@@ -4694,7 +4725,6 @@ $fa-brand-icons: (
   "nutritionix": $fa-var-nutritionix,
   "octopus-deploy": $fa-var-octopus-deploy,
   "odnoklassniki": $fa-var-odnoklassniki,
-  "odnoklassniki-square": $fa-var-odnoklassniki-square,
   "old-republic": $fa-var-old-republic,
   "opencart": $fa-var-opencart,
   "openid": $fa-var-openid,
@@ -4718,10 +4748,8 @@ $fa-brand-icons: (
   "pied-piper-alt": $fa-var-pied-piper-alt,
   "pied-piper-hat": $fa-var-pied-piper-hat,
   "pied-piper-pp": $fa-var-pied-piper-pp,
-  "pied-piper-square": $fa-var-pied-piper-square,
   "pinterest": $fa-var-pinterest,
   "pinterest-p": $fa-var-pinterest-p,
-  "pinterest-square": $fa-var-pinterest-square,
   "pix": $fa-var-pix,
   "playstation": $fa-var-playstation,
   "product-hunt": $fa-var-product-hunt,
@@ -4740,7 +4768,6 @@ $fa-brand-icons: (
   "red-river": $fa-var-red-river,
   "reddit": $fa-var-reddit,
   "reddit-alien": $fa-var-reddit-alien,
-  "reddit-square": $fa-var-reddit-square,
   "redhat": $fa-var-redhat,
   "renren": $fa-var-renren,
   "replyd": $fa-var-replyd,
@@ -4775,22 +4802,69 @@ $fa-brand-icons: (
   "slideshare": $fa-var-slideshare,
   "snapchat": $fa-var-snapchat,
   "snapchat-ghost": $fa-var-snapchat-ghost,
-  "snapchat-square": $fa-var-snapchat-square,
   "soundcloud": $fa-var-soundcloud,
   "sourcetree": $fa-var-sourcetree,
+  "space-awesome": $fa-var-space-awesome,
   "speakap": $fa-var-speakap,
   "speaker-deck": $fa-var-speaker-deck,
   "spotify": $fa-var-spotify,
+  "square-behance": $fa-var-square-behance,
+  "behance-square": $fa-var-behance-square,
+  "square-dribbble": $fa-var-square-dribbble,
+  "dribbble-square": $fa-var-dribbble-square,
+  "square-facebook": $fa-var-square-facebook,
+  "facebook-square": $fa-var-facebook-square,
   "square-font-awesome": $fa-var-square-font-awesome,
   "square-font-awesome-stroke": $fa-var-square-font-awesome-stroke,
   "font-awesome-alt": $fa-var-font-awesome-alt,
+  "square-git": $fa-var-square-git,
+  "git-square": $fa-var-git-square,
+  "square-github": $fa-var-square-github,
+  "github-square": $fa-var-github-square,
+  "square-gitlab": $fa-var-square-gitlab,
+  "gitlab-square": $fa-var-gitlab-square,
+  "square-google-plus": $fa-var-square-google-plus,
+  "google-plus-square": $fa-var-google-plus-square,
+  "square-hacker-news": $fa-var-square-hacker-news,
+  "hacker-news-square": $fa-var-hacker-news-square,
+  "square-instagram": $fa-var-square-instagram,
+  "instagram-square": $fa-var-instagram-square,
+  "square-js": $fa-var-square-js,
+  "js-square": $fa-var-js-square,
+  "square-lastfm": $fa-var-square-lastfm,
+  "lastfm-square": $fa-var-lastfm-square,
+  "square-odnoklassniki": $fa-var-square-odnoklassniki,
+  "odnoklassniki-square": $fa-var-odnoklassniki-square,
+  "square-pied-piper": $fa-var-square-pied-piper,
+  "pied-piper-square": $fa-var-pied-piper-square,
+  "square-pinterest": $fa-var-square-pinterest,
+  "pinterest-square": $fa-var-pinterest-square,
+  "square-reddit": $fa-var-square-reddit,
+  "reddit-square": $fa-var-reddit-square,
+  "square-snapchat": $fa-var-square-snapchat,
+  "snapchat-square": $fa-var-snapchat-square,
+  "square-steam": $fa-var-square-steam,
+  "steam-square": $fa-var-steam-square,
+  "square-tumblr": $fa-var-square-tumblr,
+  "tumblr-square": $fa-var-tumblr-square,
+  "square-twitter": $fa-var-square-twitter,
+  "twitter-square": $fa-var-twitter-square,
+  "square-viadeo": $fa-var-square-viadeo,
+  "viadeo-square": $fa-var-viadeo-square,
+  "square-vimeo": $fa-var-square-vimeo,
+  "vimeo-square": $fa-var-vimeo-square,
+  "square-whatsapp": $fa-var-square-whatsapp,
+  "whatsapp-square": $fa-var-whatsapp-square,
+  "square-xing": $fa-var-square-xing,
+  "xing-square": $fa-var-xing-square,
+  "square-youtube": $fa-var-square-youtube,
+  "youtube-square": $fa-var-youtube-square,
   "squarespace": $fa-var-squarespace,
   "stack-exchange": $fa-var-stack-exchange,
   "stack-overflow": $fa-var-stack-overflow,
   "stackpath": $fa-var-stackpath,
   "staylinked": $fa-var-staylinked,
   "steam": $fa-var-steam,
-  "steam-square": $fa-var-steam-square,
   "steam-symbol": $fa-var-steam-symbol,
   "sticker-mule": $fa-var-sticker-mule,
   "strava": $fa-var-strava,
@@ -4816,10 +4890,8 @@ $fa-brand-icons: (
   "trade-federation": $fa-var-trade-federation,
   "trello": $fa-var-trello,
   "tumblr": $fa-var-tumblr,
-  "tumblr-square": $fa-var-tumblr-square,
   "twitch": $fa-var-twitch,
   "twitter": $fa-var-twitter,
-  "twitter-square": $fa-var-twitter-square,
   "typo3": $fa-var-typo3,
   "uber": $fa-var-uber,
   "ubuntu": $fa-var-ubuntu,
@@ -4837,10 +4909,8 @@ $fa-brand-icons: (
   "vaadin": $fa-var-vaadin,
   "viacoin": $fa-var-viacoin,
   "viadeo": $fa-var-viadeo,
-  "viadeo-square": $fa-var-viadeo-square,
   "viber": $fa-var-viber,
   "vimeo": $fa-var-vimeo,
-  "vimeo-square": $fa-var-vimeo-square,
   "vimeo-v": $fa-var-vimeo-v,
   "vine": $fa-var-vine,
   "vk": $fa-var-vk,
@@ -4852,7 +4922,6 @@ $fa-brand-icons: (
   "weibo": $fa-var-weibo,
   "weixin": $fa-var-weixin,
   "whatsapp": $fa-var-whatsapp,
-  "whatsapp-square": $fa-var-whatsapp-square,
   "whmcs": $fa-var-whmcs,
   "wikipedia-w": $fa-var-wikipedia-w,
   "windows": $fa-var-windows,
@@ -4868,9 +4937,9 @@ $fa-brand-icons: (
   "wpexplorer": $fa-var-wpexplorer,
   "wpforms": $fa-var-wpforms,
   "wpressr": $fa-var-wpressr,
+  "rendact": $fa-var-rendact,
   "xbox": $fa-var-xbox,
   "xing": $fa-var-xing,
-  "xing-square": $fa-var-xing-square,
   "y-combinator": $fa-var-y-combinator,
   "yahoo": $fa-var-yahoo,
   "yammer": $fa-var-yammer,
@@ -4880,6 +4949,5 @@ $fa-brand-icons: (
   "yelp": $fa-var-yelp,
   "yoast": $fa-var-yoast,
   "youtube": $fa-var-youtube,
-  "youtube-square": $fa-var-youtube-square,
   "zhihu": $fa-var-zhihu,
 );
