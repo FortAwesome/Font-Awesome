@@ -68,6 +68,15 @@
   --@{fa-css-prefix}-animation-direction: reverse;
 }
 
+.@{fa-css-prefix}-pulse,
+.@{fa-css-prefix}-spin-pulse {
+  animation-name: ~'@{fa-css-prefix}-spin';
+  animation-direction:  ~'var(--@{fa-css-prefix}-animation-direction, normal)';
+  animation-duration: ~'var(--@{fa-css-prefix}-animation-duration, 1s)';
+  animation-iteration-count: ~'var(--@{fa-css-prefix}-animation-iteration-count, infinite)';
+  animation-timing-function:  ~'var(--@{fa-css-prefix}-animation-timing, steps(8));';
+}
+
 // if agent or operating system prefers reduced motion, disable animations
 // see: https://www.smashingmagazine.com/2020/09/design-reduced-motion-sensitivities/
 // see: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion

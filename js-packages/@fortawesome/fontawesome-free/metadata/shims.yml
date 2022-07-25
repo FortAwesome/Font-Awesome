@@ -22,6 +22,9 @@ arrows-v:
   name: up-down
 bar-chart:
   name: chart-column
+behance-square:
+  name: square-behance
+  prefix: fab
 bitbucket-square:
   name: bitbucket
   prefix: fab
@@ -112,6 +115,9 @@ facebook:
 facebook-official:
   name: facebook
   prefix: fab
+facebook-square:
+  name: square-facebook
+  prefix: fab
 file-text:
   name: file-lines
 files-o:
@@ -122,6 +128,15 @@ floppy-o:
   prefix: far
 gbp:
   name: sterling-sign
+git-square:
+  name: square-git
+  prefix: fab
+github-square:
+  name: square-github
+  prefix: fab
+gitlab-square:
+  name: square-gitlab
+  prefix: fab
 glass:
   name: martini-glass-empty
 globe:
@@ -134,6 +149,12 @@ google-plus-circle:
   prefix: fab
 google-plus-official:
   name: google-plus
+  prefix: fab
+google-plus-square:
+  name: square-google-plus
+  prefix: fab
+hacker-news-square:
+  name: square-hacker-news
   prefix: fab
 hand-o-down:
   name: hand-point-down
@@ -151,20 +172,27 @@ header:
   name: heading
 home:
   name: house
-hourglass-half:
-  name: hourglass
 hourglass-o:
-  name: hourglass-empty
+  name: hourglass
 id-badge:
   prefix: far
 ils:
   name: shekel-sign
 inr:
   name: indian-rupee-sign
+instagram-square:
+  name: square-instagram
+  prefix: fab
 jpy:
   name: yen-sign
+js-square:
+  name: square-js
+  prefix: fab
 krw:
   name: won-sign
+lastfm-square:
+  name: square-lastfm
+  prefix: fab
 level-down:
   name: turn-down
 level-up:
@@ -203,6 +231,9 @@ object-group:
   prefix: far
 object-ungroup:
   prefix: far
+odnoklassniki-square:
+  name: square-odnoklassniki
+  prefix: fab
 paste:
   prefix: far
 pencil-square:
@@ -214,6 +245,15 @@ picture:
   name: image
 pie-chart:
   name: chart-pie
+pied-piper-square:
+  name: square-pied-piper
+  prefix: fab
+pinterest-square:
+  name: square-pinterest
+  prefix: fab
+reddit-square:
+  name: square-reddit
+  prefix: fab
 refresh:
   name: arrows-rotate
 registered:
@@ -230,6 +270,9 @@ sign-out:
   name: right-from-bracket
 snapchat-ghost:
   name: snapchat
+  prefix: fab
+snapchat-square:
+  name: square-snapchat
   prefix: fab
 sort-alpha-asc:
   name: arrow-down-a-z
@@ -254,6 +297,9 @@ star-half-full:
 star-half-o:
   name: star-half-stroke
   prefix: far
+steam-square:
+  name: square-steam
+  prefix: fab
 support:
   name: life-ring
   prefix: far
@@ -284,6 +330,12 @@ trash-o:
   prefix: far
 try:
   name: turkish-lira-sign
+tumblr-square:
+  name: square-tumblr
+  prefix: fab
+twitter-square:
+  name: square-twitter
+  prefix: fab
 unlock-alt:
   name: unlock
 usd:
@@ -291,13 +343,22 @@ usd:
 user-circle-o:
   name: circle-user
   prefix: far
+viadeo-square:
+  name: square-viadeo
+  prefix: fab
 video-camera:
   name: video
 vimeo:
   name: vimeo-v
   prefix: fab
+vimeo-square:
+  name: square-vimeo
+  prefix: fab
 volume-control-phone:
   name: phone-volume
+whatsapp-square:
+  name: square-whatsapp
+  prefix: fab
 wheelchair-alt:
   name: accessible-icon
   prefix: fab
@@ -305,6 +366,12 @@ window-maximize:
   prefix: far
 window-restore:
   prefix: far
+xing-square:
+  name: square-xing
+  prefix: fab
 youtube-play:
   name: youtube
+  prefix: fab
+youtube-square:
+  name: square-youtube
   prefix: fab

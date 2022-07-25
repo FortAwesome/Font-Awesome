@@ -300,7 +300,6 @@ hire-a-helper:
     - box-archive
     - box-open
     - couch
-    - dolly
     - people-carry-box
     - route
     - sign-hanging
@@ -696,7 +695,6 @@ the-us-sunnah-foundation:
     - handshake
     - handshake-angle
     - handshake-simple
-    - heart
     - leaf
     - parachute-box
     - piggy-bank
@@ -812,7 +810,6 @@ un-ocha:
     - house-flood-water
     - house-flood-water-circle-arrow-right
     - house-lock
-    - house-medical
     - house-medical-circle-check
     - house-medical-circle-exclamation
     - house-medical-circle-xmark
@@ -911,11 +908,10 @@ un-ocha:
     - shield-dog
     - shield-heart
     - shop-lock
-    - skull-crossbones
     - square-nfi
     - square-person-confined
     - square-virus
-    - staff-aesculapius
+    - staff-snake
     - sun-plant-wilt
     - tarp
     - tarp-droplet

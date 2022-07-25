@@ -207,12 +207,12 @@
   [
     "twitter-square",
     "fab",
-    null
+    "square-twitter"
   ],
   [
     "facebook-square",
     "fab",
-    null
+    "square-facebook"
   ],
   [
     "gears",
@@ -262,7 +262,7 @@
   [
     "github-square",
     "fab",
-    null
+    "square-github"
   ],
   [
     "lemon-o",
@@ -402,12 +402,12 @@
   [
     "pinterest-square",
     "fab",
-    null
+    "square-pinterest"
   ],
   [
     "google-plus-square",
     "fab",
-    null
+    "square-google-plus"
   ],
   [
     "google-plus",
@@ -837,7 +837,7 @@
   [
     "youtube-square",
     "fab",
-    null
+    "square-youtube"
   ],
   [
     "youtube",
@@ -852,7 +852,7 @@
   [
     "xing-square",
     "fab",
-    null
+    "square-xing"
   ],
   [
     "youtube-play",
@@ -902,7 +902,7 @@
   [
     "tumblr-square",
     "fab",
-    null
+    "square-tumblr"
   ],
   [
     "long-arrow-down",
@@ -1037,7 +1037,7 @@
   [
     "vimeo-square",
     "fab",
-    null
+    "square-vimeo"
   ],
   [
     "try",
@@ -1102,7 +1102,7 @@
   [
     "reddit-square",
     "fab",
-    null
+    "square-reddit"
   ],
   [
     "stumbleupon-circle",
@@ -1152,7 +1152,7 @@
   [
     "behance-square",
     "fab",
-    null
+    "square-behance"
   ],
   [
     "steam",
@@ -1162,7 +1162,7 @@
   [
     "steam-square",
     "fab",
-    null
+    "square-steam"
   ],
   [
     "automobile",
@@ -1327,7 +1327,7 @@
   [
     "git-square",
     "fab",
-    null
+    "square-git"
   ],
   [
     "git",
@@ -1507,7 +1507,7 @@
   [
     "lastfm-square",
     "fab",
-    null
+    "square-lastfm"
   ],
   [
     "ioxhost",
@@ -1722,7 +1722,7 @@
   [
     "hourglass-o",
     null,
-    "hourglass-empty"
+    "hourglass"
   ],
   [
     "hourglass-1",
@@ -1730,14 +1730,9 @@
     "hourglass-start"
   ],
   [
-    "hourglass-half",
-    null,
-    "hourglass"
-  ],
-  [
     "hourglass-2",
     null,
-    "hourglass"
+    "hourglass-half"
   ],
   [
     "hourglass-3",
@@ -1817,7 +1812,7 @@
   [
     "odnoklassniki-square",
     "fab",
-    null
+    "square-odnoklassniki"
   ],
   [
     "get-pocket",
@@ -2072,7 +2067,7 @@
   [
     "viadeo-square",
     "fab",
-    null
+    "square-viadeo"
   ],
   [
     "snapchat",
@@ -2087,7 +2082,7 @@
   [
     "snapchat-square",
     "fab",
-    null
+    "square-snapchat"
   ],
   [
     "pied-piper",
@@ -2462,12 +2457,12 @@
   [
     61569,
     "fab",
-    "twitter-square"
+    "square-twitter"
   ],
   [
     61570,
     "fab",
-    "facebook-square"
+    "square-facebook"
   ],
   [
     61575,
@@ -2507,7 +2502,7 @@
   [
     61586,
     "fab",
-    "github-square"
+    "square-github"
   ],
   [
     61588,
@@ -2617,12 +2612,12 @@
   [
     61651,
     "fab",
-    "pinterest-square"
+    "square-pinterest"
   ],
   [
     61652,
     "fab",
-    "google-plus-square"
+    "square-google-plus"
   ],
   [
     61653,
@@ -2877,7 +2872,7 @@
   [
     61798,
     "fab",
-    "youtube-square"
+    "square-youtube"
   ],
   [
     61799,
@@ -2892,7 +2887,7 @@
   [
     61801,
     "fab",
-    "xing-square"
+    "square-xing"
   ],
   [
     61802,
@@ -2942,7 +2937,7 @@
   [
     61812,
     "fab",
-    "tumblr-square"
+    "square-tumblr"
   ],
   [
     61813,
@@ -3067,7 +3062,7 @@
   [
     61844,
     "fab",
-    "vimeo-square"
+    "square-vimeo"
   ],
   [
     61845,
@@ -3112,7 +3107,7 @@
   [
     61858,
     "fab",
-    "reddit-square"
+    "square-reddit"
   ],
   [
     61859,
@@ -3162,7 +3157,7 @@
   [
     61877,
     "fab",
-    "behance-square"
+    "square-behance"
   ],
   [
     61878,
@@ -3172,7 +3167,7 @@
   [
     61879,
     "fab",
-    "steam-square"
+    "square-steam"
   ],
   [
     61884,
@@ -3272,7 +3267,7 @@
   [
     61906,
     "fab",
-    "git-square"
+    "square-git"
   ],
   [
     61907,
@@ -3402,7 +3397,7 @@
   [
     61955,
     "fab",
-    "lastfm-square"
+    "square-lastfm"
   ],
   [
     61960,
@@ -3577,11 +3572,6 @@
   [
     62032,
     "fas",
-    "hourglass-empty"
-  ],
-  [
-    62034,
-    "fas",
     "hourglass"
   ],
   [
@@ -3647,7 +3637,7 @@
   [
     62052,
     "fab",
-    "odnoklassniki-square"
+    "square-odnoklassniki"
   ],
   [
     62053,
@@ -3872,7 +3862,7 @@
   [
     62122,
     "fab",
-    "viadeo-square"
+    "square-viadeo"
   ],
   [
     62123,
@@ -3887,7 +3877,7 @@
   [
     62125,
     "fab",
-    "snapchat-square"
+    "square-snapchat"
   ],
   [
     62126,

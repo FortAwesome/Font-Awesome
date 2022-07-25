@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
@@ -200,9 +200,15 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
 
+.fa.fa-twitter-square:before {
+  content: "\f081"; }
+
 .fa.fa-facebook-square {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
+
+.fa.fa-facebook-square:before {
+  content: "\f082"; }
 
 .fa.fa-gears:before {
   content: "\f085"; }
@@ -250,6 +256,9 @@
 .fa.fa-github-square {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
+
+.fa.fa-github-square:before {
+  content: "\f092"; }
 
 .fa.fa-lemon-o {
   font-family: 'Font Awesome 6 Free';
@@ -392,9 +401,15 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
 
+.fa.fa-pinterest-square:before {
+  content: "\f0d3"; }
+
 .fa.fa-google-plus-square {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
+
+.fa.fa-google-plus-square:before {
+  content: "\f0d4"; }
 
 .fa.fa-google-plus {
   font-family: 'Font Awesome 6 Brands';
@@ -777,6 +792,9 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
 
+.fa.fa-youtube-square:before {
+  content: "\f431"; }
+
 .fa.fa-youtube {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
@@ -788,6 +806,9 @@
 .fa.fa-xing-square {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
+
+.fa.fa-xing-square:before {
+  content: "\f169"; }
 
 .fa.fa-youtube-play {
   font-family: 'Font Awesome 6 Brands';
@@ -834,6 +855,9 @@
 .fa.fa-tumblr-square {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
+
+.fa.fa-tumblr-square:before {
+  content: "\f174"; }
 
 .fa.fa-long-arrow-down:before {
   content: "\f309"; }
@@ -963,6 +987,9 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
 
+.fa.fa-vimeo-square:before {
+  content: "\f194"; }
+
 .fa.fa-try:before {
   content: "\e2bb"; }
 
@@ -1013,6 +1040,9 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
 
+.fa.fa-reddit-square:before {
+  content: "\f1a2"; }
+
 .fa.fa-stumbleupon-circle {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
@@ -1053,6 +1083,9 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
 
+.fa.fa-behance-square:before {
+  content: "\f1b5"; }
+
 .fa.fa-steam {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
@@ -1060,6 +1093,9 @@
 .fa.fa-steam-square {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
+
+.fa.fa-steam-square:before {
+  content: "\f1b7"; }
 
 .fa.fa-automobile:before {
   content: "\f1b9"; }
@@ -1237,6 +1273,9 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
 
+.fa.fa-git-square:before {
+  content: "\f1d2"; }
+
 .fa.fa-git {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
@@ -1403,6 +1442,9 @@
 .fa.fa-lastfm-square {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
+
+.fa.fa-lastfm-square:before {
+  content: "\f203"; }
 
 .fa.fa-ioxhost {
   font-family: 'Font Awesome 6 Brands';
@@ -1575,16 +1617,13 @@
   font-weight: 400; }
 
 .fa.fa-hourglass-o:before {
-  content: "\f252"; }
+  content: "\f254"; }
 
 .fa.fa-hourglass-1:before {
   content: "\f251"; }
 
-.fa.fa-hourglass-half:before {
-  content: "\f254"; }
-
 .fa.fa-hourglass-2:before {
-  content: "\f254"; }
+  content: "\f252"; }
 
 .fa.fa-hourglass-3:before {
   content: "\f253"; }
@@ -1675,6 +1714,9 @@
 .fa.fa-odnoklassniki-square {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
+
+.fa.fa-odnoklassniki-square:before {
+  content: "\f264"; }
 
 .fa.fa-get-pocket {
   font-family: 'Font Awesome 6 Brands';
@@ -1905,6 +1947,9 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
 
+.fa.fa-viadeo-square:before {
+  content: "\f2aa"; }
+
 .fa.fa-snapchat {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
@@ -1919,6 +1964,9 @@
 .fa.fa-snapchat-square {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400; }
+
+.fa.fa-snapchat-square:before {
+  content: "\f2ad"; }
 
 .fa.fa-pied-piper {
   font-family: 'Font Awesome 6 Brands';

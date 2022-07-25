@@ -1,6 +1,6 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
-var source = require('./faTrainTram');
+var source = require('./faCableCar');
 exports.definition = {
   prefix: source.prefix,
   iconName: source.iconName,

@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
@@ -952,6 +952,9 @@ readers do not read off random characters that represent icons */
 .fa-bahai::before {
   content: "\f666"; }
 
+.fa-haykal::before {
+  content: "\f666"; }
+
 .fa-baht-sign::before {
   content: "\e0ac"; }
 
@@ -1177,6 +1180,12 @@ readers do not read off random characters that represent icons */
 .fa-book-dead::before {
   content: "\f6b7"; }
 
+.fa-book-tanakh::before {
+  content: "\f827"; }
+
+.fa-tanakh::before {
+  content: "\f827"; }
+
 .fa-bookmark::before {
   content: "\f02e"; }
 
@@ -1383,6 +1392,12 @@ readers do not read off random characters that represent icons */
 
 .fa-c::before {
   content: "\43"; }
+
+.fa-cable-car::before {
+  content: "\f7da"; }
+
+.fa-tram::before {
+  content: "\f7da"; }
 
 .fa-cake-candles::before {
   content: "\f1fd"; }
@@ -2657,7 +2672,7 @@ readers do not read off random characters that represent icons */
   content: "\f1c7"; }
 
 .fa-file-circle-check::before {
-  content: "\e493"; }
+  content: "\e5a0"; }
 
 .fa-file-circle-exclamation::before {
   content: "\e4eb"; }
@@ -2666,13 +2681,13 @@ readers do not read off random characters that represent icons */
   content: "\e4ed"; }
 
 .fa-file-circle-plus::before {
-  content: "\e4ee"; }
+  content: "\e494"; }
 
 .fa-file-circle-question::before {
   content: "\e4ef"; }
 
 .fa-file-circle-xmark::before {
-  content: "\e494"; }
+  content: "\e5a1"; }
 
 .fa-file-code::before {
   content: "\f1c9"; }
@@ -3352,20 +3367,20 @@ readers do not read off random characters that represent icons */
 .fa-hourglass::before {
   content: "\f254"; }
 
-.fa-hourglass-2::before {
-  content: "\f254"; }
-
-.fa-hourglass-half::before {
-  content: "\f254"; }
-
 .fa-hourglass-empty::before {
-  content: "\f252"; }
+  content: "\f254"; }
 
 .fa-hourglass-end::before {
   content: "\f253"; }
 
 .fa-hourglass-3::before {
   content: "\f253"; }
+
+.fa-hourglass-half::before {
+  content: "\f252"; }
+
+.fa-hourglass-2::before {
+  content: "\f252"; }
 
 .fa-hourglass-start::before {
   content: "\f251"; }
@@ -4099,6 +4114,9 @@ readers do not read off random characters that represent icons */
 .fa-not-equal::before {
   content: "\f53e"; }
 
+.fa-notdef::before {
+  content: "\e1fe"; }
+
 .fa-note-sticky::before {
   content: "\f249"; }
 
@@ -4222,10 +4240,10 @@ readers do not read off random characters that represent icons */
 .fa-pencil-alt::before {
   content: "\f303"; }
 
-.fa-people-arrows-left-right::before {
+.fa-people-arrows::before {
   content: "\e068"; }
 
-.fa-people-arrows::before {
+.fa-people-arrows-left-right::before {
   content: "\e068"; }
 
 .fa-people-carry-box::before {
@@ -4415,7 +4433,7 @@ readers do not read off random characters that represent icons */
   content: "\f5c4"; }
 
 .fa-person-through-window::before {
-  content: "\e433"; }
+  content: "\e5a9"; }
 
 .fa-person-walking::before {
   content: "\f554"; }
@@ -4511,7 +4529,7 @@ readers do not read off random characters that represent icons */
   content: "\e22d"; }
 
 .fa-plant-wilt::before {
-  content: "\e43b"; }
+  content: "\e5aa"; }
 
 .fa-plate-wheat::before {
   content: "\e55a"; }
@@ -5305,7 +5323,7 @@ readers do not read off random characters that represent icons */
 .fa-xmark-square::before {
   content: "\f2d3"; }
 
-.fa-staff-aesculapius::before {
+.fa-staff-snake::before {
   content: "\e579"; }
 
 .fa-rod-asclepius::before {
@@ -5314,7 +5332,7 @@ readers do not read off random characters that represent icons */
 .fa-rod-snake::before {
   content: "\e579"; }
 
-.fa-staff-snake::before {
+.fa-staff-aesculapius::before {
   content: "\e579"; }
 
 .fa-stairs::before {
@@ -5322,6 +5340,9 @@ readers do not read off random characters that represent icons */
 
 .fa-stamp::before {
   content: "\f5bf"; }
+
+.fa-stapler::before {
+  content: "\e5af"; }
 
 .fa-star::before {
   content: "\f005"; }
@@ -5714,10 +5735,7 @@ readers do not read off random characters that represent icons */
   content: "\f239"; }
 
 .fa-train-tram::before {
-  content: "\f7da"; }
-
-.fa-tram::before {
-  content: "\f7da"; }
+  content: "\e5b4"; }
 
 .fa-transgender::before {
   content: "\f225"; }

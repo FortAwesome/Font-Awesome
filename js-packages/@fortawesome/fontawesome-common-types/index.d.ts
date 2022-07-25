@@ -55,7 +55,6 @@ export type IconName = '42-group' |
   'bandcamp' | 
   'battle-net' | 
   'behance' | 
-  'behance-square' | 
   'bilibili' | 
   'bimobject' | 
   'bitbucket' | 
@@ -139,7 +138,6 @@ export type IconName = '42-group' |
   'docker' | 
   'draft2digital' | 
   'dribbble' | 
-  'dribbble-square' | 
   'dropbox' | 
   'drupal' | 
   'dyalog' | 
@@ -160,7 +158,6 @@ export type IconName = '42-group' |
   'facebook' | 
   'facebook-f' | 
   'facebook-messenger' | 
-  'facebook-square' | 
   'fantasy-flight-games' | 
   'fedex' | 
   'fedora' | 
@@ -192,10 +189,8 @@ export type IconName = '42-group' |
   'gg-circle' | 
   'git' | 
   'git-alt' | 
-  'git-square' | 
   'github' | 
   'github-alt' | 
-  'github-square' | 
   'gitkraken' | 
   'gitlab' | 
   'gitter' | 
@@ -211,7 +206,6 @@ export type IconName = '42-group' |
   'google-play' | 
   'google-plus' | 
   'google-plus-g' | 
-  'google-plus-square' | 
   'google-wallet' | 
   'gratipay' | 
   'grav' | 
@@ -220,7 +214,6 @@ export type IconName = '42-group' |
   'guilded' | 
   'gulp' | 
   'hacker-news' | 
-  'hacker-news-square' | 
   'hackerrank' | 
   'hashnode' | 
   'hips' | 
@@ -235,7 +228,6 @@ export type IconName = '42-group' |
   'ideal' | 
   'imdb' | 
   'instagram' | 
-  'instagram-square' | 
   'instalod' | 
   'intercom' | 
   'internet-explorer' | 
@@ -251,7 +243,6 @@ export type IconName = '42-group' |
   'joget' | 
   'joomla' | 
   'js' | 
-  'js-square' | 
   'jsfiddle' | 
   'kaggle' | 
   'keybase' | 
@@ -261,7 +252,6 @@ export type IconName = '42-group' |
   'korvue' | 
   'laravel' | 
   'lastfm' | 
-  'lastfm-square' | 
   'leanpub' | 
   'less' | 
   'line' | 
@@ -284,6 +274,7 @@ export type IconName = '42-group' |
   'meetup' | 
   'megaport' | 
   'mendeley' | 
+  'meta' | 
   'microblog' | 
   'microsoft' | 
   'mix' | 
@@ -304,7 +295,6 @@ export type IconName = '42-group' |
   'nutritionix' | 
   'octopus-deploy' | 
   'odnoklassniki' | 
-  'odnoklassniki-square' | 
   'old-republic' | 
   'opencart' | 
   'openid' | 
@@ -328,10 +318,8 @@ export type IconName = '42-group' |
   'pied-piper-alt' | 
   'pied-piper-hat' | 
   'pied-piper-pp' | 
-  'pied-piper-square' | 
   'pinterest' | 
   'pinterest-p' | 
-  'pinterest-square' | 
   'pix' | 
   'playstation' | 
   'product-hunt' | 
@@ -350,7 +338,6 @@ export type IconName = '42-group' |
   'red-river' | 
   'reddit' | 
   'reddit-alien' | 
-  'reddit-square' | 
   'redhat' | 
   'renren' | 
   'replyd' | 
@@ -385,22 +372,69 @@ export type IconName = '42-group' |
   'slideshare' | 
   'snapchat' | 
   'snapchat-ghost' | 
-  'snapchat-square' | 
   'soundcloud' | 
   'sourcetree' | 
+  'space-awesome' | 
   'speakap' | 
   'speaker-deck' | 
   'spotify' | 
+  'square-behance' | 
+  'behance-square' | 
+  'square-dribbble' | 
+  'dribbble-square' | 
+  'square-facebook' | 
+  'facebook-square' | 
   'square-font-awesome' | 
   'square-font-awesome-stroke' | 
   'font-awesome-alt' | 
+  'square-git' | 
+  'git-square' | 
+  'square-github' | 
+  'github-square' | 
+  'square-gitlab' | 
+  'gitlab-square' | 
+  'square-google-plus' | 
+  'google-plus-square' | 
+  'square-hacker-news' | 
+  'hacker-news-square' | 
+  'square-instagram' | 
+  'instagram-square' | 
+  'square-js' | 
+  'js-square' | 
+  'square-lastfm' | 
+  'lastfm-square' | 
+  'square-odnoklassniki' | 
+  'odnoklassniki-square' | 
+  'square-pied-piper' | 
+  'pied-piper-square' | 
+  'square-pinterest' | 
+  'pinterest-square' | 
+  'square-reddit' | 
+  'reddit-square' | 
+  'square-snapchat' | 
+  'snapchat-square' | 
+  'square-steam' | 
+  'steam-square' | 
+  'square-tumblr' | 
+  'tumblr-square' | 
+  'square-twitter' | 
+  'twitter-square' | 
+  'square-viadeo' | 
+  'viadeo-square' | 
+  'square-vimeo' | 
+  'vimeo-square' | 
+  'square-whatsapp' | 
+  'whatsapp-square' | 
+  'square-xing' | 
+  'xing-square' | 
+  'square-youtube' | 
+  'youtube-square' | 
   'squarespace' | 
   'stack-exchange' | 
   'stack-overflow' | 
   'stackpath' | 
   'staylinked' | 
   'steam' | 
-  'steam-square' | 
   'steam-symbol' | 
   'sticker-mule' | 
   'strava' | 
@@ -426,10 +460,8 @@ export type IconName = '42-group' |
   'trade-federation' | 
   'trello' | 
   'tumblr' | 
-  'tumblr-square' | 
   'twitch' | 
   'twitter' | 
-  'twitter-square' | 
   'typo3' | 
   'uber' | 
   'ubuntu' | 
@@ -447,10 +479,8 @@ export type IconName = '42-group' |
   'vaadin' | 
   'viacoin' | 
   'viadeo' | 
-  'viadeo-square' | 
   'viber' | 
   'vimeo' | 
-  'vimeo-square' | 
   'vimeo-v' | 
   'vine' | 
   'vk' | 
@@ -462,7 +492,6 @@ export type IconName = '42-group' |
   'weibo' | 
   'weixin' | 
   'whatsapp' | 
-  'whatsapp-square' | 
   'whmcs' | 
   'wikipedia-w' | 
   'windows' | 
@@ -478,9 +507,9 @@ export type IconName = '42-group' |
   'wpexplorer' | 
   'wpforms' | 
   'wpressr' | 
+  'rendact' | 
   'xbox' | 
   'xing' | 
-  'xing-square' | 
   'y-combinator' | 
   'yahoo' | 
   'yammer' | 
@@ -490,7 +519,6 @@ export type IconName = '42-group' |
   'yelp' | 
   'yoast' | 
   'youtube' | 
-  'youtube-square' | 
   'zhihu' | 
   'address-book' | 
   'contact-book' | 
@@ -682,8 +710,9 @@ export type IconName = '42-group' |
   'hospital-alt' | 
   'hospital-wide' | 
   'hourglass' | 
-  'hourglass2' | 
+  'hourglass-empty' | 
   'hourglass-half' | 
+  'hourglass2' | 
   'id-badge' | 
   'id-card' | 
   'drivers-license' | 
@@ -700,6 +729,7 @@ export type IconName = '42-group' |
   'money-bill-alt' | 
   'moon' | 
   'newspaper' | 
+  'notdef' | 
   'note-sticky' | 
   'sticky-note' | 
   'object-group' | 
@@ -904,6 +934,7 @@ export type IconName = '42-group' |
   'bag-shopping' | 
   'shopping-bag' | 
   'bahai' | 
+  'haykal' | 
   'baht-sign' | 
   'ban' | 
   'cancel' | 
@@ -979,6 +1010,8 @@ export type IconName = '42-group' |
   'quran' | 
   'book-skull' | 
   'book-dead' | 
+  'book-tanakh' | 
+  'tanakh' | 
   'bookmark' | 
   'border-all' | 
   'border-none' | 
@@ -1048,6 +1081,8 @@ export type IconName = '42-group' |
   'business-time' | 
   'briefcase-clock' | 
   'c' | 
+  'cable-car' | 
+  'tram' | 
   'cake-candles' | 
   'birthday-cake' | 
   'cake' | 
@@ -1707,11 +1742,11 @@ export type IconName = '42-group' |
   'hotdog' | 
   'hotel' | 
   'hourglass' | 
-  'hourglass2' | 
-  'hourglass-half' | 
   'hourglass-empty' | 
   'hourglass-end' | 
   'hourglass3' | 
+  'hourglass-half' | 
+  'hourglass2' | 
   'hourglass-start' | 
   'hourglass1' | 
   'house' | 
@@ -1956,6 +1991,7 @@ export type IconName = '42-group' |
   'neuter' | 
   'newspaper' | 
   'not-equal' | 
+  'notdef' | 
   'note-sticky' | 
   'sticky-note' | 
   'notes-medical' | 
@@ -1997,8 +2033,8 @@ export type IconName = '42-group' |
   'edit' | 
   'pencil' | 
   'pencil-alt' | 
-  'people-arrows-left-right' | 
   'people-arrows' | 
+  'people-arrows-left-right' | 
   'people-carry-box' | 
   'people-carry' | 
   'people-group' | 
@@ -2358,12 +2394,13 @@ export type IconName = '42-group' |
   'square-xmark' | 
   'times-square' | 
   'xmark-square' | 
-  'staff-aesculapius' | 
+  'staff-snake' | 
   'rod-asclepius' | 
   'rod-snake' | 
-  'staff-snake' | 
+  'staff-aesculapius' | 
   'stairs' | 
   'stamp' | 
+  'stapler' | 
   'star' | 
   'star-and-crescent' | 
   'star-half' | 
@@ -2495,7 +2532,6 @@ export type IconName = '42-group' |
   'train-subway' | 
   'subway' | 
   'train-tram' | 
-  'tram' | 
   'transgender' | 
   'transgender-alt' | 
   'trash' | 

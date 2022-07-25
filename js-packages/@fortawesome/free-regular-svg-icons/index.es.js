@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
@@ -565,7 +565,7 @@ var faFolderOpen = {
 var faFontAwesome = {
   prefix: 'far',
   iconName: 'font-awesome',
-  icon: [448, 512, [62694, "font-awesome-flag", "font-awesome-logo-full"], "f2b4", "M448 48V384c-63.09 22.54-82.34 32-119.5 32c-62.82 0-86.6-32-149.3-32c-21.69 0-38.48 3.791-53.74 8.766C110.1 397.5 96 386.1 96 371.7v-.7461c0-9.275 5.734-17.6 14.42-20.86C129.1 342.8 150.2 336 179.2 336c62.73 0 86.51 32 149.3 32c25.5 0 42.85-4.604 71.47-14.7v-240C379.2 120.6 357.7 128 328.5 128c-.0039 0 .0039 0 0 0c-62.81 0-86.61-32-149.3-32C122.1 96 98.8 122.1 48 126.1V456C48 469.3 37.25 480 24 480S0 469.3 0 456V56C0 42.74 10.75 32 24 32S48 42.74 48 56v22.99C98.8 74.14 122.1 48 179.2 48c62.77 0 86.45 32 149.3 32C366.1 80 386.8 69.85 448 48z"]
+  icon: [448, 512, [62694, 62501, "font-awesome-flag", "font-awesome-logo-full"], "f2b4", "M448 48V384c-63.09 22.54-82.34 32-119.5 32c-62.82 0-86.6-32-149.3-32c-21.69 0-38.48 3.791-53.74 8.766C110.1 397.5 96 386.1 96 371.7v-.7461c0-9.275 5.734-17.6 14.42-20.86C129.1 342.8 150.2 336 179.2 336c62.73 0 86.51 32 149.3 32c25.5 0 42.85-4.604 71.47-14.7v-240C379.2 120.6 357.7 128 328.5 128c-.0039 0 .0039 0 0 0c-62.81 0-86.61-32-149.3-32C122.1 96 98.8 122.1 48 126.1V456C48 469.3 37.25 480 24 480S0 469.3 0 456V56C0 42.74 10.75 32 24 32S48 42.74 48 56v22.99C98.8 74.14 122.1 48 179.2 48c62.77 0 86.45 32 149.3 32C366.1 80 386.8 69.85 448 48z"]
 };
 var faFontAwesomeFlag = faFontAwesome;
 var faFontAwesomeLogoFull = faFontAwesome;
@@ -664,10 +664,15 @@ var faHospitalWide = faHospital;
 var faHourglass = {
   prefix: 'far',
   iconName: 'hourglass',
-  icon: [384, 512, [62032, 9203, "hourglass-2", "hourglass-half"], "f254", "M0 24C0 10.75 10.75 0 24 0H360C373.3 0 384 10.75 384 24C384 37.25 373.3 48 360 48H352V66.98C352 107.3 335.1 145.1 307.5 174.5L225.9 256L307.5 337.5C335.1 366 352 404.7 352 445V464H360C373.3 464 384 474.7 384 488C384 501.3 373.3 512 360 512H24C10.75 512 0 501.3 0 488C0 474.7 10.75 464 24 464H32V445C32 404.7 48.01 366 76.52 337.5L158.1 256L76.52 174.5C48.01 145.1 32 107.3 32 66.98V48H24C10.75 48 0 37.25 0 24V24zM99.78 384H284.2C281 379.6 277.4 375.4 273.5 371.5L192 289.9L110.5 371.5C106.6 375.4 102.1 379.6 99.78 384H99.78zM284.2 128C296.1 110.4 304 89.03 304 66.98V48H80V66.98C80 89.03 87 110.4 99.78 128H284.2z"]
+  icon: [384, 512, [62032, 9203, "hourglass-empty"], "f254", "M360 0C373.3 0 384 10.75 384 24C384 37.25 373.3 48 360 48H352V66.98C352 107.3 335.1 145.1 307.5 174.5L225.9 256L307.5 337.5C335.1 366 352 404.7 352 445V464H360C373.3 464 384 474.7 384 488C384 501.3 373.3 512 360 512H24C10.75 512 0 501.3 0 488C0 474.7 10.75 464 24 464H32V445C32 404.7 48.01 366 76.52 337.5L158.1 256L76.52 174.5C48.01 145.1 32 107.3 32 66.98V48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0L360 0zM192 289.9L110.5 371.5C90.96 390.1 80 417.4 80 445V464H304V445C304 417.4 293 390.1 273.5 371.5L192 289.9zM192 222.1L273.5 140.5C293 121 304 94.56 304 66.98V47.1H80V66.98C80 94.56 90.96 121 110.5 140.5L192 222.1z"]
 };
-var faHourglass2 = faHourglass;
-var faHourglassHalf = faHourglass;
+var faHourglassEmpty = faHourglass;
+var faHourglassHalf = {
+  prefix: 'far',
+  iconName: 'hourglass-half',
+  icon: [384, 512, ["hourglass-2"], "f252", "M0 24C0 10.75 10.75 0 24 0H360C373.3 0 384 10.75 384 24C384 37.25 373.3 48 360 48H352V66.98C352 107.3 335.1 145.1 307.5 174.5L225.9 256L307.5 337.5C335.1 366 352 404.7 352 445V464H360C373.3 464 384 474.7 384 488C384 501.3 373.3 512 360 512H24C10.75 512 0 501.3 0 488C0 474.7 10.75 464 24 464H32V445C32 404.7 48.01 366 76.52 337.5L158.1 256L76.52 174.5C48.01 145.1 32 107.3 32 66.98V48H24C10.75 48 0 37.25 0 24V24zM99.78 384H284.2C281 379.6 277.4 375.4 273.5 371.5L192 289.9L110.5 371.5C106.6 375.4 102.1 379.6 99.78 384H99.78zM284.2 128C296.1 110.4 304 89.03 304 66.98V48H80V66.98C80 89.03 87 110.4 99.78 128H284.2z"]
+};
+var faHourglass2 = faHourglassHalf;
 var faIdBadge = {
   prefix: 'far',
   iconName: 'id-badge',
@@ -735,6 +740,11 @@ var faNewspaper = {
   prefix: 'far',
   iconName: 'newspaper',
   icon: [512, 512, [128240], "f1ea", "M456 32h-304C121.1 32 96 57.13 96 88v320c0 13.22-10.77 24-24 24S48 421.2 48 408V112c0-13.25-10.75-24-24-24S0 98.75 0 112v296C0 447.7 32.3 480 72 480h352c48.53 0 88-39.47 88-88v-304C512 57.13 486.9 32 456 32zM464 392c0 22.06-17.94 40-40 40H139.9C142.5 424.5 144 416.4 144 408v-320c0-4.406 3.594-8 8-8h304c4.406 0 8 3.594 8 8V392zM264 272h-64C186.8 272 176 282.8 176 296S186.8 320 200 320h64C277.3 320 288 309.3 288 296S277.3 272 264 272zM408 272h-64C330.8 272 320 282.8 320 296S330.8 320 344 320h64c13.25 0 24-10.75 24-24S421.3 272 408 272zM264 352h-64c-13.25 0-24 10.75-24 24s10.75 24 24 24h64c13.25 0 24-10.75 24-24S277.3 352 264 352zM408 352h-64C330.8 352 320 362.8 320 376s10.75 24 24 24h64c13.25 0 24-10.75 24-24S421.3 352 408 352zM400 112h-192c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h192c17.67 0 32-14.33 32-32v-64C432 126.3 417.7 112 400 112z"]
+};
+var faNotdef = {
+  prefix: 'far',
+  iconName: 'notdef',
+  icon: [384, 512, [], "e1fe", "M336 0h-288C21.49 0 0 21.49 0 48v416C0 490.5 21.49 512 48 512h288c26.51 0 48-21.49 48-48v-416C384 21.49 362.5 0 336 0zM336 90.16V421.8L221.2 256L336 90.16zM192 213.8L77.19 48h229.6L192 213.8zM162.8 256L48 421.8V90.16L162.8 256zM192 298.2L306.8 464H77.19L192 298.2z"]
 };
 var faNoteSticky = {
   prefix: 'far',
@@ -1099,8 +1109,9 @@ var _iconsCache = {
   faHospitalAlt: faHospitalAlt,
   faHospitalWide: faHospitalWide,
   faHourglass: faHourglass,
-  faHourglass2: faHourglass2,
+  faHourglassEmpty: faHourglassEmpty,
   faHourglassHalf: faHourglassHalf,
+  faHourglass2: faHourglass2,
   faIdBadge: faIdBadge,
   faIdCard: faIdCard,
   faDriversLicense: faDriversLicense,
@@ -1117,6 +1128,7 @@ var _iconsCache = {
   faMoneyBillAlt: faMoneyBillAlt,
   faMoon: faMoon,
   faNewspaper: faNewspaper,
+  faNotdef: faNotdef,
   faNoteSticky: faNoteSticky,
   faStickyNote: faStickyNote,
   faObjectGroup: faObjectGroup,
@@ -1167,4 +1179,4 @@ var _iconsCache = {
   faWindowRestore: faWindowRestore
 };
 
-export { _iconsCache as far, prefix, faAddressBook, faContactBook, faAddressCard, faContactCard, faVcard, faBell, faBellSlash, faBookmark, faBuilding, faCalendar, faCalendarCheck, faCalendarDays, faCalendarAlt, faCalendarMinus, faCalendarPlus, faCalendarXmark, faCalendarTimes, faChartBar, faBarChart, faChessBishop, faChessKing, faChessKnight, faChessPawn, faChessQueen, faChessRook, faCircle, faCircleCheck, faCheckCircle, faCircleDot, faDotCircle, faCircleDown, faArrowAltCircleDown, faCircleLeft, faArrowAltCircleLeft, faCirclePause, faPauseCircle, faCirclePlay, faPlayCircle, faCircleQuestion, faQuestionCircle, faCircleRight, faArrowAltCircleRight, faCircleStop, faStopCircle, faCircleUp, faArrowAltCircleUp, faCircleUser, faUserCircle, faCircleXmark, faTimesCircle, faXmarkCircle, faClipboard, faClock, faClockFour, faClone, faClosedCaptioning, faComment, faCommentDots, faCommenting, faComments, faCompass, faCopy, faCopyright, faCreditCard, faCreditCardAlt, faEnvelope, faEnvelopeOpen, faEye, faEyeSlash, faFaceAngry, faAngry, faFaceDizzy, faDizzy, faFaceFlushed, faFlushed, faFaceFrown, faFrown, faFaceFrownOpen, faFrownOpen, faFaceGrimace, faGrimace, faFaceGrin, faGrin, faFaceGrinBeam, faGrinBeam, faFaceGrinBeamSweat, faGrinBeamSweat, faFaceGrinHearts, faGrinHearts, faFaceGrinSquint, faGrinSquint, faFaceGrinSquintTears, faGrinSquintTears, faFaceGrinStars, faGrinStars, faFaceGrinTears, faGrinTears, faFaceGrinTongue, faGrinTongue, faFaceGrinTongueSquint, faGrinTongueSquint, faFaceGrinTongueWink, faGrinTongueWink, faFaceGrinWide, faGrinAlt, faFaceGrinWink, faGrinWink, faFaceKiss, faKiss, faFaceKissBeam, faKissBeam, faFaceKissWinkHeart, faKissWinkHeart, faFaceLaugh, faLaugh, faFaceLaughBeam, faLaughBeam, faFaceLaughSquint, faLaughSquint, faFaceLaughWink, faLaughWink, faFaceMeh, faMeh, faFaceMehBlank, faMehBlank, faFaceRollingEyes, faMehRollingEyes, faFaceSadCry, faSadCry, faFaceSadTear, faSadTear, faFaceSmile, faSmile, faFaceSmileBeam, faSmileBeam, faFaceSmileWink, faSmileWink, faFaceSurprise, faSurprise, faFaceTired, faTired, faFile, faFileAudio, faFileCode, faFileExcel, faFileImage, faFileLines, faFileAlt, faFileText, faFilePdf, faFilePowerpoint, faFileVideo, faFileWord, faFileZipper, faFileArchive, faFlag, faFloppyDisk, faSave, faFolder, faFolderBlank, faFolderClosed, faFolderOpen, faFontAwesome, faFontAwesomeFlag, faFontAwesomeLogoFull, faFutbol, faFutbolBall, faSoccerBall, faGem, faHand, faHandPaper, faHandBackFist, faHandRock, faHandLizard, faHandPeace, faHandPointDown, faHandPointLeft, faHandPointRight, faHandPointUp, faHandPointer, faHandScissors, faHandSpock, faHandshake, faHardDrive, faHdd, faHeart, faHospital, faHospitalAlt, faHospitalWide, faHourglass, faHourglass2, faHourglassHalf, faIdBadge, faIdCard, faDriversLicense, faImage, faImages, faKeyboard, faLemon, faLifeRing, faLightbulb, faMap, faMessage, faCommentAlt, faMoneyBill1, faMoneyBillAlt, faMoon, faNewspaper, faNoteSticky, faStickyNote, faObjectGroup, faObjectUngroup, faPaperPlane, faPaste, faFileClipboard, faPenToSquare, faEdit, faRectangleList, faListAlt, faRectangleXmark, faRectangleTimes, faTimesRectangle, faWindowClose, faRegistered, faShareFromSquare, faShareSquare, faSnowflake, faSquare, faSquareCaretDown, faCaretSquareDown, faSquareCaretLeft, faCaretSquareLeft, faSquareCaretRight, faCaretSquareRight, faSquareCaretUp, faCaretSquareUp, faSquareCheck, faCheckSquare, faSquareFull, faSquareMinus, faMinusSquare, faSquarePlus, faPlusSquare, faStar, faStarHalf, faStarHalfStroke, faStarHalfAlt, faSun, faThumbsDown, faThumbsUp, faTrashCan, faTrashAlt, faUser, faWindowMaximize, faWindowMinimize, faWindowRestore };
+export { _iconsCache as far, prefix, faAddressBook, faContactBook, faAddressCard, faContactCard, faVcard, faBell, faBellSlash, faBookmark, faBuilding, faCalendar, faCalendarCheck, faCalendarDays, faCalendarAlt, faCalendarMinus, faCalendarPlus, faCalendarXmark, faCalendarTimes, faChartBar, faBarChart, faChessBishop, faChessKing, faChessKnight, faChessPawn, faChessQueen, faChessRook, faCircle, faCircleCheck, faCheckCircle, faCircleDot, faDotCircle, faCircleDown, faArrowAltCircleDown, faCircleLeft, faArrowAltCircleLeft, faCirclePause, faPauseCircle, faCirclePlay, faPlayCircle, faCircleQuestion, faQuestionCircle, faCircleRight, faArrowAltCircleRight, faCircleStop, faStopCircle, faCircleUp, faArrowAltCircleUp, faCircleUser, faUserCircle, faCircleXmark, faTimesCircle, faXmarkCircle, faClipboard, faClock, faClockFour, faClone, faClosedCaptioning, faComment, faCommentDots, faCommenting, faComments, faCompass, faCopy, faCopyright, faCreditCard, faCreditCardAlt, faEnvelope, faEnvelopeOpen, faEye, faEyeSlash, faFaceAngry, faAngry, faFaceDizzy, faDizzy, faFaceFlushed, faFlushed, faFaceFrown, faFrown, faFaceFrownOpen, faFrownOpen, faFaceGrimace, faGrimace, faFaceGrin, faGrin, faFaceGrinBeam, faGrinBeam, faFaceGrinBeamSweat, faGrinBeamSweat, faFaceGrinHearts, faGrinHearts, faFaceGrinSquint, faGrinSquint, faFaceGrinSquintTears, faGrinSquintTears, faFaceGrinStars, faGrinStars, faFaceGrinTears, faGrinTears, faFaceGrinTongue, faGrinTongue, faFaceGrinTongueSquint, faGrinTongueSquint, faFaceGrinTongueWink, faGrinTongueWink, faFaceGrinWide, faGrinAlt, faFaceGrinWink, faGrinWink, faFaceKiss, faKiss, faFaceKissBeam, faKissBeam, faFaceKissWinkHeart, faKissWinkHeart, faFaceLaugh, faLaugh, faFaceLaughBeam, faLaughBeam, faFaceLaughSquint, faLaughSquint, faFaceLaughWink, faLaughWink, faFaceMeh, faMeh, faFaceMehBlank, faMehBlank, faFaceRollingEyes, faMehRollingEyes, faFaceSadCry, faSadCry, faFaceSadTear, faSadTear, faFaceSmile, faSmile, faFaceSmileBeam, faSmileBeam, faFaceSmileWink, faSmileWink, faFaceSurprise, faSurprise, faFaceTired, faTired, faFile, faFileAudio, faFileCode, faFileExcel, faFileImage, faFileLines, faFileAlt, faFileText, faFilePdf, faFilePowerpoint, faFileVideo, faFileWord, faFileZipper, faFileArchive, faFlag, faFloppyDisk, faSave, faFolder, faFolderBlank, faFolderClosed, faFolderOpen, faFontAwesome, faFontAwesomeFlag, faFontAwesomeLogoFull, faFutbol, faFutbolBall, faSoccerBall, faGem, faHand, faHandPaper, faHandBackFist, faHandRock, faHandLizard, faHandPeace, faHandPointDown, faHandPointLeft, faHandPointRight, faHandPointUp, faHandPointer, faHandScissors, faHandSpock, faHandshake, faHardDrive, faHdd, faHeart, faHospital, faHospitalAlt, faHospitalWide, faHourglass, faHourglassEmpty, faHourglassHalf, faHourglass2, faIdBadge, faIdCard, faDriversLicense, faImage, faImages, faKeyboard, faLemon, faLifeRing, faLightbulb, faMap, faMessage, faCommentAlt, faMoneyBill1, faMoneyBillAlt, faMoon, faNewspaper, faNotdef, faNoteSticky, faStickyNote, faObjectGroup, faObjectUngroup, faPaperPlane, faPaste, faFileClipboard, faPenToSquare, faEdit, faRectangleList, faListAlt, faRectangleXmark, faRectangleTimes, faTimesRectangle, faWindowClose, faRegistered, faShareFromSquare, faShareSquare, faSnowflake, faSquare, faSquareCaretDown, faCaretSquareDown, faSquareCaretLeft, faCaretSquareLeft, faSquareCaretRight, faCaretSquareRight, faSquareCaretUp, faCaretSquareUp, faSquareCheck, faCheckSquare, faSquareFull, faSquareMinus, faMinusSquare, faSquarePlus, faPlusSquare, faStar, faStarHalf, faStarHalfStroke, faStarHalfAlt, faSun, faThumbsDown, faThumbsUp, faTrashCan, faTrashAlt, faUser, faWindowMaximize, faWindowMinimize, faWindowRestore };
