@@ -246,16 +246,14 @@ try {
   if (typeof performance !== 'undefined') _PERFORMANCE = performance;
 } catch (e) {}
 
-var _ref = _WINDOW.navigator || {},
-    _ref$userAgent = _ref.userAgent,
-    userAgent = _ref$userAgent === void 0 ? '' : _ref$userAgent;
+
 var WINDOW = _WINDOW;
 var DOCUMENT = _DOCUMENT;
 var MUTATION_OBSERVER = _MUTATION_OBSERVER;
 var PERFORMANCE = _PERFORMANCE;
 var IS_BROWSER = !!WINDOW.document;
 var IS_DOM = !!DOCUMENT.documentElement && !!DOCUMENT.head && typeof DOCUMENT.addEventListener === 'function' && typeof DOCUMENT.createElement === 'function';
-var IS_IE = ~userAgent.indexOf('MSIE') || ~userAgent.indexOf('Trident/');
+var IS_IE = false;
 
 var NAMESPACE_IDENTIFIER = '___FONT_AWESOME___';
 var UNITS_IN_GRID = 16;
