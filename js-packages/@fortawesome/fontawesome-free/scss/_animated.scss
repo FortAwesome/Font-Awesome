@@ -3,7 +3,7 @@
 
 .#{$fa-css-prefix}-beat {
   animation-name: #{$fa-css-prefix}-beat;
-  animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0);
+  animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 1s);
   animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);
@@ -12,7 +12,7 @@
 
 .#{$fa-css-prefix}-bounce {
   animation-name: #{$fa-css-prefix}-bounce;
-  animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0);
+  animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 1s);
   animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);
@@ -21,7 +21,7 @@
 
 .#{$fa-css-prefix}-fade {
   animation-name: #{$fa-css-prefix}-fade;
-  animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0);
+  animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 1s);
   animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);
@@ -30,7 +30,7 @@
 
 .#{$fa-css-prefix}-beat-fade {
   animation-name: #{$fa-css-prefix}-beat-fade;
-  animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0);
+  animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 1s);
   animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);
@@ -39,7 +39,7 @@
 
 .#{$fa-css-prefix}-flip {
   animation-name: #{$fa-css-prefix}-flip;
-  animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0);
+  animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 1s);
   animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);
@@ -48,7 +48,7 @@
 
 .#{$fa-css-prefix}-shake {
   animation-name: #{$fa-css-prefix}-shake;
-  animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0);
+  animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 1s);
   animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);
@@ -57,7 +57,7 @@
 
 .#{$fa-css-prefix}-spin {
   animation-name: #{$fa-css-prefix}-spin;
-  animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0);
+  animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 2s);
   animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);

@@ -91,12 +91,16 @@ blissbook:
 bots:
   icons:
     - bots
+    - message-bot
   label: Bots
   url: 'https://www.bots-inc.com'
 bryntum:
   icons:
     - diagram-next
+    - diagram-subtask
     - diagram-predecessor
+    - diagram-previous
+    - diagram-cells
     - diagram-successor
   label: Bryntum
   url: 'https://bryntum.com'
@@ -110,6 +114,11 @@ c-panel:
     - cpanel
   label: cPanel
   url: 'http://cpanel.com'
+cab-md:
+  icons:
+    - trillium
+  label: CabMD
+  url: 'https://cab.md'
 centercode:
   icons:
     - centercode
@@ -127,9 +136,31 @@ clear-blue-technologies:
   url: 'http://www.clearbluetechnologies.com'
 clicdata:
   icons:
+    - input-text
     - chart-column
+    - table-pivot
+    - chart-pyramid
+    - diagram-sankey
+    - chart-scatter-bubble
+    - chart-tree-map
+    - filter-list
+    - list-radio
+    - input-numeric
     - chart-gantt
+    - cloud-word
+    - chart-radar
+    - slider
+    - table-tree
     - chart-line
+    - chart-waterfall
+    - input-pipe
+    - list-dropdown
+    - list-tree
+    - diagram-venn
+    - filters
+    - chart-candlestick
+    - chart-scatter-3d
+    - chart-bullet
   label: ClicData
   url: 'https://www.clicdata.com'
 cloudflare:
@@ -171,6 +202,12 @@ darren-wiebe:
   icons:
     - church
   label: Darren Wiebe
+  url: null
+dbk-masters:
+  icons:
+    - pompebled
+  label: DBK Masters in Online Business
+  url: 'https://dbk.nl'
 deploy-dog:
   icons:
     - deploydog
@@ -220,13 +257,13 @@ getaroom:
   icons:
     - archway
     - dumbbell
-    - hotel
-    - map-location
     - map-location-dot
-    - monument
-    - person-swimming
     - spa
+    - map-location
+    - hotel
+    - monument
     - water-ladder
+    - person-swimming
   label: getaroom
   url: 'https://www.getaroom.com'
 git-kraken:
@@ -239,6 +276,16 @@ gofore:
     - gofore
   label: Gofore
   url: 'http://gofore.com'
+graflr:
+  icons:
+    - binary-circle-check
+    - binary-slash
+    - signature-slash
+    - key-skeleton-left-right
+    - binary-lock
+    - signature-lock
+  label: Graflr
+  url: 'https://www.fifthpint.com'
 gripfire-inc:
   icons:
     - gripfire
@@ -251,38 +298,38 @@ guilded:
   url: 'https://www.guilded.gg'
 harvard-medical-school:
   icons:
-    - bandage
-    - bed-pulse
-    - briefcase-medical
-    - capsules
-    - circle-h
-    - dna
-    - file-medical
-    - file-waveform
+    - weight-scale
+    - syringe
+    - heart
     - fire-flame-simple
     - hand-dots
-    - heart
-    - heart-pulse
-    - hospital
     - id-card-clip
-    - kit-medical
-    - notes-medical
-    - person-dots-from-line
-    - pills
-    - plus
-    - prescription-bottle
-    - prescription-bottle-medical
-    - smoking
+    - bandage
     - stethoscope
-    - syringe
-    - tablets
+    - circle-h
+    - prescription-bottle
     - thermometer
+    - briefcase-medical
+    - pills
     - truck-medical
-    - user-doctor
+    - notes-medical
+    - capsules
+    - plus
+    - file-waveform
+    - person-dots-from-line
+    - hospital
     - vial
-    - vials
-    - weight-scale
+    - kit-medical
+    - file-medical
     - x-ray
+    - heart-pulse
+    - vials
+    - dna
+    - bed-pulse
+    - prescription-bottle-medical
+    - user-doctor
+    - smoking
+    - tablets
   label: Harvard Medical School
   url: 'https://hms.harvard.edu'
 hashnode:
@@ -297,17 +344,34 @@ hips:
   url: 'https://hips.com'
 hire-a-helper:
   icons:
-    - box-archive
-    - box-open
-    - couch
-    - people-carry-box
-    - route
-    - sign-hanging
-    - suitcase
+    - loveseat
+    - dolly-empty
+    - ramp-loading
     - tape
-    - truck-moving
-    - truck-ramp-box
     - wine-glass
+    - route
+    - couch
+    - person-dolly-empty
+    - box-open
+    - suitcase
+    - truck-ramp-couch
+    - box-open-full
+    - square-this-way-up
+    - person-dolly
+    - wine-glass-crack
+    - sign-hanging
+    - truck-moving
+    - square-fragile
+    - people-carry-box
+    - container-storage
+    - blanket
+    - lamp
+    - box-taped
+    - truck-ramp
+    - box-archive
+    - truck-ramp-box
+    - truck-container
+    - person-carry-box
   label: HireAHelper
   url: 'https://www.hireahelper.com'
 hive:
@@ -315,6 +379,11 @@ hive:
     - hive
   label: Hive Blockchain Network
   url: 'https://hive.io'
+hive-games:
+  icons:
+    - bee
+  label: Hive Games
+  url: 'https://hivegames.io/'
 hornbill:
   icons:
     - hornbill
@@ -349,6 +418,7 @@ joe-emison:
   icons:
     - blender-phone
   label: Joe Emison
+  url: null
 joget:
   icons:
     - joget
@@ -358,10 +428,12 @@ jon-galloway:
   icons:
     - crow
   label: Jon Galloway
+  url: null
 kevin-barone:
   icons:
     - file-contract
   label: Kevin Barone
+  url: null
 key-cdn:
   icons:
     - keycdn
@@ -372,10 +444,22 @@ korvue:
     - korvue
   label: Korvue
   url: 'https://korvue.com'
+lean-stack:
+  icons:
+    - diagram-lean-canvas
+  label: LEANSTACK
+  url: 'https://leanstack.com'
+libeo:
+  icons:
+    - arrow-right-to-arc
+    - arrow-right-from-arc
+  label: Libeo
+  url: 'https://libeo.io'
 max-elman:
   icons:
     - frog
   label: Max Elman
+  url: null
 med-apps:
   icons:
     - medapps
@@ -383,15 +467,27 @@ med-apps:
   url: 'http://medapps.com.au'
 medapps:
   icons:
-    - book-medical
-    - clipboard-user
-    - comment-medical
-    - crutch
-    - disease
-    - hospital-user
-    - house-medical
-    - laptop-medical
     - pager
+    - files-medical
+    - laptop-medical
+    - house-medical
+    - comment-medical
+    - message-medical
+    - book-medical
+    - stretcher
+    - book-user
+    - crutch
+    - hospitals
+    - disease
+    - crutches
+    - head-side-brain
+    - walker
+    - clipboard-user
+    - books-medical
+    - hospital-user
+    - user-doctor-message
+    - head-side-medical
+    - users-medical
   label: MedApps
   url: 'https://medapps.com.au'
 megaport:
@@ -426,10 +522,23 @@ napster:
   url: 'http://www.napster.com'
 nfc-forum:
   icons:
-    - nfc-directional
     - nfc-symbol
+    - nfc-directional
   label: NFC Forum
   url: 'https://nfc-forum.org'
+nfc21:
+  icons:
+    - nfc
+    - nfc-slash
+    - nfc-trash
+    - nfc-pen
+    - mobile-signal
+    - nfc-magnifying-glass
+    - nfc-lock
+    - nfc-signal
+    - mobile-signal-out
+  label: NFC21
+  url: 'https://nfc21.de/'
 nimblr:
   icons:
     - nimblr
@@ -437,8 +546,8 @@ nimblr:
   url: 'https://nimblr.ai'
 nompse:
   icons:
-    - chalkboard
     - chalkboard-user
+    - chalkboard
   label: Nomp.se
   url: 'https://nomp.se'
 ns8:
@@ -456,6 +565,28 @@ octopus-deploy:
     - octopus-deploy
   label: Octopus Deploy
   url: 'https://octopus.com'
+olameter:
+  icons:
+    - brain-circuit
+    - transformer-bolt
+    - pedestal
+    - utility-pole-double
+    - meter-droplet
+    - meter-bolt
+    - angle
+    - grate-droplet
+    - meter-fire
+    - lamp-street
+    - manhole
+    - fire-hydrant
+  label: Olameter
+  url: 'https://www.olameter.com'
+optimism-pbc:
+  icons:
+    - bridge-suspension
+    - hexagon-image
+  label: Optimism PBC
+  url: 'https://www.optimism.io'
 padlet:
   icons:
     - padlet
@@ -492,6 +623,41 @@ phabricator:
     - phabricator
   label: Phabricator
   url: 'http://phacility.com'
+pindigo:
+  icons:
+    - pinball
+    - person-pinball
+  label: Pindigo
+  url: 'https://pindigo.app'
+play-shakespeare:
+  icons:
+    - user-shakespeare
+  label: PlayShakespeare.com
+  url: 'https://www.playshakespeare.com'
+plum-run-solutions:
+  icons:
+    - reel
+  label: Plum Run Solutions
+  url: 'https://plumrunsolutions.com/'
+polpharma:
+  icons:
+    - puzzle
+  label: Polpharma
+  url: 'http://www.polpharma.com'
+preflight-technologies-inc:
+  icons:
+    - tickets-airline
+    - person-seat
+    - ticket-airline
+    - plane-prop
+    - user-pilot-tie
+    - tower-control
+    - person-seat-reclined
+    - user-pilot
+    - seat-airline
+    - plane-tail
+  label: Preflight Technologies Incorporated
+  url: 'http://www.preflighttech.com/'
 promo-wizard:
   icons:
     - hat-wizard
@@ -532,10 +698,16 @@ red-river:
     - red-river
   label: red river
   url: 'https://river.red'
+rep-toolkit:
+  icons:
+    - mouse-field
+  label: Rep Toolkit LLC
+  url: 'https://www.reptoolkit.com'
 replyd:
   icons:
     - replyd
   label: replyd
+  url: null
 resolving:
   icons:
     - resolving
@@ -546,6 +718,12 @@ rev-io:
     - rev
   label: Rev.io
   url: 'https://rev.io'
+rms-cloud:
+  icons:
+    - floppy-disk-circle-xmark
+    - floppy-disk-circle-arrow-right
+  label: RMS Cloud
+  url: 'https://www.rmscloud.com'
 rock-rms:
   icons:
     - rockrms
@@ -553,29 +731,52 @@ rock-rms:
   url: 'http://rockrms.com'
 rocket-chat:
   icons:
-    - comment
-    - comment-dots
-    - comment-slash
-    - comments
+    - comment-plus
     - face-frown
-    - face-meh
-    - face-smile
-    - message
+    - comment-pen
+    - comment-dots
     - phone
-    - phone-slash
     - poo
-    - quote-left
+    - message-lines
     - quote-right
-    - rocketchat
+    - comment
+    - messages
+    - comment-minus
+    - message-xmark
+    - face-smile-plus
+    - comment-smile
+    - video-plus
+    - face-meh
+    - message-plus
+    - message-slash
+    - message-dots
+    - phone-slash
+    - quote-left
     - video
+    - message-minus
     - video-slash
+    - face-smile
+    - comment-lines
+    - comment-slash
+    - phone-plus
+    - message-pen
+    - message
+    - comments
+    - rocketchat
+    - comment-exclamation
+    - message-exclamation
+    - comment-xmark
+    - message-check
+    - comment-check
+    - message-smile
   label: Rocket.Chat
   url: 'https://rocket.chat'
 rodney-oliver:
   icons:
-    - folder-minus
     - folder-plus
+    - folder-minus
   label: Rodney Oliver
+  url: null
 schlix:
   icons:
     - schlix
@@ -598,9 +799,10 @@ service-stack:
   url: 'https://servicestack.net'
 shawn-storie:
   icons:
-    - teeth
     - teeth-open
+    - teeth
   label: Shawn Storie
+  url: null
 shopware:
   icons:
     - shopware
@@ -636,17 +838,42 @@ speakap:
     - speakap
   label: Speakap
   url: 'https://speakap.com'
+starchive:
+  icons:
+    - hexagon-vertical-nft-slanted
+    - hexagon-vertical-nft
+  label: Starchive
+  url: 'https://www.starchive.io'
 stay-linked:
   icons:
-    - box
-    - boxes-stacked
-    - cart-flatbed
+    - cart-flatbed-boxes
+    - cart-flatbed-empty
+    - conveyor-belt
+    - conveyor-belt-boxes
     - clipboard-check
-    - clipboard-list
+    - truck-clock
+    - scanner-keyboard
+    - hand-holding-box
+    - shelves
+    - scanner-gun
+    - forklift
     - dolly
-    - pallet
+    - tablet-rugged
+    - pallet-boxes
+    - warehouse-full
+    - rectangle-barcode
+    - cart-flatbed
     - truck
     - truck-fast
+    - box
+    - pallet
+    - barcode-scan
+    - box-check
+    - hands-holding-diamond
+    - barcode-read
+    - clipboard-list
+    - scanner-touchscreen
+    - boxes-stacked
     - warehouse
   label: StayLinked
   url: 'https://www.staylinked.com'
@@ -662,19 +889,36 @@ studio-vinari:
   url: 'https://studiovinari.com'
 supple:
   icons:
+    - bullseye-pointer
+    - magnifying-glass-location
+    - messages-dollar
+    - square-poll-horizontal
+    - lightbulb-slash
+    - lightbulb-exclamation
     - bullhorn
-    - bullseye
+    - supple
+    - badge-dollar
+    - gift-card
+    - badge-percent
+    - lightbulb-on
+    - envelope-open-dollar
+    - magnifying-glass-dollar
+    - user-group-crown
     - comment-dollar
+    - square-poll-vertical
+    - rectangle-ad
+    - badge-check
     - comments-dollar
     - envelope-open-text
+    - bullseye
+    - chart-mixed
+    - user-crown
+    - megaphone
+    - bullseye-arrow
+    - message-dollar
+    - lightbulb-dollar
     - envelopes-bulk
     - filter-circle-dollar
-    - magnifying-glass-dollar
-    - magnifying-glass-location
-    - rectangle-ad
-    - square-poll-horizontal
-    - square-poll-vertical
-    - supple
   label: Supple
   url: 'https://supple.com.au'
 the-red-yeti:
@@ -685,21 +929,34 @@ the-red-yeti:
 the-us-sunnah-foundation:
   icons:
     - circle-dollar-to-slot
-    - dollar-sign
-    - dove
-    - gift
+    - house-heart
+    - circle-dollar
     - globe
-    - hand-holding-dollar
     - hand-holding-droplet
+    - hands-holding-dollar
+    - piggy-bank
+    - dollar-sign
+    - book-heart
+    - seedling
+    - hands-holding-heart
+    - square-dollar
+    - circle-heart
+    - leaf-heart
+    - box-heart
+    - hand-holding-dollar
+    - leaf
+    - square-heart
     - hand-holding-heart
     - handshake
-    - handshake-angle
-    - handshake-simple
-    - leaf
-    - parachute-box
-    - piggy-bank
+    - hand-heart
+    - hand-holding-seedling
+    - box-dollar
+    - gift
     - ribbon
-    - seedling
+    - handshake-simple
+    - dove
+    - handshake-angle
+    - parachute-box
   label: The us-Sunnah Foundation
   url: 'https://www.ussunnah.org'
 themeco:
@@ -719,231 +976,231 @@ typo3:
   url: 'https://typo3.org'
 un-ocha:
   icons:
-    - anchor-circle-check
-    - anchor-circle-exclamation
-    - anchor-circle-xmark
-    - anchor-lock
-    - arrow-down-up-across-line
-    - arrow-down-up-lock
-    - arrow-right-to-city
-    - arrow-up-from-ground-water
-    - arrow-up-from-water-pump
-    - arrow-up-right-dots
-    - arrow-up-right-from-square
-    - arrows-down-to-line
-    - arrows-down-to-people
-    - arrows-left-right-to-line
-    - arrows-spin
-    - arrows-split-up-and-left
-    - arrows-to-circle
-    - arrows-to-dot
-    - arrows-to-eye
-    - arrows-turn-right
-    - arrows-turn-to-dots
-    - arrows-up-to-line
-    - bore-hole
-    - bottle-droplet
-    - bottle-water
-    - bowl-food
-    - bowl-rice
-    - boxes-packing
-    - bridge
-    - bridge-circle-check
-    - bridge-circle-exclamation
-    - bridge-circle-xmark
-    - bridge-lock
-    - bridge-water
-    - bucket
-    - bugs
-    - building-circle-arrow-right
-    - building-circle-check
-    - building-circle-exclamation
-    - building-circle-xmark
+    - person-arrow-up-from-line
+    - jar-wheat
+    - person-drowning
     - building-columns
-    - building-flag
-    - building-lock
-    - building-ngo
-    - building-shield
-    - building-un
-    - building-user
-    - building-wheat
-    - burst
-    - car-on
-    - car-tunnel
-    - chart-simple
-    - child-rifle
-    - children
-    - circle-nodes
-    - clipboard-question
-    - cloud-showers-water
-    - computer
-    - cubes-stacked
-    - envelope-circle-check
-    - explosion
-    - ferry
-    - fire-burner
-    - fish-fins
-    - flask-vial
-    - glass-water
-    - glass-water-droplet
-    - group-arrows-rotate
-    - hand-holding-hand
-    - handcuffs
-    - hands-bound
-    - hands-holding-child
-    - hands-holding-circle
-    - heart-circle-bolt
-    - heart-circle-check
-    - heart-circle-exclamation
-    - heart-circle-minus
-    - heart-circle-plus
-    - heart-circle-xmark
-    - helicopter-symbol
-    - helmet-un
-    - hill-avalanche
-    - hill-rockslide
-    - house-circle-check
-    - house-circle-exclamation
-    - house-circle-xmark
+    - trowel-bricks
+    - tent-arrow-left-right
+    - mars-and-venus-burst
+    - sun-plant-wilt
+    - toilets-portable
+    - magnifying-glass-arrow-right
     - house-fire
-    - house-flag
-    - house-flood-water
-    - house-flood-water-circle-arrow-right
-    - house-lock
-    - house-medical-circle-check
-    - house-medical-circle-exclamation
+    - people-group
+    - people-robbery
+    - school-circle-xmark
+    - road-spikes
+    - fire-burner
+    - hands-holding-child
     - house-medical-circle-xmark
-    - house-medical-flag
+    - house-flood-water
+    - wheelchair-move
+    - bridge-lock
+    - heart-circle-minus
+    - person-rays
+    - flask-vial
+    - worm
+    - mask-face
+    - house-circle-xmark
+    - bridge-circle-xmark
+    - road-circle-check
+    - land-mine-on
+    - wheat-awn-circle-exclamation
+    - road-barrier
+    - helmet-un
+    - bridge-circle-exclamation
+    - school-circle-check
+    - staff-snake
+    - building-user
+    - person-half-dress
+    - road-bridge
+    - building-lock
+    - person-circle-check
+    - house-flag
+    - person-circle-minus
+    - trowel
+    - mobile-retro
+    - hands-bound
+    - chart-simple
+    - plane-circle-exclamation
+    - building-wheat
+    - person-breastfeeding
+    - person-military-pointing
+    - arrows-spin
+    - xmarks-lines
+    - tent-arrows-down
+    - heart-circle-plus
+    - road-circle-xmark
+    - arrow-up-from-water-pump
+    - house-circle-exclamation
+    - anchor-lock
+    - building-ngo
+    - building-circle-check
+    - person-chalkboard
+    - shop-lock
+    - cloud-showers-water
+    - bucket
     - house-tsunami
     - jar
-    - jar-wheat
+    - square-nfi
+    - arrow-up-from-ground-water
+    - plate-wheat
+    - person-shelter
+    - helicopter-symbol
+    - person-walking-arrow-right
+    - road-circle-exclamation
+    - hill-rockslide
+    - bottle-droplet
+    - handcuffs
+    - person-walking-dashed-line-arrow-right
+    - square-person-confined
+    - tent-arrow-down-to-line
+    - location-pin-lock
+    - hill-avalanche
+    - rug
+    - person-falling
+    - burst
+    - arrows-turn-right
+    - ferry
+    - arrows-down-to-people
+    - sailboat
+    - boxes-packing
+    - arrows-split-up-and-left
+    - group-arrows-rotate
+    - truck-arrow-right
+    - house-circle-check
+    - person-walking-arrow-loop-left
+    - bowl-food
+    - plug-circle-exclamation
+    - house-lock
+    - children
+    - person-walking-luggage
+    - person-arrow-down-to-line
+    - mattress-pillow
+    - vial-circle-check
+    - shield-heart
+    - envelope-circle-check
+    - arrows-to-dot
+    - tents
+    - tent-arrow-turn-left
+    - heart-circle-check
+    - road-lock
+    - locust
+    - person-dress-burst
+    - building-circle-exclamation
+    - magnifying-glass-chart
+    - cubes-stacked
+    - person-circle-plus
+    - sack-xmark
+    - fish-fins
+    - building-flag
+    - person-falling-burst
+    - plane-circle-check
+    - arrow-up-right-dots
+    - mask-ventilator
+    - person-circle-question
+    - glass-water-droplet
+    - plug-circle-minus
+    - tarp
+    - arrows-to-eye
+    - plug-circle-bolt
+    - lines-leaning
+    - arrow-down-up-lock
+    - bottle-water
+    - kitchen-set
+    - arrow-up-right-from-square
+    - shield-dog
+    - road
+    - users-line
+    - money-bill-transfer
+    - bowl-rice
+    - money-bill-trend-up
+    - house-flood-water-circle-arrow-right
+    - users-rays
+    - building-shield
+    - bugs
+    - computer
     - jet-fighter-up
     - jug-detergent
-    - kitchen-set
-    - land-mine-on
-    - landmark-flag
-    - lines-leaning
-    - location-pin-lock
-    - locust
-    - magnifying-glass-arrow-right
-    - magnifying-glass-chart
-    - mars-and-venus-burst
-    - mask-face
-    - mask-ventilator
-    - mattress-pillow
-    - mobile-retro
-    - money-bill-transfer
-    - money-bill-trend-up
-    - money-bill-wheat
-    - mosquito
-    - mosquito-net
-    - mound
-    - mountain-city
-    - mountain-sun
-    - oil-well
-    - people-group
-    - people-line
-    - people-pulling
-    - people-robbery
-    - people-roof
-    - person-arrow-down-to-line
-    - person-arrow-up-from-line
-    - person-breastfeeding
-    - person-burst
-    - person-cane
-    - person-chalkboard
-    - person-circle-check
-    - person-circle-exclamation
-    - person-circle-minus
-    - person-circle-plus
-    - person-circle-question
-    - person-circle-xmark
-    - person-dress-burst
-    - person-drowning
-    - person-falling
-    - person-falling-burst
-    - person-half-dress
-    - person-harassing
-    - person-military-pointing
-    - person-military-rifle
-    - person-military-to-person
-    - person-rays
-    - person-rifle
-    - person-shelter
-    - person-through-window
-    - person-walking-arrow-loop-left
-    - person-walking-arrow-right
-    - person-walking-dashed-line-arrow-right
-    - person-walking-luggage
-    - plane-circle-check
-    - plane-circle-exclamation
-    - plane-circle-xmark
-    - plane-lock
-    - plant-wilt
-    - plate-wheat
-    - plug-circle-bolt
-    - plug-circle-check
-    - plug-circle-exclamation
-    - plug-circle-minus
-    - plug-circle-plus
-    - plug-circle-xmark
-    - ranking-star
-    - road
-    - road-barrier
-    - road-bridge
-    - road-circle-check
-    - road-circle-exclamation
-    - road-circle-xmark
-    - road-lock
-    - road-spikes
-    - rug
-    - sack-xmark
-    - sailboat
-    - school-circle-check
-    - school-circle-exclamation
-    - school-circle-xmark
-    - school-lock
-    - sheet-plastic
-    - shield-cat
-    - shield-dog
-    - shield-heart
-    - shop-lock
-    - square-nfi
-    - square-person-confined
-    - square-virus
-    - staff-snake
-    - sun-plant-wilt
-    - tarp
-    - tarp-droplet
-    - tent
-    - tent-arrow-down-to-line
-    - tent-arrow-left-right
-    - tent-arrow-turn-left
-    - tent-arrows-down
-    - tents
-    - toilet-portable
-    - toilets-portable
-    - tower-cell
-    - tower-observation
-    - tree-city
-    - trowel
-    - trowel-bricks
-    - truck-arrow-right
-    - truck-droplet
+    - bridge
+    - anchor-circle-exclamation
     - truck-field
-    - truck-field-un
-    - truck-plane
+    - clipboard-question
+    - person-harassing
+    - ranking-star
+    - tower-cell
+    - school-lock
+    - house-medical-flag
+    - person-circle-exclamation
+    - person-military-to-person
+    - tower-observation
+    - heart-circle-xmark
+    - tree-city
+    - heart-circle-bolt
+    - person-burst
+    - plant-wilt
     - users-between-lines
-    - users-line
-    - users-rays
-    - users-rectangle
+    - plug-circle-xmark
+    - mosquito-net
+    - bridge-water
+    - truck-droplet
+    - person-circle-xmark
     - users-viewfinder
-    - vial-circle-check
+    - arrows-left-right-to-line
+    - plane-lock
+    - arrow-right-to-city
+    - mountain-sun
+    - circle-nodes
+    - truck-field-un
+    - square-virus
+    - car-on
+    - hand-holding-hand
+    - hands-holding-circle
+    - person-through-window
+    - person-cane
+    - tent
+    - money-bill-wheat
+    - tarp-droplet
+    - house-medical-circle-check
+    - child-rifle
+    - anchor-circle-xmark
+    - plug-circle-check
+    - car-tunnel
+    - arrows-turn-to-dots
+    - mosquito
+    - person-military-rifle
+    - plug-circle-plus
+    - mountain-city
+    - person-rifle
+    - bore-hole
+    - house-medical-circle-exclamation
+    - glass-water
+    - arrow-down-up-across-line
+    - truck-plane
+    - people-line
+    - people-roof
+    - users-rectangle
+    - school-circle-exclamation
+    - bridge-circle-check
+    - arrows-up-to-line
+    - building-circle-arrow-right
+    - anchor-circle-check
+    - building-un
+    - explosion
+    - arrows-to-circle
+    - landmark-flag
     - vial-virus
-    - wheat-awn-circle-exclamation
-    - wheelchair-move
-    - worm
-    - xmarks-lines
+    - sheet-plastic
+    - oil-well
+    - people-pulling
+    - building-circle-xmark
+    - arrows-down-to-line
+    - heart-circle-exclamation
+    - mound
+    - toilet-portable
+    - plane-circle-xmark
+    - shield-cat
   label: United Nations OCHA
   url: 'https://www.unocha.org'
 uncharted:
@@ -956,6 +1213,34 @@ uniregistry:
     - uniregistry
   label: Uniregistry
   url: 'https://uniregistry.com'
+uptick:
+  icons:
+    - square-quarters
+    - person-to-door
+    - panel-fire
+    - light-emergency
+    - diamond-exclamation
+    - phone-intercom
+    - pump
+    - hose-reel
+    - pipe-collar
+    - sprinkler-ceiling
+    - pipe-valve
+    - pipe-section
+    - shutters
+    - blanket-fire
+    - block-brick
+    - hammer-crash
+    - tank-water
+    - hose
+    - vent-damper
+    - light-emergency-on
+    - pipe-circle-check
+    - circle-quarters
+    - square-ring
+    - panel-ews
+  label: Uptick
+  url: 'https://www.uptickhq.com'
 us-sunnah-foundation:
   icons:
     - ussunnah
@@ -968,18 +1253,23 @@ vaadin:
   url: 'http://vaadin.com'
 via:
   icons:
+    - user-injured
+    - draw-square
+    - draw-circle
+    - layer-group
     - car-burst
     - draw-polygon
     - house-crack
-    - layer-group
+    - layer-minus
+    - layer-plus
     - skull-crossbones
-    - user-injured
   label: VIA Traffic Software Solutions
   url: 'https://www.via.software'
 victor-costan:
   icons:
     - otter
   label: Staphany Park and Victor Costan
+  url: null
 vnv:
   icons:
     - vnv
@@ -988,16 +1278,17 @@ vnv:
 watchman-monitoring:
   icons:
     - watchman-monitoring
+    - comments-question-check
   label: Watchman Monitoring
   url: 'https://www.watchmanmonitoring.com'
 weedable:
   icons:
-    - bong
-    - cannabis
-    - hippo
-    - joint
-    - mortar-pestle
     - prescription
+    - mortar-pestle
+    - joint
+    - cannabis
+    - bong
+    - hippo
   label: Weedable
   url: 'https://www.weedable.com'
 whmcs:
