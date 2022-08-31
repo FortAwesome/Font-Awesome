@@ -14,6 +14,17 @@ const styles = [
   'brands'
 ]
 
+const macroNames = [
+  ...styles,
+  'icon'
+]
+
+const families = [
+  'classic',
+  'duotone',
+  'sharp'
+]
+
 function importer ({references, state, babel, source, config}) {
   const license = (config !== undefined ? config.license : 'free')
 
@@ -25,8 +36,8 @@ function importer ({references, state, babel, source, config}) {
 
   Object.keys(references).forEach((key) => {
     replace({
-      style: key,
-      license: (key === 'brands' ? 'free' : license),
+      macroName: key,
+      license,
       references: references[key],
       state,
       babel,
@@ -35,41 +46,65 @@ function importer ({references, state, babel, source, config}) {
   })
 }
 
-function replace ({ style, license, references, state, babel, source }) {
+function replace ({ macroName, license, references, state, babel, source }) {
   references.forEach((nodePath) => {
-    if (canBeReplaced({ nodePath, babel, state, style })) {
-      const iconName = nodePath.parentPath.node.arguments[0].value
-      const name = `fa${capitalize(camelCase(iconName))}`
-      const importFrom = `@fortawesome/${license}-${style}-svg-icons/${name}`
+    const {iconName, style, family} = resolveReplacement({ nodePath, babel, state, macroName })
 
-      const importName = addNamed(nodePath, name, importFrom)
+    const name = `fa${capitalize(camelCase(iconName))}`
+    const importFrom = getImport({family, style, license, name})
 
-      nodePath.parentPath.replaceWith(importName)
-    }
+    const importName = addNamed(nodePath, name, importFrom)
+
+    nodePath.parentPath.replaceWith(importName)
   })
 }
 
-function canBeReplaced ({ nodePath, babel, state, style }) {
+function getImport ({family, style, license, name}) {
+  if (family) {
+    return `@fortawesome/${family.toLowerCase()}-${style}-svg-icons/${name}`
+  } else {
+    return `@fortawesome/${license}-${style}-svg-icons/${name}`
+  }
+}
+
+function resolveReplacement ({ nodePath, babel, state, macroName }) {
+  if('icon' === macroName) {
+    return resolveReplacementIcon({ nodePath, babel, state, macroName })
+  } else {
+    return resolveReplacementLegacyStyle({ nodePath, babel, state, macroName })
+  }
+}
+
+// The macros corresonding to legacy style names: solid(), regular(), light(), thin(), duotone(), brands().
+function resolveReplacementLegacyStyle({ nodePath, babel, state, macroName }) {
   const { types: t } = babel
   const { parentPath } = nodePath
 
-  if (!styles.includes(style)) {
+  if (!styles.includes(macroName)) {
     throw parentPath.buildCodeFrameError(
-      `${style} is not a valid style. Use one of ${styles.join(', ')}`,
+      `${macroName} is not a valid macro name. Use one of ${macroNames.join(', ')}`,
       MacroError
     )
   }
 
   if (parentPath.node.arguments) {
-    if (parentPath.node.arguments.length !== 1) {
+    if (parentPath.node.arguments.length < 1) {
       throw parentPath.buildCodeFrameError(
-        `Received an invalid number of arguments (must be 1)`,
+        `Received an invalid number of arguments for ${macroName} macro: must be exactly 1`,
+        MacroError
+      )
+    }
+
+    if (parentPath.node.arguments.length > 1) {
+      throw parentPath.buildCodeFrameError(
+        `Received an invalid number of arguments for ${macroName} macro: must be exactly 1`,
         MacroError
       )
     }
 
     if (
-      parentPath.node.arguments.length === 1 &&
+      (parentPath.node.arguments.length === 1 ||
+      parentPath.node.arguments.length === 2) &&
       t.isStringLiteral(parentPath.node.arguments[0]) &&
       nodePath.parentPath.node.arguments[0].value.startsWith('fa-')
     ) {
@@ -79,7 +114,9 @@ function canBeReplaced ({ nodePath, babel, state, style }) {
       )
     }
 
-    if (parentPath.node.arguments.length === 1 && !t.isStringLiteral(parentPath.node.arguments[0])) {
+    if ((parentPath.node.arguments.length === 1 ||
+        parentPath.node.arguments.length === 2) &&
+        !t.isStringLiteral(parentPath.node.arguments[0])) {
       throw parentPath.buildCodeFrameError(
         'Only string literals are supported when referencing icons (use a string here instead)',
         MacroError
@@ -92,7 +129,147 @@ function canBeReplaced ({ nodePath, babel, state, style }) {
     )
   }
 
-  return true
+  return {
+    iconName: nodePath.parentPath.node.arguments[0].value,
+    style: macroName,
+    family: undefined
+  }
+}
+
+// The icon() macro.
+function resolveReplacementIcon ({ nodePath, babel, state, macroName }) {
+  const { types: t } = babel
+  const { parentPath } = nodePath
+
+  if ('icon' !== macroName) {
+    throw parentPath.buildCodeFrameError(
+      `${macroName} is not a valid macro name. Use one of ${macroNames.join(', ')}`,
+      MacroError
+    )
+  }
+
+  if (parentPath.node.arguments.length !== 1) {
+    throw parentPath.buildCodeFrameError(
+      `Received an invalid number of arguments for ${macroName} macro: must be exactly 1`,
+      MacroError
+    )
+  }
+
+  if (!t.isObjectExpression(parentPath.node.arguments[0])) {
+    throw parentPath.buildCodeFrameError(
+      'Only object expressions are supported when referencing icons with this macro, like this: { name: \'star\' }',
+      MacroError
+    )
+  }
+
+  const properties = (parentPath.node.arguments[0].properties || [])
+
+  const namePropIndex = properties.findIndex((prop) => 'name' === prop.key.name)
+
+  const name = namePropIndex >= 0
+    ? getStringLiteralPropertyValue(t, parentPath, parentPath.node.arguments[0].properties[namePropIndex])
+    : undefined
+
+  if(!name) {
+    throw parentPath.buildCodeFrameError(
+      'The object argument to the icon() macro must have a name property',
+      MacroError
+    )
+  }
+
+  const stylePropIndex = properties.findIndex((prop) => 'style' === prop.key.name)
+
+  let style = stylePropIndex >= 0
+    ? getStringLiteralPropertyValue(t, parentPath, parentPath.node.arguments[0].properties[stylePropIndex])
+    : undefined
+
+  if(style && !styles.includes(style)) {
+    throw parentPath.buildCodeFrameError(
+      `Invalid style name: ${style}. It must be one of the following: ${styles.join(', ')}`,
+      MacroError
+    )
+  }
+
+  const familyPropIndex = properties.findIndex((prop) => 'family' === prop.key.name)
+
+  let family = familyPropIndex >= 0
+    ? getStringLiteralPropertyValue(t, parentPath, parentPath.node.arguments[0].properties[familyPropIndex])
+    : undefined
+
+  if(family && !families.includes(family)) {
+    throw parentPath.buildCodeFrameError(
+      `Invalid family name: ${family}. It must be one of the following: ${families.join(', ')}`,
+      MacroError
+    )
+  }
+
+  if('duotone' === style && family && 'classic' !== family) {
+    throw parentPath.buildCodeFrameError(
+      `duotone cannot be used as a style name with any family other than classic`,
+      MacroError
+    )
+  }
+
+  if('brands' === style && family && 'classic' !== family) {
+    throw parentPath.buildCodeFrameError(
+      `brands cannot be used as a style name with any family other than classic`,
+      MacroError
+    )
+  }
+
+  if(family && !style) {
+    throw parentPath.buildCodeFrameError(
+      `When a family is specified, a style must also be specified`,
+      MacroError
+    )
+  }
+
+  if('duotone' === style || 'duotone' === family) {
+    family = undefined
+    style = 'duotone'
+  }
+
+  if('brands' === style) {
+    family = undefined
+  }
+
+  // defaults
+  if(!style) {
+    style = 'solid'
+  }
+
+  if('classic' === family) {
+    family = undefined
+  }
+
+  return {
+    iconName: name,
+    family,
+    style
+  }
+}
+
+function getStringLiteralPropertyValue(t, parentPath, property) {
+  if(!('object' === typeof t && 'function' === typeof t.isStringLiteral)) {
+    throw Error("ERROR: invalid babel-types arg. This is probably a programming error in import.macro")
+  }
+
+  if(!('object' === typeof property && 'object' === typeof property.value && 'object' == typeof property.key)) {
+    throw Error("ERROR: invalid babel property arg. This is probably a programming error in import.macro")
+  }
+
+  if(!('object' === typeof parentPath && 'function' === typeof parentPath.buildCodeFrameError)) {
+    throw Error("ERROR: invalid babel parentPath arg. This is probably a programming error in import.macro")
+  }
+
+  if(!t.isStringLiteral(property.value)) {
+    throw parentPath.buildCodeFrameError(
+      `Only string literals are supported for the ${property.key.name} property (use a string here instead)`,
+      MacroError
+    )
+  }
+
+  return property.value.value
 }
 
 function capitalize (str) {

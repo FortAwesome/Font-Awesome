@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
@@ -1003,6 +1003,7 @@
 
   WINDOW.FontAwesomeDetection = _config;
 
+  var _familyProxy, _familyProxy2, _familyProxy3, _familyProxy4, _familyProxy5;
   var PRODUCTION = function () {
     try {
       return process.env.NODE_ENV === 'production';
@@ -1010,7 +1011,40 @@
       return false;
     }
   }();
-  var STYLE_TO_PREFIX = {
+  var FAMILY_CLASSIC = 'classic';
+  var FAMILY_SHARP = 'sharp';
+  var FAMILIES = [FAMILY_CLASSIC, FAMILY_SHARP];
+
+  function familyProxy(obj) {
+    // Defaults to the classic family if family is not available
+    return new Proxy(obj, {
+      get: function get(target, prop) {
+        return prop in target ? target[prop] : target[FAMILY_CLASSIC];
+      }
+    });
+  }
+  var PREFIX_TO_STYLE = familyProxy((_familyProxy = {}, _defineProperty(_familyProxy, FAMILY_CLASSIC, {
+    'fa': 'solid',
+    'fas': 'solid',
+    'fa-solid': 'solid',
+    'far': 'regular',
+    'fa-regular': 'regular',
+    'fal': 'light',
+    'fa-light': 'light',
+    'fat': 'thin',
+    'fa-thin': 'thin',
+    'fad': 'duotone',
+    'fa-duotone': 'duotone',
+    'fab': 'brands',
+    'fa-brands': 'brands',
+    'fak': 'kit',
+    'fa-kit': 'kit'
+  }), _defineProperty(_familyProxy, FAMILY_SHARP, {
+    'fa': 'solid',
+    'fass': 'solid',
+    'fa-solid': 'solid'
+  }), _familyProxy));
+  var STYLE_TO_PREFIX = familyProxy((_familyProxy2 = {}, _defineProperty(_familyProxy2, FAMILY_CLASSIC, {
     'solid': 'fas',
     'regular': 'far',
     'light': 'fal',
@@ -1018,7 +1052,42 @@
     'duotone': 'fad',
     'brands': 'fab',
     'kit': 'fak'
-  };
+  }), _defineProperty(_familyProxy2, FAMILY_SHARP, {
+    'solid': 'fass'
+  }), _familyProxy2));
+  var PREFIX_TO_LONG_STYLE = familyProxy((_familyProxy3 = {}, _defineProperty(_familyProxy3, FAMILY_CLASSIC, {
+    'fab': 'fa-brands',
+    'fad': 'fa-duotone',
+    'fak': 'fa-kit',
+    'fal': 'fa-light',
+    'far': 'fa-regular',
+    'fas': 'fa-solid',
+    'fat': 'fa-thin'
+  }), _defineProperty(_familyProxy3, FAMILY_SHARP, {
+    'fass': 'fa-solid'
+  }), _familyProxy3));
+  var LONG_STYLE_TO_PREFIX = familyProxy((_familyProxy4 = {}, _defineProperty(_familyProxy4, FAMILY_CLASSIC, {
+    'fa-brands': 'fab',
+    'fa-duotone': 'fad',
+    'fa-kit': 'fak',
+    'fa-light': 'fal',
+    'fa-regular': 'far',
+    'fa-solid': 'fas',
+    'fa-thin': 'fat'
+  }), _defineProperty(_familyProxy4, FAMILY_SHARP, {
+    'fa-solid': 'fass'
+  }), _familyProxy4));
+  // TODO: do we need to handle font-weight for kit SVG pseudo-elements?
+
+  var FONT_WEIGHT_TO_PREFIX = familyProxy((_familyProxy5 = {}, _defineProperty(_familyProxy5, FAMILY_CLASSIC, {
+    '900': 'fas',
+    '400': 'far',
+    'normal': 'far',
+    '300': 'fal',
+    '100': 'fat'
+  }), _defineProperty(_familyProxy5, FAMILY_SHARP, {
+    '900': 'fass'
+  }), _familyProxy5));
   var oneToTen = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   var oneToTwenty = oneToTen.concat([11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);
   var DUOTONE_CLASSES = {
@@ -1027,7 +1096,10 @@
     PRIMARY: 'primary',
     SECONDARY: 'secondary'
   };
-  var RESERVED_CLASSES = [].concat(_toConsumableArray(Object.keys(STYLE_TO_PREFIX)), ['2xs', 'xs', 'sm', 'lg', 'xl', '2xl', 'beat', 'border', 'fade', 'beat-fade', 'bounce', 'flip-both', 'flip-horizontal', 'flip-vertical', 'flip', 'fw', 'inverse', 'layers-counter', 'layers-text', 'layers', 'li', 'pull-left', 'pull-right', 'pulse', 'rotate-180', 'rotate-270', 'rotate-90', 'rotate-by', 'shake', 'spin-pulse', 'spin-reverse', 'spin', 'stack-1x', 'stack-2x', 'stack', 'ul', DUOTONE_CLASSES.GROUP, DUOTONE_CLASSES.SWAP_OPACITY, DUOTONE_CLASSES.PRIMARY, DUOTONE_CLASSES.SECONDARY]).concat(oneToTen.map(function (n) {
+  var prefixes = new Set();
+  Object.keys(STYLE_TO_PREFIX[FAMILY_CLASSIC]).map(prefixes.add.bind(prefixes));
+  Object.keys(STYLE_TO_PREFIX[FAMILY_SHARP]).map(prefixes.add.bind(prefixes));
+  var RESERVED_CLASSES = [].concat(FAMILIES, _toConsumableArray(prefixes), ['2xs', 'xs', 'sm', 'lg', 'xl', '2xl', 'beat', 'border', 'fade', 'beat-fade', 'bounce', 'flip-both', 'flip-horizontal', 'flip-vertical', 'flip', 'fw', 'inverse', 'layers-counter', 'layers-text', 'layers', 'li', 'pull-left', 'pull-right', 'pulse', 'rotate-180', 'rotate-270', 'rotate-90', 'rotate-by', 'shake', 'spin-pulse', 'spin-reverse', 'spin', 'stack-1x', 'stack-2x', 'stack', 'ul', DUOTONE_CLASSES.GROUP, DUOTONE_CLASSES.SWAP_OPACITY, DUOTONE_CLASSES.PRIMARY, DUOTONE_CLASSES.SECONDARY]).concat(oneToTen.map(function (n) {
     return "".concat(n, "x");
   })).concat(oneToTwenty.map(function (n) {
     return "w-".concat(n);

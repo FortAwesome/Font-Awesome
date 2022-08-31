@@ -1,5 +1,5 @@
-import {IconDefinition, IconLookup, IconName, IconPrefix, IconPathData, IconPack } from '@fortawesome/fontawesome-common-types';
-export {IconDefinition, IconLookup, IconName, IconPrefix, IconPathData, IconPack } from '@fortawesome/fontawesome-common-types';
+import {IconDefinition, IconLookup, IconName, IconFamily, IconPrefix, CssStyleClass, IconStyle, IconPathData, IconPack} from '@fortawesome/fontawesome-common-types';
+export {IconDefinition, IconLookup, IconName, IconFamily, IconPrefix, CssStyleClass, IconStyle, IconPathData, IconPack} from '@fortawesome/fontawesome-common-types';
 export const dom: DOM;
 export const library: Library;
 export const parse: { transform(transformString: string): Transform, icon(parseIconString: string): IconLookup };
@@ -20,9 +20,12 @@ export function icon(icon: IconName | IconLookup, params?: IconParams): Icon;
 export type IconProp = IconName | [IconPrefix, IconName] | IconLookup;
 export type FlipProp = "horizontal" | "vertical" | "both";
 export type SizeProp =
+  | "2xs"
   | "xs"
-  | "lg"
   | "sm"
+  | "lg"
+  | "xl"
+  | "2xl"
   | "1x"
   | "2x"
   | "3x"
@@ -37,7 +40,10 @@ export type PullProp = "left" | "right";
 export type RotateProp = 90 | 180 | 270;
 export type FaSymbol = string | boolean;
 export interface Config {
-  familyPrefix: IconPrefix;
+  familyPrefix: string;
+  cssPrefix: string;
+  styleDefault: IconPrefix | CssStyleClass | IconStyle;
+  familyDefault: IconFamily;
   replacementClass: string;
   autoReplaceSvg: boolean | 'nest';
   autoAddCss: boolean;

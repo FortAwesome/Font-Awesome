@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'folder';
 var width = 512;
 var height = 512;
-var aliases = [128447,61716,128193,"folder-blank"];
+var aliases = [128193,128447,61716,"folder-blank"];
 var unicode = 'f07b';
-var svgPathData = 'M512 144v288c0 26.5-21.5 48-48 48h-416C21.5 480 0 458.5 0 432v-352C0 53.5 21.5 32 48 32h160l64 64h192C490.5 96 512 117.5 512 144z';
+var svgPathData = 'M64 480H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H298.5c-17 0-33.3-6.7-45.3-18.7L226.7 50.7c-12-12-28.3-18.7-45.3-18.7H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64z';
 
 exports.definition = {
   prefix: prefix,

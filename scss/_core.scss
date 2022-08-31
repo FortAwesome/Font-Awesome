@@ -7,16 +7,12 @@
 }
 
 .#{$fa-css-prefix},
+.#{$fa-css-prefix}-classic,
+.#{$fa-css-prefix}-sharp,
 .fas,
 .#{$fa-css-prefix}-solid,
 .far,
 .#{$fa-css-prefix}-regular,
-.fal,
-.#{$fa-css-prefix}-light,
-.fat,
-.#{$fa-css-prefix}-thin,
-.fad,
-.#{$fa-css-prefix}-duotone,
 .fab,
 .#{$fa-css-prefix}-brands {
   -moz-osx-font-smoothing: grayscale;
@@ -27,6 +23,20 @@
   line-height: 1;
   text-rendering: auto;
 }
+
+.fas,
+.#{$fa-css-prefix}-classic,
+.#{$fa-css-prefix}-solid,
+.far,
+.#{$fa-css-prefix}-regular {
+  font-family: 'Font Awesome 6 Free';
+}
+
+.fab,
+.#{$fa-css-prefix}-brands {
+  font-family: 'Font Awesome 6 Brands';
+}
+
 
 %fa-icon {
   @include fa-icon;

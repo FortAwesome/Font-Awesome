@@ -4,9 +4,9 @@ var prefix = 'fas';
 var iconName = 'file';
 var width = 384;
 var height = 512;
-var aliases = [128459,61462,128196];
+var aliases = [128196,128459,61462];
 var unicode = 'f15b';
-var svgPathData = 'M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256z';
+var svgPathData = 'M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128z';
 
 exports.definition = {
   prefix: prefix,

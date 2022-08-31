@@ -6,7 +6,7 @@ var width = 384;
 var height = 512;
 var aliases = ["map-marker"];
 var unicode = 'f041';
-var svgPathData = 'M384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192H384z';
+var svgPathData = 'M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z';
 
 exports.definition = {
   prefix: prefix,

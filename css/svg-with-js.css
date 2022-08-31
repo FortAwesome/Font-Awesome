@@ -1,15 +1,16 @@
 /*!
- * Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
 :root, :host {
-  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
-  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
-  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
-  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
-  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
-  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands"; }
+  --fa-font-solid: normal 900 1em/1 'Font Awesome 6 Solid';
+  --fa-font-regular: normal 400 1em/1 'Font Awesome 6 Regular';
+  --fa-font-light: normal 300 1em/1 'Font Awesome 6 Light';
+  --fa-font-thin: normal 100 1em/1 'Font Awesome 6 Thin';
+  --fa-font-duotone: normal 900 1em/1 'Font Awesome 6 Duotone';
+  --fa-font-sharp-solid: normal 900 1em/1 'Font Awesome 6 Sharp';
+  --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands'; }
 
 svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
   overflow: visible;
@@ -226,8 +227,8 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
 .fa-beat {
   -webkit-animation-name: fa-beat;
           animation-name: fa-beat;
-  -webkit-animation-delay: var(--fa-animation-delay, 0);
-          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
   -webkit-animation-direction: var(--fa-animation-direction, normal);
           animation-direction: var(--fa-animation-direction, normal);
   -webkit-animation-duration: var(--fa-animation-duration, 1s);
@@ -240,8 +241,8 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
 .fa-bounce {
   -webkit-animation-name: fa-bounce;
           animation-name: fa-bounce;
-  -webkit-animation-delay: var(--fa-animation-delay, 0);
-          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
   -webkit-animation-direction: var(--fa-animation-direction, normal);
           animation-direction: var(--fa-animation-direction, normal);
   -webkit-animation-duration: var(--fa-animation-duration, 1s);
@@ -254,8 +255,8 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
 .fa-fade {
   -webkit-animation-name: fa-fade;
           animation-name: fa-fade;
-  -webkit-animation-delay: var(--fa-animation-delay, 0);
-          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
   -webkit-animation-direction: var(--fa-animation-direction, normal);
           animation-direction: var(--fa-animation-direction, normal);
   -webkit-animation-duration: var(--fa-animation-duration, 1s);
@@ -268,8 +269,8 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
 .fa-beat-fade {
   -webkit-animation-name: fa-beat-fade;
           animation-name: fa-beat-fade;
-  -webkit-animation-delay: var(--fa-animation-delay, 0);
-          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
   -webkit-animation-direction: var(--fa-animation-direction, normal);
           animation-direction: var(--fa-animation-direction, normal);
   -webkit-animation-duration: var(--fa-animation-duration, 1s);
@@ -282,8 +283,8 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
 .fa-flip {
   -webkit-animation-name: fa-flip;
           animation-name: fa-flip;
-  -webkit-animation-delay: var(--fa-animation-delay, 0);
-          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
   -webkit-animation-direction: var(--fa-animation-direction, normal);
           animation-direction: var(--fa-animation-direction, normal);
   -webkit-animation-duration: var(--fa-animation-duration, 1s);
@@ -296,8 +297,8 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
 .fa-shake {
   -webkit-animation-name: fa-shake;
           animation-name: fa-shake;
-  -webkit-animation-delay: var(--fa-animation-delay, 0);
-          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
   -webkit-animation-direction: var(--fa-animation-direction, normal);
           animation-direction: var(--fa-animation-direction, normal);
   -webkit-animation-duration: var(--fa-animation-duration, 1s);
@@ -310,8 +311,8 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
 .fa-spin {
   -webkit-animation-name: fa-spin;
           animation-name: fa-spin;
-  -webkit-animation-delay: var(--fa-animation-delay, 0);
-          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
   -webkit-animation-direction: var(--fa-animation-direction, normal);
           animation-direction: var(--fa-animation-direction, normal);
   -webkit-animation-duration: var(--fa-animation-duration, 2s);

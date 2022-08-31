@@ -21,29 +21,29 @@
     "node": ">=6"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-common-types": "6.1.2"
+    "@fortawesome/fontawesome-common-types": "6.2.0"
   },
-  "version": "6.1.2",
+  "version": "6.2.0",
   "name": "@fortawesome/free-solid-svg-icons",
   "main": "index.js",
-  "module": "index.es.js",
-  "jsnext:main": "index.es.js",
+  "module": "index.mjs",
+  "jsnext:main": "index.mjs",
   "license": "(CC-BY-4.0 AND MIT)",
   "types": "./index.d.ts",
   "sideEffects": false,
   "exports": {
     ".": {
-      "import": "./index.es.js",
+      "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
     },
     "./index": {
-      "import": "./index.es.js",
+      "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
     },
     "./index.js": {
-      "import": "./index.es.js",
+      "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
     },
