@@ -62,6 +62,8 @@ function replace ({ macroName, license, references, state, babel, source }) {
 function getImport ({family, style, license, name}) {
   if (family) {
     return `@fortawesome/${family.toLowerCase()}-${style}-svg-icons/${name}`
+  } else if (style === 'brands') {
+    return `@fortawesome/free-brands-svg-icons/${name}`
   } else {
     return `@fortawesome/${license}-${style}-svg-icons/${name}`
   }

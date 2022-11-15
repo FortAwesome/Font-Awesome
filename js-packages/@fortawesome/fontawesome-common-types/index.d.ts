@@ -1114,6 +1114,7 @@ export type IconName = 'monero' |
   'grin-alt' | 
   'tooth' | 
   'v' | 
+  'bangladeshi-taka-sign' | 
   'bicycle' | 
   'staff-snake' | 
   'rod-asclepius' | 
@@ -1974,7 +1975,6 @@ export type IconName = 'monero' |
   'virus-slash' | 
   'minus' | 
   'subtract' | 
-  'child-rifle' | 
   'chess' | 
   'arrow-left-long' | 
   'long-arrow-left' | 
@@ -2344,6 +2344,8 @@ export type IconName = 'monero' |
   'grip-horizontal' | 
   'share-from-square' | 
   'share-square' | 
+  'child-combatant' | 
+  'child-rifle' | 
   'gun' | 
   'square-phone' | 
   'phone-square' | 
@@ -2403,6 +2405,7 @@ export type IconName = 'monero' |
   'chevron-left' | 
   'bacteria' | 
   'hand-lizard' | 
+  'notdef' | 
   'disease' | 
   'briefcase-medical' | 
   'genderless' | 

@@ -590,6 +590,7 @@ coding:
     - microchip
     - mug-saucer
     - network-wired
+    - notdef
     - qrcode
     - rectangle-xmark
     - shield
@@ -663,6 +664,7 @@ connectivity:
     - cloud
     - cloud-arrow-down
     - cloud-arrow-up
+    - ethernet
     - globe
     - house-signal
     - rss
@@ -812,7 +814,7 @@ disaster:
     - biohazard
     - bugs
     - burst
-    - child-rifle
+    - child-combatant
     - circle-radiation
     - cloud-bolt
     - cloud-showers-heavy
@@ -1377,7 +1379,7 @@ humanitarian:
     - car
     - car-on
     - car-tunnel
-    - child-rifle
+    - child-combatant
     - children
     - church
     - circle-h
@@ -2075,6 +2077,7 @@ money:
   icons:
     - austral-sign
     - baht-sign
+    - bangladeshi-taka-sign
     - bitcoin
     - bitcoin-sign
     - brazilian-real-sign
@@ -2463,6 +2466,7 @@ shapes:
     - calendar
     - certificate
     - circle
+    - circle-half-stroke
     - cloud
     - clover
     - comment
@@ -3032,6 +3036,7 @@ writing:
     - folder-open
     - keyboard
     - newspaper
+    - notdef
     - note-sticky
     - paper-plane
     - paperclip

@@ -1040,7 +1040,8 @@ arrow-right-arrow-left:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
-  label: Arrow right arrow left
+    - 6.2.1
+  label: Arrow Right Arrow Left
   search:
     terms: []
   styles:
@@ -1383,7 +1384,8 @@ arrow-up-right-from-square:
     - 6.0.0-beta1
     - 6.1.0
     - 6.2.0
-  label: Arrow up right from square
+    - 6.2.1
+  label: Arrow Up Right From Square
   search:
     terms: []
   styles:
@@ -2134,6 +2136,19 @@ bandcamp:
   styles:
     - brands
   unicode: f2d5
+  voted: false
+bangladeshi-taka-sign:
+  changes:
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.2.1
+  label: Bangladeshi Taka Sign
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: e2e6
   voted: false
 barcode:
   aliases:
@@ -3409,7 +3424,8 @@ boxes-stacked:
     - 6.0.0-beta1
     - 6.0.0-beta3
     - 6.2.0
-  label: Boxes stacked
+    - 6.2.1
+  label: Boxes Stacked
   search:
     terms: []
   styles:
@@ -4682,7 +4698,8 @@ cart-arrow-down:
     - 6.0.0-beta1
     - 6.0.0-beta3
     - 6.2.0
-  label: Shopping Cart Arrow Down
+    - 6.2.1
+  label: Cart Arrow Down
   search:
     terms: []
   styles:
@@ -4737,7 +4754,8 @@ cart-plus:
     - 6.0.0-beta1
     - 6.0.0-beta3
     - 6.2.0
-  label: Add to Shopping Cart
+    - 6.2.1
+  label: Cart Plus
   search:
     terms: []
   styles:
@@ -4759,7 +4777,8 @@ cart-shopping:
     - 6.0.0-beta1
     - 6.0.0-beta3
     - 6.2.0
-  label: Cart shopping
+    - 6.2.1
+  label: Cart Shopping
   search:
     terms: []
   styles:
@@ -5508,6 +5527,21 @@ child:
     - solid
   unicode: f1ae
   voted: false
+child-combatant:
+  aliases:
+    names:
+      - child-rifle
+  changes:
+    - 6.1.0
+    - 6.2.0
+    - 6.2.1
+  label: Child Combatant
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: e4e0
+  voted: false
 child-dress:
   changes:
     - 6.1.1
@@ -5529,17 +5563,6 @@ child-reaching:
   styles:
     - solid
   unicode: e59d
-  voted: false
-child-rifle:
-  changes:
-    - 6.1.0
-    - 6.2.0
-  label: Child Rifle
-  search:
-    terms: []
-  styles:
-    - solid
-  unicode: e4e0
   voted: false
 children:
   changes:
@@ -6287,6 +6310,7 @@ clipboard:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   label: Clipboard
   search:
     terms: []
@@ -6304,7 +6328,8 @@ clipboard-check:
     - 5.0.7
     - 6.0.0-beta1
     - 6.2.0
-  label: Clipboard with Check
+    - 6.2.1
+  label: Clipboard Check
   search:
     terms: []
   styles:
@@ -6320,6 +6345,7 @@ clipboard-list:
     - 5.0.7
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   label: Clipboard List
   search:
     terms: []
@@ -6331,6 +6357,7 @@ clipboard-question:
   changes:
     - 6.1.0
     - 6.2.0
+    - 6.2.1
   label: Clipboard Question
   search:
     terms: []
@@ -6348,7 +6375,8 @@ clipboard-user:
     - 6.0.0-beta1
     - 6.1.0
     - 6.2.0
-  label: Clipboard with User
+    - 6.2.1
+  label: Clipboard User
   search:
     terms: []
   styles:
@@ -8606,6 +8634,7 @@ droplet:
     - 6.0.0-beta1
     - 6.0.0
     - 6.2.0
+    - 6.2.1
   label: Droplet
   search:
     terms: []
@@ -8625,7 +8654,8 @@ droplet-slash:
     - 6.0.0-beta1
     - 6.0.0
     - 6.2.0
-  label: Droplet slash
+    - 6.2.1
+  label: Droplet Slash
   search:
     terms: []
   styles:
@@ -8988,6 +9018,7 @@ egg:
     - 5.7.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   label: Egg
   search:
     terms: []
@@ -9125,6 +9156,7 @@ envelope:
     - 6.0.0-beta1
     - 6.1.0
     - 6.2.0
+    - 6.2.1
   label: Envelope
   search:
     terms: []
@@ -9137,7 +9169,8 @@ envelope-circle-check:
   changes:
     - 6.1.0
     - 6.2.0
-  label: Envelope Circle-check
+    - 6.2.1
+  label: Envelope Circle Check
   search:
     terms: []
   styles:
@@ -9177,7 +9210,8 @@ envelope-open-text:
     - 5.12.0
     - 6.0.0-beta1
     - 6.2.0
-  label: Envelope Open-text
+    - 6.2.1
+  label: Envelope Open Text
   search:
     terms: []
   styles:
@@ -11433,7 +11467,8 @@ flag:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
-  label: flag
+    - 6.2.1
+  label: Flag
   search:
     terms: []
   styles:
@@ -11455,7 +11490,8 @@ flag-checkered:
     - 5.10.1
     - 6.0.0-beta1
     - 6.2.0
-  label: flag-checkered
+    - 6.2.1
+  label: Flag Checkered
   search:
     terms: []
   styles:
@@ -11471,7 +11507,8 @@ flag-usa:
     - 5.5.0
     - 6.0.0-beta1
     - 6.2.0
-  label: United States of America Flag
+    - 6.2.1
+  label: Flag Usa
   search:
     terms: []
   styles:
@@ -12210,6 +12247,7 @@ gem:
     - 5.10.1
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   label: Gem
   search:
     terms: []
@@ -16281,7 +16319,7 @@ lira-sign:
     - 6.0.0-beta1
     - 6.0.0-beta3
     - 6.2.0
-  label: Turkish Lira Sign
+  label: Lira Sign
   search:
     terms: []
   styles:
@@ -16578,6 +16616,7 @@ m:
   changes:
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   label: M
   search:
     terms: []
@@ -18131,6 +18170,7 @@ music:
   changes:
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   label: 'N'
   search:
     terms: []
@@ -18297,6 +18337,18 @@ not-equal:
     - solid
   unicode: f53e
   voted: true
+notdef:
+  changes:
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.2.1
+  label: Notdef
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: e1fe
+  voted: false
 note-sticky:
   aliases:
     names:
@@ -18312,7 +18364,8 @@ note-sticky:
     - 5.10.2
     - 6.0.0-beta1
     - 6.2.0
-  label: Note sticky
+    - 6.2.1
+  label: Note Sticky
   search:
     terms: []
   styles:
@@ -18329,7 +18382,8 @@ notes-medical:
     - 5.0.7
     - 6.0.0-beta1
     - 6.2.0
-  label: Medical Notes
+    - 6.2.1
+  label: Notes Medical
   search:
     terms: []
   styles:
@@ -18779,6 +18833,7 @@ paper-plane:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   label: Paper Plane
   search:
     terms: []
@@ -18872,6 +18927,7 @@ paste:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   label: Paste
   search:
     terms: []
@@ -19098,7 +19154,8 @@ pencil:
     - 6.0.0-beta1
     - 6.0.0
     - 6.2.0
-  label: pencil
+    - 6.2.1
+  label: Pencil
   search:
     terms: []
   styles:
@@ -20018,6 +20075,7 @@ phone-slash:
     - 5.0.9
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   label: Phone Slash
   search:
     terms: []
@@ -20039,6 +20097,7 @@ phone-volume:
     - 5.7.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   label: Phone Volume
   search:
     terms: []
@@ -20651,6 +20710,7 @@ prescription-bottle:
     - 5.0.7
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   label: Prescription Bottle
   search:
     terms: []
@@ -20669,7 +20729,8 @@ prescription-bottle-medical:
     - 5.0.7
     - 6.0.0-beta1
     - 6.2.0
-  label: Prescription bottle medical
+    - 6.2.1
+  label: Prescription Bottle Medical
   search:
     terms: []
   styles:
@@ -21307,6 +21368,7 @@ reply:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   label: Reply
   search:
     terms: []
@@ -21326,7 +21388,8 @@ reply-all:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
-  label: reply-all
+    - 6.2.1
+  label: Reply All
   search:
     terms: []
   styles:
@@ -22156,6 +22219,7 @@ school:
     - 6.0.0-beta3
     - 6.1.0
     - 6.2.0
+    - 6.2.1
   label: School
   search:
     terms: []
@@ -22167,7 +22231,8 @@ school-circle-check:
   changes:
     - 6.1.0
     - 6.2.0
-  label: School Circle-check
+    - 6.2.1
+  label: School Circle Check
   search:
     terms: []
   styles:
@@ -22178,7 +22243,8 @@ school-circle-exclamation:
   changes:
     - 6.1.0
     - 6.2.0
-  label: School Circle-exclamation
+    - 6.2.1
+  label: School Circle Exclamation
   search:
     terms: []
   styles:
@@ -22189,7 +22255,8 @@ school-circle-xmark:
   changes:
     - 6.1.0
     - 6.2.0
-  label: School Circle-xmark
+    - 6.2.1
+  label: School Circle Xmark
   search:
     terms: []
   styles:
@@ -22211,6 +22278,7 @@ school-lock:
   changes:
     - 6.1.0
     - 6.2.0
+    - 6.2.1
   label: School Lock
   search:
     terms: []
@@ -22479,6 +22547,7 @@ share:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   label: Share
   search:
     terms: []
@@ -22500,7 +22569,8 @@ share-from-square:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
-  label: Share from square
+    - 6.2.1
+  label: Share From Square
   search:
     terms: []
   styles:
@@ -26475,7 +26545,8 @@ tower-broadcast:
     - 5.0.13
     - 6.0.0-beta1
     - 6.2.0
-  label: Tower broadcast
+    - 6.2.1
+  label: Tower Broadcast
   search:
     terms: []
   styles:
@@ -27535,7 +27606,8 @@ up-right-from-square:
     - 5.11.0
     - 6.0.0-beta1
     - 6.2.0
-  label: Up right from square
+    - 6.2.1
+  label: Up Right From Square
   search:
     terms: []
   styles:
