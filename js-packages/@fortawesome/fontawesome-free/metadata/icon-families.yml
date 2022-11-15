@@ -1253,6 +1253,7 @@ arrow-right-arrow-left:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -1260,7 +1261,7 @@ arrow-right-arrow-left:
     pro:
       - family: classic
         style: solid
-  label: Arrow right arrow left
+  label: Arrow Right Arrow Left
   unicode: f0ec
   voted: false
 arrow-right-from-bracket:
@@ -1656,6 +1657,7 @@ arrow-up-right-from-square:
     - 6.0.0-beta1
     - 6.1.0
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -1663,7 +1665,7 @@ arrow-up-right-from-square:
     pro:
       - family: classic
         style: solid
-  label: Arrow up right from square
+  label: Arrow Up Right From Square
   unicode: f08e
   voted: false
 arrow-up-short-wide:
@@ -2554,6 +2556,22 @@ bandcamp:
         style: brands
   label: Bandcamp
   unicode: f2d5
+  voted: false
+bangladeshi-taka-sign:
+  changes:
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.2.1
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Bangladeshi Taka Sign
+  unicode: e2e6
   voted: false
 barcode:
   aliases:
@@ -4063,6 +4081,7 @@ boxes-stacked:
     - 6.0.0-beta1
     - 6.0.0-beta3
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -4070,7 +4089,7 @@ boxes-stacked:
     pro:
       - family: classic
         style: solid
-  label: Boxes stacked
+  label: Boxes Stacked
   unicode: f468
   voted: false
 braille:
@@ -5591,6 +5610,7 @@ cart-arrow-down:
     - 6.0.0-beta1
     - 6.0.0-beta3
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -5598,7 +5618,7 @@ cart-arrow-down:
     pro:
       - family: classic
         style: solid
-  label: Shopping Cart Arrow Down
+  label: Cart Arrow Down
   unicode: f218
   voted: false
 cart-flatbed:
@@ -5655,6 +5675,7 @@ cart-plus:
     - 6.0.0-beta1
     - 6.0.0-beta3
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -5662,7 +5683,7 @@ cart-plus:
     pro:
       - family: classic
         style: solid
-  label: Add to Shopping Cart
+  label: Cart Plus
   unicode: f217
   voted: false
 cart-shopping:
@@ -5680,6 +5701,7 @@ cart-shopping:
     - 6.0.0-beta1
     - 6.0.0-beta3
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -5687,7 +5709,7 @@ cart-shopping:
     pro:
       - family: classic
         style: solid
-  label: Cart shopping
+  label: Cart Shopping
   unicode: f07a
   voted: false
 cash-register:
@@ -6591,6 +6613,24 @@ child:
   label: Child
   unicode: f1ae
   voted: false
+child-combatant:
+  aliases:
+    names:
+      - child-rifle
+  changes:
+    - 6.1.0
+    - 6.2.0
+    - 6.2.1
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Child Combatant
+  unicode: e4e0
+  voted: false
 child-dress:
   changes:
     - 6.1.1
@@ -6618,20 +6658,6 @@ child-reaching:
         style: solid
   label: Child Reaching
   unicode: e59d
-  voted: false
-child-rifle:
-  changes:
-    - 6.1.0
-    - 6.2.0
-  familyStylesByLicense:
-    free:
-      - family: classic
-        style: solid
-    pro:
-      - family: classic
-        style: solid
-  label: Child Rifle
-  unicode: e4e0
   voted: false
 children:
   changes:
@@ -7529,6 +7555,7 @@ clipboard:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -7552,6 +7579,7 @@ clipboard-check:
     - 5.0.7
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -7559,7 +7587,7 @@ clipboard-check:
     pro:
       - family: classic
         style: solid
-  label: Clipboard with Check
+  label: Clipboard Check
   unicode: f46c
   voted: false
 clipboard-list:
@@ -7571,6 +7599,7 @@ clipboard-list:
     - 5.0.7
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -7585,6 +7614,7 @@ clipboard-question:
   changes:
     - 6.1.0
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -7605,6 +7635,7 @@ clipboard-user:
     - 6.0.0-beta1
     - 6.1.0
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -7612,7 +7643,7 @@ clipboard-user:
     pro:
       - family: classic
         style: solid
-  label: Clipboard with User
+  label: Clipboard User
   unicode: f7f3
   voted: false
 clock:
@@ -10334,6 +10365,7 @@ droplet:
     - 6.0.0-beta1
     - 6.0.0
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -10356,6 +10388,7 @@ droplet-slash:
     - 6.0.0-beta1
     - 6.0.0
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -10363,7 +10396,7 @@ droplet-slash:
     pro:
       - family: classic
         style: solid
-  label: Droplet slash
+  label: Droplet Slash
   unicode: f5c7
   voted: false
 drum:
@@ -10785,6 +10818,7 @@ egg:
     - 5.7.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -10949,6 +10983,7 @@ envelope:
     - 6.0.0-beta1
     - 6.1.0
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -10967,6 +11002,7 @@ envelope-circle-check:
   changes:
     - 6.1.0
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -10974,7 +11010,7 @@ envelope-circle-check:
     pro:
       - family: classic
         style: solid
-  label: Envelope Circle-check
+  label: Envelope Circle Check
   unicode: e4e8
   voted: false
 envelope-open:
@@ -11016,6 +11052,7 @@ envelope-open-text:
     - 5.12.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -11023,7 +11060,7 @@ envelope-open-text:
     pro:
       - family: classic
         style: solid
-  label: Envelope Open-text
+  label: Envelope Open Text
   unicode: f658
   voted: false
 envelopes-bulk:
@@ -13779,6 +13816,7 @@ flag:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -13790,7 +13828,7 @@ flag:
         style: solid
       - family: classic
         style: regular
-  label: flag
+  label: Flag
   unicode: f024
   voted: false
 flag-checkered:
@@ -13807,6 +13845,7 @@ flag-checkered:
     - 5.10.1
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -13814,7 +13853,7 @@ flag-checkered:
     pro:
       - family: classic
         style: solid
-  label: flag-checkered
+  label: Flag Checkered
   unicode: f11e
   voted: false
 flag-usa:
@@ -13826,6 +13865,7 @@ flag-usa:
     - 5.5.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -13833,7 +13873,7 @@ flag-usa:
     pro:
       - family: classic
         style: solid
-  label: United States of America Flag
+  label: Flag Usa
   unicode: f74d
   voted: false
 flask:
@@ -14718,6 +14758,7 @@ gem:
     - 5.10.1
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -19669,7 +19710,7 @@ lira-sign:
     pro:
       - family: classic
         style: solid
-  label: Turkish Lira Sign
+  label: Lira Sign
   unicode: f195
   voted: false
 list:
@@ -20010,6 +20051,7 @@ m:
   changes:
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -21869,6 +21911,7 @@ music:
   changes:
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22077,6 +22120,21 @@ not-equal:
   label: Not Equal
   unicode: f53e
   voted: true
+notdef:
+  changes:
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.2.1
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+  label: Notdef
+  unicode: e1fe
+  voted: false
 note-sticky:
   aliases:
     names:
@@ -22092,6 +22150,7 @@ note-sticky:
     - 5.10.2
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22103,7 +22162,7 @@ note-sticky:
         style: solid
       - family: classic
         style: regular
-  label: Note sticky
+  label: Note Sticky
   unicode: f249
   voted: false
 notes-medical:
@@ -22115,6 +22174,7 @@ notes-medical:
     - 5.0.7
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22122,7 +22182,7 @@ notes-medical:
     pro:
       - family: classic
         style: solid
-  label: Medical Notes
+  label: Notes Medical
   unicode: f481
   voted: false
 npm:
@@ -22667,6 +22727,7 @@ paper-plane:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22778,6 +22839,7 @@ paste:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -23046,6 +23108,7 @@ pencil:
     - 6.0.0-beta1
     - 6.0.0
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -23053,7 +23116,7 @@ pencil:
     pro:
       - family: classic
         style: solid
-  label: pencil
+  label: Pencil
   unicode: f303
   voted: false
 people-arrows:
@@ -24161,6 +24224,7 @@ phone-slash:
     - 5.0.9
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -24185,6 +24249,7 @@ phone-volume:
     - 5.7.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -24923,6 +24988,7 @@ prescription-bottle:
     - 5.0.7
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -24944,6 +25010,7 @@ prescription-bottle-medical:
     - 5.0.7
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -24951,7 +25018,7 @@ prescription-bottle-medical:
     pro:
       - family: classic
         style: solid
-  label: Prescription bottle medical
+  label: Prescription Bottle Medical
   unicode: f486
   voted: false
 print:
@@ -25714,6 +25781,7 @@ reply:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -25736,6 +25804,7 @@ reply-all:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -25743,7 +25812,7 @@ reply-all:
     pro:
       - family: classic
         style: solid
-  label: reply-all
+  label: Reply All
   unicode: f122
   voted: false
 replyd:
@@ -26725,6 +26794,7 @@ school:
     - 6.0.0-beta3
     - 6.1.0
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -26739,6 +26809,7 @@ school-circle-check:
   changes:
     - 6.1.0
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -26746,13 +26817,14 @@ school-circle-check:
     pro:
       - family: classic
         style: solid
-  label: School Circle-check
+  label: School Circle Check
   unicode: e56b
   voted: false
 school-circle-exclamation:
   changes:
     - 6.1.0
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -26760,13 +26832,14 @@ school-circle-exclamation:
     pro:
       - family: classic
         style: solid
-  label: School Circle-exclamation
+  label: School Circle Exclamation
   unicode: e56c
   voted: false
 school-circle-xmark:
   changes:
     - 6.1.0
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -26774,7 +26847,7 @@ school-circle-xmark:
     pro:
       - family: classic
         style: solid
-  label: School Circle-xmark
+  label: School Circle Xmark
   unicode: e56d
   voted: false
 school-flag:
@@ -26795,6 +26868,7 @@ school-lock:
   changes:
     - 6.1.0
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -27114,6 +27188,7 @@ share:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -27138,6 +27213,7 @@ share-from-square:
     - 5.0.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -27149,7 +27225,7 @@ share-from-square:
         style: solid
       - family: classic
         style: regular
-  label: Share from square
+  label: Share From Square
   unicode: f14d
   voted: false
 share-nodes:
@@ -31878,6 +31954,7 @@ tower-broadcast:
     - 5.0.13
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -31885,7 +31962,7 @@ tower-broadcast:
     pro:
       - family: classic
         style: solid
-  label: Tower broadcast
+  label: Tower Broadcast
   unicode: f519
   voted: true
 tower-cell:
@@ -33136,6 +33213,7 @@ up-right-from-square:
     - 5.11.0
     - 6.0.0-beta1
     - 6.2.0
+    - 6.2.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -33143,7 +33221,7 @@ up-right-from-square:
     pro:
       - family: classic
         style: solid
-  label: Up right from square
+  label: Up Right From Square
   unicode: f35d
   voted: false
 upload:
