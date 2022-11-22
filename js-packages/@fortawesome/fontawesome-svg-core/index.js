@@ -1138,7 +1138,7 @@
           var additions = definitions.reduce(this._pullDefinitions, {});
         }
         catch (ex){
-          throw 'Could not find provided icon. ' + ex.message
+          throw 'Could not find provided icon(s). ' + ex.message
         }
 
         Object.keys(additions).forEach(function (key) {
