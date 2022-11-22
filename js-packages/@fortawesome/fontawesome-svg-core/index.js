@@ -1134,7 +1134,7 @@
         for (var _len = arguments.length, definitions = new Array(_len), _key = 0; _key < _len; _key++) {
           definitions[_key] = arguments[_key];
         }
-        var additions = []
+        var additions = {}
         try {
           additions = definitions.reduce(this._pullDefinitions, {});
         }
