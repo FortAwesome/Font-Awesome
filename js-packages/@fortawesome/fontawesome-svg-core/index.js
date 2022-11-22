@@ -1134,8 +1134,9 @@
         for (var _len = arguments.length, definitions = new Array(_len), _key = 0; _key < _len; _key++) {
           definitions[_key] = arguments[_key];
         }
+        var additions = []
         try {
-          var additions = definitions.reduce(this._pullDefinitions, {});
+          additions = definitions.reduce(this._pullDefinitions, {});
         }
         catch (ex){
           throw 'Could not find provided icon(s). ' + ex.message
