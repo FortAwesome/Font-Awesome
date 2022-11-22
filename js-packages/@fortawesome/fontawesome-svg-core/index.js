@@ -1134,8 +1134,13 @@
         for (var _len = arguments.length, definitions = new Array(_len), _key = 0; _key < _len; _key++) {
           definitions[_key] = arguments[_key];
         }
+        try {
+          var additions = definitions.reduce(this._pullDefinitions, {});
+        }
+        catch (ex){
+          throw 'Could not find provided icon. ' + ex.message
+        }
 
-        var additions = definitions.reduce(this._pullDefinitions, {});
         Object.keys(additions).forEach(function (key) {
           _this.definitions[key] = _objectSpread2(_objectSpread2({}, _this.definitions[key] || {}), additions[key]);
           defineIcons(key, additions[key]); // TODO can we stop doing this? We can't get the icons by 'fa-solid' any longer so this probably needs to change
