@@ -14,7 +14,7 @@ Learn how to get started with Font Awesome and then dive deeper into other and a
 ### Where did Font Awesome 5, 4 (or 3) go?
 
 Now that Font Awesome 6 has been released we are marking version 5 as Long Term
-Suport (LTS). Version 5 will get critical bug fixes only. Version 3 and 4 are
+Support (LTS). Version 5 will get critical bug fixes only. Version 3 and 4 are
 now end-of-life and we don't plan on releasing any further versions of the 4.x
 or 3.x.
 
