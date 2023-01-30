@@ -506,6 +506,7 @@ charts-diagrams:
     - chart-line
     - chart-pie
     - chart-simple
+    - circle-half-stroke
     - diagram-next
     - diagram-predecessor
     - diagram-project

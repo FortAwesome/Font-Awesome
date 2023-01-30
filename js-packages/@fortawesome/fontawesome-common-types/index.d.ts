@@ -478,9 +478,11 @@ export type IconName = 'monero' |
   'dribbble' | 
   'stumbleupon-circle' | 
   'internet-explorer' | 
+  'stubber' | 
   'telegram' | 
   'telegram-plane' | 
   'old-republic' | 
+  'odysee' | 
   'square-whatsapp' | 
   'whatsapp-square' | 
   'node-js' | 

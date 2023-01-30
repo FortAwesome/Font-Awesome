@@ -5,6 +5,7 @@
   --fa-font-thin: normal 100 1em/1 'Font Awesome 6 Thin';
   --fa-font-duotone: normal 900 1em/1 'Font Awesome 6 Duotone';
   --fa-font-sharp-solid: normal 900 1em/1 'Font Awesome 6 Sharp';
+  --fa-font-sharp-regular: normal 400 1em/1 'Font Awesome 6 Sharp';
   --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands'; }
 
 svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
@@ -349,8 +350,10 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
             animation-duration: 1ms;
     -webkit-animation-iteration-count: 1;
             animation-iteration-count: 1;
-    transition-delay: 0s;
-    transition-duration: 0s; } }
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+    -webkit-transition-duration: 0s;
+            transition-duration: 0s; } }
 
 @-webkit-keyframes fa-beat {
   0%, 90% {
