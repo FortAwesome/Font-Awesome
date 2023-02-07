@@ -1,7 +1,7 @@
 /*!
- * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- * Copyright 2022 Fonticons, Inc.
+ * Copyright 2023 Fonticons, Inc.
  */
 :root, :host {
   --fa-style-family-brands: 'Font Awesome 6 Brands';
@@ -1380,6 +1380,9 @@
 .fa-internet-explorer:before {
   content: "\f26b"; }
 
+.fa-stubber:before {
+  content: "\e5c7"; }
+
 .fa-telegram:before {
   content: "\f2c6"; }
 
@@ -1388,6 +1391,9 @@
 
 .fa-old-republic:before {
   content: "\f510"; }
+
+.fa-odysee:before {
+  content: "\e5c6"; }
 
 .fa-square-whatsapp:before {
   content: "\f40c"; }
