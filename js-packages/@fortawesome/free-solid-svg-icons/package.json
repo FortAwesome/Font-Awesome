@@ -49,8 +49,5 @@
     },
     "./package.json": "./package.json",
     "./*": "./*.js"
-  },
-  "scripts": {
-    "postinstall": "node attribution.js"
   }
 }

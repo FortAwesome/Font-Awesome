@@ -66,8 +66,5 @@
     "./index.js",
     "./index.mjs",
     "./styles.css"
-  ],
-  "scripts": {
-    "postinstall": "node attribution.js"
-  }
+  ]
 }
