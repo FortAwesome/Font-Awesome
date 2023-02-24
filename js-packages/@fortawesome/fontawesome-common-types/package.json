@@ -24,8 +24,5 @@
   "version": "6.3.0",
   "name": "@fortawesome/fontawesome-common-types",
   "license": "MIT",
-  "types": "./index.d.ts",
-  "scripts": {
-    "postinstall": "node attribution.js"
-  }
+  "types": "./index.d.ts"
 }
