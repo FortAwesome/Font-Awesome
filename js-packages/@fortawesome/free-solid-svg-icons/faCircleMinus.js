@@ -6,7 +6,7 @@ var width = 512;
 var height = 512;
 var aliases = ["minus-circle"];
 var unicode = 'f056';
-var svgPathData = 'M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z';
+var svgPathData = 'M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z';
 
 exports.definition = {
   prefix: prefix,

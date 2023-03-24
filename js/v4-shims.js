@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2023 Fonticons, Inc.
  */
@@ -117,7 +117,9 @@
     'fass': 'solid',
     'fa-solid': 'solid',
     'fasr': 'regular',
-    'fa-regular': 'regular'
+    'fa-regular': 'regular',
+    'fasl': 'light',
+    'fa-light': 'light'
   }), _familyProxy));
   var STYLE_TO_PREFIX = familyProxy((_familyProxy2 = {}, _defineProperty(_familyProxy2, FAMILY_CLASSIC, {
     'solid': 'fas',
@@ -129,7 +131,8 @@
     'kit': 'fak'
   }), _defineProperty(_familyProxy2, FAMILY_SHARP, {
     'solid': 'fass',
-    'regular': 'fasr'
+    'regular': 'fasr',
+    'light': 'fasl'
   }), _familyProxy2));
   var PREFIX_TO_LONG_STYLE = familyProxy((_familyProxy3 = {}, _defineProperty(_familyProxy3, FAMILY_CLASSIC, {
     'fab': 'fa-brands',
@@ -141,7 +144,8 @@
     'fat': 'fa-thin'
   }), _defineProperty(_familyProxy3, FAMILY_SHARP, {
     'fass': 'fa-solid',
-    'fasr': 'fa-regular'
+    'fasr': 'fa-regular',
+    'fasl': 'fa-light'
   }), _familyProxy3));
   var LONG_STYLE_TO_PREFIX = familyProxy((_familyProxy4 = {}, _defineProperty(_familyProxy4, FAMILY_CLASSIC, {
     'fa-brands': 'fab',
@@ -153,7 +157,8 @@
     'fa-thin': 'fat'
   }), _defineProperty(_familyProxy4, FAMILY_SHARP, {
     'fa-solid': 'fass',
-    'fa-regular': 'fasr'
+    'fa-regular': 'fasr',
+    'fa-light': 'fasl'
   }), _familyProxy4));
   var FONT_WEIGHT_TO_PREFIX = familyProxy((_familyProxy5 = {}, _defineProperty(_familyProxy5, FAMILY_CLASSIC, {
     '900': 'fas',
@@ -163,7 +168,8 @@
     '100': 'fat'
   }), _defineProperty(_familyProxy5, FAMILY_SHARP, {
     '900': 'fass',
-    '400': 'fasr'
+    '400': 'fasr',
+    '300': 'fasl'
   }), _familyProxy5));
   var oneToTen = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   var oneToTwenty = oneToTen.concat([11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);

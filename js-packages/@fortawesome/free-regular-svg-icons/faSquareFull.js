@@ -6,7 +6,7 @@ var width = 512;
 var height = 512;
 var aliases = [128997,128998,128999,129000,129001,129002,129003,11035,11036];
 var unicode = 'f45c';
-var svgPathData = 'M512 0V512H0V0H512zM464 48H48V464H464V48z';
+var svgPathData = 'M464 48V464H48V48H464zM48 0H0V48 464v48H48 464h48V464 48 0H464 48z';
 
 exports.definition = {
   prefix: prefix,
