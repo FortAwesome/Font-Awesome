@@ -404,6 +404,31 @@ hub-spot:
     - hubspot
   label: HubSpot
   url: 'http://www.HubSpot.com'
+icis:
+  icons:
+    - arrow-progress
+    - bag-seedling
+    - bin-bottles
+    - bin-bottles-recycle
+    - calendar-users
+    - chart-line-up-down
+    - chart-mixed-up-circle-currency
+    - chart-mixed-up-circle-dollar
+    - chart-pie-simple-circle-currency
+    - circles-overlap
+    - cloud-binary
+    - conveyor-belt-arm
+    - display-chart-up-circle-currency
+    - display-chart-up-circle-dollar
+    - flask-gear
+    - gear-complex-code
+    - laptop-binary
+    - lightbulb-gear
+    - person-running-fast
+    - right-left-large
+    - user-group-simple
+  label: ICIS
+  url: 'https://www.icis.com/'
 in-site-systems:
   icons:
     - toolbox
@@ -419,6 +444,11 @@ instalod:
     - instalod
   label: InstaLOD
   url: 'https://instalod.com'
+iris:
+  icons:
+    - chart-pie-simple-circle-dollar
+  label: ICIS
+  url: 'https://www.icis.com/'
 joe-emison:
   icons:
     - blender-phone
@@ -455,6 +485,11 @@ korvue:
     - korvue
   label: Korvue
   url: 'https://korvue.com'
+labuniq:
+  icons:
+    - chf-sign
+  label: LABUNIQ
+  url: 'https://labuniq.com/'
 lean-stack:
   icons:
     - diagram-lean-canvas
@@ -555,6 +590,11 @@ nimblr:
     - nimblr
   label: Nimblr
   url: 'https://nimblr.ai'
+nisutec:
+  icons:
+    - wreath-laurel
+  label: Nisutec
+  url: 'https://nisu.ly'
 nompse:
   icons:
     - chalkboard
@@ -600,12 +640,18 @@ olameter:
 op-labs:
   icons:
     - bridge-suspension
+    - grid-round
     - hexagon-image
     - mustache
     - nose
     - pickaxe
   label: OP Labs
   url: 'https://www.optimism.io'
+optimism:
+  icons:
+    - hat-beach
+  label: Optimism
+  url: 'https://www.optimism.io/'
 padlet:
   icons:
     - padlet
@@ -1237,6 +1283,11 @@ uniregistry:
     - uniregistry
   label: Uniregistry
   url: 'https://uniregistry.com'
+unsharpen:
+  icons:
+    - pencil-mechanical
+  label: Unsharpen.com
+  url: 'https://unsharpen.com'
 uptick:
   icons:
     - blanket-fire
@@ -1345,3 +1396,8 @@ wpressr:
     - wpressr
   label: wpressr
   url: 'https://wpressr.com'
+zulu-alpha-kilo:
+  icons:
+    - billboard
+  label: Zulu Alpha Kilo
+  url: 'https://www.zulualphakilo.com'
