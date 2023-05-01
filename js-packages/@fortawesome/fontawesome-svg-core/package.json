@@ -33,6 +33,7 @@
   "types": "./index.d.ts",
   "exports": {
     ".": {
+      "types": "./index.d.ts",
       "module": "./index.mjs",
       "import": "./index.mjs",
       "require": "./index.js",
@@ -40,12 +41,14 @@
       "default": "./index.js"
     },
     "./index": {
+      "types": "./index.d.ts",
       "module": "./index.mjs",
       "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
     },
     "./index.js": {
+      "types": "./index.d.ts",
       "module": "./index.mjs",
       "import": "./index.mjs",
       "require": "./index.js",

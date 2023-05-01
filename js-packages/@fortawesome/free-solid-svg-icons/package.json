@@ -33,16 +33,19 @@
   "sideEffects": false,
   "exports": {
     ".": {
+      "types": "./index.d.ts",
       "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
     },
     "./index": {
+      "types": "./index.d.ts",
       "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
     },
     "./index.js": {
+      "types": "./index.d.ts",
       "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
