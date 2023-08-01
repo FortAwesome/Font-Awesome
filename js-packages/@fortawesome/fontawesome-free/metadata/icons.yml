@@ -1823,6 +1823,7 @@ arrow-up-right-from-square:
     - 6.2.1
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Arrow Up Right From Square
   search:
     terms:
@@ -4181,6 +4182,7 @@ book-open-reader:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Book Open Reader
   search:
     terms:
@@ -9387,6 +9389,7 @@ cloudscale:
 cloudsmith:
   changes:
     - 5.0.0
+    - 6.4.1
   label: Cloudsmith
   search:
     terms: []
@@ -10214,6 +10217,7 @@ copy:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Copy
   search:
     terms:
@@ -10930,6 +10934,16 @@ database:
   styles:
     - solid
   unicode: f1c0
+  voted: false
+debian:
+  changes:
+    - 6.4.1
+  label: Debian
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e60b
   voted: false
 deezer:
   changes:
@@ -16758,6 +16772,7 @@ futbol:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Futbol
   search:
     terms:
@@ -18220,6 +18235,7 @@ hand-holding-dollar:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Hand Holding Dollar
   search:
     terms:
@@ -18249,6 +18265,7 @@ hand-holding-droplet:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Hand Holding Droplet
   search:
     terms:
@@ -18268,6 +18285,7 @@ hand-holding-hand:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Hand Holding Hand
   search:
     terms:
@@ -18291,6 +18309,7 @@ hand-holding-heart:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Hand Holding Heart
   search:
     terms:
@@ -18315,6 +18334,7 @@ hand-holding-medical:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Hand Holding Medical
   search:
     terms:
@@ -18440,6 +18460,7 @@ hand-point-left:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Hand Point Left
   search:
     terms:
@@ -18466,6 +18487,7 @@ hand-point-right:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Hand Point Right
   search:
     terms:
@@ -18567,6 +18589,7 @@ hand-sparkles:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Hand Sparkles
   search:
     terms:
@@ -18596,6 +18619,7 @@ hand-spock:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Hand Spock
   search:
     terms:
@@ -18721,6 +18745,7 @@ hands-bubbles:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Hands Bubbles
   search:
     terms:
@@ -18778,6 +18803,7 @@ hands-holding-child:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Hands Holding Child
   search:
     terms:
@@ -18797,6 +18823,7 @@ hands-holding-circle:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Hands Holding Circle
   search:
     terms:
@@ -18844,6 +18871,7 @@ handshake:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Handshake
   search:
     terms:
@@ -18926,6 +18954,7 @@ handshake-simple-slash:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Handshake Simple Slash
   search:
     terms:
@@ -18948,6 +18977,7 @@ handshake-slash:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Handshake Slash
   search:
     terms:
@@ -20066,6 +20096,7 @@ hotel:
 hotjar:
   changes:
     - 5.0.0
+    - 6.4.1
   label: Hotjar
   search:
     terms: []
@@ -26372,6 +26403,7 @@ paste:
     - 6.2.1
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Paste
   search:
     terms:
@@ -28264,6 +28296,7 @@ plane:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Plane
   search:
     terms:
@@ -28471,6 +28504,7 @@ plane-up:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Plane Up
   search:
     terms:
@@ -28852,6 +28886,7 @@ poop:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Poop
   search:
     terms:
@@ -29087,6 +29122,7 @@ puzzle-piece:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Puzzle Piece
   search:
     terms:
@@ -31452,6 +31488,7 @@ share-from-square:
     - 6.2.1
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Share From Square
   search:
     terms:
@@ -31749,6 +31786,7 @@ shirt:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Shirt
   search:
     terms:
@@ -34037,6 +34075,17 @@ square-steam:
     - brands
   unicode: f1b7
   voted: false
+square-threads:
+  changes:
+    - 6.4.1
+    - 6.4.2
+  label: Square Threads
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e619
+  voted: false
 square-tumblr:
   aliases:
     names:
@@ -34060,7 +34109,8 @@ square-twitter:
     - 1.0.0
     - 5.0.0
     - 6.1.2
-  label: Twitter Square
+    - 6.4.2
+  label: Square Twitter
   search:
     terms:
       - social network
@@ -34164,6 +34214,19 @@ square-whatsapp:
   styles:
     - brands
   unicode: f40c
+  voted: false
+square-x-twitter:
+  changes:
+    - 6.4.2
+  label: Square X Twitter
+  search:
+    terms:
+      - ' elon'
+      - ' x'
+      - twitter
+  styles:
+    - brands
+  unicode: e61a
   voted: false
 square-xing:
   aliases:
@@ -36333,6 +36396,17 @@ think-peaks:
     - brands
   unicode: f731
   voted: false
+threads:
+  changes:
+    - 6.4.1
+    - 6.4.2
+  label: Threads
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e618
+  voted: false
 thumbs-down:
   aliases:
     unicodes:
@@ -36485,6 +36559,7 @@ ticket-simple:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Ticket Simple
   search:
     terms:
@@ -38273,6 +38348,7 @@ up-right-from-square:
     - 6.2.1
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Up Right From Square
   search:
     terms:
@@ -40668,6 +40744,7 @@ wine-glass-empty:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   label: Wine Glass Empty
   search:
     terms:
@@ -40929,6 +41006,19 @@ x-ray:
   styles:
     - solid
   unicode: f497
+  voted: false
+x-twitter:
+  changes:
+    - 6.4.2
+  label: X Twitter
+  search:
+    terms:
+      - '  elon'
+      - ' twitter'
+      - ' x'
+  styles:
+    - brands
+  unicode: e61b
   voted: false
 xbox:
   changes:
