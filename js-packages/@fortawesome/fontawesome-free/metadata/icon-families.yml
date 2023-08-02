@@ -2274,6 +2274,7 @@ arrow-up-right-from-square:
     - 6.2.1
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -5158,6 +5159,7 @@ book-open-reader:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -11525,6 +11527,7 @@ cloudscale:
 cloudsmith:
   changes:
     - 5.0.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -12534,6 +12537,7 @@ copy:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -13469,6 +13473,21 @@ database:
       - memory
       - storage
   unicode: f1c0
+  voted: false
+debian:
+  changes:
+    - 6.4.1
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Debian
+  search:
+    terms: []
+  unicode: e60b
   voted: false
 deezer:
   changes:
@@ -20671,6 +20690,7 @@ futbol:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22515,6 +22535,7 @@ hand-holding-dollar:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22549,6 +22570,7 @@ hand-holding-droplet:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22573,6 +22595,7 @@ hand-holding-hand:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22601,6 +22624,7 @@ hand-holding-heart:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22630,6 +22654,7 @@ hand-holding-medical:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22789,6 +22814,7 @@ hand-point-left:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22823,6 +22849,7 @@ hand-point-right:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22956,6 +22983,7 @@ hand-sparkles:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22990,6 +23018,7 @@ hand-spock:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -23143,6 +23172,7 @@ hands-bubbles:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -23215,6 +23245,7 @@ hands-holding-child:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -23239,6 +23270,7 @@ hands-holding-circle:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -23296,6 +23328,7 @@ handshake:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -23396,6 +23429,7 @@ handshake-simple-slash:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -23423,6 +23457,7 @@ handshake-slash:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -24785,6 +24820,7 @@ hotel:
 hotjar:
   changes:
     - 5.0.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -32623,6 +32659,7 @@ paste:
     - 6.2.1
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -34981,6 +35018,7 @@ plane:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -35228,6 +35266,7 @@ plane-up:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -35694,6 +35733,7 @@ poop:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -35979,6 +36019,7 @@ puzzle-piece:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -38913,6 +38954,7 @@ share-from-square:
     - 6.2.1
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -39268,6 +39310,7 @@ shirt:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -42096,6 +42139,22 @@ square-steam:
     terms: []
   unicode: f1b7
   voted: false
+square-threads:
+  changes:
+    - 6.4.1
+    - 6.4.2
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Square Threads
+  search:
+    terms: []
+  unicode: e619
+  voted: false
 square-tumblr:
   aliases:
     names:
@@ -42124,6 +42183,7 @@ square-twitter:
     - 1.0.0
     - 5.0.0
     - 6.1.2
+    - 6.4.2
   familyStylesByLicense:
     free:
       - family: classic
@@ -42131,7 +42191,7 @@ square-twitter:
     pro:
       - family: classic
         style: brands
-  label: Twitter Square
+  label: Square Twitter
   search:
     terms:
       - social network
@@ -42258,6 +42318,24 @@ square-whatsapp:
   search:
     terms: []
   unicode: f40c
+  voted: false
+square-x-twitter:
+  changes:
+    - 6.4.2
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Square X Twitter
+  search:
+    terms:
+      - ' elon'
+      - ' x'
+      - twitter
+  unicode: e61a
   voted: false
 square-xing:
   aliases:
@@ -44944,6 +45022,22 @@ think-peaks:
     terms: []
   unicode: f731
   voted: false
+threads:
+  changes:
+    - 6.4.1
+    - 6.4.2
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Threads
+  search:
+    terms: []
+  unicode: e618
+  voted: false
 thumbs-down:
   aliases:
     unicodes:
@@ -45122,6 +45216,7 @@ ticket-simple:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -47308,6 +47403,7 @@ up-right-from-square:
     - 6.2.1
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -50265,6 +50361,7 @@ wine-glass-empty:
     - 6.2.0
     - 6.3.0
     - 6.4.0
+    - 6.4.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -50611,6 +50708,24 @@ x-ray:
       - radiology
       - skeleton
   unicode: f497
+  voted: false
+x-twitter:
+  changes:
+    - 6.4.2
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: X Twitter
+  search:
+    terms:
+      - '  elon'
+      - ' twitter'
+      - ' x'
+  unicode: e61b
   voted: false
 xbox:
   changes:

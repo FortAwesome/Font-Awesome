@@ -21,9 +21,9 @@
     "node": ">=6"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-common-types": "6.4.0"
+    "@fortawesome/fontawesome-common-types": "6.4.2"
   },
-  "version": "6.4.0",
+  "version": "6.4.2",
   "name": "@fortawesome/fontawesome-svg-core",
   "main": "index.js",
   "module": "index.mjs",
@@ -33,6 +33,7 @@
   "types": "./index.d.ts",
   "exports": {
     ".": {
+      "types": "./index.d.ts",
       "module": "./index.mjs",
       "import": "./index.mjs",
       "require": "./index.js",
@@ -40,18 +41,21 @@
       "default": "./index.js"
     },
     "./index": {
+      "types": "./index.d.ts",
       "module": "./index.mjs",
       "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
     },
     "./index.js": {
+      "types": "./index.d.ts",
       "module": "./index.mjs",
       "import": "./index.mjs",
       "require": "./index.js",
       "default": "./index.js"
     },
     "./plugins": {
+      "types": "./index.d.ts",
       "module": "./plugins.mjs",
       "import": "./plugins.mjs",
       "default": "./plugins.mjs"

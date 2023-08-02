@@ -220,6 +220,7 @@ arrows:
   label: Arrows
 astronomy:
   icons:
+    - binoculars
     - globe
     - meteor
     - moon

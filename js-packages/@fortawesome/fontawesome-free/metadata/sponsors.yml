@@ -248,6 +248,12 @@ econopublish:
     - hat-cowboy-side
   label: EconoPublish
   url: 'https://www.econopublish.com'
+fairyloot:
+  icons:
+    - person-dress-fairy
+    - person-fairy
+  label: FairyLoot
+  url: 'https://us.fairyloot.com'
 firstdraft:
   icons:
     - firstdraft
@@ -444,6 +450,11 @@ instalod:
     - instalod
   label: InstaLOD
   url: 'https://instalod.com'
+intellectability:
+  icons:
+    - raccoon
+  label: IntellectAbility
+  url: 'https://replacingrisk.com'
 iris:
   icons:
     - chart-pie-simple-circle-dollar
@@ -650,6 +661,8 @@ op-labs:
 optimism:
   icons:
     - hat-beach
+    - swap
+    - swap-arrows
   label: Optimism
   url: 'https://www.optimism.io/'
 padlet:
