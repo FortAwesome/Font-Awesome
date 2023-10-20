@@ -9,12 +9,12 @@
   padding: var(--#{$fa-css-prefix}-border-padding, #{$fa-border-padding});
 }
 
-.#{$fa-css-prefix}-pull-left { 
+.#{$fa-css-prefix}-pull-left {
   float: left;
-  margin-right: var(--#{$fa-css-prefix}-pull-margin, #{$fa-pull-margin}); 
+  margin-right: var(--#{$fa-css-prefix}-pull-margin, #{$fa-pull-margin});
 }
 
-.#{$fa-css-prefix}-pull-right { 
+.#{$fa-css-prefix}-pull-right {
   float: right;
-  margin-left: var(--#{$fa-css-prefix}-pull-margin, #{$fa-pull-margin}); 
+  margin-left: var(--#{$fa-css-prefix}-pull-margin, #{$fa-pull-margin});
 }
