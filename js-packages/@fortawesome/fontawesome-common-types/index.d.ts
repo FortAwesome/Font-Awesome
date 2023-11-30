@@ -190,6 +190,7 @@ export type IconName = 'monero' |
   'cc-discover' | 
   'wpbeginner' | 
   'confluence' | 
+  'shoelace' | 
   'mdb' | 
   'dochub' | 
   'accessible-icon' | 
@@ -276,6 +277,7 @@ export type IconName = 'monero' |
   'blogger-b' | 
   'opencart' | 
   'vine' | 
+  'signal-messenger' | 
   'paypal' | 
   'gitlab' | 
   'typo3' | 
@@ -437,6 +439,7 @@ export type IconName = 'monero' |
   'square-behance' | 
   'behance-square' | 
   'supple' | 
+  'webflow' | 
   'rebel' | 
   'css3' | 
   'staylinked' | 
