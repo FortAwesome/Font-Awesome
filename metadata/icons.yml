@@ -16194,6 +16194,7 @@ file-pdf:
     - 6.3.0
     - 6.4.0
     - 6.5.0
+    - 6.5.1
   label: File Pdf
   search:
     terms:
@@ -16732,6 +16733,7 @@ fire-flame-curved:
     - 6.3.0
     - 6.4.0
     - 6.5.0
+    - 6.5.1
   label: Fire Flame Curved
   search:
     terms:
@@ -29976,6 +29978,7 @@ plane-circle-exclamation:
     - 6.3.0
     - 6.4.0
     - 6.5.0
+    - 6.5.1
   label: Plane Circle Exclamation
   search:
     terms:
@@ -29997,6 +30000,7 @@ plane-circle-xmark:
     - 6.3.0
     - 6.4.0
     - 6.5.0
+    - 6.5.1
   label: Plane Circle Xmark
   search:
     terms:
@@ -31386,7 +31390,8 @@ reddit:
   changes:
     - 4.1.0
     - 5.0.0
-  label: reddit Logo
+    - 6.5.1
+  label: Reddit
   search:
     terms: []
   styles:
@@ -31397,7 +31402,8 @@ reddit-alien:
   changes:
     - 4.5.0
     - 5.0.0
-  label: reddit Alien
+    - 6.5.1
+  label: Reddit Alien
   search:
     terms: []
   styles:
@@ -33624,6 +33630,17 @@ shoe-prints:
     - solid
   unicode: f54b
   voted: true
+shoelace:
+  changes:
+    - 6.4.1
+    - 6.5.1
+  label: Shoelace
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e60c
+  voted: false
 shop:
   aliases:
     names:
@@ -33913,6 +33930,17 @@ signal:
   styles:
     - solid
   unicode: f012
+  voted: false
+signal-messenger:
+  changes:
+    - 6.5.0
+    - 6.5.1
+  label: Signal Messenger
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e663
   voted: false
 signature:
   aliases:
@@ -35860,6 +35888,7 @@ square-reddit:
     - 5.0.0
     - 6.1.2
     - 6.5.0
+    - 6.5.1
   label: Square Reddit
   search:
     terms: []
@@ -40608,6 +40637,7 @@ user-astronaut:
     - 6.3.0
     - 6.4.0
     - 6.5.0
+    - 6.5.1
   label: User Astronaut
   search:
     terms:
@@ -41042,6 +41072,7 @@ user-secret:
     - 6.3.0
     - 6.4.0
     - 6.5.0
+    - 6.5.1
   label: User Secret
   search:
     terms:
@@ -42605,6 +42636,17 @@ waze:
   styles:
     - brands
   unicode: f83f
+  voted: false
+webflow:
+  changes:
+    - 6.5.0
+    - 6.5.1
+  label: Webflow
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e65c
   voted: false
 weebly:
   changes:

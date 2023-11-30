@@ -19776,6 +19776,7 @@ file-pdf:
     - 6.3.0
     - 6.4.0
     - 6.5.0
+    - 6.5.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -20429,6 +20430,7 @@ fire-flame-curved:
     - 6.3.0
     - 6.4.0
     - 6.5.0
+    - 6.5.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -36748,6 +36750,7 @@ plane-circle-exclamation:
     - 6.3.0
     - 6.4.0
     - 6.5.0
+    - 6.5.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -36774,6 +36777,7 @@ plane-circle-xmark:
     - 6.3.0
     - 6.4.0
     - 6.5.0
+    - 6.5.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -38469,6 +38473,7 @@ reddit:
   changes:
     - 4.1.0
     - 5.0.0
+    - 6.5.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -38476,7 +38481,7 @@ reddit:
     pro:
       - family: classic
         style: brands
-  label: reddit Logo
+  label: Reddit
   search:
     terms: []
   unicode: f1a1
@@ -38485,6 +38490,7 @@ reddit-alien:
   changes:
     - 4.5.0
     - 5.0.0
+    - 6.5.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -38492,7 +38498,7 @@ reddit-alien:
     pro:
       - family: classic
         style: brands
-  label: reddit Alien
+  label: Reddit Alien
   search:
     terms: []
   unicode: f281
@@ -41198,6 +41204,22 @@ shoe-prints:
       - walk
   unicode: f54b
   voted: true
+shoelace:
+  changes:
+    - 6.4.1
+    - 6.5.1
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Shoelace
+  search:
+    terms: []
+  unicode: e60c
+  voted: false
 shop:
   aliases:
     names:
@@ -41542,6 +41564,22 @@ signal:
       - reception
       - status
   unicode: f012
+  voted: false
+signal-messenger:
+  changes:
+    - 6.5.0
+    - 6.5.1
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Signal Messenger
+  search:
+    terms: []
+  unicode: e663
   voted: false
 signature:
   aliases:
@@ -43934,6 +43972,7 @@ square-reddit:
     - 5.0.0
     - 6.1.2
     - 6.5.0
+    - 6.5.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -49736,6 +49775,7 @@ user-astronaut:
     - 6.3.0
     - 6.4.0
     - 6.5.0
+    - 6.5.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -50250,6 +50290,7 @@ user-secret:
     - 6.3.0
     - 6.4.0
     - 6.5.0
+    - 6.5.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -52153,6 +52194,22 @@ waze:
   search:
     terms: []
   unicode: f83f
+  voted: false
+webflow:
+  changes:
+    - 6.5.0
+    - 6.5.1
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Webflow
+  search:
+    terms: []
+  unicode: e65c
   voted: false
 weebly:
   changes:
