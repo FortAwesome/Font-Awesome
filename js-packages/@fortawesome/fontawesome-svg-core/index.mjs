@@ -2732,7 +2732,7 @@ var parseTransformString = function parseTransformString(transformString) {
 
     rest = parseFloat(rest);
 
-    if (isNaN(rest)) {
+    if (Number.isNaN(rest)) {
       return acc;
     }
 
