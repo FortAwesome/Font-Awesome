@@ -90,3 +90,25 @@ learn about Font Awesome.
 ## Team
 
 https://github.com/orgs/FortAwesome/people
+## Update for site urls:
+- https://thelivenews.github.io/2023-10-07-a-journey-through-kosovo-and-metohia/
+- https://thelivenews.github.io/2023-10-09-why-you-should-visit-argentina/
+- https://thelivenews.github.io/2023-10-13-the-rise-and-governance-of-the-habsburg-empire/
+- https://thelivenews.github.io/2023-10-19-africa-a-continent-rich-in-culture-and-diversity-despite-its-challenges/
+- https://thelivenews.github.io/2023-10-25-traveling-from-kenya-to-south-africa-by-bus-motorcycle-overland-truck-or-flight/
+- https://thelivenews.github.io/2023-11-12-discover-the-rich-cuisine-and-culture-of-mantua-italy/
+- https://thelivenews.github.io/2023-11-23-a-lifelong-journey-in-the-mediterranean/
+- https://thelivenews.github.io/2023-11-25-the-history-and-traditions-of-german-spa-towns/
+- https://thelivenews.github.io/2023-11-25-top-sights-and-activities-for-luxembourg-tourists/
+- https://thelivenews.github.io/2023-11-27-a-personal-account-of-travels-through-bosnia-and-herzegovina/
+- https://thelivenews.github.io/2023-12-01-the-safety-and-beauty-of-granada-spain/
+- https://thelivenews.github.io/2023-12-02-the-inextricable-bond-between-kerala-and-lakshadweep-islands/
+- https://thelivenews.github.io/2023-12-09-a-journey-through-beautiful-cambodia/
+- https://thelivenews.github.io/2023-12-13-safety-tips-for-travelers-visiting-serbia/
+- https://thelivenews.github.io/2023-12-16-planning-your-trip-to-nigeria/
+- https://thelivenews.github.io/2023-12-29-planning-an-affordable-10-day-trip-to-iceland/
+- https://thelivenews.github.io/2024-01-02-discovering-the-hidden-gems-of-fiji/
+- https://thelivenews.github.io/2024-01-04-the-geographic-origins-and-cultural-influences-of-indonesia/
+- https://thelivenews.github.io/2024-01-11-my-jee-journey-from-zero-to-hero/
+- https://thelivenews.github.io/2024-01-12-planning-a-memorable-trip-to-germany/
+- https://thelivenews.github.io/2024-01-13-exploring-canada-the-ultimate-guide-to-traveling-through-the-great-white-north/
