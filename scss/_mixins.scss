@@ -48,7 +48,7 @@
 // and ::after elements in the duotone case.
 @mixin fa-icon-solid($fa-var) {
   @extend %fa-icon;
-  @extend .fa-solid;
+  @extend .fas;
 
   &::before {
     content: unquote("\"#{ $fa-var }\"");
@@ -57,7 +57,7 @@
 
 @mixin fa-icon-regular($fa-var) {
   @extend %fa-icon;
-  @extend .fa-regular;
+  @extend .far;
 
   &::before {
     content: unquote("\"#{ $fa-var }\"");
@@ -66,7 +66,7 @@
 
 @mixin fa-icon-brands($fa-var) {
   @extend %fa-icon;
-  @extend .fa-brands;
+  @extend .fab;
 
   &::before {
     content: unquote("\"#{ $fa-var }\"");
