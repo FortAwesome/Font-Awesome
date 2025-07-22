@@ -1,0 +1,5130 @@
+// variables
+// --------------------------
+
+$css-prefix            : fa !default;
+$style                 : 900 !default;
+$family                : "Font Awesome 7 Free" !default;
+
+$icon-property         : --fa !default;
+
+$display               : inline-block !default;
+
+$fw-width              : calc((20/16) * 1em) !default;
+$inverse               : #fff !default;
+
+$border-box-sizing     : content-box !default;
+$border-color          : #eee !default;
+$border-padding        : 0.1875em 0.25em !default;
+$border-radius         : .1em !default;
+$border-style          : solid !default;
+$border-width          : .0625em !default;
+
+$size-scale-2xs        : 10 !default;
+$size-scale-xs         : 12 !default;
+$size-scale-sm         : 14 !default;
+$size-scale-base       : 16 !default;
+$size-scale-lg         : 20 !default;
+$size-scale-xl         : 24 !default;
+$size-scale-2xl        : 32 !default;
+
+$sizes: (
+  "2xs"                : $size-scale-2xs,
+  "xs"                 : $size-scale-xs,
+  "sm"                 : $size-scale-sm,
+  "lg"                 : $size-scale-lg,
+  "xl"                 : $size-scale-xl,
+  "2xl"                : $size-scale-2xl
+) !default;
+
+$li-width              : 2em !default;
+$li-margin             : calc($li-width * (5/4)) !default;
+
+$pull-margin           : .3em !default;
+
+$primary-opacity       : 1 !default;
+$secondary-opacity     : .4 !default;
+
+$stack-vertical-align  : middle !default;
+$stack-width           : ($fw-width * 2) !default;
+$stack-z-index         : auto !default;
+
+// web fonts-related variables
+$font-display          : block !default;
+$font-path             : "../webfonts" !default;
+
+// deprecated: these older SCSS variables will be removed with Font Awesome's next major release
+$style-family          : $family;
+
+$var-0: \30;
+$var-1: \31;
+$var-2: \32;
+$var-3: \33;
+$var-4: \34;
+$var-5: \35;
+$var-6: \36;
+$var-7: \37;
+$var-8: \38;
+$var-9: \39;
+$var-exclamation: \21;
+$var-hashtag: \23;
+$var-dollar-sign: \24;
+$var-dollar: \24;
+$var-usd: \24;
+$var-percent: \25;
+$var-percentage: \25;
+$var-asterisk: \2a;
+$var-plus: \2b;
+$var-add: \2b;
+$var-less-than: \3c;
+$var-equals: \3d;
+$var-greater-than: \3e;
+$var-question: \3f;
+$var-at: \40;
+$var-a: \41;
+$var-b: \42;
+$var-c: \43;
+$var-d: \44;
+$var-e: \45;
+$var-f: \46;
+$var-g: \47;
+$var-h: \48;
+$var-i: \49;
+$var-j: \4a;
+$var-k: \4b;
+$var-l: \4c;
+$var-m: \4d;
+$var-n: \4e;
+$var-o: \4f;
+$var-p: \50;
+$var-q: \51;
+$var-r: \52;
+$var-s: \53;
+$var-t: \54;
+$var-u: \55;
+$var-v: \56;
+$var-w: \57;
+$var-x: \58;
+$var-y: \59;
+$var-z: \5a;
+$var-faucet: \e005;
+$var-faucet-drip: \e006;
+$var-house-chimney-window: \e00d;
+$var-house-signal: \e012;
+$var-temperature-arrow-down: \e03f;
+$var-temperature-down: \e03f;
+$var-temperature-arrow-up: \e040;
+$var-temperature-up: \e040;
+$var-trailer: \e041;
+$var-bacteria: \e059;
+$var-bacterium: \e05a;
+$var-box-tissue: \e05b;
+$var-hand-holding-medical: \e05c;
+$var-hand-sparkles: \e05d;
+$var-hands-bubbles: \e05e;
+$var-hands-wash: \e05e;
+$var-handshake-slash: \e060;
+$var-handshake-alt-slash: \e060;
+$var-handshake-simple-slash: \e060;
+$var-head-side-cough: \e061;
+$var-head-side-cough-slash: \e062;
+$var-head-side-mask: \e063;
+$var-head-side-virus: \e064;
+$var-house-chimney-user: \e065;
+$var-house-laptop: \e066;
+$var-laptop-house: \e066;
+$var-lungs-virus: \e067;
+$var-people-arrows: \e068;
+$var-people-arrows-left-right: \e068;
+$var-plane-slash: \e069;
+$var-pump-medical: \e06a;
+$var-pump-soap: \e06b;
+$var-shield-virus: \e06c;
+$var-sink: \e06d;
+$var-soap: \e06e;
+$var-stopwatch-20: \e06f;
+$var-shop-slash: \e070;
+$var-store-alt-slash: \e070;
+$var-store-slash: \e071;
+$var-toilet-paper-slash: \e072;
+$var-users-slash: \e073;
+$var-virus: \e074;
+$var-virus-slash: \e075;
+$var-viruses: \e076;
+$var-vest: \e085;
+$var-vest-patches: \e086;
+$var-arrow-trend-down: \e097;
+$var-arrow-trend-up: \e098;
+$var-arrow-up-from-bracket: \e09a;
+$var-austral-sign: \e0a9;
+$var-baht-sign: \e0ac;
+$var-bitcoin-sign: \e0b4;
+$var-bolt-lightning: \e0b7;
+$var-book-bookmark: \e0bb;
+$var-camera-rotate: \e0d8;
+$var-cedi-sign: \e0df;
+$var-chart-column: \e0e3;
+$var-chart-gantt: \e0e4;
+$var-clapperboard: \e131;
+$var-clover: \e139;
+$var-code-compare: \e13a;
+$var-code-fork: \e13b;
+$var-code-pull-request: \e13c;
+$var-colon-sign: \e140;
+$var-cruzeiro-sign: \e152;
+$var-display: \e163;
+$var-dong-sign: \e169;
+$var-elevator: \e16d;
+$var-filter-circle-xmark: \e17b;
+$var-florin-sign: \e184;
+$var-folder-closed: \e185;
+$var-franc-sign: \e18f;
+$var-guarani-sign: \e19a;
+$var-gun: \e19b;
+$var-hands-clapping: \e1a8;
+$var-house-user: \e1b0;
+$var-home-user: \e1b0;
+$var-indian-rupee-sign: \e1bc;
+$var-indian-rupee: \e1bc;
+$var-inr: \e1bc;
+$var-kip-sign: \e1c4;
+$var-lari-sign: \e1c8;
+$var-litecoin-sign: \e1d3;
+$var-manat-sign: \e1d5;
+$var-mask-face: \e1d7;
+$var-mill-sign: \e1ed;
+$var-money-bills: \e1f3;
+$var-naira-sign: \e1f6;
+$var-notdef: \e1fe;
+$var-panorama: \e209;
+$var-peseta-sign: \e221;
+$var-peso-sign: \e222;
+$var-plane-up: \e22d;
+$var-rupiah-sign: \e23d;
+$var-stairs: \e289;
+$var-timeline: \e29c;
+$var-truck-front: \e2b7;
+$var-turkish-lira-sign: \e2bb;
+$var-try: \e2bb;
+$var-turkish-lira: \e2bb;
+$var-vault: \e2c5;
+$var-wand-magic-sparkles: \e2ca;
+$var-magic-wand-sparkles: \e2ca;
+$var-wheat-awn: \e2cd;
+$var-wheat-alt: \e2cd;
+$var-wheelchair-move: \e2ce;
+$var-wheelchair-alt: \e2ce;
+$var-bangladeshi-taka-sign: \e2e6;
+$var-bowl-rice: \e2eb;
+$var-person-pregnant: \e31e;
+$var-house-chimney: \e3af;
+$var-home-lg: \e3af;
+$var-house-crack: \e3b1;
+$var-house-medical: \e3b2;
+$var-cent-sign: \e3f5;
+$var-plus-minus: \e43c;
+$var-sailboat: \e445;
+$var-section: \e447;
+$var-shrimp: \e448;
+$var-brazilian-real-sign: \e46c;
+$var-chart-simple: \e473;
+$var-diagram-next: \e476;
+$var-diagram-predecessor: \e477;
+$var-diagram-successor: \e47a;
+$var-earth-oceania: \e47b;
+$var-globe-oceania: \e47b;
+$var-bug-slash: \e490;
+$var-file-circle-plus: \e494;
+$var-shop-lock: \e4a5;
+$var-virus-covid: \e4a8;
+$var-virus-covid-slash: \e4a9;
+$var-anchor-circle-check: \e4aa;
+$var-anchor-circle-exclamation: \e4ab;
+$var-anchor-circle-xmark: \e4ac;
+$var-anchor-lock: \e4ad;
+$var-arrow-down-up-across-line: \e4af;
+$var-arrow-down-up-lock: \e4b0;
+$var-arrow-right-to-city: \e4b3;
+$var-arrow-up-from-ground-water: \e4b5;
+$var-arrow-up-from-water-pump: \e4b6;
+$var-arrow-up-right-dots: \e4b7;
+$var-arrows-down-to-line: \e4b8;
+$var-arrows-down-to-people: \e4b9;
+$var-arrows-left-right-to-line: \e4ba;
+$var-arrows-spin: \e4bb;
+$var-arrows-split-up-and-left: \e4bc;
+$var-arrows-to-circle: \e4bd;
+$var-arrows-to-dot: \e4be;
+$var-arrows-to-eye: \e4bf;
+$var-arrows-turn-right: \e4c0;
+$var-arrows-turn-to-dots: \e4c1;
+$var-arrows-up-to-line: \e4c2;
+$var-bore-hole: \e4c3;
+$var-bottle-droplet: \e4c4;
+$var-bottle-water: \e4c5;
+$var-bowl-food: \e4c6;
+$var-boxes-packing: \e4c7;
+$var-bridge: \e4c8;
+$var-bridge-circle-check: \e4c9;
+$var-bridge-circle-exclamation: \e4ca;
+$var-bridge-circle-xmark: \e4cb;
+$var-bridge-lock: \e4cc;
+$var-bridge-water: \e4ce;
+$var-bucket: \e4cf;
+$var-bugs: \e4d0;
+$var-building-circle-arrow-right: \e4d1;
+$var-building-circle-check: \e4d2;
+$var-building-circle-exclamation: \e4d3;
+$var-building-circle-xmark: \e4d4;
+$var-building-flag: \e4d5;
+$var-building-lock: \e4d6;
+$var-building-ngo: \e4d7;
+$var-building-shield: \e4d8;
+$var-building-un: \e4d9;
+$var-building-user: \e4da;
+$var-building-wheat: \e4db;
+$var-burst: \e4dc;
+$var-car-on: \e4dd;
+$var-car-tunnel: \e4de;
+$var-child-combatant: \e4e0;
+$var-child-rifle: \e4e0;
+$var-children: \e4e1;
+$var-circle-nodes: \e4e2;
+$var-clipboard-question: \e4e3;
+$var-cloud-showers-water: \e4e4;
+$var-computer: \e4e5;
+$var-cubes-stacked: \e4e6;
+$var-envelope-circle-check: \e4e8;
+$var-explosion: \e4e9;
+$var-ferry: \e4ea;
+$var-file-circle-exclamation: \e4eb;
+$var-file-circle-minus: \e4ed;
+$var-file-circle-question: \e4ef;
+$var-file-shield: \e4f0;
+$var-fire-burner: \e4f1;
+$var-fish-fins: \e4f2;
+$var-flask-vial: \e4f3;
+$var-glass-water: \e4f4;
+$var-glass-water-droplet: \e4f5;
+$var-group-arrows-rotate: \e4f6;
+$var-hand-holding-hand: \e4f7;
+$var-handcuffs: \e4f8;
+$var-hands-bound: \e4f9;
+$var-hands-holding-child: \e4fa;
+$var-hands-holding-circle: \e4fb;
+$var-heart-circle-bolt: \e4fc;
+$var-heart-circle-check: \e4fd;
+$var-heart-circle-exclamation: \e4fe;
+$var-heart-circle-minus: \e4ff;
+$var-heart-circle-plus: \e500;
+$var-heart-circle-xmark: \e501;
+$var-helicopter-symbol: \e502;
+$var-helmet-un: \e503;
+$var-hill-avalanche: \e507;
+$var-hill-rockslide: \e508;
+$var-house-circle-check: \e509;
+$var-house-circle-exclamation: \e50a;
+$var-house-circle-xmark: \e50b;
+$var-house-fire: \e50c;
+$var-house-flag: \e50d;
+$var-house-flood-water: \e50e;
+$var-house-flood-water-circle-arrow-right: \e50f;
+$var-house-lock: \e510;
+$var-house-medical-circle-check: \e511;
+$var-house-medical-circle-exclamation: \e512;
+$var-house-medical-circle-xmark: \e513;
+$var-house-medical-flag: \e514;
+$var-house-tsunami: \e515;
+$var-jar: \e516;
+$var-jar-wheat: \e517;
+$var-jet-fighter-up: \e518;
+$var-jug-detergent: \e519;
+$var-kitchen-set: \e51a;
+$var-land-mine-on: \e51b;
+$var-landmark-flag: \e51c;
+$var-laptop-file: \e51d;
+$var-lines-leaning: \e51e;
+$var-location-pin-lock: \e51f;
+$var-locust: \e520;
+$var-magnifying-glass-arrow-right: \e521;
+$var-magnifying-glass-chart: \e522;
+$var-mars-and-venus-burst: \e523;
+$var-mask-ventilator: \e524;
+$var-mattress-pillow: \e525;
+$var-mobile-retro: \e527;
+$var-money-bill-transfer: \e528;
+$var-money-bill-trend-up: \e529;
+$var-money-bill-wheat: \e52a;
+$var-mosquito: \e52b;
+$var-mosquito-net: \e52c;
+$var-mound: \e52d;
+$var-mountain-city: \e52e;
+$var-mountain-sun: \e52f;
+$var-oil-well: \e532;
+$var-people-group: \e533;
+$var-people-line: \e534;
+$var-people-pulling: \e535;
+$var-people-robbery: \e536;
+$var-people-roof: \e537;
+$var-person-arrow-down-to-line: \e538;
+$var-person-arrow-up-from-line: \e539;
+$var-person-breastfeeding: \e53a;
+$var-person-burst: \e53b;
+$var-person-cane: \e53c;
+$var-person-chalkboard: \e53d;
+$var-person-circle-check: \e53e;
+$var-person-circle-exclamation: \e53f;
+$var-person-circle-minus: \e540;
+$var-person-circle-plus: \e541;
+$var-person-circle-question: \e542;
+$var-person-circle-xmark: \e543;
+$var-person-dress-burst: \e544;
+$var-person-drowning: \e545;
+$var-person-falling: \e546;
+$var-person-falling-burst: \e547;
+$var-person-half-dress: \e548;
+$var-person-harassing: \e549;
+$var-person-military-pointing: \e54a;
+$var-person-military-rifle: \e54b;
+$var-person-military-to-person: \e54c;
+$var-person-rays: \e54d;
+$var-person-rifle: \e54e;
+$var-person-shelter: \e54f;
+$var-person-walking-arrow-loop-left: \e551;
+$var-person-walking-arrow-right: \e552;
+$var-person-walking-dashed-line-arrow-right: \e553;
+$var-person-walking-luggage: \e554;
+$var-plane-circle-check: \e555;
+$var-plane-circle-exclamation: \e556;
+$var-plane-circle-xmark: \e557;
+$var-plane-lock: \e558;
+$var-plate-wheat: \e55a;
+$var-plug-circle-bolt: \e55b;
+$var-plug-circle-check: \e55c;
+$var-plug-circle-exclamation: \e55d;
+$var-plug-circle-minus: \e55e;
+$var-plug-circle-plus: \e55f;
+$var-plug-circle-xmark: \e560;
+$var-ranking-star: \e561;
+$var-road-barrier: \e562;
+$var-road-bridge: \e563;
+$var-road-circle-check: \e564;
+$var-road-circle-exclamation: \e565;
+$var-road-circle-xmark: \e566;
+$var-road-lock: \e567;
+$var-road-spikes: \e568;
+$var-rug: \e569;
+$var-sack-xmark: \e56a;
+$var-school-circle-check: \e56b;
+$var-school-circle-exclamation: \e56c;
+$var-school-circle-xmark: \e56d;
+$var-school-flag: \e56e;
+$var-school-lock: \e56f;
+$var-sheet-plastic: \e571;
+$var-shield-cat: \e572;
+$var-shield-dog: \e573;
+$var-shield-heart: \e574;
+$var-square-nfi: \e576;
+$var-square-person-confined: \e577;
+$var-square-virus: \e578;
+$var-staff-snake: \e579;
+$var-rod-asclepius: \e579;
+$var-rod-snake: \e579;
+$var-staff-aesculapius: \e579;
+$var-sun-plant-wilt: \e57a;
+$var-tarp: \e57b;
+$var-tarp-droplet: \e57c;
+$var-tent: \e57d;
+$var-tent-arrow-down-to-line: \e57e;
+$var-tent-arrow-left-right: \e57f;
+$var-tent-arrow-turn-left: \e580;
+$var-tent-arrows-down: \e581;
+$var-tents: \e582;
+$var-toilet-portable: \e583;
+$var-toilets-portable: \e584;
+$var-tower-cell: \e585;
+$var-tower-observation: \e586;
+$var-tree-city: \e587;
+$var-trowel: \e589;
+$var-trowel-bricks: \e58a;
+$var-truck-arrow-right: \e58b;
+$var-truck-droplet: \e58c;
+$var-truck-field: \e58d;
+$var-truck-field-un: \e58e;
+$var-truck-plane: \e58f;
+$var-users-between-lines: \e591;
+$var-users-line: \e592;
+$var-users-rays: \e593;
+$var-users-rectangle: \e594;
+$var-users-viewfinder: \e595;
+$var-vial-circle-check: \e596;
+$var-vial-virus: \e597;
+$var-wheat-awn-circle-exclamation: \e598;
+$var-worm: \e599;
+$var-xmarks-lines: \e59a;
+$var-child-dress: \e59c;
+$var-child-reaching: \e59d;
+$var-file-circle-check: \e5a0;
+$var-file-circle-xmark: \e5a1;
+$var-person-through-window: \e5a9;
+$var-plant-wilt: \e5aa;
+$var-stapler: \e5af;
+$var-train-tram: \e5b4;
+$var-table-cells-column-lock: \e678;
+$var-table-cells-row-lock: \e67a;
+$var-web-awesome: \e682;
+$var-thumbtack-slash: \e68f;
+$var-thumb-tack-slash: \e68f;
+$var-table-cells-row-unlock: \e691;
+$var-chart-diagram: \e695;
+$var-comment-nodes: \e696;
+$var-file-fragment: \e697;
+$var-file-half-dashed: \e698;
+$var-hexagon-nodes: \e699;
+$var-hexagon-nodes-bolt: \e69a;
+$var-square-binary: \e69b;
+$var-pentagon: \e790;
+$var-non-binary: \e807;
+$var-spiral: \e80a;
+$var-mobile-vibrate: \e816;
+$var-single-quote-left: \e81b;
+$var-single-quote-right: \e81c;
+$var-bus-side: \e81d;
+$var-septagon: \e820;
+$var-heptagon: \e820;
+$var-martini-glass-empty: \f000;
+$var-glass-martini: \f000;
+$var-music: \f001;
+$var-magnifying-glass: \f002;
+$var-search: \f002;
+$var-heart: \f004;
+$var-star: \f005;
+$var-user: \f007;
+$var-user-alt: \f007;
+$var-user-large: \f007;
+$var-film: \f008;
+$var-film-alt: \f008;
+$var-film-simple: \f008;
+$var-table-cells-large: \f009;
+$var-th-large: \f009;
+$var-table-cells: \f00a;
+$var-th: \f00a;
+$var-table-list: \f00b;
+$var-th-list: \f00b;
+$var-check: \f00c;
+$var-xmark: \f00d;
+$var-close: \f00d;
+$var-multiply: \f00d;
+$var-remove: \f00d;
+$var-times: \f00d;
+$var-magnifying-glass-plus: \f00e;
+$var-search-plus: \f00e;
+$var-magnifying-glass-minus: \f010;
+$var-search-minus: \f010;
+$var-power-off: \f011;
+$var-signal: \f012;
+$var-signal-5: \f012;
+$var-signal-perfect: \f012;
+$var-gear: \f013;
+$var-cog: \f013;
+$var-house: \f015;
+$var-home: \f015;
+$var-home-alt: \f015;
+$var-home-lg-alt: \f015;
+$var-clock: \f017;
+$var-clock-four: \f017;
+$var-road: \f018;
+$var-download: \f019;
+$var-inbox: \f01c;
+$var-arrow-rotate-right: \f01e;
+$var-arrow-right-rotate: \f01e;
+$var-arrow-rotate-forward: \f01e;
+$var-redo: \f01e;
+$var-arrows-rotate: \f021;
+$var-refresh: \f021;
+$var-sync: \f021;
+$var-rectangle-list: \f022;
+$var-list-alt: \f022;
+$var-lock: \f023;
+$var-flag: \f024;
+$var-headphones: \f025;
+$var-headphones-alt: \f025;
+$var-headphones-simple: \f025;
+$var-volume-off: \f026;
+$var-volume-low: \f027;
+$var-volume-down: \f027;
+$var-volume-high: \f028;
+$var-volume-up: \f028;
+$var-qrcode: \f029;
+$var-barcode: \f02a;
+$var-tag: \f02b;
+$var-tags: \f02c;
+$var-book: \f02d;
+$var-bookmark: \f02e;
+$var-print: \f02f;
+$var-camera: \f030;
+$var-camera-alt: \f030;
+$var-font: \f031;
+$var-bold: \f032;
+$var-italic: \f033;
+$var-text-height: \f034;
+$var-text-width: \f035;
+$var-align-left: \f036;
+$var-align-center: \f037;
+$var-align-right: \f038;
+$var-align-justify: \f039;
+$var-list: \f03a;
+$var-list-squares: \f03a;
+$var-outdent: \f03b;
+$var-dedent: \f03b;
+$var-indent: \f03c;
+$var-video: \f03d;
+$var-video-camera: \f03d;
+$var-image: \f03e;
+$var-location-pin: \f041;
+$var-map-marker: \f041;
+$var-circle-half-stroke: \f042;
+$var-adjust: \f042;
+$var-droplet: \f043;
+$var-tint: \f043;
+$var-pen-to-square: \f044;
+$var-edit: \f044;
+$var-arrows-up-down-left-right: \f047;
+$var-arrows: \f047;
+$var-backward-step: \f048;
+$var-step-backward: \f048;
+$var-backward-fast: \f049;
+$var-fast-backward: \f049;
+$var-backward: \f04a;
+$var-play: \f04b;
+$var-pause: \f04c;
+$var-stop: \f04d;
+$var-forward: \f04e;
+$var-forward-fast: \f050;
+$var-fast-forward: \f050;
+$var-forward-step: \f051;
+$var-step-forward: \f051;
+$var-eject: \f052;
+$var-chevron-left: \f053;
+$var-chevron-right: \f054;
+$var-circle-plus: \f055;
+$var-plus-circle: \f055;
+$var-circle-minus: \f056;
+$var-minus-circle: \f056;
+$var-circle-xmark: \f057;
+$var-times-circle: \f057;
+$var-xmark-circle: \f057;
+$var-circle-check: \f058;
+$var-check-circle: \f058;
+$var-circle-question: \f059;
+$var-question-circle: \f059;
+$var-circle-info: \f05a;
+$var-info-circle: \f05a;
+$var-crosshairs: \f05b;
+$var-ban: \f05e;
+$var-cancel: \f05e;
+$var-arrow-left: \f060;
+$var-arrow-right: \f061;
+$var-arrow-up: \f062;
+$var-arrow-down: \f063;
+$var-share: \f064;
+$var-mail-forward: \f064;
+$var-expand: \f065;
+$var-compress: \f066;
+$var-minus: \f068;
+$var-subtract: \f068;
+$var-circle-exclamation: \f06a;
+$var-exclamation-circle: \f06a;
+$var-gift: \f06b;
+$var-leaf: \f06c;
+$var-fire: \f06d;
+$var-eye: \f06e;
+$var-eye-slash: \f070;
+$var-triangle-exclamation: \f071;
+$var-exclamation-triangle: \f071;
+$var-warning: \f071;
+$var-plane: \f072;
+$var-calendar-days: \f073;
+$var-calendar-alt: \f073;
+$var-shuffle: \f074;
+$var-random: \f074;
+$var-comment: \f075;
+$var-magnet: \f076;
+$var-chevron-up: \f077;
+$var-chevron-down: \f078;
+$var-retweet: \f079;
+$var-cart-shopping: \f07a;
+$var-shopping-cart: \f07a;
+$var-folder: \f07b;
+$var-folder-blank: \f07b;
+$var-folder-open: \f07c;
+$var-arrows-up-down: \f07d;
+$var-arrows-v: \f07d;
+$var-arrows-left-right: \f07e;
+$var-arrows-h: \f07e;
+$var-chart-bar: \f080;
+$var-bar-chart: \f080;
+$var-camera-retro: \f083;
+$var-key: \f084;
+$var-gears: \f085;
+$var-cogs: \f085;
+$var-comments: \f086;
+$var-star-half: \f089;
+$var-arrow-right-from-bracket: \f08b;
+$var-sign-out: \f08b;
+$var-thumbtack: \f08d;
+$var-thumb-tack: \f08d;
+$var-arrow-up-right-from-square: \f08e;
+$var-external-link: \f08e;
+$var-arrow-right-to-bracket: \f090;
+$var-sign-in: \f090;
+$var-trophy: \f091;
+$var-upload: \f093;
+$var-lemon: \f094;
+$var-phone: \f095;
+$var-square-phone: \f098;
+$var-phone-square: \f098;
+$var-unlock: \f09c;
+$var-credit-card: \f09d;
+$var-credit-card-alt: \f09d;
+$var-rss: \f09e;
+$var-feed: \f09e;
+$var-hard-drive: \f0a0;
+$var-hdd: \f0a0;
+$var-bullhorn: \f0a1;
+$var-certificate: \f0a3;
+$var-hand-point-right: \f0a4;
+$var-hand-point-left: \f0a5;
+$var-hand-point-up: \f0a6;
+$var-hand-point-down: \f0a7;
+$var-circle-arrow-left: \f0a8;
+$var-arrow-circle-left: \f0a8;
+$var-circle-arrow-right: \f0a9;
+$var-arrow-circle-right: \f0a9;
+$var-circle-arrow-up: \f0aa;
+$var-arrow-circle-up: \f0aa;
+$var-circle-arrow-down: \f0ab;
+$var-arrow-circle-down: \f0ab;
+$var-globe: \f0ac;
+$var-wrench: \f0ad;
+$var-list-check: \f0ae;
+$var-tasks: \f0ae;
+$var-filter: \f0b0;
+$var-briefcase: \f0b1;
+$var-up-down-left-right: \f0b2;
+$var-arrows-alt: \f0b2;
+$var-users: \f0c0;
+$var-link: \f0c1;
+$var-chain: \f0c1;
+$var-cloud: \f0c2;
+$var-flask: \f0c3;
+$var-scissors: \f0c4;
+$var-cut: \f0c4;
+$var-copy: \f0c5;
+$var-paperclip: \f0c6;
+$var-floppy-disk: \f0c7;
+$var-save: \f0c7;
+$var-square: \f0c8;
+$var-bars: \f0c9;
+$var-navicon: \f0c9;
+$var-list-ul: \f0ca;
+$var-list-dots: \f0ca;
+$var-list-ol: \f0cb;
+$var-list-1-2: \f0cb;
+$var-list-numeric: \f0cb;
+$var-strikethrough: \f0cc;
+$var-underline: \f0cd;
+$var-table: \f0ce;
+$var-wand-magic: \f0d0;
+$var-magic: \f0d0;
+$var-truck: \f0d1;
+$var-money-bill: \f0d6;
+$var-caret-down: \f0d7;
+$var-caret-up: \f0d8;
+$var-caret-left: \f0d9;
+$var-caret-right: \f0da;
+$var-table-columns: \f0db;
+$var-columns: \f0db;
+$var-sort: \f0dc;
+$var-unsorted: \f0dc;
+$var-sort-down: \f0dd;
+$var-sort-desc: \f0dd;
+$var-sort-up: \f0de;
+$var-sort-asc: \f0de;
+$var-envelope: \f0e0;
+$var-arrow-rotate-left: \f0e2;
+$var-arrow-left-rotate: \f0e2;
+$var-arrow-rotate-back: \f0e2;
+$var-arrow-rotate-backward: \f0e2;
+$var-undo: \f0e2;
+$var-gavel: \f0e3;
+$var-legal: \f0e3;
+$var-bolt: \f0e7;
+$var-zap: \f0e7;
+$var-sitemap: \f0e8;
+$var-umbrella: \f0e9;
+$var-paste: \f0ea;
+$var-file-clipboard: \f0ea;
+$var-lightbulb: \f0eb;
+$var-arrow-right-arrow-left: \f0ec;
+$var-exchange: \f0ec;
+$var-cloud-arrow-down: \f0ed;
+$var-cloud-download: \f0ed;
+$var-cloud-download-alt: \f0ed;
+$var-cloud-arrow-up: \f0ee;
+$var-cloud-upload: \f0ee;
+$var-cloud-upload-alt: \f0ee;
+$var-user-doctor: \f0f0;
+$var-user-md: \f0f0;
+$var-stethoscope: \f0f1;
+$var-suitcase: \f0f2;
+$var-bell: \f0f3;
+$var-mug-saucer: \f0f4;
+$var-coffee: \f0f4;
+$var-hospital: \f0f8;
+$var-hospital-alt: \f0f8;
+$var-hospital-wide: \f0f8;
+$var-truck-medical: \f0f9;
+$var-ambulance: \f0f9;
+$var-suitcase-medical: \f0fa;
+$var-medkit: \f0fa;
+$var-jet-fighter: \f0fb;
+$var-fighter-jet: \f0fb;
+$var-beer-mug-empty: \f0fc;
+$var-beer: \f0fc;
+$var-square-h: \f0fd;
+$var-h-square: \f0fd;
+$var-square-plus: \f0fe;
+$var-plus-square: \f0fe;
+$var-angles-left: \f100;
+$var-angle-double-left: \f100;
+$var-angles-right: \f101;
+$var-angle-double-right: \f101;
+$var-angles-up: \f102;
+$var-angle-double-up: \f102;
+$var-angles-down: \f103;
+$var-angle-double-down: \f103;
+$var-angle-left: \f104;
+$var-angle-right: \f105;
+$var-angle-up: \f106;
+$var-angle-down: \f107;
+$var-laptop: \f109;
+$var-tablet-button: \f10a;
+$var-mobile-button: \f10b;
+$var-quote-left: \f10d;
+$var-quote-left-alt: \f10d;
+$var-quote-right: \f10e;
+$var-quote-right-alt: \f10e;
+$var-spinner: \f110;
+$var-circle: \f111;
+$var-face-smile: \f118;
+$var-smile: \f118;
+$var-face-frown: \f119;
+$var-frown: \f119;
+$var-face-meh: \f11a;
+$var-meh: \f11a;
+$var-gamepad: \f11b;
+$var-keyboard: \f11c;
+$var-flag-checkered: \f11e;
+$var-terminal: \f120;
+$var-code: \f121;
+$var-reply-all: \f122;
+$var-mail-reply-all: \f122;
+$var-location-arrow: \f124;
+$var-crop: \f125;
+$var-code-branch: \f126;
+$var-link-slash: \f127;
+$var-chain-broken: \f127;
+$var-chain-slash: \f127;
+$var-unlink: \f127;
+$var-info: \f129;
+$var-superscript: \f12b;
+$var-subscript: \f12c;
+$var-eraser: \f12d;
+$var-puzzle-piece: \f12e;
+$var-microphone: \f130;
+$var-microphone-slash: \f131;
+$var-shield: \f132;
+$var-shield-blank: \f132;
+$var-calendar: \f133;
+$var-fire-extinguisher: \f134;
+$var-rocket: \f135;
+$var-circle-chevron-left: \f137;
+$var-chevron-circle-left: \f137;
+$var-circle-chevron-right: \f138;
+$var-chevron-circle-right: \f138;
+$var-circle-chevron-up: \f139;
+$var-chevron-circle-up: \f139;
+$var-circle-chevron-down: \f13a;
+$var-chevron-circle-down: \f13a;
+$var-anchor: \f13d;
+$var-unlock-keyhole: \f13e;
+$var-unlock-alt: \f13e;
+$var-bullseye: \f140;
+$var-ellipsis: \f141;
+$var-ellipsis-h: \f141;
+$var-ellipsis-vertical: \f142;
+$var-ellipsis-v: \f142;
+$var-square-rss: \f143;
+$var-rss-square: \f143;
+$var-circle-play: \f144;
+$var-play-circle: \f144;
+$var-ticket: \f145;
+$var-square-minus: \f146;
+$var-minus-square: \f146;
+$var-arrow-turn-up: \f148;
+$var-level-up: \f148;
+$var-arrow-turn-down: \f149;
+$var-level-down: \f149;
+$var-square-check: \f14a;
+$var-check-square: \f14a;
+$var-square-pen: \f14b;
+$var-pen-square: \f14b;
+$var-pencil-square: \f14b;
+$var-square-arrow-up-right: \f14c;
+$var-external-link-square: \f14c;
+$var-share-from-square: \f14d;
+$var-share-square: \f14d;
+$var-compass: \f14e;
+$var-square-caret-down: \f150;
+$var-caret-square-down: \f150;
+$var-square-caret-up: \f151;
+$var-caret-square-up: \f151;
+$var-square-caret-right: \f152;
+$var-caret-square-right: \f152;
+$var-euro-sign: \f153;
+$var-eur: \f153;
+$var-euro: \f153;
+$var-sterling-sign: \f154;
+$var-gbp: \f154;
+$var-pound-sign: \f154;
+$var-rupee-sign: \f156;
+$var-rupee: \f156;
+$var-yen-sign: \f157;
+$var-cny: \f157;
+$var-jpy: \f157;
+$var-rmb: \f157;
+$var-yen: \f157;
+$var-ruble-sign: \f158;
+$var-rouble: \f158;
+$var-rub: \f158;
+$var-ruble: \f158;
+$var-won-sign: \f159;
+$var-krw: \f159;
+$var-won: \f159;
+$var-file: \f15b;
+$var-file-lines: \f15c;
+$var-file-alt: \f15c;
+$var-file-text: \f15c;
+$var-arrow-down-a-z: \f15d;
+$var-sort-alpha-asc: \f15d;
+$var-sort-alpha-down: \f15d;
+$var-arrow-up-a-z: \f15e;
+$var-sort-alpha-up: \f15e;
+$var-arrow-down-wide-short: \f160;
+$var-sort-amount-asc: \f160;
+$var-sort-amount-down: \f160;
+$var-arrow-up-wide-short: \f161;
+$var-sort-amount-up: \f161;
+$var-arrow-down-1-9: \f162;
+$var-sort-numeric-asc: \f162;
+$var-sort-numeric-down: \f162;
+$var-arrow-up-1-9: \f163;
+$var-sort-numeric-up: \f163;
+$var-thumbs-up: \f164;
+$var-thumbs-down: \f165;
+$var-arrow-down-long: \f175;
+$var-long-arrow-down: \f175;
+$var-arrow-up-long: \f176;
+$var-long-arrow-up: \f176;
+$var-arrow-left-long: \f177;
+$var-long-arrow-left: \f177;
+$var-arrow-right-long: \f178;
+$var-long-arrow-right: \f178;
+$var-person-dress: \f182;
+$var-female: \f182;
+$var-person: \f183;
+$var-male: \f183;
+$var-sun: \f185;
+$var-moon: \f186;
+$var-box-archive: \f187;
+$var-archive: \f187;
+$var-bug: \f188;
+$var-square-caret-left: \f191;
+$var-caret-square-left: \f191;
+$var-circle-dot: \f192;
+$var-dot-circle: \f192;
+$var-wheelchair: \f193;
+$var-lira-sign: \f195;
+$var-shuttle-space: \f197;
+$var-space-shuttle: \f197;
+$var-square-envelope: \f199;
+$var-envelope-square: \f199;
+$var-building-columns: \f19c;
+$var-bank: \f19c;
+$var-institution: \f19c;
+$var-museum: \f19c;
+$var-university: \f19c;
+$var-graduation-cap: \f19d;
+$var-mortar-board: \f19d;
+$var-language: \f1ab;
+$var-fax: \f1ac;
+$var-building: \f1ad;
+$var-child: \f1ae;
+$var-paw: \f1b0;
+$var-cube: \f1b2;
+$var-cubes: \f1b3;
+$var-recycle: \f1b8;
+$var-car: \f1b9;
+$var-automobile: \f1b9;
+$var-taxi: \f1ba;
+$var-cab: \f1ba;
+$var-tree: \f1bb;
+$var-database: \f1c0;
+$var-file-pdf: \f1c1;
+$var-file-word: \f1c2;
+$var-file-excel: \f1c3;
+$var-file-powerpoint: \f1c4;
+$var-file-image: \f1c5;
+$var-file-zipper: \f1c6;
+$var-file-archive: \f1c6;
+$var-file-audio: \f1c7;
+$var-file-video: \f1c8;
+$var-file-code: \f1c9;
+$var-life-ring: \f1cd;
+$var-circle-notch: \f1ce;
+$var-paper-plane: \f1d8;
+$var-clock-rotate-left: \f1da;
+$var-history: \f1da;
+$var-heading: \f1dc;
+$var-header: \f1dc;
+$var-paragraph: \f1dd;
+$var-sliders: \f1de;
+$var-sliders-h: \f1de;
+$var-share-nodes: \f1e0;
+$var-share-alt: \f1e0;
+$var-square-share-nodes: \f1e1;
+$var-share-alt-square: \f1e1;
+$var-bomb: \f1e2;
+$var-futbol: \f1e3;
+$var-futbol-ball: \f1e3;
+$var-soccer-ball: \f1e3;
+$var-tty: \f1e4;
+$var-teletype: \f1e4;
+$var-binoculars: \f1e5;
+$var-plug: \f1e6;
+$var-newspaper: \f1ea;
+$var-wifi: \f1eb;
+$var-wifi-3: \f1eb;
+$var-wifi-strong: \f1eb;
+$var-calculator: \f1ec;
+$var-bell-slash: \f1f6;
+$var-trash: \f1f8;
+$var-copyright: \f1f9;
+$var-eye-dropper: \f1fb;
+$var-eye-dropper-empty: \f1fb;
+$var-eyedropper: \f1fb;
+$var-paintbrush: \f1fc;
+$var-paint-brush: \f1fc;
+$var-cake-candles: \f1fd;
+$var-birthday-cake: \f1fd;
+$var-cake: \f1fd;
+$var-chart-area: \f1fe;
+$var-area-chart: \f1fe;
+$var-chart-pie: \f200;
+$var-pie-chart: \f200;
+$var-chart-line: \f201;
+$var-line-chart: \f201;
+$var-toggle-off: \f204;
+$var-toggle-on: \f205;
+$var-bicycle: \f206;
+$var-bus: \f207;
+$var-closed-captioning: \f20a;
+$var-shekel-sign: \f20b;
+$var-ils: \f20b;
+$var-shekel: \f20b;
+$var-sheqel: \f20b;
+$var-sheqel-sign: \f20b;
+$var-cart-plus: \f217;
+$var-cart-arrow-down: \f218;
+$var-diamond: \f219;
+$var-ship: \f21a;
+$var-user-secret: \f21b;
+$var-motorcycle: \f21c;
+$var-street-view: \f21d;
+$var-heart-pulse: \f21e;
+$var-heartbeat: \f21e;
+$var-venus: \f221;
+$var-mars: \f222;
+$var-mercury: \f223;
+$var-mars-and-venus: \f224;
+$var-transgender: \f225;
+$var-transgender-alt: \f225;
+$var-venus-double: \f226;
+$var-mars-double: \f227;
+$var-venus-mars: \f228;
+$var-mars-stroke: \f229;
+$var-mars-stroke-up: \f22a;
+$var-mars-stroke-v: \f22a;
+$var-mars-stroke-right: \f22b;
+$var-mars-stroke-h: \f22b;
+$var-neuter: \f22c;
+$var-genderless: \f22d;
+$var-server: \f233;
+$var-user-plus: \f234;
+$var-user-xmark: \f235;
+$var-user-times: \f235;
+$var-bed: \f236;
+$var-train: \f238;
+$var-train-subway: \f239;
+$var-subway: \f239;
+$var-battery-full: \f240;
+$var-battery: \f240;
+$var-battery-5: \f240;
+$var-battery-three-quarters: \f241;
+$var-battery-4: \f241;
+$var-battery-half: \f242;
+$var-battery-3: \f242;
+$var-battery-quarter: \f243;
+$var-battery-2: \f243;
+$var-battery-empty: \f244;
+$var-battery-0: \f244;
+$var-arrow-pointer: \f245;
+$var-mouse-pointer: \f245;
+$var-i-cursor: \f246;
+$var-object-group: \f247;
+$var-object-ungroup: \f248;
+$var-note-sticky: \f249;
+$var-sticky-note: \f249;
+$var-clone: \f24d;
+$var-scale-balanced: \f24e;
+$var-balance-scale: \f24e;
+$var-hourglass-start: \f251;
+$var-hourglass-1: \f251;
+$var-hourglass-half: \f252;
+$var-hourglass-2: \f252;
+$var-hourglass-end: \f253;
+$var-hourglass-3: \f253;
+$var-hourglass: \f254;
+$var-hourglass-empty: \f254;
+$var-hand-back-fist: \f255;
+$var-hand-rock: \f255;
+$var-hand: \f256;
+$var-hand-paper: \f256;
+$var-hand-scissors: \f257;
+$var-hand-lizard: \f258;
+$var-hand-spock: \f259;
+$var-hand-pointer: \f25a;
+$var-hand-peace: \f25b;
+$var-trademark: \f25c;
+$var-registered: \f25d;
+$var-tv: \f26c;
+$var-television: \f26c;
+$var-tv-alt: \f26c;
+$var-calendar-plus: \f271;
+$var-calendar-minus: \f272;
+$var-calendar-xmark: \f273;
+$var-calendar-times: \f273;
+$var-calendar-check: \f274;
+$var-industry: \f275;
+$var-map-pin: \f276;
+$var-signs-post: \f277;
+$var-map-signs: \f277;
+$var-map: \f279;
+$var-message: \f27a;
+$var-comment-alt: \f27a;
+$var-circle-pause: \f28b;
+$var-pause-circle: \f28b;
+$var-circle-stop: \f28d;
+$var-stop-circle: \f28d;
+$var-bag-shopping: \f290;
+$var-shopping-bag: \f290;
+$var-basket-shopping: \f291;
+$var-shopping-basket: \f291;
+$var-universal-access: \f29a;
+$var-person-walking-with-cane: \f29d;
+$var-blind: \f29d;
+$var-audio-description: \f29e;
+$var-phone-volume: \f2a0;
+$var-volume-control-phone: \f2a0;
+$var-braille: \f2a1;
+$var-ear-listen: \f2a2;
+$var-assistive-listening-systems: \f2a2;
+$var-hands-asl-interpreting: \f2a3;
+$var-american-sign-language-interpreting: \f2a3;
+$var-asl-interpreting: \f2a3;
+$var-hands-american-sign-language-interpreting: \f2a3;
+$var-ear-deaf: \f2a4;
+$var-deaf: \f2a4;
+$var-deafness: \f2a4;
+$var-hard-of-hearing: \f2a4;
+$var-hands: \f2a7;
+$var-sign-language: \f2a7;
+$var-signing: \f2a7;
+$var-eye-low-vision: \f2a8;
+$var-low-vision: \f2a8;
+$var-font-awesome: \f2b4;
+$var-font-awesome-flag: \f2b4;
+$var-font-awesome-logo-full: \f2b4;
+$var-handshake: \f2b5;
+$var-handshake-alt: \f2b5;
+$var-handshake-simple: \f2b5;
+$var-envelope-open: \f2b6;
+$var-address-book: \f2b9;
+$var-contact-book: \f2b9;
+$var-address-card: \f2bb;
+$var-contact-card: \f2bb;
+$var-vcard: \f2bb;
+$var-circle-user: \f2bd;
+$var-user-circle: \f2bd;
+$var-id-badge: \f2c1;
+$var-id-card: \f2c2;
+$var-drivers-license: \f2c2;
+$var-temperature-full: \f2c7;
+$var-temperature-4: \f2c7;
+$var-thermometer-4: \f2c7;
+$var-thermometer-full: \f2c7;
+$var-temperature-three-quarters: \f2c8;
+$var-temperature-3: \f2c8;
+$var-thermometer-3: \f2c8;
+$var-thermometer-three-quarters: \f2c8;
+$var-temperature-half: \f2c9;
+$var-temperature-2: \f2c9;
+$var-thermometer-2: \f2c9;
+$var-thermometer-half: \f2c9;
+$var-temperature-quarter: \f2ca;
+$var-temperature-1: \f2ca;
+$var-thermometer-1: \f2ca;
+$var-thermometer-quarter: \f2ca;
+$var-temperature-empty: \f2cb;
+$var-temperature-0: \f2cb;
+$var-thermometer-0: \f2cb;
+$var-thermometer-empty: \f2cb;
+$var-shower: \f2cc;
+$var-bath: \f2cd;
+$var-bathtub: \f2cd;
+$var-podcast: \f2ce;
+$var-window-maximize: \f2d0;
+$var-window-minimize: \f2d1;
+$var-window-restore: \f2d2;
+$var-square-xmark: \f2d3;
+$var-times-square: \f2d3;
+$var-xmark-square: \f2d3;
+$var-microchip: \f2db;
+$var-snowflake: \f2dc;
+$var-spoon: \f2e5;
+$var-utensil-spoon: \f2e5;
+$var-utensils: \f2e7;
+$var-cutlery: \f2e7;
+$var-rotate-left: \f2ea;
+$var-rotate-back: \f2ea;
+$var-rotate-backward: \f2ea;
+$var-undo-alt: \f2ea;
+$var-trash-can: \f2ed;
+$var-trash-alt: \f2ed;
+$var-rotate: \f2f1;
+$var-sync-alt: \f2f1;
+$var-stopwatch: \f2f2;
+$var-right-from-bracket: \f2f5;
+$var-sign-out-alt: \f2f5;
+$var-right-to-bracket: \f2f6;
+$var-sign-in-alt: \f2f6;
+$var-rotate-right: \f2f9;
+$var-redo-alt: \f2f9;
+$var-rotate-forward: \f2f9;
+$var-poo: \f2fe;
+$var-images: \f302;
+$var-pencil: \f303;
+$var-pencil-alt: \f303;
+$var-pen: \f304;
+$var-pen-clip: \f305;
+$var-pen-alt: \f305;
+$var-octagon: \f306;
+$var-down-long: \f309;
+$var-long-arrow-alt-down: \f309;
+$var-left-long: \f30a;
+$var-long-arrow-alt-left: \f30a;
+$var-right-long: \f30b;
+$var-long-arrow-alt-right: \f30b;
+$var-up-long: \f30c;
+$var-long-arrow-alt-up: \f30c;
+$var-hexagon: \f312;
+$var-file-pen: \f31c;
+$var-file-edit: \f31c;
+$var-maximize: \f31e;
+$var-expand-arrows-alt: \f31e;
+$var-clipboard: \f328;
+$var-left-right: \f337;
+$var-arrows-alt-h: \f337;
+$var-up-down: \f338;
+$var-arrows-alt-v: \f338;
+$var-alarm-clock: \f34e;
+$var-circle-down: \f358;
+$var-arrow-alt-circle-down: \f358;
+$var-circle-left: \f359;
+$var-arrow-alt-circle-left: \f359;
+$var-circle-right: \f35a;
+$var-arrow-alt-circle-right: \f35a;
+$var-circle-up: \f35b;
+$var-arrow-alt-circle-up: \f35b;
+$var-up-right-from-square: \f35d;
+$var-external-link-alt: \f35d;
+$var-square-up-right: \f360;
+$var-external-link-square-alt: \f360;
+$var-right-left: \f362;
+$var-exchange-alt: \f362;
+$var-repeat: \f363;
+$var-code-commit: \f386;
+$var-code-merge: \f387;
+$var-desktop: \f390;
+$var-desktop-alt: \f390;
+$var-gem: \f3a5;
+$var-turn-down: \f3be;
+$var-level-down-alt: \f3be;
+$var-turn-up: \f3bf;
+$var-level-up-alt: \f3bf;
+$var-lock-open: \f3c1;
+$var-location-dot: \f3c5;
+$var-map-marker-alt: \f3c5;
+$var-microphone-lines: \f3c9;
+$var-microphone-alt: \f3c9;
+$var-mobile-screen-button: \f3cd;
+$var-mobile-alt: \f3cd;
+$var-mobile: \f3ce;
+$var-mobile-android: \f3ce;
+$var-mobile-phone: \f3ce;
+$var-mobile-screen: \f3cf;
+$var-mobile-android-alt: \f3cf;
+$var-money-bill-1: \f3d1;
+$var-money-bill-alt: \f3d1;
+$var-phone-slash: \f3dd;
+$var-image-portrait: \f3e0;
+$var-portrait: \f3e0;
+$var-reply: \f3e5;
+$var-mail-reply: \f3e5;
+$var-shield-halved: \f3ed;
+$var-shield-alt: \f3ed;
+$var-tablet-screen-button: \f3fa;
+$var-tablet-alt: \f3fa;
+$var-tablet: \f3fb;
+$var-tablet-android: \f3fb;
+$var-ticket-simple: \f3ff;
+$var-ticket-alt: \f3ff;
+$var-rectangle-xmark: \f410;
+$var-rectangle-times: \f410;
+$var-times-rectangle: \f410;
+$var-window-close: \f410;
+$var-down-left-and-up-right-to-center: \f422;
+$var-compress-alt: \f422;
+$var-up-right-and-down-left-from-center: \f424;
+$var-expand-alt: \f424;
+$var-baseball-bat-ball: \f432;
+$var-baseball: \f433;
+$var-baseball-ball: \f433;
+$var-basketball: \f434;
+$var-basketball-ball: \f434;
+$var-bowling-ball: \f436;
+$var-chess: \f439;
+$var-chess-bishop: \f43a;
+$var-chess-board: \f43c;
+$var-chess-king: \f43f;
+$var-chess-knight: \f441;
+$var-chess-pawn: \f443;
+$var-chess-queen: \f445;
+$var-chess-rook: \f447;
+$var-dumbbell: \f44b;
+$var-football: \f44e;
+$var-football-ball: \f44e;
+$var-golf-ball-tee: \f450;
+$var-golf-ball: \f450;
+$var-hockey-puck: \f453;
+$var-broom-ball: \f458;
+$var-quidditch: \f458;
+$var-quidditch-broom-ball: \f458;
+$var-square-full: \f45c;
+$var-table-tennis-paddle-ball: \f45d;
+$var-ping-pong-paddle-ball: \f45d;
+$var-table-tennis: \f45d;
+$var-volleyball: \f45f;
+$var-volleyball-ball: \f45f;
+$var-hand-dots: \f461;
+$var-allergies: \f461;
+$var-bandage: \f462;
+$var-band-aid: \f462;
+$var-box: \f466;
+$var-boxes-stacked: \f468;
+$var-boxes: \f468;
+$var-boxes-alt: \f468;
+$var-briefcase-medical: \f469;
+$var-fire-flame-simple: \f46a;
+$var-burn: \f46a;
+$var-capsules: \f46b;
+$var-clipboard-check: \f46c;
+$var-clipboard-list: \f46d;
+$var-person-dots-from-line: \f470;
+$var-diagnoses: \f470;
+$var-dna: \f471;
+$var-dolly: \f472;
+$var-dolly-box: \f472;
+$var-cart-flatbed: \f474;
+$var-dolly-flatbed: \f474;
+$var-file-medical: \f477;
+$var-file-waveform: \f478;
+$var-file-medical-alt: \f478;
+$var-kit-medical: \f479;
+$var-first-aid: \f479;
+$var-circle-h: \f47e;
+$var-hospital-symbol: \f47e;
+$var-id-card-clip: \f47f;
+$var-id-card-alt: \f47f;
+$var-notes-medical: \f481;
+$var-pallet: \f482;
+$var-pills: \f484;
+$var-prescription-bottle: \f485;
+$var-prescription-bottle-medical: \f486;
+$var-prescription-bottle-alt: \f486;
+$var-bed-pulse: \f487;
+$var-procedures: \f487;
+$var-truck-fast: \f48b;
+$var-shipping-fast: \f48b;
+$var-smoking: \f48d;
+$var-syringe: \f48e;
+$var-tablets: \f490;
+$var-thermometer: \f491;
+$var-vial: \f492;
+$var-vials: \f493;
+$var-warehouse: \f494;
+$var-weight-scale: \f496;
+$var-weight: \f496;
+$var-x-ray: \f497;
+$var-box-open: \f49e;
+$var-comment-dots: \f4ad;
+$var-commenting: \f4ad;
+$var-comment-slash: \f4b3;
+$var-couch: \f4b8;
+$var-circle-dollar-to-slot: \f4b9;
+$var-donate: \f4b9;
+$var-dove: \f4ba;
+$var-hand-holding: \f4bd;
+$var-hand-holding-heart: \f4be;
+$var-hand-holding-dollar: \f4c0;
+$var-hand-holding-usd: \f4c0;
+$var-hand-holding-droplet: \f4c1;
+$var-hand-holding-water: \f4c1;
+$var-hands-holding: \f4c2;
+$var-handshake-angle: \f4c4;
+$var-hands-helping: \f4c4;
+$var-parachute-box: \f4cd;
+$var-people-carry-box: \f4ce;
+$var-people-carry: \f4ce;
+$var-piggy-bank: \f4d3;
+$var-ribbon: \f4d6;
+$var-route: \f4d7;
+$var-seedling: \f4d8;
+$var-sprout: \f4d8;
+$var-sign-hanging: \f4d9;
+$var-sign: \f4d9;
+$var-face-smile-wink: \f4da;
+$var-smile-wink: \f4da;
+$var-tape: \f4db;
+$var-truck-ramp-box: \f4de;
+$var-truck-loading: \f4de;
+$var-truck-moving: \f4df;
+$var-video-slash: \f4e2;
+$var-wine-glass: \f4e3;
+$var-user-astronaut: \f4fb;
+$var-user-check: \f4fc;
+$var-user-clock: \f4fd;
+$var-user-gear: \f4fe;
+$var-user-cog: \f4fe;
+$var-user-pen: \f4ff;
+$var-user-edit: \f4ff;
+$var-user-group: \f500;
+$var-user-friends: \f500;
+$var-user-graduate: \f501;
+$var-user-lock: \f502;
+$var-user-minus: \f503;
+$var-user-ninja: \f504;
+$var-user-shield: \f505;
+$var-user-slash: \f506;
+$var-user-alt-slash: \f506;
+$var-user-large-slash: \f506;
+$var-user-tag: \f507;
+$var-user-tie: \f508;
+$var-users-gear: \f509;
+$var-users-cog: \f509;
+$var-scale-unbalanced: \f515;
+$var-balance-scale-left: \f515;
+$var-scale-unbalanced-flip: \f516;
+$var-balance-scale-right: \f516;
+$var-blender: \f517;
+$var-book-open: \f518;
+$var-tower-broadcast: \f519;
+$var-broadcast-tower: \f519;
+$var-broom: \f51a;
+$var-chalkboard: \f51b;
+$var-blackboard: \f51b;
+$var-chalkboard-user: \f51c;
+$var-chalkboard-teacher: \f51c;
+$var-church: \f51d;
+$var-coins: \f51e;
+$var-compact-disc: \f51f;
+$var-crow: \f520;
+$var-crown: \f521;
+$var-dice: \f522;
+$var-dice-five: \f523;
+$var-dice-four: \f524;
+$var-dice-one: \f525;
+$var-dice-six: \f526;
+$var-dice-three: \f527;
+$var-dice-two: \f528;
+$var-divide: \f529;
+$var-door-closed: \f52a;
+$var-door-open: \f52b;
+$var-feather: \f52d;
+$var-frog: \f52e;
+$var-gas-pump: \f52f;
+$var-glasses: \f530;
+$var-greater-than-equal: \f532;
+$var-helicopter: \f533;
+$var-infinity: \f534;
+$var-kiwi-bird: \f535;
+$var-less-than-equal: \f537;
+$var-memory: \f538;
+$var-microphone-lines-slash: \f539;
+$var-microphone-alt-slash: \f539;
+$var-money-bill-wave: \f53a;
+$var-money-bill-1-wave: \f53b;
+$var-money-bill-wave-alt: \f53b;
+$var-money-check: \f53c;
+$var-money-check-dollar: \f53d;
+$var-money-check-alt: \f53d;
+$var-not-equal: \f53e;
+$var-palette: \f53f;
+$var-square-parking: \f540;
+$var-parking: \f540;
+$var-diagram-project: \f542;
+$var-project-diagram: \f542;
+$var-receipt: \f543;
+$var-robot: \f544;
+$var-ruler: \f545;
+$var-ruler-combined: \f546;
+$var-ruler-horizontal: \f547;
+$var-ruler-vertical: \f548;
+$var-school: \f549;
+$var-screwdriver: \f54a;
+$var-shoe-prints: \f54b;
+$var-skull: \f54c;
+$var-ban-smoking: \f54d;
+$var-smoking-ban: \f54d;
+$var-store: \f54e;
+$var-shop: \f54f;
+$var-store-alt: \f54f;
+$var-bars-staggered: \f550;
+$var-reorder: \f550;
+$var-stream: \f550;
+$var-stroopwafel: \f551;
+$var-toolbox: \f552;
+$var-shirt: \f553;
+$var-t-shirt: \f553;
+$var-tshirt: \f553;
+$var-person-walking: \f554;
+$var-walking: \f554;
+$var-wallet: \f555;
+$var-face-angry: \f556;
+$var-angry: \f556;
+$var-archway: \f557;
+$var-book-atlas: \f558;
+$var-atlas: \f558;
+$var-award: \f559;
+$var-delete-left: \f55a;
+$var-backspace: \f55a;
+$var-bezier-curve: \f55b;
+$var-bong: \f55c;
+$var-brush: \f55d;
+$var-bus-simple: \f55e;
+$var-bus-alt: \f55e;
+$var-cannabis: \f55f;
+$var-check-double: \f560;
+$var-martini-glass-citrus: \f561;
+$var-cocktail: \f561;
+$var-bell-concierge: \f562;
+$var-concierge-bell: \f562;
+$var-cookie: \f563;
+$var-cookie-bite: \f564;
+$var-crop-simple: \f565;
+$var-crop-alt: \f565;
+$var-tachograph-digital: \f566;
+$var-digital-tachograph: \f566;
+$var-face-dizzy: \f567;
+$var-dizzy: \f567;
+$var-compass-drafting: \f568;
+$var-drafting-compass: \f568;
+$var-drum: \f569;
+$var-drum-steelpan: \f56a;
+$var-feather-pointed: \f56b;
+$var-feather-alt: \f56b;
+$var-file-contract: \f56c;
+$var-file-arrow-down: \f56d;
+$var-file-download: \f56d;
+$var-file-export: \f56e;
+$var-arrow-right-from-file: \f56e;
+$var-file-import: \f56f;
+$var-arrow-right-to-file: \f56f;
+$var-file-invoice: \f570;
+$var-file-invoice-dollar: \f571;
+$var-file-prescription: \f572;
+$var-file-signature: \f573;
+$var-file-arrow-up: \f574;
+$var-file-upload: \f574;
+$var-fill: \f575;
+$var-fill-drip: \f576;
+$var-fingerprint: \f577;
+$var-fish: \f578;
+$var-face-flushed: \f579;
+$var-flushed: \f579;
+$var-face-frown-open: \f57a;
+$var-frown-open: \f57a;
+$var-martini-glass: \f57b;
+$var-glass-martini-alt: \f57b;
+$var-earth-africa: \f57c;
+$var-globe-africa: \f57c;
+$var-earth-americas: \f57d;
+$var-earth: \f57d;
+$var-earth-america: \f57d;
+$var-globe-americas: \f57d;
+$var-earth-asia: \f57e;
+$var-globe-asia: \f57e;
+$var-face-grimace: \f57f;
+$var-grimace: \f57f;
+$var-face-grin: \f580;
+$var-grin: \f580;
+$var-face-grin-wide: \f581;
+$var-grin-alt: \f581;
+$var-face-grin-beam: \f582;
+$var-grin-beam: \f582;
+$var-face-grin-beam-sweat: \f583;
+$var-grin-beam-sweat: \f583;
+$var-face-grin-hearts: \f584;
+$var-grin-hearts: \f584;
+$var-face-grin-squint: \f585;
+$var-grin-squint: \f585;
+$var-face-grin-squint-tears: \f586;
+$var-grin-squint-tears: \f586;
+$var-face-grin-stars: \f587;
+$var-grin-stars: \f587;
+$var-face-grin-tears: \f588;
+$var-grin-tears: \f588;
+$var-face-grin-tongue: \f589;
+$var-grin-tongue: \f589;
+$var-face-grin-tongue-squint: \f58a;
+$var-grin-tongue-squint: \f58a;
+$var-face-grin-tongue-wink: \f58b;
+$var-grin-tongue-wink: \f58b;
+$var-face-grin-wink: \f58c;
+$var-grin-wink: \f58c;
+$var-grip: \f58d;
+$var-grid-horizontal: \f58d;
+$var-grip-horizontal: \f58d;
+$var-grip-vertical: \f58e;
+$var-grid-vertical: \f58e;
+$var-headset: \f590;
+$var-highlighter: \f591;
+$var-hot-tub-person: \f593;
+$var-hot-tub: \f593;
+$var-hotel: \f594;
+$var-joint: \f595;
+$var-face-kiss: \f596;
+$var-kiss: \f596;
+$var-face-kiss-beam: \f597;
+$var-kiss-beam: \f597;
+$var-face-kiss-wink-heart: \f598;
+$var-kiss-wink-heart: \f598;
+$var-face-laugh: \f599;
+$var-laugh: \f599;
+$var-face-laugh-beam: \f59a;
+$var-laugh-beam: \f59a;
+$var-face-laugh-squint: \f59b;
+$var-laugh-squint: \f59b;
+$var-face-laugh-wink: \f59c;
+$var-laugh-wink: \f59c;
+$var-cart-flatbed-suitcase: \f59d;
+$var-luggage-cart: \f59d;
+$var-map-location: \f59f;
+$var-map-marked: \f59f;
+$var-map-location-dot: \f5a0;
+$var-map-marked-alt: \f5a0;
+$var-marker: \f5a1;
+$var-medal: \f5a2;
+$var-face-meh-blank: \f5a4;
+$var-meh-blank: \f5a4;
+$var-face-rolling-eyes: \f5a5;
+$var-meh-rolling-eyes: \f5a5;
+$var-monument: \f5a6;
+$var-mortar-pestle: \f5a7;
+$var-paint-roller: \f5aa;
+$var-passport: \f5ab;
+$var-pen-fancy: \f5ac;
+$var-pen-nib: \f5ad;
+$var-pen-ruler: \f5ae;
+$var-pencil-ruler: \f5ae;
+$var-plane-arrival: \f5af;
+$var-plane-departure: \f5b0;
+$var-prescription: \f5b1;
+$var-face-sad-cry: \f5b3;
+$var-sad-cry: \f5b3;
+$var-face-sad-tear: \f5b4;
+$var-sad-tear: \f5b4;
+$var-van-shuttle: \f5b6;
+$var-shuttle-van: \f5b6;
+$var-signature: \f5b7;
+$var-face-smile-beam: \f5b8;
+$var-smile-beam: \f5b8;
+$var-solar-panel: \f5ba;
+$var-spa: \f5bb;
+$var-splotch: \f5bc;
+$var-spray-can: \f5bd;
+$var-stamp: \f5bf;
+$var-star-half-stroke: \f5c0;
+$var-star-half-alt: \f5c0;
+$var-suitcase-rolling: \f5c1;
+$var-face-surprise: \f5c2;
+$var-surprise: \f5c2;
+$var-swatchbook: \f5c3;
+$var-person-swimming: \f5c4;
+$var-swimmer: \f5c4;
+$var-water-ladder: \f5c5;
+$var-ladder-water: \f5c5;
+$var-swimming-pool: \f5c5;
+$var-droplet-slash: \f5c7;
+$var-tint-slash: \f5c7;
+$var-face-tired: \f5c8;
+$var-tired: \f5c8;
+$var-tooth: \f5c9;
+$var-umbrella-beach: \f5ca;
+$var-weight-hanging: \f5cd;
+$var-wine-glass-empty: \f5ce;
+$var-wine-glass-alt: \f5ce;
+$var-spray-can-sparkles: \f5d0;
+$var-air-freshener: \f5d0;
+$var-apple-whole: \f5d1;
+$var-apple-alt: \f5d1;
+$var-atom: \f5d2;
+$var-bone: \f5d7;
+$var-book-open-reader: \f5da;
+$var-book-reader: \f5da;
+$var-brain: \f5dc;
+$var-car-rear: \f5de;
+$var-car-alt: \f5de;
+$var-car-battery: \f5df;
+$var-battery-car: \f5df;
+$var-car-burst: \f5e1;
+$var-car-crash: \f5e1;
+$var-car-side: \f5e4;
+$var-charging-station: \f5e7;
+$var-diamond-turn-right: \f5eb;
+$var-directions: \f5eb;
+$var-draw-polygon: \f5ee;
+$var-vector-polygon: \f5ee;
+$var-laptop-code: \f5fc;
+$var-layer-group: \f5fd;
+$var-location-crosshairs: \f601;
+$var-location: \f601;
+$var-lungs: \f604;
+$var-microscope: \f610;
+$var-oil-can: \f613;
+$var-poop: \f619;
+$var-shapes: \f61f;
+$var-triangle-circle-square: \f61f;
+$var-star-of-life: \f621;
+$var-gauge: \f624;
+$var-dashboard: \f624;
+$var-gauge-med: \f624;
+$var-tachometer-alt-average: \f624;
+$var-gauge-high: \f625;
+$var-tachometer-alt: \f625;
+$var-tachometer-alt-fast: \f625;
+$var-gauge-simple: \f629;
+$var-gauge-simple-med: \f629;
+$var-tachometer-average: \f629;
+$var-gauge-simple-high: \f62a;
+$var-tachometer: \f62a;
+$var-tachometer-fast: \f62a;
+$var-teeth: \f62e;
+$var-teeth-open: \f62f;
+$var-masks-theater: \f630;
+$var-theater-masks: \f630;
+$var-traffic-light: \f637;
+$var-truck-monster: \f63b;
+$var-truck-pickup: \f63c;
+$var-rectangle-ad: \f641;
+$var-ad: \f641;
+$var-ankh: \f644;
+$var-book-bible: \f647;
+$var-bible: \f647;
+$var-business-time: \f64a;
+$var-briefcase-clock: \f64a;
+$var-city: \f64f;
+$var-comment-dollar: \f651;
+$var-comments-dollar: \f653;
+$var-cross: \f654;
+$var-dharmachakra: \f655;
+$var-envelope-open-text: \f658;
+$var-folder-minus: \f65d;
+$var-folder-plus: \f65e;
+$var-filter-circle-dollar: \f662;
+$var-funnel-dollar: \f662;
+$var-gopuram: \f664;
+$var-hamsa: \f665;
+$var-bahai: \f666;
+$var-haykal: \f666;
+$var-jedi: \f669;
+$var-book-journal-whills: \f66a;
+$var-journal-whills: \f66a;
+$var-kaaba: \f66b;
+$var-khanda: \f66d;
+$var-landmark: \f66f;
+$var-envelopes-bulk: \f674;
+$var-mail-bulk: \f674;
+$var-menorah: \f676;
+$var-mosque: \f678;
+$var-om: \f679;
+$var-spaghetti-monster-flying: \f67b;
+$var-pastafarianism: \f67b;
+$var-peace: \f67c;
+$var-place-of-worship: \f67f;
+$var-square-poll-vertical: \f681;
+$var-poll: \f681;
+$var-square-poll-horizontal: \f682;
+$var-poll-h: \f682;
+$var-person-praying: \f683;
+$var-pray: \f683;
+$var-hands-praying: \f684;
+$var-praying-hands: \f684;
+$var-book-quran: \f687;
+$var-quran: \f687;
+$var-magnifying-glass-dollar: \f688;
+$var-search-dollar: \f688;
+$var-magnifying-glass-location: \f689;
+$var-search-location: \f689;
+$var-socks: \f696;
+$var-square-root-variable: \f698;
+$var-square-root-alt: \f698;
+$var-star-and-crescent: \f699;
+$var-star-of-david: \f69a;
+$var-synagogue: \f69b;
+$var-scroll-torah: \f6a0;
+$var-torah: \f6a0;
+$var-torii-gate: \f6a1;
+$var-vihara: \f6a7;
+$var-volume-xmark: \f6a9;
+$var-volume-mute: \f6a9;
+$var-volume-times: \f6a9;
+$var-yin-yang: \f6ad;
+$var-blender-phone: \f6b6;
+$var-book-skull: \f6b7;
+$var-book-dead: \f6b7;
+$var-campground: \f6bb;
+$var-cat: \f6be;
+$var-chair: \f6c0;
+$var-cloud-moon: \f6c3;
+$var-cloud-sun: \f6c4;
+$var-cow: \f6c8;
+$var-dice-d20: \f6cf;
+$var-dice-d6: \f6d1;
+$var-dog: \f6d3;
+$var-dragon: \f6d5;
+$var-drumstick-bite: \f6d7;
+$var-dungeon: \f6d9;
+$var-file-csv: \f6dd;
+$var-hand-fist: \f6de;
+$var-fist-raised: \f6de;
+$var-ghost: \f6e2;
+$var-hammer: \f6e3;
+$var-hanukiah: \f6e6;
+$var-hat-wizard: \f6e8;
+$var-person-hiking: \f6ec;
+$var-hiking: \f6ec;
+$var-hippo: \f6ed;
+$var-horse: \f6f0;
+$var-house-chimney-crack: \f6f1;
+$var-house-damage: \f6f1;
+$var-hryvnia-sign: \f6f2;
+$var-hryvnia: \f6f2;
+$var-mask: \f6fa;
+$var-mountain: \f6fc;
+$var-network-wired: \f6ff;
+$var-otter: \f700;
+$var-ring: \f70b;
+$var-person-running: \f70c;
+$var-running: \f70c;
+$var-scroll: \f70e;
+$var-skull-crossbones: \f714;
+$var-slash: \f715;
+$var-spider: \f717;
+$var-toilet-paper: \f71e;
+$var-toilet-paper-alt: \f71e;
+$var-toilet-paper-blank: \f71e;
+$var-tractor: \f722;
+$var-user-injured: \f728;
+$var-vr-cardboard: \f729;
+$var-wand-sparkles: \f72b;
+$var-wind: \f72e;
+$var-wine-bottle: \f72f;
+$var-cloud-meatball: \f73b;
+$var-cloud-moon-rain: \f73c;
+$var-cloud-rain: \f73d;
+$var-cloud-showers-heavy: \f740;
+$var-cloud-sun-rain: \f743;
+$var-democrat: \f747;
+$var-flag-usa: \f74d;
+$var-hurricane: \f751;
+$var-landmark-dome: \f752;
+$var-landmark-alt: \f752;
+$var-meteor: \f753;
+$var-person-booth: \f756;
+$var-poo-storm: \f75a;
+$var-poo-bolt: \f75a;
+$var-rainbow: \f75b;
+$var-republican: \f75e;
+$var-smog: \f75f;
+$var-temperature-high: \f769;
+$var-temperature-low: \f76b;
+$var-cloud-bolt: \f76c;
+$var-thunderstorm: \f76c;
+$var-tornado: \f76f;
+$var-volcano: \f770;
+$var-check-to-slot: \f772;
+$var-vote-yea: \f772;
+$var-water: \f773;
+$var-baby: \f77c;
+$var-baby-carriage: \f77d;
+$var-carriage-baby: \f77d;
+$var-biohazard: \f780;
+$var-blog: \f781;
+$var-calendar-day: \f783;
+$var-calendar-week: \f784;
+$var-candy-cane: \f786;
+$var-carrot: \f787;
+$var-cash-register: \f788;
+$var-minimize: \f78c;
+$var-compress-arrows-alt: \f78c;
+$var-dumpster: \f793;
+$var-dumpster-fire: \f794;
+$var-ethernet: \f796;
+$var-gifts: \f79c;
+$var-champagne-glasses: \f79f;
+$var-glass-cheers: \f79f;
+$var-whiskey-glass: \f7a0;
+$var-glass-whiskey: \f7a0;
+$var-earth-europe: \f7a2;
+$var-globe-europe: \f7a2;
+$var-grip-lines: \f7a4;
+$var-grip-lines-vertical: \f7a5;
+$var-guitar: \f7a6;
+$var-heart-crack: \f7a9;
+$var-heart-broken: \f7a9;
+$var-holly-berry: \f7aa;
+$var-horse-head: \f7ab;
+$var-icicles: \f7ad;
+$var-igloo: \f7ae;
+$var-mitten: \f7b5;
+$var-mug-hot: \f7b6;
+$var-radiation: \f7b9;
+$var-circle-radiation: \f7ba;
+$var-radiation-alt: \f7ba;
+$var-restroom: \f7bd;
+$var-satellite: \f7bf;
+$var-satellite-dish: \f7c0;
+$var-sd-card: \f7c2;
+$var-sim-card: \f7c4;
+$var-person-skating: \f7c5;
+$var-skating: \f7c5;
+$var-person-skiing: \f7c9;
+$var-skiing: \f7c9;
+$var-person-skiing-nordic: \f7ca;
+$var-skiing-nordic: \f7ca;
+$var-sleigh: \f7cc;
+$var-comment-sms: \f7cd;
+$var-sms: \f7cd;
+$var-person-snowboarding: \f7ce;
+$var-snowboarding: \f7ce;
+$var-snowman: \f7d0;
+$var-snowplow: \f7d2;
+$var-tenge-sign: \f7d7;
+$var-tenge: \f7d7;
+$var-toilet: \f7d8;
+$var-screwdriver-wrench: \f7d9;
+$var-tools: \f7d9;
+$var-cable-car: \f7da;
+$var-tram: \f7da;
+$var-fire-flame-curved: \f7e4;
+$var-fire-alt: \f7e4;
+$var-bacon: \f7e5;
+$var-book-medical: \f7e6;
+$var-bread-slice: \f7ec;
+$var-cheese: \f7ef;
+$var-house-chimney-medical: \f7f2;
+$var-clinic-medical: \f7f2;
+$var-clipboard-user: \f7f3;
+$var-comment-medical: \f7f5;
+$var-crutch: \f7f7;
+$var-disease: \f7fa;
+$var-egg: \f7fb;
+$var-folder-tree: \f802;
+$var-burger: \f805;
+$var-hamburger: \f805;
+$var-hand-middle-finger: \f806;
+$var-helmet-safety: \f807;
+$var-hard-hat: \f807;
+$var-hat-hard: \f807;
+$var-hospital-user: \f80d;
+$var-hotdog: \f80f;
+$var-ice-cream: \f810;
+$var-laptop-medical: \f812;
+$var-pager: \f815;
+$var-pepper-hot: \f816;
+$var-pizza-slice: \f818;
+$var-sack-dollar: \f81d;
+$var-book-tanakh: \f827;
+$var-tanakh: \f827;
+$var-bars-progress: \f828;
+$var-tasks-alt: \f828;
+$var-trash-arrow-up: \f829;
+$var-trash-restore: \f829;
+$var-trash-can-arrow-up: \f82a;
+$var-trash-restore-alt: \f82a;
+$var-user-nurse: \f82f;
+$var-wave-square: \f83e;
+$var-person-biking: \f84a;
+$var-biking: \f84a;
+$var-border-all: \f84c;
+$var-border-none: \f850;
+$var-border-top-left: \f853;
+$var-border-style: \f853;
+$var-person-digging: \f85e;
+$var-digging: \f85e;
+$var-fan: \f863;
+$var-icons: \f86d;
+$var-heart-music-camera-bolt: \f86d;
+$var-phone-flip: \f879;
+$var-phone-alt: \f879;
+$var-square-phone-flip: \f87b;
+$var-phone-square-alt: \f87b;
+$var-photo-film: \f87c;
+$var-photo-video: \f87c;
+$var-text-slash: \f87d;
+$var-remove-format: \f87d;
+$var-arrow-down-z-a: \f881;
+$var-sort-alpha-desc: \f881;
+$var-sort-alpha-down-alt: \f881;
+$var-arrow-up-z-a: \f882;
+$var-sort-alpha-up-alt: \f882;
+$var-arrow-down-short-wide: \f884;
+$var-sort-amount-desc: \f884;
+$var-sort-amount-down-alt: \f884;
+$var-arrow-up-short-wide: \f885;
+$var-sort-amount-up-alt: \f885;
+$var-arrow-down-9-1: \f886;
+$var-sort-numeric-desc: \f886;
+$var-sort-numeric-down-alt: \f886;
+$var-arrow-up-9-1: \f887;
+$var-sort-numeric-up-alt: \f887;
+$var-spell-check: \f891;
+$var-voicemail: \f897;
+$var-hat-cowboy: \f8c0;
+$var-hat-cowboy-side: \f8c1;
+$var-computer-mouse: \f8cc;
+$var-mouse: \f8cc;
+$var-radio: \f8d7;
+$var-record-vinyl: \f8d9;
+$var-walkie-talkie: \f8ef;
+$var-caravan: \f8ff;
+
+$var-firefox-browser: \e007;
+$var-ideal: \e013;
+$var-microblog: \e01a;
+$var-square-pied-piper: \e01e;
+$var-pied-piper-square: \e01e;
+$var-unity: \e049;
+$var-dailymotion: \e052;
+$var-square-instagram: \e055;
+$var-instagram-square: \e055;
+$var-mixer: \e056;
+$var-shopify: \e057;
+$var-deezer: \e077;
+$var-edge-legacy: \e078;
+$var-google-pay: \e079;
+$var-rust: \e07a;
+$var-tiktok: \e07b;
+$var-unsplash: \e07c;
+$var-cloudflare: \e07d;
+$var-guilded: \e07e;
+$var-hive: \e07f;
+$var-42-group: \e080;
+$var-innosoft: \e080;
+$var-instalod: \e081;
+$var-octopus-deploy: \e082;
+$var-perbyte: \e083;
+$var-uncharted: \e084;
+$var-watchman-monitoring: \e087;
+$var-wodu: \e088;
+$var-wirsindhandwerk: \e2d0;
+$var-wsh: \e2d0;
+$var-bots: \e340;
+$var-cmplid: \e360;
+$var-bilibili: \e3d9;
+$var-golang: \e40f;
+$var-pix: \e43a;
+$var-sitrox: \e44a;
+$var-hashnode: \e499;
+$var-meta: \e49b;
+$var-padlet: \e4a0;
+$var-nfc-directional: \e530;
+$var-nfc-symbol: \e531;
+$var-screenpal: \e570;
+$var-space-awesome: \e5ac;
+$var-square-font-awesome: \e5ad;
+$var-square-gitlab: \e5ae;
+$var-gitlab-square: \e5ae;
+$var-odysee: \e5c6;
+$var-stubber: \e5c7;
+$var-debian: \e60b;
+$var-shoelace: \e60c;
+$var-threads: \e618;
+$var-square-threads: \e619;
+$var-square-x-twitter: \e61a;
+$var-x-twitter: \e61b;
+$var-opensuse: \e62b;
+$var-letterboxd: \e62d;
+$var-square-letterboxd: \e62e;
+$var-mintbit: \e62f;
+$var-google-scholar: \e63b;
+$var-brave: \e63c;
+$var-brave-reverse: \e63d;
+$var-pixiv: \e640;
+$var-upwork: \e641;
+$var-webflow: \e65c;
+$var-signal-messenger: \e663;
+$var-bluesky: \e671;
+$var-jxl: \e67b;
+$var-square-upwork: \e67c;
+$var-web-awesome: \e682;
+$var-square-web-awesome: \e683;
+$var-square-web-awesome-stroke: \e684;
+$var-dart-lang: \e693;
+$var-flutter: \e694;
+$var-files-pinwheel: \e69f;
+$var-css: \e6a2;
+$var-square-bluesky: \e6a3;
+$var-openai: \e7cf;
+$var-square-linkedin: \e7d0;
+$var-cash-app: \e7d4;
+$var-disqus: \e7d5;
+$var-eleventy: \e7d6;
+$var-11ty: \e7d6;
+$var-kakao-talk: \e7d7;
+$var-linktree: \e7d8;
+$var-notion: \e7d9;
+$var-pandora: \e7da;
+$var-pixelfed: \e7db;
+$var-tidal: \e7dc;
+$var-vsco: \e7dd;
+$var-w3c: \e7de;
+$var-lumon: \e7e2;
+$var-lumon-drop: \e7e3;
+$var-square-figma: \e7e4;
+$var-tex: \e7ff;
+$var-duolingo: \e812;
+$var-square-twitter: \f081;
+$var-twitter-square: \f081;
+$var-square-facebook: \f082;
+$var-facebook-square: \f082;
+$var-linkedin: \f08c;
+$var-square-github: \f092;
+$var-github-square: \f092;
+$var-twitter: \f099;
+$var-facebook: \f09a;
+$var-github: \f09b;
+$var-pinterest: \f0d2;
+$var-square-pinterest: \f0d3;
+$var-pinterest-square: \f0d3;
+$var-square-google-plus: \f0d4;
+$var-google-plus-square: \f0d4;
+$var-google-plus-g: \f0d5;
+$var-linkedin-in: \f0e1;
+$var-github-alt: \f113;
+$var-maxcdn: \f136;
+$var-html5: \f13b;
+$var-css3: \f13c;
+$var-btc: \f15a;
+$var-youtube: \f167;
+$var-xing: \f168;
+$var-square-xing: \f169;
+$var-xing-square: \f169;
+$var-dropbox: \f16b;
+$var-stack-overflow: \f16c;
+$var-instagram: \f16d;
+$var-flickr: \f16e;
+$var-adn: \f170;
+$var-bitbucket: \f171;
+$var-tumblr: \f173;
+$var-square-tumblr: \f174;
+$var-tumblr-square: \f174;
+$var-apple: \f179;
+$var-windows: \f17a;
+$var-android: \f17b;
+$var-linux: \f17c;
+$var-dribbble: \f17d;
+$var-skype: \f17e;
+$var-foursquare: \f180;
+$var-trello: \f181;
+$var-gratipay: \f184;
+$var-vk: \f189;
+$var-weibo: \f18a;
+$var-renren: \f18b;
+$var-pagelines: \f18c;
+$var-stack-exchange: \f18d;
+$var-square-vimeo: \f194;
+$var-vimeo-square: \f194;
+$var-slack: \f198;
+$var-slack-hash: \f198;
+$var-wordpress: \f19a;
+$var-openid: \f19b;
+$var-yahoo: \f19e;
+$var-google: \f1a0;
+$var-reddit: \f1a1;
+$var-square-reddit: \f1a2;
+$var-reddit-square: \f1a2;
+$var-stumbleupon-circle: \f1a3;
+$var-stumbleupon: \f1a4;
+$var-delicious: \f1a5;
+$var-digg: \f1a6;
+$var-pied-piper-pp: \f1a7;
+$var-pied-piper-alt: \f1a8;
+$var-drupal: \f1a9;
+$var-joomla: \f1aa;
+$var-behance: \f1b4;
+$var-square-behance: \f1b5;
+$var-behance-square: \f1b5;
+$var-steam: \f1b6;
+$var-square-steam: \f1b7;
+$var-steam-square: \f1b7;
+$var-spotify: \f1bc;
+$var-deviantart: \f1bd;
+$var-soundcloud: \f1be;
+$var-vine: \f1ca;
+$var-codepen: \f1cb;
+$var-jsfiddle: \f1cc;
+$var-rebel: \f1d0;
+$var-empire: \f1d1;
+$var-square-git: \f1d2;
+$var-git-square: \f1d2;
+$var-git: \f1d3;
+$var-hacker-news: \f1d4;
+$var-tencent-weibo: \f1d5;
+$var-qq: \f1d6;
+$var-weixin: \f1d7;
+$var-slideshare: \f1e7;
+$var-twitch: \f1e8;
+$var-yelp: \f1e9;
+$var-paypal: \f1ed;
+$var-google-wallet: \f1ee;
+$var-cc-visa: \f1f0;
+$var-cc-mastercard: \f1f1;
+$var-cc-discover: \f1f2;
+$var-cc-amex: \f1f3;
+$var-cc-paypal: \f1f4;
+$var-cc-stripe: \f1f5;
+$var-lastfm: \f202;
+$var-square-lastfm: \f203;
+$var-lastfm-square: \f203;
+$var-ioxhost: \f208;
+$var-angellist: \f209;
+$var-buysellads: \f20d;
+$var-connectdevelop: \f20e;
+$var-dashcube: \f210;
+$var-forumbee: \f211;
+$var-leanpub: \f212;
+$var-sellsy: \f213;
+$var-shirtsinbulk: \f214;
+$var-simplybuilt: \f215;
+$var-skyatlas: \f216;
+$var-pinterest-p: \f231;
+$var-whatsapp: \f232;
+$var-viacoin: \f237;
+$var-medium: \f23a;
+$var-medium-m: \f23a;
+$var-y-combinator: \f23b;
+$var-optin-monster: \f23c;
+$var-opencart: \f23d;
+$var-expeditedssl: \f23e;
+$var-cc-jcb: \f24b;
+$var-cc-diners-club: \f24c;
+$var-creative-commons: \f25e;
+$var-gg: \f260;
+$var-gg-circle: \f261;
+$var-odnoklassniki: \f263;
+$var-square-odnoklassniki: \f264;
+$var-odnoklassniki-square: \f264;
+$var-get-pocket: \f265;
+$var-wikipedia-w: \f266;
+$var-safari: \f267;
+$var-chrome: \f268;
+$var-firefox: \f269;
+$var-opera: \f26a;
+$var-internet-explorer: \f26b;
+$var-contao: \f26d;
+$var-500px: \f26e;
+$var-amazon: \f270;
+$var-houzz: \f27c;
+$var-vimeo-v: \f27d;
+$var-black-tie: \f27e;
+$var-fonticons: \f280;
+$var-reddit-alien: \f281;
+$var-edge: \f282;
+$var-codiepie: \f284;
+$var-modx: \f285;
+$var-fort-awesome: \f286;
+$var-usb: \f287;
+$var-product-hunt: \f288;
+$var-mixcloud: \f289;
+$var-scribd: \f28a;
+$var-bluetooth: \f293;
+$var-bluetooth-b: \f294;
+$var-gitlab: \f296;
+$var-wpbeginner: \f297;
+$var-wpforms: \f298;
+$var-envira: \f299;
+$var-glide: \f2a5;
+$var-glide-g: \f2a6;
+$var-viadeo: \f2a9;
+$var-square-viadeo: \f2aa;
+$var-viadeo-square: \f2aa;
+$var-snapchat: \f2ab;
+$var-snapchat-ghost: \f2ab;
+$var-square-snapchat: \f2ad;
+$var-snapchat-square: \f2ad;
+$var-pied-piper: \f2ae;
+$var-first-order: \f2b0;
+$var-yoast: \f2b1;
+$var-themeisle: \f2b2;
+$var-google-plus: \f2b3;
+$var-font-awesome: \f2b4;
+$var-font-awesome-flag: \f2b4;
+$var-font-awesome-logo-full: \f2b4;
+$var-linode: \f2b8;
+$var-quora: \f2c4;
+$var-free-code-camp: \f2c5;
+$var-telegram: \f2c6;
+$var-telegram-plane: \f2c6;
+$var-bandcamp: \f2d5;
+$var-grav: \f2d6;
+$var-etsy: \f2d7;
+$var-imdb: \f2d8;
+$var-ravelry: \f2d9;
+$var-sellcast: \f2da;
+$var-superpowers: \f2dd;
+$var-wpexplorer: \f2de;
+$var-meetup: \f2e0;
+$var-square-font-awesome-stroke: \f35c;
+$var-font-awesome-alt: \f35c;
+$var-accessible-icon: \f368;
+$var-accusoft: \f369;
+$var-adversal: \f36a;
+$var-affiliatetheme: \f36b;
+$var-algolia: \f36c;
+$var-amilia: \f36d;
+$var-angrycreative: \f36e;
+$var-app-store: \f36f;
+$var-app-store-ios: \f370;
+$var-apper: \f371;
+$var-asymmetrik: \f372;
+$var-audible: \f373;
+$var-avianex: \f374;
+$var-aws: \f375;
+$var-bimobject: \f378;
+$var-bitcoin: \f379;
+$var-bity: \f37a;
+$var-blackberry: \f37b;
+$var-blogger: \f37c;
+$var-blogger-b: \f37d;
+$var-buromobelexperte: \f37f;
+$var-centercode: \f380;
+$var-cloudscale: \f383;
+$var-cloudsmith: \f384;
+$var-cloudversify: \f385;
+$var-cpanel: \f388;
+$var-css3-alt: \f38b;
+$var-cuttlefish: \f38c;
+$var-d-and-d: \f38d;
+$var-deploydog: \f38e;
+$var-deskpro: \f38f;
+$var-digital-ocean: \f391;
+$var-discord: \f392;
+$var-discourse: \f393;
+$var-dochub: \f394;
+$var-docker: \f395;
+$var-draft2digital: \f396;
+$var-square-dribbble: \f397;
+$var-dribbble-square: \f397;
+$var-dyalog: \f399;
+$var-earlybirds: \f39a;
+$var-erlang: \f39d;
+$var-facebook-f: \f39e;
+$var-facebook-messenger: \f39f;
+$var-firstdraft: \f3a1;
+$var-fonticons-fi: \f3a2;
+$var-fort-awesome-alt: \f3a3;
+$var-freebsd: \f3a4;
+$var-gitkraken: \f3a6;
+$var-gofore: \f3a7;
+$var-goodreads: \f3a8;
+$var-goodreads-g: \f3a9;
+$var-google-drive: \f3aa;
+$var-google-play: \f3ab;
+$var-gripfire: \f3ac;
+$var-grunt: \f3ad;
+$var-gulp: \f3ae;
+$var-square-hacker-news: \f3af;
+$var-hacker-news-square: \f3af;
+$var-hire-a-helper: \f3b0;
+$var-hotjar: \f3b1;
+$var-hubspot: \f3b2;
+$var-itunes: \f3b4;
+$var-itunes-note: \f3b5;
+$var-jenkins: \f3b6;
+$var-joget: \f3b7;
+$var-js: \f3b8;
+$var-square-js: \f3b9;
+$var-js-square: \f3b9;
+$var-keycdn: \f3ba;
+$var-kickstarter: \f3bb;
+$var-square-kickstarter: \f3bb;
+$var-kickstarter-k: \f3bc;
+$var-laravel: \f3bd;
+$var-line: \f3c0;
+$var-lyft: \f3c3;
+$var-magento: \f3c4;
+$var-medapps: \f3c6;
+$var-medrt: \f3c8;
+$var-microsoft: \f3ca;
+$var-mix: \f3cb;
+$var-mizuni: \f3cc;
+$var-monero: \f3d0;
+$var-napster: \f3d2;
+$var-node-js: \f3d3;
+$var-npm: \f3d4;
+$var-ns8: \f3d5;
+$var-nutritionix: \f3d6;
+$var-page4: \f3d7;
+$var-palfed: \f3d8;
+$var-patreon: \f3d9;
+$var-periscope: \f3da;
+$var-phabricator: \f3db;
+$var-phoenix-framework: \f3dc;
+$var-playstation: \f3df;
+$var-pushed: \f3e1;
+$var-python: \f3e2;
+$var-red-river: \f3e3;
+$var-wpressr: \f3e4;
+$var-rendact: \f3e4;
+$var-replyd: \f3e6;
+$var-resolving: \f3e7;
+$var-rocketchat: \f3e8;
+$var-rockrms: \f3e9;
+$var-schlix: \f3ea;
+$var-searchengin: \f3eb;
+$var-servicestack: \f3ec;
+$var-sistrix: \f3ee;
+$var-speakap: \f3f3;
+$var-staylinked: \f3f5;
+$var-steam-symbol: \f3f6;
+$var-sticker-mule: \f3f7;
+$var-studiovinari: \f3f8;
+$var-supple: \f3f9;
+$var-uber: \f402;
+$var-uikit: \f403;
+$var-uniregistry: \f404;
+$var-untappd: \f405;
+$var-ussunnah: \f407;
+$var-vaadin: \f408;
+$var-viber: \f409;
+$var-vimeo: \f40a;
+$var-vnv: \f40b;
+$var-square-whatsapp: \f40c;
+$var-whatsapp-square: \f40c;
+$var-whmcs: \f40d;
+$var-wordpress-simple: \f411;
+$var-xbox: \f412;
+$var-yandex: \f413;
+$var-yandex-international: \f414;
+$var-apple-pay: \f415;
+$var-cc-apple-pay: \f416;
+$var-fly: \f417;
+$var-node: \f419;
+$var-osi: \f41a;
+$var-react: \f41b;
+$var-autoprefixer: \f41c;
+$var-less: \f41d;
+$var-sass: \f41e;
+$var-vuejs: \f41f;
+$var-angular: \f420;
+$var-aviato: \f421;
+$var-ember: \f423;
+$var-gitter: \f426;
+$var-hooli: \f427;
+$var-strava: \f428;
+$var-stripe: \f429;
+$var-stripe-s: \f42a;
+$var-typo3: \f42b;
+$var-amazon-pay: \f42c;
+$var-cc-amazon-pay: \f42d;
+$var-ethereum: \f42e;
+$var-korvue: \f42f;
+$var-elementor: \f430;
+$var-square-youtube: \f431;
+$var-youtube-square: \f431;
+$var-flipboard: \f44d;
+$var-hips: \f452;
+$var-php: \f457;
+$var-quinscape: \f459;
+$var-readme: \f4d5;
+$var-java: \f4e4;
+$var-pied-piper-hat: \f4e5;
+$var-creative-commons-by: \f4e7;
+$var-creative-commons-nc: \f4e8;
+$var-creative-commons-nc-eu: \f4e9;
+$var-creative-commons-nc-jp: \f4ea;
+$var-creative-commons-nd: \f4eb;
+$var-creative-commons-pd: \f4ec;
+$var-creative-commons-pd-alt: \f4ed;
+$var-creative-commons-remix: \f4ee;
+$var-creative-commons-sa: \f4ef;
+$var-creative-commons-sampling: \f4f0;
+$var-creative-commons-sampling-plus: \f4f1;
+$var-creative-commons-share: \f4f2;
+$var-creative-commons-zero: \f4f3;
+$var-ebay: \f4f4;
+$var-keybase: \f4f5;
+$var-mastodon: \f4f6;
+$var-r-project: \f4f7;
+$var-researchgate: \f4f8;
+$var-teamspeak: \f4f9;
+$var-first-order-alt: \f50a;
+$var-fulcrum: \f50b;
+$var-galactic-republic: \f50c;
+$var-galactic-senate: \f50d;
+$var-jedi-order: \f50e;
+$var-mandalorian: \f50f;
+$var-old-republic: \f510;
+$var-phoenix-squadron: \f511;
+$var-sith: \f512;
+$var-trade-federation: \f513;
+$var-wolf-pack-battalion: \f514;
+$var-hornbill: \f592;
+$var-mailchimp: \f59e;
+$var-megaport: \f5a3;
+$var-nimblr: \f5a8;
+$var-rev: \f5b2;
+$var-shopware: \f5b5;
+$var-squarespace: \f5be;
+$var-themeco: \f5c6;
+$var-weebly: \f5cc;
+$var-wix: \f5cf;
+$var-ello: \f5f1;
+$var-hackerrank: \f5f7;
+$var-kaggle: \f5fa;
+$var-markdown: \f60f;
+$var-neos: \f612;
+$var-zhihu: \f63f;
+$var-alipay: \f642;
+$var-the-red-yeti: \f69d;
+$var-critical-role: \f6c9;
+$var-d-and-d-beyond: \f6ca;
+$var-dev: \f6cc;
+$var-fantasy-flight-games: \f6dc;
+$var-wizards-of-the-coast: \f730;
+$var-think-peaks: \f731;
+$var-reacteurope: \f75d;
+$var-artstation: \f77a;
+$var-atlassian: \f77b;
+$var-canadian-maple-leaf: \f785;
+$var-centos: \f789;
+$var-confluence: \f78d;
+$var-dhl: \f790;
+$var-diaspora: \f791;
+$var-fedex: \f797;
+$var-fedora: \f798;
+$var-figma: \f799;
+$var-intercom: \f7af;
+$var-invision: \f7b0;
+$var-jira: \f7b1;
+$var-mendeley: \f7b3;
+$var-raspberry-pi: \f7bb;
+$var-redhat: \f7bc;
+$var-sketch: \f7c6;
+$var-sourcetree: \f7d3;
+$var-suse: \f7d6;
+$var-ubuntu: \f7df;
+$var-ups: \f7e0;
+$var-usps: \f7e1;
+$var-yarn: \f7e3;
+$var-airbnb: \f834;
+$var-battle-net: \f835;
+$var-bootstrap: \f836;
+$var-buffer: \f837;
+$var-chromecast: \f838;
+$var-evernote: \f839;
+$var-itch-io: \f83a;
+$var-salesforce: \f83b;
+$var-speaker-deck: \f83c;
+$var-symfony: \f83d;
+$var-waze: \f83f;
+$var-yammer: \f840;
+$var-git-alt: \f841;
+$var-stackpath: \f842;
+$var-cotton-bureau: \f89e;
+$var-buy-n-large: \f8a6;
+$var-mdb: \f8ca;
+$var-orcid: \f8d2;
+$var-swift: \f8e1;
+$var-umbraco: \f8e8;
+
+$icons: (
+  "0": $var-0,
+  "1": $var-1,
+  "2": $var-2,
+  "3": $var-3,
+  "4": $var-4,
+  "5": $var-5,
+  "6": $var-6,
+  "7": $var-7,
+  "8": $var-8,
+  "9": $var-9,
+  "exclamation": $var-exclamation,
+  "hashtag": $var-hashtag,
+  "dollar-sign": $var-dollar-sign,
+  "dollar": $var-dollar,
+  "usd": $var-usd,
+  "percent": $var-percent,
+  "percentage": $var-percentage,
+  "asterisk": $var-asterisk,
+  "plus": $var-plus,
+  "add": $var-add,
+  "less-than": $var-less-than,
+  "equals": $var-equals,
+  "greater-than": $var-greater-than,
+  "question": $var-question,
+  "at": $var-at,
+  "a": $var-a,
+  "b": $var-b,
+  "c": $var-c,
+  "d": $var-d,
+  "e": $var-e,
+  "f": $var-f,
+  "g": $var-g,
+  "h": $var-h,
+  "i": $var-i,
+  "j": $var-j,
+  "k": $var-k,
+  "l": $var-l,
+  "m": $var-m,
+  "n": $var-n,
+  "o": $var-o,
+  "p": $var-p,
+  "q": $var-q,
+  "r": $var-r,
+  "s": $var-s,
+  "t": $var-t,
+  "u": $var-u,
+  "v": $var-v,
+  "w": $var-w,
+  "x": $var-x,
+  "y": $var-y,
+  "z": $var-z,
+  "faucet": $var-faucet,
+  "faucet-drip": $var-faucet-drip,
+  "house-chimney-window": $var-house-chimney-window,
+  "house-signal": $var-house-signal,
+  "temperature-arrow-down": $var-temperature-arrow-down,
+  "temperature-down": $var-temperature-down,
+  "temperature-arrow-up": $var-temperature-arrow-up,
+  "temperature-up": $var-temperature-up,
+  "trailer": $var-trailer,
+  "bacteria": $var-bacteria,
+  "bacterium": $var-bacterium,
+  "box-tissue": $var-box-tissue,
+  "hand-holding-medical": $var-hand-holding-medical,
+  "hand-sparkles": $var-hand-sparkles,
+  "hands-bubbles": $var-hands-bubbles,
+  "hands-wash": $var-hands-wash,
+  "handshake-slash": $var-handshake-slash,
+  "handshake-alt-slash": $var-handshake-alt-slash,
+  "handshake-simple-slash": $var-handshake-simple-slash,
+  "head-side-cough": $var-head-side-cough,
+  "head-side-cough-slash": $var-head-side-cough-slash,
+  "head-side-mask": $var-head-side-mask,
+  "head-side-virus": $var-head-side-virus,
+  "house-chimney-user": $var-house-chimney-user,
+  "house-laptop": $var-house-laptop,
+  "laptop-house": $var-laptop-house,
+  "lungs-virus": $var-lungs-virus,
+  "people-arrows": $var-people-arrows,
+  "people-arrows-left-right": $var-people-arrows-left-right,
+  "plane-slash": $var-plane-slash,
+  "pump-medical": $var-pump-medical,
+  "pump-soap": $var-pump-soap,
+  "shield-virus": $var-shield-virus,
+  "sink": $var-sink,
+  "soap": $var-soap,
+  "stopwatch-20": $var-stopwatch-20,
+  "shop-slash": $var-shop-slash,
+  "store-alt-slash": $var-store-alt-slash,
+  "store-slash": $var-store-slash,
+  "toilet-paper-slash": $var-toilet-paper-slash,
+  "users-slash": $var-users-slash,
+  "virus": $var-virus,
+  "virus-slash": $var-virus-slash,
+  "viruses": $var-viruses,
+  "vest": $var-vest,
+  "vest-patches": $var-vest-patches,
+  "arrow-trend-down": $var-arrow-trend-down,
+  "arrow-trend-up": $var-arrow-trend-up,
+  "arrow-up-from-bracket": $var-arrow-up-from-bracket,
+  "austral-sign": $var-austral-sign,
+  "baht-sign": $var-baht-sign,
+  "bitcoin-sign": $var-bitcoin-sign,
+  "bolt-lightning": $var-bolt-lightning,
+  "book-bookmark": $var-book-bookmark,
+  "camera-rotate": $var-camera-rotate,
+  "cedi-sign": $var-cedi-sign,
+  "chart-column": $var-chart-column,
+  "chart-gantt": $var-chart-gantt,
+  "clapperboard": $var-clapperboard,
+  "clover": $var-clover,
+  "code-compare": $var-code-compare,
+  "code-fork": $var-code-fork,
+  "code-pull-request": $var-code-pull-request,
+  "colon-sign": $var-colon-sign,
+  "cruzeiro-sign": $var-cruzeiro-sign,
+  "display": $var-display,
+  "dong-sign": $var-dong-sign,
+  "elevator": $var-elevator,
+  "filter-circle-xmark": $var-filter-circle-xmark,
+  "florin-sign": $var-florin-sign,
+  "folder-closed": $var-folder-closed,
+  "franc-sign": $var-franc-sign,
+  "guarani-sign": $var-guarani-sign,
+  "gun": $var-gun,
+  "hands-clapping": $var-hands-clapping,
+  "house-user": $var-house-user,
+  "home-user": $var-home-user,
+  "indian-rupee-sign": $var-indian-rupee-sign,
+  "indian-rupee": $var-indian-rupee,
+  "inr": $var-inr,
+  "kip-sign": $var-kip-sign,
+  "lari-sign": $var-lari-sign,
+  "litecoin-sign": $var-litecoin-sign,
+  "manat-sign": $var-manat-sign,
+  "mask-face": $var-mask-face,
+  "mill-sign": $var-mill-sign,
+  "money-bills": $var-money-bills,
+  "naira-sign": $var-naira-sign,
+  "notdef": $var-notdef,
+  "panorama": $var-panorama,
+  "peseta-sign": $var-peseta-sign,
+  "peso-sign": $var-peso-sign,
+  "plane-up": $var-plane-up,
+  "rupiah-sign": $var-rupiah-sign,
+  "stairs": $var-stairs,
+  "timeline": $var-timeline,
+  "truck-front": $var-truck-front,
+  "turkish-lira-sign": $var-turkish-lira-sign,
+  "try": $var-try,
+  "turkish-lira": $var-turkish-lira,
+  "vault": $var-vault,
+  "wand-magic-sparkles": $var-wand-magic-sparkles,
+  "magic-wand-sparkles": $var-magic-wand-sparkles,
+  "wheat-awn": $var-wheat-awn,
+  "wheat-alt": $var-wheat-alt,
+  "wheelchair-move": $var-wheelchair-move,
+  "wheelchair-alt": $var-wheelchair-alt,
+  "bangladeshi-taka-sign": $var-bangladeshi-taka-sign,
+  "bowl-rice": $var-bowl-rice,
+  "person-pregnant": $var-person-pregnant,
+  "house-chimney": $var-house-chimney,
+  "home-lg": $var-home-lg,
+  "house-crack": $var-house-crack,
+  "house-medical": $var-house-medical,
+  "cent-sign": $var-cent-sign,
+  "plus-minus": $var-plus-minus,
+  "sailboat": $var-sailboat,
+  "section": $var-section,
+  "shrimp": $var-shrimp,
+  "brazilian-real-sign": $var-brazilian-real-sign,
+  "chart-simple": $var-chart-simple,
+  "diagram-next": $var-diagram-next,
+  "diagram-predecessor": $var-diagram-predecessor,
+  "diagram-successor": $var-diagram-successor,
+  "earth-oceania": $var-earth-oceania,
+  "globe-oceania": $var-globe-oceania,
+  "bug-slash": $var-bug-slash,
+  "file-circle-plus": $var-file-circle-plus,
+  "shop-lock": $var-shop-lock,
+  "virus-covid": $var-virus-covid,
+  "virus-covid-slash": $var-virus-covid-slash,
+  "anchor-circle-check": $var-anchor-circle-check,
+  "anchor-circle-exclamation": $var-anchor-circle-exclamation,
+  "anchor-circle-xmark": $var-anchor-circle-xmark,
+  "anchor-lock": $var-anchor-lock,
+  "arrow-down-up-across-line": $var-arrow-down-up-across-line,
+  "arrow-down-up-lock": $var-arrow-down-up-lock,
+  "arrow-right-to-city": $var-arrow-right-to-city,
+  "arrow-up-from-ground-water": $var-arrow-up-from-ground-water,
+  "arrow-up-from-water-pump": $var-arrow-up-from-water-pump,
+  "arrow-up-right-dots": $var-arrow-up-right-dots,
+  "arrows-down-to-line": $var-arrows-down-to-line,
+  "arrows-down-to-people": $var-arrows-down-to-people,
+  "arrows-left-right-to-line": $var-arrows-left-right-to-line,
+  "arrows-spin": $var-arrows-spin,
+  "arrows-split-up-and-left": $var-arrows-split-up-and-left,
+  "arrows-to-circle": $var-arrows-to-circle,
+  "arrows-to-dot": $var-arrows-to-dot,
+  "arrows-to-eye": $var-arrows-to-eye,
+  "arrows-turn-right": $var-arrows-turn-right,
+  "arrows-turn-to-dots": $var-arrows-turn-to-dots,
+  "arrows-up-to-line": $var-arrows-up-to-line,
+  "bore-hole": $var-bore-hole,
+  "bottle-droplet": $var-bottle-droplet,
+  "bottle-water": $var-bottle-water,
+  "bowl-food": $var-bowl-food,
+  "boxes-packing": $var-boxes-packing,
+  "bridge": $var-bridge,
+  "bridge-circle-check": $var-bridge-circle-check,
+  "bridge-circle-exclamation": $var-bridge-circle-exclamation,
+  "bridge-circle-xmark": $var-bridge-circle-xmark,
+  "bridge-lock": $var-bridge-lock,
+  "bridge-water": $var-bridge-water,
+  "bucket": $var-bucket,
+  "bugs": $var-bugs,
+  "building-circle-arrow-right": $var-building-circle-arrow-right,
+  "building-circle-check": $var-building-circle-check,
+  "building-circle-exclamation": $var-building-circle-exclamation,
+  "building-circle-xmark": $var-building-circle-xmark,
+  "building-flag": $var-building-flag,
+  "building-lock": $var-building-lock,
+  "building-ngo": $var-building-ngo,
+  "building-shield": $var-building-shield,
+  "building-un": $var-building-un,
+  "building-user": $var-building-user,
+  "building-wheat": $var-building-wheat,
+  "burst": $var-burst,
+  "car-on": $var-car-on,
+  "car-tunnel": $var-car-tunnel,
+  "child-combatant": $var-child-combatant,
+  "child-rifle": $var-child-rifle,
+  "children": $var-children,
+  "circle-nodes": $var-circle-nodes,
+  "clipboard-question": $var-clipboard-question,
+  "cloud-showers-water": $var-cloud-showers-water,
+  "computer": $var-computer,
+  "cubes-stacked": $var-cubes-stacked,
+  "envelope-circle-check": $var-envelope-circle-check,
+  "explosion": $var-explosion,
+  "ferry": $var-ferry,
+  "file-circle-exclamation": $var-file-circle-exclamation,
+  "file-circle-minus": $var-file-circle-minus,
+  "file-circle-question": $var-file-circle-question,
+  "file-shield": $var-file-shield,
+  "fire-burner": $var-fire-burner,
+  "fish-fins": $var-fish-fins,
+  "flask-vial": $var-flask-vial,
+  "glass-water": $var-glass-water,
+  "glass-water-droplet": $var-glass-water-droplet,
+  "group-arrows-rotate": $var-group-arrows-rotate,
+  "hand-holding-hand": $var-hand-holding-hand,
+  "handcuffs": $var-handcuffs,
+  "hands-bound": $var-hands-bound,
+  "hands-holding-child": $var-hands-holding-child,
+  "hands-holding-circle": $var-hands-holding-circle,
+  "heart-circle-bolt": $var-heart-circle-bolt,
+  "heart-circle-check": $var-heart-circle-check,
+  "heart-circle-exclamation": $var-heart-circle-exclamation,
+  "heart-circle-minus": $var-heart-circle-minus,
+  "heart-circle-plus": $var-heart-circle-plus,
+  "heart-circle-xmark": $var-heart-circle-xmark,
+  "helicopter-symbol": $var-helicopter-symbol,
+  "helmet-un": $var-helmet-un,
+  "hill-avalanche": $var-hill-avalanche,
+  "hill-rockslide": $var-hill-rockslide,
+  "house-circle-check": $var-house-circle-check,
+  "house-circle-exclamation": $var-house-circle-exclamation,
+  "house-circle-xmark": $var-house-circle-xmark,
+  "house-fire": $var-house-fire,
+  "house-flag": $var-house-flag,
+  "house-flood-water": $var-house-flood-water,
+  "house-flood-water-circle-arrow-right": $var-house-flood-water-circle-arrow-right,
+  "house-lock": $var-house-lock,
+  "house-medical-circle-check": $var-house-medical-circle-check,
+  "house-medical-circle-exclamation": $var-house-medical-circle-exclamation,
+  "house-medical-circle-xmark": $var-house-medical-circle-xmark,
+  "house-medical-flag": $var-house-medical-flag,
+  "house-tsunami": $var-house-tsunami,
+  "jar": $var-jar,
+  "jar-wheat": $var-jar-wheat,
+  "jet-fighter-up": $var-jet-fighter-up,
+  "jug-detergent": $var-jug-detergent,
+  "kitchen-set": $var-kitchen-set,
+  "land-mine-on": $var-land-mine-on,
+  "landmark-flag": $var-landmark-flag,
+  "laptop-file": $var-laptop-file,
+  "lines-leaning": $var-lines-leaning,
+  "location-pin-lock": $var-location-pin-lock,
+  "locust": $var-locust,
+  "magnifying-glass-arrow-right": $var-magnifying-glass-arrow-right,
+  "magnifying-glass-chart": $var-magnifying-glass-chart,
+  "mars-and-venus-burst": $var-mars-and-venus-burst,
+  "mask-ventilator": $var-mask-ventilator,
+  "mattress-pillow": $var-mattress-pillow,
+  "mobile-retro": $var-mobile-retro,
+  "money-bill-transfer": $var-money-bill-transfer,
+  "money-bill-trend-up": $var-money-bill-trend-up,
+  "money-bill-wheat": $var-money-bill-wheat,
+  "mosquito": $var-mosquito,
+  "mosquito-net": $var-mosquito-net,
+  "mound": $var-mound,
+  "mountain-city": $var-mountain-city,
+  "mountain-sun": $var-mountain-sun,
+  "oil-well": $var-oil-well,
+  "people-group": $var-people-group,
+  "people-line": $var-people-line,
+  "people-pulling": $var-people-pulling,
+  "people-robbery": $var-people-robbery,
+  "people-roof": $var-people-roof,
+  "person-arrow-down-to-line": $var-person-arrow-down-to-line,
+  "person-arrow-up-from-line": $var-person-arrow-up-from-line,
+  "person-breastfeeding": $var-person-breastfeeding,
+  "person-burst": $var-person-burst,
+  "person-cane": $var-person-cane,
+  "person-chalkboard": $var-person-chalkboard,
+  "person-circle-check": $var-person-circle-check,
+  "person-circle-exclamation": $var-person-circle-exclamation,
+  "person-circle-minus": $var-person-circle-minus,
+  "person-circle-plus": $var-person-circle-plus,
+  "person-circle-question": $var-person-circle-question,
+  "person-circle-xmark": $var-person-circle-xmark,
+  "person-dress-burst": $var-person-dress-burst,
+  "person-drowning": $var-person-drowning,
+  "person-falling": $var-person-falling,
+  "person-falling-burst": $var-person-falling-burst,
+  "person-half-dress": $var-person-half-dress,
+  "person-harassing": $var-person-harassing,
+  "person-military-pointing": $var-person-military-pointing,
+  "person-military-rifle": $var-person-military-rifle,
+  "person-military-to-person": $var-person-military-to-person,
+  "person-rays": $var-person-rays,
+  "person-rifle": $var-person-rifle,
+  "person-shelter": $var-person-shelter,
+  "person-walking-arrow-loop-left": $var-person-walking-arrow-loop-left,
+  "person-walking-arrow-right": $var-person-walking-arrow-right,
+  "person-walking-dashed-line-arrow-right": $var-person-walking-dashed-line-arrow-right,
+  "person-walking-luggage": $var-person-walking-luggage,
+  "plane-circle-check": $var-plane-circle-check,
+  "plane-circle-exclamation": $var-plane-circle-exclamation,
+  "plane-circle-xmark": $var-plane-circle-xmark,
+  "plane-lock": $var-plane-lock,
+  "plate-wheat": $var-plate-wheat,
+  "plug-circle-bolt": $var-plug-circle-bolt,
+  "plug-circle-check": $var-plug-circle-check,
+  "plug-circle-exclamation": $var-plug-circle-exclamation,
+  "plug-circle-minus": $var-plug-circle-minus,
+  "plug-circle-plus": $var-plug-circle-plus,
+  "plug-circle-xmark": $var-plug-circle-xmark,
+  "ranking-star": $var-ranking-star,
+  "road-barrier": $var-road-barrier,
+  "road-bridge": $var-road-bridge,
+  "road-circle-check": $var-road-circle-check,
+  "road-circle-exclamation": $var-road-circle-exclamation,
+  "road-circle-xmark": $var-road-circle-xmark,
+  "road-lock": $var-road-lock,
+  "road-spikes": $var-road-spikes,
+  "rug": $var-rug,
+  "sack-xmark": $var-sack-xmark,
+  "school-circle-check": $var-school-circle-check,
+  "school-circle-exclamation": $var-school-circle-exclamation,
+  "school-circle-xmark": $var-school-circle-xmark,
+  "school-flag": $var-school-flag,
+  "school-lock": $var-school-lock,
+  "sheet-plastic": $var-sheet-plastic,
+  "shield-cat": $var-shield-cat,
+  "shield-dog": $var-shield-dog,
+  "shield-heart": $var-shield-heart,
+  "square-nfi": $var-square-nfi,
+  "square-person-confined": $var-square-person-confined,
+  "square-virus": $var-square-virus,
+  "staff-snake": $var-staff-snake,
+  "rod-asclepius": $var-rod-asclepius,
+  "rod-snake": $var-rod-snake,
+  "staff-aesculapius": $var-staff-aesculapius,
+  "sun-plant-wilt": $var-sun-plant-wilt,
+  "tarp": $var-tarp,
+  "tarp-droplet": $var-tarp-droplet,
+  "tent": $var-tent,
+  "tent-arrow-down-to-line": $var-tent-arrow-down-to-line,
+  "tent-arrow-left-right": $var-tent-arrow-left-right,
+  "tent-arrow-turn-left": $var-tent-arrow-turn-left,
+  "tent-arrows-down": $var-tent-arrows-down,
+  "tents": $var-tents,
+  "toilet-portable": $var-toilet-portable,
+  "toilets-portable": $var-toilets-portable,
+  "tower-cell": $var-tower-cell,
+  "tower-observation": $var-tower-observation,
+  "tree-city": $var-tree-city,
+  "trowel": $var-trowel,
+  "trowel-bricks": $var-trowel-bricks,
+  "truck-arrow-right": $var-truck-arrow-right,
+  "truck-droplet": $var-truck-droplet,
+  "truck-field": $var-truck-field,
+  "truck-field-un": $var-truck-field-un,
+  "truck-plane": $var-truck-plane,
+  "users-between-lines": $var-users-between-lines,
+  "users-line": $var-users-line,
+  "users-rays": $var-users-rays,
+  "users-rectangle": $var-users-rectangle,
+  "users-viewfinder": $var-users-viewfinder,
+  "vial-circle-check": $var-vial-circle-check,
+  "vial-virus": $var-vial-virus,
+  "wheat-awn-circle-exclamation": $var-wheat-awn-circle-exclamation,
+  "worm": $var-worm,
+  "xmarks-lines": $var-xmarks-lines,
+  "child-dress": $var-child-dress,
+  "child-reaching": $var-child-reaching,
+  "file-circle-check": $var-file-circle-check,
+  "file-circle-xmark": $var-file-circle-xmark,
+  "person-through-window": $var-person-through-window,
+  "plant-wilt": $var-plant-wilt,
+  "stapler": $var-stapler,
+  "train-tram": $var-train-tram,
+  "table-cells-column-lock": $var-table-cells-column-lock,
+  "table-cells-row-lock": $var-table-cells-row-lock,
+  "web-awesome": $var-web-awesome,
+  "thumbtack-slash": $var-thumbtack-slash,
+  "thumb-tack-slash": $var-thumb-tack-slash,
+  "table-cells-row-unlock": $var-table-cells-row-unlock,
+  "chart-diagram": $var-chart-diagram,
+  "comment-nodes": $var-comment-nodes,
+  "file-fragment": $var-file-fragment,
+  "file-half-dashed": $var-file-half-dashed,
+  "hexagon-nodes": $var-hexagon-nodes,
+  "hexagon-nodes-bolt": $var-hexagon-nodes-bolt,
+  "square-binary": $var-square-binary,
+  "pentagon": $var-pentagon,
+  "non-binary": $var-non-binary,
+  "spiral": $var-spiral,
+  "mobile-vibrate": $var-mobile-vibrate,
+  "single-quote-left": $var-single-quote-left,
+  "single-quote-right": $var-single-quote-right,
+  "bus-side": $var-bus-side,
+  "septagon": $var-septagon,
+  "heptagon": $var-heptagon,
+  "martini-glass-empty": $var-martini-glass-empty,
+  "glass-martini": $var-glass-martini,
+  "music": $var-music,
+  "magnifying-glass": $var-magnifying-glass,
+  "search": $var-search,
+  "heart": $var-heart,
+  "star": $var-star,
+  "user": $var-user,
+  "user-alt": $var-user-alt,
+  "user-large": $var-user-large,
+  "film": $var-film,
+  "film-alt": $var-film-alt,
+  "film-simple": $var-film-simple,
+  "table-cells-large": $var-table-cells-large,
+  "th-large": $var-th-large,
+  "table-cells": $var-table-cells,
+  "th": $var-th,
+  "table-list": $var-table-list,
+  "th-list": $var-th-list,
+  "check": $var-check,
+  "xmark": $var-xmark,
+  "close": $var-close,
+  "multiply": $var-multiply,
+  "remove": $var-remove,
+  "times": $var-times,
+  "magnifying-glass-plus": $var-magnifying-glass-plus,
+  "search-plus": $var-search-plus,
+  "magnifying-glass-minus": $var-magnifying-glass-minus,
+  "search-minus": $var-search-minus,
+  "power-off": $var-power-off,
+  "signal": $var-signal,
+  "signal-5": $var-signal-5,
+  "signal-perfect": $var-signal-perfect,
+  "gear": $var-gear,
+  "cog": $var-cog,
+  "house": $var-house,
+  "home": $var-home,
+  "home-alt": $var-home-alt,
+  "home-lg-alt": $var-home-lg-alt,
+  "clock": $var-clock,
+  "clock-four": $var-clock-four,
+  "road": $var-road,
+  "download": $var-download,
+  "inbox": $var-inbox,
+  "arrow-rotate-right": $var-arrow-rotate-right,
+  "arrow-right-rotate": $var-arrow-right-rotate,
+  "arrow-rotate-forward": $var-arrow-rotate-forward,
+  "redo": $var-redo,
+  "arrows-rotate": $var-arrows-rotate,
+  "refresh": $var-refresh,
+  "sync": $var-sync,
+  "rectangle-list": $var-rectangle-list,
+  "list-alt": $var-list-alt,
+  "lock": $var-lock,
+  "flag": $var-flag,
+  "headphones": $var-headphones,
+  "headphones-alt": $var-headphones-alt,
+  "headphones-simple": $var-headphones-simple,
+  "volume-off": $var-volume-off,
+  "volume-low": $var-volume-low,
+  "volume-down": $var-volume-down,
+  "volume-high": $var-volume-high,
+  "volume-up": $var-volume-up,
+  "qrcode": $var-qrcode,
+  "barcode": $var-barcode,
+  "tag": $var-tag,
+  "tags": $var-tags,
+  "book": $var-book,
+  "bookmark": $var-bookmark,
+  "print": $var-print,
+  "camera": $var-camera,
+  "camera-alt": $var-camera-alt,
+  "font": $var-font,
+  "bold": $var-bold,
+  "italic": $var-italic,
+  "text-height": $var-text-height,
+  "text-width": $var-text-width,
+  "align-left": $var-align-left,
+  "align-center": $var-align-center,
+  "align-right": $var-align-right,
+  "align-justify": $var-align-justify,
+  "list": $var-list,
+  "list-squares": $var-list-squares,
+  "outdent": $var-outdent,
+  "dedent": $var-dedent,
+  "indent": $var-indent,
+  "video": $var-video,
+  "video-camera": $var-video-camera,
+  "image": $var-image,
+  "location-pin": $var-location-pin,
+  "map-marker": $var-map-marker,
+  "circle-half-stroke": $var-circle-half-stroke,
+  "adjust": $var-adjust,
+  "droplet": $var-droplet,
+  "tint": $var-tint,
+  "pen-to-square": $var-pen-to-square,
+  "edit": $var-edit,
+  "arrows-up-down-left-right": $var-arrows-up-down-left-right,
+  "arrows": $var-arrows,
+  "backward-step": $var-backward-step,
+  "step-backward": $var-step-backward,
+  "backward-fast": $var-backward-fast,
+  "fast-backward": $var-fast-backward,
+  "backward": $var-backward,
+  "play": $var-play,
+  "pause": $var-pause,
+  "stop": $var-stop,
+  "forward": $var-forward,
+  "forward-fast": $var-forward-fast,
+  "fast-forward": $var-fast-forward,
+  "forward-step": $var-forward-step,
+  "step-forward": $var-step-forward,
+  "eject": $var-eject,
+  "chevron-left": $var-chevron-left,
+  "chevron-right": $var-chevron-right,
+  "circle-plus": $var-circle-plus,
+  "plus-circle": $var-plus-circle,
+  "circle-minus": $var-circle-minus,
+  "minus-circle": $var-minus-circle,
+  "circle-xmark": $var-circle-xmark,
+  "times-circle": $var-times-circle,
+  "xmark-circle": $var-xmark-circle,
+  "circle-check": $var-circle-check,
+  "check-circle": $var-check-circle,
+  "circle-question": $var-circle-question,
+  "question-circle": $var-question-circle,
+  "circle-info": $var-circle-info,
+  "info-circle": $var-info-circle,
+  "crosshairs": $var-crosshairs,
+  "ban": $var-ban,
+  "cancel": $var-cancel,
+  "arrow-left": $var-arrow-left,
+  "arrow-right": $var-arrow-right,
+  "arrow-up": $var-arrow-up,
+  "arrow-down": $var-arrow-down,
+  "share": $var-share,
+  "mail-forward": $var-mail-forward,
+  "expand": $var-expand,
+  "compress": $var-compress,
+  "minus": $var-minus,
+  "subtract": $var-subtract,
+  "circle-exclamation": $var-circle-exclamation,
+  "exclamation-circle": $var-exclamation-circle,
+  "gift": $var-gift,
+  "leaf": $var-leaf,
+  "fire": $var-fire,
+  "eye": $var-eye,
+  "eye-slash": $var-eye-slash,
+  "triangle-exclamation": $var-triangle-exclamation,
+  "exclamation-triangle": $var-exclamation-triangle,
+  "warning": $var-warning,
+  "plane": $var-plane,
+  "calendar-days": $var-calendar-days,
+  "calendar-alt": $var-calendar-alt,
+  "shuffle": $var-shuffle,
+  "random": $var-random,
+  "comment": $var-comment,
+  "magnet": $var-magnet,
+  "chevron-up": $var-chevron-up,
+  "chevron-down": $var-chevron-down,
+  "retweet": $var-retweet,
+  "cart-shopping": $var-cart-shopping,
+  "shopping-cart": $var-shopping-cart,
+  "folder": $var-folder,
+  "folder-blank": $var-folder-blank,
+  "folder-open": $var-folder-open,
+  "arrows-up-down": $var-arrows-up-down,
+  "arrows-v": $var-arrows-v,
+  "arrows-left-right": $var-arrows-left-right,
+  "arrows-h": $var-arrows-h,
+  "chart-bar": $var-chart-bar,
+  "bar-chart": $var-bar-chart,
+  "camera-retro": $var-camera-retro,
+  "key": $var-key,
+  "gears": $var-gears,
+  "cogs": $var-cogs,
+  "comments": $var-comments,
+  "star-half": $var-star-half,
+  "arrow-right-from-bracket": $var-arrow-right-from-bracket,
+  "sign-out": $var-sign-out,
+  "thumbtack": $var-thumbtack,
+  "thumb-tack": $var-thumb-tack,
+  "arrow-up-right-from-square": $var-arrow-up-right-from-square,
+  "external-link": $var-external-link,
+  "arrow-right-to-bracket": $var-arrow-right-to-bracket,
+  "sign-in": $var-sign-in,
+  "trophy": $var-trophy,
+  "upload": $var-upload,
+  "lemon": $var-lemon,
+  "phone": $var-phone,
+  "square-phone": $var-square-phone,
+  "phone-square": $var-phone-square,
+  "unlock": $var-unlock,
+  "credit-card": $var-credit-card,
+  "credit-card-alt": $var-credit-card-alt,
+  "rss": $var-rss,
+  "feed": $var-feed,
+  "hard-drive": $var-hard-drive,
+  "hdd": $var-hdd,
+  "bullhorn": $var-bullhorn,
+  "certificate": $var-certificate,
+  "hand-point-right": $var-hand-point-right,
+  "hand-point-left": $var-hand-point-left,
+  "hand-point-up": $var-hand-point-up,
+  "hand-point-down": $var-hand-point-down,
+  "circle-arrow-left": $var-circle-arrow-left,
+  "arrow-circle-left": $var-arrow-circle-left,
+  "circle-arrow-right": $var-circle-arrow-right,
+  "arrow-circle-right": $var-arrow-circle-right,
+  "circle-arrow-up": $var-circle-arrow-up,
+  "arrow-circle-up": $var-arrow-circle-up,
+  "circle-arrow-down": $var-circle-arrow-down,
+  "arrow-circle-down": $var-arrow-circle-down,
+  "globe": $var-globe,
+  "wrench": $var-wrench,
+  "list-check": $var-list-check,
+  "tasks": $var-tasks,
+  "filter": $var-filter,
+  "briefcase": $var-briefcase,
+  "up-down-left-right": $var-up-down-left-right,
+  "arrows-alt": $var-arrows-alt,
+  "users": $var-users,
+  "link": $var-link,
+  "chain": $var-chain,
+  "cloud": $var-cloud,
+  "flask": $var-flask,
+  "scissors": $var-scissors,
+  "cut": $var-cut,
+  "copy": $var-copy,
+  "paperclip": $var-paperclip,
+  "floppy-disk": $var-floppy-disk,
+  "save": $var-save,
+  "square": $var-square,
+  "bars": $var-bars,
+  "navicon": $var-navicon,
+  "list-ul": $var-list-ul,
+  "list-dots": $var-list-dots,
+  "list-ol": $var-list-ol,
+  "list-1-2": $var-list-1-2,
+  "list-numeric": $var-list-numeric,
+  "strikethrough": $var-strikethrough,
+  "underline": $var-underline,
+  "table": $var-table,
+  "wand-magic": $var-wand-magic,
+  "magic": $var-magic,
+  "truck": $var-truck,
+  "money-bill": $var-money-bill,
+  "caret-down": $var-caret-down,
+  "caret-up": $var-caret-up,
+  "caret-left": $var-caret-left,
+  "caret-right": $var-caret-right,
+  "table-columns": $var-table-columns,
+  "columns": $var-columns,
+  "sort": $var-sort,
+  "unsorted": $var-unsorted,
+  "sort-down": $var-sort-down,
+  "sort-desc": $var-sort-desc,
+  "sort-up": $var-sort-up,
+  "sort-asc": $var-sort-asc,
+  "envelope": $var-envelope,
+  "arrow-rotate-left": $var-arrow-rotate-left,
+  "arrow-left-rotate": $var-arrow-left-rotate,
+  "arrow-rotate-back": $var-arrow-rotate-back,
+  "arrow-rotate-backward": $var-arrow-rotate-backward,
+  "undo": $var-undo,
+  "gavel": $var-gavel,
+  "legal": $var-legal,
+  "bolt": $var-bolt,
+  "zap": $var-zap,
+  "sitemap": $var-sitemap,
+  "umbrella": $var-umbrella,
+  "paste": $var-paste,
+  "file-clipboard": $var-file-clipboard,
+  "lightbulb": $var-lightbulb,
+  "arrow-right-arrow-left": $var-arrow-right-arrow-left,
+  "exchange": $var-exchange,
+  "cloud-arrow-down": $var-cloud-arrow-down,
+  "cloud-download": $var-cloud-download,
+  "cloud-download-alt": $var-cloud-download-alt,
+  "cloud-arrow-up": $var-cloud-arrow-up,
+  "cloud-upload": $var-cloud-upload,
+  "cloud-upload-alt": $var-cloud-upload-alt,
+  "user-doctor": $var-user-doctor,
+  "user-md": $var-user-md,
+  "stethoscope": $var-stethoscope,
+  "suitcase": $var-suitcase,
+  "bell": $var-bell,
+  "mug-saucer": $var-mug-saucer,
+  "coffee": $var-coffee,
+  "hospital": $var-hospital,
+  "hospital-alt": $var-hospital-alt,
+  "hospital-wide": $var-hospital-wide,
+  "truck-medical": $var-truck-medical,
+  "ambulance": $var-ambulance,
+  "suitcase-medical": $var-suitcase-medical,
+  "medkit": $var-medkit,
+  "jet-fighter": $var-jet-fighter,
+  "fighter-jet": $var-fighter-jet,
+  "beer-mug-empty": $var-beer-mug-empty,
+  "beer": $var-beer,
+  "square-h": $var-square-h,
+  "h-square": $var-h-square,
+  "square-plus": $var-square-plus,
+  "plus-square": $var-plus-square,
+  "angles-left": $var-angles-left,
+  "angle-double-left": $var-angle-double-left,
+  "angles-right": $var-angles-right,
+  "angle-double-right": $var-angle-double-right,
+  "angles-up": $var-angles-up,
+  "angle-double-up": $var-angle-double-up,
+  "angles-down": $var-angles-down,
+  "angle-double-down": $var-angle-double-down,
+  "angle-left": $var-angle-left,
+  "angle-right": $var-angle-right,
+  "angle-up": $var-angle-up,
+  "angle-down": $var-angle-down,
+  "laptop": $var-laptop,
+  "tablet-button": $var-tablet-button,
+  "mobile-button": $var-mobile-button,
+  "quote-left": $var-quote-left,
+  "quote-left-alt": $var-quote-left-alt,
+  "quote-right": $var-quote-right,
+  "quote-right-alt": $var-quote-right-alt,
+  "spinner": $var-spinner,
+  "circle": $var-circle,
+  "face-smile": $var-face-smile,
+  "smile": $var-smile,
+  "face-frown": $var-face-frown,
+  "frown": $var-frown,
+  "face-meh": $var-face-meh,
+  "meh": $var-meh,
+  "gamepad": $var-gamepad,
+  "keyboard": $var-keyboard,
+  "flag-checkered": $var-flag-checkered,
+  "terminal": $var-terminal,
+  "code": $var-code,
+  "reply-all": $var-reply-all,
+  "mail-reply-all": $var-mail-reply-all,
+  "location-arrow": $var-location-arrow,
+  "crop": $var-crop,
+  "code-branch": $var-code-branch,
+  "link-slash": $var-link-slash,
+  "chain-broken": $var-chain-broken,
+  "chain-slash": $var-chain-slash,
+  "unlink": $var-unlink,
+  "info": $var-info,
+  "superscript": $var-superscript,
+  "subscript": $var-subscript,
+  "eraser": $var-eraser,
+  "puzzle-piece": $var-puzzle-piece,
+  "microphone": $var-microphone,
+  "microphone-slash": $var-microphone-slash,
+  "shield": $var-shield,
+  "shield-blank": $var-shield-blank,
+  "calendar": $var-calendar,
+  "fire-extinguisher": $var-fire-extinguisher,
+  "rocket": $var-rocket,
+  "circle-chevron-left": $var-circle-chevron-left,
+  "chevron-circle-left": $var-chevron-circle-left,
+  "circle-chevron-right": $var-circle-chevron-right,
+  "chevron-circle-right": $var-chevron-circle-right,
+  "circle-chevron-up": $var-circle-chevron-up,
+  "chevron-circle-up": $var-chevron-circle-up,
+  "circle-chevron-down": $var-circle-chevron-down,
+  "chevron-circle-down": $var-chevron-circle-down,
+  "anchor": $var-anchor,
+  "unlock-keyhole": $var-unlock-keyhole,
+  "unlock-alt": $var-unlock-alt,
+  "bullseye": $var-bullseye,
+  "ellipsis": $var-ellipsis,
+  "ellipsis-h": $var-ellipsis-h,
+  "ellipsis-vertical": $var-ellipsis-vertical,
+  "ellipsis-v": $var-ellipsis-v,
+  "square-rss": $var-square-rss,
+  "rss-square": $var-rss-square,
+  "circle-play": $var-circle-play,
+  "play-circle": $var-play-circle,
+  "ticket": $var-ticket,
+  "square-minus": $var-square-minus,
+  "minus-square": $var-minus-square,
+  "arrow-turn-up": $var-arrow-turn-up,
+  "level-up": $var-level-up,
+  "arrow-turn-down": $var-arrow-turn-down,
+  "level-down": $var-level-down,
+  "square-check": $var-square-check,
+  "check-square": $var-check-square,
+  "square-pen": $var-square-pen,
+  "pen-square": $var-pen-square,
+  "pencil-square": $var-pencil-square,
+  "square-arrow-up-right": $var-square-arrow-up-right,
+  "external-link-square": $var-external-link-square,
+  "share-from-square": $var-share-from-square,
+  "share-square": $var-share-square,
+  "compass": $var-compass,
+  "square-caret-down": $var-square-caret-down,
+  "caret-square-down": $var-caret-square-down,
+  "square-caret-up": $var-square-caret-up,
+  "caret-square-up": $var-caret-square-up,
+  "square-caret-right": $var-square-caret-right,
+  "caret-square-right": $var-caret-square-right,
+  "euro-sign": $var-euro-sign,
+  "eur": $var-eur,
+  "euro": $var-euro,
+  "sterling-sign": $var-sterling-sign,
+  "gbp": $var-gbp,
+  "pound-sign": $var-pound-sign,
+  "rupee-sign": $var-rupee-sign,
+  "rupee": $var-rupee,
+  "yen-sign": $var-yen-sign,
+  "cny": $var-cny,
+  "jpy": $var-jpy,
+  "rmb": $var-rmb,
+  "yen": $var-yen,
+  "ruble-sign": $var-ruble-sign,
+  "rouble": $var-rouble,
+  "rub": $var-rub,
+  "ruble": $var-ruble,
+  "won-sign": $var-won-sign,
+  "krw": $var-krw,
+  "won": $var-won,
+  "file": $var-file,
+  "file-lines": $var-file-lines,
+  "file-alt": $var-file-alt,
+  "file-text": $var-file-text,
+  "arrow-down-a-z": $var-arrow-down-a-z,
+  "sort-alpha-asc": $var-sort-alpha-asc,
+  "sort-alpha-down": $var-sort-alpha-down,
+  "arrow-up-a-z": $var-arrow-up-a-z,
+  "sort-alpha-up": $var-sort-alpha-up,
+  "arrow-down-wide-short": $var-arrow-down-wide-short,
+  "sort-amount-asc": $var-sort-amount-asc,
+  "sort-amount-down": $var-sort-amount-down,
+  "arrow-up-wide-short": $var-arrow-up-wide-short,
+  "sort-amount-up": $var-sort-amount-up,
+  "arrow-down-1-9": $var-arrow-down-1-9,
+  "sort-numeric-asc": $var-sort-numeric-asc,
+  "sort-numeric-down": $var-sort-numeric-down,
+  "arrow-up-1-9": $var-arrow-up-1-9,
+  "sort-numeric-up": $var-sort-numeric-up,
+  "thumbs-up": $var-thumbs-up,
+  "thumbs-down": $var-thumbs-down,
+  "arrow-down-long": $var-arrow-down-long,
+  "long-arrow-down": $var-long-arrow-down,
+  "arrow-up-long": $var-arrow-up-long,
+  "long-arrow-up": $var-long-arrow-up,
+  "arrow-left-long": $var-arrow-left-long,
+  "long-arrow-left": $var-long-arrow-left,
+  "arrow-right-long": $var-arrow-right-long,
+  "long-arrow-right": $var-long-arrow-right,
+  "person-dress": $var-person-dress,
+  "female": $var-female,
+  "person": $var-person,
+  "male": $var-male,
+  "sun": $var-sun,
+  "moon": $var-moon,
+  "box-archive": $var-box-archive,
+  "archive": $var-archive,
+  "bug": $var-bug,
+  "square-caret-left": $var-square-caret-left,
+  "caret-square-left": $var-caret-square-left,
+  "circle-dot": $var-circle-dot,
+  "dot-circle": $var-dot-circle,
+  "wheelchair": $var-wheelchair,
+  "lira-sign": $var-lira-sign,
+  "shuttle-space": $var-shuttle-space,
+  "space-shuttle": $var-space-shuttle,
+  "square-envelope": $var-square-envelope,
+  "envelope-square": $var-envelope-square,
+  "building-columns": $var-building-columns,
+  "bank": $var-bank,
+  "institution": $var-institution,
+  "museum": $var-museum,
+  "university": $var-university,
+  "graduation-cap": $var-graduation-cap,
+  "mortar-board": $var-mortar-board,
+  "language": $var-language,
+  "fax": $var-fax,
+  "building": $var-building,
+  "child": $var-child,
+  "paw": $var-paw,
+  "cube": $var-cube,
+  "cubes": $var-cubes,
+  "recycle": $var-recycle,
+  "car": $var-car,
+  "automobile": $var-automobile,
+  "taxi": $var-taxi,
+  "cab": $var-cab,
+  "tree": $var-tree,
+  "database": $var-database,
+  "file-pdf": $var-file-pdf,
+  "file-word": $var-file-word,
+  "file-excel": $var-file-excel,
+  "file-powerpoint": $var-file-powerpoint,
+  "file-image": $var-file-image,
+  "file-zipper": $var-file-zipper,
+  "file-archive": $var-file-archive,
+  "file-audio": $var-file-audio,
+  "file-video": $var-file-video,
+  "file-code": $var-file-code,
+  "life-ring": $var-life-ring,
+  "circle-notch": $var-circle-notch,
+  "paper-plane": $var-paper-plane,
+  "clock-rotate-left": $var-clock-rotate-left,
+  "history": $var-history,
+  "heading": $var-heading,
+  "header": $var-header,
+  "paragraph": $var-paragraph,
+  "sliders": $var-sliders,
+  "sliders-h": $var-sliders-h,
+  "share-nodes": $var-share-nodes,
+  "share-alt": $var-share-alt,
+  "square-share-nodes": $var-square-share-nodes,
+  "share-alt-square": $var-share-alt-square,
+  "bomb": $var-bomb,
+  "futbol": $var-futbol,
+  "futbol-ball": $var-futbol-ball,
+  "soccer-ball": $var-soccer-ball,
+  "tty": $var-tty,
+  "teletype": $var-teletype,
+  "binoculars": $var-binoculars,
+  "plug": $var-plug,
+  "newspaper": $var-newspaper,
+  "wifi": $var-wifi,
+  "wifi-3": $var-wifi-3,
+  "wifi-strong": $var-wifi-strong,
+  "calculator": $var-calculator,
+  "bell-slash": $var-bell-slash,
+  "trash": $var-trash,
+  "copyright": $var-copyright,
+  "eye-dropper": $var-eye-dropper,
+  "eye-dropper-empty": $var-eye-dropper-empty,
+  "eyedropper": $var-eyedropper,
+  "paintbrush": $var-paintbrush,
+  "paint-brush": $var-paint-brush,
+  "cake-candles": $var-cake-candles,
+  "birthday-cake": $var-birthday-cake,
+  "cake": $var-cake,
+  "chart-area": $var-chart-area,
+  "area-chart": $var-area-chart,
+  "chart-pie": $var-chart-pie,
+  "pie-chart": $var-pie-chart,
+  "chart-line": $var-chart-line,
+  "line-chart": $var-line-chart,
+  "toggle-off": $var-toggle-off,
+  "toggle-on": $var-toggle-on,
+  "bicycle": $var-bicycle,
+  "bus": $var-bus,
+  "closed-captioning": $var-closed-captioning,
+  "shekel-sign": $var-shekel-sign,
+  "ils": $var-ils,
+  "shekel": $var-shekel,
+  "sheqel": $var-sheqel,
+  "sheqel-sign": $var-sheqel-sign,
+  "cart-plus": $var-cart-plus,
+  "cart-arrow-down": $var-cart-arrow-down,
+  "diamond": $var-diamond,
+  "ship": $var-ship,
+  "user-secret": $var-user-secret,
+  "motorcycle": $var-motorcycle,
+  "street-view": $var-street-view,
+  "heart-pulse": $var-heart-pulse,
+  "heartbeat": $var-heartbeat,
+  "venus": $var-venus,
+  "mars": $var-mars,
+  "mercury": $var-mercury,
+  "mars-and-venus": $var-mars-and-venus,
+  "transgender": $var-transgender,
+  "transgender-alt": $var-transgender-alt,
+  "venus-double": $var-venus-double,
+  "mars-double": $var-mars-double,
+  "venus-mars": $var-venus-mars,
+  "mars-stroke": $var-mars-stroke,
+  "mars-stroke-up": $var-mars-stroke-up,
+  "mars-stroke-v": $var-mars-stroke-v,
+  "mars-stroke-right": $var-mars-stroke-right,
+  "mars-stroke-h": $var-mars-stroke-h,
+  "neuter": $var-neuter,
+  "genderless": $var-genderless,
+  "server": $var-server,
+  "user-plus": $var-user-plus,
+  "user-xmark": $var-user-xmark,
+  "user-times": $var-user-times,
+  "bed": $var-bed,
+  "train": $var-train,
+  "train-subway": $var-train-subway,
+  "subway": $var-subway,
+  "battery-full": $var-battery-full,
+  "battery": $var-battery,
+  "battery-5": $var-battery-5,
+  "battery-three-quarters": $var-battery-three-quarters,
+  "battery-4": $var-battery-4,
+  "battery-half": $var-battery-half,
+  "battery-3": $var-battery-3,
+  "battery-quarter": $var-battery-quarter,
+  "battery-2": $var-battery-2,
+  "battery-empty": $var-battery-empty,
+  "battery-0": $var-battery-0,
+  "arrow-pointer": $var-arrow-pointer,
+  "mouse-pointer": $var-mouse-pointer,
+  "i-cursor": $var-i-cursor,
+  "object-group": $var-object-group,
+  "object-ungroup": $var-object-ungroup,
+  "note-sticky": $var-note-sticky,
+  "sticky-note": $var-sticky-note,
+  "clone": $var-clone,
+  "scale-balanced": $var-scale-balanced,
+  "balance-scale": $var-balance-scale,
+  "hourglass-start": $var-hourglass-start,
+  "hourglass-1": $var-hourglass-1,
+  "hourglass-half": $var-hourglass-half,
+  "hourglass-2": $var-hourglass-2,
+  "hourglass-end": $var-hourglass-end,
+  "hourglass-3": $var-hourglass-3,
+  "hourglass": $var-hourglass,
+  "hourglass-empty": $var-hourglass-empty,
+  "hand-back-fist": $var-hand-back-fist,
+  "hand-rock": $var-hand-rock,
+  "hand": $var-hand,
+  "hand-paper": $var-hand-paper,
+  "hand-scissors": $var-hand-scissors,
+  "hand-lizard": $var-hand-lizard,
+  "hand-spock": $var-hand-spock,
+  "hand-pointer": $var-hand-pointer,
+  "hand-peace": $var-hand-peace,
+  "trademark": $var-trademark,
+  "registered": $var-registered,
+  "tv": $var-tv,
+  "television": $var-television,
+  "tv-alt": $var-tv-alt,
+  "calendar-plus": $var-calendar-plus,
+  "calendar-minus": $var-calendar-minus,
+  "calendar-xmark": $var-calendar-xmark,
+  "calendar-times": $var-calendar-times,
+  "calendar-check": $var-calendar-check,
+  "industry": $var-industry,
+  "map-pin": $var-map-pin,
+  "signs-post": $var-signs-post,
+  "map-signs": $var-map-signs,
+  "map": $var-map,
+  "message": $var-message,
+  "comment-alt": $var-comment-alt,
+  "circle-pause": $var-circle-pause,
+  "pause-circle": $var-pause-circle,
+  "circle-stop": $var-circle-stop,
+  "stop-circle": $var-stop-circle,
+  "bag-shopping": $var-bag-shopping,
+  "shopping-bag": $var-shopping-bag,
+  "basket-shopping": $var-basket-shopping,
+  "shopping-basket": $var-shopping-basket,
+  "universal-access": $var-universal-access,
+  "person-walking-with-cane": $var-person-walking-with-cane,
+  "blind": $var-blind,
+  "audio-description": $var-audio-description,
+  "phone-volume": $var-phone-volume,
+  "volume-control-phone": $var-volume-control-phone,
+  "braille": $var-braille,
+  "ear-listen": $var-ear-listen,
+  "assistive-listening-systems": $var-assistive-listening-systems,
+  "hands-asl-interpreting": $var-hands-asl-interpreting,
+  "american-sign-language-interpreting": $var-american-sign-language-interpreting,
+  "asl-interpreting": $var-asl-interpreting,
+  "hands-american-sign-language-interpreting": $var-hands-american-sign-language-interpreting,
+  "ear-deaf": $var-ear-deaf,
+  "deaf": $var-deaf,
+  "deafness": $var-deafness,
+  "hard-of-hearing": $var-hard-of-hearing,
+  "hands": $var-hands,
+  "sign-language": $var-sign-language,
+  "signing": $var-signing,
+  "eye-low-vision": $var-eye-low-vision,
+  "low-vision": $var-low-vision,
+  "font-awesome": $var-font-awesome,
+  "font-awesome-flag": $var-font-awesome-flag,
+  "font-awesome-logo-full": $var-font-awesome-logo-full,
+  "handshake": $var-handshake,
+  "handshake-alt": $var-handshake-alt,
+  "handshake-simple": $var-handshake-simple,
+  "envelope-open": $var-envelope-open,
+  "address-book": $var-address-book,
+  "contact-book": $var-contact-book,
+  "address-card": $var-address-card,
+  "contact-card": $var-contact-card,
+  "vcard": $var-vcard,
+  "circle-user": $var-circle-user,
+  "user-circle": $var-user-circle,
+  "id-badge": $var-id-badge,
+  "id-card": $var-id-card,
+  "drivers-license": $var-drivers-license,
+  "temperature-full": $var-temperature-full,
+  "temperature-4": $var-temperature-4,
+  "thermometer-4": $var-thermometer-4,
+  "thermometer-full": $var-thermometer-full,
+  "temperature-three-quarters": $var-temperature-three-quarters,
+  "temperature-3": $var-temperature-3,
+  "thermometer-3": $var-thermometer-3,
+  "thermometer-three-quarters": $var-thermometer-three-quarters,
+  "temperature-half": $var-temperature-half,
+  "temperature-2": $var-temperature-2,
+  "thermometer-2": $var-thermometer-2,
+  "thermometer-half": $var-thermometer-half,
+  "temperature-quarter": $var-temperature-quarter,
+  "temperature-1": $var-temperature-1,
+  "thermometer-1": $var-thermometer-1,
+  "thermometer-quarter": $var-thermometer-quarter,
+  "temperature-empty": $var-temperature-empty,
+  "temperature-0": $var-temperature-0,
+  "thermometer-0": $var-thermometer-0,
+  "thermometer-empty": $var-thermometer-empty,
+  "shower": $var-shower,
+  "bath": $var-bath,
+  "bathtub": $var-bathtub,
+  "podcast": $var-podcast,
+  "window-maximize": $var-window-maximize,
+  "window-minimize": $var-window-minimize,
+  "window-restore": $var-window-restore,
+  "square-xmark": $var-square-xmark,
+  "times-square": $var-times-square,
+  "xmark-square": $var-xmark-square,
+  "microchip": $var-microchip,
+  "snowflake": $var-snowflake,
+  "spoon": $var-spoon,
+  "utensil-spoon": $var-utensil-spoon,
+  "utensils": $var-utensils,
+  "cutlery": $var-cutlery,
+  "rotate-left": $var-rotate-left,
+  "rotate-back": $var-rotate-back,
+  "rotate-backward": $var-rotate-backward,
+  "undo-alt": $var-undo-alt,
+  "trash-can": $var-trash-can,
+  "trash-alt": $var-trash-alt,
+  "rotate": $var-rotate,
+  "sync-alt": $var-sync-alt,
+  "stopwatch": $var-stopwatch,
+  "right-from-bracket": $var-right-from-bracket,
+  "sign-out-alt": $var-sign-out-alt,
+  "right-to-bracket": $var-right-to-bracket,
+  "sign-in-alt": $var-sign-in-alt,
+  "rotate-right": $var-rotate-right,
+  "redo-alt": $var-redo-alt,
+  "rotate-forward": $var-rotate-forward,
+  "poo": $var-poo,
+  "images": $var-images,
+  "pencil": $var-pencil,
+  "pencil-alt": $var-pencil-alt,
+  "pen": $var-pen,
+  "pen-clip": $var-pen-clip,
+  "pen-alt": $var-pen-alt,
+  "octagon": $var-octagon,
+  "down-long": $var-down-long,
+  "long-arrow-alt-down": $var-long-arrow-alt-down,
+  "left-long": $var-left-long,
+  "long-arrow-alt-left": $var-long-arrow-alt-left,
+  "right-long": $var-right-long,
+  "long-arrow-alt-right": $var-long-arrow-alt-right,
+  "up-long": $var-up-long,
+  "long-arrow-alt-up": $var-long-arrow-alt-up,
+  "hexagon": $var-hexagon,
+  "file-pen": $var-file-pen,
+  "file-edit": $var-file-edit,
+  "maximize": $var-maximize,
+  "expand-arrows-alt": $var-expand-arrows-alt,
+  "clipboard": $var-clipboard,
+  "left-right": $var-left-right,
+  "arrows-alt-h": $var-arrows-alt-h,
+  "up-down": $var-up-down,
+  "arrows-alt-v": $var-arrows-alt-v,
+  "alarm-clock": $var-alarm-clock,
+  "circle-down": $var-circle-down,
+  "arrow-alt-circle-down": $var-arrow-alt-circle-down,
+  "circle-left": $var-circle-left,
+  "arrow-alt-circle-left": $var-arrow-alt-circle-left,
+  "circle-right": $var-circle-right,
+  "arrow-alt-circle-right": $var-arrow-alt-circle-right,
+  "circle-up": $var-circle-up,
+  "arrow-alt-circle-up": $var-arrow-alt-circle-up,
+  "up-right-from-square": $var-up-right-from-square,
+  "external-link-alt": $var-external-link-alt,
+  "square-up-right": $var-square-up-right,
+  "external-link-square-alt": $var-external-link-square-alt,
+  "right-left": $var-right-left,
+  "exchange-alt": $var-exchange-alt,
+  "repeat": $var-repeat,
+  "code-commit": $var-code-commit,
+  "code-merge": $var-code-merge,
+  "desktop": $var-desktop,
+  "desktop-alt": $var-desktop-alt,
+  "gem": $var-gem,
+  "turn-down": $var-turn-down,
+  "level-down-alt": $var-level-down-alt,
+  "turn-up": $var-turn-up,
+  "level-up-alt": $var-level-up-alt,
+  "lock-open": $var-lock-open,
+  "location-dot": $var-location-dot,
+  "map-marker-alt": $var-map-marker-alt,
+  "microphone-lines": $var-microphone-lines,
+  "microphone-alt": $var-microphone-alt,
+  "mobile-screen-button": $var-mobile-screen-button,
+  "mobile-alt": $var-mobile-alt,
+  "mobile": $var-mobile,
+  "mobile-android": $var-mobile-android,
+  "mobile-phone": $var-mobile-phone,
+  "mobile-screen": $var-mobile-screen,
+  "mobile-android-alt": $var-mobile-android-alt,
+  "money-bill-1": $var-money-bill-1,
+  "money-bill-alt": $var-money-bill-alt,
+  "phone-slash": $var-phone-slash,
+  "image-portrait": $var-image-portrait,
+  "portrait": $var-portrait,
+  "reply": $var-reply,
+  "mail-reply": $var-mail-reply,
+  "shield-halved": $var-shield-halved,
+  "shield-alt": $var-shield-alt,
+  "tablet-screen-button": $var-tablet-screen-button,
+  "tablet-alt": $var-tablet-alt,
+  "tablet": $var-tablet,
+  "tablet-android": $var-tablet-android,
+  "ticket-simple": $var-ticket-simple,
+  "ticket-alt": $var-ticket-alt,
+  "rectangle-xmark": $var-rectangle-xmark,
+  "rectangle-times": $var-rectangle-times,
+  "times-rectangle": $var-times-rectangle,
+  "window-close": $var-window-close,
+  "down-left-and-up-right-to-center": $var-down-left-and-up-right-to-center,
+  "compress-alt": $var-compress-alt,
+  "up-right-and-down-left-from-center": $var-up-right-and-down-left-from-center,
+  "expand-alt": $var-expand-alt,
+  "baseball-bat-ball": $var-baseball-bat-ball,
+  "baseball": $var-baseball,
+  "baseball-ball": $var-baseball-ball,
+  "basketball": $var-basketball,
+  "basketball-ball": $var-basketball-ball,
+  "bowling-ball": $var-bowling-ball,
+  "chess": $var-chess,
+  "chess-bishop": $var-chess-bishop,
+  "chess-board": $var-chess-board,
+  "chess-king": $var-chess-king,
+  "chess-knight": $var-chess-knight,
+  "chess-pawn": $var-chess-pawn,
+  "chess-queen": $var-chess-queen,
+  "chess-rook": $var-chess-rook,
+  "dumbbell": $var-dumbbell,
+  "football": $var-football,
+  "football-ball": $var-football-ball,
+  "golf-ball-tee": $var-golf-ball-tee,
+  "golf-ball": $var-golf-ball,
+  "hockey-puck": $var-hockey-puck,
+  "broom-ball": $var-broom-ball,
+  "quidditch": $var-quidditch,
+  "quidditch-broom-ball": $var-quidditch-broom-ball,
+  "square-full": $var-square-full,
+  "table-tennis-paddle-ball": $var-table-tennis-paddle-ball,
+  "ping-pong-paddle-ball": $var-ping-pong-paddle-ball,
+  "table-tennis": $var-table-tennis,
+  "volleyball": $var-volleyball,
+  "volleyball-ball": $var-volleyball-ball,
+  "hand-dots": $var-hand-dots,
+  "allergies": $var-allergies,
+  "bandage": $var-bandage,
+  "band-aid": $var-band-aid,
+  "box": $var-box,
+  "boxes-stacked": $var-boxes-stacked,
+  "boxes": $var-boxes,
+  "boxes-alt": $var-boxes-alt,
+  "briefcase-medical": $var-briefcase-medical,
+  "fire-flame-simple": $var-fire-flame-simple,
+  "burn": $var-burn,
+  "capsules": $var-capsules,
+  "clipboard-check": $var-clipboard-check,
+  "clipboard-list": $var-clipboard-list,
+  "person-dots-from-line": $var-person-dots-from-line,
+  "diagnoses": $var-diagnoses,
+  "dna": $var-dna,
+  "dolly": $var-dolly,
+  "dolly-box": $var-dolly-box,
+  "cart-flatbed": $var-cart-flatbed,
+  "dolly-flatbed": $var-dolly-flatbed,
+  "file-medical": $var-file-medical,
+  "file-waveform": $var-file-waveform,
+  "file-medical-alt": $var-file-medical-alt,
+  "kit-medical": $var-kit-medical,
+  "first-aid": $var-first-aid,
+  "circle-h": $var-circle-h,
+  "hospital-symbol": $var-hospital-symbol,
+  "id-card-clip": $var-id-card-clip,
+  "id-card-alt": $var-id-card-alt,
+  "notes-medical": $var-notes-medical,
+  "pallet": $var-pallet,
+  "pills": $var-pills,
+  "prescription-bottle": $var-prescription-bottle,
+  "prescription-bottle-medical": $var-prescription-bottle-medical,
+  "prescription-bottle-alt": $var-prescription-bottle-alt,
+  "bed-pulse": $var-bed-pulse,
+  "procedures": $var-procedures,
+  "truck-fast": $var-truck-fast,
+  "shipping-fast": $var-shipping-fast,
+  "smoking": $var-smoking,
+  "syringe": $var-syringe,
+  "tablets": $var-tablets,
+  "thermometer": $var-thermometer,
+  "vial": $var-vial,
+  "vials": $var-vials,
+  "warehouse": $var-warehouse,
+  "weight-scale": $var-weight-scale,
+  "weight": $var-weight,
+  "x-ray": $var-x-ray,
+  "box-open": $var-box-open,
+  "comment-dots": $var-comment-dots,
+  "commenting": $var-commenting,
+  "comment-slash": $var-comment-slash,
+  "couch": $var-couch,
+  "circle-dollar-to-slot": $var-circle-dollar-to-slot,
+  "donate": $var-donate,
+  "dove": $var-dove,
+  "hand-holding": $var-hand-holding,
+  "hand-holding-heart": $var-hand-holding-heart,
+  "hand-holding-dollar": $var-hand-holding-dollar,
+  "hand-holding-usd": $var-hand-holding-usd,
+  "hand-holding-droplet": $var-hand-holding-droplet,
+  "hand-holding-water": $var-hand-holding-water,
+  "hands-holding": $var-hands-holding,
+  "handshake-angle": $var-handshake-angle,
+  "hands-helping": $var-hands-helping,
+  "parachute-box": $var-parachute-box,
+  "people-carry-box": $var-people-carry-box,
+  "people-carry": $var-people-carry,
+  "piggy-bank": $var-piggy-bank,
+  "ribbon": $var-ribbon,
+  "route": $var-route,
+  "seedling": $var-seedling,
+  "sprout": $var-sprout,
+  "sign-hanging": $var-sign-hanging,
+  "sign": $var-sign,
+  "face-smile-wink": $var-face-smile-wink,
+  "smile-wink": $var-smile-wink,
+  "tape": $var-tape,
+  "truck-ramp-box": $var-truck-ramp-box,
+  "truck-loading": $var-truck-loading,
+  "truck-moving": $var-truck-moving,
+  "video-slash": $var-video-slash,
+  "wine-glass": $var-wine-glass,
+  "user-astronaut": $var-user-astronaut,
+  "user-check": $var-user-check,
+  "user-clock": $var-user-clock,
+  "user-gear": $var-user-gear,
+  "user-cog": $var-user-cog,
+  "user-pen": $var-user-pen,
+  "user-edit": $var-user-edit,
+  "user-group": $var-user-group,
+  "user-friends": $var-user-friends,
+  "user-graduate": $var-user-graduate,
+  "user-lock": $var-user-lock,
+  "user-minus": $var-user-minus,
+  "user-ninja": $var-user-ninja,
+  "user-shield": $var-user-shield,
+  "user-slash": $var-user-slash,
+  "user-alt-slash": $var-user-alt-slash,
+  "user-large-slash": $var-user-large-slash,
+  "user-tag": $var-user-tag,
+  "user-tie": $var-user-tie,
+  "users-gear": $var-users-gear,
+  "users-cog": $var-users-cog,
+  "scale-unbalanced": $var-scale-unbalanced,
+  "balance-scale-left": $var-balance-scale-left,
+  "scale-unbalanced-flip": $var-scale-unbalanced-flip,
+  "balance-scale-right": $var-balance-scale-right,
+  "blender": $var-blender,
+  "book-open": $var-book-open,
+  "tower-broadcast": $var-tower-broadcast,
+  "broadcast-tower": $var-broadcast-tower,
+  "broom": $var-broom,
+  "chalkboard": $var-chalkboard,
+  "blackboard": $var-blackboard,
+  "chalkboard-user": $var-chalkboard-user,
+  "chalkboard-teacher": $var-chalkboard-teacher,
+  "church": $var-church,
+  "coins": $var-coins,
+  "compact-disc": $var-compact-disc,
+  "crow": $var-crow,
+  "crown": $var-crown,
+  "dice": $var-dice,
+  "dice-five": $var-dice-five,
+  "dice-four": $var-dice-four,
+  "dice-one": $var-dice-one,
+  "dice-six": $var-dice-six,
+  "dice-three": $var-dice-three,
+  "dice-two": $var-dice-two,
+  "divide": $var-divide,
+  "door-closed": $var-door-closed,
+  "door-open": $var-door-open,
+  "feather": $var-feather,
+  "frog": $var-frog,
+  "gas-pump": $var-gas-pump,
+  "glasses": $var-glasses,
+  "greater-than-equal": $var-greater-than-equal,
+  "helicopter": $var-helicopter,
+  "infinity": $var-infinity,
+  "kiwi-bird": $var-kiwi-bird,
+  "less-than-equal": $var-less-than-equal,
+  "memory": $var-memory,
+  "microphone-lines-slash": $var-microphone-lines-slash,
+  "microphone-alt-slash": $var-microphone-alt-slash,
+  "money-bill-wave": $var-money-bill-wave,
+  "money-bill-1-wave": $var-money-bill-1-wave,
+  "money-bill-wave-alt": $var-money-bill-wave-alt,
+  "money-check": $var-money-check,
+  "money-check-dollar": $var-money-check-dollar,
+  "money-check-alt": $var-money-check-alt,
+  "not-equal": $var-not-equal,
+  "palette": $var-palette,
+  "square-parking": $var-square-parking,
+  "parking": $var-parking,
+  "diagram-project": $var-diagram-project,
+  "project-diagram": $var-project-diagram,
+  "receipt": $var-receipt,
+  "robot": $var-robot,
+  "ruler": $var-ruler,
+  "ruler-combined": $var-ruler-combined,
+  "ruler-horizontal": $var-ruler-horizontal,
+  "ruler-vertical": $var-ruler-vertical,
+  "school": $var-school,
+  "screwdriver": $var-screwdriver,
+  "shoe-prints": $var-shoe-prints,
+  "skull": $var-skull,
+  "ban-smoking": $var-ban-smoking,
+  "smoking-ban": $var-smoking-ban,
+  "store": $var-store,
+  "shop": $var-shop,
+  "store-alt": $var-store-alt,
+  "bars-staggered": $var-bars-staggered,
+  "reorder": $var-reorder,
+  "stream": $var-stream,
+  "stroopwafel": $var-stroopwafel,
+  "toolbox": $var-toolbox,
+  "shirt": $var-shirt,
+  "t-shirt": $var-t-shirt,
+  "tshirt": $var-tshirt,
+  "person-walking": $var-person-walking,
+  "walking": $var-walking,
+  "wallet": $var-wallet,
+  "face-angry": $var-face-angry,
+  "angry": $var-angry,
+  "archway": $var-archway,
+  "book-atlas": $var-book-atlas,
+  "atlas": $var-atlas,
+  "award": $var-award,
+  "delete-left": $var-delete-left,
+  "backspace": $var-backspace,
+  "bezier-curve": $var-bezier-curve,
+  "bong": $var-bong,
+  "brush": $var-brush,
+  "bus-simple": $var-bus-simple,
+  "bus-alt": $var-bus-alt,
+  "cannabis": $var-cannabis,
+  "check-double": $var-check-double,
+  "martini-glass-citrus": $var-martini-glass-citrus,
+  "cocktail": $var-cocktail,
+  "bell-concierge": $var-bell-concierge,
+  "concierge-bell": $var-concierge-bell,
+  "cookie": $var-cookie,
+  "cookie-bite": $var-cookie-bite,
+  "crop-simple": $var-crop-simple,
+  "crop-alt": $var-crop-alt,
+  "tachograph-digital": $var-tachograph-digital,
+  "digital-tachograph": $var-digital-tachograph,
+  "face-dizzy": $var-face-dizzy,
+  "dizzy": $var-dizzy,
+  "compass-drafting": $var-compass-drafting,
+  "drafting-compass": $var-drafting-compass,
+  "drum": $var-drum,
+  "drum-steelpan": $var-drum-steelpan,
+  "feather-pointed": $var-feather-pointed,
+  "feather-alt": $var-feather-alt,
+  "file-contract": $var-file-contract,
+  "file-arrow-down": $var-file-arrow-down,
+  "file-download": $var-file-download,
+  "file-export": $var-file-export,
+  "arrow-right-from-file": $var-arrow-right-from-file,
+  "file-import": $var-file-import,
+  "arrow-right-to-file": $var-arrow-right-to-file,
+  "file-invoice": $var-file-invoice,
+  "file-invoice-dollar": $var-file-invoice-dollar,
+  "file-prescription": $var-file-prescription,
+  "file-signature": $var-file-signature,
+  "file-arrow-up": $var-file-arrow-up,
+  "file-upload": $var-file-upload,
+  "fill": $var-fill,
+  "fill-drip": $var-fill-drip,
+  "fingerprint": $var-fingerprint,
+  "fish": $var-fish,
+  "face-flushed": $var-face-flushed,
+  "flushed": $var-flushed,
+  "face-frown-open": $var-face-frown-open,
+  "frown-open": $var-frown-open,
+  "martini-glass": $var-martini-glass,
+  "glass-martini-alt": $var-glass-martini-alt,
+  "earth-africa": $var-earth-africa,
+  "globe-africa": $var-globe-africa,
+  "earth-americas": $var-earth-americas,
+  "earth": $var-earth,
+  "earth-america": $var-earth-america,
+  "globe-americas": $var-globe-americas,
+  "earth-asia": $var-earth-asia,
+  "globe-asia": $var-globe-asia,
+  "face-grimace": $var-face-grimace,
+  "grimace": $var-grimace,
+  "face-grin": $var-face-grin,
+  "grin": $var-grin,
+  "face-grin-wide": $var-face-grin-wide,
+  "grin-alt": $var-grin-alt,
+  "face-grin-beam": $var-face-grin-beam,
+  "grin-beam": $var-grin-beam,
+  "face-grin-beam-sweat": $var-face-grin-beam-sweat,
+  "grin-beam-sweat": $var-grin-beam-sweat,
+  "face-grin-hearts": $var-face-grin-hearts,
+  "grin-hearts": $var-grin-hearts,
+  "face-grin-squint": $var-face-grin-squint,
+  "grin-squint": $var-grin-squint,
+  "face-grin-squint-tears": $var-face-grin-squint-tears,
+  "grin-squint-tears": $var-grin-squint-tears,
+  "face-grin-stars": $var-face-grin-stars,
+  "grin-stars": $var-grin-stars,
+  "face-grin-tears": $var-face-grin-tears,
+  "grin-tears": $var-grin-tears,
+  "face-grin-tongue": $var-face-grin-tongue,
+  "grin-tongue": $var-grin-tongue,
+  "face-grin-tongue-squint": $var-face-grin-tongue-squint,
+  "grin-tongue-squint": $var-grin-tongue-squint,
+  "face-grin-tongue-wink": $var-face-grin-tongue-wink,
+  "grin-tongue-wink": $var-grin-tongue-wink,
+  "face-grin-wink": $var-face-grin-wink,
+  "grin-wink": $var-grin-wink,
+  "grip": $var-grip,
+  "grid-horizontal": $var-grid-horizontal,
+  "grip-horizontal": $var-grip-horizontal,
+  "grip-vertical": $var-grip-vertical,
+  "grid-vertical": $var-grid-vertical,
+  "headset": $var-headset,
+  "highlighter": $var-highlighter,
+  "hot-tub-person": $var-hot-tub-person,
+  "hot-tub": $var-hot-tub,
+  "hotel": $var-hotel,
+  "joint": $var-joint,
+  "face-kiss": $var-face-kiss,
+  "kiss": $var-kiss,
+  "face-kiss-beam": $var-face-kiss-beam,
+  "kiss-beam": $var-kiss-beam,
+  "face-kiss-wink-heart": $var-face-kiss-wink-heart,
+  "kiss-wink-heart": $var-kiss-wink-heart,
+  "face-laugh": $var-face-laugh,
+  "laugh": $var-laugh,
+  "face-laugh-beam": $var-face-laugh-beam,
+  "laugh-beam": $var-laugh-beam,
+  "face-laugh-squint": $var-face-laugh-squint,
+  "laugh-squint": $var-laugh-squint,
+  "face-laugh-wink": $var-face-laugh-wink,
+  "laugh-wink": $var-laugh-wink,
+  "cart-flatbed-suitcase": $var-cart-flatbed-suitcase,
+  "luggage-cart": $var-luggage-cart,
+  "map-location": $var-map-location,
+  "map-marked": $var-map-marked,
+  "map-location-dot": $var-map-location-dot,
+  "map-marked-alt": $var-map-marked-alt,
+  "marker": $var-marker,
+  "medal": $var-medal,
+  "face-meh-blank": $var-face-meh-blank,
+  "meh-blank": $var-meh-blank,
+  "face-rolling-eyes": $var-face-rolling-eyes,
+  "meh-rolling-eyes": $var-meh-rolling-eyes,
+  "monument": $var-monument,
+  "mortar-pestle": $var-mortar-pestle,
+  "paint-roller": $var-paint-roller,
+  "passport": $var-passport,
+  "pen-fancy": $var-pen-fancy,
+  "pen-nib": $var-pen-nib,
+  "pen-ruler": $var-pen-ruler,
+  "pencil-ruler": $var-pencil-ruler,
+  "plane-arrival": $var-plane-arrival,
+  "plane-departure": $var-plane-departure,
+  "prescription": $var-prescription,
+  "face-sad-cry": $var-face-sad-cry,
+  "sad-cry": $var-sad-cry,
+  "face-sad-tear": $var-face-sad-tear,
+  "sad-tear": $var-sad-tear,
+  "van-shuttle": $var-van-shuttle,
+  "shuttle-van": $var-shuttle-van,
+  "signature": $var-signature,
+  "face-smile-beam": $var-face-smile-beam,
+  "smile-beam": $var-smile-beam,
+  "solar-panel": $var-solar-panel,
+  "spa": $var-spa,
+  "splotch": $var-splotch,
+  "spray-can": $var-spray-can,
+  "stamp": $var-stamp,
+  "star-half-stroke": $var-star-half-stroke,
+  "star-half-alt": $var-star-half-alt,
+  "suitcase-rolling": $var-suitcase-rolling,
+  "face-surprise": $var-face-surprise,
+  "surprise": $var-surprise,
+  "swatchbook": $var-swatchbook,
+  "person-swimming": $var-person-swimming,
+  "swimmer": $var-swimmer,
+  "water-ladder": $var-water-ladder,
+  "ladder-water": $var-ladder-water,
+  "swimming-pool": $var-swimming-pool,
+  "droplet-slash": $var-droplet-slash,
+  "tint-slash": $var-tint-slash,
+  "face-tired": $var-face-tired,
+  "tired": $var-tired,
+  "tooth": $var-tooth,
+  "umbrella-beach": $var-umbrella-beach,
+  "weight-hanging": $var-weight-hanging,
+  "wine-glass-empty": $var-wine-glass-empty,
+  "wine-glass-alt": $var-wine-glass-alt,
+  "spray-can-sparkles": $var-spray-can-sparkles,
+  "air-freshener": $var-air-freshener,
+  "apple-whole": $var-apple-whole,
+  "apple-alt": $var-apple-alt,
+  "atom": $var-atom,
+  "bone": $var-bone,
+  "book-open-reader": $var-book-open-reader,
+  "book-reader": $var-book-reader,
+  "brain": $var-brain,
+  "car-rear": $var-car-rear,
+  "car-alt": $var-car-alt,
+  "car-battery": $var-car-battery,
+  "battery-car": $var-battery-car,
+  "car-burst": $var-car-burst,
+  "car-crash": $var-car-crash,
+  "car-side": $var-car-side,
+  "charging-station": $var-charging-station,
+  "diamond-turn-right": $var-diamond-turn-right,
+  "directions": $var-directions,
+  "draw-polygon": $var-draw-polygon,
+  "vector-polygon": $var-vector-polygon,
+  "laptop-code": $var-laptop-code,
+  "layer-group": $var-layer-group,
+  "location-crosshairs": $var-location-crosshairs,
+  "location": $var-location,
+  "lungs": $var-lungs,
+  "microscope": $var-microscope,
+  "oil-can": $var-oil-can,
+  "poop": $var-poop,
+  "shapes": $var-shapes,
+  "triangle-circle-square": $var-triangle-circle-square,
+  "star-of-life": $var-star-of-life,
+  "gauge": $var-gauge,
+  "dashboard": $var-dashboard,
+  "gauge-med": $var-gauge-med,
+  "tachometer-alt-average": $var-tachometer-alt-average,
+  "gauge-high": $var-gauge-high,
+  "tachometer-alt": $var-tachometer-alt,
+  "tachometer-alt-fast": $var-tachometer-alt-fast,
+  "gauge-simple": $var-gauge-simple,
+  "gauge-simple-med": $var-gauge-simple-med,
+  "tachometer-average": $var-tachometer-average,
+  "gauge-simple-high": $var-gauge-simple-high,
+  "tachometer": $var-tachometer,
+  "tachometer-fast": $var-tachometer-fast,
+  "teeth": $var-teeth,
+  "teeth-open": $var-teeth-open,
+  "masks-theater": $var-masks-theater,
+  "theater-masks": $var-theater-masks,
+  "traffic-light": $var-traffic-light,
+  "truck-monster": $var-truck-monster,
+  "truck-pickup": $var-truck-pickup,
+  "rectangle-ad": $var-rectangle-ad,
+  "ad": $var-ad,
+  "ankh": $var-ankh,
+  "book-bible": $var-book-bible,
+  "bible": $var-bible,
+  "business-time": $var-business-time,
+  "briefcase-clock": $var-briefcase-clock,
+  "city": $var-city,
+  "comment-dollar": $var-comment-dollar,
+  "comments-dollar": $var-comments-dollar,
+  "cross": $var-cross,
+  "dharmachakra": $var-dharmachakra,
+  "envelope-open-text": $var-envelope-open-text,
+  "folder-minus": $var-folder-minus,
+  "folder-plus": $var-folder-plus,
+  "filter-circle-dollar": $var-filter-circle-dollar,
+  "funnel-dollar": $var-funnel-dollar,
+  "gopuram": $var-gopuram,
+  "hamsa": $var-hamsa,
+  "bahai": $var-bahai,
+  "haykal": $var-haykal,
+  "jedi": $var-jedi,
+  "book-journal-whills": $var-book-journal-whills,
+  "journal-whills": $var-journal-whills,
+  "kaaba": $var-kaaba,
+  "khanda": $var-khanda,
+  "landmark": $var-landmark,
+  "envelopes-bulk": $var-envelopes-bulk,
+  "mail-bulk": $var-mail-bulk,
+  "menorah": $var-menorah,
+  "mosque": $var-mosque,
+  "om": $var-om,
+  "spaghetti-monster-flying": $var-spaghetti-monster-flying,
+  "pastafarianism": $var-pastafarianism,
+  "peace": $var-peace,
+  "place-of-worship": $var-place-of-worship,
+  "square-poll-vertical": $var-square-poll-vertical,
+  "poll": $var-poll,
+  "square-poll-horizontal": $var-square-poll-horizontal,
+  "poll-h": $var-poll-h,
+  "person-praying": $var-person-praying,
+  "pray": $var-pray,
+  "hands-praying": $var-hands-praying,
+  "praying-hands": $var-praying-hands,
+  "book-quran": $var-book-quran,
+  "quran": $var-quran,
+  "magnifying-glass-dollar": $var-magnifying-glass-dollar,
+  "search-dollar": $var-search-dollar,
+  "magnifying-glass-location": $var-magnifying-glass-location,
+  "search-location": $var-search-location,
+  "socks": $var-socks,
+  "square-root-variable": $var-square-root-variable,
+  "square-root-alt": $var-square-root-alt,
+  "star-and-crescent": $var-star-and-crescent,
+  "star-of-david": $var-star-of-david,
+  "synagogue": $var-synagogue,
+  "scroll-torah": $var-scroll-torah,
+  "torah": $var-torah,
+  "torii-gate": $var-torii-gate,
+  "vihara": $var-vihara,
+  "volume-xmark": $var-volume-xmark,
+  "volume-mute": $var-volume-mute,
+  "volume-times": $var-volume-times,
+  "yin-yang": $var-yin-yang,
+  "blender-phone": $var-blender-phone,
+  "book-skull": $var-book-skull,
+  "book-dead": $var-book-dead,
+  "campground": $var-campground,
+  "cat": $var-cat,
+  "chair": $var-chair,
+  "cloud-moon": $var-cloud-moon,
+  "cloud-sun": $var-cloud-sun,
+  "cow": $var-cow,
+  "dice-d20": $var-dice-d20,
+  "dice-d6": $var-dice-d6,
+  "dog": $var-dog,
+  "dragon": $var-dragon,
+  "drumstick-bite": $var-drumstick-bite,
+  "dungeon": $var-dungeon,
+  "file-csv": $var-file-csv,
+  "hand-fist": $var-hand-fist,
+  "fist-raised": $var-fist-raised,
+  "ghost": $var-ghost,
+  "hammer": $var-hammer,
+  "hanukiah": $var-hanukiah,
+  "hat-wizard": $var-hat-wizard,
+  "person-hiking": $var-person-hiking,
+  "hiking": $var-hiking,
+  "hippo": $var-hippo,
+  "horse": $var-horse,
+  "house-chimney-crack": $var-house-chimney-crack,
+  "house-damage": $var-house-damage,
+  "hryvnia-sign": $var-hryvnia-sign,
+  "hryvnia": $var-hryvnia,
+  "mask": $var-mask,
+  "mountain": $var-mountain,
+  "network-wired": $var-network-wired,
+  "otter": $var-otter,
+  "ring": $var-ring,
+  "person-running": $var-person-running,
+  "running": $var-running,
+  "scroll": $var-scroll,
+  "skull-crossbones": $var-skull-crossbones,
+  "slash": $var-slash,
+  "spider": $var-spider,
+  "toilet-paper": $var-toilet-paper,
+  "toilet-paper-alt": $var-toilet-paper-alt,
+  "toilet-paper-blank": $var-toilet-paper-blank,
+  "tractor": $var-tractor,
+  "user-injured": $var-user-injured,
+  "vr-cardboard": $var-vr-cardboard,
+  "wand-sparkles": $var-wand-sparkles,
+  "wind": $var-wind,
+  "wine-bottle": $var-wine-bottle,
+  "cloud-meatball": $var-cloud-meatball,
+  "cloud-moon-rain": $var-cloud-moon-rain,
+  "cloud-rain": $var-cloud-rain,
+  "cloud-showers-heavy": $var-cloud-showers-heavy,
+  "cloud-sun-rain": $var-cloud-sun-rain,
+  "democrat": $var-democrat,
+  "flag-usa": $var-flag-usa,
+  "hurricane": $var-hurricane,
+  "landmark-dome": $var-landmark-dome,
+  "landmark-alt": $var-landmark-alt,
+  "meteor": $var-meteor,
+  "person-booth": $var-person-booth,
+  "poo-storm": $var-poo-storm,
+  "poo-bolt": $var-poo-bolt,
+  "rainbow": $var-rainbow,
+  "republican": $var-republican,
+  "smog": $var-smog,
+  "temperature-high": $var-temperature-high,
+  "temperature-low": $var-temperature-low,
+  "cloud-bolt": $var-cloud-bolt,
+  "thunderstorm": $var-thunderstorm,
+  "tornado": $var-tornado,
+  "volcano": $var-volcano,
+  "check-to-slot": $var-check-to-slot,
+  "vote-yea": $var-vote-yea,
+  "water": $var-water,
+  "baby": $var-baby,
+  "baby-carriage": $var-baby-carriage,
+  "carriage-baby": $var-carriage-baby,
+  "biohazard": $var-biohazard,
+  "blog": $var-blog,
+  "calendar-day": $var-calendar-day,
+  "calendar-week": $var-calendar-week,
+  "candy-cane": $var-candy-cane,
+  "carrot": $var-carrot,
+  "cash-register": $var-cash-register,
+  "minimize": $var-minimize,
+  "compress-arrows-alt": $var-compress-arrows-alt,
+  "dumpster": $var-dumpster,
+  "dumpster-fire": $var-dumpster-fire,
+  "ethernet": $var-ethernet,
+  "gifts": $var-gifts,
+  "champagne-glasses": $var-champagne-glasses,
+  "glass-cheers": $var-glass-cheers,
+  "whiskey-glass": $var-whiskey-glass,
+  "glass-whiskey": $var-glass-whiskey,
+  "earth-europe": $var-earth-europe,
+  "globe-europe": $var-globe-europe,
+  "grip-lines": $var-grip-lines,
+  "grip-lines-vertical": $var-grip-lines-vertical,
+  "guitar": $var-guitar,
+  "heart-crack": $var-heart-crack,
+  "heart-broken": $var-heart-broken,
+  "holly-berry": $var-holly-berry,
+  "horse-head": $var-horse-head,
+  "icicles": $var-icicles,
+  "igloo": $var-igloo,
+  "mitten": $var-mitten,
+  "mug-hot": $var-mug-hot,
+  "radiation": $var-radiation,
+  "circle-radiation": $var-circle-radiation,
+  "radiation-alt": $var-radiation-alt,
+  "restroom": $var-restroom,
+  "satellite": $var-satellite,
+  "satellite-dish": $var-satellite-dish,
+  "sd-card": $var-sd-card,
+  "sim-card": $var-sim-card,
+  "person-skating": $var-person-skating,
+  "skating": $var-skating,
+  "person-skiing": $var-person-skiing,
+  "skiing": $var-skiing,
+  "person-skiing-nordic": $var-person-skiing-nordic,
+  "skiing-nordic": $var-skiing-nordic,
+  "sleigh": $var-sleigh,
+  "comment-sms": $var-comment-sms,
+  "sms": $var-sms,
+  "person-snowboarding": $var-person-snowboarding,
+  "snowboarding": $var-snowboarding,
+  "snowman": $var-snowman,
+  "snowplow": $var-snowplow,
+  "tenge-sign": $var-tenge-sign,
+  "tenge": $var-tenge,
+  "toilet": $var-toilet,
+  "screwdriver-wrench": $var-screwdriver-wrench,
+  "tools": $var-tools,
+  "cable-car": $var-cable-car,
+  "tram": $var-tram,
+  "fire-flame-curved": $var-fire-flame-curved,
+  "fire-alt": $var-fire-alt,
+  "bacon": $var-bacon,
+  "book-medical": $var-book-medical,
+  "bread-slice": $var-bread-slice,
+  "cheese": $var-cheese,
+  "house-chimney-medical": $var-house-chimney-medical,
+  "clinic-medical": $var-clinic-medical,
+  "clipboard-user": $var-clipboard-user,
+  "comment-medical": $var-comment-medical,
+  "crutch": $var-crutch,
+  "disease": $var-disease,
+  "egg": $var-egg,
+  "folder-tree": $var-folder-tree,
+  "burger": $var-burger,
+  "hamburger": $var-hamburger,
+  "hand-middle-finger": $var-hand-middle-finger,
+  "helmet-safety": $var-helmet-safety,
+  "hard-hat": $var-hard-hat,
+  "hat-hard": $var-hat-hard,
+  "hospital-user": $var-hospital-user,
+  "hotdog": $var-hotdog,
+  "ice-cream": $var-ice-cream,
+  "laptop-medical": $var-laptop-medical,
+  "pager": $var-pager,
+  "pepper-hot": $var-pepper-hot,
+  "pizza-slice": $var-pizza-slice,
+  "sack-dollar": $var-sack-dollar,
+  "book-tanakh": $var-book-tanakh,
+  "tanakh": $var-tanakh,
+  "bars-progress": $var-bars-progress,
+  "tasks-alt": $var-tasks-alt,
+  "trash-arrow-up": $var-trash-arrow-up,
+  "trash-restore": $var-trash-restore,
+  "trash-can-arrow-up": $var-trash-can-arrow-up,
+  "trash-restore-alt": $var-trash-restore-alt,
+  "user-nurse": $var-user-nurse,
+  "wave-square": $var-wave-square,
+  "person-biking": $var-person-biking,
+  "biking": $var-biking,
+  "border-all": $var-border-all,
+  "border-none": $var-border-none,
+  "border-top-left": $var-border-top-left,
+  "border-style": $var-border-style,
+  "person-digging": $var-person-digging,
+  "digging": $var-digging,
+  "fan": $var-fan,
+  "icons": $var-icons,
+  "heart-music-camera-bolt": $var-heart-music-camera-bolt,
+  "phone-flip": $var-phone-flip,
+  "phone-alt": $var-phone-alt,
+  "square-phone-flip": $var-square-phone-flip,
+  "phone-square-alt": $var-phone-square-alt,
+  "photo-film": $var-photo-film,
+  "photo-video": $var-photo-video,
+  "text-slash": $var-text-slash,
+  "remove-format": $var-remove-format,
+  "arrow-down-z-a": $var-arrow-down-z-a,
+  "sort-alpha-desc": $var-sort-alpha-desc,
+  "sort-alpha-down-alt": $var-sort-alpha-down-alt,
+  "arrow-up-z-a": $var-arrow-up-z-a,
+  "sort-alpha-up-alt": $var-sort-alpha-up-alt,
+  "arrow-down-short-wide": $var-arrow-down-short-wide,
+  "sort-amount-desc": $var-sort-amount-desc,
+  "sort-amount-down-alt": $var-sort-amount-down-alt,
+  "arrow-up-short-wide": $var-arrow-up-short-wide,
+  "sort-amount-up-alt": $var-sort-amount-up-alt,
+  "arrow-down-9-1": $var-arrow-down-9-1,
+  "sort-numeric-desc": $var-sort-numeric-desc,
+  "sort-numeric-down-alt": $var-sort-numeric-down-alt,
+  "arrow-up-9-1": $var-arrow-up-9-1,
+  "sort-numeric-up-alt": $var-sort-numeric-up-alt,
+  "spell-check": $var-spell-check,
+  "voicemail": $var-voicemail,
+  "hat-cowboy": $var-hat-cowboy,
+  "hat-cowboy-side": $var-hat-cowboy-side,
+  "computer-mouse": $var-computer-mouse,
+  "mouse": $var-mouse,
+  "radio": $var-radio,
+  "record-vinyl": $var-record-vinyl,
+  "walkie-talkie": $var-walkie-talkie,
+  "caravan": $var-caravan,
+);
+
+$brand-icons: (
+  "firefox-browser": $var-firefox-browser,
+  "ideal": $var-ideal,
+  "microblog": $var-microblog,
+  "square-pied-piper": $var-square-pied-piper,
+  "pied-piper-square": $var-pied-piper-square,
+  "unity": $var-unity,
+  "dailymotion": $var-dailymotion,
+  "square-instagram": $var-square-instagram,
+  "instagram-square": $var-instagram-square,
+  "mixer": $var-mixer,
+  "shopify": $var-shopify,
+  "deezer": $var-deezer,
+  "edge-legacy": $var-edge-legacy,
+  "google-pay": $var-google-pay,
+  "rust": $var-rust,
+  "tiktok": $var-tiktok,
+  "unsplash": $var-unsplash,
+  "cloudflare": $var-cloudflare,
+  "guilded": $var-guilded,
+  "hive": $var-hive,
+  "42-group": $var-42-group,
+  "innosoft": $var-innosoft,
+  "instalod": $var-instalod,
+  "octopus-deploy": $var-octopus-deploy,
+  "perbyte": $var-perbyte,
+  "uncharted": $var-uncharted,
+  "watchman-monitoring": $var-watchman-monitoring,
+  "wodu": $var-wodu,
+  "wirsindhandwerk": $var-wirsindhandwerk,
+  "wsh": $var-wsh,
+  "bots": $var-bots,
+  "cmplid": $var-cmplid,
+  "bilibili": $var-bilibili,
+  "golang": $var-golang,
+  "pix": $var-pix,
+  "sitrox": $var-sitrox,
+  "hashnode": $var-hashnode,
+  "meta": $var-meta,
+  "padlet": $var-padlet,
+  "nfc-directional": $var-nfc-directional,
+  "nfc-symbol": $var-nfc-symbol,
+  "screenpal": $var-screenpal,
+  "space-awesome": $var-space-awesome,
+  "square-font-awesome": $var-square-font-awesome,
+  "square-gitlab": $var-square-gitlab,
+  "gitlab-square": $var-gitlab-square,
+  "odysee": $var-odysee,
+  "stubber": $var-stubber,
+  "debian": $var-debian,
+  "shoelace": $var-shoelace,
+  "threads": $var-threads,
+  "square-threads": $var-square-threads,
+  "square-x-twitter": $var-square-x-twitter,
+  "x-twitter": $var-x-twitter,
+  "opensuse": $var-opensuse,
+  "letterboxd": $var-letterboxd,
+  "square-letterboxd": $var-square-letterboxd,
+  "mintbit": $var-mintbit,
+  "google-scholar": $var-google-scholar,
+  "brave": $var-brave,
+  "brave-reverse": $var-brave-reverse,
+  "pixiv": $var-pixiv,
+  "upwork": $var-upwork,
+  "webflow": $var-webflow,
+  "signal-messenger": $var-signal-messenger,
+  "bluesky": $var-bluesky,
+  "jxl": $var-jxl,
+  "square-upwork": $var-square-upwork,
+  "web-awesome": $var-web-awesome,
+  "square-web-awesome": $var-square-web-awesome,
+  "square-web-awesome-stroke": $var-square-web-awesome-stroke,
+  "dart-lang": $var-dart-lang,
+  "flutter": $var-flutter,
+  "files-pinwheel": $var-files-pinwheel,
+  "css": $var-css,
+  "square-bluesky": $var-square-bluesky,
+  "openai": $var-openai,
+  "square-linkedin": $var-square-linkedin,
+  "cash-app": $var-cash-app,
+  "disqus": $var-disqus,
+  "eleventy": $var-eleventy,
+  "11ty": $var-11ty,
+  "kakao-talk": $var-kakao-talk,
+  "linktree": $var-linktree,
+  "notion": $var-notion,
+  "pandora": $var-pandora,
+  "pixelfed": $var-pixelfed,
+  "tidal": $var-tidal,
+  "vsco": $var-vsco,
+  "w3c": $var-w3c,
+  "lumon": $var-lumon,
+  "lumon-drop": $var-lumon-drop,
+  "square-figma": $var-square-figma,
+  "tex": $var-tex,
+  "duolingo": $var-duolingo,
+  "square-twitter": $var-square-twitter,
+  "twitter-square": $var-twitter-square,
+  "square-facebook": $var-square-facebook,
+  "facebook-square": $var-facebook-square,
+  "linkedin": $var-linkedin,
+  "square-github": $var-square-github,
+  "github-square": $var-github-square,
+  "twitter": $var-twitter,
+  "facebook": $var-facebook,
+  "github": $var-github,
+  "pinterest": $var-pinterest,
+  "square-pinterest": $var-square-pinterest,
+  "pinterest-square": $var-pinterest-square,
+  "square-google-plus": $var-square-google-plus,
+  "google-plus-square": $var-google-plus-square,
+  "google-plus-g": $var-google-plus-g,
+  "linkedin-in": $var-linkedin-in,
+  "github-alt": $var-github-alt,
+  "maxcdn": $var-maxcdn,
+  "html5": $var-html5,
+  "css3": $var-css3,
+  "btc": $var-btc,
+  "youtube": $var-youtube,
+  "xing": $var-xing,
+  "square-xing": $var-square-xing,
+  "xing-square": $var-xing-square,
+  "dropbox": $var-dropbox,
+  "stack-overflow": $var-stack-overflow,
+  "instagram": $var-instagram,
+  "flickr": $var-flickr,
+  "adn": $var-adn,
+  "bitbucket": $var-bitbucket,
+  "tumblr": $var-tumblr,
+  "square-tumblr": $var-square-tumblr,
+  "tumblr-square": $var-tumblr-square,
+  "apple": $var-apple,
+  "windows": $var-windows,
+  "android": $var-android,
+  "linux": $var-linux,
+  "dribbble": $var-dribbble,
+  "skype": $var-skype,
+  "foursquare": $var-foursquare,
+  "trello": $var-trello,
+  "gratipay": $var-gratipay,
+  "vk": $var-vk,
+  "weibo": $var-weibo,
+  "renren": $var-renren,
+  "pagelines": $var-pagelines,
+  "stack-exchange": $var-stack-exchange,
+  "square-vimeo": $var-square-vimeo,
+  "vimeo-square": $var-vimeo-square,
+  "slack": $var-slack,
+  "slack-hash": $var-slack-hash,
+  "wordpress": $var-wordpress,
+  "openid": $var-openid,
+  "yahoo": $var-yahoo,
+  "google": $var-google,
+  "reddit": $var-reddit,
+  "square-reddit": $var-square-reddit,
+  "reddit-square": $var-reddit-square,
+  "stumbleupon-circle": $var-stumbleupon-circle,
+  "stumbleupon": $var-stumbleupon,
+  "delicious": $var-delicious,
+  "digg": $var-digg,
+  "pied-piper-pp": $var-pied-piper-pp,
+  "pied-piper-alt": $var-pied-piper-alt,
+  "drupal": $var-drupal,
+  "joomla": $var-joomla,
+  "behance": $var-behance,
+  "square-behance": $var-square-behance,
+  "behance-square": $var-behance-square,
+  "steam": $var-steam,
+  "square-steam": $var-square-steam,
+  "steam-square": $var-steam-square,
+  "spotify": $var-spotify,
+  "deviantart": $var-deviantart,
+  "soundcloud": $var-soundcloud,
+  "vine": $var-vine,
+  "codepen": $var-codepen,
+  "jsfiddle": $var-jsfiddle,
+  "rebel": $var-rebel,
+  "empire": $var-empire,
+  "square-git": $var-square-git,
+  "git-square": $var-git-square,
+  "git": $var-git,
+  "hacker-news": $var-hacker-news,
+  "tencent-weibo": $var-tencent-weibo,
+  "qq": $var-qq,
+  "weixin": $var-weixin,
+  "slideshare": $var-slideshare,
+  "twitch": $var-twitch,
+  "yelp": $var-yelp,
+  "paypal": $var-paypal,
+  "google-wallet": $var-google-wallet,
+  "cc-visa": $var-cc-visa,
+  "cc-mastercard": $var-cc-mastercard,
+  "cc-discover": $var-cc-discover,
+  "cc-amex": $var-cc-amex,
+  "cc-paypal": $var-cc-paypal,
+  "cc-stripe": $var-cc-stripe,
+  "lastfm": $var-lastfm,
+  "square-lastfm": $var-square-lastfm,
+  "lastfm-square": $var-lastfm-square,
+  "ioxhost": $var-ioxhost,
+  "angellist": $var-angellist,
+  "buysellads": $var-buysellads,
+  "connectdevelop": $var-connectdevelop,
+  "dashcube": $var-dashcube,
+  "forumbee": $var-forumbee,
+  "leanpub": $var-leanpub,
+  "sellsy": $var-sellsy,
+  "shirtsinbulk": $var-shirtsinbulk,
+  "simplybuilt": $var-simplybuilt,
+  "skyatlas": $var-skyatlas,
+  "pinterest-p": $var-pinterest-p,
+  "whatsapp": $var-whatsapp,
+  "viacoin": $var-viacoin,
+  "medium": $var-medium,
+  "medium-m": $var-medium-m,
+  "y-combinator": $var-y-combinator,
+  "optin-monster": $var-optin-monster,
+  "opencart": $var-opencart,
+  "expeditedssl": $var-expeditedssl,
+  "cc-jcb": $var-cc-jcb,
+  "cc-diners-club": $var-cc-diners-club,
+  "creative-commons": $var-creative-commons,
+  "gg": $var-gg,
+  "gg-circle": $var-gg-circle,
+  "odnoklassniki": $var-odnoklassniki,
+  "square-odnoklassniki": $var-square-odnoklassniki,
+  "odnoklassniki-square": $var-odnoklassniki-square,
+  "get-pocket": $var-get-pocket,
+  "wikipedia-w": $var-wikipedia-w,
+  "safari": $var-safari,
+  "chrome": $var-chrome,
+  "firefox": $var-firefox,
+  "opera": $var-opera,
+  "internet-explorer": $var-internet-explorer,
+  "contao": $var-contao,
+  "500px": $var-500px,
+  "amazon": $var-amazon,
+  "houzz": $var-houzz,
+  "vimeo-v": $var-vimeo-v,
+  "black-tie": $var-black-tie,
+  "fonticons": $var-fonticons,
+  "reddit-alien": $var-reddit-alien,
+  "edge": $var-edge,
+  "codiepie": $var-codiepie,
+  "modx": $var-modx,
+  "fort-awesome": $var-fort-awesome,
+  "usb": $var-usb,
+  "product-hunt": $var-product-hunt,
+  "mixcloud": $var-mixcloud,
+  "scribd": $var-scribd,
+  "bluetooth": $var-bluetooth,
+  "bluetooth-b": $var-bluetooth-b,
+  "gitlab": $var-gitlab,
+  "wpbeginner": $var-wpbeginner,
+  "wpforms": $var-wpforms,
+  "envira": $var-envira,
+  "glide": $var-glide,
+  "glide-g": $var-glide-g,
+  "viadeo": $var-viadeo,
+  "square-viadeo": $var-square-viadeo,
+  "viadeo-square": $var-viadeo-square,
+  "snapchat": $var-snapchat,
+  "snapchat-ghost": $var-snapchat-ghost,
+  "square-snapchat": $var-square-snapchat,
+  "snapchat-square": $var-snapchat-square,
+  "pied-piper": $var-pied-piper,
+  "first-order": $var-first-order,
+  "yoast": $var-yoast,
+  "themeisle": $var-themeisle,
+  "google-plus": $var-google-plus,
+  "font-awesome": $var-font-awesome,
+  "font-awesome-flag": $var-font-awesome-flag,
+  "font-awesome-logo-full": $var-font-awesome-logo-full,
+  "linode": $var-linode,
+  "quora": $var-quora,
+  "free-code-camp": $var-free-code-camp,
+  "telegram": $var-telegram,
+  "telegram-plane": $var-telegram-plane,
+  "bandcamp": $var-bandcamp,
+  "grav": $var-grav,
+  "etsy": $var-etsy,
+  "imdb": $var-imdb,
+  "ravelry": $var-ravelry,
+  "sellcast": $var-sellcast,
+  "superpowers": $var-superpowers,
+  "wpexplorer": $var-wpexplorer,
+  "meetup": $var-meetup,
+  "square-font-awesome-stroke": $var-square-font-awesome-stroke,
+  "font-awesome-alt": $var-font-awesome-alt,
+  "accessible-icon": $var-accessible-icon,
+  "accusoft": $var-accusoft,
+  "adversal": $var-adversal,
+  "affiliatetheme": $var-affiliatetheme,
+  "algolia": $var-algolia,
+  "amilia": $var-amilia,
+  "angrycreative": $var-angrycreative,
+  "app-store": $var-app-store,
+  "app-store-ios": $var-app-store-ios,
+  "apper": $var-apper,
+  "asymmetrik": $var-asymmetrik,
+  "audible": $var-audible,
+  "avianex": $var-avianex,
+  "aws": $var-aws,
+  "bimobject": $var-bimobject,
+  "bitcoin": $var-bitcoin,
+  "bity": $var-bity,
+  "blackberry": $var-blackberry,
+  "blogger": $var-blogger,
+  "blogger-b": $var-blogger-b,
+  "buromobelexperte": $var-buromobelexperte,
+  "centercode": $var-centercode,
+  "cloudscale": $var-cloudscale,
+  "cloudsmith": $var-cloudsmith,
+  "cloudversify": $var-cloudversify,
+  "cpanel": $var-cpanel,
+  "css3-alt": $var-css3-alt,
+  "cuttlefish": $var-cuttlefish,
+  "d-and-d": $var-d-and-d,
+  "deploydog": $var-deploydog,
+  "deskpro": $var-deskpro,
+  "digital-ocean": $var-digital-ocean,
+  "discord": $var-discord,
+  "discourse": $var-discourse,
+  "dochub": $var-dochub,
+  "docker": $var-docker,
+  "draft2digital": $var-draft2digital,
+  "square-dribbble": $var-square-dribbble,
+  "dribbble-square": $var-dribbble-square,
+  "dyalog": $var-dyalog,
+  "earlybirds": $var-earlybirds,
+  "erlang": $var-erlang,
+  "facebook-f": $var-facebook-f,
+  "facebook-messenger": $var-facebook-messenger,
+  "firstdraft": $var-firstdraft,
+  "fonticons-fi": $var-fonticons-fi,
+  "fort-awesome-alt": $var-fort-awesome-alt,
+  "freebsd": $var-freebsd,
+  "gitkraken": $var-gitkraken,
+  "gofore": $var-gofore,
+  "goodreads": $var-goodreads,
+  "goodreads-g": $var-goodreads-g,
+  "google-drive": $var-google-drive,
+  "google-play": $var-google-play,
+  "gripfire": $var-gripfire,
+  "grunt": $var-grunt,
+  "gulp": $var-gulp,
+  "square-hacker-news": $var-square-hacker-news,
+  "hacker-news-square": $var-hacker-news-square,
+  "hire-a-helper": $var-hire-a-helper,
+  "hotjar": $var-hotjar,
+  "hubspot": $var-hubspot,
+  "itunes": $var-itunes,
+  "itunes-note": $var-itunes-note,
+  "jenkins": $var-jenkins,
+  "joget": $var-joget,
+  "js": $var-js,
+  "square-js": $var-square-js,
+  "js-square": $var-js-square,
+  "keycdn": $var-keycdn,
+  "kickstarter": $var-kickstarter,
+  "square-kickstarter": $var-square-kickstarter,
+  "kickstarter-k": $var-kickstarter-k,
+  "laravel": $var-laravel,
+  "line": $var-line,
+  "lyft": $var-lyft,
+  "magento": $var-magento,
+  "medapps": $var-medapps,
+  "medrt": $var-medrt,
+  "microsoft": $var-microsoft,
+  "mix": $var-mix,
+  "mizuni": $var-mizuni,
+  "monero": $var-monero,
+  "napster": $var-napster,
+  "node-js": $var-node-js,
+  "npm": $var-npm,
+  "ns8": $var-ns8,
+  "nutritionix": $var-nutritionix,
+  "page4": $var-page4,
+  "palfed": $var-palfed,
+  "patreon": $var-patreon,
+  "periscope": $var-periscope,
+  "phabricator": $var-phabricator,
+  "phoenix-framework": $var-phoenix-framework,
+  "playstation": $var-playstation,
+  "pushed": $var-pushed,
+  "python": $var-python,
+  "red-river": $var-red-river,
+  "wpressr": $var-wpressr,
+  "rendact": $var-rendact,
+  "replyd": $var-replyd,
+  "resolving": $var-resolving,
+  "rocketchat": $var-rocketchat,
+  "rockrms": $var-rockrms,
+  "schlix": $var-schlix,
+  "searchengin": $var-searchengin,
+  "servicestack": $var-servicestack,
+  "sistrix": $var-sistrix,
+  "speakap": $var-speakap,
+  "staylinked": $var-staylinked,
+  "steam-symbol": $var-steam-symbol,
+  "sticker-mule": $var-sticker-mule,
+  "studiovinari": $var-studiovinari,
+  "supple": $var-supple,
+  "uber": $var-uber,
+  "uikit": $var-uikit,
+  "uniregistry": $var-uniregistry,
+  "untappd": $var-untappd,
+  "ussunnah": $var-ussunnah,
+  "vaadin": $var-vaadin,
+  "viber": $var-viber,
+  "vimeo": $var-vimeo,
+  "vnv": $var-vnv,
+  "square-whatsapp": $var-square-whatsapp,
+  "whatsapp-square": $var-whatsapp-square,
+  "whmcs": $var-whmcs,
+  "wordpress-simple": $var-wordpress-simple,
+  "xbox": $var-xbox,
+  "yandex": $var-yandex,
+  "yandex-international": $var-yandex-international,
+  "apple-pay": $var-apple-pay,
+  "cc-apple-pay": $var-cc-apple-pay,
+  "fly": $var-fly,
+  "node": $var-node,
+  "osi": $var-osi,
+  "react": $var-react,
+  "autoprefixer": $var-autoprefixer,
+  "less": $var-less,
+  "sass": $var-sass,
+  "vuejs": $var-vuejs,
+  "angular": $var-angular,
+  "aviato": $var-aviato,
+  "ember": $var-ember,
+  "gitter": $var-gitter,
+  "hooli": $var-hooli,
+  "strava": $var-strava,
+  "stripe": $var-stripe,
+  "stripe-s": $var-stripe-s,
+  "typo3": $var-typo3,
+  "amazon-pay": $var-amazon-pay,
+  "cc-amazon-pay": $var-cc-amazon-pay,
+  "ethereum": $var-ethereum,
+  "korvue": $var-korvue,
+  "elementor": $var-elementor,
+  "square-youtube": $var-square-youtube,
+  "youtube-square": $var-youtube-square,
+  "flipboard": $var-flipboard,
+  "hips": $var-hips,
+  "php": $var-php,
+  "quinscape": $var-quinscape,
+  "readme": $var-readme,
+  "java": $var-java,
+  "pied-piper-hat": $var-pied-piper-hat,
+  "creative-commons-by": $var-creative-commons-by,
+  "creative-commons-nc": $var-creative-commons-nc,
+  "creative-commons-nc-eu": $var-creative-commons-nc-eu,
+  "creative-commons-nc-jp": $var-creative-commons-nc-jp,
+  "creative-commons-nd": $var-creative-commons-nd,
+  "creative-commons-pd": $var-creative-commons-pd,
+  "creative-commons-pd-alt": $var-creative-commons-pd-alt,
+  "creative-commons-remix": $var-creative-commons-remix,
+  "creative-commons-sa": $var-creative-commons-sa,
+  "creative-commons-sampling": $var-creative-commons-sampling,
+  "creative-commons-sampling-plus": $var-creative-commons-sampling-plus,
+  "creative-commons-share": $var-creative-commons-share,
+  "creative-commons-zero": $var-creative-commons-zero,
+  "ebay": $var-ebay,
+  "keybase": $var-keybase,
+  "mastodon": $var-mastodon,
+  "r-project": $var-r-project,
+  "researchgate": $var-researchgate,
+  "teamspeak": $var-teamspeak,
+  "first-order-alt": $var-first-order-alt,
+  "fulcrum": $var-fulcrum,
+  "galactic-republic": $var-galactic-republic,
+  "galactic-senate": $var-galactic-senate,
+  "jedi-order": $var-jedi-order,
+  "mandalorian": $var-mandalorian,
+  "old-republic": $var-old-republic,
+  "phoenix-squadron": $var-phoenix-squadron,
+  "sith": $var-sith,
+  "trade-federation": $var-trade-federation,
+  "wolf-pack-battalion": $var-wolf-pack-battalion,
+  "hornbill": $var-hornbill,
+  "mailchimp": $var-mailchimp,
+  "megaport": $var-megaport,
+  "nimblr": $var-nimblr,
+  "rev": $var-rev,
+  "shopware": $var-shopware,
+  "squarespace": $var-squarespace,
+  "themeco": $var-themeco,
+  "weebly": $var-weebly,
+  "wix": $var-wix,
+  "ello": $var-ello,
+  "hackerrank": $var-hackerrank,
+  "kaggle": $var-kaggle,
+  "markdown": $var-markdown,
+  "neos": $var-neos,
+  "zhihu": $var-zhihu,
+  "alipay": $var-alipay,
+  "the-red-yeti": $var-the-red-yeti,
+  "critical-role": $var-critical-role,
+  "d-and-d-beyond": $var-d-and-d-beyond,
+  "dev": $var-dev,
+  "fantasy-flight-games": $var-fantasy-flight-games,
+  "wizards-of-the-coast": $var-wizards-of-the-coast,
+  "think-peaks": $var-think-peaks,
+  "reacteurope": $var-reacteurope,
+  "artstation": $var-artstation,
+  "atlassian": $var-atlassian,
+  "canadian-maple-leaf": $var-canadian-maple-leaf,
+  "centos": $var-centos,
+  "confluence": $var-confluence,
+  "dhl": $var-dhl,
+  "diaspora": $var-diaspora,
+  "fedex": $var-fedex,
+  "fedora": $var-fedora,
+  "figma": $var-figma,
+  "intercom": $var-intercom,
+  "invision": $var-invision,
+  "jira": $var-jira,
+  "mendeley": $var-mendeley,
+  "raspberry-pi": $var-raspberry-pi,
+  "redhat": $var-redhat,
+  "sketch": $var-sketch,
+  "sourcetree": $var-sourcetree,
+  "suse": $var-suse,
+  "ubuntu": $var-ubuntu,
+  "ups": $var-ups,
+  "usps": $var-usps,
+  "yarn": $var-yarn,
+  "airbnb": $var-airbnb,
+  "battle-net": $var-battle-net,
+  "bootstrap": $var-bootstrap,
+  "buffer": $var-buffer,
+  "chromecast": $var-chromecast,
+  "evernote": $var-evernote,
+  "itch-io": $var-itch-io,
+  "salesforce": $var-salesforce,
+  "speaker-deck": $var-speaker-deck,
+  "symfony": $var-symfony,
+  "waze": $var-waze,
+  "yammer": $var-yammer,
+  "git-alt": $var-git-alt,
+  "stackpath": $var-stackpath,
+  "cotton-bureau": $var-cotton-bureau,
+  "buy-n-large": $var-buy-n-large,
+  "mdb": $var-mdb,
+  "orcid": $var-orcid,
+  "swift": $var-swift,
+  "umbraco": $var-umbraco,
+);

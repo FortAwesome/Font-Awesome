@@ -1,0 +1,31 @@
+/*!
+ * Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2025 Fonticons, Inc.
+ */
+:root, :host {
+  --fa-family-classic: "Font Awesome 7 Free";
+  --fa-font-regular: normal 400 1em/1 var(--fa-family-classic);
+  /* deprecated: this older custom property will be removed next major release */
+  --fa-style-family-classic: var(--fa-family-classic);
+}
+
+@font-face {
+  font-family: "Font Awesome 7 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/fa-regular-400.woff2");
+}
+.far {
+  --fa-family: var(--fa-family-classic);
+  --fa-style: 400;
+}
+
+.fa-classic {
+  --fa-family: var(--fa-family-classic);
+}
+
+.fa-regular {
+  --fa-style: 400;
+}

@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'far';
+var iconName = 'chess-knight';
+var width = 448;
+var height = 512;
+var aliases = [9822];
+var unicode = 'f441';
+var svgPathData = 'M232-32c110.5 0 200 89.5 200 200l0 127.7c0 18.9-6.1 37.1-17.2 52.2l-5.1 6.2-36.3 40.7 32.1 40.2c6.7 8.4 10.4 18.8 10.4 29.6l-.2 4.8c-2.4 23.9-22.6 42.5-47.1 42.5l-289.2 0-4.8-.2c-23.9-2.4-42.5-22.6-42.5-47.1 0-10.8 3.7-21.2 10.4-29.6l37.6-47 0-24.3c0-24.3 10.1-47.6 27.8-64.2l63.5-59.5-17.4 0-.2 .2c-20.3 20.3-49.6 28.2-77.1 21.1l-5.5-1.6c-30.9-10.3-52.3-38-54.9-70.1l-.2-6.4 0-1.4c0-19.7 7.1-38.8 19.9-53.8l76.1-88.8 0-47.1 .1-2.5C113.4-22.6 123.6-32 136-32l96 0zM80.7 464l286.6 0-38.4-48-209.9 0-38.4 48zM160 48c0 5.7-2.1 11.3-5.8 15.6L72.3 159.1C67 165.4 64 173.4 64 181.7l0 1.4 .4 5.2c1.9 11.9 10.3 21.9 21.9 25.8l4.5 1.1c10.5 1.9 21.3-1.4 29-9l7.2-7.2 3.7-3c3.9-2.6 8.5-4 13.3-4l88 0c9.8 0 18.7 6 22.3 15.2s1.3 19.6-5.9 26.3l-107.8 101c-8.1 7.6-12.7 18.1-12.7 29.2l0 4.3 205.2 0 40.7-45.8 2.3-2.8c5.1-6.8 7.8-15.2 7.8-23.7L384 168c0-83.9-68.1-152-152-152l-72 0 0 32zm32 72a24 24 0 1 1 0-48 24 24 0 1 1 0 48z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faChessKnight = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

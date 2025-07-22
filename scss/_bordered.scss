@@ -1,0 +1,24 @@
+//  bordered icons
+// -------------------------
+@use 'variables' as v;
+
+/* Heads Up: Bordered Icons will not be supported in the future!
+  - This feature will be deprecated in the next major release of Font Awesome (v8)!
+  - You may continue to use it in this version *v7), but it will not be supported in Font Awesome v8.
+*/
+
+/* Notes:
+* --@{v.$css-prefix}-border-width = 1/16 by default (to render as ~1px based on a 16px default font-size)
+* --@{v.$css-prefix}-border-padding =
+  ** 3/16 for vertical padding (to give ~2px of vertical whitespace around an icon considering it's vertical alignment)
+  ** 4/16 for horizontal padding (to give ~4px of horizontal whitespace around an icon)
+*/
+
+.#{v.$css-prefix}-border {
+  border-color: var(--#{v.$css-prefix}-border-color, #{v.$border-color});
+  border-radius: var(--#{v.$css-prefix}-border-radius, #{v.$border-radius});
+  border-style: var(--#{v.$css-prefix}-border-style, #{v.$border-style});
+  border-width: var(--#{v.$css-prefix}-border-width, #{v.$border-width});
+  box-sizing: var(--#{v.$css-prefix}-border-box-sizing, #{v.$border-box-sizing});
+  padding: var(--#{v.$css-prefix}-border-padding, #{v.$border-padding});
+}

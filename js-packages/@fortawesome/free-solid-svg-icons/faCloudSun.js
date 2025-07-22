@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'fas';
+var iconName = 'cloud-sun';
+var width = 576;
+var height = 512;
+var aliases = [9925];
+var unicode = 'f6c4';
+var svgPathData = 'M453.6-14.8c4.9 2 8.5 6.4 9.5 11.6L480 80 563.2 96.8c5.2 1.1 9.5 4.6 11.6 9.5s1.5 10.5-1.4 14.9l-46.9 70.7 46.9 70.7c2.9 4.4 3.5 10 1.4 14.9s-6.4 8.5-11.6 9.5L501 299.7c-11.9-8.7-25.1-15.6-39.4-20.4-2.5-12.7-6.8-24.7-12.7-35.7 9.5-14.9 15.1-32.6 15.1-51.7 0-53-43-96-96-96-47.9 0-87.6 35.1-94.8 80.9-26.5-20.3-59.5-32.5-95.4-32.9l-15.1-22.7c-2.9-4.4-3.5-10-1.4-14.9s6.4-8.5 11.6-9.5L256 80 272.8-3.2c1.1-5.2 4.6-9.5 9.5-11.6s10.5-1.5 14.9 1.4L368 33.6 438.7-13.3c4.4-2.9 10-3.5 14.9-1.4zM416 192c0 3.8-.4 7.5-1.3 11.1-21.7-17-49-27.1-78.7-27.1-4.6 0-9.1 .2-13.5 .7 6.4-19 24.4-32.7 45.5-32.7 26.5 0 48 21.5 48 48zM96 512c-53 0-96-43-96-96 0-42.5 27.6-78.6 65.9-91.2-1.3-6.7-1.9-13.7-1.9-20.8 0-61.9 50.1-112 112-112 43.1 0 80.5 24.3 99.2 60 14.7-17.1 36.5-28 60.8-28 44.2 0 80 35.8 80 80 0 5.5-.6 10.8-1.6 16 .5 0 1.1 0 1.6 0 53 0 96 43 96 96s-43 96-96 96L96 512z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faCloudSun = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

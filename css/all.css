@@ -1,0 +1,10651 @@
+/*!
+ * Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2025 Fonticons, Inc.
+ */
+.fa-solid,
+.fa-regular,
+.fa-brands,
+.fa-classic,
+.fas,
+.far,
+.fab,
+.fa {
+  --_fa-family: var(--fa-family, var(--fa-style-family, "Font Awesome 7 Free"));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: var(--fa-display, inline-block);
+  font-family: var(--_fa-family);
+  font-feature-settings: normal;
+  font-style: normal;
+  font-synthesis: none;
+  font-variant: normal;
+  font-weight: var(--fa-style, 900);
+  line-height: 1;
+  text-align: center;
+  text-rendering: auto;
+  width: var(--fa-width, 1.25em);
+}
+
+:is(.fas,
+.far,
+.fab,
+.fa-solid,
+.fa-regular,
+.fa-brands,
+.fa-classic,
+.fa)::before {
+  content: var(--fa);
+  content: var(--fa)/"";
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: calc(10 / 16 * 1em); /* converts a 10px size into an em-based value that's relative to the scale's 16px base */
+  line-height: calc(1 / 10 * 1em); /* sets the line-height of the icon back to that of it's parent */
+  vertical-align: calc((6 / 10 - 0.375) * 1em); /* vertically centers the icon taking into account the surrounding text's descender */
+}
+
+.fa-xs {
+  font-size: calc(12 / 16 * 1em); /* converts a 12px size into an em-based value that's relative to the scale's 16px base */
+  line-height: calc(1 / 12 * 1em); /* sets the line-height of the icon back to that of it's parent */
+  vertical-align: calc((6 / 12 - 0.375) * 1em); /* vertically centers the icon taking into account the surrounding text's descender */
+}
+
+.fa-sm {
+  font-size: calc(14 / 16 * 1em); /* converts a 14px size into an em-based value that's relative to the scale's 16px base */
+  line-height: calc(1 / 14 * 1em); /* sets the line-height of the icon back to that of it's parent */
+  vertical-align: calc((6 / 14 - 0.375) * 1em); /* vertically centers the icon taking into account the surrounding text's descender */
+}
+
+.fa-lg {
+  font-size: calc(20 / 16 * 1em); /* converts a 20px size into an em-based value that's relative to the scale's 16px base */
+  line-height: calc(1 / 20 * 1em); /* sets the line-height of the icon back to that of it's parent */
+  vertical-align: calc((6 / 20 - 0.375) * 1em); /* vertically centers the icon taking into account the surrounding text's descender */
+}
+
+.fa-xl {
+  font-size: calc(24 / 16 * 1em); /* converts a 24px size into an em-based value that's relative to the scale's 16px base */
+  line-height: calc(1 / 24 * 1em); /* sets the line-height of the icon back to that of it's parent */
+  vertical-align: calc((6 / 24 - 0.375) * 1em); /* vertically centers the icon taking into account the surrounding text's descender */
+}
+
+.fa-2xl {
+  font-size: calc(32 / 16 * 1em); /* converts a 32px size into an em-based value that's relative to the scale's 16px base */
+  line-height: calc(1 / 32 * 1em); /* sets the line-height of the icon back to that of it's parent */
+  vertical-align: calc((6 / 32 - 0.375) * 1em); /* vertically centers the icon taking into account the surrounding text's descender */
+}
+
+.fa-width-auto {
+  --fa-width: auto;
+}
+
+.fa-fw,
+.fa-width-fixed {
+  --fa-width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-inline-start: var(--fa-li-margin, 2.5em);
+  padding-inline-start: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  inset-inline-start: calc(-1 * var(--fa-li-width, 2em));
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+/* Heads Up: Bordered Icons will not be supported in the future!
+  - This feature will be deprecated in the next major release of Font Awesome (v8)!
+  - You may continue to use it in this version *v7), but it will not be supported in Font Awesome v8.
+*/
+/* Notes:
+* --@{v.$css-prefix}-border-width = 1/16 by default (to render as ~1px based on a 16px default font-size)
+* --@{v.$css-prefix}-border-padding =
+  ** 3/16 for vertical padding (to give ~2px of vertical whitespace around an icon considering it's vertical alignment)
+  ** 4/16 for horizontal padding (to give ~4px of horizontal whitespace around an icon)
+*/
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.0625em);
+  box-sizing: var(--fa-border-box-sizing, content-box);
+  padding: var(--fa-border-padding, 0.1875em 0.25em);
+}
+
+.fa-pull-left,
+.fa-pull-start {
+  float: inline-start;
+  margin-inline-end: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right,
+.fa-pull-end {
+  float: inline-end;
+  margin-inline-start: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  animation-name: fa-beat;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  animation-name: fa-bounce;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  animation-name: fa-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  animation-name: fa-beat-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  animation-name: fa-flip;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  animation-name: fa-shake;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  animation-name: fa-spin;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 2s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  animation-name: fa-spin;
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+  .fa-bounce,
+  .fa-fade,
+  .fa-beat-fade,
+  .fa-flip,
+  .fa-pulse,
+  .fa-shake,
+  .fa-spin,
+  .fa-spin-pulse {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-shake {
+  0% {
+    transform: rotate(-15deg);
+  }
+  4% {
+    transform: rotate(15deg);
+  }
+  8%, 24% {
+    transform: rotate(-18deg);
+  }
+  12%, 28% {
+    transform: rotate(18deg);
+  }
+  16% {
+    transform: rotate(-22deg);
+  }
+  20% {
+    transform: rotate(22deg);
+  }
+  32% {
+    transform: rotate(-12deg);
+  }
+  36% {
+    transform: rotate(12deg);
+  }
+  40%, 100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  transform: rotate(var(--fa-rotate-angle, 0));
+}
+
+.fa-stack {
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  vertical-align: middle;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+
+.fa-0 {
+  --fa: "\30 ";
+}
+
+.fa-1 {
+  --fa: "\31 ";
+}
+
+.fa-2 {
+  --fa: "\32 ";
+}
+
+.fa-3 {
+  --fa: "\33 ";
+}
+
+.fa-4 {
+  --fa: "\34 ";
+}
+
+.fa-5 {
+  --fa: "\35 ";
+}
+
+.fa-6 {
+  --fa: "\36 ";
+}
+
+.fa-7 {
+  --fa: "\37 ";
+}
+
+.fa-8 {
+  --fa: "\38 ";
+}
+
+.fa-9 {
+  --fa: "\39 ";
+}
+
+.fa-exclamation {
+  --fa: "\!";
+}
+
+.fa-hashtag {
+  --fa: "\#";
+}
+
+.fa-dollar-sign {
+  --fa: "\$";
+}
+
+.fa-dollar {
+  --fa: "\$";
+}
+
+.fa-usd {
+  --fa: "\$";
+}
+
+.fa-percent {
+  --fa: "\%";
+}
+
+.fa-percentage {
+  --fa: "\%";
+}
+
+.fa-asterisk {
+  --fa: "\*";
+}
+
+.fa-plus {
+  --fa: "\+";
+}
+
+.fa-add {
+  --fa: "\+";
+}
+
+.fa-less-than {
+  --fa: "\<";
+}
+
+.fa-equals {
+  --fa: "\=";
+}
+
+.fa-greater-than {
+  --fa: "\>";
+}
+
+.fa-question {
+  --fa: "\?";
+}
+
+.fa-at {
+  --fa: "\@";
+}
+
+.fa-a {
+  --fa: "A";
+}
+
+.fa-b {
+  --fa: "B";
+}
+
+.fa-c {
+  --fa: "C";
+}
+
+.fa-d {
+  --fa: "D";
+}
+
+.fa-e {
+  --fa: "E";
+}
+
+.fa-f {
+  --fa: "F";
+}
+
+.fa-g {
+  --fa: "G";
+}
+
+.fa-h {
+  --fa: "H";
+}
+
+.fa-i {
+  --fa: "I";
+}
+
+.fa-j {
+  --fa: "J";
+}
+
+.fa-k {
+  --fa: "K";
+}
+
+.fa-l {
+  --fa: "L";
+}
+
+.fa-m {
+  --fa: "M";
+}
+
+.fa-n {
+  --fa: "N";
+}
+
+.fa-o {
+  --fa: "O";
+}
+
+.fa-p {
+  --fa: "P";
+}
+
+.fa-q {
+  --fa: "Q";
+}
+
+.fa-r {
+  --fa: "R";
+}
+
+.fa-s {
+  --fa: "S";
+}
+
+.fa-t {
+  --fa: "T";
+}
+
+.fa-u {
+  --fa: "U";
+}
+
+.fa-v {
+  --fa: "V";
+}
+
+.fa-w {
+  --fa: "W";
+}
+
+.fa-x {
+  --fa: "X";
+}
+
+.fa-y {
+  --fa: "Y";
+}
+
+.fa-z {
+  --fa: "Z";
+}
+
+.fa-faucet {
+  --fa: "\e005";
+}
+
+.fa-faucet-drip {
+  --fa: "\e006";
+}
+
+.fa-house-chimney-window {
+  --fa: "\e00d";
+}
+
+.fa-house-signal {
+  --fa: "\e012";
+}
+
+.fa-temperature-arrow-down {
+  --fa: "\e03f";
+}
+
+.fa-temperature-down {
+  --fa: "\e03f";
+}
+
+.fa-temperature-arrow-up {
+  --fa: "\e040";
+}
+
+.fa-temperature-up {
+  --fa: "\e040";
+}
+
+.fa-trailer {
+  --fa: "\e041";
+}
+
+.fa-bacteria {
+  --fa: "\e059";
+}
+
+.fa-bacterium {
+  --fa: "\e05a";
+}
+
+.fa-box-tissue {
+  --fa: "\e05b";
+}
+
+.fa-hand-holding-medical {
+  --fa: "\e05c";
+}
+
+.fa-hand-sparkles {
+  --fa: "\e05d";
+}
+
+.fa-hands-bubbles {
+  --fa: "\e05e";
+}
+
+.fa-hands-wash {
+  --fa: "\e05e";
+}
+
+.fa-handshake-slash {
+  --fa: "\e060";
+}
+
+.fa-handshake-alt-slash {
+  --fa: "\e060";
+}
+
+.fa-handshake-simple-slash {
+  --fa: "\e060";
+}
+
+.fa-head-side-cough {
+  --fa: "\e061";
+}
+
+.fa-head-side-cough-slash {
+  --fa: "\e062";
+}
+
+.fa-head-side-mask {
+  --fa: "\e063";
+}
+
+.fa-head-side-virus {
+  --fa: "\e064";
+}
+
+.fa-house-chimney-user {
+  --fa: "\e065";
+}
+
+.fa-house-laptop {
+  --fa: "\e066";
+}
+
+.fa-laptop-house {
+  --fa: "\e066";
+}
+
+.fa-lungs-virus {
+  --fa: "\e067";
+}
+
+.fa-people-arrows {
+  --fa: "\e068";
+}
+
+.fa-people-arrows-left-right {
+  --fa: "\e068";
+}
+
+.fa-plane-slash {
+  --fa: "\e069";
+}
+
+.fa-pump-medical {
+  --fa: "\e06a";
+}
+
+.fa-pump-soap {
+  --fa: "\e06b";
+}
+
+.fa-shield-virus {
+  --fa: "\e06c";
+}
+
+.fa-sink {
+  --fa: "\e06d";
+}
+
+.fa-soap {
+  --fa: "\e06e";
+}
+
+.fa-stopwatch-20 {
+  --fa: "\e06f";
+}
+
+.fa-shop-slash {
+  --fa: "\e070";
+}
+
+.fa-store-alt-slash {
+  --fa: "\e070";
+}
+
+.fa-store-slash {
+  --fa: "\e071";
+}
+
+.fa-toilet-paper-slash {
+  --fa: "\e072";
+}
+
+.fa-users-slash {
+  --fa: "\e073";
+}
+
+.fa-virus {
+  --fa: "\e074";
+}
+
+.fa-virus-slash {
+  --fa: "\e075";
+}
+
+.fa-viruses {
+  --fa: "\e076";
+}
+
+.fa-vest {
+  --fa: "\e085";
+}
+
+.fa-vest-patches {
+  --fa: "\e086";
+}
+
+.fa-arrow-trend-down {
+  --fa: "\e097";
+}
+
+.fa-arrow-trend-up {
+  --fa: "\e098";
+}
+
+.fa-arrow-up-from-bracket {
+  --fa: "\e09a";
+}
+
+.fa-austral-sign {
+  --fa: "\e0a9";
+}
+
+.fa-baht-sign {
+  --fa: "\e0ac";
+}
+
+.fa-bitcoin-sign {
+  --fa: "\e0b4";
+}
+
+.fa-bolt-lightning {
+  --fa: "\e0b7";
+}
+
+.fa-book-bookmark {
+  --fa: "\e0bb";
+}
+
+.fa-camera-rotate {
+  --fa: "\e0d8";
+}
+
+.fa-cedi-sign {
+  --fa: "\e0df";
+}
+
+.fa-chart-column {
+  --fa: "\e0e3";
+}
+
+.fa-chart-gantt {
+  --fa: "\e0e4";
+}
+
+.fa-clapperboard {
+  --fa: "\e131";
+}
+
+.fa-clover {
+  --fa: "\e139";
+}
+
+.fa-code-compare {
+  --fa: "\e13a";
+}
+
+.fa-code-fork {
+  --fa: "\e13b";
+}
+
+.fa-code-pull-request {
+  --fa: "\e13c";
+}
+
+.fa-colon-sign {
+  --fa: "\e140";
+}
+
+.fa-cruzeiro-sign {
+  --fa: "\e152";
+}
+
+.fa-display {
+  --fa: "\e163";
+}
+
+.fa-dong-sign {
+  --fa: "\e169";
+}
+
+.fa-elevator {
+  --fa: "\e16d";
+}
+
+.fa-filter-circle-xmark {
+  --fa: "\e17b";
+}
+
+.fa-florin-sign {
+  --fa: "\e184";
+}
+
+.fa-folder-closed {
+  --fa: "\e185";
+}
+
+.fa-franc-sign {
+  --fa: "\e18f";
+}
+
+.fa-guarani-sign {
+  --fa: "\e19a";
+}
+
+.fa-gun {
+  --fa: "\e19b";
+}
+
+.fa-hands-clapping {
+  --fa: "\e1a8";
+}
+
+.fa-house-user {
+  --fa: "\e1b0";
+}
+
+.fa-home-user {
+  --fa: "\e1b0";
+}
+
+.fa-indian-rupee-sign {
+  --fa: "\e1bc";
+}
+
+.fa-indian-rupee {
+  --fa: "\e1bc";
+}
+
+.fa-inr {
+  --fa: "\e1bc";
+}
+
+.fa-kip-sign {
+  --fa: "\e1c4";
+}
+
+.fa-lari-sign {
+  --fa: "\e1c8";
+}
+
+.fa-litecoin-sign {
+  --fa: "\e1d3";
+}
+
+.fa-manat-sign {
+  --fa: "\e1d5";
+}
+
+.fa-mask-face {
+  --fa: "\e1d7";
+}
+
+.fa-mill-sign {
+  --fa: "\e1ed";
+}
+
+.fa-money-bills {
+  --fa: "\e1f3";
+}
+
+.fa-naira-sign {
+  --fa: "\e1f6";
+}
+
+.fa-notdef {
+  --fa: "\e1fe";
+}
+
+.fa-panorama {
+  --fa: "\e209";
+}
+
+.fa-peseta-sign {
+  --fa: "\e221";
+}
+
+.fa-peso-sign {
+  --fa: "\e222";
+}
+
+.fa-plane-up {
+  --fa: "\e22d";
+}
+
+.fa-rupiah-sign {
+  --fa: "\e23d";
+}
+
+.fa-stairs {
+  --fa: "\e289";
+}
+
+.fa-timeline {
+  --fa: "\e29c";
+}
+
+.fa-truck-front {
+  --fa: "\e2b7";
+}
+
+.fa-turkish-lira-sign {
+  --fa: "\e2bb";
+}
+
+.fa-try {
+  --fa: "\e2bb";
+}
+
+.fa-turkish-lira {
+  --fa: "\e2bb";
+}
+
+.fa-vault {
+  --fa: "\e2c5";
+}
+
+.fa-wand-magic-sparkles {
+  --fa: "\e2ca";
+}
+
+.fa-magic-wand-sparkles {
+  --fa: "\e2ca";
+}
+
+.fa-wheat-awn {
+  --fa: "\e2cd";
+}
+
+.fa-wheat-alt {
+  --fa: "\e2cd";
+}
+
+.fa-wheelchair-move {
+  --fa: "\e2ce";
+}
+
+.fa-wheelchair-alt {
+  --fa: "\e2ce";
+}
+
+.fa-bangladeshi-taka-sign {
+  --fa: "\e2e6";
+}
+
+.fa-bowl-rice {
+  --fa: "\e2eb";
+}
+
+.fa-person-pregnant {
+  --fa: "\e31e";
+}
+
+.fa-house-chimney {
+  --fa: "\e3af";
+}
+
+.fa-home-lg {
+  --fa: "\e3af";
+}
+
+.fa-house-crack {
+  --fa: "\e3b1";
+}
+
+.fa-house-medical {
+  --fa: "\e3b2";
+}
+
+.fa-cent-sign {
+  --fa: "\e3f5";
+}
+
+.fa-plus-minus {
+  --fa: "\e43c";
+}
+
+.fa-sailboat {
+  --fa: "\e445";
+}
+
+.fa-section {
+  --fa: "\e447";
+}
+
+.fa-shrimp {
+  --fa: "\e448";
+}
+
+.fa-brazilian-real-sign {
+  --fa: "\e46c";
+}
+
+.fa-chart-simple {
+  --fa: "\e473";
+}
+
+.fa-diagram-next {
+  --fa: "\e476";
+}
+
+.fa-diagram-predecessor {
+  --fa: "\e477";
+}
+
+.fa-diagram-successor {
+  --fa: "\e47a";
+}
+
+.fa-earth-oceania {
+  --fa: "\e47b";
+}
+
+.fa-globe-oceania {
+  --fa: "\e47b";
+}
+
+.fa-bug-slash {
+  --fa: "\e490";
+}
+
+.fa-file-circle-plus {
+  --fa: "\e494";
+}
+
+.fa-shop-lock {
+  --fa: "\e4a5";
+}
+
+.fa-virus-covid {
+  --fa: "\e4a8";
+}
+
+.fa-virus-covid-slash {
+  --fa: "\e4a9";
+}
+
+.fa-anchor-circle-check {
+  --fa: "\e4aa";
+}
+
+.fa-anchor-circle-exclamation {
+  --fa: "\e4ab";
+}
+
+.fa-anchor-circle-xmark {
+  --fa: "\e4ac";
+}
+
+.fa-anchor-lock {
+  --fa: "\e4ad";
+}
+
+.fa-arrow-down-up-across-line {
+  --fa: "\e4af";
+}
+
+.fa-arrow-down-up-lock {
+  --fa: "\e4b0";
+}
+
+.fa-arrow-right-to-city {
+  --fa: "\e4b3";
+}
+
+.fa-arrow-up-from-ground-water {
+  --fa: "\e4b5";
+}
+
+.fa-arrow-up-from-water-pump {
+  --fa: "\e4b6";
+}
+
+.fa-arrow-up-right-dots {
+  --fa: "\e4b7";
+}
+
+.fa-arrows-down-to-line {
+  --fa: "\e4b8";
+}
+
+.fa-arrows-down-to-people {
+  --fa: "\e4b9";
+}
+
+.fa-arrows-left-right-to-line {
+  --fa: "\e4ba";
+}
+
+.fa-arrows-spin {
+  --fa: "\e4bb";
+}
+
+.fa-arrows-split-up-and-left {
+  --fa: "\e4bc";
+}
+
+.fa-arrows-to-circle {
+  --fa: "\e4bd";
+}
+
+.fa-arrows-to-dot {
+  --fa: "\e4be";
+}
+
+.fa-arrows-to-eye {
+  --fa: "\e4bf";
+}
+
+.fa-arrows-turn-right {
+  --fa: "\e4c0";
+}
+
+.fa-arrows-turn-to-dots {
+  --fa: "\e4c1";
+}
+
+.fa-arrows-up-to-line {
+  --fa: "\e4c2";
+}
+
+.fa-bore-hole {
+  --fa: "\e4c3";
+}
+
+.fa-bottle-droplet {
+  --fa: "\e4c4";
+}
+
+.fa-bottle-water {
+  --fa: "\e4c5";
+}
+
+.fa-bowl-food {
+  --fa: "\e4c6";
+}
+
+.fa-boxes-packing {
+  --fa: "\e4c7";
+}
+
+.fa-bridge {
+  --fa: "\e4c8";
+}
+
+.fa-bridge-circle-check {
+  --fa: "\e4c9";
+}
+
+.fa-bridge-circle-exclamation {
+  --fa: "\e4ca";
+}
+
+.fa-bridge-circle-xmark {
+  --fa: "\e4cb";
+}
+
+.fa-bridge-lock {
+  --fa: "\e4cc";
+}
+
+.fa-bridge-water {
+  --fa: "\e4ce";
+}
+
+.fa-bucket {
+  --fa: "\e4cf";
+}
+
+.fa-bugs {
+  --fa: "\e4d0";
+}
+
+.fa-building-circle-arrow-right {
+  --fa: "\e4d1";
+}
+
+.fa-building-circle-check {
+  --fa: "\e4d2";
+}
+
+.fa-building-circle-exclamation {
+  --fa: "\e4d3";
+}
+
+.fa-building-circle-xmark {
+  --fa: "\e4d4";
+}
+
+.fa-building-flag {
+  --fa: "\e4d5";
+}
+
+.fa-building-lock {
+  --fa: "\e4d6";
+}
+
+.fa-building-ngo {
+  --fa: "\e4d7";
+}
+
+.fa-building-shield {
+  --fa: "\e4d8";
+}
+
+.fa-building-un {
+  --fa: "\e4d9";
+}
+
+.fa-building-user {
+  --fa: "\e4da";
+}
+
+.fa-building-wheat {
+  --fa: "\e4db";
+}
+
+.fa-burst {
+  --fa: "\e4dc";
+}
+
+.fa-car-on {
+  --fa: "\e4dd";
+}
+
+.fa-car-tunnel {
+  --fa: "\e4de";
+}
+
+.fa-child-combatant {
+  --fa: "\e4e0";
+}
+
+.fa-child-rifle {
+  --fa: "\e4e0";
+}
+
+.fa-children {
+  --fa: "\e4e1";
+}
+
+.fa-circle-nodes {
+  --fa: "\e4e2";
+}
+
+.fa-clipboard-question {
+  --fa: "\e4e3";
+}
+
+.fa-cloud-showers-water {
+  --fa: "\e4e4";
+}
+
+.fa-computer {
+  --fa: "\e4e5";
+}
+
+.fa-cubes-stacked {
+  --fa: "\e4e6";
+}
+
+.fa-envelope-circle-check {
+  --fa: "\e4e8";
+}
+
+.fa-explosion {
+  --fa: "\e4e9";
+}
+
+.fa-ferry {
+  --fa: "\e4ea";
+}
+
+.fa-file-circle-exclamation {
+  --fa: "\e4eb";
+}
+
+.fa-file-circle-minus {
+  --fa: "\e4ed";
+}
+
+.fa-file-circle-question {
+  --fa: "\e4ef";
+}
+
+.fa-file-shield {
+  --fa: "\e4f0";
+}
+
+.fa-fire-burner {
+  --fa: "\e4f1";
+}
+
+.fa-fish-fins {
+  --fa: "\e4f2";
+}
+
+.fa-flask-vial {
+  --fa: "\e4f3";
+}
+
+.fa-glass-water {
+  --fa: "\e4f4";
+}
+
+.fa-glass-water-droplet {
+  --fa: "\e4f5";
+}
+
+.fa-group-arrows-rotate {
+  --fa: "\e4f6";
+}
+
+.fa-hand-holding-hand {
+  --fa: "\e4f7";
+}
+
+.fa-handcuffs {
+  --fa: "\e4f8";
+}
+
+.fa-hands-bound {
+  --fa: "\e4f9";
+}
+
+.fa-hands-holding-child {
+  --fa: "\e4fa";
+}
+
+.fa-hands-holding-circle {
+  --fa: "\e4fb";
+}
+
+.fa-heart-circle-bolt {
+  --fa: "\e4fc";
+}
+
+.fa-heart-circle-check {
+  --fa: "\e4fd";
+}
+
+.fa-heart-circle-exclamation {
+  --fa: "\e4fe";
+}
+
+.fa-heart-circle-minus {
+  --fa: "\e4ff";
+}
+
+.fa-heart-circle-plus {
+  --fa: "\e500";
+}
+
+.fa-heart-circle-xmark {
+  --fa: "\e501";
+}
+
+.fa-helicopter-symbol {
+  --fa: "\e502";
+}
+
+.fa-helmet-un {
+  --fa: "\e503";
+}
+
+.fa-hill-avalanche {
+  --fa: "\e507";
+}
+
+.fa-hill-rockslide {
+  --fa: "\e508";
+}
+
+.fa-house-circle-check {
+  --fa: "\e509";
+}
+
+.fa-house-circle-exclamation {
+  --fa: "\e50a";
+}
+
+.fa-house-circle-xmark {
+  --fa: "\e50b";
+}
+
+.fa-house-fire {
+  --fa: "\e50c";
+}
+
+.fa-house-flag {
+  --fa: "\e50d";
+}
+
+.fa-house-flood-water {
+  --fa: "\e50e";
+}
+
+.fa-house-flood-water-circle-arrow-right {
+  --fa: "\e50f";
+}
+
+.fa-house-lock {
+  --fa: "\e510";
+}
+
+.fa-house-medical-circle-check {
+  --fa: "\e511";
+}
+
+.fa-house-medical-circle-exclamation {
+  --fa: "\e512";
+}
+
+.fa-house-medical-circle-xmark {
+  --fa: "\e513";
+}
+
+.fa-house-medical-flag {
+  --fa: "\e514";
+}
+
+.fa-house-tsunami {
+  --fa: "\e515";
+}
+
+.fa-jar {
+  --fa: "\e516";
+}
+
+.fa-jar-wheat {
+  --fa: "\e517";
+}
+
+.fa-jet-fighter-up {
+  --fa: "\e518";
+}
+
+.fa-jug-detergent {
+  --fa: "\e519";
+}
+
+.fa-kitchen-set {
+  --fa: "\e51a";
+}
+
+.fa-land-mine-on {
+  --fa: "\e51b";
+}
+
+.fa-landmark-flag {
+  --fa: "\e51c";
+}
+
+.fa-laptop-file {
+  --fa: "\e51d";
+}
+
+.fa-lines-leaning {
+  --fa: "\e51e";
+}
+
+.fa-location-pin-lock {
+  --fa: "\e51f";
+}
+
+.fa-locust {
+  --fa: "\e520";
+}
+
+.fa-magnifying-glass-arrow-right {
+  --fa: "\e521";
+}
+
+.fa-magnifying-glass-chart {
+  --fa: "\e522";
+}
+
+.fa-mars-and-venus-burst {
+  --fa: "\e523";
+}
+
+.fa-mask-ventilator {
+  --fa: "\e524";
+}
+
+.fa-mattress-pillow {
+  --fa: "\e525";
+}
+
+.fa-mobile-retro {
+  --fa: "\e527";
+}
+
+.fa-money-bill-transfer {
+  --fa: "\e528";
+}
+
+.fa-money-bill-trend-up {
+  --fa: "\e529";
+}
+
+.fa-money-bill-wheat {
+  --fa: "\e52a";
+}
+
+.fa-mosquito {
+  --fa: "\e52b";
+}
+
+.fa-mosquito-net {
+  --fa: "\e52c";
+}
+
+.fa-mound {
+  --fa: "\e52d";
+}
+
+.fa-mountain-city {
+  --fa: "\e52e";
+}
+
+.fa-mountain-sun {
+  --fa: "\e52f";
+}
+
+.fa-oil-well {
+  --fa: "\e532";
+}
+
+.fa-people-group {
+  --fa: "\e533";
+}
+
+.fa-people-line {
+  --fa: "\e534";
+}
+
+.fa-people-pulling {
+  --fa: "\e535";
+}
+
+.fa-people-robbery {
+  --fa: "\e536";
+}
+
+.fa-people-roof {
+  --fa: "\e537";
+}
+
+.fa-person-arrow-down-to-line {
+  --fa: "\e538";
+}
+
+.fa-person-arrow-up-from-line {
+  --fa: "\e539";
+}
+
+.fa-person-breastfeeding {
+  --fa: "\e53a";
+}
+
+.fa-person-burst {
+  --fa: "\e53b";
+}
+
+.fa-person-cane {
+  --fa: "\e53c";
+}
+
+.fa-person-chalkboard {
+  --fa: "\e53d";
+}
+
+.fa-person-circle-check {
+  --fa: "\e53e";
+}
+
+.fa-person-circle-exclamation {
+  --fa: "\e53f";
+}
+
+.fa-person-circle-minus {
+  --fa: "\e540";
+}
+
+.fa-person-circle-plus {
+  --fa: "\e541";
+}
+
+.fa-person-circle-question {
+  --fa: "\e542";
+}
+
+.fa-person-circle-xmark {
+  --fa: "\e543";
+}
+
+.fa-person-dress-burst {
+  --fa: "\e544";
+}
+
+.fa-person-drowning {
+  --fa: "\e545";
+}
+
+.fa-person-falling {
+  --fa: "\e546";
+}
+
+.fa-person-falling-burst {
+  --fa: "\e547";
+}
+
+.fa-person-half-dress {
+  --fa: "\e548";
+}
+
+.fa-person-harassing {
+  --fa: "\e549";
+}
+
+.fa-person-military-pointing {
+  --fa: "\e54a";
+}
+
+.fa-person-military-rifle {
+  --fa: "\e54b";
+}
+
+.fa-person-military-to-person {
+  --fa: "\e54c";
+}
+
+.fa-person-rays {
+  --fa: "\e54d";
+}
+
+.fa-person-rifle {
+  --fa: "\e54e";
+}
+
+.fa-person-shelter {
+  --fa: "\e54f";
+}
+
+.fa-person-walking-arrow-loop-left {
+  --fa: "\e551";
+}
+
+.fa-person-walking-arrow-right {
+  --fa: "\e552";
+}
+
+.fa-person-walking-dashed-line-arrow-right {
+  --fa: "\e553";
+}
+
+.fa-person-walking-luggage {
+  --fa: "\e554";
+}
+
+.fa-plane-circle-check {
+  --fa: "\e555";
+}
+
+.fa-plane-circle-exclamation {
+  --fa: "\e556";
+}
+
+.fa-plane-circle-xmark {
+  --fa: "\e557";
+}
+
+.fa-plane-lock {
+  --fa: "\e558";
+}
+
+.fa-plate-wheat {
+  --fa: "\e55a";
+}
+
+.fa-plug-circle-bolt {
+  --fa: "\e55b";
+}
+
+.fa-plug-circle-check {
+  --fa: "\e55c";
+}
+
+.fa-plug-circle-exclamation {
+  --fa: "\e55d";
+}
+
+.fa-plug-circle-minus {
+  --fa: "\e55e";
+}
+
+.fa-plug-circle-plus {
+  --fa: "\e55f";
+}
+
+.fa-plug-circle-xmark {
+  --fa: "\e560";
+}
+
+.fa-ranking-star {
+  --fa: "\e561";
+}
+
+.fa-road-barrier {
+  --fa: "\e562";
+}
+
+.fa-road-bridge {
+  --fa: "\e563";
+}
+
+.fa-road-circle-check {
+  --fa: "\e564";
+}
+
+.fa-road-circle-exclamation {
+  --fa: "\e565";
+}
+
+.fa-road-circle-xmark {
+  --fa: "\e566";
+}
+
+.fa-road-lock {
+  --fa: "\e567";
+}
+
+.fa-road-spikes {
+  --fa: "\e568";
+}
+
+.fa-rug {
+  --fa: "\e569";
+}
+
+.fa-sack-xmark {
+  --fa: "\e56a";
+}
+
+.fa-school-circle-check {
+  --fa: "\e56b";
+}
+
+.fa-school-circle-exclamation {
+  --fa: "\e56c";
+}
+
+.fa-school-circle-xmark {
+  --fa: "\e56d";
+}
+
+.fa-school-flag {
+  --fa: "\e56e";
+}
+
+.fa-school-lock {
+  --fa: "\e56f";
+}
+
+.fa-sheet-plastic {
+  --fa: "\e571";
+}
+
+.fa-shield-cat {
+  --fa: "\e572";
+}
+
+.fa-shield-dog {
+  --fa: "\e573";
+}
+
+.fa-shield-heart {
+  --fa: "\e574";
+}
+
+.fa-square-nfi {
+  --fa: "\e576";
+}
+
+.fa-square-person-confined {
+  --fa: "\e577";
+}
+
+.fa-square-virus {
+  --fa: "\e578";
+}
+
+.fa-staff-snake {
+  --fa: "\e579";
+}
+
+.fa-rod-asclepius {
+  --fa: "\e579";
+}
+
+.fa-rod-snake {
+  --fa: "\e579";
+}
+
+.fa-staff-aesculapius {
+  --fa: "\e579";
+}
+
+.fa-sun-plant-wilt {
+  --fa: "\e57a";
+}
+
+.fa-tarp {
+  --fa: "\e57b";
+}
+
+.fa-tarp-droplet {
+  --fa: "\e57c";
+}
+
+.fa-tent {
+  --fa: "\e57d";
+}
+
+.fa-tent-arrow-down-to-line {
+  --fa: "\e57e";
+}
+
+.fa-tent-arrow-left-right {
+  --fa: "\e57f";
+}
+
+.fa-tent-arrow-turn-left {
+  --fa: "\e580";
+}
+
+.fa-tent-arrows-down {
+  --fa: "\e581";
+}
+
+.fa-tents {
+  --fa: "\e582";
+}
+
+.fa-toilet-portable {
+  --fa: "\e583";
+}
+
+.fa-toilets-portable {
+  --fa: "\e584";
+}
+
+.fa-tower-cell {
+  --fa: "\e585";
+}
+
+.fa-tower-observation {
+  --fa: "\e586";
+}
+
+.fa-tree-city {
+  --fa: "\e587";
+}
+
+.fa-trowel {
+  --fa: "\e589";
+}
+
+.fa-trowel-bricks {
+  --fa: "\e58a";
+}
+
+.fa-truck-arrow-right {
+  --fa: "\e58b";
+}
+
+.fa-truck-droplet {
+  --fa: "\e58c";
+}
+
+.fa-truck-field {
+  --fa: "\e58d";
+}
+
+.fa-truck-field-un {
+  --fa: "\e58e";
+}
+
+.fa-truck-plane {
+  --fa: "\e58f";
+}
+
+.fa-users-between-lines {
+  --fa: "\e591";
+}
+
+.fa-users-line {
+  --fa: "\e592";
+}
+
+.fa-users-rays {
+  --fa: "\e593";
+}
+
+.fa-users-rectangle {
+  --fa: "\e594";
+}
+
+.fa-users-viewfinder {
+  --fa: "\e595";
+}
+
+.fa-vial-circle-check {
+  --fa: "\e596";
+}
+
+.fa-vial-virus {
+  --fa: "\e597";
+}
+
+.fa-wheat-awn-circle-exclamation {
+  --fa: "\e598";
+}
+
+.fa-worm {
+  --fa: "\e599";
+}
+
+.fa-xmarks-lines {
+  --fa: "\e59a";
+}
+
+.fa-child-dress {
+  --fa: "\e59c";
+}
+
+.fa-child-reaching {
+  --fa: "\e59d";
+}
+
+.fa-file-circle-check {
+  --fa: "\e5a0";
+}
+
+.fa-file-circle-xmark {
+  --fa: "\e5a1";
+}
+
+.fa-person-through-window {
+  --fa: "\e5a9";
+}
+
+.fa-plant-wilt {
+  --fa: "\e5aa";
+}
+
+.fa-stapler {
+  --fa: "\e5af";
+}
+
+.fa-train-tram {
+  --fa: "\e5b4";
+}
+
+.fa-table-cells-column-lock {
+  --fa: "\e678";
+}
+
+.fa-table-cells-row-lock {
+  --fa: "\e67a";
+}
+
+.fa-web-awesome {
+  --fa: "\e682";
+}
+
+.fa-thumbtack-slash {
+  --fa: "\e68f";
+}
+
+.fa-thumb-tack-slash {
+  --fa: "\e68f";
+}
+
+.fa-table-cells-row-unlock {
+  --fa: "\e691";
+}
+
+.fa-chart-diagram {
+  --fa: "\e695";
+}
+
+.fa-comment-nodes {
+  --fa: "\e696";
+}
+
+.fa-file-fragment {
+  --fa: "\e697";
+}
+
+.fa-file-half-dashed {
+  --fa: "\e698";
+}
+
+.fa-hexagon-nodes {
+  --fa: "\e699";
+}
+
+.fa-hexagon-nodes-bolt {
+  --fa: "\e69a";
+}
+
+.fa-square-binary {
+  --fa: "\e69b";
+}
+
+.fa-pentagon {
+  --fa: "\e790";
+}
+
+.fa-non-binary {
+  --fa: "\e807";
+}
+
+.fa-spiral {
+  --fa: "\e80a";
+}
+
+.fa-mobile-vibrate {
+  --fa: "\e816";
+}
+
+.fa-single-quote-left {
+  --fa: "\e81b";
+}
+
+.fa-single-quote-right {
+  --fa: "\e81c";
+}
+
+.fa-bus-side {
+  --fa: "\e81d";
+}
+
+.fa-septagon {
+  --fa: "\e820";
+}
+
+.fa-heptagon {
+  --fa: "\e820";
+}
+
+.fa-martini-glass-empty {
+  --fa: "\f000";
+}
+
+.fa-glass-martini {
+  --fa: "\f000";
+}
+
+.fa-music {
+  --fa: "\f001";
+}
+
+.fa-magnifying-glass {
+  --fa: "\f002";
+}
+
+.fa-search {
+  --fa: "\f002";
+}
+
+.fa-heart {
+  --fa: "\f004";
+}
+
+.fa-star {
+  --fa: "\f005";
+}
+
+.fa-user {
+  --fa: "\f007";
+}
+
+.fa-user-alt {
+  --fa: "\f007";
+}
+
+.fa-user-large {
+  --fa: "\f007";
+}
+
+.fa-film {
+  --fa: "\f008";
+}
+
+.fa-film-alt {
+  --fa: "\f008";
+}
+
+.fa-film-simple {
+  --fa: "\f008";
+}
+
+.fa-table-cells-large {
+  --fa: "\f009";
+}
+
+.fa-th-large {
+  --fa: "\f009";
+}
+
+.fa-table-cells {
+  --fa: "\f00a";
+}
+
+.fa-th {
+  --fa: "\f00a";
+}
+
+.fa-table-list {
+  --fa: "\f00b";
+}
+
+.fa-th-list {
+  --fa: "\f00b";
+}
+
+.fa-check {
+  --fa: "\f00c";
+}
+
+.fa-xmark {
+  --fa: "\f00d";
+}
+
+.fa-close {
+  --fa: "\f00d";
+}
+
+.fa-multiply {
+  --fa: "\f00d";
+}
+
+.fa-remove {
+  --fa: "\f00d";
+}
+
+.fa-times {
+  --fa: "\f00d";
+}
+
+.fa-magnifying-glass-plus {
+  --fa: "\f00e";
+}
+
+.fa-search-plus {
+  --fa: "\f00e";
+}
+
+.fa-magnifying-glass-minus {
+  --fa: "\f010";
+}
+
+.fa-search-minus {
+  --fa: "\f010";
+}
+
+.fa-power-off {
+  --fa: "\f011";
+}
+
+.fa-signal {
+  --fa: "\f012";
+}
+
+.fa-signal-5 {
+  --fa: "\f012";
+}
+
+.fa-signal-perfect {
+  --fa: "\f012";
+}
+
+.fa-gear {
+  --fa: "\f013";
+}
+
+.fa-cog {
+  --fa: "\f013";
+}
+
+.fa-house {
+  --fa: "\f015";
+}
+
+.fa-home {
+  --fa: "\f015";
+}
+
+.fa-home-alt {
+  --fa: "\f015";
+}
+
+.fa-home-lg-alt {
+  --fa: "\f015";
+}
+
+.fa-clock {
+  --fa: "\f017";
+}
+
+.fa-clock-four {
+  --fa: "\f017";
+}
+
+.fa-road {
+  --fa: "\f018";
+}
+
+.fa-download {
+  --fa: "\f019";
+}
+
+.fa-inbox {
+  --fa: "\f01c";
+}
+
+.fa-arrow-rotate-right {
+  --fa: "\f01e";
+}
+
+.fa-arrow-right-rotate {
+  --fa: "\f01e";
+}
+
+.fa-arrow-rotate-forward {
+  --fa: "\f01e";
+}
+
+.fa-redo {
+  --fa: "\f01e";
+}
+
+.fa-arrows-rotate {
+  --fa: "\f021";
+}
+
+.fa-refresh {
+  --fa: "\f021";
+}
+
+.fa-sync {
+  --fa: "\f021";
+}
+
+.fa-rectangle-list {
+  --fa: "\f022";
+}
+
+.fa-list-alt {
+  --fa: "\f022";
+}
+
+.fa-lock {
+  --fa: "\f023";
+}
+
+.fa-flag {
+  --fa: "\f024";
+}
+
+.fa-headphones {
+  --fa: "\f025";
+}
+
+.fa-headphones-alt {
+  --fa: "\f025";
+}
+
+.fa-headphones-simple {
+  --fa: "\f025";
+}
+
+.fa-volume-off {
+  --fa: "\f026";
+}
+
+.fa-volume-low {
+  --fa: "\f027";
+}
+
+.fa-volume-down {
+  --fa: "\f027";
+}
+
+.fa-volume-high {
+  --fa: "\f028";
+}
+
+.fa-volume-up {
+  --fa: "\f028";
+}
+
+.fa-qrcode {
+  --fa: "\f029";
+}
+
+.fa-barcode {
+  --fa: "\f02a";
+}
+
+.fa-tag {
+  --fa: "\f02b";
+}
+
+.fa-tags {
+  --fa: "\f02c";
+}
+
+.fa-book {
+  --fa: "\f02d";
+}
+
+.fa-bookmark {
+  --fa: "\f02e";
+}
+
+.fa-print {
+  --fa: "\f02f";
+}
+
+.fa-camera {
+  --fa: "\f030";
+}
+
+.fa-camera-alt {
+  --fa: "\f030";
+}
+
+.fa-font {
+  --fa: "\f031";
+}
+
+.fa-bold {
+  --fa: "\f032";
+}
+
+.fa-italic {
+  --fa: "\f033";
+}
+
+.fa-text-height {
+  --fa: "\f034";
+}
+
+.fa-text-width {
+  --fa: "\f035";
+}
+
+.fa-align-left {
+  --fa: "\f036";
+}
+
+.fa-align-center {
+  --fa: "\f037";
+}
+
+.fa-align-right {
+  --fa: "\f038";
+}
+
+.fa-align-justify {
+  --fa: "\f039";
+}
+
+.fa-list {
+  --fa: "\f03a";
+}
+
+.fa-list-squares {
+  --fa: "\f03a";
+}
+
+.fa-outdent {
+  --fa: "\f03b";
+}
+
+.fa-dedent {
+  --fa: "\f03b";
+}
+
+.fa-indent {
+  --fa: "\f03c";
+}
+
+.fa-video {
+  --fa: "\f03d";
+}
+
+.fa-video-camera {
+  --fa: "\f03d";
+}
+
+.fa-image {
+  --fa: "\f03e";
+}
+
+.fa-location-pin {
+  --fa: "\f041";
+}
+
+.fa-map-marker {
+  --fa: "\f041";
+}
+
+.fa-circle-half-stroke {
+  --fa: "\f042";
+}
+
+.fa-adjust {
+  --fa: "\f042";
+}
+
+.fa-droplet {
+  --fa: "\f043";
+}
+
+.fa-tint {
+  --fa: "\f043";
+}
+
+.fa-pen-to-square {
+  --fa: "\f044";
+}
+
+.fa-edit {
+  --fa: "\f044";
+}
+
+.fa-arrows-up-down-left-right {
+  --fa: "\f047";
+}
+
+.fa-arrows {
+  --fa: "\f047";
+}
+
+.fa-backward-step {
+  --fa: "\f048";
+}
+
+.fa-step-backward {
+  --fa: "\f048";
+}
+
+.fa-backward-fast {
+  --fa: "\f049";
+}
+
+.fa-fast-backward {
+  --fa: "\f049";
+}
+
+.fa-backward {
+  --fa: "\f04a";
+}
+
+.fa-play {
+  --fa: "\f04b";
+}
+
+.fa-pause {
+  --fa: "\f04c";
+}
+
+.fa-stop {
+  --fa: "\f04d";
+}
+
+.fa-forward {
+  --fa: "\f04e";
+}
+
+.fa-forward-fast {
+  --fa: "\f050";
+}
+
+.fa-fast-forward {
+  --fa: "\f050";
+}
+
+.fa-forward-step {
+  --fa: "\f051";
+}
+
+.fa-step-forward {
+  --fa: "\f051";
+}
+
+.fa-eject {
+  --fa: "\f052";
+}
+
+.fa-chevron-left {
+  --fa: "\f053";
+}
+
+.fa-chevron-right {
+  --fa: "\f054";
+}
+
+.fa-circle-plus {
+  --fa: "\f055";
+}
+
+.fa-plus-circle {
+  --fa: "\f055";
+}
+
+.fa-circle-minus {
+  --fa: "\f056";
+}
+
+.fa-minus-circle {
+  --fa: "\f056";
+}
+
+.fa-circle-xmark {
+  --fa: "\f057";
+}
+
+.fa-times-circle {
+  --fa: "\f057";
+}
+
+.fa-xmark-circle {
+  --fa: "\f057";
+}
+
+.fa-circle-check {
+  --fa: "\f058";
+}
+
+.fa-check-circle {
+  --fa: "\f058";
+}
+
+.fa-circle-question {
+  --fa: "\f059";
+}
+
+.fa-question-circle {
+  --fa: "\f059";
+}
+
+.fa-circle-info {
+  --fa: "\f05a";
+}
+
+.fa-info-circle {
+  --fa: "\f05a";
+}
+
+.fa-crosshairs {
+  --fa: "\f05b";
+}
+
+.fa-ban {
+  --fa: "\f05e";
+}
+
+.fa-cancel {
+  --fa: "\f05e";
+}
+
+.fa-arrow-left {
+  --fa: "\f060";
+}
+
+.fa-arrow-right {
+  --fa: "\f061";
+}
+
+.fa-arrow-up {
+  --fa: "\f062";
+}
+
+.fa-arrow-down {
+  --fa: "\f063";
+}
+
+.fa-share {
+  --fa: "\f064";
+}
+
+.fa-mail-forward {
+  --fa: "\f064";
+}
+
+.fa-expand {
+  --fa: "\f065";
+}
+
+.fa-compress {
+  --fa: "\f066";
+}
+
+.fa-minus {
+  --fa: "\f068";
+}
+
+.fa-subtract {
+  --fa: "\f068";
+}
+
+.fa-circle-exclamation {
+  --fa: "\f06a";
+}
+
+.fa-exclamation-circle {
+  --fa: "\f06a";
+}
+
+.fa-gift {
+  --fa: "\f06b";
+}
+
+.fa-leaf {
+  --fa: "\f06c";
+}
+
+.fa-fire {
+  --fa: "\f06d";
+}
+
+.fa-eye {
+  --fa: "\f06e";
+}
+
+.fa-eye-slash {
+  --fa: "\f070";
+}
+
+.fa-triangle-exclamation {
+  --fa: "\f071";
+}
+
+.fa-exclamation-triangle {
+  --fa: "\f071";
+}
+
+.fa-warning {
+  --fa: "\f071";
+}
+
+.fa-plane {
+  --fa: "\f072";
+}
+
+.fa-calendar-days {
+  --fa: "\f073";
+}
+
+.fa-calendar-alt {
+  --fa: "\f073";
+}
+
+.fa-shuffle {
+  --fa: "\f074";
+}
+
+.fa-random {
+  --fa: "\f074";
+}
+
+.fa-comment {
+  --fa: "\f075";
+}
+
+.fa-magnet {
+  --fa: "\f076";
+}
+
+.fa-chevron-up {
+  --fa: "\f077";
+}
+
+.fa-chevron-down {
+  --fa: "\f078";
+}
+
+.fa-retweet {
+  --fa: "\f079";
+}
+
+.fa-cart-shopping {
+  --fa: "\f07a";
+}
+
+.fa-shopping-cart {
+  --fa: "\f07a";
+}
+
+.fa-folder {
+  --fa: "\f07b";
+}
+
+.fa-folder-blank {
+  --fa: "\f07b";
+}
+
+.fa-folder-open {
+  --fa: "\f07c";
+}
+
+.fa-arrows-up-down {
+  --fa: "\f07d";
+}
+
+.fa-arrows-v {
+  --fa: "\f07d";
+}
+
+.fa-arrows-left-right {
+  --fa: "\f07e";
+}
+
+.fa-arrows-h {
+  --fa: "\f07e";
+}
+
+.fa-chart-bar {
+  --fa: "\f080";
+}
+
+.fa-bar-chart {
+  --fa: "\f080";
+}
+
+.fa-camera-retro {
+  --fa: "\f083";
+}
+
+.fa-key {
+  --fa: "\f084";
+}
+
+.fa-gears {
+  --fa: "\f085";
+}
+
+.fa-cogs {
+  --fa: "\f085";
+}
+
+.fa-comments {
+  --fa: "\f086";
+}
+
+.fa-star-half {
+  --fa: "\f089";
+}
+
+.fa-arrow-right-from-bracket {
+  --fa: "\f08b";
+}
+
+.fa-sign-out {
+  --fa: "\f08b";
+}
+
+.fa-thumbtack {
+  --fa: "\f08d";
+}
+
+.fa-thumb-tack {
+  --fa: "\f08d";
+}
+
+.fa-arrow-up-right-from-square {
+  --fa: "\f08e";
+}
+
+.fa-external-link {
+  --fa: "\f08e";
+}
+
+.fa-arrow-right-to-bracket {
+  --fa: "\f090";
+}
+
+.fa-sign-in {
+  --fa: "\f090";
+}
+
+.fa-trophy {
+  --fa: "\f091";
+}
+
+.fa-upload {
+  --fa: "\f093";
+}
+
+.fa-lemon {
+  --fa: "\f094";
+}
+
+.fa-phone {
+  --fa: "\f095";
+}
+
+.fa-square-phone {
+  --fa: "\f098";
+}
+
+.fa-phone-square {
+  --fa: "\f098";
+}
+
+.fa-unlock {
+  --fa: "\f09c";
+}
+
+.fa-credit-card {
+  --fa: "\f09d";
+}
+
+.fa-credit-card-alt {
+  --fa: "\f09d";
+}
+
+.fa-rss {
+  --fa: "\f09e";
+}
+
+.fa-feed {
+  --fa: "\f09e";
+}
+
+.fa-hard-drive {
+  --fa: "\f0a0";
+}
+
+.fa-hdd {
+  --fa: "\f0a0";
+}
+
+.fa-bullhorn {
+  --fa: "\f0a1";
+}
+
+.fa-certificate {
+  --fa: "\f0a3";
+}
+
+.fa-hand-point-right {
+  --fa: "\f0a4";
+}
+
+.fa-hand-point-left {
+  --fa: "\f0a5";
+}
+
+.fa-hand-point-up {
+  --fa: "\f0a6";
+}
+
+.fa-hand-point-down {
+  --fa: "\f0a7";
+}
+
+.fa-circle-arrow-left {
+  --fa: "\f0a8";
+}
+
+.fa-arrow-circle-left {
+  --fa: "\f0a8";
+}
+
+.fa-circle-arrow-right {
+  --fa: "\f0a9";
+}
+
+.fa-arrow-circle-right {
+  --fa: "\f0a9";
+}
+
+.fa-circle-arrow-up {
+  --fa: "\f0aa";
+}
+
+.fa-arrow-circle-up {
+  --fa: "\f0aa";
+}
+
+.fa-circle-arrow-down {
+  --fa: "\f0ab";
+}
+
+.fa-arrow-circle-down {
+  --fa: "\f0ab";
+}
+
+.fa-globe {
+  --fa: "\f0ac";
+}
+
+.fa-wrench {
+  --fa: "\f0ad";
+}
+
+.fa-list-check {
+  --fa: "\f0ae";
+}
+
+.fa-tasks {
+  --fa: "\f0ae";
+}
+
+.fa-filter {
+  --fa: "\f0b0";
+}
+
+.fa-briefcase {
+  --fa: "\f0b1";
+}
+
+.fa-up-down-left-right {
+  --fa: "\f0b2";
+}
+
+.fa-arrows-alt {
+  --fa: "\f0b2";
+}
+
+.fa-users {
+  --fa: "\f0c0";
+}
+
+.fa-link {
+  --fa: "\f0c1";
+}
+
+.fa-chain {
+  --fa: "\f0c1";
+}
+
+.fa-cloud {
+  --fa: "\f0c2";
+}
+
+.fa-flask {
+  --fa: "\f0c3";
+}
+
+.fa-scissors {
+  --fa: "\f0c4";
+}
+
+.fa-cut {
+  --fa: "\f0c4";
+}
+
+.fa-copy {
+  --fa: "\f0c5";
+}
+
+.fa-paperclip {
+  --fa: "\f0c6";
+}
+
+.fa-floppy-disk {
+  --fa: "\f0c7";
+}
+
+.fa-save {
+  --fa: "\f0c7";
+}
+
+.fa-square {
+  --fa: "\f0c8";
+}
+
+.fa-bars {
+  --fa: "\f0c9";
+}
+
+.fa-navicon {
+  --fa: "\f0c9";
+}
+
+.fa-list-ul {
+  --fa: "\f0ca";
+}
+
+.fa-list-dots {
+  --fa: "\f0ca";
+}
+
+.fa-list-ol {
+  --fa: "\f0cb";
+}
+
+.fa-list-1-2 {
+  --fa: "\f0cb";
+}
+
+.fa-list-numeric {
+  --fa: "\f0cb";
+}
+
+.fa-strikethrough {
+  --fa: "\f0cc";
+}
+
+.fa-underline {
+  --fa: "\f0cd";
+}
+
+.fa-table {
+  --fa: "\f0ce";
+}
+
+.fa-wand-magic {
+  --fa: "\f0d0";
+}
+
+.fa-magic {
+  --fa: "\f0d0";
+}
+
+.fa-truck {
+  --fa: "\f0d1";
+}
+
+.fa-money-bill {
+  --fa: "\f0d6";
+}
+
+.fa-caret-down {
+  --fa: "\f0d7";
+}
+
+.fa-caret-up {
+  --fa: "\f0d8";
+}
+
+.fa-caret-left {
+  --fa: "\f0d9";
+}
+
+.fa-caret-right {
+  --fa: "\f0da";
+}
+
+.fa-table-columns {
+  --fa: "\f0db";
+}
+
+.fa-columns {
+  --fa: "\f0db";
+}
+
+.fa-sort {
+  --fa: "\f0dc";
+}
+
+.fa-unsorted {
+  --fa: "\f0dc";
+}
+
+.fa-sort-down {
+  --fa: "\f0dd";
+}
+
+.fa-sort-desc {
+  --fa: "\f0dd";
+}
+
+.fa-sort-up {
+  --fa: "\f0de";
+}
+
+.fa-sort-asc {
+  --fa: "\f0de";
+}
+
+.fa-envelope {
+  --fa: "\f0e0";
+}
+
+.fa-arrow-rotate-left {
+  --fa: "\f0e2";
+}
+
+.fa-arrow-left-rotate {
+  --fa: "\f0e2";
+}
+
+.fa-arrow-rotate-back {
+  --fa: "\f0e2";
+}
+
+.fa-arrow-rotate-backward {
+  --fa: "\f0e2";
+}
+
+.fa-undo {
+  --fa: "\f0e2";
+}
+
+.fa-gavel {
+  --fa: "\f0e3";
+}
+
+.fa-legal {
+  --fa: "\f0e3";
+}
+
+.fa-bolt {
+  --fa: "\f0e7";
+}
+
+.fa-zap {
+  --fa: "\f0e7";
+}
+
+.fa-sitemap {
+  --fa: "\f0e8";
+}
+
+.fa-umbrella {
+  --fa: "\f0e9";
+}
+
+.fa-paste {
+  --fa: "\f0ea";
+}
+
+.fa-file-clipboard {
+  --fa: "\f0ea";
+}
+
+.fa-lightbulb {
+  --fa: "\f0eb";
+}
+
+.fa-arrow-right-arrow-left {
+  --fa: "\f0ec";
+}
+
+.fa-exchange {
+  --fa: "\f0ec";
+}
+
+.fa-cloud-arrow-down {
+  --fa: "\f0ed";
+}
+
+.fa-cloud-download {
+  --fa: "\f0ed";
+}
+
+.fa-cloud-download-alt {
+  --fa: "\f0ed";
+}
+
+.fa-cloud-arrow-up {
+  --fa: "\f0ee";
+}
+
+.fa-cloud-upload {
+  --fa: "\f0ee";
+}
+
+.fa-cloud-upload-alt {
+  --fa: "\f0ee";
+}
+
+.fa-user-doctor {
+  --fa: "\f0f0";
+}
+
+.fa-user-md {
+  --fa: "\f0f0";
+}
+
+.fa-stethoscope {
+  --fa: "\f0f1";
+}
+
+.fa-suitcase {
+  --fa: "\f0f2";
+}
+
+.fa-bell {
+  --fa: "\f0f3";
+}
+
+.fa-mug-saucer {
+  --fa: "\f0f4";
+}
+
+.fa-coffee {
+  --fa: "\f0f4";
+}
+
+.fa-hospital {
+  --fa: "\f0f8";
+}
+
+.fa-hospital-alt {
+  --fa: "\f0f8";
+}
+
+.fa-hospital-wide {
+  --fa: "\f0f8";
+}
+
+.fa-truck-medical {
+  --fa: "\f0f9";
+}
+
+.fa-ambulance {
+  --fa: "\f0f9";
+}
+
+.fa-suitcase-medical {
+  --fa: "\f0fa";
+}
+
+.fa-medkit {
+  --fa: "\f0fa";
+}
+
+.fa-jet-fighter {
+  --fa: "\f0fb";
+}
+
+.fa-fighter-jet {
+  --fa: "\f0fb";
+}
+
+.fa-beer-mug-empty {
+  --fa: "\f0fc";
+}
+
+.fa-beer {
+  --fa: "\f0fc";
+}
+
+.fa-square-h {
+  --fa: "\f0fd";
+}
+
+.fa-h-square {
+  --fa: "\f0fd";
+}
+
+.fa-square-plus {
+  --fa: "\f0fe";
+}
+
+.fa-plus-square {
+  --fa: "\f0fe";
+}
+
+.fa-angles-left {
+  --fa: "\f100";
+}
+
+.fa-angle-double-left {
+  --fa: "\f100";
+}
+
+.fa-angles-right {
+  --fa: "\f101";
+}
+
+.fa-angle-double-right {
+  --fa: "\f101";
+}
+
+.fa-angles-up {
+  --fa: "\f102";
+}
+
+.fa-angle-double-up {
+  --fa: "\f102";
+}
+
+.fa-angles-down {
+  --fa: "\f103";
+}
+
+.fa-angle-double-down {
+  --fa: "\f103";
+}
+
+.fa-angle-left {
+  --fa: "\f104";
+}
+
+.fa-angle-right {
+  --fa: "\f105";
+}
+
+.fa-angle-up {
+  --fa: "\f106";
+}
+
+.fa-angle-down {
+  --fa: "\f107";
+}
+
+.fa-laptop {
+  --fa: "\f109";
+}
+
+.fa-tablet-button {
+  --fa: "\f10a";
+}
+
+.fa-mobile-button {
+  --fa: "\f10b";
+}
+
+.fa-quote-left {
+  --fa: "\f10d";
+}
+
+.fa-quote-left-alt {
+  --fa: "\f10d";
+}
+
+.fa-quote-right {
+  --fa: "\f10e";
+}
+
+.fa-quote-right-alt {
+  --fa: "\f10e";
+}
+
+.fa-spinner {
+  --fa: "\f110";
+}
+
+.fa-circle {
+  --fa: "\f111";
+}
+
+.fa-face-smile {
+  --fa: "\f118";
+}
+
+.fa-smile {
+  --fa: "\f118";
+}
+
+.fa-face-frown {
+  --fa: "\f119";
+}
+
+.fa-frown {
+  --fa: "\f119";
+}
+
+.fa-face-meh {
+  --fa: "\f11a";
+}
+
+.fa-meh {
+  --fa: "\f11a";
+}
+
+.fa-gamepad {
+  --fa: "\f11b";
+}
+
+.fa-keyboard {
+  --fa: "\f11c";
+}
+
+.fa-flag-checkered {
+  --fa: "\f11e";
+}
+
+.fa-terminal {
+  --fa: "\f120";
+}
+
+.fa-code {
+  --fa: "\f121";
+}
+
+.fa-reply-all {
+  --fa: "\f122";
+}
+
+.fa-mail-reply-all {
+  --fa: "\f122";
+}
+
+.fa-location-arrow {
+  --fa: "\f124";
+}
+
+.fa-crop {
+  --fa: "\f125";
+}
+
+.fa-code-branch {
+  --fa: "\f126";
+}
+
+.fa-link-slash {
+  --fa: "\f127";
+}
+
+.fa-chain-broken {
+  --fa: "\f127";
+}
+
+.fa-chain-slash {
+  --fa: "\f127";
+}
+
+.fa-unlink {
+  --fa: "\f127";
+}
+
+.fa-info {
+  --fa: "\f129";
+}
+
+.fa-superscript {
+  --fa: "\f12b";
+}
+
+.fa-subscript {
+  --fa: "\f12c";
+}
+
+.fa-eraser {
+  --fa: "\f12d";
+}
+
+.fa-puzzle-piece {
+  --fa: "\f12e";
+}
+
+.fa-microphone {
+  --fa: "\f130";
+}
+
+.fa-microphone-slash {
+  --fa: "\f131";
+}
+
+.fa-shield {
+  --fa: "\f132";
+}
+
+.fa-shield-blank {
+  --fa: "\f132";
+}
+
+.fa-calendar {
+  --fa: "\f133";
+}
+
+.fa-fire-extinguisher {
+  --fa: "\f134";
+}
+
+.fa-rocket {
+  --fa: "\f135";
+}
+
+.fa-circle-chevron-left {
+  --fa: "\f137";
+}
+
+.fa-chevron-circle-left {
+  --fa: "\f137";
+}
+
+.fa-circle-chevron-right {
+  --fa: "\f138";
+}
+
+.fa-chevron-circle-right {
+  --fa: "\f138";
+}
+
+.fa-circle-chevron-up {
+  --fa: "\f139";
+}
+
+.fa-chevron-circle-up {
+  --fa: "\f139";
+}
+
+.fa-circle-chevron-down {
+  --fa: "\f13a";
+}
+
+.fa-chevron-circle-down {
+  --fa: "\f13a";
+}
+
+.fa-anchor {
+  --fa: "\f13d";
+}
+
+.fa-unlock-keyhole {
+  --fa: "\f13e";
+}
+
+.fa-unlock-alt {
+  --fa: "\f13e";
+}
+
+.fa-bullseye {
+  --fa: "\f140";
+}
+
+.fa-ellipsis {
+  --fa: "\f141";
+}
+
+.fa-ellipsis-h {
+  --fa: "\f141";
+}
+
+.fa-ellipsis-vertical {
+  --fa: "\f142";
+}
+
+.fa-ellipsis-v {
+  --fa: "\f142";
+}
+
+.fa-square-rss {
+  --fa: "\f143";
+}
+
+.fa-rss-square {
+  --fa: "\f143";
+}
+
+.fa-circle-play {
+  --fa: "\f144";
+}
+
+.fa-play-circle {
+  --fa: "\f144";
+}
+
+.fa-ticket {
+  --fa: "\f145";
+}
+
+.fa-square-minus {
+  --fa: "\f146";
+}
+
+.fa-minus-square {
+  --fa: "\f146";
+}
+
+.fa-arrow-turn-up {
+  --fa: "\f148";
+}
+
+.fa-level-up {
+  --fa: "\f148";
+}
+
+.fa-arrow-turn-down {
+  --fa: "\f149";
+}
+
+.fa-level-down {
+  --fa: "\f149";
+}
+
+.fa-square-check {
+  --fa: "\f14a";
+}
+
+.fa-check-square {
+  --fa: "\f14a";
+}
+
+.fa-square-pen {
+  --fa: "\f14b";
+}
+
+.fa-pen-square {
+  --fa: "\f14b";
+}
+
+.fa-pencil-square {
+  --fa: "\f14b";
+}
+
+.fa-square-arrow-up-right {
+  --fa: "\f14c";
+}
+
+.fa-external-link-square {
+  --fa: "\f14c";
+}
+
+.fa-share-from-square {
+  --fa: "\f14d";
+}
+
+.fa-share-square {
+  --fa: "\f14d";
+}
+
+.fa-compass {
+  --fa: "\f14e";
+}
+
+.fa-square-caret-down {
+  --fa: "\f150";
+}
+
+.fa-caret-square-down {
+  --fa: "\f150";
+}
+
+.fa-square-caret-up {
+  --fa: "\f151";
+}
+
+.fa-caret-square-up {
+  --fa: "\f151";
+}
+
+.fa-square-caret-right {
+  --fa: "\f152";
+}
+
+.fa-caret-square-right {
+  --fa: "\f152";
+}
+
+.fa-euro-sign {
+  --fa: "\f153";
+}
+
+.fa-eur {
+  --fa: "\f153";
+}
+
+.fa-euro {
+  --fa: "\f153";
+}
+
+.fa-sterling-sign {
+  --fa: "\f154";
+}
+
+.fa-gbp {
+  --fa: "\f154";
+}
+
+.fa-pound-sign {
+  --fa: "\f154";
+}
+
+.fa-rupee-sign {
+  --fa: "\f156";
+}
+
+.fa-rupee {
+  --fa: "\f156";
+}
+
+.fa-yen-sign {
+  --fa: "\f157";
+}
+
+.fa-cny {
+  --fa: "\f157";
+}
+
+.fa-jpy {
+  --fa: "\f157";
+}
+
+.fa-rmb {
+  --fa: "\f157";
+}
+
+.fa-yen {
+  --fa: "\f157";
+}
+
+.fa-ruble-sign {
+  --fa: "\f158";
+}
+
+.fa-rouble {
+  --fa: "\f158";
+}
+
+.fa-rub {
+  --fa: "\f158";
+}
+
+.fa-ruble {
+  --fa: "\f158";
+}
+
+.fa-won-sign {
+  --fa: "\f159";
+}
+
+.fa-krw {
+  --fa: "\f159";
+}
+
+.fa-won {
+  --fa: "\f159";
+}
+
+.fa-file {
+  --fa: "\f15b";
+}
+
+.fa-file-lines {
+  --fa: "\f15c";
+}
+
+.fa-file-alt {
+  --fa: "\f15c";
+}
+
+.fa-file-text {
+  --fa: "\f15c";
+}
+
+.fa-arrow-down-a-z {
+  --fa: "\f15d";
+}
+
+.fa-sort-alpha-asc {
+  --fa: "\f15d";
+}
+
+.fa-sort-alpha-down {
+  --fa: "\f15d";
+}
+
+.fa-arrow-up-a-z {
+  --fa: "\f15e";
+}
+
+.fa-sort-alpha-up {
+  --fa: "\f15e";
+}
+
+.fa-arrow-down-wide-short {
+  --fa: "\f160";
+}
+
+.fa-sort-amount-asc {
+  --fa: "\f160";
+}
+
+.fa-sort-amount-down {
+  --fa: "\f160";
+}
+
+.fa-arrow-up-wide-short {
+  --fa: "\f161";
+}
+
+.fa-sort-amount-up {
+  --fa: "\f161";
+}
+
+.fa-arrow-down-1-9 {
+  --fa: "\f162";
+}
+
+.fa-sort-numeric-asc {
+  --fa: "\f162";
+}
+
+.fa-sort-numeric-down {
+  --fa: "\f162";
+}
+
+.fa-arrow-up-1-9 {
+  --fa: "\f163";
+}
+
+.fa-sort-numeric-up {
+  --fa: "\f163";
+}
+
+.fa-thumbs-up {
+  --fa: "\f164";
+}
+
+.fa-thumbs-down {
+  --fa: "\f165";
+}
+
+.fa-arrow-down-long {
+  --fa: "\f175";
+}
+
+.fa-long-arrow-down {
+  --fa: "\f175";
+}
+
+.fa-arrow-up-long {
+  --fa: "\f176";
+}
+
+.fa-long-arrow-up {
+  --fa: "\f176";
+}
+
+.fa-arrow-left-long {
+  --fa: "\f177";
+}
+
+.fa-long-arrow-left {
+  --fa: "\f177";
+}
+
+.fa-arrow-right-long {
+  --fa: "\f178";
+}
+
+.fa-long-arrow-right {
+  --fa: "\f178";
+}
+
+.fa-person-dress {
+  --fa: "\f182";
+}
+
+.fa-female {
+  --fa: "\f182";
+}
+
+.fa-person {
+  --fa: "\f183";
+}
+
+.fa-male {
+  --fa: "\f183";
+}
+
+.fa-sun {
+  --fa: "\f185";
+}
+
+.fa-moon {
+  --fa: "\f186";
+}
+
+.fa-box-archive {
+  --fa: "\f187";
+}
+
+.fa-archive {
+  --fa: "\f187";
+}
+
+.fa-bug {
+  --fa: "\f188";
+}
+
+.fa-square-caret-left {
+  --fa: "\f191";
+}
+
+.fa-caret-square-left {
+  --fa: "\f191";
+}
+
+.fa-circle-dot {
+  --fa: "\f192";
+}
+
+.fa-dot-circle {
+  --fa: "\f192";
+}
+
+.fa-wheelchair {
+  --fa: "\f193";
+}
+
+.fa-lira-sign {
+  --fa: "\f195";
+}
+
+.fa-shuttle-space {
+  --fa: "\f197";
+}
+
+.fa-space-shuttle {
+  --fa: "\f197";
+}
+
+.fa-square-envelope {
+  --fa: "\f199";
+}
+
+.fa-envelope-square {
+  --fa: "\f199";
+}
+
+.fa-building-columns {
+  --fa: "\f19c";
+}
+
+.fa-bank {
+  --fa: "\f19c";
+}
+
+.fa-institution {
+  --fa: "\f19c";
+}
+
+.fa-museum {
+  --fa: "\f19c";
+}
+
+.fa-university {
+  --fa: "\f19c";
+}
+
+.fa-graduation-cap {
+  --fa: "\f19d";
+}
+
+.fa-mortar-board {
+  --fa: "\f19d";
+}
+
+.fa-language {
+  --fa: "\f1ab";
+}
+
+.fa-fax {
+  --fa: "\f1ac";
+}
+
+.fa-building {
+  --fa: "\f1ad";
+}
+
+.fa-child {
+  --fa: "\f1ae";
+}
+
+.fa-paw {
+  --fa: "\f1b0";
+}
+
+.fa-cube {
+  --fa: "\f1b2";
+}
+
+.fa-cubes {
+  --fa: "\f1b3";
+}
+
+.fa-recycle {
+  --fa: "\f1b8";
+}
+
+.fa-car {
+  --fa: "\f1b9";
+}
+
+.fa-automobile {
+  --fa: "\f1b9";
+}
+
+.fa-taxi {
+  --fa: "\f1ba";
+}
+
+.fa-cab {
+  --fa: "\f1ba";
+}
+
+.fa-tree {
+  --fa: "\f1bb";
+}
+
+.fa-database {
+  --fa: "\f1c0";
+}
+
+.fa-file-pdf {
+  --fa: "\f1c1";
+}
+
+.fa-file-word {
+  --fa: "\f1c2";
+}
+
+.fa-file-excel {
+  --fa: "\f1c3";
+}
+
+.fa-file-powerpoint {
+  --fa: "\f1c4";
+}
+
+.fa-file-image {
+  --fa: "\f1c5";
+}
+
+.fa-file-zipper {
+  --fa: "\f1c6";
+}
+
+.fa-file-archive {
+  --fa: "\f1c6";
+}
+
+.fa-file-audio {
+  --fa: "\f1c7";
+}
+
+.fa-file-video {
+  --fa: "\f1c8";
+}
+
+.fa-file-code {
+  --fa: "\f1c9";
+}
+
+.fa-life-ring {
+  --fa: "\f1cd";
+}
+
+.fa-circle-notch {
+  --fa: "\f1ce";
+}
+
+.fa-paper-plane {
+  --fa: "\f1d8";
+}
+
+.fa-clock-rotate-left {
+  --fa: "\f1da";
+}
+
+.fa-history {
+  --fa: "\f1da";
+}
+
+.fa-heading {
+  --fa: "\f1dc";
+}
+
+.fa-header {
+  --fa: "\f1dc";
+}
+
+.fa-paragraph {
+  --fa: "\f1dd";
+}
+
+.fa-sliders {
+  --fa: "\f1de";
+}
+
+.fa-sliders-h {
+  --fa: "\f1de";
+}
+
+.fa-share-nodes {
+  --fa: "\f1e0";
+}
+
+.fa-share-alt {
+  --fa: "\f1e0";
+}
+
+.fa-square-share-nodes {
+  --fa: "\f1e1";
+}
+
+.fa-share-alt-square {
+  --fa: "\f1e1";
+}
+
+.fa-bomb {
+  --fa: "\f1e2";
+}
+
+.fa-futbol {
+  --fa: "\f1e3";
+}
+
+.fa-futbol-ball {
+  --fa: "\f1e3";
+}
+
+.fa-soccer-ball {
+  --fa: "\f1e3";
+}
+
+.fa-tty {
+  --fa: "\f1e4";
+}
+
+.fa-teletype {
+  --fa: "\f1e4";
+}
+
+.fa-binoculars {
+  --fa: "\f1e5";
+}
+
+.fa-plug {
+  --fa: "\f1e6";
+}
+
+.fa-newspaper {
+  --fa: "\f1ea";
+}
+
+.fa-wifi {
+  --fa: "\f1eb";
+}
+
+.fa-wifi-3 {
+  --fa: "\f1eb";
+}
+
+.fa-wifi-strong {
+  --fa: "\f1eb";
+}
+
+.fa-calculator {
+  --fa: "\f1ec";
+}
+
+.fa-bell-slash {
+  --fa: "\f1f6";
+}
+
+.fa-trash {
+  --fa: "\f1f8";
+}
+
+.fa-copyright {
+  --fa: "\f1f9";
+}
+
+.fa-eye-dropper {
+  --fa: "\f1fb";
+}
+
+.fa-eye-dropper-empty {
+  --fa: "\f1fb";
+}
+
+.fa-eyedropper {
+  --fa: "\f1fb";
+}
+
+.fa-paintbrush {
+  --fa: "\f1fc";
+}
+
+.fa-paint-brush {
+  --fa: "\f1fc";
+}
+
+.fa-cake-candles {
+  --fa: "\f1fd";
+}
+
+.fa-birthday-cake {
+  --fa: "\f1fd";
+}
+
+.fa-cake {
+  --fa: "\f1fd";
+}
+
+.fa-chart-area {
+  --fa: "\f1fe";
+}
+
+.fa-area-chart {
+  --fa: "\f1fe";
+}
+
+.fa-chart-pie {
+  --fa: "\f200";
+}
+
+.fa-pie-chart {
+  --fa: "\f200";
+}
+
+.fa-chart-line {
+  --fa: "\f201";
+}
+
+.fa-line-chart {
+  --fa: "\f201";
+}
+
+.fa-toggle-off {
+  --fa: "\f204";
+}
+
+.fa-toggle-on {
+  --fa: "\f205";
+}
+
+.fa-bicycle {
+  --fa: "\f206";
+}
+
+.fa-bus {
+  --fa: "\f207";
+}
+
+.fa-closed-captioning {
+  --fa: "\f20a";
+}
+
+.fa-shekel-sign {
+  --fa: "\f20b";
+}
+
+.fa-ils {
+  --fa: "\f20b";
+}
+
+.fa-shekel {
+  --fa: "\f20b";
+}
+
+.fa-sheqel {
+  --fa: "\f20b";
+}
+
+.fa-sheqel-sign {
+  --fa: "\f20b";
+}
+
+.fa-cart-plus {
+  --fa: "\f217";
+}
+
+.fa-cart-arrow-down {
+  --fa: "\f218";
+}
+
+.fa-diamond {
+  --fa: "\f219";
+}
+
+.fa-ship {
+  --fa: "\f21a";
+}
+
+.fa-user-secret {
+  --fa: "\f21b";
+}
+
+.fa-motorcycle {
+  --fa: "\f21c";
+}
+
+.fa-street-view {
+  --fa: "\f21d";
+}
+
+.fa-heart-pulse {
+  --fa: "\f21e";
+}
+
+.fa-heartbeat {
+  --fa: "\f21e";
+}
+
+.fa-venus {
+  --fa: "\f221";
+}
+
+.fa-mars {
+  --fa: "\f222";
+}
+
+.fa-mercury {
+  --fa: "\f223";
+}
+
+.fa-mars-and-venus {
+  --fa: "\f224";
+}
+
+.fa-transgender {
+  --fa: "\f225";
+}
+
+.fa-transgender-alt {
+  --fa: "\f225";
+}
+
+.fa-venus-double {
+  --fa: "\f226";
+}
+
+.fa-mars-double {
+  --fa: "\f227";
+}
+
+.fa-venus-mars {
+  --fa: "\f228";
+}
+
+.fa-mars-stroke {
+  --fa: "\f229";
+}
+
+.fa-mars-stroke-up {
+  --fa: "\f22a";
+}
+
+.fa-mars-stroke-v {
+  --fa: "\f22a";
+}
+
+.fa-mars-stroke-right {
+  --fa: "\f22b";
+}
+
+.fa-mars-stroke-h {
+  --fa: "\f22b";
+}
+
+.fa-neuter {
+  --fa: "\f22c";
+}
+
+.fa-genderless {
+  --fa: "\f22d";
+}
+
+.fa-server {
+  --fa: "\f233";
+}
+
+.fa-user-plus {
+  --fa: "\f234";
+}
+
+.fa-user-xmark {
+  --fa: "\f235";
+}
+
+.fa-user-times {
+  --fa: "\f235";
+}
+
+.fa-bed {
+  --fa: "\f236";
+}
+
+.fa-train {
+  --fa: "\f238";
+}
+
+.fa-train-subway {
+  --fa: "\f239";
+}
+
+.fa-subway {
+  --fa: "\f239";
+}
+
+.fa-battery-full {
+  --fa: "\f240";
+}
+
+.fa-battery {
+  --fa: "\f240";
+}
+
+.fa-battery-5 {
+  --fa: "\f240";
+}
+
+.fa-battery-three-quarters {
+  --fa: "\f241";
+}
+
+.fa-battery-4 {
+  --fa: "\f241";
+}
+
+.fa-battery-half {
+  --fa: "\f242";
+}
+
+.fa-battery-3 {
+  --fa: "\f242";
+}
+
+.fa-battery-quarter {
+  --fa: "\f243";
+}
+
+.fa-battery-2 {
+  --fa: "\f243";
+}
+
+.fa-battery-empty {
+  --fa: "\f244";
+}
+
+.fa-battery-0 {
+  --fa: "\f244";
+}
+
+.fa-arrow-pointer {
+  --fa: "\f245";
+}
+
+.fa-mouse-pointer {
+  --fa: "\f245";
+}
+
+.fa-i-cursor {
+  --fa: "\f246";
+}
+
+.fa-object-group {
+  --fa: "\f247";
+}
+
+.fa-object-ungroup {
+  --fa: "\f248";
+}
+
+.fa-note-sticky {
+  --fa: "\f249";
+}
+
+.fa-sticky-note {
+  --fa: "\f249";
+}
+
+.fa-clone {
+  --fa: "\f24d";
+}
+
+.fa-scale-balanced {
+  --fa: "\f24e";
+}
+
+.fa-balance-scale {
+  --fa: "\f24e";
+}
+
+.fa-hourglass-start {
+  --fa: "\f251";
+}
+
+.fa-hourglass-1 {
+  --fa: "\f251";
+}
+
+.fa-hourglass-half {
+  --fa: "\f252";
+}
+
+.fa-hourglass-2 {
+  --fa: "\f252";
+}
+
+.fa-hourglass-end {
+  --fa: "\f253";
+}
+
+.fa-hourglass-3 {
+  --fa: "\f253";
+}
+
+.fa-hourglass {
+  --fa: "\f254";
+}
+
+.fa-hourglass-empty {
+  --fa: "\f254";
+}
+
+.fa-hand-back-fist {
+  --fa: "\f255";
+}
+
+.fa-hand-rock {
+  --fa: "\f255";
+}
+
+.fa-hand {
+  --fa: "\f256";
+}
+
+.fa-hand-paper {
+  --fa: "\f256";
+}
+
+.fa-hand-scissors {
+  --fa: "\f257";
+}
+
+.fa-hand-lizard {
+  --fa: "\f258";
+}
+
+.fa-hand-spock {
+  --fa: "\f259";
+}
+
+.fa-hand-pointer {
+  --fa: "\f25a";
+}
+
+.fa-hand-peace {
+  --fa: "\f25b";
+}
+
+.fa-trademark {
+  --fa: "\f25c";
+}
+
+.fa-registered {
+  --fa: "\f25d";
+}
+
+.fa-tv {
+  --fa: "\f26c";
+}
+
+.fa-television {
+  --fa: "\f26c";
+}
+
+.fa-tv-alt {
+  --fa: "\f26c";
+}
+
+.fa-calendar-plus {
+  --fa: "\f271";
+}
+
+.fa-calendar-minus {
+  --fa: "\f272";
+}
+
+.fa-calendar-xmark {
+  --fa: "\f273";
+}
+
+.fa-calendar-times {
+  --fa: "\f273";
+}
+
+.fa-calendar-check {
+  --fa: "\f274";
+}
+
+.fa-industry {
+  --fa: "\f275";
+}
+
+.fa-map-pin {
+  --fa: "\f276";
+}
+
+.fa-signs-post {
+  --fa: "\f277";
+}
+
+.fa-map-signs {
+  --fa: "\f277";
+}
+
+.fa-map {
+  --fa: "\f279";
+}
+
+.fa-message {
+  --fa: "\f27a";
+}
+
+.fa-comment-alt {
+  --fa: "\f27a";
+}
+
+.fa-circle-pause {
+  --fa: "\f28b";
+}
+
+.fa-pause-circle {
+  --fa: "\f28b";
+}
+
+.fa-circle-stop {
+  --fa: "\f28d";
+}
+
+.fa-stop-circle {
+  --fa: "\f28d";
+}
+
+.fa-bag-shopping {
+  --fa: "\f290";
+}
+
+.fa-shopping-bag {
+  --fa: "\f290";
+}
+
+.fa-basket-shopping {
+  --fa: "\f291";
+}
+
+.fa-shopping-basket {
+  --fa: "\f291";
+}
+
+.fa-universal-access {
+  --fa: "\f29a";
+}
+
+.fa-person-walking-with-cane {
+  --fa: "\f29d";
+}
+
+.fa-blind {
+  --fa: "\f29d";
+}
+
+.fa-audio-description {
+  --fa: "\f29e";
+}
+
+.fa-phone-volume {
+  --fa: "\f2a0";
+}
+
+.fa-volume-control-phone {
+  --fa: "\f2a0";
+}
+
+.fa-braille {
+  --fa: "\f2a1";
+}
+
+.fa-ear-listen {
+  --fa: "\f2a2";
+}
+
+.fa-assistive-listening-systems {
+  --fa: "\f2a2";
+}
+
+.fa-hands-asl-interpreting {
+  --fa: "\f2a3";
+}
+
+.fa-american-sign-language-interpreting {
+  --fa: "\f2a3";
+}
+
+.fa-asl-interpreting {
+  --fa: "\f2a3";
+}
+
+.fa-hands-american-sign-language-interpreting {
+  --fa: "\f2a3";
+}
+
+.fa-ear-deaf {
+  --fa: "\f2a4";
+}
+
+.fa-deaf {
+  --fa: "\f2a4";
+}
+
+.fa-deafness {
+  --fa: "\f2a4";
+}
+
+.fa-hard-of-hearing {
+  --fa: "\f2a4";
+}
+
+.fa-hands {
+  --fa: "\f2a7";
+}
+
+.fa-sign-language {
+  --fa: "\f2a7";
+}
+
+.fa-signing {
+  --fa: "\f2a7";
+}
+
+.fa-eye-low-vision {
+  --fa: "\f2a8";
+}
+
+.fa-low-vision {
+  --fa: "\f2a8";
+}
+
+.fa-font-awesome {
+  --fa: "\f2b4";
+}
+
+.fa-font-awesome-flag {
+  --fa: "\f2b4";
+}
+
+.fa-font-awesome-logo-full {
+  --fa: "\f2b4";
+}
+
+.fa-handshake {
+  --fa: "\f2b5";
+}
+
+.fa-handshake-alt {
+  --fa: "\f2b5";
+}
+
+.fa-handshake-simple {
+  --fa: "\f2b5";
+}
+
+.fa-envelope-open {
+  --fa: "\f2b6";
+}
+
+.fa-address-book {
+  --fa: "\f2b9";
+}
+
+.fa-contact-book {
+  --fa: "\f2b9";
+}
+
+.fa-address-card {
+  --fa: "\f2bb";
+}
+
+.fa-contact-card {
+  --fa: "\f2bb";
+}
+
+.fa-vcard {
+  --fa: "\f2bb";
+}
+
+.fa-circle-user {
+  --fa: "\f2bd";
+}
+
+.fa-user-circle {
+  --fa: "\f2bd";
+}
+
+.fa-id-badge {
+  --fa: "\f2c1";
+}
+
+.fa-id-card {
+  --fa: "\f2c2";
+}
+
+.fa-drivers-license {
+  --fa: "\f2c2";
+}
+
+.fa-temperature-full {
+  --fa: "\f2c7";
+}
+
+.fa-temperature-4 {
+  --fa: "\f2c7";
+}
+
+.fa-thermometer-4 {
+  --fa: "\f2c7";
+}
+
+.fa-thermometer-full {
+  --fa: "\f2c7";
+}
+
+.fa-temperature-three-quarters {
+  --fa: "\f2c8";
+}
+
+.fa-temperature-3 {
+  --fa: "\f2c8";
+}
+
+.fa-thermometer-3 {
+  --fa: "\f2c8";
+}
+
+.fa-thermometer-three-quarters {
+  --fa: "\f2c8";
+}
+
+.fa-temperature-half {
+  --fa: "\f2c9";
+}
+
+.fa-temperature-2 {
+  --fa: "\f2c9";
+}
+
+.fa-thermometer-2 {
+  --fa: "\f2c9";
+}
+
+.fa-thermometer-half {
+  --fa: "\f2c9";
+}
+
+.fa-temperature-quarter {
+  --fa: "\f2ca";
+}
+
+.fa-temperature-1 {
+  --fa: "\f2ca";
+}
+
+.fa-thermometer-1 {
+  --fa: "\f2ca";
+}
+
+.fa-thermometer-quarter {
+  --fa: "\f2ca";
+}
+
+.fa-temperature-empty {
+  --fa: "\f2cb";
+}
+
+.fa-temperature-0 {
+  --fa: "\f2cb";
+}
+
+.fa-thermometer-0 {
+  --fa: "\f2cb";
+}
+
+.fa-thermometer-empty {
+  --fa: "\f2cb";
+}
+
+.fa-shower {
+  --fa: "\f2cc";
+}
+
+.fa-bath {
+  --fa: "\f2cd";
+}
+
+.fa-bathtub {
+  --fa: "\f2cd";
+}
+
+.fa-podcast {
+  --fa: "\f2ce";
+}
+
+.fa-window-maximize {
+  --fa: "\f2d0";
+}
+
+.fa-window-minimize {
+  --fa: "\f2d1";
+}
+
+.fa-window-restore {
+  --fa: "\f2d2";
+}
+
+.fa-square-xmark {
+  --fa: "\f2d3";
+}
+
+.fa-times-square {
+  --fa: "\f2d3";
+}
+
+.fa-xmark-square {
+  --fa: "\f2d3";
+}
+
+.fa-microchip {
+  --fa: "\f2db";
+}
+
+.fa-snowflake {
+  --fa: "\f2dc";
+}
+
+.fa-spoon {
+  --fa: "\f2e5";
+}
+
+.fa-utensil-spoon {
+  --fa: "\f2e5";
+}
+
+.fa-utensils {
+  --fa: "\f2e7";
+}
+
+.fa-cutlery {
+  --fa: "\f2e7";
+}
+
+.fa-rotate-left {
+  --fa: "\f2ea";
+}
+
+.fa-rotate-back {
+  --fa: "\f2ea";
+}
+
+.fa-rotate-backward {
+  --fa: "\f2ea";
+}
+
+.fa-undo-alt {
+  --fa: "\f2ea";
+}
+
+.fa-trash-can {
+  --fa: "\f2ed";
+}
+
+.fa-trash-alt {
+  --fa: "\f2ed";
+}
+
+.fa-rotate {
+  --fa: "\f2f1";
+}
+
+.fa-sync-alt {
+  --fa: "\f2f1";
+}
+
+.fa-stopwatch {
+  --fa: "\f2f2";
+}
+
+.fa-right-from-bracket {
+  --fa: "\f2f5";
+}
+
+.fa-sign-out-alt {
+  --fa: "\f2f5";
+}
+
+.fa-right-to-bracket {
+  --fa: "\f2f6";
+}
+
+.fa-sign-in-alt {
+  --fa: "\f2f6";
+}
+
+.fa-rotate-right {
+  --fa: "\f2f9";
+}
+
+.fa-redo-alt {
+  --fa: "\f2f9";
+}
+
+.fa-rotate-forward {
+  --fa: "\f2f9";
+}
+
+.fa-poo {
+  --fa: "\f2fe";
+}
+
+.fa-images {
+  --fa: "\f302";
+}
+
+.fa-pencil {
+  --fa: "\f303";
+}
+
+.fa-pencil-alt {
+  --fa: "\f303";
+}
+
+.fa-pen {
+  --fa: "\f304";
+}
+
+.fa-pen-clip {
+  --fa: "\f305";
+}
+
+.fa-pen-alt {
+  --fa: "\f305";
+}
+
+.fa-octagon {
+  --fa: "\f306";
+}
+
+.fa-down-long {
+  --fa: "\f309";
+}
+
+.fa-long-arrow-alt-down {
+  --fa: "\f309";
+}
+
+.fa-left-long {
+  --fa: "\f30a";
+}
+
+.fa-long-arrow-alt-left {
+  --fa: "\f30a";
+}
+
+.fa-right-long {
+  --fa: "\f30b";
+}
+
+.fa-long-arrow-alt-right {
+  --fa: "\f30b";
+}
+
+.fa-up-long {
+  --fa: "\f30c";
+}
+
+.fa-long-arrow-alt-up {
+  --fa: "\f30c";
+}
+
+.fa-hexagon {
+  --fa: "\f312";
+}
+
+.fa-file-pen {
+  --fa: "\f31c";
+}
+
+.fa-file-edit {
+  --fa: "\f31c";
+}
+
+.fa-maximize {
+  --fa: "\f31e";
+}
+
+.fa-expand-arrows-alt {
+  --fa: "\f31e";
+}
+
+.fa-clipboard {
+  --fa: "\f328";
+}
+
+.fa-left-right {
+  --fa: "\f337";
+}
+
+.fa-arrows-alt-h {
+  --fa: "\f337";
+}
+
+.fa-up-down {
+  --fa: "\f338";
+}
+
+.fa-arrows-alt-v {
+  --fa: "\f338";
+}
+
+.fa-alarm-clock {
+  --fa: "\f34e";
+}
+
+.fa-circle-down {
+  --fa: "\f358";
+}
+
+.fa-arrow-alt-circle-down {
+  --fa: "\f358";
+}
+
+.fa-circle-left {
+  --fa: "\f359";
+}
+
+.fa-arrow-alt-circle-left {
+  --fa: "\f359";
+}
+
+.fa-circle-right {
+  --fa: "\f35a";
+}
+
+.fa-arrow-alt-circle-right {
+  --fa: "\f35a";
+}
+
+.fa-circle-up {
+  --fa: "\f35b";
+}
+
+.fa-arrow-alt-circle-up {
+  --fa: "\f35b";
+}
+
+.fa-up-right-from-square {
+  --fa: "\f35d";
+}
+
+.fa-external-link-alt {
+  --fa: "\f35d";
+}
+
+.fa-square-up-right {
+  --fa: "\f360";
+}
+
+.fa-external-link-square-alt {
+  --fa: "\f360";
+}
+
+.fa-right-left {
+  --fa: "\f362";
+}
+
+.fa-exchange-alt {
+  --fa: "\f362";
+}
+
+.fa-repeat {
+  --fa: "\f363";
+}
+
+.fa-code-commit {
+  --fa: "\f386";
+}
+
+.fa-code-merge {
+  --fa: "\f387";
+}
+
+.fa-desktop {
+  --fa: "\f390";
+}
+
+.fa-desktop-alt {
+  --fa: "\f390";
+}
+
+.fa-gem {
+  --fa: "\f3a5";
+}
+
+.fa-turn-down {
+  --fa: "\f3be";
+}
+
+.fa-level-down-alt {
+  --fa: "\f3be";
+}
+
+.fa-turn-up {
+  --fa: "\f3bf";
+}
+
+.fa-level-up-alt {
+  --fa: "\f3bf";
+}
+
+.fa-lock-open {
+  --fa: "\f3c1";
+}
+
+.fa-location-dot {
+  --fa: "\f3c5";
+}
+
+.fa-map-marker-alt {
+  --fa: "\f3c5";
+}
+
+.fa-microphone-lines {
+  --fa: "\f3c9";
+}
+
+.fa-microphone-alt {
+  --fa: "\f3c9";
+}
+
+.fa-mobile-screen-button {
+  --fa: "\f3cd";
+}
+
+.fa-mobile-alt {
+  --fa: "\f3cd";
+}
+
+.fa-mobile {
+  --fa: "\f3ce";
+}
+
+.fa-mobile-android {
+  --fa: "\f3ce";
+}
+
+.fa-mobile-phone {
+  --fa: "\f3ce";
+}
+
+.fa-mobile-screen {
+  --fa: "\f3cf";
+}
+
+.fa-mobile-android-alt {
+  --fa: "\f3cf";
+}
+
+.fa-money-bill-1 {
+  --fa: "\f3d1";
+}
+
+.fa-money-bill-alt {
+  --fa: "\f3d1";
+}
+
+.fa-phone-slash {
+  --fa: "\f3dd";
+}
+
+.fa-image-portrait {
+  --fa: "\f3e0";
+}
+
+.fa-portrait {
+  --fa: "\f3e0";
+}
+
+.fa-reply {
+  --fa: "\f3e5";
+}
+
+.fa-mail-reply {
+  --fa: "\f3e5";
+}
+
+.fa-shield-halved {
+  --fa: "\f3ed";
+}
+
+.fa-shield-alt {
+  --fa: "\f3ed";
+}
+
+.fa-tablet-screen-button {
+  --fa: "\f3fa";
+}
+
+.fa-tablet-alt {
+  --fa: "\f3fa";
+}
+
+.fa-tablet {
+  --fa: "\f3fb";
+}
+
+.fa-tablet-android {
+  --fa: "\f3fb";
+}
+
+.fa-ticket-simple {
+  --fa: "\f3ff";
+}
+
+.fa-ticket-alt {
+  --fa: "\f3ff";
+}
+
+.fa-rectangle-xmark {
+  --fa: "\f410";
+}
+
+.fa-rectangle-times {
+  --fa: "\f410";
+}
+
+.fa-times-rectangle {
+  --fa: "\f410";
+}
+
+.fa-window-close {
+  --fa: "\f410";
+}
+
+.fa-down-left-and-up-right-to-center {
+  --fa: "\f422";
+}
+
+.fa-compress-alt {
+  --fa: "\f422";
+}
+
+.fa-up-right-and-down-left-from-center {
+  --fa: "\f424";
+}
+
+.fa-expand-alt {
+  --fa: "\f424";
+}
+
+.fa-baseball-bat-ball {
+  --fa: "\f432";
+}
+
+.fa-baseball {
+  --fa: "\f433";
+}
+
+.fa-baseball-ball {
+  --fa: "\f433";
+}
+
+.fa-basketball {
+  --fa: "\f434";
+}
+
+.fa-basketball-ball {
+  --fa: "\f434";
+}
+
+.fa-bowling-ball {
+  --fa: "\f436";
+}
+
+.fa-chess {
+  --fa: "\f439";
+}
+
+.fa-chess-bishop {
+  --fa: "\f43a";
+}
+
+.fa-chess-board {
+  --fa: "\f43c";
+}
+
+.fa-chess-king {
+  --fa: "\f43f";
+}
+
+.fa-chess-knight {
+  --fa: "\f441";
+}
+
+.fa-chess-pawn {
+  --fa: "\f443";
+}
+
+.fa-chess-queen {
+  --fa: "\f445";
+}
+
+.fa-chess-rook {
+  --fa: "\f447";
+}
+
+.fa-dumbbell {
+  --fa: "\f44b";
+}
+
+.fa-football {
+  --fa: "\f44e";
+}
+
+.fa-football-ball {
+  --fa: "\f44e";
+}
+
+.fa-golf-ball-tee {
+  --fa: "\f450";
+}
+
+.fa-golf-ball {
+  --fa: "\f450";
+}
+
+.fa-hockey-puck {
+  --fa: "\f453";
+}
+
+.fa-broom-ball {
+  --fa: "\f458";
+}
+
+.fa-quidditch {
+  --fa: "\f458";
+}
+
+.fa-quidditch-broom-ball {
+  --fa: "\f458";
+}
+
+.fa-square-full {
+  --fa: "\f45c";
+}
+
+.fa-table-tennis-paddle-ball {
+  --fa: "\f45d";
+}
+
+.fa-ping-pong-paddle-ball {
+  --fa: "\f45d";
+}
+
+.fa-table-tennis {
+  --fa: "\f45d";
+}
+
+.fa-volleyball {
+  --fa: "\f45f";
+}
+
+.fa-volleyball-ball {
+  --fa: "\f45f";
+}
+
+.fa-hand-dots {
+  --fa: "\f461";
+}
+
+.fa-allergies {
+  --fa: "\f461";
+}
+
+.fa-bandage {
+  --fa: "\f462";
+}
+
+.fa-band-aid {
+  --fa: "\f462";
+}
+
+.fa-box {
+  --fa: "\f466";
+}
+
+.fa-boxes-stacked {
+  --fa: "\f468";
+}
+
+.fa-boxes {
+  --fa: "\f468";
+}
+
+.fa-boxes-alt {
+  --fa: "\f468";
+}
+
+.fa-briefcase-medical {
+  --fa: "\f469";
+}
+
+.fa-fire-flame-simple {
+  --fa: "\f46a";
+}
+
+.fa-burn {
+  --fa: "\f46a";
+}
+
+.fa-capsules {
+  --fa: "\f46b";
+}
+
+.fa-clipboard-check {
+  --fa: "\f46c";
+}
+
+.fa-clipboard-list {
+  --fa: "\f46d";
+}
+
+.fa-person-dots-from-line {
+  --fa: "\f470";
+}
+
+.fa-diagnoses {
+  --fa: "\f470";
+}
+
+.fa-dna {
+  --fa: "\f471";
+}
+
+.fa-dolly {
+  --fa: "\f472";
+}
+
+.fa-dolly-box {
+  --fa: "\f472";
+}
+
+.fa-cart-flatbed {
+  --fa: "\f474";
+}
+
+.fa-dolly-flatbed {
+  --fa: "\f474";
+}
+
+.fa-file-medical {
+  --fa: "\f477";
+}
+
+.fa-file-waveform {
+  --fa: "\f478";
+}
+
+.fa-file-medical-alt {
+  --fa: "\f478";
+}
+
+.fa-kit-medical {
+  --fa: "\f479";
+}
+
+.fa-first-aid {
+  --fa: "\f479";
+}
+
+.fa-circle-h {
+  --fa: "\f47e";
+}
+
+.fa-hospital-symbol {
+  --fa: "\f47e";
+}
+
+.fa-id-card-clip {
+  --fa: "\f47f";
+}
+
+.fa-id-card-alt {
+  --fa: "\f47f";
+}
+
+.fa-notes-medical {
+  --fa: "\f481";
+}
+
+.fa-pallet {
+  --fa: "\f482";
+}
+
+.fa-pills {
+  --fa: "\f484";
+}
+
+.fa-prescription-bottle {
+  --fa: "\f485";
+}
+
+.fa-prescription-bottle-medical {
+  --fa: "\f486";
+}
+
+.fa-prescription-bottle-alt {
+  --fa: "\f486";
+}
+
+.fa-bed-pulse {
+  --fa: "\f487";
+}
+
+.fa-procedures {
+  --fa: "\f487";
+}
+
+.fa-truck-fast {
+  --fa: "\f48b";
+}
+
+.fa-shipping-fast {
+  --fa: "\f48b";
+}
+
+.fa-smoking {
+  --fa: "\f48d";
+}
+
+.fa-syringe {
+  --fa: "\f48e";
+}
+
+.fa-tablets {
+  --fa: "\f490";
+}
+
+.fa-thermometer {
+  --fa: "\f491";
+}
+
+.fa-vial {
+  --fa: "\f492";
+}
+
+.fa-vials {
+  --fa: "\f493";
+}
+
+.fa-warehouse {
+  --fa: "\f494";
+}
+
+.fa-weight-scale {
+  --fa: "\f496";
+}
+
+.fa-weight {
+  --fa: "\f496";
+}
+
+.fa-x-ray {
+  --fa: "\f497";
+}
+
+.fa-box-open {
+  --fa: "\f49e";
+}
+
+.fa-comment-dots {
+  --fa: "\f4ad";
+}
+
+.fa-commenting {
+  --fa: "\f4ad";
+}
+
+.fa-comment-slash {
+  --fa: "\f4b3";
+}
+
+.fa-couch {
+  --fa: "\f4b8";
+}
+
+.fa-circle-dollar-to-slot {
+  --fa: "\f4b9";
+}
+
+.fa-donate {
+  --fa: "\f4b9";
+}
+
+.fa-dove {
+  --fa: "\f4ba";
+}
+
+.fa-hand-holding {
+  --fa: "\f4bd";
+}
+
+.fa-hand-holding-heart {
+  --fa: "\f4be";
+}
+
+.fa-hand-holding-dollar {
+  --fa: "\f4c0";
+}
+
+.fa-hand-holding-usd {
+  --fa: "\f4c0";
+}
+
+.fa-hand-holding-droplet {
+  --fa: "\f4c1";
+}
+
+.fa-hand-holding-water {
+  --fa: "\f4c1";
+}
+
+.fa-hands-holding {
+  --fa: "\f4c2";
+}
+
+.fa-handshake-angle {
+  --fa: "\f4c4";
+}
+
+.fa-hands-helping {
+  --fa: "\f4c4";
+}
+
+.fa-parachute-box {
+  --fa: "\f4cd";
+}
+
+.fa-people-carry-box {
+  --fa: "\f4ce";
+}
+
+.fa-people-carry {
+  --fa: "\f4ce";
+}
+
+.fa-piggy-bank {
+  --fa: "\f4d3";
+}
+
+.fa-ribbon {
+  --fa: "\f4d6";
+}
+
+.fa-route {
+  --fa: "\f4d7";
+}
+
+.fa-seedling {
+  --fa: "\f4d8";
+}
+
+.fa-sprout {
+  --fa: "\f4d8";
+}
+
+.fa-sign-hanging {
+  --fa: "\f4d9";
+}
+
+.fa-sign {
+  --fa: "\f4d9";
+}
+
+.fa-face-smile-wink {
+  --fa: "\f4da";
+}
+
+.fa-smile-wink {
+  --fa: "\f4da";
+}
+
+.fa-tape {
+  --fa: "\f4db";
+}
+
+.fa-truck-ramp-box {
+  --fa: "\f4de";
+}
+
+.fa-truck-loading {
+  --fa: "\f4de";
+}
+
+.fa-truck-moving {
+  --fa: "\f4df";
+}
+
+.fa-video-slash {
+  --fa: "\f4e2";
+}
+
+.fa-wine-glass {
+  --fa: "\f4e3";
+}
+
+.fa-user-astronaut {
+  --fa: "\f4fb";
+}
+
+.fa-user-check {
+  --fa: "\f4fc";
+}
+
+.fa-user-clock {
+  --fa: "\f4fd";
+}
+
+.fa-user-gear {
+  --fa: "\f4fe";
+}
+
+.fa-user-cog {
+  --fa: "\f4fe";
+}
+
+.fa-user-pen {
+  --fa: "\f4ff";
+}
+
+.fa-user-edit {
+  --fa: "\f4ff";
+}
+
+.fa-user-group {
+  --fa: "\f500";
+}
+
+.fa-user-friends {
+  --fa: "\f500";
+}
+
+.fa-user-graduate {
+  --fa: "\f501";
+}
+
+.fa-user-lock {
+  --fa: "\f502";
+}
+
+.fa-user-minus {
+  --fa: "\f503";
+}
+
+.fa-user-ninja {
+  --fa: "\f504";
+}
+
+.fa-user-shield {
+  --fa: "\f505";
+}
+
+.fa-user-slash {
+  --fa: "\f506";
+}
+
+.fa-user-alt-slash {
+  --fa: "\f506";
+}
+
+.fa-user-large-slash {
+  --fa: "\f506";
+}
+
+.fa-user-tag {
+  --fa: "\f507";
+}
+
+.fa-user-tie {
+  --fa: "\f508";
+}
+
+.fa-users-gear {
+  --fa: "\f509";
+}
+
+.fa-users-cog {
+  --fa: "\f509";
+}
+
+.fa-scale-unbalanced {
+  --fa: "\f515";
+}
+
+.fa-balance-scale-left {
+  --fa: "\f515";
+}
+
+.fa-scale-unbalanced-flip {
+  --fa: "\f516";
+}
+
+.fa-balance-scale-right {
+  --fa: "\f516";
+}
+
+.fa-blender {
+  --fa: "\f517";
+}
+
+.fa-book-open {
+  --fa: "\f518";
+}
+
+.fa-tower-broadcast {
+  --fa: "\f519";
+}
+
+.fa-broadcast-tower {
+  --fa: "\f519";
+}
+
+.fa-broom {
+  --fa: "\f51a";
+}
+
+.fa-chalkboard {
+  --fa: "\f51b";
+}
+
+.fa-blackboard {
+  --fa: "\f51b";
+}
+
+.fa-chalkboard-user {
+  --fa: "\f51c";
+}
+
+.fa-chalkboard-teacher {
+  --fa: "\f51c";
+}
+
+.fa-church {
+  --fa: "\f51d";
+}
+
+.fa-coins {
+  --fa: "\f51e";
+}
+
+.fa-compact-disc {
+  --fa: "\f51f";
+}
+
+.fa-crow {
+  --fa: "\f520";
+}
+
+.fa-crown {
+  --fa: "\f521";
+}
+
+.fa-dice {
+  --fa: "\f522";
+}
+
+.fa-dice-five {
+  --fa: "\f523";
+}
+
+.fa-dice-four {
+  --fa: "\f524";
+}
+
+.fa-dice-one {
+  --fa: "\f525";
+}
+
+.fa-dice-six {
+  --fa: "\f526";
+}
+
+.fa-dice-three {
+  --fa: "\f527";
+}
+
+.fa-dice-two {
+  --fa: "\f528";
+}
+
+.fa-divide {
+  --fa: "\f529";
+}
+
+.fa-door-closed {
+  --fa: "\f52a";
+}
+
+.fa-door-open {
+  --fa: "\f52b";
+}
+
+.fa-feather {
+  --fa: "\f52d";
+}
+
+.fa-frog {
+  --fa: "\f52e";
+}
+
+.fa-gas-pump {
+  --fa: "\f52f";
+}
+
+.fa-glasses {
+  --fa: "\f530";
+}
+
+.fa-greater-than-equal {
+  --fa: "\f532";
+}
+
+.fa-helicopter {
+  --fa: "\f533";
+}
+
+.fa-infinity {
+  --fa: "\f534";
+}
+
+.fa-kiwi-bird {
+  --fa: "\f535";
+}
+
+.fa-less-than-equal {
+  --fa: "\f537";
+}
+
+.fa-memory {
+  --fa: "\f538";
+}
+
+.fa-microphone-lines-slash {
+  --fa: "\f539";
+}
+
+.fa-microphone-alt-slash {
+  --fa: "\f539";
+}
+
+.fa-money-bill-wave {
+  --fa: "\f53a";
+}
+
+.fa-money-bill-1-wave {
+  --fa: "\f53b";
+}
+
+.fa-money-bill-wave-alt {
+  --fa: "\f53b";
+}
+
+.fa-money-check {
+  --fa: "\f53c";
+}
+
+.fa-money-check-dollar {
+  --fa: "\f53d";
+}
+
+.fa-money-check-alt {
+  --fa: "\f53d";
+}
+
+.fa-not-equal {
+  --fa: "\f53e";
+}
+
+.fa-palette {
+  --fa: "\f53f";
+}
+
+.fa-square-parking {
+  --fa: "\f540";
+}
+
+.fa-parking {
+  --fa: "\f540";
+}
+
+.fa-diagram-project {
+  --fa: "\f542";
+}
+
+.fa-project-diagram {
+  --fa: "\f542";
+}
+
+.fa-receipt {
+  --fa: "\f543";
+}
+
+.fa-robot {
+  --fa: "\f544";
+}
+
+.fa-ruler {
+  --fa: "\f545";
+}
+
+.fa-ruler-combined {
+  --fa: "\f546";
+}
+
+.fa-ruler-horizontal {
+  --fa: "\f547";
+}
+
+.fa-ruler-vertical {
+  --fa: "\f548";
+}
+
+.fa-school {
+  --fa: "\f549";
+}
+
+.fa-screwdriver {
+  --fa: "\f54a";
+}
+
+.fa-shoe-prints {
+  --fa: "\f54b";
+}
+
+.fa-skull {
+  --fa: "\f54c";
+}
+
+.fa-ban-smoking {
+  --fa: "\f54d";
+}
+
+.fa-smoking-ban {
+  --fa: "\f54d";
+}
+
+.fa-store {
+  --fa: "\f54e";
+}
+
+.fa-shop {
+  --fa: "\f54f";
+}
+
+.fa-store-alt {
+  --fa: "\f54f";
+}
+
+.fa-bars-staggered {
+  --fa: "\f550";
+}
+
+.fa-reorder {
+  --fa: "\f550";
+}
+
+.fa-stream {
+  --fa: "\f550";
+}
+
+.fa-stroopwafel {
+  --fa: "\f551";
+}
+
+.fa-toolbox {
+  --fa: "\f552";
+}
+
+.fa-shirt {
+  --fa: "\f553";
+}
+
+.fa-t-shirt {
+  --fa: "\f553";
+}
+
+.fa-tshirt {
+  --fa: "\f553";
+}
+
+.fa-person-walking {
+  --fa: "\f554";
+}
+
+.fa-walking {
+  --fa: "\f554";
+}
+
+.fa-wallet {
+  --fa: "\f555";
+}
+
+.fa-face-angry {
+  --fa: "\f556";
+}
+
+.fa-angry {
+  --fa: "\f556";
+}
+
+.fa-archway {
+  --fa: "\f557";
+}
+
+.fa-book-atlas {
+  --fa: "\f558";
+}
+
+.fa-atlas {
+  --fa: "\f558";
+}
+
+.fa-award {
+  --fa: "\f559";
+}
+
+.fa-delete-left {
+  --fa: "\f55a";
+}
+
+.fa-backspace {
+  --fa: "\f55a";
+}
+
+.fa-bezier-curve {
+  --fa: "\f55b";
+}
+
+.fa-bong {
+  --fa: "\f55c";
+}
+
+.fa-brush {
+  --fa: "\f55d";
+}
+
+.fa-bus-simple {
+  --fa: "\f55e";
+}
+
+.fa-bus-alt {
+  --fa: "\f55e";
+}
+
+.fa-cannabis {
+  --fa: "\f55f";
+}
+
+.fa-check-double {
+  --fa: "\f560";
+}
+
+.fa-martini-glass-citrus {
+  --fa: "\f561";
+}
+
+.fa-cocktail {
+  --fa: "\f561";
+}
+
+.fa-bell-concierge {
+  --fa: "\f562";
+}
+
+.fa-concierge-bell {
+  --fa: "\f562";
+}
+
+.fa-cookie {
+  --fa: "\f563";
+}
+
+.fa-cookie-bite {
+  --fa: "\f564";
+}
+
+.fa-crop-simple {
+  --fa: "\f565";
+}
+
+.fa-crop-alt {
+  --fa: "\f565";
+}
+
+.fa-tachograph-digital {
+  --fa: "\f566";
+}
+
+.fa-digital-tachograph {
+  --fa: "\f566";
+}
+
+.fa-face-dizzy {
+  --fa: "\f567";
+}
+
+.fa-dizzy {
+  --fa: "\f567";
+}
+
+.fa-compass-drafting {
+  --fa: "\f568";
+}
+
+.fa-drafting-compass {
+  --fa: "\f568";
+}
+
+.fa-drum {
+  --fa: "\f569";
+}
+
+.fa-drum-steelpan {
+  --fa: "\f56a";
+}
+
+.fa-feather-pointed {
+  --fa: "\f56b";
+}
+
+.fa-feather-alt {
+  --fa: "\f56b";
+}
+
+.fa-file-contract {
+  --fa: "\f56c";
+}
+
+.fa-file-arrow-down {
+  --fa: "\f56d";
+}
+
+.fa-file-download {
+  --fa: "\f56d";
+}
+
+.fa-file-export {
+  --fa: "\f56e";
+}
+
+.fa-arrow-right-from-file {
+  --fa: "\f56e";
+}
+
+.fa-file-import {
+  --fa: "\f56f";
+}
+
+.fa-arrow-right-to-file {
+  --fa: "\f56f";
+}
+
+.fa-file-invoice {
+  --fa: "\f570";
+}
+
+.fa-file-invoice-dollar {
+  --fa: "\f571";
+}
+
+.fa-file-prescription {
+  --fa: "\f572";
+}
+
+.fa-file-signature {
+  --fa: "\f573";
+}
+
+.fa-file-arrow-up {
+  --fa: "\f574";
+}
+
+.fa-file-upload {
+  --fa: "\f574";
+}
+
+.fa-fill {
+  --fa: "\f575";
+}
+
+.fa-fill-drip {
+  --fa: "\f576";
+}
+
+.fa-fingerprint {
+  --fa: "\f577";
+}
+
+.fa-fish {
+  --fa: "\f578";
+}
+
+.fa-face-flushed {
+  --fa: "\f579";
+}
+
+.fa-flushed {
+  --fa: "\f579";
+}
+
+.fa-face-frown-open {
+  --fa: "\f57a";
+}
+
+.fa-frown-open {
+  --fa: "\f57a";
+}
+
+.fa-martini-glass {
+  --fa: "\f57b";
+}
+
+.fa-glass-martini-alt {
+  --fa: "\f57b";
+}
+
+.fa-earth-africa {
+  --fa: "\f57c";
+}
+
+.fa-globe-africa {
+  --fa: "\f57c";
+}
+
+.fa-earth-americas {
+  --fa: "\f57d";
+}
+
+.fa-earth {
+  --fa: "\f57d";
+}
+
+.fa-earth-america {
+  --fa: "\f57d";
+}
+
+.fa-globe-americas {
+  --fa: "\f57d";
+}
+
+.fa-earth-asia {
+  --fa: "\f57e";
+}
+
+.fa-globe-asia {
+  --fa: "\f57e";
+}
+
+.fa-face-grimace {
+  --fa: "\f57f";
+}
+
+.fa-grimace {
+  --fa: "\f57f";
+}
+
+.fa-face-grin {
+  --fa: "\f580";
+}
+
+.fa-grin {
+  --fa: "\f580";
+}
+
+.fa-face-grin-wide {
+  --fa: "\f581";
+}
+
+.fa-grin-alt {
+  --fa: "\f581";
+}
+
+.fa-face-grin-beam {
+  --fa: "\f582";
+}
+
+.fa-grin-beam {
+  --fa: "\f582";
+}
+
+.fa-face-grin-beam-sweat {
+  --fa: "\f583";
+}
+
+.fa-grin-beam-sweat {
+  --fa: "\f583";
+}
+
+.fa-face-grin-hearts {
+  --fa: "\f584";
+}
+
+.fa-grin-hearts {
+  --fa: "\f584";
+}
+
+.fa-face-grin-squint {
+  --fa: "\f585";
+}
+
+.fa-grin-squint {
+  --fa: "\f585";
+}
+
+.fa-face-grin-squint-tears {
+  --fa: "\f586";
+}
+
+.fa-grin-squint-tears {
+  --fa: "\f586";
+}
+
+.fa-face-grin-stars {
+  --fa: "\f587";
+}
+
+.fa-grin-stars {
+  --fa: "\f587";
+}
+
+.fa-face-grin-tears {
+  --fa: "\f588";
+}
+
+.fa-grin-tears {
+  --fa: "\f588";
+}
+
+.fa-face-grin-tongue {
+  --fa: "\f589";
+}
+
+.fa-grin-tongue {
+  --fa: "\f589";
+}
+
+.fa-face-grin-tongue-squint {
+  --fa: "\f58a";
+}
+
+.fa-grin-tongue-squint {
+  --fa: "\f58a";
+}
+
+.fa-face-grin-tongue-wink {
+  --fa: "\f58b";
+}
+
+.fa-grin-tongue-wink {
+  --fa: "\f58b";
+}
+
+.fa-face-grin-wink {
+  --fa: "\f58c";
+}
+
+.fa-grin-wink {
+  --fa: "\f58c";
+}
+
+.fa-grip {
+  --fa: "\f58d";
+}
+
+.fa-grid-horizontal {
+  --fa: "\f58d";
+}
+
+.fa-grip-horizontal {
+  --fa: "\f58d";
+}
+
+.fa-grip-vertical {
+  --fa: "\f58e";
+}
+
+.fa-grid-vertical {
+  --fa: "\f58e";
+}
+
+.fa-headset {
+  --fa: "\f590";
+}
+
+.fa-highlighter {
+  --fa: "\f591";
+}
+
+.fa-hot-tub-person {
+  --fa: "\f593";
+}
+
+.fa-hot-tub {
+  --fa: "\f593";
+}
+
+.fa-hotel {
+  --fa: "\f594";
+}
+
+.fa-joint {
+  --fa: "\f595";
+}
+
+.fa-face-kiss {
+  --fa: "\f596";
+}
+
+.fa-kiss {
+  --fa: "\f596";
+}
+
+.fa-face-kiss-beam {
+  --fa: "\f597";
+}
+
+.fa-kiss-beam {
+  --fa: "\f597";
+}
+
+.fa-face-kiss-wink-heart {
+  --fa: "\f598";
+}
+
+.fa-kiss-wink-heart {
+  --fa: "\f598";
+}
+
+.fa-face-laugh {
+  --fa: "\f599";
+}
+
+.fa-laugh {
+  --fa: "\f599";
+}
+
+.fa-face-laugh-beam {
+  --fa: "\f59a";
+}
+
+.fa-laugh-beam {
+  --fa: "\f59a";
+}
+
+.fa-face-laugh-squint {
+  --fa: "\f59b";
+}
+
+.fa-laugh-squint {
+  --fa: "\f59b";
+}
+
+.fa-face-laugh-wink {
+  --fa: "\f59c";
+}
+
+.fa-laugh-wink {
+  --fa: "\f59c";
+}
+
+.fa-cart-flatbed-suitcase {
+  --fa: "\f59d";
+}
+
+.fa-luggage-cart {
+  --fa: "\f59d";
+}
+
+.fa-map-location {
+  --fa: "\f59f";
+}
+
+.fa-map-marked {
+  --fa: "\f59f";
+}
+
+.fa-map-location-dot {
+  --fa: "\f5a0";
+}
+
+.fa-map-marked-alt {
+  --fa: "\f5a0";
+}
+
+.fa-marker {
+  --fa: "\f5a1";
+}
+
+.fa-medal {
+  --fa: "\f5a2";
+}
+
+.fa-face-meh-blank {
+  --fa: "\f5a4";
+}
+
+.fa-meh-blank {
+  --fa: "\f5a4";
+}
+
+.fa-face-rolling-eyes {
+  --fa: "\f5a5";
+}
+
+.fa-meh-rolling-eyes {
+  --fa: "\f5a5";
+}
+
+.fa-monument {
+  --fa: "\f5a6";
+}
+
+.fa-mortar-pestle {
+  --fa: "\f5a7";
+}
+
+.fa-paint-roller {
+  --fa: "\f5aa";
+}
+
+.fa-passport {
+  --fa: "\f5ab";
+}
+
+.fa-pen-fancy {
+  --fa: "\f5ac";
+}
+
+.fa-pen-nib {
+  --fa: "\f5ad";
+}
+
+.fa-pen-ruler {
+  --fa: "\f5ae";
+}
+
+.fa-pencil-ruler {
+  --fa: "\f5ae";
+}
+
+.fa-plane-arrival {
+  --fa: "\f5af";
+}
+
+.fa-plane-departure {
+  --fa: "\f5b0";
+}
+
+.fa-prescription {
+  --fa: "\f5b1";
+}
+
+.fa-face-sad-cry {
+  --fa: "\f5b3";
+}
+
+.fa-sad-cry {
+  --fa: "\f5b3";
+}
+
+.fa-face-sad-tear {
+  --fa: "\f5b4";
+}
+
+.fa-sad-tear {
+  --fa: "\f5b4";
+}
+
+.fa-van-shuttle {
+  --fa: "\f5b6";
+}
+
+.fa-shuttle-van {
+  --fa: "\f5b6";
+}
+
+.fa-signature {
+  --fa: "\f5b7";
+}
+
+.fa-face-smile-beam {
+  --fa: "\f5b8";
+}
+
+.fa-smile-beam {
+  --fa: "\f5b8";
+}
+
+.fa-solar-panel {
+  --fa: "\f5ba";
+}
+
+.fa-spa {
+  --fa: "\f5bb";
+}
+
+.fa-splotch {
+  --fa: "\f5bc";
+}
+
+.fa-spray-can {
+  --fa: "\f5bd";
+}
+
+.fa-stamp {
+  --fa: "\f5bf";
+}
+
+.fa-star-half-stroke {
+  --fa: "\f5c0";
+}
+
+.fa-star-half-alt {
+  --fa: "\f5c0";
+}
+
+.fa-suitcase-rolling {
+  --fa: "\f5c1";
+}
+
+.fa-face-surprise {
+  --fa: "\f5c2";
+}
+
+.fa-surprise {
+  --fa: "\f5c2";
+}
+
+.fa-swatchbook {
+  --fa: "\f5c3";
+}
+
+.fa-person-swimming {
+  --fa: "\f5c4";
+}
+
+.fa-swimmer {
+  --fa: "\f5c4";
+}
+
+.fa-water-ladder {
+  --fa: "\f5c5";
+}
+
+.fa-ladder-water {
+  --fa: "\f5c5";
+}
+
+.fa-swimming-pool {
+  --fa: "\f5c5";
+}
+
+.fa-droplet-slash {
+  --fa: "\f5c7";
+}
+
+.fa-tint-slash {
+  --fa: "\f5c7";
+}
+
+.fa-face-tired {
+  --fa: "\f5c8";
+}
+
+.fa-tired {
+  --fa: "\f5c8";
+}
+
+.fa-tooth {
+  --fa: "\f5c9";
+}
+
+.fa-umbrella-beach {
+  --fa: "\f5ca";
+}
+
+.fa-weight-hanging {
+  --fa: "\f5cd";
+}
+
+.fa-wine-glass-empty {
+  --fa: "\f5ce";
+}
+
+.fa-wine-glass-alt {
+  --fa: "\f5ce";
+}
+
+.fa-spray-can-sparkles {
+  --fa: "\f5d0";
+}
+
+.fa-air-freshener {
+  --fa: "\f5d0";
+}
+
+.fa-apple-whole {
+  --fa: "\f5d1";
+}
+
+.fa-apple-alt {
+  --fa: "\f5d1";
+}
+
+.fa-atom {
+  --fa: "\f5d2";
+}
+
+.fa-bone {
+  --fa: "\f5d7";
+}
+
+.fa-book-open-reader {
+  --fa: "\f5da";
+}
+
+.fa-book-reader {
+  --fa: "\f5da";
+}
+
+.fa-brain {
+  --fa: "\f5dc";
+}
+
+.fa-car-rear {
+  --fa: "\f5de";
+}
+
+.fa-car-alt {
+  --fa: "\f5de";
+}
+
+.fa-car-battery {
+  --fa: "\f5df";
+}
+
+.fa-battery-car {
+  --fa: "\f5df";
+}
+
+.fa-car-burst {
+  --fa: "\f5e1";
+}
+
+.fa-car-crash {
+  --fa: "\f5e1";
+}
+
+.fa-car-side {
+  --fa: "\f5e4";
+}
+
+.fa-charging-station {
+  --fa: "\f5e7";
+}
+
+.fa-diamond-turn-right {
+  --fa: "\f5eb";
+}
+
+.fa-directions {
+  --fa: "\f5eb";
+}
+
+.fa-draw-polygon {
+  --fa: "\f5ee";
+}
+
+.fa-vector-polygon {
+  --fa: "\f5ee";
+}
+
+.fa-laptop-code {
+  --fa: "\f5fc";
+}
+
+.fa-layer-group {
+  --fa: "\f5fd";
+}
+
+.fa-location-crosshairs {
+  --fa: "\f601";
+}
+
+.fa-location {
+  --fa: "\f601";
+}
+
+.fa-lungs {
+  --fa: "\f604";
+}
+
+.fa-microscope {
+  --fa: "\f610";
+}
+
+.fa-oil-can {
+  --fa: "\f613";
+}
+
+.fa-poop {
+  --fa: "\f619";
+}
+
+.fa-shapes {
+  --fa: "\f61f";
+}
+
+.fa-triangle-circle-square {
+  --fa: "\f61f";
+}
+
+.fa-star-of-life {
+  --fa: "\f621";
+}
+
+.fa-gauge {
+  --fa: "\f624";
+}
+
+.fa-dashboard {
+  --fa: "\f624";
+}
+
+.fa-gauge-med {
+  --fa: "\f624";
+}
+
+.fa-tachometer-alt-average {
+  --fa: "\f624";
+}
+
+.fa-gauge-high {
+  --fa: "\f625";
+}
+
+.fa-tachometer-alt {
+  --fa: "\f625";
+}
+
+.fa-tachometer-alt-fast {
+  --fa: "\f625";
+}
+
+.fa-gauge-simple {
+  --fa: "\f629";
+}
+
+.fa-gauge-simple-med {
+  --fa: "\f629";
+}
+
+.fa-tachometer-average {
+  --fa: "\f629";
+}
+
+.fa-gauge-simple-high {
+  --fa: "\f62a";
+}
+
+.fa-tachometer {
+  --fa: "\f62a";
+}
+
+.fa-tachometer-fast {
+  --fa: "\f62a";
+}
+
+.fa-teeth {
+  --fa: "\f62e";
+}
+
+.fa-teeth-open {
+  --fa: "\f62f";
+}
+
+.fa-masks-theater {
+  --fa: "\f630";
+}
+
+.fa-theater-masks {
+  --fa: "\f630";
+}
+
+.fa-traffic-light {
+  --fa: "\f637";
+}
+
+.fa-truck-monster {
+  --fa: "\f63b";
+}
+
+.fa-truck-pickup {
+  --fa: "\f63c";
+}
+
+.fa-rectangle-ad {
+  --fa: "\f641";
+}
+
+.fa-ad {
+  --fa: "\f641";
+}
+
+.fa-ankh {
+  --fa: "\f644";
+}
+
+.fa-book-bible {
+  --fa: "\f647";
+}
+
+.fa-bible {
+  --fa: "\f647";
+}
+
+.fa-business-time {
+  --fa: "\f64a";
+}
+
+.fa-briefcase-clock {
+  --fa: "\f64a";
+}
+
+.fa-city {
+  --fa: "\f64f";
+}
+
+.fa-comment-dollar {
+  --fa: "\f651";
+}
+
+.fa-comments-dollar {
+  --fa: "\f653";
+}
+
+.fa-cross {
+  --fa: "\f654";
+}
+
+.fa-dharmachakra {
+  --fa: "\f655";
+}
+
+.fa-envelope-open-text {
+  --fa: "\f658";
+}
+
+.fa-folder-minus {
+  --fa: "\f65d";
+}
+
+.fa-folder-plus {
+  --fa: "\f65e";
+}
+
+.fa-filter-circle-dollar {
+  --fa: "\f662";
+}
+
+.fa-funnel-dollar {
+  --fa: "\f662";
+}
+
+.fa-gopuram {
+  --fa: "\f664";
+}
+
+.fa-hamsa {
+  --fa: "\f665";
+}
+
+.fa-bahai {
+  --fa: "\f666";
+}
+
+.fa-haykal {
+  --fa: "\f666";
+}
+
+.fa-jedi {
+  --fa: "\f669";
+}
+
+.fa-book-journal-whills {
+  --fa: "\f66a";
+}
+
+.fa-journal-whills {
+  --fa: "\f66a";
+}
+
+.fa-kaaba {
+  --fa: "\f66b";
+}
+
+.fa-khanda {
+  --fa: "\f66d";
+}
+
+.fa-landmark {
+  --fa: "\f66f";
+}
+
+.fa-envelopes-bulk {
+  --fa: "\f674";
+}
+
+.fa-mail-bulk {
+  --fa: "\f674";
+}
+
+.fa-menorah {
+  --fa: "\f676";
+}
+
+.fa-mosque {
+  --fa: "\f678";
+}
+
+.fa-om {
+  --fa: "\f679";
+}
+
+.fa-spaghetti-monster-flying {
+  --fa: "\f67b";
+}
+
+.fa-pastafarianism {
+  --fa: "\f67b";
+}
+
+.fa-peace {
+  --fa: "\f67c";
+}
+
+.fa-place-of-worship {
+  --fa: "\f67f";
+}
+
+.fa-square-poll-vertical {
+  --fa: "\f681";
+}
+
+.fa-poll {
+  --fa: "\f681";
+}
+
+.fa-square-poll-horizontal {
+  --fa: "\f682";
+}
+
+.fa-poll-h {
+  --fa: "\f682";
+}
+
+.fa-person-praying {
+  --fa: "\f683";
+}
+
+.fa-pray {
+  --fa: "\f683";
+}
+
+.fa-hands-praying {
+  --fa: "\f684";
+}
+
+.fa-praying-hands {
+  --fa: "\f684";
+}
+
+.fa-book-quran {
+  --fa: "\f687";
+}
+
+.fa-quran {
+  --fa: "\f687";
+}
+
+.fa-magnifying-glass-dollar {
+  --fa: "\f688";
+}
+
+.fa-search-dollar {
+  --fa: "\f688";
+}
+
+.fa-magnifying-glass-location {
+  --fa: "\f689";
+}
+
+.fa-search-location {
+  --fa: "\f689";
+}
+
+.fa-socks {
+  --fa: "\f696";
+}
+
+.fa-square-root-variable {
+  --fa: "\f698";
+}
+
+.fa-square-root-alt {
+  --fa: "\f698";
+}
+
+.fa-star-and-crescent {
+  --fa: "\f699";
+}
+
+.fa-star-of-david {
+  --fa: "\f69a";
+}
+
+.fa-synagogue {
+  --fa: "\f69b";
+}
+
+.fa-scroll-torah {
+  --fa: "\f6a0";
+}
+
+.fa-torah {
+  --fa: "\f6a0";
+}
+
+.fa-torii-gate {
+  --fa: "\f6a1";
+}
+
+.fa-vihara {
+  --fa: "\f6a7";
+}
+
+.fa-volume-xmark {
+  --fa: "\f6a9";
+}
+
+.fa-volume-mute {
+  --fa: "\f6a9";
+}
+
+.fa-volume-times {
+  --fa: "\f6a9";
+}
+
+.fa-yin-yang {
+  --fa: "\f6ad";
+}
+
+.fa-blender-phone {
+  --fa: "\f6b6";
+}
+
+.fa-book-skull {
+  --fa: "\f6b7";
+}
+
+.fa-book-dead {
+  --fa: "\f6b7";
+}
+
+.fa-campground {
+  --fa: "\f6bb";
+}
+
+.fa-cat {
+  --fa: "\f6be";
+}
+
+.fa-chair {
+  --fa: "\f6c0";
+}
+
+.fa-cloud-moon {
+  --fa: "\f6c3";
+}
+
+.fa-cloud-sun {
+  --fa: "\f6c4";
+}
+
+.fa-cow {
+  --fa: "\f6c8";
+}
+
+.fa-dice-d20 {
+  --fa: "\f6cf";
+}
+
+.fa-dice-d6 {
+  --fa: "\f6d1";
+}
+
+.fa-dog {
+  --fa: "\f6d3";
+}
+
+.fa-dragon {
+  --fa: "\f6d5";
+}
+
+.fa-drumstick-bite {
+  --fa: "\f6d7";
+}
+
+.fa-dungeon {
+  --fa: "\f6d9";
+}
+
+.fa-file-csv {
+  --fa: "\f6dd";
+}
+
+.fa-hand-fist {
+  --fa: "\f6de";
+}
+
+.fa-fist-raised {
+  --fa: "\f6de";
+}
+
+.fa-ghost {
+  --fa: "\f6e2";
+}
+
+.fa-hammer {
+  --fa: "\f6e3";
+}
+
+.fa-hanukiah {
+  --fa: "\f6e6";
+}
+
+.fa-hat-wizard {
+  --fa: "\f6e8";
+}
+
+.fa-person-hiking {
+  --fa: "\f6ec";
+}
+
+.fa-hiking {
+  --fa: "\f6ec";
+}
+
+.fa-hippo {
+  --fa: "\f6ed";
+}
+
+.fa-horse {
+  --fa: "\f6f0";
+}
+
+.fa-house-chimney-crack {
+  --fa: "\f6f1";
+}
+
+.fa-house-damage {
+  --fa: "\f6f1";
+}
+
+.fa-hryvnia-sign {
+  --fa: "\f6f2";
+}
+
+.fa-hryvnia {
+  --fa: "\f6f2";
+}
+
+.fa-mask {
+  --fa: "\f6fa";
+}
+
+.fa-mountain {
+  --fa: "\f6fc";
+}
+
+.fa-network-wired {
+  --fa: "\f6ff";
+}
+
+.fa-otter {
+  --fa: "\f700";
+}
+
+.fa-ring {
+  --fa: "\f70b";
+}
+
+.fa-person-running {
+  --fa: "\f70c";
+}
+
+.fa-running {
+  --fa: "\f70c";
+}
+
+.fa-scroll {
+  --fa: "\f70e";
+}
+
+.fa-skull-crossbones {
+  --fa: "\f714";
+}
+
+.fa-slash {
+  --fa: "\f715";
+}
+
+.fa-spider {
+  --fa: "\f717";
+}
+
+.fa-toilet-paper {
+  --fa: "\f71e";
+}
+
+.fa-toilet-paper-alt {
+  --fa: "\f71e";
+}
+
+.fa-toilet-paper-blank {
+  --fa: "\f71e";
+}
+
+.fa-tractor {
+  --fa: "\f722";
+}
+
+.fa-user-injured {
+  --fa: "\f728";
+}
+
+.fa-vr-cardboard {
+  --fa: "\f729";
+}
+
+.fa-wand-sparkles {
+  --fa: "\f72b";
+}
+
+.fa-wind {
+  --fa: "\f72e";
+}
+
+.fa-wine-bottle {
+  --fa: "\f72f";
+}
+
+.fa-cloud-meatball {
+  --fa: "\f73b";
+}
+
+.fa-cloud-moon-rain {
+  --fa: "\f73c";
+}
+
+.fa-cloud-rain {
+  --fa: "\f73d";
+}
+
+.fa-cloud-showers-heavy {
+  --fa: "\f740";
+}
+
+.fa-cloud-sun-rain {
+  --fa: "\f743";
+}
+
+.fa-democrat {
+  --fa: "\f747";
+}
+
+.fa-flag-usa {
+  --fa: "\f74d";
+}
+
+.fa-hurricane {
+  --fa: "\f751";
+}
+
+.fa-landmark-dome {
+  --fa: "\f752";
+}
+
+.fa-landmark-alt {
+  --fa: "\f752";
+}
+
+.fa-meteor {
+  --fa: "\f753";
+}
+
+.fa-person-booth {
+  --fa: "\f756";
+}
+
+.fa-poo-storm {
+  --fa: "\f75a";
+}
+
+.fa-poo-bolt {
+  --fa: "\f75a";
+}
+
+.fa-rainbow {
+  --fa: "\f75b";
+}
+
+.fa-republican {
+  --fa: "\f75e";
+}
+
+.fa-smog {
+  --fa: "\f75f";
+}
+
+.fa-temperature-high {
+  --fa: "\f769";
+}
+
+.fa-temperature-low {
+  --fa: "\f76b";
+}
+
+.fa-cloud-bolt {
+  --fa: "\f76c";
+}
+
+.fa-thunderstorm {
+  --fa: "\f76c";
+}
+
+.fa-tornado {
+  --fa: "\f76f";
+}
+
+.fa-volcano {
+  --fa: "\f770";
+}
+
+.fa-check-to-slot {
+  --fa: "\f772";
+}
+
+.fa-vote-yea {
+  --fa: "\f772";
+}
+
+.fa-water {
+  --fa: "\f773";
+}
+
+.fa-baby {
+  --fa: "\f77c";
+}
+
+.fa-baby-carriage {
+  --fa: "\f77d";
+}
+
+.fa-carriage-baby {
+  --fa: "\f77d";
+}
+
+.fa-biohazard {
+  --fa: "\f780";
+}
+
+.fa-blog {
+  --fa: "\f781";
+}
+
+.fa-calendar-day {
+  --fa: "\f783";
+}
+
+.fa-calendar-week {
+  --fa: "\f784";
+}
+
+.fa-candy-cane {
+  --fa: "\f786";
+}
+
+.fa-carrot {
+  --fa: "\f787";
+}
+
+.fa-cash-register {
+  --fa: "\f788";
+}
+
+.fa-minimize {
+  --fa: "\f78c";
+}
+
+.fa-compress-arrows-alt {
+  --fa: "\f78c";
+}
+
+.fa-dumpster {
+  --fa: "\f793";
+}
+
+.fa-dumpster-fire {
+  --fa: "\f794";
+}
+
+.fa-ethernet {
+  --fa: "\f796";
+}
+
+.fa-gifts {
+  --fa: "\f79c";
+}
+
+.fa-champagne-glasses {
+  --fa: "\f79f";
+}
+
+.fa-glass-cheers {
+  --fa: "\f79f";
+}
+
+.fa-whiskey-glass {
+  --fa: "\f7a0";
+}
+
+.fa-glass-whiskey {
+  --fa: "\f7a0";
+}
+
+.fa-earth-europe {
+  --fa: "\f7a2";
+}
+
+.fa-globe-europe {
+  --fa: "\f7a2";
+}
+
+.fa-grip-lines {
+  --fa: "\f7a4";
+}
+
+.fa-grip-lines-vertical {
+  --fa: "\f7a5";
+}
+
+.fa-guitar {
+  --fa: "\f7a6";
+}
+
+.fa-heart-crack {
+  --fa: "\f7a9";
+}
+
+.fa-heart-broken {
+  --fa: "\f7a9";
+}
+
+.fa-holly-berry {
+  --fa: "\f7aa";
+}
+
+.fa-horse-head {
+  --fa: "\f7ab";
+}
+
+.fa-icicles {
+  --fa: "\f7ad";
+}
+
+.fa-igloo {
+  --fa: "\f7ae";
+}
+
+.fa-mitten {
+  --fa: "\f7b5";
+}
+
+.fa-mug-hot {
+  --fa: "\f7b6";
+}
+
+.fa-radiation {
+  --fa: "\f7b9";
+}
+
+.fa-circle-radiation {
+  --fa: "\f7ba";
+}
+
+.fa-radiation-alt {
+  --fa: "\f7ba";
+}
+
+.fa-restroom {
+  --fa: "\f7bd";
+}
+
+.fa-satellite {
+  --fa: "\f7bf";
+}
+
+.fa-satellite-dish {
+  --fa: "\f7c0";
+}
+
+.fa-sd-card {
+  --fa: "\f7c2";
+}
+
+.fa-sim-card {
+  --fa: "\f7c4";
+}
+
+.fa-person-skating {
+  --fa: "\f7c5";
+}
+
+.fa-skating {
+  --fa: "\f7c5";
+}
+
+.fa-person-skiing {
+  --fa: "\f7c9";
+}
+
+.fa-skiing {
+  --fa: "\f7c9";
+}
+
+.fa-person-skiing-nordic {
+  --fa: "\f7ca";
+}
+
+.fa-skiing-nordic {
+  --fa: "\f7ca";
+}
+
+.fa-sleigh {
+  --fa: "\f7cc";
+}
+
+.fa-comment-sms {
+  --fa: "\f7cd";
+}
+
+.fa-sms {
+  --fa: "\f7cd";
+}
+
+.fa-person-snowboarding {
+  --fa: "\f7ce";
+}
+
+.fa-snowboarding {
+  --fa: "\f7ce";
+}
+
+.fa-snowman {
+  --fa: "\f7d0";
+}
+
+.fa-snowplow {
+  --fa: "\f7d2";
+}
+
+.fa-tenge-sign {
+  --fa: "\f7d7";
+}
+
+.fa-tenge {
+  --fa: "\f7d7";
+}
+
+.fa-toilet {
+  --fa: "\f7d8";
+}
+
+.fa-screwdriver-wrench {
+  --fa: "\f7d9";
+}
+
+.fa-tools {
+  --fa: "\f7d9";
+}
+
+.fa-cable-car {
+  --fa: "\f7da";
+}
+
+.fa-tram {
+  --fa: "\f7da";
+}
+
+.fa-fire-flame-curved {
+  --fa: "\f7e4";
+}
+
+.fa-fire-alt {
+  --fa: "\f7e4";
+}
+
+.fa-bacon {
+  --fa: "\f7e5";
+}
+
+.fa-book-medical {
+  --fa: "\f7e6";
+}
+
+.fa-bread-slice {
+  --fa: "\f7ec";
+}
+
+.fa-cheese {
+  --fa: "\f7ef";
+}
+
+.fa-house-chimney-medical {
+  --fa: "\f7f2";
+}
+
+.fa-clinic-medical {
+  --fa: "\f7f2";
+}
+
+.fa-clipboard-user {
+  --fa: "\f7f3";
+}
+
+.fa-comment-medical {
+  --fa: "\f7f5";
+}
+
+.fa-crutch {
+  --fa: "\f7f7";
+}
+
+.fa-disease {
+  --fa: "\f7fa";
+}
+
+.fa-egg {
+  --fa: "\f7fb";
+}
+
+.fa-folder-tree {
+  --fa: "\f802";
+}
+
+.fa-burger {
+  --fa: "\f805";
+}
+
+.fa-hamburger {
+  --fa: "\f805";
+}
+
+.fa-hand-middle-finger {
+  --fa: "\f806";
+}
+
+.fa-helmet-safety {
+  --fa: "\f807";
+}
+
+.fa-hard-hat {
+  --fa: "\f807";
+}
+
+.fa-hat-hard {
+  --fa: "\f807";
+}
+
+.fa-hospital-user {
+  --fa: "\f80d";
+}
+
+.fa-hotdog {
+  --fa: "\f80f";
+}
+
+.fa-ice-cream {
+  --fa: "\f810";
+}
+
+.fa-laptop-medical {
+  --fa: "\f812";
+}
+
+.fa-pager {
+  --fa: "\f815";
+}
+
+.fa-pepper-hot {
+  --fa: "\f816";
+}
+
+.fa-pizza-slice {
+  --fa: "\f818";
+}
+
+.fa-sack-dollar {
+  --fa: "\f81d";
+}
+
+.fa-book-tanakh {
+  --fa: "\f827";
+}
+
+.fa-tanakh {
+  --fa: "\f827";
+}
+
+.fa-bars-progress {
+  --fa: "\f828";
+}
+
+.fa-tasks-alt {
+  --fa: "\f828";
+}
+
+.fa-trash-arrow-up {
+  --fa: "\f829";
+}
+
+.fa-trash-restore {
+  --fa: "\f829";
+}
+
+.fa-trash-can-arrow-up {
+  --fa: "\f82a";
+}
+
+.fa-trash-restore-alt {
+  --fa: "\f82a";
+}
+
+.fa-user-nurse {
+  --fa: "\f82f";
+}
+
+.fa-wave-square {
+  --fa: "\f83e";
+}
+
+.fa-person-biking {
+  --fa: "\f84a";
+}
+
+.fa-biking {
+  --fa: "\f84a";
+}
+
+.fa-border-all {
+  --fa: "\f84c";
+}
+
+.fa-border-none {
+  --fa: "\f850";
+}
+
+.fa-border-top-left {
+  --fa: "\f853";
+}
+
+.fa-border-style {
+  --fa: "\f853";
+}
+
+.fa-person-digging {
+  --fa: "\f85e";
+}
+
+.fa-digging {
+  --fa: "\f85e";
+}
+
+.fa-fan {
+  --fa: "\f863";
+}
+
+.fa-icons {
+  --fa: "\f86d";
+}
+
+.fa-heart-music-camera-bolt {
+  --fa: "\f86d";
+}
+
+.fa-phone-flip {
+  --fa: "\f879";
+}
+
+.fa-phone-alt {
+  --fa: "\f879";
+}
+
+.fa-square-phone-flip {
+  --fa: "\f87b";
+}
+
+.fa-phone-square-alt {
+  --fa: "\f87b";
+}
+
+.fa-photo-film {
+  --fa: "\f87c";
+}
+
+.fa-photo-video {
+  --fa: "\f87c";
+}
+
+.fa-text-slash {
+  --fa: "\f87d";
+}
+
+.fa-remove-format {
+  --fa: "\f87d";
+}
+
+.fa-arrow-down-z-a {
+  --fa: "\f881";
+}
+
+.fa-sort-alpha-desc {
+  --fa: "\f881";
+}
+
+.fa-sort-alpha-down-alt {
+  --fa: "\f881";
+}
+
+.fa-arrow-up-z-a {
+  --fa: "\f882";
+}
+
+.fa-sort-alpha-up-alt {
+  --fa: "\f882";
+}
+
+.fa-arrow-down-short-wide {
+  --fa: "\f884";
+}
+
+.fa-sort-amount-desc {
+  --fa: "\f884";
+}
+
+.fa-sort-amount-down-alt {
+  --fa: "\f884";
+}
+
+.fa-arrow-up-short-wide {
+  --fa: "\f885";
+}
+
+.fa-sort-amount-up-alt {
+  --fa: "\f885";
+}
+
+.fa-arrow-down-9-1 {
+  --fa: "\f886";
+}
+
+.fa-sort-numeric-desc {
+  --fa: "\f886";
+}
+
+.fa-sort-numeric-down-alt {
+  --fa: "\f886";
+}
+
+.fa-arrow-up-9-1 {
+  --fa: "\f887";
+}
+
+.fa-sort-numeric-up-alt {
+  --fa: "\f887";
+}
+
+.fa-spell-check {
+  --fa: "\f891";
+}
+
+.fa-voicemail {
+  --fa: "\f897";
+}
+
+.fa-hat-cowboy {
+  --fa: "\f8c0";
+}
+
+.fa-hat-cowboy-side {
+  --fa: "\f8c1";
+}
+
+.fa-computer-mouse {
+  --fa: "\f8cc";
+}
+
+.fa-mouse {
+  --fa: "\f8cc";
+}
+
+.fa-radio {
+  --fa: "\f8d7";
+}
+
+.fa-record-vinyl {
+  --fa: "\f8d9";
+}
+
+.fa-walkie-talkie {
+  --fa: "\f8ef";
+}
+
+.fa-caravan {
+  --fa: "\f8ff";
+}
+:root, :host {
+  --fa-family-brands: "Font Awesome 7 Brands";
+  --fa-font-brands: normal 400 1em/1 var(--fa-family-brands);
+}
+
+@font-face {
+  font-family: "Font Awesome 7 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/fa-brands-400.woff2");
+}
+.fab,
+.fa-brands,
+.fa-classic.fa-brands {
+  --fa-family: var(--fa-family-brands);
+  --fa-style: 400;
+}
+
+.fa-firefox-browser {
+  --fa: "\e007";
+}
+
+.fa-ideal {
+  --fa: "\e013";
+}
+
+.fa-microblog {
+  --fa: "\e01a";
+}
+
+.fa-square-pied-piper {
+  --fa: "\e01e";
+}
+
+.fa-pied-piper-square {
+  --fa: "\e01e";
+}
+
+.fa-unity {
+  --fa: "\e049";
+}
+
+.fa-dailymotion {
+  --fa: "\e052";
+}
+
+.fa-square-instagram {
+  --fa: "\e055";
+}
+
+.fa-instagram-square {
+  --fa: "\e055";
+}
+
+.fa-mixer {
+  --fa: "\e056";
+}
+
+.fa-shopify {
+  --fa: "\e057";
+}
+
+.fa-deezer {
+  --fa: "\e077";
+}
+
+.fa-edge-legacy {
+  --fa: "\e078";
+}
+
+.fa-google-pay {
+  --fa: "\e079";
+}
+
+.fa-rust {
+  --fa: "\e07a";
+}
+
+.fa-tiktok {
+  --fa: "\e07b";
+}
+
+.fa-unsplash {
+  --fa: "\e07c";
+}
+
+.fa-cloudflare {
+  --fa: "\e07d";
+}
+
+.fa-guilded {
+  --fa: "\e07e";
+}
+
+.fa-hive {
+  --fa: "\e07f";
+}
+
+.fa-42-group {
+  --fa: "\e080";
+}
+
+.fa-innosoft {
+  --fa: "\e080";
+}
+
+.fa-instalod {
+  --fa: "\e081";
+}
+
+.fa-octopus-deploy {
+  --fa: "\e082";
+}
+
+.fa-perbyte {
+  --fa: "\e083";
+}
+
+.fa-uncharted {
+  --fa: "\e084";
+}
+
+.fa-watchman-monitoring {
+  --fa: "\e087";
+}
+
+.fa-wodu {
+  --fa: "\e088";
+}
+
+.fa-wirsindhandwerk {
+  --fa: "\e2d0";
+}
+
+.fa-wsh {
+  --fa: "\e2d0";
+}
+
+.fa-bots {
+  --fa: "\e340";
+}
+
+.fa-cmplid {
+  --fa: "\e360";
+}
+
+.fa-bilibili {
+  --fa: "\e3d9";
+}
+
+.fa-golang {
+  --fa: "\e40f";
+}
+
+.fa-pix {
+  --fa: "\e43a";
+}
+
+.fa-sitrox {
+  --fa: "\e44a";
+}
+
+.fa-hashnode {
+  --fa: "\e499";
+}
+
+.fa-meta {
+  --fa: "\e49b";
+}
+
+.fa-padlet {
+  --fa: "\e4a0";
+}
+
+.fa-nfc-directional {
+  --fa: "\e530";
+}
+
+.fa-nfc-symbol {
+  --fa: "\e531";
+}
+
+.fa-screenpal {
+  --fa: "\e570";
+}
+
+.fa-space-awesome {
+  --fa: "\e5ac";
+}
+
+.fa-square-font-awesome {
+  --fa: "\e5ad";
+}
+
+.fa-square-gitlab {
+  --fa: "\e5ae";
+}
+
+.fa-gitlab-square {
+  --fa: "\e5ae";
+}
+
+.fa-odysee {
+  --fa: "\e5c6";
+}
+
+.fa-stubber {
+  --fa: "\e5c7";
+}
+
+.fa-debian {
+  --fa: "\e60b";
+}
+
+.fa-shoelace {
+  --fa: "\e60c";
+}
+
+.fa-threads {
+  --fa: "\e618";
+}
+
+.fa-square-threads {
+  --fa: "\e619";
+}
+
+.fa-square-x-twitter {
+  --fa: "\e61a";
+}
+
+.fa-x-twitter {
+  --fa: "\e61b";
+}
+
+.fa-opensuse {
+  --fa: "\e62b";
+}
+
+.fa-letterboxd {
+  --fa: "\e62d";
+}
+
+.fa-square-letterboxd {
+  --fa: "\e62e";
+}
+
+.fa-mintbit {
+  --fa: "\e62f";
+}
+
+.fa-google-scholar {
+  --fa: "\e63b";
+}
+
+.fa-brave {
+  --fa: "\e63c";
+}
+
+.fa-brave-reverse {
+  --fa: "\e63d";
+}
+
+.fa-pixiv {
+  --fa: "\e640";
+}
+
+.fa-upwork {
+  --fa: "\e641";
+}
+
+.fa-webflow {
+  --fa: "\e65c";
+}
+
+.fa-signal-messenger {
+  --fa: "\e663";
+}
+
+.fa-bluesky {
+  --fa: "\e671";
+}
+
+.fa-jxl {
+  --fa: "\e67b";
+}
+
+.fa-square-upwork {
+  --fa: "\e67c";
+}
+
+.fa-web-awesome {
+  --fa: "\e682";
+}
+
+.fa-square-web-awesome {
+  --fa: "\e683";
+}
+
+.fa-square-web-awesome-stroke {
+  --fa: "\e684";
+}
+
+.fa-dart-lang {
+  --fa: "\e693";
+}
+
+.fa-flutter {
+  --fa: "\e694";
+}
+
+.fa-files-pinwheel {
+  --fa: "\e69f";
+}
+
+.fa-css {
+  --fa: "\e6a2";
+}
+
+.fa-square-bluesky {
+  --fa: "\e6a3";
+}
+
+.fa-openai {
+  --fa: "\e7cf";
+}
+
+.fa-square-linkedin {
+  --fa: "\e7d0";
+}
+
+.fa-cash-app {
+  --fa: "\e7d4";
+}
+
+.fa-disqus {
+  --fa: "\e7d5";
+}
+
+.fa-eleventy {
+  --fa: "\e7d6";
+}
+
+.fa-11ty {
+  --fa: "\e7d6";
+}
+
+.fa-kakao-talk {
+  --fa: "\e7d7";
+}
+
+.fa-linktree {
+  --fa: "\e7d8";
+}
+
+.fa-notion {
+  --fa: "\e7d9";
+}
+
+.fa-pandora {
+  --fa: "\e7da";
+}
+
+.fa-pixelfed {
+  --fa: "\e7db";
+}
+
+.fa-tidal {
+  --fa: "\e7dc";
+}
+
+.fa-vsco {
+  --fa: "\e7dd";
+}
+
+.fa-w3c {
+  --fa: "\e7de";
+}
+
+.fa-lumon {
+  --fa: "\e7e2";
+}
+
+.fa-lumon-drop {
+  --fa: "\e7e3";
+}
+
+.fa-square-figma {
+  --fa: "\e7e4";
+}
+
+.fa-tex {
+  --fa: "\e7ff";
+}
+
+.fa-duolingo {
+  --fa: "\e812";
+}
+
+.fa-square-twitter {
+  --fa: "\f081";
+}
+
+.fa-twitter-square {
+  --fa: "\f081";
+}
+
+.fa-square-facebook {
+  --fa: "\f082";
+}
+
+.fa-facebook-square {
+  --fa: "\f082";
+}
+
+.fa-linkedin {
+  --fa: "\f08c";
+}
+
+.fa-square-github {
+  --fa: "\f092";
+}
+
+.fa-github-square {
+  --fa: "\f092";
+}
+
+.fa-twitter {
+  --fa: "\f099";
+}
+
+.fa-facebook {
+  --fa: "\f09a";
+}
+
+.fa-github {
+  --fa: "\f09b";
+}
+
+.fa-pinterest {
+  --fa: "\f0d2";
+}
+
+.fa-square-pinterest {
+  --fa: "\f0d3";
+}
+
+.fa-pinterest-square {
+  --fa: "\f0d3";
+}
+
+.fa-square-google-plus {
+  --fa: "\f0d4";
+}
+
+.fa-google-plus-square {
+  --fa: "\f0d4";
+}
+
+.fa-google-plus-g {
+  --fa: "\f0d5";
+}
+
+.fa-linkedin-in {
+  --fa: "\f0e1";
+}
+
+.fa-github-alt {
+  --fa: "\f113";
+}
+
+.fa-maxcdn {
+  --fa: "\f136";
+}
+
+.fa-html5 {
+  --fa: "\f13b";
+}
+
+.fa-css3 {
+  --fa: "\f13c";
+}
+
+.fa-btc {
+  --fa: "\f15a";
+}
+
+.fa-youtube {
+  --fa: "\f167";
+}
+
+.fa-xing {
+  --fa: "\f168";
+}
+
+.fa-square-xing {
+  --fa: "\f169";
+}
+
+.fa-xing-square {
+  --fa: "\f169";
+}
+
+.fa-dropbox {
+  --fa: "\f16b";
+}
+
+.fa-stack-overflow {
+  --fa: "\f16c";
+}
+
+.fa-instagram {
+  --fa: "\f16d";
+}
+
+.fa-flickr {
+  --fa: "\f16e";
+}
+
+.fa-adn {
+  --fa: "\f170";
+}
+
+.fa-bitbucket {
+  --fa: "\f171";
+}
+
+.fa-tumblr {
+  --fa: "\f173";
+}
+
+.fa-square-tumblr {
+  --fa: "\f174";
+}
+
+.fa-tumblr-square {
+  --fa: "\f174";
+}
+
+.fa-apple {
+  --fa: "\f179";
+}
+
+.fa-windows {
+  --fa: "\f17a";
+}
+
+.fa-android {
+  --fa: "\f17b";
+}
+
+.fa-linux {
+  --fa: "\f17c";
+}
+
+.fa-dribbble {
+  --fa: "\f17d";
+}
+
+.fa-skype {
+  --fa: "\f17e";
+}
+
+.fa-foursquare {
+  --fa: "\f180";
+}
+
+.fa-trello {
+  --fa: "\f181";
+}
+
+.fa-gratipay {
+  --fa: "\f184";
+}
+
+.fa-vk {
+  --fa: "\f189";
+}
+
+.fa-weibo {
+  --fa: "\f18a";
+}
+
+.fa-renren {
+  --fa: "\f18b";
+}
+
+.fa-pagelines {
+  --fa: "\f18c";
+}
+
+.fa-stack-exchange {
+  --fa: "\f18d";
+}
+
+.fa-square-vimeo {
+  --fa: "\f194";
+}
+
+.fa-vimeo-square {
+  --fa: "\f194";
+}
+
+.fa-slack {
+  --fa: "\f198";
+}
+
+.fa-slack-hash {
+  --fa: "\f198";
+}
+
+.fa-wordpress {
+  --fa: "\f19a";
+}
+
+.fa-openid {
+  --fa: "\f19b";
+}
+
+.fa-yahoo {
+  --fa: "\f19e";
+}
+
+.fa-google {
+  --fa: "\f1a0";
+}
+
+.fa-reddit {
+  --fa: "\f1a1";
+}
+
+.fa-square-reddit {
+  --fa: "\f1a2";
+}
+
+.fa-reddit-square {
+  --fa: "\f1a2";
+}
+
+.fa-stumbleupon-circle {
+  --fa: "\f1a3";
+}
+
+.fa-stumbleupon {
+  --fa: "\f1a4";
+}
+
+.fa-delicious {
+  --fa: "\f1a5";
+}
+
+.fa-digg {
+  --fa: "\f1a6";
+}
+
+.fa-pied-piper-pp {
+  --fa: "\f1a7";
+}
+
+.fa-pied-piper-alt {
+  --fa: "\f1a8";
+}
+
+.fa-drupal {
+  --fa: "\f1a9";
+}
+
+.fa-joomla {
+  --fa: "\f1aa";
+}
+
+.fa-behance {
+  --fa: "\f1b4";
+}
+
+.fa-square-behance {
+  --fa: "\f1b5";
+}
+
+.fa-behance-square {
+  --fa: "\f1b5";
+}
+
+.fa-steam {
+  --fa: "\f1b6";
+}
+
+.fa-square-steam {
+  --fa: "\f1b7";
+}
+
+.fa-steam-square {
+  --fa: "\f1b7";
+}
+
+.fa-spotify {
+  --fa: "\f1bc";
+}
+
+.fa-deviantart {
+  --fa: "\f1bd";
+}
+
+.fa-soundcloud {
+  --fa: "\f1be";
+}
+
+.fa-vine {
+  --fa: "\f1ca";
+}
+
+.fa-codepen {
+  --fa: "\f1cb";
+}
+
+.fa-jsfiddle {
+  --fa: "\f1cc";
+}
+
+.fa-rebel {
+  --fa: "\f1d0";
+}
+
+.fa-empire {
+  --fa: "\f1d1";
+}
+
+.fa-square-git {
+  --fa: "\f1d2";
+}
+
+.fa-git-square {
+  --fa: "\f1d2";
+}
+
+.fa-git {
+  --fa: "\f1d3";
+}
+
+.fa-hacker-news {
+  --fa: "\f1d4";
+}
+
+.fa-tencent-weibo {
+  --fa: "\f1d5";
+}
+
+.fa-qq {
+  --fa: "\f1d6";
+}
+
+.fa-weixin {
+  --fa: "\f1d7";
+}
+
+.fa-slideshare {
+  --fa: "\f1e7";
+}
+
+.fa-twitch {
+  --fa: "\f1e8";
+}
+
+.fa-yelp {
+  --fa: "\f1e9";
+}
+
+.fa-paypal {
+  --fa: "\f1ed";
+}
+
+.fa-google-wallet {
+  --fa: "\f1ee";
+}
+
+.fa-cc-visa {
+  --fa: "\f1f0";
+}
+
+.fa-cc-mastercard {
+  --fa: "\f1f1";
+}
+
+.fa-cc-discover {
+  --fa: "\f1f2";
+}
+
+.fa-cc-amex {
+  --fa: "\f1f3";
+}
+
+.fa-cc-paypal {
+  --fa: "\f1f4";
+}
+
+.fa-cc-stripe {
+  --fa: "\f1f5";
+}
+
+.fa-lastfm {
+  --fa: "\f202";
+}
+
+.fa-square-lastfm {
+  --fa: "\f203";
+}
+
+.fa-lastfm-square {
+  --fa: "\f203";
+}
+
+.fa-ioxhost {
+  --fa: "\f208";
+}
+
+.fa-angellist {
+  --fa: "\f209";
+}
+
+.fa-buysellads {
+  --fa: "\f20d";
+}
+
+.fa-connectdevelop {
+  --fa: "\f20e";
+}
+
+.fa-dashcube {
+  --fa: "\f210";
+}
+
+.fa-forumbee {
+  --fa: "\f211";
+}
+
+.fa-leanpub {
+  --fa: "\f212";
+}
+
+.fa-sellsy {
+  --fa: "\f213";
+}
+
+.fa-shirtsinbulk {
+  --fa: "\f214";
+}
+
+.fa-simplybuilt {
+  --fa: "\f215";
+}
+
+.fa-skyatlas {
+  --fa: "\f216";
+}
+
+.fa-pinterest-p {
+  --fa: "\f231";
+}
+
+.fa-whatsapp {
+  --fa: "\f232";
+}
+
+.fa-viacoin {
+  --fa: "\f237";
+}
+
+.fa-medium {
+  --fa: "\f23a";
+}
+
+.fa-medium-m {
+  --fa: "\f23a";
+}
+
+.fa-y-combinator {
+  --fa: "\f23b";
+}
+
+.fa-optin-monster {
+  --fa: "\f23c";
+}
+
+.fa-opencart {
+  --fa: "\f23d";
+}
+
+.fa-expeditedssl {
+  --fa: "\f23e";
+}
+
+.fa-cc-jcb {
+  --fa: "\f24b";
+}
+
+.fa-cc-diners-club {
+  --fa: "\f24c";
+}
+
+.fa-creative-commons {
+  --fa: "\f25e";
+}
+
+.fa-gg {
+  --fa: "\f260";
+}
+
+.fa-gg-circle {
+  --fa: "\f261";
+}
+
+.fa-odnoklassniki {
+  --fa: "\f263";
+}
+
+.fa-square-odnoklassniki {
+  --fa: "\f264";
+}
+
+.fa-odnoklassniki-square {
+  --fa: "\f264";
+}
+
+.fa-get-pocket {
+  --fa: "\f265";
+}
+
+.fa-wikipedia-w {
+  --fa: "\f266";
+}
+
+.fa-safari {
+  --fa: "\f267";
+}
+
+.fa-chrome {
+  --fa: "\f268";
+}
+
+.fa-firefox {
+  --fa: "\f269";
+}
+
+.fa-opera {
+  --fa: "\f26a";
+}
+
+.fa-internet-explorer {
+  --fa: "\f26b";
+}
+
+.fa-contao {
+  --fa: "\f26d";
+}
+
+.fa-500px {
+  --fa: "\f26e";
+}
+
+.fa-amazon {
+  --fa: "\f270";
+}
+
+.fa-houzz {
+  --fa: "\f27c";
+}
+
+.fa-vimeo-v {
+  --fa: "\f27d";
+}
+
+.fa-black-tie {
+  --fa: "\f27e";
+}
+
+.fa-fonticons {
+  --fa: "\f280";
+}
+
+.fa-reddit-alien {
+  --fa: "\f281";
+}
+
+.fa-edge {
+  --fa: "\f282";
+}
+
+.fa-codiepie {
+  --fa: "\f284";
+}
+
+.fa-modx {
+  --fa: "\f285";
+}
+
+.fa-fort-awesome {
+  --fa: "\f286";
+}
+
+.fa-usb {
+  --fa: "\f287";
+}
+
+.fa-product-hunt {
+  --fa: "\f288";
+}
+
+.fa-mixcloud {
+  --fa: "\f289";
+}
+
+.fa-scribd {
+  --fa: "\f28a";
+}
+
+.fa-bluetooth {
+  --fa: "\f293";
+}
+
+.fa-bluetooth-b {
+  --fa: "\f294";
+}
+
+.fa-gitlab {
+  --fa: "\f296";
+}
+
+.fa-wpbeginner {
+  --fa: "\f297";
+}
+
+.fa-wpforms {
+  --fa: "\f298";
+}
+
+.fa-envira {
+  --fa: "\f299";
+}
+
+.fa-glide {
+  --fa: "\f2a5";
+}
+
+.fa-glide-g {
+  --fa: "\f2a6";
+}
+
+.fa-viadeo {
+  --fa: "\f2a9";
+}
+
+.fa-square-viadeo {
+  --fa: "\f2aa";
+}
+
+.fa-viadeo-square {
+  --fa: "\f2aa";
+}
+
+.fa-snapchat {
+  --fa: "\f2ab";
+}
+
+.fa-snapchat-ghost {
+  --fa: "\f2ab";
+}
+
+.fa-square-snapchat {
+  --fa: "\f2ad";
+}
+
+.fa-snapchat-square {
+  --fa: "\f2ad";
+}
+
+.fa-pied-piper {
+  --fa: "\f2ae";
+}
+
+.fa-first-order {
+  --fa: "\f2b0";
+}
+
+.fa-yoast {
+  --fa: "\f2b1";
+}
+
+.fa-themeisle {
+  --fa: "\f2b2";
+}
+
+.fa-google-plus {
+  --fa: "\f2b3";
+}
+
+.fa-font-awesome {
+  --fa: "\f2b4";
+}
+
+.fa-font-awesome-flag {
+  --fa: "\f2b4";
+}
+
+.fa-font-awesome-logo-full {
+  --fa: "\f2b4";
+}
+
+.fa-linode {
+  --fa: "\f2b8";
+}
+
+.fa-quora {
+  --fa: "\f2c4";
+}
+
+.fa-free-code-camp {
+  --fa: "\f2c5";
+}
+
+.fa-telegram {
+  --fa: "\f2c6";
+}
+
+.fa-telegram-plane {
+  --fa: "\f2c6";
+}
+
+.fa-bandcamp {
+  --fa: "\f2d5";
+}
+
+.fa-grav {
+  --fa: "\f2d6";
+}
+
+.fa-etsy {
+  --fa: "\f2d7";
+}
+
+.fa-imdb {
+  --fa: "\f2d8";
+}
+
+.fa-ravelry {
+  --fa: "\f2d9";
+}
+
+.fa-sellcast {
+  --fa: "\f2da";
+}
+
+.fa-superpowers {
+  --fa: "\f2dd";
+}
+
+.fa-wpexplorer {
+  --fa: "\f2de";
+}
+
+.fa-meetup {
+  --fa: "\f2e0";
+}
+
+.fa-square-font-awesome-stroke {
+  --fa: "\f35c";
+}
+
+.fa-font-awesome-alt {
+  --fa: "\f35c";
+}
+
+.fa-accessible-icon {
+  --fa: "\f368";
+}
+
+.fa-accusoft {
+  --fa: "\f369";
+}
+
+.fa-adversal {
+  --fa: "\f36a";
+}
+
+.fa-affiliatetheme {
+  --fa: "\f36b";
+}
+
+.fa-algolia {
+  --fa: "\f36c";
+}
+
+.fa-amilia {
+  --fa: "\f36d";
+}
+
+.fa-angrycreative {
+  --fa: "\f36e";
+}
+
+.fa-app-store {
+  --fa: "\f36f";
+}
+
+.fa-app-store-ios {
+  --fa: "\f370";
+}
+
+.fa-apper {
+  --fa: "\f371";
+}
+
+.fa-asymmetrik {
+  --fa: "\f372";
+}
+
+.fa-audible {
+  --fa: "\f373";
+}
+
+.fa-avianex {
+  --fa: "\f374";
+}
+
+.fa-aws {
+  --fa: "\f375";
+}
+
+.fa-bimobject {
+  --fa: "\f378";
+}
+
+.fa-bitcoin {
+  --fa: "\f379";
+}
+
+.fa-bity {
+  --fa: "\f37a";
+}
+
+.fa-blackberry {
+  --fa: "\f37b";
+}
+
+.fa-blogger {
+  --fa: "\f37c";
+}
+
+.fa-blogger-b {
+  --fa: "\f37d";
+}
+
+.fa-buromobelexperte {
+  --fa: "\f37f";
+}
+
+.fa-centercode {
+  --fa: "\f380";
+}
+
+.fa-cloudscale {
+  --fa: "\f383";
+}
+
+.fa-cloudsmith {
+  --fa: "\f384";
+}
+
+.fa-cloudversify {
+  --fa: "\f385";
+}
+
+.fa-cpanel {
+  --fa: "\f388";
+}
+
+.fa-css3-alt {
+  --fa: "\f38b";
+}
+
+.fa-cuttlefish {
+  --fa: "\f38c";
+}
+
+.fa-d-and-d {
+  --fa: "\f38d";
+}
+
+.fa-deploydog {
+  --fa: "\f38e";
+}
+
+.fa-deskpro {
+  --fa: "\f38f";
+}
+
+.fa-digital-ocean {
+  --fa: "\f391";
+}
+
+.fa-discord {
+  --fa: "\f392";
+}
+
+.fa-discourse {
+  --fa: "\f393";
+}
+
+.fa-dochub {
+  --fa: "\f394";
+}
+
+.fa-docker {
+  --fa: "\f395";
+}
+
+.fa-draft2digital {
+  --fa: "\f396";
+}
+
+.fa-square-dribbble {
+  --fa: "\f397";
+}
+
+.fa-dribbble-square {
+  --fa: "\f397";
+}
+
+.fa-dyalog {
+  --fa: "\f399";
+}
+
+.fa-earlybirds {
+  --fa: "\f39a";
+}
+
+.fa-erlang {
+  --fa: "\f39d";
+}
+
+.fa-facebook-f {
+  --fa: "\f39e";
+}
+
+.fa-facebook-messenger {
+  --fa: "\f39f";
+}
+
+.fa-firstdraft {
+  --fa: "\f3a1";
+}
+
+.fa-fonticons-fi {
+  --fa: "\f3a2";
+}
+
+.fa-fort-awesome-alt {
+  --fa: "\f3a3";
+}
+
+.fa-freebsd {
+  --fa: "\f3a4";
+}
+
+.fa-gitkraken {
+  --fa: "\f3a6";
+}
+
+.fa-gofore {
+  --fa: "\f3a7";
+}
+
+.fa-goodreads {
+  --fa: "\f3a8";
+}
+
+.fa-goodreads-g {
+  --fa: "\f3a9";
+}
+
+.fa-google-drive {
+  --fa: "\f3aa";
+}
+
+.fa-google-play {
+  --fa: "\f3ab";
+}
+
+.fa-gripfire {
+  --fa: "\f3ac";
+}
+
+.fa-grunt {
+  --fa: "\f3ad";
+}
+
+.fa-gulp {
+  --fa: "\f3ae";
+}
+
+.fa-square-hacker-news {
+  --fa: "\f3af";
+}
+
+.fa-hacker-news-square {
+  --fa: "\f3af";
+}
+
+.fa-hire-a-helper {
+  --fa: "\f3b0";
+}
+
+.fa-hotjar {
+  --fa: "\f3b1";
+}
+
+.fa-hubspot {
+  --fa: "\f3b2";
+}
+
+.fa-itunes {
+  --fa: "\f3b4";
+}
+
+.fa-itunes-note {
+  --fa: "\f3b5";
+}
+
+.fa-jenkins {
+  --fa: "\f3b6";
+}
+
+.fa-joget {
+  --fa: "\f3b7";
+}
+
+.fa-js {
+  --fa: "\f3b8";
+}
+
+.fa-square-js {
+  --fa: "\f3b9";
+}
+
+.fa-js-square {
+  --fa: "\f3b9";
+}
+
+.fa-keycdn {
+  --fa: "\f3ba";
+}
+
+.fa-kickstarter {
+  --fa: "\f3bb";
+}
+
+.fa-square-kickstarter {
+  --fa: "\f3bb";
+}
+
+.fa-kickstarter-k {
+  --fa: "\f3bc";
+}
+
+.fa-laravel {
+  --fa: "\f3bd";
+}
+
+.fa-line {
+  --fa: "\f3c0";
+}
+
+.fa-lyft {
+  --fa: "\f3c3";
+}
+
+.fa-magento {
+  --fa: "\f3c4";
+}
+
+.fa-medapps {
+  --fa: "\f3c6";
+}
+
+.fa-medrt {
+  --fa: "\f3c8";
+}
+
+.fa-microsoft {
+  --fa: "\f3ca";
+}
+
+.fa-mix {
+  --fa: "\f3cb";
+}
+
+.fa-mizuni {
+  --fa: "\f3cc";
+}
+
+.fa-monero {
+  --fa: "\f3d0";
+}
+
+.fa-napster {
+  --fa: "\f3d2";
+}
+
+.fa-node-js {
+  --fa: "\f3d3";
+}
+
+.fa-npm {
+  --fa: "\f3d4";
+}
+
+.fa-ns8 {
+  --fa: "\f3d5";
+}
+
+.fa-nutritionix {
+  --fa: "\f3d6";
+}
+
+.fa-page4 {
+  --fa: "\f3d7";
+}
+
+.fa-palfed {
+  --fa: "\f3d8";
+}
+
+.fa-patreon {
+  --fa: "\f3d9";
+}
+
+.fa-periscope {
+  --fa: "\f3da";
+}
+
+.fa-phabricator {
+  --fa: "\f3db";
+}
+
+.fa-phoenix-framework {
+  --fa: "\f3dc";
+}
+
+.fa-playstation {
+  --fa: "\f3df";
+}
+
+.fa-pushed {
+  --fa: "\f3e1";
+}
+
+.fa-python {
+  --fa: "\f3e2";
+}
+
+.fa-red-river {
+  --fa: "\f3e3";
+}
+
+.fa-wpressr {
+  --fa: "\f3e4";
+}
+
+.fa-rendact {
+  --fa: "\f3e4";
+}
+
+.fa-replyd {
+  --fa: "\f3e6";
+}
+
+.fa-resolving {
+  --fa: "\f3e7";
+}
+
+.fa-rocketchat {
+  --fa: "\f3e8";
+}
+
+.fa-rockrms {
+  --fa: "\f3e9";
+}
+
+.fa-schlix {
+  --fa: "\f3ea";
+}
+
+.fa-searchengin {
+  --fa: "\f3eb";
+}
+
+.fa-servicestack {
+  --fa: "\f3ec";
+}
+
+.fa-sistrix {
+  --fa: "\f3ee";
+}
+
+.fa-speakap {
+  --fa: "\f3f3";
+}
+
+.fa-staylinked {
+  --fa: "\f3f5";
+}
+
+.fa-steam-symbol {
+  --fa: "\f3f6";
+}
+
+.fa-sticker-mule {
+  --fa: "\f3f7";
+}
+
+.fa-studiovinari {
+  --fa: "\f3f8";
+}
+
+.fa-supple {
+  --fa: "\f3f9";
+}
+
+.fa-uber {
+  --fa: "\f402";
+}
+
+.fa-uikit {
+  --fa: "\f403";
+}
+
+.fa-uniregistry {
+  --fa: "\f404";
+}
+
+.fa-untappd {
+  --fa: "\f405";
+}
+
+.fa-ussunnah {
+  --fa: "\f407";
+}
+
+.fa-vaadin {
+  --fa: "\f408";
+}
+
+.fa-viber {
+  --fa: "\f409";
+}
+
+.fa-vimeo {
+  --fa: "\f40a";
+}
+
+.fa-vnv {
+  --fa: "\f40b";
+}
+
+.fa-square-whatsapp {
+  --fa: "\f40c";
+}
+
+.fa-whatsapp-square {
+  --fa: "\f40c";
+}
+
+.fa-whmcs {
+  --fa: "\f40d";
+}
+
+.fa-wordpress-simple {
+  --fa: "\f411";
+}
+
+.fa-xbox {
+  --fa: "\f412";
+}
+
+.fa-yandex {
+  --fa: "\f413";
+}
+
+.fa-yandex-international {
+  --fa: "\f414";
+}
+
+.fa-apple-pay {
+  --fa: "\f415";
+}
+
+.fa-cc-apple-pay {
+  --fa: "\f416";
+}
+
+.fa-fly {
+  --fa: "\f417";
+}
+
+.fa-node {
+  --fa: "\f419";
+}
+
+.fa-osi {
+  --fa: "\f41a";
+}
+
+.fa-react {
+  --fa: "\f41b";
+}
+
+.fa-autoprefixer {
+  --fa: "\f41c";
+}
+
+.fa-less {
+  --fa: "\f41d";
+}
+
+.fa-sass {
+  --fa: "\f41e";
+}
+
+.fa-vuejs {
+  --fa: "\f41f";
+}
+
+.fa-angular {
+  --fa: "\f420";
+}
+
+.fa-aviato {
+  --fa: "\f421";
+}
+
+.fa-ember {
+  --fa: "\f423";
+}
+
+.fa-gitter {
+  --fa: "\f426";
+}
+
+.fa-hooli {
+  --fa: "\f427";
+}
+
+.fa-strava {
+  --fa: "\f428";
+}
+
+.fa-stripe {
+  --fa: "\f429";
+}
+
+.fa-stripe-s {
+  --fa: "\f42a";
+}
+
+.fa-typo3 {
+  --fa: "\f42b";
+}
+
+.fa-amazon-pay {
+  --fa: "\f42c";
+}
+
+.fa-cc-amazon-pay {
+  --fa: "\f42d";
+}
+
+.fa-ethereum {
+  --fa: "\f42e";
+}
+
+.fa-korvue {
+  --fa: "\f42f";
+}
+
+.fa-elementor {
+  --fa: "\f430";
+}
+
+.fa-square-youtube {
+  --fa: "\f431";
+}
+
+.fa-youtube-square {
+  --fa: "\f431";
+}
+
+.fa-flipboard {
+  --fa: "\f44d";
+}
+
+.fa-hips {
+  --fa: "\f452";
+}
+
+.fa-php {
+  --fa: "\f457";
+}
+
+.fa-quinscape {
+  --fa: "\f459";
+}
+
+.fa-readme {
+  --fa: "\f4d5";
+}
+
+.fa-java {
+  --fa: "\f4e4";
+}
+
+.fa-pied-piper-hat {
+  --fa: "\f4e5";
+}
+
+.fa-creative-commons-by {
+  --fa: "\f4e7";
+}
+
+.fa-creative-commons-nc {
+  --fa: "\f4e8";
+}
+
+.fa-creative-commons-nc-eu {
+  --fa: "\f4e9";
+}
+
+.fa-creative-commons-nc-jp {
+  --fa: "\f4ea";
+}
+
+.fa-creative-commons-nd {
+  --fa: "\f4eb";
+}
+
+.fa-creative-commons-pd {
+  --fa: "\f4ec";
+}
+
+.fa-creative-commons-pd-alt {
+  --fa: "\f4ed";
+}
+
+.fa-creative-commons-remix {
+  --fa: "\f4ee";
+}
+
+.fa-creative-commons-sa {
+  --fa: "\f4ef";
+}
+
+.fa-creative-commons-sampling {
+  --fa: "\f4f0";
+}
+
+.fa-creative-commons-sampling-plus {
+  --fa: "\f4f1";
+}
+
+.fa-creative-commons-share {
+  --fa: "\f4f2";
+}
+
+.fa-creative-commons-zero {
+  --fa: "\f4f3";
+}
+
+.fa-ebay {
+  --fa: "\f4f4";
+}
+
+.fa-keybase {
+  --fa: "\f4f5";
+}
+
+.fa-mastodon {
+  --fa: "\f4f6";
+}
+
+.fa-r-project {
+  --fa: "\f4f7";
+}
+
+.fa-researchgate {
+  --fa: "\f4f8";
+}
+
+.fa-teamspeak {
+  --fa: "\f4f9";
+}
+
+.fa-first-order-alt {
+  --fa: "\f50a";
+}
+
+.fa-fulcrum {
+  --fa: "\f50b";
+}
+
+.fa-galactic-republic {
+  --fa: "\f50c";
+}
+
+.fa-galactic-senate {
+  --fa: "\f50d";
+}
+
+.fa-jedi-order {
+  --fa: "\f50e";
+}
+
+.fa-mandalorian {
+  --fa: "\f50f";
+}
+
+.fa-old-republic {
+  --fa: "\f510";
+}
+
+.fa-phoenix-squadron {
+  --fa: "\f511";
+}
+
+.fa-sith {
+  --fa: "\f512";
+}
+
+.fa-trade-federation {
+  --fa: "\f513";
+}
+
+.fa-wolf-pack-battalion {
+  --fa: "\f514";
+}
+
+.fa-hornbill {
+  --fa: "\f592";
+}
+
+.fa-mailchimp {
+  --fa: "\f59e";
+}
+
+.fa-megaport {
+  --fa: "\f5a3";
+}
+
+.fa-nimblr {
+  --fa: "\f5a8";
+}
+
+.fa-rev {
+  --fa: "\f5b2";
+}
+
+.fa-shopware {
+  --fa: "\f5b5";
+}
+
+.fa-squarespace {
+  --fa: "\f5be";
+}
+
+.fa-themeco {
+  --fa: "\f5c6";
+}
+
+.fa-weebly {
+  --fa: "\f5cc";
+}
+
+.fa-wix {
+  --fa: "\f5cf";
+}
+
+.fa-ello {
+  --fa: "\f5f1";
+}
+
+.fa-hackerrank {
+  --fa: "\f5f7";
+}
+
+.fa-kaggle {
+  --fa: "\f5fa";
+}
+
+.fa-markdown {
+  --fa: "\f60f";
+}
+
+.fa-neos {
+  --fa: "\f612";
+}
+
+.fa-zhihu {
+  --fa: "\f63f";
+}
+
+.fa-alipay {
+  --fa: "\f642";
+}
+
+.fa-the-red-yeti {
+  --fa: "\f69d";
+}
+
+.fa-critical-role {
+  --fa: "\f6c9";
+}
+
+.fa-d-and-d-beyond {
+  --fa: "\f6ca";
+}
+
+.fa-dev {
+  --fa: "\f6cc";
+}
+
+.fa-fantasy-flight-games {
+  --fa: "\f6dc";
+}
+
+.fa-wizards-of-the-coast {
+  --fa: "\f730";
+}
+
+.fa-think-peaks {
+  --fa: "\f731";
+}
+
+.fa-reacteurope {
+  --fa: "\f75d";
+}
+
+.fa-artstation {
+  --fa: "\f77a";
+}
+
+.fa-atlassian {
+  --fa: "\f77b";
+}
+
+.fa-canadian-maple-leaf {
+  --fa: "\f785";
+}
+
+.fa-centos {
+  --fa: "\f789";
+}
+
+.fa-confluence {
+  --fa: "\f78d";
+}
+
+.fa-dhl {
+  --fa: "\f790";
+}
+
+.fa-diaspora {
+  --fa: "\f791";
+}
+
+.fa-fedex {
+  --fa: "\f797";
+}
+
+.fa-fedora {
+  --fa: "\f798";
+}
+
+.fa-figma {
+  --fa: "\f799";
+}
+
+.fa-intercom {
+  --fa: "\f7af";
+}
+
+.fa-invision {
+  --fa: "\f7b0";
+}
+
+.fa-jira {
+  --fa: "\f7b1";
+}
+
+.fa-mendeley {
+  --fa: "\f7b3";
+}
+
+.fa-raspberry-pi {
+  --fa: "\f7bb";
+}
+
+.fa-redhat {
+  --fa: "\f7bc";
+}
+
+.fa-sketch {
+  --fa: "\f7c6";
+}
+
+.fa-sourcetree {
+  --fa: "\f7d3";
+}
+
+.fa-suse {
+  --fa: "\f7d6";
+}
+
+.fa-ubuntu {
+  --fa: "\f7df";
+}
+
+.fa-ups {
+  --fa: "\f7e0";
+}
+
+.fa-usps {
+  --fa: "\f7e1";
+}
+
+.fa-yarn {
+  --fa: "\f7e3";
+}
+
+.fa-airbnb {
+  --fa: "\f834";
+}
+
+.fa-battle-net {
+  --fa: "\f835";
+}
+
+.fa-bootstrap {
+  --fa: "\f836";
+}
+
+.fa-buffer {
+  --fa: "\f837";
+}
+
+.fa-chromecast {
+  --fa: "\f838";
+}
+
+.fa-evernote {
+  --fa: "\f839";
+}
+
+.fa-itch-io {
+  --fa: "\f83a";
+}
+
+.fa-salesforce {
+  --fa: "\f83b";
+}
+
+.fa-speaker-deck {
+  --fa: "\f83c";
+}
+
+.fa-symfony {
+  --fa: "\f83d";
+}
+
+.fa-waze {
+  --fa: "\f83f";
+}
+
+.fa-yammer {
+  --fa: "\f840";
+}
+
+.fa-git-alt {
+  --fa: "\f841";
+}
+
+.fa-stackpath {
+  --fa: "\f842";
+}
+
+.fa-cotton-bureau {
+  --fa: "\f89e";
+}
+
+.fa-buy-n-large {
+  --fa: "\f8a6";
+}
+
+.fa-mdb {
+  --fa: "\f8ca";
+}
+
+.fa-orcid {
+  --fa: "\f8d2";
+}
+
+.fa-swift {
+  --fa: "\f8e1";
+}
+
+.fa-umbraco {
+  --fa: "\f8e8";
+}:root, :host {
+  --fa-family-classic: "Font Awesome 7 Free";
+  --fa-font-regular: normal 400 1em/1 var(--fa-family-classic);
+  /* deprecated: this older custom property will be removed next major release */
+  --fa-style-family-classic: var(--fa-family-classic);
+}
+
+@font-face {
+  font-family: "Font Awesome 7 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/fa-regular-400.woff2");
+}
+.far {
+  --fa-family: var(--fa-family-classic);
+  --fa-style: 400;
+}
+
+.fa-classic {
+  --fa-family: var(--fa-family-classic);
+}
+
+.fa-regular {
+  --fa-style: 400;
+}:root, :host {
+  --fa-family-classic: "Font Awesome 7 Free";
+  --fa-font-solid: normal 900 1em/1 var(--fa-family-classic);
+  /* deprecated: this older custom property will be removed next major release */
+  --fa-style-family-classic: var(--fa-family-classic);
+}
+
+@font-face {
+  font-family: "Font Awesome 7 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../webfonts/fa-solid-900.woff2");
+}
+.fas {
+  --fa-family: var(--fa-family-classic);
+  --fa-style: 900;
+}
+
+.fa-classic {
+  --fa-family: var(--fa-family-classic);
+}
+
+.fa-solid {
+  --fa-style: 900;
+}@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-display: block;
+  font-weight: 400;
+  src: url("../webfonts/fa-brands-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-display: block;
+  font-weight: 900;
+  src: url("../webfonts/fa-solid-900.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-display: block;
+  font-weight: 400;
+  src: url("../webfonts/fa-regular-400.woff2") format("woff2");
+}@font-face {
+  font-family: "FontAwesome";
+  font-display: block;
+  src: url("../webfonts/fa-solid-900.woff2") format("woff2");
+}
+@font-face {
+  font-family: "FontAwesome";
+  font-display: block;
+  src: url("../webfonts/fa-brands-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "FontAwesome";
+  font-display: block;
+  src: url("../webfonts/fa-regular-400.woff2") format("woff2");
+  unicode-range: U+F003, U+F006, U+F014, U+F016-F017, U+F01A-F01B, U+F01D, U+F022, U+F03E, U+F044, U+F046, U+F05C-F05D, U+F06E, U+F070, U+F087-F088, U+F08A, U+F094, U+F096-F097, U+F09D, U+F0A0, U+F0A2, U+F0A4-F0A7, U+F0C5, U+F0C7, U+F0E5-F0E6, U+F0EB, U+F0F6-F0F8, U+F10C, U+F114-F115, U+F118-F11A, U+F11C-F11D, U+F133, U+F147, U+F14E, U+F150-F152, U+F185-F186, U+F18E, U+F190-F192, U+F196, U+F1C1-F1C9, U+F1D9, U+F1DB, U+F1E3, U+F1EA, U+F1F7, U+F1F9, U+F20A, U+F247-F248, U+F24A, U+F24D, U+F255-F25B, U+F25D, U+F271-F274, U+F278, U+F27B, U+F28C, U+F28E, U+F29C, U+F2B5, U+F2B7, U+F2BA, U+F2BC, U+F2BE, U+F2C0-F2C1, U+F2C3, U+F2D0, U+F2D2, U+F2D4, U+F2DC;
+}
+@font-face {
+  font-family: "FontAwesome";
+  font-display: block;
+  src: url("../webfonts/fa-v4compatibility.woff2") format("woff2");
+  unicode-range: U+F041, U+F047, U+F065-F066, U+F07D-F07E, U+F080, U+F08B, U+F08E, U+F090, U+F09A, U+F0AC, U+F0AE, U+F0B2, U+F0D0, U+F0D6, U+F0E4, U+F0EC, U+F10A-F10B, U+F123, U+F13E, U+F148-F149, U+F14C, U+F156, U+F15E, U+F160-F161, U+F163, U+F175-F178, U+F195, U+F1F8, U+F219, U+F27A;
+}

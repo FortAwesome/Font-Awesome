@@ -1,0 +1,1493 @@
+42-group:
+  icons:
+    - 42-group
+  label: 42.group
+  url: 'https://42.group'
+accusoft:
+  icons:
+    - accusoft
+  label: Accusoft
+  url: 'https://www.accusoft.com'
+administrator-technology:
+  icons:
+    - bars-staggered
+  label: Administrator Technology
+  url: 'https://administrator.de'
+adversal:
+  icons:
+    - adversal
+  label: Adversal
+  url: 'https://www.adversal.com'
+affiliatetheme:
+  icons:
+    - affiliatetheme
+  label: affiliatetheme
+  url: 'https://affiliatetheme.io'
+algolia:
+  icons:
+    - algolia
+  label: Algolia
+  url: 'http://www.algolia.com'
+amazon-web-services:
+  icons:
+    - aws
+  label: Amazon Web Services
+  url: 'https://aws.amazon.com'
+amilia:
+  icons:
+    - amilia
+  label: Amilia
+  url: 'http://www.amilia.com'
+angry-creative:
+  icons:
+    - angrycreative
+  label: Angry Creative
+  url: 'https://angrycreative.se'
+app-signal:
+  icons:
+    - stroopwafel
+  label: AppSignal
+  url: 'https://appsignal.com'
+apper-systems-ab:
+  icons:
+    - apper
+  label: Apper Systems AB
+  url: 'http://www.apper.com'
+'asymmetrik,ltd':
+  icons:
+    - asymmetrik
+  label: 'Asymmetrik, Ltd.'
+  url: 'http://asymmetrik.com'
+ausmed-education:
+  icons:
+    - user-nurse
+  label: Ausmed Education
+  url: 'https://www.ausmed.com.au'
+avianex:
+  icons:
+    - avianex
+  label: avianex
+  url: 'https://www.avianex.de'
+bi-mobject:
+  icons:
+    - bimobject
+  label: BIMobject
+  url: 'http://bimobject.com'
+bity:
+  icons:
+    - bity
+  label: Bity
+  url: 'http://bity.com'
+blackpulp-designs:
+  icons:
+    - person-praying
+  label: Blackpulp Designs
+  url: 'https://www.blackpulp.com'
+blissbook:
+  icons:
+    - pen-fancy
+  label: Blissbook
+  url: 'https://blissbook.com'
+bots:
+  icons:
+    - bots
+    - message-bot
+  label: Bots
+  url: 'https://www.bots-inc.com'
+bryntum:
+  icons:
+    - diagram-cells
+    - diagram-next
+    - diagram-predecessor
+    - diagram-previous
+    - diagram-subtask
+    - diagram-successor
+    - table-cells-row-lock
+    - table-cells-row-unlock
+  label: Bryntum
+  url: 'https://bryntum.com'
+bundeskriminalamt:
+  icons:
+    - globe-wifi
+    - hydra
+    - lightbulb-message
+    - octopus
+    - user-beard-bolt
+    - user-hoodie
+  label: 'Bundeskriminalamt, Cybercrime Division'
+  url: 'https://www.bka.de'
+büromöbel-experte-gmb-h &co-kg:
+  icons:
+    - buromobelexperte
+  label: Büromöbel-Experte GmbH & Co. KG.
+  url: 'https://www.bueromoebel-experte.de'
+c-panel:
+  icons:
+    - cpanel
+  label: cPanel
+  url: 'http://cpanel.com'
+cab-md:
+  icons:
+    - trillium
+  label: CabMD
+  url: 'https://cab.md'
+centercode:
+  icons:
+    - centercode
+  label: Centercode
+  url: 'https://www.centercode.com'
+cibltd:
+  icons:
+    - drum-steelpan
+  label: Comprehensive Insurance Brokers Limited
+  url: 'http://www.cibltd.com'
+clear-blue-technologies:
+  icons:
+    - solar-panel
+  label: Clear Blue Technologies
+  url: 'http://www.clearbluetechnologies.com'
+clicdata:
+  icons:
+    - chart-bullet
+    - chart-candlestick
+    - chart-column
+    - chart-gantt
+    - chart-line
+    - chart-pyramid
+    - chart-radar
+    - chart-scatter-3d
+    - chart-scatter-bubble
+    - chart-tree-map
+    - chart-waterfall
+    - cloud-word
+    - diagram-sankey
+    - diagram-venn
+    - filter-list
+    - filters
+    - input-numeric
+    - input-pipe
+    - input-text
+    - list-dropdown
+    - list-radio
+    - list-tree
+    - slider
+    - table-pivot
+    - table-tree
+  label: ClicData
+  url: 'https://www.clicdata.com'
+cloudflare:
+  icons:
+    - cloudflare
+  label: Cloudflare
+  url: 'https://www.cloudflare.com'
+cloudscale-ch:
+  icons:
+    - cloudscale
+  label: cloudscale.ch
+  url: 'https://www.cloudscale.ch'
+cloudsmith:
+  icons:
+    - cloudsmith
+  label: Cloudsmith
+  url: 'https://cloudsmith.io'
+cloudversify:
+  icons:
+    - cloudversify
+  label: cloudversify
+  url: 'https://www.cloudversify.com'
+cmplid:
+  icons:
+    - cmplid
+  label: Cmplid
+  url: 'http://cmplid.com'
+crystal-instruments:
+  icons:
+    - chart-fft
+    - chart-sine
+  label: Crystal Instruments
+  url: 'https://www.crystalinstruments.com'
+cuttlefish:
+  icons:
+    - cuttlefish
+  label: Cuttlefish
+  url: 'http://wearecuttlefish.com'
+cymedica:
+  icons:
+    - wave-square
+  label: CyMedica
+  url: 'https://www.cymedicaortho.com'
+darren-wiebe:
+  icons:
+    - church
+  label: Darren Wiebe
+  url: null
+dbk-masters:
+  icons:
+    - pompebled
+  label: DBK Masters in Online Business
+  url: 'https://dbk.nl'
+deploy-dog:
+  icons:
+    - deploydog
+  label: deploy.dog
+  url: 'http://deploy.dog'
+deskpro:
+  icons:
+    - deskpro
+  label: Deskpro
+  url: 'http://www.deskpro.com'
+discourse:
+  icons:
+    - discourse
+  label: Discourse
+  url: 'https://discourse.org'
+doc-hub:
+  icons:
+    - dochub
+  label: DocHub
+  url: 'https://dochub.com'
+draft2-digital:
+  icons:
+    - draft2digital
+  label: Draft2Digital
+  url: 'http://draft2digital.com'
+dragnsurvey:
+  icons:
+    - user-magnifying-glass
+  label: Drag’n Survey
+  url: 'https://www.dragnsurvey.com'
+dyalog-apl:
+  icons:
+    - dyalog
+  label: Dyalog APL
+  url: 'http://www.dyalog.com'
+econopublish:
+  icons:
+    - hat-cowboy-side
+  label: EconoPublish
+  url: 'https://www.econopublish.com'
+erbslanddev:
+  icons:
+    - chart-diagram
+    - comment-nodes
+    - file-fragment
+    - file-half-dashed
+    - hexagon-nodes
+    - hexagon-nodes-bolt
+    - square-binary
+  label: ErbslandDEV
+  url: 'https://erbsland.dev'
+fairyloot:
+  icons:
+    - person-dress-fairy
+    - person-fairy
+  label: FairyLoot
+  url: 'https://us.fairyloot.com'
+files-com:
+  icons:
+    - files-pinwheel
+  label: Files.com
+  url: 'https://files.com'
+firstdraft:
+  icons:
+    - firstdraft
+  label: firstdraft
+  url: 'http://www.firstdraft.com'
+fleetplan:
+  icons:
+    - helicopter
+  label: FLEETPLAN
+  url: 'https://www.fleetplan.net'
+getaroom:
+  icons:
+    - archway
+    - dumbbell
+    - hotel
+    - map-location
+    - map-location-dot
+    - monument
+    - person-swimming
+    - spa
+    - water-ladder
+  label: getaroom
+  url: 'https://www.getaroom.com'
+git-kraken:
+  icons:
+    - gitkraken
+  label: GitKraken
+  url: 'https://www.gitkraken.com'
+gofore:
+  icons:
+    - gofore
+  label: Gofore
+  url: 'http://gofore.com'
+graflr:
+  icons:
+    - binary-circle-check
+    - binary-lock
+    - binary-slash
+    - key-skeleton-left-right
+    - signature-lock
+    - signature-slash
+  label: Graflr
+  url: 'https://www.fifthpint.com'
+gripfire-inc:
+  icons:
+    - gripfire
+  label: 'Gripfire, Inc.'
+  url: 'http://gripfire.io'
+guilded:
+  icons:
+    - guilded
+  label: Guilded
+  url: 'https://www.guilded.gg'
+harvard-medical-school:
+  icons:
+    - bandage
+    - bed-pulse
+    - briefcase-medical
+    - capsules
+    - circle-h
+    - dna
+    - file-medical
+    - file-waveform
+    - fire-flame-simple
+    - hand-dots
+    - heart
+    - heart-pulse
+    - hospital
+    - id-card-clip
+    - kit-medical
+    - notes-medical
+    - person-dots-from-line
+    - pills
+    - plus
+    - prescription-bottle
+    - prescription-bottle-medical
+    - smoking
+    - stethoscope
+    - syringe
+    - tablets
+    - thermometer
+    - truck-medical
+    - user-doctor
+    - vial
+    - vials
+    - weight-scale
+    - x-ray
+  label: Harvard Medical School
+  url: 'https://hms.harvard.edu'
+hashnode:
+  icons:
+    - hashnode
+  label: Hashnode
+  url: 'https://hashnode.com'
+hips:
+  icons:
+    - hips
+  label: Hips
+  url: 'https://hips.com'
+hire-a-helper:
+  icons:
+    - blanket
+    - box-archive
+    - box-open
+    - box-open-full
+    - box-taped
+    - container-storage
+    - couch
+    - dolly-empty
+    - lamp
+    - loveseat
+    - people-carry-box
+    - person-carry-box
+    - person-dolly
+    - person-dolly-empty
+    - ramp-loading
+    - route
+    - sign-hanging
+    - square-fragile
+    - square-this-way-up
+    - suitcase
+    - tape
+    - truck-container
+    - truck-moving
+    - truck-ramp
+    - truck-ramp-box
+    - truck-ramp-couch
+    - wine-glass
+    - wine-glass-crack
+  label: HireAHelper
+  url: 'https://www.hireahelper.com'
+hive:
+  icons:
+    - hive
+  label: Hive Blockchain Network
+  url: 'https://hive.io'
+hive-games:
+  icons:
+    - bee
+  label: Hive Games
+  url: 'https://hivegames.io'
+hornbill:
+  icons:
+    - hornbill
+  label: Hornbill
+  url: 'https://www.hornbill.com'
+hotjar:
+  icons:
+    - hotjar
+  label: Hotjar
+  url: 'https://www.hotjar.com'
+hub-spot:
+  icons:
+    - hubspot
+  label: HubSpot
+  url: 'http://www.HubSpot.com'
+icis:
+  icons:
+    - arrow-progress
+    - bag-seedling
+    - bin-bottles
+    - bin-bottles-recycle
+    - calendar-users
+    - chart-line-up-down
+    - chart-mixed-up-circle-currency
+    - chart-mixed-up-circle-dollar
+    - chart-pie-simple-circle-currency
+    - circles-overlap
+    - cloud-binary
+    - conveyor-belt-arm
+    - display-chart-up-circle-currency
+    - display-chart-up-circle-dollar
+    - flask-gear
+    - gear-complex-code
+    - laptop-binary
+    - lightbulb-gear
+    - person-running-fast
+    - right-left-large
+    - user-group-simple
+  label: ICIS
+  url: 'https://www.icis.com/'
+idle-anthill:
+  icons:
+    - ant
+  label: Idle Anthill
+  url: 'https://idleanthill.com/'
+in-site-systems:
+  icons:
+    - toolbox
+  label: InSite Systems
+  url: 'https://www.insitesystems.com'
+inspira-bvba:
+  icons:
+    - chess-knight
+  label: Inspira bvba
+  url: 'https://www.inspira.be'
+instalod:
+  icons:
+    - instalod
+  label: InstaLOD
+  url: 'https://instalod.com'
+intellectability:
+  icons:
+    - raccoon
+  label: IntellectAbility
+  url: 'https://replacingrisk.com'
+iris:
+  icons:
+    - chart-pie-simple-circle-dollar
+  label: ICIS
+  url: 'https://www.icis.com/'
+joe-emison:
+  icons:
+    - blender-phone
+  label: Joe Emison
+  url: null
+joget:
+  icons:
+    - joget
+  label: Joget
+  url: 'http://www.joget.org'
+john-campion:
+  icons:
+    - buoy
+    - buoy-mooring
+  label: John Campion
+  url: 'https://github.com/johncampionjr'
+jon-galloway:
+  icons:
+    - crow
+  label: Jon Galloway
+  url: null
+jxl:
+  icons:
+    - jxl
+  label: JXL for Jira
+  url: 'https://jxl.app'
+kevin-barone:
+  icons:
+    - file-contract
+  label: Kevin Barone
+  url: null
+key-cdn:
+  icons:
+    - keycdn
+  label: KeyCDN
+  url: 'https://www.keycdn.com'
+korvue:
+  icons:
+    - korvue
+  label: Korvue
+  url: 'https://korvue.com'
+labuniq:
+  icons:
+    - chf-sign
+  label: LABUNIQ
+  url: 'https://labuniq.com/'
+lean-stack:
+  icons:
+    - diagram-lean-canvas
+  label: LEANSTACK
+  url: 'https://leanstack.com'
+libeo:
+  icons:
+    - arrow-right-from-arc
+    - arrow-right-to-arc
+  label: Libeo
+  url: 'https://libeo.io'
+max-elman:
+  icons:
+    - frog
+  label: Max Elman
+  url: null
+med-apps:
+  icons:
+    - medapps
+  label: MedApps
+  url: 'http://medapps.com.au'
+medapps:
+  icons:
+    - book-medical
+    - book-user
+    - books-medical
+    - clipboard-user
+    - comment-medical
+    - crutch
+    - crutches
+    - disease
+    - files-medical
+    - head-side-brain
+    - head-side-medical
+    - hospital-user
+    - hospitals
+    - house-medical
+    - laptop-medical
+    - message-medical
+    - pager
+    - stretcher
+    - user-doctor-message
+    - users-medical
+    - walker
+  label: MedApps
+  url: 'https://medapps.com.au'
+megaport:
+  icons:
+    - megaport
+  label: Megaport
+  url: 'https://www.megaport.com'
+menlo-school:
+  icons:
+    - carpool
+  label: Menlo School
+  url: 'https://www.menloschool.org'
+mintbit:
+  icons:
+    - mintbit
+  label: Mintbit
+  url: 'https://www.mintbit.com'
+mix:
+  icons:
+    - mix
+  label: Mix
+  url: 'http://mix.com'
+mizuni:
+  icons:
+    - mizuni
+  label: Mizuni
+  url: 'http://www.mizuni.com'
+mrt:
+  icons:
+    - medrt
+  label: MRT
+  url: 'https://medrt.co.jp'
+mylogin-info:
+  icons:
+    - user-shield
+  label: mylogin.info
+  url: 'https://www.mylogin.info'
+napster:
+  icons:
+    - napster
+  label: Napster
+  url: 'http://www.napster.com'
+nfc-forum:
+  icons:
+    - nfc-directional
+    - nfc-symbol
+  label: NFC Forum
+  url: 'https://nfc-forum.org'
+nfc21:
+  icons:
+    - mobile-signal
+    - mobile-signal-out
+    - nfc
+    - nfc-lock
+    - nfc-magnifying-glass
+    - nfc-pen
+    - nfc-signal
+    - nfc-slash
+    - nfc-trash
+  label: NFC21
+  url: 'https://nfc21.de'
+nimblr:
+  icons:
+    - nimblr
+  label: Nimblr
+  url: 'https://nimblr.ai'
+nisutec:
+  icons:
+    - wreath-laurel
+  label: Nisutec
+  url: 'https://nisu.ly'
+nompse:
+  icons:
+    - chalkboard
+    - chalkboard-user
+  label: Nomp.se
+  url: 'https://nomp.se'
+ns8:
+  icons:
+    - ns8
+  label: NS8
+  url: 'https://www.ns8.com'
+nutritionix:
+  icons:
+    - nutritionix
+  label: Nutritionix
+  url: 'http://www.nutritionix.com'
+octopus-deploy:
+  icons:
+    - octopus-deploy
+  label: Octopus Deploy
+  url: 'https://octopus.com'
+odysee:
+  icons:
+    - odysee
+  label: Odysee
+  url: 'https://odysee.com'
+olameter:
+  icons:
+    - angle
+    - brain-circuit
+    - fire-hydrant
+    - grate-droplet
+    - lamp-street
+    - manhole
+    - meter-bolt
+    - meter-droplet
+    - meter-fire
+    - pedestal
+    - transformer-bolt
+    - utility-pole-double
+  label: Olameter
+  url: 'https://www.olameter.com'
+op-labs:
+  icons:
+    - bridge-suspension
+    - grid-round
+    - hexagon-image
+    - mustache
+    - nose
+    - pickaxe
+  label: OP Labs
+  url: 'https://www.optimism.io'
+optimism:
+  icons:
+    - hat-beach
+    - swap
+    - swap-arrows
+  label: Optimism
+  url: 'https://www.optimism.io/'
+padlet:
+  icons:
+    - padlet
+  label: Padlet
+  url: 'https://padlet.com'
+page4-corporation:
+  icons:
+    - page4
+  label: page4 Corporation
+  url: 'https://en.page4.com'
+pal-fed:
+  icons:
+    - palfed
+  label: PalFed
+  url: 'https://www.palfed.com'
+patch-patrol:
+  icons:
+    - vest
+    - vest-patches
+  label: Patch Patrol
+  url: 'https://patchpatrol.com'
+pcsg:
+  icons:
+    - horse-head
+  label: PCSG
+  url: 'https://www.pcsg.de'
+perbyte:
+  icons:
+    - perbyte
+  label: PerByte
+  url: 'https://www.perbyte.com'
+phabricator:
+  icons:
+    - phabricator
+  label: Phabricator
+  url: 'http://phacility.com'
+pindigo:
+  icons:
+    - person-pinball
+    - pinball
+  label: Pindigo
+  url: 'https://pindigo.app'
+play-shakespeare:
+  icons:
+    - user-shakespeare
+  label: PlayShakespeare.com
+  url: 'https://www.playshakespeare.com'
+plum-run-solutions:
+  icons:
+    - reel
+  label: Plum Run Solutions
+  url: 'https://plumrunsolutions.com'
+polpharma:
+  icons:
+    - puzzle
+  label: Polpharma
+  url: 'http://www.polpharma.com'
+preflight-technologies-inc:
+  icons:
+    - person-seat
+    - person-seat-reclined
+    - plane-prop
+    - plane-tail
+    - seat-airline
+    - ticket-airline
+    - tickets-airline
+    - tower-control
+    - user-pilot
+    - user-pilot-tie
+  label: Preflight Technologies Incorporated
+  url: 'http://www.preflighttech.com'
+promo-wizard:
+  icons:
+    - hat-wizard
+  label: Promo Wizard
+  url: 'https://promowizard.co.uk'
+pulse-eight:
+  icons:
+    - volume-xmark
+  label: Pulse-Eight
+  url: 'https://pulse-eight.com'
+purely-interactive:
+  icons:
+    - kiwi-bird
+  label: Purely Interactive
+  url: 'https://www.purelyinteractive.ca'
+pushed:
+  icons:
+    - pushed
+  label: Pushed
+  url: 'https://pushed.co'
+quin-scape:
+  icons:
+    - quinscape
+  label: QuinScape
+  url: 'https://www.quinscape.de'
+reacteurope:
+  icons:
+    - reacteurope
+  label: ReactEurope
+  url: 'https://www.react-europe.org'
+readme-io:
+  icons:
+    - readme
+  label: Readme.io
+  url: 'http://readme.io'
+red-river:
+  icons:
+    - red-river
+  label: red river
+  url: 'https://river.red'
+rep-toolkit:
+  icons:
+    - mouse-field
+  label: Rep Toolkit LLC
+  url: 'https://www.reptoolkit.com'
+replyd:
+  icons:
+    - replyd
+  label: replyd
+  url: null
+resolving:
+  icons:
+    - resolving
+  label: Resolving
+  url: 'https://resolving.com'
+rev-io:
+  icons:
+    - rev
+  label: Rev.io
+  url: 'https://rev.io'
+rms-cloud:
+  icons:
+    - floppy-disk-circle-arrow-right
+    - floppy-disk-circle-xmark
+  label: RMS Cloud
+  url: 'https://www.rmscloud.com'
+rock-rms:
+  icons:
+    - rockrms
+  label: Rock RMS
+  url: 'http://rockrms.com'
+rocket-chat:
+  icons:
+    - comment
+    - comment-check
+    - comment-dots
+    - comment-exclamation
+    - comment-lines
+    - comment-minus
+    - comment-pen
+    - comment-plus
+    - comment-slash
+    - comment-smile
+    - comment-xmark
+    - comments
+    - face-frown
+    - face-meh
+    - face-smile
+    - face-smile-plus
+    - message
+    - message-check
+    - message-dots
+    - message-exclamation
+    - message-lines
+    - message-minus
+    - message-pen
+    - message-plus
+    - message-slash
+    - message-smile
+    - message-xmark
+    - messages
+    - phone
+    - phone-plus
+    - phone-slash
+    - poo
+    - quote-left
+    - quote-right
+    - rocketchat
+    - video
+    - video-plus
+    - video-slash
+  label: Rocket.Chat
+  url: 'https://rocket.chat'
+rodney-oliver:
+  icons:
+    - folder-minus
+    - folder-plus
+  label: Rodney Oliver
+  url: null
+ruling:
+  icons:
+    - file-cad
+  label: 'Ruland Manufacturing Co., Inc.'
+  url: 'http://www.ruland.com/'
+schlix:
+  icons:
+    - schlix
+  label: SCHLIX
+  url: 'http://schlix.com'
+screenpal:
+  icons:
+    - screenpal
+  label: ScreenPal
+  url: 'https://screenpal.com'
+search-eng-in:
+  icons:
+    - searchengin
+  label: SearchEng.in
+  url: 'http://searcheng.in'
+service-stack:
+  icons:
+    - servicestack
+  label: ServiceStack
+  url: 'https://servicestack.net'
+shawn-storie:
+  icons:
+    - teeth
+    - teeth-open
+  label: Shawn Storie
+  url: null
+shopware:
+  icons:
+    - shopware
+  label: Shopware
+  url: 'https://shopware.de'
+shp:
+  icons:
+    - school
+  label: SHP
+  url: 'http://shp.com'
+silicon-barn-inc:
+  icons:
+    - diagram-project
+  label: Silicon Barn Inc
+  url: 'https://siliconbarn.com'
+sistrix:
+  icons:
+    - sistrix
+  label: SISTRIX
+  url: 'https://www.sistrix.de'
+sitrox:
+  icons:
+    - sitrox
+  label: Sitrox
+  url: 'https://www.sitrox.com'
+smup:
+  icons:
+    - shoe-prints
+  label: Smup
+  url: 'https://www.atomsoftware.com.au'
+speakap:
+  icons:
+    - speakap
+  label: Speakap
+  url: 'https://speakap.com'
+starchive:
+  icons:
+    - hexagon-vertical-nft
+  label: Starchive
+  url: 'https://www.starchive.io'
+stay-linked:
+  icons:
+    - barcode-read
+    - barcode-scan
+    - box
+    - box-check
+    - boxes-stacked
+    - cart-flatbed
+    - cart-flatbed-boxes
+    - cart-flatbed-empty
+    - clipboard-check
+    - clipboard-list
+    - conveyor-belt
+    - conveyor-belt-boxes
+    - dolly
+    - forklift
+    - hand-holding-box
+    - hands-holding-diamond
+    - pallet
+    - pallet-boxes
+    - rectangle-barcode
+    - scanner-gun
+    - scanner-keyboard
+    - scanner-touchscreen
+    - shelves
+    - tablet-rugged
+    - truck
+    - truck-clock
+    - truck-fast
+    - warehouse
+    - warehouse-full
+  label: StayLinked
+  url: 'https://www.staylinked.com'
+sticker-mule:
+  icons:
+    - sticker-mule
+  label: Sticker Mule
+  url: 'https://stickermule.com'
+stubber:
+  icons:
+    - stubber
+  label: Stubber
+  url: 'https://www.stubber.com'
+studio-vinari:
+  icons:
+    - studiovinari
+  label: Studio Vinari
+  url: 'https://studiovinari.com'
+supple:
+  icons:
+    - badge-check
+    - badge-dollar
+    - badge-percent
+    - bullhorn
+    - bullseye
+    - bullseye-arrow
+    - bullseye-pointer
+    - chart-mixed
+    - comment-dollar
+    - comments-dollar
+    - envelope-open-dollar
+    - envelope-open-text
+    - envelopes-bulk
+    - filter-circle-dollar
+    - gift-card
+    - lightbulb-dollar
+    - lightbulb-exclamation
+    - lightbulb-on
+    - lightbulb-slash
+    - magnifying-glass-dollar
+    - magnifying-glass-location
+    - megaphone
+    - message-dollar
+    - messages-dollar
+    - rectangle-ad
+    - square-poll-horizontal
+    - square-poll-vertical
+    - supple
+    - user-crown
+    - user-group-crown
+  label: Supple
+  url: 'https://supple.com.au'
+the-red-yeti:
+  icons:
+    - the-red-yeti
+  label: The Red Yeti
+  url: 'http://theredyeti.com'
+the-us-sunnah-foundation:
+  icons:
+    - book-heart
+    - box-dollar
+    - box-heart
+    - circle-dollar
+    - circle-dollar-to-slot
+    - circle-heart
+    - dollar-sign
+    - dove
+    - gift
+    - globe
+    - hand-heart
+    - hand-holding-dollar
+    - hand-holding-droplet
+    - hand-holding-heart
+    - hand-holding-seedling
+    - hands-holding-dollar
+    - hands-holding-heart
+    - handshake
+    - handshake-angle
+    - house-heart
+    - leaf
+    - leaf-heart
+    - parachute-box
+    - piggy-bank
+    - ribbon
+    - seedling
+    - square-dollar
+    - square-heart
+  label: The us-Sunnah Foundation
+  url: 'https://www.ussunnah.org'
+themeco:
+  icons:
+    - themeco
+  label: Themeco
+  url: 'https://theme.co'
+think-peaks:
+  icons:
+    - think-peaks
+  label: Think Peaks
+  url: 'https://thinkpeaks.com'
+timesavr:
+  icons:
+    - bottle-baby
+  label: Timesavr Software
+  url: 'http://www.timesavr.net'
+typo3:
+  icons:
+    - typo3
+  label: Typo3
+  url: 'https://typo3.org'
+un-ocha:
+  icons:
+    - anchor-circle-check
+    - anchor-circle-exclamation
+    - anchor-circle-xmark
+    - anchor-lock
+    - arrow-down-up-across-line
+    - arrow-down-up-lock
+    - arrow-right-to-city
+    - arrow-up-from-ground-water
+    - arrow-up-from-water-pump
+    - arrow-up-right-dots
+    - arrow-up-right-from-square
+    - arrows-down-to-line
+    - arrows-down-to-people
+    - arrows-left-right-to-line
+    - arrows-spin
+    - arrows-split-up-and-left
+    - arrows-to-circle
+    - arrows-to-dot
+    - arrows-to-eye
+    - arrows-turn-right
+    - arrows-turn-to-dots
+    - arrows-up-to-line
+    - bore-hole
+    - bottle-droplet
+    - bottle-water
+    - bowl-food
+    - bowl-rice
+    - boxes-packing
+    - bridge
+    - bridge-circle-check
+    - bridge-circle-exclamation
+    - bridge-circle-xmark
+    - bridge-lock
+    - bridge-water
+    - bucket
+    - bugs
+    - building-circle-arrow-right
+    - building-circle-check
+    - building-circle-exclamation
+    - building-circle-xmark
+    - building-columns
+    - building-flag
+    - building-lock
+    - building-ngo
+    - building-shield
+    - building-un
+    - building-user
+    - building-wheat
+    - burst
+    - car-on
+    - car-tunnel
+    - chart-simple
+    - child-combatant
+    - children
+    - circle-nodes
+    - clipboard-question
+    - cloud-showers-water
+    - computer
+    - cubes-stacked
+    - envelope-circle-check
+    - explosion
+    - ferry
+    - fire-burner
+    - fish-fins
+    - flask-vial
+    - glass-water
+    - glass-water-droplet
+    - group-arrows-rotate
+    - hand-holding-hand
+    - handcuffs
+    - hands-bound
+    - hands-holding-child
+    - hands-holding-circle
+    - heart-circle-bolt
+    - heart-circle-check
+    - heart-circle-exclamation
+    - heart-circle-minus
+    - heart-circle-plus
+    - heart-circle-xmark
+    - helicopter-symbol
+    - helmet-un
+    - hill-avalanche
+    - hill-rockslide
+    - house-circle-check
+    - house-circle-exclamation
+    - house-circle-xmark
+    - house-fire
+    - house-flag
+    - house-flood-water
+    - house-flood-water-circle-arrow-right
+    - house-lock
+    - house-medical-circle-check
+    - house-medical-circle-exclamation
+    - house-medical-circle-xmark
+    - house-medical-flag
+    - house-tsunami
+    - jar
+    - jar-wheat
+    - jet-fighter-up
+    - jug-detergent
+    - kitchen-set
+    - land-mine-on
+    - landmark-flag
+    - lines-leaning
+    - location-pin-lock
+    - locust
+    - magnifying-glass-arrow-right
+    - magnifying-glass-chart
+    - mars-and-venus-burst
+    - mask-face
+    - mask-ventilator
+    - mattress-pillow
+    - mobile-retro
+    - money-bill-transfer
+    - money-bill-trend-up
+    - money-bill-wheat
+    - mosquito
+    - mosquito-net
+    - mound
+    - mountain-city
+    - mountain-sun
+    - oil-well
+    - people-group
+    - people-line
+    - people-pulling
+    - people-robbery
+    - people-roof
+    - person-arrow-down-to-line
+    - person-arrow-up-from-line
+    - person-breastfeeding
+    - person-burst
+    - person-cane
+    - person-chalkboard
+    - person-circle-check
+    - person-circle-exclamation
+    - person-circle-minus
+    - person-circle-plus
+    - person-circle-question
+    - person-circle-xmark
+    - person-dress-burst
+    - person-drowning
+    - person-falling
+    - person-falling-burst
+    - person-half-dress
+    - person-harassing
+    - person-military-pointing
+    - person-military-rifle
+    - person-military-to-person
+    - person-rays
+    - person-rifle
+    - person-shelter
+    - person-through-window
+    - person-walking-arrow-loop-left
+    - person-walking-arrow-right
+    - person-walking-dashed-line-arrow-right
+    - person-walking-luggage
+    - plane-circle-check
+    - plane-circle-exclamation
+    - plane-circle-xmark
+    - plane-lock
+    - plant-wilt
+    - plate-wheat
+    - plug-circle-bolt
+    - plug-circle-check
+    - plug-circle-exclamation
+    - plug-circle-minus
+    - plug-circle-plus
+    - plug-circle-xmark
+    - ranking-star
+    - road
+    - road-barrier
+    - road-bridge
+    - road-circle-check
+    - road-circle-exclamation
+    - road-circle-xmark
+    - road-lock
+    - road-spikes
+    - rug
+    - sack-xmark
+    - sailboat
+    - school-circle-check
+    - school-circle-exclamation
+    - school-circle-xmark
+    - school-lock
+    - sheet-plastic
+    - shield-cat
+    - shield-dog
+    - shield-heart
+    - shop-lock
+    - square-nfi
+    - square-person-confined
+    - square-virus
+    - staff-snake
+    - sun-plant-wilt
+    - tarp
+    - tarp-droplet
+    - tent
+    - tent-arrow-down-to-line
+    - tent-arrow-left-right
+    - tent-arrow-turn-left
+    - tent-arrows-down
+    - tents
+    - toilet-portable
+    - toilets-portable
+    - tower-cell
+    - tower-observation
+    - tree-city
+    - trowel
+    - trowel-bricks
+    - truck-arrow-right
+    - truck-droplet
+    - truck-field
+    - truck-field-un
+    - truck-plane
+    - users-between-lines
+    - users-line
+    - users-rays
+    - users-rectangle
+    - users-viewfinder
+    - vial-circle-check
+    - vial-virus
+    - wheat-awn-circle-exclamation
+    - wheelchair-move
+    - worm
+    - xmarks-lines
+  label: United Nations OCHA
+  url: 'https://www.unocha.org'
+uncharted:
+  icons:
+    - uncharted
+  label: Uncharted Software
+  url: 'https://uncharted.software'
+undeco-cora:
+  icons:
+    - music-magnifying-glass
+  label: Undeco & Cora Music
+  url: 'https://undeco.se'
+uniregistry:
+  icons:
+    - uniregistry
+  label: Uniregistry
+  url: 'https://uniregistry.com'
+unsharpen:
+  icons:
+    - pencil-mechanical
+  label: Unsharpen.com
+  url: 'https://unsharpen.com'
+uptick:
+  icons:
+    - blanket-fire
+    - block-brick
+    - circle-quarters
+    - diamond-exclamation
+    - hammer-crash
+    - hose
+    - hose-reel
+    - light-emergency
+    - light-emergency-on
+    - panel-ews
+    - panel-fire
+    - person-to-door
+    - phone-intercom
+    - pipe-circle-check
+    - pipe-collar
+    - pipe-section
+    - pipe-valve
+    - pump
+    - shutters
+    - sprinkler-ceiling
+    - square-quarters
+    - square-ring
+    - tank-water
+    - vent-damper
+  label: Uptick
+  url: 'https://www.uptickhq.com'
+us-sunnah-foundation:
+  icons:
+    - ussunnah
+  label: us-Sunnah Foundation
+  url: 'https://www.ussunnah.org'
+vaadin:
+  icons:
+    - vaadin
+  label: Vaadin
+  url: 'http://vaadin.com'
+van-raam:
+  icons:
+    - tricycle-adult
+  label: Van Raam
+  url: 'https://www.vanraam.com'
+verasoft:
+  icons:
+    - circles-overlap-3
+  label: Verasoft
+  url: 'https://verasoft.com'
+verifi:
+  icons:
+    - circle-wifi-circle-wifi
+  label: VeriFi
+  url: 'http://verifi.world/'
+via:
+  icons:
+    - car-burst
+    - draw-circle
+    - draw-polygon
+    - draw-square
+    - house-crack
+    - layer-group
+    - layer-minus
+    - layer-plus
+    - skull-crossbones
+    - user-injured
+  label: VIA Traffic Software Solutions
+  url: 'https://www.via.software'
+victor-costan:
+  icons:
+    - otter
+  label: Staphany Park and Victor Costan
+  url: null
+vnv:
+  icons:
+    - vnv
+  label: VNV
+  url: 'https://www.vnv.ch'
+watchman-monitoring:
+  icons:
+    - comments-question-check
+    - watchman-monitoring
+  label: Watchman Monitoring
+  url: 'https://www.watchmanmonitoring.com'
+weedable:
+  icons:
+    - bong
+    - cannabis
+    - hippo
+    - joint
+    - mortar-pestle
+    - prescription
+  label: Weedable
+  url: 'https://www.weedable.com'
+whmcs:
+  icons:
+    - whmcs
+  label: WHMCS
+  url: 'https://www.whmcs.com'
+wirsindhandwerk:
+  icons:
+    - wirsindhandwerk
+  label: wirsindhandwerk.de
+  url: 'https://www.wirsindhandwerk.de'
+wodu:
+  icons:
+    - wodu
+  label: Wodu Media
+  url: 'https://www.wodu.com'
+workrails:
+  icons:
+    - briefcase
+  label: WorkRails
+  url: 'https://www.workrails.com'
+wpressr:
+  icons:
+    - wpressr
+  label: wpressr
+  url: 'https://wpressr.com'
+zulu-alpha-kilo:
+  icons:
+    - billboard
+  label: Zulu Alpha Kilo
+  url: 'https://www.zulualphakilo.com'

@@ -1,0 +1,28 @@
+// mixins
+// --------------------------
+@use 'variables' as v;
+
+// base rendering for an icon
+@mixin fa-icon($family: v.$family) {
+  --_#{v.$css-prefix}-family: var(--#{v.$css-prefix}-family, var(--#{v.$css-prefix}-style-family, '#{$family}'));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: var(--#{v.$css-prefix}-display, #{v.$display});
+  font-family: var(--_#{v.$css-prefix}-family);
+  font-feature-settings: normal;
+  font-style: normal;
+  font-synthesis: none;
+  font-variant: normal;
+  font-weight: var(--#{v.$css-prefix}-style, #{v.$style});
+  line-height: 1;
+  text-align: center;
+  text-rendering: auto;
+  width: var(--#{v.$css-prefix}-width, #{v.$fw-width});
+}
+
+// sets relative font-sizing and alignment (in _sizing)
+@mixin fa-size ($font-size) {
+  font-size: calc(#{$font-size} / #{v.$size-scale-base} * 1em); /* converts a #{$font-size}px size into an em-based value that's relative to the scale's #{v.$size-scale-base}px base */
+  line-height: calc(1 / #{$font-size} * 1em); /* sets the line-height of the icon back to that of it's parent */
+  vertical-align: calc(((6 / #{$font-size}) - (3 / 8)) * 1em); /* vertically centers the icon taking into account the surrounding text's descender */
+}

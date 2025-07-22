@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'far';
+var iconName = 'face-grin-tongue-squint';
+var width = 512;
+var height = 512;
+var aliases = [128541,"grin-tongue-squint"];
+var unicode = 'f58a';
+var svgPathData = 'M464 256c0-114.9-93.1-208-208-208S48 141.1 48 256c0 75.9 40.7 142.4 101.5 178.7-3.6-10.9-5.5-22.6-5.5-34.7l0-37.5c-10.2-12.6-18.3-26.9-23.8-42.4-4.1-11.6 7.8-21.4 19.6-17.8 34.7 10.6 74.2 16.5 116.1 16.5 42 0 81.5-6 116.3-16.6 11.8-3.6 23.7 6.1 19.6 17.8-5.5 15.6-13.6 29.9-23.8 42.5l0 37.5c0 12.1-1.9 23.8-5.5 34.7 60.8-36.3 101.5-102.7 101.5-178.7zM0 256a256 256 0 1 1 512 0 256 256 0 1 1 -512 0zm125.8-75.7c-6.2-5.2-7.6-14.3-3.1-21.1s13.3-9.2 20.6-5.5l79.6 40c5.4 2.7 8.8 8.2 8.8 14.3s-3.4 11.6-8.8 14.3l-79.6 40c-7.3 3.6-16.1 1.3-20.6-5.5s-3.1-15.9 3.1-21.1L159 208 125.8 180.3zm263.6-21.1c4.5 6.8 3.1 15.9-3.1 21.1L353 208 386.2 235.7c6.2 5.2 7.6 14.3 3.1 21.1s-13.3 9.2-20.6 5.5l-79.6-40c-5.4-2.7-8.8-8.2-8.8-14.3s3.4-11.6 8.8-14.3l79.6-40c7.3-3.6 16.1-1.3 20.6 5.5zM320 416l0-37.4c0-14.7-11.9-26.6-26.6-26.6l-2 0c-11.3 0-21.1 7.9-23.6 18.9-2.8 12.6-20.8 12.6-23.6 0-2.5-11.1-12.3-18.9-23.6-18.9l-2 0c-14.7 0-26.6 11.9-26.6 26.6l0 37.4c0 35.3 28.7 64 64 64s64-28.7 64-64z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faFaceGrinTongueSquint = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

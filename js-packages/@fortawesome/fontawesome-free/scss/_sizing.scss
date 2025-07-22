@@ -1,0 +1,18 @@
+// sizing icons
+// -------------------------
+@use 'variables' as v;
+@use 'mixins' as m;
+
+// literal magnification scale
+@for $i from 1 through 10 {
+  .#{v.$css-prefix}-#{$i}x {
+    font-size: $i * 1em;
+  }
+}
+
+// step-based scale (with alignment)
+@each $size, $value in v.$sizes {
+  .#{v.$css-prefix}-#{$size} {
+     @include m.fa-size($value);
+  }
+}
