@@ -1,0 +1,33 @@
+// stacking icons
+// -------------------------
+@use 'variables' as v;
+
+.#{v.$css-prefix}-stack {
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  vertical-align: v.$stack-vertical-align;
+  width: v.$stack-width;
+}
+
+.#{v.$css-prefix}-stack-1x,
+.#{v.$css-prefix}-stack-2x {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: var(--#{v.$css-prefix}-stack-z-index, #{v.$stack-z-index});
+}
+
+.#{v.$css-prefix}-stack-1x {
+  line-height: inherit;
+}
+
+.#{v.$css-prefix}-stack-2x {
+  font-size: 2em;
+}
+
+.#{v.$css-prefix}-inverse {
+  color: var(--#{v.$css-prefix}-inverse, #{v.$inverse});
+}

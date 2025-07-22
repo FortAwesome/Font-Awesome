@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'far';
+var iconName = 'bell-slash';
+var width = 576;
+var height = 512;
+var aliases = [128277,61943];
+var unicode = 'f1f6';
+var svgPathData = 'M41-24.9c-9.4-9.4-24.6-9.4-33.9 0S-2.3-.3 7 9.1l528 528c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-87.8-87.8c17.5-3.3 30.8-18.7 30.8-37.1 0-6.7-1.8-13.3-5.1-19L485 321.7c-19-32.6-29-69.6-29-107.3l0-14.5c0-84.6-62.6-154.7-144-166.3l0-9.7c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 9.7c-42.2 6-79.4 27.8-105.4 59.1L41-24.9zM192.8 126.9C214.7 98.4 249.2 80 288 80 354.3 80 408 133.7 408 200l0 14.5c0 46.2 12.3 91.5 35.5 131.4l12.9 22.1-22.6 0-241.1-241.1zM132.5 345.9c19.5-33.4 31.3-70.7 34.6-109l-46.7-46.7c-.2 3.3-.3 6.6-.3 9.9l0 14.5c0 37.7-10 74.7-29 107.3L69.1 359.2c-3.4 5.8-5.1 12.3-5.1 19 0 20.9 16.9 37.8 37.8 37.8l244.4 0-48-48-178.6 0 12.9-22.1zM220.1 464c9.9 28 36.6 48 67.9 48s58-20 67.9-48l-135.8 0z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faBellSlash = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

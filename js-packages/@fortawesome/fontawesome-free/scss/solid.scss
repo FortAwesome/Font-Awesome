@@ -1,0 +1,51 @@
+/*!
+ * Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2025 Fonticons, Inc.
+ */
+@use "sass:string";
+@use 'variables' as v;
+@use 'mixins' as m;
+
+:root, :host {
+  --#{v.$css-prefix}-family-classic: '#{ v.$family }';
+  --#{v.$css-prefix}-font-solid: normal 900 1em/1 var(--#{v.$css-prefix}-family-classic);
+
+  /* deprecated: this older custom property will be removed next major release */
+  --#{v.$css-prefix}-style-family-classic: var(--#{v.$css-prefix}-family-classic);
+}
+
+
+@font-face {
+  font-family: 'Font Awesome 7 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: v.$font-display;
+  src: url('#{v.$font-path}/fa-solid-900.woff2');
+}
+
+
+.fas {
+  --#{v.$css-prefix}-family: var(--#{v.$css-prefix}-family-classic);
+  --#{v.$css-prefix}-style: 900;
+}
+
+.#{v.$css-prefix}-classic {
+  --#{v.$css-prefix}-family: var(--#{v.$css-prefix}-family-classic);
+}
+
+.#{v.$css-prefix}-solid {
+  --#{v.$css-prefix}-style: 900;
+}
+
+// convenience mixin for declaring pseudo-elements by CSS variable,
+// including all style-specific font properties and ::before elements.
+@mixin icon($var) {
+  @include m.fa-icon(Font Awesome 7 Free);
+  @extend .#{v.$css-prefix}-solid;
+  @extend .#{v.$css-prefix}-classic;
+
+  &::before {
+    content: string.unquote("\"#{ $var }\"");
+  }
+}

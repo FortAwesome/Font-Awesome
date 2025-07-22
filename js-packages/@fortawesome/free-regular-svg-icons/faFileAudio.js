@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'far';
+var iconName = 'file-audio';
+var width = 384;
+var height = 512;
+var aliases = [];
+var unicode = 'f1c7';
+var svgPathData = 'M64 48l112 0 0 88c0 39.8 32.2 72 72 72l88 0 0 240c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16L48 64c0-8.8 7.2-16 16-16zM224 67.9l92.1 92.1-68.1 0c-13.3 0-24-10.7-24-24l0-68.1zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-261.5c0-17-6.7-33.3-18.7-45.3L242.7 18.7C230.7 6.7 214.5 0 197.5 0L64 0zM221.9 267.6c-4.7 10-.3 21.9 9.7 26.6 19.2 8.9 32.4 28.3 32.4 50.8s-13.2 41.9-32.4 50.8c-10 4.7-14.4 16.6-9.7 26.6s16.6 14.4 26.6 9.7C281.2 416.8 304 383.6 304 345s-22.8-71.9-55.6-87.1c-10-4.7-21.9-.3-26.6 9.7zM104 305c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l16 0 27.2 34c3 3.8 7.6 6 12.5 6l.3 0c8.8 0 16-7.2 16-16l0-128c0-8.8-7.2-16-16-16l-.3 0c-4.9 0-9.5 2.2-12.5 6l-27.2 34-16 0zM223.3 373c9.9-5.4 16.7-16 16.7-28.1s-6.7-22.7-16.7-28.1c-7.8-4.2-15.3 3.3-15.3 12.1l0 32c0 8.8 7.6 16.3 15.3 12.1z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faFileAudio = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

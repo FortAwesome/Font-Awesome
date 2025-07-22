@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'far';
+var iconName = 'object-group';
+var width = 576;
+var height = 512;
+var aliases = [];
+var unicode = 'f247';
+var svgPathData = 'M40 64a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm48 59.3c16-6.5 28.9-19.3 35.3-35.3l329.3 0c6.5 16 19.3 28.9 35.3 35.3l0 265.3c-16 6.5-28.9 19.3-35.3 35.3l-329.3 0c-6.5-16-19.3-28.9-35.3-35.3l0-265.3zM512 0c-26.9 0-49.9 16.5-59.3 40L123.3 40C113.9 16.5 90.9 0 64 0 28.7 0 0 28.7 0 64 0 90.9 16.5 113.9 40 123.3l0 265.3c-23.5 9.5-40 32.5-40 59.3 0 35.3 28.7 64 64 64 26.9 0 49.9-16.5 59.3-40l329.3 0c9.5 23.5 32.5 40 59.3 40 35.3 0 64-28.7 64-64 0-26.9-16.5-49.9-40-59.3l0-265.3c23.5-9.5 40-32.5 40-59.3 0-35.3-28.7-64-64-64zM488 64a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM64 424a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm424 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM192 176l88 0 0 56-88 0 0-56zm-8-40c-17.7 0-32 14.3-32 32l0 72c0 17.7 14.3 32 32 32l104 0c17.7 0 32-14.3 32-32l0-72c0-17.7-14.3-32-32-32l-104 0zm72 184l0 24c0 17.7 14.3 32 32 32l104 0c17.7 0 32-14.3 32-32l0-72c0-17.7-14.3-32-32-32l-24 0c0 14.6-3.9 28.2-10.7 40l26.7 0 0 56-88 0 0-16.4c-2.6 .3-5.3 .4-8 .4l-32 0z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faObjectGroup = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

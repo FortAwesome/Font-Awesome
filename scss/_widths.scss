@@ -1,0 +1,12 @@
+// icon widths
+// -------------------------
+@use 'variables' as v;
+
+.#{v.$css-prefix}-width-auto {
+  --#{v.$css-prefix}-width: auto;
+}
+
+.#{v.$css-prefix}-fw,
+.#{v.$css-prefix}-width-fixed {
+  --#{v.$css-prefix}-width: #{v.$fw-width};
+}

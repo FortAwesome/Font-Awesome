@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IconDefinition",
+  "type": "object",
+  "required": ["prefix", "iconName", "icon"],
+  "properties": {
+    "prefix": {
+      "title": "IconPrefix",
+      "type": "string",
+      "description": "A Font Awesome shortPrefixId, such as fas, far, or fab."
+    },
+    "iconName": {
+      "title": "IconName",
+      "type": "string",
+      "description": "A Font Awesome icon name."
+    },
+    "icon": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": [
+        {
+          "type": "number",
+          "description": "viewBox width of the icon."
+        },
+        {
+          "type": "number",
+          "description": "viewBox height of the icon."
+        },
+        {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string",
+                "description": "A name alias, normally this is the old name when an icon has been renamed."
+              },
+              {
+                "type": "integer",
+                "description": "A composite unicode alias, represented as a base 10 integer."
+              }
+            ]
+          },
+          "description": "Ligatures. This is deprecated and will normally be empty."
+        },
+        {
+          "type": "string",
+          "description": "The main or canonical unicode for the icon."
+        },
+        {
+          "oneOf": [
+            {
+              "type": "string",
+              "description": "The single SVG path data as a string, for a monotone icon. Used in a d attribute of an SVG path element."
+            },
+            {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "string"
+              },
+              "description": "Array of SVG path data string, for a duotone icon. A duotone icon always has two paths, even if one is an empty string. Each is used in the d attribute of an SVG path element. Secondary path is listed first, primary is listed second."
+            }
+          ],
+          "description": "SVG path data. A monotone icon always has a single path as a string. A duotone icon always has two paths as an array of strings."
+        }
+      ],
+      "description": "Icon dimensions, paths, and unicode."
+    }
+  },
+  "additionalProperties": false
+}

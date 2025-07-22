@@ -1,0 +1,646 @@
+area-chart:
+  name: chart-area
+arrow-circle-o-down:
+  prefix: far
+  name: circle-down
+arrow-circle-o-left:
+  prefix: far
+  name: circle-left
+arrow-circle-o-right:
+  prefix: far
+  name: circle-right
+arrow-circle-o-up:
+  prefix: far
+  name: circle-up
+arrows:
+  name: up-down-left-right
+arrows-alt:
+  name: maximize
+arrows-h:
+  name: left-right
+arrows-v:
+  name: up-down
+asl-interpreting:
+  name: hands-asl-interpreting
+automobile:
+  name: car
+bank:
+  name: building-columns
+bar-chart:
+  name: chart-column
+bar-chart-o:
+  name: chart-column
+bathtub:
+  name: bath
+battery:
+  name: battery-full
+battery-0:
+  name: battery-empty
+battery-1:
+  name: battery-quarter
+battery-2:
+  name: battery-half
+battery-3:
+  name: battery-three-quarters
+battery-4:
+  name: battery-full
+behance-square:
+  prefix: fab
+  name: square-behance
+bitbucket-square:
+  prefix: fab
+  name: bitbucket
+bitcoin:
+  prefix: fab
+  name: btc
+cab:
+  name: taxi
+calendar:
+  name: calendar-days
+calendar-times-o:
+  prefix: far
+  name: calendar-xmark
+caret-square-o-down:
+  prefix: far
+  name: square-caret-down
+caret-square-o-left:
+  prefix: far
+  name: square-caret-left
+caret-square-o-right:
+  prefix: far
+  name: square-caret-right
+caret-square-o-up:
+  prefix: far
+  name: square-caret-up
+cc:
+  prefix: far
+  name: closed-captioning
+chain:
+  name: link
+chain-broken:
+  name: link-slash
+check-circle-o:
+  prefix: far
+  name: circle-check
+check-square-o:
+  prefix: far
+  name: square-check
+circle-o-notch:
+  name: circle-notch
+circle-thin:
+  prefix: far
+  name: circle
+clipboard:
+  name: paste
+clone:
+  prefix: far
+close:
+  name: xmark
+cloud-download:
+  name: cloud-arrow-down
+cloud-upload:
+  name: cloud-arrow-up
+cny:
+  name: yen-sign
+code-fork:
+  name: code-branch
+commenting:
+  name: comment-dots
+commenting-o:
+  prefix: far
+  name: comment-dots
+compass:
+  prefix: far
+compress:
+  name: down-left-and-up-right-to-center
+copyright:
+  prefix: far
+credit-card:
+  prefix: far
+credit-card-alt:
+  name: credit-card
+cut:
+  name: scissors
+cutlery:
+  name: utensils
+dashboard:
+  name: gauge-high
+deafness:
+  name: ear-deaf
+dedent:
+  name: outdent
+diamond:
+  prefix: far
+  name: gem
+dollar:
+  name: dollar-sign
+dot-circle-o:
+  prefix: far
+  name: circle-dot
+drivers-license:
+  name: id-card
+drivers-license-o:
+  prefix: far
+  name: id-card
+edit:
+  prefix: far
+  name: pen-to-square
+eercast:
+  prefix: fab
+  name: sellcast
+eur:
+  name: euro-sign
+euro:
+  name: euro-sign
+exchange:
+  name: right-left
+expand:
+  name: up-right-and-down-left-from-center
+external-link:
+  name: up-right-from-square
+external-link-square:
+  name: square-up-right
+eye:
+  prefix: far
+eye-slash:
+  prefix: far
+eyedropper:
+  name: eye-dropper
+fa:
+  prefix: fab
+  name: font-awesome
+facebook:
+  prefix: fab
+  name: facebook-f
+facebook-f:
+  prefix: fab
+  name: facebook-f
+facebook-official:
+  prefix: fab
+  name: facebook
+facebook-square:
+  prefix: fab
+  name: square-facebook
+feed:
+  name: rss
+file-archive-o:
+  prefix: far
+  name: file-zipper
+file-movie-o:
+  prefix: far
+  name: file-video
+file-photo-o:
+  prefix: far
+  name: file-image
+file-picture-o:
+  prefix: far
+  name: file-image
+file-sound-o:
+  prefix: far
+  name: file-audio
+file-text:
+  name: file-lines
+file-text-o:
+  prefix: far
+  name: file-lines
+file-zip-o:
+  prefix: far
+  name: file-zipper
+files-o:
+  prefix: far
+  name: copy
+flash:
+  name: bolt
+floppy-o:
+  prefix: far
+  name: floppy-disk
+frown-o:
+  prefix: far
+  name: face-frown
+gbp:
+  name: sterling-sign
+ge:
+  prefix: fab
+  name: empire
+gear:
+  name: gear
+gears:
+  name: gears
+git-square:
+  prefix: fab
+  name: square-git
+github-square:
+  prefix: fab
+  name: square-github
+gittip:
+  prefix: fab
+  name: gratipay
+glass:
+  name: martini-glass-empty
+globe:
+  name: earth-americas
+google-plus:
+  prefix: fab
+  name: google-plus-g
+google-plus-circle:
+  prefix: fab
+  name: google-plus
+google-plus-official:
+  prefix: fab
+  name: google-plus
+google-plus-square:
+  prefix: fab
+  name: square-google-plus
+group:
+  name: users
+hand-grab-o:
+  prefix: far
+  name: hand-back-fist
+hand-o-down:
+  prefix: far
+  name: hand-point-down
+hand-o-left:
+  prefix: far
+  name: hand-point-left
+hand-o-right:
+  prefix: far
+  name: hand-point-right
+hand-o-up:
+  prefix: far
+  name: hand-point-up
+hand-paper-o:
+  prefix: far
+  name: hand
+hand-rock-o:
+  prefix: far
+  name: hand-back-fist
+hand-stop-o:
+  prefix: far
+  name: hand
+hard-of-hearing:
+  name: ear-deaf
+hdd-o:
+  prefix: far
+  name: hard-drive
+header:
+  name: heading
+home:
+  name: house
+hotel:
+  name: bed
+hourglass-1:
+  name: hourglass-start
+hourglass-2:
+  name: hourglass-half
+hourglass-3:
+  name: hourglass-end
+hourglass-o:
+  name: hourglass
+id-badge:
+  prefix: far
+ils:
+  name: shekel-sign
+image:
+  prefix: far
+  name: image
+inr:
+  name: indian-rupee-sign
+institution:
+  name: building-columns
+intersex:
+  name: mars-and-venus
+jpy:
+  name: yen-sign
+krw:
+  name: won-sign
+lastfm-square:
+  prefix: fab
+  name: square-lastfm
+legal:
+  name: gavel
+level-down:
+  name: turn-down
+level-up:
+  name: turn-up
+life-bouy:
+  name: life-ring
+life-buoy:
+  name: life-ring
+life-saver:
+  name: life-ring
+line-chart:
+  name: chart-line
+linkedin:
+  prefix: fab
+  name: linkedin-in
+linkedin-square:
+  prefix: fab
+  name: linkedin
+list-alt:
+  prefix: far
+  name: rectangle-list
+long-arrow-down:
+  name: down-long
+long-arrow-left:
+  name: left-long
+long-arrow-right:
+  name: right-long
+long-arrow-up:
+  name: up-long
+magic:
+  name: wand-magic-sparkles
+mail-forward:
+  name: share
+mail-reply:
+  name: reply
+mail-reply-all:
+  name: reply-all
+map-marker:
+  name: location-dot
+meh-o:
+  prefix: far
+  name: face-meh
+minus-square-o:
+  prefix: far
+  name: square-minus
+mobile:
+  name: mobile-screen-button
+mobile-phone:
+  name: mobile-screen-button
+money:
+  name: money-bill-1
+mortar-board:
+  name: graduation-cap
+navicon:
+  name: bars
+object-group:
+  prefix: far
+object-ungroup:
+  prefix: far
+odnoklassniki-square:
+  prefix: fab
+  name: square-odnoklassniki
+pause-circle-o:
+  prefix: far
+  name: circle-pause
+pencil-square:
+  name: square-pen
+pencil-square-o:
+  prefix: far
+  name: pen-to-square
+photo:
+  prefix: far
+  name: image
+picture-o:
+  prefix: far
+  name: image
+pie-chart:
+  name: chart-pie
+pinterest-square:
+  prefix: fab
+  name: square-pinterest
+play-circle-o:
+  prefix: far
+  name: circle-play
+plus-square-o:
+  prefix: far
+  name: square-plus
+question-circle-o:
+  prefix: far
+  name: circle-question
+ra:
+  prefix: fab
+  name: rebel
+reddit-square:
+  prefix: fab
+  name: square-reddit
+refresh:
+  name: arrows-rotate
+registered:
+  prefix: far
+remove:
+  name: xmark
+reorder:
+  name: bars
+repeat:
+  name: arrow-rotate-right
+resistance:
+  prefix: fab
+  name: rebel
+rmb:
+  name: yen-sign
+rotate-left:
+  name: arrow-rotate-left
+rotate-right:
+  name: arrow-rotate-right
+rouble:
+  name: ruble-sign
+rub:
+  name: ruble-sign
+ruble:
+  name: ruble-sign
+rupee:
+  name: indian-rupee-sign
+s15:
+  name: bath
+save:
+  prefix: far
+  name: floppy-disk
+send:
+  name: paper-plane
+send-o:
+  prefix: far
+  name: paper-plane
+share-square-o:
+  name: share-from-square
+shekel:
+  name: shekel-sign
+sheqel:
+  name: shekel-sign
+sign-in:
+  name: right-to-bracket
+sign-out:
+  name: right-from-bracket
+signing:
+  name: hands
+smile-o:
+  prefix: far
+  name: face-smile
+snapchat-ghost:
+  prefix: fab
+  name: snapchat
+snapchat-square:
+  prefix: fab
+  name: square-snapchat
+soccer-ball-o:
+  prefix: far
+  name: futbol
+sort-alpha-asc:
+  name: arrow-down-a-z
+sort-alpha-desc:
+  name: arrow-down-z-a
+sort-amount-asc:
+  name: arrow-down-short-wide
+sort-amount-desc:
+  name: arrow-down-wide-short
+sort-asc:
+  name: sort-up
+sort-desc:
+  name: sort-down
+sort-numeric-asc:
+  name: arrow-down-1-9
+sort-numeric-desc:
+  name: arrow-down-9-1
+star-half-empty:
+  prefix: far
+  name: star-half-stroke
+star-half-full:
+  prefix: far
+  name: star-half-stroke
+star-half-o:
+  prefix: far
+  name: star-half-stroke
+steam-square:
+  prefix: fab
+  name: square-steam
+sticky-note-o:
+  prefix: far
+  name: note-sticky
+stop-circle-o:
+  prefix: far
+  name: circle-stop
+support:
+  name: life-ring
+tablet:
+  name: tablet-screen-button
+tachometer:
+  name: gauge-high
+tasks:
+  name: bars-progress
+television:
+  name: tv
+thermometer:
+  name: temperature-full
+thermometer-0:
+  name: temperature-empty
+thermometer-1:
+  name: temperature-quarter
+thermometer-2:
+  name: temperature-half
+thermometer-3:
+  name: temperature-three-quarters
+thermometer-4:
+  name: temperature-full
+thumb-tack:
+  name: thumbtack
+thumbs-o-down:
+  prefix: far
+  name: thumbs-down
+thumbs-o-up:
+  prefix: far
+  name: thumbs-up
+times-circle-o:
+  prefix: far
+  name: circle-xmark
+times-rectangle:
+  name: rectangle-xmark
+times-rectangle-o:
+  prefix: far
+  name: rectangle-xmark
+toggle-down:
+  prefix: far
+  name: square-caret-down
+toggle-left:
+  prefix: far
+  name: square-caret-left
+toggle-right:
+  prefix: far
+  name: square-caret-right
+toggle-up:
+  prefix: far
+  name: square-caret-up
+transgender:
+  name: mars-and-venus
+transgender-alt:
+  name: transgender
+trash:
+  name: trash-can
+trash-o:
+  prefix: far
+  name: trash-can
+try:
+  name: turkish-lira-sign
+tumblr-square:
+  prefix: fab
+  name: square-tumblr
+turkish-lira:
+  name: turkish-lira-sign
+twitter-square:
+  prefix: fab
+  name: square-twitter
+unlink:
+  name: link-slash
+unlock-alt:
+  name: unlock
+unsorted:
+  name: sort
+usd:
+  name: dollar-sign
+user-circle-o:
+  prefix: far
+  name: circle-user
+vcard:
+  name: address-card
+vcard-o:
+  prefix: far
+  name: address-card
+viadeo-square:
+  prefix: fab
+  name: square-viadeo
+video-camera:
+  name: video
+vimeo:
+  prefix: fab
+  name: vimeo-v
+vimeo-square:
+  prefix: fab
+  name: square-vimeo
+volume-control-phone:
+  name: phone-volume
+warning:
+  name: triangle-exclamation
+wechat:
+  prefix: fab
+  name: weixin
+wheelchair-alt:
+  prefix: fab
+  name: accessible-icon
+window-close-o:
+  prefix: far
+  name: rectangle-xmark
+window-maximize:
+  prefix: far
+window-restore:
+  prefix: far
+won:
+  name: won-sign
+xing-square:
+  prefix: fab
+  name: square-xing
+y-combinator-square:
+  prefix: fab
+  name: hacker-news
+yc:
+  prefix: fab
+  name: y-combinator
+yc-square:
+  prefix: fab
+  name: hacker-news
+yen:
+  name: yen-sign
+youtube-play:
+  prefix: fab
+  name: youtube
+youtube-square:
+  prefix: fab
+  name: square-youtube

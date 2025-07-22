@@ -1,0 +1,19 @@
+// icons in a list
+// -------------------------
+@use 'variables' as v;
+
+.#{v.$css-prefix}-ul {
+  list-style-type: none;
+  margin-inline-start: var(--#{v.$css-prefix}-li-margin, #{v.$li-margin});
+  padding-inline-start: 0;
+
+  > li { position: relative; }
+}
+
+.#{v.$css-prefix}-li {
+  inset-inline-start: calc(-1 * var(--#{v.$css-prefix}-li-width, #{v.$li-width}));
+  position: absolute;
+  text-align: center;
+  width: var(--#{v.$css-prefix}-li-width, #{v.$li-width});
+  line-height: inherit;
+}
