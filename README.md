@@ -9,7 +9,7 @@ designers, developers, and content creators.
 
 Learn how to get started with Font Awesome and then dive deeper into other and advanced topics:
 
-[Docs for version 6](https://fontawesome.com/docs)
+[Docs for version 7](https://fontawesome.com/docs)
 
 ### Where did Font Awesome 6, 5, 4 (or 3) go?
 
