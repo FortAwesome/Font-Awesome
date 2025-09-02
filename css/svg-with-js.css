@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2025 Fonticons, Inc.
  */
@@ -534,21 +534,20 @@
 }
 
 .svg-inline--fa.fa-stack-1x {
+  --fa-width: 1.25em;
   height: 1em;
-  width: 1.25em;
+  width: var(--fa-width);
 }
 .svg-inline--fa.fa-stack-2x {
+  --fa-width: 2.5em;
   height: 2em;
-  width: 2.5em;
+  width: var(--fa-width);
 }
 
 .fa-stack-1x,
 .fa-stack-2x {
-  bottom: 0;
-  left: 0;
+  inset: 0;
   margin: auto;
   position: absolute;
-  right: 0;
-  top: 0;
   z-index: var(--fa-stack-z-index, auto);
 }
