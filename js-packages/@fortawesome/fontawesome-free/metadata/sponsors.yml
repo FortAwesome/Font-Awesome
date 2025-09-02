@@ -206,6 +206,11 @@ crystal-instruments:
     - chart-sine
   label: Crystal Instruments
   url: 'https://www.crystalinstruments.com'
+crystalinstruments:
+  icons:
+    - transducer
+  label: Crystal Instruments
+  url: 'http://www.CrystalInstruments.com/'
 cuttlefish:
   icons:
     - cuttlefish
@@ -556,6 +561,11 @@ libeo:
     - arrow-right-to-arc
   label: Libeo
   url: 'https://libeo.io'
+lychee:
+  icons:
+    - lychee
+  label: Lychee
+  url: 'https://lychee.is'
 max-elman:
   icons:
     - frog

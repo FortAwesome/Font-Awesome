@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2025 Fonticons, Inc.
  */
@@ -172,11 +172,8 @@
 
 .fa-stack-1x,
 .fa-stack-2x {
-  bottom: 0;
-  left: 0;
+  inset: 0;
   margin: auto;
   position: absolute;
-  right: 0;
-  top: 0;
   z-index: var(--fa-stack-z-index, auto);
 }

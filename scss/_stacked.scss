@@ -13,10 +13,12 @@
 
 .#{v.$css-prefix}-stack-1x,
 .#{v.$css-prefix}-stack-2x {
-  left: 0;
+  --#{v.$css-prefix}-width: 100%;
+
+  inset: 0;
   position: absolute;
   text-align: center;
-  width: 100%;
+  width: var(--#{v.$css-prefix}-width);
   z-index: var(--#{v.$css-prefix}-stack-z-index, #{v.$stack-z-index});
 }
 
