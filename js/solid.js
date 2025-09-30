@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2025 Fonticons, Inc.
  */
@@ -90,8 +90,8 @@
     }
   }
 
-  var _so;
-  var z = {
+  var _dt;
+  var q = {
       classic: {
         fa: "solid",
         fas: "solid",
@@ -182,40 +182,58 @@
       chisel: {
         "fa-regular": "regular",
         facr: "regular"
+      },
+      utility: {
+        "fa-semibold": "semibold",
+        fausb: "semibold"
+      },
+      "utility-duo": {
+        "fa-semibold": "semibold",
+        faudsb: "semibold"
+      },
+      "utility-fill": {
+        "fa-semibold": "semibold",
+        faufsb: "semibold"
       }
     };
-  var a = "classic",
-    o = "duotone",
+  var i = "classic",
+    t = "duotone",
     d = "sharp",
-    t = "sharp-duotone",
-    i = "chisel",
+    l = "sharp-duotone",
+    f = "chisel",
     n = "etch",
     h = "jelly",
-    s = "jelly-duo",
-    f = "jelly-fill",
+    o = "jelly-duo",
+    u = "jelly-fill",
     g = "notdog",
-    l = "notdog-duo",
-    u = "slab",
-    p = "slab-press",
+    s = "notdog-duo",
+    y = "slab",
+    m = "slab-press",
     e = "thumbprint",
-    w = "whiteboard",
-    m = "Classic",
-    y = "Duotone",
-    x = "Sharp",
-    c = "Sharp Duotone",
-    I = "Chisel",
-    b = "Etch",
-    F = "Jelly",
-    v = "Jelly Duo",
-    S = "Jelly Fill",
-    A = "Notdog",
-    P = "Notdog Duo",
-    j = "Slab",
-    B = "Slab Press",
-    N = "Thumbprint",
-    k = "Whiteboard",
-    so = (_so = {}, _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_so, a, m), o, y), d, x), t, c), i, I), n, b), h, F), s, v), f, S), g, A), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_so, l, P), u, j), p, B), e, N), w, k));
-  var io = {
+    p = "utility",
+    a = "utility-duo",
+    w = "utility-fill",
+    x = "whiteboard",
+    b = "Classic",
+    c = "Duotone",
+    I = "Sharp",
+    F = "Sharp Duotone",
+    v = "Chisel",
+    S = "Etch",
+    A = "Jelly",
+    P = "Jelly Duo",
+    j = "Jelly Fill",
+    B = "Notdog",
+    N = "Notdog Duo",
+    k = "Slab",
+    D = "Slab Press",
+    T = "Thumbprint",
+    C = "Utility",
+    W = "Utility Duo",
+    K = "Utility Fill",
+    R = "Whiteboard",
+    dt = (_dt = {}, _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_dt, i, b), t, c), d, I), l, F), f, v), n, S), h, A), o, P), u, j), g, B), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_dt, s, N), y, k), m, D), e, T), p, C), a, W), w, K), x, R));
+  var gt = {
       classic: {
         900: "fas",
         400: "far",
@@ -273,9 +291,18 @@
       },
       "jelly-duo": {
         400: "fajdr"
+      },
+      utility: {
+        600: "fausb"
+      },
+      "utility-duo": {
+        600: "faudsb"
+      },
+      "utility-fill": {
+        600: "faufsb"
       }
     };
-  var Ro = {
+  var _t = {
       chisel: {
         regular: "facr"
       },
@@ -331,11 +358,20 @@
       thumbprint: {
         light: "fatl"
       },
+      utility: {
+        semibold: "fausb"
+      },
+      "utility-duo": {
+        semibold: "faudsb"
+      },
+      "utility-fill": {
+        semibold: "faufsb"
+      },
       whiteboard: {
         semibold: "fawsb"
       }
     };
-  var Oo = {
+  var qt = {
       kit: {
         fak: "kit",
         "fa-kit": "kit"
@@ -345,13 +381,13 @@
         "fa-kit-duotone": "kit-duotone"
       }
     },
-    Go = ["kit"];
-  var D = "kit",
+    Ht = ["kit"];
+  var L = "kit",
     r = "kit-duotone",
-    T = "Kit",
-    C = "Kit Duotone",
-    qo = _defineProperty(_defineProperty({}, D, T), r, C);
-  var Xo = {
+    U = "Kit",
+    J = "Kit Duotone",
+    $t = _defineProperty(_defineProperty({}, L, U), r, J);
+  var ol = {
     kit: {
       "fa-kit": "fak"
     },
@@ -359,7 +395,7 @@
       "fa-kit-duotone": "fakd"
     }
   };
-  var et = {
+  var fl = {
       kit: {
         fak: "fa-kit"
       },
@@ -367,7 +403,7 @@
         fakd: "fa-kit-duotone"
       }
     };
-  var dt = {
+  var ul = {
       kit: {
         kit: "fak"
       },
@@ -376,50 +412,56 @@
       }
     };
 
-  var _fl;
+  var _ml;
   var l$1 = {
       GROUP: "duotone-group",
       SWAP_OPACITY: "swap-opacity",
       PRIMARY: "primary",
       SECONDARY: "secondary"
     };
-  var f$1 = "classic",
-    a$1 = "duotone",
-    n$1 = "sharp",
-    t$1 = "sharp-duotone",
+  var n$1 = "classic",
+    o$1 = "duotone",
+    u$1 = "sharp",
+    s$1 = "sharp-duotone",
     h$1 = "chisel",
     g$1 = "etch",
-    u$1 = "jelly",
-    s$1 = "jelly-duo",
-    p$1 = "jelly-fill",
-    y$1 = "notdog",
-    e$1 = "notdog-duo",
-    m$1 = "slab",
-    c$1 = "slab-press",
+    y$1 = "jelly",
+    e$1 = "jelly-duo",
+    m$1 = "jelly-fill",
+    p$1 = "notdog",
+    a$1 = "notdog-duo",
+    w$1 = "slab",
+    b$1 = "slab-press",
     r$1 = "thumbprint",
-    w$1 = "whiteboard",
-    x$1 = "Classic",
-    I$1 = "Duotone",
-    b$1 = "Sharp",
-    F$1 = "Sharp Duotone",
-    v$1 = "Chisel",
-    S$1 = "Etch",
-    A$1 = "Jelly",
-    j$1 = "Jelly Duo",
-    P$1 = "Jelly Fill",
-    B$1 = "Notdog",
-    k$1 = "Notdog Duo",
-    N$1 = "Slab",
-    D$1 = "Slab Press",
-    C$1 = "Thumbprint",
-    T$1 = "Whiteboard",
-    fl = (_fl = {}, _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_fl, f$1, x$1), a$1, I$1), n$1, b$1), t$1, F$1), h$1, v$1), g$1, S$1), u$1, A$1), s$1, j$1), p$1, P$1), y$1, B$1), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_fl, e$1, k$1), m$1, N$1), c$1, D$1), r$1, C$1), w$1, T$1));
-  var L = "kit",
+    c$1 = "utility",
+    i$1 = "utility-duo",
+    x$1 = "utility-fill",
+    I$1 = "whiteboard",
+    F$1 = "Classic",
+    v$1 = "Duotone",
+    S$1 = "Sharp",
+    A$1 = "Sharp Duotone",
+    P$1 = "Chisel",
+    j$1 = "Etch",
+    B$1 = "Jelly",
+    N$1 = "Jelly Duo",
+    k$1 = "Jelly Fill",
+    D$1 = "Notdog",
+    C$1 = "Notdog Duo",
+    T$1 = "Slab",
+    L$1 = "Slab Press",
+    W$1 = "Thumbprint",
+    R$1 = "Utility",
+    K$1 = "Utility Duo",
+    U$1 = "Utility Fill",
+    J$1 = "Whiteboard",
+    ml$1 = (_ml = {}, _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_ml, n$1, F$1), o$1, v$1), u$1, S$1), s$1, A$1), h$1, P$1), g$1, j$1), y$1, B$1), e$1, N$1), m$1, k$1), p$1, D$1), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_ml, a$1, C$1), w$1, T$1), b$1, L$1), r$1, W$1), c$1, R$1), i$1, K$1), x$1, U$1), I$1, J$1));
+  var E$1 = "kit",
     d$1 = "kit-duotone",
-    R$1 = "Kit",
-    W$1 = "Kit Duotone",
-    lo$1 = _defineProperty(_defineProperty({}, L, R$1), d$1, W$1);
-  var zo$1 = {
+    _$1 = "Kit",
+    M$1 = "Kit Duotone",
+    rt$1 = _defineProperty(_defineProperty({}, E$1, _$1), d$1, M$1);
+  var $t$1 = {
       classic: {
         "fa-brands": "fab",
         "fa-duotone": "fad",
@@ -477,9 +519,18 @@
       },
       chisel: {
         "fa-regular": "facr"
+      },
+      utility: {
+        "fa-semibold": "fausb"
+      },
+      "utility-duo": {
+        "fa-semibold": "faudsb"
+      },
+      "utility-fill": {
+        "fa-semibold": "faufsb"
       }
     },
-    J$1 = {
+    z = {
       classic: ["fas", "far", "fal", "fat", "fad"],
       duotone: ["fadr", "fadl", "fadt"],
       sharp: ["fass", "fasr", "fasl", "fast"],
@@ -494,9 +545,12 @@
       jelly: ["fajr"],
       "jelly-fill": ["fajfr"],
       "jelly-duo": ["fajdr"],
-      chisel: ["facr"]
+      chisel: ["facr"],
+      utility: ["fausb"],
+      "utility-duo": ["faudsb"],
+      "utility-fill": ["faufsb"]
     },
-    Go$1 = {
+    Ht$1 = {
       classic: {
         fab: "fa-brands",
         fad: "fa-duotone",
@@ -554,16 +608,25 @@
       },
       chisel: {
         facr: "fa-regular"
+      },
+      utility: {
+        fausb: "fa-semibold"
+      },
+      "utility-duo": {
+        faudsb: "fa-semibold"
+      },
+      "utility-fill": {
+        faufsb: "fa-semibold"
       }
     },
-    _$1 = ["solid", "regular", "light", "thin", "duotone", "brands", "semibold"],
-    K$1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-    M$1 = K$1.concat([11, 12, 13, 14, 15, 16, 17, 18, 19, 20]),
-    O$1 = ["aw", "fw", "pull-left", "pull-right"],
-    Ho$1 = [].concat(_toConsumableArray(Object.keys(J$1)), _$1, O$1, ["2xs", "xs", "sm", "lg", "xl", "2xl", "beat", "border", "fade", "beat-fade", "bounce", "flip-both", "flip-horizontal", "flip-vertical", "flip", "inverse", "layers", "layers-bottom-left", "layers-bottom-right", "layers-counter", "layers-text", "layers-top-left", "layers-top-right", "li", "pull-end", "pull-start", "pulse", "rotate-180", "rotate-270", "rotate-90", "rotate-by", "shake", "spin-pulse", "spin-reverse", "spin", "stack-1x", "stack-2x", "stack", "ul", "width-auto", "width-fixed", l$1.GROUP, l$1.SWAP_OPACITY, l$1.PRIMARY, l$1.SECONDARY]).concat(K$1.map(function (o) {
-      return "".concat(o, "x");
-    })).concat(M$1.map(function (o) {
-      return "w-".concat(o);
+    G$1 = ["solid", "regular", "light", "thin", "duotone", "brands", "semibold"],
+    O$1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    V$1 = O$1.concat([11, 12, 13, 14, 15, 16, 17, 18, 19, 20]),
+    $$1 = ["aw", "fw", "pull-left", "pull-right"],
+    to = [].concat(_toConsumableArray(Object.keys(z)), G$1, $$1, ["2xs", "xs", "sm", "lg", "xl", "2xl", "beat", "border", "fade", "beat-fade", "bounce", "flip-both", "flip-horizontal", "flip-vertical", "flip", "inverse", "layers", "layers-bottom-left", "layers-bottom-right", "layers-counter", "layers-text", "layers-top-left", "layers-top-right", "li", "pull-end", "pull-start", "pulse", "rotate-180", "rotate-270", "rotate-90", "rotate-by", "shake", "spin-pulse", "spin-reverse", "spin", "stack-1x", "stack-2x", "stack", "ul", "width-auto", "width-fixed", l$1.GROUP, l$1.SWAP_OPACITY, l$1.PRIMARY, l$1.SECONDARY]).concat(O$1.map(function (t) {
+      return "".concat(t, "x");
+    })).concat(V$1.map(function (t) {
+      return "w-".concat(t);
     }));
 
   var NAMESPACE_IDENTIFIER = '___FONT_AWESOME___';
@@ -578,36 +641,36 @@
     // Defaults to the classic family if family is not available
     return new Proxy(obj, {
       get: function get(target, prop) {
-        return prop in target ? target[prop] : target[a];
+        return prop in target ? target[prop] : target[i];
       }
     });
   }
-  var _PREFIX_TO_STYLE = _objectSpread2({}, z);
+  var _PREFIX_TO_STYLE = _objectSpread2({}, q);
 
   // We changed FACSSClassesToStyleId in the icons repo to be canonical and as such, "classic" family does not have any
   // duotone styles.  But we do still need duotone in _PREFIX_TO_STYLE below, so we are manually adding
   // {'fa-duotone': 'duotone'}
-  _PREFIX_TO_STYLE[a] = _objectSpread2(_objectSpread2(_objectSpread2(_objectSpread2({}, {
+  _PREFIX_TO_STYLE[i] = _objectSpread2(_objectSpread2(_objectSpread2(_objectSpread2({}, {
     'fa-duotone': 'duotone'
-  }), z[a]), Oo['kit']), Oo['kit-duotone']);
+  }), q[i]), qt['kit']), qt['kit-duotone']);
   var PREFIX_TO_STYLE = familyProxy(_PREFIX_TO_STYLE);
-  var _STYLE_TO_PREFIX = _objectSpread2({}, Ro);
+  var _STYLE_TO_PREFIX = _objectSpread2({}, _t);
 
   // We changed FAStyleIdToShortPrefixId in the icons repo to be canonical and as such, "classic" family does not have any
   // duotone styles.  But we do still need duotone in _STYLE_TO_PREFIX below, so we are manually adding {duotone: 'fad'}
-  _STYLE_TO_PREFIX[a] = _objectSpread2(_objectSpread2(_objectSpread2(_objectSpread2({}, {
+  _STYLE_TO_PREFIX[i] = _objectSpread2(_objectSpread2(_objectSpread2(_objectSpread2({}, {
     duotone: 'fad'
-  }), _STYLE_TO_PREFIX[a]), dt['kit']), dt['kit-duotone']);
+  }), _STYLE_TO_PREFIX[i]), ul['kit']), ul['kit-duotone']);
   var STYLE_TO_PREFIX = familyProxy(_STYLE_TO_PREFIX);
-  var _PREFIX_TO_LONG_STYLE = _objectSpread2({}, Go$1);
-  _PREFIX_TO_LONG_STYLE[a] = _objectSpread2(_objectSpread2({}, _PREFIX_TO_LONG_STYLE[a]), et['kit']);
+  var _PREFIX_TO_LONG_STYLE = _objectSpread2({}, Ht$1);
+  _PREFIX_TO_LONG_STYLE[i] = _objectSpread2(_objectSpread2({}, _PREFIX_TO_LONG_STYLE[i]), fl['kit']);
   var PREFIX_TO_LONG_STYLE = familyProxy(_PREFIX_TO_LONG_STYLE);
-  var _LONG_STYLE_TO_PREFIX = _objectSpread2({}, zo$1);
-  _LONG_STYLE_TO_PREFIX[a] = _objectSpread2(_objectSpread2({}, _LONG_STYLE_TO_PREFIX[a]), Xo['kit']);
+  var _LONG_STYLE_TO_PREFIX = _objectSpread2({}, $t$1);
+  _LONG_STYLE_TO_PREFIX[i] = _objectSpread2(_objectSpread2({}, _LONG_STYLE_TO_PREFIX[i]), ol['kit']);
   var LONG_STYLE_TO_PREFIX = familyProxy(_LONG_STYLE_TO_PREFIX);
-  var _FONT_WEIGHT_TO_PREFIX = _objectSpread2({}, io);
+  var _FONT_WEIGHT_TO_PREFIX = _objectSpread2({}, gt);
   var FONT_WEIGHT_TO_PREFIX = familyProxy(_FONT_WEIGHT_TO_PREFIX);
-  var RESERVED_CLASSES = [].concat(_toConsumableArray(Go), _toConsumableArray(Ho$1));
+  var RESERVED_CLASSES = [].concat(_toConsumableArray(Ht), _toConsumableArray(to));
 
   function bunker(fn) {
     try {
@@ -738,7 +801,7 @@
     "user-ninja": [448, 512, [129399], "f504", "M352 128c0 70.7-57.3 128-128 128-57.2 0-105.6-37.5-122-89.3-1.1 1.3-2.2 2.6-3.5 3.8-15.8 15.8-38.8 20.7-53.6 22.1-8.1 .8-14.6-5.7-13.8-13.8 1.4-14.7 6.3-37.8 22.1-53.6 5.8-5.8 12.6-10.1 19.6-13.4-7-3.2-13.8-7.6-19.6-13.4-15.8-15.8-20.7-38.8-22.1-53.6-.8-8.1 5.7-14.6 13.8-13.8 14.7 1.4 37.8 6.3 53.6 22.1 4.8 4.8 8.7 10.4 11.7 16.1 21.3-41.2 64.3-69.4 113.8-69.4 70.7 0 128 57.3 128 128zM144 112c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L160 96c-8.8 0-16 7.2-16 16zm-1.4 211l67 50.2c8.5 6.4 20.3 6.4 28.8 0l67-50.2c6.5-4.9 15.2-6.2 22.6-2.8 61.4 28.2 104.1 90.2 104.1 162.1 0 16.4-13.3 29.7-29.7 29.7L45.7 512c-16.4 0-29.7-13.3-29.7-29.7 0-72 42.7-134 104.1-162.1 7.4-3.4 16.1-2.1 22.6 2.8z"],
     "plant-wilt": [512, 512, [], "e5aa", "M344-32c66.3 0 120 53.7 120 120l0 6.2c29.3 12.2 48 41.3 48 76.9 0 27.9-25.3 74.8-66 111.7-3.8 3.5-8.8 5.3-14 5.3s-10.2-1.8-14-5.3c-40.7-36.8-66-83.7-66-111.7 0-35.6 18.7-64.7 48-76.9l0-6.2c0-30.9-25.1-56-56-56s-56 25.1-56 56l0 424c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-296c0-30.9-25.1-56-56-56s-56 25.1-56 56l0 38.2c29.3 12.2 48 41.3 48 76.9 0 27.9-25.3 74.8-66 111.7-3.8 3.5-8.8 5.3-14 5.3s-10.2-1.8-14-5.3C25.3 405.9 0 359 0 331.1 0 295.4 18.7 266.4 48 254.2L48 216c0-66.3 53.7-120 120-120 20.2 0 39.3 5 56 13.8L224 88c0-66.3 53.7-120 120-120z"],
     "weight-scale": [448, 512, ["weight"], "f496", "M116.6 192c-3-10.1-4.6-20.9-4.6-32 0-61.9 50.1-112 112-112S336 98.1 336 160c0 11.1-1.6 21.9-4.6 32l-71 0 24.6-44.3c6.4-11.6 2.3-26.2-9.3-32.6s-26.2-2.3-32.6 9.3l-37.6 67.7-88.8 0zM128 32L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64l-64 0C293.3 11.9 260 0 224 0s-69.3 11.9-96 32z"],
-    "caret-right": [256, 512, [], "f0da", "M32.5 96c0-12.9 7.8-24.6 19.8-29.6S78 64.2 87.1 73.4l160 160c12.5 12.5 12.5 32.8 0 45.3l-160 160c-9.2 9.2-22.9 11.9-34.9 6.9S32.5 428.9 32.5 416l0-320z"],
+    "caret-right": [256, 512, [], "f0da", "M249.3 235.8c10.2 12.6 9.5 31.1-2.2 42.8l-128 128c-9.2 9.2-22.9 11.9-34.9 6.9S64.5 396.9 64.5 384l0-256c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l128 128 2.2 2.4z"],
     "florin-sign": [384, 512, [], "e184", "M314.7 32c-38.8 0-73.7 23.3-88.6 59.1L170.7 224 64 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l80 0-45.1 108.3c-5 11.9-16.6 19.7-29.5 19.7L32 416c-17.7 0-32 14.3-32 32s14.3 32 32 32l37.3 0c38.8 0 73.7-23.3 88.6-59.1L213.3 288 320 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-80 0 45.1-108.3c5-11.9 16.6-19.7 29.5-19.7L352 96c17.7 0 32-14.3 32-32s-14.3-32-32-32l-37.3 0z"],
     "bell": [448, 512, [128276, 61602], "f0f3", "M224 0c-17.7 0-32 14.3-32 32l0 3.2C119 50 64 114.6 64 192l0 21.7c0 48.1-16.4 94.8-46.4 132.4L7.8 358.3C2.7 364.6 0 372.4 0 380.5 0 400.1 15.9 416 35.5 416l376.9 0c19.6 0 35.5-15.9 35.5-35.5 0-8.1-2.7-15.9-7.8-22.2l-9.8-12.2C400.4 308.5 384 261.8 384 213.7l0-21.7c0-77.4-55-142-128-156.8l0-3.2c0-17.7-14.3-32-32-32zM162 464c7.1 27.6 32.2 48 62 48s54.9-20.4 62-48l-124 0z"],
     "lari-sign": [384, 512, [], "e1c8", "M144 0c13.3 0 24 10.7 24 24l0 41.5c7.9-1 15.9-1.5 24-1.5s16.1 .5 24 1.5L216 24c0-13.3 10.7-24 24-24s24 10.7 24 24l0 54c58.9 23.8 103.2 76 116.2 139.7 3.5 17.3-7.7 34.2-25 37.7s-34.2-7.7-37.7-25c-6.7-33.2-26.4-61.8-53.4-80.2l0 81.8c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-101.8c-7.8-1.5-15.8-2.2-24-2.2s-16.2 .8-24 2.2L168 232c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-81.8c-33.8 23-56 61.9-56 105.8 0 70.7 57.3 128 128 128l160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l16.9 0C18.5 350 0 305.2 0 256 0 175.4 49.6 106.4 120 78l0-54c0-13.3 10.7-24 24-24z"],
@@ -869,7 +932,7 @@
     "face-grin-stars": [512, 512, [129321, "grin-stars"], "f587", "M256 512c141.4 0 256-114.6 256-256 0-24.4-3.4-48.1-9.8-70.5 18.6-36.1-2.7-83.6-46.7-90-46.9-58.3-118.9-95.5-199.5-95.5S103.4 37.3 56.5 95.5c-44 6.4-65.3 53.9-46.7 90-6.4 22.4-9.8 46-9.8 70.5 0 141.4 114.6 256 256 256zM386.7 324.9c11.9-3.7 23.9 6.3 19.6 18.1-22.4 61.3-81.3 105.1-150.3 105.1S128.1 404.2 105.7 342.9c-4.3-11.8 7.7-21.8 19.6-18.1 39.2 12.2 83.7 19.1 130.7 19.1s91.5-6.9 130.7-19.1zm-31.6-231c5.3-10.7 20.5-10.7 25.8 0l20.9 42.4 46.7 6.8c11.8 1.7 16.5 16.2 8 24.5l-33.8 33 8 46.6c2 11.7-10.3 20.7-20.9 15.2l-41.8-22-41.8 22c-10.5 5.5-22.9-3.4-20.9-15.2l8-46.6-33.8-33c-8.5-8.3-3.8-22.8 8-24.5l46.7-6.8 20.9-42.4zm-198.2 0l20.9 42.4 46.7 6.8c11.8 1.7 16.5 16.2 8 24.5l-33.8 33 8 46.6c2 11.7-10.3 20.7-20.9 15.2l-41.8-22-41.8 22c-10.5 5.5-22.9-3.4-20.9-15.2l8-46.6-33.8-33c-8.5-8.3-3.8-22.8 8-24.5l46.7-6.8 20.9-42.4c5.3-10.7 20.5-10.7 25.8 0z"],
     "sort-up": [384, 512, ["sort-asc"], "f0de", "M32 224c-12.9 0-24.6-7.8-29.6-19.8S.2 178.5 9.4 169.4l160-160c12.5-12.5 32.8-12.5 45.3 0l160 160c9.2 9.2 11.9 22.9 6.9 34.9S364.9 224 352 224L32 224z"],
     "eye": [576, 512, [128065], "f06e", "M288 32c-80.8 0-145.5 36.8-192.6 80.6-46.8 43.5-78.1 95.4-93 131.1-3.3 7.9-3.3 16.7 0 24.6 14.9 35.7 46.2 87.7 93 131.1 47.1 43.7 111.8 80.6 192.6 80.6s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1 3.3-7.9 3.3-16.7 0-24.6-14.9-35.7-46.2-87.7-93-131.1-47.1-43.7-111.8-80.6-192.6-80.6zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64-11.5 0-22.3-3-31.7-8.4-1 10.9-.1 22.1 2.9 33.2 13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-12.2-45.7-55.5-74.8-101.1-70.8 5.3 9.3 8.4 20.1 8.4 31.7z"],
-    "caret-left": [256, 512, [], "f0d9", "M224 96c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-160 160c-12.5 12.5-12.5 32.8 0 45.3l160 160c9.2 9.2 22.9 11.9 34.9 6.9S224 428.9 224 416l0-320z"],
+    "caret-left": [256, 512, [], "f0d9", "M7.7 235.8c-10.3 12.6-9.5 31.1 2.2 42.8l128 128c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-256c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-128 128-2.2 2.4z"],
     "apple-whole": [448, 512, [127822, 127823, "apple-alt"], "f5d1", "M224 112c-8.8 0-16-7.2-16-16l0-16c0-44.2 35.8-80 80-80l16 0c8.8 0 16 7.2 16 16l0 16c0 44.2-35.8 80-80 80l-16 0zM0 288c0-76.3 35.7-160 112-160 27.3 0 59.7 10.3 82.7 19.3 18.8 7.3 39.9 7.3 58.7 0 22.9-8.9 55.4-19.3 82.7-19.3 76.3 0 112 83.7 112 160 0 128-80 224-160 224-16.5 0-38.1-6.6-51.5-11.3-8.1-2.8-16.9-2.8-25 0-13.4 4.7-35 11.3-51.5 11.3-80 0-160-96-160-224z"],
     "scroll-torah": [576, 512, ["torah"], "f6a0", "M0 48C0 21.5 21.5 0 48 0 68.9 0 86.7 13.4 93.3 32l389.5 0c6.6-18.6 24.4-32 45.3-32 26.5 0 48 21.5 48 48l0 416c0 26.5-21.5 48-48 48-20.9 0-38.7-13.4-45.3-32L93.3 480c-6.6 18.6-24.4 32-45.3 32-26.5 0-48-21.5-48-48L0 48zM177.9 301c-1.2 2-1.9 4.2-1.9 6.6 0 6.9 5.6 12.5 12.5 12.5l56.9 0 30.5 49.2c2.6 4.2 7.2 6.8 12.2 6.8s9.6-2.6 12.2-6.8l30.5-49.2 56.9 0c6.9 0 12.5-5.6 12.5-12.5 0-2.3-.6-4.6-1.9-6.6l-27.8-45 27.8-45c1.2-2 1.9-4.2 1.9-6.6 0-6.9-5.6-12.5-12.5-12.5l-56.9 0-30.5-49.2c-2.6-4.2-7.2-6.8-12.2-6.8s-9.6 2.6-12.2 6.8l-30.5 49.2-56.9 0c-6.9 0-12.5 5.6-12.5 12.5 0 2.3 .6 4.6 1.9 6.6l27.8 45-27.8 45z"],
     "house-lock": [640, 512, [], "e510", "M528 224.1c44.2 0 80 35.8 80 80l0 50.6c18.6 6.6 32 24.4 32 45.3l0 96c0 26.5-21.5 48-48 48l-128 0c-26.5 0-48-21.5-48-48l0-96c0-20.9 13.4-38.7 32-45.3l0-50.6c0-44.2 35.8-80 80-80zM268.6 6.5c12.2-9.3 29.7-8.7 41.2 2l185 171.8C440.2 195 400 244.8 400 304l0 24.4c-19.6 17.6-32 43.1-32 71.5l0 96c0 5.5 .5 10.9 1.3 16.1L144 512c-35.3 0-64-28.7-64-64l0-176-16 0c-13.2 0-25-8.1-29.8-20.3s-1.6-26.2 8-35.1l224-208 2.4-2zM272 320c-26.5 0-48 21.5-48 48l0 96 96 0 0-87.3c0-16.5 7-31.5 18.4-42.1-8.7-9-20.9-14.6-34.4-14.6l-32 0zm256-47.9c-17.7 0-32 14.3-32 32l0 47.9 64 0 0-47.9c0-17.7-14.3-32-32-32z"],
@@ -1751,7 +1814,7 @@
     "file-pdf": [576, 512, [], "f1c1", "M96 0C60.7 0 32 28.7 32 64l0 384c0 35.3 28.7 64 64 64l80 0 0-112c0-35.3 28.7-64 64-64l176 0 0-165.5c0-17-6.7-33.3-18.7-45.3L290.7 18.7C278.7 6.7 262.5 0 245.5 0L96 0zM357.5 176L264 176c-13.3 0-24-10.7-24-24L240 58.5 357.5 176zM240 380c-11 0-20 9-20 20l0 128c0 11 9 20 20 20s20-9 20-20l0-28 12 0c33.1 0 60-26.9 60-60s-26.9-60-60-60l-32 0zm32 80l-12 0 0-40 12 0c11 0 20 9 20 20s-9 20-20 20zm96-80c-11 0-20 9-20 20l0 128c0 11 9 20 20 20l32 0c28.7 0 52-23.3 52-52l0-64c0-28.7-23.3-52-52-52l-32 0zm20 128l0-88 12 0c6.6 0 12 5.4 12 12l0 64c0 6.6-5.4 12-12 12l-12 0zm88-108l0 128c0 11 9 20 20 20s20-9 20-20l0-44 28 0c11 0 20-9 20-20s-9-20-20-20l-28 0 0-24 28 0c11 0 20-9 20-20s-9-20-20-20l-48 0c-11 0-20 9-20 20z"],
     "language": [576, 512, [], "f1ab", "M160 0c17.7 0 32 14.3 32 32l0 32 128 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-9.6 0-8.4 23.1c-16.4 45.2-41.1 86.5-72.2 122 14.2 8.8 29 16.6 44.4 23.5l50.4 22.4 62.2-140c5.1-11.6 16.6-19 29.2-19s24.1 7.4 29.2 19l128 288c7.2 16.2-.1 35.1-16.2 42.2s-35.1-.1-42.2-16.2l-20-45-157.5 0-20 45c-7.2 16.2-26.1 23.4-42.2 16.2s-23.4-26.1-16.2-42.2l39.8-89.5-50.4-22.4c-23-10.2-45-22.4-65.8-36.4-21.3 17.2-44.6 32.2-69.5 44.7L78.3 380.6c-15.8 7.9-35 1.5-42.9-14.3s-1.5-35 14.3-42.9l34.5-17.3c16.3-8.2 31.8-17.7 46.4-28.3-13.8-12.7-26.8-26.4-38.9-40.9L81.6 224.7c-11.3-13.6-9.5-33.8 4.1-45.1s33.8-9.5 45.1 4.1l10.2 12.2c11.5 13.9 24.1 26.8 37.4 38.7 27.5-30.4 49.2-66.1 63.5-105.4l.5-1.2-210.3 0C14.3 128 0 113.7 0 96S14.3 64 32 64l96 0 0-32c0-17.7 14.3-32 32-32zM416 270.8L365.7 384 466.3 384 416 270.8z"],
     "shield-halved": [512, 512, ["shield-alt"], "f3ed", "M256 0c4.6 0 9.2 1 13.4 2.9L457.8 82.8c22 9.3 38.4 31 38.3 57.2-.5 99.2-41.3 280.7-213.6 363.2-16.7 8-36.1 8-52.8 0-172.4-82.5-213.1-264-213.6-363.2-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.9 1 251.4 0 256 0zm0 66.8l0 378.1c138-66.8 175.1-214.8 176-303.4l-176-74.6 0 0z"],
-    "caret-up": [384, 512, [], "f0d8", "M32 352c-12.9 0-24.6-7.8-29.6-19.8S.2 306.5 9.4 297.4l160-160c12.5-12.5 32.8-12.5 45.3 0l160 160c9.2 9.2 11.9 22.9 6.9 34.9S364.9 352 352 352L32 352z"],
+    "caret-up": [320, 512, [], "f0d8", "M140.3 135.2c12.6-10.3 31.1-9.5 42.8 2.2l128 128c9.2 9.2 11.9 22.9 6.9 34.9S301.4 320 288.5 320l-256 0c-12.9 0-24.6-7.8-29.6-19.8S.7 274.5 9.9 265.4l128-128 2.4-2.2z"],
     "file-pen": [640, 512, [128221, "file-edit"], "f31c", "M128.1 0c-35.3 0-64 28.7-64 64l0 384c0 35.3 28.7 64 64 64l146.2 0 10.9-54.5c4.3-21.7 15-41.6 30.6-57.2l132.2-132.2 0-97.5c0-17-6.7-33.3-18.7-45.3L322.8 18.7C310.8 6.7 294.5 0 277.6 0L128.1 0zM389.6 176l-93.5 0c-13.3 0-24-10.7-24-24l0-93.5 117.5 117.5zM332.3 466.9l-11.9 59.6c-.2 .9-.3 1.9-.3 2.9 0 8 6.5 14.6 14.6 14.6 1 0 1.9-.1 2.9-.3l59.6-11.9c12.4-2.5 23.8-8.6 32.7-17.5l118.9-118.9-80-80-118.9 118.9c-8.9 8.9-15 20.3-17.5 32.7zm267.8-123c22.1-22.1 22.1-57.9 0-80s-57.9-22.1-80 0l-28.8 28.8 80 80 28.8-28.8z"],
     "person-biking": [576, 512, [128692, "biking"], "f84a", "M368 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm27.2 64l-61.8-48.8c-17.3-13.6-41.7-13.8-59.1-.3l-83.1 64.2c-30.7 23.8-28.5 70.8 4.3 91.6L256 305.1 256 416c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128c0-10.7-5.3-20.7-14.2-26.6L263 232.9 323.3 184.4 364 217c5.7 4.5 12.7 7 20 7l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-52.8 0zM112 512a112 112 0 1 0 0-224 112 112 0 1 0 0 224zm352 0a112 112 0 1 0 0-224 112 112 0 1 0 0 224z"],
     "book-open-reader": [512, 512, ["book-reader"], "f5da", "M256 152a88 88 0 1 0 0-176 88 88 0 1 0 0 176zm0 298.7l0-149.3c16.3-6.8 32.9-13.7 49.7-20.7 39-16.2 80.8-24.6 123.1-24.6l19.2 0 0 160-19.2 0c-59.1 0-117.7 11.7-172.3 34.5l-.5 .2zM256 232l-25.1-10.5C184.1 202 133.9 192 83.2 192L48 192c-26.5 0-48 21.5-48 48L0 432c0 26.5 21.5 48 48 48l35.2 0c50.7 0 100.9 10 147.7 29.5l12.8 5.3c7.9 3.3 16.7 3.3 24.6 0l12.8-5.3c46.8-19.5 97-29.5 147.7-29.5l35.2 0c26.5 0 48-21.5 48-48l0-192c0-26.5-21.5-48-48-48l-35.2 0c-50.7 0-100.9 10-147.7 29.5L256 232z"],
@@ -1825,7 +1888,7 @@
     "pen-clip": [512, 512, ["pen-alt"], "f305", "M404 0c19.2 0 37.6 7.6 51.1 21.2l35.7 35.7C504.4 70.4 512 88.8 512 108s-7.6 37.6-21.2 51.1L445.9 204 308 66.1 352.9 21.2C366.4 7.6 384.8 0 404 0zM274.1 100l0 0 137.9 137.9-215.1 215.1c-10.7 10.7-24.1 18.5-38.7 22.6L30.4 511.1c-8.3 2.3-17.3 0-23.4-6.2s-8.5-15.1-6.2-23.4L36.4 353.8c4.1-14.6 11.8-27.9 22.6-38.7L240.1 133.9 223 116.9c-9.4-9.4-24.6-9.4-33.9 0L89 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L155.1 82.9c28.1-28.1 73.7-28.1 101.8 0L274.1 100z"],
     "door-closed": [448, 512, [128682], "f52a", "M32 64C32 28.7 60.7 0 96 0L352 0c35.3 0 64 28.7 64 64l0 384c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32s14.3-32 32-32L32 64zM320 288a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"],
     "arrow-down-wide-short": [576, 512, ["sort-amount-asc", "sort-amount-down"], "f160", "M246.6 374.6l-96 96c-12.5 12.5-32.8 12.5-45.3 0l-96-96c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L96 370.7 96 64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 306.7 41.4-41.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3zM320 480c-17.7 0-32-14.3-32-32s14.3-32 32-32l32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0zm0-128c-17.7 0-32-14.3-32-32s14.3-32 32-32l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-96 0zm0-128c-17.7 0-32-14.3-32-32s14.3-32 32-32l160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-160 0zm0-128c-17.7 0-32-14.3-32-32s14.3-32 32-32l224 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L320 96z"],
-    "caret-down": [384, 512, [], "f0d7", "M352 160c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-160 160c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-9.2-9.2-11.9-22.9-6.9-34.9S19.1 160 32 160l320 0z"],
+    "caret-down": [320, 512, [], "f0d7", "M140.3 376.8c12.6 10.2 31.1 9.5 42.8-2.2l128-128c9.2-9.2 11.9-22.9 6.9-34.9S301.4 192 288.5 192l-256 0c-12.9 0-24.6 7.8-29.6 19.8S.7 237.5 9.9 246.6l128 128 2.4 2.2z"],
     "k": [320, 512, [107], "4b", "M311 86.3c12.3-12.7 12-32.9-.7-45.2s-32.9-12-45.2 .7C143.4 167.2 76.4 236.3 64 249L64 64c0-17.7-14.3-32-32-32S0 46.3 0 64L0 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-107 64.7-66.7 133 192c10.1 14.5 30 18.1 44.5 8.1s18.1-30 8.1-44.5L174.1 227.4 311 86.3z"],
     "check-to-slot": [576, 512, ["vote-yea"], "f772", "M552 288c13.3 0 24 10.7 24 24l0 104c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 312c0-13.3 10.7-24 24-24s24 10.7 24 24l0 104c0 8.8 7.2 16 16 16l448 0c8.8 0 16-7.2 16-16l0-104c0-13.3 10.7-24 24-24zM416 32c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64l-256 0c-35.3 0-64-28.7-64-64L96 96c0-35.3 28.7-64 64-64l256 0zm-37.1 84.6c-10.7-7.8-25.7-5.4-33.5 5.3l-85.6 117.7-26.5-27.4c-9.2-9.5-24.4-9.8-33.9-.6-9.5 9.2-9.8 24.4-.6 33.9l46.4 48c4.9 5.1 11.8 7.8 18.9 7.3s13.6-4.1 17.8-9.8L384.2 150.1c7.8-10.7 5.4-25.7-5.3-33.5z"],
     "fish-fins": [576, 512, [], "e4f2", "M275.2 38.4c-10.6-8-25-8.5-36.3-1.5S222 57.3 224.6 70.3l9.7 48.6c-19.4 9-36.9 19.9-52.4 31.5-15.3 11.5-29 23.9-40.7 36.3L48.1 132.4c-12.5-7.3-28.4-5.3-38.7 4.9s-12.4 26-5.3 38.6L50 256 4.2 336.1c-7.2 12.6-5 28.4 5.3 38.6s26.1 12.2 38.7 4.9l93.1-54.3c11.8 12.3 25.4 24.8 40.7 36.3 15.5 11.6 33 22.5 52.4 31.5l-9.7 48.6c-2.6 13 3.1 26.3 14.3 33.3s25.6 6.5 36.3-1.5l77.6-58.2c54.9-4 101.5-27 137.2-53.8 39.2-29.4 67.2-64.7 81.6-89.5 5.8-9.9 5.8-22.2 0-32.1-14.4-24.8-42.5-60.1-81.6-89.5-35.8-26.8-82.3-49.8-137.2-53.8L275.2 38.4zM384 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"],

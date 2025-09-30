@@ -8257,6 +8257,7 @@ calendar-check:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -10451,6 +10452,7 @@ check-to-slot:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -11403,6 +11405,7 @@ circle-check:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -11627,6 +11630,7 @@ circle-dot:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -11705,6 +11709,7 @@ circle-exclamation:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -12518,6 +12523,7 @@ clipboard-check:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -18646,6 +18652,7 @@ exclamation:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22312,6 +22319,7 @@ filter-circle-dollar:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -22341,6 +22349,7 @@ filter-circle-xmark:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -32601,6 +32610,7 @@ location-pin:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -35784,6 +35794,7 @@ motorcycle:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -38031,6 +38042,7 @@ pencil:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -44538,6 +44550,7 @@ screwdriver-wrench:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -47633,6 +47646,7 @@ square-check:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -53565,6 +53579,7 @@ triangle-exclamation:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic
@@ -55137,6 +55152,7 @@ user-check:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   familyStylesByLicense:
     free:
       - family: classic

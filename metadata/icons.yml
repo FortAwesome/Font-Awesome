@@ -6888,6 +6888,7 @@ calendar-check:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Calendar Check
   search:
     terms:
@@ -8731,6 +8732,7 @@ check-to-slot:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Check To Slot
   search:
     terms:
@@ -9527,6 +9529,7 @@ circle-check:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Circle Check
   search:
     terms:
@@ -9718,6 +9721,7 @@ circle-dot:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Circle Dot
   search:
     terms:
@@ -9780,6 +9784,7 @@ circle-exclamation:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Circle Exclamation
   search:
     terms:
@@ -10458,6 +10463,7 @@ clipboard-check:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Clipboard Check
   search:
     terms:
@@ -15532,6 +15538,7 @@ exclamation:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Exclamation
   search:
     terms:
@@ -18566,6 +18573,7 @@ filter-circle-dollar:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Filter Circle Dollar
   search:
     terms:
@@ -18590,6 +18598,7 @@ filter-circle-xmark:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Filter Circle Xmark
   search:
     terms:
@@ -27042,6 +27051,7 @@ location-pin:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Location Pin
   search:
     terms:
@@ -29703,6 +29713,7 @@ motorcycle:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Motorcycle
   search:
     terms:
@@ -31534,6 +31545,7 @@ pencil:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Pencil
   search:
     terms:
@@ -36952,6 +36964,7 @@ screwdriver-wrench:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Screwdriver Wrench
   search:
     terms:
@@ -39526,6 +39539,7 @@ square-check:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Square Check
   search:
     terms:
@@ -44450,6 +44464,7 @@ triangle-exclamation:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: Triangle Exclamation
   search:
     terms:
@@ -45751,6 +45766,7 @@ user-check:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.0.1
   label: User Check
   search:
     terms:

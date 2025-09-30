@@ -1,5 +1,5 @@
-export type IconFamily = "classic" | "duotone" | "sharp" | "sharp-duotone" | "chisel" | "etch" | "jelly" | "jelly-duo" | "jelly-fill" | "notdog" | "notdog-duo" | "slab" | "slab-press" | "thumbprint" | "whiteboard";
-export type IconPrefix = "fas" | "fass" | "far" | "fasr" | "fal" | "fasl" | "fat" | "fast" | "fad" | "fadr" | "fadl" | "fadt" | "fasds" | "fasdr" | "fasdl" | "fasdt" | "fab" | "faslr" | "faslpr" | "fawsb" | "fatl" | "fans" | "fands" | "faes" | "fajr" | "fajfr" | "fajdr" | "facr" | "fak" | "fakd";
+export type IconFamily = "classic" | "duotone" | "sharp" | "sharp-duotone" | "chisel" | "etch" | "jelly" | "jelly-duo" | "jelly-fill" | "notdog" | "notdog-duo" | "slab" | "slab-press" | "thumbprint" | "utility" | "utility-duo" | "utility-fill" | "whiteboard";
+export type IconPrefix = "fas" | "fass" | "far" | "fasr" | "fal" | "fasl" | "fat" | "fast" | "fad" | "fadr" | "fadl" | "fadt" | "fasds" | "fasdr" | "fasdl" | "fasdt" | "fab" | "faslr" | "faslpr" | "fawsb" | "fatl" | "fans" | "fands" | "faes" | "fajr" | "fajfr" | "fajdr" | "facr" | "fausb" | "faudsb" | "faufsb" | "fak" | "fakd";
 export type CssStyleClass = "fa-solid" | "fa-regular" | "fa-light" | "fa-thin" | "fa-duotone" | "fa-brands" | "fa-semibold";
 export type IconStyle = "solid" | "regular" | "light" | "thin" | "duotone" | "brands" | "semibold";
 export type IconPathData = string | string[]

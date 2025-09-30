@@ -626,6 +626,16 @@ mizuni:
     - mizuni
   label: Mizuni
   url: 'http://www.mizuni.com'
+morganlopes:
+  icons:
+    - aeropress
+    - chemex
+    - foot-wing
+    - hand-shaka
+    - kettlebell
+    - supportnow
+  label: Morgan Lopes
+  url: 'https://www.morganjlopes.com/fontawesome'
 mrt:
   icons:
     - medrt
@@ -729,6 +739,11 @@ optimism:
     - swap-arrows
   label: Optimism
   url: 'https://www.optimism.io/'
+oxiyen:
+  icons:
+    - pump-impeller
+  label: Oxiyen
+  url: 'https://oxiyen.com/'
 padlet:
   icons:
     - padlet
