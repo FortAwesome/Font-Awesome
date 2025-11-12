@@ -14,7 +14,7 @@ export interface IconDefinition extends IconLookup {
   icon: [
     number, // width
     number, // height
-    string[], // ligatures
+    (number | string)[], // ligatures
     string, // unicode
     IconPathData // svgPathData
   ];
