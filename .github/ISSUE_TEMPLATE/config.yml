@@ -2,3 +2,11 @@ contact_links:
   - name: Pro License Issue
     url: https://fontawesome.com/#footer
     about: Click on the "Support" link in the footer
+
+  - name: "✨ Icon Requests"
+    url: "https://github.com/FortAwesome/Font-Awesome/discussions/new?category=icon-requests"
+    about: "Request new icons or vote on existing icon ideas."
+
+  - name: "🏷️ Brand Requests"
+    url: "https://github.com/FortAwesome/Font-Awesome/discussions/new?category=brand-requests"
+    about: "Request new brands or logos to be added to FA Brands."
