@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 🧙‍♂️ What modifier are you requesting?
-        Describe the modifier you'd like to add and what it should represent.
+        ## 🪄 Thanks for suggesting an addition to the Icon Wizard!
+        The [Icon Wizard](https://docs.fontawesome.com/web/add-icons/icon-wizard) lets folks add modifiers to any existing Font Awesome Pro icon.
 
   - type: textarea
     id: modifier-description
