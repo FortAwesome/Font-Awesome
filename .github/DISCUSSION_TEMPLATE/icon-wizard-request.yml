@@ -1,6 +1,7 @@
-name: "Icon Wizard modifier request"
-description: "Request new modifiers to add to the Icon Wizard."
-labels: ["icon wizard modifier"]
+title: "Icon Wizard Request: "
+labels:
+  - "icon request"
+  - "new modifier"
 body:
   - type: markdown
     attributes:

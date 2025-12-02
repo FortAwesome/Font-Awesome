@@ -1,6 +1,7 @@
-name: "Icon request"
-description: "Request new icons and help the community vote on what we should design next."
-labels: ["icon-request"]
+title: "Icon Request: "
+labels:
+  - "icon request"
+  - "new icon"
 body:
   - type: markdown
     attributes:

@@ -1,6 +1,7 @@
-name: "Brand request"
-description: "Request new brand or product logos to be added to FA Brands."
-labels: ["brand icon"]
+title: "Brand Request: "
+labels:
+  - "icon request"
+  - "brand icon"
 body:
   - type: markdown
     attributes:
