@@ -1,0 +1,23 @@
+# .github/DISCUSSION_TEMPLATE/config.yml
+
+categories:
+  - id: icon-requests
+    title: "✨ Icon Requests"
+    description: "Request new icons and vote on what we should design next."
+    labels: ["icon-request"]
+    templates:
+      - icon-request.md
+
+  - id: brand-requests
+    title: "🏢 Brand Requests"
+    description: "Request new brand or product logos for the Brands pack."
+    labels: ["brand icon"]
+    templates:
+      - brand-request.md
+
+  - id: icon-wizard-requests
+    title: "🧙 Icon Wizard Requests"
+    description: "Request new modifiers to add to the Icon Wizard."
+    labels: ["icon wizard modifier"]
+    templates:
+      - icon-wizard-request.md
