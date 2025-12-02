@@ -1,0 +1,59 @@
+name: "Icon request"
+description: "Request new icons and help the community vote on what we should design next."
+labels: ["icon-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 👋 Thanks for suggesting a new icon!
+        Your ideas help shape what we design next. A clear, thoughtful request makes it easier for the community to vote on and for our team to evaluate.
+
+  - type: textarea
+    id: icon-description
+    attributes:
+      label: "🧩 What icon are you requesting?"
+      description: "Describe the icon and the concept it should represent."
+
+  - type: textarea
+    id: icon-usage
+    attributes:
+      label: "💡 Where would this icon be used?"
+      description: "Tell us the scenario, UI, or workflow where this icon appears."
+
+  - type: textarea
+    id: visual-references
+    attributes:
+      label: "🖼️ Visual references (optional but very helpful)"
+      description: "Paste example images, sketches, screenshots, or links here. Simple, single-color images are best."
+
+  - type: checkboxes
+    id: preferred-packs
+    attributes:
+      label: "🎨 Preferred pack(s) (optional)"
+      description: "Which Font Awesome pack(s) could this icon appear in?"
+      options:
+        - label: "Classic, Duotone, Sharp, Sharp Duotone"
+        - label: "Chisel"
+        - label: "Etch"
+        - label: "Jelly"
+        - label: "Notdog"
+        - label: "Slab"
+        - label: "Thumbprint"
+        - label: "Utility"
+        - label: "Whiteboard"
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "✅ Request checklist"
+      options:
+        - label: "This request is **not** for a brand or logo (those follow a different request flow)"
+          required: true
+        - label: "This request is for a **single, clear concept** (or a matched pair like `lock` / `unlock`)"
+          required: true
+        - label: "I've included references *or* the concept is easy to visualize"
+          required: false
+        - label: "I searched existing Discussions/Issues to avoid duplicates"
+          required: true
+        - label: "I understand how icon requests work and what makes one more likely to be accepted"
+          required: false
