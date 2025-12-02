@@ -56,4 +56,4 @@ body:
         - label: "I searched existing Discussions/Issues to avoid duplicates"
           required: true
         - label: "I understand how icon requests work and what makes one more likely to be accepted"
-          required: false
+          required: true
