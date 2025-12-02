@@ -1,0 +1,41 @@
+name: "Brand request"
+description: "Request new brand or product logos to be added to FA Brands."
+labels: ["brand icon"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 👋 Thanks for suggesting a new brand!
+        Brand icons only appear in the [Brands pack](https://fontawesome.com/icons/packs/brands), and they must represent real, active companies or products with publicly available branding.
+
+  - type: textarea
+    id: brand-name
+    attributes:
+      label: "🏷️ What brand are you requesting?"
+      description: "Tell us the name of the brand and why it is important to have it in the core of Font Awesome."
+
+  - type: input
+    id: official-website
+    attributes:
+      label: "🌐 Official website"
+      description: "Please provide the official website of this brand. The website must be in production and reachable from the public internet."
+
+  - type: textarea
+    id: brand-assets
+    attributes:
+      label: "📘 Brand assets or guidelines (optional)"
+      description: "Links to brand guidelines, press kits, logo assets, or other references."
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "🔍 Request checklist"
+      options:
+        - label: "This is a real, established brand or product"
+          required: true
+        - label: "The brand is not already available in Font Awesome"
+          required: true
+        - label: "I've searched existing brand requests to avoid duplicates"
+          required: true
+        - label: "I understand how brand requests work and the criteria for acceptance"
+          required: true

@@ -1,0 +1,35 @@
+name: "Icon Wizard modifier request"
+description: "Request new modifiers to add to the Icon Wizard."
+labels: ["icon wizard modifier"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🧙‍♂️ What modifier are you requesting?
+        Describe the modifier you'd like to add and what it should represent.
+
+  - type: textarea
+    id: modifier-description
+    attributes:
+      label: "🧙‍♂️ What modifier are you requesting?"
+      description: "Describe the modifier you'd like to add and what it should represent. Pasting an image here works, too."
+
+  - type: textarea
+    id: modifier-usage
+    attributes:
+      label: "💡 How would you use this modifier?"
+      description: "Tell us how you'd combine it with core icons and where it would show up in a UI.\n\nEx: `folder + file` for file-related folders, `user + warning` for risky accounts, etc."
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "✅ Request checklist"
+      options:
+        - label: "This is a generic symbol, not a brand or logo"
+          required: true
+        - label: "This concept would work as a **small corner/badge modifier**, not a full-size icon"
+          required: true
+        - label: "I've checked existing Icon Wizard modifiers and didn't find this idea"
+          required: true
+        - label: "This is a single, clear modifier concept"
+          required: true
