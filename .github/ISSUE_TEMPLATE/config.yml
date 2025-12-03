@@ -1,8 +1,4 @@
 contact_links:
-  - name: Pro License Issue
-    url: https://fontawesome.com/#footer
-    about: Click on the "Support" link in the footer
-
   - name: "✨ Icon Requests"
     url: "https://github.com/FortAwesome/Font-Awesome/discussions/new?category=icon-requests"
     about: "Request new icons or vote on existing icon ideas."
@@ -10,3 +6,11 @@ contact_links:
   - name: "🏷️ Brand Requests"
     url: "https://github.com/FortAwesome/Font-Awesome/discussions/new?category=brand-requests"
     about: "Request new brands or logos to be added to FA Brands."
+
+  - name: "💡 Feature Requests"
+    url: "https://github.com/FortAwesome/Font-Awesome/discussions/new?category=icon-requests"
+    about: "Suggest an idea for Font Awesome."
+
+  - name: Pro License Issue
+    url: https://fontawesome.com/#footer
+    about: Click on the "Support" link in the footer
