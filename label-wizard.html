@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Awesome Label Wizard</title>
+    <meta name="description" content="Create custom labeled icons by combining Font Awesome icons with text labels. Export as SVG, PNG, or code snippets for React, Vue, and HTML.">
+    
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* ===== CSS Variables ===== */
+        :root {
+            --bg-primary: #0a0e1a;
+            --bg-secondary: #131829;
+            --bg-tertiary: #1a1f35;
+            --bg-glass: rgba(26, 31, 53, 0.7);
+            --accent-primary: #6366f1;
+            --accent-secondary: #8b5cf6;
+            --accent-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            --text-primary: #f1f5f9;
+            --text-secondary: #cbd5e1;
+            --text-muted: #94a3b8;
+            --border-color: rgba(148, 163, 184, 0.1);
+            --success: #10b981;
+            --warning: #f59e0b;
+            --error: #ef4444;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.2);
+            --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.3);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* ===== Global Styles ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* ===== Background Gradient ===== */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 20% 50%, rgba(99, 102, 241, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        /* ===== Header ===== */
+        .header {
+            background: var(--bg-glass);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--shadow-md);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-icon {
+            font-size: 2rem;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .logo-text h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .logo-text p {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+        }
+
+        /* ===== Main Container ===== */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 2rem;
+            min-height: calc(100vh - 100px);
+        }
+
+        /* ===== Card Styles ===== */
+        .card {
+            background: var(--bg-glass);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-lg);
+            border-color: rgba(99, 102, 241, 0.3);
+        }
+
+        /* ===== Left Panel ===== */
+        .left-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        /* ===== Icon Selection ===== */
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section-title i {
+            color: var(--accent-primary);
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 1rem;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 0.75rem 1rem 0.75rem 2.5rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 0.875rem;
+            transition: var(--transition);
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+        }
+
+        .search-box i {
+            position: absolute;
+            left: 0.875rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+        }
+
+        .icon-filters {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .filter-btn:hover {
+            background: var(--bg-tertiary);
+            border-color: var(--accent-primary);
+        }
+
+        .filter-btn.active {
+            background: var(--accent-gradient);
+            border-color: var(--accent-primary);
+            color: white;
+        }
+
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+            gap: 0.75rem;
+            max-height: 300px;
+            overflow-y: auto;
+            padding: 0.5rem;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+        }
+
+        .icon-grid::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .icon-grid::-webkit-scrollbar-track {
+            background: var(--bg-tertiary);
+            border-radius: 4px;
+        }
+
+        .icon-grid::-webkit-scrollbar-thumb {
+            background: var(--accent-primary);
+            border-radius: 4px;
+        }
+
+        .icon-item {
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-tertiary);
+            border: 2px solid transparent;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: var(--transition);
+            font-size: 1.5rem;
+            color: var(--text-secondary);
+        }
+
+        .icon-item:hover {
+            background: var(--bg-glass);
+            border-color: var(--accent-primary);
+            transform: translateY(-2px);
+        }
+
+        .icon-item.selected {
+            background: var(--accent-gradient);
+            border-color: var(--accent-primary);
+            color: white;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+
+        /* ===== Text Customization ===== */
+        .control-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .control-label {
+            display: block;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .control-input {
+            width: 100%;
+            padding: 0.75rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 0.875rem;
+            transition: var(--transition);
+        }
+
+        .control-input:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+        }
+
+        select.control-input {
+            cursor: pointer;
+        }
+
+        .slider-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .slider {
+            flex: 1;
+            -webkit-appearance: none;
+            height: 6px;
+            background: var(--bg-secondary);
+            border-radius: 3px;
+            outline: none;
+        }
+
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            background: var(--accent-gradient);
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .slider::-moz-range-thumb {
+            width: 18px;
+            height: 18px;
+            background: var(--accent-gradient);
+            border-radius: 50%;
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .slider-value {
+            min-width: 50px;
+            text-align: center;
+            font-weight: 600;
+            color: var(--accent-primary);
+        }
+
+        .color-picker-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .color-picker {
+            width: 60px;
+            height: 40px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .color-picker:hover {
+            border-color: var(--accent-primary);
+        }
+
+        .color-value {
+            flex: 1;
+            padding: 0.75rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 0.875rem;
+            font-family: 'Courier New', monospace;
+        }
+
+        /* ===== Layout Controls ===== */
+        .position-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.5rem;
+        }
+
+        .position-btn {
+            padding: 0.75rem;
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: var(--transition);
+            text-align: center;
+        }
+
+        .position-btn:hover {
+            background: var(--bg-tertiary);
+            border-color: var(--accent-primary);
+        }
+
+        .position-btn.active {
+            background: var(--accent-gradient);
+            border-color: var(--accent-primary);
+            color: white;
+        }
+
+        /* ===== Right Panel - Preview ===== */
+        .right-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            position: sticky;
+            top: 120px;
+            height: fit-content;
+        }
+
+        .preview-canvas {
+            min-height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-secondary);
+            border: 2px dashed var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            position: relative;
+        }
+
+        .preview-content {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            transition: var(--transition);
+        }
+
+        .preview-icon {
+            font-size: 64px;
+            color: var(--text-primary);
+        }
+
+        .preview-text {
+            font-size: 24px;
+            color: var(--text-primary);
+        }
+
+        .empty-state {
+            text-align: center;
+            color: var(--text-muted);
+        }
+
+        .empty-state i {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.3;
+        }
+
+        /* ===== Export Panel ===== */
+        .export-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+        }
+
+        .export-btn {
+            padding: 0.875rem 1.5rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .export-btn:hover {
+            background: var(--accent-gradient);
+            border-color: var(--accent-primary);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .export-btn:active {
+            transform: translateY(0);
+        }
+
+        .export-btn.primary {
+            background: var(--accent-gradient);
+            border-color: var(--accent-primary);
+            color: white;
+        }
+
+        /* ===== Accessibility Panel ===== */
+        .accessibility-info {
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            padding: 1rem;
+            font-size: 0.875rem;
+        }
+
+        .accessibility-info p {
+            margin-bottom: 0.5rem;
+            color: var(--text-secondary);
+        }
+
+        .accessibility-info code {
+            background: var(--bg-tertiary);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            color: var(--accent-primary);
+            font-family: 'Courier New', monospace;
+        }
+
+        /* ===== Toast Notification ===== */
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--success);
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow-lg);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: var(--transition);
+            z-index: 1000;
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .toast i {
+            font-size: 1.25rem;
+        }
+
+        /* ===== Responsive Design ===== */
+        @media (max-width: 1024px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            .right-panel {
+                position: static;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .card {
+                padding: 1.5rem;
+            }
+
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .export-buttons {
+                grid-template-columns: 1fr;
+            }
+
+            .icon-grid {
+                grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-wand-magic-sparkles logo-icon"></i>
+                <div class="logo-text">
+                    <h1>Label Wizard</h1>
+                    <p>Create custom labeled icons with Font Awesome</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Left Panel -->
+        <div class="left-panel">
+            <!-- Icon Selection -->
+            <div class="card">
+                <h2 class="section-title">
+                    <i class="fas fa-icons"></i>
+                    Select Icon
+                </h2>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="iconSearch" placeholder="Search icons (e.g., home, download, user)...">
+                </div>
+                <div class="icon-filters">
+                    <button class="filter-btn active" data-style="all">All</button>
+                    <button class="filter-btn" data-style="solid">Solid</button>
+                    <button class="filter-btn" data-style="regular">Regular</button>
+                    <button class="filter-btn" data-style="brands">Brands</button>
+                </div>
+                <div class="icon-grid" id="iconGrid">
+                    <!-- Icons will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Text Customization -->
+            <div class="card">
+                <h2 class="section-title">
+                    <i class="fas fa-text"></i>
+                    Customize Text
+                </h2>
+                <div class="control-group">
+                    <label class="control-label">Label Text</label>
+                    <input type="text" class="control-input" id="labelText" placeholder="Enter your label text...">
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Font Family</label>
+                    <select class="control-input" id="fontFamily">
+                        <option value="Inter">Inter</option>
+                        <option value="Roboto">Roboto</option>
+                        <option value="Outfit">Outfit</option>
+                        <option value="Arial">Arial</option>
+                        <option value="Helvetica">Helvetica</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Times New Roman">Times New Roman</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Font Size: <span id="fontSizeValue">24</span>px</label>
+                    <div class="slider-container">
+                        <input type="range" class="slider" id="fontSize" min="8" max="72" value="24">
+                        <span class="slider-value" id="fontSizeDisplay">24px</span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Font Weight</label>
+                    <select class="control-input" id="fontWeight">
+                        <option value="300">Light (300)</option>
+                        <option value="400" selected>Normal (400)</option>
+                        <option value="500">Medium (500)</option>
+                        <option value="600">Semi-Bold (600)</option>
+                        <option value="700">Bold (700)</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Text Color</label>
+                    <div class="color-picker-wrapper">
+                        <input type="color" class="color-picker" id="textColor" value="#f1f5f9">
+                        <input type="text" class="color-value" id="textColorValue" value="#f1f5f9" readonly>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Layout Controls -->
+            <div class="card">
+                <h2 class="section-title">
+                    <i class="fas fa-layer-group"></i>
+                    Layout & Position
+                </h2>
+                <div class="control-group">
+                    <label class="control-label">Text Position</label>
+                    <div class="position-grid">
+                        <button class="position-btn" data-position="top-left">↖ Top Left</button>
+                        <button class="position-btn" data-position="top">↑ Top</button>
+                        <button class="position-btn" data-position="top-right">↗ Top Right</button>
+                        <button class="position-btn" data-position="left">← Left</button>
+                        <button class="position-btn active" data-position="right">Right →</button>
+                        <button class="position-btn" data-position="center">⊙ Center</button>
+                        <button class="position-btn" data-position="bottom-left">↙ Bottom Left</button>
+                        <button class="position-btn" data-position="bottom">↓ Bottom</button>
+                        <button class="position-btn" data-position="bottom-right">↘ Bottom Right</button>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Spacing: <span id="spacingValue">16</span>px</label>
+                    <div class="slider-container">
+                        <input type="range" class="slider" id="spacing" min="0" max="50" value="16">
+                        <span class="slider-value" id="spacingDisplay">16px</span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Icon Size: <span id="iconSizeValue">64</span>px</label>
+                    <div class="slider-container">
+                        <input type="range" class="slider" id="iconSize" min="24" max="128" value="64">
+                        <span class="slider-value" id="iconSizeDisplay">64px</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Panel -->
+        <div class="right-panel">
+            <!-- Preview -->
+            <div class="card">
+                <h2 class="section-title">
+                    <i class="fas fa-eye"></i>
+                    Preview
+                </h2>
+                <div class="preview-canvas" id="previewCanvas">
+                    <div class="empty-state">
+                        <i class="fas fa-image"></i>
+                        <p>Select an icon and add text to see preview</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Export Options -->
+            <div class="card">
+                <h2 class="section-title">
+                    <i class="fas fa-download"></i>
+                    Export
+                </h2>
+                <div class="export-buttons">
+                    <button class="export-btn primary" id="exportSVG">
+                        <i class="fas fa-file-code"></i>
+                        SVG
+                    </button>
+                    <button class="export-btn primary" id="exportPNG">
+                        <i class="fas fa-file-image"></i>
+                        PNG
+                    </button>
+                    <button class="export-btn" id="copyReact">
+                        <i class="fab fa-react"></i>
+                        React Code
+                    </button>
+                    <button class="export-btn" id="copyVue">
+                        <i class="fab fa-vuejs"></i>
+                        Vue Code
+                    </button>
+                    <button class="export-btn" id="copyHTML">
+                        <i class="fas fa-code"></i>
+                        HTML/CSS
+                    </button>
+                    <button class="export-btn" id="copyAccessibility">
+                        <i class="fas fa-universal-access"></i>
+                        Accessibility
+                    </button>
+                </div>
+            </div>
+
+            <!-- Accessibility Info -->
+            <div class="card">
+                <h2 class="section-title">
+                    <i class="fas fa-universal-access"></i>
+                    Accessibility
+                </h2>
+                <div class="accessibility-info" id="accessibilityInfo">
+                    <p><strong>Alt Text:</strong> <code id="altText">Select an icon to generate alt text</code></p>
+                    <p><strong>ARIA Label:</strong> <code id="ariaLabel">Select an icon to generate ARIA label</code></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Copied to clipboard!</span>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/all.min.js"></script>
+    <script>
+        // Application State
+        const state = {
+            selectedIcon: null,
+            selectedIconStyle: null,
+            selectedIconData: null,
+            labelText: '',
+            fontFamily: 'Inter',
+            fontSize: 24,
+            fontWeight: '400',
+            textColor: '#f1f5f9',
+            position: 'right',
+            spacing: 16,
+            iconSize: 64,
+            currentFilter: 'all'
+        };
+
+        // Sample icons for demo (in production, this would load from metadata/icons.json)
+        const sampleIcons = [
+            { name: 'home', label: 'Home', styles: ['solid'], unicode: 'f015' },
+            { name: 'download', label: 'Download', styles: ['solid'], unicode: 'f019' },
+            { name: 'user', label: 'User', styles: ['solid', 'regular'], unicode: 'f007' },
+            { name: 'heart', label: 'Heart', styles: ['solid', 'regular'], unicode: 'f004' },
+            { name: 'star', label: 'Star', styles: ['solid', 'regular'], unicode: 'f005' },
+            { name: 'search', label: 'Search', styles: ['solid'], unicode: 'f002' },
+            { name: 'envelope', label: 'Envelope', styles: ['solid', 'regular'], unicode: 'f0e0' },
+            { name: 'shopping-cart', label: 'Shopping Cart', styles: ['solid'], unicode: 'f07a' },
+            { name: 'bell', label: 'Bell', styles: ['solid', 'regular'], unicode: 'f0f3' },
+            { name: 'cog', label: 'Settings', styles: ['solid'], unicode: 'f013' },
+            { name: 'trash', label: 'Trash', styles: ['solid'], unicode: 'f1f8' },
+            { name: 'edit', label: 'Edit', styles: ['solid', 'regular'], unicode: 'f044' },
+            { name: 'check', label: 'Check', styles: ['solid'], unicode: 'f00c' },
+            { name: 'times', label: 'Times', styles: ['solid'], unicode: 'f00d' },
+            { name: 'plus', label: 'Plus', styles: ['solid'], unicode: 'f067' },
+            { name: 'minus', label: 'Minus', styles: ['solid'], unicode: 'f068' },
+            { name: 'arrow-right', label: 'Arrow Right', styles: ['solid'], unicode: 'f061' },
+            { name: 'arrow-left', label: 'Arrow Left', styles: ['solid'], unicode: 'f060' },
+            { name: 'upload', label: 'Upload', styles: ['solid'], unicode: 'f093' },
+            { name: 'file', label: 'File', styles: ['solid', 'regular'], unicode: 'f15b' },
+            { name: 'folder', label: 'Folder', styles: ['solid', 'regular'], unicode: 'f07b' },
+            { name: 'image', label: 'Image', styles: ['solid', 'regular'], unicode: 'f03e' },
+            { name: 'video', label: 'Video', styles: ['solid'], unicode: 'f03d' },
+            { name: 'music', label: 'Music', styles: ['solid'], unicode: 'f001' },
+            { name: 'phone', label: 'Phone', styles: ['solid'], unicode: 'f095' },
+            { name: 'map-marker', label: 'Map Marker', styles: ['solid'], unicode: 'f041' },
+            { name: 'calendar', label: 'Calendar', styles: ['solid', 'regular'], unicode: 'f133' },
+            { name: 'clock', label: 'Clock', styles: ['solid', 'regular'], unicode: 'f017' },
+            { name: 'camera', label: 'Camera', styles: ['solid'], unicode: 'f030' },
+            { name: 'print', label: 'Print', styles: ['solid'], unicode: 'f02f' },
+            { name: 'facebook', label: 'Facebook', styles: ['brands'], unicode: 'f09a' },
+            { name: 'twitter', label: 'Twitter', styles: ['brands'], unicode: 'f099' },
+            { name: 'instagram', label: 'Instagram', styles: ['brands'], unicode: 'f16d' },
+            { name: 'linkedin', label: 'LinkedIn', styles: ['brands'], unicode: 'f08c' },
+            { name: 'github', label: 'GitHub', styles: ['brands'], unicode: 'f09b' },
+            { name: 'youtube', label: 'YouTube', styles: ['brands'], unicode: 'f167' }
+        ];
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            initializeIconGrid();
+            attachEventListeners();
+        });
+
+        // Initialize Icon Grid
+        function initializeIconGrid() {
+            renderIcons(sampleIcons);
+        }
+
+        // Render Icons
+        function renderIcons(icons) {
+            const iconGrid = document.getElementById('iconGrid');
+            iconGrid.innerHTML = '';
+
+            icons.forEach(icon => {
+                const style = icon.styles.includes('solid') ? 'solid' : icon.styles[0];
+                const iconClass = style === 'brands' ? `fab fa-${icon.name}` : `fas fa-${icon.name}`;
+                
+                const iconItem = document.createElement('div');
+                iconItem.className = 'icon-item';
+                iconItem.innerHTML = `<i class="${iconClass}"></i>`;
+                iconItem.title = icon.label;
+                iconItem.dataset.icon = icon.name;
+                iconItem.dataset.style = style;
+                iconItem.dataset.label = icon.label;
+                
+                iconItem.addEventListener('click', () => selectIcon(icon, style, iconItem));
+                iconGrid.appendChild(iconItem);
+            });
+        }
+
+        // Select Icon
+        function selectIcon(icon, style, element) {
+            // Remove previous selection
+            document.querySelectorAll('.icon-item').forEach(item => item.classList.remove('selected'));
+            element.classList.add('selected');
+
+            state.selectedIcon = icon.name;
+            state.selectedIconStyle = style;
+            state.selectedIconData = icon;
+
+            updatePreview();
+            updateAccessibility();
+        }
+
+        // Attach Event Listeners
+        function attachEventListeners() {
+            // Icon Search
+            document.getElementById('iconSearch').addEventListener('input', (e) => {
+                const searchTerm = e.target.value.toLowerCase();
+                const filtered = sampleIcons.filter(icon => 
+                    icon.name.includes(searchTerm) || icon.label.toLowerCase().includes(searchTerm)
+                );
+                renderIcons(filtered);
+            });
+
+            // Icon Filters
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    
+                    const style = e.target.dataset.style;
+                    state.currentFilter = style;
+                    
+                    const filtered = style === 'all' 
+                        ? sampleIcons 
+                        : sampleIcons.filter(icon => icon.styles.includes(style));
+                    renderIcons(filtered);
+                });
+            });
+
+            // Text Input
+            document.getElementById('labelText').addEventListener('input', (e) => {
+                state.labelText = e.target.value;
+                updatePreview();
+                updateAccessibility();
+            });
+
+            // Font Family
+            document.getElementById('fontFamily').addEventListener('change', (e) => {
+                state.fontFamily = e.target.value;
+                updatePreview();
+            });
+
+            // Font Size
+            document.getElementById('fontSize').addEventListener('input', (e) => {
+                state.fontSize = parseInt(e.target.value);
+                document.getElementById('fontSizeValue').textContent = state.fontSize;
+                document.getElementById('fontSizeDisplay').textContent = `${state.fontSize}px`;
+                updatePreview();
+            });
+
+            // Font Weight
+            document.getElementById('fontWeight').addEventListener('change', (e) => {
+                state.fontWeight = e.target.value;
+                updatePreview();
+            });
+
+            // Text Color
+            document.getElementById('textColor').addEventListener('input', (e) => {
+                state.textColor = e.target.value;
+                document.getElementById('textColorValue').value = state.textColor;
+                updatePreview();
+            });
+
+            // Position Buttons
+            document.querySelectorAll('.position-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('.position-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    state.position = e.target.dataset.position;
+                    updatePreview();
+                });
+            });
+
+            // Spacing
+            document.getElementById('spacing').addEventListener('input', (e) => {
+                state.spacing = parseInt(e.target.value);
+                document.getElementById('spacingValue').textContent = state.spacing;
+                document.getElementById('spacingDisplay').textContent = `${state.spacing}px`;
+                updatePreview();
+            });
+
+            // Icon Size
+            document.getElementById('iconSize').addEventListener('input', (e) => {
+                state.iconSize = parseInt(e.target.value);
+                document.getElementById('iconSizeValue').textContent = state.iconSize;
+                document.getElementById('iconSizeDisplay').textContent = `${state.iconSize}px`;
+                updatePreview();
+            });
+
+            // Export Buttons
+            document.getElementById('exportSVG').addEventListener('click', exportSVG);
+            document.getElementById('exportPNG').addEventListener('click', exportPNG);
+            document.getElementById('copyReact').addEventListener('click', copyReactCode);
+            document.getElementById('copyVue').addEventListener('click', copyVueCode);
+            document.getElementById('copyHTML').addEventListener('click', copyHTMLCode);
+            document.getElementById('copyAccessibility').addEventListener('click', copyAccessibilityInfo);
+        }
+
+        // Update Preview
+        function updatePreview() {
+            const canvas = document.getElementById('previewCanvas');
+            
+            if (!state.selectedIcon) {
+                canvas.innerHTML = `
+                    <div class="empty-state">
+                        <i class="fas fa-image"></i>
+                        <p>Select an icon and add text to see preview</p>
+                    </div>
+                `;
+                return;
+            }
+
+            const iconClass = state.selectedIconStyle === 'brands' 
+                ? `fab fa-${state.selectedIcon}` 
+                : `fas fa-${state.selectedIcon}`;
+
+            const previewContent = document.createElement('div');
+            previewContent.className = 'preview-content';
+            previewContent.id = 'previewContent';
+
+            // Apply layout based on position
+            const layoutStyles = getLayoutStyles();
+            Object.assign(previewContent.style, layoutStyles);
+
+            const iconHTML = `<i class="${iconClass}" style="font-size: ${state.iconSize}px; color: ${state.textColor};"></i>`;
+            const textHTML = state.labelText 
+                ? `<span style="font-family: ${state.fontFamily}; font-size: ${state.fontSize}px; font-weight: ${state.fontWeight}; color: ${state.textColor};">${state.labelText}</span>`
+                : '';
+
+            previewContent.innerHTML = getPositionedHTML(iconHTML, textHTML);
+            
+            canvas.innerHTML = '';
+            canvas.appendChild(previewContent);
+        }
+
+        // Get Layout Styles
+        function getLayoutStyles() {
+            const styles = {
+                display: 'flex',
+                alignItems: 'center',
+                gap: `${state.spacing}px`
+            };
+
+            switch(state.position) {
+                case 'top':
+                case 'bottom':
+                    styles.flexDirection = state.position === 'top' ? 'column-reverse' : 'column';
+                    break;
+                case 'left':
+                    styles.flexDirection = 'row-reverse';
+                    break;
+                case 'right':
+                    styles.flexDirection = 'row';
+                    break;
+                case 'top-left':
+                case 'top-right':
+                case 'bottom-left':
+                case 'bottom-right':
+                    styles.flexDirection = state.position.includes('top') ? 'column-reverse' : 'column';
+                    styles.alignItems = state.position.includes('left') ? 'flex-start' : 'flex-end';
+                    break;
+                case 'center':
+                    styles.flexDirection = 'column';
+                    styles.alignItems = 'center';
+                    styles.textAlign = 'center';
+                    break;
+            }
+
+            return styles;
+        }
+
+        // Get Positioned HTML
+        function getPositionedHTML(iconHTML, textHTML) {
+            if (!textHTML) return iconHTML;
+            return iconHTML + textHTML;
+        }
+
+        // Update Accessibility
+        function updateAccessibility() {
+            const altText = state.selectedIcon && state.labelText 
+                ? `${state.labelText} icon`
+                : state.selectedIcon 
+                ? `${state.selectedIconData?.label || state.selectedIcon} icon`
+                : 'Select an icon to generate alt text';
+
+            const ariaLabel = state.selectedIcon && state.labelText
+                ? state.labelText
+                : state.selectedIcon
+                ? state.selectedIconData?.label || state.selectedIcon
+                : 'Select an icon to generate ARIA label';
+
+            document.getElementById('altText').textContent = altText;
+            document.getElementById('ariaLabel').textContent = ariaLabel;
+        }
+
+        // Export SVG
+        function exportSVG() {
+            if (!state.selectedIcon) {
+                showToast('Please select an icon first', 'error');
+                return;
+            }
+
+            const svgContent = generateSVG();
+            const blob = new Blob([svgContent], { type: 'image/svg+xml' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${state.selectedIcon}-${state.labelText || 'icon'}.svg`;
+            a.click();
+            URL.revokeObjectURL(url);
+            
+            showToast('SVG exported successfully!');
+        }
+
+        // Generate SVG
+        function generateSVG() {
+            const iconClass = state.selectedIconStyle === 'brands' ? 'fab' : 'fas';
+            const altText = state.labelText || state.selectedIconData?.label || state.selectedIcon;
+            
+            return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img" aria-label="${altText}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=${state.fontFamily.replace(' ', '+')}:wght@${state.fontWeight}&amp;display=swap');
+        .icon { font-family: 'Font Awesome 6 Free', 'Font Awesome 6 Brands'; font-size: ${state.iconSize}px; fill: ${state.textColor}; }
+        .text { font-family: '${state.fontFamily}', sans-serif; font-size: ${state.fontSize}px; font-weight: ${state.fontWeight}; fill: ${state.textColor}; }
+    </style>
+    <text x="50" y="100" class="icon">&#x${state.selectedIconData?.unicode || 'f015'};</text>
+    ${state.labelText ? `<text x="${100 + state.spacing}" y="100" class="text">${state.labelText}</text>` : ''}
+</svg>`;
+        }
+
+        // Export PNG
+        function exportPNG() {
+            if (!state.selectedIcon) {
+                showToast('Please select an icon first', 'error');
+                return;
+            }
+
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            canvas.width = 800;
+            canvas.height = 400;
+
+            // Draw background (transparent)
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Draw icon and text
+            ctx.fillStyle = state.textColor;
+            ctx.font = `${state.iconSize}px "Font Awesome 6 Free"`;
+            ctx.fillText(String.fromCharCode(parseInt(state.selectedIconData?.unicode || 'f015', 16)), 100, 200);
+
+            if (state.labelText) {
+                ctx.font = `${state.fontWeight} ${state.fontSize}px ${state.fontFamily}`;
+                ctx.fillText(state.labelText, 200 + state.spacing, 200);
+            }
+
+            canvas.toBlob((blob) => {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `${state.selectedIcon}-${state.labelText || 'icon'}.png`;
+                a.click();
+                URL.revokeObjectURL(url);
+                showToast('PNG exported successfully!');
+            });
+        }
+
+        // Copy React Code
+        function copyReactCode() {
+            if (!state.selectedIcon) {
+                showToast('Please select an icon first', 'error');
+                return;
+            }
+
+            const iconClass = state.selectedIconStyle === 'brands' ? 'fab' : 'fas';
+            const code = `import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fa${capitalize(state.selectedIcon.replace(/-/g, ''))} } from '@fortawesome/free-${state.selectedIconStyle === 'brands' ? 'brands' : 'solid'}-svg-icons';
+
+function LabeledIcon() {
+  return (
+    <div style={{ 
+      display: 'flex', 
+      alignItems: 'center', 
+      gap: '${state.spacing}px',
+      flexDirection: '${getFlexDirection()}'
+    }}>
+      <FontAwesomeIcon 
+        icon={fa${capitalize(state.selectedIcon.replace(/-/g, ''))}} 
+        style={{ fontSize: '${state.iconSize}px', color: '${state.textColor}' }}
+        aria-label="${state.labelText || state.selectedIconData?.label}"
+      />
+      ${state.labelText ? `<span style={{ 
+        fontFamily: '${state.fontFamily}', 
+        fontSize: '${state.fontSize}px', 
+        fontWeight: '${state.fontWeight}', 
+        color: '${state.textColor}' 
+      }}>${state.labelText}</span>` : ''}
+    </div>
+  );
+}
+
+export default LabeledIcon;`;
+
+            copyToClipboard(code);
+            showToast('React code copied to clipboard!');
+        }
+
+        // Copy Vue Code
+        function copyVueCode() {
+            if (!state.selectedIcon) {
+                showToast('Please select an icon first', 'error');
+                return;
+            }
+
+            const code = `<template>
+  <div :style="containerStyle">
+    <font-awesome-icon 
+      :icon="['${state.selectedIconStyle}', '${state.selectedIcon}']" 
+      :style="iconStyle"
+      :aria-label="ariaLabel"
+    />
+    ${state.labelText ? `<span :style="textStyle">${state.labelText}</span>` : ''}
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'LabeledIcon',
+  data() {
+    return {
+      containerStyle: {
+        display: 'flex',
+        alignItems: 'center',
+        gap: '${state.spacing}px',
+        flexDirection: '${getFlexDirection()}'
+      },
+      iconStyle: {
+        fontSize: '${state.iconSize}px',
+        color: '${state.textColor}'
+      },
+      textStyle: {
+        fontFamily: '${state.fontFamily}',
+        fontSize: '${state.fontSize}px',
+        fontWeight: '${state.fontWeight}',
+        color: '${state.textColor}'
+      },
+      ariaLabel: '${state.labelText || state.selectedIconData?.label}'
+    }
+  }
+}
+</script>`;
+
+            copyToClipboard(code);
+            showToast('Vue code copied to clipboard!');
+        }
+
+        // Copy HTML Code
+        function copyHTMLCode() {
+            if (!state.selectedIcon) {
+                showToast('Please select an icon first', 'error');
+                return;
+            }
+
+            const iconClass = state.selectedIconStyle === 'brands' ? 'fab' : 'fas';
+            const code = `<!-- HTML -->
+<div class="labeled-icon" aria-label="${state.labelText || state.selectedIconData?.label}">
+  <i class="${iconClass} fa-${state.selectedIcon}"></i>
+  ${state.labelText ? `<span>${state.labelText}</span>` : ''}
+</div>
+
+<!-- CSS -->
+<style>
+.labeled-icon {
+  display: flex;
+  align-items: center;
+  gap: ${state.spacing}px;
+  flex-direction: ${getFlexDirection()};
+}
+
+.labeled-icon i {
+  font-size: ${state.iconSize}px;
+  color: ${state.textColor};
+}
+
+.labeled-icon span {
+  font-family: ${state.fontFamily}, sans-serif;
+  font-size: ${state.fontSize}px;
+  font-weight: ${state.fontWeight};
+  color: ${state.textColor};
+}
+</style>`;
+
+            copyToClipboard(code);
+            showToast('HTML/CSS code copied to clipboard!');
+        }
+
+        // Copy Accessibility Info
+        function copyAccessibilityInfo() {
+            const altText = document.getElementById('altText').textContent;
+            const ariaLabel = document.getElementById('ariaLabel').textContent;
+            
+            const info = `Accessibility Information:
+
+Alt Text: ${altText}
+ARIA Label: ${ariaLabel}
+
+Usage Example:
+<i class="fas fa-${state.selectedIcon}" aria-label="${ariaLabel}" role="img"></i>
+<img src="icon.svg" alt="${altText}">`;
+
+            copyToClipboard(info);
+            showToast('Accessibility info copied to clipboard!');
+        }
+
+        // Helper Functions
+        function capitalize(str) {
+            return str.charAt(0).toUpperCase() + str.slice(1);
+        }
+
+        function getFlexDirection() {
+            switch(state.position) {
+                case 'top':
+                case 'top-left':
+                case 'top-right':
+                    return 'column-reverse';
+                case 'bottom':
+                case 'bottom-left':
+                case 'bottom-right':
+                case 'center':
+                    return 'column';
+                case 'left':
+                    return 'row-reverse';
+                default:
+                    return 'row';
+            }
+        }
+
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).catch(err => {
+                console.error('Failed to copy:', err);
+                showToast('Failed to copy to clipboard', 'error');
+            });
+        }
+
+        function showToast(message, type = 'success') {
+            const toast = document.getElementById('toast');
+            const toastMessage = document.getElementById('toastMessage');
+            
+            toastMessage.textContent = message;
+            toast.style.background = type === 'error' ? 'var(--error)' : 'var(--success)';
+            toast.classList.add('show');
+            
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

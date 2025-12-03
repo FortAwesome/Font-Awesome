@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label Wizard Examples</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 2rem;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+
+        .subtitle {
+            color: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 1.125rem;
+        }
+
+        .example-section {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .example-section h2 {
+            color: #667eea;
+            margin-bottom: 1.5rem;
+            font-size: 1.75rem;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+
+        .example-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .example-item {
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border: 2px solid #e9ecef;
+            transition: all 0.3s ease;
+        }
+
+        .example-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(102, 126, 234, 0.2);
+            border-color: #667eea;
+        }
+
+        .example-title {
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 1rem;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .example-demo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            min-height: 120px;
+        }
+
+        .example-code {
+            margin-top: 1rem;
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 1rem;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.75rem;
+            overflow-x: auto;
+        }
+
+        /* Example Styles */
+        .download-btn {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .download-btn i {
+            font-size: 48px;
+            color: #667eea;
+        }
+
+        .download-btn span {
+            font-family: 'Inter', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-item i {
+            font-size: 32px;
+            color: #764ba2;
+        }
+
+        .nav-item span {
+            font-size: 14px;
+            color: #495057;
+        }
+
+        .step-indicator {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .step-indicator i {
+            font-size: 40px;
+            color: #10b981;
+        }
+
+        .step-indicator span {
+            font-size: 16px;
+            font-weight: 600;
+            color: #065f46;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .social-link i {
+            font-size: 28px;
+            color: #1877f2;
+        }
+
+        .social-link span {
+            font-size: 14px;
+            color: #495057;
+        }
+
+        .feature-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .feature-badge i {
+            font-size: 24px;
+            color: #f59e0b;
+        }
+
+        .feature-badge span {
+            font-size: 16px;
+            font-weight: 500;
+            color: #78350f;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        .cta-button i {
+            font-size: 24px;
+        }
+
+        .info-box {
+            background: #e0e7ff;
+            border-left: 4px solid #667eea;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+
+        .info-box p {
+            color: #3730a3;
+            margin-bottom: 0.5rem;
+        }
+
+        .info-box code {
+            background: #c7d2fe;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎨 Label Wizard Examples</h1>
+        <p class="subtitle">Real-world examples of labeled icons created with the Font Awesome Label Wizard</p>
+
+        <!-- Use Case 1: Call-to-Action Buttons -->
+        <div class="example-section">
+            <h2>📥 Call-to-Action Buttons</h2>
+            <div class="example-grid">
+                <div class="example-item">
+                    <div class="example-title">Download Button</div>
+                    <div class="example-demo">
+                        <div class="download-btn">
+                            <i class="fas fa-download"></i>
+                            <span>Download</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="download-btn"&gt;
+                        &lt;i class="fas fa-download"&gt;&lt;/i&gt;
+                        &lt;span&gt;Download&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+
+                <div class="example-item">
+                    <div class="example-title">Upload Button</div>
+                    <div class="example-demo">
+                        <div class="download-btn">
+                            <i class="fas fa-upload"></i>
+                            <span>Upload</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="download-btn"&gt;
+                        &lt;i class="fas fa-upload"&gt;&lt;/i&gt;
+                        &lt;span&gt;Upload&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+
+                <div class="example-item">
+                    <div class="example-title">Share Button</div>
+                    <div class="example-demo">
+                        <div class="download-btn">
+                            <i class="fas fa-share-alt"></i>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="download-btn"&gt;
+                        &lt;i class="fas fa-share-alt"&gt;&lt;/i&gt;
+                        &lt;span&gt;Share&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Use Case 2: Navigation Items -->
+        <div class="example-section">
+            <h2>🧭 Navigation Items</h2>
+            <div class="example-grid">
+                <div class="example-item">
+                    <div class="example-title">Home Navigation</div>
+                    <div class="example-demo">
+                        <div class="nav-item">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="nav-item"&gt;
+                        &lt;i class="fas fa-home"&gt;&lt;/i&gt;
+                        &lt;span&gt;Home&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+
+                <div class="example-item">
+                    <div class="example-title">Profile Navigation</div>
+                    <div class="example-demo">
+                        <div class="nav-item">
+                            <i class="fas fa-user"></i>
+                            <span>Profile</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="nav-item"&gt;
+                        &lt;i class="fas fa-user"&gt;&lt;/i&gt;
+                        &lt;span&gt;Profile&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+
+                <div class="example-item">
+                    <div class="example-title">Settings Navigation</div>
+                    <div class="example-demo">
+                        <div class="nav-item">
+                            <i class="fas fa-cog"></i>
+                            <span>Settings</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="nav-item"&gt;
+                        &lt;i class="fas fa-cog"&gt;&lt;/i&gt;
+                        &lt;span&gt;Settings&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Use Case 3: Tutorial Steps -->
+        <div class="example-section">
+            <h2>📚 Tutorial Steps</h2>
+            <div class="example-grid">
+                <div class="example-item">
+                    <div class="example-title">Step 1</div>
+                    <div class="example-demo">
+                        <div class="step-indicator">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Complete Setup</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="step-indicator"&gt;
+                        &lt;i class="fas fa-check-circle"&gt;&lt;/i&gt;
+                        &lt;span&gt;Complete Setup&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+
+                <div class="example-item">
+                    <div class="example-title">Step 2</div>
+                    <div class="example-demo">
+                        <div class="step-indicator">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Configure Options</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="step-indicator"&gt;
+                        &lt;i class="fas fa-check-circle"&gt;&lt;/i&gt;
+                        &lt;span&gt;Configure Options&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+
+                <div class="example-item">
+                    <div class="example-title">Step 3</div>
+                    <div class="example-demo">
+                        <div class="step-indicator">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Launch Application</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="step-indicator"&gt;
+                        &lt;i class="fas fa-check-circle"&gt;&lt;/i&gt;
+                        &lt;span&gt;Launch Application&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Use Case 4: Social Media Links -->
+        <div class="example-section">
+            <h2>📱 Social Media Links</h2>
+            <div class="example-grid">
+                <div class="example-item">
+                    <div class="example-title">Facebook</div>
+                    <div class="example-demo">
+                        <div class="social-link">
+                            <i class="fab fa-facebook"></i>
+                            <span>Follow on Facebook</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="social-link"&gt;
+                        &lt;i class="fab fa-facebook"&gt;&lt;/i&gt;
+                        &lt;span&gt;Follow on Facebook&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+
+                <div class="example-item">
+                    <div class="example-title">Twitter</div>
+                    <div class="example-demo">
+                        <div class="social-link">
+                            <i class="fab fa-twitter" style="color: #1da1f2;"></i>
+                            <span>Follow on Twitter</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="social-link"&gt;
+                        &lt;i class="fab fa-twitter"&gt;&lt;/i&gt;
+                        &lt;span&gt;Follow on Twitter&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+
+                <div class="example-item">
+                    <div class="example-title">GitHub</div>
+                    <div class="example-demo">
+                        <div class="social-link">
+                            <i class="fab fa-github" style="color: #333;"></i>
+                            <span>Star on GitHub</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="social-link"&gt;
+                        &lt;i class="fab fa-github"&gt;&lt;/i&gt;
+                        &lt;span&gt;Star on GitHub&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Use Case 5: Feature Badges -->
+        <div class="example-section">
+            <h2>⭐ Feature Badges</h2>
+            <div class="example-grid">
+                <div class="example-item">
+                    <div class="example-title">Premium Feature</div>
+                    <div class="example-demo">
+                        <div class="feature-badge">
+                            <i class="fas fa-crown"></i>
+                            <span>Premium</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="feature-badge"&gt;
+                        &lt;i class="fas fa-crown"&gt;&lt;/i&gt;
+                        &lt;span&gt;Premium&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+
+                <div class="example-item">
+                    <div class="example-title">New Feature</div>
+                    <div class="example-demo">
+                        <div class="feature-badge">
+                            <i class="fas fa-sparkles"></i>
+                            <span>New</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="feature-badge"&gt;
+                        &lt;i class="fas fa-sparkles"&gt;&lt;/i&gt;
+                        &lt;span&gt;New&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+
+                <div class="example-item">
+                    <div class="example-title">Verified</div>
+                    <div class="example-demo">
+                        <div class="feature-badge">
+                            <i class="fas fa-check-circle" style="color: #10b981;"></i>
+                            <span style="color: #065f46;">Verified</span>
+                        </div>
+                    </div>
+                    <div class="example-code">
+                        &lt;div class="feature-badge"&gt;
+                        &lt;i class="fas fa-check-circle"&gt;&lt;/i&gt;
+                        &lt;span&gt;Verified&lt;/span&gt;
+                        &lt;/div&gt;
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Use Case 6: Interactive Buttons -->
+        <div class="example-section">
+            <h2>🎯 Interactive Buttons</h2>
+            <div class="example-grid">
+                <div class="example-item">
+                    <div class="example-title">Get Started CTA</div>
+                    <div class="example-demo">
+                        <a href="#" class="cta-button">
+                            <i class="fas fa-rocket"></i>
+                            <span>Get Started</span>
+                        </a>
+                    </div>
+                    <div class="example-code">
+                        &lt;a href="#" class="cta-button"&gt;
+                        &lt;i class="fas fa-rocket"&gt;&lt;/i&gt;
+                        &lt;span&gt;Get Started&lt;/span&gt;
+                        &lt;/a&gt;
+                    </div>
+                </div>
+
+                <div class="example-item">
+                    <div class="example-title">Learn More CTA</div>
+                    <div class="example-demo">
+                        <a href="#" class="cta-button">
+                            <i class="fas fa-book-open"></i>
+                            <span>Learn More</span>
+                        </a>
+                    </div>
+                    <div class="example-code">
+                        &lt;a href="#" class="cta-button"&gt;
+                        &lt;i class="fas fa-book-open"&gt;&lt;/i&gt;
+                        &lt;span&gt;Learn More&lt;/span&gt;
+                        &lt;/a&gt;
+                    </div>
+                </div>
+
+                <div class="example-item">
+                    <div class="example-title">Contact Us CTA</div>
+                    <div class="example-demo">
+                        <a href="#" class="cta-button">
+                            <i class="fas fa-envelope"></i>
+                            <span>Contact Us</span>
+                        </a>
+                    </div>
+                    <div class="example-code">
+                        &lt;a href="#" class="cta-button"&gt;
+                        &lt;i class="fas fa-envelope"&gt;&lt;/i&gt;
+                        &lt;span&gt;Contact Us&lt;/span&gt;
+                        &lt;/a&gt;
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Info Box -->
+        <div class="info-box">
+            <p><strong>💡 How to Create These Examples:</strong></p>
+            <p>1. Open <code>label-wizard.html</code> in your browser</p>
+            <p>2. Select the desired icon from the grid</p>
+            <p>3. Enter your label text and customize styling</p>
+            <p>4. Adjust position and spacing to match the example</p>
+            <p>5. Export as SVG, PNG, or copy the code snippet</p>
+            <p style="margin-top: 1rem;"><strong>📖 For detailed instructions, see:</strong>
+                <code>docs/label-wizard-usage.md</code></p>
+        </div>
+    </div>
+</body>
+
+</html>
