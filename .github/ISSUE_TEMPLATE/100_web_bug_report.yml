@@ -1,7 +1,7 @@
 name: Bug report (Web - CSS - JS)
 description: Report a bug which occurs in a web application
-title: "Bug: "
-labels: ["bug", "needs-triage"]
+labels: ["needs-triage"]
+type: bug
 body:
   - type: markdown
     attributes:
@@ -34,7 +34,7 @@ body:
     attributes:
       label: Font Awesome version
       description: Provide the version of Font Awesome affected by this bug
-      placeholder: v6.0.0
+      placeholder: v7.1.0
     validations:
       required: true
   - type: dropdown
