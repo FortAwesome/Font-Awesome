@@ -1,7 +1,7 @@
 /*!
- * Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- * Copyright 2025 Fonticons, Inc.
+ * Copyright 2026 Fonticons, Inc.
  */
 .fa-solid,
 .fa-regular,
@@ -11,7 +11,7 @@
 .far,
 .fab,
 .fa {
-  --_fa-family: var(--fa-family, var(--fa-style-family, "Font Awesome 7 Free"));
+  --_fa-family: var(--fa-family, var(--fa-style-family, 'Font Awesome 7 Free'));
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: var(--fa-display, inline-block);
@@ -862,6 +862,10 @@
 
 .fa-clapperboard {
   --fa: "\e131";
+}
+
+.fa-closed-captioning-slash {
+  --fa: "\e135";
 }
 
 .fa-clover {
@@ -2144,6 +2148,10 @@
   --fa: "\e80a";
 }
 
+.fa-picture-in-picture {
+  --fa: "\e80b";
+}
+
 .fa-mobile-vibrate {
   --fa: "\e816";
 }
@@ -2166,6 +2174,54 @@
 
 .fa-heptagon {
   --fa: "\e820";
+}
+
+.fa-aquarius {
+  --fa: "\e845";
+}
+
+.fa-aries {
+  --fa: "\e846";
+}
+
+.fa-cancer {
+  --fa: "\e847";
+}
+
+.fa-capricorn {
+  --fa: "\e848";
+}
+
+.fa-gemini {
+  --fa: "\e849";
+}
+
+.fa-leo {
+  --fa: "\e84a";
+}
+
+.fa-libra {
+  --fa: "\e84b";
+}
+
+.fa-pisces {
+  --fa: "\e84c";
+}
+
+.fa-sagittarius {
+  --fa: "\e84d";
+}
+
+.fa-scorpio {
+  --fa: "\e84e";
+}
+
+.fa-taurus {
+  --fa: "\e84f";
+}
+
+.fa-virgo {
+  --fa: "\e850";
 }
 
 .fa-martini-glass-empty {
@@ -7466,6 +7522,14 @@
 
 .fa-vihara {
   --fa: "\f6a7";
+}
+
+.fa-volume {
+  --fa: "\f6a8";
+}
+
+.fa-volume-medium {
+  --fa: "\f6a8";
 }
 
 .fa-volume-xmark {

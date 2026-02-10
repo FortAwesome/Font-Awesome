@@ -7,6 +7,7 @@ accessibility:
     - circle-info
     - circle-question
     - closed-captioning
+    - closed-captioning-slash
     - ear-deaf
     - ear-listen
     - eye
@@ -221,14 +222,26 @@ arrows:
   label: Arrows
 astronomy:
   icons:
+    - aquarius
+    - aries
     - binoculars
+    - cancer
+    - capricorn
+    - gemini
     - globe
+    - leo
+    - libra
     - meteor
     - moon
+    - pisces
+    - sagittarius
     - satellite
     - satellite-dish
+    - scorpio
     - shuttle-space
+    - taurus
     - user-astronaut
+    - virgo
   label: Astronomy
 automotive:
   icons:
@@ -1977,6 +1990,7 @@ media-playback:
     - music
     - pause
     - phone-volume
+    - picture-in-picture
     - play
     - plus-minus
     - repeat
@@ -1988,6 +2002,7 @@ media-playback:
     - sliders
     - stop
     - up-right-and-down-left-from-center
+    - volume
     - volume-high
     - volume-low
     - volume-off
@@ -2224,6 +2239,7 @@ music-audio:
     - sliders
     - soundcloud
     - spotify
+    - volume
     - volume-high
     - volume-low
     - volume-off
@@ -2298,6 +2314,7 @@ photos-images:
     - minimize
     - panorama
     - photo-film
+    - picture-in-picture
     - sliders
     - unsplash
   label: Photos + Images
@@ -2326,40 +2343,57 @@ political:
   label: Political
 punctuation-symbols:
   icons:
+    - aquarius
+    - aries
     - asterisk
     - at
+    - cancer
+    - capricorn
     - check
     - check-double
     - circle-exclamation
     - circle-question
     - equals
     - exclamation
+    - gemini
     - greater-than
     - hashtag
+    - leo
     - less-than
+    - libra
     - minus
     - percent
+    - pisces
     - plus
     - question
     - quote-left
     - quote-right
+    - sagittarius
+    - scorpio
     - section
     - single-quote-left
     - single-quote-right
+    - taurus
+    - virgo
   label: Punctuation + Symbols
 religion:
   icons:
     - ankh
+    - aquarius
+    - aries
     - atom
     - bahai
     - book-bible
     - book-journal-whills
     - book-quran
     - book-tanakh
+    - cancer
+    - capricorn
     - church
     - cross
     - dharmachakra
     - dove
+    - gemini
     - gopuram
     - hamsa
     - hands-praying
@@ -2367,19 +2401,26 @@ religion:
     - jedi
     - kaaba
     - khanda
+    - leo
+    - libra
     - menorah
     - mosque
     - om
     - peace
     - person-praying
+    - pisces
     - place-of-worship
+    - sagittarius
+    - scorpio
     - scroll-torah
     - spaghetti-monster-flying
     - star-and-crescent
     - star-of-david
     - synagogue
+    - taurus
     - torii-gate
     - vihara
+    - virgo
     - yin-yang
   label: Religion
 science:

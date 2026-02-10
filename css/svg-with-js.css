@@ -1,40 +1,41 @@
 /*!
- * Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- * Copyright 2025 Fonticons, Inc.
+ * Copyright 2026 Fonticons, Inc.
  */
 :root, :host {
-  --fa-font-solid: normal 900 1em/1 "Font Awesome 7 Free";
-  --fa-font-regular: normal 400 1em/1 "Font Awesome 7 Free";
-  --fa-font-light: normal 300 1em/1 "Font Awesome 7 Pro";
-  --fa-font-thin: normal 100 1em/1 "Font Awesome 7 Pro";
-  --fa-font-duotone: normal 900 1em/1 "Font Awesome 7 Duotone";
-  --fa-font-duotone-regular: normal 400 1em/1 "Font Awesome 7 Duotone";
-  --fa-font-duotone-light: normal 300 1em/1 "Font Awesome 7 Duotone";
-  --fa-font-duotone-thin: normal 100 1em/1 "Font Awesome 7 Duotone";
-  --fa-font-brands: normal 400 1em/1 "Font Awesome 7 Brands";
-  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 7 Sharp";
-  --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 7 Sharp";
-  --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 7 Sharp";
-  --fa-font-sharp-thin: normal 100 1em/1 "Font Awesome 7 Sharp";
-  --fa-font-sharp-duotone-solid: normal 900 1em/1 "Font Awesome 7 Sharp Duotone";
-  --fa-font-sharp-duotone-regular: normal 400 1em/1 "Font Awesome 7 Sharp Duotone";
-  --fa-font-sharp-duotone-light: normal 300 1em/1 "Font Awesome 7 Sharp Duotone";
-  --fa-font-sharp-duotone-thin: normal 100 1em/1 "Font Awesome 7 Sharp Duotone";
-  --fa-font-slab-regular: normal 400 1em/1 "Font Awesome 7 Slab";
-  --fa-font-slab-press-regular: normal 400 1em/1 "Font Awesome 7 Slab Press";
-  --fa-font-whiteboard-semibold: normal 600 1em/1 "Font Awesome 7 Whiteboard";
-  --fa-font-thumbprint-light: normal 300 1em/1 "Font Awesome 7 Thumbprint";
-  --fa-font-notdog-solid: normal 900 1em/1 "Font Awesome 7 Notdog";
-  --fa-font-notdog-duo-solid: normal 900 1em/1 "Font Awesome 7 Notdog Duo";
-  --fa-font-etch-solid: normal 900 1em/1 "Font Awesome 7 Etch";
-  --fa-font-jelly-regular: normal 400 1em/1 "Font Awesome 7 Jelly";
-  --fa-font-jelly-fill-regular: normal 400 1em/1 "Font Awesome 7 Jelly Fill";
-  --fa-font-jelly-duo-regular: normal 400 1em/1 "Font Awesome 7 Jelly Duo";
-  --fa-font-chisel-regular: normal 400 1em/1 "Font Awesome 7 Chisel";
-  --fa-font-utility-semibold: normal 600 1em/1 "Font Awesome 7 Utility";
-  --fa-font-utility-duo-semibold: normal 600 1em/1 "Font Awesome 7 Utility Duo";
-  --fa-font-utility-fill-semibold: normal 600 1em/1 "Font Awesome 7 Utility Fill";
+  --fa-font-solid: normal 900 1em/1 'Font Awesome 7 Free';
+  --fa-font-regular: normal 400 1em/1 'Font Awesome 7 Free';
+  --fa-font-light: normal 300 1em/1 'Font Awesome 7 Pro';
+  --fa-font-thin: normal 100 1em/1 'Font Awesome 7 Pro';
+  --fa-font-duotone: normal 900 1em/1 'Font Awesome 7 Duotone';
+  --fa-font-duotone-regular: normal 400 1em/1 'Font Awesome 7 Duotone';
+  --fa-font-duotone-light: normal 300 1em/1 'Font Awesome 7 Duotone';
+  --fa-font-duotone-thin: normal 100 1em/1 'Font Awesome 7 Duotone';
+  --fa-font-brands: normal 400 1em/1 'Font Awesome 7 Brands';
+  --fa-font-sharp-solid: normal 900 1em/1 'Font Awesome 7 Sharp';
+  --fa-font-sharp-regular: normal 400 1em/1 'Font Awesome 7 Sharp';
+  --fa-font-sharp-light: normal 300 1em/1 'Font Awesome 7 Sharp';
+  --fa-font-sharp-thin: normal 100 1em/1 'Font Awesome 7 Sharp';
+  --fa-font-sharp-duotone-solid: normal 900 1em/1 'Font Awesome 7 Sharp Duotone';
+  --fa-font-sharp-duotone-regular: normal 400 1em/1 'Font Awesome 7 Sharp Duotone';
+  --fa-font-sharp-duotone-light: normal 300 1em/1 'Font Awesome 7 Sharp Duotone';
+  --fa-font-sharp-duotone-thin: normal 100 1em/1 'Font Awesome 7 Sharp Duotone';
+  --fa-font-slab-regular: normal 400 1em/1 'Font Awesome 7 Slab';
+  --fa-font-slab-press-regular: normal 400 1em/1 'Font Awesome 7 Slab Press';
+  --fa-font-whiteboard-semibold: normal 600 1em/1 'Font Awesome 7 Whiteboard';
+  --fa-font-thumbprint-light: normal 300 1em/1 'Font Awesome 7 Thumbprint';
+  --fa-font-notdog-solid: normal 900 1em/1 'Font Awesome 7 Notdog';
+  --fa-font-notdog-duo-solid: normal 900 1em/1 'Font Awesome 7 Notdog Duo';
+  --fa-font-etch-solid: normal 900 1em/1 'Font Awesome 7 Etch';
+  --fa-font-graphite-thin: normal 100 1em/1 'Font Awesome 7 Graphite';
+  --fa-font-jelly-regular: normal 400 1em/1 'Font Awesome 7 Jelly';
+  --fa-font-jelly-fill-regular: normal 400 1em/1 'Font Awesome 7 Jelly Fill';
+  --fa-font-jelly-duo-regular: normal 400 1em/1 'Font Awesome 7 Jelly Duo';
+  --fa-font-chisel-regular: normal 400 1em/1 'Font Awesome 7 Chisel';
+  --fa-font-utility-semibold: normal 600 1em/1 'Font Awesome 7 Utility';
+  --fa-font-utility-duo-semibold: normal 600 1em/1 'Font Awesome 7 Utility Duo';
+  --fa-font-utility-fill-semibold: normal 600 1em/1 'Font Awesome 7 Utility Fill';
 }
 
 .svg-inline--fa {

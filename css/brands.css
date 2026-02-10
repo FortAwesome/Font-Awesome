@@ -1,10 +1,10 @@
 /*!
- * Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- * Copyright 2025 Fonticons, Inc.
+ * Copyright 2026 Fonticons, Inc.
  */
 :root, :host {
-  --fa-family-brands: "Font Awesome 7 Brands";
+  --fa-family-brands: 'Font Awesome 7 Brands';
   --fa-font-brands: normal 400 1em/1 var(--fa-family-brands);
 }
 
@@ -400,6 +400,158 @@
 
 .fa-duolingo {
   --fa: "\e812";
+}
+
+.fa-supportnow {
+  --fa: "\e833";
+}
+
+.fa-tor-browser {
+  --fa: "\e838";
+}
+
+.fa-typescript {
+  --fa: "\e840";
+}
+
+.fa-square-deskpro {
+  --fa: "\e844";
+}
+
+.fa-circle-zulip {
+  --fa: "\e851";
+}
+
+.fa-julia {
+  --fa: "\e852";
+}
+
+.fa-zulip {
+  --fa: "\e853";
+}
+
+.fa-unison {
+  --fa: "\e854";
+}
+
+.fa-board-game-geek {
+  --fa: "\e855";
+}
+
+.fa-bgg {
+  --fa: "\e855";
+}
+
+.fa-ko-fi {
+  --fa: "\e856";
+}
+
+.fa-kubernetes {
+  --fa: "\e857";
+}
+
+.fa-postgresql {
+  --fa: "\e858";
+}
+
+.fa-scaleway {
+  --fa: "\e859";
+}
+
+.fa-venmo {
+  --fa: "\e85a";
+}
+
+.fa-venmo-v {
+  --fa: "\e85b";
+}
+
+.fa-unreal-engine {
+  --fa: "\e85c";
+}
+
+.fa-globaleaks {
+  --fa: "\e85d";
+}
+
+.fa-solana {
+  --fa: "\e85e";
+}
+
+.fa-threema {
+  --fa: "\e85f";
+}
+
+.fa-forgejo {
+  --fa: "\e860";
+}
+
+.fa-claude {
+  --fa: "\e861";
+}
+
+.fa-gitee {
+  --fa: "\e863";
+}
+
+.fa-xmpp {
+  --fa: "\e864";
+}
+
+.fa-fediverse {
+  --fa: "\e865";
+}
+
+.fa-tailwind-css {
+  --fa: "\e866";
+}
+
+.fa-arch-linux {
+  --fa: "\e867";
+}
+
+.fa-svelte {
+  --fa: "\e868";
+}
+
+.fa-hugging-face {
+  --fa: "\e869";
+}
+
+.fa-leetcode {
+  --fa: "\e86a";
+}
+
+.fa-openstreetmap {
+  --fa: "\e86b";
+}
+
+.fa-ultralytics {
+  --fa: "\e86d";
+}
+
+.fa-ultralytics-hub {
+  --fa: "\e86e";
+}
+
+.fa-ultralytics-yolo {
+  --fa: "\e86f";
+}
+
+.fa-obsidian {
+  --fa: "\e879";
+}
+
+.fa-zoom {
+  --fa: "\e87b";
+}
+
+.fa-vim {
+  --fa: "\e88a";
+}
+
+.fa-symfonycasts {
+  --fa: "\e8ab";
 }
 
 .fa-square-twitter {
