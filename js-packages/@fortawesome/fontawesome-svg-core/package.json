@@ -21,9 +21,9 @@
     "node": ">=6"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-common-types": "7.1.0"
+    "@fortawesome/fontawesome-common-types": "7.2.0"
   },
-  "version": "7.1.0",
+  "version": "7.2.0",
   "name": "@fortawesome/fontawesome-svg-core",
   "main": "index.js",
   "module": "index.mjs",

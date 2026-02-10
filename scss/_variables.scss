@@ -165,6 +165,7 @@ $var-cedi-sign: \e0df;
 $var-chart-column: \e0e3;
 $var-chart-gantt: \e0e4;
 $var-clapperboard: \e131;
+$var-closed-captioning-slash: \e135;
 $var-clover: \e139;
 $var-code-compare: \e13a;
 $var-code-fork: \e13b;
@@ -485,12 +486,25 @@ $var-square-binary: \e69b;
 $var-pentagon: \e790;
 $var-non-binary: \e807;
 $var-spiral: \e80a;
+$var-picture-in-picture: \e80b;
 $var-mobile-vibrate: \e816;
 $var-single-quote-left: \e81b;
 $var-single-quote-right: \e81c;
 $var-bus-side: \e81d;
 $var-septagon: \e820;
 $var-heptagon: \e820;
+$var-aquarius: \e845;
+$var-aries: \e846;
+$var-cancer: \e847;
+$var-capricorn: \e848;
+$var-gemini: \e849;
+$var-leo: \e84a;
+$var-libra: \e84b;
+$var-pisces: \e84c;
+$var-sagittarius: \e84d;
+$var-scorpio: \e84e;
+$var-taurus: \e84f;
+$var-virgo: \e850;
 $var-martini-glass-empty: \f000;
 $var-glass-martini: \f000;
 $var-music: \f001;
@@ -1816,6 +1830,8 @@ $var-scroll-torah: \f6a0;
 $var-torah: \f6a0;
 $var-torii-gate: \f6a1;
 $var-vihara: \f6a7;
+$var-volume: \f6a8;
+$var-volume-medium: \f6a8;
 $var-volume-xmark: \f6a9;
 $var-volume-mute: \f6a9;
 $var-volume-times: \f6a9;
@@ -2135,6 +2151,44 @@ $var-lumon-drop: \e7e3;
 $var-square-figma: \e7e4;
 $var-tex: \e7ff;
 $var-duolingo: \e812;
+$var-supportnow: \e833;
+$var-tor-browser: \e838;
+$var-typescript: \e840;
+$var-square-deskpro: \e844;
+$var-circle-zulip: \e851;
+$var-julia: \e852;
+$var-zulip: \e853;
+$var-unison: \e854;
+$var-board-game-geek: \e855;
+$var-bgg: \e855;
+$var-ko-fi: \e856;
+$var-kubernetes: \e857;
+$var-postgresql: \e858;
+$var-scaleway: \e859;
+$var-venmo: \e85a;
+$var-venmo-v: \e85b;
+$var-unreal-engine: \e85c;
+$var-globaleaks: \e85d;
+$var-solana: \e85e;
+$var-threema: \e85f;
+$var-forgejo: \e860;
+$var-claude: \e861;
+$var-gitee: \e863;
+$var-xmpp: \e864;
+$var-fediverse: \e865;
+$var-tailwind-css: \e866;
+$var-arch-linux: \e867;
+$var-svelte: \e868;
+$var-hugging-face: \e869;
+$var-leetcode: \e86a;
+$var-openstreetmap: \e86b;
+$var-ultralytics: \e86d;
+$var-ultralytics-hub: \e86e;
+$var-ultralytics-yolo: \e86f;
+$var-obsidian: \e879;
+$var-zoom: \e87b;
+$var-vim: \e88a;
+$var-symfonycasts: \e8ab;
 $var-square-twitter: \f081;
 $var-twitter-square: \f081;
 $var-square-facebook: \f082;
@@ -2701,6 +2755,7 @@ $icons: (
   "chart-column": $var-chart-column,
   "chart-gantt": $var-chart-gantt,
   "clapperboard": $var-clapperboard,
+  "closed-captioning-slash": $var-closed-captioning-slash,
   "clover": $var-clover,
   "code-compare": $var-code-compare,
   "code-fork": $var-code-fork,
@@ -3021,12 +3076,25 @@ $icons: (
   "pentagon": $var-pentagon,
   "non-binary": $var-non-binary,
   "spiral": $var-spiral,
+  "picture-in-picture": $var-picture-in-picture,
   "mobile-vibrate": $var-mobile-vibrate,
   "single-quote-left": $var-single-quote-left,
   "single-quote-right": $var-single-quote-right,
   "bus-side": $var-bus-side,
   "septagon": $var-septagon,
   "heptagon": $var-heptagon,
+  "aquarius": $var-aquarius,
+  "aries": $var-aries,
+  "cancer": $var-cancer,
+  "capricorn": $var-capricorn,
+  "gemini": $var-gemini,
+  "leo": $var-leo,
+  "libra": $var-libra,
+  "pisces": $var-pisces,
+  "sagittarius": $var-sagittarius,
+  "scorpio": $var-scorpio,
+  "taurus": $var-taurus,
+  "virgo": $var-virgo,
   "martini-glass-empty": $var-martini-glass-empty,
   "glass-martini": $var-glass-martini,
   "music": $var-music,
@@ -4352,6 +4420,8 @@ $icons: (
   "torah": $var-torah,
   "torii-gate": $var-torii-gate,
   "vihara": $var-vihara,
+  "volume": $var-volume,
+  "volume-medium": $var-volume-medium,
   "volume-xmark": $var-volume-xmark,
   "volume-mute": $var-volume-mute,
   "volume-times": $var-volume-times,
@@ -4673,6 +4743,44 @@ $brand-icons: (
   "square-figma": $var-square-figma,
   "tex": $var-tex,
   "duolingo": $var-duolingo,
+  "supportnow": $var-supportnow,
+  "tor-browser": $var-tor-browser,
+  "typescript": $var-typescript,
+  "square-deskpro": $var-square-deskpro,
+  "circle-zulip": $var-circle-zulip,
+  "julia": $var-julia,
+  "zulip": $var-zulip,
+  "unison": $var-unison,
+  "board-game-geek": $var-board-game-geek,
+  "bgg": $var-bgg,
+  "ko-fi": $var-ko-fi,
+  "kubernetes": $var-kubernetes,
+  "postgresql": $var-postgresql,
+  "scaleway": $var-scaleway,
+  "venmo": $var-venmo,
+  "venmo-v": $var-venmo-v,
+  "unreal-engine": $var-unreal-engine,
+  "globaleaks": $var-globaleaks,
+  "solana": $var-solana,
+  "threema": $var-threema,
+  "forgejo": $var-forgejo,
+  "claude": $var-claude,
+  "gitee": $var-gitee,
+  "xmpp": $var-xmpp,
+  "fediverse": $var-fediverse,
+  "tailwind-css": $var-tailwind-css,
+  "arch-linux": $var-arch-linux,
+  "svelte": $var-svelte,
+  "hugging-face": $var-hugging-face,
+  "leetcode": $var-leetcode,
+  "openstreetmap": $var-openstreetmap,
+  "ultralytics": $var-ultralytics,
+  "ultralytics-hub": $var-ultralytics-hub,
+  "ultralytics-yolo": $var-ultralytics-yolo,
+  "obsidian": $var-obsidian,
+  "zoom": $var-zoom,
+  "vim": $var-vim,
+  "symfonycasts": $var-symfonycasts,
   "square-twitter": $var-square-twitter,
   "twitter-square": $var-twitter-square,
   "square-facebook": $var-square-facebook,
