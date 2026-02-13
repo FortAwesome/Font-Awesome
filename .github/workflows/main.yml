@@ -1,0 +1,39 @@
+name: Fix Issues
+
+on:
+  push:
+    branches:
+      - 7.x
+  pull_request:
+    branches:
+      - 7.x
+
+jobs:
+  lint-and-fix:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run ESLint
+        run: npm run lint -- --fix
+
+      - name: Run Prettier
+        run: npm run prettier -- --write
+
+      - name: Commit fixes (if any)
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "chore: auto-fix linting and formatting issues" || echo "No changes to commit"
+          git push
