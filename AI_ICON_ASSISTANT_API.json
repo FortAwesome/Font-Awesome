@@ -1,0 +1,115 @@
+{
+  "feature": {
+    "name": "AI Icon Assistant",
+    "version": "1.0.0",
+    "released": "2026-02",
+    "description": "AI-powered intelligent icon discovery and recommendation system for fontawesome.com",
+    "status": "beta",
+    "apis": {
+      "ai_search": {
+        "endpoint": "/api/v1/ai-search",
+        "method": "POST",
+        "authentication": "optional (higher rate limit for authenticated users)",
+        "rateLimit": "100 requests per minute",
+        "parameters": {
+          "query": {
+            "type": "string",
+            "required": true,
+            "description": "Natural language description of the icon needed"
+          },
+          "limit": {
+            "type": "integer",
+            "required": false,
+            "default": 10,
+            "minimum": 1,
+            "maximum": 50,
+            "description": "Maximum number of results to return"
+          },
+          "families": {
+            "type": "array",
+            "required": false,
+            "description": "Filter by icon families (solid, regular, brands, light, thin, duotone)"
+          }
+        }
+      },
+      "icon_recommendations": {
+        "endpoint": "/api/v1/icons/{iconName}/recommendations",
+        "method": "GET",
+        "parameters": {
+          "iconName": {
+            "type": "string",
+            "required": true,
+            "description": "The name of the icon to get recommendations for"
+          },
+          "limit": {
+            "type": "integer",
+            "required": false,
+            "default": 5,
+            "description": "Number of recommendations to return"
+          }
+        }
+      },
+      "search_suggestions": {
+        "endpoint": "/api/v1/ai-search/suggestions",
+        "method": "GET",
+        "parameters": {
+          "query": {
+            "type": "string",
+            "required": true,
+            "description": "Partial query for autocomplete suggestions"
+          }
+        }
+      }
+    },
+    "features": [
+      "Natural language icon search",
+      "AI-powered recommendations",
+      "Icon similarity detection",
+      "Use case suggestions",
+      "Search autocomplete",
+      "Query caching for performance",
+      "Multilingual support (roadmap)"
+    ],
+    "supportedLanguages": [
+      "en"
+    ],
+    "roadmap": [
+      {
+        "phase": 1,
+        "name": "Beta Release",
+        "features": [
+          "Basic text search",
+          "Icon recommendations"
+        ]
+      },
+      {
+        "phase": 2,
+        "name": "Extended Beta",
+        "features": [
+          "Performance optimization",
+          "User feedback integration",
+          "Mobile UI improvements"
+        ]
+      },
+      {
+        "phase": 3,
+        "name": "Public Release",
+        "features": [
+          "Full documentation",
+          "API stability guarantee",
+          "Premium tier features"
+        ]
+      },
+      {
+        "phase": 4,
+        "name": "Advanced Features",
+        "features": [
+          "Image-based search",
+          "Voice search",
+          "Multi-language support",
+          "Custom icon generation"
+        ]
+      }
+    ]
+  }
+}
