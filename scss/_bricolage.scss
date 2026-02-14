@@ -1,0 +1,39 @@
+/*
+ * Bricolage Grotesque — experimental support for ASCII glyphs & food icons
+ * --------------------------------------------------------------------
+ * - Adds the `.fa-bricolage` helper class which applies the Bricolage
+ *   Grotesque typeface to ASCII-based glyph icons (letters, digits,
+ *   punctuation).
+ * - Does NOT bundle the Bricolage Grotesque font. You must provide licensed
+ *   font files before uncommenting the @font-face block below.
+ *
+ * Usage (ASCII glyphs):
+ *   <i class="fa fa-bricolage fa-a"></i>
+ *
+ * Usage (food SVGs): add SVG icons (example files live in `svgs/solid/`)
+ *   <img src="svgs/solid/food-bricolage-apple.svg" alt="apple">
+ */
+
+// Placeholder @font-face (do NOT uncomment unless you have license)
+/*
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('#{$font-path}/bricolage-grotesque.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 100 900;
+  font-style: normal;
+}
+*/
+
+/* Apply the Bricolage Grotesque family when the helper class is used.
+   Intended for ASCII-based glyph icons only (letters, digits, punctuation).
+   Using this class with existing Font Awesome PUA glyphs (normal icons)
+   will likely fall back to the default Font Awesome glyphs. */
+
+.fa-bricolage,
+.fa-bricolage::before {
+  /* primary family (Bricolage) then fallbacks */
+  font-family: 'Bricolage Grotesque', var(--fa-family-classic, "Font Awesome 7 Free"), system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans";
+  /* Ensure normal weight for ASCII glyph rendering */
+  font-weight: 400;
+}

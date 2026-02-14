@@ -1,0 +1,20 @@
+/* Bricolage Grotesque (package-level placeholder)
+   Mirrors `scss/_bricolage.scss` for NPM package consumers.
+   NOTE: font files are NOT included here. */
+
+// Placeholder @font-face (leave commented until licensed font is added)
+/*
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('#{$font-path}/bricolage-grotesque.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 100 900;
+  font-style: normal;
+}
+*/
+
+.fa-bricolage,
+.fa-bricolage::before {
+  font-family: 'Bricolage Grotesque', var(--fa-family-classic, "Font Awesome 7 Free"), system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans";
+  font-weight: 400;
+}

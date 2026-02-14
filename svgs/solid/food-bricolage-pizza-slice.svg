@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true">
+  <!-- simple pizza-slice placeholder -->
+  <g fill="currentColor">
+    <path d="M501 34L11 478c-6 5-3 13 5 13h198c10 0 19-6 23-15L501 47c6-9 1-21-9-13z"/>
+    <circle cx="200" cy="210" r="18" fill="#fff"/>
+    <circle cx="280" cy="260" r="14" fill="#fff"/>
+    <circle cx="220" cy="310" r="12" fill="#fff"/>
+  </g>
+</svg>

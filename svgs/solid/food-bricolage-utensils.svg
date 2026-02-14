@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true">
+  <!-- simple utensils placeholder (fork + knife) -->
+  <g fill="currentColor">
+    <path d="M120 48c12 0 22 10 22 22v160c0 12-10 22-22 22s-22-10-22-22V70c0-12 10-22 22-22zM160 416c0 26-20 48-44 48s-44-22-44-48V256h88v160z"/>
+    <path d="M392 48c9 0 16 7 16 16v224c0 8-7 16-16 16s-16-8-16-16V64c0-9 7-16 16-16z"/>
+  </g>
+</svg>

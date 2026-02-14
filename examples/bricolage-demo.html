@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Bricolage Grotesque — demo</title>
+  <link rel="stylesheet" href="../css/all.css">
+  <style>
+    /* Small local demo override so the `.fa-bricolage` helper is visible in this repo
+       (we do NOT bundle Bricolage Grotesque here). */
+    .fa-bricolage, .fa-bricolage::before { font-family: Georgia, serif; font-weight: 400; }
+    .demo { font-size: 48px; margin: 12px 0; }
+    img.icon { width: 48px; height: 48px; vertical-align: middle; }
+  </style>
+</head>
+<body>
+  <h1>Bricolage Grotesque — ASCII glyphs & food icons (experimental)</h1>
+
+  <h2>ASCII glyphs (use existing ASCII icon names with <code>.fa-bricolage</code>)</h2>
+  <p class="demo">
+    <i class="fa fa-bricolage fa-a" aria-hidden="true"></i>
+    <i class="fa fa-bricolage fa-b" aria-hidden="true"></i>
+    <i class="fa fa-bricolage fa-1" aria-hidden="true"></i>
+    <i class="fa fa-bricolage fa-exclamation" aria-hidden="true"></i>
+  </p>
+
+  <h2>Food icons (sample placeholders)</h2>
+  <p class="demo">
+    <img class="icon" src="../svgs/solid/food-bricolage-apple.svg" alt="apple">
+    <img class="icon" src="../svgs/solid/food-bricolage-pizza-slice.svg" alt="pizza">
+    <img class="icon" src="../svgs/solid/food-bricolage-utensils.svg" alt="utensils">
+  </p>
+
+  <p><em>Notes:</em> this demo uses a local typeface fallback so the ASCII examples are visible without bundling the licensed Bricolage font.</p>
+</body>
+</html>

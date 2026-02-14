@@ -43,6 +43,26 @@ We will behave ourselves if you behave yourselves. For more details see our
 Please read through our [contributing guidelines](./CONTRIBUTING.md).  Included
 are directions for opening issues.
 
+## Experimental: Bricolage Grotesque (ASCII glyphs + food icons)
+
+- Adds a helper class `fa-bricolage` that applies the *Bricolage Grotesque*
+  typeface to ASCII-based glyph icons (letters, digits, punctuation).
+- Adds a small set of placeholder `food-` SVG icons (for prototype/demo).
+
+Usage examples:
+
+```html
+<i class="fa fa-bricolage fa-a"></i> <!-- ASCII glyph rendered with Bricolage -->
+<img src="svgs/solid/food-bricolage-apple.svg" alt="apple"> <!-- sample SVG icon -->
+```
+
+Notes:
+- The Bricolage Grotesque font files are NOT bundled in this repository.
+  Add licensed font files to `webfonts/` and uncomment the `@font-face`
+  placeholder in `scss/_bricolage.scss` to enable the full typeface.
+- This is experimental scaffolding + demo icons — replace placeholder artwork
+  with production-grade SVGs before release.
+
 ## Versioning
 
 Font Awesome will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered
