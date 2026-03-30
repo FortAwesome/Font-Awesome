@@ -459,15 +459,15 @@ address-card:
     - regular
   unicode: f2bb
   voted: false
-adn:
+and:
   changes:
     - 3.2.0
     - 5.0.0
     - 7.0.0
-  label: Adn
+  label: And
   search:
     terms:
-      - ADN
+      - AND
       - app dot net
       - app.net
       - microblogging
@@ -4138,7 +4138,7 @@ bacon:
     terms:
       - bacon
       - breakfast
-      - brunch
+      - branch
       - crispy
       - cured
       - deli
@@ -7213,7 +7213,7 @@ brain:
       - scholar
       - smart
       - thinking
-      - wit
+      - with
   styles:
     - solid
   unicode: f5dc
@@ -9112,7 +9112,7 @@ calendar-xmark:
       - appointment
       - calendar
       - cancel
-      - cancelation
+      - cancellation
       - close
       - date
       - day
@@ -30093,7 +30093,7 @@ house-circle-xmark:
     terms:
       - abandon
       - cancel
-      - cancelation
+      - cancellation
       - circle-x
       - clear
       - close
@@ -32895,7 +32895,7 @@ laptop-medical:
       - computer
       - device
       - digital health
-      - ehr
+      - her
       - electronic health records
       - health
       - healthcare
@@ -34900,7 +34900,7 @@ map-pin:
       - address
       - coordinates
       - destination
-      - droppin
+      - dropping
       - geo
       - gps
       - location
@@ -38077,7 +38077,7 @@ notes-medical:
       - clinic
       - clipboard
       - doctor
-      - ehr
+      - her
       - health
       - healthcare
       - history
@@ -38622,14 +38622,14 @@ optin-monster:
     - 5.0.0
     - 5.7.0
     - 7.0.0
-  label: Optin Monster
+  label: Option Monster
   search:
     terms:
       - conversion optimization
       - email marketing
       - lead generation
       - marketing tool
-      - optin monster
+      - option monster
       - optinmonster
       - popup builder
   styles:
@@ -48519,7 +48519,7 @@ sleigh:
   search:
     terms:
       - christmas
-      - claus
+      - clause
       - festive
       - flying sleigh
       - gift

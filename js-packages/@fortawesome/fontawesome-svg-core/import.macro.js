@@ -67,7 +67,7 @@ function resolveReplacement({ nodePath, babel, state, macroName }) {
   }
 }
 
-// The macros corresonding to legacy style names: solid(), regular(), light(), thin(), duotone(), brands().
+// The macros corresponding to legacy style names: solid(), regular(), light(), thin(), duotone(), brands().
 function resolveReplacementLegacyStyle({ nodePath, babel, macroName }) {
   const { types: t } = babel
   const { parentPath } = nodePath

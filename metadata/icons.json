@@ -895,7 +895,7 @@
       "solid"
     ]
   },
-  "adn": {
+  "and": {
     "changes": [
       "3.2.0",
       "5.0.0",
@@ -904,7 +904,7 @@
     "ligatures": [],
     "search": {
       "terms": [
-        "ADN",
+        "AND",
         "app dot net",
         "app.net",
         "microblogging",
@@ -918,7 +918,7 @@
       "brands"
     ],
     "unicode": "f170",
-    "label": "Adn",
+    "label": "And",
     "voted": false,
     "svg": {
       "brands": {
@@ -7481,7 +7481,7 @@
       "terms": [
         "bacon",
         "breakfast",
-        "brunch",
+        "branch",
         "crispy",
         "cured",
         "deli",
@@ -12909,7 +12909,7 @@
         "scholar",
         "smart",
         "thinking",
-        "wit"
+        "with"
       ]
     },
     "styles": [
@@ -16296,7 +16296,7 @@
         "appointment",
         "calendar",
         "cancel",
-        "cancelation",
+        "cancellation",
         "close",
         "date",
         "day",
@@ -55034,7 +55034,7 @@
       "terms": [
         "abandon",
         "cancel",
-        "cancelation",
+        "cancellation",
         "circle-x",
         "clear",
         "close",
@@ -60273,7 +60273,7 @@
         "computer",
         "device",
         "digital health",
-        "ehr",
+        "her",
         "electronic health records",
         "health",
         "healthcare",
@@ -63914,7 +63914,7 @@
         "address",
         "coordinates",
         "destination",
-        "droppin",
+        "dropping",
         "geo",
         "gps",
         "location",
@@ -69666,7 +69666,7 @@
         "clinic",
         "clipboard",
         "doctor",
-        "ehr",
+        "her",
         "health",
         "healthcare",
         "history",
@@ -70791,7 +70791,7 @@
         "email marketing",
         "lead generation",
         "marketing tool",
-        "optin monster",
+        "option monster",
         "optinmonster",
         "popup builder"
       ]
@@ -70800,7 +70800,7 @@
       "brands"
     ],
     "unicode": "f23c",
-    "label": "Optin Monster",
+    "label": "Option Monster",
     "voted": false,
     "svg": {
       "brands": {
@@ -88663,7 +88663,7 @@
     "search": {
       "terms": [
         "christmas",
-        "claus",
+        "clause",
         "festive",
         "flying sleigh",
         "gift",

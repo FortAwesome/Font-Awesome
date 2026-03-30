@@ -1096,7 +1096,7 @@
       ]
     }
   },
-  "adn": {
+  "and": {
     "changes": [
       "3.2.0",
       "5.0.0",
@@ -1105,7 +1105,7 @@
     "ligatures": [],
     "search": {
       "terms": [
-        "ADN",
+        "AND",
         "app dot net",
         "app.net",
         "microblogging",
@@ -1116,7 +1116,7 @@
       ]
     },
     "unicode": "f170",
-    "label": "Adn",
+    "label": "And",
     "voted": false,
     "svgs": {
       "classic": {
@@ -8954,7 +8954,7 @@
       "terms": [
         "bacon",
         "breakfast",
-        "brunch",
+        "branch",
         "crispy",
         "cured",
         "deli",
@@ -15393,7 +15393,7 @@
         "scholar",
         "smart",
         "thinking",
-        "wit"
+        "with"
       ]
     },
     "unicode": "f5dc",
@@ -19449,7 +19449,7 @@
         "appointment",
         "calendar",
         "cancel",
-        "cancelation",
+        "cancellation",
         "close",
         "date",
         "day",
@@ -66018,7 +66018,7 @@
       "terms": [
         "abandon",
         "cancel",
-        "cancelation",
+        "cancellation",
         "circle-x",
         "clear",
         "close",
@@ -72359,7 +72359,7 @@
         "computer",
         "device",
         "digital health",
-        "ehr",
+        "her",
         "electronic health records",
         "health",
         "healthcare",
@@ -76721,7 +76721,7 @@
         "address",
         "coordinates",
         "destination",
-        "droppin",
+        "dropping",
         "geo",
         "gps",
         "location",
@@ -83608,7 +83608,7 @@
         "clinic",
         "clipboard",
         "doctor",
-        "ehr",
+        "her",
         "health",
         "healthcare",
         "history",
@@ -85000,13 +85000,13 @@
         "email marketing",
         "lead generation",
         "marketing tool",
-        "optin monster",
+        "option monster",
         "optinmonster",
         "popup builder"
       ]
     },
     "unicode": "f23c",
-    "label": "Optin Monster",
+    "label": "Option Monster",
     "voted": false,
     "svgs": {
       "classic": {
@@ -106397,7 +106397,7 @@
     "search": {
       "terms": [
         "christmas",
-        "claus",
+        "clause",
         "festive",
         "flying sleigh",
         "gift",
