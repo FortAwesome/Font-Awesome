@@ -75,6 +75,7 @@ commercial projects, open source projects, or really almost whatever you want.
 - Fonts — SIL OFL 1.1 License
   - In the Font Awesome Free download, the SIL OFL license applies to all icons packaged as web and desktop font files.
 - Code — MIT License
+- [CCHub](https://github.com/Moresll/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
   - In the Font Awesome Free download, the MIT license applies to all non-font and non-icon files.
 
 Attribution is required by MIT, SIL OFL, and CC BY licenses. Downloaded Font
