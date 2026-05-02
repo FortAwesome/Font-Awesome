@@ -1,0 +1,21 @@
+{
+  "name": "@fortawesome/mcp-server",
+  "version": "1.0.0",
+  "description": "An official Model Context Protocol (MCP) server for Font Awesome icons",
+  "main": "index.js",
+  "bin": {
+    "font-awesome-mcp": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Font Awesome",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1"
+  },
+  "peerDependencies": {
+    "@fortawesome/fontawesome-free": "^6.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+// specific icon class definition
+// -------------------------
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+
+each(.fa-icons(), {
+  .@{fa-css-prefix}-@{key} {
+    @{fa-icon-property}: @value;
+  }
+});

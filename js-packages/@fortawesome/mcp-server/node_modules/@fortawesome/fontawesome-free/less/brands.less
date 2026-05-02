@@ -1,0 +1,29 @@
+/*!
+ * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2024 Fonticons, Inc.
+ */
+@import "_variables.less";
+
+:root, :host {
+  --@{fa-css-prefix}-style-family-brands: 'Font Awesome 6 Brands';
+  --@{fa-css-prefix}-font-brands: normal 400 1em/1 'Font Awesome 6 Brands';
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: @fa-font-display;
+  src: url('@{fa-font-path}/fa-brands-400.woff2') format('woff2'),
+    url('@{fa-font-path}/fa-brands-400.ttf') format('truetype');
+}
+
+.fab,
+.@{fa-css-prefix}-brands {
+  font-weight: 400;
+}
+
+each(.fa-brand-icons(), {
+  .@{fa-css-prefix}-@{key} { @{fa-icon-property}: @value; }
+});
