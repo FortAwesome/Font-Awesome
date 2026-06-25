@@ -517,6 +517,7 @@ address-card:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -674,6 +675,7 @@ alarm-clock:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -1024,6 +1026,7 @@ anchor:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -1269,6 +1272,7 @@ angle-down:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -1314,6 +1318,7 @@ angle-left:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -1359,6 +1364,7 @@ angle-right:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -1404,6 +1410,7 @@ angle-up:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2008,6 +2015,7 @@ arrow-down:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2220,6 +2228,7 @@ arrow-down-short-wide:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2329,6 +2338,7 @@ arrow-down-wide-short:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2414,6 +2424,7 @@ arrow-left:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2545,6 +2556,7 @@ arrow-right:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2592,6 +2604,7 @@ arrow-right-arrow-left:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2636,6 +2649,7 @@ arrow-right-from-bracket:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2722,6 +2736,7 @@ arrow-right-to-bracket:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2807,6 +2822,7 @@ arrow-rotate-left:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2856,6 +2872,7 @@ arrow-rotate-right:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -3055,6 +3072,7 @@ arrow-up:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -3213,6 +3231,7 @@ arrow-up-from-bracket:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -3400,6 +3419,7 @@ arrow-up-right-from-square:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -3441,6 +3461,7 @@ arrow-up-short-wide:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -3486,6 +3507,7 @@ arrow-up-wide-short:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -3714,6 +3736,7 @@ arrows-rotate:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -4204,6 +4227,7 @@ at:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -4671,6 +4695,7 @@ backward:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -4762,6 +4787,7 @@ backward-step:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -4930,6 +4956,7 @@ bag-shopping:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -5294,6 +5321,7 @@ bars:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -5701,6 +5729,7 @@ battery-full:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -5899,6 +5928,7 @@ bed:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -6065,6 +6095,7 @@ bell:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -6918,6 +6949,7 @@ bolt:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -6998,6 +7030,7 @@ bomb:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -7121,6 +7154,7 @@ book:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -7371,6 +7405,7 @@ book-open:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -7591,6 +7626,7 @@ bookmark:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -8025,6 +8061,7 @@ box:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -8071,6 +8108,7 @@ box-archive:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -9000,6 +9038,7 @@ bug:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -9094,6 +9133,21 @@ bugs:
       - ticks
   unicode: e4d0
   voted: false
+build-awesome:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Build Awesome
+  search:
+    terms: []
+  unicode: e8ac
+  voted: false
 building:
   aliases:
     unicodes:
@@ -9117,6 +9171,7 @@ building:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -9795,6 +9850,7 @@ bus:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -10083,6 +10139,7 @@ cake-candles:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -10180,6 +10237,7 @@ calendar:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -10593,6 +10651,7 @@ camera:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -10967,6 +11026,7 @@ car:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -11667,6 +11727,7 @@ cart-shopping:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -12203,6 +12264,7 @@ certificate:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -12329,6 +12391,7 @@ chalkboard-user:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -12713,6 +12776,7 @@ chart-pie:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -12752,6 +12816,7 @@ chart-simple:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -12800,6 +12865,7 @@ check:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -13776,6 +13842,7 @@ circle:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -14491,6 +14558,7 @@ circle-info:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -14836,6 +14904,7 @@ circle-question:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15075,6 +15144,7 @@ circle-user:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15280,6 +15350,7 @@ clipboard:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15499,6 +15570,7 @@ clock:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15593,6 +15665,7 @@ clone:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15676,6 +15749,7 @@ closed-captioning-slash:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15720,6 +15794,7 @@ cloud:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -16147,6 +16222,7 @@ cloud-sun:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -16189,6 +16265,7 @@ cloud-sun-rain:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -16394,6 +16471,7 @@ code:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -16649,6 +16727,21 @@ code-pull-request:
       - version control
   unicode: e13c
   voted: false
+codeberg:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Codeberg
+  search:
+    terms: []
+  unicode: e8ad
+  voted: false
 codepen:
   changes:
     - 4.1.0
@@ -16798,6 +16891,7 @@ comment:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -17105,6 +17199,7 @@ comments:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -17202,6 +17297,7 @@ compact-disc:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -17252,6 +17348,7 @@ compass:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -17341,6 +17438,7 @@ compress:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -18188,6 +18286,7 @@ credit-card:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -18477,6 +18576,7 @@ crown:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -18964,6 +19064,7 @@ database:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -19179,6 +19280,7 @@ deskpro:
   changes:
     - 5.0.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -19225,6 +19327,7 @@ desktop:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -19301,6 +19404,21 @@ deviantart:
       - illustration
       - portfolio
   unicode: f1bd
+  voted: false
+devpost:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Devpost
+  search:
+    terms: []
+  unicode: e8ae
   voted: false
 dharmachakra:
   aliases:
@@ -20957,6 +21075,7 @@ droplet:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -22207,6 +22326,7 @@ envelope:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -22457,6 +22577,7 @@ equals:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -22783,6 +22904,7 @@ expand:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -22890,6 +23012,7 @@ eye:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -23022,6 +23145,7 @@ eye-slash:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -23257,6 +23381,7 @@ face-frown:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -23408,6 +23533,7 @@ face-grin:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -24416,6 +24542,7 @@ face-meh:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -24672,6 +24799,7 @@ face-smile:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -25422,6 +25550,7 @@ file:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -26880,6 +27009,7 @@ film:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -26925,6 +27055,7 @@ filter:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -27085,6 +27216,7 @@ fire:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -27416,6 +27548,7 @@ fish:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -27494,6 +27627,7 @@ flag:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -27902,6 +28036,7 @@ folder:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -28159,6 +28294,7 @@ font:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -28212,6 +28348,7 @@ font-awesome:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -28439,6 +28576,7 @@ forward:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -28530,6 +28668,7 @@ forward-step:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -28882,6 +29021,7 @@ gamepad:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -28973,6 +29113,7 @@ gauge:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -29205,6 +29346,7 @@ gear:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -29539,6 +29681,7 @@ gift:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -30003,6 +30146,7 @@ globe:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -31201,6 +31345,7 @@ hand:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -33154,6 +33299,7 @@ headphones:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -33255,6 +33401,7 @@ heart:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -33676,6 +33823,7 @@ helmet-safety:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -34534,6 +34682,7 @@ hourglass:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -34732,6 +34881,7 @@ house:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -36224,6 +36374,7 @@ image:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -36309,6 +36460,7 @@ images:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -36380,6 +36532,7 @@ inbox:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -36682,6 +36835,21 @@ intercom:
       - live chat
       - messaging
   unicode: f7af
+  voted: false
+internet-archive:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Internet Archive
+  search:
+    terms: []
+  unicode: e8b1
   voted: false
 internet-explorer:
   changes:
@@ -37564,6 +37732,7 @@ key:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -38074,6 +38243,7 @@ landmark:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -38197,6 +38367,7 @@ language:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -38243,6 +38414,7 @@ laptop:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -38491,6 +38663,7 @@ layer-group:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -38533,6 +38706,7 @@ leaf:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -38858,6 +39032,21 @@ less-than-equal:
       - symbol
   unicode: f537
   voted: true
+lets-encrypt:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Lets Encrypt
+  search:
+    terms: []
+  unicode: e8b2
+  voted: false
 letterboxd:
   changes:
     - 6.5.0
@@ -38928,6 +39117,7 @@ life-ring:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -38976,6 +39166,7 @@ lightbulb:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39088,6 +39279,7 @@ link:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39210,6 +39402,7 @@ linkedin-in:
 linktree:
   changes:
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39342,6 +39535,7 @@ list:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39555,6 +39749,7 @@ location-arrow:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39646,6 +39841,7 @@ location-dot:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39781,6 +39977,7 @@ lock:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39825,6 +40022,7 @@ lock-open:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -40164,6 +40362,7 @@ magnifying-glass:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -40538,6 +40737,7 @@ map:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -41096,6 +41296,7 @@ martini-glass:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -41395,6 +41596,36 @@ mastodon:
       - social media
   unicode: f4f6
   voted: true
+matrix:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Matrix
+  search:
+    terms: []
+  unicode: e8b3
+  voted: false
+mattermost:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Mattermost
+  search:
+    terms: []
+  unicode: e8b4
+  voted: false
 mattress-pillow:
   changes:
     - 6.1.0
@@ -42042,6 +42273,7 @@ microphone:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -42176,6 +42408,7 @@ microphone-slash:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -42388,6 +42621,7 @@ minus:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -42578,6 +42812,7 @@ mobile:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -43154,6 +43389,7 @@ money-bills:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -43330,6 +43566,7 @@ moon:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -43717,6 +43954,7 @@ mug-hot:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -43815,6 +44053,7 @@ music:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -44056,6 +44295,7 @@ newspaper:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -44086,6 +44326,21 @@ newspaper:
       - publication
       - report
   unicode: f1ea
+  voted: false
+nextcloud:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Nextcloud
+  search:
+    terms: []
+  unicode: e8b5
   voted: false
 nfc-directional:
   changes:
@@ -44296,6 +44551,7 @@ notdef:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -45457,6 +45713,7 @@ palette:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -45625,6 +45882,7 @@ paper-plane:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -45675,6 +45933,7 @@ paperclip:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -45912,6 +46171,7 @@ pause:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -45952,6 +46212,7 @@ paw:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -46342,6 +46603,7 @@ pencil:
     - 7.0.0
     - 7.0.1
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -46728,6 +46990,7 @@ percent:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -46908,6 +47171,7 @@ person-biking:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -48606,6 +48870,7 @@ phone:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -48693,6 +48958,7 @@ phone-slash:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -48836,6 +49102,7 @@ php:
 picture-in-picture:
   changes:
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -49301,6 +49568,7 @@ plane:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -49735,6 +50003,7 @@ play:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -50069,6 +50338,7 @@ plus:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -50497,6 +50767,7 @@ print:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -50852,6 +51123,7 @@ question:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -50947,6 +51219,7 @@ quote-left:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -52740,6 +53013,21 @@ road-spikes:
       - vehicle stop
   unicode: e568
   voted: false
+roblox-creator-studio:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Roblox Creator Studio
+  search:
+    terms: []
+  unicode: e8b6
+  voted: false
 robot:
   aliases:
     unicodes:
@@ -52881,6 +53169,21 @@ rockrms:
       - rock rms
       - rockrms
   unicode: f3e9
+  voted: false
+ror:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Ror
+  search:
+    terms: []
+  unicode: e8bd
   voted: false
 rotate:
   aliases:
@@ -54200,6 +54503,7 @@ scissors:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -54832,6 +55136,7 @@ share:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -54924,6 +55229,7 @@ share-nodes:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -55052,6 +55358,7 @@ shield:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -55288,6 +55595,7 @@ ship:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -55337,6 +55645,7 @@ shirt:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -55468,6 +55777,7 @@ shop:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -56326,6 +56636,7 @@ skull:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -56373,6 +56684,7 @@ skull-crossbones:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -56597,6 +56909,7 @@ sliders:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -56788,6 +57101,7 @@ snowflake:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -57063,6 +57377,7 @@ sort:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -57230,6 +57545,8 @@ sourcetree:
   voted: true
 spa:
   aliases:
+    names:
+      - lotus
     unicodes:
       secondary:
         - 10f5bb
@@ -57257,6 +57574,7 @@ spa:
       - calm
       - flora
       - health
+      - lotus
       - massage
       - mindfulness
       - plant
@@ -57748,6 +58066,7 @@ square:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -57898,6 +58217,21 @@ square-bluesky:
       - social media
       - social network
   unicode: e6a3
+  voted: false
+square-build-awesome-stroke:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Square Build Awesome Stroke
+  search:
+    terms: []
+  unicode: e8b7
   voted: false
 square-caret-down:
   aliases:
@@ -60196,6 +60530,7 @@ star:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -60285,6 +60620,7 @@ star-half:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -60650,6 +60986,7 @@ stop:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -60697,6 +61034,7 @@ stopwatch:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -61204,6 +61542,21 @@ subscript:
       - typography
   unicode: f12c
   voted: false
+substack:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Substack
+  search:
+    terms: []
+  unicode: e8b8
+  voted: false
 suitcase:
   aliases:
     unicodes:
@@ -61225,6 +61578,7 @@ suitcase:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -61357,6 +61711,7 @@ sun:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -61510,6 +61865,7 @@ supple:
 supportnow:
   changes:
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -61817,6 +62173,7 @@ table:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -62375,6 +62732,7 @@ tag:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -63483,6 +63841,21 @@ terminal:
       - terminal
   unicode: f120
   voted: false
+tesla:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Tesla
+  search:
+    terms: []
+  unicode: e8b9
+  voted: false
 tex:
   changes:
     - 7.0.0
@@ -63833,6 +64206,7 @@ thumbs-down:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -63881,6 +64255,7 @@ thumbs-up:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -63939,6 +64314,7 @@ thumbtack:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -64017,6 +64393,7 @@ ticket:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -64992,6 +65369,7 @@ train:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -65164,6 +65542,7 @@ trash:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -65340,6 +65719,7 @@ tree:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -65451,6 +65831,7 @@ triangle-exclamation:
     - 6.7.0
     - 7.0.0
     - 7.0.1
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -65500,6 +65881,7 @@ trophy:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -65614,6 +65996,7 @@ truck:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -66636,6 +67019,7 @@ umbrella:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -66850,6 +67234,7 @@ universal-access:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -67392,6 +67777,7 @@ user:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -67803,6 +68189,7 @@ user-minus:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -67967,6 +68354,7 @@ user-plus:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -68225,6 +68613,7 @@ user-xmark:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -68267,6 +68656,7 @@ users:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -68600,6 +68990,7 @@ utensils:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -69252,6 +69643,7 @@ video:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -69293,6 +69685,7 @@ video-slash:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -69873,6 +70266,7 @@ volume:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -70360,6 +70754,7 @@ wand-magic-sparkles:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -70969,6 +71364,7 @@ wheelchair:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -71120,6 +71516,7 @@ wifi:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -71889,6 +72286,7 @@ wrench:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -72103,6 +72501,7 @@ xmark:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -72183,6 +72582,36 @@ xmpp:
   search:
     terms: []
   unicode: e864
+  voted: false
+xrp:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Xrp
+  search:
+    terms: []
+  unicode: e8ba
+  voted: false
+xrpl:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Xrpl
+  search:
+    terms: []
+  unicode: e8bb
   voted: false
 'y':
   aliases:
@@ -72555,6 +72984,21 @@ youtube:
       - vlog
       - youtube
   unicode: f167
+  voted: false
+youtube-shorts:
+  changes:
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Youtube Shorts
+  search:
+    terms: []
+  unicode: e8bc
   voted: false
 z:
   aliases:

@@ -434,6 +434,7 @@ address-card:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Address Card
   search:
     terms:
@@ -563,6 +564,7 @@ alarm-clock:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Alarm Clock
   search:
     terms:
@@ -860,6 +862,7 @@ anchor:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Anchor
   search:
     terms:
@@ -1070,6 +1073,7 @@ angle-down:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Angle Down
   search:
     terms:
@@ -1110,6 +1114,7 @@ angle-left:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Angle Left
   search:
     terms:
@@ -1150,6 +1155,7 @@ angle-right:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Angle Right
   search:
     terms:
@@ -1190,6 +1196,7 @@ angle-up:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Angle Up
   search:
     terms:
@@ -1704,6 +1711,7 @@ arrow-down:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Arrow Down
   search:
     terms:
@@ -1891,6 +1899,7 @@ arrow-down-short-wide:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Arrow Down Short Wide
   search:
     terms:
@@ -1985,6 +1994,7 @@ arrow-down-wide-short:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Arrow Down Wide Short
   search:
     terms:
@@ -2060,6 +2070,7 @@ arrow-left:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Arrow Left
   search:
     terms:
@@ -2176,6 +2187,7 @@ arrow-right:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Arrow Right
   search:
     terms:
@@ -2218,6 +2230,7 @@ arrow-right-arrow-left:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Arrow Right Arrow Left
   search:
     terms:
@@ -2257,6 +2270,7 @@ arrow-right-from-bracket:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Arrow Right From Bracket
   search:
     terms:
@@ -2333,6 +2347,7 @@ arrow-right-to-bracket:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Arrow Right To Bracket
   search:
     terms:
@@ -2408,6 +2423,7 @@ arrow-rotate-left:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Arrow Rotate Left
   search:
     terms:
@@ -2452,6 +2468,7 @@ arrow-rotate-right:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Arrow Rotate Right
   search:
     terms:
@@ -2626,6 +2643,7 @@ arrow-up:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Arrow Up
   search:
     terms:
@@ -2764,6 +2782,7 @@ arrow-up-from-bracket:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Arrow Up From Bracket
   search:
     terms:
@@ -2926,6 +2945,7 @@ arrow-up-right-from-square:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Arrow Up Right From Square
   search:
     terms:
@@ -2962,6 +2982,7 @@ arrow-up-short-wide:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Arrow Up Short Wide
   search:
     terms:
@@ -3002,6 +3023,7 @@ arrow-up-wide-short:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Arrow Up Wide Short
   search:
     terms:
@@ -3200,6 +3222,7 @@ arrows-rotate:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Arrows Rotate
   search:
     terms:
@@ -3620,6 +3643,7 @@ at:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: At
   search:
     terms:
@@ -4017,6 +4041,7 @@ backward:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Backward
   search:
     terms:
@@ -4098,6 +4123,7 @@ backward-step:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Backward Step
   search:
     terms:
@@ -4246,6 +4272,7 @@ bag-shopping:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Bag Shopping
   search:
     terms:
@@ -4565,6 +4592,7 @@ bars:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Bars
   search:
     terms:
@@ -4927,6 +4955,7 @@ battery-full:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Battery Full
   search:
     terms:
@@ -5100,6 +5129,7 @@ bed:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Bed
   search:
     terms:
@@ -5246,6 +5276,7 @@ bell:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Bell
   search:
     terms:
@@ -5968,6 +5999,7 @@ bolt:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Bolt
   search:
     terms:
@@ -6038,6 +6070,7 @@ bomb:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Bomb
   search:
     terms:
@@ -6146,6 +6179,7 @@ book:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Book
   search:
     terms:
@@ -6366,6 +6400,7 @@ book-open:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Book Open
   search:
     terms:
@@ -6561,6 +6596,7 @@ bookmark:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Bookmark
   search:
     terms:
@@ -6932,6 +6968,7 @@ box:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Box
   search:
     terms:
@@ -6973,6 +7010,7 @@ box-archive:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Box Archive
   search:
     terms:
@@ -7777,6 +7815,7 @@ bug:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Bug
   search:
     terms:
@@ -7856,6 +7895,16 @@ bugs:
     - solid
   unicode: e4d0
   voted: false
+build-awesome:
+  changes:
+    - 7.3.0
+  label: Build Awesome
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8ac
+  voted: false
 building:
   aliases:
     unicodes:
@@ -7879,6 +7928,7 @@ building:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Building
   search:
     terms:
@@ -8464,6 +8514,7 @@ bus:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Bus
   search:
     terms:
@@ -8712,6 +8763,7 @@ cake-candles:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Cake Candles
   search:
     terms:
@@ -8799,6 +8851,7 @@ calendar:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Calendar
   search:
     terms:
@@ -9154,6 +9207,7 @@ camera:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Camera
   search:
     terms:
@@ -9475,6 +9529,7 @@ car:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Car
   search:
     terms:
@@ -10090,6 +10145,7 @@ cart-shopping:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Cart Shopping
   search:
     terms:
@@ -10536,6 +10592,7 @@ certificate:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Certificate
   search:
     terms:
@@ -10647,6 +10704,7 @@ chalkboard-user:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Chalkboard User
   search:
     terms:
@@ -10983,6 +11041,7 @@ chart-pie:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Chart Pie
   search:
     terms:
@@ -11017,6 +11076,7 @@ chart-simple:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Chart Simple
   search:
     terms:
@@ -11060,6 +11120,7 @@ check:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Check
   search:
     terms:
@@ -11898,6 +11959,7 @@ circle:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Circle
   search:
     terms:
@@ -12521,6 +12583,7 @@ circle-info:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Circle Info
   search:
     terms:
@@ -12817,6 +12880,7 @@ circle-question:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Circle Question
   search:
     terms:
@@ -13019,6 +13083,7 @@ circle-user:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Circle User
   search:
     terms:
@@ -13188,6 +13253,7 @@ clipboard:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Clipboard
   search:
     terms:
@@ -13379,6 +13445,7 @@ clock:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Clock
   search:
     terms:
@@ -13460,6 +13527,7 @@ clone:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Clone
   search:
     terms:
@@ -13527,6 +13595,7 @@ closed-captioning-slash:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Closed Captioning Slash
   search:
     terms:
@@ -13566,6 +13635,7 @@ cloud:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Cloud
   search:
     terms:
@@ -13940,6 +14010,7 @@ cloud-sun:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Cloud Sun
   search:
     terms:
@@ -13977,6 +14048,7 @@ cloud-sun-rain:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Cloud Sun Rain
   search:
     terms:
@@ -14147,6 +14219,7 @@ code:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Code
   search:
     terms:
@@ -14367,6 +14440,16 @@ code-pull-request:
     - solid
   unicode: e13c
   voted: false
+codeberg:
+  changes:
+    - 7.3.0
+  label: Codeberg
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8ad
+  voted: false
 codepen:
   changes:
     - 4.1.0
@@ -14496,6 +14579,7 @@ comment:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Comment
   search:
     terms:
@@ -14762,6 +14846,7 @@ comments:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Comments
   search:
     terms:
@@ -14846,6 +14931,7 @@ compact-disc:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Compact Disc
   search:
     terms:
@@ -14891,6 +14977,7 @@ compass:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Compass
   search:
     terms:
@@ -14967,6 +15054,7 @@ compress:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Compress
   search:
     terms:
@@ -15668,6 +15756,7 @@ credit-card:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Credit Card
   search:
     terms:
@@ -15919,6 +16008,7 @@ crown:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Crown
   search:
     terms:
@@ -16326,6 +16416,7 @@ database:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Database
   search:
     terms:
@@ -16506,6 +16597,7 @@ deskpro:
   changes:
     - 5.0.0
     - 7.0.0
+    - 7.2.0
   label: Deskpro
   search:
     terms:
@@ -16547,6 +16639,7 @@ desktop:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Desktop
   search:
     terms:
@@ -16608,6 +16701,16 @@ deviantart:
   styles:
     - brands
   unicode: f1bd
+  voted: false
+devpost:
+  changes:
+    - 7.3.0
+  label: Devpost
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8ae
   voted: false
 dharmachakra:
   aliases:
@@ -18044,6 +18147,7 @@ droplet:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Droplet
   search:
     terms:
@@ -19124,6 +19228,7 @@ envelope:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Envelope
   search:
     terms:
@@ -19338,6 +19443,7 @@ equals:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Equals
   search:
     terms:
@@ -19619,6 +19725,7 @@ expand:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Expand
   search:
     terms:
@@ -19711,6 +19818,7 @@ eye:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Eye
   search:
     terms:
@@ -19825,6 +19933,7 @@ eye-slash:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Eye Slash
   search:
     terms:
@@ -20023,6 +20132,7 @@ face-frown:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Face Frown
   search:
     terms:
@@ -20150,6 +20260,7 @@ face-grin:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Face Grin
   search:
     terms:
@@ -20998,6 +21109,7 @@ face-meh:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Face Meh
   search:
     terms:
@@ -21214,6 +21326,7 @@ face-smile:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Face Smile
   search:
     terms:
@@ -21849,6 +21962,7 @@ file:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: File
   search:
     terms:
@@ -23094,6 +23208,7 @@ film:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Film
   search:
     terms:
@@ -23134,6 +23249,7 @@ filter:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Filter
   search:
     terms:
@@ -23274,6 +23390,7 @@ fire:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Fire
   search:
     terms:
@@ -23555,6 +23672,7 @@ fish:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Fish
   search:
     terms:
@@ -23623,6 +23741,7 @@ flag:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Flag
   search:
     terms:
@@ -23970,6 +24089,7 @@ folder:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Folder
   search:
     terms:
@@ -24188,6 +24308,7 @@ font:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Font
   search:
     terms:
@@ -24236,6 +24357,7 @@ font-awesome:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Font Awesome
   search:
     terms:
@@ -24417,6 +24539,7 @@ forward:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Forward
   search:
     terms:
@@ -24498,6 +24621,7 @@ forward-step:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Forward Step
   search:
     terms:
@@ -24792,6 +24916,7 @@ gamepad:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Gamepad
   search:
     terms:
@@ -24873,6 +24998,7 @@ gauge:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Gauge
   search:
     terms:
@@ -25080,6 +25206,7 @@ gear:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Gear
   search:
     terms:
@@ -25366,6 +25493,7 @@ gift:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Gift
   search:
     terms:
@@ -25750,6 +25878,7 @@ globe:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Globe
   search:
     terms:
@@ -26763,6 +26892,7 @@ hand:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Hand
   search:
     terms:
@@ -28447,6 +28577,7 @@ headphones:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Headphones
   search:
     terms:
@@ -28535,6 +28666,7 @@ heart:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Heart
   search:
     terms:
@@ -28898,6 +29030,7 @@ helmet-safety:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Helmet Safety
   search:
     terms:
@@ -29633,6 +29766,7 @@ hourglass:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Hourglass
   search:
     terms:
@@ -29805,6 +29939,7 @@ house:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: House
   search:
     terms:
@@ -31088,6 +31223,7 @@ image:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Image
   search:
     terms:
@@ -31160,6 +31296,7 @@ images:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Images
   search:
     terms:
@@ -31218,6 +31355,7 @@ inbox:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Inbox
   search:
     terms:
@@ -31475,6 +31613,16 @@ intercom:
   styles:
     - brands
   unicode: f7af
+  voted: false
+internet-archive:
+  changes:
+    - 7.3.0
+  label: Internet Archive
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8b1
   voted: false
 internet-explorer:
   changes:
@@ -32212,6 +32360,7 @@ key:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Key
   search:
     terms:
@@ -32639,6 +32788,7 @@ landmark:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Landmark
   search:
     terms:
@@ -32747,6 +32897,7 @@ language:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Language
   search:
     terms:
@@ -32788,6 +32939,7 @@ laptop:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Laptop
   search:
     terms:
@@ -33001,6 +33153,7 @@ layer-group:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Layer Group
   search:
     terms:
@@ -33038,6 +33191,7 @@ leaf:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Leaf
   search:
     terms:
@@ -33310,6 +33464,16 @@ less-than-equal:
     - solid
   unicode: f537
   voted: true
+lets-encrypt:
+  changes:
+    - 7.3.0
+  label: Lets Encrypt
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8b2
+  voted: false
 letterboxd:
   changes:
     - 6.5.0
@@ -33370,6 +33534,7 @@ life-ring:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Life Ring
   search:
     terms:
@@ -33410,6 +33575,7 @@ lightbulb:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Lightbulb
   search:
     terms:
@@ -33504,6 +33670,7 @@ link:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Link
   search:
     terms:
@@ -33606,6 +33773,7 @@ linkedin-in:
 linktree:
   changes:
     - 7.0.0
+    - 7.2.0
   label: Linktree
   search:
     terms:
@@ -33718,6 +33886,7 @@ list:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: List
   search:
     terms:
@@ -33906,6 +34075,7 @@ location-arrow:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Location Arrow
   search:
     terms:
@@ -33987,6 +34157,7 @@ location-dot:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Location Dot
   search:
     terms:
@@ -34107,6 +34278,7 @@ lock:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Lock
   search:
     terms:
@@ -34146,6 +34318,7 @@ lock-open:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Lock Open
   search:
     terms:
@@ -34435,6 +34608,7 @@ magnifying-glass:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Magnifying Glass
   search:
     terms:
@@ -34759,6 +34933,7 @@ map:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Map
   search:
     terms:
@@ -35249,6 +35424,7 @@ martini-glass:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Martini Glass
   search:
     terms:
@@ -35508,6 +35684,26 @@ mastodon:
     - brands
   unicode: f4f6
   voted: true
+matrix:
+  changes:
+    - 7.3.0
+  label: Matrix
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8b3
+  voted: false
+mattermost:
+  changes:
+    - 7.3.0
+  label: Mattermost
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8b4
+  voted: false
 mattress-pillow:
   changes:
     - 6.1.0
@@ -36057,6 +36253,7 @@ microphone:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Microphone
   search:
     terms:
@@ -36176,6 +36373,7 @@ microphone-slash:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Microphone Slash
   search:
     terms:
@@ -36358,6 +36556,7 @@ minus:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Minus
   search:
     terms:
@@ -36518,6 +36717,7 @@ mobile:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Mobile
   search:
     terms:
@@ -37016,6 +37216,7 @@ money-bills:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Money Bills
   search:
     terms:
@@ -37172,6 +37373,7 @@ moon:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Moon
   search:
     terms:
@@ -37506,6 +37708,7 @@ mug-hot:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Mug Hot
   search:
     terms:
@@ -37594,6 +37797,7 @@ music:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Music
   search:
     terms:
@@ -37800,6 +38004,7 @@ newspaper:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Newspaper
   search:
     terms:
@@ -37822,6 +38027,16 @@ newspaper:
     - solid
     - regular
   unicode: f1ea
+  voted: false
+nextcloud:
+  changes:
+    - 7.3.0
+  label: Nextcloud
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8b5
   voted: false
 nfc-directional:
   changes:
@@ -37997,6 +38212,7 @@ notdef:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Notdef
   search:
     terms:
@@ -38964,6 +39180,7 @@ palette:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Palette
   search:
     terms:
@@ -39107,6 +39324,7 @@ paper-plane:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Paper Plane
   search:
     terms:
@@ -39149,6 +39367,7 @@ paperclip:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Paperclip
   search:
     terms:
@@ -39353,6 +39572,7 @@ pause:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Pause
   search:
     terms:
@@ -39388,6 +39608,7 @@ paw:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Paw
   search:
     terms:
@@ -39730,6 +39951,7 @@ pencil:
     - 7.0.0
     - 7.0.1
     - 7.1.0
+    - 7.2.0
   label: Pencil
   search:
     terms:
@@ -40061,6 +40283,7 @@ percent:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Percent
   search:
     terms:
@@ -40216,6 +40439,7 @@ person-biking:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Person Biking
   search:
     terms:
@@ -41674,6 +41898,7 @@ phone:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Phone
   search:
     terms:
@@ -41751,6 +41976,7 @@ phone-slash:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Phone Slash
   search:
     terms:
@@ -41874,6 +42100,7 @@ php:
 picture-in-picture:
   changes:
     - 7.0.0
+    - 7.2.0
   label: Picture In Picture
   search:
     terms:
@@ -42264,6 +42491,7 @@ plane:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Plane
   search:
     terms:
@@ -42643,6 +42871,7 @@ play:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Play
   search:
     terms:
@@ -42932,6 +43161,7 @@ plus:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Plus
   search:
     terms:
@@ -43305,6 +43535,7 @@ print:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Print
   search:
     terms:
@@ -43610,6 +43841,7 @@ question:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Question
   search:
     terms:
@@ -43690,6 +43922,7 @@ quote-left:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Quote Left
   search:
     terms:
@@ -45224,6 +45457,16 @@ road-spikes:
     - solid
   unicode: e568
   voted: false
+roblox-creator-studio:
+  changes:
+    - 7.3.0
+  label: Roblox Creator Studio
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8b6
+  voted: false
 robot:
   aliases:
     unicodes:
@@ -45345,6 +45588,16 @@ rockrms:
   styles:
     - brands
   unicode: f3e9
+  voted: false
+ror:
+  changes:
+    - 7.3.0
+  label: Ror
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8bd
   voted: false
 rotate:
   aliases:
@@ -46489,6 +46742,7 @@ scissors:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Scissors
   search:
     terms:
@@ -47031,6 +47285,7 @@ share:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Share
   search:
     terms:
@@ -47110,6 +47365,7 @@ share-nodes:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Share Nodes
   search:
     terms:
@@ -47223,6 +47479,7 @@ shield:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Shield
   search:
     terms:
@@ -47429,6 +47686,7 @@ ship:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Ship
   search:
     terms:
@@ -47473,6 +47731,7 @@ shirt:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Shirt
   search:
     terms:
@@ -47584,6 +47843,7 @@ shop:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Shop
   search:
     terms:
@@ -48322,6 +48582,7 @@ skull:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Skull
   search:
     terms:
@@ -48364,6 +48625,7 @@ skull-crossbones:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Skull Crossbones
   search:
     terms:
@@ -48558,6 +48820,7 @@ sliders:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Sliders
   search:
     terms:
@@ -48724,6 +48987,7 @@ snowflake:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Snowflake
   search:
     terms:
@@ -48961,6 +49225,7 @@ sort:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Sort
   search:
     terms:
@@ -49103,6 +49368,8 @@ sourcetree:
   voted: true
 spa:
   aliases:
+    names:
+      - lotus
     unicodes:
       secondary:
         - 10f5bb
@@ -49123,6 +49390,7 @@ spa:
       - calm
       - flora
       - health
+      - lotus
       - massage
       - mindfulness
       - plant
@@ -49551,6 +49819,7 @@ square:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Square
   search:
     terms:
@@ -49673,6 +49942,16 @@ square-bluesky:
   styles:
     - brands
   unicode: e6a3
+  voted: false
+square-build-awesome-stroke:
+  changes:
+    - 7.3.0
+  label: Square Build Awesome Stroke
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8b7
   voted: false
 square-caret-down:
   aliases:
@@ -51617,6 +51896,7 @@ star:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Star
   search:
     terms:
@@ -51693,6 +51973,7 @@ star-half:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Star Half
   search:
     terms:
@@ -52002,6 +52283,7 @@ stop:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Stop
   search:
     terms:
@@ -52044,6 +52326,7 @@ stopwatch:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Stopwatch
   search:
     terms:
@@ -52476,6 +52759,16 @@ subscript:
     - solid
   unicode: f12c
   voted: false
+substack:
+  changes:
+    - 7.3.0
+  label: Substack
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8b8
+  voted: false
 suitcase:
   aliases:
     unicodes:
@@ -52497,6 +52790,7 @@ suitcase:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Suitcase
   search:
     terms:
@@ -52614,6 +52908,7 @@ sun:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Sun
   search:
     terms:
@@ -52739,6 +53034,7 @@ supple:
 supportnow:
   changes:
     - 7.1.0
+    - 7.2.0
   label: Supportnow
   search:
     terms:
@@ -52996,6 +53292,7 @@ table:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.2.0
   label: Table
   search:
     terms:
@@ -53484,6 +53781,7 @@ tag:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Tag
   search:
     terms:
@@ -54442,6 +54740,16 @@ terminal:
     - solid
   unicode: f120
   voted: false
+tesla:
+  changes:
+    - 7.3.0
+  label: Tesla
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8b9
+  voted: false
 tex:
   changes:
     - 7.0.0
@@ -54737,6 +55045,7 @@ thumbs-down:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Thumbs Down
   search:
     terms:
@@ -54777,6 +55086,7 @@ thumbs-up:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Thumbs Up
   search:
     terms:
@@ -54827,6 +55137,7 @@ thumbtack:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Thumbtack
   search:
     terms:
@@ -54895,6 +55206,7 @@ ticket:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Ticket
   search:
     terms:
@@ -55745,6 +56057,7 @@ train:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Train
   search:
     terms:
@@ -55897,6 +56210,7 @@ trash:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Trash
   search:
     terms:
@@ -56050,6 +56364,7 @@ tree:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Tree
   search:
     terms:
@@ -56146,6 +56461,7 @@ triangle-exclamation:
     - 6.7.0
     - 7.0.0
     - 7.0.1
+    - 7.2.0
   label: Triangle Exclamation
   search:
     terms:
@@ -56190,6 +56506,7 @@ trophy:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Trophy
   search:
     terms:
@@ -56289,6 +56606,7 @@ truck:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Truck
   search:
     terms:
@@ -57153,6 +57471,7 @@ umbrella:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Umbrella
   search:
     terms:
@@ -57332,6 +57651,7 @@ universal-access:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Universal Access
   search:
     terms:
@@ -57799,6 +58119,7 @@ user:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: User
   search:
     terms:
@@ -58157,6 +58478,7 @@ user-minus:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: User Minus
   search:
     terms:
@@ -58301,6 +58623,7 @@ user-plus:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: User Plus
   search:
     terms:
@@ -58529,6 +58852,7 @@ user-xmark:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: User Xmark
   search:
     terms:
@@ -58566,6 +58890,7 @@ users:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Users
   search:
     terms:
@@ -58849,6 +59174,7 @@ utensils:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Utensils
   search:
     terms:
@@ -59406,6 +59732,7 @@ video:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Video
   search:
     terms:
@@ -59442,6 +59769,7 @@ video-slash:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Video Slash
   search:
     terms:
@@ -59937,6 +60265,7 @@ volume:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Volume
   search:
     terms:
@@ -60359,6 +60688,7 @@ wand-magic-sparkles:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Wand Magic Sparkles
   search:
     terms:
@@ -60875,6 +61205,7 @@ wheelchair:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Wheelchair
   search:
     terms:
@@ -61006,6 +61337,7 @@ wifi:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Wifi
   search:
     terms:
@@ -61651,6 +61983,7 @@ wrench:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Wrench
   search:
     terms:
@@ -61835,6 +62168,7 @@ xmark:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.2.0
   label: Xmark
   search:
     terms:
@@ -61900,6 +62234,26 @@ xmpp:
   styles:
     - brands
   unicode: e864
+  voted: false
+xrp:
+  changes:
+    - 7.3.0
+  label: Xrp
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8ba
+  voted: false
+xrpl:
+  changes:
+    - 7.3.0
+  label: Xrpl
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8bb
   voted: false
 'y':
   aliases:
@@ -62212,6 +62566,16 @@ youtube:
   styles:
     - brands
   unicode: f167
+  voted: false
+youtube-shorts:
+  changes:
+    - 7.3.0
+  label: Youtube Shorts
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e8bc
   voted: false
 z:
   aliases:

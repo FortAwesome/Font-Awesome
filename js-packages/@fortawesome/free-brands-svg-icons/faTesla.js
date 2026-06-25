@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'fab';
+var iconName = 'tesla';
+var width = 512;
+var height = 512;
+var aliases = [];
+var unicode = 'e8b9';
+var svgPathData = 'M309.1 49.8c1 0 91.5 2.1 181.5 43.8-23.2 34.8-69.2 52-69.2 52-3.1-30.7-24.7-38.2-93.3-38.2L256.1 512 183.6 107.4c-68.1 0-89.7 7.6-92.9 38.2-.9-.4-46.3-17.5-69.2-52 90.5-41.9 181.5-43.8 181.5-43.8l53 64.6 53-64.6zM256.1 0c75.6 .3 163.4 13 257.1 50.1 0 .1-3 9.3-14.4 29.8-80.4-35-159-47.7-228.8-48.7l-13.8 0C182.9 30.6 99.1 42.5 13.4 79.8 3.2 61.3-1 50.1-1 50.1 92.7 13 180.5 .3 256.1 0z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faTesla = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

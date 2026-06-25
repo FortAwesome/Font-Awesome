@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 7.3.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2026 Fonticons, Inc.
  */
@@ -552,6 +552,70 @@
 
 .fa-symfonycasts {
   --fa: "\e8ab";
+}
+
+.fa-build-awesome {
+  --fa: "\e8ac";
+}
+
+.fa-codeberg {
+  --fa: "\e8ad";
+}
+
+.fa-devpost {
+  --fa: "\e8ae";
+}
+
+.fa-internet-archive {
+  --fa: "\e8b1";
+}
+
+.fa-lets-encrypt {
+  --fa: "\e8b2";
+}
+
+.fa-matrix {
+  --fa: "\e8b3";
+}
+
+.fa-mattermost {
+  --fa: "\e8b4";
+}
+
+.fa-nextcloud {
+  --fa: "\e8b5";
+}
+
+.fa-roblox-creator-studio {
+  --fa: "\e8b6";
+}
+
+.fa-square-build-awesome-stroke {
+  --fa: "\e8b7";
+}
+
+.fa-substack {
+  --fa: "\e8b8";
+}
+
+.fa-tesla {
+  --fa: "\e8b9";
+}
+
+.fa-xrp {
+  --fa: "\e8ba";
+}
+
+.fa-xrpl {
+  --fa: "\e8bb";
+}
+
+.fa-youtube-shorts {
+  --fa: "\e8bc";
+}
+
+.fa-ror {
+  --fa: "\e8bd";
 }
 
 .fa-square-twitter {

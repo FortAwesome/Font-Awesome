@@ -1942,6 +1942,7 @@ export const faDiagramNext: IconDefinition;
 export const faAnchorCircleXmark: IconDefinition;
 export const faPersonCircleXmark: IconDefinition;
 export const faSpa: IconDefinition;
+export const faLotus: IconDefinition;
 export const faAries: IconDefinition;
 export const faBarsProgress: IconDefinition;
 export const faTasksAlt: IconDefinition;
