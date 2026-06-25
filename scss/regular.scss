@@ -38,12 +38,19 @@
   --#{v.$css-prefix}-style: 400;
 }
 
-// convenience mixin for declaring pseudo-elements by CSS variable,
-// including all style-specific font properties and ::before elements.
-@mixin icon($var) {
+// sets up icon font properties (family, style, rendering) without assigning
+// an icon to ::before — useful when you need to assign content to both
+// ::before and ::after, or want to set the icon separately.
+@mixin setup-icon() {
   @include m.fa-icon(Font Awesome 7 Free);
   @extend .#{v.$css-prefix}-regular;
   @extend .#{v.$css-prefix}-classic;
+}
+
+// convenience mixin for declaring pseudo-elements by CSS variable,
+// including all style-specific font properties and ::before content.
+@mixin icon($var) {
+  @include setup-icon();
 
   &::before {
     content: string.unquote("\"#{ $var }\"");
