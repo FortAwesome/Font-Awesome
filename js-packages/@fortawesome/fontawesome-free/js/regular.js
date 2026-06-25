@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 7.3.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2026 Fonticons, Inc.
  */
@@ -90,8 +90,8 @@
     }
   }
 
-  var _ht;
-  var Q = {
+  var _cl;
+  var rl = {
       classic: {
         fa: "solid",
         fas: "solid",
@@ -147,9 +147,29 @@
         "fa-regular": "regular",
         faslpr: "regular"
       },
+      "slab-duo": {
+        "fa-regular": "regular",
+        fasldr: "regular"
+      },
+      "slab-press-duo": {
+        "fa-regular": "regular",
+        faslpdr: "regular"
+      },
       thumbprint: {
         "fa-light": "light",
         fatl: "light"
+      },
+      vellum: {
+        "fa-solid": "solid",
+        favs: "solid"
+      },
+      pixel: {
+        "fa-regular": "regular",
+        fapr: "regular"
+      },
+      mosaic: {
+        "fa-solid": "solid",
+        fams: "solid"
       },
       whiteboard: {
         "fa-semibold": "semibold",
@@ -200,46 +220,56 @@
         faufsb: "semibold"
       }
     };
-  var i = "classic",
-    t = "duotone",
-    d = "sharp",
-    l = "sharp-duotone",
-    f = "chisel",
-    h = "etch",
-    n = "graphite",
-    g = "jelly",
-    o = "jelly-duo",
-    u = "jelly-fill",
-    m = "notdog",
+  var u = "classic",
+    l = "duotone",
+    h = "sharp",
+    t = "sharp-duotone",
+    g = "chisel",
+    n = "etch",
+    m = "graphite",
+    p = "jelly",
+    s = "jelly-duo",
+    y = "jelly-fill",
+    w = "mosaic",
+    x = "notdog",
     e = "notdog-duo",
-    y = "slab",
-    p = "slab-press",
-    s = "thumbprint",
-    w = "utility",
-    a = "utility-duo",
-    x = "utility-fill",
-    b = "whiteboard",
-    c = "Classic",
-    I = "Duotone",
-    F = "Sharp",
-    v = "Sharp Duotone",
-    S = "Chisel",
-    A = "Etch",
-    P = "Graphite",
-    j = "Jelly",
-    B = "Jelly Duo",
-    N = "Jelly Fill",
-    k = "Notdog",
-    D = "Notdog Duo",
-    T = "Slab",
-    C = "Slab Press",
-    W = "Thumbprint",
-    K = "Utility",
-    R = "Utility Duo",
-    L = "Utility Fill",
-    U = "Whiteboard",
-    ht = (_ht = {}, _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_ht, i, c), t, I), d, F), l, v), f, S), h, A), n, P), g, j), o, B), u, N), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_ht, m, k), e, D), y, T), p, C), s, W), w, K), a, R), x, L), b, U));
-  var yt = {
+    b = "pixel",
+    c = "slab",
+    o = "slab-duo",
+    I = "slab-press",
+    a = "slab-press-duo",
+    r = "thumbprint",
+    v = "utility",
+    i = "utility-duo",
+    F = "utility-fill",
+    d = "vellum",
+    S = "whiteboard",
+    A = "Classic",
+    P = "Duotone",
+    j = "Sharp",
+    B = "Sharp Duotone",
+    N = "Chisel",
+    D = "Etch",
+    k = "Graphite",
+    T = "Jelly",
+    C = "Jelly Duo",
+    W = "Jelly Fill",
+    R = "Mosaic",
+    K = "Notdog",
+    L = "Notdog Duo",
+    U = "Pixel",
+    J = "Slab",
+    _ = "Slab Duo",
+    M = "Slab Press",
+    E = "Slab Press Duo",
+    G = "Thumbprint",
+    V = "Utility",
+    z = "Utility Duo",
+    O = "Utility Fill",
+    Y = "Vellum",
+    q = "Whiteboard",
+    cl = (_cl = {}, _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_cl, u, A), l, P), h, j), t, B), g, N), n, D), m, k), p, T), s, C), y, W), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_cl, w, R), x, K), e, L), b, U), c, J), o, _), I, M), a, E), r, G), v, V), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_cl, i, z), F, O), d, Y), S, q));
+  var Al = {
       classic: {
         900: "fas",
         400: "far",
@@ -270,6 +300,21 @@
       },
       "slab-press": {
         400: "faslpr"
+      },
+      "slab-duo": {
+        400: "fasldr"
+      },
+      "slab-press-duo": {
+        400: "faslpdr"
+      },
+      vellum: {
+        900: "favs"
+      },
+      mosaic: {
+        900: "fams"
+      },
+      pixel: {
+        400: "fapr"
       },
       whiteboard: {
         600: "fawsb"
@@ -311,7 +356,7 @@
         600: "faufsb"
       }
     };
-  var Mt = {
+  var $l = {
       chisel: {
         regular: "facr"
       },
@@ -343,11 +388,17 @@
       "jelly-fill": {
         regular: "fajfr"
       },
+      mosaic: {
+        solid: "fams"
+      },
       notdog: {
         solid: "fans"
       },
       "notdog-duo": {
         solid: "fands"
+      },
+      pixel: {
+        regular: "fapr"
       },
       sharp: {
         light: "fasl",
@@ -364,8 +415,14 @@
       slab: {
         regular: "faslr"
       },
+      "slab-duo": {
+        regular: "fasldr"
+      },
       "slab-press": {
         regular: "faslpr"
+      },
+      "slab-press-duo": {
+        regular: "faslpdr"
       },
       thumbprint: {
         light: "fatl"
@@ -379,11 +436,14 @@
       "utility-fill": {
         semibold: "faufsb"
       },
+      vellum: {
+        solid: "favs"
+      },
       whiteboard: {
         semibold: "fawsb"
       }
     };
-  var Qt = {
+  var rt = {
       kit: {
         fak: "kit",
         "fa-kit": "kit"
@@ -393,13 +453,13 @@
         "fa-kit-duotone": "kit-duotone"
       }
     },
-    Xt = ["kit"];
-  var J = "kit",
-    r = "kit-duotone",
-    E = "Kit",
-    _ = "Kit Duotone",
-    ll = _defineProperty(_defineProperty({}, J, E), r, _);
-  var sl = {
+    it = ["kit"];
+  var H = "kit",
+    f = "kit-duotone",
+    Q = "Kit",
+    X = "Kit Duotone",
+    ht = _defineProperty(_defineProperty({}, H, Q), f, X);
+  var mt = {
     kit: {
       "fa-kit": "fak"
     },
@@ -407,7 +467,7 @@
       "fa-kit-duotone": "fakd"
     }
   };
-  var nl = {
+  var It = {
       kit: {
         fak: "fa-kit"
       },
@@ -415,7 +475,7 @@
         fakd: "fa-kit-duotone"
       }
     };
-  var ml = {
+  var St = {
       kit: {
         kit: "fak"
       },
@@ -424,58 +484,68 @@
       }
     };
 
-  var _wt;
-  var t$1 = {
+  var _jl;
+  var l$1 = {
       GROUP: "duotone-group",
       SWAP_OPACITY: "swap-opacity",
       PRIMARY: "primary",
       SECONDARY: "secondary"
     };
-  var h$1 = "classic",
-    o$1 = "duotone",
-    n$1 = "sharp",
-    s$1 = "sharp-duotone",
-    u$1 = "chisel",
-    g$1 = "etch",
-    y$1 = "graphite",
-    m$1 = "jelly",
-    a$1 = "jelly-duo",
-    p$1 = "jelly-fill",
-    w$1 = "notdog",
-    e$1 = "notdog-duo",
-    b$1 = "slab",
-    c$1 = "slab-press",
-    r$1 = "thumbprint",
-    x$1 = "utility",
-    i$1 = "utility-duo",
-    I$1 = "utility-fill",
-    F$1 = "whiteboard",
-    v$1 = "Classic",
-    S$1 = "Duotone",
-    A$1 = "Sharp",
-    P$1 = "Sharp Duotone",
-    j$1 = "Chisel",
-    B$1 = "Etch",
-    N$1 = "Graphite",
-    k$1 = "Jelly",
-    D$1 = "Jelly Duo",
-    C$1 = "Jelly Fill",
-    T$1 = "Notdog",
-    L$1 = "Notdog Duo",
-    W$1 = "Slab",
-    R$1 = "Slab Press",
-    K$1 = "Thumbprint",
-    U$1 = "Utility",
-    J$1 = "Utility Duo",
-    E$1 = "Utility Fill",
-    _$1 = "Whiteboard",
-    wt$1 = (_wt = {}, _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_wt, h$1, v$1), o$1, S$1), n$1, A$1), s$1, P$1), u$1, j$1), g$1, B$1), y$1, N$1), m$1, k$1), a$1, D$1), p$1, C$1), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_wt, w$1, T$1), e$1, L$1), b$1, W$1), c$1, R$1), r$1, K$1), x$1, U$1), i$1, J$1), I$1, E$1), F$1, _$1));
-  var G$1 = "kit",
-    d$1 = "kit-duotone",
-    M$1 = "Kit",
-    O = "Kit Duotone",
-    dl$1 = _defineProperty(_defineProperty({}, G$1, M$1), d$1, O);
-  var Hl = {
+  var g$1 = "classic",
+    a$1 = "duotone",
+    m$1 = "sharp",
+    t$1 = "sharp-duotone",
+    p$1 = "chisel",
+    y$1 = "etch",
+    b$1 = "graphite",
+    w$1 = "jelly",
+    e$1 = "jelly-duo",
+    x$1 = "jelly-fill",
+    c$1 = "mosaic",
+    I$1 = "notdog",
+    o$1 = "notdog-duo",
+    v$1 = "pixel",
+    F$1 = "slab",
+    r$1 = "slab-duo",
+    S$1 = "slab-press",
+    i$1 = "slab-press-duo",
+    d$1 = "thumbprint",
+    A$1 = "utility",
+    f$1 = "utility-duo",
+    P$1 = "utility-fill",
+    u$1 = "vellum",
+    j$1 = "whiteboard",
+    B$1 = "Classic",
+    N$1 = "Duotone",
+    D$1 = "Sharp",
+    k$1 = "Sharp Duotone",
+    C$1 = "Chisel",
+    T$1 = "Etch",
+    L$1 = "Graphite",
+    W$1 = "Jelly",
+    R$1 = "Jelly Duo",
+    K$1 = "Jelly Fill",
+    U$1 = "Mosaic",
+    J$1 = "Notdog",
+    _$1 = "Notdog Duo",
+    M$1 = "Pixel",
+    E$1 = "Slab",
+    G$1 = "Slab Duo",
+    O$1 = "Slab Press",
+    V$1 = "Slab Press Duo",
+    z$1 = "Thumbprint",
+    Y$1 = "Utility",
+    $$1 = "Utility Duo",
+    q$1 = "Utility Fill",
+    H$1 = "Vellum",
+    Q$1 = "Whiteboard",
+    jl$1 = (_jl = {}, _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_jl, g$1, B$1), a$1, N$1), m$1, D$1), t$1, k$1), p$1, C$1), y$1, T$1), b$1, L$1), w$1, W$1), e$1, R$1), x$1, K$1), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_jl, c$1, U$1), I$1, J$1), o$1, _$1), v$1, M$1), F$1, E$1), r$1, G$1), S$1, O$1), i$1, V$1), d$1, z$1), A$1, Y$1), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_jl, f$1, $$1), P$1, q$1), u$1, H$1), j$1, Q$1));
+  var X$1 = "kit",
+    h$1 = "kit-duotone",
+    Z$1 = "Kit",
+    ll$1 = "Kit Duotone",
+    ws = _defineProperty(_defineProperty({}, X$1, Z$1), h$1, ll$1);
+  var ra = {
       classic: {
         "fa-brands": "fab",
         "fa-duotone": "fad",
@@ -506,6 +576,21 @@
       },
       "slab-press": {
         "fa-regular": "faslpr"
+      },
+      "slab-duo": {
+        "fa-regular": "fasldr"
+      },
+      "slab-press-duo": {
+        "fa-regular": "faslpdr"
+      },
+      pixel: {
+        "fa-regular": "fapr"
+      },
+      mosaic: {
+        "fa-solid": "fams"
+      },
+      vellum: {
+        "fa-solid": "favs"
       },
       whiteboard: {
         "fa-semibold": "fawsb"
@@ -547,13 +632,18 @@
         "fa-semibold": "faufsb"
       }
     },
-    Y$1 = {
+    al$1 = {
       classic: ["fas", "far", "fal", "fat", "fad"],
       duotone: ["fadr", "fadl", "fadt"],
       sharp: ["fass", "fasr", "fasl", "fast"],
       "sharp-duotone": ["fasds", "fasdr", "fasdl", "fasdt"],
       slab: ["faslr"],
       "slab-press": ["faslpr"],
+      "slab-duo": ["fasldr"],
+      "slab-press-duo": ["faslpdr"],
+      pixel: ["fapr"],
+      mosaic: ["fams"],
+      vellum: ["favs"],
       whiteboard: ["fawsb"],
       thumbprint: ["fatl"],
       notdog: ["fans"],
@@ -568,7 +658,7 @@
       "utility-duo": ["faudsb"],
       "utility-fill": ["faufsb"]
     },
-    Xl = {
+    da = {
       classic: {
         fab: "fa-brands",
         fad: "fa-duotone",
@@ -599,6 +689,21 @@
       },
       "slab-press": {
         faslpr: "fa-regular"
+      },
+      "slab-duo": {
+        fasldr: "fa-regular"
+      },
+      "slab-press-duo": {
+        faslpdr: "fa-regular"
+      },
+      pixel: {
+        fapr: "fa-regular"
+      },
+      mosaic: {
+        fams: "fa-solid"
+      },
+      vellum: {
+        favs: "fa-solid"
       },
       whiteboard: {
         fawsb: "fa-semibold"
@@ -640,14 +745,14 @@
         faufsb: "fa-semibold"
       }
     },
-    $ = ["solid", "regular", "light", "thin", "duotone", "brands", "semibold"],
-    z$1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-    q$1 = z$1.concat([11, 12, 13, 14, 15, 16, 17, 18, 19, 20]),
-    H$1 = ["aw", "fw", "pull-left", "pull-right"],
-    so = [].concat(_toConsumableArray(Object.keys(Y$1)), $, H$1, ["2xs", "xs", "sm", "lg", "xl", "2xl", "beat", "border", "fade", "beat-fade", "bounce", "flip-both", "flip-horizontal", "flip-vertical", "flip", "inverse", "layers", "layers-bottom-left", "layers-bottom-right", "layers-counter", "layers-text", "layers-top-left", "layers-top-right", "li", "pull-end", "pull-start", "pulse", "rotate-180", "rotate-270", "rotate-90", "rotate-by", "shake", "spin-pulse", "spin-reverse", "spin", "stack-1x", "stack-2x", "stack", "ul", "width-auto", "width-fixed", t$1.GROUP, t$1.SWAP_OPACITY, t$1.PRIMARY, t$1.SECONDARY]).concat(z$1.map(function (l) {
-      return "".concat(l, "x");
-    })).concat(q$1.map(function (l) {
-      return "w-".concat(l);
+    el$1 = ["solid", "regular", "light", "thin", "duotone", "brands", "semibold"],
+    sl$1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    ol$1 = sl$1.concat([11, 12, 13, 14, 15, 16, 17, 18, 19, 20]),
+    rl$1 = ["aw", "fw", "pull-left", "pull-right"],
+    ga = [].concat(_toConsumableArray(Object.keys(al$1)), el$1, rl$1, ["2xs", "xs", "sm", "lg", "xl", "2xl", "beat", "beat-fade", "border", "bounce", "buzz", "canvas-square", "canvas-roomy", "fade", "flip-360", "flip-both", "flip-horizontal", "flip-vertical", "flip", "float", "inverse", "jello", "layers", "layers-bottom-left", "layers-bottom-right", "layers-counter", "layers-text", "layers-top-left", "layers-top-right", "li", "pull-end", "pull-start", "pulse", "rotate-180", "rotate-270", "rotate-90", "rotate-by", "shake", "spin-pulse", "spin-reverse", "spin", "spin-snap", "spin-snap-4", "spin-snap-8", "stack-1x", "stack-2x", "stack", "swing", "ul", "wag", "width-auto", "width-fixed", l$1.GROUP, l$1.SWAP_OPACITY, l$1.PRIMARY, l$1.SECONDARY]).concat(sl$1.map(function (s) {
+      return "".concat(s, "x");
+    })).concat(ol$1.map(function (s) {
+      return "w-".concat(s);
     }));
 
   var NAMESPACE_IDENTIFIER = '___FONT_AWESOME___';
@@ -662,36 +767,36 @@
     // Defaults to the classic family if family is not available
     return new Proxy(obj, {
       get: function get(target, prop) {
-        return prop in target ? target[prop] : target[i];
+        return prop in target ? target[prop] : target[u];
       }
     });
   }
-  var _PREFIX_TO_STYLE = _objectSpread2({}, Q);
+  var _PREFIX_TO_STYLE = _objectSpread2({}, rl);
 
   // We changed FACSSClassesToStyleId in the icons repo to be canonical and as such, "classic" family does not have any
   // duotone styles.  But we do still need duotone in _PREFIX_TO_STYLE below, so we are manually adding
   // {'fa-duotone': 'duotone'}
-  _PREFIX_TO_STYLE[i] = _objectSpread2(_objectSpread2(_objectSpread2(_objectSpread2({}, {
+  _PREFIX_TO_STYLE[u] = _objectSpread2(_objectSpread2(_objectSpread2(_objectSpread2({}, {
     'fa-duotone': 'duotone'
-  }), Q[i]), Qt['kit']), Qt['kit-duotone']);
+  }), rl[u]), rt['kit']), rt['kit-duotone']);
   var PREFIX_TO_STYLE = familyProxy(_PREFIX_TO_STYLE);
-  var _STYLE_TO_PREFIX = _objectSpread2({}, Mt);
+  var _STYLE_TO_PREFIX = _objectSpread2({}, $l);
 
   // We changed FAStyleIdToShortPrefixId in the icons repo to be canonical and as such, "classic" family does not have any
   // duotone styles.  But we do still need duotone in _STYLE_TO_PREFIX below, so we are manually adding {duotone: 'fad'}
-  _STYLE_TO_PREFIX[i] = _objectSpread2(_objectSpread2(_objectSpread2(_objectSpread2({}, {
+  _STYLE_TO_PREFIX[u] = _objectSpread2(_objectSpread2(_objectSpread2(_objectSpread2({}, {
     duotone: 'fad'
-  }), _STYLE_TO_PREFIX[i]), ml['kit']), ml['kit-duotone']);
+  }), _STYLE_TO_PREFIX[u]), St['kit']), St['kit-duotone']);
   var STYLE_TO_PREFIX = familyProxy(_STYLE_TO_PREFIX);
-  var _PREFIX_TO_LONG_STYLE = _objectSpread2({}, Xl);
-  _PREFIX_TO_LONG_STYLE[i] = _objectSpread2(_objectSpread2({}, _PREFIX_TO_LONG_STYLE[i]), nl['kit']);
+  var _PREFIX_TO_LONG_STYLE = _objectSpread2({}, da);
+  _PREFIX_TO_LONG_STYLE[u] = _objectSpread2(_objectSpread2({}, _PREFIX_TO_LONG_STYLE[u]), It['kit']);
   var PREFIX_TO_LONG_STYLE = familyProxy(_PREFIX_TO_LONG_STYLE);
-  var _LONG_STYLE_TO_PREFIX = _objectSpread2({}, Hl);
-  _LONG_STYLE_TO_PREFIX[i] = _objectSpread2(_objectSpread2({}, _LONG_STYLE_TO_PREFIX[i]), sl['kit']);
+  var _LONG_STYLE_TO_PREFIX = _objectSpread2({}, ra);
+  _LONG_STYLE_TO_PREFIX[u] = _objectSpread2(_objectSpread2({}, _LONG_STYLE_TO_PREFIX[u]), mt['kit']);
   var LONG_STYLE_TO_PREFIX = familyProxy(_LONG_STYLE_TO_PREFIX);
-  var _FONT_WEIGHT_TO_PREFIX = _objectSpread2({}, yt);
+  var _FONT_WEIGHT_TO_PREFIX = _objectSpread2({}, Al);
   var FONT_WEIGHT_TO_PREFIX = familyProxy(_FONT_WEIGHT_TO_PREFIX);
-  var RESERVED_CLASSES = [].concat(_toConsumableArray(Xt), _toConsumableArray(so));
+  var RESERVED_CLASSES = [].concat(_toConsumableArray(it), _toConsumableArray(ga));
 
   function bunker(fn) {
     try {

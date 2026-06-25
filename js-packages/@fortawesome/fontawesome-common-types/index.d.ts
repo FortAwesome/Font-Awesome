@@ -1,5 +1,5 @@
-export type IconFamily = "classic" | "duotone" | "sharp" | "sharp-duotone" | "chisel" | "etch" | "graphite" | "jelly" | "jelly-duo" | "jelly-fill" | "notdog" | "notdog-duo" | "slab" | "slab-press" | "thumbprint" | "utility" | "utility-duo" | "utility-fill" | "whiteboard";
-export type IconPrefix = "fas" | "fass" | "far" | "fasr" | "fal" | "fasl" | "fat" | "fast" | "fad" | "fadr" | "fadl" | "fadt" | "fasds" | "fasdr" | "fasdl" | "fasdt" | "fab" | "faslr" | "faslpr" | "fawsb" | "fatl" | "fans" | "fands" | "faes" | "fagt" | "fajr" | "fajfr" | "fajdr" | "facr" | "fausb" | "faudsb" | "faufsb" | "fak" | "fakd";
+export type IconFamily = "classic" | "duotone" | "sharp" | "sharp-duotone" | "chisel" | "etch" | "graphite" | "jelly" | "jelly-duo" | "jelly-fill" | "mosaic" | "notdog" | "notdog-duo" | "pixel" | "slab" | "slab-duo" | "slab-press" | "slab-press-duo" | "thumbprint" | "utility" | "utility-duo" | "utility-fill" | "vellum" | "whiteboard";
+export type IconPrefix = "fas" | "fass" | "far" | "fasr" | "fal" | "fasl" | "fat" | "fast" | "fad" | "fadr" | "fadl" | "fadt" | "fasds" | "fasdr" | "fasdl" | "fasdt" | "fab" | "faslr" | "faslpr" | "fasldr" | "faslpdr" | "fapr" | "fams" | "favs" | "fawsb" | "fatl" | "fans" | "fands" | "faes" | "fagt" | "fajr" | "fajfr" | "fajdr" | "facr" | "fausb" | "faudsb" | "faufsb" | "fak" | "fakd";
 export type CssStyleClass = "fa-solid" | "fa-regular" | "fa-light" | "fa-thin" | "fa-duotone" | "fa-brands" | "fa-semibold";
 export type IconStyle = "solid" | "regular" | "light" | "thin" | "duotone" | "brands" | "semibold";
 export type IconPathData = string | string[]
@@ -341,6 +341,7 @@ export type IconName = '0' |
   'bug' | 
   'bug-slash' | 
   'bugs' | 
+  'build-awesome' | 
   'building' | 
   'building-circle-arrow-right' | 
   'building-circle-check' | 
@@ -565,6 +566,7 @@ export type IconName = '0' |
   'code-fork' | 
   'code-merge' | 
   'code-pull-request' | 
+  'codeberg' | 
   'codepen' | 
   'codiepie' | 
   'coffee' | 
@@ -663,6 +665,7 @@ export type IconName = '0' |
   'desktop-alt' | 
   'dev' | 
   'deviantart' | 
+  'devpost' | 
   'dharmachakra' | 
   'dhl' | 
   'diagnoses' | 
@@ -1264,6 +1267,7 @@ export type IconName = '0' |
   'instalod' | 
   'institution' | 
   'intercom' | 
+  'internet-archive' | 
   'internet-explorer' | 
   'invision' | 
   'ioxhost' | 
@@ -1347,6 +1351,7 @@ export type IconName = '0' |
   'less' | 
   'less-than' | 
   'less-than-equal' | 
+  'lets-encrypt' | 
   'letterboxd' | 
   'level-down' | 
   'level-down-alt' | 
@@ -1393,6 +1398,7 @@ export type IconName = '0' |
   'long-arrow-left' | 
   'long-arrow-right' | 
   'long-arrow-up' | 
+  'lotus' | 
   'low-vision' | 
   'luggage-cart' | 
   'lumon' | 
@@ -1448,6 +1454,8 @@ export type IconName = '0' |
   'mask-ventilator' | 
   'masks-theater' | 
   'mastodon' | 
+  'matrix' | 
+  'mattermost' | 
   'mattress-pillow' | 
   'maxcdn' | 
   'maximize' | 
@@ -1543,6 +1551,7 @@ export type IconName = '0' |
   'network-wired' | 
   'neuter' | 
   'newspaper' | 
+  'nextcloud' | 
   'nfc-directional' | 
   'nfc-symbol' | 
   'nimblr' | 
@@ -1840,12 +1849,14 @@ export type IconName = '0' |
   'road-circle-xmark' | 
   'road-lock' | 
   'road-spikes' | 
+  'roblox-creator-studio' | 
   'robot' | 
   'rocket' | 
   'rocketchat' | 
   'rockrms' | 
   'rod-asclepius' | 
   'rod-snake' | 
+  'ror' | 
   'rotate' | 
   'rotate-back' | 
   'rotate-backward' | 
@@ -2057,6 +2068,7 @@ export type IconName = '0' |
   'square-behance' | 
   'square-binary' | 
   'square-bluesky' | 
+  'square-build-awesome-stroke' | 
   'square-caret-down' | 
   'square-caret-left' | 
   'square-caret-right' | 
@@ -2163,6 +2175,7 @@ export type IconName = '0' |
   'stumbleupon' | 
   'stumbleupon-circle' | 
   'subscript' | 
+  'substack' | 
   'subtract' | 
   'subway' | 
   'suitcase' | 
@@ -2256,6 +2269,7 @@ export type IconName = '0' |
   'tent-arrows-down' | 
   'tents' | 
   'terminal' | 
+  'tesla' | 
   'tex' | 
   'text-height' | 
   'text-slash' | 
@@ -2588,6 +2602,8 @@ export type IconName = '0' |
   'xmark-square' | 
   'xmarks-lines' | 
   'xmpp' | 
+  'xrp' | 
+  'xrpl' | 
   'y' | 
   'y-combinator' | 
   'yahoo' | 
@@ -2601,6 +2617,7 @@ export type IconName = '0' |
   'yin-yang' | 
   'yoast' | 
   'youtube' | 
+  'youtube-shorts' | 
   'youtube-square' | 
   'z' | 
   'zap' | 

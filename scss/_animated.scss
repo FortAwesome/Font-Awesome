@@ -17,7 +17,7 @@
   animation-direction: var(--#{v.$css-prefix}-animation-direction, normal);
   animation-duration: var(--#{v.$css-prefix}-animation-duration, 1s);
   animation-iteration-count: var(--#{v.$css-prefix}-animation-iteration-count, infinite);
-  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, cubic-bezier(0.280, 0.840, 0.420, 1));
+  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
 }
 
 .#{v.$css-prefix}-fade {
@@ -26,7 +26,7 @@
   animation-direction: var(--#{v.$css-prefix}-animation-direction, normal);
   animation-duration: var(--#{v.$css-prefix}-animation-duration, 1s);
   animation-iteration-count: var(--#{v.$css-prefix}-animation-iteration-count, infinite);
-  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, cubic-bezier(.4,0,.6,1));
+  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, ease-in-out);
 }
 
 .#{v.$css-prefix}-beat-fade {
@@ -35,11 +35,20 @@
   animation-direction: var(--#{v.$css-prefix}-animation-direction, normal);
   animation-duration: var(--#{v.$css-prefix}-animation-duration, 1s);
   animation-iteration-count: var(--#{v.$css-prefix}-animation-iteration-count, infinite);
-  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, cubic-bezier(.4,0,.6,1));
+  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, ease-in-out);
 }
 
 .#{v.$css-prefix}-flip {
   animation-name: #{v.$css-prefix}-flip;
+  animation-delay: var(--#{v.$css-prefix}-animation-delay, 0s);
+  animation-direction: var(--#{v.$css-prefix}-animation-direction, normal);
+  animation-duration: var(--#{v.$css-prefix}-animation-duration, 1.5s);
+  animation-iteration-count: var(--#{v.$css-prefix}-animation-iteration-count, infinite);
+  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, ease-in-out);
+}
+
+.#{v.$css-prefix}-flip-360 {
+  animation-name: #{v.$css-prefix}-flip-360;
   animation-delay: var(--#{v.$css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{v.$css-prefix}-animation-direction, normal);
   animation-duration: var(--#{v.$css-prefix}-animation-duration, 1s);
@@ -51,9 +60,9 @@
   animation-name: #{v.$css-prefix}-shake;
   animation-delay: var(--#{v.$css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{v.$css-prefix}-animation-direction, normal);
-  animation-duration: var(--#{v.$css-prefix}-animation-duration, 1s);
+  animation-duration: var(--#{v.$css-prefix}-animation-duration, 0.75s);
   animation-iteration-count: var(--#{v.$css-prefix}-animation-iteration-count, infinite);
-  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, linear);
+  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, ease-in-out);
 }
 
 .#{v.$css-prefix}-spin {
@@ -78,6 +87,81 @@
   animation-timing-function: var(--#{v.$css-prefix}-animation-timing, steps(8));
 }
 
+.#{v.$css-prefix}-spin-snap {
+  animation-name: #{v.$css-prefix}-spin-snap;
+  animation-delay: var(--#{v.$css-prefix}-animation-delay, 0s);
+  animation-direction: var(--#{v.$css-prefix}-animation-direction, normal);
+  animation-duration: var(--#{v.$css-prefix}-animation-duration, 3s);
+  animation-iteration-count: var(--#{v.$css-prefix}-animation-iteration-count, infinite);
+  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, linear);
+}
+
+.#{v.$css-prefix}-spin-snap-4 {
+  animation-name: #{v.$css-prefix}-spin-snap-4;
+  animation-delay: var(--#{v.$css-prefix}-animation-delay, 0s);
+  animation-direction: var(--#{v.$css-prefix}-animation-direction, normal);
+  animation-duration: var(--#{v.$css-prefix}-animation-duration, 2.4s);
+  animation-iteration-count: var(--#{v.$css-prefix}-animation-iteration-count, infinite);
+  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, linear);
+}
+
+.#{v.$css-prefix}-spin-snap-8 {
+  animation-name: #{v.$css-prefix}-spin-snap-8;
+  animation-delay: var(--#{v.$css-prefix}-animation-delay, 0s);
+  animation-direction: var(--#{v.$css-prefix}-animation-direction, normal);
+  animation-duration: var(--#{v.$css-prefix}-animation-duration, 4s);
+  animation-iteration-count: var(--#{v.$css-prefix}-animation-iteration-count, infinite);
+  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, linear);
+}
+
+.#{v.$css-prefix}-buzz {
+  animation-name: #{v.$css-prefix}-buzz;
+  animation-delay: var(--#{v.$css-prefix}-animation-delay, 0s);
+  animation-direction: var(--#{v.$css-prefix}-animation-direction, normal);
+  animation-duration: var(--#{v.$css-prefix}-animation-duration, 0.6s);
+  animation-iteration-count: var(--#{v.$css-prefix}-animation-iteration-count, infinite);
+  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, linear);
+}
+
+.#{v.$css-prefix}-wag {
+  animation-name: #{v.$css-prefix}-wag;
+  animation-delay: var(--#{v.$css-prefix}-animation-delay, 0s);
+  animation-direction: var(--#{v.$css-prefix}-animation-direction, normal);
+  animation-duration: var(--#{v.$css-prefix}-animation-duration, 0.9s);
+  animation-iteration-count: var(--#{v.$css-prefix}-animation-iteration-count, infinite);
+  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, ease-out);
+  transform-origin: bottom center;
+}
+
+.#{v.$css-prefix}-float {
+  animation-name: #{v.$css-prefix}-float;
+  animation-delay: var(--#{v.$css-prefix}-animation-delay, 0s);
+  animation-direction: var(--#{v.$css-prefix}-animation-direction, normal);
+  animation-duration: var(--#{v.$css-prefix}-animation-duration, 3s);
+  animation-iteration-count: var(--#{v.$css-prefix}-animation-iteration-count, infinite);
+  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, ease-in-out);
+  will-change: transform;
+}
+
+.#{v.$css-prefix}-swing {
+  animation-name: #{v.$css-prefix}-swing;
+  animation-delay: var(--#{v.$css-prefix}-animation-delay, 0s);
+  animation-direction: var(--#{v.$css-prefix}-animation-direction, normal);
+  animation-duration: var(--#{v.$css-prefix}-animation-duration, 1.2s);
+  animation-iteration-count: var(--#{v.$css-prefix}-animation-iteration-count, infinite);
+  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, ease-out);
+  transform-origin: top center;
+}
+
+.#{v.$css-prefix}-jello {
+  animation-name: #{v.$css-prefix}-jello;
+  animation-delay: var(--#{v.$css-prefix}-animation-delay, 0s);
+  animation-direction: var(--#{v.$css-prefix}-animation-direction, normal);
+  animation-duration: var(--#{v.$css-prefix}-animation-duration, 0.9s);
+  animation-iteration-count: var(--#{v.$css-prefix}-animation-iteration-count, infinite);
+  animation-timing-function: var(--#{v.$css-prefix}-animation-timing, ease-out);
+}
+
 // if agent or operating system prefers reduced motion, disable animations
 // see: https://www.smashingmagazine.com/2020/09/design-reduced-motion-sensitivities/
 // see: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
@@ -87,64 +171,557 @@
   .#{v.$css-prefix}-fade,
   .#{v.$css-prefix}-beat-fade,
   .#{v.$css-prefix}-flip,
+  .#{v.$css-prefix}-flip-360,
   .#{v.$css-prefix}-pulse,
   .#{v.$css-prefix}-shake,
   .#{v.$css-prefix}-spin,
-  .#{v.$css-prefix}-spin-pulse {
+  .#{v.$css-prefix}-spin-pulse,
+  .#{v.$css-prefix}-buzz,
+  .#{v.$css-prefix}-float,
+  .#{v.$css-prefix}-jello,
+  .#{v.$css-prefix}-spin-snap,
+  .#{v.$css-prefix}-spin-snap-4,
+  .#{v.$css-prefix}-spin-snap-8,
+  .#{v.$css-prefix}-swing,
+  .#{v.$css-prefix}-wag {
     animation: none !important;
     transition: none !important;
   }
 }
 
 @keyframes #{v.$css-prefix}-beat {
-  0%, 90% { transform: scale(1); }
-  45% { transform: scale(var(--#{v.$css-prefix}-beat-scale, 1.25)); }
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(calc(1.25 * var(--#{v.$css-prefix}-beat-scale, 1.25)));
+  }
+  45% {
+    transform: scale(calc(1.22 * var(--#{v.$css-prefix}-beat-scale, 1.22)));
+  }
+  65% {
+    transform: scale(calc(1.25 * var(--#{v.$css-prefix}-beat-scale, 1.25)));
+  }
+  90% {
+    transform: scale(1);
+  }
 }
 
 @keyframes #{v.$css-prefix}-bounce {
-  0%   { transform: scale(1,1) translateY(0); }
-  10%  { transform: scale(var(--#{v.$css-prefix}-bounce-start-scale-x, 1.1),var(--#{v.$css-prefix}-bounce-start-scale-y, 0.9)) translateY(0); }
-  30%  { transform: scale(var(--#{v.$css-prefix}-bounce-jump-scale-x, 0.9),var(--#{v.$css-prefix}-bounce-jump-scale-y, 1.1)) translateY(var(--#{v.$css-prefix}-bounce-height, -0.5em)); }
-  50%  { transform: scale(var(--#{v.$css-prefix}-bounce-land-scale-x, 1.05),var(--#{v.$css-prefix}-bounce-land-scale-y, 0.95)) translateY(0); }
-  57%  { transform: scale(1,1) translateY(var(--#{v.$css-prefix}-bounce-rebound, -0.125em)); }
-  64%  { transform: scale(1,1) translateY(0); }
-  100% { transform: scale(1,1) translateY(0); }
+  0% {
+    transform: scale(1, 1) translateY(0);
+    animation-timing-function: var(--#{v.$css-prefix}-animation-timing);
+  }
+  14% {
+    transform: scale(var(--#{v.$css-prefix}-bounce-start-scale-x, 1.06), var(--#{v.$css-prefix}-bounce-start-scale-y, 0.94))
+    translateY(var(--#{v.$css-prefix}-bounce-anticipation, 3px));
+    animation-timing-function: cubic-bezier(0.33, 0, 0.66, 0.33);
+  }
+  32% {
+    transform: scale(var(--#{v.$css-prefix}-bounce-jump-scale-x, 0.94), var(--#{v.$css-prefix}-bounce-jump-scale-y, 1.12))
+    translateY(calc(-1 * var(--#{v.$css-prefix}-bounce-height, 0.5em)));
+    animation-timing-function: cubic-bezier(0.33, 0.66, 0.66, 1);
+  }
+  52% {
+    transform: scale(1, 1) translateY(calc(-1 * var(--#{v.$css-prefix}-bounce-height, 0.5em) * 1.1));
+    animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+  }
+  70% {
+    transform: scale(var(--#{v.$css-prefix}-bounce-land-scale-x, 1.06), var(--#{v.$css-prefix}-bounce-land-scale-y, 0.92)) translateY(0);
+    animation-timing-function: cubic-bezier(0.33, 0.33, 0.66, 1);
+  }
+  85% {
+    transform: scale(0.98, 1.04) translateY(calc(-2px * var(--#{v.$css-prefix}-bounce-rebound, 1)));
+    animation-timing-function: cubic-bezier(0.33, 0, 0.66, 1);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
 }
 
 @keyframes #{v.$css-prefix}-fade {
-  50% { opacity: var(--#{v.$css-prefix}-fade-opacity, 0.4); }
+  0% {
+    opacity: 1;
+    transform: scale(1);
+    animation-timing-function: cubic-bezier(0.2, 0, 0.4, 1);
+  }
+  40% {
+    opacity: var(--#{v.$css-prefix}-fade-opacity, 0.4);
+    transform: scale(0.98);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes #{v.$css-prefix}-beat-fade {
-  0%, 100% {
+  0% {
     opacity: var(--#{v.$css-prefix}-beat-fade-opacity, 0.4);
     transform: scale(1);
+    animation-timing-function: cubic-bezier(0.2, 0, 0.4, 1);
   }
-  50% {
+  25% {
+    opacity: calc(var(--#{v.$css-prefix}-beat-fade-opacity, 0.4) + 0.4);
+    transform: scale(var(--#{v.$css-prefix}-beat-fade-scale, 1.28));
+    animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+  }
+  45% {
     opacity: 1;
-    transform: scale(var(--#{v.$css-prefix}-beat-fade-scale, 1.125));
+    transform: scale(var(--#{v.$css-prefix}-beat-fade-scale, 1.25));
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  65% {
+    opacity: calc(var(--#{v.$css-prefix}-beat-fade-opacity, 0.4) + 0.4);
+    transform: scale(var(--#{v.$css-prefix}-beat-fade-scale, 1.28));
+    animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+  }
+  100% {
+    opacity: var(--#{v.$css-prefix}-beat-fade-opacity, 0.4);
+    transform: scale(1);
   }
 }
 
 @keyframes #{v.$css-prefix}-flip {
+  0% {
+    transform: perspective(2em) scale(1) rotate3d(var(--#{v.$css-prefix}-flip-x, 0), var(--#{v.$css-prefix}-flip-y, 1), var(--#{v.$css-prefix}-flip-z, 0), 0deg);
+    animation-timing-function: cubic-bezier(0.2, 0, 0.4, 1);
+  }
+  8% {
+    transform: perspective(2em) scale(var(--#{v.$css-prefix}-flip-anticipation-scale, 0.95))
+    rotate3d(var(--#{v.$css-prefix}-flip-x, 0), var(--#{v.$css-prefix}-flip-y, 1), var(--#{v.$css-prefix}-flip-z, 0), 0deg);
+    animation-timing-function: cubic-bezier(0.33, 0, 0.66, 0.33);
+  }
+  35% {
+    transform: perspective(2em) scale(1)
+      rotate3d(var(--#{v.$css-prefix}-flip-x, 0), var(--#{v.$css-prefix}-flip-y, 1), var(--#{v.$css-prefix}-flip-z, 0), calc(var(--#{v.$css-prefix}-flip-angle, -360deg) * 0.6));
+    animation-timing-function: linear;
+  }
+  65% {
+    transform: perspective(2em) scale(1)
+      rotate3d(var(--#{v.$css-prefix}-flip-x, 0), var(--#{v.$css-prefix}-flip-y, 1), var(--#{v.$css-prefix}-flip-z, 0), calc(var(--#{v.$css-prefix}-flip-angle, -360deg) * 0.5));
+    animation-timing-function: cubic-bezier(0.33, 0.66, 0.66, 1);
+  }
+  92% {
+    transform: perspective(2em) scale(1)
+      rotate3d(
+        var(--#{v.$css-prefix}-flip-x, 0),
+        var(--#{v.$css-prefix}-flip-y, 1),
+        var(--#{v.$css-prefix}-flip-z, 0),
+        calc(var(--#{v.$css-prefix}-flip-angle, -360deg) * var(--#{v.$css-prefix}-flip-overshoot, 1.04))
+      );
+    animation-timing-function: cubic-bezier(0.33, 0, 0.66, 1);
+  }
+  100% {
+    transform: perspective(2em) scale(1)
+      rotate3d(var(--#{v.$css-prefix}-flip-x, 0), var(--#{v.$css-prefix}-flip-y, 1), var(--#{v.$css-prefix}-flip-z, 0), var(--#{v.$css-prefix}-flip-angle, -360deg));
+  }
+}
+
+@keyframes #{v.$css-prefix}-flip-360 {
+  0% {
+    transform: perspective(2em) scale(1) rotate3d(var(--#{v.$css-prefix}-flip-x, 0), var(--#{v.$css-prefix}-flip-y, 1), var(--#{v.$css-prefix}-flip-z, 0), 0deg);
+    animation-timing-function: cubic-bezier(0.2, 0, 0.4, 1);
+  }
+  8% {
+    transform: perspective(2em) scale(var(--#{v.$css-prefix}-flip-anticipation-scale, 0.95)) rotate3d(var(--#{v.$css-prefix}-flip-x, 0), var(--#{v.$css-prefix}-flip-y, 1), var(--#{v.$css-prefix}-flip-z, 0), 0deg);
+    animation-timing-function: cubic-bezier(0.33, 0, 0.66, 0.33);
+  }
   50% {
-    transform: rotate3d(var(--#{v.$css-prefix}-flip-x, 0), var(--#{v.$css-prefix}-flip-y, 1), var(--#{v.$css-prefix}-flip-z, 0), var(--#{v.$css-prefix}-flip-angle, -180deg));
+    transform: perspective(2em) scale(1) rotate3d(var(--#{v.$css-prefix}-flip-x, 0), var(--#{v.$css-prefix}-flip-y, 1), var(--#{v.$css-prefix}-flip-z, 0), calc(var(--#{v.$css-prefix}-flip-angle, -360deg) * 0.6));
+    animation-timing-function: cubic-bezier(0.33, 0.66, 0.66, 1);
+  }
+  80% {
+    transform: perspective(2em) scale(1) rotate3d(var(--#{v.$css-prefix}-flip-x, 0), var(--#{v.$css-prefix}-flip-y, 1), var(--#{v.$css-prefix}-flip-z, 0), calc(var(--#{v.$css-prefix}-flip-angle, -360deg) * var(--#{v.$css-prefix}-flip-overshoot, 1.04)));
+    animation-timing-function: cubic-bezier(0.33, 0, 0.66, 1);
+  }
+  100% {
+    transform: perspective(2em) scale(1) rotate3d(var(--#{v.$css-prefix}-flip-x, 0), var(--#{v.$css-prefix}-flip-y, 1), var(--#{v.$css-prefix}-flip-z, 0), var(--#{v.$css-prefix}-flip-angle, -360deg));
   }
 }
 
 @keyframes #{v.$css-prefix}-shake {
-  0% { transform: rotate(-15deg); }
-  4% { transform: rotate(15deg); }
-  8%, 24% { transform: rotate(-18deg); }
-  12%, 28% { transform: rotate(18deg); }
-  16% { transform: rotate(-22deg); }
-  20% { transform: rotate(22deg); }
-  32% { transform: rotate(-12deg); }
-  36% { transform: rotate(12deg); }
-  40%, 100% { transform: rotate(0deg); }
+  0% {
+    transform: rotate(0deg);
+    animation-timing-function: cubic-bezier(0.2, 0, 0.8, 1);
+  }
+  8% {
+    transform: rotate(35deg) translateX(1px);
+    animation-timing-function: cubic-bezier(0.3, 0, 0.7, 1);
+  }
+  20% {
+    transform: rotate(-22deg) translateX(-1px);
+    animation-timing-function: cubic-bezier(0.3, 0, 0.7, 1);
+  }
+  35% {
+    transform: rotate(15deg) translateX(1px);
+    animation-timing-function: cubic-bezier(0.3, 0, 0.7, 1);
+  }
+  50% {
+    transform: rotate(-9deg);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+  }
+  65% {
+    transform: rotate(5deg);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+  }
+  78% {
+    transform: rotate(-3deg);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+  }
+  90% {
+    transform: rotate(1deg);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @keyframes #{v.$css-prefix}-spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+@keyframes #{v.$css-prefix}-spin-snap {
+  0% {
+    transform: rotate(0deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  12% {
+    transform: rotate(60deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  16.67% {
+    transform: rotate(60deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  28.67% {
+    transform: rotate(120deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  33.33% {
+    transform: rotate(120deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  45.33% {
+    transform: rotate(180deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: rotate(180deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  62% {
+    transform: rotate(240deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  66.67% {
+    transform: rotate(240deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  78.67% {
+    transform: rotate(300deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  83.33% {
+    transform: rotate(300deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  95.33% {
+    transform: rotate(360deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes #{v.$css-prefix}-spin-snap-4 {
+  0% {
+    transform: rotate(0deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  15% {
+    transform: rotate(90deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  25% {
+    transform: rotate(90deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  40% {
+    transform: rotate(180deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: rotate(180deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  65% {
+    transform: rotate(270deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  75% {
+    transform: rotate(270deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  90% {
+    transform: rotate(360deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes #{v.$css-prefix}-spin-snap-8 {
+  0% {
+    transform: rotate(0deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  9% {
+    transform: rotate(45deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  12.5% {
+    transform: rotate(45deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  21.5% {
+    transform: rotate(90deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  25% {
+    transform: rotate(90deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  34% {
+    transform: rotate(135deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  37.5% {
+    transform: rotate(135deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  46.5% {
+    transform: rotate(180deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: rotate(180deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  59% {
+    transform: rotate(225deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  62.5% {
+    transform: rotate(225deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  71.5% {
+    transform: rotate(270deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  75% {
+    transform: rotate(270deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  84% {
+    transform: rotate(315deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  87.5% {
+    transform: rotate(315deg);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  96.5% {
+    transform: rotate(360deg);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes #{v.$css-prefix}-buzz {
+  0% {
+    transform: translateX(0) rotate(0deg);
+    animation-timing-function: cubic-bezier(0.1, 0, 0.9, 1);
+  }
+  5% {
+    transform: translateX(var(--#{v.$css-prefix}-buzz-distance, 4px)) rotate(0.5deg);
+  }
+  10% {
+    transform: translateX(calc(-1 * var(--#{v.$css-prefix}-buzz-distance, 4px))) rotate(-0.5deg);
+  }
+  15% {
+    transform: translateX(var(--#{v.$css-prefix}-buzz-distance, 4px)) rotate(0.3deg);
+  }
+  20% {
+    transform: translateX(calc(-1 * var(--#{v.$css-prefix}-buzz-distance, 4px))) rotate(-0.3deg);
+  }
+  25% {
+    transform: translateX(calc(var(--#{v.$css-prefix}-buzz-distance, 4px) * 0.7)) rotate(0.2deg);
+  }
+  30% {
+    transform: translateX(calc(-1 * var(--#{v.$css-prefix}-buzz-distance, 4px) * 0.7)) rotate(-0.2deg);
+  }
+  35% {
+    transform: translateX(calc(var(--#{v.$css-prefix}-buzz-distance, 4px) * 0.4)) rotate(0.1deg);
+  }
+  40% {
+    transform: translateX(0) rotate(0deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+@keyframes #{v.$css-prefix}-wag {
+  0% {
+    transform: rotate(0deg);
+    animation-timing-function: cubic-bezier(0.2, 0, 0.6, 1);
+  }
+  12% {
+    transform: rotate(var(--#{v.$css-prefix}-wag-angle, 12deg));
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  24% {
+    transform: rotate(2deg);
+    animation-timing-function: cubic-bezier(0.2, 0, 0.6, 1);
+  }
+  36% {
+    transform: rotate(calc(var(--#{v.$css-prefix}-wag-angle, 12deg) * 0.85));
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  48% {
+    transform: rotate(1deg);
+    animation-timing-function: cubic-bezier(0.2, 0, 0.6, 1);
+  }
+  58% {
+    transform: rotate(calc(var(--#{v.$css-prefix}-wag-angle, 12deg) * 0.6));
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  68% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes #{v.$css-prefix}-float {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg)
+      scale(var(--#{v.$css-prefix}-float-squash-x, 1.02), var(--#{v.$css-prefix}-float-squash-y, 0.98));
+    animation-timing-function: cubic-bezier(0.33, 0, 0.66, 0.33);
+  }
+  15% {
+    transform: translateY(calc(-0.4 * var(--#{v.$css-prefix}-float-height, 6px))) translateX(var(--#{v.$css-prefix}-float-drift, 1px))
+    rotate(var(--#{v.$css-prefix}-float-tilt, 1deg)) scale(1, 1);
+    animation-timing-function: cubic-bezier(0.33, 0.66, 0.66, 1);
+  }
+  35% {
+    transform: translateY(calc(-1 * var(--#{v.$css-prefix}-float-height, 6px))) translateX(0) rotate(0deg)
+    scale(var(--#{v.$css-prefix}-float-stretch-x, 0.98), var(--#{v.$css-prefix}-float-stretch-y, 1.03));
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 0);
+  }
+  50% {
+    transform: translateY(calc(-0.92 * var(--#{v.$css-prefix}-float-height, 6px))) translateX(calc(-0.5 * var(--#{v.$css-prefix}-float-drift, 1px)))
+    rotate(calc(-0.5 * var(--#{v.$css-prefix}-float-tilt, 1deg))) scale(0.995, 1.01);
+    animation-timing-function: cubic-bezier(0.33, 0, 0.66, 0.33);
+  }
+  70% {
+    transform: translateY(calc(-0.3 * var(--#{v.$css-prefix}-float-height, 6px))) translateX(calc(-1 * var(--#{v.$css-prefix}-float-drift, 1px)))
+    rotate(calc(-1 * var(--#{v.$css-prefix}-float-tilt, 1deg))) scale(1, 1);
+    animation-timing-function: cubic-bezier(0.33, 0.66, 0.66, 1);
+  }
+  90% {
+    transform: translateY(calc(0.05 * var(--#{v.$css-prefix}-float-height, 6px))) translateX(0) rotate(0deg)
+    scale(var(--#{v.$css-prefix}-float-squash-x, 1.02), var(--#{v.$css-prefix}-float-squash-y, 0.98));
+    animation-timing-function: cubic-bezier(0.33, 0, 0.66, 1);
+  }
+  100% {
+    transform: translateY(0) translateX(0) rotate(0deg)
+      scale(var(--#{v.$css-prefix}-float-squash-x, 1.02), var(--#{v.$css-prefix}-float-squash-y, 0.98));
+  }
+}
+
+@keyframes #{v.$css-prefix}-swing {
+  0% {
+    transform: rotate(0deg);
+    animation-timing-function: cubic-bezier(0.2, 0, 0.8, 1);
+  }
+  8% {
+    transform: rotate(var(--#{v.$css-prefix}-swing-angle, 22deg));
+    animation-timing-function: cubic-bezier(0.3, 0, 0.7, 1);
+  }
+  18% {
+    transform: rotate(calc(-1 * var(--#{v.$css-prefix}-swing-angle, 22deg) * 0.85));
+    animation-timing-function: cubic-bezier(0.3, 0, 0.7, 1);
+  }
+  28% {
+    transform: rotate(calc(var(--#{v.$css-prefix}-swing-angle, 22deg) * 0.65));
+    animation-timing-function: cubic-bezier(0.35, 0, 0.65, 1);
+  }
+  38% {
+    transform: rotate(calc(-1 * var(--#{v.$css-prefix}-swing-angle, 22deg) * 0.45));
+    animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+  }
+  48% {
+    transform: rotate(calc(var(--#{v.$css-prefix}-swing-angle, 22deg) * 0.25));
+    animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+  }
+  56% {
+    transform: rotate(calc(-1 * var(--#{v.$css-prefix}-swing-angle, 22deg) * 0.1));
+    animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+  }
+  64% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes #{v.$css-prefix}-jello {
+  0% {
+    transform: scale(1, 1);
+    animation-timing-function: cubic-bezier(0.2, 0, 0.8, 1);
+  }
+  12% {
+    transform: scale(var(--#{v.$css-prefix}-jello-scale-x, 1.15), calc(2 - var(--#{v.$css-prefix}-jello-scale-x, 1.15)));
+    animation-timing-function: cubic-bezier(0.3, 0, 0.7, 1);
+  }
+  24% {
+    transform: scale(calc(2 - var(--#{v.$css-prefix}-jello-scale-y, 1.12)), var(--#{v.$css-prefix}-jello-scale-y, 1.12));
+    animation-timing-function: cubic-bezier(0.3, 0, 0.7, 1);
+  }
+  36% {
+    transform: scale(
+      calc(1 + (var(--#{v.$css-prefix}-jello-scale-x, 1.15) - 1) * 0.5),
+      calc(2 - (1 + (var(--#{v.$css-prefix}-jello-scale-x, 1.15) - 1) * 0.5))
+    );
+    animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+  }
+  48% {
+    transform: scale(
+      calc(2 - (1 + (var(--#{v.$css-prefix}-jello-scale-y, 1.12) - 1) * 0.3)),
+      calc(1 + (var(--#{v.$css-prefix}-jello-scale-y, 1.12) - 1) * 0.3)
+    );
+    animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+  }
+  58% {
+    transform: scale(1.02, 0.98);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  68% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }

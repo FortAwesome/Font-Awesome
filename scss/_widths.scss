@@ -10,3 +10,15 @@
 .#{v.$css-prefix}-width-fixed {
   --#{v.$css-prefix}-width: #{v.$fw-width};
 }
+
+.#{v.$css-prefix}-canvas-square {
+  padding-block: 0.125em;
+  margin-block-end: -.125em;
+}
+
+.#{v.$css-prefix}-canvas-roomy {
+  padding-block: 0.25em;
+  padding-inline: .125em;
+  margin-block-end: -.25em;
+  box-sizing: content-box;
+}

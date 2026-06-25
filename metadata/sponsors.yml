@@ -504,6 +504,11 @@ iris:
     - chart-pie-simple-circle-dollar
   label: ICIS
   url: 'https://www.icis.com/'
+jiri-michel:
+  icons:
+    - meerkat
+  label: Jiří "VentyCZ" Michel
+  url: 'https://venty.cz'
 joe-emison:
   icons:
     - blender-phone

@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'fab';
+var iconName = 'matrix';
+var width = 512;
+var height = 512;
+var aliases = [];
+var unicode = 'e8b3';
+var svgPathData = 'M61.6 27l-32.9 0 0 458 32.9 0 0 11-45.6 0 0-480 45.6 0 0 11zM496 496l-45.6 0 0-11 32.9 0 0-458-32.9 0 0-11 45.6 0 0 480zM324.1 167.6c9 0 17.4 1.1 25.2 3.3s14.3 5.7 19.8 10.6 9.8 11.2 12.9 19c3 7.8 4.6 17.3 4.6 28.3l0 114.5-47 0 0-97c0-5.7-.2-11.2-.6-16.3s-1.7-9.5-3.6-13.2c-2-3.8-4.9-6.8-8.7-9s-9.1-3.3-15.7-3.3c-6.6 0-12 1.3-16.1 3.8-4.1 2.6-7.3 5.8-9.6 10-2.3 4.1-3.9 8.7-4.6 13.9-.7 5.2-1.2 10.4-1.2 15.7l0 95.3-47 0 0-96c0-5.1-.1-10.1-.4-15-.2-5-1.2-9.5-2.9-13.8-1.7-4.1-4.4-7.6-8.3-10.1s-9.5-3.8-17.1-3.8c-2.2 0-5.2 .5-8.8 1.5s-7.2 2.9-10.6 5.6-6.4 6.7-8.8 11.9-3.6 12-3.6 20.4l0 99.3-47 0 0-171.3 44.3 0 0 23.2 .7 0c6.2-8.9 13.7-15.7 22.3-20.5 8.7-4.9 18.7-7.3 30-7.3 10.8 0 20.7 2.1 29.6 6.3s15.7 11.6 20.4 22.2c5.1-7.5 12-14.1 20.7-19.8s19-8.6 30.9-8.6z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faMatrix = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;
