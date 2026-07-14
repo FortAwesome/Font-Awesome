@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'fab';
+var iconName = 'visual-studio';
+var width = 512;
+var height = 512;
+var aliases = [];
+var unicode = 'e8be';
+var svgPathData = 'M317.8 18.7c13.2 0-1.4-2.2 162.8 57 .7 .4 1.1 .4 1.8 .8 17.6 7.3 29.6 24.5 29.6 44.2l0 267c0 19.7-12.1 36.9-29.6 44.2-.4 0-1.1 .4-2.9 1.1L335 484.6c-5.5 2.2-11.3 3.3-17.2 3.3-16.8 0-31.8-8.8-40.2-22-.5-.5-6.2-10.3-10.2-16.1-1.1-1.5-1.8-2.9-2.9-4.4L92.5 155.5C81.9 137.2 64 125.8 44.2 122.9l92.2-45 .4-.4c6.2-2.9 13.5-4.8 20.8-4.8 16.1 0 30.3 8 39.1 20.1l0 .4 169 238.1 0-166-36.6 51.6-84.9-119.6 31.8-54.9c.7-.7 1.1-1.4 1.4-1.8 8.4-13.2 23.4-21.9 40.2-21.9zm-117 390.9l-4 5.5 0 .3c-8.8 12.1-23 20.1-39.1 20.1-7.3 0-14.6-1.8-20.8-4.7l-.4-.4-92.9-45c20.1-2.9 38-13.9 49-32.6l17.2-28.5 20.5-34.4 70.6 119.6zM24.1 159.1c11.7-2.9 27.8-.7 36.9 15l47.9 80.1-47.9 80.1c-6.9 12.1-17.5 16.5-27.4 16.5-3.3 0-6.6-.7-9.5-1.5-11.7-3.3-24.1-13.2-24.1-31.8L0 190.9c0-18.6 12.4-28.5 24.1-31.8z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faVisualStudio = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

@@ -386,6 +386,22 @@ a:
       - uppercase a
   unicode: '41'
   voted: false
+a11y-project:
+  changes:
+    - 7.3.0
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: A11y Project
+  search:
+    terms: []
+  unicode: e8c2
+  voted: false
 accessible-icon:
   aliases:
     unicodes:
@@ -518,6 +534,8 @@ address-card:
     - 6.7.0
     - 7.0.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -676,6 +694,8 @@ alarm-clock:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -1027,6 +1047,8 @@ anchor:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -1202,6 +1224,8 @@ android:
     - 5.0.0
     - 5.12.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -1273,6 +1297,8 @@ angle-down:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -1319,6 +1345,8 @@ angle-left:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -1365,6 +1393,8 @@ angle-right:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -1411,6 +1441,8 @@ angle-up:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -1860,6 +1892,8 @@ apple-whole:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2016,6 +2050,8 @@ arrow-down:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2339,6 +2375,8 @@ arrow-down-wide-short:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2425,6 +2463,8 @@ arrow-left:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2557,6 +2597,8 @@ arrow-right:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2605,6 +2647,8 @@ arrow-right-arrow-left:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2650,6 +2694,8 @@ arrow-right-from-bracket:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2737,6 +2783,8 @@ arrow-right-to-bracket:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2823,6 +2871,8 @@ arrow-rotate-left:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -2873,6 +2923,8 @@ arrow-rotate-right:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -3073,6 +3125,8 @@ arrow-up:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -3232,6 +3286,8 @@ arrow-up-from-bracket:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -3420,6 +3476,8 @@ arrow-up-right-from-square:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -3508,6 +3566,8 @@ arrow-up-wide-short:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -3737,6 +3797,8 @@ arrows-rotate:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -4228,6 +4290,8 @@ at:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -4696,6 +4760,8 @@ backward:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -4788,6 +4854,8 @@ backward-step:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -4957,6 +5025,8 @@ bag-shopping:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -5322,6 +5392,8 @@ bars:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -5683,6 +5755,8 @@ battery-empty:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -5730,6 +5804,8 @@ battery-full:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -5772,6 +5848,8 @@ battery-half:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -5814,6 +5892,8 @@ battery-quarter:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -5857,6 +5937,8 @@ battery-three-quarters:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -5929,6 +6011,8 @@ bed:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -6096,6 +6180,8 @@ bell:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -6195,6 +6281,8 @@ bell-slash:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -6950,6 +7038,8 @@ bolt:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -7031,6 +7121,8 @@ bomb:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -7155,6 +7247,8 @@ book:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -7406,6 +7500,8 @@ book-open:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -7627,6 +7723,8 @@ bookmark:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -8062,6 +8160,8 @@ box:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -8109,6 +8209,8 @@ box-archive:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -8739,6 +8841,8 @@ briefcase:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -9039,6 +9143,8 @@ bug:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -9136,6 +9242,7 @@ bugs:
 build-awesome:
   changes:
     - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -9172,6 +9279,8 @@ building:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -9746,6 +9855,8 @@ burger:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -9804,6 +9915,8 @@ burst:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -9851,6 +9964,8 @@ bus:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -10140,6 +10255,8 @@ cake-candles:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -10238,6 +10355,8 @@ calendar:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -10652,6 +10771,8 @@ camera:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -11027,6 +11148,8 @@ car:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -11352,6 +11475,8 @@ caret-down:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -11393,6 +11518,8 @@ caret-left:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -11432,6 +11559,8 @@ caret-right:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -11472,6 +11601,8 @@ caret-up:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -11728,6 +11859,8 @@ cart-shopping:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -12572,6 +12705,8 @@ chart-bar:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -12777,6 +12912,8 @@ chart-pie:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -12817,6 +12954,8 @@ chart-simple:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -12866,6 +13005,8 @@ check:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -13843,6 +13984,8 @@ circle:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -14067,6 +14210,8 @@ circle-check:
     - 7.0.0
     - 7.0.1
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -14418,6 +14563,8 @@ circle-exclamation:
     - 7.0.0
     - 7.0.1
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -14510,6 +14657,8 @@ circle-half-stroke:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -14559,6 +14708,8 @@ circle-info:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -14905,6 +15056,8 @@ circle-question:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15145,6 +15298,8 @@ circle-user:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15194,6 +15349,8 @@ circle-xmark:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15257,6 +15414,8 @@ city:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15351,6 +15510,8 @@ clipboard:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15571,6 +15732,8 @@ clock:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15666,6 +15829,8 @@ clone:
     - 6.7.0
     - 7.0.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15795,6 +15960,8 @@ cloud:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15852,6 +16019,8 @@ cloud-arrow-down:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -15904,6 +16073,8 @@ cloud-arrow-up:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -16472,6 +16643,8 @@ code:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -16730,6 +16903,7 @@ code-pull-request:
 codeberg:
   changes:
     - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -16892,6 +17066,8 @@ comment:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -16985,6 +17161,8 @@ comment-dots:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -17200,6 +17378,8 @@ comments:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -17298,6 +17478,8 @@ compact-disc:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -17349,6 +17531,8 @@ compass:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -17439,6 +17623,8 @@ compress:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -17690,6 +17876,22 @@ cookie-bite:
       - treat
   unicode: f564
   voted: true
+copilot:
+  changes:
+    - 7.3.0
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Copilot
+  search:
+    terms: []
+  unicode: e8c7
+  voted: false
 copy:
   aliases:
     unicodes:
@@ -17709,6 +17911,8 @@ copy:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -18287,6 +18491,8 @@ credit-card:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -18577,6 +18783,8 @@ crown:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -19065,6 +19273,8 @@ database:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -19328,6 +19538,8 @@ desktop:
     - 6.7.0
     - 7.0.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -19407,6 +19619,7 @@ deviantart:
   voted: false
 devpost:
   changes:
+    - 7.3.0
     - 7.3.0
   familyStylesByLicense:
     free:
@@ -20521,6 +20734,22 @@ dog:
       - woof
   unicode: f6d3
   voted: false
+dolibarr:
+  changes:
+    - 7.3.0
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Dolibarr
+  search:
+    terms: []
+  unicode: e8bf
+  voted: false
 dollar-sign:
   aliases:
     names:
@@ -20666,6 +20895,8 @@ door-closed:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -21076,6 +21307,8 @@ droplet:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -22327,6 +22560,8 @@ envelope:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -22578,6 +22813,8 @@ equals:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -22905,6 +23142,8 @@ expand:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -23013,6 +23252,8 @@ eye:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -23146,6 +23387,8 @@ eye-slash:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -23382,6 +23625,8 @@ face-frown:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -23534,6 +23779,8 @@ face-grin:
     - 6.7.0
     - 7.0.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -24543,6 +24790,8 @@ face-meh:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -24800,6 +25049,8 @@ face-smile:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -25551,6 +25802,8 @@ file:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -26158,6 +26411,8 @@ file-half-dashed:
   changes:
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -27010,6 +27265,8 @@ film:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -27056,6 +27313,8 @@ filter:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -27171,6 +27430,8 @@ fingerprint:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -27217,6 +27478,8 @@ fire:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -27549,6 +27812,8 @@ fish:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -27628,6 +27893,8 @@ flag:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -28037,6 +28304,8 @@ folder:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -28164,6 +28433,8 @@ folder-open:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -28295,6 +28566,8 @@ font:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -28349,6 +28622,8 @@ font-awesome:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -28577,6 +28852,8 @@ forward:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -28669,6 +28946,8 @@ forward-step:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -29022,6 +29301,8 @@ gamepad:
     - 6.7.0
     - 7.0.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -29114,6 +29395,8 @@ gauge:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -29347,6 +29630,8 @@ gear:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -29628,6 +29913,8 @@ ghost:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -29682,6 +29969,8 @@ gift:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -29824,6 +30113,8 @@ github:
     - 2.0.0
     - 5.0.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -30147,6 +30438,8 @@ globe:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -31346,6 +31639,8 @@ hand:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -31903,6 +32198,8 @@ hand-point-down:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -31949,6 +32246,8 @@ hand-point-left:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -31994,6 +32293,8 @@ hand-point-right:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -32038,6 +32339,8 @@ hand-point-up:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -32952,6 +33255,8 @@ hat-cowboy:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -33300,6 +33605,8 @@ headphones:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -33402,6 +33709,8 @@ heart:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -34683,6 +34992,8 @@ hourglass:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -34882,6 +35193,8 @@ house:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -36375,6 +36688,8 @@ image:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -36461,6 +36776,8 @@ images:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -36533,6 +36850,8 @@ inbox:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -36838,6 +37157,7 @@ intercom:
   voted: false
 internet-archive:
   changes:
+    - 7.3.0
     - 7.3.0
   familyStylesByLicense:
     free:
@@ -37733,6 +38053,8 @@ key:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -37804,6 +38126,8 @@ keyboard:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -38244,6 +38568,8 @@ landmark:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -38368,6 +38694,8 @@ language:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -38415,6 +38743,8 @@ laptop:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -38664,6 +38994,8 @@ layer-group:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -38707,6 +39039,8 @@ leaf:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39035,6 +39369,7 @@ less-than-equal:
 lets-encrypt:
   changes:
     - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39118,6 +39453,8 @@ life-ring:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39167,6 +39504,8 @@ lightbulb:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39280,6 +39619,8 @@ link:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39536,6 +39877,8 @@ list:
     - 6.7.0
     - 7.0.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39750,6 +40093,8 @@ location-arrow:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39842,6 +40187,8 @@ location-dot:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -39978,6 +40325,8 @@ lock:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -40023,6 +40372,8 @@ lock-open:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -40363,6 +40714,8 @@ magnifying-glass:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -40738,6 +41091,8 @@ map:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -41297,6 +41652,8 @@ martini-glass:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -41599,6 +41956,7 @@ mastodon:
 matrix:
   changes:
     - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -41613,6 +41971,7 @@ matrix:
   voted: false
 mattermost:
   changes:
+    - 7.3.0
     - 7.3.0
   familyStylesByLicense:
     free:
@@ -42274,6 +42633,8 @@ microphone:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -42409,6 +42770,8 @@ microphone-slash:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -42622,6 +42985,8 @@ minus:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -42813,6 +43178,8 @@ mobile:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -43313,6 +43680,8 @@ money-bill-wave:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -43390,6 +43759,8 @@ money-bills:
     - 6.7.0
     - 7.0.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -43567,6 +43938,8 @@ moon:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -43955,6 +44328,8 @@ mug-hot:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -44054,6 +44429,8 @@ music:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -44296,6 +44673,8 @@ newspaper:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -44329,6 +44708,7 @@ newspaper:
   voted: false
 nextcloud:
   changes:
+    - 7.3.0
     - 7.3.0
   familyStylesByLicense:
     free:
@@ -44552,6 +44932,8 @@ notdef:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -44888,6 +45270,22 @@ object-ungroup:
       - split
       - ungroup
   unicode: f248
+  voted: false
+obs-studio:
+  changes:
+    - 7.3.0
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Obs Studio
+  search:
+    terms: []
+  unicode: e8c0
   voted: false
 obsidian:
   changes:
@@ -45714,6 +46112,8 @@ palette:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -45883,6 +46283,8 @@ paper-plane:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -45934,6 +46336,8 @@ paperclip:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -46172,6 +46576,8 @@ pause:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -46213,6 +46619,8 @@ paw:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -46604,6 +47012,8 @@ pencil:
     - 7.0.1
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -46991,6 +47401,8 @@ percent:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -47172,6 +47584,8 @@ person-biking:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -48871,6 +49285,8 @@ phone:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -48959,6 +49375,8 @@ phone-slash:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -49008,6 +49426,8 @@ phone-volume:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -49479,6 +49899,8 @@ pizza-slice:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -49569,6 +49991,8 @@ plane:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -50004,6 +50428,8 @@ play:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -50339,6 +50765,8 @@ plus:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -50768,6 +51196,8 @@ print:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -51124,6 +51554,8 @@ question:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -51220,6 +51652,8 @@ quote-left:
     - 6.7.0
     - 7.0.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -53016,6 +53450,7 @@ road-spikes:
 roblox-creator-studio:
   changes:
     - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -53090,6 +53525,8 @@ rocket:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -53172,6 +53609,7 @@ rockrms:
   voted: false
 ror:
   changes:
+    - 7.3.0
     - 7.3.0
   familyStylesByLicense:
     free:
@@ -54504,6 +54942,8 @@ scissors:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -54906,6 +55346,8 @@ seedling:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -55230,6 +55672,8 @@ share-nodes:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -55359,6 +55803,8 @@ shield:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -55596,6 +56042,8 @@ ship:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -55646,6 +56094,8 @@ shirt:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -55778,6 +56228,8 @@ shop:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -56172,6 +56624,8 @@ signal:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -56637,6 +57091,8 @@ skull:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -56685,6 +57141,8 @@ skull-crossbones:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -56910,6 +57368,8 @@ sliders:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -57102,6 +57562,8 @@ snowflake:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -57378,6 +57840,8 @@ sort:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -57560,6 +58024,8 @@ spa:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -58067,6 +58533,8 @@ square:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -58220,6 +58688,7 @@ square-bluesky:
   voted: false
 square-build-awesome-stroke:
   changes:
+    - 7.3.0
     - 7.3.0
   familyStylesByLicense:
     free:
@@ -58769,6 +59238,8 @@ square-github:
     - 6.1.2
     - 6.5.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -59238,6 +59709,8 @@ square-pen:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -59799,6 +60272,8 @@ square-threads:
     - 6.4.1
     - 6.4.2
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -60531,6 +61006,8 @@ star:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -60621,6 +61098,8 @@ star-half:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -60987,6 +61466,8 @@ stop:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -61035,6 +61516,8 @@ stopwatch:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -61194,6 +61677,22 @@ store-slash:
       - store
       - unavailable
   unicode: e071
+  voted: false
+storybook:
+  changes:
+    - 7.3.0
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Storybook
+  search:
+    terms: []
+  unicode: e8c1
   voted: false
 strava:
   changes:
@@ -61545,6 +62044,7 @@ subscript:
 substack:
   changes:
     - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -61579,6 +62079,8 @@ suitcase:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -61712,6 +62214,8 @@ sun:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -62733,6 +63237,8 @@ tag:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -63844,6 +64350,7 @@ terminal:
 tesla:
   changes:
     - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -64150,6 +64657,8 @@ threads:
     - 6.4.1
     - 6.4.2
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -64207,6 +64716,8 @@ thumbs-down:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -64256,6 +64767,8 @@ thumbs-up:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -64315,6 +64828,8 @@ thumbtack:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -64394,6 +64909,8 @@ ticket:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -64859,6 +65376,8 @@ toolbox:
     - 6.6.0
     - 6.7.0
     - 7.0.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -65370,6 +65889,8 @@ train:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -65543,6 +66064,8 @@ trash:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -65720,6 +66243,8 @@ tree:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -65832,6 +66357,8 @@ triangle-exclamation:
     - 7.0.0
     - 7.0.1
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -65882,6 +66409,8 @@ trophy:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -65997,6 +66526,8 @@ truck:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -66705,6 +67236,8 @@ tv:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -67020,6 +67553,8 @@ umbrella:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -67235,6 +67770,8 @@ universal-access:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -67778,6 +68315,8 @@ user:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -68657,6 +69196,8 @@ users:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -68991,6 +69532,8 @@ utensils:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -69644,6 +70187,8 @@ video:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -69686,6 +70231,8 @@ video-slash:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -70071,6 +70618,22 @@ viruses:
       - viruses
   unicode: e076
   voted: false
+visual-studio:
+  changes:
+    - 7.3.0
+    - 7.3.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Visual Studio
+  search:
+    terms: []
+  unicode: e8be
+  voted: false
 vk:
   changes:
     - 3.2.0
@@ -70267,6 +70830,8 @@ volume:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -70714,6 +71279,8 @@ wand-magic:
     - 6.7.0
     - 7.0.0
     - 7.1.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -70755,6 +71322,8 @@ wand-magic-sparkles:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -71365,6 +71934,8 @@ wheelchair:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -71517,6 +72088,8 @@ wifi:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -72287,6 +72860,8 @@ wrench:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -72502,6 +73077,8 @@ xmark:
     - 7.0.0
     - 7.1.0
     - 7.2.0
+    - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -72586,6 +73163,7 @@ xmpp:
 xrp:
   changes:
     - 7.3.0
+    - 7.3.0
   familyStylesByLicense:
     free:
       - family: classic
@@ -72600,6 +73178,7 @@ xrp:
   voted: false
 xrpl:
   changes:
+    - 7.3.0
     - 7.3.0
   familyStylesByLicense:
     free:
@@ -72987,6 +73566,7 @@ youtube:
   voted: false
 youtube-shorts:
   changes:
+    - 7.3.0
     - 7.3.0
   familyStylesByLicense:
     free:

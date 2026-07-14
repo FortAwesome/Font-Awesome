@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 7.3.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2026 Fonticons, Inc.
  */
@@ -9557,6 +9557,30 @@
 
 .fa-ror {
   --fa: "\e8bd";
+}
+
+.fa-visual-studio {
+  --fa: "\e8be";
+}
+
+.fa-dolibarr {
+  --fa: "\e8bf";
+}
+
+.fa-obs-studio {
+  --fa: "\e8c0";
+}
+
+.fa-storybook {
+  --fa: "\e8c1";
+}
+
+.fa-a11y-project {
+  --fa: "\e8c2";
+}
+
+.fa-copilot {
+  --fa: "\e8c7";
 }
 
 .fa-square-twitter {
