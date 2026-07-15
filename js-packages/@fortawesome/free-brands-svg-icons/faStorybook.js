@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'fab';
+var iconName = 'storybook';
+var width = 448;
+var height = 512;
+var aliases = [];
+var unicode = 'e8c1';
+var svgPathData = 'M10.5 35.1L27 474.1c.5 13.9 11.6 25.1 25.5 25.7l357 16c.4 0 .8 0 1.2 0 14.8 0 26.7-12 26.7-26.7l0-478.4c0-.6 0-1.1-.1-1.7-.9-14.7-13.6-25.9-28.4-25l-29.4 1.8 2.1 61.4c.1 2.2-1.6 4-3.8 4.1-.9 0-1.9-.3-2.6-.9L355.6 35 332.2 52.7c-1.8 1.3-4.3 1-5.6-.8-.6-.7-.8-1.6-.8-2.6L328.3-10.9 35.6 7.4C21.1 8.3 10 20.6 10.5 35.1zM339.7 187.8c-9.4 7.3-79.5 12.3-79.5 1.9 1.5-39.7-16.3-41.4-26.2-41.4-9.4 0-25.2 2.8-25.2 24.1 0 21.7 23.1 33.9 50.2 48.3 38.5 20.4 85.1 45.1 85.1 107.2 0 59.6-48.4 92.5-110.1 92.5-63.7 0-119.4-25.8-113.1-115.1 2.5-10.5 83.4-8 83.4 0-1 36.9 7.4 47.7 28.6 47.7 16.3 0 23.7-9 23.7-24.1 0-22.9-24.1-36.4-51.7-51.9-37.5-21-81.6-45.8-81.6-102.6 0-56.7 39-94.5 108.6-94.5s107.6 37.2 107.6 108.1z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faStorybook = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

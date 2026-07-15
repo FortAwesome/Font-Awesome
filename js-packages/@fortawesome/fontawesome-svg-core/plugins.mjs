@@ -2529,7 +2529,7 @@ var p$2 = config.measurePerformance && PERFORMANCE && PERFORMANCE.mark && PERFOR
   mark: noop$1,
   measure: noop$1
 };
-var preamble = "FA \"7.3.0\"";
+var preamble = "FA \"7.3.1\"";
 var begin = function begin(name) {
   p$2.mark("".concat(preamble, " ").concat(name, " begins"));
   return function () {

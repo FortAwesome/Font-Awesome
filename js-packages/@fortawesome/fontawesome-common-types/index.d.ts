@@ -38,6 +38,7 @@ export type IconName = '0' |
   '8' | 
   '9' | 
   'a' | 
+  'a11y-project' | 
   'accessible-icon' | 
   'accusoft' | 
   'ad' | 
@@ -602,6 +603,7 @@ export type IconName = '0' |
   'contao' | 
   'cookie' | 
   'cookie-bite' | 
+  'copilot' | 
   'copy' | 
   'copyright' | 
   'cotton-bureau' | 
@@ -701,6 +703,7 @@ export type IconName = '0' |
   'dochub' | 
   'docker' | 
   'dog' | 
+  'dolibarr' | 
   'dollar' | 
   'dollar-sign' | 
   'dolly' | 
@@ -1569,6 +1572,7 @@ export type IconName = '0' |
   'o' | 
   'object-group' | 
   'object-ungroup' | 
+  'obs-studio' | 
   'obsidian' | 
   'octagon' | 
   'octopus-deploy' | 
@@ -2163,6 +2167,7 @@ export type IconName = '0' |
   'store-alt' | 
   'store-alt-slash' | 
   'store-slash' | 
+  'storybook' | 
   'strava' | 
   'stream' | 
   'street-view' | 
@@ -2507,6 +2512,7 @@ export type IconName = '0' |
   'virus-covid-slash' | 
   'virus-slash' | 
   'viruses' | 
+  'visual-studio' | 
   'vk' | 
   'vnv' | 
   'voicemail' | 
