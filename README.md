@@ -7,28 +7,27 @@ designers, developers, and content creators.
 
 ## Documentation
 
-Learn how to get started with Font Awesome and then dive deeper into other and advanced topics:
+Learn how to get started with Font Awesome, then dive deeper into more advanced topics:
 
 [Docs for version 7](https://fontawesome.com/docs)
 
 ### Where did Font Awesome 6, 5, 4 (or 3) go?
 
 Now that Font Awesome 7 has been released we are marking version 6 as Long Term
-Support (LTS). Version 6 will get critical bug fixes only. Version 3, 4, and 5 are
-now end-of-life and we don't plan on releasing any further versions of these.
+Support (LTS).Version 6 will receive critical bug fixes only. Versions 3, 4, and 5 are now end-of-life, and we do not plan to release any further versions of these.
 
 You can see a complete list of versions on [our Versions
 page](https://fontawesome.com/versions).
 
 ## Change log
 
-The change log for releases is now [available directly on our site](https://fontawesome.com/docs/changelog/).
+The changelog for releases is now [available directly on our site](https://fontawesome.com/docs/changelog/).
 
 Looking for older versions of Font Awesome? Check the [releases](https://github.com/FortAwesome/Font-Awesome/releases).
 
 ## Upgrading
 
-From time-to-time we'll have special upgrading instructions from one version to the next.
+From time to time, we'll have special upgrading instructions for moving from one version to the next.
 
 - [Web upgrading guide](https://docs.fontawesome.com/upgrade/upgrade-on-web)
 - [Desktop upgrading guide](https://docs.fontawesome.com/upgrade/upgrade-on-desktop)
@@ -40,23 +39,20 @@ We will behave ourselves if you behave yourselves. For more details see our
 
 ## Contributing
 
-Please read through our [contributing guidelines](./CONTRIBUTING.md).  Included
-are directions for opening issues.
+Please read through our [contributing guidelines](./CONTRIBUTING.md).  which include directions for opening issues.
 
 ## Versioning
 
-Font Awesome will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered
-with the following format:
+Font Awesome will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered using the following format:
 
 `<major>.<minor>.<patch>`
 
 For more information on SemVer, please visit https://semver.org.
 
-**The major version "7" is part of an umbrella release.  It includes many different types of files and technologies. Therefore
-we deviate from normal SemVer in the following ways:**
+**The major version "7" is part of an umbrella release. It includes many different types of files and technologies. Therefore, we deviate from normal SemVer in the following ways:**
 
-* Any release may update the design, look-and-feel, or branding of an existing
-  icon
+* Any release may update the design, look and feel, or branding of an existing icon.
+
 * We will never intentionally release a `patch` version update that breaks
   backward compatibility
 * A `minor` release **may include backward-incompatible changes** but we will
@@ -67,7 +63,7 @@ we deviate from normal SemVer in the following ways:**
 
 ## License
 
-Font Awesome Free is free, open source, and GPL friendly. You can use it for
+Font Awesome Free is free, open source, and GPL-friendly. You can use it for
 commercial projects, open source projects, or really almost whatever you want.
 
 - Icons — CC BY 4.0 License
@@ -77,7 +73,7 @@ commercial projects, open source projects, or really almost whatever you want.
 - Code — MIT License
   - In the Font Awesome Free download, the MIT license applies to all non-font and non-icon files.
 
-Attribution is required by MIT, SIL OFL, and CC BY licenses. Downloaded Font
+Attribution is required by the MIT, SIL OFL, and CC BY licenses. Downloaded Font
 Awesome Free files already contain embedded comments with sufficient
 attribution, so you shouldn't need to do anything additional when using these
 files normally.
