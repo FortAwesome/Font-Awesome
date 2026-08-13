@@ -1,0 +1,92 @@
+{
+  "name": "eventsource-parser",
+  "version": "3.0.8",
+  "description": "Streaming, source-agnostic EventSource/Server-Sent Events parser",
+  "keywords": [
+    "eventsource",
+    "server-sent-events",
+    "sse"
+  ],
+  "homepage": "https://github.com/rexxars/eventsource-parser#readme",
+  "bugs": {
+    "url": "https://github.com/rexxars/eventsource-parser/issues"
+  },
+  "license": "MIT",
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rexxars/eventsource-parser.git"
+  },
+  "files": [
+    "dist",
+    "!dist/stats.html",
+    "!dist/index.min.js",
+    "src",
+    "stream.js"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    },
+    "./stream": {
+      "source": "./src/stream.ts",
+      "import": "./dist/stream.js",
+      "require": "./dist/stream.cjs",
+      "default": "./dist/stream.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "pkg-utils build && pkg-utils --strict",
+    "clean": "rimraf dist coverage",
+    "check": "npm run clean && npm run format && npm run lint && npm run build && vitest run",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check",
+    "bench": "node --expose-gc --experimental-strip-types --no-warnings=ExperimentalWarning bench/parse.bench.ts",
+    "bundle-size": "node --experimental-strip-types --no-warnings=ExperimentalWarning scripts/bundle-size.ts",
+    "knip": "knip",
+    "lint": "oxlint && tsc --noEmit",
+    "posttest": "npm run lint",
+    "prebuild": "npm run clean",
+    "prepublishOnly": "npm run build",
+    "test": "npm run test:node",
+    "test:bun": "bun test",
+    "test:deno": "deno run --allow-write --allow-net --allow-run --allow-sys --allow-ffi --allow-env --allow-read npm:vitest",
+    "test:node": "vitest --reporter=verbose"
+  },
+  "devDependencies": {
+    "@sanity/pkg-utils": "^10.4.15",
+    "@sanity/semantic-release-preset": "^6.0.0",
+    "@sanity/tsconfig": "^2.1.0",
+    "@types/node": "^20.19.0",
+    "eventsource-encoder": "^1.0.1",
+    "knip": "^6.4.1",
+    "mitata": "^1.0.34",
+    "oxfmt": "^0.45.0",
+    "oxlint": "^1.60.0",
+    "rimraf": "^6.1.3",
+    "rollup-plugin-visualizer": "^6.0.3",
+    "semantic-release": "^25.0.3",
+    "terser": "^5.46.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.4"
+  },
+  "browserslist": [
+    "node >= 18",
+    "chrome >= 71",
+    "safari >= 14.1",
+    "firefox >= 105",
+    "edge >= 79"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
