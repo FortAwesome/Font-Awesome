@@ -2,11 +2,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 var prefix = 'fab';
 var iconName = 'bandcamp';
-var width = 496;
+var width = 512;
 var height = 512;
 var ligatures = [];
 var unicode = 'f2d5';
-var svgPathData = 'M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm48.2 326.1h-181L199.9 178h181l-84.7 156.1z';
+var svgPathData = 'M256,8C119,8,8,119,8,256S119,504,256,504,504,393,504,256,393,8,256,8Zm48.2,326.1h-181L207.9,178h181Z';
 
 exports.definition = {
   prefix: prefix,

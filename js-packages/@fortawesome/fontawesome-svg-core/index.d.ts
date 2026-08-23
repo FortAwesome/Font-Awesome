@@ -13,7 +13,8 @@ export function toHtml(abstractNodes: AbstractElement): string;
 export function layer(
   assembler: (
     addLayerCallback: (layerToAdd: IconOrText | IconOrText[]) => void
-  ) => void
+  ) => void,
+  params?: LayerParams
 ): Layer;
 export function icon(icon: IconName | IconLookup, params?: IconParams): Icon;
 export type IconProp = IconName | [IconPrefix, IconName] | IconLookup;
@@ -86,11 +87,15 @@ export interface Transform {
 }
 export interface Params {
   title?: string;
+  titleId?: string;
   classes?: string | string[];
   attributes?: Attributes;
   styles?: Styles;
 }
 export interface CounterParams extends Params {
+}
+export interface LayerParams {
+  classes?: string | string[];
 }
 export interface TextParams extends Params {
   transform?: Transform;
@@ -99,6 +104,7 @@ export interface IconParams extends Params {
   transform?: Transform;
   symbol?: FaSymbol;
   mask?: IconLookup;
+  maskId?: string;
 }
 export interface DOM {
   i2svg(params?: { node: Node; callback: () => void }): Promise<void>;
