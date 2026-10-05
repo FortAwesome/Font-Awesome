@@ -18,6 +18,7 @@ Get started at http://fontawesome.io!
 - Attribution is no longer required as of Font Awesome 3.0, but much appreciated:
   - `Font Awesome by Dave Gandy - http://fontawesome.io`
 - Full details: http://fontawesome.io/license/
+- The full text of the SIL OFL 1.1 and MIT licenses is included in [LICENSE.txt](LICENSE.txt)
 
 ## Changelog
 - [v4.7.0 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/10012)
