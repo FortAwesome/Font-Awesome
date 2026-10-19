@@ -8,7 +8,7 @@ contact_links:
     about: "Request new brands or logos to be added to FA Brands."
 
   - name: "💡 Feature Requests"
-    url: "https://github.com/FortAwesome/Font-Awesome/discussions/new?category=icon-requests"
+    url: "https://github.com/FortAwesome/Font-Awesome/discussions/new?category=feature-requests"
     about: "Suggest an idea for Font Awesome."
 
   - name: Pro License Issue
